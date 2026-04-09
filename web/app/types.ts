@@ -1,0 +1,39 @@
+export type Candidate = {
+  ticker: string;
+  company: string;
+  sector: string;
+  industry: string;
+  detected: boolean;
+  score: number;
+  rs_rating: number;
+  num_contractions: number;
+  contractions: number[];
+  last_contraction_pct: number | null;
+  current_price: number | null;
+  pivot_price: number | null;
+  pct_to_pivot: number | null;
+  volume_dryup_ratio: number | null;
+};
+
+export type Meta = {
+  updated_at: string;
+  total_candidates: number;
+  vcp_detected: number;
+  min_rs: number;
+  prefilter_count: number;
+  runtime_sec: number;
+};
+
+export type OhlcvBar = {
+  time: string;
+  open: number;
+  high: number;
+  low: number;
+  close: number;
+  volume: number;
+};
+
+export type ChartPayload = {
+  ticker: string;
+  ohlcv: OhlcvBar[];
+};
