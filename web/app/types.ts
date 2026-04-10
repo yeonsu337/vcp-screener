@@ -3,6 +3,7 @@ export type Candidate = {
   company: string;
   sector: string;
   industry: string;
+  market: string; // "US" | "HK" | "KR"
   detected: boolean;
   score: number;
   rs_rating: number;
@@ -15,12 +16,17 @@ export type Candidate = {
   volume_dryup_ratio: number | null;
 };
 
+export type MarketBreakdown = {
+  total: number;
+  detected: number;
+};
+
 export type Meta = {
   updated_at: string;
   total_candidates: number;
   vcp_detected: number;
   min_rs: number;
-  prefilter_count: number;
+  markets: Record<string, MarketBreakdown>;
   runtime_sec: number;
 };
 

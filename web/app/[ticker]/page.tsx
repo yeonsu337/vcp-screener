@@ -24,7 +24,9 @@ function loadCandidate(ticker: string): Candidate | null {
 }
 
 function loadChart(ticker: string): ChartPayload | null {
-  const p = path.join(process.cwd(), "public", "data", "charts", `${ticker}.json`);
+  // Chart filenames use _ instead of . (e.g. 0700_HK.json for 0700.HK)
+  const safeFilename = ticker.replace(/\./g, "_");
+  const p = path.join(process.cwd(), "public", "data", "charts", `${safeFilename}.json`);
   if (!fs.existsSync(p)) return null;
   return JSON.parse(fs.readFileSync(p, "utf-8"));
 }

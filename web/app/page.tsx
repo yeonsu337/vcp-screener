@@ -26,12 +26,12 @@ function loadData(): { rows: Candidate[]; meta: Meta | null } {
 }
 
 function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
-  if (v === null || v === undefined || Number.isNaN(v)) return "—";
+  if (v === null || v === undefined || Number.isNaN(v)) return "\u2014";
   return `${v.toFixed(digits)}${suffix}`;
 }
 
 function fmtDate(iso: string | undefined): string {
-  if (!iso) return "—";
+  if (!iso) return "\u2014";
   const d = new Date(iso);
   return d.toLocaleString("en-US", { timeZone: "UTC", hour12: false }) + " UTC";
 }
@@ -48,9 +48,25 @@ function ScoreBar({ score }: { score: number }) {
   );
 }
 
+const MARKET_COLORS: Record<string, string> = {
+  US: "bg-blue-500/20 text-blue-400",
+  HK: "bg-red-500/20 text-red-400",
+  KR: "bg-emerald-500/20 text-emerald-400",
+};
+
+function MarketBadge({ market }: { market: string }) {
+  const cls = MARKET_COLORS[market] ?? "bg-border text-muted";
+  return (
+    <span className={`inline-block px-1.5 py-0.5 rounded text-[10px] font-semibold uppercase ${cls}`}>
+      {market}
+    </span>
+  );
+}
+
 export default function Home() {
   const { rows, meta } = loadData();
   const detected = rows.filter((r) => r.detected);
+  const markets = [...new Set(rows.map((r) => r.market || "US"))].sort();
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-6 md:py-10">
@@ -60,8 +76,10 @@ export default function Home() {
           VCP Screener
         </h1>
         <p className="text-muted text-sm mt-1">
-          Mark Minervini Trend Template + Volatility Contraction Pattern ·
-          US stocks (NASDAQ/NYSE/AMEX)
+          Mark Minervini Trend Template + Volatility Contraction Pattern
+          {markets.length > 0 && (
+            <span> &middot; {markets.join(" / ")}</span>
+          )}
         </p>
       </header>
 
@@ -70,19 +88,26 @@ export default function Home() {
         <div className="card p-3">
           <div className="text-xs text-muted">VCP Detected</div>
           <div className="text-xl md:text-2xl font-bold num text-accent">
-            {meta?.vcp_detected ?? "—"}
+            {meta?.vcp_detected ?? "\u2014"}
+          </div>
+          {meta?.markets && (
+            <div className="text-[10px] text-muted mt-1 space-x-2">
+              {Object.entries(meta.markets).map(([m, c]) => (
+                <span key={m}>{m}: {c.detected}</span>
+              ))}
+            </div>
+          )}
+        </div>
+        <div className="card p-3">
+          <div className="text-xs text-muted">Total Candidates</div>
+          <div className="text-xl md:text-2xl font-bold num">
+            {meta?.total_candidates ?? "\u2014"}
           </div>
         </div>
         <div className="card p-3">
-          <div className="text-xs text-muted">Trend Template Pass</div>
+          <div className="text-xs text-muted">RS &ge; {meta?.min_rs ?? 70}</div>
           <div className="text-xl md:text-2xl font-bold num">
-            {meta?.prefilter_count ?? "—"}
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">RS ≥ {meta?.min_rs ?? 70}</div>
-          <div className="text-xl md:text-2xl font-bold num">
-            {meta?.total_candidates ?? "—"}
+            {meta?.total_candidates ?? "\u2014"}
           </div>
         </div>
         <div className="card p-3">
@@ -110,12 +135,15 @@ export default function Home() {
               {detected.map((r) => (
                 <Link
                   key={r.ticker}
-                  href={`/${r.ticker}`}
+                  href={`/${encodeURIComponent(r.ticker)}`}
                   className="card p-4 block active:bg-border/50"
                 >
                   <div className="flex items-start justify-between gap-3 mb-2">
                     <div>
-                      <div className="font-bold text-lg">{r.ticker}</div>
+                      <div className="flex items-center gap-2">
+                        <span className="font-bold text-lg">{r.ticker}</span>
+                        <MarketBadge market={r.market || "US"} />
+                      </div>
                       <div className="text-xs text-muted line-clamp-1">{r.company}</div>
                     </div>
                     <div className="text-right">
@@ -132,11 +160,11 @@ export default function Home() {
                     <div>
                       <div className="text-muted">Contractions</div>
                       <div className="num font-semibold">
-                        {r.num_contractions} · {fmtNum(r.last_contraction_pct, 1, "%")}
+                        {r.num_contractions} &middot; {fmtNum(r.last_contraction_pct, 1, "%")}
                       </div>
                     </div>
                     <div>
-                      <div className="text-muted">→ Pivot</div>
+                      <div className="text-muted">&rarr; Pivot</div>
                       <div className="num font-semibold">
                         {fmtNum(r.pct_to_pivot, 1, "%")}
                       </div>
@@ -151,6 +179,7 @@ export default function Home() {
               <table className="w-full text-sm">
                 <thead className="bg-border/30 text-muted text-xs uppercase">
                   <tr>
+                    <th className="text-left px-3 py-2 w-12">Mkt</th>
                     <th className="text-left px-3 py-2">Ticker</th>
                     <th className="text-left px-3 py-2">Company</th>
                     <th className="text-left px-3 py-2">Sector</th>
@@ -160,7 +189,7 @@ export default function Home() {
                     <th className="text-right px-3 py-2">Last %</th>
                     <th className="text-right px-3 py-2">Price</th>
                     <th className="text-right px-3 py-2">Pivot</th>
-                    <th className="text-right px-3 py-2">→ Pivot</th>
+                    <th className="text-right px-3 py-2">&rarr; Pivot</th>
                     <th className="text-right px-3 py-2">Vol</th>
                   </tr>
                 </thead>
@@ -170,8 +199,11 @@ export default function Home() {
                       key={r.ticker}
                       className="border-t border-border hover:bg-border/20"
                     >
+                      <td className="px-3 py-2">
+                        <MarketBadge market={r.market || "US"} />
+                      </td>
                       <td className="px-3 py-2 font-bold">
-                        <Link href={`/${r.ticker}`} className="hover:text-accent">
+                        <Link href={`/${encodeURIComponent(r.ticker)}`} className="hover:text-accent">
                           {r.ticker}
                         </Link>
                       </td>
@@ -216,8 +248,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="mt-10 pt-6 border-t border-border text-xs text-muted">
         <p>
-          Data: Finviz (Trend Template prefilter) + Yahoo Finance (OHLCV) ·
-          Updated daily via GitHub Actions · Not investment advice.
+          Data: Finviz (US prefilter) + Yahoo Finance (OHLCV) + Wikipedia (HSI) + FDR (KRX) &middot;
+          Updated daily via GitHub Actions &middot; Not investment advice.
         </p>
       </footer>
     </main>

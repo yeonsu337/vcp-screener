@@ -1,0 +1,16 @@
+{
+  "min_rs": 70,
+  "markets": {
+    "US": {
+      "enabled": true,
+      "exchanges": ["NASDAQ", "NYSE"]
+    },
+    "HK": {
+      "enabled": true
+    },
+    "KR": {
+      "enabled": true,
+      "indices": ["KOSPI", "KOSDAQ"]
+    }
+  }
+}
