@@ -10,10 +10,12 @@ export type Candidate = {
   num_contractions: number;
   contractions: number[];
   last_contraction_pct: number | null;
+  base_depth_pct: number | null;
   current_price: number | null;
   pivot_price: number | null;
   pct_to_pivot: number | null;
   volume_dryup_ratio: number | null;
+  rs_line_pct_from_high: number | null;
 };
 
 export type MarketBreakdown = {

@@ -62,7 +62,7 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
       </header>
 
       {/* Metrics row */}
-      <section className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-5">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
         <div className="card p-3">
           <div className="text-xs text-muted">VCP Score</div>
           <div className="text-2xl font-bold num text-accent">
@@ -72,6 +72,9 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
         <div className="card p-3">
           <div className="text-xs text-muted">RS Rating</div>
           <div className="text-2xl font-bold num">{candidate.rs_rating}</div>
+          <div className="text-xs text-muted num">
+            RS Line {fmtNum(candidate.rs_line_pct_from_high, 1, "%")} from high
+          </div>
         </div>
         <div className="card p-3">
           <div className="text-xs text-muted">Contractions</div>
@@ -83,6 +86,12 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
           </div>
         </div>
         <div className="card p-3">
+          <div className="text-xs text-muted">Base Depth</div>
+          <div className="text-2xl font-bold num">
+            {fmtNum(candidate.base_depth_pct, 1, "%")}
+          </div>
+        </div>
+        <div className="card p-3">
           <div className="text-xs text-muted">Price / Pivot</div>
           <div className="text-lg font-bold num">
             {fmtNum(candidate.current_price, 2)}
@@ -91,8 +100,8 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
             pivot {fmtNum(candidate.pivot_price, 2)}
           </div>
         </div>
-        <div className="card p-3 col-span-2 md:col-span-1">
-          <div className="text-xs text-muted">→ Pivot</div>
+        <div className="card p-3">
+          <div className="text-xs text-muted">&rarr; Pivot</div>
           <div className="text-2xl font-bold num">
             {fmtNum(candidate.pct_to_pivot, 1, "%")}
           </div>

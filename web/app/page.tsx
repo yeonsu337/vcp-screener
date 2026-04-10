@@ -187,10 +187,12 @@ export default function Home() {
                     <th className="text-right px-3 py-2">RS</th>
                     <th className="text-right px-3 py-2">Contr.</th>
                     <th className="text-right px-3 py-2">Last %</th>
+                    <th className="text-right px-3 py-2">Depth</th>
                     <th className="text-right px-3 py-2">Price</th>
                     <th className="text-right px-3 py-2">Pivot</th>
                     <th className="text-right px-3 py-2">&rarr; Pivot</th>
                     <th className="text-right px-3 py-2">Vol</th>
+                    <th className="text-right px-3 py-2">RS Line</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -225,6 +227,9 @@ export default function Home() {
                         {fmtNum(r.last_contraction_pct, 1, "%")}
                       </td>
                       <td className="px-3 py-2 text-right num">
+                        {fmtNum(r.base_depth_pct, 1, "%")}
+                      </td>
+                      <td className="px-3 py-2 text-right num">
                         {fmtNum(r.current_price, 2)}
                       </td>
                       <td className="px-3 py-2 text-right num">
@@ -235,6 +240,9 @@ export default function Home() {
                       </td>
                       <td className="px-3 py-2 text-right num">
                         {fmtNum(r.volume_dryup_ratio, 2)}
+                      </td>
+                      <td className="px-3 py-2 text-right num">
+                        {fmtNum(r.rs_line_pct_from_high, 1, "%")}
                       </td>
                     </tr>
                   ))}

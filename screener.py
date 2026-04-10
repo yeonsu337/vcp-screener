@@ -313,6 +313,49 @@ def compute_rs_scores(ohlcv: dict[str, pd.DataFrame]) -> pd.Series:
 # =============================================================================
 
 
+BENCHMARK_TICKERS = {"US": "SPY", "HK": "^HSI", "KR": "^KS11"}
+
+
+def fetch_benchmark(market: str, period: str = "2y") -> pd.Series | None:
+    """Download benchmark close prices for RS Line computation."""
+    ticker = BENCHMARK_TICKERS.get(market)
+    if not ticker:
+        return None
+    try:
+        data = yf.download(
+            ticker, period=period, interval="1d",
+            auto_adjust=True, progress=False,
+        )
+        if data is not None and not data.empty:
+            close = data["Close"].dropna()
+            if hasattr(close, "squeeze"):
+                close = close.squeeze()
+            return close
+    except Exception as e:
+        print(f"  [benchmark {ticker}] {e}")
+    return None
+
+
+def compute_rs_line_pct(stock_close: pd.Series, bench_close: pd.Series) -> float:
+    """
+    RS Line = stock / benchmark (aligned by date).
+    Returns how far the current RS Line is from its 52-week high (%).
+    Positive = at or above high; negative = below high.
+    """
+    s = stock_close.squeeze() if hasattr(stock_close, "squeeze") else stock_close
+    b = bench_close.squeeze() if hasattr(bench_close, "squeeze") else bench_close
+    aligned = pd.DataFrame({"s": s, "b": b}).dropna()
+    if len(aligned) < 60:
+        return np.nan
+    rs_line = aligned["s"] / aligned["b"]
+    last_252 = rs_line.iloc[-252:] if len(rs_line) >= 252 else rs_line
+    rs_high = float(last_252.max())
+    rs_now = float(rs_line.iloc[-1])
+    if rs_high == 0:
+        return np.nan
+    return (rs_now / rs_high - 1.0) * 100
+
+
 @dataclass
 class VCPResult:
     ticker: str
@@ -321,6 +364,7 @@ class VCPResult:
     contractions: list[float]
     last_contraction_pct: float
     base_days: int
+    base_depth_pct: float       # max drawdown within the base (high→low)
     pivot_price: float
     current_price: float
     pct_to_pivot: float
@@ -346,7 +390,7 @@ def _find_swings(
 
 def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     empty = VCPResult(
-        ticker, False, 0, [], np.nan, 0, np.nan, np.nan, np.nan, np.nan, 0.0
+        ticker, False, 0, [], np.nan, 0, np.nan, np.nan, np.nan, np.nan, np.nan, 0.0
     )
     if len(df) < lookback + 5:
         return empty
@@ -398,21 +442,30 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     avg_base_vol = float(vols.mean())
     vol_ratio = avg_recent_vol / avg_base_vol if avg_base_vol > 0 else np.nan
 
+    # Base depth = max drawdown within the base (high-to-low range).
+    # Minervini: ideal 12-35%, acceptable up to ~50%. >50% = not a proper VCP.
+    base_high = float(highs.max())
+    base_low = float(lows.min())
+    base_depth_pct = (base_high - base_low) / base_high * 100 if base_high > 0 else np.nan
+
     detected = (
         tightening
         and n >= 2
         and last_pct < 15.0
         and vol_ratio < 0.95
         and pct_to_pivot > -12.0
+        and (base_depth_pct is not np.nan and base_depth_pct <= 50.0)
     )
 
     score = 0.0
     if detected:
-        score += 30
-        score += min(20, n * 5)
-        score += max(0, 25 - last_pct * 2)
-        score += max(0, 15 - vol_ratio * 15)
-        score += max(0, 10 + pct_to_pivot)
+        score += 25                                         # base (was 30, redistributed)
+        score += min(20, n * 5)                             # more contractions
+        score += max(0, 25 - last_pct * 2)                  # tighter last contraction
+        score += max(0, 15 - vol_ratio * 15)                # volume dry-up
+        score += max(0, 10 + pct_to_pivot)                  # pivot proximity
+        # Base depth bonus: shallower = better. 15% depth → +10, 40% → +0
+        score += max(0, 10 - max(0, base_depth_pct - 15) * 0.4)
         score = float(min(100, max(0, score)))
 
     return VCPResult(
@@ -422,6 +475,7 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
         contractions=[round(c * 100, 2) for c in recent],
         last_contraction_pct=round(last_pct, 2),
         base_days=lookback,
+        base_depth_pct=round(base_depth_pct, 2) if base_depth_pct == base_depth_pct else np.nan,
         pivot_price=round(pivot_price, 2),
         current_price=round(current_price, 2),
         pct_to_pivot=round(pct_to_pivot, 2),
@@ -463,7 +517,10 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
     survivors = [t for t in tt_tickers if t in rs.index and rs[t] >= min_rs]
     print(f"          {len(survivors)} survivors RS >= {min_rs} (N={len(rs)})")
 
-    print("  [US 5/5] VCP detection...")
+    print("  [US 5/6] Downloading benchmark (SPY)...")
+    bench = fetch_benchmark("US")
+
+    print("  [US 6/6] VCP detection + RS Line...")
     rows: list[dict] = []
     for t in survivors:
         if t not in ohlcv:
@@ -474,6 +531,18 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
         d = asdict(r)
         d["rs_rating"] = int(rs[t])
         d["market"] = "US"
+        # RS Line vs SPY
+        rs_line_pct = np.nan
+        if bench is not None:
+            rs_line_pct = compute_rs_line_pct(ohlcv[t]["Close"], bench)
+        d["rs_line_pct_from_high"] = (
+            round(rs_line_pct, 2) if rs_line_pct == rs_line_pct else None
+        )
+        # RS Line bonus applied to score (if detected)
+        if r.detected and rs_line_pct == rs_line_pct:
+            # Near RS Line new high → up to +10 bonus; weak RS Line → penalty
+            bonus = max(-10, min(10, rs_line_pct + 5))
+            d["score"] = round(min(100, max(0, d["score"] + bonus)), 1)
         meta = pf[pf["Ticker"] == t]
         if not meta.empty:
             m = meta.iloc[0]
@@ -511,7 +580,10 @@ def _run_market_intl(
     survivors = [t for t in tt_tickers if t in rs.index and rs[t] >= min_rs]
     print(f"          {len(survivors)} survivors RS >= {min_rs} (N={len(rs)})")
 
-    print(f"  [{market_key} 4/4] VCP detection...")
+    print(f"  [{market_key} 4/5] Downloading benchmark ({BENCHMARK_TICKERS.get(market_key, '?')})...")
+    bench = fetch_benchmark(market_key)
+
+    print(f"  [{market_key} 5/5] VCP detection + RS Line...")
     rows: list[dict] = []
     for t in survivors:
         if t not in ohlcv:
@@ -522,6 +594,15 @@ def _run_market_intl(
         d = asdict(r)
         d["rs_rating"] = int(rs[t])
         d["market"] = market_key
+        rs_line_pct = np.nan
+        if bench is not None:
+            rs_line_pct = compute_rs_line_pct(ohlcv[t]["Close"], bench)
+        d["rs_line_pct_from_high"] = (
+            round(rs_line_pct, 2) if rs_line_pct == rs_line_pct else None
+        )
+        if r.detected and rs_line_pct == rs_line_pct:
+            bonus = max(-10, min(10, rs_line_pct + 5))
+            d["score"] = round(min(100, max(0, d["score"] + bonus)), 1)
         d["company"] = names.get(t, "")
         d["sector"] = ""
         d["industry"] = ""
@@ -598,6 +679,6 @@ if __name__ == "__main__":
         cols = [
             "market", "ticker", "company", "score", "rs_rating",
             "num_contractions", "last_contraction_pct",
-            "pct_to_pivot", "volume_dryup_ratio",
+            "base_depth_pct", "pct_to_pivot", "volume_dryup_ratio",
         ]
         print(result[[c for c in cols if c in result.columns]].to_string())
