@@ -26,13 +26,139 @@ from screener import (  # noqa: E402
 )
 import pandas as pd  # noqa: E402
 
+import numpy as np  # noqa: E402
+import yfinance as yf  # noqa: E402
+
 DATA_DIR = ROOT / "web" / "public" / "data"
 CHARTS_DIR = DATA_DIR / "charts"
+FIN_DIR = DATA_DIR / "financials"
 HISTORY_PATH = DATA_DIR / "detection_history.json"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 CHARTS_DIR.mkdir(parents=True, exist_ok=True)
+FIN_DIR.mkdir(parents=True, exist_ok=True)
 
 TOP_CHART_N = 50
+
+
+# =============================================================================
+# Financial data collection (IS/BS/CF + CANSLIM metrics)
+# =============================================================================
+
+def _safe(v) -> float | None:
+    """Convert numpy/pandas value to JSON-safe float or None."""
+    if v is None:
+        return None
+    try:
+        f = float(v)
+        return None if (np.isnan(f) or np.isinf(f)) else round(f, 2)
+    except (ValueError, TypeError):
+        return None
+
+
+def _extract_row(df, row_name, periods: int = 5) -> list[float | None]:
+    """Extract a row from yfinance financials DataFrame, up to `periods` columns."""
+    if df is None or df.empty or row_name not in df.index:
+        return [None] * periods
+    vals = df.loc[row_name].values[:periods]
+    return [_safe(v) for v in vals]
+
+
+def _period_labels(df, periods: int = 5) -> list[str]:
+    """Get date labels from yfinance financials DataFrame columns."""
+    if df is None or df.empty:
+        return [""] * periods
+    return [c.strftime("%Y-%m-%d") if hasattr(c, "strftime") else str(c) for c in df.columns[:periods]]
+
+
+def fetch_ticker_financials(ticker: str) -> dict | None:
+    """
+    Fetch IS/BS/CF + key metrics for a single ticker via yfinance.
+    Returns a dict ready for JSON serialization, or None on failure.
+    """
+    try:
+        t = yf.Ticker(ticker)
+        info = t.info or {}
+    except Exception as e:
+        print(f"    [fin {ticker}] info failed: {e}")
+        return None
+
+    # Key metrics (Minervini / O'Neil focus)
+    metrics = {
+        "eps_ttm": _safe(info.get("trailingEps")),
+        "eps_forward": _safe(info.get("forwardEps")),
+        "pe_ttm": _safe(info.get("trailingPE")),
+        "pe_forward": _safe(info.get("forwardPE")),
+        "market_cap": _safe(info.get("marketCap")),
+        "roe": _safe(info.get("returnOnEquity")),
+        "profit_margin": _safe(info.get("profitMargins")),
+        "gross_margin": _safe(info.get("grossMargins")),
+        "operating_margin": _safe(info.get("operatingMargins")),
+        "revenue_growth": _safe(info.get("revenueGrowth")),
+        "earnings_growth": _safe(info.get("earningsGrowth")),
+        "currency": info.get("currency", "USD"),
+        "sector": info.get("sector", ""),
+        "industry": info.get("industry", ""),
+        "name": info.get("shortName") or info.get("longName", ""),
+    }
+
+    # --- Annual financials (IS / BS / CF) ---
+    try:
+        ann_is = t.financials
+        ann_bs = t.balance_sheet
+        ann_cf = t.cashflow
+    except Exception:
+        ann_is = ann_bs = ann_cf = None
+
+    annual = {
+        "periods": _period_labels(ann_is),
+        "revenue": _extract_row(ann_is, "Total Revenue"),
+        "gross_profit": _extract_row(ann_is, "Gross Profit"),
+        "operating_income": _extract_row(ann_is, "Operating Income"),
+        "net_income": _extract_row(ann_is, "Net Income"),
+        "eps": _extract_row(ann_is, "Diluted EPS"),
+        "total_assets": _extract_row(ann_bs, "Total Assets"),
+        "total_liabilities": _extract_row(ann_bs, "Total Liabilities Net Minority Interest"),
+        "equity": _extract_row(ann_bs, "Stockholders Equity"),
+        "cash": _extract_row(ann_bs, "Cash And Cash Equivalents"),
+        "total_debt": _extract_row(ann_bs, "Total Debt"),
+        "operating_cf": _extract_row(ann_cf, "Operating Cash Flow"),
+        "capex": _extract_row(ann_cf, "Capital Expenditure"),
+        "free_cf": _extract_row(ann_cf, "Free Cash Flow"),
+    }
+
+    # --- Quarterly financials (for EPS/Revenue acceleration) ---
+    try:
+        q_is = t.quarterly_financials
+    except Exception:
+        q_is = None
+
+    quarterly = {
+        "periods": _period_labels(q_is, 8),
+        "revenue": _extract_row(q_is, "Total Revenue", 8),
+        "net_income": _extract_row(q_is, "Net Income", 8),
+        "eps": _extract_row(q_is, "Diluted EPS", 8),
+        "gross_profit": _extract_row(q_is, "Gross Profit", 8),
+    }
+
+    # Compute YoY growth for quarterly EPS & Revenue (Q vs Q-4)
+    def _yoy_growth(vals: list[float | None]) -> list[float | None]:
+        out: list[float | None] = []
+        for i in range(len(vals)):
+            if i + 4 < len(vals) and vals[i] is not None and vals[i + 4] is not None and vals[i + 4] != 0:
+                out.append(round((vals[i] / vals[i + 4] - 1) * 100, 1))
+            else:
+                out.append(None)
+        return out
+
+    quarterly["eps_yoy"] = _yoy_growth(quarterly["eps"])
+    quarterly["revenue_yoy"] = _yoy_growth(quarterly["revenue"])
+
+    return {
+        "ticker": ticker,
+        "metrics": metrics,
+        "annual": annual,
+        "quarterly": quarterly,
+    }
 
 
 def _update_detection_history(rows: list[dict], today: str) -> dict:
@@ -213,6 +339,27 @@ def main():
     for f in CHARTS_DIR.glob("*.json"):
         if f.stem not in keep:
             f.unlink()
+
+    # Financial data for detected tickers (with delay to avoid rate limiting)
+    if detected_tickers:
+        print(f"\nFetching financials for {len(detected_tickers)} tickers (with rate limit delay)...")
+        fin_count = 0
+        for i, t in enumerate(detected_tickers):
+            if i > 0:
+                time.sleep(2)  # 2s delay between requests to avoid Yahoo rate limit
+            fin = fetch_ticker_financials(t)
+            if fin:
+                fname = _safe_chart_filename(t)
+                (FIN_DIR / f"{fname}.json").write_text(
+                    json.dumps(fin, ensure_ascii=False, indent=2), encoding="utf-8"
+                )
+                fin_count += 1
+        print(f"  {fin_count} financial profiles saved")
+        # Clean up old
+        fin_keep = set(_safe_chart_filename(t) for t in detected_tickers)
+        for f in FIN_DIR.glob("*.json"):
+            if f.stem not in fin_keep:
+                f.unlink()
 
     elapsed = round(time.time() - t_start, 1)
     meta["runtime_sec"] = elapsed

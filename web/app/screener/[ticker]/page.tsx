@@ -3,7 +3,8 @@ import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import TradingViewWidget from "./TradingViewWidget";
-import type { Candidate } from "../../types";
+import FinancialSummary from "./FinancialSummary";
+import type { Candidate, TickerFinancials } from "../../types";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
@@ -13,6 +14,17 @@ export async function generateStaticParams() {
   if (!fs.existsSync(p)) return [];
   const rows: Candidate[] = JSON.parse(fs.readFileSync(p, "utf-8"));
   return rows.filter((r) => r.detected).map((r) => ({ ticker: r.ticker }));
+}
+
+function loadFinancials(ticker: string): TickerFinancials | null {
+  const safeName = ticker.replace(/\./g, "_");
+  const p = path.join(process.cwd(), "public", "data", "financials", `${safeName}.json`);
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf-8"));
+  } catch {
+    return null;
+  }
 }
 
 function loadCandidate(ticker: string): Candidate | null {
@@ -30,6 +42,7 @@ function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
 export default function TickerPage({ params }: { params: { ticker: string } }) {
   const { ticker } = params;
   const candidate = loadCandidate(ticker);
+  const financials = loadFinancials(ticker);
 
   if (!candidate) notFound();
 
@@ -129,9 +142,18 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
       )}
 
       {/* TradingView Chart */}
-      <section className="card overflow-hidden">
+      <section className="card overflow-hidden mb-6">
         <TradingViewWidget ticker={ticker} market={market} />
       </section>
+
+      {/* Financials */}
+      {financials ? (
+        <FinancialSummary data={financials} />
+      ) : (
+        <div className="card p-6 text-center text-muted text-sm">
+          Financial data not available for {ticker}.
+        </div>
+      )}
     </main>
   );
 }

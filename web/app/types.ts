@@ -49,6 +49,58 @@ export type RsLinePoint = {
   value: number;
 };
 
+export type FinancialMetrics = {
+  eps_ttm: number | null;
+  eps_forward: number | null;
+  pe_ttm: number | null;
+  pe_forward: number | null;
+  market_cap: number | null;
+  roe: number | null;
+  profit_margin: number | null;
+  gross_margin: number | null;
+  operating_margin: number | null;
+  revenue_growth: number | null;
+  earnings_growth: number | null;
+  currency: string;
+  sector: string;
+  industry: string;
+  name: string;
+};
+
+export type AnnualFinancials = {
+  periods: string[];
+  revenue: (number | null)[];
+  gross_profit: (number | null)[];
+  operating_income: (number | null)[];
+  net_income: (number | null)[];
+  eps: (number | null)[];
+  total_assets: (number | null)[];
+  total_liabilities: (number | null)[];
+  equity: (number | null)[];
+  cash: (number | null)[];
+  total_debt: (number | null)[];
+  operating_cf: (number | null)[];
+  capex: (number | null)[];
+  free_cf: (number | null)[];
+};
+
+export type QuarterlyFinancials = {
+  periods: string[];
+  revenue: (number | null)[];
+  net_income: (number | null)[];
+  eps: (number | null)[];
+  gross_profit: (number | null)[];
+  eps_yoy: (number | null)[];
+  revenue_yoy: (number | null)[];
+};
+
+export type TickerFinancials = {
+  ticker: string;
+  metrics: FinancialMetrics;
+  annual: AnnualFinancials;
+  quarterly: QuarterlyFinancials;
+};
+
 export type ChartPayload = {
   ticker: string;
   ohlcv: OhlcvBar[];
