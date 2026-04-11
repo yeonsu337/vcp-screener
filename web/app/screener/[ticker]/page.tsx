@@ -2,15 +2,14 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ChartClient from "./ChartClient";
-import type { Candidate, ChartPayload } from "../../types";
+import TradingViewWidget from "./TradingViewWidget";
+import type { Candidate } from "../../types";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const dataDir = path.join(process.cwd(), "public", "data");
-  const p = path.join(dataDir, "results.json");
+  const p = path.join(process.cwd(), "public", "data", "results.json");
   if (!fs.existsSync(p)) return [];
   const rows: Candidate[] = JSON.parse(fs.readFileSync(p, "utf-8"));
   return rows.filter((r) => r.detected).map((r) => ({ ticker: r.ticker }));
@@ -23,31 +22,24 @@ function loadCandidate(ticker: string): Candidate | null {
   return rows.find((r) => r.ticker === ticker) ?? null;
 }
 
-function loadChart(ticker: string): ChartPayload | null {
-  // Chart filenames use _ instead of . (e.g. 0700_HK.json for 0700.HK)
-  const safeFilename = ticker.replace(/\./g, "_");
-  const p = path.join(process.cwd(), "public", "data", "charts", `${safeFilename}.json`);
-  if (!fs.existsSync(p)) return null;
-  return JSON.parse(fs.readFileSync(p, "utf-8"));
-}
-
 function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
-  if (v === null || v === undefined || Number.isNaN(v)) return "—";
+  if (v === null || v === undefined || Number.isNaN(v)) return "\u2014";
   return `${v.toFixed(digits)}${suffix}`;
 }
 
 export default function TickerPage({ params }: { params: { ticker: string } }) {
   const { ticker } = params;
   const candidate = loadCandidate(ticker);
-  const chart = loadChart(ticker);
 
   if (!candidate) notFound();
+
+  const market = candidate.market || "US";
 
   return (
     <main className="max-w-5xl mx-auto px-4 py-6 md:py-10">
       <nav className="mb-4">
         <Link href="/screener" className="text-sm text-muted hover:text-accent">
-          ← Back to screener
+          &larr; Back to screener
         </Link>
       </nav>
 
@@ -55,18 +47,24 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
         <div className="flex items-baseline gap-3 flex-wrap">
           <h1 className="text-3xl font-bold">{candidate.ticker}</h1>
           <span className="text-muted text-sm">{candidate.company}</span>
+          <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-border text-muted uppercase">
+            {market} &middot; Stage {candidate.stage}
+          </span>
         </div>
         <div className="text-xs text-muted mt-1">
-          {candidate.sector} · {candidate.industry}
+          {candidate.sector} {candidate.sector && candidate.industry ? " \u00B7 " : ""} {candidate.industry}
         </div>
       </header>
 
-      {/* Metrics row */}
+      {/* Metrics */}
       <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
         <div className="card p-3">
-          <div className="text-xs text-muted">VCP Score</div>
+          <div className="text-xs text-muted">Composite Score</div>
           <div className="text-2xl font-bold num text-accent">
             {candidate.score.toFixed(0)}
+          </div>
+          <div className="text-xs text-muted num">
+            VCP {fmtNum(candidate.vcp_quality, 0)}/20
           </div>
         </div>
         <div className="card p-3">
@@ -122,7 +120,7 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
                   {c.toFixed(1)}%
                 </div>
                 {i < candidate.contractions.length - 1 && (
-                  <span className="text-muted">→</span>
+                  <span className="text-muted">&rarr;</span>
                 )}
               </div>
             ))}
@@ -130,16 +128,9 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
         </section>
       )}
 
-      {/* Chart */}
-      <section className="card p-3 md:p-4">
-        <div className="text-xs text-muted mb-2">Price (1y) + Volume + RS Line &mdash; pivot dashed</div>
-        {chart ? (
-          <ChartClient data={chart.ohlcv} pivot={candidate.pivot_price} rsLine={chart.rs_line} />
-        ) : (
-          <div className="text-muted text-sm p-6 text-center">
-            Chart data unavailable for {ticker}.
-          </div>
-        )}
+      {/* TradingView Chart */}
+      <section className="card overflow-hidden">
+        <TradingViewWidget ticker={ticker} market={market} />
       </section>
     </main>
   );

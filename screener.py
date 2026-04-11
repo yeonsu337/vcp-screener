@@ -581,11 +581,12 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     avg_base_vol = float(vols.mean())
     vol_ratio = avg_recent_vol / avg_base_vol if avg_base_vol > 0 else np.nan
 
-    # Base depth = max drawdown within the base (high-to-low range).
-    # Minervini: ideal 12-35%, acceptable up to ~50%. >50% = not a proper VCP.
-    base_high = float(highs.max())
-    base_low = float(lows.min())
-    base_depth_pct = (base_high - base_low) / base_high * 100 if base_high > 0 else np.nan
+    # Base depth = deepest contraction in the VCP sequence.
+    # Using the raw (highs.max()-lows.min()) range is wrong for uptrending stocks
+    # because it measures the full trend range, not the actual pullback depth.
+    # The correct depth is max(contractions) — the largest peak-to-trough drop.
+    # Minervini: ideal 12-20%, good <35%, acceptable up to ~50%.
+    base_depth_pct = max(recent) * 100 if recent else np.nan
 
     # Stage Analysis (Weinstein)
     stage_info = determine_stage(df)

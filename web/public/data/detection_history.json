@@ -51,7 +51,7 @@
     "company": "Edison International",
     "last_seen": "2026-04-11",
     "current_price": 75.72,
-    "current_score": 82.8,
+    "current_score": 83.9,
     "rs_rating": 80
   },
   "NVRI": {
@@ -73,8 +73,8 @@
     "company": "Equinix Inc",
     "last_seen": "2026-04-11",
     "current_price": 1030.24,
-    "current_score": 82.6,
-    "rs_rating": 77
+    "current_score": 83.7,
+    "rs_rating": 76
   },
   "ROST": {
     "first_detected": "2026-04-11",
@@ -95,7 +95,7 @@
     "company": "Tidewater Inc",
     "last_seen": "2026-04-11",
     "current_price": 86.1,
-    "current_score": 79.9,
+    "current_score": 81.7,
     "rs_rating": 90
   },
   "NEE": {
@@ -128,8 +128,8 @@
     "company": "Kirby Corp",
     "last_seen": "2026-04-11",
     "current_price": 140.38,
-    "current_score": 79.1,
-    "rs_rating": 77
+    "current_score": 79.6,
+    "rs_rating": 76
   },
   "NE": {
     "first_detected": "2026-04-11",
@@ -150,8 +150,8 @@
     "company": "Targa Resources Corp",
     "last_seen": "2026-04-11",
     "current_price": 243.09,
-    "current_score": 75.9,
-    "rs_rating": 81
+    "current_score": 77.1,
+    "rs_rating": 80
   },
   "BKR": {
     "first_detected": "2026-04-11",
@@ -161,8 +161,8 @@
     "company": "Baker Hughes Co",
     "last_seen": "2026-04-11",
     "current_price": 62.83,
-    "current_score": 75.5,
-    "rs_rating": 82
+    "current_score": 76.5,
+    "rs_rating": 81
   },
   "024800.KQ": {
     "first_detected": "2026-04-11",
@@ -172,7 +172,7 @@
     "company": "유성티엔에스",
     "last_seen": "2026-04-11",
     "current_price": 4050.0,
-    "current_score": 74.6,
+    "current_score": 76.6,
     "rs_rating": 78
   },
   "BG": {
@@ -183,8 +183,8 @@
     "company": "Bunge Global SA",
     "last_seen": "2026-04-11",
     "current_price": 123.92,
-    "current_score": 73.8,
-    "rs_rating": 84
+    "current_score": 75.1,
+    "rs_rating": 83
   },
   "MGY": {
     "first_detected": "2026-04-11",
@@ -196,5 +196,49 @@
     "current_price": 29.9,
     "current_score": 70.7,
     "rs_rating": 78
+  },
+  "ERAS": {
+    "first_detected": "2026-04-11",
+    "detection_price": 17.01,
+    "detection_score": 77.8,
+    "market": "US",
+    "company": "Erasca Inc",
+    "last_seen": "2026-04-11",
+    "current_price": 17.01,
+    "current_score": 77.8,
+    "rs_rating": 99
+  },
+  "CLMT": {
+    "first_detected": "2026-04-11",
+    "detection_price": 33.65,
+    "detection_score": 75.9,
+    "market": "US",
+    "company": "Calumet Inc",
+    "last_seen": "2026-04-11",
+    "current_price": 33.65,
+    "current_score": 75.9,
+    "rs_rating": 94
+  },
+  "VNOM": {
+    "first_detected": "2026-04-11",
+    "detection_price": 45.12,
+    "detection_score": 71.4,
+    "market": "US",
+    "company": "Viper Energy Inc",
+    "last_seen": "2026-04-11",
+    "current_price": 45.12,
+    "current_score": 71.4,
+    "rs_rating": 70
+  },
+  "466910.KQ": {
+    "first_detected": "2026-04-11",
+    "detection_price": 4470.0,
+    "detection_score": 70.5,
+    "market": "KR",
+    "company": "엔에이치스팩30호",
+    "last_seen": "2026-04-11",
+    "current_price": 4470.0,
+    "current_score": 70.5,
+    "rs_rating": 87
   }
 }
