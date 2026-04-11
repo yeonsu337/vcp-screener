@@ -182,16 +182,13 @@ export default function Home() {
                     <th className="text-left px-3 py-2 w-12">Mkt</th>
                     <th className="text-left px-3 py-2">Ticker</th>
                     <th className="text-left px-3 py-2">Company</th>
-                    <th className="text-left px-3 py-2">Sector</th>
-                    <th className="text-right px-3 py-2 w-32">Score</th>
+                    <th className="text-right px-3 py-2 w-32">Composite</th>
                     <th className="text-right px-3 py-2">RS</th>
+                    <th className="text-right px-3 py-2">VCP</th>
                     <th className="text-right px-3 py-2">Contr.</th>
-                    <th className="text-right px-3 py-2">Last %</th>
                     <th className="text-right px-3 py-2">Depth</th>
                     <th className="text-right px-3 py-2">Price</th>
-                    <th className="text-right px-3 py-2">Pivot</th>
                     <th className="text-right px-3 py-2">&rarr; Pivot</th>
-                    <th className="text-right px-3 py-2">Vol</th>
                     <th className="text-right px-3 py-2">RS Line</th>
                   </tr>
                 </thead>
@@ -210,7 +207,6 @@ export default function Home() {
                         </Link>
                       </td>
                       <td className="px-3 py-2 truncate max-w-[180px]">{r.company}</td>
-                      <td className="px-3 py-2 text-muted text-xs">{r.sector}</td>
                       <td className="px-3 py-2">
                         <div className="flex items-center gap-2 justify-end">
                           <span className="num text-accent font-semibold w-8 text-right">
@@ -222,10 +218,8 @@ export default function Home() {
                         </div>
                       </td>
                       <td className="px-3 py-2 text-right num">{r.rs_rating}</td>
+                      <td className="px-3 py-2 text-right num text-muted">{fmtNum(r.vcp_quality, 0)}/20</td>
                       <td className="px-3 py-2 text-right num">{r.num_contractions}</td>
-                      <td className="px-3 py-2 text-right num">
-                        {fmtNum(r.last_contraction_pct, 1, "%")}
-                      </td>
                       <td className="px-3 py-2 text-right num">
                         {fmtNum(r.base_depth_pct, 1, "%")}
                       </td>
@@ -233,13 +227,7 @@ export default function Home() {
                         {fmtNum(r.current_price, 2)}
                       </td>
                       <td className="px-3 py-2 text-right num">
-                        {fmtNum(r.pivot_price, 2)}
-                      </td>
-                      <td className="px-3 py-2 text-right num">
                         {fmtNum(r.pct_to_pivot, 1, "%")}
-                      </td>
-                      <td className="px-3 py-2 text-right num">
-                        {fmtNum(r.volume_dryup_ratio, 2)}
                       </td>
                       <td className="px-3 py-2 text-right num">
                         {fmtNum(r.rs_line_pct_from_high, 1, "%")}

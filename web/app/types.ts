@@ -5,7 +5,10 @@ export type Candidate = {
   industry: string;
   market: string; // "US" | "HK" | "KR"
   detected: boolean;
+  stage: number;
+  stage_name: string;
   score: number;
+  vcp_quality: number;
   rs_rating: number;
   num_contractions: number;
   contractions: number[];

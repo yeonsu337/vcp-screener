@@ -309,7 +309,143 @@ def compute_rs_scores(ohlcv: dict[str, pd.DataFrame]) -> pd.Series:
 
 
 # =============================================================================
-# VCP pattern detection
+# Stage Analysis (Weinstein / Minervini)
+# =============================================================================
+
+
+def determine_stage(df: pd.DataFrame) -> dict:
+    """
+    Weinstein 4-stage analysis. Stage 2 (Advancing) is the only stage
+    Minervini trades — used as a hard filter for VCP detection.
+
+    Returns dict with stage (1-4), stage_name, confidence (0-100).
+    """
+    result = {"stage": 0, "stage_name": "Unknown", "confidence": 0}
+    if len(df) < 252:
+        return result
+    close = df["Close"]
+    current = float(close.iloc[-1])
+    sma50 = float(close.rolling(50).mean().iloc[-1])
+    sma150 = float(close.rolling(150).mean().iloc[-1])
+    sma200 = float(close.rolling(200).mean().iloc[-1])
+    sma200_mo_ago = float(close.rolling(200).mean().iloc[-21])
+
+    if any(np.isnan(x) for x in (sma50, sma150, sma200, sma200_mo_ago)):
+        return result
+
+    ma_chg = ((sma200 - sma200_mo_ago) / sma200_mo_ago) * 100 if sma200_mo_ago > 0 else 0
+    ma_rising = ma_chg > 1.0
+    ma_falling = ma_chg < -1.0
+    above_200 = current > sma200
+
+    # Stage 2: perfect Minervini alignment + rising 200 SMA
+    if current > sma50 > sma150 > sma200 and ma_rising:
+        stage, conf = 2, 80
+        # Quarter performance boost
+        if len(close) > 64 and current > float(close.iloc[-64]):
+            conf += 10
+        # Higher 52W position boost
+        high52 = float(close.iloc[-252:].max())
+        if current >= high52 * 0.90:
+            conf += 10
+    elif not above_200 and ma_falling:
+        stage, conf = 4, 75
+    elif not ma_rising and not ma_falling:  # flat
+        stage, conf = 1, 60
+    elif above_200 and (not ma_rising or sma50 < sma200):
+        stage, conf = 3, 65
+    elif not above_200 and ma_rising:
+        stage, conf = 1, 55
+    else:
+        stage = 4 if not above_200 else 3
+        conf = 50
+
+    names = {1: "Basing", 2: "Advancing", 3: "Topping", 4: "Declining", 0: "Unknown"}
+    return {"stage": stage, "stage_name": names[stage], "confidence": min(100, conf)}
+
+
+def compute_ma_alignment(df: pd.DataFrame) -> float:
+    """
+    MA alignment score (0-15). Full alignment = SMA20 > SMA50 > SMA150 > SMA200,
+    price above all of them.
+    """
+    if len(df) < 252:
+        return 0.0
+    close = df["Close"]
+    p = float(close.iloc[-1])
+    sma20 = float(close.rolling(20).mean().iloc[-1])
+    sma50 = float(close.rolling(50).mean().iloc[-1])
+    sma150 = float(close.rolling(150).mean().iloc[-1])
+    sma200 = float(close.rolling(200).mean().iloc[-1])
+    if any(np.isnan(x) for x in (sma20, sma50, sma150, sma200)):
+        return 0.0
+    pts = 0.0
+    if p > sma200:
+        pts += 3
+    if sma50 > sma200:
+        pts += 3
+    if sma20 > sma50:
+        pts += 3
+    if sma150 > sma200:
+        pts += 3
+    if p > sma50:
+        pts += 3
+    return min(15.0, pts)
+
+
+def compute_composite_score(
+    rs_rating: int,
+    stage: int,
+    stage_confidence: float,
+    vcp_quality: float,
+    ma_alignment: float,
+    pct_from_52w_high: float,
+    rs_line_pct: float,
+) -> float:
+    """
+    Composite score 0-100 (xang1234-inspired weighted system).
+
+    Components:
+      RS Rating      : 20 pts  (percentile rank in broad universe)
+      Stage 2        : 20 pts  (Weinstein stage + confidence)
+      MA Alignment   : 15 pts  (SMA cascade quality)
+      52W Position   : 15 pts  (proximity to 52-week high)
+      VCP Quality    : 20 pts  (contractions + tightening + dry-up + depth)
+      RS Line        : 10 pts  (relative strength vs benchmark trend)
+    """
+    # RS Rating: 0-20
+    rs_pts = (rs_rating / 99) * 20
+
+    # Stage: 0-20 (only Stage 2 gets meaningful points)
+    if stage == 2:
+        stage_pts = (stage_confidence / 100) * 20
+    elif stage == 3:
+        stage_pts = 5.0
+    else:
+        stage_pts = 0.0
+
+    # MA Alignment: 0-15 (passed in directly)
+    ma_pts = ma_alignment
+
+    # 52W Position: 0-15 (at high = 15, 25% below = 0)
+    pct = max(-25.0, min(0.0, pct_from_52w_high))
+    position_pts = max(0.0, 15.0 + pct * 0.6)
+
+    # VCP Quality: 0-20 (passed in from detect_vcp)
+    vcp_pts = vcp_quality
+
+    # RS Line: 0-10
+    if rs_line_pct != rs_line_pct:  # NaN
+        rsline_pts = 5.0
+    else:
+        rsline_pts = max(0.0, min(10.0, 5.0 + rs_line_pct * 0.5))
+
+    total = rs_pts + stage_pts + ma_pts + position_pts + vcp_pts + rsline_pts
+    return round(min(100.0, max(0.0, total)), 1)
+
+
+# =============================================================================
+# Benchmark + RS Line
 # =============================================================================
 
 
@@ -360,6 +496,8 @@ def compute_rs_line_pct(stock_close: pd.Series, bench_close: pd.Series) -> float
 class VCPResult:
     ticker: str
     detected: bool
+    stage: int                  # Weinstein stage 1-4 (2 = ideal)
+    stage_name: str
     num_contractions: int
     contractions: list[float]
     last_contraction_pct: float
@@ -369,7 +507,8 @@ class VCPResult:
     current_price: float
     pct_to_pivot: float
     volume_dryup_ratio: float
-    score: float
+    vcp_quality: float          # VCP pattern quality 0-20
+    score: float                # composite score 0-100 (set by pipeline)
 
 
 def _find_swings(
@@ -390,7 +529,7 @@ def _find_swings(
 
 def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     empty = VCPResult(
-        ticker, False, 0, [], np.nan, 0, np.nan, np.nan, np.nan, np.nan, np.nan, 0.0
+        ticker, False, 0, "Unknown", 0, [], np.nan, 0, np.nan, np.nan, np.nan, np.nan, np.nan, 0.0, 0.0
     )
     if len(df) < lookback + 5:
         return empty
@@ -448,29 +587,38 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     base_low = float(lows.min())
     base_depth_pct = (base_high - base_low) / base_high * 100 if base_high > 0 else np.nan
 
+    # Stage Analysis (Weinstein)
+    stage_info = determine_stage(df)
+    stage = stage_info["stage"]
+    stage_name = stage_info["stage_name"]
+
+    # Detection requires: VCP pattern criteria + Stage 2
     detected = (
         tightening
         and n >= 2
         and last_pct < 15.0
         and vol_ratio < 0.95
         and pct_to_pivot > -12.0
-        and (base_depth_pct is not np.nan and base_depth_pct <= 50.0)
+        and (base_depth_pct == base_depth_pct and base_depth_pct <= 50.0)
+        and stage == 2
     )
 
-    score = 0.0
-    if detected:
-        score += 25                                         # base (was 30, redistributed)
-        score += min(20, n * 5)                             # more contractions
-        score += max(0, 25 - last_pct * 2)                  # tighter last contraction
-        score += max(0, 15 - vol_ratio * 15)                # volume dry-up
-        score += max(0, 10 + pct_to_pivot)                  # pivot proximity
-        # Base depth bonus: shallower = better. 15% depth → +10, 40% → +0
-        score += max(0, 10 - max(0, base_depth_pct - 15) * 0.4)
-        score = float(min(100, max(0, score)))
+    # VCP quality sub-score (0-20): pattern strength independent of fundamentals
+    vcp_q = 0.0
+    if tightening and n >= 2:
+        vcp_q += 4                                          # base
+        vcp_q += min(4, n * 1)                              # more contractions
+        vcp_q += max(0, 5 - last_pct * 0.4)                 # tighter last contraction
+        vcp_q += max(0, 3 - vol_ratio * 3)                  # volume dry-up
+        vcp_q += max(0, 2 - max(0, base_depth_pct - 15) * 0.08) if base_depth_pct == base_depth_pct else 0
+        vcp_q += max(0, 2 + pct_to_pivot * 0.2)             # pivot proximity
+        vcp_q = float(min(20, max(0, vcp_q)))
 
     return VCPResult(
         ticker=ticker,
         detected=detected,
+        stage=stage,
+        stage_name=stage_name,
         num_contractions=n,
         contractions=[round(c * 100, 2) for c in recent],
         last_contraction_pct=round(last_pct, 2),
@@ -480,7 +628,8 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
         current_price=round(current_price, 2),
         pct_to_pivot=round(pct_to_pivot, 2),
         volume_dryup_ratio=round(vol_ratio, 2),
-        score=round(score, 1),
+        vcp_quality=round(vcp_q, 1),
+        score=0.0,  # set by pipeline via compute_composite_score
     )
 
 
@@ -520,7 +669,7 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
     print("  [US 5/6] Downloading benchmark (SPY)...")
     bench = fetch_benchmark("US")
 
-    print("  [US 6/6] VCP detection + RS Line...")
+    print("  [US 6/6] VCP detection + Stage + Composite Score...")
     rows: list[dict] = []
     for t in survivors:
         if t not in ohlcv:
@@ -531,18 +680,30 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
         d = asdict(r)
         d["rs_rating"] = int(rs[t])
         d["market"] = "US"
-        # RS Line vs SPY
+        # RS Line
         rs_line_pct = np.nan
         if bench is not None:
             rs_line_pct = compute_rs_line_pct(ohlcv[t]["Close"], bench)
         d["rs_line_pct_from_high"] = (
             round(rs_line_pct, 2) if rs_line_pct == rs_line_pct else None
         )
-        # RS Line bonus applied to score (if detected)
-        if r.detected and rs_line_pct == rs_line_pct:
-            # Near RS Line new high → up to +10 bonus; weak RS Line → penalty
-            bonus = max(-10, min(10, rs_line_pct + 5))
-            d["score"] = round(min(100, max(0, d["score"] + bonus)), 1)
+        # 52W high position
+        close_series = ohlcv[t]["Close"]
+        high52 = float(close_series.iloc[-252:].max()) if len(close_series) >= 252 else float(close_series.max())
+        pct_from_52w = (float(close_series.iloc[-1]) / high52 - 1.0) * 100
+        # MA alignment
+        ma_align = compute_ma_alignment(ohlcv[t])
+        # Composite score
+        stage_info = determine_stage(ohlcv[t])
+        d["score"] = compute_composite_score(
+            rs_rating=int(rs[t]),
+            stage=stage_info["stage"],
+            stage_confidence=stage_info["confidence"],
+            vcp_quality=r.vcp_quality,
+            ma_alignment=ma_align,
+            pct_from_52w_high=pct_from_52w,
+            rs_line_pct=rs_line_pct,
+        )
         meta = pf[pf["Ticker"] == t]
         if not meta.empty:
             m = meta.iloc[0]
@@ -583,7 +744,7 @@ def _run_market_intl(
     print(f"  [{market_key} 4/5] Downloading benchmark ({BENCHMARK_TICKERS.get(market_key, '?')})...")
     bench = fetch_benchmark(market_key)
 
-    print(f"  [{market_key} 5/5] VCP detection + RS Line...")
+    print(f"  [{market_key} 5/5] VCP detection + Stage + Composite Score...")
     rows: list[dict] = []
     for t in survivors:
         if t not in ohlcv:
@@ -600,9 +761,20 @@ def _run_market_intl(
         d["rs_line_pct_from_high"] = (
             round(rs_line_pct, 2) if rs_line_pct == rs_line_pct else None
         )
-        if r.detected and rs_line_pct == rs_line_pct:
-            bonus = max(-10, min(10, rs_line_pct + 5))
-            d["score"] = round(min(100, max(0, d["score"] + bonus)), 1)
+        close_series = ohlcv[t]["Close"]
+        high52 = float(close_series.iloc[-252:].max()) if len(close_series) >= 252 else float(close_series.max())
+        pct_from_52w = (float(close_series.iloc[-1]) / high52 - 1.0) * 100
+        ma_align = compute_ma_alignment(ohlcv[t])
+        stage_info = determine_stage(ohlcv[t])
+        d["score"] = compute_composite_score(
+            rs_rating=int(rs[t]),
+            stage=stage_info["stage"],
+            stage_confidence=stage_info["confidence"],
+            vcp_quality=r.vcp_quality,
+            ma_alignment=ma_align,
+            pct_from_52w_high=pct_from_52w,
+            rs_line_pct=rs_line_pct,
+        )
         d["company"] = names.get(t, "")
         d["sector"] = ""
         d["industry"] = ""
