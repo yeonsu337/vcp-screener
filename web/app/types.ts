@@ -44,7 +44,13 @@ export type OhlcvBar = {
   volume: number;
 };
 
+export type RsLinePoint = {
+  time: string;
+  value: number;
+};
+
 export type ChartPayload = {
   ticker: string;
   ohlcv: OhlcvBar[];
+  rs_line?: RsLinePoint[];
 };

@@ -20,7 +20,11 @@ sys.path.insert(0, str(ROOT))
 import warnings
 warnings.filterwarnings("ignore")
 
-from screener import run_screener, fetch_ohlcv, load_config  # noqa: E402
+from screener import (  # noqa: E402
+    run_screener, fetch_ohlcv, fetch_benchmark, load_config,
+    BENCHMARK_TICKERS,
+)
+import pandas as pd  # noqa: E402
 
 DATA_DIR = ROOT / "web" / "public" / "data"
 CHARTS_DIR = DATA_DIR / "charts"
@@ -114,11 +118,40 @@ def main():
     if detected_tickers:
         print(f"\nDownloading chart OHLCV for {len(detected_tickers)} tickers...")
         chart_ohlcv = fetch_ohlcv(detected_tickers, period="1y")
+
+        # Download benchmarks for RS Line overlay
+        market_map = {r["ticker"]: r.get("market", "US") for r in rows if r.get("detected")}
+        benchmarks: dict[str, pd.Series] = {}
+        for mkt in set(market_map.values()):
+            b = fetch_benchmark(mkt, period="1y")
+            if b is not None:
+                benchmarks[mkt] = b
+
         for t in detected_tickers:
             if t not in chart_ohlcv:
                 continue
             df = chart_ohlcv[t].iloc[-252:]
-            payload = {"ticker": t, "ohlcv": _df_ohlcv_to_list(df)}
+            # RS Line: stock/benchmark ratio normalized to start at 100
+            rs_line_data: list[dict] = []
+            mkt = market_map.get(t, "US")
+            if mkt in benchmarks:
+                stock_c = df["Close"].squeeze()
+                bench_c = benchmarks[mkt]
+                aligned = pd.DataFrame({"s": stock_c, "b": bench_c}).dropna()
+                if len(aligned) > 10:
+                    ratio = aligned["s"] / aligned["b"]
+                    ratio_norm = ratio / ratio.iloc[0] * 100
+                    for idx, val in ratio_norm.items():
+                        rs_line_data.append({
+                            "time": idx.strftime("%Y-%m-%d"),
+                            "value": round(float(val), 2),
+                        })
+
+            payload = {
+                "ticker": t,
+                "ohlcv": _df_ohlcv_to_list(df),
+                "rs_line": rs_line_data,
+            }
             fname = _safe_chart_filename(t)
             (CHARTS_DIR / f"{fname}.json").write_text(
                 json.dumps(payload, ensure_ascii=False), encoding="utf-8"

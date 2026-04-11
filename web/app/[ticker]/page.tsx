@@ -132,9 +132,9 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
 
       {/* Chart */}
       <section className="card p-3 md:p-4">
-        <div className="text-xs text-muted mb-2">Price (1y) — pivot dashed</div>
+        <div className="text-xs text-muted mb-2">Price (1y) + Volume + RS Line &mdash; pivot dashed</div>
         {chart ? (
-          <ChartClient data={chart.ohlcv} pivot={candidate.pivot_price} />
+          <ChartClient data={chart.ohlcv} pivot={candidate.pivot_price} rsLine={chart.rs_line} />
         ) : (
           <div className="text-muted text-sm p-6 text-center">
             Chart data unavailable for {ticker}.

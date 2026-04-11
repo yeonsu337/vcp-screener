@@ -7,7 +7,7 @@ import {
   type IChartApi,
   type Time,
 } from "lightweight-charts";
-import type { OhlcvBar } from "../types";
+import type { OhlcvBar, RsLinePoint } from "../types";
 
 function sma(bars: OhlcvBar[], window: number) {
   const out: { time: Time; value: number }[] = [];
@@ -26,9 +26,11 @@ function sma(bars: OhlcvBar[], window: number) {
 export default function ChartClient({
   data,
   pivot,
+  rsLine,
 }: {
   data: OhlcvBar[];
   pivot: number | null;
+  rsLine?: RsLinePoint[];
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
@@ -39,7 +41,7 @@ export default function ChartClient({
 
     const chart = createChart(el, {
       width: el.clientWidth,
-      height: 420,
+      height: 480,
       layout: {
         background: { type: ColorType.Solid, color: "#141821" },
         textColor: "#8b93a7",
@@ -48,12 +50,16 @@ export default function ChartClient({
         vertLines: { color: "#1f2430" },
         horzLines: { color: "#1f2430" },
       },
-      rightPriceScale: { borderColor: "#1f2430" },
+      rightPriceScale: {
+        borderColor: "#1f2430",
+        scaleMargins: { top: 0.02, bottom: 0.25 },
+      },
       timeScale: { borderColor: "#1f2430", timeVisible: false },
       crosshair: { mode: 1 },
     });
     chartRef.current = chart;
 
+    // Candlestick series
     const candles = chart.addCandlestickSeries({
       upColor: "#4ade80",
       downColor: "#f87171",
@@ -72,36 +78,22 @@ export default function ChartClient({
     candles.setData(bars);
 
     // SMAs
-    const sma50Data = sma(data, 50);
-    const sma150Data = sma(data, 150);
-    const sma200Data = sma(data, 200);
-
-    if (sma50Data.length > 0) {
-      const s = chart.addLineSeries({
-        color: "#60a5fa",
-        lineWidth: 1,
-        priceLineVisible: false,
-        lastValueVisible: false,
-      });
-      s.setData(sma50Data);
-    }
-    if (sma150Data.length > 0) {
-      const s = chart.addLineSeries({
-        color: "#fbbf24",
-        lineWidth: 1,
-        priceLineVisible: false,
-        lastValueVisible: false,
-      });
-      s.setData(sma150Data);
-    }
-    if (sma200Data.length > 0) {
-      const s = chart.addLineSeries({
-        color: "#ef4444",
-        lineWidth: 1,
-        priceLineVisible: false,
-        lastValueVisible: false,
-      });
-      s.setData(sma200Data);
+    const smaConfigs = [
+      { window: 50, color: "#60a5fa" },
+      { window: 150, color: "#fbbf24" },
+      { window: 200, color: "#ef4444" },
+    ];
+    for (const { window, color } of smaConfigs) {
+      const smaData = sma(data, window);
+      if (smaData.length > 0) {
+        const s = chart.addLineSeries({
+          color,
+          lineWidth: 1,
+          priceLineVisible: false,
+          lastValueVisible: false,
+        });
+        s.setData(smaData);
+      }
     }
 
     // Pivot line
@@ -113,6 +105,42 @@ export default function ChartClient({
         lineStyle: LineStyle.Dashed,
         axisLabelVisible: true,
         title: "Pivot",
+      });
+    }
+
+    // Volume histogram (bottom 15%)
+    const volumeSeries = chart.addHistogramSeries({
+      priceScaleId: "volume",
+      priceFormat: { type: "volume" },
+      lastValueVisible: false,
+      priceLineVisible: false,
+    });
+    volumeSeries.setData(
+      data.map((b) => ({
+        time: b.time as Time,
+        value: b.volume,
+        color: b.close >= b.open ? "rgba(74,222,128,0.25)" : "rgba(248,113,113,0.25)",
+      }))
+    );
+    chart.priceScale("volume").applyOptions({
+      scaleMargins: { top: 0.85, bottom: 0 },
+    });
+
+    // RS Line overlay (bottom 25%, above volume)
+    if (rsLine && rsLine.length > 0) {
+      const rsLineSeries = chart.addLineSeries({
+        color: "#818cf8",
+        lineWidth: 2,
+        priceScaleId: "rs_line",
+        priceLineVisible: false,
+        lastValueVisible: true,
+        title: "RS",
+      });
+      rsLineSeries.setData(
+        rsLine.map((d) => ({ time: d.time as Time, value: d.value }))
+      );
+      chart.priceScale("rs_line").applyOptions({
+        scaleMargins: { top: 0.65, bottom: 0.18 },
       });
     }
 
@@ -130,11 +158,11 @@ export default function ChartClient({
       chart.remove();
       chartRef.current = null;
     };
-  }, [data, pivot]);
+  }, [data, pivot, rsLine]);
 
   return (
     <div className="w-full">
-      <div ref={ref} className="w-full" style={{ height: 420 }} />
+      <div ref={ref} className="w-full" style={{ height: 480 }} />
       <div className="flex items-center gap-4 text-xs text-muted mt-2 flex-wrap">
         <span className="flex items-center gap-1">
           <span className="inline-block w-3 h-0.5 bg-[#60a5fa]" /> SMA50
@@ -144,6 +172,9 @@ export default function ChartClient({
         </span>
         <span className="flex items-center gap-1">
           <span className="inline-block w-3 h-0.5 bg-[#ef4444]" /> SMA200
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-3 h-0.5 bg-[#818cf8]" /> RS Line
         </span>
         <span className="flex items-center gap-1">
           <span
