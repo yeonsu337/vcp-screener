@@ -3,7 +3,7 @@ import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ChartClient from "./ChartClient";
-import type { Candidate, ChartPayload } from "../types";
+import type { Candidate, ChartPayload } from "../../types";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
@@ -46,7 +46,7 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
   return (
     <main className="max-w-5xl mx-auto px-4 py-6 md:py-10">
       <nav className="mb-4">
-        <Link href="/" className="text-sm text-muted hover:text-accent">
+        <Link href="/screener" className="text-sm text-muted hover:text-accent">
           ← Back to screener
         </Link>
       </nav>

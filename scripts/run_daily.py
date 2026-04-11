@@ -28,10 +28,55 @@ import pandas as pd  # noqa: E402
 
 DATA_DIR = ROOT / "web" / "public" / "data"
 CHARTS_DIR = DATA_DIR / "charts"
+HISTORY_PATH = DATA_DIR / "detection_history.json"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 CHARTS_DIR.mkdir(parents=True, exist_ok=True)
 
 TOP_CHART_N = 50
+
+
+def _update_detection_history(rows: list[dict], today: str) -> dict:
+    """
+    Maintain first-detection history for backtest tracking.
+
+    For each detected ticker: if not already in history, record first detection
+    date + price + score. If already present, keep existing (first detection).
+    Also tracks last_seen date to identify dropoffs.
+
+    Returns the updated history dict.
+    """
+    history: dict = {}
+    if HISTORY_PATH.exists():
+        try:
+            history = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            history = {}
+
+    detected = {r["ticker"]: r for r in rows if r.get("detected")}
+
+    # Add new detections
+    for ticker, r in detected.items():
+        if ticker not in history:
+            history[ticker] = {
+                "first_detected": today,
+                "detection_price": r.get("current_price"),
+                "detection_score": r.get("score"),
+                "market": r.get("market", "US"),
+                "company": r.get("company", ""),
+            }
+        # Always update last_seen + current data
+        history[ticker]["last_seen"] = today
+        history[ticker]["current_price"] = r.get("current_price")
+        history[ticker]["current_score"] = r.get("score")
+        history[ticker]["rs_rating"] = r.get("rs_rating")
+
+    # For tickers NOT detected today but in history, just update last_seen info
+    # (don't update current_price — we'll fetch it in the backtest page)
+
+    HISTORY_PATH.write_text(
+        json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    return history
 
 
 def _df_ohlcv_to_list(df):
@@ -99,6 +144,12 @@ def main():
     (DATA_DIR / "results.json").write_text(
         json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+
+    # Update detection history for backtest tracking
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    history = _update_detection_history(rows, today)
+    history_detected = sum(1 for v in history.values() if v.get("first_detected"))
+    print(f"\nDetection history: {history_detected} tickers tracked")
 
     # Write meta.json
     meta = {

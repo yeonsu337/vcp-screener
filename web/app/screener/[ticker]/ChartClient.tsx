@@ -7,7 +7,7 @@ import {
   type IChartApi,
   type Time,
 } from "lightweight-charts";
-import type { OhlcvBar, RsLinePoint } from "../types";
+import type { OhlcvBar, RsLinePoint } from "../../types";
 
 function sma(bars: OhlcvBar[], window: number) {
   const out: { time: Time; value: number }[] = [];
