@@ -1,0 +1,162 @@
+{
+  "ticker": "466910.KQ",
+  "metrics": {
+    "eps_ttm": null,
+    "eps_forward": null,
+    "pe_ttm": null,
+    "pe_forward": null,
+    "market_cap": 41632501760.0,
+    "roe": 0.02,
+    "profit_margin": 0.0,
+    "gross_margin": 0.0,
+    "operating_margin": 2.38,
+    "revenue_growth": null,
+    "earnings_growth": null,
+    "currency": "KRW",
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "name": "NH SPAC 30"
+  },
+  "annual": {
+    "periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31"
+    ],
+    "revenue": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "gross_profit": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_income": [
+      -106489550.0,
+      -42777630.0,
+      -32143560.0
+    ],
+    "net_income": [
+      342437840.0,
+      420810440.0,
+      28257220.0
+    ],
+    "eps": [
+      null,
+      42.0,
+      8.0
+    ],
+    "total_assets": [
+      20816346010.0,
+      20384937220.0,
+      19808928900.0
+    ],
+    "total_liabilities": [
+      2651717220.0,
+      2562746270.0,
+      2407548410.0
+    ],
+    "equity": [
+      18164628510.0,
+      17822190660.0,
+      17401380220.0
+    ],
+    "cash": [
+      151329250.0,
+      262887840.0,
+      313107890.0
+    ],
+    "total_debt": [
+      2562896000.0,
+      2447982000.0,
+      2338132000.0
+    ],
+    "operating_cf": [
+      434189080.0,
+      592013990.0,
+      -24203370.0
+    ],
+    "capex": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "free_cf": [
+      434189080.0,
+      592013990.0,
+      -24203370.0
+    ]
+  },
+  "quarterly": {
+    "periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "revenue": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "net_income": [
+      65157730.0,
+      85511390.0,
+      100350580.0,
+      91418120.0,
+      115951480.0,
+      null
+    ],
+    "eps": [
+      null,
+      9.0,
+      10.2,
+      9.5,
+      null,
+      3.2
+    ],
+    "gross_profit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "eps_yoy": [
+      null,
+      181.2,
+      null,
+      null,
+      null,
+      null
+    ],
+    "revenue_yoy": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

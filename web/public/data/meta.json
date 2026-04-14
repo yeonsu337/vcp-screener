@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-11T06:45:32.208791+00:00",
-  "total_candidates": 311,
-  "vcp_detected": 21,
+  "updated_at": "2026-04-14T06:18:18.380446+00:00",
+  "total_candidates": 336,
+  "vcp_detected": 16,
   "min_rs": 70,
   "markets": {
     "US": {
       "total": 159,
-      "detected": 19
-    },
-    "KR": {
-      "total": 145,
-      "detected": 2
+      "detected": 13
     },
     "HK": {
-      "total": 7,
-      "detected": 0
+      "total": 11,
+      "detected": 1
+    },
+    "KR": {
+      "total": 166,
+      "detected": 2
     }
   },
-  "runtime_sec": 340.1
+  "runtime_sec": 378.9
 }
