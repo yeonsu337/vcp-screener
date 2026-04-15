@@ -240,5 +240,27 @@
     "current_price": 4470.0,
     "current_score": 70.5,
     "rs_rating": 87
+  },
+  "0016.HK": {
+    "first_detected": "2026-04-15",
+    "detection_price": 137.6,
+    "detection_score": 84.8,
+    "market": "HK",
+    "company": "Sun Hung Kai Properties Limited",
+    "last_seen": "2026-04-15",
+    "current_price": 137.6,
+    "current_score": 84.8,
+    "rs_rating": 98
+  },
+  "160980.KQ": {
+    "first_detected": "2026-04-15",
+    "detection_price": 27750.0,
+    "detection_score": 79.8,
+    "market": "KR",
+    "company": "싸이맥스",
+    "last_seen": "2026-04-15",
+    "current_price": 27750.0,
+    "current_score": 79.8,
+    "rs_rating": 83
   }
 }
