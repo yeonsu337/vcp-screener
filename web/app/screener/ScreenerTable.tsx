@@ -10,6 +10,44 @@ const MARKET_COLORS: Record<string, string> = {
   KR: "bg-emerald-500/20 text-emerald-400",
 };
 
+// Keep these in sync with RuleScorecard.tsx
+const PRIMARY_IDS = [
+  "T1_sma50_gt_sma150",
+  "T2_sma150_gt_sma200",
+  "T4_sma200_rising_21d",
+  "M1_near_52w_high",
+  "R1_rs_70",
+  "V1_52w_span",
+  "V2_liquidity",
+];
+const SECONDARY_IDS = [
+  "T3_sma20_gt_sma50",
+  "M2_quarter_positive",
+  "R2_rs_90",
+  "P1_tightening",
+  "P2_last_contraction",
+  "P3_vol_dryup",
+  "F1_eps_growth",
+  "F2_rev_growth",
+  "F3_inst_ownership",
+];
+
+function countByCategory(
+  rules: Record<string, { passed: boolean }> | undefined,
+  ids: string[],
+): { passed: number; total: number } {
+  if (!rules) return { passed: 0, total: 0 };
+  let passed = 0;
+  let total = 0;
+  for (const id of ids) {
+    if (rules[id]) {
+      total += 1;
+      if (rules[id].passed) passed += 1;
+    }
+  }
+  return { passed, total };
+}
+
 // Default min-rules slider per market, tuned from observed distributions.
 // Adjust if future runs show different spread.
 const DEFAULT_MIN_BY_MARKET: Record<string, number> = {
@@ -42,19 +80,26 @@ function ScoreBar({ score }: { score: number }) {
   );
 }
 
-function RulesBadge({ passed, total }: { passed: number; total: number }) {
+function RulesBadge({
+  passed,
+  total,
+  compact = false,
+}: {
+  passed: number;
+  total: number;
+  compact?: boolean;
+}) {
   const pct = total > 0 ? (passed / total) * 100 : 0;
-  // Color: green >=80%, yellow 60-80%, gray <60%
   const color =
     pct >= 80 ? "text-emerald-400" : pct >= 60 ? "text-yellow-400" : "text-muted";
   const barColor =
     pct >= 80 ? "bg-emerald-400" : pct >= 60 ? "bg-yellow-400" : "bg-border";
   return (
-    <div className="flex items-center gap-2 justify-end">
-      <span className={`num font-semibold ${color} tabular-nums`}>
+    <div className="flex items-center gap-1.5 justify-end">
+      <span className={`num font-semibold text-xs ${color} tabular-nums`}>
         {passed}/{total}
       </span>
-      <div className="w-14 h-1.5 bg-border rounded overflow-hidden">
+      <div className={`${compact ? "w-10" : "w-14"} h-1.5 bg-border rounded overflow-hidden`}>
         <div className={`h-1.5 rounded ${barColor}`} style={{ width: `${pct}%` }} />
       </div>
     </div>
@@ -223,10 +268,24 @@ export default function ScreenerTable({
                   {r.company}
                 </div>
               </div>
-              <RulesBadge
-                passed={r.rules_passed ?? 0}
-                total={r.rules_total ?? 0}
-              />
+              <div className="flex flex-col gap-1 items-end">
+                {(() => {
+                  const p = countByCategory(r.rules, PRIMARY_IDS);
+                  const s = countByCategory(r.rules, SECONDARY_IDS);
+                  return (
+                    <>
+                      <div className="flex items-center gap-2 text-[10px] text-muted">
+                        <span>P</span>
+                        <RulesBadge passed={p.passed} total={p.total} compact />
+                      </div>
+                      <div className="flex items-center gap-2 text-[10px] text-muted">
+                        <span>S</span>
+                        <RulesBadge passed={s.passed} total={s.total} compact />
+                      </div>
+                    </>
+                  );
+                })()}
+              </div>
             </div>
             <ScoreBar score={r.score} />
             <div className="grid grid-cols-3 gap-2 mt-3 text-xs">
@@ -257,7 +316,8 @@ export default function ScreenerTable({
               <th className="text-left px-3 py-2 w-12">Mkt</th>
               <th className="text-left px-3 py-2">Ticker</th>
               <th className="text-left px-3 py-2">Company</th>
-              <th className="text-right px-3 py-2 w-28">Rules</th>
+              <th className="text-right px-3 py-2 w-24">Primary</th>
+              <th className="text-right px-3 py-2 w-24">Secondary</th>
               <th className="text-right px-3 py-2 w-32">Composite</th>
               <th className="text-right px-3 py-2">RS</th>
               <th className="text-right px-3 py-2">VCP</th>
@@ -291,10 +351,16 @@ export default function ScreenerTable({
                   {r.company}
                 </td>
                 <td className="px-3 py-2">
-                  <RulesBadge
-                    passed={r.rules_passed ?? 0}
-                    total={r.rules_total ?? 0}
-                  />
+                  {(() => {
+                    const p = countByCategory(r.rules, PRIMARY_IDS);
+                    return <RulesBadge passed={p.passed} total={p.total} compact />;
+                  })()}
+                </td>
+                <td className="px-3 py-2">
+                  {(() => {
+                    const s = countByCategory(r.rules, SECONDARY_IDS);
+                    return <RulesBadge passed={s.passed} total={s.total} compact />;
+                  })()}
                 </td>
                 <td className="px-3 py-2">
                   <div className="flex items-center gap-2 justify-end">

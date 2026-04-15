@@ -163,11 +163,14 @@ def fetch_ticker_financials(ticker: str) -> dict | None:
 
 def _update_detection_history(rows: list[dict], today: str) -> dict:
     """
-    Maintain first-detection history for backtest tracking.
+    Maintain first-detection history for permanent backtest tracking.
 
-    For each detected ticker: if not already in history, record first detection
-    date + price + score. If already present, keep existing (first detection).
-    Also tracks last_seen date to identify dropoffs.
+    Design:
+      - First detection date = Day 1, stored once and never changed.
+      - current_price is refreshed daily for ALL history tickers (even after
+        they drop out of the screener), so return_pct tracks the full holding
+        period from detection date.
+      - still_active flag = ticker is in today's detected set.
 
     Returns the updated history dict.
     """
@@ -180,7 +183,7 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
 
     detected = {r["ticker"]: r for r in rows if r.get("detected")}
 
-    # Add new detections
+    # Step 1: register new detections (first_detected = today, entry price)
     for ticker, r in detected.items():
         if ticker not in history:
             history[ticker] = {
@@ -190,19 +193,68 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
                 "market": r.get("market", "US"),
                 "company": r.get("company", ""),
             }
-        # Always update last_seen + current data
         history[ticker]["last_seen"] = today
-        history[ticker]["current_price"] = r.get("current_price")
         history[ticker]["current_score"] = r.get("score")
         history[ticker]["rs_rating"] = r.get("rs_rating")
 
-    # For tickers NOT detected today but in history, just update last_seen info
-    # (don't update current_price — we'll fetch it in the backtest page)
+    # Step 2: refresh current_price for ALL history tickers (not just detected
+    # today) so return_pct keeps updating even after screener drop-off.
+    all_tickers = list(history.keys())
+    if all_tickers:
+        print(f"\nRefreshing current prices for {len(all_tickers)} history tickers...")
+        latest = _fetch_latest_prices(all_tickers)
+        updated = 0
+        for t in all_tickers:
+            px = latest.get(t)
+            if px is not None:
+                history[t]["current_price"] = px
+                updated += 1
+        print(f"  {updated}/{len(all_tickers)} prices refreshed")
 
     HISTORY_PATH.write_text(
         json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return history
+
+
+def _fetch_latest_prices(tickers: list[str]) -> dict[str, float]:
+    """
+    Batch fetch latest close for a list of tickers via yfinance.
+    Returns {ticker: close_price}. Missing tickers are omitted.
+    """
+    if not tickers:
+        return {}
+    out: dict[str, float] = {}
+    try:
+        data = yf.download(
+            tickers=" ".join(tickers),
+            period="5d",
+            interval="1d",
+            group_by="ticker",
+            auto_adjust=True,
+            progress=False,
+            threads=True,
+        )
+    except Exception as e:
+        print(f"  [latest prices] download failed: {e}")
+        return out
+    if len(tickers) == 1:
+        t = tickers[0]
+        try:
+            close = data["Close"].dropna()
+            if len(close) > 0:
+                out[t] = round(float(close.iloc[-1]), 2)
+        except (KeyError, AttributeError):
+            pass
+        return out
+    for t in tickers:
+        try:
+            close = data[t]["Close"].dropna()
+            if len(close) > 0:
+                out[t] = round(float(close.iloc[-1]), 2)
+        except (KeyError, AttributeError):
+            continue
+    return out
 
 
 def _df_ohlcv_to_list(df):

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import TradingViewWidget from "./TradingViewWidget";
 import FinancialSummary from "./FinancialSummary";
+import RuleScorecard from "./RuleScorecard";
 import type { Candidate, TickerFinancials } from "../../types";
 
 export const dynamic = "force-static";
@@ -141,10 +142,13 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
         </section>
       )}
 
-      {/* TradingView Chart */}
+      {/* TradingView Chart (dominant) */}
       <section className="card overflow-hidden mb-6">
         <TradingViewWidget ticker={ticker} market={market} />
       </section>
+
+      {/* Rule Scorecard — Primary / Secondary breakdown */}
+      <RuleScorecard candidate={candidate} />
 
       {/* Financials */}
       {financials ? (
