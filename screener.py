@@ -511,6 +511,246 @@ class VCPResult:
     score: float                # composite score 0-100 (set by pipeline)
 
 
+# =============================================================================
+# Rule-based scoring (CANSLIM-style soft ranking)
+# =============================================================================
+
+
+@dataclass
+class RuleResult:
+    """Single rule evaluation. value/threshold may be None when N/A."""
+    name: str
+    passed: bool
+    value: float | None = None
+    threshold: float | None = None
+    note: str = ""
+
+    def __post_init__(self):
+        # Coerce numpy types to native Python for JSON serialization.
+        self.passed = bool(self.passed)
+        if self.value is not None:
+            try:
+                self.value = float(self.value)
+            except (TypeError, ValueError):
+                self.value = None
+        if self.threshold is not None:
+            try:
+                self.threshold = float(self.threshold)
+            except (TypeError, ValueError):
+                self.threshold = None
+
+
+# Liquidity threshold per market (local currency, daily dollar volume).
+# US ~$20M ≈ KR ₩20B ≈ HK$150M (rough parity).
+LIQUIDITY_THRESHOLDS = {
+    "US": 20_000_000,
+    "HK": 150_000_000,
+    "KR": 20_000_000_000,
+}
+
+
+def _consecutive_rising(series_values: np.ndarray, days: int = 21) -> tuple[bool, int]:
+    """Return (all_rising_for_last `days`, count of rising transitions)."""
+    if len(series_values) < days:
+        return False, 0
+    last = series_values[-days:]
+    transitions = 0
+    valid_transitions = 0
+    for i in range(1, len(last)):
+        a, b = last[i - 1], last[i]
+        if np.isnan(a) or np.isnan(b):
+            continue
+        valid_transitions += 1
+        if b > a:
+            transitions += 1
+    all_rising = (valid_transitions > 0 and transitions == valid_transitions)
+    return all_rising, transitions
+
+
+def evaluate_rules(
+    df: pd.DataFrame,
+    rs_rating: int,
+    market: str,
+    vcp: VCPResult | None = None,
+    fundamentals: dict | None = None,
+) -> dict[str, RuleResult]:
+    """
+    Compute all per-stock pass/fail rules. Returns dict of rule_id -> RuleResult.
+
+    Rule pool:
+      Trend (4): T1-T4
+      Momentum (2): M1-M2
+      Relative Strength (2): R1-R2
+      Volatility/Liquidity (2): V1-V2
+      VCP Pattern (3): P1-P3
+      Fundamentals (3, US only): F1-F3
+    """
+    rules: dict[str, RuleResult] = {}
+    close = df["Close"]
+
+    # ---- Trend (MA cascade + 200d slope) ----
+    if len(close) >= 200:
+        sma20 = float(close.rolling(20).mean().iloc[-1])
+        sma50 = float(close.rolling(50).mean().iloc[-1])
+        sma150 = float(close.rolling(150).mean().iloc[-1])
+        sma200_series = close.rolling(200).mean()
+        sma200 = float(sma200_series.iloc[-1])
+        if not any(np.isnan(x) for x in (sma20, sma50, sma150, sma200)):
+            rules["T1_sma50_gt_sma150"] = RuleResult(
+                "SMA50 > SMA150", sma50 > sma150,
+                round(sma50 / sma150, 4) if sma150 else None, 1.0)
+            rules["T2_sma150_gt_sma200"] = RuleResult(
+                "SMA150 > SMA200", sma150 > sma200,
+                round(sma150 / sma200, 4) if sma200 else None, 1.0)
+            rules["T3_sma20_gt_sma50"] = RuleResult(
+                "SMA20 > SMA50", sma20 > sma50,
+                round(sma20 / sma50, 4) if sma50 else None, 1.0)
+            all_rising, rising_days = _consecutive_rising(sma200_series.values, days=21)
+            rules["T4_sma200_rising_21d"] = RuleResult(
+                "200d SMA rising 21 days", all_rising,
+                float(rising_days), 20.0)
+
+    # ---- Momentum ----
+    if len(close) >= 252:
+        p = float(close.iloc[-1])
+        high52 = float(close.iloc[-252:].max())
+        pct_below = (p / high52 - 1.0) * 100
+        rules["M1_near_52w_high"] = RuleResult(
+            "Within 10% of 52W high", pct_below >= -10.0,
+            round(pct_below, 2), -10.0)
+    if len(close) >= 64:
+        p = float(close.iloc[-1])
+        q_ago = float(close.iloc[-64])
+        if q_ago > 0:
+            qperf = (p / q_ago - 1.0) * 100
+            rules["M2_quarter_positive"] = RuleResult(
+                "Quarter perf > 0", qperf > 0, round(qperf, 2), 0.0)
+
+    # ---- Relative Strength ----
+    rules["R1_rs_70"] = RuleResult(
+        "RS Rating ≥ 70", rs_rating >= 70, float(rs_rating), 70.0)
+    rules["R2_rs_90"] = RuleResult(
+        "RS Rating ≥ 90", rs_rating >= 90, float(rs_rating), 90.0)
+
+    # ---- Volatility (52W span) ----
+    if len(close) >= 252:
+        h = float(close.iloc[-252:].max())
+        l = float(close.iloc[-252:].min())
+        if l > 0:
+            passed = 0.75 * h > 1.25 * l
+            ratio = (0.75 * h) / (1.25 * l)
+            rules["V1_52w_span"] = RuleResult(
+                "52W span (0.75H > 1.25L)", passed, round(ratio, 3), 1.0)
+
+    # ---- Liquidity ----
+    if len(df) >= 50:
+        sma50_price = float(close.iloc[-50:].mean())
+        sma50_vol = float(df["Volume"].iloc[-50:].mean())
+        dollar_vol = sma50_price * sma50_vol
+        threshold = LIQUIDITY_THRESHOLDS.get(market, 20_000_000)
+        rules["V2_liquidity"] = RuleResult(
+            "Daily $ volume ≥ market threshold",
+            dollar_vol >= threshold,
+            round(dollar_vol, 0), float(threshold))
+
+    # ---- VCP Pattern (from VCPResult) ----
+    if vcp is not None:
+        recent = vcp.contractions
+        is_tightening = (
+            len(recent) >= 2 and
+            all(recent[i] <= recent[i - 1] * 1.10 for i in range(1, len(recent)))
+        )
+        rules["P1_tightening"] = RuleResult(
+            "Progressive tightening (n≥2)", is_tightening,
+            float(len(recent)), 2.0)
+
+        last_c = vcp.last_contraction_pct
+        last_c_passed = (last_c == last_c) and (last_c < 10.0)
+        rules["P2_last_contraction"] = RuleResult(
+            "Last contraction < 10%", last_c_passed,
+            round(last_c, 2) if last_c == last_c else None, 10.0)
+
+        vr = vcp.volume_dryup_ratio
+        vr_passed = (vr == vr) and (vr < 0.6)
+        rules["P3_vol_dryup"] = RuleResult(
+            "Volume dry-up < 0.6× SMA50", vr_passed,
+            round(vr, 3) if vr == vr else None, 0.6)
+
+    # ---- Fundamentals (US only; N/A for HK/KR) ----
+    if market == "US" and fundamentals:
+        eps_g = fundamentals.get("earningsQuarterlyGrowth")
+        rev_g = fundamentals.get("revenueGrowth")
+        inst = fundamentals.get("heldPercentInstitutions")
+        if eps_g is not None:
+            rules["F1_eps_growth"] = RuleResult(
+                "EPS QoQ YoY > 18%", eps_g > 0.18,
+                round(eps_g * 100, 2), 18.0)
+        if rev_g is not None:
+            rules["F2_rev_growth"] = RuleResult(
+                "Sales YoY > 25%", rev_g > 0.25,
+                round(rev_g * 100, 2), 25.0)
+        if inst is not None:
+            rules["F3_inst_ownership"] = RuleResult(
+                "Institutional own. ≥ 5%", inst >= 0.05,
+                round(inst * 100, 2), 5.0)
+
+    return rules
+
+
+def evaluate_market_direction(bench_close: pd.Series | None) -> dict[str, RuleResult]:
+    """Index-level rules — computed once per market, displayed as banner."""
+    rules: dict[str, RuleResult] = {}
+    if bench_close is None or len(bench_close) < 50:
+        return rules
+    sma21_series = bench_close.rolling(21).mean()
+    sma50_series = bench_close.rolling(50).mean()
+    sma21 = float(sma21_series.iloc[-1])
+    sma50 = float(sma50_series.iloc[-1])
+    if not (np.isnan(sma21) or np.isnan(sma50)):
+        rules["MD1_idx_sma21_gt_sma50"] = RuleResult(
+            "Index SMA21 > SMA50", sma21 > sma50,
+            round(sma21 / sma50, 4) if sma50 else None, 1.0)
+    all_rising, rising_days = _consecutive_rising(sma50_series.values, days=21)
+    rules["MD2_idx_sma50_rising_21d"] = RuleResult(
+        "Index 50d SMA rising 21d", all_rising,
+        float(rising_days), 20.0)
+    return rules
+
+
+def fetch_fundamentals_us(tickers: list[str], delay: float = 1.0) -> dict[str, dict]:
+    """
+    Fetch fundamentals via yfinance .info for US tickers (post-RS subset only).
+    Sequential with delay to avoid rate limit. Returns {ticker: {eps_g, rev_g, inst}}.
+    """
+    out: dict[str, dict] = {}
+    import time as _t
+    for i, t in enumerate(tickers):
+        if i > 0:
+            _t.sleep(delay)
+        try:
+            info = yf.Ticker(t).info or {}
+            out[t] = {
+                "earningsQuarterlyGrowth": info.get("earningsQuarterlyGrowth"),
+                "revenueGrowth": info.get("revenueGrowth"),
+                "heldPercentInstitutions": info.get("heldPercentInstitutions"),
+            }
+        except Exception:
+            out[t] = {}
+    return out
+
+
+def rules_to_dict(rules: dict[str, RuleResult]) -> dict:
+    """Serialize rules dict for JSON output."""
+    return {k: asdict(v) for k, v in rules.items()}
+
+
+def count_rules_passed(rules: dict[str, RuleResult]) -> tuple[int, int]:
+    """Returns (passed_count, total_evaluated)."""
+    total = len(rules)
+    passed = sum(1 for r in rules.values() if r.passed)
+    return passed, total
+
+
 def _find_swings(
     closes: np.ndarray,
     highs: np.ndarray,
@@ -577,15 +817,17 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     current_price = float(closes[-1])
     pct_to_pivot = (current_price / pivot_price - 1.0) * 100
 
-    avg_recent_vol = float(vols[-5:].mean())
-    avg_base_vol = float(vols.mean())
-    vol_ratio = avg_recent_vol / avg_base_vol if avg_base_vol > 0 else np.nan
+    # Volume dry-up: recent 5-day avg vs 50-day SMA of volume, computed
+    # on the full df (not just the base window) so the denominator excludes
+    # the dry-up period itself. Community consensus: final contraction
+    # should show volume 40-60% below the 50-day average (ratio 0.4-0.6).
+    all_vols = df["Volume"].values
+    avg_recent_vol = float(all_vols[-5:].mean())
+    sma50_vol = float(all_vols[-50:].mean()) if len(all_vols) >= 50 else float(all_vols.mean())
+    vol_ratio = avg_recent_vol / sma50_vol if sma50_vol > 0 else np.nan
 
     # Base depth = deepest contraction in the VCP sequence.
-    # Using the raw (highs.max()-lows.min()) range is wrong for uptrending stocks
-    # because it measures the full trend range, not the actual pullback depth.
-    # The correct depth is max(contractions) — the largest peak-to-trough drop.
-    # Minervini: ideal 12-20%, good <35%, acceptable up to ~50%.
+    # Minervini: ideal 12-20%, good <35%. Deeper = structurally damaged.
     base_depth_pct = max(recent) * 100 if recent else np.nan
 
     # Stage Analysis (Weinstein)
@@ -597,10 +839,10 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     detected = (
         tightening
         and n >= 2
-        and last_pct < 15.0
-        and vol_ratio < 0.95
+        and last_pct < 10.0
+        and vol_ratio < 0.6
         and pct_to_pivot > -12.0
-        and (base_depth_pct == base_depth_pct and base_depth_pct <= 50.0)
+        and (base_depth_pct == base_depth_pct and base_depth_pct <= 35.0)
         and stage == 2
     )
 
@@ -610,6 +852,8 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
         vcp_q += 4                                          # base
         vcp_q += min(4, n * 1)                              # more contractions
         vcp_q += max(0, 5 - last_pct * 0.4)                 # tighter last contraction
+        if last_pct <= 6.0:                                 # Minervini sweet-spot bonus
+            vcp_q += 2
         vcp_q += max(0, 3 - vol_ratio * 3)                  # volume dry-up
         vcp_q += max(0, 2 - max(0, base_depth_pct - 15) * 0.08) if base_depth_pct == base_depth_pct else 0
         vcp_q += max(0, 2 + pct_to_pivot * 0.2)             # pivot proximity
@@ -667,10 +911,13 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
     survivors = [t for t in tt_tickers if t in rs.index and rs[t] >= min_rs]
     print(f"          {len(survivors)} survivors RS >= {min_rs} (N={len(rs)})")
 
-    print("  [US 5/6] Downloading benchmark (SPY)...")
+    print("  [US 5/7] Downloading benchmark (SPY)...")
     bench = fetch_benchmark("US")
 
-    print("  [US 6/6] VCP detection + Stage + Composite Score...")
+    print(f"  [US 6/7] Fetching fundamentals for {len(survivors)} survivors...")
+    fundamentals = fetch_fundamentals_us(survivors, delay=1.0)
+
+    print("  [US 7/7] VCP detection + Rule eval + Composite Score...")
     rows: list[dict] = []
     for t in survivors:
         if t not in ohlcv:
@@ -705,6 +952,15 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
             pct_from_52w_high=pct_from_52w,
             rs_line_pct=rs_line_pct,
         )
+        # Rule evaluation (CANSLIM-style soft ranking)
+        rules = evaluate_rules(
+            ohlcv[t], int(rs[t]), "US",
+            vcp=r, fundamentals=fundamentals.get(t, {}),
+        )
+        passed, total = count_rules_passed(rules)
+        d["rules"] = rules_to_dict(rules)
+        d["rules_passed"] = passed
+        d["rules_total"] = total
         meta = pf[pf["Ticker"] == t]
         if not meta.empty:
             m = meta.iloc[0]
@@ -776,6 +1032,14 @@ def _run_market_intl(
             pct_from_52w_high=pct_from_52w,
             rs_line_pct=rs_line_pct,
         )
+        # Rule evaluation (no fundamentals for non-US)
+        rules = evaluate_rules(
+            ohlcv[t], int(rs[t]), market_key, vcp=r, fundamentals=None,
+        )
+        passed, total = count_rules_passed(rules)
+        d["rules"] = rules_to_dict(rules)
+        d["rules_passed"] = passed
+        d["rules_total"] = total
         d["company"] = names.get(t, "")
         d["sector"] = ""
         d["industry"] = ""
@@ -790,13 +1054,29 @@ def _run_market_intl(
 
 def run_screener(
     min_rs: int | None = None, vcp_only: bool = True
-) -> pd.DataFrame:
-    """Multi-market pipeline. Reads config.json for market selection."""
+) -> tuple[pd.DataFrame, dict]:
+    """
+    Multi-market pipeline. Reads config.json for market selection.
+
+    Returns (results_df, market_meta) where market_meta =
+      {market: {"direction_rules": {...}, "direction_passed": int, "direction_total": int}}
+    """
     config = load_config()
     if min_rs is None:
         min_rs = config.get("min_rs", 70)
     markets = config.get("markets", DEFAULT_CONFIG["markets"])
     all_rows: list[dict] = []
+    market_meta: dict = {}
+
+    def _add_direction(mkt: str):
+        bench = fetch_benchmark(mkt)
+        dir_rules = evaluate_market_direction(bench)
+        passed = sum(1 for r in dir_rules.values() if r.passed)
+        market_meta[mkt] = {
+            "direction_rules": rules_to_dict(dir_rules),
+            "direction_passed": passed,
+            "direction_total": len(dir_rules),
+        }
 
     # ---- US ----
     us_cfg = markets.get("US", {})
@@ -808,6 +1088,7 @@ def run_screener(
         detected = sum(1 for r in rows if r.get("detected"))
         print(f"  [US] {detected} VCP detected / {len(rows)} total")
         all_rows.extend(rows)
+        _add_direction("US")
 
     # ---- HK ----
     hk_cfg = markets.get("HK", {})
@@ -821,6 +1102,7 @@ def run_screener(
         detected = sum(1 for r in rows if r.get("detected"))
         print(f"  [HK] {detected} VCP detected / {len(rows)} total")
         all_rows.extend(rows)
+        _add_direction("HK")
 
     # ---- KR ----
     kr_cfg = markets.get("KR", {})
@@ -835,18 +1117,20 @@ def run_screener(
         detected = sum(1 for r in rows if r.get("detected"))
         print(f"  [KR] {detected} VCP detected / {len(rows)} total")
         all_rows.extend(rows)
+        _add_direction("KR")
 
     if not all_rows:
-        return pd.DataFrame()
-    return (
+        return pd.DataFrame(), market_meta
+    df = (
         pd.DataFrame(all_rows)
-        .sort_values(["detected", "score"], ascending=[False, False])
+        .sort_values(["rules_passed", "score"], ascending=[False, False])
         .reset_index(drop=True)
     )
+    return df, market_meta
 
 
 if __name__ == "__main__":
-    result = run_screener(vcp_only=True)
+    result, _ = run_screener(vcp_only=True)
     print(f"\n=== {len(result)} VCP candidates ===")
     if not result.empty:
         cols = [

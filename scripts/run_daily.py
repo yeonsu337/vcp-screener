@@ -230,7 +230,7 @@ def main():
     config = load_config()
 
     # Run multi-market pipeline (all candidates, not just VCP-detected)
-    result_df = run_screener(vcp_only=False)
+    result_df, market_direction = run_screener(vcp_only=False)
 
     if result_df.empty:
         print("\nERROR: No results from any market.")
@@ -244,8 +244,8 @@ def main():
             if isinstance(v, float) and v != v:
                 r[k] = None
 
-    # Sort: detected first, then by score
-    rows.sort(key=lambda x: (not x.get("detected", False), -(x.get("score") or 0)))
+    # Sort: rules_passed desc, then composite score desc (soft ranking)
+    rows.sort(key=lambda x: (-(x.get("rules_passed") or 0), -(x.get("score") or 0)))
 
     detected_count = sum(1 for r in rows if r.get("detected"))
     total = len(rows)
@@ -284,6 +284,7 @@ def main():
         "vcp_detected": detected_count,
         "min_rs": config.get("min_rs", 70),
         "markets": market_counts,
+        "market_direction": market_direction,
         "runtime_sec": round(time.time() - t_start, 1),
     }
     (DATA_DIR / "meta.json").write_text(

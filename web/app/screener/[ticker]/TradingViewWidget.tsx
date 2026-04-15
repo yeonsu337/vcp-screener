@@ -74,9 +74,12 @@ function TradingViewWidget({
 
   return (
     <div
-      className="tradingview-widget-container"
+      className="tradingview-widget-container w-full"
       ref={containerRef}
-      style={{ height: 520, width: "100%" }}
+      style={{
+        height: "min(85vh, 900px)",
+        minHeight: 600,
+      }}
     />
   );
 }

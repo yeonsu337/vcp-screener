@@ -49,7 +49,7 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
   const market = candidate.market || "US";
 
   return (
-    <main className="max-w-5xl mx-auto px-4 py-6 md:py-10">
+    <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
       <nav className="mb-4">
         <Link href="/screener" className="text-sm text-muted hover:text-accent">
           &larr; Back to screener

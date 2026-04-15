@@ -1,3 +1,11 @@
+export type RuleResult = {
+  name: string;
+  passed: boolean;
+  value: number | null;
+  threshold: number | null;
+  note?: string;
+};
+
 export type Candidate = {
   ticker: string;
   company: string;
@@ -19,11 +27,20 @@ export type Candidate = {
   pct_to_pivot: number | null;
   volume_dryup_ratio: number | null;
   rs_line_pct_from_high: number | null;
+  rules?: Record<string, RuleResult>;
+  rules_passed?: number;
+  rules_total?: number;
 };
 
 export type MarketBreakdown = {
   total: number;
   detected: number;
+};
+
+export type MarketDirection = {
+  direction_rules: Record<string, RuleResult>;
+  direction_passed: number;
+  direction_total: number;
 };
 
 export type Meta = {
@@ -32,6 +49,7 @@ export type Meta = {
   vcp_detected: number;
   min_rs: number;
   markets: Record<string, MarketBreakdown>;
+  market_direction?: Record<string, MarketDirection>;
   runtime_sec: number;
 };
 
