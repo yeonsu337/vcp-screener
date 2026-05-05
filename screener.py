@@ -509,6 +509,20 @@ class VCPResult:
     volume_dryup_ratio: float
     vcp_quality: float          # VCP pattern quality 0-20
     score: float                # composite score 0-100 (set by pipeline)
+    # Visualization metadata (for chart overlays). All fields optional.
+    contraction_ranges: list = None     # [{start,end,high,low,depth_pct}]
+    pivot_date: str = None              # YYYY-MM-DD of last swing high
+    shakeout_dates: list = None         # ["YYYY-MM-DD", ...]
+    dryup_ranges: list = None           # [{start,end}]
+
+    def __post_init__(self):
+        # Default to empty list when None for JSON serialization.
+        if self.contraction_ranges is None:
+            self.contraction_ranges = []
+        if self.shakeout_dates is None:
+            self.shakeout_dates = []
+        if self.dryup_ranges is None:
+            self.dryup_ranges = []
 
 
 # =============================================================================
@@ -567,132 +581,448 @@ def _consecutive_rising(series_values: np.ndarray, days: int = 21) -> tuple[bool
     return all_rising, transitions
 
 
+def _hh_hl_check(close: pd.Series, lookback: int = 130, min_pairs: int = 3) -> tuple[bool, int]:
+    """
+    Check whether last `lookback` bars form Higher Highs / Higher Lows structure.
+
+    Algorithm: detect swing highs/lows via scipy.find_peaks with prominence proportional
+    to recent volatility, then verify at least `min_pairs` consecutive HH and HL pairs.
+
+    Returns (passed, n_consecutive_pairs).
+    """
+    if len(close) < lookback:
+        return False, 0
+    try:
+        from scipy.signal import find_peaks
+    except Exception:
+        return False, 0
+    seg = close.iloc[-lookback:].values
+    if len(seg) < 20:
+        return False, 0
+    # Prominence as a fraction of price range — keeps detection scale-invariant.
+    rng = float(np.nanmax(seg) - np.nanmin(seg))
+    prom = max(rng * 0.04, 1e-6)
+    distance = 5  # minimum bars between swings
+    highs_idx, _ = find_peaks(seg, prominence=prom, distance=distance)
+    lows_idx, _ = find_peaks(-seg, prominence=prom, distance=distance)
+    if len(highs_idx) < 2 or len(lows_idx) < 2:
+        return False, 0
+    # Count consecutive HH from the most recent backwards
+    hh_count = 0
+    for i in range(len(highs_idx) - 1, 0, -1):
+        if seg[highs_idx[i]] > seg[highs_idx[i - 1]]:
+            hh_count += 1
+        else:
+            break
+    hl_count = 0
+    for i in range(len(lows_idx) - 1, 0, -1):
+        if seg[lows_idx[i]] > seg[lows_idx[i - 1]]:
+            hl_count += 1
+        else:
+            break
+    pairs = min(hh_count, hl_count)
+    return pairs >= min_pairs, pairs
+
+
 def evaluate_rules(
     df: pd.DataFrame,
     rs_rating: int,
     market: str,
     vcp: VCPResult | None = None,
     fundamentals: dict | None = None,
+    stage: int = 0,
 ) -> dict[str, RuleResult]:
     """
     Compute all per-stock pass/fail rules. Returns dict of rule_id -> RuleResult.
 
     Rule pool:
-      Trend (4): T1-T4
-      Momentum (2): M1-M2
-      Relative Strength (2): R1-R2
-      Volatility/Liquidity (2): V1-V2
-      VCP Pattern (3): P1-P3
-      Fundamentals (3, US only): F1-F3
+      Volume (1): A1
+      Trend — Minervini Trend Template (7 Primary): B1-B7
+      Trend — Bonus (3 Secondary): B8-B10
+      Relative Strength (3): R1-R3 (70 / 80 / 90)
+      Volatility — ATR Contraction (2 Secondary): V1, V2
+      Liquidity (1 Primary + 3 Secondary): L1-L4
+      VCP Pattern (5): P1-P4 + P6 (P5 Shakeout deferred to chart annotation)
+      Earnings (10, US only): E1-E10 (E7 ROE Primary)
+      Leadership (3, US only): F1-F3 (F1 1Y outperform Primary)
+      Quality (4, US only): H1-H4 (H4 3Y CAGR Primary)
     """
     rules: dict[str, RuleResult] = {}
     close = df["Close"]
 
-    # ---- Trend (MA cascade + 200d slope) ----
+    # ---- Volume (IBD U/D Volume Ratio, 50-day daily) ----
+    # Industry standard: sum of volume on up days / sum on down days over last 50 trading days.
+    # ≥ 1.0 = buying pressure dominates (IBD pass threshold).
+    # ≥ 1.25-1.50 = CANSLIM long-setup minimum (handled as separate Secondary rule later).
+    if len(df) >= 50 and "Volume" in df.columns:
+        c = close.iloc[-50:].values
+        v = df["Volume"].iloc[-50:].values
+        up_vol = 0.0
+        dn_vol = 0.0
+        for i in range(1, len(c)):
+            if np.isnan(c[i]) or np.isnan(c[i - 1]) or np.isnan(v[i]):
+                continue
+            if c[i] > c[i - 1]:
+                up_vol += float(v[i])
+            elif c[i] < c[i - 1]:
+                dn_vol += float(v[i])
+        if dn_vol > 0:
+            ud_ratio = up_vol / dn_vol
+            rules["A1_ud_vol_ratio"] = RuleResult(
+                "U/D Volume Ratio ≥ 1.0 (50d)",
+                ud_ratio >= 1.0,
+                round(ud_ratio, 3), 1.0)
+        elif up_vol > 0:
+            # All up days or no down days — strongly bullish
+            rules["A1_ud_vol_ratio"] = RuleResult(
+                "U/D Volume Ratio ≥ 1.0 (50d)",
+                True, None, 1.0,
+                note="no down-day volume in window")
+
+    # ---- Trend — Minervini Trend Template (8 official criteria, plus Stage2/HH-HL bonus) ----
     if len(close) >= 200:
-        sma20 = float(close.rolling(20).mean().iloc[-1])
+        p = float(close.iloc[-1])
         sma50 = float(close.rolling(50).mean().iloc[-1])
         sma150 = float(close.rolling(150).mean().iloc[-1])
         sma200_series = close.rolling(200).mean()
         sma200 = float(sma200_series.iloc[-1])
-        if not any(np.isnan(x) for x in (sma20, sma50, sma150, sma200)):
-            rules["T1_sma50_gt_sma150"] = RuleResult(
-                "SMA50 > SMA150", sma50 > sma150,
-                round(sma50 / sma150, 4) if sma150 else None, 1.0)
-            rules["T2_sma150_gt_sma200"] = RuleResult(
+        if not any(np.isnan(x) for x in (sma50, sma150, sma200)):
+            # B1: Price > SMA150 AND Price > SMA200 (Minervini #1)
+            b1_pass = p > sma150 and p > sma200
+            b1_val = round(min(p / sma150, p / sma200), 4) if (sma150 and sma200) else None
+            rules["B1_price_above_150_200"] = RuleResult(
+                "Price > SMA150 & SMA200", b1_pass, b1_val, 1.0)
+
+            # B2: SMA150 > SMA200 (Minervini #2)
+            rules["B2_sma150_gt_sma200"] = RuleResult(
                 "SMA150 > SMA200", sma150 > sma200,
                 round(sma150 / sma200, 4) if sma200 else None, 1.0)
-            rules["T3_sma20_gt_sma50"] = RuleResult(
-                "SMA20 > SMA50", sma20 > sma50,
-                round(sma20 / sma50, 4) if sma50 else None, 1.0)
-            all_rising, rising_days = _consecutive_rising(sma200_series.values, days=21)
-            rules["T4_sma200_rising_21d"] = RuleResult(
-                "200d SMA rising 21 days", all_rising,
-                float(rising_days), 20.0)
 
-    # ---- Momentum ----
+            # B3: SMA50 > SMA150 AND SMA50 > SMA200 (Minervini #4)
+            b3_pass = sma50 > sma150 and sma50 > sma200
+            b3_val = round(min(sma50 / sma150, sma50 / sma200), 4) if (sma150 and sma200) else None
+            rules["B3_sma50_gt_150_200"] = RuleResult(
+                "SMA50 > SMA150 & SMA200", b3_pass, b3_val, 1.0)
+
+            # B4: Price > SMA50 (Minervini #5)
+            rules["B4_price_above_sma50"] = RuleResult(
+                "Price > SMA50", p > sma50,
+                round(p / sma50, 4) if sma50 else None, 1.0)
+
+            # B5: 200d SMA rising for 4-5 months (Minervini #3)
+            # Standard: minimum 1 month, ideal 4-5 months. We require 100 trading days (~5 months).
+            sma200_vals = sma200_series.values
+            B5_WINDOW = 100
+            b5_pass = False
+            b5_rising_days = 0
+            if len(sma200_vals) >= B5_WINDOW + 1:
+                b5_all_rising, b5_rising_days = _consecutive_rising(sma200_vals, days=B5_WINDOW)
+                b5_pass = b5_all_rising
+            rules["B5_sma200_rising_5mo"] = RuleResult(
+                "200d SMA rising 4-5 months",
+                b5_pass, float(b5_rising_days), float(B5_WINDOW - 1))
+
+    # ---- 52W high / low position (Minervini #6, #7) ----
     if len(close) >= 252:
         p = float(close.iloc[-1])
         high52 = float(close.iloc[-252:].max())
-        pct_below = (p / high52 - 1.0) * 100
-        rules["M1_near_52w_high"] = RuleResult(
-            "Within 10% of 52W high", pct_below >= -10.0,
-            round(pct_below, 2), -10.0)
-    if len(close) >= 64:
-        p = float(close.iloc[-1])
-        q_ago = float(close.iloc[-64])
-        if q_ago > 0:
-            qperf = (p / q_ago - 1.0) * 100
-            rules["M2_quarter_positive"] = RuleResult(
-                "Quarter perf > 0", qperf > 0, round(qperf, 2), 0.0)
+        low52 = float(close.iloc[-252:].min())
+        pct_below_high = (p / high52 - 1.0) * 100  # negative = below high
+        pct_above_low = (p / low52 - 1.0) * 100 if low52 > 0 else 0.0
 
-    # ---- Relative Strength ----
+        # B6: Price >= 30% above 52W low (Minervini #6)
+        rules["B6_30pct_above_52w_low"] = RuleResult(
+            "≥ 30% above 52W low", pct_above_low >= 30.0,
+            round(pct_above_low, 2), 30.0)
+
+        # B7: Price within 25% of 52W high (Minervini #7) — Primary gate
+        rules["B7_within_25pct_high"] = RuleResult(
+            "Within 25% of 52W high", pct_below_high >= -25.0,
+            round(pct_below_high, 2), -25.0)
+
+        # B8: Price within 10% of 52W high — Secondary bonus (closer to pivot)
+        rules["B8_within_10pct_high"] = RuleResult(
+            "Within 10% of 52W high (bonus)", pct_below_high >= -10.0,
+            round(pct_below_high, 2), -10.0)
+
+    # ---- B9: Stage 2 (Weinstein) — already computed by determine_stage() ----
+    if stage > 0:
+        rules["B9_stage2"] = RuleResult(
+            "Weinstein Stage 2 (Advancing)", stage == 2,
+            float(stage), 2.0)
+
+    # ---- B10: Higher Highs / Higher Lows (last 6 months swing structure) ----
+    if len(close) >= 130:
+        b10_pass, b10_pairs = _hh_hl_check(close, lookback=130, min_pairs=3)
+        rules["B10_higher_highs_lows"] = RuleResult(
+            "Higher Highs / Higher Lows (3+ pairs)",
+            b10_pass, float(b10_pairs), 3.0)
+
+    # ---- Relative Strength (3-tier: 70 Minervini gate / 80 CANSLIM Leader / 90 strong) ----
     rules["R1_rs_70"] = RuleResult(
-        "RS Rating ≥ 70", rs_rating >= 70, float(rs_rating), 70.0)
-    rules["R2_rs_90"] = RuleResult(
-        "RS Rating ≥ 90", rs_rating >= 90, float(rs_rating), 90.0)
+        "RS Rating ≥ 70 (Minervini gate)", rs_rating >= 70, float(rs_rating), 70.0)
+    rules["R2_rs_80"] = RuleResult(
+        "RS Rating ≥ 80 (CANSLIM Leader)", rs_rating >= 80, float(rs_rating), 80.0)
+    rules["R3_rs_90"] = RuleResult(
+        "RS Rating ≥ 90 (Strong leader)", rs_rating >= 90, float(rs_rating), 90.0)
 
-    # ---- Volatility (52W span) ----
-    if len(close) >= 252:
-        h = float(close.iloc[-252:].max())
-        l = float(close.iloc[-252:].min())
-        if l > 0:
-            passed = 0.75 * h > 1.25 * l
-            ratio = (0.75 * h) / (1.25 * l)
-            rules["V1_52w_span"] = RuleResult(
-                "52W span (0.75H > 1.25L)", passed, round(ratio, 3), 1.0)
+    # ---- Volatility (ATR Contraction) ----
+    # V1: 50d ATR(14) / 250d ATR(14) < 0.85
+    #     Recent quarter's average daily range vs full-year average. Captures VCP-style contraction.
+    # V2: 30d return stdev / 60d return stdev < 1.0
+    #     Last 6 weeks' daily-return volatility vs prior 12 weeks. Near-term tightening.
+    if len(df) >= 250 and {"High", "Low", "Close"}.issubset(df.columns):
+        h_arr = df["High"].values
+        l_arr = df["Low"].values
+        c_arr = df["Close"].values
+        prev_close = np.concatenate(([np.nan], c_arr[:-1]))
+        tr = np.maximum.reduce([
+            h_arr - l_arr,
+            np.abs(h_arr - prev_close),
+            np.abs(l_arr - prev_close),
+        ])
+        atr14 = pd.Series(tr).rolling(14).mean()
+        if len(atr14) >= 250 and not np.isnan(atr14.iloc[-1]):
+            atr_50 = float(atr14.iloc[-50:].mean())
+            atr_250 = float(atr14.iloc[-250:].mean())
+            if atr_250 > 0:
+                v1_ratio = atr_50 / atr_250
+                rules["V1_atr_contraction"] = RuleResult(
+                    "ATR Contraction (50d/250d < 0.85)",
+                    v1_ratio < 0.85, round(v1_ratio, 3), 0.85)
 
-    # ---- Liquidity ----
+    if len(close) >= 60:
+        ret = close.pct_change()
+        std30 = float(ret.iloc[-30:].std())
+        std60 = float(ret.iloc[-60:].std())
+        if std60 > 0 and not np.isnan(std30):
+            v2_ratio = std30 / std60
+            rules["V2_short_term_tightening"] = RuleResult(
+                "Near-term volatility tightening (30d/60d < 1.0)",
+                v2_ratio < 1.0, round(v2_ratio, 3), 1.0)
+
+    # ---- Liquidity (4-tier: $20M gate / $50M institutional / 400K shares / $12 floor) ----
     if len(df) >= 50:
         sma50_price = float(close.iloc[-50:].mean())
         sma50_vol = float(df["Volume"].iloc[-50:].mean())
         dollar_vol = sma50_price * sma50_vol
         threshold = LIQUIDITY_THRESHOLDS.get(market, 20_000_000)
-        rules["V2_liquidity"] = RuleResult(
+
+        # L1: market-specific gate (Primary). Was V2_liquidity.
+        rules["L1_liquidity_gate"] = RuleResult(
             "Daily $ volume ≥ market threshold",
             dollar_vol >= threshold,
             round(dollar_vol, 0), float(threshold))
 
+        # L2: $50M institutional grade (Secondary, US-style threshold scaled by market multiplier)
+        l2_threshold = threshold * 2.5
+        rules["L2_liquidity_50m"] = RuleResult(
+            "Daily $ volume ≥ 2.5× threshold (institutional)",
+            dollar_vol >= l2_threshold,
+            round(dollar_vol, 0), float(l2_threshold))
+
+        # L3: 400K avg shares per day (Secondary, US only — share counts are not comparable cross-market)
+        if market == "US":
+            rules["L3_share_volume"] = RuleResult(
+                "Avg shares ≥ 400K (50d)",
+                sma50_vol >= 400_000,
+                round(sma50_vol, 0), 400_000.0)
+
+        # L4: $12 minimum price (Secondary, US only — Minervini penny-stock floor)
+        if market == "US":
+            current_price = float(close.iloc[-1])
+            rules["L4_price_floor"] = RuleResult(
+                "Price ≥ $12 (Minervini floor)",
+                current_price >= 12.0,
+                round(current_price, 2), 12.0)
+
     # ---- VCP Pattern (from VCPResult) ----
     if vcp is not None:
         recent = vcp.contractions
+
+        # P1: Progressive tightening, now requires n ≥ 3 (Minervini ideal: 18→12→6 pattern).
         is_tightening = (
-            len(recent) >= 2 and
+            len(recent) >= 3 and
             all(recent[i] <= recent[i - 1] * 1.10 for i in range(1, len(recent)))
         )
         rules["P1_tightening"] = RuleResult(
-            "Progressive tightening (n≥2)", is_tightening,
-            float(len(recent)), 2.0)
+            "Progressive tightening (n≥3)", is_tightening,
+            float(len(recent)), 3.0)
 
+        # P2: Last contraction < 6.5% (tightened from 10%).
         last_c = vcp.last_contraction_pct
-        last_c_passed = (last_c == last_c) and (last_c < 10.0)
+        last_c_passed = (last_c == last_c) and (last_c < 6.5)
         rules["P2_last_contraction"] = RuleResult(
-            "Last contraction < 10%", last_c_passed,
-            round(last_c, 2) if last_c == last_c else None, 10.0)
+            "Last contraction < 6.5%", last_c_passed,
+            round(last_c, 2) if last_c == last_c else None, 6.5)
 
+        # P3: Volume dry-up.
         vr = vcp.volume_dryup_ratio
         vr_passed = (vr == vr) and (vr < 0.6)
         rules["P3_vol_dryup"] = RuleResult(
             "Volume dry-up < 0.6× SMA50", vr_passed,
             round(vr, 3) if vr == vr else None, 0.6)
 
+        # P4: Base count ≤ 2 (1st-2nd base only — Minervini favors early bases).
+        # Heuristic proxy: if last 6m return < 50% AND 6m return > 0% → likely 1-2 bases formed.
+        # If 6m return > 100% → likely 3rd+ base (extended).
+        base_count_proxy: int | None = None
+        if len(close) >= 130:
+            p_now = float(close.iloc[-1])
+            p_6m = float(close.iloc[-130])
+            if p_6m > 0:
+                ret_6m = (p_now / p_6m - 1) * 100
+                if ret_6m <= 50:
+                    base_count_proxy = 1 if ret_6m <= 25 else 2
+                elif ret_6m <= 100:
+                    base_count_proxy = 3
+                else:
+                    base_count_proxy = 4
+        if base_count_proxy is not None:
+            rules["P4_base_count"] = RuleResult(
+                "Base count ≤ 2 (early base)",
+                base_count_proxy <= 2,
+                float(base_count_proxy), 2.0,
+                note="proxy from 6m return")
+
+        # P6: Contractions monotonically decreasing — each ≤ 75% of prior (Minervini ideal).
+        if len(recent) >= 3:
+            mono_pass = all(
+                recent[i] <= recent[i - 1] * 0.75 for i in range(1, len(recent))
+            )
+            ratios = [recent[i] / recent[i - 1] for i in range(1, len(recent)) if recent[i - 1] > 0]
+            avg_ratio = float(np.mean(ratios)) if ratios else 1.0
+            rules["P6_monotonic_decreasing"] = RuleResult(
+                "Contractions monotonic ≤0.75× prior",
+                mono_pass, round(avg_ratio, 3), 0.75)
+
     # ---- Fundamentals (US only; N/A for HK/KR) ----
     if market == "US" and fundamentals:
+        # E1: EPS QoQ YoY > 18% (existing F1 threshold preserved per user decision).
         eps_g = fundamentals.get("earningsQuarterlyGrowth")
-        rev_g = fundamentals.get("revenueGrowth")
-        inst = fundamentals.get("heldPercentInstitutions")
         if eps_g is not None:
-            rules["F1_eps_growth"] = RuleResult(
+            rules["E1_eps_growth"] = RuleResult(
                 "EPS QoQ YoY > 18%", eps_g > 0.18,
                 round(eps_g * 100, 2), 18.0)
+
+        # E3: Sales YoY > 25%.
+        rev_g = fundamentals.get("revenueGrowth")
         if rev_g is not None:
-            rules["F2_rev_growth"] = RuleResult(
+            rules["E3_rev_growth"] = RuleResult(
                 "Sales YoY > 25%", rev_g > 0.25,
                 round(rev_g * 100, 2), 25.0)
+
+        # E7: ROE ≥ 17% (Minervini standard) — Primary.
+        roe = fundamentals.get("returnOnEquity")
+        if roe is not None:
+            rules["E7_roe"] = RuleResult(
+                "ROE ≥ 17% (Minervini)", roe >= 0.17,
+                round(roe * 100, 2), 17.0)
+
+        # E10: Institutional ownership ≥ 5%.
+        inst = fundamentals.get("heldPercentInstitutions")
         if inst is not None:
-            rules["F3_inst_ownership"] = RuleResult(
+            rules["E10_inst_ownership"] = RuleResult(
                 "Institutional own. ≥ 5%", inst >= 0.05,
                 round(inst * 100, 2), 5.0)
+
+        # E2: EPS YoY acceleration — last 4 quarters' YoY monotonically increasing.
+        eps_yoy_series = fundamentals.get("eps_yoy_4q")  # list of 4 floats (oldest→newest), %
+        if eps_yoy_series and len(eps_yoy_series) == 4 and all(v is not None for v in eps_yoy_series):
+            accel = all(eps_yoy_series[i] > eps_yoy_series[i - 1] for i in range(1, 4))
+            rules["E2_eps_yoy_accel"] = RuleResult(
+                "EPS YoY 4Q monotonic acceleration", accel,
+                round(eps_yoy_series[-1] - eps_yoy_series[0], 2), 0.0)
+
+        # E4: Sales YoY acceleration.
+        rev_yoy_series = fundamentals.get("revenue_yoy_4q")
+        if rev_yoy_series and len(rev_yoy_series) == 4 and all(v is not None for v in rev_yoy_series):
+            accel = all(rev_yoy_series[i] > rev_yoy_series[i - 1] for i in range(1, 4))
+            rules["E4_rev_yoy_accel"] = RuleResult(
+                "Sales YoY 4Q monotonic acceleration", accel,
+                round(rev_yoy_series[-1] - rev_yoy_series[0], 2), 0.0)
+
+        # E5: Operating income growing across last 4 quarters (QoQ ↑).
+        op_inc_4q = fundamentals.get("operating_income_4q")
+        if op_inc_4q and len(op_inc_4q) == 4 and all(v is not None for v in op_inc_4q):
+            growing = all(op_inc_4q[i] > op_inc_4q[i - 1] for i in range(1, 4))
+            rules["E5_op_inc_growing"] = RuleResult(
+                "Operating Income 4Q QoQ growing", growing,
+                None, None)
+
+        # E6: Operating income YoY acceleration.
+        op_inc_yoy_series = fundamentals.get("op_income_yoy_4q")
+        if op_inc_yoy_series and len(op_inc_yoy_series) == 4 and all(v is not None for v in op_inc_yoy_series):
+            accel = all(op_inc_yoy_series[i] > op_inc_yoy_series[i - 1] for i in range(1, 4))
+            rules["E6_op_inc_yoy_accel"] = RuleResult(
+                "Op Income YoY 4Q acceleration", accel,
+                round(op_inc_yoy_series[-1] - op_inc_yoy_series[0], 2), 0.0)
+
+        # E8: Annual EPS YoY ≥ 25%.
+        annual_eps_yoy = fundamentals.get("annual_eps_yoy")
+        if annual_eps_yoy is not None:
+            rules["E8_annual_eps_growth"] = RuleResult(
+                "Annual EPS YoY ≥ 25%", annual_eps_yoy >= 25.0,
+                round(annual_eps_yoy, 2), 25.0)
+
+        # E9: EPS breakout — current Q EPS > max of prior 8 quarters.
+        eps_breakout = fundamentals.get("eps_breakout")  # bool
+        if eps_breakout is not None:
+            rules["E9_eps_breakout"] = RuleResult(
+                "EPS breakout (>8Q max)", bool(eps_breakout),
+                None, None)
+
+        # F1: 1Y outperform NASDAQ — Primary.
+        outperform_1y = fundamentals.get("outperform_1y")  # % delta
+        if outperform_1y is not None:
+            rules["F1_outperform_1y"] = RuleResult(
+                "1Y return > NASDAQ", outperform_1y > 0,
+                round(outperform_1y, 2), 0.0)
+
+        # F2: 6M outperform NASDAQ.
+        outperform_6m = fundamentals.get("outperform_6m")
+        if outperform_6m is not None:
+            rules["F2_outperform_6m"] = RuleResult(
+                "6M return > NASDAQ", outperform_6m > 0,
+                round(outperform_6m, 2), 0.0)
+
+        # F3: 1M outperform NASDAQ.
+        outperform_1m = fundamentals.get("outperform_1m")
+        if outperform_1m is not None:
+            rules["F3_outperform_1m"] = RuleResult(
+                "1M return > NASDAQ", outperform_1m > 0,
+                round(outperform_1m, 2), 0.0)
+
+        # H1: Short Float ≤ 5% (low short = bullish consensus, no shorting pressure).
+        short_float = fundamentals.get("shortPercentOfFloat")
+        if short_float is not None:
+            rules["H1_short_float"] = RuleResult(
+                "Short Float ≤ 5%", short_float <= 0.05,
+                round(short_float * 100, 2), 5.0)
+
+        # H2: CFPS / EPS ≥ 1.20 (cash flow exceeds accounting earnings by 20%+).
+        cfps_eps_ratio = fundamentals.get("cfps_to_eps")
+        if cfps_eps_ratio is not None:
+            rules["H2_cfps_to_eps"] = RuleResult(
+                "CFPS / EPS ≥ 1.20 (cash quality)",
+                cfps_eps_ratio >= 1.20,
+                round(cfps_eps_ratio, 3), 1.20)
+
+        # H3: TTM net margin at 5-year high.
+        net_margin_5y_high = fundamentals.get("net_margin_5y_high")
+        if net_margin_5y_high is not None:
+            rules["H3_net_margin_high"] = RuleResult(
+                "TTM Net Margin = 5Y high",
+                bool(net_margin_5y_high),
+                None, None)
+
+        # H4: 3-year Net Income CAGR ≥ 25% — Primary.
+        ni_cagr_3y = fundamentals.get("ni_cagr_3y")
+        if ni_cagr_3y is not None:
+            rules["H4_ni_cagr_3y"] = RuleResult(
+                "3Y Net Income CAGR ≥ 25%",
+                ni_cagr_3y >= 25.0,
+                round(ni_cagr_3y, 2), 25.0)
 
     return rules
 
@@ -717,10 +1047,202 @@ def evaluate_market_direction(bench_close: pd.Series | None) -> dict[str, RuleRe
     return rules
 
 
-def fetch_fundamentals_us(tickers: list[str], delay: float = 1.0) -> dict[str, dict]:
+def _row_first(df, *names):
+    """Return first matching row from a yfinance income-statement / cashflow DataFrame."""
+    if df is None or df.empty:
+        return None
+    for n in names:
+        if n in df.index:
+            return df.loc[n]
+    return None
+
+
+def _compute_quarterly_metrics(t: yf.Ticker) -> dict:
     """
-    Fetch fundamentals via yfinance .info for US tickers (post-RS subset only).
-    Sequential with delay to avoid rate limit. Returns {ticker: {eps_g, rev_g, inst}}.
+    Build quarterly/annual metrics needed by E2/E4/E5/E6/E8/E9/H2/H3/H4.
+
+    Returns flat dict (all keys may be None when data missing). All series are
+    ordered oldest→newest (4 quarters or 5 years).
+    """
+    out: dict = {}
+    try:
+        q_is = t.quarterly_financials
+    except Exception:
+        q_is = None
+    try:
+        a_is = t.financials
+    except Exception:
+        a_is = None
+    try:
+        a_cf = t.cashflow
+    except Exception:
+        a_cf = None
+
+    # ---- Quarterly EPS / Revenue / Operating Income last 8 quarters (newest→oldest in yfinance) ----
+    eps_row = _row_first(q_is, "Diluted EPS", "Basic EPS")
+    rev_row = _row_first(q_is, "Total Revenue")
+    op_row = _row_first(q_is, "Operating Income")
+
+    def _to_list(row, n):
+        if row is None:
+            return None
+        vals = row.values[:n].tolist() if len(row.values) >= n else row.values.tolist() + [None] * (n - len(row.values))
+        return [None if (v is None or (isinstance(v, float) and np.isnan(v))) else float(v) for v in vals]
+
+    eps_q = _to_list(eps_row, 8)  # newest first
+    rev_q = _to_list(rev_row, 8)
+    op_q = _to_list(op_row, 8)
+
+    # ---- E2 / E4 / E6: 4 quarters of YoY growth %, oldest→newest ----
+    def _yoy_4q(q):
+        if q is None or len(q) < 8:
+            return None
+        out_yoy = []
+        for i in range(4):
+            cur = q[i]
+            prior = q[i + 4]
+            if cur is None or prior is None or prior == 0:
+                out_yoy.append(None)
+            else:
+                out_yoy.append(round((cur / abs(prior) - 1) * 100, 2))
+        return list(reversed(out_yoy))  # oldest→newest
+
+    out["eps_yoy_4q"] = _yoy_4q(eps_q)
+    out["revenue_yoy_4q"] = _yoy_4q(rev_q)
+    out["op_income_yoy_4q"] = _yoy_4q(op_q)
+
+    # ---- E5: Operating income last 4 quarters QoQ (oldest→newest) ----
+    if op_q is not None and len(op_q) >= 4:
+        out["operating_income_4q"] = list(reversed(op_q[:4]))
+
+    # ---- E9: EPS breakout — most recent Q EPS > max of prior 8 quarters ----
+    if eps_q is not None and len(eps_q) >= 8 and eps_q[0] is not None:
+        prior = [v for v in eps_q[1:] if v is not None]
+        if prior:
+            out["eps_breakout"] = bool(eps_q[0] > max(prior))
+
+    # ---- E8 / H4: Annual EPS YoY + Net Income 3-year CAGR ----
+    a_eps_row = _row_first(a_is, "Diluted EPS", "Basic EPS")
+    a_ni_row = _row_first(a_is, "Net Income", "Net Income Common Stockholders")
+    a_rev_row = _row_first(a_is, "Total Revenue")
+
+    def _annual_list(row, n=5):
+        if row is None:
+            return None
+        vals = row.values[:n].tolist()
+        return [None if (v is None or (isinstance(v, float) and np.isnan(v))) else float(v) for v in vals]
+
+    eps_y = _annual_list(a_eps_row, 5)  # newest first
+    ni_y = _annual_list(a_ni_row, 5)
+    rev_y = _annual_list(a_rev_row, 5)
+
+    if eps_y and len(eps_y) >= 2 and eps_y[0] is not None and eps_y[1] not in (None, 0):
+        out["annual_eps_yoy"] = round((eps_y[0] / abs(eps_y[1]) - 1) * 100, 2)
+
+    # H4: 3-year Net Income CAGR (year[-1] vs year[-3])
+    if ni_y and len(ni_y) >= 4 and ni_y[0] is not None and ni_y[3] not in (None, 0):
+        cur, base = ni_y[0], ni_y[3]
+        if base > 0 and cur > 0:
+            out["ni_cagr_3y"] = round(((cur / base) ** (1 / 3) - 1) * 100, 2)
+
+    # H3: TTM net margin = 5-year high?
+    # TTM net margin proxy: most recent annual net_income / revenue compared with 5y series.
+    if ni_y and rev_y and len(ni_y) >= 1 and len(rev_y) >= 1:
+        margins = []
+        for ni, rv in zip(ni_y, rev_y):
+            if ni is None or rv in (None, 0):
+                margins.append(None)
+            else:
+                margins.append(ni / rv * 100)
+        if margins[0] is not None:
+            prior = [m for m in margins[1:] if m is not None]
+            if prior:
+                out["net_margin_5y_high"] = bool(margins[0] >= max(prior))
+
+    # H2: CFPS / EPS ratio (using TTM Free Cash Flow per share / TTM EPS)
+    a_fcf_row = _row_first(a_cf, "Free Cash Flow")
+    fcf_y = _annual_list(a_fcf_row, 5) if a_fcf_row is not None else None
+    if fcf_y and eps_y and fcf_y[0] is not None and eps_y[0] not in (None, 0):
+        try:
+            shares = t.info.get("sharesOutstanding")
+            if shares and shares > 0:
+                cfps = fcf_y[0] / shares
+                if abs(eps_y[0]) > 0:
+                    out["cfps_to_eps"] = round(cfps / eps_y[0], 3)
+        except Exception:
+            pass
+
+    return out
+
+
+# Cache for benchmark (^IXIC NASDAQ Composite) returns — fetched once per run.
+_BENCH_RETURNS_CACHE: dict[str, dict] = {}
+
+
+def _bench_returns_cached() -> dict | None:
+    """Return {ret_1m, ret_6m, ret_1y} for ^IXIC. Cached at module level for one run."""
+    if "ixic" in _BENCH_RETURNS_CACHE:
+        return _BENCH_RETURNS_CACHE["ixic"]
+    try:
+        bdf = yf.download("^IXIC", period="2y", interval="1d",
+                          auto_adjust=True, progress=False)
+        if isinstance(bdf.columns, pd.MultiIndex):
+            bdf.columns = [c[0] for c in bdf.columns]
+        if bdf is None or bdf.empty or "Close" not in bdf.columns:
+            _BENCH_RETURNS_CACHE["ixic"] = None
+            return None
+        c = bdf["Close"].dropna().values
+        result = {}
+        for label, days in [("ret_1m", 21), ("ret_6m", 126), ("ret_1y", 252)]:
+            if len(c) > days:
+                result[label] = (c[-1] / c[-1 - days] - 1) * 100
+            else:
+                result[label] = None
+        _BENCH_RETURNS_CACHE["ixic"] = result
+        return result
+    except Exception:
+        _BENCH_RETURNS_CACHE["ixic"] = None
+        return None
+
+
+def _outperform_metrics(close: pd.Series) -> dict:
+    """F1/F2/F3: stock return - NASDAQ return for 1Y / 6M / 1M."""
+    out: dict = {}
+    if close is None or len(close) < 252:
+        return out
+    bench = _bench_returns_cached()
+    if not bench:
+        return out
+    c = close.dropna().values
+    for label_stock, label_bench, days in [
+        ("outperform_1m", "ret_1m", 21),
+        ("outperform_6m", "ret_6m", 126),
+        ("outperform_1y", "ret_1y", 252),
+    ]:
+        if len(c) > days and bench.get(label_bench) is not None:
+            stock_ret = (c[-1] / c[-1 - days] - 1) * 100
+            out[label_stock] = round(stock_ret - bench[label_bench], 2)
+    return out
+
+
+def fetch_fundamentals_us(
+    tickers: list[str],
+    ohlcv: dict[str, pd.DataFrame] | None = None,
+    delay: float = 1.0,
+) -> dict[str, dict]:
+    """
+    Fetch fundamentals via yfinance for US tickers (post-RS subset only).
+
+    Builds:
+      - info-based: earningsQuarterlyGrowth, revenueGrowth, returnOnEquity,
+                    heldPercentInstitutions, shortPercentOfFloat
+      - quarterly/annual computed: eps_yoy_4q, revenue_yoy_4q, op_income_yoy_4q,
+                                   operating_income_4q, eps_breakout,
+                                   annual_eps_yoy, ni_cagr_3y, net_margin_5y_high,
+                                   cfps_to_eps
+      - outperform: outperform_1m / 6m / 1y vs NASDAQ (^IXIC)
+
+    Sequential with delay to avoid rate limit.
     """
     out: dict[str, dict] = {}
     import time as _t
@@ -728,13 +1250,29 @@ def fetch_fundamentals_us(tickers: list[str], delay: float = 1.0) -> dict[str, d
         if i > 0:
             _t.sleep(delay)
         try:
-            info = yf.Ticker(t).info or {}
-            out[t] = {
+            ticker_obj = yf.Ticker(t)
+            info = ticker_obj.info or {}
+            d: dict = {
                 "earningsQuarterlyGrowth": info.get("earningsQuarterlyGrowth"),
                 "revenueGrowth": info.get("revenueGrowth"),
                 "heldPercentInstitutions": info.get("heldPercentInstitutions"),
+                "returnOnEquity": info.get("returnOnEquity"),
+                "shortPercentOfFloat": info.get("shortPercentOfFloat"),
             }
-        except Exception:
+            try:
+                d.update(_compute_quarterly_metrics(ticker_obj))
+            except Exception as e:
+                print(f"    [fund {t}] qtrly metrics failed: {e}")
+            if ohlcv is not None and t in ohlcv:
+                close = ohlcv[t]["Close"] if "Close" in ohlcv[t].columns else None
+                if close is not None:
+                    try:
+                        d.update(_outperform_metrics(close))
+                    except Exception as e:
+                        print(f"    [fund {t}] outperform failed: {e}")
+            out[t] = d
+        except Exception as e:
+            print(f"  [fund {t}] failed: {e}")
             out[t] = {}
     return out
 
@@ -767,6 +1305,103 @@ def _find_swings(
     return h_idx, l_idx
 
 
+def _idx_to_datestr(df_index, i: int) -> str:
+    """Convert a positional index in df.index to YYYY-MM-DD string. Returns '' on failure."""
+    try:
+        ts = df_index[i]
+        if hasattr(ts, "strftime"):
+            return ts.strftime("%Y-%m-%d")
+        return str(ts)[:10]
+    except (IndexError, AttributeError):
+        return ""
+
+
+def _detect_shakeouts(
+    df: pd.DataFrame,
+    base_start_pos: int,
+    base_support: float,
+    breach_pct: float = 0.03,
+    recover_window: int = 5,
+) -> list[str]:
+    """
+    Shakeout = low briefly breaches the base support level (by `breach_pct`),
+    then closes back above support within `recover_window` bars.
+
+    Returns list of YYYY-MM-DD strings (one per shakeout event).
+    """
+    if base_support <= 0 or np.isnan(base_support):
+        return []
+    threshold = base_support * (1.0 - breach_pct)
+    out: list[str] = []
+    lows = df["Low"].values
+    closes = df["Close"].values
+    n = len(df)
+    i = base_start_pos
+    while i < n:
+        if lows[i] < threshold:
+            # Look ahead for recovery (close back above support)
+            recovered = False
+            end_recover = min(n, i + recover_window + 1)
+            for j in range(i + 1, end_recover):
+                if closes[j] > base_support:
+                    recovered = True
+                    break
+            if recovered:
+                out.append(_idx_to_datestr(df.index, i))
+                # Skip past recover window to avoid double-counting
+                i = end_recover
+                continue
+        i += 1
+    return out
+
+
+def _detect_dryup_ranges(
+    df: pd.DataFrame,
+    base_start_pos: int,
+    short_window: int = 5,
+    long_window: int = 50,
+    threshold: float = 0.7,
+    min_run: int = 3,
+) -> list[dict]:
+    """
+    Volume dry-up = `short_window`-day avg < `long_window`-day SMA × threshold,
+    sustained for at least `min_run` consecutive bars.
+
+    Returns list of {"start": "YYYY-MM-DD", "end": "YYYY-MM-DD"}.
+    """
+    vols = df["Volume"].values
+    n = len(vols)
+    if n < long_window + short_window:
+        return []
+    short_avg = pd.Series(vols).rolling(short_window).mean().values
+    long_avg = pd.Series(vols).rolling(long_window).mean().values
+
+    flags = np.zeros(n, dtype=bool)
+    for i in range(base_start_pos, n):
+        if np.isnan(short_avg[i]) or np.isnan(long_avg[i]) or long_avg[i] <= 0:
+            continue
+        if short_avg[i] < long_avg[i] * threshold:
+            flags[i] = True
+
+    ranges: list[dict] = []
+    i = base_start_pos
+    while i < n:
+        if flags[i]:
+            j = i
+            while j + 1 < n and flags[j + 1]:
+                j += 1
+            run_len = j - i + 1
+            if run_len >= min_run:
+                ranges.append({
+                    "start": _idx_to_datestr(df.index, i),
+                    "end": _idx_to_datestr(df.index, j),
+                })
+            i = j + 1
+        else:
+            i += 1
+    return ranges
+
+
 def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     empty = VCPResult(
         ticker, False, 0, "Unknown", 0, [], np.nan, 0, np.nan, np.nan, np.nan, np.nan, np.nan, 0.0, 0.0
@@ -778,6 +1413,9 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     lows = base["Low"].values
     closes = base["Close"].values
     vols = base["Volume"].values
+
+    # Position in the full df where base starts (used for shakeout/dryup detection)
+    base_start_pos = len(df) - lookback
 
     h_idx, l_idx = _find_swings(closes, highs, lows)
     if len(h_idx) < 2 or len(l_idx) < 1:
@@ -835,6 +1473,42 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     stage = stage_info["stage"]
     stage_name = stage_info["stage_name"]
 
+    # ----- Visualization metadata -----
+    # Contraction ranges: each (high_idx, high_val, low_idx, low_val) tuple from recent_pairs
+    # is a peak→trough leg. We build {start, end, high, low, depth_pct}.
+    # base.index gives positional dates within the base window (h_idx/l_idx are
+    # positions inside `base`), so we map via base.index directly.
+    contraction_ranges: list[dict] = []
+    for (h_pos, h_val, l_pos, l_val) in recent_pairs:
+        depth_pct = (h_val - l_val) / h_val * 100 if h_val > 0 else 0
+        contraction_ranges.append({
+            "start": _idx_to_datestr(base.index, h_pos),
+            "end": _idx_to_datestr(base.index, l_pos),
+            "high": round(float(h_val), 2),
+            "low": round(float(l_val), 2),
+            "depth_pct": round(float(depth_pct), 2),
+        })
+
+    # Pivot date = position of the swing high that defined pivot_price.
+    pivot_date = ""
+    pivot_pos_in_base: int | None = None
+    # Find which peak in recent_pairs (or last_peak_val) matches pivot_price.
+    for (h_pos, h_val, _l_pos, _l_val) in recent_pairs:
+        if abs(float(h_val) - pivot_price) < 1e-6:
+            pivot_pos_in_base = h_pos
+            pivot_date = _idx_to_datestr(base.index, h_pos)
+            break
+    if not pivot_date and last_peak_idx is not None and last_peak_val is not None:
+        if abs(float(last_peak_val) - pivot_price) < 1e-6:
+            pivot_pos_in_base = last_peak_idx
+            pivot_date = _idx_to_datestr(base.index, last_peak_idx)
+
+    # Base support level for shakeout detection = min low across recent contractions.
+    base_support = float(min(p[3] for p in recent_pairs))
+
+    shakeout_dates = _detect_shakeouts(df, base_start_pos, base_support)
+    dryup_ranges = _detect_dryup_ranges(df, base_start_pos)
+
     # Detection requires: VCP pattern criteria + Stage 2
     detected = (
         tightening
@@ -875,6 +1549,10 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
         volume_dryup_ratio=round(vol_ratio, 2),
         vcp_quality=round(vcp_q, 1),
         score=0.0,  # set by pipeline via compute_composite_score
+        contraction_ranges=contraction_ranges,
+        pivot_date=pivot_date or None,
+        shakeout_dates=shakeout_dates,
+        dryup_ranges=dryup_ranges,
     )
 
 
@@ -915,7 +1593,7 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
     bench = fetch_benchmark("US")
 
     print(f"  [US 6/7] Fetching fundamentals for {len(survivors)} survivors...")
-    fundamentals = fetch_fundamentals_us(survivors, delay=1.0)
+    fundamentals = fetch_fundamentals_us(survivors, ohlcv=ohlcv, delay=1.0)
 
     print("  [US 7/7] VCP detection + Rule eval + Composite Score...")
     rows: list[dict] = []
@@ -956,6 +1634,7 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
         rules = evaluate_rules(
             ohlcv[t], int(rs[t]), "US",
             vcp=r, fundamentals=fundamentals.get(t, {}),
+            stage=stage_info["stage"],
         )
         passed, total = count_rules_passed(rules)
         d["rules"] = rules_to_dict(rules)
@@ -1035,6 +1714,7 @@ def _run_market_intl(
         # Rule evaluation (no fundamentals for non-US)
         rules = evaluate_rules(
             ohlcv[t], int(rs[t]), market_key, vcp=r, fundamentals=None,
+            stage=stage_info["stage"],
         )
         passed, total = count_rules_passed(rules)
         d["rules"] = rules_to_dict(rules)

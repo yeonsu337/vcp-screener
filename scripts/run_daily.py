@@ -70,6 +70,106 @@ def _period_labels(df, periods: int = 5) -> list[str]:
     return [c.strftime("%Y-%m-%d") if hasattr(c, "strftime") else str(c) for c in df.columns[:periods]]
 
 
+def _ratio(num: float | None, den: float | None, pct: bool = False, ndigits: int = 2) -> float | None:
+    """Safely divide num/den. Returns None on missing/zero. If pct=True, multiply by 100."""
+    if num is None or den is None:
+        return None
+    try:
+        if den == 0:
+            return None
+        r = num / den
+        if pct:
+            r *= 100
+        return round(r, ndigits)
+    except (ValueError, TypeError, ZeroDivisionError):
+        return None
+
+
+def _yoy_growth(vals: list[float | None], lag: int = 4) -> list[float | None]:
+    """YoY growth: vals[i] vs vals[i+lag]. yfinance order is newest-first."""
+    out: list[float | None] = []
+    n = len(vals)
+    for i in range(n):
+        if i + lag < n and vals[i] is not None and vals[i + lag] is not None and vals[i + lag] != 0:
+            try:
+                out.append(round((vals[i] / vals[i + lag] - 1) * 100, 1))
+            except (ValueError, TypeError, ZeroDivisionError):
+                out.append(None)
+        else:
+            out.append(None)
+    return out
+
+
+def _compute_dividend_yield_series(t, periods: list[str], freq: str = "Q") -> list[float | None]:
+    """
+    For each period label (date string), compute dividend yield as:
+       (sum of dividends paid in that period) / (avg close price in that period) * 100
+
+    freq:
+      "Q" — quarterly periods (3 months ending at period date)
+      "A" — annual periods (12 months ending at period date)
+
+    Returns list aligned with periods (same length, None where no data).
+    """
+    n = len(periods)
+    out: list[float | None] = [None] * n
+    if not periods or not any(periods):
+        return out
+
+    try:
+        divs = t.dividends  # pandas Series indexed by datetime
+        hist = t.history(period="6y", auto_adjust=False)
+    except Exception:
+        return out
+
+    if hist is None or hist.empty:
+        return out
+    if divs is None or len(divs) == 0:
+        return out
+
+    # Strip timezone for comparison consistency
+    try:
+        if divs.index.tz is not None:
+            divs.index = divs.index.tz_localize(None)
+    except Exception:
+        pass
+    try:
+        if hist.index.tz is not None:
+            hist.index = hist.index.tz_localize(None)
+    except Exception:
+        pass
+
+    months_back = 3 if freq == "Q" else 12
+    for i, p in enumerate(periods):
+        if not p:
+            continue
+        try:
+            end = pd.Timestamp(p)
+        except Exception:
+            continue
+        start = end - pd.DateOffset(months=months_back)
+        try:
+            div_sum = divs[(divs.index > start) & (divs.index <= end)].sum()
+        except Exception:
+            div_sum = 0
+        try:
+            mask = (hist.index > start) & (hist.index <= end)
+            avg_close = hist.loc[mask, "Close"].mean()
+        except Exception:
+            avg_close = None
+        if div_sum and avg_close and not pd.isna(avg_close) and avg_close != 0:
+            try:
+                # Annualize quarterly dividend (× 4) for comparability
+                annual_div = float(div_sum) * (4 if freq == "Q" else 1)
+                out[i] = round((annual_div / float(avg_close)) * 100, 2)
+            except Exception:
+                pass
+        else:
+            # If no dividend in the period but ticker has dividends elsewhere, leave None
+            pass
+    return out
+
+
 def fetch_ticker_financials(ticker: str) -> dict | None:
     """
     Fetch IS/BS/CF + key metrics for a single ticker via yfinance.
@@ -90,18 +190,21 @@ def fetch_ticker_financials(ticker: str) -> dict | None:
         "pe_forward": _safe(info.get("forwardPE")),
         "market_cap": _safe(info.get("marketCap")),
         "roe": _safe(info.get("returnOnEquity")),
+        "roa": _safe(info.get("returnOnAssets")),
         "profit_margin": _safe(info.get("profitMargins")),
         "gross_margin": _safe(info.get("grossMargins")),
         "operating_margin": _safe(info.get("operatingMargins")),
         "revenue_growth": _safe(info.get("revenueGrowth")),
         "earnings_growth": _safe(info.get("earningsGrowth")),
+        "dividend_yield": _safe(info.get("dividendYield")),
+        "payout_ratio": _safe(info.get("payoutRatio")),
         "currency": info.get("currency", "USD"),
         "sector": info.get("sector", ""),
         "industry": info.get("industry", ""),
         "name": info.get("shortName") or info.get("longName", ""),
     }
 
-    # --- Annual financials (IS / BS / CF) ---
+    # --- Annual financials (IS / BS / CF) — 5 years ---
     try:
         ann_is = t.financials
         ann_bs = t.balance_sheet
@@ -109,49 +212,130 @@ def fetch_ticker_financials(ticker: str) -> dict | None:
     except Exception:
         ann_is = ann_bs = ann_cf = None
 
+    a_periods = _period_labels(ann_is, 5)
+    a_revenue = _extract_row(ann_is, "Total Revenue", 5)
+    a_op_income = _extract_row(ann_is, "Operating Income", 5)
+    a_net_income = _extract_row(ann_is, "Net Income", 5)
+    a_total_assets = _extract_row(ann_bs, "Total Assets", 5)
+    a_total_liab = _extract_row(ann_bs, "Total Liabilities Net Minority Interest", 5)
+    a_equity = _extract_row(ann_bs, "Stockholders Equity", 5)
+    a_cash = _extract_row(ann_bs, "Cash And Cash Equivalents", 5)
+    a_total_debt = _extract_row(ann_bs, "Total Debt", 5)
+    a_current_assets = _extract_row(ann_bs, "Current Assets", 5)
+    a_current_liab = _extract_row(ann_bs, "Current Liabilities", 5)
+    a_op_cf = _extract_row(ann_cf, "Operating Cash Flow", 5)
+    a_capex = _extract_row(ann_cf, "Capital Expenditure", 5)
+    a_free_cf = _extract_row(ann_cf, "Free Cash Flow", 5)
+
+    # Derived: operating margin = op_income / revenue * 100
+    a_op_margin = [_ratio(oi, rv, pct=True, ndigits=2) for oi, rv in zip(a_op_income, a_revenue)]
+    # Derived: debt/equity, current ratio, cash ratio
+    a_debt_to_equity = [_ratio(d, e) for d, e in zip(a_total_debt, a_equity)]
+    a_current_ratio = [_ratio(ca, cl) for ca, cl in zip(a_current_assets, a_current_liab)]
+    a_cash_ratio = [_ratio(c, cl) for c, cl in zip(a_cash, a_current_liab)]
+    # Derived: ROE/ROA per period (pct)
+    a_roe = [_ratio(ni, eq, pct=True, ndigits=2) for ni, eq in zip(a_net_income, a_equity)]
+    a_roa = [_ratio(ni, ta, pct=True, ndigits=2) for ni, ta in zip(a_net_income, a_total_assets)]
+    # Annual dividend yield series
+    a_div_yield = _compute_dividend_yield_series(t, a_periods, freq="A")
+
     annual = {
-        "periods": _period_labels(ann_is),
-        "revenue": _extract_row(ann_is, "Total Revenue"),
-        "gross_profit": _extract_row(ann_is, "Gross Profit"),
-        "operating_income": _extract_row(ann_is, "Operating Income"),
-        "net_income": _extract_row(ann_is, "Net Income"),
-        "eps": _extract_row(ann_is, "Diluted EPS"),
-        "total_assets": _extract_row(ann_bs, "Total Assets"),
-        "total_liabilities": _extract_row(ann_bs, "Total Liabilities Net Minority Interest"),
-        "equity": _extract_row(ann_bs, "Stockholders Equity"),
-        "cash": _extract_row(ann_bs, "Cash And Cash Equivalents"),
-        "total_debt": _extract_row(ann_bs, "Total Debt"),
-        "operating_cf": _extract_row(ann_cf, "Operating Cash Flow"),
-        "capex": _extract_row(ann_cf, "Capital Expenditure"),
-        "free_cf": _extract_row(ann_cf, "Free Cash Flow"),
+        "periods": a_periods,
+        "revenue": a_revenue,
+        "gross_profit": _extract_row(ann_is, "Gross Profit", 5),
+        "operating_income": a_op_income,
+        "operating_margin": a_op_margin,
+        "net_income": a_net_income,
+        "eps": _extract_row(ann_is, "Diluted EPS", 5),
+        "total_assets": a_total_assets,
+        "total_liabilities": a_total_liab,
+        "equity": a_equity,
+        "cash": a_cash,
+        "total_debt": a_total_debt,
+        "current_assets": a_current_assets,
+        "current_liabilities": a_current_liab,
+        "debt_to_equity": a_debt_to_equity,
+        "current_ratio": a_current_ratio,
+        "cash_ratio": a_cash_ratio,
+        "roe": a_roe,
+        "roa": a_roa,
+        "dividend_yield": a_div_yield,
+        "operating_cf": a_op_cf,
+        "capex": a_capex,
+        "free_cf": a_free_cf,
     }
 
-    # --- Quarterly financials (for EPS/Revenue acceleration) ---
+    # --- Quarterly financials — 12 quarters (3 years) ---
     try:
         q_is = t.quarterly_financials
+        q_bs = t.quarterly_balance_sheet
+        q_cf = t.quarterly_cashflow
     except Exception:
-        q_is = None
+        q_is = q_bs = q_cf = None
+
+    Q = 12
+    q_periods = _period_labels(q_is, Q)
+    q_revenue = _extract_row(q_is, "Total Revenue", Q)
+    q_net_income = _extract_row(q_is, "Net Income", Q)
+    q_eps = _extract_row(q_is, "Diluted EPS", Q)
+    q_gross_profit = _extract_row(q_is, "Gross Profit", Q)
+    q_op_income = _extract_row(q_is, "Operating Income", Q)
+
+    # Quarterly BS
+    q_total_debt = _extract_row(q_bs, "Total Debt", Q)
+    q_equity = _extract_row(q_bs, "Stockholders Equity", Q)
+    q_current_assets = _extract_row(q_bs, "Current Assets", Q)
+    q_current_liab = _extract_row(q_bs, "Current Liabilities", Q)
+    q_cash = _extract_row(q_bs, "Cash And Cash Equivalents", Q)
+    q_total_assets = _extract_row(q_bs, "Total Assets", Q)
+
+    # Quarterly CF
+    q_op_cf = _extract_row(q_cf, "Operating Cash Flow", Q)
+    q_capex = _extract_row(q_cf, "Capital Expenditure", Q)
+    q_free_cf = _extract_row(q_cf, "Free Cash Flow", Q)
+
+    # Derived ratios
+    q_op_margin = [_ratio(oi, rv, pct=True, ndigits=2) for oi, rv in zip(q_op_income, q_revenue)]
+    q_debt_to_equity = [_ratio(d, e) for d, e in zip(q_total_debt, q_equity)]
+    q_current_ratio = [_ratio(ca, cl) for ca, cl in zip(q_current_assets, q_current_liab)]
+    q_cash_ratio = [_ratio(c, cl) for c, cl in zip(q_cash, q_current_liab)]
+    q_roe = [_ratio(ni, eq, pct=True, ndigits=2) for ni, eq in zip(q_net_income, q_equity)]
+    q_roa = [_ratio(ni, ta, pct=True, ndigits=2) for ni, ta in zip(q_net_income, q_total_assets)]
+    q_div_yield = _compute_dividend_yield_series(t, q_periods, freq="Q")
 
     quarterly = {
-        "periods": _period_labels(q_is, 8),
-        "revenue": _extract_row(q_is, "Total Revenue", 8),
-        "net_income": _extract_row(q_is, "Net Income", 8),
-        "eps": _extract_row(q_is, "Diluted EPS", 8),
-        "gross_profit": _extract_row(q_is, "Gross Profit", 8),
+        "periods": q_periods,
+        "revenue": q_revenue,
+        "net_income": q_net_income,
+        "eps": q_eps,
+        "gross_profit": q_gross_profit,
+        "operating_income": q_op_income,
+        "operating_margin": q_op_margin,
+        "total_debt": q_total_debt,
+        "equity": q_equity,
+        "current_assets": q_current_assets,
+        "current_liabilities": q_current_liab,
+        "cash": q_cash,
+        "total_assets": q_total_assets,
+        "debt_to_equity": q_debt_to_equity,
+        "current_ratio": q_current_ratio,
+        "cash_ratio": q_cash_ratio,
+        "roe": q_roe,
+        "roa": q_roa,
+        "dividend_yield": q_div_yield,
+        "operating_cf": q_op_cf,
+        "capex": q_capex,
+        "free_cf": q_free_cf,
+        "eps_yoy": _yoy_growth(q_eps),
+        "revenue_yoy": _yoy_growth(q_revenue),
+        "operating_income_yoy": _yoy_growth(q_op_income),
     }
 
-    # Compute YoY growth for quarterly EPS & Revenue (Q vs Q-4)
-    def _yoy_growth(vals: list[float | None]) -> list[float | None]:
-        out: list[float | None] = []
-        for i in range(len(vals)):
-            if i + 4 < len(vals) and vals[i] is not None and vals[i + 4] is not None and vals[i + 4] != 0:
-                out.append(round((vals[i] / vals[i + 4] - 1) * 100, 1))
-            else:
-                out.append(None)
-        return out
-
-    quarterly["eps_yoy"] = _yoy_growth(quarterly["eps"])
-    quarterly["revenue_yoy"] = _yoy_growth(quarterly["revenue"])
+    # Annual YoY for IS items (lag=1)
+    annual["revenue_yoy"] = _yoy_growth(a_revenue, lag=1)
+    annual["operating_income_yoy"] = _yoy_growth(a_op_income, lag=1)
+    annual["eps_yoy"] = _yoy_growth(annual["eps"], lag=1)
+    annual["free_cf_yoy"] = _yoy_growth(a_free_cf, lag=1)
 
     return {
         "ticker": ticker,
@@ -197,24 +381,77 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
         history[ticker]["current_score"] = r.get("score")
         history[ticker]["rs_rating"] = r.get("rs_rating")
 
-    # Step 2: refresh current_price for ALL history tickers (not just detected
-    # today) so return_pct keeps updating even after screener drop-off.
-    all_tickers = list(history.keys())
-    if all_tickers:
-        print(f"\nRefreshing current prices for {len(all_tickers)} history tickers...")
-        latest = _fetch_latest_prices(all_tickers)
+    # Step 2: refresh current_price for ALL active (non-exited) history tickers
+    active_tickers = [t for t, h in history.items() if not h.get("exited")]
+    if active_tickers:
+        print(f"\nRefreshing current prices for {len(active_tickers)} active history tickers...")
+        latest = _fetch_latest_prices(active_tickers)
         updated = 0
-        for t in all_tickers:
+        for t in active_tickers:
             px = latest.get(t)
             if px is not None:
                 history[t]["current_price"] = px
                 updated += 1
-        print(f"  {updated}/{len(all_tickers)} prices refreshed")
+        print(f"  {updated}/{len(active_tickers)} prices refreshed")
+
+    # Step 3: check exit rules for active tickers
+    _check_exits(history, detected, today)
 
     HISTORY_PATH.write_text(
         json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return history
+
+
+# Exit thresholds
+EXIT_DRAWDOWN_PCT = -15.0      # price drop > 15% from detection
+EXIT_RS_BELOW = 40             # RS rating collapses
+EXIT_ABSENT_DAYS = 10          # not detected for 10+ consecutive days
+
+
+def _check_exits(history: dict, detected: dict, today: str) -> None:
+    """
+    Mark tickers as exited if they meet any exit criteria.
+    Once exited, a ticker is frozen — no further price refresh or re-entry.
+    """
+    exit_count = 0
+    for ticker, h in history.items():
+        if h.get("exited"):
+            continue
+        reasons: list[str] = []
+
+        # 1. Drawdown from detection price
+        det_px = h.get("detection_price")
+        cur_px = h.get("current_price")
+        if det_px and cur_px:
+            ret = ((cur_px - det_px) / det_px) * 100
+            if ret <= EXIT_DRAWDOWN_PCT:
+                reasons.append(f"drawdown {ret:.1f}% (limit {EXIT_DRAWDOWN_PCT}%)")
+
+        # 2. RS rating collapse
+        rs = h.get("rs_rating")
+        if rs is not None and rs < EXIT_RS_BELOW:
+            reasons.append(f"RS {rs} < {EXIT_RS_BELOW}")
+
+        # 3. Extended absence from screener
+        last_seen = h.get("last_seen", "")
+        if last_seen and ticker not in detected:
+            days_absent = (
+                datetime.strptime(today, "%Y-%m-%d")
+                - datetime.strptime(last_seen, "%Y-%m-%d")
+            ).days
+            if days_absent >= EXIT_ABSENT_DAYS:
+                reasons.append(f"absent {days_absent}d (limit {EXIT_ABSENT_DAYS}d)")
+
+        if reasons:
+            h["exited"] = True
+            h["exit_date"] = today
+            h["exit_price"] = cur_px
+            h["exit_reasons"] = reasons
+            exit_count += 1
+
+    if exit_count:
+        print(f"  {exit_count} tickers exited")
 
 
 def _fetch_latest_prices(tickers: list[str]) -> dict[str, float]:
@@ -361,6 +598,12 @@ def main():
             if t not in chart_ohlcv:
                 continue
             df = chart_ohlcv[t].iloc[-252:]
+            # Flatten yfinance MultiIndex columns (occurs intermittently when batch-downloading)
+            if isinstance(df.columns, pd.MultiIndex):
+                df = df.copy()
+                df.columns = [c[0] if isinstance(c, tuple) else c for c in df.columns]
+            if "Close" not in df.columns:
+                continue
             # RS Line: stock/benchmark ratio normalized to start at 100
             rs_line_data: list[dict] = []
             mkt = market_map.get(t, "US")

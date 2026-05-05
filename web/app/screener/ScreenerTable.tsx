@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Candidate, Meta, RuleResult } from "../types";
+import { useLivePrices, fmtLiveTime } from "../lib/useLivePrices";
 
 const MARKET_COLORS: Record<string, string> = {
   US: "bg-blue-500/20 text-blue-400",
@@ -12,44 +13,96 @@ const MARKET_COLORS: Record<string, string> = {
 
 // Keep these in sync with RuleScorecard.tsx
 const PRIMARY_IDS = [
-  "T1_sma50_gt_sma150",
-  "T2_sma150_gt_sma200",
-  "T4_sma200_rising_21d",
-  "M1_near_52w_high",
+  "A1_ud_vol_ratio",
+  "B1_price_above_150_200",
+  "B2_sma150_gt_sma200",
+  "B3_sma50_gt_150_200",
+  "B4_price_above_sma50",
+  "B5_sma200_rising_5mo",
+  "B6_30pct_above_52w_low",
+  "B7_within_25pct_high",
   "R1_rs_70",
-  "V1_52w_span",
-  "V2_liquidity",
+  "L1_liquidity_gate",
+  "P6_monotonic_decreasing",
+  "E7_roe",
+  "F1_outperform_1y",
+  "H4_ni_cagr_3y",
 ];
 const SECONDARY_IDS = [
-  "T3_sma20_gt_sma50",
-  "M2_quarter_positive",
-  "R2_rs_90",
+  "B8_within_10pct_high",
+  "B9_stage2",
+  "B10_higher_highs_lows",
+  "R2_rs_80",
+  "R3_rs_90",
+  "V1_atr_contraction",
+  "V2_short_term_tightening",
+  "L2_liquidity_50m",
+  "L3_share_volume",
+  "L4_price_floor",
   "P1_tightening",
   "P2_last_contraction",
   "P3_vol_dryup",
-  "F1_eps_growth",
-  "F2_rev_growth",
-  "F3_inst_ownership",
+  "P4_base_count",
+  "E1_eps_growth",
+  "E2_eps_yoy_accel",
+  "E3_rev_growth",
+  "E4_rev_yoy_accel",
+  "E5_op_inc_growing",
+  "E6_op_inc_yoy_accel",
+  "E8_annual_eps_growth",
+  "E9_eps_breakout",
+  "E10_inst_ownership",
+  "F2_outperform_6m",
+  "F3_outperform_1m",
+  "H1_short_float",
+  "H2_cfps_to_eps",
+  "H3_net_margin_high",
 ];
 
 // Short display names for filter panel (fallback if rule.name unavailable)
 const SHORT_NAMES: Record<string, string> = {
-  T1_sma50_gt_sma150: "SMA50 > SMA150",
-  T2_sma150_gt_sma200: "SMA150 > SMA200",
-  T3_sma20_gt_sma50: "SMA20 > SMA50",
-  T4_sma200_rising_21d: "200SMA rising 21d",
-  M1_near_52w_high: "Within 10% of 52W high",
-  M2_quarter_positive: "Quarter perf > 0",
-  R1_rs_70: "RS ≥ 70",
-  R2_rs_90: "RS ≥ 90",
-  V1_52w_span: "52W span OK",
-  V2_liquidity: "Liquidity $ volume",
-  P1_tightening: "Tightening (n≥2)",
-  P2_last_contraction: "Last contr. < 10%",
+  A1_ud_vol_ratio: "U/D Vol Ratio ≥ 1.0 (50d)",
+  B1_price_above_150_200: "Price > SMA150 & 200",
+  B2_sma150_gt_sma200: "SMA150 > SMA200",
+  B3_sma50_gt_150_200: "SMA50 > SMA150 & 200",
+  B4_price_above_sma50: "Price > SMA50",
+  B5_sma200_rising_5mo: "200SMA rising 4-5mo",
+  B6_30pct_above_52w_low: "≥30% above 52W low",
+  B7_within_25pct_high: "Within 25% of 52W high",
+  B8_within_10pct_high: "Within 10% of 52W high",
+  B9_stage2: "Stage 2 (Weinstein)",
+  B10_higher_highs_lows: "HH / HL (3+ pairs)",
+  R1_rs_70: "RS ≥ 70 (Minervini)",
+  R2_rs_80: "RS ≥ 80 (CANSLIM Leader)",
+  R3_rs_90: "RS ≥ 90 (Strong)",
+  V1_atr_contraction: "ATR Contraction (50/250)",
+  V2_short_term_tightening: "Near-term tightening (30/60)",
+  L1_liquidity_gate: "Liquidity gate ($ volume)",
+  L2_liquidity_50m: "Liquidity ≥ 2.5× threshold",
+  L3_share_volume: "Avg shares ≥ 400K",
+  L4_price_floor: "Price ≥ $12",
+  P1_tightening: "Tightening (n≥3)",
+  P2_last_contraction: "Last contr. < 6.5%",
   P3_vol_dryup: "Vol dry-up < 0.6",
-  F1_eps_growth: "EPS YoY > 18%",
-  F2_rev_growth: "Sales YoY > 25%",
-  F3_inst_ownership: "Inst. own. ≥ 5%",
+  P4_base_count: "Base count ≤ 2",
+  P6_monotonic_decreasing: "Contractions ≤0.75× prior",
+  E1_eps_growth: "EPS YoY > 18%",
+  E2_eps_yoy_accel: "EPS YoY 4Q accel",
+  E3_rev_growth: "Sales YoY > 25%",
+  E4_rev_yoy_accel: "Sales YoY 4Q accel",
+  E5_op_inc_growing: "Op Income 4Q growing",
+  E6_op_inc_yoy_accel: "Op Income YoY 4Q accel",
+  E7_roe: "ROE ≥ 17%",
+  E8_annual_eps_growth: "Annual EPS YoY ≥ 25%",
+  E9_eps_breakout: "EPS breakout (>8Q max)",
+  E10_inst_ownership: "Inst. own. ≥ 5%",
+  F1_outperform_1y: "1Y > NASDAQ",
+  F2_outperform_6m: "6M > NASDAQ",
+  F3_outperform_1m: "1M > NASDAQ",
+  H1_short_float: "Short Float ≤ 5%",
+  H2_cfps_to_eps: "CFPS / EPS ≥ 1.20",
+  H3_net_margin_high: "Net Margin 5Y high",
+  H4_ni_cagr_3y: "3Y NI CAGR ≥ 25%",
 };
 
 function countByCategory(
@@ -68,11 +121,13 @@ function countByCategory(
   return { passed, total };
 }
 
-const DEFAULT_MIN_BY_MARKET: Record<string, number> = {
-  All: 12,
-  US: 12,
-  HK: 9,
-  KR: 10,
+// Primary-only thresholds. With 11 Primary rules total (8 cross-market + 3 US-only fundamentals),
+// the slider's max equals each row's Primary count and defaults below favor higher-quality candidates.
+const DEFAULT_MIN_PRIMARY_BY_MARKET: Record<string, number> = {
+  All: 9,
+  US: 9,
+  HK: 7,
+  KR: 7,
 };
 
 function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
@@ -121,6 +176,70 @@ function RulesBadge({
         <div className={`h-1.5 rounded ${barColor}`} style={{ width: `${pct}%` }} />
       </div>
     </div>
+  );
+}
+
+const INDEX_TICKERS: { symbol: string; label: string; market: string }[] = [
+  { symbol: "SPY", label: "S&P 500", market: "US" },
+  { symbol: "QQQ", label: "Nasdaq 100", market: "US" },
+  { symbol: "^HSI", label: "Hang Seng", market: "HK" },
+  { symbol: "^KS11", label: "KOSPI", market: "KR" },
+];
+
+function LiveIndexTape() {
+  const symbols = useMemo(() => INDEX_TICKERS.map((i) => i.symbol), []);
+  const { quotes, asOf, loading } = useLivePrices(symbols);
+  return (
+    <section className="mb-4">
+      <div className="flex items-center justify-between mb-2">
+        <div className="text-xs text-muted">Market Tape</div>
+        <div className="text-[11px] text-muted flex items-center gap-2">
+          <span
+            className={`inline-block w-1.5 h-1.5 rounded-full ${loading ? "bg-yellow-400 animate-pulse" : "bg-emerald-400"}`}
+          />
+          <span>{loading ? "Refreshing" : "Live"} · {fmtLiveTime(asOf)}</span>
+        </div>
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+        {INDEX_TICKERS.map((idx) => {
+          const q = quotes[idx.symbol];
+          const pct = q?.percentChange ?? null;
+          const up = pct !== null && pct >= 0;
+          const color =
+            pct === null
+              ? "text-muted"
+              : up
+              ? "text-emerald-400"
+              : "text-red-400";
+          return (
+            <div
+              key={idx.symbol}
+              className="card p-2.5 flex items-center justify-between gap-2"
+            >
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <MarketBadge market={idx.market} />
+                  <span className="text-xs font-semibold truncate">
+                    {idx.label}
+                  </span>
+                </div>
+                <div className="text-[10px] text-muted">{idx.symbol}</div>
+              </div>
+              <div className="text-right shrink-0">
+                <div className="num text-sm font-semibold tabular-nums">
+                  {q?.price != null ? q.price.toFixed(2) : "—"}
+                </div>
+                <div className={`num text-xs tabular-nums ${color}`}>
+                  {pct === null
+                    ? "—"
+                    : `${up ? "+" : ""}${pct.toFixed(2)}%`}
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 
@@ -184,7 +303,29 @@ type SortKey =
 
 type SortDir = "asc" | "desc";
 
-function sortValue(r: Candidate, key: SortKey): number | string {
+function livePrice(
+  r: Candidate,
+  quotes: Record<string, { price: number | null }>,
+): number | null {
+  const q = quotes[r.ticker];
+  if (q && q.price !== null && q.price !== undefined) return q.price;
+  return r.current_price ?? null;
+}
+
+function livePctToPivot(
+  r: Candidate,
+  quotes: Record<string, { price: number | null }>,
+): number | null {
+  const p = livePrice(r, quotes);
+  if (p === null || !r.pivot_price) return r.pct_to_pivot ?? null;
+  return (p / r.pivot_price - 1) * 100;
+}
+
+function sortValue(
+  r: Candidate,
+  key: SortKey,
+  quotes: Record<string, { price: number | null }>,
+): number | string {
   switch (key) {
     case "primary":
       return countByCategory(r.rules, PRIMARY_IDS).passed;
@@ -197,9 +338,9 @@ function sortValue(r: Candidate, key: SortKey): number | string {
     case "vcp_quality":
       return r.vcp_quality ?? 0;
     case "current_price":
-      return r.current_price ?? 0;
+      return livePrice(r, quotes) ?? 0;
     case "pct_to_pivot":
-      return r.pct_to_pivot ?? -999;
+      return livePctToPivot(r, quotes) ?? -999;
     case "ticker":
       return r.ticker;
   }
@@ -344,10 +485,14 @@ export default function ScreenerTable({
     [rows],
   );
   const [selectedMarket, setSelectedMarket] = useState<string>("All");
-  const [minRules, setMinRules] = useState<number>(DEFAULT_MIN_BY_MARKET.All);
+  const [minRules, setMinRules] = useState<number>(DEFAULT_MIN_PRIMARY_BY_MARKET.All);
   const [sortKey, setSortKey] = useState<SortKey>("primary");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
   const [ruleFilters, setRuleFilters] = useState<Record<string, FilterState>>({});
+
+  // Live prices — pulled on mount and auto-refreshed every 30s
+  const allTickers = useMemo(() => rows.map((r) => r.ticker), [rows]);
+  const { quotes, asOf, loading: liveLoading } = useLivePrices(allTickers);
 
   // Build display-name dict from observed rule data (falls back to SHORT_NAMES)
   const ruleNames = useMemo(() => {
@@ -363,7 +508,7 @@ export default function ScreenerTable({
 
   const handleMarketChange = (m: string) => {
     setSelectedMarket(m);
-    setMinRules(DEFAULT_MIN_BY_MARKET[m] ?? 10);
+    setMinRules(DEFAULT_MIN_PRIMARY_BY_MARKET[m] ?? 9);
   };
 
   const handleSort = (col: SortKey) => {
@@ -386,9 +531,11 @@ export default function ScreenerTable({
         ? rows
         : rows.filter((r) => (r.market || "US") === selectedMarket);
 
-    const byMinRules = byMarket.filter(
-      (r) => (r.rules_passed ?? 0) >= minRules,
-    );
+    // Filter by Primary rules passed only (Secondary excluded).
+    const byMinRules = byMarket.filter((r) => {
+      const p = countByCategory(r.rules, PRIMARY_IDS);
+      return p.passed >= minRules;
+    });
 
     // Apply per-rule filters
     const activeEntries = Object.entries(ruleFilters).filter(
@@ -408,10 +555,10 @@ export default function ScreenerTable({
             return true;
           });
 
-    // Sort
+    // Sort (live price/pivot values respected)
     const sorted = [...byRuleFilters].sort((a, b) => {
-      const va = sortValue(a, sortKey);
-      const vb = sortValue(b, sortKey);
+      const va = sortValue(a, sortKey, quotes);
+      const vb = sortValue(b, sortKey, quotes);
       let cmp: number;
       if (typeof va === "string" && typeof vb === "string") {
         cmp = va.localeCompare(vb);
@@ -422,14 +569,18 @@ export default function ScreenerTable({
     });
 
     return sorted;
-  }, [rows, selectedMarket, minRules, ruleFilters, sortKey, sortDir]);
+  }, [rows, selectedMarket, minRules, ruleFilters, sortKey, sortDir, quotes]);
 
-  const maxRulesTotal = useMemo(() => {
+  // Slider max = Primary rule count for the selected market (Secondary excluded by user request).
+  const maxPrimary = useMemo(() => {
     const m =
       selectedMarket === "All"
         ? rows
         : rows.filter((r) => (r.market || "US") === selectedMarket);
-    return Math.max(0, ...m.map((r) => r.rules_total ?? 0));
+    return Math.max(
+      0,
+      ...m.map((r) => countByCategory(r.rules, PRIMARY_IDS).total),
+    );
   }, [rows, selectedMarket]);
 
   const activeFilterCount = Object.values(ruleFilters).filter(
@@ -438,6 +589,7 @@ export default function ScreenerTable({
 
   return (
     <>
+      <LiveIndexTape />
       <MarketDirectionBanner meta={meta} />
 
       {/* Controls */}
@@ -460,18 +612,18 @@ export default function ScreenerTable({
 
         <div className="flex items-center gap-3">
           <label className="text-xs text-muted whitespace-nowrap">
-            Min rules passed
+            Min Primary passed
           </label>
           <input
             type="range"
             min={0}
-            max={maxRulesTotal || 16}
+            max={maxPrimary || 14}
             value={minRules}
             onChange={(e) => setMinRules(parseInt(e.target.value))}
             className="w-32 md:w-40 accent-[color:var(--accent)]"
           />
           <span className="num font-semibold text-sm tabular-nums w-14 text-right">
-            ≥ {minRules}/{maxRulesTotal || "?"}
+            ≥ {minRules}/{maxPrimary || "?"}
           </span>
         </div>
       </section>
@@ -484,14 +636,24 @@ export default function ScreenerTable({
         ruleNames={ruleNames}
       />
 
-      {/* Count */}
-      <div className="mb-3 text-sm text-muted">
-        <span className="text-text font-semibold">{filtered.length}</span>{" "}
-        candidate{filtered.length !== 1 ? "s" : ""} ·{" "}
-        {selectedMarket === "All" ? "all markets" : selectedMarket} · ≥{minRules} rules
-        {activeFilterCount > 0 && (
-          <> · {activeFilterCount} rule filter{activeFilterCount > 1 ? "s" : ""}</>
-        )}
+      {/* Count + live indicator */}
+      <div className="mb-3 flex items-center justify-between flex-wrap gap-2">
+        <div className="text-sm text-muted">
+          <span className="text-text font-semibold">{filtered.length}</span>{" "}
+          candidate{filtered.length !== 1 ? "s" : ""} ·{" "}
+          {selectedMarket === "All" ? "all markets" : selectedMarket} · ≥{minRules} rules
+          {activeFilterCount > 0 && (
+            <> · {activeFilterCount} rule filter{activeFilterCount > 1 ? "s" : ""}</>
+          )}
+        </div>
+        <div className="text-[11px] text-muted flex items-center gap-2">
+          <span
+            className={`inline-block w-1.5 h-1.5 rounded-full ${liveLoading ? "bg-yellow-400 animate-pulse" : "bg-emerald-400"}`}
+          />
+          <span>
+            {liveLoading ? "Refreshing" : "Live"} · Price as of {fmtLiveTime(asOf)}
+          </span>
+        </div>
       </div>
 
       {/* Mobile: stacked cards (sort/filters still apply) */}
@@ -678,10 +840,27 @@ export default function ScreenerTable({
                   {fmtNum(r.vcp_quality, 0)}/20
                 </td>
                 <td className="px-3 py-2 text-right num">
-                  {fmtNum(r.current_price, 2)}
+                  {(() => {
+                    const p = livePrice(r, quotes);
+                    const q = quotes[r.ticker];
+                    const isLive = q && q.price !== null && q.price !== undefined;
+                    return (
+                      <span className={isLive ? "" : "text-muted"}>
+                        {fmtNum(p, 2)}
+                        {q?.percentChange != null && (
+                          <span
+                            className={`ml-1 text-[10px] ${q.percentChange >= 0 ? "text-emerald-400" : "text-red-400"}`}
+                          >
+                            {q.percentChange >= 0 ? "+" : ""}
+                            {q.percentChange.toFixed(1)}%
+                          </span>
+                        )}
+                      </span>
+                    );
+                  })()}
                 </td>
                 <td className="px-3 py-2 text-right num">
-                  {fmtNum(r.pct_to_pivot, 1, "%")}
+                  {fmtNum(livePctToPivot(r, quotes), 1, "%")}
                 </td>
               </tr>
             ))}

@@ -2,10 +2,10 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import TradingViewWidget from "./TradingViewWidget";
+import ChartClient from "./ChartClient";
 import FinancialSummary from "./FinancialSummary";
 import RuleScorecard from "./RuleScorecard";
-import type { Candidate, TickerFinancials } from "../../types";
+import type { Candidate, TickerFinancials, ChartPayload } from "../../types";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
@@ -28,6 +28,17 @@ function loadFinancials(ticker: string): TickerFinancials | null {
   }
 }
 
+function loadChartData(ticker: string): ChartPayload | null {
+  const safeName = ticker.replace(/\./g, "_");
+  const p = path.join(process.cwd(), "public", "data", "charts", `${safeName}.json`);
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf-8"));
+  } catch {
+    return null;
+  }
+}
+
 function loadCandidate(ticker: string): Candidate | null {
   const p = path.join(process.cwd(), "public", "data", "results.json");
   if (!fs.existsSync(p)) return null;
@@ -35,15 +46,11 @@ function loadCandidate(ticker: string): Candidate | null {
   return rows.find((r) => r.ticker === ticker) ?? null;
 }
 
-function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
-  if (v === null || v === undefined || Number.isNaN(v)) return "\u2014";
-  return `${v.toFixed(digits)}${suffix}`;
-}
-
 export default function TickerPage({ params }: { params: { ticker: string } }) {
   const { ticker } = params;
   const candidate = loadCandidate(ticker);
   const financials = loadFinancials(ticker);
+  const chartPayload = loadChartData(ticker);
 
   if (!candidate) notFound();
 
@@ -70,81 +77,16 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
         </div>
       </header>
 
-      {/* Metrics */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-        <div className="card p-3">
-          <div className="text-xs text-muted">Composite Score</div>
-          <div className="text-2xl font-bold num text-accent">
-            {candidate.score.toFixed(0)}
-          </div>
-          <div className="text-xs text-muted num">
-            VCP {fmtNum(candidate.vcp_quality, 0)}/20
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">RS Rating</div>
-          <div className="text-2xl font-bold num">{candidate.rs_rating}</div>
-          <div className="text-xs text-muted num">
-            RS Line {fmtNum(candidate.rs_line_pct_from_high, 1, "%")} from high
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">Contractions</div>
-          <div className="text-2xl font-bold num">
-            {candidate.num_contractions}
-          </div>
-          <div className="text-xs text-muted num">
-            last {fmtNum(candidate.last_contraction_pct, 1, "%")}
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">Base Depth</div>
-          <div className="text-2xl font-bold num">
-            {fmtNum(candidate.base_depth_pct, 1, "%")}
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">Price / Pivot</div>
-          <div className="text-lg font-bold num">
-            {fmtNum(candidate.current_price, 2)}
-          </div>
-          <div className="text-xs text-muted num">
-            pivot {fmtNum(candidate.pivot_price, 2)}
-          </div>
-        </div>
-        <div className="card p-3">
-          <div className="text-xs text-muted">&rarr; Pivot</div>
-          <div className="text-2xl font-bold num">
-            {fmtNum(candidate.pct_to_pivot, 1, "%")}
-          </div>
-          <div className="text-xs text-muted num">
-            vol ratio {fmtNum(candidate.volume_dryup_ratio, 2)}
-          </div>
-        </div>
-      </section>
-
-      {/* Contraction sequence */}
-      {candidate.contractions.length > 0 && (
-        <section className="card p-4 mb-5">
-          <div className="text-xs text-muted mb-2">Contraction Sequence</div>
-          <div className="flex items-center gap-2 flex-wrap">
-            {candidate.contractions.map((c, i) => (
-              <div key={i} className="flex items-center gap-2">
-                <div className="px-3 py-1 bg-border/40 rounded num text-sm font-semibold">
-                  {c.toFixed(1)}%
-                </div>
-                {i < candidate.contractions.length - 1 && (
-                  <span className="text-muted">&rarr;</span>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* TradingView Chart (dominant) */}
-      <section className="card overflow-hidden mb-6">
-        <TradingViewWidget ticker={ticker} market={market} />
+      {/* Chart (MarketSmith-style with live price + ratings) */}
+      <section className="card p-4 mb-6 overflow-hidden">
+        <ChartClient
+          candidate={candidate}
+          staticData={
+            chartPayload
+              ? { ohlcv: chartPayload.ohlcv, rs_line: chartPayload.rs_line }
+              : null
+          }
+        />
       </section>
 
       {/* Rule Scorecard — Primary / Secondary breakdown */}

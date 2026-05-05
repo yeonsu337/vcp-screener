@@ -6,6 +6,19 @@ export type RuleResult = {
   note?: string;
 };
 
+export type ContractionRange = {
+  start: string; // YYYY-MM-DD
+  end: string;   // YYYY-MM-DD
+  high: number;
+  low: number;
+  depth_pct: number;
+};
+
+export type DryupRange = {
+  start: string; // YYYY-MM-DD
+  end: string;   // YYYY-MM-DD
+};
+
 export type Candidate = {
   ticker: string;
   company: string;
@@ -30,6 +43,11 @@ export type Candidate = {
   rules?: Record<string, RuleResult>;
   rules_passed?: number;
   rules_total?: number;
+  // VCP visualization metadata (optional, hydrated by detect_vcp).
+  contraction_ranges?: ContractionRange[];
+  pivot_date?: string | null;
+  shakeout_dates?: string[];
+  dryup_ranges?: DryupRange[];
 };
 
 export type MarketBreakdown = {
@@ -74,11 +92,14 @@ export type FinancialMetrics = {
   pe_forward: number | null;
   market_cap: number | null;
   roe: number | null;
+  roa: number | null;
   profit_margin: number | null;
   gross_margin: number | null;
   operating_margin: number | null;
   revenue_growth: number | null;
   earnings_growth: number | null;
+  dividend_yield: number | null;
+  payout_ratio: number | null;
   currency: string;
   sector: string;
   industry: string;
@@ -90,6 +111,7 @@ export type AnnualFinancials = {
   revenue: (number | null)[];
   gross_profit: (number | null)[];
   operating_income: (number | null)[];
+  operating_margin: (number | null)[];
   net_income: (number | null)[];
   eps: (number | null)[];
   total_assets: (number | null)[];
@@ -97,9 +119,22 @@ export type AnnualFinancials = {
   equity: (number | null)[];
   cash: (number | null)[];
   total_debt: (number | null)[];
+  current_assets: (number | null)[];
+  current_liabilities: (number | null)[];
+  debt_to_equity: (number | null)[];
+  current_ratio: (number | null)[];
+  cash_ratio: (number | null)[];
+  roe: (number | null)[];
+  roa: (number | null)[];
+  dividend_yield: (number | null)[];
   operating_cf: (number | null)[];
   capex: (number | null)[];
   free_cf: (number | null)[];
+  // YoY growth (computed)
+  revenue_yoy?: (number | null)[];
+  operating_income_yoy?: (number | null)[];
+  eps_yoy?: (number | null)[];
+  free_cf_yoy?: (number | null)[];
 };
 
 export type QuarterlyFinancials = {
@@ -108,8 +143,26 @@ export type QuarterlyFinancials = {
   net_income: (number | null)[];
   eps: (number | null)[];
   gross_profit: (number | null)[];
+  operating_income: (number | null)[];
+  operating_margin: (number | null)[];
+  total_debt: (number | null)[];
+  equity: (number | null)[];
+  current_assets: (number | null)[];
+  current_liabilities: (number | null)[];
+  cash: (number | null)[];
+  total_assets: (number | null)[];
+  debt_to_equity: (number | null)[];
+  current_ratio: (number | null)[];
+  cash_ratio: (number | null)[];
+  roe: (number | null)[];
+  roa: (number | null)[];
+  dividend_yield: (number | null)[];
+  operating_cf: (number | null)[];
+  capex: (number | null)[];
+  free_cf: (number | null)[];
   eps_yoy: (number | null)[];
   revenue_yoy: (number | null)[];
+  operating_income_yoy: (number | null)[];
 };
 
 export type TickerFinancials = {
