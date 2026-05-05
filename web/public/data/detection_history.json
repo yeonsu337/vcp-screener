@@ -6,9 +6,15 @@
     "market": "US",
     "company": "Mastec Inc",
     "last_seen": "2026-04-11",
-    "current_price": 417.41,
+    "current_price": 425.39,
     "current_score": 90.2,
-    "rs_rating": 94
+    "rs_rating": 94,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 425.39,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "KGS": {
     "first_detected": "2026-04-11",
@@ -17,7 +23,7 @@
     "market": "US",
     "company": "Kodiak Gas Services Inc",
     "last_seen": "2026-04-28",
-    "current_price": 68.54,
+    "current_price": 68.1,
     "current_score": 92.7,
     "rs_rating": 92
   },
@@ -28,9 +34,15 @@
     "market": "US",
     "company": "Quanta Services, Inc",
     "last_seen": "2026-04-11",
-    "current_price": 742.21,
+    "current_price": 757.34,
     "current_score": 86.9,
-    "rs_rating": 87
+    "rs_rating": 87,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 757.34,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "FTI": {
     "first_detected": "2026-04-11",
@@ -39,9 +51,15 @@
     "market": "US",
     "company": "TechnipFMC plc",
     "last_seen": "2026-04-11",
-    "current_price": 75.79,
+    "current_price": 74.6,
     "current_score": 84.9,
-    "rs_rating": 93
+    "rs_rating": 93,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 74.6,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "EIX": {
     "first_detected": "2026-04-11",
@@ -50,9 +68,15 @@
     "market": "US",
     "company": "Edison International",
     "last_seen": "2026-04-11",
-    "current_price": 69.88,
+    "current_price": 69.0,
     "current_score": 83.9,
-    "rs_rating": 80
+    "rs_rating": 80,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 69.0,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "NVRI": {
     "first_detected": "2026-04-11",
@@ -61,7 +85,7 @@
     "market": "US",
     "company": "Enviri Corp",
     "last_seen": "2026-04-30",
-    "current_price": 19.66,
+    "current_price": 19.16,
     "current_score": 80.6,
     "rs_rating": 89
   },
@@ -72,9 +96,15 @@
     "market": "US",
     "company": "Equinix Inc",
     "last_seen": "2026-04-13",
-    "current_price": 1085.03,
+    "current_price": 1083.2,
     "current_score": 84.1,
-    "rs_rating": 77
+    "rs_rating": 77,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 1083.2,
+    "exit_reasons": [
+      "absent 22d (limit 10d)"
+    ]
   },
   "ROST": {
     "first_detected": "2026-04-11",
@@ -83,9 +113,15 @@
     "market": "US",
     "company": "Ross Stores, Inc",
     "last_seen": "2026-04-11",
-    "current_price": 228.84,
+    "current_price": 226.02,
     "current_score": 82.8,
-    "rs_rating": 81
+    "rs_rating": 81,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 226.02,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "TDW": {
     "first_detected": "2026-04-11",
@@ -94,9 +130,15 @@
     "market": "US",
     "company": "Tidewater Inc",
     "last_seen": "2026-04-11",
-    "current_price": 87.85,
+    "current_price": 87.08,
     "current_score": 81.7,
-    "rs_rating": 90
+    "rs_rating": 90,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 87.08,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "NEE": {
     "first_detected": "2026-04-11",
@@ -105,9 +147,15 @@
     "market": "US",
     "company": "NextEra Energy Inc",
     "last_seen": "2026-04-11",
-    "current_price": 96.95,
+    "current_price": 95.51,
     "current_score": 79.7,
-    "rs_rating": 70
+    "rs_rating": 70,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 95.51,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "RPRX": {
     "first_detected": "2026-04-11",
@@ -116,9 +164,15 @@
     "market": "US",
     "company": "Royalty Pharma plc",
     "last_seen": "2026-04-11",
-    "current_price": 49.47,
+    "current_price": 50.2,
     "current_score": 80.0,
-    "rs_rating": 76
+    "rs_rating": 76,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 50.2,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "KEX": {
     "first_detected": "2026-04-11",
@@ -127,9 +181,15 @@
     "market": "US",
     "company": "Kirby Corp",
     "last_seen": "2026-04-11",
-    "current_price": 147.22,
+    "current_price": 144.48,
     "current_score": 79.8,
-    "rs_rating": 77
+    "rs_rating": 77,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 144.48,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "NE": {
     "first_detected": "2026-04-11",
@@ -138,9 +198,15 @@
     "market": "US",
     "company": "Noble Corp Plc",
     "last_seen": "2026-04-13",
-    "current_price": 50.54,
+    "current_price": 50.93,
     "current_score": 78.9,
-    "rs_rating": 91
+    "rs_rating": 91,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 50.93,
+    "exit_reasons": [
+      "absent 22d (limit 10d)"
+    ]
   },
   "TRGP": {
     "first_detected": "2026-04-11",
@@ -149,9 +215,15 @@
     "market": "US",
     "company": "Targa Resources Corp",
     "last_seen": "2026-04-11",
-    "current_price": 254.28,
+    "current_price": 258.98,
     "current_score": 77.3,
-    "rs_rating": 81
+    "rs_rating": 81,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 258.98,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "BKR": {
     "first_detected": "2026-04-11",
@@ -160,9 +232,15 @@
     "market": "US",
     "company": "Baker Hughes Co",
     "last_seen": "2026-04-11",
-    "current_price": 69.12,
+    "current_price": 69.01,
     "current_score": 76.7,
-    "rs_rating": 82
+    "rs_rating": 82,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 69.01,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "024800.KQ": {
     "first_detected": "2026-04-11",
@@ -171,9 +249,15 @@
     "market": "KR",
     "company": "유성티엔에스",
     "last_seen": "2026-04-11",
-    "current_price": 4435.0,
+    "current_price": 4445.0,
     "current_score": 76.6,
-    "rs_rating": 78
+    "rs_rating": 78,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 4445.0,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "BG": {
     "first_detected": "2026-04-11",
@@ -182,9 +266,15 @@
     "market": "US",
     "company": "Bunge Global SA",
     "last_seen": "2026-04-11",
-    "current_price": 124.61,
+    "current_price": 127.62,
     "current_score": 75.3,
-    "rs_rating": 84
+    "rs_rating": 84,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 127.62,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "MGY": {
     "first_detected": "2026-04-11",
@@ -193,9 +283,15 @@
     "market": "US",
     "company": "Magnolia Oil & Gas Corp",
     "last_seen": "2026-04-11",
-    "current_price": 30.09,
+    "current_price": 31.12,
     "current_score": 72.4,
-    "rs_rating": 78
+    "rs_rating": 78,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 31.12,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "ERAS": {
     "first_detected": "2026-04-11",
@@ -204,9 +300,16 @@
     "market": "US",
     "company": "Erasca Inc",
     "last_seen": "2026-04-11",
-    "current_price": 10.03,
+    "current_price": 10.14,
     "current_score": 77.8,
-    "rs_rating": 99
+    "rs_rating": 99,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 10.14,
+    "exit_reasons": [
+      "drawdown -40.4% (limit -15.0%)",
+      "absent 24d (limit 10d)"
+    ]
   },
   "CLMT": {
     "first_detected": "2026-04-11",
@@ -215,9 +318,15 @@
     "market": "US",
     "company": "Calumet Inc",
     "last_seen": "2026-04-11",
-    "current_price": 33.68,
+    "current_price": 34.15,
     "current_score": 75.9,
-    "rs_rating": 94
+    "rs_rating": 94,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 34.15,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "VNOM": {
     "first_detected": "2026-04-11",
@@ -226,7 +335,7 @@
     "market": "US",
     "company": "Viper Energy Inc",
     "last_seen": "2026-04-29",
-    "current_price": 49.9,
+    "current_price": 50.95,
     "current_score": 80.0,
     "rs_rating": 72
   },
@@ -239,7 +348,13 @@
     "last_seen": "2026-04-11",
     "current_price": 5640.0,
     "current_score": 70.5,
-    "rs_rating": 87
+    "rs_rating": 87,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 5640.0,
+    "exit_reasons": [
+      "absent 24d (limit 10d)"
+    ]
   },
   "0016.HK": {
     "first_detected": "2026-04-15",
@@ -248,9 +363,15 @@
     "market": "HK",
     "company": "Sun Hung Kai Properties Limited",
     "last_seen": "2026-04-16",
-    "current_price": 135.8,
+    "current_price": 138.0,
     "current_score": 85.0,
-    "rs_rating": 98
+    "rs_rating": 98,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 138.0,
+    "exit_reasons": [
+      "absent 19d (limit 10d)"
+    ]
   },
   "160980.KQ": {
     "first_detected": "2026-04-15",
@@ -259,9 +380,15 @@
     "market": "KR",
     "company": "싸이맥스",
     "last_seen": "2026-04-16",
-    "current_price": 37200.0,
+    "current_price": 37650.0,
     "current_score": 83.1,
-    "rs_rating": 86
+    "rs_rating": 86,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 37650.0,
+    "exit_reasons": [
+      "absent 19d (limit 10d)"
+    ]
   },
   "TPH": {
     "first_detected": "2026-04-17",
@@ -272,7 +399,13 @@
     "last_seen": "2026-04-17",
     "current_score": 84.9,
     "rs_rating": 80,
-    "current_price": 46.86
+    "current_price": 46.81,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 46.81,
+    "exit_reasons": [
+      "absent 18d (limit 10d)"
+    ]
   },
   "078020.KQ": {
     "first_detected": "2026-04-17",
@@ -283,7 +416,7 @@
     "last_seen": "2026-05-01",
     "current_score": 73.6,
     "rs_rating": 74,
-    "current_price": 7840.0
+    "current_price": 8290.0
   },
   "005930.KS": {
     "first_detected": "2026-04-22",
@@ -294,7 +427,13 @@
     "last_seen": "2026-04-22",
     "current_score": 83.3,
     "rs_rating": 90,
-    "current_price": 220500.0
+    "current_price": 232500.0,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 232500.0,
+    "exit_reasons": [
+      "absent 13d (limit 10d)"
+    ]
   },
   "HST": {
     "first_detected": "2026-04-23",
@@ -305,7 +444,13 @@
     "last_seen": "2026-04-24",
     "current_score": 81.4,
     "rs_rating": 73,
-    "current_price": 21.13
+    "current_price": 20.86,
+    "exited": true,
+    "exit_date": "2026-05-05",
+    "exit_price": 20.86,
+    "exit_reasons": [
+      "absent 11d (limit 10d)"
+    ]
   },
   "CLH": {
     "first_detected": "2026-04-24",
@@ -316,7 +461,7 @@
     "last_seen": "2026-04-29",
     "current_score": 79.2,
     "rs_rating": 73,
-    "current_price": 311.43
+    "current_price": 310.44
   },
   "VLO": {
     "first_detected": "2026-04-27",
@@ -327,7 +472,7 @@
     "last_seen": "2026-04-28",
     "current_score": 77.4,
     "rs_rating": 87,
-    "current_price": 246.87
+    "current_price": 251.63
   },
   "ZD": {
     "first_detected": "2026-04-28",
@@ -338,7 +483,7 @@
     "last_seen": "2026-04-30",
     "current_score": 77.3,
     "rs_rating": 74,
-    "current_price": 46.1
+    "current_price": 45.62
   },
   "HPE": {
     "first_detected": "2026-04-28",
@@ -349,7 +494,7 @@
     "last_seen": "2026-04-29",
     "current_score": 83.0,
     "rs_rating": 80,
-    "current_price": 28.57
+    "current_price": 28.71
   },
   "1113.HK": {
     "first_detected": "2026-04-28",
@@ -360,7 +505,7 @@
     "last_seen": "2026-04-28",
     "current_score": 87.7,
     "rs_rating": 90,
-    "current_price": 48.86
+    "current_price": 49.46
   },
   "ECVT": {
     "first_detected": "2026-04-29",
@@ -368,10 +513,10 @@
     "detection_score": 81.8,
     "market": "US",
     "company": "Ecovyst Inc",
-    "last_seen": "2026-05-01",
-    "current_score": 84.7,
-    "rs_rating": 88,
-    "current_price": 14.36
+    "last_seen": "2026-05-05",
+    "current_score": 82.3,
+    "rs_rating": 86,
+    "current_price": 14.12
   },
   "ITT": {
     "first_detected": "2026-04-30",
@@ -382,6 +527,6 @@
     "last_seen": "2026-04-30",
     "current_score": 80.5,
     "rs_rating": 73,
-    "current_price": 209.89
+    "current_price": 209.04
   }
 }
