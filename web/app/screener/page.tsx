@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import Link from "next/link";
 import type { Candidate, Meta } from "../types";
 import ScreenerTable from "./ScreenerTable";
 
@@ -37,6 +38,16 @@ export default function Home() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-6 md:py-10">
+      {/* Top nav */}
+      <nav className="mb-4">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1 text-sm text-muted hover:text-accent transition"
+        >
+          ← Home
+        </Link>
+      </nav>
+
       {/* Header */}
       <header className="mb-6 md:mb-8">
         <h1 className="text-2xl md:text-3xl font-bold tracking-tight">

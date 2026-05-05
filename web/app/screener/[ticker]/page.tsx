@@ -58,9 +58,13 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
-      <nav className="mb-4">
-        <Link href="/screener" className="text-sm text-muted hover:text-accent">
-          &larr; Back to screener
+      <nav className="mb-4 flex items-center gap-3 text-sm">
+        <Link href="/" className="text-muted hover:text-accent transition">
+          ← Home
+        </Link>
+        <span className="text-border">/</span>
+        <Link href="/screener" className="text-muted hover:text-accent transition">
+          Screener
         </Link>
       </nav>
 
