@@ -428,62 +428,62 @@ def _truncate(s: str, n: int) -> str:
 
 
 def llm_section_a(ticker: str, yf_data: dict, sec_business: str, wiki: str) -> dict:
-    """Category A — BM / History (LLM-summarized)."""
-    prompt = f"""You are a senior equity research analyst. Produce a structured JSON
-summary for {ticker} ({yf_data.get('name')}) covering Business Model & History.
-Respond ONLY with valid JSON matching this schema:
+    """Category A — BM / History (한국어 요약)."""
+    prompt = f"""당신은 시니어 주식 리서치 애널리스트입니다. {ticker} ({yf_data.get('name')})의
+Business Model & History를 **한국어**로 정리한 JSON을 반환하세요.
+다음 스키마와 정확히 일치하는 JSON만 출력 (마크다운 펜스·주석 X):
 {{
-  "overview": "1-paragraph company overview (≤ 80 words)",
-  "milestones": ["YYYY: event", ...],   // 5-8 key events
-  "business_model": "How the company makes money (≤ 60 words)",
-  "revenue_streams": ["stream 1", "stream 2", ...],  // 3-6 items
-  "value_chain_position": "Upstream / midstream / downstream + 1-line explanation",
-  "products": ["product/service 1", ...],   // 3-6
-  "channels": ["B2B / B2C / D2C / wholesale ...", ...],
-  "key_customers": "concentration assessment (e.g., 'Top 5 customers = 35% of sales')"
+  "overview": "1단락 기업 개요 (한국어, 80자 이내)",
+  "milestones": ["YYYY: 사건", ...],   // 5~8개 핵심 이벤트
+  "business_model": "어떻게 돈을 버는가 (한국어, 60자 이내)",
+  "revenue_streams": ["매출원 1", "매출원 2", ...],  // 3~6개
+  "value_chain_position": "Upstream / midstream / downstream + 1줄 설명",
+  "products": ["제품/서비스 1", ...],   // 3~6
+  "channels": ["B2B / B2C / D2C / 도매 등", ...],
+  "key_customers": "고객 집중도 평가 (예: 'Top 5 고객 = 매출 35%')"
 }}
 
-Source data (truncated):
-- yfinance summary: {_truncate(yf_data.get('summary',''), 1200)}
+원천 데이터 (일부 발췌):
+- yfinance 요약: {_truncate(yf_data.get('summary',''), 1200)}
 - 10-K Item 1 (Business): {_truncate(sec_business, 5000)}
 - Wikipedia: {_truncate(wiki, 1000)}
 
-Return raw JSON only — no markdown fences, no commentary."""
+JSON만 반환. 모든 문자열 값은 한국어로."""
     text = gemini_call(prompt, max_output_tokens=2000)
     return _parse_json(text)
 
 
 def llm_section_c(ticker: str, yf_data: dict, sec_business: str, sec_mda: str) -> dict:
-    """Category C — Market & Competitive."""
-    prompt = f"""You are a competitive strategy analyst. Produce JSON for {ticker} ({yf_data.get('name')}).
-Schema:
+    """Category C — Market & Competitive (한국어)."""
+    prompt = f"""당신은 경쟁전략 애널리스트입니다. {ticker} ({yf_data.get('name')})의 시장·경쟁 분석을
+**한국어** JSON으로 반환하세요. 스키마:
 {{
-  "tam_estimate_usd_b": "current TAM in USD billion + source/method",
-  "tam_cagr_pct": "expected 3-5Y CAGR with reasoning",
-  "growth_drivers": ["driver 1 (1-line)", ...],   // 3-5
-  "market_share_pct": "company's est. market share",
+  "tam_estimate_usd_b": "현재 TAM (USD billion 단위) + 출처/추정 방법",
+  "tam_cagr_pct": "향후 3~5년 CAGR + 근거 (한국어)",
+  "growth_drivers": ["성장 동인 1 (1줄, 한국어)", ...],   // 3~5
+  "market_share_pct": "회사 추정 시장점유율",
   "competitors": [
-    {{"name": "Comp1", "differentiation": "..."}},
+    {{"name": "경쟁사명", "differentiation": "차별화 요소 (한국어)"}},
     ...
-  ],   // top 3-5
+  ],   // top 3~5
   "porter_five_forces": {{
-    "new_entrants": "low/medium/high + 1-line",
+    "new_entrants": "low/medium/high + 한국어 1줄 근거",
     "substitutes": "...",
     "buyer_power": "...",
     "supplier_power": "...",
     "rivalry": "..."
   }},
-  "competitive_advantages": ["advantage 1", ...],
-  "competitive_weaknesses": ["weakness 1", ...]
+  "competitive_advantages": ["경쟁 우위 1 (한국어)", ...],
+  "competitive_weaknesses": ["경쟁 열위 1 (한국어)", ...]
 }}
 
 Sector: {yf_data.get('sector')}, Industry: {yf_data.get('industry')}.
 
-Source: 10-K Business + MD&A excerpts:
+원천 데이터: 10-K Business + MD&A 발췌:
 {_truncate(sec_business, 4000)}
 {_truncate(sec_mda, 3000)}
 
-Return JSON only. Where numbers are uncertain, use ranges and tag with 'estimate'."""
+JSON만 반환. 수치 불확실 시 범위 + 'estimate' 표기. 모든 설명은 한국어."""
     text = gemini_call(prompt, max_output_tokens=2200)
     return _parse_json(text)
 
@@ -491,55 +491,55 @@ Return JSON only. Where numbers are uncertain, use ranges and tag with 'estimate
 def llm_section_d_qualitative(
     ticker: str, yf_data: dict, sec_business: str, sec_mda: str, b: dict, d_quant: dict
 ) -> dict:
-    """Category D — qualitative parts (moat, new trigger, scenarios)."""
-    prompt = f"""You are an investment thesis writer for {ticker} ({yf_data.get('name')}).
-Quantitative anchors:
+    """Category D — qualitative parts (한국어, moat·new trigger·scenarios)."""
+    prompt = f"""당신은 {ticker} ({yf_data.get('name')})의 투자 thesis writer입니다.
+정량 지표:
 - ROE: {b.get('roe_pct')}%, OPM: {b.get('operating_margin')}, NPM: {b.get('profit_margin')}
-- Revenue growth (TTM): {b.get('revenue_growth_ttm')}, EPS QoQ YoY: {b.get('eps_qoq_yoy_pct')}
+- 매출 성장 (TTM): {b.get('revenue_growth_ttm')}, EPS QoQ YoY: {b.get('eps_qoq_yoy_pct')}
 - 3Y NI CAGR: {b.get('ni_cagr_3y_pct')}%
 - PEG: {d_quant.get('peg_ratio')}, FwdPE: {d_quant.get('forward_pe')}
-- 1Y outperform NASDAQ: {d_quant.get('outperform_1y_vs_nasdaq')}%
-- Lynch category (heuristic): {d_quant.get('lynch_category')}
+- 1Y NASDAQ 대비 outperform: {d_quant.get('outperform_1y_vs_nasdaq')}%
+- Lynch 카테고리 (휴리스틱): {d_quant.get('lynch_category')}
 
-Schema:
+**한국어** JSON 스키마:
 {{
   "moat_type": "Intangible Assets | Switching Costs | Network Effect | Cost Advantage | None",
-  "moat_evidence": ["evidence 1 from filings", ...],   // 2-4
-  "moat_durability_years": "estimate (e.g., '5-10y')",
-  "new_trigger": "Recent 12M product/management/industry catalyst (≤ 50 words)",
-  "bull_case": "3Y bull scenario with key drivers (≤ 80 words)",
-  "base_case": "...",
-  "bear_case": "...",
-  "key_metrics_to_watch": ["metric 1", ...]   // 3-5
+  "moat_evidence": ["10-K 근거 1 (한국어)", ...],   // 2~4
+  "moat_durability_years": "지속 추정 (예: '5~10년')",
+  "new_trigger": "최근 12개월 신제품·신경영진·산업 카탈리스트 (한국어, 50자 이내)",
+  "bull_case": "3년 강세 시나리오 + 핵심 드라이버 (한국어, 80자 이내)",
+  "base_case": "기본 시나리오 (한국어)",
+  "bear_case": "약세 시나리오 (한국어)",
+  "key_metrics_to_watch": ["관찰 지표 1 (한국어)", ...]   // 3~5
 }}
 
-10-K excerpts:
+10-K 발췌:
 {_truncate(sec_business, 3500)}
 {_truncate(sec_mda, 3500)}
 
-Return JSON only."""
+JSON만 반환. 모든 문자열 값 한국어."""
     text = gemini_call(prompt, max_output_tokens=2000)
     return _parse_json(text)
 
 
 def llm_section_e(ticker: str, yf_data: dict, sec_risk: str) -> dict:
-    """Category E — Risks (LLM-extracted from 10-K Item 1A)."""
-    prompt = f"""Extract structured risks for {ticker} ({yf_data.get('name')}).
-Schema:
+    """Category E — Risks (한국어, 10-K Item 1A 추출)."""
+    prompt = f"""{ticker} ({yf_data.get('name')})의 리스크를 **한국어** JSON으로 정리하세요.
+스키마:
 {{
   "top_risks": [
-    {{"category": "Customer concentration | Supply chain | Regulation | Competition | Financial | Governance | Macro",
-      "description": "1-2 sentences",
+    {{"category": "고객집중도 | 공급망 | 규제 | 경쟁 | 재무 | 거버넌스 | 거시",
+      "description": "1~2문장 (한국어)",
       "severity": "low | medium | high"}}
-  ],   // 5-8 risks
-  "inversion_scenarios": ["how the company could fail (≤ 1 line each)"],   // 3-4
-  "exit_signals": ["specific events that would invalidate the long thesis"]   // 3-4
+  ],   // 5~8개 리스크
+  "inversion_scenarios": ["회사가 망할 수 있는 시나리오 (한국어, 1줄)"],   // 3~4
+  "exit_signals": ["롱 thesis를 무효화할 구체적 이벤트 (한국어)"]   // 3~4
 }}
 
-10-K Item 1A excerpt:
+10-K Item 1A 발췌:
 {_truncate(sec_risk, 8000)}
 
-Return JSON only."""
+JSON만 반환. 모든 문자열 값 한국어."""
     text = gemini_call(prompt, max_output_tokens=2000)
     return _parse_json(text)
 

@@ -381,21 +381,32 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
         history[ticker]["current_score"] = r.get("score")
         history[ticker]["rs_rating"] = r.get("rs_rating")
 
-    # Step 2: refresh current_price for ALL active (non-exited) history tickers
+    # Step 2: refresh current_price + recent OHLCV for ALL active history tickers.
+    # OHLCV is needed for 50-day MA break detection (EX4).
     active_tickers = [t for t, h in history.items() if not h.get("exited")]
+    active_ohlcv: dict[str, pd.DataFrame] = {}
     if active_tickers:
-        print(f"\nRefreshing current prices for {len(active_tickers)} active history tickers...")
-        latest = _fetch_latest_prices(active_tickers)
+        print(f"\nRefreshing prices+OHLCV for {len(active_tickers)} active history tickers...")
+        active_ohlcv = fetch_ohlcv(active_tickers, period="6mo")
         updated = 0
         for t in active_tickers:
-            px = latest.get(t)
-            if px is not None:
-                history[t]["current_price"] = px
-                updated += 1
+            df = active_ohlcv.get(t)
+            if df is None or df.empty or "Close" not in df.columns:
+                continue
+            try:
+                close = df["Close"].dropna()
+                if len(close) > 0:
+                    history[t]["current_price"] = round(float(close.iloc[-1]), 2)
+                    updated += 1
+            except Exception:
+                pass
         print(f"  {updated}/{len(active_tickers)} prices refreshed")
 
+    # Step 2b: update peak return tracking + profit-taking signals (display only)
+    _update_peak_metrics(history)
+
     # Step 3: check exit rules for active tickers
-    _check_exits(history, detected, today)
+    _check_exits(history, detected, today, active_ohlcv)
 
     HISTORY_PATH.write_text(
         json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -403,16 +414,84 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
     return history
 
 
-# Exit thresholds
-EXIT_DRAWDOWN_PCT = -15.0      # price drop > 15% from detection
-EXIT_RS_BELOW = 40             # RS rating collapses
-EXIT_ABSENT_DAYS = 10          # not detected for 10+ consecutive days
+# ---- Exit / signal thresholds (Minervini + O'Neil / IBD standard) ----------
+EXIT_INITIAL_STOP_PCT = -8.0       # O'Neil/Minervini "ironclad" -7~-8% stop
+EXIT_TRAILING_FROM_PEAK_PCT = -15.0  # protective trailing stop (after some gain)
+EXIT_TRAILING_KICK_IN_PCT = 10.0   # trailing only kicks in once peak gain ≥ +10%
+EXIT_50DMA_VOLUME_MULT = 1.5       # 50d MA break must coincide with vol ≥ 1.5× SMA50
+EXIT_RS_BELOW = 40                 # RS Rating collapse
+EXIT_ABSENT_DAYS = 10              # 10 consecutive days not in detected list
+
+# Display-only signals (do NOT trigger exit — let 10-baggers run)
+PROFIT_SIGNAL_PCT_PARTIAL = 20.0   # +20% — "partial take signal"
+PROFIT_SIGNAL_PCT_FULL = 25.0      # +25% — "full take signal"
 
 
-def _check_exits(history: dict, detected: dict, today: str) -> None:
+def _update_peak_metrics(history: dict) -> None:
+    """Track max return reached + profit-taking signals (display only, no exits)."""
+    for h in history.values():
+        if h.get("exited"):
+            continue
+        det_px = h.get("detection_price")
+        cur_px = h.get("current_price")
+        if not det_px or not cur_px:
+            continue
+        ret = (cur_px - det_px) / det_px * 100
+        prev_peak = h.get("max_return_pct", -999.0)
+        if ret > prev_peak:
+            h["max_return_pct"] = round(ret, 2)
+            h["peak_price"] = cur_px
+        h["return_pct"] = round(ret, 2)
+        # Profit-taking flags (display only)
+        h["profit_signal_partial"] = h.get("max_return_pct", 0) >= PROFIT_SIGNAL_PCT_PARTIAL
+        h["profit_signal_full"] = h.get("max_return_pct", 0) >= PROFIT_SIGNAL_PCT_FULL
+
+
+def _check_50dma_break(df: pd.DataFrame) -> tuple[bool, dict]:
     """
-    Mark tickers as exited if they meet any exit criteria.
-    Once exited, a ticker is frozen — no further price refresh or re-entry.
+    Returns (broken, meta).
+    Break = today's close < 50d SMA AND today's volume > 1.5× 50d avg volume.
+    Source: O'Neil/Minervini "circuit breaker" sell signal.
+    """
+    if df is None or df.empty or len(df) < 50 or "Close" not in df.columns or "Volume" not in df.columns:
+        return False, {}
+    try:
+        close = df["Close"].dropna()
+        vol = df["Volume"].dropna()
+        if len(close) < 50 or len(vol) < 50:
+            return False, {}
+        sma50 = float(close.iloc[-50:].mean())
+        sma50_vol = float(vol.iloc[-50:].mean())
+        last_close = float(close.iloc[-1])
+        last_vol = float(vol.iloc[-1])
+        broke = last_close < sma50
+        heavy_vol = sma50_vol > 0 and last_vol >= EXIT_50DMA_VOLUME_MULT * sma50_vol
+        return (broke and heavy_vol), {
+            "close": round(last_close, 2),
+            "sma50": round(sma50, 2),
+            "vol_ratio": round(last_vol / sma50_vol, 2) if sma50_vol > 0 else None,
+        }
+    except Exception:
+        return False, {}
+
+
+def _check_exits(
+    history: dict,
+    detected: dict,
+    today: str,
+    ohlcv_map: dict[str, "pd.DataFrame"] | None = None,
+) -> None:
+    """
+    Mark tickers as exited if any auto-exit criterion fires.
+    Auto exits (frozen on hit):
+      EX1  Initial stop -8% from detection
+      EX3  RS Rating < 40
+      EX4  50d MA break + heavy volume (≥1.5× SMA50 vol)
+      EX5  Trailing stop -15% from peak (only after peak gain ≥ +10%)
+      EX6  Absent ≥ 10 consecutive trading days
+
+    Profit-taking signals (+20% / +25%) are display-only — do NOT exit
+    so 10-bagger candidates can keep running.
     """
     exit_count = 0
     for ticker, h in history.items():
@@ -420,20 +499,39 @@ def _check_exits(history: dict, detected: dict, today: str) -> None:
             continue
         reasons: list[str] = []
 
-        # 1. Drawdown from detection price
         det_px = h.get("detection_price")
         cur_px = h.get("current_price")
+        ret = None
         if det_px and cur_px:
             ret = ((cur_px - det_px) / det_px) * 100
-            if ret <= EXIT_DRAWDOWN_PCT:
-                reasons.append(f"drawdown {ret:.1f}% (limit {EXIT_DRAWDOWN_PCT}%)")
 
-        # 2. RS rating collapse
+        # EX1: -8% initial stop (Minervini/O'Neil ironclad rule)
+        if ret is not None and ret <= EXIT_INITIAL_STOP_PCT:
+            reasons.append(f"EX1 stop -{abs(EXIT_INITIAL_STOP_PCT):.0f}% (ret {ret:.1f}%)")
+
+        # EX5: trailing -15% from peak (only after some cushion built up)
+        peak = h.get("max_return_pct")
+        if peak is not None and peak >= EXIT_TRAILING_KICK_IN_PCT and ret is not None:
+            drawdown_from_peak = ret - peak
+            if drawdown_from_peak <= EXIT_TRAILING_FROM_PEAK_PCT:
+                reasons.append(
+                    f"EX5 trailing {drawdown_from_peak:.1f}% from peak +{peak:.1f}%"
+                )
+
+        # EX4: 50d MA break + heavy volume
+        if ohlcv_map is not None and ticker in ohlcv_map:
+            broke, meta = _check_50dma_break(ohlcv_map[ticker])
+            if broke:
+                reasons.append(
+                    f"EX4 50d MA break (close {meta.get('close')} < SMA50 {meta.get('sma50')}, vol {meta.get('vol_ratio')}×)"
+                )
+
+        # EX3: RS rating collapse
         rs = h.get("rs_rating")
         if rs is not None and rs < EXIT_RS_BELOW:
-            reasons.append(f"RS {rs} < {EXIT_RS_BELOW}")
+            reasons.append(f"EX3 RS {rs} < {EXIT_RS_BELOW}")
 
-        # 3. Extended absence from screener
+        # EX6: extended absence
         last_seen = h.get("last_seen", "")
         if last_seen and ticker not in detected:
             days_absent = (
@@ -441,7 +539,7 @@ def _check_exits(history: dict, detected: dict, today: str) -> None:
                 - datetime.strptime(last_seen, "%Y-%m-%d")
             ).days
             if days_absent >= EXIT_ABSENT_DAYS:
-                reasons.append(f"absent {days_absent}d (limit {EXIT_ABSENT_DAYS}d)")
+                reasons.append(f"EX6 absent {days_absent}d")
 
         if reasons:
             h["exited"] = True
@@ -636,11 +734,33 @@ def main():
         if f.stem not in keep:
             f.unlink()
 
-    # Financial data for detected tickers (with delay to avoid rate limiting)
-    if detected_tickers:
-        print(f"\nFetching financials for {len(detected_tickers)} tickers (with rate limit delay)...")
+    # Financial data for detected (hard gate) + Primary 12+ (soft gate) tickers.
+    # Soft-gate tickers also get full financial cards so /screener/[ticker]
+    # and /research/[ticker] both have data without on-demand fetches.
+    PRIMARY_IDS_FOR_FIN = [
+        "A1_ud_vol_ratio", "B1_price_above_150_200", "B2_sma150_gt_sma200",
+        "B3_sma50_gt_150_200", "B4_price_above_sma50", "B5_sma200_rising_5mo",
+        "B6_30pct_above_52w_low", "B7_within_25pct_high", "R1_rs_70",
+        "L1_liquidity_gate", "P6_monotonic_decreasing", "E7_roe",
+        "F1_outperform_1y", "H4_ni_cagr_3y",
+    ]
+    softgate_tickers = []
+    for r in rows:
+        rules_dict = r.get("rules") or {}
+        passed = sum(
+            1 for rid in PRIMARY_IDS_FOR_FIN
+            if rules_dict.get(rid, {}).get("passed")
+        )
+        if passed >= 12 and r["ticker"] not in detected_tickers:
+            softgate_tickers.append(r["ticker"])
+
+    fin_targets = detected_tickers + softgate_tickers
+    if fin_targets:
+        print(f"\nFetching financials for {len(fin_targets)} tickers "
+              f"({len(detected_tickers)} detected + {len(softgate_tickers)} soft-gate, "
+              f"with rate limit delay)...")
         fin_count = 0
-        for i, t in enumerate(detected_tickers):
+        for i, t in enumerate(fin_targets):
             if i > 0:
                 time.sleep(2)  # 2s delay between requests to avoid Yahoo rate limit
             fin = fetch_ticker_financials(t)
@@ -652,7 +772,7 @@ def main():
                 fin_count += 1
         print(f"  {fin_count} financial profiles saved")
         # Clean up old
-        fin_keep = set(_safe_chart_filename(t) for t in detected_tickers)
+        fin_keep = set(_safe_chart_filename(t) for t in fin_targets)
         for f in FIN_DIR.glob("*.json"):
             if f.stem not in fin_keep:
                 f.unlink()

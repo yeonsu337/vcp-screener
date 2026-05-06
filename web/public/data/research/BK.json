@@ -1,0 +1,46 @@
+{
+  "ticker": "BK",
+  "company": "The Bank of New York Mellon Corporation",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified",
+  "generated_at": "2026-05-06T01:02:21.754135+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 90849124352,
+    "shares_outstanding": 686379000,
+    "employees": 47200,
+    "country": "United States",
+    "website": "https://www.bny.com",
+    "beta": 1.068
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 33.8,
+    "sales_yoy_pct": 13.4,
+    "ni_cagr_3y_pct": 29.48,
+    "roe_pct": 13.47
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 64.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.4621,
+    "trailing_pe": 16.421835,
+    "forward_pe": 13.765518,
+    "ev_to_ebitda": null,
+    "price_to_sales": 4.377427,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 23.29,
+    "outperform_6m_vs_nasdaq": 16.92,
+    "outperform_1m_vs_nasdaq": -7.65,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2024, it was the 13th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board."
+}

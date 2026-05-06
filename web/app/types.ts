@@ -43,6 +43,11 @@ export type Candidate = {
   rules?: Record<string, RuleResult>;
   rules_passed?: number;
   rules_total?: number;
+  // Provenance (added by /api/search): how this Candidate was produced.
+  // "cached"        → daily-scan results.json (full 42-rule eval)
+  // "computed"      → on-demand price-only eval (no fundamentals)
+  // "computed+sec"  → on-demand + SEC EDGAR fundamentals (US only)
+  source?: "cached" | "computed" | "computed+sec";
   // VCP visualization metadata (optional, hydrated by detect_vcp).
   contraction_ranges?: ContractionRange[];
   pivot_date?: string | null;

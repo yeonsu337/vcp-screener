@@ -20,6 +20,11 @@ export type BacktestRow = {
   exit_date?: string;
   exit_price?: number;
   exit_reasons?: string[];
+  // New peak-tracking + profit-taking signal fields (no auto-exit on profit signals)
+  max_return_pct?: number;
+  peak_price?: number;
+  profit_signal_partial?: boolean;  // +20% reached
+  profit_signal_full?: boolean;     // +25% reached
 };
 
 function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
@@ -202,6 +207,31 @@ export default function BacktestTable({ rows }: { rows: BacktestRow[] }) {
                     </div>
                   </div>
                 </div>
+                {(r.profit_signal_full || r.profit_signal_partial) && !r.exited && (
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    {r.profit_signal_partial && (
+                      <span
+                        className="text-[10px] px-1.5 py-0.5 rounded bg-yellow-500/20 text-yellow-400 font-semibold"
+                        title="피크 +20% 도달 — 절반 부분 매도 검토 (자동 exit 안 됨)"
+                      >
+                        ⚡ +20%
+                      </span>
+                    )}
+                    {r.profit_signal_full && (
+                      <span
+                        className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold"
+                        title="피크 +25% 도달 — 매도 검토 (자동 exit 안 됨, 10x 종목 보유 가능)"
+                      >
+                        ⚡ +25%
+                      </span>
+                    )}
+                    {r.max_return_pct !== undefined && r.max_return_pct > r.return_pct && (
+                      <span className="text-[10px] px-1.5 py-0.5 rounded bg-border/40 text-muted font-mono">
+                        peak +{r.max_return_pct.toFixed(0)}%
+                      </span>
+                    )}
+                  </div>
+                )}
                 {r.exited && (
                   <div className="mt-2 text-xs text-red-400 bg-red-500/10 rounded px-2 py-1">
                     ✗ Exited {r.exit_date} — {r.exit_reasons?.join(", ")}

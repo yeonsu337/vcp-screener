@@ -15,6 +15,24 @@ const MARKET_COLORS: Record<string, string> = {
   KR: "bg-emerald-500/20 text-emerald-400",
 };
 
+const SOURCE_META: Record<string, { label: string; cls: string; tooltip: string }> = {
+  cached: {
+    label: "Cached",
+    cls: "bg-emerald-500/20 text-emerald-400",
+    tooltip: "From daily scan — full 42-rule evaluation",
+  },
+  "computed+sec": {
+    label: "Computed + SEC",
+    cls: "bg-blue-500/20 text-blue-400",
+    tooltip: "On-demand: chart + SEC EDGAR fundamentals",
+  },
+  computed: {
+    label: "Computed",
+    cls: "bg-yellow-500/20 text-yellow-400",
+    tooltip: "On-demand: chart-only (no fundamentals)",
+  },
+};
+
 function loadHistory(): string[] {
   if (typeof window === "undefined") return [];
   try {
@@ -147,7 +165,7 @@ export default function SearchPage() {
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-bold tracking-tight">Search</h1>
         <p className="text-muted text-sm mt-1">
-          Evaluate any ticker on-demand. Price-based rules + select fundamentals (US). All free data.
+          Evaluate any ticker. Daily-scan cache → on-demand chart + SEC EDGAR (US). All free data.
         </p>
       </header>
 
@@ -228,6 +246,14 @@ export default function SearchPage() {
                 {market}
               </span>
               <StageBadge stage={candidate.stage} name={candidate.stage_name} />
+              {candidate.source && SOURCE_META[candidate.source] && (
+                <span
+                  title={SOURCE_META[candidate.source].tooltip}
+                  className={`text-[10px] font-semibold px-1.5 py-0.5 rounded uppercase ${SOURCE_META[candidate.source].cls}`}
+                >
+                  {SOURCE_META[candidate.source].label}
+                </span>
+              )}
             </div>
             <div className="text-xs text-muted mt-1">
               {candidate.sector || "—"}
@@ -301,16 +327,22 @@ export default function SearchPage() {
           <RuleScorecard candidate={candidate} />
 
           <div className="text-[11px] text-muted leading-relaxed mt-2">
-            Data: Yahoo Finance (chart + quoteSummary). Search evaluates {candidate.rules_total ?? 0} of 42 rules
-            using the on-demand free pipeline; full fundamentals (E2/E4-E6/E8/E9/H2-H4) require the daily
-            screener job.
+            {candidate.source === "cached" ? (
+              <>Data: Daily scan cache · {candidate.rules_total ?? 0}/42 rules evaluated.</>
+            ) : candidate.source === "computed+sec" ? (
+              <>Data: Yahoo Finance chart + SEC EDGAR XBRL fundamentals (US) ·{" "}
+              {candidate.rules_total ?? 0}/42 rules evaluated · E10·H1 unavailable on free APIs.</>
+            ) : (
+              <>Data: Yahoo Finance chart only · {candidate.rules_total ?? 0}/42 rules evaluated ·
+              fundamentals (E1-E9·H2-H4) require the daily screener or SEC fetch (US).</>
+            )}
           </div>
         </>
       )}
 
       <footer className="mt-12 pt-6 border-t border-border text-xs text-muted">
         <p>
-          Data: Yahoo Finance free endpoints · Cached 5 min per ticker · Not investment advice.
+          Data: Yahoo Finance + SEC EDGAR (US) · Daily-scan cache when available · 5-min in-process memo · Not investment advice.
         </p>
       </footer>
     </main>

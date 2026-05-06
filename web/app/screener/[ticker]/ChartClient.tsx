@@ -10,6 +10,7 @@ import {
 } from "lightweight-charts";
 import type { OhlcvBar, RsLinePoint, Candidate } from "../../types";
 import { useLivePrices, fmtLiveTime } from "../../lib/useLivePrices";
+import TrackingButton from "./TrackingButton";
 
 // ---------------------------------------------------------------------------
 // SMA helper
@@ -610,13 +611,16 @@ export default function ChartClient({
             </span>
           )}
         </div>
-        <div className="text-[11px] text-muted flex items-center gap-2">
-          <span
-            className={`inline-block w-1.5 h-1.5 rounded-full ${liveLoading ? "bg-yellow-400 animate-pulse" : "bg-emerald-400"}`}
-          />
-          <span>
-            {liveLoading ? "Refreshing" : "Live"} · {fmtLiveTime(asOf)}
-          </span>
+        <div className="flex items-center gap-3">
+          <TrackingButton candidate={candidate} livePrice={livePrice} />
+          <div className="text-[11px] text-muted flex items-center gap-2">
+            <span
+              className={`inline-block w-1.5 h-1.5 rounded-full ${liveLoading ? "bg-yellow-400 animate-pulse" : "bg-emerald-400"}`}
+            />
+            <span>
+              {liveLoading ? "Refreshing" : "Live"} · {fmtLiveTime(asOf)}
+            </span>
+          </div>
         </div>
       </div>
 

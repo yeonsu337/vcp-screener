@@ -1,0 +1,76 @@
+{
+  "ticker": "VICR",
+  "company": "Vicor Corporation",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "generated_at": "2026-05-06T00:50:42.979967+00:00",
+  "primary_passed": 13,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 12124882944,
+    "shares_outstanding": 33863689,
+    "employees": 1092,
+    "country": "United States",
+    "website": "https://www.vicorpower.com",
+    "beta": 2.341
+  },
+  "category_a_business": {
+    "overview": "Vicor Corporation designs, develops, manufactures, and markets modular power components and systems for converting electrical power. Serving diverse industries globally, Vicor's products enable efficient power delivery in electrically powered devices, from aerospace to telecommunications, leveraging proprietary technologies and continuous innovation.",
+    "milestones": [
+      "1981: Company incorporated in Andover, Massachusetts",
+      "Early focus: Development of modular power components",
+      "Ongoing: Continuous innovation in product design and performance",
+      "Ongoing: Research and development of advanced technologies and processes",
+      "Ongoing: Expansion of product offerings into 'Advanced Products' and 'Brick Products'"
+    ],
+    "business_model": "Vicor generates revenue by designing, manufacturing, and selling modular power components and custom power systems. It also earns royalty revenue through licensing arrangements for its proprietary power conversion technologies.",
+    "revenue_streams": [
+      "Sales of modular power components (Brick Products)",
+      "Sales of advanced power products (Advanced Products)",
+      "Sales of custom power system solutions",
+      "Licensing arrangements and royalty revenue",
+      "Sales of electrical and mechanical accessories"
+    ],
+    "value_chain_position": "Midstream + Vicor manufactures specialized power conversion modules and systems that are integrated into larger electronic devices by OEMs.",
+    "products": [
+      "Brick-format DC-DC converters",
+      "Advanced power modules (e.g., Factorized Power Architecture™)",
+      "AC line rectification components",
+      "Custom power system solutions",
+      "Input filtering, power factor correction, and transient protection components"
+    ],
+    "channels": [
+      "B2B (direct sales to OEMs, ODMs, contract manufacturers)",
+      "International subsidiaries and branch offices (Technical Support Centers)"
+    ],
+    "key_customers": "Diversified across various industries (aerospace, defense, telecom, etc.), suggesting no single customer concentration."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 713.9,
+    "sales_yoy_pct": 20.2,
+    "ni_cagr_3y_pct": 67.02,
+    "roe_pct": 20.49
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 98,
+    "score": 71.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 89.26342,
+    "forward_pe": 50.60333,
+    "ev_to_ebitda": 146.472,
+    "price_to_sales": 28.41534,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 506.81,
+    "outperform_6m_vs_nasdaq": 186.43,
+    "outperform_1m_vs_nasdaq": 55.7,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Vicor Corporation is a manufacturer of power modules headquartered in Andover, Massachusetts."
+}

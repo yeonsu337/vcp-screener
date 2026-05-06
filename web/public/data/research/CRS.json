@@ -1,0 +1,45 @@
+{
+  "ticker": "CRS",
+  "company": "Carpenter Technology Corporation",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
+  "generated_at": "2026-05-06T00:51:58.609637+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 22109599744,
+    "shares_outstanding": 49685612,
+    "employees": 4500,
+    "country": "United States",
+    "website": "https://www.carpentertechnology.com",
+    "beta": 1.241
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 46.3,
+    "sales_yoy_pct": 11.6,
+    "roe_pct": 24.89
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 84,
+    "score": 68.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.59,
+    "trailing_pe": 46.89041,
+    "forward_pe": 34.9833,
+    "ev_to_ebitda": 29.396,
+    "price_to_sales": 7.2997885,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 68.59,
+    "outperform_6m_vs_nasdaq": 34.26,
+    "outperform_1m_vs_nasdaq": -2.38,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Carpenter Technology Corporation develops, manufactures, and distributes stainless steels and corrosion-resistant nickel, copper and titanium alloys as well as powdered alloys for 3D additive manufacturing. In fiscal year 2018, the company's revenues were derived from the aerospace and defense industry (55%), the industrial and consumer industry (17%), the medical industry (8%), the transportation industry (7%), the energy industry (7%), and the distribution industry (6%). The company's products are used in landing gear, shaft collars, safety wires, electricity generation products, intervertebral disc arthroplasty, and engine valves and weldings."
+}

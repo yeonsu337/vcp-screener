@@ -1,0 +1,200 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-06T00:47:13.664014+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 579219816448,
+    "shares_outstanding": 1630338779,
+    "employees": 31000,
+    "country": "United States",
+    "website": "https://www.amd.com",
+    "beta": 2.399
+  },
+  "category_a_business": {
+    "overview": "Advanced Micro Devices, Inc. (AMD) is a global semiconductor company that designs and develops high-performance computing and visualization products. It offers CPUs, GPUs, FPGAs, and SoCs for diverse markets including data centers, personal computers, gaming, and embedded systems, driving innovation in AI and high-performance computing.",
+    "milestones": [
+      "1969: Advanced Micro Devices founded",
+      "1982: Signed second-source agreement with Intel for x86 microprocessors",
+      "2006: Acquired ATI Technologies, entering the GPU market",
+      "2017: Launched Ryzen CPUs and EPYC server processors, re-establishing competitiveness",
+      "2022: Acquired Xilinx, significantly expanding into adaptive computing and FPGAs"
+    ],
+    "business_model": "AMD designs and develops high-performance semiconductor products, primarily CPUs, GPUs, and adaptive SoCs. It generates revenue by selling these components to original equipment manufacturers (OEMs), cloud service providers, and directly to consumers, leveraging its intellectual property.",
+    "revenue_streams": [
+      "Data Center (server CPUs, AI accelerators)",
+      "Client (desktop and notebook CPUs, GPUs)",
+      "Gaming (console and discrete GPUs)",
+      "Embedded (processors and semi-custom SoCs)",
+      "Adaptive & Embedded (FPGAs, adaptive SoCs from Xilinx acquisition)"
+    ],
+    "value_chain_position": "Midstream - AMD designs and develops semiconductor products but primarily outsources manufacturing to third-party foundries.",
+    "products": [
+      "Ryzen CPUs (client)",
+      "EPYC CPUs (server)",
+      "Radeon GPUs (client and professional graphics)",
+      "Instinct Accelerators (data center AI)",
+      "Xilinx FPGAs and Adaptive SoCs",
+      "Semi-custom SoCs (gaming consoles)"
+    ],
+    "channels": [
+      "B2B (OEMs, cloud service providers, enterprise)",
+      "B2C (retail, online via partners)",
+      "Wholesale (distributors)"
+    ],
+    "key_customers": "A small number of customers will continue to account for a substantial part of AMD’s revenue and receivables in the future."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 213.5,
+    "sales_yoy_pct": 34.1,
+    "ni_cagr_3y_pct": 48.64,
+    "roe_pct": 7.08
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "~$1500 billion (estimate, based on various market research reports for semiconductor industry, including AI, data center, PC, and gaming segments)",
+    "tam_cagr_pct": "10-15% (reasoning: Strong growth in AI, data center, and high-performance computing markets, coupled with continued demand in client and gaming segments, despite cyclicality in some areas.)",
+    "growth_drivers": [
+      "Explosive demand for AI accelerators and high-performance computing in data centers.",
+      "Increasing adoption of AI PCs with integrated NPUs driving client segment innovation.",
+      "Expansion of cloud infrastructure requiring advanced CPUs, GPUs, and networking solutions.",
+      "Continued innovation in gaming consoles and PC gaming platforms.",
+      "Growing demand for adaptive SoCs and embedded solutions in diverse industries."
+    ],
+    "market_share_pct": "Varies significantly by product segment: ~30-35% in x86 CPU (client/server, estimate), ~15-20% in discrete GPU (estimate), rapidly growing but smaller share in AI accelerators (estimate).",
+    "competitors": [
+      {
+        "name": "Intel Corporation",
+        "differentiation": "Dominant market share in x86 CPUs, strong ecosystem, integrated graphics, foundry services. Differentiation through scale, established enterprise relationships, and broad product portfolio."
+      },
+      {
+        "name": "NVIDIA Corporation",
+        "differentiation": "Leader in discrete GPUs and AI accelerators (especially for training), strong software ecosystem (CUDA), and growing presence in data center networking. Differentiation through specialized hardware for AI/ML and a robust developer platform."
+      },
+      {
+        "name": "Qualcomm Incorporated",
+        "differentiation": "Strong presence in mobile SoCs, expanding into PC with ARM-based solutions, and automotive. Differentiation through power efficiency, connectivity, and mobile-first design."
+      },
+      {
+        "name": "Broadcom Inc.",
+        "differentiation": "Key player in networking, broadband communication, and storage solutions. Differentiation through specialized ASICs, enterprise networking, and a broad portfolio of infrastructure solutions."
+      },
+      {
+        "name": "Arm Holdings plc",
+        "differentiation": "Dominant architecture in mobile, growing presence in data center and PC through licensing model. Differentiation through power efficiency, scalability, and broad ecosystem of licensees."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (High capital expenditure, extensive R&D, complex IP, and established ecosystems create significant barriers to entry in the semiconductor industry.)",
+      "substitutes": "medium (While direct substitutes for high-performance CPUs/GPUs are limited, alternative architectures (e.g., ARM, custom ASICs) and cloud-based solutions can offer different value propositions.)",
+      "buyer_power": "medium (Large OEM customers and hyperscalers have significant purchasing power due to volume and ability to influence design, but AMD's differentiated performance can mitigate this.)",
+      "supplier_power": "medium (Reliance on a few advanced foundries (e.g., TSMC) gives suppliers some leverage, but AMD's scale and long-term contracts help manage this.)",
+      "rivalry": "high (Intense competition with well-established, well-funded players like Intel and NVIDIA, characterized by rapid innovation, aggressive pricing, and continuous product cycles.)"
+    },
+    "competitive_advantages": [
+      "Strong product portfolio across CPUs, GPUs, and adaptive SoCs, enabling full-stack solutions.",
+      "Leadership in high-performance computing and AI acceleration with competitive offerings.",
+      "Strategic acquisitions (Xilinx, Pensando) enhancing capabilities in adaptive computing and networking.",
+      "First-mover advantage in integrating NPUs into x86 CPUs for AI PCs.",
+      "Fabless model allowing focus on design and leveraging leading-edge foundry technology."
+    ],
+    "competitive_weaknesses": [
+      "Smaller market share in key segments compared to dominant competitors (Intel in x86, NVIDIA in discrete GPU/AI).",
+      "Reliance on third-party foundries for manufacturing, potentially impacting supply chain and costs.",
+      "Significant R&D investment required to maintain competitiveness against well-funded rivals.",
+      "Customer concentration, with a small number of customers accounting for a substantial part of revenue.",
+      "Brand perception and ecosystem maturity still developing in some enterprise and AI segments compared to incumbents."
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 71.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.0104,
+    "trailing_pe": 136.63847,
+    "forward_pe": 31.665981,
+    "ev_to_ebitda": 84.903,
+    "price_to_sales": 16.72161,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 218.7,
+    "outperform_6m_vs_nasdaq": 31.96,
+    "outperform_1m_vs_nasdaq": 46.21,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "AMD drives innovation in high performance and AI computing to solve the world’s most important challenges.",
+      "With a broad portfolio of AI-optimized CPUs, GPUs, networking and software, AMD delivers full-stack solutions that help customers turn data into breakthroughs.",
+      "AMD was the first company to integrate a dedicated neural processing unit (NPU) on the same SoC as an x86 CPU for AI PCs, establishing a differentiated technology footprint."
+    ],
+    "moat_durability_years": "5-10y",
+    "new_trigger": "AMD's strategic focus on AI-optimized CPUs, GPUs, and full-stack solutions, particularly with the first NPU integration on an x86 CPU for AI PCs, positions it strongly in the burgeoning AI market.",
+    "bull_case": "AMD's AI leadership, driven by its NPU-integrated CPUs and expanding data center solutions, will fuel significant market share gains in AI PCs and servers. Strong execution and continued innovation will lead to sustained revenue growth and margin expansion, pushing EPS and stock performance higher.",
+    "base_case": "AMD will continue to grow its market share in the data center and client segments, leveraging its AI-optimized product portfolio. Revenue growth will be solid, supported by new product cycles and increasing AI adoption, leading to consistent earnings growth and outperformance relative to the broader market.",
+    "bear_case": "Increased competition, particularly in the AI accelerator market, or slower-than-expected adoption of AI PCs could hinder AMD's growth. Supply chain disruptions or macroeconomic headwinds might impact demand, leading to revenue stagnation and pressure on profitability.",
+    "key_metrics_to_watch": [
+      "Data Center Revenue Growth",
+      "AI PC Market Share",
+      "Gross Margin",
+      "R&D Investment",
+      "EPS Growth"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "Competition",
+        "description": "The semiconductor market is highly competitive and rapidly evolving, with competitors potentially having stronger market positions, greater resources, and the ability to capitalize on new opportunities or alternative architectures (e.g., Arm) more effectively.",
+        "severity": "high"
+      },
+      {
+        "category": "Supply chain",
+        "description": "AMD relies heavily on third parties for manufacturing, essential materials, and components. Any inability of these third parties to deliver on time, in sufficient quantities, or with competitive technologies could severely impact AMD's business.",
+        "severity": "high"
+      },
+      {
+        "category": "Customer concentration",
+        "description": "The loss of a significant customer, or the failure of products incorporating AMD's semi-custom SoCs, could have a material adverse effect on the company's financial performance.",
+        "severity": "medium"
+      },
+      {
+        "category": "Technology",
+        "description": "AMD's success depends on its ability to timely introduce innovative products with competitive features, performance, and security, while also protecting its intellectual property from infringement.",
+        "severity": "high"
+      },
+      {
+        "category": "Regulation",
+        "description": "Government actions, including export regulations, import tariffs, and trade protection measures, could limit AMD's ability to sell products to certain customers and impact its global operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "Financial",
+        "description": "The semiconductor industry is highly cyclical, and economic and market uncertainty, along with unfavorable currency exchange rates, can adversely impact demand for AMD's products and its operating results.",
+        "severity": "medium"
+      },
+      {
+        "category": "Governance",
+        "description": "The inability to attract and retain key employees, or the failure to successfully integrate acquired businesses, could hinder AMD's strategic objectives and operational effectiveness.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "AMD fails to innovate and introduce competitive products, losing market share to rivals.",
+      "Key third-party manufacturers or suppliers experience critical failures, halting AMD's product supply.",
+      "A major customer shifts away from AMD's products, leading to a significant revenue decline.",
+      "New regulations or geopolitical events severely restrict AMD's ability to sell its products globally."
+    ],
+    "exit_signals": [
+      "Consistent decline in market share across key segments (e.g., CPU, GPU, data center).",
+      "Repeated delays or cancellations of major product launches.",
+      "Significant and sustained loss of a major customer or design win.",
+      "Major supply chain disruption leading to prolonged product unavailability."
+    ]
+  },
+  "wikipedia_summary": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems."
+}

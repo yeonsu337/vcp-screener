@@ -26,6 +26,14 @@ const sections = [
     statusColor: "bg-emerald-500/20 text-emerald-400",
   },
   {
+    title: "Tracking",
+    description: "Manually track any ticker. Performance vs your entry price, same logic as backtest.",
+    href: "/tracking",
+    icon: "\u{1F4CC}",
+    status: "Live",
+    statusColor: "bg-emerald-500/20 text-emerald-400",
+  },
+  {
     title: "Portfolio",
     description: "Track your positions, P&L, allocation. Manual or API-linked.",
     href: "/portfolio",

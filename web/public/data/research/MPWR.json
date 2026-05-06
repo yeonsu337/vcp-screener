@@ -1,0 +1,46 @@
+{
+  "ticker": "MPWR",
+  "company": "Monolithic Power Systems, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-06T00:58:52.617093+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 78024335360,
+    "shares_outstanding": 49130000,
+    "employees": 4501,
+    "country": "United States",
+    "website": "https://www.monolithicpower.com",
+    "beta": 1.742
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 44.4,
+    "sales_yoy_pct": 26.1,
+    "ni_cagr_3y_pct": 12.4,
+    "roe_pct": 19.57
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 69.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.5608,
+    "trailing_pe": 113.43714,
+    "forward_pe": 52.65849,
+    "ev_to_ebitda": 89.692,
+    "price_to_sales": 26.385511,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 110.38,
+    "outperform_6m_vs_nasdaq": 51.86,
+    "outperform_1m_vs_nasdaq": 19.45,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide."
+}

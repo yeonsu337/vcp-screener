@@ -1,11 +1,35 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 import type { Candidate, RuleResult } from "../../types";
+import { fetchSECFundamentals, type SECMetrics } from "./sec";
 
 // Yahoo Finance free endpoints — no auth crumb required for chart or v1/search.
 // quoteSummary now requires a crumb cookie pair, so we rely on v1/search for
 // company metadata and skip fundamental-data rules in the on-demand pipeline.
 const YF_CHART = "https://query1.finance.yahoo.com/v8/finance/chart";
 const YF_SEARCH = "https://query1.finance.yahoo.com/v1/finance/search";
+
+// Daily-scan cached results (Option A). Server-side fs read on Next.js public/.
+const RESULTS_PATH = path.join(process.cwd(), "public", "data", "results.json");
+let RESULTS_CACHE: { mtime: number; rows: Candidate[] } | null = null;
+
+function loadCachedCandidate(ticker: string): Candidate | null {
+  try {
+    if (!fs.existsSync(RESULTS_PATH)) return null;
+    const stat = fs.statSync(RESULTS_PATH);
+    const mtime = stat.mtimeMs;
+    if (!RESULTS_CACHE || RESULTS_CACHE.mtime !== mtime) {
+      const raw = fs.readFileSync(RESULTS_PATH, "utf-8");
+      const rows = JSON.parse(raw) as Candidate[];
+      RESULTS_CACHE = { mtime, rows: Array.isArray(rows) ? rows : [] };
+    }
+    const t = ticker.toUpperCase();
+    return RESULTS_CACHE.rows.find((r) => r.ticker?.toUpperCase() === t) ?? null;
+  } catch {
+    return null;
+  }
+}
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
@@ -203,6 +227,8 @@ function evaluateRules(
   info: YFInfo | null,
   rsRating: number,
   stage: number,
+  nasdaqBars: Bar[] = [],
+  sec: SECMetrics | null = null,
 ): { rules: Record<string, RuleResult>; vcpStats: { lastContractionPct: number | null; volumeDryupRatio: number | null; numContractions: number } } {
   const rules: Record<string, RuleResult> = {};
   const closes = bars.map((b) => b.close);
@@ -447,32 +473,37 @@ function evaluateRules(
     }
   }
 
-  // ---- Fundamentals (US only, from yfinance info) ----
+  // ---- F1/F2/F3: NASDAQ outperform (all markets) — Option B ----
+  // Uses ^IXIC bars (passed as nasdaqBars). Falls back to benchBars for US if
+  // nasdaqBars unavailable, since US benchmark is already ^IXIC.
+  {
+    const nb = nasdaqBars.length > 0 ? nasdaqBars : (market === "US" ? benchBars : []);
+    if (n >= 252 && nb.length >= 252) {
+      const sNow = closes[n - 1];
+      const bNow = nb[nb.length - 1].close;
+      const periods: Array<{ id: keyof typeof rules; label: string; days: number }> = [
+        { id: "F1_outperform_1y", label: "1Y return > NASDAQ", days: 252 },
+        { id: "F2_outperform_6m", label: "6M return > NASDAQ", days: 126 },
+        { id: "F3_outperform_1m", label: "1M return > NASDAQ", days: 21 },
+      ];
+      for (const p of periods) {
+        if (n - 1 - p.days < 0 || nb.length - 1 - p.days < 0) continue;
+        const sPrev = closes[n - 1 - p.days];
+        const bPrev = nb[nb.length - 1 - p.days].close;
+        if (sPrev <= 0 || bPrev <= 0) continue;
+        const sRet = (sNow / sPrev - 1) * 100;
+        const bRet = (bNow / bPrev - 1) * 100;
+        const delta = +(sRet - bRet).toFixed(2);
+        rules[p.id as string] = rule(p.label, delta > 0, delta, 0);
+      }
+    }
+  }
+
+  // ---- Fundamentals (US only) ----
+  // Yahoo info path is largely unavailable on free anonymous endpoint; SEC EDGAR
+  // (Option C) provides ground-truth XBRL for the same rules.
   if (market === "US" && info) {
-    if (info.earningsQuarterlyGrowth != null) {
-      rules.E1_eps_growth = rule(
-        "EPS QoQ YoY > 18%",
-        info.earningsQuarterlyGrowth > 0.18,
-        +(info.earningsQuarterlyGrowth * 100).toFixed(2),
-        18,
-      );
-    }
-    if (info.revenueGrowth != null) {
-      rules.E3_rev_growth = rule(
-        "Sales YoY > 25%",
-        info.revenueGrowth > 0.25,
-        +(info.revenueGrowth * 100).toFixed(2),
-        25,
-      );
-    }
-    if (info.returnOnEquity != null) {
-      rules.E7_roe = rule(
-        "ROE ≥ 17% (Minervini)",
-        info.returnOnEquity >= 0.17,
-        +(info.returnOnEquity * 100).toFixed(2),
-        17,
-      );
-    }
+    // Yahoo-derived (kept as fallback when fields are populated by some path).
     if (info.heldPercentInstitutions != null) {
       rules.E10_inst_ownership = rule(
         "Institutional own. ≥ 5%",
@@ -489,18 +520,117 @@ function evaluateRules(
         5,
       );
     }
-    // F1: 1Y outperform NASDAQ — use benchmark bars vs stock bars
-    if (n >= 252 && benchBars.length >= 252) {
-      const sNow = closes[n - 1];
-      const sPrev = closes[n - 1 - 252];
-      const bNow = benchBars[benchBars.length - 1].close;
-      const bPrev = benchBars[benchBars.length - 1 - 252].close;
-      if (sPrev > 0 && bPrev > 0) {
-        const sRet = (sNow / sPrev - 1) * 100;
-        const bRet = (bNow / bPrev - 1) * 100;
-        const delta = +(sRet - bRet).toFixed(2);
-        rules.F1_outperform_1y = rule("1Y return > NASDAQ", delta > 0, delta, 0);
-      }
+  }
+
+  // ---- SEC EDGAR-derived rules (US only, Option C) ----
+  if (market === "US" && sec) {
+    if (sec.e1_eps_qoq_yoy_pct != null) {
+      rules.E1_eps_growth = rule(
+        "EPS QoQ YoY > 18%",
+        sec.e1_eps_qoq_yoy_pct > 18,
+        sec.e1_eps_qoq_yoy_pct,
+        18,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e2_eps_yoy_4q_accel != null) {
+      rules.E2_eps_yoy_accel = rule(
+        "EPS YoY 4Q monotonic acceleration",
+        sec.e2_eps_yoy_4q_accel,
+        sec.e2_eps_yoy_4q_delta ?? null,
+        0,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e3_rev_yoy_pct != null) {
+      rules.E3_rev_growth = rule(
+        "Sales YoY > 25%",
+        sec.e3_rev_yoy_pct > 25,
+        sec.e3_rev_yoy_pct,
+        25,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e4_rev_yoy_4q_accel != null) {
+      rules.E4_rev_yoy_accel = rule(
+        "Sales YoY 4Q monotonic acceleration",
+        sec.e4_rev_yoy_4q_accel,
+        sec.e4_rev_yoy_4q_delta ?? null,
+        0,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e5_op_inc_4q_growing != null) {
+      rules.E5_op_inc_growing = rule(
+        "Operating Income 4Q QoQ growing",
+        sec.e5_op_inc_4q_growing,
+        null,
+        null,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e6_op_inc_yoy_4q_accel != null) {
+      rules.E6_op_inc_yoy_accel = rule(
+        "Op Income YoY 4Q acceleration",
+        sec.e6_op_inc_yoy_4q_accel,
+        sec.e6_op_inc_yoy_4q_delta ?? null,
+        0,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e7_roe_ttm_pct != null) {
+      rules.E7_roe = rule(
+        "ROE ≥ 17% (Minervini)",
+        sec.e7_roe_ttm_pct >= 17,
+        sec.e7_roe_ttm_pct,
+        17,
+        "SEC XBRL (TTM)",
+      );
+    }
+    if (sec.e8_annual_eps_yoy_pct != null) {
+      rules.E8_annual_eps_growth = rule(
+        "Annual EPS YoY ≥ 25%",
+        sec.e8_annual_eps_yoy_pct >= 25,
+        sec.e8_annual_eps_yoy_pct,
+        25,
+        "SEC XBRL",
+      );
+    }
+    if (sec.e9_eps_breakout != null) {
+      rules.E9_eps_breakout = rule(
+        "EPS breakout (>8Q max)",
+        sec.e9_eps_breakout,
+        null,
+        null,
+        "SEC XBRL",
+      );
+    }
+    if (sec.h2_cfps_to_eps != null) {
+      rules.H2_cfps_to_eps = rule(
+        "CFPS / EPS ≥ 1.20 (cash quality)",
+        sec.h2_cfps_to_eps >= 1.20,
+        sec.h2_cfps_to_eps,
+        1.20,
+        "SEC XBRL (CFO/NI TTM)",
+      );
+    }
+    if (sec.h3_net_margin_5y_high != null) {
+      rules.H3_net_margin_high = rule(
+        "TTM Net Margin = 5Y high",
+        sec.h3_net_margin_5y_high,
+        null,
+        null,
+        "SEC XBRL",
+      );
+    }
+    if (sec.h4_ni_cagr_3y_pct != null) {
+      rules.H4_ni_cagr_3y = rule(
+        "3Y Net Income CAGR ≥ 25%",
+        sec.h4_ni_cagr_3y_pct >= 25,
+        sec.h4_ni_cagr_3y_pct,
+        25,
+        "SEC XBRL",
+      );
     }
   }
 
@@ -591,9 +721,20 @@ export async function GET(req: NextRequest) {
   if (!/^[A-Z0-9.\-^]{1,12}$/.test(ticker)) {
     return NextResponse.json({ error: `invalid ticker format: ${ticker}` }, { status: 400 });
   }
-  const cached = CACHE.get(ticker);
-  if (cached && Date.now() - cached.t < TTL_MS) {
-    return NextResponse.json(cached.data, {
+  // Option A: cache lookup. Daily-scan results.json contains 42-rule evaluation
+  // produced by screener.py — return immediately if hit.
+  const cachedRow = loadCachedCandidate(ticker);
+  if (cachedRow) {
+    const out: Candidate = { ...cachedRow, source: "cached" };
+    return NextResponse.json(out, {
+      headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" },
+    });
+  }
+
+  // In-process memo cache (separate from results.json).
+  const memo = CACHE.get(ticker);
+  if (memo && Date.now() - memo.t < TTL_MS) {
+    return NextResponse.json(memo.data, {
       headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" },
     });
   }
@@ -601,10 +742,15 @@ export async function GET(req: NextRequest) {
   const market = detectMarket(ticker);
   try {
     const benchSym = BENCH_BY_MARKET[market];
-    const [bars, benchBars, info] = await Promise.all([
+    // Fetch in parallel: stock bars, market benchmark bars, NASDAQ (for F1~F3),
+    // company info, and SEC fundamentals (US only — non-blocking on failure).
+    const needsNasdaq = market !== "US"; // US benchmark is already ^IXIC
+    const [bars, benchBars, nasdaqBars, info, sec] = await Promise.all([
       fetchOhlcv(ticker, "2y"),
       fetchOhlcv(benchSym, "2y"),
+      needsNasdaq ? fetchOhlcv("^IXIC", "2y") : Promise.resolve([] as Bar[]),
       fetchCompanyInfo(ticker),
+      market === "US" ? fetchSECFundamentals(ticker).catch(() => null) : Promise.resolve(null),
     ]);
 
     if (!bars.length) {
@@ -614,7 +760,7 @@ export async function GET(req: NextRequest) {
     const closes = bars.map((b) => b.close);
     const stage = determineStage(closes);
     const rsRating = computeRsRating(bars, benchBars);
-    const { rules, vcpStats } = evaluateRules(bars, benchBars, market, info, rsRating, stage);
+    const { rules, vcpStats } = evaluateRules(bars, benchBars, market, info, rsRating, stage, nasdaqBars, sec);
 
     // Compute pivot price (last 130 bars high) & pct to pivot
     let pivot: number | null = null;
@@ -682,6 +828,7 @@ export async function GET(req: NextRequest) {
       rules,
       rules_passed: passed,
       rules_total: total,
+      source: sec ? "computed+sec" : "computed",
     };
 
     CACHE.set(ticker, { t: Date.now(), data: candidate });
