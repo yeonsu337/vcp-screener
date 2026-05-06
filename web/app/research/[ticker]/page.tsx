@@ -1,10 +1,20 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
+
+type Candidate = {
+  ticker: string;
+  company?: string;
+  market?: string;
+  sector?: string;
+  industry?: string;
+  rs_rating?: number;
+  score?: number;
+  rules?: Record<string, { passed: boolean }>;
+};
 
 // =============================================================================
 // Types (loose — research JSON shape produced by scripts/company_research.py)
@@ -118,14 +128,58 @@ type IndexEntry = {
   llm_status: string;
 };
 
+// Pre-render any ticker that either has a research card or is a Primary 12+ candidate.
+const PRIMARY_IDS_FOR_RESEARCH = [
+  "A1_ud_vol_ratio",
+  "B1_price_above_150_200",
+  "B2_sma150_gt_sma200",
+  "B3_sma50_gt_150_200",
+  "B4_price_above_sma50",
+  "B5_sma200_rising_5mo",
+  "B6_30pct_above_52w_low",
+  "B7_within_25pct_high",
+  "R1_rs_70",
+  "L1_liquidity_gate",
+  "P6_monotonic_decreasing",
+  "E7_roe",
+  "F1_outperform_1y",
+  "H4_ni_cagr_3y",
+];
+
 export async function generateStaticParams() {
+  const tickers = new Set<string>();
   const idx = path.join(process.cwd(), "public", "data", "research", "index.json");
-  if (!fs.existsSync(idx)) return [];
+  if (fs.existsSync(idx)) {
+    try {
+      const list: IndexEntry[] = JSON.parse(fs.readFileSync(idx, "utf-8"));
+      list.forEach((r) => tickers.add(r.ticker));
+    } catch {}
+  }
+  const results = path.join(process.cwd(), "public", "data", "results.json");
+  if (fs.existsSync(results)) {
+    try {
+      const rows: Candidate[] = JSON.parse(fs.readFileSync(results, "utf-8"));
+      rows.forEach((r) => {
+        if (!r.rules) return;
+        const passed = PRIMARY_IDS_FOR_RESEARCH.reduce(
+          (acc, id) => acc + (r.rules?.[id]?.passed ? 1 : 0),
+          0,
+        );
+        if (passed >= 12) tickers.add(r.ticker);
+      });
+    } catch {}
+  }
+  return Array.from(tickers).map((t) => ({ ticker: t }));
+}
+
+function loadCandidate(ticker: string): Candidate | null {
+  const p = path.join(process.cwd(), "public", "data", "results.json");
+  if (!fs.existsSync(p)) return null;
   try {
-    const list: IndexEntry[] = JSON.parse(fs.readFileSync(idx, "utf-8"));
-    return list.map((r) => ({ ticker: r.ticker }));
+    const rows: Candidate[] = JSON.parse(fs.readFileSync(p, "utf-8"));
+    return rows.find((r) => r.ticker === ticker) ?? null;
   } catch {
-    return [];
+    return null;
   }
 }
 
@@ -239,7 +293,75 @@ function NotAvailable() {
 // =============================================================================
 export default function ResearchTickerPage({ params }: { params: { ticker: string } }) {
   const data = loadResearch(params.ticker);
-  if (!data) notFound();
+
+  // Graceful fallback when research card hasn't been generated yet.
+  if (!data) {
+    const cand = loadCandidate(params.ticker);
+    const passed = cand?.rules
+      ? PRIMARY_IDS_FOR_RESEARCH.reduce(
+          (acc, id) => acc + (cand.rules?.[id]?.passed ? 1 : 0),
+          0,
+        )
+      : 0;
+    return (
+      <main className="max-w-3xl mx-auto px-4 py-10">
+        <nav className="mb-4 flex items-center gap-3 text-sm">
+          <Link href="/" className="text-muted hover:text-accent">← Home</Link>
+          <span className="text-border">/</span>
+          <Link href="/research" className="text-muted hover:text-accent">Research</Link>
+        </nav>
+        <header className="mb-6">
+          <h1 className="text-3xl font-bold">{params.ticker}</h1>
+          {cand && (
+            <div className="text-sm text-muted mt-1">
+              {cand.company} · {cand.sector} {cand.industry ? "·" : ""} {cand.industry}
+            </div>
+          )}
+        </header>
+        <div className="card p-6">
+          <div className="text-yellow-400 text-sm font-semibold mb-2">
+            ⏳ Research card not yet generated for {params.ticker}
+          </div>
+          {cand ? (
+            <p className="text-sm text-text/80 mb-4">
+              This ticker passed <span className="num font-semibold">{passed}/14</span> Primary
+              rules and is queued for the next daily research run.
+              {passed < 12 && (
+                <>
+                  {" "}But it falls below the 12-rule threshold required for auto-research.
+                </>
+              )}
+            </p>
+          ) : (
+            <p className="text-sm text-text/80 mb-4">
+              {params.ticker} is not in the latest scan. Use the screener to find current
+              candidates.
+            </p>
+          )}
+          <div className="text-xs text-muted leading-relaxed mb-4">
+            Research cards are generated automatically each weekday after the daily VCP scan
+            (~23:00 UTC). The free-tier Gemini API is rate-limited (10 RPM / 250 RPD),
+            so 32 cards per day take ~15 minutes total. Once the GitHub Actions workflow
+            completes today's run, this card will populate.
+          </div>
+          <div className="flex gap-2 flex-wrap">
+            <Link
+              href={`/screener/${encodeURIComponent(params.ticker)}`}
+              className="inline-flex px-3 py-1.5 rounded bg-accent/20 text-accent text-xs font-semibold hover:bg-accent/30"
+            >
+              View chart instead →
+            </Link>
+            <Link
+              href="/research"
+              className="inline-flex px-3 py-1.5 rounded border border-border text-xs font-semibold hover:border-accent/40"
+            >
+              ← Back to Research index
+            </Link>
+          </div>
+        </div>
+      </main>
+    );
+  }
 
   const a = data.category_a_business || {};
   const b = data.category_b_financials || {};
