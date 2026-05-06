@@ -1,0 +1,259 @@
+{
+  "ticker": "ECVT",
+  "company": "Ecovyst Inc.",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
+  "generated_at": "2026-05-05T07:04:03.128975+00:00",
+  "primary_passed": 1,
+  "primary_total": 14,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 1561475712,
+    "shares_outstanding": 109450306,
+    "employees": 617,
+    "country": "United States",
+    "website": "https://www.ecovyst.com",
+    "beta": 1.089
+  },
+  "category_a_business": {
+    "overview": "Ecovyst Inc. is a leading integrated provider of virgin and regenerated sulfuric acid products and services. The company offers end-to-end logistics for alkylate production for refineries, mining, water treatment, and industrial applications. Founded in 1831, Ecovyst emphasizes sustainability and holds significant market share in its core offerings.",
+    "milestones": [
+      "1831: Company roots trace back to the late 1800s with its first sulfuric acid plant.",
+      "2015: Incorporated in Delaware as PQ Group Holdings Inc.",
+      "2021: Changed name from PQ Group Holdings Inc. to Ecovyst Inc.",
+      "2025: Completed sale of Advanced Materials & Catalysts segment (Zeolyst Joint Venture) for $556.0 million.",
+      "2025: Used $465.0 million of sale proceeds to partially repay Senior Secured Term Loan Facility."
+    ],
+    "business_model": "Ecovyst generates revenue by providing virgin and regenerated sulfuric acid products and related services. It leverages its strategically located manufacturing and regeneration facilities to serve diverse industrial applications, focusing on high-value-add offerings critical to customer processes.",
+    "revenue_streams": [
+      "Regenerated sulfuric acid sales",
+      "Virgin sulfuric acid sales",
+      "Hazardous waste treatment services",
+      "Logistics and support services"
+    ],
+    "value_chain_position": "Midstream, providing essential chemical products and services that are critical inputs for various downstream industrial and refining processes.",
+    "products": [
+      "Regenerated sulfuric acid",
+      "Virgin sulfuric acid",
+      "Hazardous waste treatment services"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "Not specified, but diversified by business application and end use, with long-standing customer relationships."
+  },
+  "category_b_financials": {
+    "roe": 0.01,
+    "roa": null,
+    "profit_margin": -0.1,
+    "operating_margin": 0.13,
+    "gross_margin": 0.22,
+    "revenue_growth_ttm": 0.34,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
+    "annual_revenue": [
+      723515000.0,
+      598295000.0,
+      584845000.0,
+      820159000.0,
+      null
+    ],
+    "annual_operating_income": [
+      78430000.0,
+      88077000.0,
+      97025000.0,
+      126533000.0,
+      null
+    ],
+    "annual_eps": [
+      -0.62,
+      -0.06,
+      0.6,
+      0.52,
+      null
+    ],
+    "annual_free_cf": [
+      69895000.0,
+      94296000.0,
+      78558000.0,
+      127736000.0,
+      null
+    ],
+    "annual_total_debt": [
+      430742000.0,
+      893832000.0,
+      900193000.0,
+      913534000.0,
+      null
+    ],
+    "annual_equity": [
+      603440000.0,
+      700460000.0,
+      705464000.0,
+      707229000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.05,
+      -0.7,
+      0.05,
+      -0.03,
+      -0.26,
+      null
+    ],
+    "quarterly_revenue": [
+      199433000.0,
+      204907000.0,
+      200128000.0,
+      162197000.0,
+      181961000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ]
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "Not explicitly stated in provided text. Specialty chemicals market is multi-trillion USD, but Ecovyst's specific niche (sulfuric acid, regeneration services) is a smaller segment. Likely in the low tens of billions USD, 'estimate'.",
+    "tam_cagr_pct": "3-5% (estimate) with reasoning: The company serves mature industrial processes (refining, mining, general industrial) which tend to grow with GDP. Demand is described as 'relatively predictable, consistent' and 'generally more resilient to economic cycles'. Growth drivers like 'more stringent gasoline standards and growing demand for premium gasoline' suggest moderate, steady growth rather than rapid expansion.",
+    "growth_drivers": [
+      "Continued strong demand for refined products supporting high refinery utilization rates.",
+      "More stringent gasoline standards driving demand for alkylate and regeneration services.",
+      "Growing demand for premium gasoline for higher-compression and turbo-charged engines.",
+      "Favorable demand for virgin sulfuric acid across various industrial applications, including mining.",
+      "Long-term customer partnerships and operational excellence driving market share and recurring revenue."
+    ],
+    "market_share_pct": "Number one or number two supply share position for products and services that generated more than 95% of 2025 sales.",
+    "competitors": [
+      {
+        "name": "Other integrated sulfuric acid producers/regenerators",
+        "differentiation": "Ecovyst emphasizes its 'footprint and efficient network of strategically located manufacturing and regeneration facilities' and 'long history of customer partnerships and reputation for providing reliable, quality products and services'."
+      },
+      {
+        "name": "Virgin sulfuric acid producers (for non-regeneration applications)",
+        "differentiation": "Ecovyst also produces virgin sulfuric acid, leveraging its existing infrastructure and customer relationships."
+      },
+      {
+        "name": "In-house regeneration capabilities by large refiners/chemical companies",
+        "differentiation": "Ecovyst offers specialized expertise, economies of scale, and network redundancy that in-house operations might lack."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + High capital intensity for manufacturing and regeneration facilities, established customer relationships, and specialized operational expertise create significant barriers to entry.",
+      "substitutes": "low + Sulfuric acid is a critical input for many processes with few viable chemical substitutes; regeneration services offer an environmentally and economically attractive alternative to virgin acid production and waste disposal.",
+      "buyer_power": "medium + Products are critical but represent a small portion of customer costs. Long-term contracts with take-or-pay and price adjustment clauses mitigate buyer power. However, large customers may have some leverage due to volume.",
+      "supplier_power": "low + Ecovyst maintains multiple suppliers for raw materials and passes through most raw material, labor, and natural gas costs via contract clauses, mitigating supplier power.",
+      "rivalry": "medium + While Ecovyst holds strong market positions (1st or 2nd for >95% of sales), the industry is mature. Competition exists, but the emphasis on reliable service, geographic proximity, and long-term contracts suggests rivalry is managed rather than cut-throat."
+    },
+    "competitive_advantages": [
+      "Leading market position (number one or number two supply share for >95% of sales).",
+      "Extensive and strategically located manufacturing and regeneration facility network providing efficiency and redundancy.",
+      "Long-standing customer partnerships and a reputation for reliable, quality products and services.",
+      "Contractual protections including take-or-pay volume protection and quarterly price adjustments for commodity inputs, labor, and natural gas.",
+      "Products and services are critical to customer processes but represent a small portion of their overall end-product costs, leading to sticky demand.",
+      "Diversified by business application and end use, with demand patterns generally resilient to economic cycles."
+    ],
+    "competitive_weaknesses": [
+      "Exposure to commodity price fluctuations for raw materials (though largely mitigated by contract pass-throughs).",
+      "Seasonality in regeneration services tied to gasoline demand and customer turnarounds.",
+      "Reliance on the health of specific industrial sectors like refining and mining.",
+      "Capital-intensive business requiring ongoing investment in facilities and maintenance."
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 84.7,
+    "vcp_quality": 14.8,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 282.4,
+    "forward_pe": 18.617653,
+    "ev_to_ebitda": 11.691,
+    "price_to_sales": 2.1581802,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": null,
+    "outperform_6m_vs_nasdaq": null,
+    "outperform_1m_vs_nasdaq": null,
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "We are a leader in our business, holding what we estimate to be a number one or number two supply share position for products and services that generated more than 95% of our 2025 sales.",
+      "Our products and services typically represent a small portion of our customers' overall end-product costs, yet are critical to their processes.",
+      "With our long history of customer partnerships and our reputation for providing reliable, quality products and services, we believe we deliver significant value to our customers, as demonstrated by our profit margins.",
+      "Most of our contracts feature take-or-pay volume protection and/or quarterly price adjustments for commodity inputs, labor, the Chemical Engineering Index (U.S. chemical plant construction cost index) and natural gas. About 90% of our sales for the year ended December 31, 2025 were under contracts featuring quarterly price adjustments."
+    ],
+    "moat_durability_years": "10-15y",
+    "new_trigger": "Ecovyst completed the sale of its Advanced Materials & Catalysts segment for $556.0 million, using $465.0 million of proceeds to repay debt, streamlining operations and strengthening its balance sheet for its core sulfuric acid business.",
+    "bull_case": "Ecovyst leverages its strong market position and contractual pricing power to consistently pass through input costs, driving margin expansion. Increased demand for refined products and stricter environmental regulations boost regeneration services, leading to sustained revenue growth and improved profitability, exceeding current FwdPE expectations.",
+    "base_case": "Ecovyst maintains its dominant market share in sulfuric acid and regeneration services, benefiting from stable demand in industrial applications and refinery utilization. Contractual price adjustments largely offset input cost volatility, resulting in consistent, albeit modest, revenue growth and stable operating margins, aligning with its FwdPE.",
+    "bear_case": "Unexpected declines in refinery utilization or industrial demand for sulfuric acid, coupled with an inability to fully pass through rising input costs due to competitive pressures, erode margins. Customer turnarounds are more frequent or prolonged than anticipated, impacting regeneration service volumes and leading to a significant drop in profitability.",
+    "key_metrics_to_watch": [
+      "Operating Profit Margin (OPM)",
+      "Revenue Growth (TTM)",
+      "Refinery Utilization Rates",
+      "Contractual Price Adjustment Effectiveness",
+      "Free Cash Flow Generation"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "Macro",
+        "description": "Global regulatory, economic, political, and social conditions, including regional conflicts, trade barriers, and epidemics, could materially impact operations and financial results.",
+        "severity": "high"
+      },
+      {
+        "category": "Financial",
+        "description": "General economic downturns, recessions, inflation, and volatility in financial markets could reduce demand for products, increase costs, and limit customer financing, significantly impacting sales and profitability.",
+        "severity": "high"
+      },
+      {
+        "category": "Supply chain",
+        "description": "Increased costs and availability issues for raw materials, energy, transportation, and shipping, coupled with potential strain on suppliers during weak economic conditions, could disrupt supply chains and increase operational costs.",
+        "severity": "medium"
+      },
+      {
+        "category": "Financial",
+        "description": "Fluctuations in exchange rates between the U.S. dollar and foreign currencies could adversely affect financial condition, results of operations, and cash flows, especially if sales and costs in foreign currencies are not matched.",
+        "severity": "medium"
+      },
+      {
+        "category": "Governance",
+        "description": "Failure to comply with U.S. and international anti-corruption laws (e.g., FCPA, U.K. Bribery Act), economic sanctions, and export controls could restrict operations, expose the company to liabilities, and harm its reputation.",
+        "severity": "high"
+      },
+      {
+        "category": "Customer concentration",
+        "description": "Sales are correlated with industrial production and manufacturing output, making the company vulnerable to fluctuations in end-use demand from its customers and their ability to obtain financing.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "A severe and prolonged global economic recession significantly reduces industrial production and customer demand, leading to sustained unprofitability.",
+      "Major supply chain disruptions, coupled with uncontrollable increases in raw material and energy costs, make product manufacturing economically unviable.",
+      "A significant violation of anti-corruption laws or economic sanctions results in massive fines, reputational damage, and restrictions on international operations.",
+      "Sustained adverse currency exchange rate movements severely erode profit margins on international sales and make financial results unpredictable."
+    ],
+    "exit_signals": [
+      "A sustained decline in industrial production indices for two consecutive quarters.",
+      "Gross margins consistently fall below historical averages due to rising input costs for more than two reporting periods.",
+      "Public announcement of a major investigation or enforcement action by a regulatory body regarding anti-corruption or sanctions compliance.",
+      "Significant and unhedged adverse currency movements leading to a material downward revision of revenue or earnings guidance."
+    ]
+  },
+  "wikipedia_summary": ""
+}

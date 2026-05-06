@@ -809,6 +809,18 @@ export default function ScreenerTable({
                       VCP
                     </span>
                   )}
+                  {(() => {
+                    const p = countByCategory(r.rules, PRIMARY_IDS);
+                    return p.passed >= 12 ? (
+                      <Link
+                        href={`/research/${encodeURIComponent(r.ticker)}`}
+                        className="ml-1.5 px-1 py-0.5 bg-emerald-500/20 text-emerald-400 text-[9px] rounded uppercase font-semibold align-middle hover:bg-emerald-500/30"
+                        title={`Research card (${p.passed}/${p.total} Primary)`}
+                      >
+                        ✨ Research
+                      </Link>
+                    ) : null;
+                  })()}
                 </td>
                 <td className="px-3 py-2 truncate max-w-[180px]">
                   {r.company}
