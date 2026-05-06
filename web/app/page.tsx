@@ -10,6 +10,14 @@ const sections = [
     statusColor: "bg-emerald-500/20 text-emerald-400",
   },
   {
+    title: "Search Any Ticker",
+    description: "Instantly evaluate any ticker against the full rule set with chart and scorecard",
+    href: "/search",
+    icon: "\u{1F50E}",
+    status: "Live",
+    statusColor: "bg-emerald-500/20 text-emerald-400",
+  },
+  {
     title: "Backtest",
     description: "Track screener performance: detection date vs current price, hit rate, avg return",
     href: "/backtest",
