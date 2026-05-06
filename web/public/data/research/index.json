@@ -167,7 +167,7 @@
     "primary_passed": 12,
     "primary_total": 14,
     "generated_at": "2026-05-06T01:13:46.011219+00:00",
-    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBOgkJZ4JxzyLlOYzrIxNDnHaMEjlUs6yg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=[REDACTED] (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
   },
   {
     "ticker": "HASI",
@@ -237,7 +237,7 @@
     "primary_passed": 12,
     "primary_total": 14,
     "generated_at": "2026-05-06T01:28:52.811940+00:00",
-    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBOgkJZ4JxzyLlOYzrIxNDnHaMEjlUs6yg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=[REDACTED] (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
   },
   {
     "ticker": "OUT",

@@ -396,26 +396,49 @@ def gemini_call(prompt: str, max_output_tokens: int = 1500, temperature: float =
             "thinkingConfig": {"thinkingBudget": 0},
         },
     }
+    # Use header auth (x-goog-api-key) instead of ?key= query string so that
+    # the secret never appears in URLs that exception messages might echo back.
     try:
         r = requests.post(
-            f"{GEMINI_URL}?key={api_key}",
+            GEMINI_URL,
             json=body,
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json",
+                "x-goog-api-key": api_key,
+            },
             timeout=60,
         )
     except Exception as e:
-        raise LLMUnavailable(f"network error: {e}")
+        # Redact any accidental key leakage from exception messages.
+        msg = _redact_secrets(str(e), api_key)
+        raise LLMUnavailable(f"network error: {msg}")
     if r.status_code == 429:
         raise LLMUnavailable("rate-limited (429)")
     if r.status_code in (500, 502, 503, 504):
         raise LLMUnavailable(f"server-busy ({r.status_code})")
     if r.status_code != 200:
-        raise LLMUnavailable(f"HTTP {r.status_code}: {r.text[:200]}")
+        raise LLMUnavailable(
+            f"HTTP {r.status_code}: {_redact_secrets(r.text[:200], api_key)}"
+        )
     try:
         data = r.json()
         return data["candidates"][0]["content"]["parts"][0]["text"]
     except Exception as e:
-        raise LLMUnavailable(f"parse error: {e}")
+        raise LLMUnavailable(f"parse error: {_redact_secrets(str(e), api_key)}")
+
+
+def _redact_secrets(text: str, api_key: str | None) -> str:
+    """Strip the active API key + any AIza-prefixed Google API key from log strings."""
+    if not text:
+        return text
+    if api_key:
+        text = text.replace(api_key, "[REDACTED_KEY]")
+    # Generic Google API key pattern (AIza + 35 chars). Catches stale keys too.
+    text = re.sub(r"AIza[0-9A-Za-z\-_]{35}", "[REDACTED_KEY]", text)
+    # Also scrub any ?key=... query parameter just in case some library still
+    # appends it via redirect or proxy chain.
+    text = re.sub(r"([?&])key=[^&\s\"']+", r"\1key=[REDACTED]", text)
+    return text
 
 
 # =============================================================================
