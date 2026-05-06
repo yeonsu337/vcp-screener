@@ -1,0 +1,46 @@
+{
+  "ticker": "ROST",
+  "company": "Ross Stores, Inc.",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Retail",
+  "generated_at": "2026-05-06T01:16:40.757602+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 73557843968,
+    "shares_outstanding": 322148148,
+    "employees": 111000,
+    "country": "United States",
+    "website": "https://www.rossstores.com",
+    "beta": 0.875
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 10.1,
+    "sales_yoy_pct": 12.2,
+    "ni_cagr_3y_pct": 12.36,
+    "roe_pct": 36.68
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 78,
+    "score": 67.2,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 3.2884,
+    "trailing_pe": 34.457577,
+    "forward_pe": 27.97979,
+    "ev_to_ebitda": 22.982,
+    "price_to_sales": 3.2332325,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 22.62,
+    "outperform_6m_vs_nasdaq": 36.99,
+    "outperform_1m_vs_nasdaq": -12.33,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states."
+}

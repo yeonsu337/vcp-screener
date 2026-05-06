@@ -1,0 +1,45 @@
+{
+  "ticker": "WT",
+  "company": "WisdomTree, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "generated_at": "2026-05-06T01:15:16.892421+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 2780458752,
+    "shares_outstanding": 152437434,
+    "employees": 357,
+    "country": "United States",
+    "website": "https://www.wisdomtree.com",
+    "beta": 1.134
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "sales_yoy_pct": 47.5,
+    "ni_cagr_3y_pct": 29.13,
+    "roe_pct": 13.78
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 79,
+    "score": 69.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.54,
+    "trailing_pe": 44.487804,
+    "forward_pe": 13.818181,
+    "ev_to_ebitda": 15.344,
+    "price_to_sales": 5.1004395,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 60.86,
+    "outperform_6m_vs_nasdaq": 46.43,
+    "outperform_1m_vs_nasdaq": 6.95,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives."
+}

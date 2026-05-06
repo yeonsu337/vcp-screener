@@ -1,0 +1,46 @@
+{
+  "ticker": "CSX",
+  "company": "CSX Corporation",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Railroads",
+  "generated_at": "2026-05-06T01:30:27.263852+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 83671990272,
+    "shares_outstanding": 1858138856,
+    "employees": 22200,
+    "country": "United States",
+    "website": "https://www.csx.com",
+    "beta": 1.238
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 24.9,
+    "sales_yoy_pct": 1.7,
+    "ni_cagr_3y_pct": -11.12,
+    "roe_pct": 23.68
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 65.6,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 2.0727,
+    "trailing_pe": 27.625767,
+    "forward_pe": 20.922386,
+    "ev_to_ebitda": 15.396,
+    "price_to_sales": 5.912797,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 18.41,
+    "outperform_6m_vs_nasdaq": 19.14,
+    "outperform_1m_vs_nasdaq": -6.58,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company."
+}

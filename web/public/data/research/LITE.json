@@ -1,0 +1,45 @@
+{
+  "ticker": "LITE",
+  "company": "Lumentum Holdings Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "generated_at": "2026-05-06T01:07:06.533507+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 71011581952,
+    "shares_outstanding": 71400000,
+    "employees": 10562,
+    "country": "United States",
+    "website": "https://www.lumentum.com",
+    "beta": 1.533
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "sales_yoy_pct": 65.5,
+    "ni_cagr_3y_pct": -49.31,
+    "roe_pct": 29.28
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 99,
+    "score": 75.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 290.807,
+    "forward_pe": 59.80787,
+    "ev_to_ebitda": 273.362,
+    "price_to_sales": 33.731514,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 1441.31,
+    "outperform_6m_vs_nasdaq": 386.68,
+    "outperform_1m_vs_nasdaq": 13.64,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

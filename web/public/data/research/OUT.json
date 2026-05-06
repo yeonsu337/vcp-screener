@@ -1,0 +1,46 @@
+{
+  "ticker": "OUT",
+  "company": "OUTFRONT Media Inc.",
+  "market": "US",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
+  "generated_at": "2026-05-06T01:11:54.540706+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 5473440768,
+    "shares_outstanding": 176051481,
+    "employees": 1981,
+    "country": "United States",
+    "website": "https://www.outfrontmedia.com",
+    "beta": 1.486
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 30.8,
+    "sales_yoy_pct": 4.1,
+    "ni_cagr_3y_pct": 0.99,
+    "roe_pct": 19.37
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 86,
+    "score": 70.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.3854,
+    "trailing_pe": 37.914635,
+    "forward_pe": 24.761465,
+    "ev_to_ebitda": 22.75,
+    "price_to_sales": 2.9881754,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 68.73,
+    "outperform_6m_vs_nasdaq": 73.14,
+    "outperform_1m_vs_nasdaq": -1.34,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays."
+}

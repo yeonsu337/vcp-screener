@@ -1,0 +1,45 @@
+{
+  "ticker": "HASI",
+  "company": "HA Sustainable Infrastructure Capital, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "generated_at": "2026-05-06T01:34:04.597787+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 5491611648,
+    "shares_outstanding": 127801066,
+    "employees": 173,
+    "country": "United States",
+    "website": "https://www.hasi.com",
+    "beta": 1.463
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "sales_yoy_pct": -9.8,
+    "ni_cagr_3y_pct": 64.44,
+    "roe_pct": 7.44
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 82,
+    "score": 71.6,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 1.5094,
+    "trailing_pe": 30.47518,
+    "forward_pe": 13.062975,
+    "ev_to_ebitda": null,
+    "price_to_sales": 57.232307,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 36.09,
+    "outperform_6m_vs_nasdaq": 52.12,
+    "outperform_1m_vs_nasdaq": -1.01,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

@@ -1,0 +1,68 @@
+{
+  "ticker": "SKYT",
+  "company": "SkyWater Technology, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-06T01:27:14.659103+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 1643333504,
+    "shares_outstanding": 49157448,
+    "employees": 1551,
+    "country": "United States",
+    "website": "https://www.skywatertechnology.com",
+    "beta": 3.304
+  },
+  "category_a_business": {
+    "overview": "SkyWater Technology, Inc. is a U.S.-based, independent, pure-play semiconductor foundry. It provides foundational-node manufacturing, advanced technology development, and advanced packaging services. The company supports commercial and government customers requiring secure, domestic manufacturing, long product life cycles, and high reliability for various applications.",
+    "milestones": [
+      "1991: Minnesota fab established as a captive manufacturing facility by Cypress Semiconductor Corporation",
+      "2016: SkyWater Technology, Inc. incorporated",
+      "2017: Became an independent company through acquisition by an affiliate of Oxbow Industries, LLC from Cypress",
+      "2021: Completed Initial Public Offering (IPO) and began trading on Nasdaq under 'SKYT'"
+    ],
+    "business_model": "SkyWater generates revenue by offering semiconductor manufacturing services, including foundry services, advanced technology development, and advanced packaging. It integrates production-scale manufacturing with technology development, enabling customers to transition specialized semiconductor technologies from development to volume production.",
+    "revenue_streams": [
+      "Foundry services (wafer manufacturing)",
+      "Advanced Technology Services (ATS)",
+      "Advanced semiconductor packaging"
+    ],
+    "value_chain_position": "Midstream + Provides manufacturing and packaging services for semiconductor devices.",
+    "products": [
+      "Wafer manufacturing (analog, mixed-signal, MEMS, specialty CMOS)",
+      "Advanced technology development services",
+      "Advanced semiconductor packaging"
+    ],
+    "channels": [
+      "B2B (direct sales to commercial and government customers)"
+    ],
+    "key_customers": "Not explicitly stated, but serves diverse sectors including quantum computing, aerospace and defense, automotive, bio-health, and industrial."
+  },
+  "category_b_financials": {
+    "sales_yoy_pct": 126.6,
+    "roe_pct": 95.94
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 95,
+    "score": 66.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 13.700819,
+    "forward_pe": -164.41254,
+    "ev_to_ebitda": 57.912,
+    "price_to_sales": 3.7167802,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 302.49,
+    "outperform_6m_vs_nasdaq": 84.44,
+    "outperform_1m_vs_nasdaq": 2.0,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry."
+}

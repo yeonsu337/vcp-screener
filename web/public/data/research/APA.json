@@ -1,0 +1,46 @@
+{
+  "ticker": "APA",
+  "company": "APA Corporation",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "generated_at": "2026-05-06T01:32:10.793474+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 14659049472,
+    "shares_outstanding": 353400414,
+    "employees": 1791,
+    "country": "United States",
+    "website": "https://www.apacorp.com",
+    "beta": 0.374
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": -21.2,
+    "sales_yoy_pct": -28.0,
+    "ni_cagr_3y_pct": -26.45,
+    "roe_pct": 25.32
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 65.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.1857,
+    "trailing_pe": 10.395989,
+    "forward_pe": 10.292012,
+    "ev_to_ebitda": 3.859,
+    "price_to_sales": 1.6878583,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 121.62,
+    "outperform_6m_vs_nasdaq": 79.36,
+    "outperform_1m_vs_nasdaq": -18.07,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "APA Corporation, a holding company for Apache Corporation, an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston."
+}

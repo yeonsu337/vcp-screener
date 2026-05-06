@@ -1,0 +1,46 @@
+{
+  "ticker": "WFRD",
+  "company": "Weatherford International plc",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "generated_at": "2026-05-06T01:20:59.646385+00:00",
+  "primary_passed": 13,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 7811809792,
+    "shares_outstanding": 71925332,
+    "employees": 16700,
+    "country": "United States",
+    "website": "https://www.weatherford.com",
+    "beta": 0.916
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 42.1,
+    "sales_yoy_pct": -3.4,
+    "ni_cagr_3y_pct": 154.98,
+    "roe_pct": 30.78
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 86,
+    "score": 69.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.3001,
+    "trailing_pe": 16.99687,
+    "forward_pe": 14.896325,
+    "ev_to_ebitda": 8.568,
+    "price_to_sales": 1.6017653,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 105.92,
+    "outperform_6m_vs_nasdaq": 41.55,
+    "outperform_1m_vs_nasdaq": -0.69,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

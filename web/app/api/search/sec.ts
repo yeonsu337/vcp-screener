@@ -117,6 +117,34 @@ function getConceptAny(facts: CompanyFacts, concepts: string[]): FactUnit[] | nu
   return null;
 }
 
+// Pick the alias with the most RECENT data — preferring entries whose latest
+// `end` date is most recent. Filers often populate legacy concepts (e.g., AAPL
+// SalesRevenueNet has 210 stale entries 2009-2018) alongside the post-2018
+// ASC 606 tag (RevenueFromContractWithCustomerExcludingAssessedTax) which is
+// the active series. Naive max-count logic picks the legacy one — wrong.
+function getConceptBest(facts: CompanyFacts, concepts: string[]): FactUnit[] | null {
+  let best: FactUnit[] | null = null;
+  let bestEnd = 0;
+  let bestLen = 0;
+  for (const c of concepts) {
+    const u = getConcept(facts, c);
+    if (!u || u.length === 0) continue;
+    // Latest end across all entries.
+    let latestEnd = 0;
+    for (const f of u) {
+      const t = parseEnd(f.end);
+      if (!Number.isNaN(t) && t > latestEnd) latestEnd = t;
+    }
+    // Prefer concept with newer data; tie-break by entry count.
+    if (latestEnd > bestEnd || (latestEnd === bestEnd && u.length > bestLen)) {
+      best = u;
+      bestEnd = latestEnd;
+      bestLen = u.length;
+    }
+  }
+  return best;
+}
+
 // Quarterly entries: form 10-Q (or fp=Q1/Q2/Q3) + 10-K's FY (which is full-year).
 // We want pure quarterly series (~3-month segments). For flow concepts (revenue,
 // op income, net income, CFO), 10-K val is annual — so we derive Q4 = annual − Q1−Q2−Q3.
@@ -126,10 +154,40 @@ function parseEnd(s: string): number {
   return Date.parse(s);
 }
 
+// Period length in days (rounded). Used to distinguish 3-month quarterly entries
+// from 6/9-month YTD entries which share the same (fy, fp) key on SEC.
+function periodDays(u: FactUnit): number | null {
+  if (!u.start || !u.end) return null;
+  const ms = parseEnd(u.end) - parseEnd(u.start);
+  if (Number.isNaN(ms) || ms <= 0) return null;
+  return Math.round(ms / (24 * 3600 * 1000));
+}
+
+// True for entries that span ~3 months (quarterly flow). Filters out YTD entries
+// (6m for Q2, 9m for Q3) that share fp but cover cumulative periods.
+function isQuarterlyFlow(u: FactUnit): boolean {
+  const d = periodDays(u);
+  if (d == null) return true; // FY entries have no start — accept; filter by fp upstream
+  return d >= 80 && d <= 100;
+}
+
+// True for entries that span ~12 months (annual flow / FY).
+function isAnnualFlow(u: FactUnit): boolean {
+  const d = periodDays(u);
+  if (d == null) return true; // some FY filings omit start
+  return d >= 350 && d <= 380;
+}
+
 // Returns array of { end, val, fy, fp } sorted oldest→newest, distinct by (fy, fp).
 function quarterlyFromFlow(units: FactUnit[]): FactUnit[] {
-  // Filter to 10-Q with fp Q1/Q2/Q3 + 10-K with fp FY. Drop entries lacking fy/fp.
-  const q = units.filter((u) => u.fy != null && u.fp && ["Q1", "Q2", "Q3", "FY"].includes(u.fp));
+  // Filter to:
+  //   - 10-Q with fp Q1/Q2/Q3 — must be ~3-month period (filter out YTD entries)
+  //   - 10-K with fp FY — must be ~12-month period
+  const q = units.filter((u) => {
+    if (u.fy == null || !u.fp || !["Q1", "Q2", "Q3", "FY"].includes(u.fp)) return false;
+    if (u.fp === "FY") return isAnnualFlow(u);
+    return isQuarterlyFlow(u);
+  });
   // Dedup by (fy, fp): keep latest filed/end.
   const byKey = new Map<string, FactUnit>();
   for (const u of q) {
@@ -185,8 +243,12 @@ function quarterlyFromStock(units: FactUnit[]): FactUnit[] {
 // SEC tags annual EPS as fp=FY too — we keep them separate to avoid mixing.
 function epsQuarterly(units: FactUnit[]): FactUnit[] {
   // Quarterly EPS comes from 10-Q. For 10-K we DO NOT have a clean Q4 EPS; derive
-  // Q4 EPS = annual EPS − (Q1+Q2+Q3 EPS).
-  const q = units.filter((u) => u.fy != null && u.fp && ["Q1", "Q2", "Q3", "FY"].includes(u.fp));
+  // Q4 EPS = annual EPS − (Q1+Q2+Q3 EPS). Filter YTD EPS by period length.
+  const q = units.filter((u) => {
+    if (u.fy == null || !u.fp || !["Q1", "Q2", "Q3", "FY"].includes(u.fp)) return false;
+    if (u.fp === "FY") return isAnnualFlow(u);
+    return isQuarterlyFlow(u);
+  });
   const byKey = new Map<string, FactUnit>();
   for (const u of q) {
     const key = `${u.fy}-${u.fp}`;
@@ -214,8 +276,8 @@ function epsQuarterly(units: FactUnit[]): FactUnit[] {
 }
 
 function annualFromConcept(units: FactUnit[]): FactUnit[] {
-  // FY entries (10-K).
-  const a = units.filter((u) => u.fp === "FY" && u.fy != null);
+  // FY entries (10-K). Enforce ~12-month span when start present.
+  const a = units.filter((u) => u.fp === "FY" && u.fy != null && isAnnualFlow(u));
   const byFy = new Map<number, FactUnit>();
   for (const u of a) {
     const prev = byFy.get(u.fy!);
@@ -369,34 +431,31 @@ export async function fetchSECFundamentals(ticker: string): Promise<SECMetrics |
   if (!facts) return null;
 
   // ---- Pull concept series ----
-  // EPS diluted (per share). Some filers only have basic; fall back.
-  const epsUnits = getConceptAny(facts, [
+  // For revenue/NI/equity/CFO/EPS we use getConceptBest (richest series wins)
+  // because filers often populate multiple aliases, and one will have full
+  // quarterly history while another has only legacy annual data.
+  const epsUnits = getConceptBest(facts, [
     "EarningsPerShareDiluted",
     "EarningsPerShareBasic",
   ]);
-  // Revenue (multiple aliases — newer filers use ASC 606 tag).
-  const revUnits = getConceptAny(facts, [
+  const revUnits = getConceptBest(facts, [
+    "RevenueFromContractWithCustomerExcludingAssessedTax", // ASC 606 (post-2018, most filers)
     "Revenues",
-    "RevenueFromContractWithCustomerExcludingAssessedTax",
     "RevenueFromContractWithCustomerIncludingAssessedTax",
     "SalesRevenueNet",
   ]);
-  // Operating income.
   const opIncUnits = getConceptAny(facts, [
     "OperatingIncomeLoss",
   ]);
-  // Net income.
-  const niUnits = getConceptAny(facts, [
+  const niUnits = getConceptBest(facts, [
     "NetIncomeLoss",
     "ProfitLoss",
   ]);
-  // Stockholders equity (point-in-time stock concept).
-  const equityUnits = getConceptAny(facts, [
+  const equityUnits = getConceptBest(facts, [
     "StockholdersEquity",
     "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
   ]);
-  // CFO (cash from operations).
-  const cfoUnits = getConceptAny(facts, [
+  const cfoUnits = getConceptBest(facts, [
     "NetCashProvidedByUsedInOperatingActivities",
     "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
   ]);

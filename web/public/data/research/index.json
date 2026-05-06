@@ -1,5 +1,125 @@
 [
   {
+    "ticker": "AMAT",
+    "company": "Applied Materials, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:19:33.464499+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "AMD",
+    "company": "Advanced Micro Devices, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:47:13.664014+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "ANET",
+    "company": "Arista Networks, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 13,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:54:26.972023+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "APA",
+    "company": "APA Corporation",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:32:10.793474+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "ARWR",
+    "company": "Arrowhead Pharmaceuticals, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:10:27.465350+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "AVGO",
+    "company": "Broadcom Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 13,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:48:37.700854+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "BK",
+    "company": "The Bank of New York Mellon Corporation",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:02:21.754135+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "CAT",
+    "company": "Caterpillar Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:08:53.788388+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "CRS",
+    "company": "Carpenter Technology Corporation",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:51:58.609637+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "CRUS",
+    "company": "Cirrus Logic, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:22:24.281465+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "CSX",
+    "company": "CSX Corporation",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:30:27.263852+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "DELL",
+    "company": "Dell Technologies Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:46:17.564737+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "ECVT",
     "company": "Ecovyst Inc.",
     "market": "US",
@@ -8,5 +128,205 @@
     "primary_total": 14,
     "generated_at": "2026-05-05T07:04:03.128975+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "FIVE",
+    "company": "Five Below, Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:04:04.616033+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "FTI",
+    "company": "TechnipFMC plc",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:00:28.502920+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "GEV",
+    "company": "GE Vernova Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:53:09.035898+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "GVA",
+    "company": "Granite Construction Incorporated",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:13:46.011219+00:00",
+    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBOgkJZ4JxzyLlOYzrIxNDnHaMEjlUs6yg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+  },
+  {
+    "ticker": "HASI",
+    "company": "HA Sustainable Infrastructure Capital, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:34:04.597787+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "JBL",
+    "company": "Jabil Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:57:25.603588+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "LITE",
+    "company": "Lumentum Holdings Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:07:06.533507+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "MLI",
+    "company": "Mueller Industries, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:55:50.075154+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "MPWR",
+    "company": "Monolithic Power Systems, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:58:52.617093+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "NXT",
+    "company": "Nextpower Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:23:59.801224+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "OII",
+    "company": "Oceaneering International, Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:28:52.811940+00:00",
+    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBOgkJZ4JxzyLlOYzrIxNDnHaMEjlUs6yg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+  },
+  {
+    "ticker": "OUT",
+    "company": "OUTFRONT Media Inc.",
+    "market": "US",
+    "sector": "Real Estate",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:11:54.540706+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "ROST",
+    "company": "Ross Stores, Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:16:40.757602+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "RPRX",
+    "company": "Royalty Pharma plc",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:05:39.414617+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "SKYT",
+    "company": "SkyWater Technology, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:27:14.659103+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "UTHR",
+    "company": "United Therapeutics Corporation",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:18:09.514288+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "VICR",
+    "company": "Vicor Corporation",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 13,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T00:50:42.979967+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "WFRD",
+    "company": "Weatherford International plc",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 13,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:20:59.646385+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "WT",
+    "company": "WisdomTree, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:15:16.892421+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "YOU",
+    "company": "Clear Secure, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-06T01:25:28.735908+00:00",
+    "llm_status": "unavailable: rate-limited (429)"
   }
 ]

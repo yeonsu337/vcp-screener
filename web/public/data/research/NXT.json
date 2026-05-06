@@ -1,0 +1,46 @@
+{
+  "ticker": "NXT",
+  "company": "Nextpower Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Solar",
+  "generated_at": "2026-05-06T01:23:59.801224+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 18548445184,
+    "shares_outstanding": 148475843,
+    "employees": 1300,
+    "country": "United States",
+    "website": "https://www.nextpower.com",
+    "beta": 1.598
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 13.8,
+    "sales_yoy_pct": 33.9,
+    "ni_cagr_3y_pct": 115.45,
+    "roe_pct": 33.17
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 87,
+    "score": 64.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.1095,
+    "trailing_pe": 31.464285,
+    "forward_pe": 25.744318,
+    "ev_to_ebitda": 22.751,
+    "price_to_sales": 5.1477485,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 151.4,
+    "outperform_6m_vs_nasdaq": 15.1,
+    "outperform_1m_vs_nasdaq": -1.0,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

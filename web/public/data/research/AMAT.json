@@ -1,0 +1,46 @@
+{
+  "ticker": "AMAT",
+  "company": "Applied Materials, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "generated_at": "2026-05-06T01:19:33.464499+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 326030819328,
+    "shares_outstanding": 793609867,
+    "employees": 35500,
+    "country": "United States",
+    "website": "https://www.appliedmaterials.com",
+    "beta": 1.654
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 71.0,
+    "sales_yoy_pct": -2.1,
+    "ni_cagr_3y_pct": 2.36,
+    "roe_pct": 38.86
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 90,
+    "score": 70.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.8647,
+    "trailing_pe": 42.135384,
+    "forward_pe": 29.196365,
+    "ev_to_ebitda": 36.529,
+    "price_to_sales": 11.55564,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 126.37,
+    "outperform_6m_vs_nasdaq": 70.06,
+    "outperform_1m_vs_nasdaq": 1.37,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Applied Materials, Inc. is an American corporation that supplies equipment, services and software for the manufacture of semiconductor chips for electronics, flat panel displays for computers, smartphones, televisions, and solar products. The company also supplies equipment to produce coatings for flexible electronics, packaging and other applications. The company is headquartered in Santa Clara, California, and is the second largest supplier of semiconductor equipment in the world based on revenue behind Dutch company ASML."
+}

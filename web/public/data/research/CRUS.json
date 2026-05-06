@@ -1,0 +1,46 @@
+{
+  "ticker": "CRUS",
+  "company": "Cirrus Logic, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-06T01:22:24.281465+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 8733230080,
+    "shares_outstanding": 51007389,
+    "employees": 1643,
+    "country": "United States",
+    "website": "https://www.cirrus.com",
+    "beta": 1.154
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 21.0,
+    "sales_yoy_pct": 4.5,
+    "ni_cagr_3y_pct": 0.52,
+    "roe_pct": 19.87
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 81,
+    "score": 68.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 9.35,
+    "trailing_pe": 22.58773,
+    "forward_pe": 18.994343,
+    "ev_to_ebitda": 15.839,
+    "price_to_sales": 4.425671,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 33.48,
+    "outperform_6m_vs_nasdaq": 22.32,
+    "outperform_1m_vs_nasdaq": -0.06,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Cirrus Logic Inc. is an American fabless semiconductor supplier that specializes in analog, mixed-signal, and audio DSP integrated circuits (ICs). Since 1998, the company's headquarters have been in Austin, Texas."
+}

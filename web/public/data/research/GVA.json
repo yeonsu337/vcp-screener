@@ -1,0 +1,45 @@
+{
+  "ticker": "GVA",
+  "company": "Granite Construction Incorporated",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "generated_at": "2026-05-06T01:13:46.011219+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBOgkJZ4JxzyLlOYzrIxNDnHaMEjlUs6yg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))",
+  "yf_metadata": {
+    "market_cap": 6197157888,
+    "shares_outstanding": 43746699,
+    "employees": 2500,
+    "country": "United States",
+    "website": "https://www.graniteconstruction.com",
+    "beta": 1.353
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "sales_yoy_pct": 30.4,
+    "ni_cagr_3y_pct": 32.32,
+    "roe_pct": 20.03
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 77,
+    "score": 69.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.96,
+    "trailing_pe": 38.599457,
+    "forward_pe": 19.364681,
+    "ev_to_ebitda": 15.834,
+    "price_to_sales": 1.3363729,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 34.53,
+    "outperform_6m_vs_nasdaq": 31.21,
+    "outperform_1m_vs_nasdaq": 1.72,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products. The company was under investigation from the SEC from 2019 to 2021 for misrepresenting revenue, and as a result paid fines to settle disputes with shareholders, and avoided delisting from the NYSE."
+}

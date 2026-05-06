@@ -1,4 +1,18 @@
+import fs from "fs";
+import path from "path";
 import Link from "next/link";
+
+function lessonsLive(): boolean {
+  try {
+    const p = path.join(process.cwd(), "public", "data", "lessons.json");
+    return fs.existsSync(p);
+  } catch {
+    return false;
+  }
+}
+
+const liveBadge = "bg-emerald-500/20 text-emerald-400";
+const pendingBadge = "bg-yellow-500/20 text-yellow-400";
 
 const sections = [
   {
@@ -7,7 +21,7 @@ const sections = [
     href: "/screener",
     icon: "\u{1F50D}",
     status: "Live",
-    statusColor: "bg-emerald-500/20 text-emerald-400",
+    statusColor: liveBadge,
   },
   {
     title: "Search Any Ticker",
@@ -15,7 +29,7 @@ const sections = [
     href: "/search",
     icon: "\u{1F50E}",
     status: "Live",
-    statusColor: "bg-emerald-500/20 text-emerald-400",
+    statusColor: liveBadge,
   },
   {
     title: "Backtest",
@@ -23,7 +37,7 @@ const sections = [
     href: "/backtest",
     icon: "\u{1F4CA}",
     status: "Live",
-    statusColor: "bg-emerald-500/20 text-emerald-400",
+    statusColor: liveBadge,
   },
   {
     title: "Tracking",
@@ -31,7 +45,7 @@ const sections = [
     href: "/tracking",
     icon: "\u{1F4CC}",
     status: "Live",
-    statusColor: "bg-emerald-500/20 text-emerald-400",
+    statusColor: liveBadge,
   },
   {
     title: "Portfolio",
@@ -39,7 +53,7 @@ const sections = [
     href: "/portfolio",
     icon: "\u{1F4BC}",
     status: "Coming Soon",
-    statusColor: "bg-yellow-500/20 text-yellow-400",
+    statusColor: pendingBadge,
   },
   {
     title: "Company Research",
@@ -47,11 +61,30 @@ const sections = [
     href: "/research",
     icon: "\u{1F3E2}",
     status: "Coming Soon",
-    statusColor: "bg-yellow-500/20 text-yellow-400",
+    statusColor: pendingBadge,
+  },
+  {
+    title: "Lessons Learned",
+    description: "Win rate, profit factor, rule lift, sector & time-curve analytics across every detection",
+    href: "/lessons",
+    icon: "\u{1F9E0}",
+    statusKey: "lessons",
   },
 ];
 
 export default function Home() {
+  const lessonsReady = lessonsLive();
+  const cards = sections.map((s) => {
+    if ((s as { statusKey?: string }).statusKey === "lessons") {
+      return {
+        ...s,
+        status: lessonsReady ? "Live" : "Pending",
+        statusColor: lessonsReady ? liveBadge : pendingBadge,
+      };
+    }
+    return s;
+  });
+
   return (
     <main className="max-w-4xl mx-auto px-4 py-10 md:py-16">
       <header className="text-center mb-10 md:mb-14">
@@ -64,7 +97,7 @@ export default function Home() {
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {sections.map((s) => (
+        {cards.map((s) => (
           <Link
             key={s.href}
             href={s.href}

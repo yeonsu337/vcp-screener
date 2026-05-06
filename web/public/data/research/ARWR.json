@@ -1,0 +1,44 @@
+{
+  "ticker": "ARWR",
+  "company": "Arrowhead Pharmaceuticals, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "generated_at": "2026-05-06T01:10:27.465350+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 10492612608,
+    "shares_outstanding": 140032190,
+    "employees": 711,
+    "country": "United States",
+    "website": "https://arrowheadpharma.com",
+    "beta": 1.289
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "sales_yoy_pct": 10461.3,
+    "roe_pct": 75.5
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 96,
+    "score": 71.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 46.83125,
+    "forward_pe": -17.519085,
+    "ev_to_ebitda": 31.538,
+    "price_to_sales": 9.617595,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 378.75,
+    "outperform_6m_vs_nasdaq": 70.01,
+    "outperform_1m_vs_nasdaq": 7.46,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

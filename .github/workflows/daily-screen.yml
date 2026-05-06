@@ -36,6 +36,12 @@ jobs:
         run: python scripts/company_research.py
         continue-on-error: true
 
+      - name: Generate Lessons Learned analytics
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/lessons_analyzer.py
+        continue-on-error: true
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

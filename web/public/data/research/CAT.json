@@ -1,0 +1,46 @@
+{
+  "ticker": "CAT",
+  "company": "Caterpillar Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
+  "generated_at": "2026-05-06T01:08:53.788388+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 416646889472,
+    "shares_outstanding": 460591983,
+    "employees": 118000,
+    "country": "United States",
+    "website": "https://www.caterpillar.com",
+    "beta": 1.625
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 27.3,
+    "sales_yoy_pct": 22.2,
+    "ni_cagr_3y_pct": 9.83,
+    "roe_pct": 51.33
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 73.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.1456,
+    "trailing_pe": 44.95974,
+    "forward_pe": 30.977444,
+    "ev_to_ebitda": 31.607,
+    "price_to_sales": 5.8885856,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 141.62,
+    "outperform_6m_vs_nasdaq": 50.62,
+    "outperform_1m_vs_nasdaq": 10.52,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average."
+}
