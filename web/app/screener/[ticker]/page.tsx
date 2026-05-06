@@ -10,11 +10,40 @@ import type { Candidate, TickerFinancials, ChartPayload } from "../../types";
 export const dynamic = "force-static";
 export const dynamicParams = true;
 
+// Pre-render detected (hard gate) + Primary 12+ (soft gate) tickers.
+// Other tickers fall back to dynamic rendering via dynamicParams = true.
+const PRIMARY_IDS = [
+  "A1_ud_vol_ratio",
+  "B1_price_above_150_200",
+  "B2_sma150_gt_sma200",
+  "B3_sma50_gt_150_200",
+  "B4_price_above_sma50",
+  "B5_sma200_rising_5mo",
+  "B6_30pct_above_52w_low",
+  "B7_within_25pct_high",
+  "R1_rs_70",
+  "L1_liquidity_gate",
+  "P6_monotonic_decreasing",
+  "E7_roe",
+  "F1_outperform_1y",
+  "H4_ni_cagr_3y",
+];
+
 export async function generateStaticParams() {
   const p = path.join(process.cwd(), "public", "data", "results.json");
   if (!fs.existsSync(p)) return [];
   const rows: Candidate[] = JSON.parse(fs.readFileSync(p, "utf-8"));
-  return rows.filter((r) => r.detected).map((r) => ({ ticker: r.ticker }));
+  return rows
+    .filter((r) => {
+      if (r.detected) return true;
+      if (!r.rules) return false;
+      const passed = PRIMARY_IDS.reduce(
+        (acc, id) => acc + (r.rules?.[id]?.passed ? 1 : 0),
+        0,
+      );
+      return passed >= 12;
+    })
+    .map((r) => ({ ticker: r.ticker }));
 }
 
 function loadFinancials(ticker: string): TickerFinancials | null {
