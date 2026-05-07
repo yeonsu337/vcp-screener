@@ -17,33 +17,33 @@
     "beta": 1.44
   },
   "category_a_business": {
-    "overview": "Broadcom Inc. is a global technology leader designing, developing, and supplying a broad range of semiconductor devices and infrastructure software solutions. Serving diverse markets like data centers, networking, and wireless, AVGO leverages a history of innovation and strategic acquisitions to deliver category-leading products.",
+    "overview": "Broadcom Inc.는 광범위한 반도체 장치 및 인프라 소프트웨어 솔루션을 설계, 개발 및 공급하는 글로벌 기술 리더입니다. 데이터 센터, 네트워킹, 무선 등 다양한 시장에 서비스를 제공하는 AVGO는 혁신의 역사와 전략적 인수를 활용하여 카테고리 최고의 제품을 제공합니다.",
     "milestones": [
-      "1961: Origins from AT&T/Bell Labs, Lucent, and Hewlett-Packard Company",
-      "2015: Avago Technologies acquires Broadcom Corporation for $37 billion",
-      "2017: Acquires Brocade Communications Systems, Inc. for $5.5 billion",
-      "2018: Acquires CA Technologies for $18.9 billion, expanding into enterprise software",
-      "2019: Acquires Symantec's enterprise security business for $10.7 billion",
-      "2023: Acquires VMware, Inc. for $69 billion, significantly boosting infrastructure software portfolio"
+      "1961: AT&T/Bell Labs, Lucent 및 Hewlett-Packard Company에서 시작",
+      "2015: Avago Technologies가 Broadcom Corporation을 370억 달러에 인수",
+      "2017: Brocade Communications Systems, Inc.를 55억 달러에 인수",
+      "2018년: CA Technologies를 189억 달러에 인수하여 엔터프라이즈 소프트웨어로 확장",
+      "2019년: Symantec의 엔터프라이즈 보안 사업부를 107억 달러에 인수",
+      "2023: VMware, Inc.를 690억 달러에 인수하여 인프라 소프트웨어 포트폴리오를 대폭 강화"
     ],
-    "business_model": "Broadcom makes money by designing, developing, and selling high-performance semiconductor devices and enterprise-grade infrastructure software solutions. It focuses on category leadership through R&D and strategic acquisitions, serving large enterprise and government customers.",
+    "business_model": "Broadcom은 고성능 반도체 장치와 엔터프라이즈급 인프라 소프트웨어 솔루션을 설계, 개발 및 판매하여 수익을 창출합니다. R&D 및 전략적 인수를 통해 카테고리 리더십에 중점을 두고 대기업 및 정부 고객에게 서비스를 제공합니다.",
     "revenue_streams": [
-      "Semiconductor Solutions (networking, wireless, storage, broadband, industrial)",
-      "Infrastructure Software (private cloud, mainframe, cybersecurity, application development)"
+      "반도체 솔루션(네트워킹, 무선, 스토리지, 광대역, 산업용)",
+      "인프라 소프트웨어(프라이빗 클라우드, 메인프레임, 사이버 보안, 애플리케이션 개발)"
     ],
-    "value_chain_position": "Midstream - Broadcom designs and develops semiconductor devices and software, then supplies these to other businesses for integration into their final products.",
+    "value_chain_position": "미드스트림(Midstream) - Broadcom은 반도체 장치 및 소프트웨어를 설계 및 개발한 후 이를 다른 기업에 공급하여 최종 제품에 통합합니다.",
     "products": [
-      "Custom Silicon Solutions (ASICs for AI/HPC)",
-      "Ethernet Switching & Routing Silicon",
-      "RF Semiconductor Devices",
-      "VMware Cloud Foundation",
-      "Mainframe Software (AIOPS, cybersecurity)",
-      "PCIe Switches & SAS/RAID Products"
+      "맞춤형 실리콘 솔루션(AI/HPC용 ASIC)",
+      "이더넷 스위칭 및 라우팅 실리콘",
+      "RF 반도체 장치",
+      "VMware 클라우드 재단",
+      "메인프레임 소프트웨어(AIOPS, 사이버 보안)",
+      "PCIe 스위치 및 SAS/RAID 제품"
     ],
     "channels": [
-      "B2B (direct sales to OEMs, hyperscalers, system integrators, enterprises, government)"
+      "B2B(OEM, 하이퍼스케일러, 시스템 통합업체, 기업, 정부에 대한 직접 판매)"
     ],
-    "key_customers": "Concentration assessment not provided in source data, but customers include hyperscalers, companies with AI frontier models, OEMs, and system integrators."
+    "key_customers": "소스 데이터에는 농도 평가가 제공되지 않지만 고객에는 하이퍼스케일러, AI 프론티어 모델을 갖춘 회사, OEM 및 시스템 통합업체가 포함됩니다."
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 33.5,
@@ -52,58 +52,58 @@
     "roe_pct": 33.37
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "Approximately $600B - $700B (estimate, based on combined semiconductor and infrastructure software markets, with semiconductor market being ~500B and enterprise software ~200B, AVGO plays in specific high-growth niches within these)",
-    "tam_cagr_pct": "10-15% (reasoning: strong tailwinds from AI data center build-out, continued digital transformation driving infrastructure software demand, and ongoing need for high-performance connectivity solutions)",
+    "tam_estimate_usd_b": "약 6,000억 달러 - 7,000억 달러(반도체 시장과 인프라 소프트웨어 시장을 합산한 추정치, 반도체 시장 규모는 ~5,000억, 엔터프라이즈 소프트웨어는 ~2,000억, AVGO는 이들 내의 특정 고성장 틈새 시장에서 활동함)",
+    "tam_cagr_pct": "10-15% (추론: AI 데이터 센터 구축으로 인한 강력한 순풍, 인프라 소프트웨어 수요를 주도하는 지속적인 디지털 혁신, 고성능 연결 솔루션에 대한 지속적인 필요성)",
     "growth_drivers": [
-      "Accelerated AI data center infrastructure build-out, including custom accelerators (XPUs), high-speed Ethernet switching, and optical components.",
-      "Continued enterprise digital transformation driving demand for robust and secure private/hybrid cloud infrastructure software solutions.",
-      "Expansion of high-performance networking and connectivity across various end markets (enterprise, telecom, wireless, broadband).",
-      "Increasing complexity and data traffic in modern computing environments requiring advanced semiconductor and software solutions.",
-      "Strategic acquisitions that expand market reach and technology leadership in key infrastructure segments."
+      "맞춤형 가속기(XPU), 고속 이더넷 스위칭, 광학 구성 요소를 포함한 가속화된 AI 데이터 센터 인프라 구축.",
+      "지속적인 기업 디지털 혁신으로 인해 강력하고 안전한 프라이빗/하이브리드 클라우드 인프라 소프트웨어 솔루션에 대한 수요가 증가하고 있습니다.",
+      "다양한 최종 시장(기업, 통신, 무선, 광대역) 전반에 걸쳐 고성능 네트워킹 및 연결성을 확장합니다.",
+      "고급 반도체 및 소프트웨어 솔루션이 필요한 현대 컴퓨팅 환경에서는 복잡성과 데이터 트래픽이 증가합니다.",
+      "주요 인프라 부문에서 시장 도달 범위와 기술 리더십을 확장하는 전략적 인수입니다."
     ],
-    "market_share_pct": "Highly varied by specific product category; leading or significant share in many of its niche markets (e.g., enterprise switching, broadband access, storage area networking, certain custom ASICs for hyperscalers).",
+    "market_share_pct": "특정 제품 카테고리에 따라 매우 다양합니다. 많은 틈새 시장(예: 엔터프라이즈 스위칭, 광대역 액세스, 스토리지 영역 네트워킹, 하이퍼스케일러를 위한 특정 맞춤형 ASIC)에서 선두 또는 상당한 점유율을 차지하고 있습니다.",
     "competitors": [
       {
         "name": "NVIDIA",
-        "differentiation": "Dominant in GPU-based AI compute, expanding into networking with Mellanox acquisition, direct competition in AI accelerators and high-speed networking."
+        "differentiation": "GPU 기반 AI 컴퓨팅 분야에서 우위를 점하고 Mellanox 인수를 통해 네트워킹으로 확장하고 AI 가속기 및 고속 네트워킹 분야에서 직접적인 경쟁을 펼치고 있습니다."
       },
       {
         "name": "Cisco Systems",
-        "differentiation": "Strong incumbent in enterprise networking and data center infrastructure, offers integrated hardware and software solutions, competes in switching and routing."
+        "differentiation": "엔터프라이즈 네트워킹 및 데이터 센터 인프라 분야에서 강력한 입지를 확보하고 통합 하드웨어 및 소프트웨어 솔루션을 제공하며 스위칭 및 라우팅 분야에서 경쟁합니다."
       },
       {
         "name": "Intel",
-        "differentiation": "Broad semiconductor portfolio, strong in CPUs, expanding into AI accelerators and networking, competes across various semiconductor end markets."
+        "differentiation": "CPU에 강하고 AI 가속기와 네트워킹으로 확장되는 광범위한 반도체 포트폴리오는 다양한 반도체 최종 시장에서 경쟁합니다."
       },
       {
         "name": "Marvell Technology",
-        "differentiation": "Focus on data infrastructure semiconductors, including networking, storage, and custom ASICs, direct competition in several high-performance connectivity segments."
+        "differentiation": "네트워킹, 스토리지 및 맞춤형 ASIC을 포함한 데이터 인프라 반도체에 중점을 두고 여러 고성능 연결 부문에서 직접 경쟁합니다."
       },
       {
         "name": "IBM / Oracle (for software)",
-        "differentiation": "Legacy enterprise software providers, compete in areas like mainframe software, database, and cloud management where AVGO's infrastructure software solutions also play."
+        "differentiation": "레거시 엔터프라이즈 소프트웨어 제공업체는 AVGO의 인프라 소프트웨어 솔루션이 활약하는 메인프레임 소프트웨어, 데이터베이스, 클라우드 관리와 같은 영역에서 경쟁합니다."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low (high R&D costs, complex IP, established customer relationships, and significant capital investment required for semiconductor and enterprise software development)",
-      "substitutes": "medium (e.g., open-source software alternatives in some infrastructure areas, alternative networking technologies, or in-house development by hyperscalers for certain components, though AVGO's integration and performance are key differentiators)",
-      "buyer_power": "medium (large hyperscalers and OEMs have significant purchasing power and can influence product roadmaps, but AVGO's mission-critical solutions and high performance limit easy switching)",
-      "supplier_power": "medium (reliance on a few advanced foundries for semiconductor manufacturing, but AVGO's scale and long-term relationships mitigate some risk; software suppliers are less of a concern)",
-      "rivalry": "high (intense competition from well-established, well-funded players across both semiconductor and infrastructure software segments, requiring continuous innovation and strategic execution)"
+      "new_entrants": "낮음(높은 R&D 비용, 복잡한 IP, 확립된 고객 관계, 반도체 및 엔터프라이즈 소프트웨어 개발에 필요한 상당한 자본 투자)",
+      "substitutes": "매체(예: 일부 인프라 영역의 오픈 소스 소프트웨어 대안, 대체 네트워킹 기술 또는 특정 구성 요소에 대한 하이퍼스케일러의 내부 개발, AVGO의 통합 및 성능이 주요 차별화 요소임)",
+      "buyer_power": "중간(대형 하이퍼스케일러 및 OEM은 상당한 구매력을 갖고 있으며 제품 로드맵에 영향을 미칠 수 있지만 AVGO의 미션 크리티컬 솔루션과 고성능은 쉬운 전환을 제한합니다)",
+      "supplier_power": "중간(반도체 제조를 위한 몇몇 고급 파운드리에 의존하지만 AVGO의 규모와 장기적인 관계로 인해 일부 위험이 완화되고 소프트웨어 공급업체는 덜 걱정됩니다)",
+      "rivalry": "높음(반도체 및 인프라 소프트웨어 부문 모두에서 탄탄하고 자금력이 풍부한 플레이어와의 치열한 경쟁으로 지속적인 혁신과 전략적 실행이 필요함)"
     },
     "competitive_advantages": [
-      "Extensive and diversified IP portfolio and engineering depth across semiconductors and infrastructure software.",
-      "Category-leading solutions in several high-value, mission-critical infrastructure segments (e.g., AI networking, FC SAN, enterprise software).",
-      "Strong relationships with hyperscalers and large enterprise customers, deeply embedded in their infrastructure.",
-      "Operational focus and disciplined acquisition strategy leading to robust financial performance and integration capabilities.",
-      "Broad product portfolio offering integrated performance and high-quality solutions across multiple end markets."
+      "반도체 및 인프라 소프트웨어 전반에 걸친 광범위하고 다양한 IP 포트폴리오와 엔지니어링 깊이.",
+      "여러 고가치 미션 크리티컬 인프라 부문(예: AI 네트워킹, FC SAN, 엔터프라이즈 소프트웨어)에서 카테고리를 선도하는 솔루션입니다.",
+      "하이퍼스케일러 및 대기업 고객과의 강력한 관계는 인프라에 깊숙이 내장되어 있습니다.",
+      "강력한 재무 성과 및 통합 기능으로 이어지는 운영 초점 및 체계적인 인수 전략.",
+      "여러 최종 시장에 걸쳐 통합된 성능과 고품질 솔루션을 제공하는 광범위한 제품 포트폴리오."
     ],
     "competitive_weaknesses": [
-      "Reliance on a few large customers (e.g., hyperscalers, major OEMs) for a significant portion of revenue, creating concentration risk.",
-      "Integration challenges and potential customer churn associated with frequent and large-scale acquisitions (e.g., VMware).",
-      "Exposure to cyclicality in semiconductor demand and capital expenditure cycles of large customers.",
-      "Potential for commoditization in certain less differentiated semiconductor or software components over time.",
-      "Complexity of managing a diverse portfolio of acquired businesses and technologies across different market dynamics."
+      "수익의 상당 부분을 소수의 대규모 고객(예: 하이퍼스케일러, 주요 OEM)에 의존하여 집중 위험을 초래합니다.",
+      "빈번하고 대규모 인수(예: VMware)와 관련된 통합 문제 및 잠재적 고객 이탈.",
+      "대규모 고객의 반도체 수요 및 자본 지출 주기의 순환성에 노출됩니다.",
+      "시간이 지남에 따라 덜 차별화된 특정 반도체 또는 소프트웨어 부품이 상품화될 가능성이 있습니다.",
+      "다양한 시장 역학 전반에 걸쳐 인수한 비즈니스 및 기술의 다양한 포트폴리오를 관리하는 복잡성."
     ]
   },
   "category_d_thesis": {
@@ -124,62 +124,65 @@
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets | Switching Costs",
     "moat_evidence": [
-      "Over 60-year history of innovation from diverse origins (AT&T/Bell Labs, Lucent, Hewlett-Packard) and strategic acquisitions (LSI, Broadcom Corp., Brocade, CA, Symantec, VMware) have built a vast portfolio of intellectual property and established market positions.",
-      "Broadcom's focus on 'sustained technology leadership and developing category-leading solutions' through extensive internal R&D and strategic acquisitions creates a strong barrier to entry for competitors.",
-      "Customers of Broadcom's infrastructure software solutions 'rely on our infrastructure and security software solutions to modernize, optimize, and secure the most complex private cloud, hybrid cloud and edge environments,' indicating high switching costs once integrated into mission-critical workloads.",
-      "Differentiation through 'high-performance design and integration capabilities' and focus on 'high quality, leading technology and integrated performance semiconductor and semiconductor-based solutions' in specialized markets makes it difficult for customers to switch to alternative providers without significant disruption or performance degradation."
+      "다양한 출처(AT&T/Bell Labs, Lucent, Hewlett-Packard)와 전략적 인수(LSI, Broadcom Corp., Brocade, CA, Symantec, VMware)를 통한 60년 이상의 혁신 역사를 통해 방대한 지적 재산 포트폴리오를 구축하고 시장 입지를 확립했습니다.",
+      "광범위한 내부 R&D와 전략적 인수를 통해 '지속적인 기술 리더십과 업계 최고의 솔루션 개발'에 집중하는 Broadcom은 경쟁업체에 대한 강력한 진입 장벽을 만듭니다.",
+      "Broadcom의 인프라 소프트웨어 솔루션 고객은 '가장 복잡한 프라이빗 클라우드, 하이브리드 클라우드 및 엣지 환경을 현대화, 최적화 및 보호하기 위해 당사의 인프라 및 보안 소프트웨어 솔루션을 사용합니다.' 이는 미션 크리티컬 워크로드에 통합되면 높은 전환 비용을 나타냅니다.",
+      "전문 시장에서 '고성능 설계 및 통합 기능'을 통한 차별화와 '고품질, 선도적 기술 및 통합 성능 반도체 및 반도체 기반 솔루션'에 집중하면 고객이 심각한 중단이나 성능 저하 없이 대체 공급자로 전환하기가 어렵습니다."
     ],
-    "moat_durability_years": "10-15y",
-    "new_trigger": "Broadcom's strategic expansion into AI data center infrastructure, enabling accelerated compute and networking connectivity for hyperscalers and AI frontier model companies, positions it to capitalize on the burgeoning AI market.",
-    "bull_case": "AVGO's strategic focus on AI data center infrastructure and successful integration of VMware will drive sustained revenue and EPS growth. Strong demand for high-performance semiconductors and sticky infrastructure software will lead to margin expansion, propelling the stock higher, potentially exceeding current valuation multiples.",
-    "base_case": "AVGO will continue to leverage its strong market position in semiconductors and infrastructure software, with steady growth driven by ongoing demand in data centers and enterprise IT. The VMware acquisition will contribute to diversified revenue streams and maintain solid profitability, aligning with its 'Stalwart' status.",
-    "bear_case": "Increased competition in the semiconductor space, particularly in AI, or slower-than-expected integration and synergies from the VMware acquisition could hinder growth. Macroeconomic headwinds impacting enterprise IT spending or supply chain disruptions could pressure margins and lead to a re-rating of its valuation.",
+    "moat_durability_years": "10~15세",
+    "new_trigger": "Broadcom은 AI 데이터 센터 인프라로의 전략적 확장을 통해 하이퍼스케일러 및 AI 프런티어 모델 기업을 위한 가속화된 컴퓨팅 및 네트워킹 연결을 지원함으로써 급성장하는 AI 시장을 활용할 수 있는 입지를 마련했습니다.",
+    "bull_case": "AI 데이터 센터 인프라에 대한 AVGO의 전략적 초점과 VMware의 성공적인 통합은 지속적인 수익과 EPS 성장을 촉진할 것입니다. 고성능 반도체와 끈적한 인프라 소프트웨어에 대한 수요가 높아 마진이 확대되어 주가가 상승하고 현재 가치 평가 배수를 초과할 가능성이 있습니다.",
+    "base_case": "AVGO는 데이터 센터 및 기업 IT 분야의 지속적인 수요에 힘입어 꾸준한 성장을 이루면서 반도체 및 인프라 소프트웨어 분야에서 강력한 시장 지위를 계속 활용할 것입니다. VMware 인수는 'Stalwart' 지위에 걸맞게 수익원 다각화와 탄탄한 수익성 유지에 기여할 것입니다.",
+    "bear_case": "반도체 분야, 특히 AI 분야의 경쟁이 심화되거나 VMware 인수로 인한 통합 및 시너지 효과가 예상보다 느려지면 성장이 저해될 수 있습니다. 기업 IT 지출이나 공급망 중단에 영향을 미치는 거시경제적 역풍으로 인해 마진이 압박을 받고 가치 평가가 재평가될 수 있습니다.",
     "key_metrics_to_watch": [
-      "Infrastructure Software Revenue Growth",
-      "Semiconductor Solutions Revenue Growth (especially AI-related)",
-      "Free Cash Flow Conversion",
-      "Operating Margin Expansion",
-      "Net Debt to EBITDA"
+      "인프라 소프트웨어 수익 성장",
+      "반도체 솔루션 매출 성장(특히 AI 관련)",
+      "무료 현금 흐름 변환",
+      "영업이익률 확대",
+      "EBITDA 대비 순부채"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "Customer concentration",
-        "description": "A substantial majority of Broadcom's semiconductor sales are derived from a limited number of distributors and OEMs, making the company highly dependent on these key relationships.",
+        "description": "Broadcom의 반도체 매출의 상당 부분은 제한된 수의 유통업체와 OEM을 통해 이루어지기 때문에 회사는 이러한 주요 관계에 크게 의존하게 됩니다.",
         "severity": "high"
       },
       {
         "category": "Supply chain",
-        "description": "Reliance on a complex global network of distributors and contract manufacturers introduces vulnerabilities related to logistics, quality control, and potential disruptions.",
+        "description": "유통업체와 계약 제조업체로 구성된 복잡한 글로벌 네트워크에 의존하면 물류, 품질 관리 및 잠재적인 중단과 관련된 취약성이 발생합니다.",
         "severity": "medium"
       },
       {
         "category": "Competition",
-        "description": "The semiconductor industry is highly competitive, and Broadcom faces ongoing pressure from rivals in various product segments, potentially impacting market share and pricing power.",
+        "description": "반도체 산업은 경쟁이 매우 치열하며 Broadcom은 다양한 제품 부문에서 경쟁업체로부터 지속적인 압력을 받고 있어 잠재적으로 시장 점유율과 가격 결정력에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "Regulation",
-        "description": "Operating globally exposes Broadcom to diverse and evolving regulatory environments, including trade policies, tariffs, and export controls, which could impact operations and profitability.",
+        "description": "전 세계적으로 사업을 운영하다 보면 Broadcom은 무역 정책, 관세, 수출 통제 등 다양하고 진화하는 규제 환경에 노출되어 운영과 수익성에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "Financial",
-        "description": "The long-standing nature of many customer relationships, while beneficial, could lead to complacency or reduced flexibility in adapting to market changes or customer demands.",
+        "description": "많은 고객 관계의 오랜 특성은 유익하기는 하지만 시장 변화나 고객 요구에 적응하는 데 안주하거나 유연성이 감소할 수 있습니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "A major OEM customer shifts its business to a competitor, significantly impacting Broadcom's semiconductor revenue.",
-      "Supply chain disruptions or geopolitical events severely restrict Broadcom's ability to manufacture and deliver products.",
-      "Aggressive pricing by competitors erodes Broadcom's profit margins and market share across key product lines."
+      "주요 OEM 고객이 사업을 경쟁업체로 전환하여 Broadcom의 반도체 수익에 큰 영향을 미쳤습니다.",
+      "공급망 중단 또는 지정학적 사건으로 인해 Broadcom의 제품 제조 및 배송 능력이 심각하게 제한됩니다.",
+      "경쟁업체의 공격적인 가격 책정으로 인해 Broadcom의 이윤 마진과 주요 제품 라인 전체의 시장 점유율이 잠식되었습니다."
     ],
     "exit_signals": [
-      "A significant decline in sales to Broadcom's top 5 customers over two consecutive quarters.",
-      "Public announcements from major OEM customers indicating a shift away from Broadcom as a primary supplier.",
-      "Persistent gross margin compression below industry averages due to competitive pressures."
+      "Broadcom의 상위 5개 고객에 대한 매출이 2분기 연속 크게 감소했습니다.",
+      "Broadcom에서 주요 공급업체로의 전환을 나타내는 주요 OEM 고객의 공개 발표.",
+      "경쟁 압력으로 인해 업계 평균 이하로 지속적으로 총 마진이 감소하고 있습니다."
     ]
   },
-  "wikipedia_summary": "Broadcom Inc. is an American multinational designer, developer, manufacturer, and global supplier of a wide range of semiconductor and infrastructure software products. Broadcom's product offerings serve the data center, networking, software, broadband, wireless, storage, and industrial markets. As of 2025—amid the AI boom—Broadcom is one of the largest companies globally, and could be considered part of the Big Tech group and the Magnificent Seven, replacing Tesla."
+  "wikipedia_summary": "Broadcom Inc. is an American multinational designer, developer, manufacturer, and global supplier of a wide range of semiconductor and infrastructure software products. Broadcom's product offerings serve the data center, networking, software, broadband, wireless, storage, and industrial markets. As of 2025—amid the AI boom—Broadcom is one of the largest companies globally, and could be considered part of the Big Tech group and the Magnificent Seven, replacing Tesla.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-07T02:46:47.047121+00:00"
+  }
 }

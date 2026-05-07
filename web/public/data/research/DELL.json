@@ -17,39 +17,39 @@
     "beta": 1.062
   },
   "category_a_business": {
-    "overview": "Dell Technologies Inc. is a multinational technology company providing comprehensive solutions, products, and services globally. It operates through Infrastructure Solutions Group (ISG) and Client Solutions Group (CSG) segments, offering a wide range of hardware, software, and services to businesses and consumers.",
+    "overview": "Dell Technologies Inc.는 전 세계적으로 포괄적인 솔루션, 제품 및 서비스를 제공하는 다국적 기술 회사입니다. ISG(인프라 솔루션 그룹) 및 CSG(클라이언트 솔루션 그룹) 부문을 통해 운영되며 기업과 소비자에게 광범위한 하드웨어, 소프트웨어 및 서비스를 제공합니다.",
     "milestones": [
-      "1984: Michael Dell founds PC's Limited (later Dell Computer Corporation)",
-      "1988: Company goes public",
-      "1994: Headquarters established in Round Rock, Texas",
-      "2013: Michael Dell takes company private in a leveraged buyout",
-      "2016: Dell merges with EMC Corporation, forming Dell Technologies",
-      "2018: Dell Technologies returns to public markets",
-      "2021: Spins off VMware"
+      "1984: Michael Dell이 PC's Limited(이후 Dell Computer Corporation) 설립",
+      "1988: 회사 상장",
+      "1994년: 텍사스주 라운드록에 본사 설립",
+      "2013: Michael Dell은 차입 매수를 통해 회사를 비상장으로 전환했습니다.",
+      "2016: Dell은 EMC Corporation과 합병하여 Dell Technologies를 설립했습니다.",
+      "2018년: Dell Technologies가 공개 시장으로 복귀합니다.",
+      "2021년: VMware 분사"
     ],
-    "business_model": "Dell generates revenue by designing, manufacturing, and selling a broad portfolio of technology solutions, including personal computers, servers, storage, networking, and related software and services, to both commercial and consumer customers.",
+    "business_model": "Dell은 개인용 컴퓨터, 서버, 스토리지, 네트워킹, 관련 소프트웨어 및 서비스를 포함한 광범위한 기술 솔루션 포트폴리오를 설계, 제조 및 상업 고객과 소비자 고객 모두에게 판매하여 수익을 창출합니다.",
     "revenue_streams": [
-      "Client Solutions (notebooks, desktops, workstations)",
-      "Infrastructure Solutions (servers, storage, networking)",
-      "Peripherals and accessories",
-      "Software and security solutions",
-      "Services (consulting, deployment, support, extended warranties)"
+      "클라이언트 솔루션(노트북, 데스크탑, 워크스테이션)",
+      "인프라 솔루션(서버, 스토리지, 네트워킹)",
+      "주변기기 및 액세서리",
+      "소프트웨어 및 보안 솔루션",
+      "서비스(컨설팅, 배포, 지원, 보증 연장)"
     ],
-    "value_chain_position": "Midstream / Downstream - Dell designs, manufactures (often through ODM partners), and sells its own branded technology products and services directly to end-users.",
+    "value_chain_position": "미드스트림/다운스트림 - Dell은 자체 브랜드 기술 제품 및 서비스를 최종 사용자에게 직접 설계, 제조(주로 ODM 파트너를 통해) 및 판매합니다.",
     "products": [
-      "Notebooks, Desktops, Workstations",
-      "Servers (general-purpose, AI-optimized)",
-      "Storage Solutions (all-flash, hyper-converged)",
-      "Networking Products (switches, WAN infrastructure)",
-      "Displays and Peripherals",
-      "Software and Security"
+      "노트북, 데스크탑, 워크스테이션",
+      "서버(범용, AI 최적화)",
+      "스토리지 솔루션(올플래시, 하이퍼컨버지드)",
+      "네트워킹 제품(스위치, WAN 인프라)",
+      "디스플레이 및 주변기기",
+      "소프트웨어 및 보안"
     ],
     "channels": [
-      "B2B (direct sales force, channel partners)",
-      "B2C (online store, retail partners)",
-      "D2C (Dell.com)"
+      "B2B(직접 영업 인력, 채널 파트너)",
+      "B2C(온라인 매장, 소매 파트너)",
+      "D2C(Dell.com)"
     ],
-    "key_customers": "No significant customer concentration; serves a diverse global base of enterprises, public sector, small businesses, and individual consumers."
+    "key_customers": "고객 집중도가 높지 않습니다. 기업, 공공 부문, 중소기업, 개인 소비자 등 다양한 글로벌 기반에 서비스를 제공합니다."
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 47.4,
@@ -57,58 +57,58 @@
     "ni_cagr_3y_pct": 34.46
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "Approximately $1.2 trillion (estimate, based on sum of various IT market segments including PCs, servers, storage, networking, and IT services, as per industry reports and Dell's own market segment descriptions)",
-    "tam_cagr_pct": "5-8% (reasoning: Continued digital transformation, AI/ML adoption driving infrastructure demand, cloud repatriation, and refresh cycles for aging IT infrastructure, partially offset by PC market cyclicality)",
+    "tam_estimate_usd_b": "약 1조 2천억 달러(업계 보고서 및 Dell의 자체 시장 부문 설명에 따라 PC, 서버, 스토리지, 네트워킹 및 IT 서비스를 포함한 다양한 IT 시장 부문의 합계를 기준으로 추정)",
+    "tam_cagr_pct": "5-8%(추론: 지속적인 디지털 혁신, AI/ML 도입으로 인프라 수요 증가, 클라우드 송환, 노후화된 IT 인프라 교체 주기, PC 시장 주기로 인해 부분적으로 상쇄)",
     "growth_drivers": [
-      "Digital transformation initiatives across all industries driving demand for IT infrastructure and services.",
-      "Proliferation of AI/ML workloads requiring high-performance computing, storage, and networking solutions.",
-      "Hybrid cloud strategies leading to demand for on-premises infrastructure integrated with public cloud.",
-      "Data growth and edge computing pushing demand for distributed IT solutions.",
-      "IT refresh cycles as organizations upgrade aging hardware and software for performance and security."
+      "모든 산업 분야의 디지털 혁신 이니셔티브는 IT 인프라 및 서비스에 대한 수요를 주도합니다.",
+      "고성능 컴퓨팅, 스토리지, 네트워킹 솔루션이 필요한 AI/ML 워크로드의 확산.",
+      "퍼블릭 클라우드와 통합된 온프레미스 인프라에 대한 수요로 이어지는 하이브리드 클라우드 전략.",
+      "데이터 증가와 엣지 컴퓨팅으로 인해 분산형 IT 솔루션에 대한 수요가 늘어나고 있습니다.",
+      "조직이 성능과 보안을 위해 노후화된 하드웨어와 소프트웨어를 업그레이드함에 따라 IT 교체 주기가 달라집니다."
     ],
-    "market_share_pct": "Varies significantly by product segment: ~20-25% in PCs (IDC Q4 2023), ~15-20% in servers (IDC Q3 2023), ~10-15% in external storage (IDC Q3 2023). Overall, a leading player across core segments.",
+    "market_share_pct": "제품 부문에 따라 크게 다릅니다. PC에서 최대 20~25%(IDC 2023년 4분기), 서버에서 15~20%(IDC 2023년 3분기), 외부 스토리지에서 10~15%(IDC 2023년 3분기). 전반적으로 핵심 부문 전반에 걸쳐 선도적인 플레이어입니다.",
     "competitors": [
       {
         "name": "HP Inc.",
-        "differentiation": "Strong focus on PC and printing markets; broader consumer reach; less enterprise infrastructure focus than Dell."
+        "differentiation": "PC 및 인쇄 시장에 중점을 두고 있습니다. 더 넓은 소비자 도달 범위; Dell보다 엔터프라이즈 인프라에 덜 중점을 둡니다."
       },
       {
         "name": "Lenovo Group Ltd.",
-        "differentiation": "Global leader in PCs; strong presence in servers (especially x86); aggressive pricing strategies; significant market share in Asia."
+        "differentiation": "PC 분야의 글로벌 리더; 서버(특히 x86)에서의 강력한 존재감; 공격적인 가격 전략; 아시아에서 상당한 시장 점유율을 보이고 있습니다."
       },
       {
         "name": "HPE (Hewlett Packard Enterprise)",
-        "differentiation": "Direct competitor in servers, storage, and networking for enterprise; strong services arm; focus on hybrid cloud and edge solutions."
+        "differentiation": "기업용 서버, 스토리지, 네트워킹 분야의 직접적인 경쟁자입니다. 강력한 서비스 부문; 하이브리드 클라우드 및 엣지 솔루션에 중점을 둡니다."
       },
       {
         "name": "Cisco Systems, Inc.",
-        "differentiation": "Dominant in networking; growing presence in servers (UCS) and hyperconverged infrastructure; strong software and services portfolio."
+        "differentiation": "네트워킹 분야에서 우위를 점하고 있습니다. 서버(UCS) 및 하이퍼컨버지드 인프라에서의 존재감 증가; 강력한 소프트웨어 및 서비스 포트폴리오."
       },
       {
         "name": "NetApp, Inc.",
-        "differentiation": "Specialized in enterprise data management and storage solutions; strong focus on hybrid cloud data services."
+        "differentiation": "기업 데이터 관리 및 스토리지 솔루션 전문 기업입니다. 하이브리드 클라우드 데이터 서비스에 중점을 두고 있습니다."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low (high capital requirements, established brand loyalty, complex supply chains, and R&D investment create significant barriers)",
-      "substitutes": "medium (cloud services offer an alternative to on-premises hardware, but hybrid cloud and data gravity limit full substitution; open-source software can substitute proprietary solutions)",
-      "buyer_power": "medium-high (large enterprise and government buyers have significant negotiation power due to volume; commoditization in some segments increases price sensitivity)",
-      "supplier_power": "medium (reliance on a few key component suppliers for CPUs, memory, and other critical parts; however, Dell's scale provides some leverage)",
-      "rivalry": "high (intense competition across all segments from well-established global players; price competition, innovation cycles, and market share battles are constant)"
+      "new_entrants": "낮음(높은 자본 요건, 확고한 브랜드 충성도, 복잡한 공급망 및 R&D 투자가 상당한 장벽을 형성함)",
+      "substitutes": "중간(클라우드 서비스는 온프레미스 하드웨어에 대한 대안을 제공하지만 하이브리드 클라우드와 데이터 중력은 완전한 대체를 제한합니다. 오픈 소스 소프트웨어는 독점 솔루션을 대체할 수 있습니다)",
+      "buyer_power": "중간 높음(대기업 및 정부 구매자는 물량으로 인해 상당한 협상력을 갖고 있으며 일부 부문에서는 상품화로 인해 가격 민감도가 높아짐)",
+      "supplier_power": "중간(CPU, 메모리 및 기타 중요한 부품을 소수의 주요 구성 요소 공급업체에 의존하지만 Dell의 규모로 인해 어느 정도 영향력을 발휘할 수 있음)",
+      "rivalry": "높음(확고한 글로벌 플레이어와의 모든 부문에 걸친 치열한 경쟁, 가격 경쟁, 혁신 주기 및 시장 점유율 경쟁은 지속적임)"
     },
     "competitive_advantages": [
-      "Global direct sales model and supply chain efficiency, enabling customization and cost control.",
-      "Broad portfolio of end-to-end solutions (client, infrastructure, software, services) catering to diverse customer needs.",
-      "Strong brand recognition and established relationships with enterprise and government customers.",
-      "Significant R&D investment driving innovation in key areas like AI, hybrid cloud, and edge computing.",
-      "Scale and operational excellence providing cost advantages and global reach."
+      "글로벌 직접 판매 모델 및 공급망 효율성을 통해 맞춤화 및 비용 관리가 가능합니다.",
+      "다양한 고객 요구 사항을 충족하는 광범위한 엔드투엔드 솔루션(클라이언트, 인프라, 소프트웨어, 서비스) 포트폴리오입니다.",
+      "강력한 브랜드 인지도와 기업 및 정부 고객과의 관계 구축.",
+      "AI, 하이브리드 클라우드, 엣지 컴퓨팅과 같은 핵심 영역에서 혁신을 주도하는 상당한 R&D 투자입니다.",
+      "비용 이점과 글로벌 도달 범위를 제공하는 규모 및 운영 우수성."
     ],
     "competitive_weaknesses": [
-      "Reliance on cyclical PC market for a significant portion of revenue, leading to revenue volatility.",
-      "Intense price competition in mature hardware segments can compress margins.",
-      "Vulnerability to supply chain disruptions and component shortages.",
-      "Perception as a hardware-centric company, potentially underestimating its software and services capabilities.",
-      "Integration challenges and complexities from past acquisitions."
+      "수익의 상당 부분을 순환적인 PC 시장에 의존하여 수익 변동성을 초래합니다.",
+      "성숙한 하드웨어 부문의 치열한 가격 경쟁으로 인해 마진이 줄어들 수 있습니다.",
+      "공급망 중단 및 부품 부족에 대한 취약성.",
+      "하드웨어 중심 기업으로 인식되어 소프트웨어 및 서비스 역량을 과소평가할 가능성이 있습니다.",
+      "과거 인수로 인한 통합 문제와 복잡성."
     ]
   },
   "category_d_thesis": {
@@ -129,73 +129,76 @@
     "lynch_category": "Stalwart",
     "moat_type": "Switching Costs",
     "moat_evidence": [
-      "Dell's extensive enterprise solutions, including servers, storage, and networking, often integrate deeply into customer IT infrastructure, creating high switching costs due to the complexity and expense of migrating to alternative vendors.",
-      "The company's broad portfolio of end-to-end solutions, from client devices to data center infrastructure and cloud services, fosters customer stickiness by offering a single vendor for diverse IT needs, simplifying procurement and support.",
-      "Dell's focus on providing comprehensive services, including deployment, support, and consulting, further embeds them within client operations, making a transition to a competitor disruptive and costly."
+      "서버, 스토리지, 네트워킹을 포함한 Dell의 광범위한 엔터프라이즈 솔루션은 종종 고객 IT 인프라에 깊숙이 통합되어 대체 공급업체로 마이그레이션하는 데 드는 복잡성과 비용으로 인해 높은 전환 비용을 발생시킵니다.",
+      "클라이언트 장치부터 데이터 센터 인프라 및 클라우드 서비스에 이르기까지 회사의 광범위한 엔드투엔드 솔루션 포트폴리오는 다양한 IT 요구 사항에 맞는 단일 공급업체를 제공하고 조달 및 지원을 단순화함으로써 고객 충성도를 강화합니다.",
+      "배포, 지원, 컨설팅을 포함한 포괄적인 서비스 제공에 중점을 두고 있는 Dell은 이러한 서비스를 클라이언트 운영에 더욱 포함시켜 경쟁업체로의 전환을 방해하고 비용이 많이 들게 만듭니다."
     ],
-    "moat_durability_years": "5-10y",
-    "new_trigger": "Dell's recent strategic focus on AI-optimized infrastructure, particularly in servers and storage, positions it to capitalize on the surging demand for AI compute, driving new revenue streams and expanding its market share in a high-growth segment.",
-    "bull_case": "Dell leverages its AI server leadership and strong enterprise relationships to capture significant market share in the burgeoning AI infrastructure market. Continued PC refresh cycles and robust demand for hybrid cloud solutions drive sustained revenue growth and margin expansion, leading to EPS growth exceeding 20% annually for the next three years, supported by efficient capital allocation and share buybacks.",
-    "base_case": "Dell maintains its strong position in core markets, benefiting from a gradual recovery in PC demand and steady enterprise IT spending. AI server adoption provides a moderate uplift, contributing to mid-single-digit revenue growth. EPS growth remains solid, driven by operational efficiencies and disciplined cost management, aligning with its historical performance and market expectations.",
-    "bear_case": "A prolonged downturn in PC demand, coupled with increased competition in the AI server market, erodes Dell's market share and profitability. Macroeconomic headwinds dampen enterprise IT spending, leading to revenue contraction. Supply chain disruptions or pricing pressures further compress margins, resulting in flat to declining EPS over the next three years.",
+    "moat_durability_years": "5~10세",
+    "new_trigger": "Dell은 최근 AI 최적화 인프라, 특히 서버와 스토리지에 전략적으로 초점을 맞춰 AI 컴퓨팅에 대한 급증하는 수요를 활용하고 새로운 수익원을 창출하며 고성장 부문에서 시장 점유율을 확대할 수 있게 되었습니다.",
+    "bull_case": "Dell은 AI 서버 리더십과 강력한 기업 관계를 활용하여 급성장하는 AI 인프라 시장에서 상당한 시장 점유율을 확보하고 있습니다. 지속적인 PC 갱신 주기와 하이브리드 클라우드 솔루션에 대한 탄탄한 수요는 지속적인 매출 성장과 마진 확대를 촉진하여 효율적인 자본 배분과 자사주 매입을 통해 향후 3년 동안 연간 20%를 넘는 EPS 성장을 달성할 것입니다.",
+    "base_case": "Dell은 PC 수요의 점진적인 회복과 꾸준한 기업 IT 지출의 혜택을 누리며 핵심 시장에서 강력한 입지를 유지하고 있습니다. AI 서버 채택은 중간 정도의 향상을 제공하여 한 자릿수 중반 수익 성장에 기여합니다. EPS 성장은 운영 효율성과 엄격한 비용 관리에 힘입어 역사적 성과와 시장 기대치에 맞춰 여전히 탄탄합니다.",
+    "bear_case": "AI 서버 시장의 경쟁 심화와 PC 수요의 장기 침체는 Dell의 시장 점유율과 수익성을 약화시킵니다. 거시경제적 역풍으로 인해 기업의 IT 지출이 위축되어 매출 감소로 이어집니다. 공급망 중단 또는 가격 압박으로 인해 마진이 더욱 줄어들어 향후 3년 동안 EPS가 균일하게 감소하게 됩니다.",
     "key_metrics_to_watch": [
-      "AI Server Revenue Growth",
-      "Enterprise Solutions Order Growth",
-      "Operating Margin (OPM)",
-      "Free Cash Flow (FCF)",
-      "Client Solutions Group (CSG) Revenue"
+      "AI 서버 매출 성장",
+      "엔터프라이즈 솔루션 주문 증가",
+      "영업이익률(OPM)",
+      "잉여현금흐름(FCF)",
+      "클라이언트 솔루션 그룹(CSG) 수익"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "Competition",
-        "description": "Dell operates in highly competitive and rapidly changing technology markets, facing intense price competition and pressure on profit margins from numerous competitors, including other large technology companies and smaller specialized firms.",
+        "description": "Dell은 경쟁이 치열하고 빠르게 변화하는 기술 시장에서 사업을 운영하고 있으며, 다른 대규모 기술 기업과 소규모 전문 기업을 포함한 수많은 경쟁업체로부터 치열한 가격 경쟁과 이윤 압박에 직면하고 있습니다.",
         "severity": "high"
       },
       {
         "category": "Supply chain",
-        "description": "Dell relies on a complex global supply chain and third-party manufacturers, making it vulnerable to disruptions from geopolitical events, natural disasters, component shortages, or trade restrictions, which could impact production and delivery.",
+        "description": "Dell은 복잡한 글로벌 공급망과 타사 제조업체에 의존하므로 지정학적 사건, 자연 재해, 구성 요소 부족 또는 무역 제한으로 인한 중단에 취약하여 생산 및 배송에 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "Customer concentration",
-        "description": "A significant portion of Dell's revenue comes from large enterprise and government customers, and the loss of, or reduced spending by, a few key customers could materially impact financial performance.",
+        "description": "Dell 수익의 상당 부분은 대기업 및 정부 고객으로부터 발생하며, 일부 주요 고객의 손실 또는 지출 감소는 재무 성과에 중대한 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "Regulation",
-        "description": "Dell is subject to extensive and evolving global regulations, including data privacy, cybersecurity, environmental, and trade laws, increasing compliance costs and the risk of penalties for non-compliance.",
+        "description": "Dell은 데이터 개인 정보 보호, 사이버 보안, 환경 및 무역 법률을 포함하여 광범위하고 진화하는 글로벌 규정의 적용을 받으며, 규정 준수 비용이 증가하고 규정 위반에 대한 처벌 위험이 높아집니다.",
         "severity": "medium"
       },
       {
         "category": "Financial",
-        "description": "Dell's financial performance is sensitive to global economic conditions, interest rate fluctuations, and foreign currency exchange rates, which could negatively impact demand for its products and services, as well as its profitability.",
+        "description": "Dell의 재무 성과는 글로벌 경제 상황, 이자율 변동, 환율에 민감하며, 이는 제품 및 서비스에 대한 수요는 물론 수익성에도 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "Governance",
-        "description": "Dell's corporate structure and governance, including the influence of its founder and major shareholders, could lead to decisions that are not always aligned with the interests of all public shareholders.",
+        "description": "창립자와 주요 주주의 영향력을 포함한 Dell의 기업 구조와 거버넌스는 항상 모든 일반 주주의 이익과 일치하지 않는 결정으로 이어질 수 있습니다.",
         "severity": "low"
       },
       {
         "category": "Macro",
-        "description": "Geopolitical instability, including international conflicts and trade tensions, could disrupt Dell's operations, supply chain, and market access, leading to increased costs and reduced demand.",
+        "description": "국제 갈등과 무역 긴장을 비롯한 지정학적 불안정으로 인해 Dell의 운영, 공급망 및 시장 접근이 중단되어 비용이 증가하고 수요가 감소할 수 있습니다.",
         "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "Dell fails to innovate and loses market share to competitors in key growth areas like AI and cloud infrastructure.",
-      "A major supply chain disruption or geopolitical event cripples Dell's ability to manufacture and deliver products globally.",
-      "Dell faces a massive cybersecurity breach that erodes customer trust and results in significant financial penalties and reputational damage.",
-      "A prolonged global economic downturn severely reduces enterprise IT spending, impacting Dell's core revenue streams."
+      "Dell은 혁신에 실패하고 AI 및 클라우드 인프라와 같은 주요 성장 영역에서 경쟁업체에 시장 점유율을 잃습니다.",
+      "주요 공급망 중단 또는 지정학적 사건으로 인해 Dell이 전 세계적으로 제품을 제조하고 제공하는 능력이 저하되었습니다.",
+      "Dell은 고객의 신뢰를 무너뜨리고 상당한 금전적 처벌과 평판 훼손을 초래하는 대규모 사이버 보안 위반에 직면해 있습니다.",
+      "장기간의 글로벌 경기 침체로 인해 기업의 IT 지출이 크게 감소하여 Dell의 핵심 수익 흐름에 영향을 미치고 있습니다."
     ],
     "exit_signals": [
-      "Dell consistently reports declining market share in its core PC and server segments for several consecutive quarters.",
-      "Significant and sustained erosion of gross margins due to intense price competition that Dell cannot offset with cost efficiencies.",
-      "A major shift in enterprise IT spending away from on-premise hardware that Dell fails to adequately address with its solutions portfolio.",
-      "Key executive departures or a significant internal governance scandal that signals instability at the top."
+      "Dell은 핵심 PC 및 서버 부문에서 몇 분기 연속으로 시장 점유율이 감소하고 있다고 지속적으로 보고하고 있습니다.",
+      "Dell이 비용 효율성으로 상쇄할 수 없는 치열한 가격 경쟁으로 인해 총 마진이 심각하고 지속적으로 감소합니다.",
+      "Dell이 솔루션 포트폴리오를 통해 적절하게 해결하지 못한 기업 IT 지출이 온프레미스 하드웨어에서 벗어나는 주요 변화입니다.",
+      "주요 경영진의 이탈 또는 최고 경영진의 불안정을 알리는 중요한 내부 거버넌스 스캔들."
     ]
   },
-  "wikipedia_summary": "Dell Technologies Inc. is an American multinational technology company that has been headquartered in Round Rock, Texas, since 1994. It was formed as a result of the September 2016 merger of Dell and EMC Corporation. Dell Technologies ranked 48th on the 2024 Fortune 500 rankings of the largest United States corporations based on its 2023 revenue; its products include personal computers, servers, monitors, computer software, computer security and network security, as well as information security services."
+  "wikipedia_summary": "Dell Technologies Inc. is an American multinational technology company that has been headquartered in Round Rock, Texas, since 1994. It was formed as a result of the September 2016 merger of Dell and EMC Corporation. Dell Technologies ranked 48th on the 2024 Fortune 500 rankings of the largest United States corporations based on its 2023 revenue; its products include personal computers, servers, monitors, computer software, computer security and network security, as well as information security services.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-07T02:51:37.026069+00:00"
+  }
 }
