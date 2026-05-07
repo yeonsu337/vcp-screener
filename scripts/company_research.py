@@ -88,6 +88,15 @@ def select_qualifying(rows: list[dict], min_primary: int = PRIMARY_PASS_THRESHOL
 
 
 def is_fresh(ticker: str) -> bool:
+    """
+    Card is fresh only if both:
+      1. Generated within the last REFRESH_DAYS, AND
+      2. LLM succeeded (llm_status == "ok").
+
+    Failed states (rate-limited, network error, key missing) are NOT considered
+    fresh — they should be retried on the next run since the underlying issue
+    may have resolved (quota reset, key registered, etc).
+    """
     p = RESEARCH_DIR / f"{_safe(ticker)}.json"
     if not p.exists():
         return False
@@ -95,6 +104,8 @@ def is_fresh(ticker: str) -> bool:
         data = json.loads(p.read_text(encoding="utf-8"))
         gen = data.get("generated_at")
         if not gen:
+            return False
+        if data.get("llm_status") != "ok":
             return False
         ts = datetime.fromisoformat(gen.replace("Z", "+00:00"))
         delta_days = (datetime.now(timezone.utc) - ts).days
