@@ -45,5 +45,76 @@
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
     "GoogleWebTranslator": "2026-05-07T02:46:47.075971+00:00"
-  }
+  },
+  "analyst_reports": [
+    {
+      "source_filename": "Barclays CAT Caterpillar Q1’26 Review Strong Demand, Higher Capac.pdf",
+      "source_broker": "Barclays",
+      "source_title": "Caterpillar Q1’26 Review Strong Demand, Higher Capac",
+      "source_mtime": 1778133124.0,
+      "ingested_at": "2026-05-07T07:15:36.674464+00:00",
+      "summary": "Caterpillar의 1분기 실적 호조와 대형 엔진 생산 능력 확장 발표; 장기 EPS 잠재력 상승 및 수요 강세 지속 전망.",
+      "rating": "Equal Weight",
+      "price_target": "$800.00",
+      "prior_price_target": "$700.00",
+      "thesis": [
+        "높은 마진, 개선된 FCF, 서비스 부문 성장",
+        "광업 교체 수요가 포트폴리오의 가장 긍정적인 측면",
+        "E&T(Power and Energy) 사업 성장 및 마진 개선 기여"
+      ],
+      "catalysts": [
+        "대형 엔진 생산 능력 3배 확장 (2030년까지)",
+        "CI(건설 산업) 부문의 견고한 최종 사용자 수요 회복",
+        "RI(자원 산업) 부문의 강력한 주문 잔고 및 2H 회복 기대"
+      ],
+      "risks": [
+        "전 세계 비주거/산업 건설 경기 둔화",
+        "원자재 가격 변동성",
+        "제품 수명 연장으로 인한 교체 주기 지연",
+        "데이터 센터 전력 수요 둔화"
+      ],
+      "key_numbers": [
+        "Q1'26 CI 매출 볼륨 +28%, 가격 +7%",
+        "2030년까지 대형 왕복 엔진 생산 능력 3배 확장 (기존 2배)",
+        "FY26 매출 성장 LDD(Low Double Digit) 전망",
+        "FY26 관세 역풍 ~$2.3bn (기존 $2.6bn)"
+      ],
+      "report_date": "2026-05-01"
+    },
+    {
+      "source_filename": "Barclays CAT Caterpillar Q1'26 First Look Strong Orders, Mixed Marg.pdf",
+      "source_broker": "Barclays",
+      "source_title": "Caterpillar Q1'26 First Look Strong Orders, Mixed Marg",
+      "source_mtime": 1778133142.0,
+      "ingested_at": "2026-05-07T07:15:14.846729+00:00",
+      "summary": "Caterpillar의 1분기 실적은 강력한 수주와 혼합된 마진을 보였으며, 발전 부문 생산 능력 확장을 발표함. 매출과 EBIT는 예상치를 상회했으나, 관세 및 제조 비용으로 인해 마진은 예상보다 낮았음.",
+      "rating": "Equal Weight",
+      "price_target": "$700.00",
+      "prior_price_target": "700.00",
+      "thesis": [
+        "강력한 수주 및 수주잔고 증가",
+        "발전 부문 생산 능력 확장 (대형 엔진 2~3배)",
+        "건설 산업(CI) 가격 상승 및 딜러 재고 증가",
+        "전반적인 관세 비용 가이던스 하향 조정"
+      ],
+      "catalysts": [
+        "Q2 매출 및 마진 전년 대비 성장 예상",
+        "딜러 재고 감소 예상",
+        "관세 비용 감소 예상"
+      ],
+      "risks": [
+        "글로벌 비주거/산업 건설 경기 둔화",
+        "원자재 가격 변동성",
+        "제품 수명 연장으로 인한 교체 주기 지연",
+        "데이터 센터 전력 수요 둔화"
+      ],
+      "key_numbers": [
+        "Q1'26 조정 EPS $5.54 (예상치 $4.78, 컨센서스 $4.63 상회)",
+        "수주잔고 약 80% 증가하여 $630억 달성 (사상 최고치)",
+        "FY26 매출 가이던스 LDD 성장 (이전 ~7%)으로 상향 조정",
+        "FY26 관세 영향 $26억에서 약 $23억으로 하향 조정"
+      ],
+      "report_date": "2026-04-30"
+    }
+  ]
 }

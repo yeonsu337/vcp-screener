@@ -16,6 +16,69 @@
   "category_e_risks": {},
   "analyst_reports": [
     {
+      "source_filename": "Barclays IBKR U.S. Brokers, Asset Managers & Exchanges Brokers 1Q26 P.pdf",
+      "source_broker": "Barclays",
+      "source_title": "U.S. Brokers, Asset Managers & Exchanges Brokers 1Q26 P",
+      "source_mtime": 1778133754.0,
+      "ingested_at": "2026-05-07T07:16:38.380468+00:00",
+      "summary": "1분기 소매 활동 견조, IBKR과 SCHW에 긍정적, RJF에 신중한 전망. IBKR은 견고한 계좌 성장, SCHW는 높은 거래 활동과 NII로 EPS 상향.",
+      "rating": "Outperform",
+      "price_target": "$85.00",
+      "prior_price_target": "$83.00",
+      "thesis": [
+        "IBKR은 인상적인 성장세와 국제 고객 기반으로 계좌 성장 지속.",
+        "IBKR은 동종업체 대비 빠른 성장과 높은 마진 유지 기대.",
+        "HOOD는 수익성 및 매출 성장 개선, 신규 기능으로 플랫폼 확장.",
+        "SCHW는 거래 활동 및 NII 증가로 EPS 전망 상향."
+      ],
+      "catalysts": [
+        "IBKR의 계좌 성장률 30% 수준 유지 가능성.",
+        "SCHW의 금리 인상 전망에 따른 NIM 및 EPS 가이던스 상향 가능성.",
+        "HOOD의 고객 대상 종합 금융 서비스 제공 전략 실행."
+      ],
+      "risks": [
+        "IBKR은 국제 시장 규제 강화 및 글로벌 거시 환경 불확실성.",
+        "HOOD는 예측 시장 규제 불확실성 및 소매 거래 환경 악화.",
+        "HOOD는 PFOF(Payment for Order Flow) 수익 규제 가능성."
+      ],
+      "key_numbers": [
+        "IBKR 1Q26 EPS $0.59 (컨센서스 대비 -1%)",
+        "IBKR 1Q26 커미션 $607M (컨센서스 대비 +1%)",
+        "HOOD 1Q26 조정 EBITDA $583M (컨센서스 대비 -11%)",
+        "SCHW 1Q26 EPS $1.37 (컨센서스 대비 -1%)"
+      ],
+      "report_date": "2026-04-08"
+    },
+    {
+      "source_filename": "Barclays IBKR Interactive Brokers Group Inc. Q1 Commissions Shaping U.pdf",
+      "source_broker": "Barclays",
+      "source_title": "Interactive Brokers Group Inc. Q1 Commissions Shaping U",
+      "source_mtime": 1778133785.0,
+      "ingested_at": "2026-05-07T07:16:14.919530+00:00",
+      "summary": "Interactive Brokers Group Inc.의 1분기 수수료 수익이 시장 예상치를 상회할 것으로 전망되며, 계좌 성장세가 인상적임.",
+      "rating": "OVERWEIGHT",
+      "price_target": "$83.00",
+      "prior_price_target": "83.00",
+      "thesis": [
+        "매력적인 계좌 성장 프로필 보유",
+        "파편화된 국제 시장에서 경쟁 우위",
+        "Q1 수수료 수익 시장 예상치 상회 전망"
+      ],
+      "catalysts": [],
+      "risks": [
+        "규제 위험",
+        "주식 및 파생상품 거래 수준 및 금리 관련 거시적 위험",
+        "경쟁 위험"
+      ],
+      "key_numbers": [
+        "계좌 수 전년 대비 32% 증가",
+        "Q1 총 계좌 수 시장 예상치 2% 상회",
+        "Q1 수수료 수익 시장 예상치 약 1% 상회 전망",
+        "고객 신용 잔액 Q1 평균 시장 예상치 약 6% 상회"
+      ],
+      "report_date": "2026-04-01"
+    },
+    {
       "source_filename": "Barclays IBKR Interactive Brokers Group Inc. 1Q26 Review EPS In Line.pdf",
       "source_broker": "Barclays",
       "source_title": "Interactive Brokers Group Inc. 1Q26 Review EPS In Line",

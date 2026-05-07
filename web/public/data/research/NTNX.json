@@ -1,0 +1,51 @@
+{
+  "ticker": "NTNX",
+  "company": "",
+  "market": "US",
+  "sector": "",
+  "industry": "",
+  "generated_at": "2026-05-07T07:17:34.980309+00:00",
+  "primary_passed": 0,
+  "primary_total": 14,
+  "llm_status": "report-only",
+  "yf_metadata": {},
+  "category_a_business": {},
+  "category_b_financials": {},
+  "category_c_market": {},
+  "category_d_thesis": {},
+  "category_e_risks": {},
+  "analyst_reports": [
+    {
+      "source_filename": "Barclays NTNX IT Hardware & Communications Equipment 2026 Hardware Ye.pdf",
+      "source_broker": "Barclays",
+      "source_title": "IT Hardware & Communications Equipment 2026 Hardware Ye",
+      "source_mtime": 1778132626.0,
+      "ingested_at": "2026-05-07T07:17:34.980054+00:00",
+      "summary": "DELL은 AI 서버 주도하에 성장할 것",
+      "rating": "Overweight",
+      "price_target": "$148.00",
+      "prior_price_target": "$148.00",
+      "thesis": [
+        "AI 서버 수요 증가",
+        "엔터프라이즈 서버 및 스토리지 시장 회복",
+        "DELL의 운영 비용 관리 능력"
+      ],
+      "catalysts": [
+        "AI 서버 수주 증가",
+        "엔터프라이즈 서버 및 스토리지 시장 성장",
+        "DELL의 운영 비용 관리 능력"
+      ],
+      "risks": [
+        "AI 서버 수요 감소",
+        "엔터프라이즈 서버 및 스토리지 시장 둔화",
+        "DELL의 운영 비용 관리 능력 저하"
+      ],
+      "key_numbers": [
+        "2026년 AI 서버 수주 증가",
+        "2026년 엔터프라이즈 서버 및 스토리지 시장 성장",
+        "2026년 DELL의 운영 이익 증가"
+      ],
+      "report_date": "2026-01-15"
+    }
+  ]
+}

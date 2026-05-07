@@ -1,0 +1,53 @@
+{
+  "ticker": "AMZN",
+  "company": "",
+  "market": "US",
+  "sector": "",
+  "industry": "",
+  "generated_at": "2026-05-07T07:21:27.010041+00:00",
+  "primary_passed": 0,
+  "primary_total": 14,
+  "llm_status": "report-only",
+  "yf_metadata": {},
+  "category_a_business": {},
+  "category_b_financials": {},
+  "category_c_market": {},
+  "category_d_thesis": {},
+  "category_e_risks": {},
+  "analyst_reports": [
+    {
+      "source_filename": "Mizuho Securities AMZN 1Q26 Ecommerce Preview Increasing AMZN Ests and PT to $.pdf",
+      "source_broker": "Mizuho Securities",
+      "source_title": "1Q26 Ecommerce Preview Increasing AMZN Ests and PT to $",
+      "source_mtime": 1778133014.0,
+      "ingested_at": "2026-05-07T07:21:27.009697+00:00",
+      "summary": [
+        "AWS 성장 가속화",
+        "Amazon 리테일 성장"
+      ],
+      "rating": "Outperform",
+      "price_target": "$325",
+      "prior_price_target": "$315",
+      "thesis": [
+        "AWS 수익성 개선",
+        "Amazon 리테일 시장 점유율 확대",
+        "클라우드 컴퓨팅 수요 증가"
+      ],
+      "catalysts": [
+        "AWS Trainium 칩 수요 증가",
+        "Anthropic 파트너십",
+        "OpenAI 파트너십"
+      ],
+      "risks": [
+        "클라우드 컴퓨팅 시장 경쟁",
+        "규제 심사",
+        "글로벌 시장 확장"
+      ],
+      "key_numbers": [
+        "1Q26 AWS 수익 27% 증가",
+        "2027년 AWS 수익 203B 달러 예상"
+      ],
+      "report_date": "2026-04-28"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "KEYS",
+  "company": "",
+  "market": "US",
+  "sector": "",
+  "industry": "",
+  "generated_at": "2026-05-07T07:22:30.798418+00:00",
+  "primary_passed": 0,
+  "primary_total": 14,
+  "llm_status": "report-only",
+  "yf_metadata": {},
+  "category_a_business": {},
+  "category_b_financials": {},
+  "category_c_market": {},
+  "category_d_thesis": {},
+  "category_e_risks": {},
+  "analyst_reports": [
+    {
+      "source_filename": "UBS KEYS Keysight Technologies Inc AI Momentum Accelerating as D.pdf",
+      "source_broker": "UBS",
+      "source_title": "Keysight Technologies Inc AI Momentum Accelerating as D",
+      "source_mtime": 1778133658.0,
+      "ingested_at": "2026-05-07T07:22:30.797825+00:00",
+      "summary": "키사이트 기술의 AI 수요가 가속화",
+      "rating": "Buy",
+      "price_target": "$340.00",
+      "prior_price_target": "$230.00",
+      "thesis": [
+        "키사이트의 AI 수요 가속화",
+        "방위 및 전자 시스템 그룹의 실적",
+        "수익 성장 및 매수 가능성"
+      ],
+      "catalysts": [
+        "AI 투자 지출의 지속적인 증가",
+        "최근 인수의 성과"
+      ],
+      "risks": [
+        "AI 투자 지출의 잠재적인 감소",
+        "인수 통합의 어려움",
+        "경쟁의 증가"
+      ],
+      "key_numbers": [
+        "1Q 매출 23% 증가",
+        "2Q 매출 예측 30% 증가"
+      ],
+      "report_date": "2026-02-23"
+    }
+  ]
+}

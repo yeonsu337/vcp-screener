@@ -120,5 +120,70 @@
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "analyst_reports": [
+    {
+      "source_filename": "Deutsche Bank GEV Multi-Industry and Electrical Equipment 1Q26 Earnings H.pdf",
+      "source_broker": "Deutsche Bank",
+      "source_title": "Multi-Industry and Electrical Equipment 1Q26 Earnings H",
+      "source_mtime": 1778133372.0,
+      "ingested_at": "2026-05-07T07:18:27.984756+00:00",
+      "summary": "1Q26 실적 호조, 주문 증가",
+      "rating": "N/A",
+      "price_target": "N/A",
+      "prior_price_target": "",
+      "thesis": [
+        "주문 증가",
+        "실적 호조",
+        "엔드 마켓 트렌드 혼조"
+      ],
+      "catalysts": [
+        "주문 증가",
+        "실적 개선"
+      ],
+      "risks": [
+        "경기 불확실성",
+        "원자재 가격 상승"
+      ],
+      "key_numbers": [
+        "1Q26 중간 실적",
+        "주문 증가율"
+      ],
+      "report_date": "2026-04-26"
+    },
+    {
+      "source_filename": "Barclays GEV GE Vernova Inc Taking hold of the Electrification share.pdf",
+      "source_broker": "Barclays",
+      "source_title": "GE Vernova Inc Taking hold of the Electrification share",
+      "source_mtime": 1778133329.0,
+      "ingested_at": "2026-05-07T07:15:56.901636+00:00",
+      "summary": "GE Vernova는 전력화 시장 점유율 확대 기회를 포착 중. 1분기 실적 호조로 추정치 및 목표주가 상향.",
+      "rating": "OVERWEIGHT",
+      "price_target": "$1250.00",
+      "prior_price_target": "$993.00",
+      "thesis": [
+        "전력화 부문에서 매력적인 시장 점유율 확대 기회",
+        "Prolec 인수 및 전력 생산 능력 확대로 빠른 계획 실행",
+        "데이터센터 고객으로부터 전력화 주문 급증",
+        "광범위한 제품 포트폴리오와 번들링 능력",
+        "경쟁사 대비 발전된 소프트웨어 제공"
+      ],
+      "catalysts": [
+        "전력화 부문의 상당한 성장",
+        "고객 선지급금으로 인한 2026년 FCF 가이드 상향 가능성",
+        "데이터센터 내부 아키텍처 진화 및 신제품 출시"
+      ],
+      "risks": [
+        "풍력 부문 마진 지속적인 어려움",
+        "'모든 것의 전력화' 투자 둔화"
+      ],
+      "key_numbers": [
+        "Q1 전력화 주문 24억 달러 (2025년 전체 주문 초과)",
+        "2030년 전력화 TAM 3,000억 달러 (현재 연간 매출 140억~145억 달러)",
+        "2026년 EPS 추정치 $15.53 (기존 $14.69에서 상향)",
+        "2026년 전력화 부문 유기적 매출 성장률 +22% 예상"
+      ],
+      "report_date": "2026-04-22"
+    }
+  ]
 }
