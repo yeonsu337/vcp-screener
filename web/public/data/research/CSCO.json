@@ -1,0 +1,124 @@
+{
+  "ticker": "CSCO",
+  "company": "Cisco Systems, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "generated_at": "2026-05-07T06:40:24.631149+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 361968205824,
+    "shares_outstanding": 3949893042,
+    "employees": 86200,
+    "country": "United States",
+    "website": "https://www.cisco.com",
+    "beta": 0.912
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.24,
+    "roa": 0.07,
+    "profit_margin": 0.19,
+    "operating_margin": 0.25,
+    "gross_margin": 0.65,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 0.31,
+    "dividend_yield": 1.83,
+    "payout_ratio": 0.59,
+    "annual_revenue": [
+      56654000000.0,
+      53803000000.0,
+      56998000000.0,
+      51557000000.0
+    ],
+    "annual_operating_income": [
+      12504000000.0,
+      12970000000.0,
+      15562000000.0,
+      13975000000.0
+    ],
+    "annual_eps": [
+      2.61,
+      2.54,
+      3.07,
+      2.82
+    ],
+    "annual_free_cf": [
+      13288000000.0,
+      10210000000.0,
+      19037000000.0,
+      12749000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      28093000000.0,
+      30973000000.0,
+      8391000000.0,
+      9515000000.0,
+      null
+    ],
+    "annual_equity": [
+      46843000000.0,
+      45457000000.0,
+      44353000000.0,
+      39773000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-07-31",
+      "2024-07-31",
+      "2023-07-31",
+      "2022-07-31"
+    ],
+    "quarterly_eps": [
+      0.8,
+      0.72,
+      0.71,
+      0.62,
+      0.61,
+      null
+    ],
+    "quarterly_revenue": [
+      15349000000.0,
+      14883000000.0,
+      14673000000.0,
+      14149000000.0,
+      13991000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31",
+      "2024-10-31"
+    ],
+    "eps_qoq_yoy_pct": 30.8,
+    "sales_yoy_pct": 9.7,
+    "ni_cagr_3y_pct": -4.84,
+    "roe_pct": 23.75
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 72,
+    "score": 65.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.4579,
+    "trailing_pe": 32.964027,
+    "forward_pe": 20.311543,
+    "ev_to_ebitda": 23.199,
+    "price_to_sales": 6.1294446,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 13.24,
+    "outperform_6m_vs_nasdaq": 16.01,
+    "outperform_1m_vs_nasdaq": -3.77,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion."
+}

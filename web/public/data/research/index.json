@@ -40,6 +40,16 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "APG",
+    "company": "APi Group Corporation",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:46:36.858905+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "ARWR",
     "company": "Arrowhead Pharmaceuticals, Inc.",
     "market": "US",
@@ -66,8 +76,18 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:02:21.754135+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:34:44.690301+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "CASY",
+    "company": "Casey's General Stores, Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:37:49.968244+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "CAT",
@@ -80,14 +100,34 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "CECO",
+    "company": "CECO Environmental Corp.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:38:21.407753+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "COCO",
+    "company": "The Vita Coco Company, Inc.",
+    "market": "US",
+    "sector": "Consumer Defensive",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:34:13.949276+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "CRS",
     "company": "Carpenter Technology Corporation",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-07T02:32:36.919472+00:00",
-    "llm_status": "desk-research (no LLM): GEMINI_API_KEY not set"
+    "generated_at": "2026-05-07T06:32:10.514290+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "CRUS",
@@ -96,8 +136,18 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:22:24.281465+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:44:01.828023+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "CSCO",
+    "company": "Cisco Systems, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:40:24.631149+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "CSX",
@@ -106,8 +156,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:30:27.263852+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:47:07.804812+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "DELL",
@@ -126,7 +176,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-07T05:04:20.698410+00:00",
+    "generated_at": "2026-05-07T06:30:37.173106+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
@@ -140,14 +190,24 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "EZPW",
+    "company": "EZCORP, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:31:08.679594+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "FIVE",
     "company": "Five Below, Inc.",
     "market": "US",
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:04:04.616033+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:35:15.727802+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "FTI",
@@ -156,8 +216,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:00:28.502920+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:41:27.258171+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "GEV",
@@ -166,8 +226,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T00:53:09.035898+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:32:41.409969+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "GVA",
@@ -176,8 +236,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:13:46.011219+00:00",
-    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=[REDACTED] (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+    "generated_at": "2026-05-07T06:38:52.187299+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "HASI",
@@ -196,7 +256,27 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-07T05:04:52.054727+00:00",
+    "generated_at": "2026-05-07T06:41:58.185149+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "ILMN",
+    "company": "Illumina, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:48:09.445965+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "IRDM",
+    "company": "Iridium Communications Inc.",
+    "market": "US",
+    "sector": "Communication Services",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:45:03.494955+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
@@ -210,24 +290,34 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "KLAC",
+    "company": "KLA Corporation",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:44:32.674908+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "LITE",
     "company": "Lumentum Holdings Inc.",
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:07:06.533507+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:42:29.325218+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "MLI",
     "company": "Mueller Industries, Inc.",
     "market": "US",
     "sector": "Industrials",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 14,
-    "generated_at": "2026-05-06T00:55:50.075154+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:30:05.319219+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "MPWR",
@@ -236,17 +326,27 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T00:58:52.617093+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:33:43.011185+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "MTZ",
-    "company": "Mastec Inc",
+    "company": "MasTec, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-07T05:03:49.349076+00:00",
+    "generated_at": "2026-05-07T06:29:02.708259+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "NVDA",
+    "company": "NVIDIA Corporation",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 13,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:35:46.459062+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
@@ -254,10 +354,10 @@
     "company": "Nextpower Inc.",
     "market": "US",
     "sector": "Technology",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:23:59.801224+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:40:56.331352+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "OII",
@@ -266,8 +366,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:28:52.811940+00:00",
-    "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=[REDACTED] (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))"
+    "generated_at": "2026-05-07T06:45:34.558896+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "OUT",
@@ -276,8 +376,8 @@
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:11:54.540706+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:37:19.070792+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "ROST",
@@ -286,8 +386,8 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:16:40.757602+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:39:53.814829+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "RPRX",
@@ -296,8 +396,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:05:39.414617+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:36:17.520599+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "SKYT",
@@ -306,8 +406,38 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:27:14.659103+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:43:00.065086+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "SNDK",
+    "company": "Sandisk Corporation",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:36:48.316726+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "STX",
+    "company": "Seagate Technology Holdings plc",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:29:33.701741+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "TER",
+    "company": "Teradyne, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:33:12.266246+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "UTHR",
@@ -316,8 +446,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:18:09.514288+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:43:30.873110+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "VICR",
@@ -326,8 +456,8 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 14,
-    "generated_at": "2026-05-06T00:50:42.979967+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:31:39.657642+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "WFRD",
@@ -336,8 +466,8 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 14,
-    "generated_at": "2026-05-06T01:20:59.646385+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "generated_at": "2026-05-07T06:39:23.035129+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "WT",
@@ -350,13 +480,23 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "WWD",
+    "company": "Woodward, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T06:46:05.448421+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "XPO",
     "company": "XPO, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 14,
-    "generated_at": "2026-05-07T05:05:23.176456+00:00",
+    "generated_at": "2026-05-07T06:47:38.635122+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {

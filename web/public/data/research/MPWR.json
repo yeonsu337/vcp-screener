@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-06T00:58:52.617093+00:00",
+  "generated_at": "2026-05-07T06:33:43.011185+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 78024335360,
+    "market_cap": 81179951104,
     "shares_outstanding": 49130000,
     "employees": 4501,
     "country": "United States",
@@ -18,7 +18,86 @@
   },
   "category_a_business": {},
   "category_b_financials": {
-    "eps_qoq_yoy_pct": 44.4,
+    "roe": 0.2,
+    "roa": 0.12,
+    "profit_margin": 0.23,
+    "operating_margin": 0.3,
+    "gross_margin": 0.55,
+    "revenue_growth_ttm": 0.26,
+    "earnings_growth_ttm": 0.4,
+    "dividend_yield": 0.48,
+    "payout_ratio": 0.48,
+    "annual_revenue": [
+      2790459000.0,
+      2207100000.0,
+      1821072000.0,
+      1794148000.0,
+      null
+    ],
+    "annual_operating_income": [
+      728636000.0,
+      539358000.0,
+      481736000.0,
+      526785000.0,
+      null
+    ],
+    "annual_eps": [
+      12.75,
+      36.59,
+      8.76,
+      9.05,
+      null
+    ],
+    "annual_free_cf": [
+      663261000.0,
+      624117000.0,
+      580635000.0,
+      187831000.0,
+      null
+    ],
+    "annual_total_debt": [
+      19972000.0,
+      12974000.0,
+      5565000.0,
+      1664000.0,
+      null
+    ],
+    "annual_equity": [
+      3531497000.0,
+      2951125000.0,
+      2049939000.0,
+      1668602000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      3.92,
+      3.46,
+      3.71,
+      2.78,
+      2.79
+    ],
+    "quarterly_revenue": [
+      804185000.0,
+      751155000.0,
+      737176000.0,
+      664574000.0,
+      637554000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 43.1,
     "sales_yoy_pct": 26.1,
     "ni_cagr_3y_pct": 12.4,
     "roe_pct": 19.57
@@ -26,24 +105,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 69.4,
+    "score": 72.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.5608,
-    "trailing_pe": 113.43714,
-    "forward_pe": 52.65849,
-    "ev_to_ebitda": 89.692,
-    "price_to_sales": 26.385511,
+    "trailing_pe": 117.68874,
+    "forward_pe": 54.78821,
+    "ev_to_ebitda": 93.132,
+    "price_to_sales": 27.452648,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 110.38,
-    "outperform_6m_vs_nasdaq": 51.86,
-    "outperform_1m_vs_nasdaq": 19.45,
+    "outperform_1y_vs_nasdaq": 120.56,
+    "outperform_6m_vs_nasdaq": 56.79,
+    "outperform_1m_vs_nasdaq": 21.36,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.188809+00:00"
-  }
+  "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide."
 }

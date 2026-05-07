@@ -1,0 +1,131 @@
+{
+  "ticker": "TER",
+  "company": "Teradyne, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "generated_at": "2026-05-07T06:33:12.266246+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 59874246656,
+    "shares_outstanding": 156542162,
+    "employees": 6600,
+    "country": "United States",
+    "website": "https://www.teradyne.com",
+    "beta": 1.793
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.29,
+    "roa": 0.16,
+    "profit_margin": 0.23,
+    "operating_margin": 0.38,
+    "gross_margin": 0.59,
+    "revenue_growth_ttm": 0.87,
+    "earnings_growth_ttm": 3.15,
+    "dividend_yield": 0.14,
+    "payout_ratio": 0.09,
+    "annual_revenue": [
+      3190024000.0,
+      2819880000.0,
+      2676298000.0,
+      3155045000.0,
+      null
+    ],
+    "annual_operating_income": [
+      688605000.0,
+      552240000.0,
+      522345000.0,
+      849124000.0,
+      null
+    ],
+    "annual_eps": [
+      3.47,
+      3.32,
+      2.73,
+      4.22,
+      null
+    ],
+    "annual_free_cf": [
+      450406000.0,
+      474081000.0,
+      425589000.0,
+      414674000.0,
+      null
+    ],
+    "annual_total_debt": [
+      283239000.0,
+      76621000.0,
+      82614000.0,
+      132885000.0,
+      null
+    ],
+    "annual_equity": [
+      2795752000.0,
+      2819294000.0,
+      2525897000.0,
+      2451294000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.53,
+      1.63,
+      0.75,
+      0.49,
+      0.61,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      1282494000.0,
+      1083337000.0,
+      769210000.0,
+      651797000.0,
+      685680000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 303.4,
+    "sales_yoy_pct": 87.0,
+    "ni_cagr_3y_pct": -8.17,
+    "roe_pct": 28.75
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 95,
+    "score": 64.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.3351,
+    "trailing_pe": 70.961044,
+    "forward_pe": 40.205105,
+    "ev_to_ebitda": 51.41,
+    "price_to_sales": 15.811146,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 364.08,
+    "outperform_6m_vs_nasdaq": 100.76,
+    "outperform_1m_vs_nasdaq": 1.99,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm, Intel, Analog Devices, Texas Instruments and IBM."
+}

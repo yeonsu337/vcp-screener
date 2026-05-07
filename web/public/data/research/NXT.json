@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Solar",
-  "generated_at": "2026-05-06T01:23:59.801224+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-05-07T06:40:56.331352+00:00",
+  "primary_passed": 13,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 18548445184,
+    "market_cap": 18960500736,
     "shares_outstanding": 148475843,
     "employees": 1300,
     "country": "United States",
@@ -18,6 +18,81 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.33,
+    "roa": 0.14,
+    "profit_margin": 0.16,
+    "operating_margin": 0.19,
+    "gross_margin": 0.32,
+    "revenue_growth_ttm": 0.34,
+    "earnings_growth_ttm": 0.08,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      2959197000.0,
+      2499841000.0,
+      1902137000.0,
+      1457592000.0
+    ],
+    "annual_operating_income": [
+      639112000.0,
+      587118000.0,
+      168485000.0,
+      65907000.0
+    ],
+    "annual_eps": [
+      3.47,
+      3.37,
+      0.02,
+      0.0
+    ],
+    "annual_free_cf": [
+      621873000.0,
+      422313000.0,
+      104486000.0,
+      -153030000.0
+    ],
+    "annual_total_debt": [
+      null,
+      147717000.0,
+      147147000.0,
+      null
+    ],
+    "annual_equity": [
+      1628130000.0,
+      961013000.0,
+      -3075767000.0,
+      -3035000.0
+    ],
+    "annual_periods": [
+      "2025-03-31",
+      "2024-03-31",
+      "2023-03-31",
+      "2022-03-31"
+    ],
+    "quarterly_eps": [
+      0.85,
+      0.97,
+      1.04,
+      1.05,
+      0.79,
+      null
+    ],
+    "quarterly_revenue": [
+      909352000.0,
+      905268000.0,
+      864253000.0,
+      924342000.0,
+      679363000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 13.8,
     "sales_yoy_pct": 33.9,
     "ni_cagr_3y_pct": 115.45,
@@ -25,25 +100,22 @@
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 64.3,
+    "rs_rating": 88,
+    "score": 65.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.1095,
-    "trailing_pe": 31.464285,
-    "forward_pe": 25.744318,
-    "ev_to_ebitda": 22.751,
-    "price_to_sales": 5.1477485,
+    "trailing_pe": 32.163265,
+    "forward_pe": 26.31623,
+    "ev_to_ebitda": 23.282,
+    "price_to_sales": 5.2621064,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 151.4,
-    "outperform_6m_vs_nasdaq": 15.1,
-    "outperform_1m_vs_nasdaq": -1.0,
+    "outperform_1y_vs_nasdaq": 161.81,
+    "outperform_6m_vs_nasdaq": 15.81,
+    "outperform_1m_vs_nasdaq": -1.88,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.203378+00:00"
-  }
+  "wikipedia_summary": ""
 }

@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-07T05:04:52.054727+00:00",
+  "generated_at": "2026-05-07T06:41:58.185149+00:00",
   "primary_passed": 12,
   "primary_total": 14,
   "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
@@ -18,6 +18,88 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.3,
+    "roa": 0.12,
+    "profit_margin": 0.18,
+    "operating_margin": 0.26,
+    "gross_margin": 0.34,
+    "revenue_growth_ttm": 0.15,
+    "earnings_growth_ttm": 0.2,
+    "dividend_yield": 0.19,
+    "payout_ratio": 0.12,
+    "annual_revenue": [
+      8252000000.0,
+      7430000000.0,
+      6640000000.0,
+      5663000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      2115000000.0,
+      1639000000.0,
+      1216000000.0,
+      983000000.0,
+      null
+    ],
+    "annual_eps": [
+      3.71,
+      2.81,
+      1.83,
+      1.11,
+      null
+    ],
+    "annual_free_cf": [
+      1431000000.0,
+      977000000.0,
+      682000000.0,
+      540000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3213000000.0,
+      3471000000.0,
+      3835000000.0,
+      4277000000.0,
+      null
+    ],
+    "annual_equity": [
+      5353000000.0,
+      4554000000.0,
+      4037000000.0,
+      3601000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.92,
+      0.95,
+      1.0,
+      0.84,
+      0.77,
+      null
+    ],
+    "quarterly_revenue": [
+      2168000000.0,
+      2089000000.0,
+      2053000000.0,
+      1942000000.0,
+      1891000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 18.5,
     "sales_yoy_pct": 14.6,
     "ni_cagr_3y_pct": 47.6,

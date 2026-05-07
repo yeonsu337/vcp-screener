@@ -4,46 +4,125 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-05-06T01:18:09.514288+00:00",
+  "generated_at": "2026-05-07T06:43:30.873110+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 24282585088,
-    "shares_outstanding": 42437233,
+    "market_cap": 25330511872,
+    "shares_outstanding": 42446733,
     "employees": 1400,
     "country": "United States",
     "website": "https://www.unither.com",
-    "beta": 0.595
+    "beta": null
   },
   "category_a_business": {},
   "category_b_financials": {
-    "eps_qoq_yoy_pct": 20.9,
-    "sales_yoy_pct": 7.4,
+    "roe": 0.2,
+    "roa": 0.13,
+    "profit_margin": 0.41,
+    "operating_margin": 0.42,
+    "gross_margin": 0.87,
+    "revenue_growth_ttm": -0.02,
+    "earnings_growth_ttm": -0.12,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      3182700000.0,
+      2877400000.0,
+      2327500000.0,
+      1936300000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1517200000.0,
+      1448100000.0,
+      1184900000.0,
+      979700000.0,
+      null
+    ],
+    "annual_eps": [
+      27.86,
+      24.64,
+      19.81,
+      15.0,
+      null
+    ],
+    "annual_free_cf": [
+      1035200000.0,
+      1080600000.0,
+      747600000.0,
+      663700000.0,
+      null
+    ],
+    "annual_total_debt": [
+      null,
+      300000000.0,
+      700000000.0,
+      800000000.0,
+      800000000.0
+    ],
+    "annual_equity": [
+      7096200000.0,
+      6444000000.0,
+      5984800000.0,
+      4796700000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      7.7,
+      7.16,
+      6.41,
+      6.63,
+      6.19,
+      null
+    ],
+    "quarterly_revenue": [
+      790200000.0,
+      799500000.0,
+      798600000.0,
+      794400000.0,
+      735900000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": -14.7,
+    "sales_yoy_pct": -1.6,
     "ni_cagr_3y_pct": 22.43,
-    "roe_pct": 19.71
+    "roe_pct": 20.26
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 64.5,
+    "rs_rating": 83,
+    "score": 66.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.3178,
-    "trailing_pe": 20.538406,
-    "forward_pe": 16.806343,
-    "ev_to_ebitda": 13.849,
-    "price_to_sales": 7.629555,
+    "trailing_pe": 22.053215,
+    "forward_pe": 17.388113,
+    "ev_to_ebitda": 14.967,
+    "price_to_sales": 7.991202,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 53.35,
-    "outperform_6m_vs_nasdaq": 21.71,
-    "outperform_1m_vs_nasdaq": -12.9,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 54.98,
+    "outperform_6m_vs_nasdaq": 27.63,
+    "outperform_1m_vs_nasdaq": -11.86,
+    "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "United Therapeutics Corporation is an American biotechnology company that develops pharmaceuticals and technologies related to organ transplantation, including xenotransplantation. Many of the company's products are focused towards lung disease and organ manufacturing. United Therapeutics is co-headquartered in Silver Spring, Maryland and Research Triangle Park, North Carolina, with additional facilities in Magog and Bromont, Quebec; Melbourne and Jacksonville, Florida; Blacksburg, Virginia; and Manchester, New Hampshire.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:52:20.236182+00:00"
-  }
+  "wikipedia_summary": "United Therapeutics Corporation is an American biotechnology company that develops pharmaceuticals and technologies related to organ transplantation, including xenotransplantation. Many of the company's products are focused towards lung disease and organ manufacturing. United Therapeutics is co-headquartered in Silver Spring, Maryland and Research Triangle Park, North Carolina, with additional facilities in Magog and Bromont, Quebec; Melbourne and Jacksonville, Florida; Blacksburg, Virginia; and Manchester, New Hampshire."
 }

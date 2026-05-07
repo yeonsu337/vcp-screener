@@ -1,0 +1,110 @@
+{
+  "ticker": "SNDK",
+  "company": "Sandisk Corporation",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "generated_at": "2026-05-07T06:36:48.316726+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 208803594240,
+    "shares_outstanding": 148089758,
+    "employees": 11000,
+    "country": "United States",
+    "website": "https://www.sandisk.com",
+    "beta": null
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.39,
+    "roa": 0.23,
+    "profit_margin": 0.34,
+    "operating_margin": 0.7,
+    "gross_margin": 0.56,
+    "revenue_growth_ttm": 2.51,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      7355000000.0,
+      6663000000.0,
+      6086000000.0
+    ],
+    "annual_operating_income": [
+      507000000.0,
+      -444000000.0,
+      -1295000000.0
+    ],
+    "annual_eps": [
+      -11.32,
+      -4.63,
+      -14.78
+    ],
+    "annual_free_cf": [
+      -120000000.0,
+      -475000000.0,
+      -932000000.0
+    ],
+    "annual_total_debt": [
+      2042000000.0,
+      985000000.0
+    ],
+    "annual_equity": [
+      9216000000.0,
+      11082000000.0
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30"
+    ],
+    "quarterly_eps": [
+      23.03,
+      5.15,
+      0.75,
+      -0.16,
+      -13.33,
+      null
+    ],
+    "quarterly_revenue": [
+      5950000000.0,
+      3025000000.0,
+      2308000000.0,
+      1901000000.0,
+      1695000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "sales_yoy_pct": 251.0,
+    "roe_pct": 39.3
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 99,
+    "score": 74.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 48.204445,
+    "forward_pe": 8.392683,
+    "ev_to_ebitda": 36.448,
+    "price_to_sales": 15.837651,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 3929.11,
+    "outperform_6m_vs_nasdaq": 572.71,
+    "outperform_1m_vs_nasdaq": 81.01,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California."
+}

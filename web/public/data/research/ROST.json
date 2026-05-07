@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-05-06T01:16:40.757602+00:00",
+  "generated_at": "2026-05-07T06:39:53.814829+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 73557843968,
+    "market_cap": 74039779328,
     "shares_outstanding": 322148148,
     "employees": 111000,
     "country": "United States",
@@ -18,6 +18,81 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.37,
+    "roa": 0.11,
+    "profit_margin": 0.09,
+    "operating_margin": 0.12,
+    "gross_margin": 0.33,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.12,
+    "dividend_yield": 0.78,
+    "payout_ratio": 0.25,
+    "annual_revenue": [
+      22750559000.0,
+      21129219000.0,
+      20376941000.0,
+      18695829000.0
+    ],
+    "annual_operating_income": [
+      2707357000.0,
+      2585586000.0,
+      2307663000.0,
+      1990331000.0
+    ],
+    "annual_eps": [
+      6.61,
+      6.32,
+      5.56,
+      4.38
+    ],
+    "annual_free_cf": [
+      2207608000.0,
+      1636884000.0,
+      1751678000.0,
+      1035303000.0,
+      null
+    ],
+    "annual_total_debt": [
+      5212338000.0,
+      5682429000.0,
+      5747704000.0,
+      5706447000.0,
+      null
+    ],
+    "annual_equity": [
+      6187443000.0,
+      5509195000.0,
+      4871326000.0,
+      4288583000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-01-31",
+      "2025-01-31",
+      "2024-01-31",
+      "2023-01-31"
+    ],
+    "quarterly_eps": [
+      2.0,
+      1.58,
+      1.56,
+      1.47,
+      1.79
+    ],
+    "quarterly_revenue": [
+      6635490000.0,
+      5600946000.0,
+      5529152000.0,
+      4984971000.0,
+      5912279000.0
+    ],
+    "quarterly_periods": [
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31"
+    ],
     "eps_qoq_yoy_pct": 10.1,
     "sales_yoy_pct": 12.2,
     "ni_cagr_3y_pct": 12.36,
@@ -30,20 +105,17 @@
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 3.2884,
-    "trailing_pe": 34.457577,
-    "forward_pe": 27.97979,
-    "ev_to_ebitda": 22.982,
-    "price_to_sales": 3.2332325,
+    "peg_ratio": 3.3088,
+    "trailing_pe": 34.630863,
+    "forward_pe": 28.163107,
+    "ev_to_ebitda": 23.132,
+    "price_to_sales": 3.254416,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 22.62,
-    "outperform_6m_vs_nasdaq": 36.99,
-    "outperform_1m_vs_nasdaq": -12.33,
+    "outperform_1y_vs_nasdaq": 18.62,
+    "outperform_6m_vs_nasdaq": 34.22,
+    "outperform_1m_vs_nasdaq": -11.54,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.244769+00:00"
-  }
+  "wikipedia_summary": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states."
 }

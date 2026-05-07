@@ -4,50 +4,102 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-05-06T00:50:42.979967+00:00",
+  "generated_at": "2026-05-07T06:31:39.657642+00:00",
   "primary_passed": 13,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 12124882944,
+    "market_cap": 12778292224,
     "shares_outstanding": 33863689,
     "employees": 1092,
     "country": "United States",
     "website": "https://www.vicorpower.com",
     "beta": 2.341
   },
-  "category_a_business": {
-    "overview": "Vicor Corporation은 전력 변환을 위한 모듈형 전력 구성 요소 및 시스템을 설계, 개발, 제조 및 판매합니다. 전 세계적으로 다양한 산업에 서비스를 제공하는 Vicor의 제품은 독점 기술과 지속적인 혁신을 활용하여 항공우주에서 통신에 이르기까지 전기 구동 장치에서 효율적인 전력 공급을 가능하게 합니다.",
-    "milestones": [
-      "1981: 매사추세츠 주 앤도버에 회사 설립",
-      "초기 초점: 모듈식 전력 부품 개발",
-      "진행 중: 제품 디자인 및 성능의 지속적인 혁신",
-      "진행 중: 첨단 기술 및 프로세스의 연구 및 개발",
-      "진행중: '첨단제품', '브릭제품'으로 제품 제공 확대"
-    ],
-    "business_model": "Vicor는 모듈형 전력 구성 요소와 맞춤형 전력 시스템을 설계, 제조 및 판매하여 수익을 창출합니다. 또한 독점 전력 변환 기술에 대한 라이센스 계약을 통해 로열티 수익을 얻습니다.",
-    "revenue_streams": [
-      "모듈형 전력부품 판매(브릭제품)",
-      "첨단전력제품 판매(Advanced Products)",
-      "맞춤형 전력 시스템 솔루션 판매",
-      "라이선스 계약 및 로열티 수익",
-      "전기 및 기계 액세서리 판매"
-    ],
-    "value_chain_position": "Midstream + Vicor는 OEM을 통해 대형 전자 장치에 통합되는 특수 전력 변환 모듈 및 시스템을 제조합니다.",
-    "products": [
-      "브릭 형식 DC-DC 컨버터",
-      "고급 전력 모듈(예: Factorized Power Architecture™)",
-      "AC 라인 정류 부품",
-      "맞춤형 전력 시스템 솔루션",
-      "입력 필터링, 역률 보정 및 과도 보호 구성 요소"
-    ],
-    "channels": [
-      "B2B(OEM, ODM, 계약 제조업체에 직접 판매)",
-      "해외법인 및 지사(기술지원센터)"
-    ],
-    "key_customers": "다양한 산업(항공우주, 국방, 통신 등)에 걸쳐 다각화되어 단일 고객 집중이 없음을 시사합니다."
-  },
+  "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.05,
+    "profit_margin": 0.32,
+    "operating_margin": 0.15,
+    "gross_margin": 0.54,
+    "revenue_growth_ttm": 0.2,
+    "earnings_growth_ttm": 7.01,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      452701000.0,
+      359058000.0,
+      405059000.0,
+      399079000.0,
+      null
+    ],
+    "annual_operating_income": [
+      81828000.0,
+      18190000.0,
+      51358000.0,
+      33701000.0,
+      null
+    ],
+    "annual_eps": [
+      2.61,
+      0.14,
+      1.19,
+      0.57,
+      null
+    ],
+    "annual_free_cf": [
+      119230000.0,
+      27240000.0,
+      41076000.0,
+      -41027000.0,
+      null
+    ],
+    "annual_total_debt": [
+      7176000.0,
+      7336000.0,
+      8228000.0,
+      8459000.0,
+      null
+    ],
+    "annual_equity": [
+      711557000.0,
+      570071000.0,
+      540869000.0,
+      464088000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.44,
+      1.01,
+      0.63,
+      0.91,
+      0.06,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      107264000.0,
+      110423000.0,
+      141046000.0,
+      93968000.0,
+      96166000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 713.9,
     "sales_yoy_pct": 20.2,
     "ni_cagr_3y_pct": 67.02,
@@ -56,24 +108,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 71.1,
+    "score": 74.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 89.26342,
-    "forward_pe": 50.60333,
-    "ev_to_ebitda": 146.472,
-    "price_to_sales": 28.41534,
+    "trailing_pe": 93.44666,
+    "forward_pe": 53.33034,
+    "ev_to_ebitda": 154.633,
+    "price_to_sales": 29.946642,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 506.81,
-    "outperform_6m_vs_nasdaq": 186.43,
-    "outperform_1m_vs_nasdaq": 55.7,
+    "outperform_1y_vs_nasdaq": 548.59,
+    "outperform_6m_vs_nasdaq": 191.9,
+    "outperform_1m_vs_nasdaq": 58.04,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Vicor Corporation is a manufacturer of power modules headquartered in Andover, Massachusetts.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:53:24.228813+00:00"
-  }
+  "wikipedia_summary": "Vicor Corporation is a manufacturer of power modules headquartered in Andover, Massachusetts."
 }

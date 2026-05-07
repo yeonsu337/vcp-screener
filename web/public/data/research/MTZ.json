@@ -1,23 +1,106 @@
 {
   "ticker": "MTZ",
-  "company": "Mastec Inc",
+  "company": "MasTec, Inc.",
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-07T05:03:49.349076+00:00",
+  "generated_at": "2026-05-07T06:29:02.708259+00:00",
   "primary_passed": 12,
   "primary_total": 14,
   "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 34237161472,
+    "shares_outstanding": 79018556,
+    "employees": 37000,
+    "country": "United States",
+    "website": "https://www.mastec.com",
+    "beta": 1.818
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.15,
+    "roa": 0.05,
+    "profit_margin": 0.03,
+    "operating_margin": 0.04,
+    "gross_margin": 0.13,
+    "revenue_growth_ttm": 0.34,
+    "earnings_growth_ttm": 5.08,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      14299171000.0,
+      12303464000.0,
+      11995934000.0,
+      9778038000.0,
+      null
+    ],
+    "annual_operating_income": [
+      652643000.0,
+      436351000.0,
+      80111000.0,
+      125120000.0,
+      null
+    ],
+    "annual_eps": [
+      5.07,
+      2.06,
+      -0.64,
+      0.42,
+      null
+    ],
+    "annual_free_cf": [
+      285729000.0,
+      972770000.0,
+      494336000.0,
+      88945000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2799171000.0,
+      2631598000.0,
+      3495942000.0,
+      3514675000.0
+    ],
+    "annual_equity": [
+      3259309000.0,
+      2911857000.0,
+      2706152000.0,
+      2737329000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      null,
+      1.81,
+      2.04,
+      1.09,
+      0.13,
+      0.95,
+      null
+    ],
+    "quarterly_revenue": [
+      3828801000.0,
+      3939800000.0,
+      3966948000.0,
+      3544705000.0,
+      2847718000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 514.4,
     "sales_yoy_pct": 34.5,
     "ni_cagr_3y_pct": 128.71,
@@ -30,16 +113,17 @@
     "vcp_quality": 18.8,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 2.586,
+    "trailing_pe": 75.74825,
+    "forward_pe": 37.834473,
+    "ev_to_ebitda": 30.49,
+    "price_to_sales": 2.2406147,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 156.99,
     "outperform_6m_vs_nasdaq": 106.5,
-    "outperform_1m_vs_nasdaq": 10.76
+    "outperform_1m_vs_nasdaq": 10.76,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": ""
+  "wikipedia_summary": "Mastec, Inc. is an American infrastructure engineering and construction company based in Coral Gables, Florida. The company provides engineering, building, installation, maintenance and upgrade of energy, utility and communications infrastructure. Its customers are primarily in the utility, communications and government industries."
 }

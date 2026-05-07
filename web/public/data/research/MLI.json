@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-06T00:55:50.075154+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-05-07T06:30:05.319219+00:00",
+  "primary_passed": 13,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 15066351616,
+    "market_cap": 15383690240,
     "shares_outstanding": 110570613,
     "employees": 4832,
     "country": "United States",
@@ -18,6 +18,87 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.28,
+    "roa": 0.17,
+    "profit_margin": 0.19,
+    "operating_margin": 0.23,
+    "gross_margin": 0.3,
+    "revenue_growth_ttm": 0.19,
+    "earnings_growth_ttm": 0.55,
+    "dividend_yield": 1.01,
+    "payout_ratio": 0.14,
+    "annual_revenue": [
+      4178547000.0,
+      3768766000.0,
+      3420345000.0,
+      3982455000.0
+    ],
+    "annual_operating_income": [
+      893101000.0,
+      762391000.0,
+      737883000.0,
+      869478000.0
+    ],
+    "annual_eps": [
+      6.86,
+      5.31,
+      5.3,
+      5.82
+    ],
+    "annual_free_cf": [
+      686639000.0,
+      565705000.0,
+      618741000.0,
+      686304000.0,
+      null
+    ],
+    "annual_total_debt": [
+      27490000.0,
+      33758000.0,
+      35557000.0,
+      23851000.0,
+      null
+    ],
+    "annual_equity": [
+      3209966000.0,
+      2773165000.0,
+      2337445000.0,
+      1790914000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      2.16,
+      1.38,
+      1.88,
+      2.22,
+      1.39,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      1193005000.0,
+      962385000.0,
+      1077824000.0,
+      1138173000.0,
+      1000165000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 51.8,
     "sales_yoy_pct": 19.3,
     "ni_cagr_3y_pct": 5.14,
@@ -25,25 +106,22 @@
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 76.8,
-    "vcp_quality": 10.3,
+    "rs_rating": 79,
+    "score": 82.3,
+    "vcp_quality": 14.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.41,
-    "trailing_pe": 17.858452,
-    "forward_pe": 15.572571,
-    "ev_to_ebitda": 13.11,
-    "price_to_sales": 3.446584,
+    "trailing_pe": 18.258532,
+    "forward_pe": 15.900572,
+    "ev_to_ebitda": 13.414,
+    "price_to_sales": 3.5191784,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 41.51,
-    "outperform_6m_vs_nasdaq": 22.65,
-    "outperform_1m_vs_nasdaq": 5.77,
+    "outperform_1y_vs_nasdaq": 42.39,
+    "outperform_6m_vs_nasdaq": 21.11,
+    "outperform_1m_vs_nasdaq": 5.93,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.174445+00:00"
-  }
+  "wikipedia_summary": ""
 }

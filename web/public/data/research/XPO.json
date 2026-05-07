@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-05-07T05:05:23.176456+00:00",
+  "generated_at": "2026-05-07T06:47:38.635122+00:00",
   "primary_passed": 12,
   "primary_total": 14,
   "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
@@ -18,6 +18,91 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.06,
+    "profit_margin": 0.04,
+    "operating_margin": 0.09,
+    "gross_margin": 0.19,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      8157000000.0,
+      8072000000.0,
+      7744000000.0,
+      7718000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      729000000.0,
+      701000000.0,
+      543000000.0,
+      489000000.0,
+      null
+    ],
+    "annual_eps": [
+      2.64,
+      3.23,
+      1.6,
+      5.76,
+      null
+    ],
+    "annual_free_cf": [
+      329000000.0,
+      19000000.0,
+      -851000000.0,
+      311000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4090000000.0,
+      4117000000.0,
+      4113000000.0,
+      3245000000.0,
+      null
+    ],
+    "annual_equity": [
+      1861000000.0,
+      1600000000.0,
+      1266000000.0,
+      1012000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.85,
+      0.5,
+      0.68,
+      0.89,
+      0.58,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      2096000000.0,
+      2011000000.0,
+      2111000000.0,
+      2080000000.0,
+      1954000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 46.4,
     "sales_yoy_pct": 7.3,
     "ni_cagr_3y_pct": -22.0,

@@ -1,0 +1,130 @@
+{
+  "ticker": "ILMN",
+  "company": "Illumina, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
+  "generated_at": "2026-05-07T06:48:09.445965+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 21572354048,
+    "shares_outstanding": 151300000,
+    "employees": 8600,
+    "country": "United States",
+    "website": "https://www.illumina.com",
+    "beta": 1.424
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.34,
+    "roa": 0.09,
+    "profit_margin": 0.19,
+    "operating_margin": 0.18,
+    "gross_margin": 0.68,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 0.06,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      4343000000.0,
+      4372000000.0,
+      4504000000.0,
+      4584000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      817000000.0,
+      600000000.0,
+      -222000000.0,
+      354000000.0,
+      null
+    ],
+    "annual_eps": [
+      5.45,
+      -7.69,
+      -7.34,
+      -28.0,
+      null
+    ],
+    "annual_free_cf": [
+      931000000.0,
+      709000000.0,
+      283000000.0,
+      106000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2553000000.0,
+      2622000000.0,
+      2262000000.0,
+      3555000000.0,
+      null
+    ],
+    "annual_equity": [
+      2723000000.0,
+      2373000000.0,
+      5745000000.0,
+      6599000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.87,
+      2.16,
+      0.98,
+      1.49,
+      0.82,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      1091000000.0,
+      1159000000.0,
+      1084000000.0,
+      1059000000.0,
+      1041000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 2.3,
+    "sales_yoy_pct": 4.8,
+    "roe_pct": 33.82
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 73,
+    "score": 60.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.5204,
+    "trailing_pe": 25.923637,
+    "forward_pe": 24.118927,
+    "ev_to_ebitda": 19.88,
+    "price_to_sales": 4.91062,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 37.59,
+    "outperform_6m_vs_nasdaq": 10.42,
+    "outperform_1m_vs_nasdaq": -4.59,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variation and biological function. The company provides a line of products and services that serves the sequencing, genotyping and gene expression, and proteomics markets, and serves more than 155 countries."
+}

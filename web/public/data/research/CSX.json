@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Railroads",
-  "generated_at": "2026-05-06T01:30:27.263852+00:00",
+  "generated_at": "2026-05-07T06:47:07.804812+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 83671990272,
+    "market_cap": 84731133952,
     "shares_outstanding": 1858138856,
     "employees": 22200,
     "country": "United States",
@@ -18,6 +18,89 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.24,
+    "roa": 0.07,
+    "profit_margin": 0.22,
+    "operating_margin": 0.36,
+    "gross_margin": 0.47,
+    "revenue_growth_ttm": 0.02,
+    "earnings_growth_ttm": 0.27,
+    "dividend_yield": 1.23,
+    "payout_ratio": 0.33,
+    "annual_revenue": [
+      14092000000.0,
+      14540000000.0,
+      14657000000.0,
+      14853000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      4718000000.0,
+      5403000000.0,
+      5528000000.0,
+      5795000000.0,
+      null
+    ],
+    "annual_eps": [
+      1.54,
+      1.79,
+      1.85,
+      1.95,
+      null
+    ],
+    "annual_free_cf": [
+      1711000000.0,
+      2718000000.0,
+      3257000000.0,
+      3413000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      19352000000.0,
+      18989000000.0,
+      19024000000.0,
+      18535000000.0
+    ],
+    "annual_equity": [
+      13155000000.0,
+      12502000000.0,
+      11980000000.0,
+      12615000000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.43,
+      0.39,
+      0.37,
+      0.44,
+      0.34,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      3482000000.0,
+      3508000000.0,
+      3587000000.0,
+      3574000000.0,
+      3423000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 24.9,
     "sales_yoy_pct": 1.7,
     "ni_cagr_3y_pct": -11.12,
@@ -25,25 +108,22 @@
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 65.6,
+    "rs_rating": 72,
+    "score": 66.5,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 2.0727,
-    "trailing_pe": 27.625767,
-    "forward_pe": 20.922386,
-    "ev_to_ebitda": 15.396,
-    "price_to_sales": 5.912797,
+    "peg_ratio": 2.087,
+    "trailing_pe": 27.97546,
+    "forward_pe": 21.187227,
+    "ev_to_ebitda": 15.556,
+    "price_to_sales": 5.987643,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 18.41,
-    "outperform_6m_vs_nasdaq": 19.14,
-    "outperform_1m_vs_nasdaq": -6.58,
+    "outperform_1y_vs_nasdaq": 17.8,
+    "outperform_6m_vs_nasdaq": 19.75,
+    "outperform_1m_vs_nasdaq": -7.26,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:47:20.568358+00:00"
-  }
+  "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company."
 }

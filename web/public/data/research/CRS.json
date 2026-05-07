@@ -4,10 +4,10 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-07T02:32:36.919472+00:00",
+  "generated_at": "2026-05-07T06:32:10.514290+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "desk-research (no LLM): GEMINI_API_KEY not set",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
     "market_cap": 22763960320,
     "shares_outstanding": 49685612,
@@ -16,37 +16,95 @@
     "website": "https://www.carpentertechnology.com",
     "beta": 1.241
   },
-  "category_a_business": {
-    "overview": "Carpenter Technology Corporation은 미국, 유럽, 아시아 태평양, 멕시코, 캐나다 및 국제적으로 특수 금속의 제조, 제조 및 유통에 종사하고 있습니다. 특수 합금 운영과 성능 엔지니어링 제품이라는 두 부문으로 운영됩니다. 이 회사는 티타늄 합금, 분말 금속, 스테인리스강, 합금강, 공구강은 물론 금속 분말 및 부품을 포함한 특수 합금을 제공합니다.",
-    "business_model": "Carpenter Technology Corporation은 미국, 유럽, 아시아 태평양, 멕시코, 캐나다 및 국제적으로 특수 금속의 제조, 제조 및 유통에 종사하고 있습니다.",
-    "products": [
-      "특수 합금 운영과 성능 엔지니어링 제품이라는 두 가지 부문으로 나뉜다.",
-      "티타늄 합금, 분말 금속, 스테인리스강, 합금강, 공구강 등 특수 합금뿐만 아니라"
-    ],
-    "channels": [
-      "B2B / 기업"
-    ],
-    "wikipedia_excerpt": "Carpenter Technology Corporation은 스테인리스강, 내부식성 니켈, 구리, 티타늄 합금은 물론 3D 적층 제조용 분말 합금을 개발, 제조 및 유통합니다. 2018 회계연도에 회사의 매출은 항공우주 및 방위 산업(55%), 산업 및 소비 산업(17%), 의료 산업(8%), 운송 산업(7%), 에너지 산업(7%), 유통 산업(6%)에서 발생했습니다. 회사의 제품은 랜딩 기어, 샤프트 칼라, 안전 와이어, 발전 제품, 추간판에 사용됩니다.",
-    "milestones": [
-      "2018년: 회사의 수익은 항공우주 및 방위 산업(55%)에서 창출되었으며,"
-    ]
-  },
+  "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.25,
+    "roa": 0.11,
+    "profit_margin": 0.16,
+    "operating_margin": 0.23,
+    "gross_margin": 0.3,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 0.17,
+    "payout_ratio": 0.08,
+    "annual_revenue": [
+      2877100000.0,
+      2759700000.0,
+      2550300000.0,
+      1836300000.0,
+      null
+    ],
+    "annual_operating_income": [
+      525400000.0,
+      354100000.0,
+      133100000.0,
+      -24900000.0,
+      null
+    ],
+    "annual_eps": [
+      7.42,
+      3.7,
+      1.14,
+      -1.01,
+      null
+    ],
+    "annual_free_cf": [
+      286100000.0,
+      178300000.0,
+      -67600000.0,
+      -85300000.0,
+      null
+    ],
+    "annual_total_debt": [
+      703400000.0,
+      703000000.0,
+      702100000.0,
+      701700000.0,
+      null
+    ],
+    "annual_equity": [
+      1887000000.0,
+      1628800000.0,
+      1396100000.0,
+      1330500000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      2.77,
+      2.09,
+      2.43,
+      2.21,
+      1.88
+    ],
+    "quarterly_revenue": [
+      811500000.0,
+      728000000.0,
+      733700000.0,
+      755600000.0,
+      727000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 46.3,
     "sales_yoy_pct": 11.6,
     "roe_pct": 24.89
   },
-  "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
-    "competitive_advantages": [
-      "Industrials / Metal Fabrication 카테고리 — yfinance peer 비교 권장"
-    ]
-  },
+  "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 68.6,
+    "rs_rating": 85,
+    "score": 70.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -56,38 +114,11 @@
     "ev_to_ebitda": 30.25,
     "price_to_sales": 7.515835,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 68.59,
-    "outperform_6m_vs_nasdaq": 34.26,
-    "outperform_1m_vs_nasdaq": -2.38,
+    "outperform_1y_vs_nasdaq": 71.98,
+    "outperform_6m_vs_nasdaq": 39.19,
+    "outperform_1m_vs_nasdaq": -1.02,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {
-    "top_risks": [
-      {
-        "category": "10-K Item 1A",
-        "description": "또한, 우리는 우리를 상대로 어떠한 소송도 제기되지 않은 다른 Superfund 사이트와 관련하여 PRP일 수 있다는 통보를 받았습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "그러나 그러한 비용은 향후 특정 분기 또는 연도의 재무 상태, 운영 결과 또는 현금 흐름에 중요할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "주식은 사업의 자본 수요, 일반적인 시장 상황 및 주식 시장 가격에 따라 당사의 재량에 따라 수시로 재매입될 수 있습니다.",
-        "severity": "medium"
-      }
-    ],
-    "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
-    ]
-  },
-  "wikipedia_summary": "Carpenter Technology Corporation develops, manufactures, and distributes stainless steels and corrosion-resistant nickel, copper and titanium alloys as well as powdered alloys for 3D additive manufacturing. In fiscal year 2018, the company's revenues were derived from the aerospace and defense industry (55%), the industrial and consumer industry (17%), the medical industry (8%), the transportation industry (7%), the energy industry (7%), and the distribution industry (6%). The company's products are used in landing gear, shaft collars, safety wires, electricity generation products, intervertebral disc arthroplasty, and engine valves and weldings.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:47:20.533534+00:00"
-  }
+  "category_e_risks": {},
+  "wikipedia_summary": "Carpenter Technology Corporation develops, manufactures, and distributes stainless steels and corrosion-resistant nickel, copper and titanium alloys as well as powdered alloys for 3D additive manufacturing. In fiscal year 2018, the company's revenues were derived from the aerospace and defense industry (55%), the industrial and consumer industry (17%), the medical industry (8%), the transportation industry (7%), the energy industry (7%), and the distribution industry (6%). The company's products are used in landing gear, shaft collars, safety wires, electricity generation products, intervertebral disc arthroplasty, and engine valves and weldings."
 }

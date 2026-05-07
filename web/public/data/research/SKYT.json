@@ -4,68 +4,123 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-06T01:27:14.659103+00:00",
+  "generated_at": "2026-05-07T06:43:00.065086+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 1643333504,
+    "market_cap": 1680693120,
     "shares_outstanding": 49157448,
     "employees": 1551,
     "country": "United States",
     "website": "https://www.skywatertechnology.com",
     "beta": 3.304
   },
-  "category_a_business": {
-    "overview": "SkyWater Technology, Inc.는 미국에 본사를 둔 독립 순수 반도체 파운드리 업체입니다. 기초 노드 제조, 고급 기술 개발 및 고급 패키징 서비스를 제공합니다. 이 회사는 안전한 국내 제조, 긴 제품 수명 주기, 다양한 응용 분야에 대한 높은 신뢰성을 요구하는 상업 및 정부 고객을 지원합니다.",
-    "milestones": [
-      "1991: Cypress Semiconductor Corporation의 전속 제조 시설로 미네소타 공장 설립",
-      "2016년: SkyWater Technology, Inc. 법인 전환",
-      "2017: Cypress의 Oxbow Industries, LLC 계열사가 인수하여 독립 회사로 전환",
-      "2021년: 기업공개(IPO) 완료 및 'SKYT'로 나스닥에서 거래 시작"
-    ],
-    "business_model": "SkyWater는 파운드리 서비스, 첨단 기술 개발, 고급 패키징을 포함한 반도체 제조 서비스를 제공하여 수익을 창출합니다. 생산 규모의 제조와 기술 개발을 통합하여 고객이 특수 반도체 기술을 개발에서 대량 생산으로 전환할 수 있도록 합니다.",
-    "revenue_streams": [
-      "파운드리 서비스(웨이퍼 제조)",
-      "ATS(첨단 기술 서비스)",
-      "고급 반도체 패키징"
-    ],
-    "value_chain_position": "Midstream + 반도체 장치 제조 및 패키징 서비스를 제공합니다.",
-    "products": [
-      "웨이퍼 제조(아날로그, 혼합 신호, MEMS, 특수 CMOS)",
-      "첨단 기술 개발 서비스",
-      "고급 반도체 패키징"
-    ],
-    "channels": [
-      "B2B(상업 및 정부 고객에게 직접 판매)"
-    ],
-    "key_customers": "명시적으로 명시되지는 않았지만 양자 컴퓨팅, 항공우주 및 국방, 자동차, 바이오헬스, 산업 등 다양한 분야에 서비스를 제공합니다."
-  },
+  "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.96,
+    "roa": -0.0,
+    "profit_margin": 0.27,
+    "operating_margin": -0.02,
+    "gross_margin": 0.2,
+    "revenue_growth_ttm": 1.27,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      442139000.0,
+      342269000.0,
+      286682000.0,
+      212941000.0,
+      null
+    ],
+    "annual_operating_income": [
+      -2576000.0,
+      6560000.0,
+      -14788000.0,
+      -29767000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      -0.14,
+      -0.68,
+      -0.97,
+      -1.76
+    ],
+    "annual_free_cf": [
+      -56172000.0,
+      7200000.0,
+      -408000.0,
+      -31750000.0,
+      null
+    ],
+    "annual_total_debt": [
+      250343000.0,
+      76758000.0,
+      72859000.0,
+      103040000.0,
+      null
+    ],
+    "annual_equity": [
+      187819000.0,
+      55644000.0,
+      53740000.0,
+      53669000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -0.16,
+      2.95,
+      -0.21,
+      -0.15,
+      -0.01,
+      null
+    ],
+    "quarterly_revenue": [
+      171039000.0,
+      150741000.0,
+      59063000.0,
+      61296000.0,
+      75487000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "sales_yoy_pct": 126.6,
     "roe_pct": 95.94
   },
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 66.9,
+    "score": 68.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 13.700819,
-    "forward_pe": -164.41254,
-    "ev_to_ebitda": 57.912,
-    "price_to_sales": 3.7167802,
+    "trailing_pe": 14.012294,
+    "forward_pe": -168.1503,
+    "ev_to_ebitda": 59.061,
+    "price_to_sales": 3.8012776,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 302.49,
-    "outperform_6m_vs_nasdaq": 84.44,
-    "outperform_1m_vs_nasdaq": 2.0,
+    "outperform_1y_vs_nasdaq": 326.13,
+    "outperform_6m_vs_nasdaq": 104.35,
+    "outperform_1m_vs_nasdaq": 4.45,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:52:20.216663+00:00"
-  }
+  "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry."
 }

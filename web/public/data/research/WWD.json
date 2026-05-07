@@ -1,0 +1,131 @@
+{
+  "ticker": "WWD",
+  "company": "Woodward, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "generated_at": "2026-05-07T06:46:05.448421+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 22785677312,
+    "shares_outstanding": 59582861,
+    "employees": 10200,
+    "country": "United States",
+    "website": "https://www.woodward.com",
+    "beta": 0.916
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.21,
+    "roa": 0.08,
+    "profit_margin": 0.13,
+    "operating_margin": 0.15,
+    "gross_margin": 0.29,
+    "revenue_growth_ttm": 0.23,
+    "earnings_growth_ttm": 0.23,
+    "dividend_yield": 0.33,
+    "payout_ratio": 0.14,
+    "annual_revenue": [
+      3567064000.0,
+      3324249000.0,
+      2914566000.0,
+      2382790000.0,
+      null
+    ],
+    "annual_operating_income": [
+      478901000.0,
+      428304000.0,
+      275796000.0,
+      202518000.0,
+      null
+    ],
+    "annual_eps": [
+      7.19,
+      6.01,
+      3.78,
+      2.71,
+      null
+    ],
+    "annual_free_cf": [
+      340366000.0,
+      342809000.0,
+      232043000.0,
+      140770000.0,
+      null
+    ],
+    "annual_total_debt": [
+      722401000.0,
+      895140000.0,
+      742211000.0,
+      798859000.0,
+      null
+    ],
+    "annual_equity": [
+      2566390000.0,
+      2176416000.0,
+      2070989000.0,
+      1901122000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-09-30",
+      "2024-09-30",
+      "2023-09-30",
+      "2022-09-30",
+      "2021-09-30"
+    ],
+    "quarterly_eps": [
+      2.19,
+      2.17,
+      2.23,
+      1.76,
+      1.78,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      996454000.0,
+      995264000.0,
+      915446000.0,
+      883629000.0,
+      772725000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 23.0,
+    "sales_yoy_pct": 23.4,
+    "ni_cagr_3y_pct": 37.06,
+    "roe_pct": 21.13
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 77,
+    "score": 62.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.766,
+    "trailing_pe": 45.853718,
+    "forward_pe": 35.618885,
+    "ev_to_ebitda": 32.441,
+    "price_to_sales": 5.699651,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 51.19,
+    "outperform_6m_vs_nasdaq": 38.0,
+    "outperform_1m_vs_nasdaq": -15.42,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Woodward, Inc. is an American designer, manufacturer, and service provider of control systems and control system components for aircraft, aircraft engines, industrial engines and turbines, power generation and mobile industrial equipment. The company also provides military devices and other equipment for defense."
+}

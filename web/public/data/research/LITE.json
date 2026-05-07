@@ -4,13 +4,13 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-06T01:07:06.533507+00:00",
+  "generated_at": "2026-05-07T06:42:29.325218+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 71011581952,
-    "shares_outstanding": 71400000,
+    "market_cap": 73464987648,
+    "shares_outstanding": 77800000,
     "employees": 10562,
     "country": "United States",
     "website": "https://www.lumentum.com",
@@ -18,6 +18,85 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.29,
+    "roa": 0.0,
+    "profit_margin": 0.12,
+    "operating_margin": 0.11,
+    "gross_margin": 0.37,
+    "revenue_growth_ttm": 0.66,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1645000000.0,
+      1359200000.0,
+      1767000000.0,
+      1712600000.0,
+      null
+    ],
+    "annual_operating_income": [
+      -192200000.0,
+      -361400000.0,
+      -87600000.0,
+      302200000.0,
+      null
+    ],
+    "annual_eps": [
+      0.37,
+      -8.12,
+      -1.93,
+      2.68,
+      null
+    ],
+    "annual_free_cf": [
+      -104700000.0,
+      -112300000.0,
+      51300000.0,
+      368100000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2608200000.0,
+      2559600000.0,
+      2873700000.0,
+      1936000000.0,
+      null
+    ],
+    "annual_equity": [
+      1134700000.0,
+      957300000.0,
+      1355800000.0,
+      1875000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      0.89,
+      0.05,
+      2.96,
+      -0.64,
+      -0.88
+    ],
+    "quarterly_revenue": [
+      665500000.0,
+      533800000.0,
+      480700000.0,
+      425200000.0,
+      402200000.0
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "sales_yoy_pct": 65.5,
     "ni_cagr_3y_pct": -49.31,
     "roe_pct": 29.28
@@ -25,24 +104,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 75.0,
+    "score": 68.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 290.807,
-    "forward_pe": 59.80787,
+    "trailing_pe": 166.53969,
+    "forward_pe": 52.328392,
     "ev_to_ebitda": 273.362,
-    "price_to_sales": 33.731514,
+    "price_to_sales": 34.896915,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 1441.31,
-    "outperform_6m_vs_nasdaq": 386.68,
-    "outperform_1m_vs_nasdaq": 13.64,
+    "outperform_1y_vs_nasdaq": 1350.02,
+    "outperform_6m_vs_nasdaq": 364.72,
+    "outperform_1m_vs_nasdaq": -1.6,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.158757+00:00"
-  }
+  "wikipedia_summary": ""
 }

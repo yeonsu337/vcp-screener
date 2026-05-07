@@ -1,0 +1,131 @@
+{
+  "ticker": "COCO",
+  "company": "The Vita Coco Company, Inc.",
+  "market": "US",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
+  "generated_at": "2026-05-07T06:34:13.949276+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 3920211968,
+    "shares_outstanding": 57112643,
+    "employees": 336,
+    "country": "United States",
+    "website": "https://thevitacococompany.com",
+    "beta": 0.714
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.26,
+    "roa": 0.14,
+    "profit_margin": 0.13,
+    "operating_margin": 0.19,
+    "gross_margin": 0.37,
+    "revenue_growth_ttm": 0.37,
+    "earnings_growth_ttm": 0.61,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      609780000.0,
+      516013000.0,
+      493612000.0,
+      427787000.0,
+      null
+    ],
+    "annual_operating_income": [
+      82532000.0,
+      73820000.0,
+      56493000.0,
+      3055000.0,
+      null
+    ],
+    "annual_eps": [
+      1.19,
+      0.94,
+      0.79,
+      0.14,
+      null
+    ],
+    "annual_free_cf": [
+      39025000.0,
+      41925000.0,
+      106556000.0,
+      -11917000.0,
+      null
+    ],
+    "annual_total_debt": [
+      14817000.0,
+      435000.0,
+      1215000.0,
+      782000.0,
+      null
+    ],
+    "annual_equity": [
+      331542000.0,
+      258817000.0,
+      202437000.0,
+      141093000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.5,
+      0.09,
+      0.4,
+      0.38,
+      0.31,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      179765000.0,
+      127787000.0,
+      182313000.0,
+      168759000.0,
+      130921000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 61.4,
+    "sales_yoy_pct": 37.3,
+    "ni_cagr_3y_pct": 108.98,
+    "roe_pct": 26.32
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 86,
+    "score": 72.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 49.739132,
+    "forward_pe": 33.537407,
+    "ev_to_ebitda": 37.97,
+    "price_to_sales": 5.9521246,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 52.38,
+    "outperform_6m_vs_nasdaq": 59.74,
+    "outperform_1m_vs_nasdaq": 22.1,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

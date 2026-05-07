@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-06T01:13:46.011219+00:00",
+  "generated_at": "2026-05-07T06:38:52.187299+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.5-flash:generateContent?key=[REDACTED] (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 6197157888,
+    "market_cap": 6228655104,
     "shares_outstanding": 43746699,
     "employees": 2500,
     "country": "United States",
@@ -18,6 +18,91 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.05,
+    "profit_margin": 0.04,
+    "operating_margin": -0.03,
+    "gross_margin": 0.16,
+    "revenue_growth_ttm": 0.3,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 0.37,
+    "payout_ratio": 0.14,
+    "annual_revenue": [
+      4424379000.0,
+      4007574000.0,
+      3509138000.0,
+      3301256000.0,
+      null
+    ],
+    "annual_operating_income": [
+      262239000.0,
+      198599000.0,
+      51716000.0,
+      72764000.0,
+      null
+    ],
+    "annual_eps": [
+      3.86,
+      2.62,
+      0.97,
+      1.7,
+      null
+    ],
+    "annual_free_cf": [
+      330646000.0,
+      319938000.0,
+      43323000.0,
+      -65965000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1497588000.0,
+      832851000.0,
+      735087000.0,
+      339213000.0,
+      null
+    ],
+    "annual_equity": [
+      1179048000.0,
+      1015226000.0,
+      977298000.0,
+      953016000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -0.96,
+      1.03,
+      1.98,
+      1.42,
+      -0.77,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      912465000.0,
+      1165370000.0,
+      1433498000.0,
+      1125964000.0,
+      699547000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "sales_yoy_pct": 30.4,
     "ni_cagr_3y_pct": 32.32,
     "roe_pct": 20.03
@@ -25,24 +110,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 77,
-    "score": 69.9,
+    "score": 69.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.96,
-    "trailing_pe": 38.599457,
-    "forward_pe": 19.364681,
-    "ev_to_ebitda": 15.834,
-    "price_to_sales": 1.3363729,
+    "trailing_pe": 38.79564,
+    "forward_pe": 19.463104,
+    "ev_to_ebitda": 15.904,
+    "price_to_sales": 1.3431649,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.53,
-    "outperform_6m_vs_nasdaq": 31.21,
-    "outperform_1m_vs_nasdaq": 1.72,
+    "outperform_1y_vs_nasdaq": 27.59,
+    "outperform_6m_vs_nasdaq": 30.78,
+    "outperform_1m_vs_nasdaq": 0.54,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products. The company was under investigation from the SEC from 2019 to 2021 for misrepresenting revenue, and as a result paid fines to settle disputes with shareholders, and avoided delisting from the NYSE.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.102571+00:00"
-  }
+  "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products. The company was under investigation from the SEC from 2019 to 2021 for misrepresenting revenue, and as a result paid fines to settle disputes with shareholders, and avoided delisting from the NYSE."
 }

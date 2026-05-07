@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-06T01:11:54.540706+00:00",
+  "generated_at": "2026-05-07T06:37:19.070792+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 5473440768,
+    "market_cap": 5589634560,
     "shares_outstanding": 176051481,
     "employees": 1981,
     "country": "United States",
@@ -18,6 +18,88 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.04,
+    "profit_margin": 0.08,
+    "operating_margin": 0.25,
+    "gross_margin": 0.5,
+    "revenue_growth_ttm": 0.04,
+    "earnings_growth_ttm": 0.25,
+    "dividend_yield": 3.78,
+    "payout_ratio": 1.46,
+    "annual_revenue": [
+      1831700000.0,
+      1830900000.0,
+      1820600000.0,
+      1772100000.0,
+      null
+    ],
+    "annual_operating_income": [
+      311300000.0,
+      282500000.0,
+      267300000.0,
+      282700000.0,
+      null
+    ],
+    "annual_eps": [
+      0.82,
+      1.55,
+      -2.73,
+      0.86,
+      null
+    ],
+    "annual_free_cf": [
+      199200000.0,
+      209100000.0,
+      167400000.0,
+      157500000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4131000000.0,
+      4013000000.0,
+      4339800000.0,
+      4213100000.0,
+      null
+    ],
+    "annual_equity": [
+      710400000.0,
+      768800000.0,
+      697100000.0,
+      1345200000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.55,
+      0.3,
+      0.1,
+      -0.14,
+      0.44,
+      null
+    ],
+    "quarterly_revenue": [
+      513300000.0,
+      467500000.0,
+      460200000.0,
+      390700000.0,
+      493200000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 30.8,
     "sales_yoy_pct": 4.1,
     "ni_cagr_3y_pct": 0.99,
@@ -26,24 +108,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 86,
-    "score": 70.0,
+    "score": 71.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 37.914635,
-    "forward_pe": 24.761465,
-    "ev_to_ebitda": 22.75,
-    "price_to_sales": 2.9881754,
+    "trailing_pe": 38.719513,
+    "forward_pe": 25.592869,
+    "ev_to_ebitda": 23.061,
+    "price_to_sales": 3.0516102,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 68.73,
-    "outperform_6m_vs_nasdaq": 73.14,
-    "outperform_1m_vs_nasdaq": -1.34,
+    "outperform_1y_vs_nasdaq": 70.35,
+    "outperform_6m_vs_nasdaq": 75.51,
+    "outperform_1m_vs_nasdaq": -1.86,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.230869+00:00"
-  }
+  "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays."
 }

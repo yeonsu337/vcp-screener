@@ -1,0 +1,125 @@
+{
+  "ticker": "IRDM",
+  "company": "Iridium Communications Inc.",
+  "market": "US",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
+  "generated_at": "2026-05-07T06:45:03.494955+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 4291489024,
+    "shares_outstanding": 105727744,
+    "employees": 975,
+    "country": "United States",
+    "website": "https://www.iridium.com",
+    "beta": 0.798
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.21,
+    "roa": 0.06,
+    "profit_margin": 0.12,
+    "operating_margin": 0.23,
+    "gross_margin": 0.72,
+    "revenue_growth_ttm": 0.02,
+    "earnings_growth_ttm": -0.26,
+    "dividend_yield": 1.48,
+    "payout_ratio": 0.6,
+    "annual_revenue": [
+      871659000.0,
+      830682000.0,
+      790723000.0,
+      721034000.0,
+      null
+    ],
+    "annual_operating_income": [
+      235980000.0,
+      200384000.0,
+      81628000.0,
+      76679000.0,
+      null
+    ],
+    "annual_eps": [
+      1.06,
+      0.94,
+      0.12,
+      0.07,
+      null
+    ],
+    "annual_free_cf": [
+      299793000.0,
+      306065000.0,
+      241426000.0,
+      273462000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1760526000.0,
+      1790885000.0,
+      1482490000.0,
+      1487185000.0,
+      null
+    ],
+    "annual_equity": [
+      462600000.0,
+      576637000.0,
+      888099000.0,
+      1128555000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.2,
+      0.24,
+      0.35,
+      0.2,
+      0.27
+    ],
+    "quarterly_revenue": [
+      219057000.0,
+      212940000.0,
+      226935000.0,
+      216906000.0,
+      214878000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": -29.0,
+    "sales_yoy_pct": 1.9,
+    "ni_cagr_3y_pct": 135.81,
+    "roe_pct": 21.39
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 91,
+    "score": 64.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.3476,
+    "trailing_pe": 41.0,
+    "forward_pe": 28.484211,
+    "ev_to_ebitda": 13.609,
+    "price_to_sales": 4.899866,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 17.08,
+    "outperform_6m_vs_nasdaq": 116.54,
+    "outperform_1m_vs_nasdaq": 4.06,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satellites via inter-satellite links provide global service availability."
+}

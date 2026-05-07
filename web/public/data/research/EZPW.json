@@ -1,0 +1,125 @@
+{
+  "ticker": "EZPW",
+  "company": "EZCORP, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
+  "generated_at": "2026-05-07T06:31:08.679594+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 2063155072,
+    "shares_outstanding": 58727053,
+    "employees": 8500,
+    "country": "United States",
+    "website": "https://www.ezcorp.com",
+    "beta": 0.657
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.13,
+    "roa": 0.06,
+    "profit_margin": 0.09,
+    "operating_margin": 0.16,
+    "gross_margin": 0.59,
+    "revenue_growth_ttm": 0.19,
+    "earnings_growth_ttm": 0.38,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1274280000.0,
+      1161602000.0,
+      1049041000.0,
+      886225000.0,
+      null
+    ],
+    "annual_operating_income": [
+      148919000.0,
+      112592000.0,
+      91604000.0,
+      74248000.0,
+      null
+    ],
+    "annual_eps": [
+      1.42,
+      1.1,
+      0.53,
+      0.7,
+      null
+    ],
+    "annual_free_cf": [
+      110424000.0,
+      77836000.0,
+      61388000.0,
+      34640000.0,
+      null
+    ],
+    "annual_total_debt": [
+      764040000.0,
+      566942000.0,
+      610481000.0,
+      545993000.0,
+      null
+    ],
+    "annual_equity": [
+      1025485000.0,
+      804571000.0,
+      745768000.0,
+      692231000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-09-30",
+      "2024-09-30",
+      "2023-09-30",
+      "2022-09-30",
+      "2021-09-30"
+    ],
+    "quarterly_eps": [
+      0.55,
+      0.34,
+      0.34,
+      0.33,
+      0.4
+    ],
+    "quarterly_revenue": [
+      382019000.0,
+      336813000.0,
+      310981000.0,
+      306316000.0,
+      320170000.0
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 42.8,
+    "sales_yoy_pct": 19.3,
+    "ni_cagr_3y_pct": 29.77,
+    "roe_pct": 12.97
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 90,
+    "score": 72.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.28,
+    "trailing_pe": 21.299362,
+    "forward_pe": 16.372091,
+    "ev_to_ebitda": 11.71,
+    "price_to_sales": 1.5441287,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 70.94,
+    "outperform_6m_vs_nasdaq": 75.94,
+    "outperform_1m_vs_nasdaq": 3.54,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

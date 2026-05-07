@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-06T01:00:28.502920+00:00",
+  "generated_at": "2026-05-07T06:41:27.258171+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 29914601472,
+    "market_cap": 29480017920,
     "shares_outstanding": 398701897,
     "employees": 22000,
     "country": "United States",
@@ -18,31 +18,113 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.33,
+    "roa": 0.09,
+    "profit_margin": 0.11,
+    "operating_margin": 0.14,
+    "gross_margin": 0.23,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.94,
+    "dividend_yield": 0.27,
+    "payout_ratio": 0.08,
+    "annual_revenue": [
+      9932600000.0,
+      9083300000.0,
+      7824200000.0,
+      6700400000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1393000000.0,
+      982600000.0,
+      529200000.0,
+      212500000.0,
+      null
+    ],
+    "annual_eps": [
+      2.3,
+      1.91,
+      0.12,
+      -0.24,
+      null
+    ],
+    "annual_free_cf": [
+      1447400000.0,
+      679400000.0,
+      467800000.0,
+      194200000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1342600000.0,
+      1791400000.0,
+      1969200000.0,
+      2291700000.0,
+      null
+    ],
+    "annual_equity": [
+      3363800000.0,
+      3093800000.0,
+      3136700000.0,
+      3240200000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.64,
+      0.59,
+      0.64,
+      0.64,
+      0.33,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      2492700000.0,
+      2517000000.0,
+      2647300000.0,
+      2534700000.0,
+      2233600000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 83.5,
     "sales_yoy_pct": 11.6,
     "roe_pct": 33.41
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 67.8,
+    "rs_rating": 89,
+    "score": 65.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 28.747128,
-    "forward_pe": 21.690928,
-    "ev_to_ebitda": 15.796,
-    "price_to_sales": 2.9351926,
+    "trailing_pe": 28.329504,
+    "forward_pe": 21.375813,
+    "ev_to_ebitda": 15.569,
+    "price_to_sales": 2.8925517,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 113.27,
-    "outperform_6m_vs_nasdaq": 75.06,
-    "outperform_1m_vs_nasdaq": -10.33,
+    "outperform_1y_vs_nasdaq": 109.16,
+    "outperform_6m_vs_nasdaq": 67.56,
+    "outperform_1m_vs_nasdaq": -16.36,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.074159+00:00"
-  }
+  "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017."
 }

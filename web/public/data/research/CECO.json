@@ -1,0 +1,127 @@
+{
+  "ticker": "CECO",
+  "company": "CECO Environmental Corp.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Pollution & Treatment Controls",
+  "generated_at": "2026-05-07T06:38:21.407753+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 3094049024,
+    "shares_outstanding": 35873031,
+    "employees": 1540,
+    "country": "United States",
+    "website": "https://www.cecoenviro.com",
+    "beta": 1.525
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.05,
+    "roa": 0.04,
+    "profit_margin": 0.02,
+    "operating_margin": 0.06,
+    "gross_margin": 0.34,
+    "revenue_growth_ttm": 0.17,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      774381000.0,
+      557933000.0,
+      544845000.0,
+      422627000.0,
+      null
+    ],
+    "annual_operating_income": [
+      51713000.0,
+      39616000.0,
+      37077000.0,
+      27943000.0,
+      null
+    ],
+    "annual_eps": [
+      1.37,
+      0.36,
+      0.37,
+      0.5,
+      null
+    ],
+    "annual_free_cf": [
+      -5482000.0,
+      7460000.0,
+      36263000.0,
+      26273000.0,
+      null
+    ],
+    "annual_total_debt": [
+      240041000.0,
+      245072000.0,
+      155478000.0,
+      122885000.0,
+      null
+    ],
+    "annual_equity": [
+      317528000.0,
+      247689000.0,
+      232643000.0,
+      213224000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -0.01,
+      0.08,
+      0.04,
+      0.26,
+      0.98,
+      null
+    ],
+    "quarterly_revenue": [
+      205919000.0,
+      214694000.0,
+      197599000.0,
+      185391000.0,
+      176697000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "sales_yoy_pct": 16.5,
+    "ni_cagr_3y_pct": 42.17,
+    "roe_pct": 5.41
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 90,
+    "score": 70.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.88,
+    "trailing_pe": 226.9737,
+    "forward_pe": 38.36744,
+    "ev_to_ebitda": 38.737,
+    "price_to_sales": 3.850221,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 195.3,
+    "outperform_6m_vs_nasdaq": 57.46,
+    "outperform_1m_vs_nasdaq": 29.06,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

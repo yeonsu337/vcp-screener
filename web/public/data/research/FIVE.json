@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
-  "generated_at": "2026-05-06T01:04:04.616033+00:00",
+  "generated_at": "2026-05-07T06:35:15.727802+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 12536466432,
+    "market_cap": 12948965376,
     "shares_outstanding": 55294929,
     "employees": 7800,
     "country": "United States",
@@ -18,6 +18,88 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.18,
+    "roa": 0.06,
+    "profit_margin": 0.08,
+    "operating_margin": 0.18,
+    "gross_margin": 0.36,
+    "revenue_growth_ttm": 0.24,
+    "earnings_growth_ttm": 0.26,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      4764147000.0,
+      3876527000.0,
+      3559369000.0,
+      3076308000.0,
+      null
+    ],
+    "annual_operating_income": [
+      457399000.0,
+      323817000.0,
+      385571000.0,
+      345043000.0,
+      null
+    ],
+    "annual_eps": [
+      6.47,
+      4.6,
+      5.41,
+      4.69,
+      null
+    ],
+    "annual_free_cf": [
+      411687000.0,
+      106654000.0,
+      164569000.0,
+      62972000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2032189000.0,
+      1981567000.0,
+      1738550000.0,
+      1496751000.0,
+      null
+    ],
+    "annual_equity": [
+      2193290000.0,
+      1808327000.0,
+      1584956000.0,
+      1361929000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-01-31",
+      "2025-01-31",
+      "2024-01-31",
+      "2023-01-31",
+      "2022-01-31"
+    ],
+    "quarterly_eps": [
+      4.28,
+      0.66,
+      0.77,
+      0.75,
+      3.39,
+      null
+    ],
+    "quarterly_revenue": [
+      1728480000.0,
+      1038293000.0,
+      1026847000.0,
+      970527000.0,
+      1390885000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31",
+      "2024-10-31"
+    ],
     "eps_qoq_yoy_pct": 27.1,
     "sales_yoy_pct": 24.3,
     "ni_cagr_3y_pct": 11.1,
@@ -25,25 +107,22 @@
   },
   "category_c_market": {},
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 62.1,
+    "rs_rating": 87,
+    "score": 64.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.1833,
-    "trailing_pe": 35.041733,
-    "forward_pe": 25.007114,
-    "ev_to_ebitda": 20.984,
-    "price_to_sales": 2.6314187,
+    "peg_ratio": 1.1612,
+    "trailing_pe": 36.250774,
+    "forward_pe": 25.829947,
+    "ev_to_ebitda": 21.609,
+    "price_to_sales": 2.7180028,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 128.04,
-    "outperform_6m_vs_nasdaq": 37.41,
-    "outperform_1m_vs_nasdaq": -18.13,
+    "outperform_1y_vs_nasdaq": 138.06,
+    "outperform_6m_vs_nasdaq": 39.39,
+    "outperform_1m_vs_nasdaq": -13.98,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.057832+00:00"
-  }
+  "wikipedia_summary": ""
 }

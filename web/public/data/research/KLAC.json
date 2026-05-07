@@ -1,0 +1,128 @@
+{
+  "ticker": "KLAC",
+  "company": "KLA Corporation",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "generated_at": "2026-05-07T06:44:32.674908+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 237257457664,
+    "shares_outstanding": 130627521,
+    "employees": 15000,
+    "country": "United States",
+    "website": "https://www.kla.com",
+    "beta": 1.501
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.95,
+    "roa": 0.21,
+    "profit_margin": 0.36,
+    "operating_margin": 0.41,
+    "gross_margin": 0.61,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.12,
+    "dividend_yield": 0.42,
+    "payout_ratio": 0.22,
+    "annual_revenue": [
+      12156162000.0,
+      9812247000.0,
+      10496056000.0,
+      9211883000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5014227000.0,
+      3635684000.0,
+      3994696000.0,
+      3654181000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      20.28,
+      24.15,
+      21.92,
+      13.37
+    ],
+    "annual_free_cf": [
+      3741694000.0,
+      3031191000.0,
+      3328214000.0,
+      3005382000.0,
+      null
+    ],
+    "annual_total_debt": [
+      6088282000.0,
+      6819643000.0,
+      6063132000.0,
+      6774305000.0,
+      null
+    ],
+    "annual_equity": [
+      4692453000.0,
+      3368328000.0,
+      2919753000.0,
+      1401351000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      9.12,
+      8.68,
+      8.47,
+      9.06,
+      8.16,
+      null
+    ],
+    "quarterly_revenue": [
+      3415078000.0,
+      3297146000.0,
+      3209696000.0,
+      3174741000.0,
+      3063029000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 10.3,
+    "sales_yoy_pct": 11.5,
+    "ni_cagr_3y_pct": 6.93,
+    "roe_pct": 94.98
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 65.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.9275,
+    "trailing_pe": 51.380203,
+    "forward_pe": 36.613644,
+    "ev_to_ebitda": 40.758,
+    "price_to_sales": 18.115873,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 119.16,
+    "outperform_6m_vs_nasdaq": 41.02,
+    "outperform_1m_vs_nasdaq": -0.09,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing."
+}

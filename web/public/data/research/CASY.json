@@ -1,0 +1,118 @@
+{
+  "ticker": "CASY",
+  "company": "Casey's General Stores, Inc.",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
+  "generated_at": "2026-05-07T06:37:49.968244+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 31808618496,
+    "shares_outstanding": 36959030,
+    "employees": 23338,
+    "country": "United States",
+    "website": "https://www.caseys.com",
+    "beta": 0.65
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.18,
+    "roa": 0.07,
+    "profit_margin": 0.04,
+    "operating_margin": 0.05,
+    "gross_margin": 0.25,
+    "revenue_growth_ttm": 0.0,
+    "earnings_growth_ttm": 0.5,
+    "dividend_yield": 0.27,
+    "payout_ratio": 0.13,
+    "annual_revenue": [
+      15940899000.0,
+      14862913000.0,
+      15094475000.0,
+      12952594000.0
+    ],
+    "annual_operating_income": [
+      796400000.0,
+      709601000.0,
+      639333000.0,
+      497700000.0
+    ],
+    "annual_eps": [
+      14.64,
+      13.43,
+      11.91,
+      9.1
+    ],
+    "annual_free_cf": [
+      584630000.0,
+      370949000.0,
+      405383000.0,
+      462266000.0
+    ],
+    "annual_total_debt": [
+      2957899000.0,
+      1751108000.0,
+      1673374000.0,
+      1687869000.0
+    ],
+    "annual_equity": [
+      3508670000.0,
+      3015381000.0,
+      2660666000.0,
+      2240838000.0
+    ],
+    "annual_periods": [
+      "2025-04-30",
+      "2024-04-30",
+      "2023-04-30",
+      "2022-04-30"
+    ],
+    "quarterly_eps": [
+      3.49,
+      5.53,
+      5.77,
+      2.63,
+      2.33
+    ],
+    "quarterly_revenue": [
+      3916132000.0,
+      4506084000.0,
+      4567106000.0,
+      3992758000.0,
+      3903633000.0
+    ],
+    "quarterly_periods": [
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31"
+    ],
+    "eps_qoq_yoy_pct": 49.3,
+    "sales_yoy_pct": 0.3,
+    "ni_cagr_3y_pct": 17.17,
+    "roe_pct": 17.88
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 84,
+    "score": 70.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.0455,
+    "trailing_pe": 49.26177,
+    "forward_pe": 42.761997,
+    "ev_to_ebitda": 24.576,
+    "price_to_sales": 1.8730696,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 39.9,
+    "outperform_6m_vs_nasdaq": 58.93,
+    "outperform_1m_vs_nasdaq": -1.59,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of October 1, 2023, Casey's had 2,500 stores in 16 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S."
+}

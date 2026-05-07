@@ -1,0 +1,125 @@
+{
+  "ticker": "STX",
+  "company": "Seagate Technology Holdings plc",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "generated_at": "2026-05-07T06:29:33.701741+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 176338157568,
+    "shares_outstanding": 224228992,
+    "employees": 30000,
+    "country": "Singapore",
+    "website": "https://www.seagate.com",
+    "beta": 2.009
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 17.88,
+    "roa": 0.25,
+    "profit_margin": 0.22,
+    "operating_margin": 0.36,
+    "gross_margin": 0.42,
+    "revenue_growth_ttm": 0.44,
+    "earnings_growth_ttm": 1.08,
+    "dividend_yield": 0.38,
+    "payout_ratio": 0.28,
+    "annual_revenue": [
+      9097000000.0,
+      6551000000.0,
+      7384000000.0,
+      11661000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1915000000.0,
+      422000000.0,
+      60000000.0,
+      1958000000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      1.58,
+      -2.56,
+      7.36,
+      5.36
+    ],
+    "annual_free_cf": [
+      818000000.0,
+      664000000.0,
+      626000000.0,
+      1276000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4995000000.0,
+      5674000000.0,
+      5451000000.0,
+      5696000000.0,
+      null
+    ],
+    "annual_equity": [
+      -453000000.0,
+      -1491000000.0,
+      -1199000000.0,
+      109000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      3.27,
+      2.6,
+      2.43,
+      2.24,
+      1.57
+    ],
+    "quarterly_revenue": [
+      3112000000.0,
+      2825000000.0,
+      2629000000.0,
+      2444000000.0,
+      2160000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 120.0,
+    "sales_yoy_pct": 44.1,
+    "ni_cagr_3y_pct": -3.78,
+    "roe_pct": 1787.97
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 98,
+    "score": 74.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.5109,
+    "trailing_pe": 74.6129,
+    "forward_pe": 29.932573,
+    "ev_to_ebitda": 51.044,
+    "price_to_sales": 16.016182,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 706.4,
+    "outperform_6m_vs_nasdaq": 189.03,
+    "outperform_1m_vs_nasdaq": 50.43,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

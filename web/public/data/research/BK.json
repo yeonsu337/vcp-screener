@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Banks - Diversified",
-  "generated_at": "2026-05-06T01:02:21.754135+00:00",
+  "generated_at": "2026-05-07T06:34:44.690301+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
   "yf_metadata": {
-    "market_cap": 90849124352,
+    "market_cap": 91727691776,
     "shares_outstanding": 686379000,
     "employees": 47200,
     "country": "United States",
@@ -18,6 +18,85 @@
   },
   "category_a_business": {},
   "category_b_financials": {
+    "roe": 0.13,
+    "roa": 0.01,
+    "profit_margin": 0.29,
+    "operating_margin": 0.38,
+    "gross_margin": 0.0,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": 0.42,
+    "dividend_yield": 1.59,
+    "payout_ratio": 0.26,
+    "annual_revenue": [
+      19759000000.0,
+      18258000000.0,
+      17344000000.0,
+      16186000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      7.4,
+      5.8,
+      4.0,
+      2.9,
+      null
+    ],
+    "annual_free_cf": [
+      5177000000.0,
+      -782000000.0,
+      4692000000.0,
+      13722000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      34298000000.0,
+      31380000000.0,
+      31736000000.0,
+      30855000000.0,
+      null
+    ],
+    "annual_equity": [
+      44313000000.0,
+      41318000000.0,
+      40770000000.0,
+      40734000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.24,
+      2.02,
+      1.88,
+      1.93,
+      1.58
+    ],
+    "quarterly_revenue": [
+      5336000000.0,
+      5106000000.0,
+      5001000000.0,
+      4965000000.0,
+      4687000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 33.8,
     "sales_yoy_pct": 13.4,
     "ni_cagr_3y_pct": 29.48,
@@ -26,24 +105,21 @@
   "category_c_market": {},
   "category_d_thesis": {
     "rs_rating": 71,
-    "score": 64.0,
+    "score": 64.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4621,
-    "trailing_pe": 16.421835,
-    "forward_pe": 13.765518,
+    "peg_ratio": 1.4674,
+    "trailing_pe": 16.580645,
+    "forward_pe": 13.89864,
     "ev_to_ebitda": null,
-    "price_to_sales": 4.377427,
+    "price_to_sales": 4.4197598,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 23.29,
-    "outperform_6m_vs_nasdaq": 16.92,
-    "outperform_1m_vs_nasdaq": -7.65,
+    "outperform_1y_vs_nasdaq": 20.87,
+    "outperform_6m_vs_nasdaq": 16.3,
+    "outperform_1m_vs_nasdaq": -9.69,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2024, it was the 13th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:46:47.061980+00:00"
-  }
+  "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2024, it was the 13th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board."
 }
