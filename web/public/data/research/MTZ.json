@@ -1,0 +1,45 @@
+{
+  "ticker": "MTZ",
+  "company": "Mastec Inc",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "generated_at": "2026-05-07T05:03:49.349076+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 514.4,
+    "sales_yoy_pct": 34.5,
+    "ni_cagr_3y_pct": 128.71,
+    "roe_pct": 15.01
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 91.0,
+    "vcp_quality": 18.8,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 156.99,
+    "outperform_6m_vs_nasdaq": 106.5,
+    "outperform_1m_vs_nasdaq": 10.76
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

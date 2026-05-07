@@ -1,0 +1,46 @@
+{
+  "ticker": "XPO",
+  "company": "XPO, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Trucking",
+  "generated_at": "2026-05-07T05:05:23.176456+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 24841605120,
+    "shares_outstanding": 117409981,
+    "employees": 37000,
+    "country": "United States",
+    "website": "https://www.xpo.com",
+    "beta": 1.666
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 46.4,
+    "sales_yoy_pct": 7.3,
+    "ni_cagr_3y_pct": -22.0,
+    "roe_pct": 19.94
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 82,
+    "score": 62.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.3804,
+    "trailing_pe": 72.4589,
+    "forward_pe": 35.544014,
+    "ev_to_ebitda": 22.16,
+    "price_to_sales": 2.9933252,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 48.79,
+    "outperform_6m_vs_nasdaq": 44.59,
+    "outperform_1m_vs_nasdaq": -11.73,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "XPO, Inc., formerly XPO Logistics, is an American transportation company that conducts less-than-truckload shipping, or less than load (LTL), in North America. The company has headquarters in Greenwich, Connecticut, and has 592 locations globally. XPO is the second largest provider of LTL services in North America, operating in 99 percent of all U.S. postal codes."
+}

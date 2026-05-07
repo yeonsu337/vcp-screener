@@ -1,0 +1,46 @@
+{
+  "ticker": "ECG",
+  "company": "Everus Construction Group, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "generated_at": "2026-05-07T05:04:20.698410+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "yf_metadata": {
+    "market_cap": 8634199040,
+    "shares_outstanding": 51041606,
+    "employees": 9400,
+    "country": "United States",
+    "website": "https://www.everus.com",
+    "beta": null
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 60.4,
+    "sales_yoy_pct": 33.2,
+    "ni_cagr_3y_pct": 17.37,
+    "roe_pct": 38.34
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 73.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 42.71717,
+    "forward_pe": 36.196888,
+    "ev_to_ebitda": 29.994,
+    "price_to_sales": 2.3046737,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 227.8,
+    "outperform_6m_vs_nasdaq": 79.07,
+    "outperform_1m_vs_nasdaq": 24.31,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

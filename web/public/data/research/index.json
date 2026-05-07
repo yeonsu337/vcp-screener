@@ -120,6 +120,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "ECG",
+    "company": "Everus Construction Group, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T05:04:20.698410+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "ECVT",
     "company": "Ecovyst Inc.",
     "market": "US",
@@ -180,6 +190,16 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "HWM",
+    "company": "Howmet Aerospace Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T05:04:52.054727+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
     "ticker": "JBL",
     "company": "Jabil Inc.",
     "market": "US",
@@ -218,6 +238,16 @@
     "primary_total": 14,
     "generated_at": "2026-05-06T00:58:52.617093+00:00",
     "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "MTZ",
+    "company": "Mastec Inc",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T05:03:49.349076+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "NXT",
@@ -318,6 +348,16 @@
     "primary_total": 14,
     "generated_at": "2026-05-06T01:15:16.892421+00:00",
     "llm_status": "unavailable: rate-limited (429)"
+  },
+  {
+    "ticker": "XPO",
+    "company": "XPO, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 14,
+    "generated_at": "2026-05-07T05:05:23.176456+00:00",
+    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
     "ticker": "YOU",
