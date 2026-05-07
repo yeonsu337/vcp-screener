@@ -33,7 +33,12 @@ type ChartMeta = {
 };
 
 async function fetchChartOne(symbol: string): Promise<LiveQuote> {
-  const url = `${YF_CHART}/${encodeURIComponent(symbol)}?interval=1d&range=1d`;
+  // 1m bars + includePrePost=true so the last bar reflects the most recent
+  // trade in pre/regular/post sessions. Falls back to meta.regularMarketPrice
+  // when intraday bars are unavailable (e.g. illiquid name, indices).
+  const url =
+    `${YF_CHART}/${encodeURIComponent(symbol)}` +
+    `?interval=1m&range=1d&includePrePost=true`;
   const res = await fetch(url, {
     headers: { "User-Agent": UA, Accept: "application/json" },
     cache: "no-store",
@@ -48,7 +53,8 @@ async function fetchChartOne(symbol: string): Promise<LiveQuote> {
     };
   }
   const json = await res.json();
-  const meta: ChartMeta | undefined = json?.chart?.result?.[0]?.meta;
+  const result = json?.chart?.result?.[0];
+  const meta: ChartMeta | undefined = result?.meta;
   if (!meta) {
     return {
       symbol,
@@ -58,7 +64,17 @@ async function fetchChartOne(symbol: string): Promise<LiveQuote> {
       volume: null,
     };
   }
-  const price = meta.regularMarketPrice ?? null;
+  // Last non-null close from the 1m series — captures pre/post-market trades.
+  const closes: (number | null)[] = result?.indicators?.quote?.[0]?.close ?? [];
+  let lastClose: number | null = null;
+  for (let i = closes.length - 1; i >= 0; i--) {
+    const v = closes[i];
+    if (v != null && Number.isFinite(v)) {
+      lastClose = v;
+      break;
+    }
+  }
+  const price = lastClose ?? meta.regularMarketPrice ?? null;
   const prev = meta.chartPreviousClose ?? meta.previousClose ?? null;
   const change = price !== null && prev !== null ? price - prev : null;
   const pct =

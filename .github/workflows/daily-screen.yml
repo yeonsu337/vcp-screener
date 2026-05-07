@@ -30,6 +30,10 @@ jobs:
       - name: Run daily screener
         run: python scripts/run_daily.py
 
+      - name: Fetch macro / sentiment / liquidity data
+        run: python scripts/fetch_macro.py
+        continue-on-error: true
+
       - name: Generate company research (Primary 12+)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

@@ -166,20 +166,39 @@ export default function Home() {
       {/* Soft gate ticker chips \u2014 Research-eligible candidates */}
       {softGate.length > 0 && (
         <section className="mb-6">
-          <div className="text-[10px] font-semibold text-muted uppercase tracking-wide mb-1.5">
-            Soft Gate (Primary {SOFT_GATE_THRESHOLD}+/14) \u2014 chart + research candidates
+          <div className="flex items-center justify-between mb-1.5 flex-wrap gap-2">
+            <div className="text-[10px] font-semibold text-muted uppercase tracking-wide">
+              Soft Gate (Primary {SOFT_GATE_THRESHOLD}+/14) \u2014 chart + research candidates
+            </div>
+            <div className="flex items-center gap-3 text-[10px] text-muted">
+              <span className="inline-flex items-center gap-1">
+                <span className="inline-block w-2 h-2 rounded-sm bg-emerald-400/70" />
+                \ub9e4\uc218 \uc6b0\uc120 (Primary 14/14)
+              </span>
+              <span className="inline-flex items-center gap-1">
+                <span className="inline-block w-2 h-2 rounded-sm bg-yellow-400/70" />
+                \ud6c4\uc21c\uc704 ({SOFT_GATE_THRESHOLD}\u201313/14)
+              </span>
+            </div>
           </div>
           <div className="flex flex-wrap gap-1.5">
             {softGate.slice(0, 60).map((r) => {
               const passed = countPrimaryPassed(r.rules);
+              const priority = passed >= 14;
+              const chipCls = priority
+                ? "bg-emerald-500/10 border-emerald-500/30 hover:bg-emerald-500/20"
+                : "bg-yellow-500/10 border-yellow-500/30 hover:bg-yellow-500/20";
+              const tickerCls = priority
+                ? "text-emerald-400"
+                : "text-yellow-400";
               return (
                 <Link
                   key={r.ticker}
                   href={`/screener/${encodeURIComponent(r.ticker)}`}
-                  className="inline-flex items-baseline gap-1.5 px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 hover:bg-emerald-500/20 transition text-xs"
-                  title={`${r.company || ""} \u00b7 Primary ${passed}/14 \u00b7 RS ${r.rs_rating ?? "\u2014"}`}
+                  className={`inline-flex items-baseline gap-1.5 px-2 py-0.5 rounded border transition text-xs ${chipCls}`}
+                  title={`${r.company || ""} \u00b7 Primary ${passed}/14 \u00b7 RS ${r.rs_rating ?? "\u2014"} \u00b7 ${priority ? "\ub9e4\uc218 \uc6b0\uc120" : "\ud6c4\uc21c\uc704"}`}
                 >
-                  <span className="font-semibold text-emerald-400">{r.ticker}</span>
+                  <span className={`font-semibold ${tickerCls}`}>{r.ticker}</span>
                   <span className="text-[9px] text-muted num">{passed}/14</span>
                 </Link>
               );
