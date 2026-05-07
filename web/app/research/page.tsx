@@ -33,6 +33,7 @@ type IndexEntry = {
   primary_total: number;
   generated_at: string;
   llm_status: string;
+  report_count?: number;
 };
 
 function loadResearchIndex(): IndexEntry[] {
@@ -138,15 +139,22 @@ export default function ResearchPage() {
                     </div>
                   </div>
                   <div className="text-[10px] text-muted">{r.sector}</div>
-                  <div className="flex items-center justify-between mt-2 pt-2 border-t border-border/40">
+                  <div className="flex items-center justify-between mt-2 pt-2 border-t border-border/40 gap-2">
                     <span className="text-[10px] text-muted">{fmtDate(r.generated_at)}</span>
-                    <span
-                      className={`text-[10px] font-semibold ${
-                        llmOk ? "text-emerald-400" : "text-yellow-400"
-                      }`}
-                    >
-                      {llmOk ? "✓ 전체" : "⚠ 정량만"}
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      {(r.report_count ?? 0) > 0 && (
+                        <span className="text-[10px] font-semibold text-blue-400">
+                          📄 {r.report_count}
+                        </span>
+                      )}
+                      <span
+                        className={`text-[10px] font-semibold ${
+                          llmOk ? "text-emerald-400" : "text-yellow-400"
+                        }`}
+                      >
+                        {llmOk ? "✓ 전체" : "⚠ 정량만"}
+                      </span>
+                    </div>
                   </div>
                 </Link>
               );

@@ -113,6 +113,24 @@ type ResearchData = {
     exit_signals?: LlmList;
   };
   wikipedia_summary?: string;
+  analyst_reports?: AnalystReport[];
+};
+
+type AnalystReport = {
+  source_filename: string;
+  source_broker: string;
+  source_title: string;
+  source_mtime?: number;
+  ingested_at: string;
+  summary?: string;
+  rating?: string;
+  price_target?: string;
+  prior_price_target?: string;
+  thesis?: string[];
+  catalysts?: string[];
+  risks?: string[];
+  key_numbers?: string[];
+  report_date?: string;
 };
 
 // =============================================================================
@@ -285,6 +303,89 @@ function NotAvailable() {
     <div className="text-xs text-muted italic">
       LLM 데이터 없음. <code className="bg-border/30 px-1 rounded">GEMINI_API_KEY</code>{" "}
       등록 후 다음 데일리 스캔에서 채워짐.
+    </div>
+  );
+}
+
+function ratingColor(rating?: string): string {
+  if (!rating) return "text-muted";
+  const up = rating.toUpperCase();
+  if (up.includes("BUY") || up.includes("OUTPERFORM") || up.includes("OVERWEIGHT")) {
+    return "text-emerald-400";
+  }
+  if (up.includes("SELL") || up.includes("UNDERPERFORM") || up.includes("UNDERWEIGHT")) {
+    return "text-red-400";
+  }
+  return "text-yellow-400";
+}
+
+function AnalystReportCard({ r }: { r: AnalystReport }) {
+  return (
+    <div className="border border-border/60 rounded p-3">
+      <div className="flex items-baseline justify-between gap-2 mb-1.5 flex-wrap">
+        <div className="flex items-baseline gap-2 flex-wrap">
+          <span className="text-xs font-semibold text-accent">{r.source_broker}</span>
+          {r.report_date && (
+            <span className="text-[10px] text-muted">{r.report_date}</span>
+          )}
+          {r.rating && r.rating !== "N/A" && (
+            <span className={`text-[10px] font-semibold uppercase ${ratingColor(r.rating)}`}>
+              {r.rating}
+            </span>
+          )}
+          {r.price_target && r.price_target !== "N/A" && (
+            <span className="text-[10px] font-semibold text-text/90">
+              PT {r.price_target}
+              {r.prior_price_target && r.prior_price_target !== r.price_target && (
+                <span className="text-muted"> (prev {r.prior_price_target})</span>
+              )}
+            </span>
+          )}
+        </div>
+      </div>
+      <div className="text-[11px] text-muted leading-snug mb-2 italic">
+        {r.source_title}
+      </div>
+      {r.summary && (
+        <p className="text-sm leading-relaxed mb-2">{r.summary}</p>
+      )}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-2">
+        {r.thesis && r.thesis.length > 0 && (
+          <div>
+            <div className="text-[10px] font-semibold text-emerald-400 uppercase mb-1">
+              논거
+            </div>
+            <Bullets items={r.thesis} />
+          </div>
+        )}
+        {r.catalysts && r.catalysts.length > 0 && (
+          <div>
+            <div className="text-[10px] font-semibold text-blue-400 uppercase mb-1">
+              촉매 / 이벤트
+            </div>
+            <Bullets items={r.catalysts} />
+          </div>
+        )}
+        {r.risks && r.risks.length > 0 && (
+          <div>
+            <div className="text-[10px] font-semibold text-red-400 uppercase mb-1">
+              리스크
+            </div>
+            <Bullets items={r.risks} />
+          </div>
+        )}
+        {r.key_numbers && r.key_numbers.length > 0 && (
+          <div>
+            <div className="text-[10px] font-semibold text-muted uppercase mb-1">
+              핵심 수치
+            </div>
+            <Bullets items={r.key_numbers} />
+          </div>
+        )}
+      </div>
+      <div className="mt-2 pt-2 border-t border-border/40 text-[9px] text-muted/70 truncate">
+        출처: {r.source_filename}
+      </div>
     </div>
   );
 }
@@ -783,8 +884,25 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </Section>
       </div>
 
+      {/* === F. Analyst Reports (sell-side digest) === */}
+      {data.analyst_reports && data.analyst_reports.length > 0 && (
+        <section className="mt-6 card p-4">
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-muted">
+              F. 애널리스트 리포트 ({data.analyst_reports.length})
+            </h3>
+            <span className="text-[10px] text-muted">Bloomberg sell-side 리포트 추출</span>
+          </div>
+          <div className="space-y-3">
+            {data.analyst_reports.map((r, i) => (
+              <AnalystReportCard key={r.source_filename || i} r={r} />
+            ))}
+          </div>
+        </section>
+      )}
+
       <footer className="mt-10 pt-6 border-t border-border text-xs text-muted">
-        출처: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.5 Flash (무료 티어).
+        출처: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.5 Flash (무료 티어), sell-side 리포트.
         자동 생성 · 투자 자문 아님.
       </footer>
     </main>
