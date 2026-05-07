@@ -69,7 +69,7 @@ function detectMarket(ticker: string): string {
 
 async function fetchOhlcv(
   symbol: string,
-  range = "1y",
+  range = "2y",
   interval = "1d",
 ): Promise<OhlcvBar[]> {
   const url = `${YF_CHART}/${encodeURIComponent(symbol)}?range=${range}&interval=${interval}&includePrePost=false`;
