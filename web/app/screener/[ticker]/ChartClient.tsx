@@ -569,8 +569,43 @@ export default function ChartClient({
       ? ((livePrice / candidate.pivot_price - 1) * 100)
       : candidate.pct_to_pivot;
 
+  // VCP intraday invalidation watch — flags catastrophic single-day drops.
+  // Daily scan runs once at ~23:55 UTC, so a same-day -10% gap-down won't be
+  // reflected in the cached `detected` flag until the next scan. Show a banner
+  // so users don't act on a stale VCP signal (e.g., ANET dropping 14% intraday
+  // while still tagged "detected" from yesterday's close).
+  const dropAlert =
+    livePct != null && livePct <= -7
+      ? {
+          severity: livePct <= -10 ? "critical" : "warning",
+          pct: livePct,
+        }
+      : null;
+
   return (
     <div>
+      {/* VCP invalidation watch — fires on intraday drops that the daily scan
+          hasn't seen yet. Stops users acting on a stale "detected" flag. */}
+      {dropAlert && candidate.detected && (
+        <div
+          className={`mb-3 p-2.5 rounded border text-xs ${
+            dropAlert.severity === "critical"
+              ? "border-red-500/40 bg-red-500/10 text-red-300"
+              : "border-orange-500/40 bg-orange-500/10 text-orange-300"
+          }`}
+        >
+          <div className="font-semibold mb-1">
+            {dropAlert.severity === "critical" ? "🛑" : "⚠"} 오늘{" "}
+            {dropAlert.pct.toFixed(1)}% 급락 — VCP 무효 가능성
+          </div>
+          <div className="leading-relaxed opacity-90">
+            데일리 스캔은 1일 1회 (23:55 UTC) 실행. 캐시된 "detected" 플래그는 어제
+            종가 기준이며, 오늘 단일 세션 -7%↓ 하락은 반영되지 않음. Minervini
+            -7% 룰에 따라 매수 보류 권장. 다음 스캔 후 자동 invalidate 됨.
+          </div>
+        </div>
+      )}
+
       {/* Ratings panel */}
       <RatingsPanel c={candidate} />
 

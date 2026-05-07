@@ -48,6 +48,14 @@ const sections = [
     statusColor: liveBadge,
   },
   {
+    title: "Macro Dashboard",
+    description: "美/韓 시장심리·유동성·매크로 지표 (VIX, F&G, M2, 환율, 금리) 한눈에",
+    href: "/macro",
+    icon: "\u{1F30D}",
+    status: "Live",
+    statusColor: liveBadge,
+  },
+  {
     title: "Portfolio",
     description: "Track your positions, P&L, allocation. Manual or API-linked.",
     href: "/portfolio",

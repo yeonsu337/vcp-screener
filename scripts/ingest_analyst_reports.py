@@ -69,13 +69,16 @@ GEMINI_MODEL = "gemini-2.5-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
+# Groq fallback — free 14400 RPD (vs Gemini's 250 RPD), much higher headroom
+GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
 class LLMUnavailable(Exception):
     pass
 
 
-def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
+def _gemini_call(prompt: str, max_output_tokens: int) -> str:
     api_key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
@@ -93,15 +96,62 @@ def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
         timeout=60,
     )
     if r.status_code == 429:
-        raise LLMUnavailable("rate-limited (429)")
+        raise LLMUnavailable("gemini rate-limited (429)")
     if r.status_code >= 400:
-        raise LLMUnavailable(f"http {r.status_code}: {r.text[:200]}")
+        raise LLMUnavailable(f"gemini http {r.status_code}")
     j = r.json()
     cands = j.get("candidates") or []
     if not cands:
-        raise LLMUnavailable(f"no candidates: {j}")
+        raise LLMUnavailable("gemini no candidates")
     parts = cands[0].get("content", {}).get("parts") or []
-    return "".join(p.get("text", "") for p in parts)
+    text = "".join(p.get("text", "") for p in parts)
+    if not text.strip():
+        raise LLMUnavailable("gemini empty response")
+    return text
+
+
+def _groq_call(prompt: str, max_output_tokens: int) -> str:
+    api_key = (os.environ.get("GROQ_API_KEY") or "").strip().lstrip("﻿")
+    if not api_key:
+        raise LLMUnavailable("GROQ_API_KEY not set")
+    body = {
+        "model": GROQ_MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.2,
+        "max_tokens": max_output_tokens,
+        "response_format": {"type": "json_object"},
+    }
+    r = requests.post(
+        GROQ_URL,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json=body,
+        timeout=60,
+    )
+    if r.status_code == 429:
+        raise LLMUnavailable("groq rate-limited (429)")
+    if r.status_code >= 400:
+        raise LLMUnavailable(f"groq http {r.status_code}: {r.text[:200]}")
+    j = r.json()
+    choices = j.get("choices") or []
+    if not choices:
+        raise LLMUnavailable("groq no choices")
+    return choices[0].get("message", {}).get("content", "")
+
+
+def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
+    """Try Gemini first, fall back to Groq if unavailable. Both are free tiers."""
+    try:
+        return _gemini_call(prompt, max_output_tokens)
+    except LLMUnavailable as e:
+        # Only fall back when Gemini quota/availability fails — not for missing key
+        # if Groq key also missing (re-raise the Gemini error).
+        if not os.environ.get("GROQ_API_KEY"):
+            raise
+        print(f"  [gemini -> groq fallback] {e}")
+        return _groq_call(prompt, max_output_tokens)
 
 
 def parse_filename(name: str) -> dict | None:

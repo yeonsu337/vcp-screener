@@ -421,6 +421,7 @@ EXIT_TRAILING_KICK_IN_PCT = 10.0   # trailing only kicks in once peak gain ≥ +
 EXIT_50DMA_VOLUME_MULT = 1.5       # 50d MA break must coincide with vol ≥ 1.5× SMA50
 EXIT_RS_BELOW = 40                 # RS Rating collapse
 EXIT_ABSENT_DAYS = 10              # 10 consecutive days not in detected list
+EXIT_SINGLE_DAY_DROP_PCT = -10.0   # single-session catastrophic drop (gap-down / earnings miss)
 
 # Display-only signals (do NOT trigger exit — let 10-baggers run)
 PROFIT_SIGNAL_PCT_PARTIAL = 20.0   # +20% — "partial take signal"
@@ -445,6 +446,32 @@ def _update_peak_metrics(history: dict) -> None:
         # Profit-taking flags (display only)
         h["profit_signal_partial"] = h.get("max_return_pct", 0) >= PROFIT_SIGNAL_PCT_PARTIAL
         h["profit_signal_full"] = h.get("max_return_pct", 0) >= PROFIT_SIGNAL_PCT_FULL
+
+
+def _check_single_day_drop(df: "pd.DataFrame") -> tuple[bool, dict]:
+    """
+    EX7 — single-session catastrophic drop (≤ -10% close-to-close).
+    Catches earnings-miss gap-downs that would otherwise stay "detected" until
+    EX1 (-8% from entry) or EX5 (trailing) eventually fire from a stale signal.
+    """
+    if df is None or df.empty or len(df) < 2 or "Close" not in df.columns:
+        return False, {}
+    try:
+        close = df["Close"].dropna()
+        if len(close) < 2:
+            return False, {}
+        prev = float(close.iloc[-2])
+        last = float(close.iloc[-1])
+        if prev <= 0:
+            return False, {}
+        pct = (last - prev) / prev * 100
+        return (pct <= EXIT_SINGLE_DAY_DROP_PCT), {
+            "prev": round(prev, 2),
+            "last": round(last, 2),
+            "pct": round(pct, 2),
+        }
+    except Exception:
+        return False, {}
 
 
 def _check_50dma_break(df: pd.DataFrame) -> tuple[bool, dict]:
@@ -524,6 +551,14 @@ def _check_exits(
             if broke:
                 reasons.append(
                     f"EX4 50d MA break (close {meta.get('close')} < SMA50 {meta.get('sma50')}, vol {meta.get('vol_ratio')}×)"
+                )
+
+        # EX7: single-day catastrophic drop (≤ -10% close-to-close)
+        if ohlcv_map is not None and ticker in ohlcv_map:
+            crashed, meta7 = _check_single_day_drop(ohlcv_map[ticker])
+            if crashed:
+                reasons.append(
+                    f"EX7 single-day {meta7.get('pct')}% drop ({meta7.get('prev')}→{meta7.get('last')})"
                 )
 
         # EX3: RS rating collapse

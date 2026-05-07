@@ -1,0 +1,53 @@
+{
+  "ticker": "IBKR",
+  "company": "",
+  "market": "US",
+  "sector": "",
+  "industry": "",
+  "generated_at": "2026-05-07T06:53:27.386048+00:00",
+  "primary_passed": 0,
+  "primary_total": 14,
+  "llm_status": "report-only",
+  "yf_metadata": {},
+  "category_a_business": {},
+  "category_b_financials": {},
+  "category_c_market": {},
+  "category_d_thesis": {},
+  "category_e_risks": {},
+  "analyst_reports": [
+    {
+      "source_filename": "Barclays IBKR Interactive Brokers Group Inc. 1Q26 Review EPS In Line.pdf",
+      "source_broker": "Barclays",
+      "source_title": "Interactive Brokers Group Inc. 1Q26 Review EPS In Line",
+      "source_mtime": 1778133740.0,
+      "ingested_at": "2026-05-07T06:53:27.385669+00:00",
+      "summary": "1Q26 EPS 시장 예상치 부합, 순매출 소폭 상회. 장기 투자 논거 유지.",
+      "rating": "OVERWEIGHT",
+      "price_target": "$93.00",
+      "prior_price_target": "$85.00",
+      "thesis": [
+        "인상적인 성장 이력 및 약 30% 계좌 성장 목표",
+        "파편화된 국제 시장에서 독점적 위치",
+        "경쟁사 대비 빠른 성장 및 높은 마진 유지"
+      ],
+      "catalysts": [
+        "견고한 계좌 성장 및 자금 유입 지속",
+        "건전한 거래 활동, 특히 야간 거래량 급증",
+        "미국 및 유럽 암호화폐 전송 기능 활성화",
+        "패턴 데이 트레이딩 규칙 폐지 (긍정적 영향 예상)"
+      ],
+      "risks": [
+        "규제 리스크",
+        "주식 및 파생상품 거래 수준, 금리 관련 거시경제 리스크",
+        "경쟁 리스크"
+      ],
+      "key_numbers": [
+        "1Q26 EPS 시장 예상치 부합 ($0.60)",
+        "1분기 계좌 수 전년 대비 32% 성장",
+        "고객 미투자 현금 잔고 1,690억 달러 (사상 최고)",
+        "1분기 조정 세전 마진 77%"
+      ],
+      "report_date": "2026-04-21"
+    }
+  ]
+}
