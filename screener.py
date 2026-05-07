@@ -35,6 +35,8 @@ CONFIG_PATH = PROJ_DIR / "config.json"
 
 DEFAULT_CONFIG = {
     "min_rs": 70,
+    "max_single_day_drop_pct": 10.0,
+    "drawdown_lookback_days": 5,
     "markets": {
         "US": {"enabled": True, "exchanges": ["NASDAQ", "NYSE"]},
         "HK": {"enabled": False},
@@ -247,6 +249,28 @@ def fetch_ohlcv(
 # =============================================================================
 # Trend Template — Python implementation (for HK/KR where Finviz N/A)
 # =============================================================================
+
+
+def passes_drawdown_filter(
+    df: pd.DataFrame,
+    max_drop_pct: float = 10.0,
+    lookback_days: int = 5,
+) -> bool:
+    """
+    Reject tickers that suffered any single-day drop of `max_drop_pct`% or worse
+    within the most recent `lookback_days` trading days.
+
+    Single-day return = Close[t] / Close[t-1] - 1. Catches gap-down + intraday
+    crashes (e.g. ANET -13% earnings miss, WFRD guidance cut).
+    """
+    closes = df["Close"]
+    if len(closes) < lookback_days + 1:
+        return True  # not enough history → don't filter
+    recent = closes.iloc[-(lookback_days + 1):]
+    daily_ret = recent.pct_change().dropna()
+    worst = float(daily_ret.min())
+    threshold = -abs(max_drop_pct) / 100.0
+    return worst > threshold
 
 
 def passes_trend_template(df: pd.DataFrame) -> bool:
@@ -1589,6 +1613,17 @@ def _run_market_us(cfg: dict, min_rs: int, vcp_only: bool) -> list[dict]:
     survivors = [t for t in tt_tickers if t in rs.index and rs[t] >= min_rs]
     print(f"          {len(survivors)} survivors RS >= {min_rs} (N={len(rs)})")
 
+    cfg_global = load_config()
+    max_drop = cfg_global.get("max_single_day_drop_pct", 10.0)
+    lookback = cfg_global.get("drawdown_lookback_days", 5)
+    if max_drop > 0:
+        before = len(survivors)
+        survivors = [
+            t for t in survivors
+            if t in ohlcv and passes_drawdown_filter(ohlcv[t], max_drop, lookback)
+        ]
+        print(f"          {len(survivors)} after drawdown filter (-{max_drop}% in last {lookback}d, dropped {before - len(survivors)})")
+
     print("  [US 5/7] Downloading benchmark (SPY)...")
     bench = fetch_benchmark("US")
 
@@ -1676,6 +1711,17 @@ def _run_market_intl(
     rs = compute_rs_scores(ohlcv)
     survivors = [t for t in tt_tickers if t in rs.index and rs[t] >= min_rs]
     print(f"          {len(survivors)} survivors RS >= {min_rs} (N={len(rs)})")
+
+    cfg_global = load_config()
+    max_drop = cfg_global.get("max_single_day_drop_pct", 10.0)
+    lookback = cfg_global.get("drawdown_lookback_days", 5)
+    if max_drop > 0:
+        before = len(survivors)
+        survivors = [
+            t for t in survivors
+            if t in ohlcv and passes_drawdown_filter(ohlcv[t], max_drop, lookback)
+        ]
+        print(f"          {len(survivors)} after drawdown filter (-{max_drop}% in last {lookback}d, dropped {before - len(survivors)})")
 
     print(f"  [{market_key} 4/5] Downloading benchmark ({BENCHMARK_TICKERS.get(market_key, '?')})...")
     bench = fetch_benchmark(market_key)

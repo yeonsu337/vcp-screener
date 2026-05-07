@@ -48,6 +48,7 @@ type ResearchData = {
     products?: LlmList;
     channels?: LlmList;
     key_customers?: string;
+    wikipedia_excerpt?: string;
   };
   category_b_financials: {
     roe?: number | null;
@@ -283,7 +284,7 @@ function NotAvailable() {
   return (
     <div className="text-xs text-muted italic">
       LLM 데이터 없음. <code className="bg-border/30 px-1 rounded">GEMINI_API_KEY</code>{" "}
-      등록 후 다음 데일리 스캔에서 채워집니다.
+      등록 후 다음 데일리 스캔에서 채워짐.
     </div>
   );
 }
@@ -306,9 +307,9 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
     return (
       <main className="max-w-3xl mx-auto px-4 py-10">
         <nav className="mb-4 flex items-center gap-3 text-sm">
-          <Link href="/" className="text-muted hover:text-accent">← Home</Link>
+          <Link href="/" className="text-muted hover:text-accent">← 홈</Link>
           <span className="text-border">/</span>
-          <Link href="/research" className="text-muted hover:text-accent">Research</Link>
+          <Link href="/research" className="text-muted hover:text-accent">리서치</Link>
         </nav>
         <header className="mb-6">
           <h1 className="text-3xl font-bold">{params.ticker}</h1>
@@ -320,42 +321,40 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </header>
         <div className="card p-6">
           <div className="text-yellow-400 text-sm font-semibold mb-2">
-            ⏳ Research card not yet generated for {params.ticker}
+            ⏳ {params.ticker} 리서치 카드 미생성
           </div>
           {cand ? (
             <p className="text-sm text-text/80 mb-4">
-              This ticker passed <span className="num font-semibold">{passed}/14</span> Primary
-              rules and is queued for the next daily research run.
+              이 종목은 Primary 룰 <span className="num font-semibold">{passed}/14</span>개
+              통과 — 다음 데일리 리서치 큐에 대기 중.
               {passed < 12 && (
                 <>
-                  {" "}But it falls below the 12-rule threshold required for auto-research.
+                  {" "}단, 자동 리서치 기준(12+)에 미달.
                 </>
               )}
             </p>
           ) : (
             <p className="text-sm text-text/80 mb-4">
-              {params.ticker} is not in the latest scan. Use the screener to find current
-              candidates.
+              {params.ticker}은 최신 스캔에 없음. 스크리너에서 현재 후보를 확인.
             </p>
           )}
           <div className="text-xs text-muted leading-relaxed mb-4">
-            Research cards are generated automatically each weekday after the daily VCP scan
-            (~23:00 UTC). The free-tier Gemini API is rate-limited (10 RPM / 250 RPD),
-            so 32 cards per day take ~15 minutes total. Once the GitHub Actions workflow
-            completes today's run, this card will populate.
+            리서치 카드는 평일 데일리 VCP 스캔 후 자동 생성 (~23:00 UTC).
+            Gemini 무료 티어 한도(10 RPM / 250 RPD) 때문에 32개 카드 생성에 ~15분 소요.
+            오늘 GitHub Actions 워크플로 완료 시 자동 채워짐.
           </div>
           <div className="flex gap-2 flex-wrap">
             <Link
               href={`/screener/${encodeURIComponent(params.ticker)}`}
               className="inline-flex px-3 py-1.5 rounded bg-accent/20 text-accent text-xs font-semibold hover:bg-accent/30"
             >
-              View chart instead →
+              차트 보기 →
             </Link>
             <Link
               href="/research"
               className="inline-flex px-3 py-1.5 rounded border border-border text-xs font-semibold hover:border-accent/40"
             >
-              ← Back to Research index
+              ← 리서치 목록으로
             </Link>
           </div>
         </div>
@@ -369,23 +368,24 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
   const d = data.category_d_thesis || {};
   const e = data.category_e_risks || {};
   const llmEmpty = data.llm_status !== "ok";
+  const isDeskResearch = data.llm_status?.startsWith("desk-research");
 
   return (
     <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
       <nav className="mb-4 flex items-center gap-3 text-sm">
         <Link href="/" className="text-muted hover:text-accent transition">
-          ← Home
+          ← 홈
         </Link>
         <span className="text-border">/</span>
         <Link href="/research" className="text-muted hover:text-accent transition">
-          Research
+          리서치
         </Link>
         <span className="text-border">/</span>
         <Link
           href={`/screener/${encodeURIComponent(data.ticker)}`}
           className="text-muted hover:text-accent transition"
         >
-          Chart
+          차트
         </Link>
       </nav>
 
@@ -402,41 +402,47 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </div>
         <div className="text-xs text-muted mt-1">
           {data.sector} {data.sector && data.industry ? "·" : ""} {data.industry}
-          {" · "} Generated {fmtDateTime(data.generated_at)}
+          {" · "} 생성: {fmtDateTime(data.generated_at)}
         </div>
-        {llmEmpty && (
+        {llmEmpty && !isDeskResearch && (
           <div className="mt-3 p-2 rounded border border-yellow-500/30 bg-yellow-500/10 text-xs text-yellow-400">
-            ⚠ LLM 섹션 비활성: {data.llm_status}. 펀더멘털·시장·해자·리스크 섹션은 비어 있습니다.
+            ⚠ LLM 섹션 비활성: {data.llm_status}. 사업모델·시장·해자·리스크 섹션은 비어 있음.
+          </div>
+        )}
+        {isDeskResearch && (
+          <div className="mt-3 p-2 rounded border border-blue-500/30 bg-blue-500/10 text-xs text-blue-300">
+            📰 데스크 리서치 모드 — Gemini 무료 한도(250 RPD) 초과로 yfinance + SEC 10-K + Wikipedia 추출 기반.
+            LLM 한도 회복 시 다음 데일리 스캔에서 자동 재생성.
           </div>
         )}
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* === Tier A. Business Model === */}
-        <Section title="A. Business Model & History">
+        <Section title="A. 사업 모델 · 연혁">
           {a.overview ? (
             <>
               <p className="text-sm leading-relaxed mb-3">{a.overview}</p>
               {a.business_model && (
                 <div className="text-xs text-muted mb-2">
-                  <span className="font-semibold text-text/80">BM:</span> {a.business_model}
+                  <span className="font-semibold text-text/80">사업 모델:</span> {a.business_model}
                 </div>
               )}
               {a.value_chain_position && (
                 <div className="text-xs text-muted mb-2">
-                  <span className="font-semibold text-text/80">Value Chain:</span>{" "}
+                  <span className="font-semibold text-text/80">밸류체인 위치:</span>{" "}
                   {a.value_chain_position}
                 </div>
               )}
               {a.key_customers && (
                 <div className="text-xs text-muted mb-3">
-                  <span className="font-semibold text-text/80">Customers:</span> {a.key_customers}
+                  <span className="font-semibold text-text/80">주요 고객:</span> {a.key_customers}
                 </div>
               )}
               {a.revenue_streams && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Revenue Streams
+                    매출 구성
                   </div>
                   <Bullets items={a.revenue_streams} />
                 </div>
@@ -444,7 +450,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {a.products && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Products
+                    제품 · 서비스
                   </div>
                   <Bullets items={a.products} />
                 </div>
@@ -452,7 +458,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {a.channels && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Channels
+                    유통 채널
                   </div>
                   <Bullets items={a.channels} />
                 </div>
@@ -460,9 +466,17 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {a.milestones && (
                 <div>
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Key Milestones
+                    주요 연혁
                   </div>
                   <Bullets items={a.milestones} />
+                </div>
+              )}
+              {a.wikipedia_excerpt && (
+                <div className="mt-3 pt-3 border-t border-border/40">
+                  <div className="text-[10px] font-semibold text-muted uppercase mb-1">
+                    위키피디아 발췌
+                  </div>
+                  <p className="text-xs text-text/70 leading-relaxed">{a.wikipedia_excerpt}</p>
                 </div>
               )}
             </>
@@ -472,26 +486,26 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </Section>
 
         {/* === Tier B. Financials (auto, always populated) === */}
-        <Section title="B. Financial Performance" badge="AUTO">
+        <Section title="B. 재무 성과" badge="AUTO">
           <div className="grid grid-cols-2 gap-x-4">
             <div>
               <MetricRow label="ROE" value={fmtPct(b.roe ?? null)} />
               <MetricRow label="ROA" value={fmtPct(b.roa ?? null)} />
               <MetricRow
-                label="Operating Margin"
+                label="영업이익률"
                 value={fmtPct(b.operating_margin ?? null)}
               />
-              <MetricRow label="Profit Margin" value={fmtPct(b.profit_margin ?? null)} />
-              <MetricRow label="Gross Margin" value={fmtPct(b.gross_margin ?? null)} />
+              <MetricRow label="순이익률" value={fmtPct(b.profit_margin ?? null)} />
+              <MetricRow label="매출총이익률" value={fmtPct(b.gross_margin ?? null)} />
             </div>
             <div>
               <MetricRow
-                label="Rev Growth (TTM)"
+                label="매출 성장 (TTM)"
                 value={fmtPct(b.revenue_growth_ttm ?? null)}
                 highlight={(b.revenue_growth_ttm ?? 0) >= 0.25}
               />
               <MetricRow
-                label="EPS Growth (TTM)"
+                label="EPS 성장 (TTM)"
                 value={fmtPct(b.earnings_growth_ttm ?? null)}
               />
               <MetricRow
@@ -503,7 +517,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
                 }
               />
               <MetricRow
-                label="3Y NI CAGR"
+                label="3년 순이익 CAGR"
                 value={
                   b.ni_cagr_3y_pct !== null && b.ni_cagr_3y_pct !== undefined
                     ? fmtPctSigned(b.ni_cagr_3y_pct)
@@ -512,28 +526,28 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
                 highlight={(b.ni_cagr_3y_pct ?? 0) >= 25}
               />
               <MetricRow
-                label="Dividend Yield"
+                label="배당수익률"
                 value={fmtPct(b.dividend_yield ?? null)}
               />
             </div>
           </div>
           <div className="text-[10px] text-muted mt-2">
-            Annual periods:{" "}
+            연간 회계기간:{" "}
             {b.annual_periods?.slice().reverse().slice(0, 5).map((p) => p.slice(0, 4)).join(" / ") || "—"}
           </div>
         </Section>
 
         {/* === Tier C. Market & Competitive === */}
-        <Section title="C. Market & Competitive">
+        <Section title="C. 시장 · 경쟁 환경">
           {c.tam_estimate_usd_b ? (
             <>
-              <MetricRow label="TAM" value={c.tam_estimate_usd_b} />
-              <MetricRow label="TAM CAGR" value={c.tam_cagr_pct || "—"} />
-              <MetricRow label="Market Share" value={c.market_share_pct || "—"} />
+              <MetricRow label="TAM (총 시장규모)" value={c.tam_estimate_usd_b} />
+              <MetricRow label="TAM 연평균성장률" value={c.tam_cagr_pct || "—"} />
+              <MetricRow label="시장 점유율" value={c.market_share_pct || "—"} />
               {c.growth_drivers && (
                 <div className="mt-3 mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Growth Drivers
+                    성장 동인
                   </div>
                   <Bullets items={c.growth_drivers} />
                 </div>
@@ -541,7 +555,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {c.competitors && c.competitors.length > 0 && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Top Competitors
+                    주요 경쟁사
                   </div>
                   <ul className="text-sm space-y-1">
                     {c.competitors.map((cmp, i) => (
@@ -556,21 +570,30 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {c.porter_five_forces && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Porter's Five Forces
+                    포터의 5가지 경쟁요인
                   </div>
                   <ul className="text-xs space-y-0.5 text-text/80">
-                    {Object.entries(c.porter_five_forces).map(([k, v]) => (
-                      <li key={k}>
-                        <span className="text-muted">{k.replace(/_/g, " ")}:</span> {v}
-                      </li>
-                    ))}
+                    {Object.entries(c.porter_five_forces).map(([k, v]) => {
+                      const labelMap: Record<string, string> = {
+                        new_entrants: "신규 진입자",
+                        substitutes: "대체재",
+                        buyer_power: "구매자 교섭력",
+                        supplier_power: "공급자 교섭력",
+                        rivalry: "기존 경쟁",
+                      };
+                      return (
+                        <li key={k}>
+                          <span className="text-muted">{labelMap[k] || k.replace(/_/g, " ")}:</span> {v}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               )}
               {c.competitive_advantages && (
                 <div className="mb-2">
                   <div className="text-[10px] font-semibold text-emerald-400 uppercase mb-1">
-                    Competitive Advantages
+                    경쟁 우위
                   </div>
                   <Bullets items={c.competitive_advantages} />
                 </div>
@@ -578,7 +601,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {c.competitive_weaknesses && (
                 <div>
                   <div className="text-[10px] font-semibold text-red-400 uppercase mb-1">
-                    Weaknesses
+                    경쟁 열위
                   </div>
                   <Bullets items={c.competitive_weaknesses} />
                 </div>
@@ -590,20 +613,20 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </Section>
 
         {/* === Tier D. Investment Thesis === */}
-        <Section title="D. Investment Thesis">
+        <Section title="D. 투자 논거">
           <div className="grid grid-cols-2 gap-x-4 mb-3">
             <div>
               <MetricRow label="RS Rating" value={String(d.rs_rating ?? "—")} highlight />
-              <MetricRow label="Composite Score" value={fmtNum(d.score, 1)} />
-              <MetricRow label="Stage" value={`${d.stage ?? "—"} (${d.stage_name ?? "—"})`} />
-              <MetricRow label="Lynch Category" value={d.lynch_category || "—"} highlight={d.lynch_category === "Fast Grower"} />
+              <MetricRow label="종합 스코어" value={fmtNum(d.score, 1)} />
+              <MetricRow label="주가 단계" value={`${d.stage ?? "—"} (${d.stage_name ?? "—"})`} />
+              <MetricRow label="Lynch 분류" value={d.lynch_category || "—"} highlight={d.lynch_category === "Fast Grower"} />
             </div>
             <div>
-              <MetricRow label="PEG Ratio" value={fmtNum(d.peg_ratio, 2)} highlight={(d.peg_ratio ?? 999) < 1.5 && (d.peg_ratio ?? 0) > 0} />
-              <MetricRow label="Forward P/E" value={fmtNum(d.forward_pe, 1)} />
+              <MetricRow label="PEG (성장률 대비 P/E)" value={fmtNum(d.peg_ratio, 2)} highlight={(d.peg_ratio ?? 999) < 1.5 && (d.peg_ratio ?? 0) > 0} />
+              <MetricRow label="선행 P/E" value={fmtNum(d.forward_pe, 1)} />
               <MetricRow label="EV/EBITDA" value={fmtNum(d.ev_to_ebitda, 1)} />
               <MetricRow
-                label="1Y vs NASDAQ"
+                label="1년 NASDAQ 대비 초과수익"
                 value={fmtPctSigned(d.outperform_1y_vs_nasdaq)}
                 highlight={(d.outperform_1y_vs_nasdaq ?? 0) > 0}
               />
@@ -613,7 +636,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
           {d.moat_type && d.moat_type !== "None" && (
             <div className="mb-3 p-2.5 rounded bg-emerald-500/10 border border-emerald-500/30">
               <div className="text-[10px] font-semibold text-emerald-400 uppercase mb-1">
-                Moat: {d.moat_type}
+                해자(Moat): {d.moat_type}
                 {d.moat_durability_years && (
                   <span className="text-muted ml-2">({d.moat_durability_years})</span>
                 )}
@@ -625,7 +648,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
           {d.new_trigger && (
             <div className="mb-3">
               <div className="text-[10px] font-semibold text-blue-400 uppercase mb-1">
-                "N" Trigger (last 12M)
+                "N" 트리거 (최근 12개월)
               </div>
               <p className="text-sm leading-snug">{d.new_trigger}</p>
             </div>
@@ -635,19 +658,19 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
             <div className="space-y-2 mb-3">
               {d.bull_case && (
                 <div>
-                  <span className="text-[10px] font-semibold text-emerald-400 uppercase">Bull</span>
+                  <span className="text-[10px] font-semibold text-emerald-400 uppercase">Bull (낙관)</span>
                   <p className="text-sm leading-snug">{d.bull_case}</p>
                 </div>
               )}
               {d.base_case && (
                 <div>
-                  <span className="text-[10px] font-semibold text-yellow-400 uppercase">Base</span>
+                  <span className="text-[10px] font-semibold text-yellow-400 uppercase">Base (기준)</span>
                   <p className="text-sm leading-snug">{d.base_case}</p>
                 </div>
               )}
               {d.bear_case && (
                 <div>
-                  <span className="text-[10px] font-semibold text-red-400 uppercase">Bear</span>
+                  <span className="text-[10px] font-semibold text-red-400 uppercase">Bear (비관)</span>
                   <p className="text-sm leading-snug">{d.bear_case}</p>
                 </div>
               )}
@@ -657,7 +680,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
           {d.key_metrics_to_watch && (
             <div>
               <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                Key Metrics to Watch
+                주시할 핵심 지표
               </div>
               <Bullets items={d.key_metrics_to_watch} />
             </div>
@@ -667,12 +690,12 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </Section>
 
         {/* === Tier E. Risks === */}
-        <Section title="E. Risks">
+        <Section title="E. 리스크">
           {e.top_risks && e.top_risks.length > 0 ? (
             <>
               <div className="mb-3">
                 <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                  Top Risks
+                  주요 리스크
                 </div>
                 <ul className="space-y-1.5">
                   {e.top_risks.map((r, i) => {
@@ -682,10 +705,16 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
                         : r.severity === "medium"
                         ? "text-yellow-400"
                         : "text-muted";
+                    const sevLabel =
+                      r.severity === "high"
+                        ? "高"
+                        : r.severity === "medium"
+                        ? "中"
+                        : "低";
                     return (
                       <li key={i} className="text-sm">
                         <span className={`text-[10px] font-semibold uppercase mr-2 ${sevColor}`}>
-                          {r.severity}
+                          {sevLabel}
                         </span>
                         <span className="text-accent text-xs">{r.category}</span>
                         <div className="text-xs text-text/80 mt-0.5 ml-1">{r.description}</div>
@@ -697,7 +726,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {e.inversion_scenarios && (
                 <div className="mb-3">
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Inversion (How could it fail?)
+                    역발상 (실패 시나리오)
                   </div>
                   <Bullets items={e.inversion_scenarios} />
                 </div>
@@ -705,7 +734,7 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
               {e.exit_signals && (
                 <div>
                   <div className="text-[10px] font-semibold text-muted uppercase mb-1">
-                    Exit Signals
+                    Exit 시그널
                   </div>
                   <Bullets items={e.exit_signals} />
                 </div>
@@ -717,10 +746,10 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
         </Section>
 
         {/* === Metadata === */}
-        <Section title="Company Metadata" badge="AUTO">
-          <MetricRow label="Market Cap" value={fmtBigUSD(data.yf_metadata.market_cap ?? null)} />
+        <Section title="기업 메타데이터" badge="AUTO">
+          <MetricRow label="시가총액" value={fmtBigUSD(data.yf_metadata.market_cap ?? null)} />
           <MetricRow
-            label="Shares Outstanding"
+            label="발행 주식수"
             value={
               data.yf_metadata.shares_outstanding
                 ? `${(data.yf_metadata.shares_outstanding / 1e6).toFixed(1)}M`
@@ -728,11 +757,11 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
             }
           />
           <MetricRow
-            label="Employees"
+            label="임직원 수"
             value={data.yf_metadata.employees ? data.yf_metadata.employees.toLocaleString() : "—"}
           />
-          <MetricRow label="Country" value={data.yf_metadata.country || "—"} />
-          <MetricRow label="Beta" value={fmtNum(data.yf_metadata.beta, 2)} />
+          <MetricRow label="본사 소재" value={data.yf_metadata.country || "—"} />
+          <MetricRow label="베타" value={fmtNum(data.yf_metadata.beta, 2)} />
           {data.yf_metadata.website && (
             <div className="mt-2">
               <a
@@ -755,8 +784,8 @@ export default function ResearchTickerPage({ params }: { params: { ticker: strin
       </div>
 
       <footer className="mt-10 pt-6 border-t border-border text-xs text-muted">
-        Sources: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.0 Flash (free tier).
-        Auto-generated. Not investment advice.
+        출처: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.5 Flash (무료 티어).
+        자동 생성 · 투자 자문 아님.
       </footer>
     </main>
   );

@@ -1,5 +1,7 @@
 {
   "min_rs": 70,
+  "max_single_day_drop_pct": 10.0,
+  "drawdown_lookback_days": 5,
   "markets": {
     "US": {
       "enabled": true,

@@ -82,31 +82,31 @@ export default function ResearchPage() {
     <main className="max-w-6xl mx-auto px-4 py-6 md:py-10">
       <nav className="mb-4">
         <Link href="/" className="text-sm text-muted hover:text-accent">
-          ← Home
+          ← 홈
         </Link>
       </nav>
 
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-          Company Research
+          기업 리서치
         </h1>
         <p className="text-muted text-sm mt-1">
-          5-Tier auto-research for stocks passing {PRIMARY_THRESHOLD}+ of {PRIMARY_IDS.length} Primary
-          rules. Data sources: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.0 Flash (free tier).
+          Primary {PRIMARY_IDS.length}개 룰 중 {PRIMARY_THRESHOLD}+ 통과 종목 대상 5-Tier 자동 리서치.
+          출처: SEC EDGAR (10-K), Yahoo Finance, Wikipedia, Gemini 2.5 Flash (무료 티어).
         </p>
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-6">
         <div className="card p-3">
-          <div className="text-xs text-muted">Auto-Research Generated</div>
+          <div className="text-xs text-muted">생성된 리서치 카드</div>
           <div className="text-2xl font-bold num text-accent">{generated.length}</div>
         </div>
         <div className="card p-3">
-          <div className="text-xs text-muted">Qualifying ({PRIMARY_THRESHOLD}+ Primary)</div>
+          <div className="text-xs text-muted">자격 종목 (Primary {PRIMARY_THRESHOLD}+)</div>
           <div className="text-2xl font-bold num">{qualifying.length}</div>
         </div>
         <div className="card p-3">
-          <div className="text-xs text-muted">Pending Generation</div>
+          <div className="text-xs text-muted">생성 대기</div>
           <div className="text-2xl font-bold num">{pendingTickers.length}</div>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function ResearchPage() {
       {generated.length > 0 && (
         <section className="mb-8">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted mb-3">
-            Available Research Cards
+            리서치 카드 목록
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {generated.map((r) => {
@@ -145,7 +145,7 @@ export default function ResearchPage() {
                         llmOk ? "text-emerald-400" : "text-yellow-400"
                       }`}
                     >
-                      {llmOk ? "✓ Full" : "⚠ Quant only"}
+                      {llmOk ? "✓ 전체" : "⚠ 정량만"}
                     </span>
                   </div>
                 </Link>
@@ -158,7 +158,7 @@ export default function ResearchPage() {
       {pendingTickers.length > 0 && (
         <section>
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted mb-3">
-            Pending — Will Generate Next Daily Run
+            생성 대기 — 다음 데일리 스캔에 처리
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {pendingTickers.map((r) => (
@@ -171,7 +171,7 @@ export default function ResearchPage() {
                 <div className="text-[10px] text-muted mt-1">
                   {r.sector} · RS {r.rs_rating}
                 </div>
-                <div className="text-[10px] text-yellow-400 mt-2">⏳ Queued</div>
+                <div className="text-[10px] text-yellow-400 mt-2">⏳ 대기 중</div>
               </div>
             ))}
           </div>
@@ -180,14 +180,13 @@ export default function ResearchPage() {
 
       {generated.length === 0 && pendingTickers.length === 0 && (
         <div className="card p-8 text-center text-muted">
-          No qualifying candidates yet. Stocks passing {PRIMARY_THRESHOLD}+ Primary rules will
-          appear here automatically.
+          자격 종목 없음. Primary 룰 {PRIMARY_THRESHOLD}+ 통과 시 자동으로 표시됨.
         </div>
       )}
 
       <footer className="mt-10 pt-6 border-t border-border text-xs text-muted">
-        Auto-generated daily via GitHub Actions. Quant sections always populated; LLM sections
-        require Gemini API key in repo Secrets. Not investment advice.
+        GitHub Actions 데일리 자동 생성. 정량 섹션은 항상 채워짐. LLM 섹션은 repo Secrets의
+        Gemini API 키 필요. 투자 자문 아님.
       </footer>
     </main>
   );
