@@ -93,9 +93,9 @@ def is_fresh(ticker: str) -> bool:
       1. Generated within the last REFRESH_DAYS, AND
       2. LLM succeeded (llm_status == "ok").
 
-    Failed states (rate-limited, network error, key missing) are NOT considered
-    fresh — they should be retried on the next run since the underlying issue
-    may have resolved (quota reset, key registered, etc).
+    Failed states (rate-limited, network error, key missing, desk-research)
+    are NOT considered fresh — they should be retried on the next run since
+    the underlying issue may have resolved (quota reset, key registered, etc).
     """
     p = RESEARCH_DIR / f"{_safe(ticker)}.json"
     if not p.exists():
@@ -168,6 +168,8 @@ def sec_latest_10k(cik: str) -> dict | None:
 
 def sec_fetch_10k_text(filing: dict, max_chars: int = 200_000) -> str:
     """Download 10-K HTML and convert to plain text (truncated)."""
+    import html as _html
+
     cik_int = int(filing["cik"])
     url = (
         f"https://www.sec.gov/Archives/edgar/data/{cik_int}/"
@@ -179,15 +181,13 @@ def sec_fetch_10k_text(filing: dict, max_chars: int = 200_000) -> str:
     except Exception as e:
         print(f"  [sec 10k fetch] {e}")
         return ""
-    html = r.text
+    html_doc = r.text
     # Strip HTML tags + collapse whitespace.
-    txt = re.sub(r"<script[\s\S]*?</script>", " ", html, flags=re.I)
+    txt = re.sub(r"<script[\s\S]*?</script>", " ", html_doc, flags=re.I)
     txt = re.sub(r"<style[\s\S]*?</style>", " ", txt, flags=re.I)
     txt = re.sub(r"<[^>]+>", " ", txt)
-    txt = re.sub(r"&nbsp;|&#160;", " ", txt)
-    txt = re.sub(r"&amp;", "&", txt)
-    txt = re.sub(r"&lt;", "<", txt)
-    txt = re.sub(r"&gt;", ">", txt)
+    # Use stdlib HTML entity decoder for the long tail (&#8217;, &#8220;, &mdash;, etc.)
+    txt = _html.unescape(txt)
     txt = re.sub(r"\s+", " ", txt).strip()
     return txt[:max_chars]
 
@@ -394,7 +394,9 @@ class LLMUnavailable(Exception):
 
 def gemini_call(prompt: str, max_output_tokens: int = 1500, temperature: float = 0.3) -> str:
     """Call Gemini 2.0 Flash Free Tier. Raises LLMUnavailable on missing key / quota."""
-    api_key = os.environ.get("GEMINI_API_KEY")
+    # Strip BOM/whitespace — secrets piped via PowerShell can carry UTF-16 BOM,
+    # which fails latin-1 header encoding in `requests`.
+    api_key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
     body = {
@@ -578,6 +580,123 @@ JSON만 반환. 모든 문자열 값 한국어."""
     return _parse_json(text)
 
 
+def desk_research_fallback(
+    yf_data: dict,
+    sec_business: str,
+    sec_risk: str,
+    sec_mda: str,
+    wiki: str,
+) -> dict:
+    """
+    Build categories A / C / E using extractive parsing only — no LLM required.
+
+    Used when GEMINI_API_KEY is missing or the daily quota (250 RPD) is exhausted.
+    Output is intentionally less rich than the LLM JSON but never empty: the
+    research card always shows *something* useful instead of "quant only."
+    """
+    cat_a: dict = {}
+    cat_c: dict = {}
+    cat_e: dict = {}
+
+    summary = (yf_data.get("summary") or "").strip()
+    if summary:
+        # Strip the boilerplate "Founded in YYYY..." trailing sentence so the
+        # overview reads as business model rather than incorporation history.
+        sentences = re.split(r"(?<=[.!?])\s+", summary)
+        cat_a["overview"] = " ".join(sentences[:3])[:600]
+        cat_a["business_model"] = sentences[0][:200] if sentences else ""
+
+        # Extract products/services using verb anchors common in 10-K Item 1.
+        products = re.findall(
+            r"(?:offers|provides|sells|develops|manufactures|operates|produces)\s+([^.;]{8,120})",
+            summary,
+            flags=re.I,
+        )
+        if products:
+            seen, dedup = set(), []
+            for p in products:
+                k = p.strip().lower()[:60]
+                if k not in seen:
+                    seen.add(k)
+                    dedup.append(p.strip().rstrip(",").rstrip("and").strip())
+                if len(dedup) >= 5:
+                    break
+            cat_a["products"] = dedup
+
+        # Sector/industry → channels heuristic (B2B vs B2C lean).
+        industry = (yf_data.get("industry") or "").lower()
+        b2c_terms = ("retail", "consumer", "apparel", "restaurant", "personal", "media")
+        cat_a["channels"] = ["B2C / Retail" if any(t in industry for t in b2c_terms) else "B2B / Enterprise"]
+
+    if wiki:
+        cat_a["wikipedia_excerpt"] = wiki[:600]
+
+    # Category C — 경쟁자/시장 정보는 LLM 없이 정확 추출 어려움.
+    # 대신 sector/industry context 를 명시적으로 노출.
+    if yf_data.get("sector") or yf_data.get("industry"):
+        cat_c["tam_estimate_usd_b"] = "추정 불가 (LLM 미가동)"
+        cat_c["tam_cagr_pct"] = "—"
+        cat_c["market_share_pct"] = "—"
+        cat_c["competitive_advantages"] = [
+            f"{yf_data.get('sector') or '—'} / {yf_data.get('industry') or '—'} 카테고리 — yfinance peer 비교 권장"
+        ]
+
+    # Category E — 10-K Item 1A 에서 risk factor 헤딩 추출.
+    if sec_risk:
+        # 10-K risk factors 는 보통 (1) 짧은 굵은 헤딩 + (2) 본문 패턴.
+        # 헤딩 후보: 한 문장이고, 마침표로 끝나며, 30~180자, 'we'/'our'/'risk'/'could'/'may' 포함.
+        sentences = re.split(r"(?<=[.!?])\s+", sec_risk[:25_000])
+        # Skip leading 200 chars (TOC/heading area) — substantive risks start later.
+        risk_titles: list[str] = []
+        seen_titles = set()
+        # Filter out boilerplate/TOC sentences that aren't actual risks.
+        skip_phrases = (
+            "see ", "table of contents", "see item", "discussed in",
+            "for a discussion", "is discussed", "audit committee",
+            "board of directors", "see note",
+        )
+        for sent in sentences:
+            sent = sent.strip()
+            if not (40 <= len(sent) <= 220):
+                continue
+            lower = sent.lower()
+            if any(sp in lower for sp in skip_phrases):
+                continue
+            # Real risk factors usually subjunctive ("could", "may") + actor (we/our/the company).
+            has_modal = any(k in lower for k in ("could", "may", "might", "would"))
+            has_actor = any(k in lower for k in (" we ", " our ", "the company", "company's"))
+            if not (has_modal and has_actor):
+                continue
+            if not sent[0].isupper():
+                continue
+            key = lower[:60]
+            if key in seen_titles:
+                continue
+            seen_titles.add(key)
+            risk_titles.append(sent)
+            if len(risk_titles) >= 6:
+                break
+        if risk_titles:
+            cat_e["top_risks"] = [
+                {"category": "10-K Item 1A", "description": t, "severity": "medium"}
+                for t in risk_titles
+            ]
+            cat_e["exit_signals"] = [
+                "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+                "EX1: -8% 초기 손절 라인 도달",
+                "EX5: 피크에서 -15% 트레일링",
+                "EX7: 단일세션 -10%↓ 급락",
+            ]
+
+    # Wikipedia 요약에서 milestones 후보 (연도 + 사건 패턴) 추출.
+    if wiki:
+        year_events = re.findall(r"(?:^|[\s,;])((?:18|19|20)\d{2})[^.]*?([^.]{8,120})", wiki)
+        if year_events:
+            cat_a["milestones"] = [f"{y}: {e.strip()[:100]}" for y, e in year_events[:5]]
+
+    return {"a": cat_a, "c": cat_c, "e": cat_e}
+
+
 def _parse_json(text: str) -> dict:
     """Extract JSON from LLM response (handles ```json fences and stray prose)."""
     text = text.strip()
@@ -644,6 +763,9 @@ def build_research(candidate: dict) -> dict:
                 return fn(*args, **kwargs)
             except LLMUnavailable as e:
                 msg = str(e)
+                # Don't retry config errors (missing key) — fail fast to fallback.
+                if "not set" in msg or "GEMINI_API_KEY" in msg:
+                    raise
                 retry_after = 30 if "429" in msg else 15
                 if attempt == 2:
                     raise
@@ -671,8 +793,23 @@ def build_research(candidate: dict) -> dict:
         time.sleep(7)
         cat_e = _llm_with_retry(llm_section_e, ticker, yf_data, sec_sections["risk_factors"])
     except LLMUnavailable as e:
-        print(f"  [llm fallback] {e}")
-        llm_status = f"unavailable: {e}"
+        # Use ASCII-only dash to stay safe on Windows cp949 stdout.
+        print(f"  [llm fallback] {e} -- switching to desk-research extractive mode")
+        fb = desk_research_fallback(
+            yf_data,
+            sec_sections["business"],
+            sec_sections["risk_factors"],
+            sec_sections["mda"],
+            wiki,
+        )
+        # Only adopt fallback for sections the LLM did not already populate.
+        if not cat_a:
+            cat_a = fb["a"]
+        if not cat_c:
+            cat_c = fb["c"]
+        if not cat_e:
+            cat_e = fb["e"]
+        llm_status = f"desk-research (no LLM): {e}"
 
     return {
         "ticker": ticker,

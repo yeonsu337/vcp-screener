@@ -76,7 +76,7 @@ class LLMUnavailable(Exception):
 
 
 def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
     body = {
