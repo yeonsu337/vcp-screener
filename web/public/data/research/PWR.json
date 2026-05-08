@@ -1,0 +1,122 @@
+{
+  "ticker": "PWR",
+  "company": "Quanta Services, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "generated_at": "2026-05-08T00:02:53.675008+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 112654647296,
+    "shares_outstanding": 150060149,
+    "employees": 69500,
+    "country": "United States",
+    "website": "https://www.quantaservices.com",
+    "beta": 1.244
+  },
+  "category_a_business": {
+    "overview": "Quanta Services는 전력, 가스, 통신 등 핵심 인프라 솔루션을 제공하는 선도적인 전문 계약 서비스 기업입니다.",
+    "milestones": [
+      "1997: Quanta Services 설립",
+      "1998: 뉴욕 증권 거래소 상장",
+      "2000년대 초: 통신 인프라 서비스 확장",
+      "2010년대: 재생에너지 및 스마트 그리드 인프라 투자 확대",
+      "2021: Blattner Energy 인수 (재생에너지 발전 인프라 강화)",
+      "2023: 전력 및 유틸리티 인프라 서비스 지속적 확장"
+    ],
+    "business_model": "다양한 인프라 프로젝트의 설계, 조달, 건설, 유지보수 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "전력 송배전 및 변전소 인프라 구축/유지보수",
+      "가스 유틸리티 및 파이프라인 인프라 서비스",
+      "통신 인프라 설계 및 구축",
+      "재생에너지 발전 시설 건설 및 유지보수",
+      "비상 복구 및 기타 엔지니어링 서비스"
+    ],
+    "value_chain_position": "Midstream + 인프라 프로젝트의 핵심 실행 단계인 설계, 조달, 건설, 유지보수를 담당합니다.",
+    "products": [
+      "전력 송배전망 구축 및 업그레이드",
+      "가스 파이프라인 설치 및 유지보수",
+      "광섬유 및 무선 통신망 구축",
+      "태양광/풍력 발전소 건설",
+      "스마트 그리드 기술 통합"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "주로 대형 유틸리티 기업, 통신사, 정부 기관 등이며, 고객 집중도는 낮은 편입니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 52.9,
+    "sales_yoy_pct": 26.3,
+    "ni_cagr_3y_pct": 27.93,
+    "roe_pct": 13.53
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 90,
+    "score": 88.5,
+    "vcp_quality": 20.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.2065,
+    "trailing_pe": 102.83972,
+    "forward_pe": 46.215263,
+    "ev_to_ebitda": 44.642,
+    "price_to_sales": 3.7400513,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 90.68,
+    "outperform_6m_vs_nasdaq": 60.69,
+    "outperform_1m_vs_nasdaq": 16.27,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "The matters described below are not the only risks and uncertainties facing our company, and risks and uncertainties not known to us or not described below also may impair our business operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Summary Risk Factors The following is a summary of some of the material risks and uncertainties that could materially adversely affect our business, financial condition and results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Related to Operating Our Business • Our operating results may vary significantly from quarter to quarter.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Related to Regulation and Compliance • Regulatory requirements applicable to our business and potential changes related to those requirements may adversely affect our business.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risk Related to Financing Our Business • We may not have access to sufficient funding to finance desired growth and operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Related to Our Common Stock • Our sale or issuance of additional common stock or other equity securities could be dilutive to each stockholder’s ownership interest or affect the market price of our common stock.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "{{Multiple issues|"
+}

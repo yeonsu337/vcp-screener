@@ -4,45 +4,105 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-05-06T01:15:16.892421+00:00",
+  "generated_at": "2026-05-08T00:08:40.381217+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2780458752,
+    "market_cap": 2853628672,
     "shares_outstanding": 152437434,
     "employees": 357,
     "country": "United States",
     "website": "https://www.wisdomtree.com",
     "beta": 1.134
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "WisdomTree, Inc., through its subsidiaries, operates as an exchange-traded funds (ETFs) sponsor and asset manager. It offers ETFs in equities, currency, fixed income, and alternatives asset classes. The company also licenses its indexes to third parties for proprietary products, as well as offers a platform to promote the use of WisdomTree ETFs in 401(k) plans.",
+    "business_model": "WisdomTree, Inc., through its subsidiaries, operates as an exchange-traded funds (ETFs) sponsor and asset manager.",
+    "products": [
+      "as an exchange-traded funds (ETFs) sponsor and asset manager",
+      "ETFs in equities, currency, fixed income, and alternatives asset classes",
+      "a platform to promote the use of WisdomTree ETFs in 401(k) plans",
+      "index using its fundamentally weighted index methodology",
+      "investment advisory services"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives.",
+    "milestones": [
+      "2006: , and became one of the major ETF providers in the United States"
+    ]
+  },
   "category_b_financials": {
     "sales_yoy_pct": 47.5,
     "ni_cagr_3y_pct": 29.13,
     "roe_pct": 13.78
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 69.6,
+    "rs_rating": 82,
+    "score": 69.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 44.487804,
-    "forward_pe": 13.818181,
-    "ev_to_ebitda": 15.344,
-    "price_to_sales": 5.1004395,
+    "trailing_pe": 45.658535,
+    "forward_pe": 14.181817,
+    "ev_to_ebitda": 15.684,
+    "price_to_sales": 5.2346616,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 60.86,
-    "outperform_6m_vs_nasdaq": 46.43,
-    "outperform_1m_vs_nasdaq": 6.95,
+    "outperform_1y_vs_nasdaq": 62.76,
+    "outperform_6m_vs_nasdaq": 50.18,
+    "outperform_1m_vs_nasdaq": 6.3,
     "lynch_category": "Fast Grower"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:53:24.255208+00:00"
-  }
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "If any of these risks actually occur, our business, operating results, financial condition and prospects could be harmed.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "This could cause the trading price of our common stock to decline and a loss of all or part of your investment.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Fluctuations in the amount and mix of our AUM may negatively impact revenues and operating margins.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Fluctuations in the amount and mix of our AUM may be attributable in part to market conditions outside of our control that have had, and in the future could have, a negative impact on our revenues and operating margins.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "This could result in limited growth or a reduction in the overall ETP market and could slow our revenue growth or even lead to a decline in revenues.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If the AUM in these funds were to decline, either because of declining market values or net outflows from these funds, our revenues would be adversely affected.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives."
 }

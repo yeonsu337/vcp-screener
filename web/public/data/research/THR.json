@@ -1,0 +1,105 @@
+{
+  "ticker": "THR",
+  "company": "Thermon Group Holdings, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "generated_at": "2026-05-08T00:07:39.370743+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 2147038208,
+    "shares_outstanding": 32869538,
+    "employees": 1568,
+    "country": "United States",
+    "website": "https://www.thermon.com",
+    "beta": 0.833
+  },
+  "category_a_business": {
+    "overview": "Thermon Group Holdings, Inc. provides engineered industrial process heating solutions for process industries in the United States and Latin America, Canada, Europe, the Middle East, Africa, and the Asia-Pacific. The company offers heat tracing solutions, including software automated engineering design services, heat tracing products, smart connected control and monitoring systems, construction services, and maintenance services; tubing bundle solutions comprising bundle design services, heated, and insulated sample lines; temporary power systems; heated blankets; and electric heat tracing cabl",
+    "business_model": "Thermon Group Holdings, Inc.",
+    "products": [
+      "engineered industrial process heating solutions for process industries in the United States and Latin America, Canada, E",
+      "heat tracing solutions, including software automated engineering design services, heat tracing products, smart connecte",
+      "controls, monitoring, and software systems for the control and management of a heat trace system",
+      "project services, such as engineering and design, procurement and project management, turnkey construction installatio",
+      "an electron cross-linking facility"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": -1.3,
+    "sales_yoy_pct": 9.6,
+    "ni_cagr_3y_pct": 38.62,
+    "roe_pct": 11.45
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Specialty Industrial Machinery 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 91,
+    "score": 65.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.98,
+    "trailing_pe": 36.903954,
+    "forward_pe": 28.902655,
+    "ev_to_ebitda": 20.857,
+    "price_to_sales": 4.1130133,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 91.39,
+    "outperform_6m_vs_nasdaq": 119.8,
+    "outperform_1m_vs_nasdaq": 10.46,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Continued significant volatility in these capital projects could further decrease demand for some of our products and services and adversely affect our business, financial condition and results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, such delays and cancellations may lead to significant fluctuations in results of operations from quarter to quarter, making it difficult to predict our financial performance on a quarterly basis.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Such volatility, including the perception that it might continue, could also have a significant negative impact on the market price of our common stock.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "As a global business, we are exposed to economic, political and other risks in a number of countries, which could materially reduce our revenues, profitability, cash flows, or materially increase our liabilities.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If we are unable to continue operating successfully in one or more foreign countries, it may have an adverse effect on our business and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "One of our key growth strategies is to continue to expand our global footprint in emerging and high growth markets around the world; however, we may be unsuccessful in expanding our international business.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
+}

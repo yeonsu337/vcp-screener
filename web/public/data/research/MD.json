@@ -1,0 +1,103 @@
+{
+  "ticker": "MD",
+  "company": "Pediatrix Medical Group, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "generated_at": "2026-05-08T00:09:41.656908+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 1883055488,
+    "shares_outstanding": 82121911,
+    "employees": 4280,
+    "country": "United States",
+    "website": "https://www.pediatrix.com",
+    "beta": 0.707
+  },
+  "category_a_business": {
+    "overview": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States. The company offers clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, through its network of affiliated neonatal physician subspecialists, neonatal nurse practitioners, and other pediatric clinicians; and inpatient and office-based clinical care to expectant mothers and unborn babies through its affiliated maternal-fetal medicine subspecialists, obstetricians and oth",
+    "business_model": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States.",
+    "products": [
+      "newborn, maternal-fetal, and other pediatric subspecialty care services in the United States",
+      "clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, thro",
+      "other pediatric subspecialty care, including pediatric intensivists, pediatric hospitalists, and pediatric surgeons"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 42.6,
+    "sales_yoy_pct": 3.9,
+    "ni_cagr_3y_pct": 35.6,
+    "roe_pct": 20.89
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Medical Care Facilities 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 60.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.24,
+    "trailing_pe": 11.131068,
+    "forward_pe": 9.842934,
+    "ev_to_ebitda": 8.224,
+    "price_to_sales": 0.97482485,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 12.47,
+    "outperform_6m_vs_nasdaq": -3.58,
+    "outperform_1m_vs_nasdaq": -6.76,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "RISK FACTORS Our business is subject to a number of factors that could materially affect future developments and performance.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We may update these risk factors in our periodic and other filings with the SEC.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "The following is a summary of the principal risk factors described in this section: • Economic conditions could have an adverse effect on our business.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Outsourcing these functions has significant risks, and our failure to successfully manage these risks could materially adversely affect our business, results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our acquisitions may expose us to greater business risks and could affect our payor mix.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
+}

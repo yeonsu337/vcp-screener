@@ -4,105 +4,119 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-05-06T01:25:28.735908+00:00",
+  "generated_at": "2026-05-08T00:06:37.913860+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7921631744,
+    "market_cap": 7840757248,
     "shares_outstanding": 100612468,
     "employees": 3301,
     "country": "United States",
     "website": "https://www.clearme.com",
-    "beta": 1.067
+    "beta": null
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "CLEAR는 생체인식 기반의 보안 신원 확인 플랫폼을 제공하여 물리적/디지털 경험을 안전하고 편리하게 만듭니다.",
+    "milestones": [
+      "2003: 회사 설립",
+      "2009: 파산 신청 후 운영 중단",
+      "2012: 재출범 및 서비스 재개",
+      "2021: 뉴욕 증권 거래소 상장 (IPO)",
+      "2025: 60개 공항, 9개 스포츠/엔터테인먼트 시설에 CLEAR+ 레인 운영"
+    ],
+    "business_model": "구독 서비스 및 B2B 솔루션을 통해 신원 확인 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "CLEAR Plus (소비자 항공 구독 서비스)",
+      "TSA PreCheck® 등록 서비스",
+      "CLEAR1 (B2B 신원 확인 솔루션)",
+      "CLEAR Concierge (프리미엄 여행 서비스)",
+      "기타 여행 혜택 및 모바일 신원 솔루션"
+    ],
+    "value_chain_position": "Midstream + 신원 확인 기술을 개발하고 이를 소비자 및 기업 고객에게 직접 제공합니다.",
+    "products": [
+      "CLEAR Plus (공항 보안 검색대 신속 통과)",
+      "CLEAR1 (기업용 신원 확인 플랫폼)",
+      "RESERVE powered by CLEAR (공항 예약 서비스)",
+      "Home to Gate (여행 계획 및 시간 관리 기능)",
+      "CLEAR ID (무료 모바일 디지털 ID)",
+      "CLEAR Concierge (프리미엄 여행자 지원)"
+    ],
+    "channels": [
+      "B2C (공항 내 직접 가입, 모바일 앱)",
+      "B2B (기업, 의료기관, 정부 기관 파트너십)"
+    ],
+    "key_customers": "주요 고객은 CLEAR+ 구독자(개인)와 CLEAR1을 사용하는 기업 및 기관입니다. 공항 내 가입이 CLEAR+ 회원 확보의 60% 이상을 차지합니다."
+  },
   "category_b_financials": {
-    "eps_qoq_yoy_pct": -70.2,
-    "sales_yoy_pct": 16.7,
-    "roe_pct": 76.03
+    "eps_qoq_yoy_pct": 52.7,
+    "sales_yoy_pct": 19.7,
+    "roe_pct": 109.5
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Application 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 72.5,
+    "rs_rating": 91,
+    "score": 68.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 52.473213,
-    "forward_pe": 23.316433,
-    "ev_to_ebitda": 25.32,
-    "price_to_sales": 8.794201,
+    "trailing_pe": 46.536,
+    "forward_pe": 23.078386,
+    "ev_to_ebitda": 22.992,
+    "price_to_sales": 8.319865,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 97.37,
-    "outperform_6m_vs_nasdaq": 88.29,
-    "outperform_1m_vs_nasdaq": -1.62,
+    "outperform_1y_vs_nasdaq": 80.74,
+    "outperform_6m_vs_nasdaq": 80.89,
+    "outperform_1m_vs_nasdaq": 1.38,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:53:24.270710+00:00"
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "RISK FACTORS Risk Factors Summary The following is a summary of the principal risks that could adversely affect our business, operations and financial results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Failure to do so could adversely affect our business, results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Development of new or enhanced features may require significant time and investment, which could result in increased costs and a reduction in our profit margins.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We have in the past, and may in the future, expand CLEAR+ membership to include benefits in addition to use at our partner airports, such as free access to CLEAR Mobile and CLEAR Perks.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If our efforts to develop and offer more benefits are not valued by our current and future CLEAR+ Members, our ability to attract and retain CLEAR+ Members, or increase pricing, may be negatively impacted.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We have and may, from time to time, adjust our CLEAR+ membership pricing, our family plans, or our pricing model itself.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
   },
-  "analyst_reports": [
-    {
-      "source_filename": "Financial AI YOU YOU (Clear Secure, Inc.) 2026 Q1 Forecast.pdf",
-      "source_broker": "Financial AI",
-      "source_title": "YOU (Clear Secure, Inc.) 2026 Q1 Forecast",
-      "source_mtime": 1778133822.0,
-      "ingested_at": "2026-05-07T07:49:41.984817+00:00",
-      "summary": "YOU (Fiscal Q1 2026)에서 17.75%의 연간 성장률을 예상합니다.",
-      "rating": "N/A",
-      "price_target": "$0.25 billion",
-      "prior_price_target": "",
-      "thesis": [
-        "Wayfair의 판매 증가",
-        "DFIN의 판매 증가",
-        "LH의 EBITDA 증가"
-      ],
-      "catalysts": [
-        "FLO의 재고 증가",
-        "Pharmaceuticals Biotechnology & Life Sciences 산업 그룹의 운영 이익 증가"
-      ],
-      "risks": [
-        "투자 시장의 불확실성",
-        "경쟁의 증가"
-      ],
-      "key_numbers": [
-        "1Q26 매출 $0.25 billion",
-        "1Q26 EBITDA $0.08 billion"
-      ],
-      "report_date": "2026-04-27"
-    },
-    {
-      "source_filename": "Wells Fargo YOU YOU 4Q25 Results—Step in the Right Direction.pdf",
-      "source_broker": "Wells Fargo",
-      "source_title": "YOU 4Q25 Results—Step in the Right Direction",
-      "source_mtime": 1778133869.0,
-      "ingested_at": "2026-05-07T07:23:27.889427+00:00",
-      "summary": "YOU의 4Q25 실적은 기대에 부합",
-      "rating": "Underweight",
-      "price_target": "$33.00",
-      "prior_price_target": "$29.00",
-      "thesis": [
-        "기대와 일치한 4Q25 실적",
-        "엔터프라이즈 계약으로 부스팅된 수주",
-        "AMEX 계약 갱신으로 불확실성 해소"
-      ],
-      "catalysts": [
-        "1Q26 실적 발표",
-        "회원 수 및 수익성 개선"
-      ],
-      "risks": [
-        "회원 성장 둔화",
-        "경쟁 심화"
-      ],
-      "key_numbers": [
-        "4Q25 수주 25% 증가",
-        "1Q26 수주 가이드 20-22%"
-      ],
-      "report_date": "2026-02-25"
-    }
-  ]
+  "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021."
 }

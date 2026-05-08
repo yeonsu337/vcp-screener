@@ -1,81 +1,116 @@
 {
   "ticker": "KEYS",
-  "company": "",
+  "company": "Keysight Technologies Inc",
   "market": "US",
-  "sector": "",
-  "industry": "",
-  "generated_at": "2026-05-07T07:22:30.798418+00:00",
-  "primary_passed": 0,
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
+  "generated_at": "2026-05-08T00:00:10.463936+00:00",
+  "primary_passed": 13,
   "primary_total": 14,
-  "llm_status": "report-only",
-  "yf_metadata": {},
-  "category_a_business": {},
-  "category_b_financials": {},
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
+  },
+  "category_a_business": {
+    "overview": "키사이트는 컴퓨팅, 통신, 전자 시장의 글로벌 혁신 기업으로, 고객의 제품 개발 및 상용화를 돕는 설계 및 테스트 솔루션을 제공합니다.",
+    "milestones": [
+      "1939: 휴렛팩커드(HP) 설립 (키사이트의 모태)",
+      "1999: HP에서 애질런트 테크놀로지스(Agilent Technologies) 분사",
+      "2013: 애질런트에서 키사이트 테크놀로지스(Keysight Technologies) 분사 발표",
+      "2014: 키사이트 테크놀로지스 공식 출범 및 뉴욕 증권 거래소 상장",
+      "2017: Ixia 인수 (네트워크 테스트 및 보안 솔루션 강화)",
+      "2023: 연간 매출 55억 달러 달성"
+    ],
+    "business_model": "하드웨어, 소프트웨어, 서비스를 통해 고객의 제품 설계, 검증, 제조, 배포, 최적화 과정을 지원하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "테스트 및 측정 장비 판매",
+      "소프트웨어 라이선스 및 구독",
+      "서비스 (유지보수, 교육, 컨설팅)",
+      "R&D 솔루션",
+      "제조 및 운영 솔루션"
+    ],
+    "value_chain_position": "Midstream + 전자 제품 개발 및 생산 과정에서 필수적인 테스트 및 측정 솔루션을 제공합니다.",
+    "products": [
+      "오실로스코프 및 신호 분석기",
+      "네트워크 분석기",
+      "전자 설계 자동화(EDA) 소프트웨어",
+      "무선 통신 테스트 솔루션",
+      "자동차 및 에너지 솔루션",
+      "반도체 테스트 솔루션"
+    ],
+    "channels": [
+      "B2B (직접 판매 채널)",
+      "글로벌 유통 파트너"
+    ],
+    "key_customers": "매년 약 40,000개의 최종 고객사를 보유하며, Fortune 1000 기업을 포함한 다양한 산업 분야의 고객에게 서비스를 제공합니다. 특정 고객에 대한 매출 집중도는 낮습니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 66.3,
+    "sales_yoy_pct": 23.3,
+    "ni_cagr_3y_pct": -8.89,
+    "roe_pct": 17.22
+  },
   "category_c_market": {},
-  "category_d_thesis": {},
-  "category_e_risks": {},
-  "analyst_reports": [
-    {
-      "source_filename": "Barclays KEYS Keysight Technologies, Inc. Beat and Raise; Strength Ac.pdf",
-      "source_broker": "Barclays",
-      "source_title": "Keysight Technologies, Inc. Beat and Raise; Strength Ac",
-      "source_mtime": 1778133640.0,
-      "ingested_at": "2026-05-07T07:46:27.230752+00:00",
-      "summary": "키사이트 기술의 1분기 실적이 예상치를 상회했고, 2분기 가이딩도 강세를 보였다.",
-      "rating": "Overweight",
-      "price_target": "$320.00",
-      "prior_price_target": "$232.00",
-      "thesis": [
-        "와이어라인 부문에서 AI 관련 수요가 증가하고 있다.",
-        "반도체 부문에서 성장세가 지속되고 있다.",
-        "국방 부문에서 수요가 증가하고 있다."
-      ],
-      "catalysts": [
-        "5G 및 6G 기술의 발전",
-        "AI 기술의 발전",
-        "국방 예산의 증가"
-      ],
-      "risks": [
-        "기술 발전의 속도 저하",
-        "국방 예산의 감소",
-        "경쟁사와의 경쟁"
-      ],
-      "key_numbers": [
-        "1Q26 EPS $2.17, 컨센 $2.00 대비 +8.5%",
-        "2Q26 가이딩 상승",
-        "와이어라인 부문 수주 증가"
-      ],
-      "report_date": "2026-02-23"
-    },
-    {
-      "source_filename": "UBS KEYS Keysight Technologies Inc AI Momentum Accelerating as D.pdf",
-      "source_broker": "UBS",
-      "source_title": "Keysight Technologies Inc AI Momentum Accelerating as D",
-      "source_mtime": 1778133658.0,
-      "ingested_at": "2026-05-07T07:22:30.797825+00:00",
-      "summary": "키사이트 기술의 AI 수요가 가속화",
-      "rating": "Buy",
-      "price_target": "$340.00",
-      "prior_price_target": "$230.00",
-      "thesis": [
-        "키사이트의 AI 수요 가속화",
-        "방위 및 전자 시스템 그룹의 실적",
-        "수익 성장 및 매수 가능성"
-      ],
-      "catalysts": [
-        "AI 투자 지출의 지속적인 증가",
-        "최근 인수의 성과"
-      ],
-      "risks": [
-        "AI 투자 지출의 잠재적인 감소",
-        "인수 통합의 어려움",
-        "경쟁의 증가"
-      ],
-      "key_numbers": [
-        "1Q 매출 23% 증가",
-        "2Q 매출 예측 30% 증가"
-      ],
-      "report_date": "2026-02-23"
-    }
-  ]
+  "category_d_thesis": {
+    "rs_rating": 91,
+    "score": 83.8,
+    "vcp_quality": 13.8,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 96.41,
+    "outperform_6m_vs_nasdaq": 87.72,
+    "outperform_1m_vs_nasdaq": -2.47
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Financial difficulties experienced by our suppliers and customers due to economic volatility could result in product delays, reduced purchasing power, delays in payment or inability to pay us, and inventory issues.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Economic, political, and other risks associated with international sales and operations could adversely affect our results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Accordingly, our future results could be negatively impacted by a variety of factors, including, but not limited to: • inability to conduct business in certain countries or regions or with certain customers due to U.S.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If conditions change in those countries, it may adversely affect operations, including impairing our ability to pay our suppliers.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our results of operations, as well as our liquidity, may be adversely affected and possible delays may occur in reporting financial results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Further, even if we are able to successfully manage the risks of international operations, our business may be adversely affected if our business partners are not able to successfully manage similar risks.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
 }

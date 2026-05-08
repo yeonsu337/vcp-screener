@@ -1,0 +1,65 @@
+{
+  "ticker": "VRT",
+  "company": "Vertiv Holdings Co",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "generated_at": "2026-05-08T00:01:12.149566+00:00",
+  "primary_passed": 12,
+  "primary_total": 14,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 130600837120,
+    "shares_outstanding": 384108816,
+    "employees": 34000,
+    "country": "United States",
+    "website": "https://www.vertiv.com",
+    "beta": 2.099
+  },
+  "category_a_business": {
+    "overview": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa. The company offers AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled and liquid cooled thermal management products, integrated modular solutions, racks, single phase UPS, rack power distribution, rack thermal systems, configurable integrated solutions, ",
+    "business_model": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial envi",
+    "products": [
+      "AC and DC power management products, low/medium voltage switchgear, busbar, thermal management products, air cooled",
+      "lifecycle management services, predictive analytics, and professional services for deploying, maintaining, and optimizi",
+      "its products primarily under the Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér, and Avocent brands"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 137.1,
+    "sales_yoy_pct": 30.1,
+    "ni_cagr_3y_pct": 159.13,
+    "roe_pct": 45.1
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Electrical Equipment & Parts 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 68.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.6592,
+    "trailing_pe": 85.42965,
+    "forward_pe": 39.47807,
+    "ev_to_ebitda": 58.174,
+    "price_to_sales": 12.04427,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 218.29,
+    "outperform_6m_vs_nasdaq": 77.63,
+    "outperform_1m_vs_nasdaq": 6.98,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments."
+}

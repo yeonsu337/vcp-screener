@@ -4,80 +4,64 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-05-06T00:57:25.603588+00:00",
+  "generated_at": "2026-05-08T00:04:56.089699+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 35581816832,
+    "market_cap": 36883718144,
     "shares_outstanding": 105502622,
     "employees": 135000,
     "country": "United States",
     "website": "https://www.jabil.com",
     "beta": 1.286
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Jabil Inc. provides engineering, manufacturing, and supply chain solutions worldwide. It operates in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce.",
+    "business_model": "Jabil Inc.",
+    "products": [
+      "engineering, manufacturing, and supply chain solutions worldwide",
+      "in three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce",
+      "electronic hardware, and embedded software design services for analog, digital, radio frequency, power, sensor, and opti",
+      "cloud data center server platforms",
+      "systems assembly, test, direct-order fulfillment, and configure-to-order services"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with supply chain services, primarily serving original equipment manufacturers. It is headquartered in the Gateway area of St. Petersburg, Florida. It is one of the largest companies in the Tampa Bay area."
+  },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 90.6,
     "sales_yoy_pct": 23.1,
     "ni_cagr_3y_pct": -12.95,
     "roe_pct": 59.7
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Electronic Components 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 69.9,
+    "rs_rating": 87,
+    "score": 66.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.82,
-    "trailing_pe": 45.39166,
-    "forward_pe": 23.154446,
-    "ev_to_ebitda": 16.068,
-    "price_to_sales": 1.0892282,
+    "trailing_pe": 47.17949,
+    "forward_pe": 24.001642,
+    "ev_to_ebitda": 16.616,
+    "price_to_sales": 1.1290818,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 83.78,
-    "outperform_6m_vs_nasdaq": 46.04,
-    "outperform_1m_vs_nasdaq": 10.95,
+    "outperform_1y_vs_nasdaq": 87.1,
+    "outperform_6m_vs_nasdaq": 56.69,
+    "outperform_1m_vs_nasdaq": 7.74,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with supply chain services, primarily serving original equipment manufacturers. It is headquartered in the Gateway area of St. Petersburg, Florida. It is one of the largest companies in the Tampa Bay area.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-07T02:51:37.142029+00:00"
-  },
-  "analyst_reports": [
-    {
-      "source_filename": "Barclays JBL Jabil Site Visit Takeaways.pdf",
-      "source_broker": "Barclays",
-      "source_title": "Jabil Site Visit Takeaways",
-      "source_mtime": 1778133461.0,
-      "ingested_at": "2026-05-07T07:16:55.550134+00:00",
-      "summary": "Jabil의 AI 비즈니스 성장",
-      "rating": "Overweight",
-      "price_target": "$304.00",
-      "prior_price_target": "",
-      "thesis": [
-        "AI 비즈니스 성장",
-        "고성장 시장 진출",
-        "고객 다변화"
-      ],
-      "catalysts": [
-        "AI 업사이즈",
-        "신규 고객 확보",
-        "하이퍼스케일러와의 협력"
-      ],
-      "risks": [
-        "마クロ 경제 악화",
-        "고객 집중도",
-        "공급망 부족",
-        "노동력 부족"
-      ],
-      "key_numbers": [
-        "1년간 목표 주가 상승률 +14.6%",
-        "FY27E 목표 P/E 20x"
-      ],
-      "report_date": "2026-03-19"
-    }
-  ]
+  "wikipedia_summary": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with supply chain services, primarily serving original equipment manufacturers. It is headquartered in the Gateway area of St. Petersburg, Florida. It is one of the largest companies in the Tampa Bay area."
 }

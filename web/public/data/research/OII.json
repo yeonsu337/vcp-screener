@@ -4,19 +4,32 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-07T06:45:34.558896+00:00",
+  "generated_at": "2026-05-08T00:10:43.090737+00:00",
   "primary_passed": 12,
   "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3697556224,
+    "market_cap": 3648681472,
     "shares_outstanding": 99745249,
     "employees": 11100,
     "country": "United States",
     "website": "https://www.oceaneering.com",
     "beta": 1.173
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Oceaneering International, Inc. provides engineered services and products and robotic solutions to the offshore energy, defense, aerospace, and manufacturing industries in the United States, Africa, the United Kingdom, Norway, Brazil, Asia, Australia, and internationally. It operates through five segments: Subsea Robotics, Manufactured Products, Offshore Projects Group, Integrity Management & Digital Solutions, and Aerospace and Defense Technologies.",
+    "business_model": "Oceaneering International, Inc.",
+    "products": [
+      "engineered services and products and robotic solutions to the offshore energy, defense, aerospace, and manufacturing i",
+      "through five segments: Subsea Robotics, Manufactured Products, Offshore Projects Group, Integrity Management & Digital S",
+      "remotely operated vehicles (ROVs) for drill support and vessel-based services, including subsea hardware installation, c",
+      "distribution and connection systems, such as production control umbilicals and field development hardware and pipeline c",
+      "subsea installation and intervention, including riserless light well intervention services, inspection, maintenance"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.36,
     "roa": 0.07,
@@ -102,22 +115,29 @@
     "ni_cagr_3y_pct": 138.91,
     "roe_pct": 35.89
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 63.9,
+    "rs_rating": 83,
+    "score": 63.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 8.01,
-    "trailing_pe": 11.032739,
-    "forward_pe": 17.782362,
+    "trailing_pe": 10.886906,
+    "forward_pe": 16.646946,
     "ev_to_ebitda": 9.999,
-    "price_to_sales": 1.319584,
+    "price_to_sales": 1.3021415,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 57.21,
-    "outperform_6m_vs_nasdaq": 45.03,
-    "outperform_1m_vs_nasdaq": -18.47,
+    "outperform_1y_vs_nasdaq": 51.1,
+    "outperform_6m_vs_nasdaq": 49.28,
+    "outperform_1m_vs_nasdaq": -13.29,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},

@@ -4,19 +4,32 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-07T06:30:05.319219+00:00",
+  "generated_at": "2026-05-08T00:03:55.061049+00:00",
   "primary_passed": 13,
   "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 15383690240,
+    "market_cap": 15232207872,
     "shares_outstanding": 110570613,
     "employees": 4832,
     "country": "United States",
     "website": "https://www.muellerindustries.com",
     "beta": 1.142
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Mueller Industries, Inc. manufactures and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle East, and Mexico. It operates through three segments: Piping Systems, Industrial Metals, and Climate.",
+    "business_model": "Mueller Industries, Inc.",
+    "products": [
+      "and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle Eas",
+      "through three segments: Piping Systems, Industrial Metals, and Climate",
+      "copper tubes, fittings, line sets, and pipe nipples",
+      "steel pipe, brass and plastic plumbing valves, malleable iron fittings, faucets, and plumbing specialties",
+      "its products to wholesalers in the plumbing and refrigeration markets, distributors to the manufactured housing and recr"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.28,
     "roa": 0.17,
@@ -104,57 +117,70 @@
     "ni_cagr_3y_pct": 5.14,
     "roe_pct": 28.3
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Metal Fabrication 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 82.3,
-    "vcp_quality": 14.0,
+    "rs_rating": 78,
+    "score": 81.0,
+    "vcp_quality": 13.8,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.41,
-    "trailing_pe": 18.258532,
-    "forward_pe": 15.900572,
-    "ev_to_ebitda": 13.414,
-    "price_to_sales": 3.5191784,
+    "trailing_pe": 18.07874,
+    "forward_pe": 15.7439995,
+    "ev_to_ebitda": 13.269,
+    "price_to_sales": 3.4845252,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.39,
-    "outperform_6m_vs_nasdaq": 21.11,
-    "outperform_1m_vs_nasdaq": 5.93,
+    "outperform_1y_vs_nasdaq": 42.86,
+    "outperform_6m_vs_nasdaq": 18.6,
+    "outperform_1m_vs_nasdaq": 2.28,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "",
-  "analyst_reports": [
-    {
-      "source_filename": "Freedom Broker MLI MLI Strong Quarter on Higher Profitability; Raise PT an.pdf",
-      "source_broker": "Freedom Broker",
-      "source_title": "MLI Strong Quarter on Higher Profitability; Raise PT an",
-      "source_mtime": 1778133960.0,
-      "ingested_at": "2026-05-07T07:18:57.524673+00:00",
-      "summary": "MLI의 1분기 실적이 예상치를 상회하며, 수익성 개선",
-      "rating": "BUY",
-      "price_target": "$149.00",
-      "prior_price_target": "$133.00",
-      "thesis": [
-        "수익성 개선",
-        "제조 비용 관리",
-        "다각화된 수익 구조"
-      ],
-      "catalysts": [
-        "구리 가격 상승",
-        "제조 비용 관리",
-        "신제품 출시"
-      ],
-      "risks": [
-        "건설 시장 약세",
-        "제품 대체 위험"
-      ],
-      "key_numbers": [
-        "1Q26 매출 19% 증가",
-        "1Q26 영업이익 51% 증가",
-        "1Q26 순이익 52% 증가"
-      ],
-      "report_date": "2026-04-21"
-    }
-  ]
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Although we have tried to identify and discuss key risk factors, others could emerge in the future.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "For example, tariffs may impact the total cost of our products and the components and raw materials that go into manufacturing them and could adversely impact the gross margin the Company earns on its products.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "While we typically attempt to pass costs through to our customers or to modify or adapt our activities to mitigate the impact of increases, we may not be able to do so successfully.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Additionally, if we are for any reason unable to obtain raw materials or energy, our ability to manufacture our products would be impacted, which could have a material adverse impact on our operating margins.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In particular, market prices of building products historically have been volatile and cyclical, and we may be unable to control the timing and extent of pricing changes for our products.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Significantly higher interest rates could have a material adverse effect on our business, financial condition, and results of operations.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
 }
