@@ -1,0 +1,66 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "MTZ",
+  "generated_at": "2026-05-11T08:00:00Z",
+  "source_results_date": "2026-05-08",
+  "verdict": "EXTENDED",
+  "verdict_kr": "추격 위험 (다음 베이스 대기)",
+  "confidence": 0.62,
+  "lines": [
+    "추격 금지 — Stage 2·RS 93 강세이나 pivot $328.69 대비 +25.4% extended.",
+    "12주 베이스 10.3% → 11.1% → 8.9%, 1차→2차 확대로 단조성 약함, VDU 1.21× 부재.",
+    "Trend Template 8/8 통과, RS 라인 -6.8% — 추세 강하나 진입 시점 늦음.",
+    "지금 매수 시 -7% 손절 거리 $383.41로 risk/reward 불리, 다음 3~5주 수축 베이스 형성 대기.",
+    "신규 매수 시 다음 pivot 돌파 + VDU 확인, 보유자는 +20% 도달분 절반 익절·50일선 trailing."
+  ],
+  "action": {
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": null,
+    "stop_pct": null,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": "close_below_sma50_on_volume",
+    "position_risk_pct": 0.0
+  },
+  "framework": {
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "3/8",
+    "rs_rating": 93,
+    "stage": 2,
+    "base_count": 3,
+    "late_base_warning": true,
+    "market_regime": "neutral"
+  },
+  "rule_references": [
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "B9_stage2",
+    "B10_higher_highs_lows",
+    "R3_rs_90",
+    "A1_ud_vol_ratio",
+    "F1_outperform_1y"
+  ],
+  "key_failures": [
+    "P2_last_contraction (8.87% vs 6.5%)",
+    "P3_vol_dryup (1.21× vs 0.6× — VDU 부재, 오히려 거래량 평균 상회)",
+    "P4_base_count (3 vs 2 — 후기 베이스)",
+    "P6_monotonic_decreasing (0.937 — 2차 수축이 1차보다 미세 확대)",
+    "V1_atr_contraction (1.653 vs 0.85)",
+    "V2_short_term_tightening (1.092 vs 1.0)",
+    "E7_roe (15.01% vs 17%)",
+    "H2_cfps_to_eps (0.713 vs 1.2)"
+  ],
+  "warnings": [
+    "Pivot 대비 +25.4% — Minervini buy zone(0~3%) 한참 초과, 추격 매수 시 손절 거리 $383 이상으로 risk/reward 붕괴",
+    "VDU ratio 1.21× — 거래량 평균 상회, supply 잔존 신호",
+    "베이스 카운트 3 + 단조성 약함 — 다음 베이스에서 재진입 setup 평가 필요",
+    "ROE 15.01%로 Minervini 17% gate 미달 — 펀더 second-tier"
+  ],
+  "narrative_internal": "추세 자체는 명백한 super-performer 후보: Stage 2 + RS 93 + Trend Template 8/8. 그러나 봇 권고 시점에서 pivot 돌파 후 이미 +25.4% 진행 → Minervini의 'buy zone 0~3%' 원칙상 EXTENDED. 추격 매수 시 -7% 손절 거리가 $28+ 발생, 동일 risk로 살 수 있는 더 깨끗한 setup이 항상 존재. VCP quality 3/8(2차 수축 확대, VDU 부재)은 이 베이스가 이미 작동 완료했음을 시사 — 다음 베이스 형성을 기다려야 함. 보유자는 +20% 절반 익절 + 50일선 trailing 가이드."
+}

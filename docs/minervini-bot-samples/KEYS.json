@@ -1,0 +1,62 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "KEYS",
+  "generated_at": "2026-05-11T08:00:00Z",
+  "source_results_date": "2026-05-08",
+  "verdict": "BUY_NOW",
+  "verdict_kr": "매수 (Pivot 돌파 직후)",
+  "confidence": 0.78,
+  "lines": [
+    "매수 — Stage 2 진입 확정, pivot $352.78 돌파 직후(+0.65%, buy zone).",
+    "12주 베이스 16.5% → 11.8% → 8.1% 단조 수축, VDU 0.67× 진행.",
+    "Trend Template 8/8 통과, RS 91, RS 라인 신고가 -2.9%.",
+    "$355.06 매수·-7% 손절($330.21)·+20%($426.07)에서 절반 익절, 이후 50일선 trailing."
+  ],
+  "action": {
+    "entry_type": "immediate",
+    "entry_price": 355.06,
+    "stop_price": 330.21,
+    "stop_pct": -7.0,
+    "target1_price": 426.07,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
+    "position_risk_pct": 1.5
+  },
+  "framework": {
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "5/8",
+    "rs_rating": 91,
+    "stage": 2,
+    "base_count": 4,
+    "late_base_warning": true,
+    "market_regime": "neutral"
+  },
+  "rule_references": [
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "B9_stage2",
+    "R3_rs_90",
+    "P1_tightening",
+    "P6_monotonic_decreasing",
+    "E7_roe",
+    "F1_outperform_1y"
+  ],
+  "key_failures": [
+    "P2_last_contraction (8.08% vs 6.5% 목표)",
+    "P3_vol_dryup (0.67× vs 0.6× 목표)",
+    "P4_base_count (4 vs 2 — 후기 베이스 경고)",
+    "B10_higher_highs_lows (1 vs 3)",
+    "H4_ni_cagr_3y (-8.89% vs 25%)"
+  ],
+  "warnings": [
+    "베이스 카운트 4 — 후기 베이스, Minervini 실패율 상승 구간",
+    "NI CAGR 3년 마이너스 — 펀더 약점, 추세 의존도 높음",
+    "마지막 수축 8.08%로 6.5% cutoff 미달 — setup 미숙성 일부"
+  ],
+  "narrative_internal": "Trend Template 100% 통과 + RS 91 + 단조 수축 시퀀스 만족 → BUY 분류. Pivot $352.78를 +0.65% 돌파해 buy zone 내. 다만 베이스 카운트 4(후기) + 마지막 수축 8.08%(목표 6.5% 미달) + VDU 0.67×(목표 0.6× 미달) → confidence 0.78로 하향. NI CAGR 3년 -8.89%는 펀더 약점이나 Minervini는 추세 우선이므로 진입 자체는 유효, 단 손절 엄격 적용."
+}

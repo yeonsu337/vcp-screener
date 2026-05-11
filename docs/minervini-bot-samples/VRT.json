@@ -1,0 +1,63 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "VRT",
+  "generated_at": "2026-05-11T08:00:00Z",
+  "source_results_date": "2026-05-08",
+  "verdict": "WATCH",
+  "verdict_kr": "관망 (Setup 미숙성)",
+  "confidence": 0.55,
+  "lines": [
+    "관망 — Stage 2 유지·RS 94, 그러나 수축 시퀀스 단조성 결여.",
+    "12주 베이스 6차 수축 14% → 11% → 11% → 7% → 18% → 11%, 비단조.",
+    "Trend Template 7/8 통과(HH/HL 2/3), U/D 거래량 0.81로 분배 우위.",
+    "$330.30 pivot 위 +2.94% 위치하나 setup 깊이·VDU 0.64× 미숙 — 다음 수축 형성 대기.",
+    "진입 시 $340.01·-7% 손절($316.21) 강제, 깨끗한 3~4차 단조 수축 재형성 후 재평가."
+  ],
+  "action": {
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": 316.21,
+    "stop_pct": -7.0,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": "close_below_sma50_on_volume",
+    "position_risk_pct": 1.0
+  },
+  "framework": {
+    "trend_template_score": "7/8",
+    "vcp_quality_score": "2/8",
+    "rs_rating": 94,
+    "stage": 2,
+    "base_count": 3,
+    "late_base_warning": true,
+    "market_regime": "neutral"
+  },
+  "rule_references": [
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "B9_stage2",
+    "R3_rs_90",
+    "F1_outperform_1y"
+  ],
+  "key_failures": [
+    "A1_ud_vol_ratio (0.812 vs 1.0 — 분배일 우위)",
+    "B10_higher_highs_lows (2 vs 3)",
+    "P2_last_contraction (11.02% vs 6.5%)",
+    "P3_vol_dryup (0.64× vs 0.6×)",
+    "P4_base_count (3 vs 2 — 후기 베이스)",
+    "P6_monotonic_decreasing (1.096 — 비단조, 5차 수축이 4차보다 큼)",
+    "V1_atr_contraction (1.588 vs 0.85)"
+  ],
+  "warnings": [
+    "6차 수축 시퀀스에서 5번째 수축(17.85%)이 4번째(7.48%) 대비 확대 — 단조 감소 룰 위반",
+    "U/D Volume Ratio 0.81 — 매도 거래량이 매수 거래량보다 우위, 분배 신호",
+    "Pivot 대비 +2.94% — buy zone 상단, extended 직전",
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+  ],
+  "narrative_internal": "RS 94 + Stage 2 + Trend Template 7/8은 강한 신호. 그러나 VCP setup 자체 품질은 2/8로 낮음. 5번째 수축이 17.85%로 4번째 7.48%를 크게 상회 → Minervini의 핵심 룰인 '단조 감소'를 정면으로 위반. U/D Volume 0.81로 분배일 우위까지 겹쳐 institutional accumulation 미확인. 결론: 추세는 살아있으나 진입할 setup이 아님. WATCH로 분류. 다음 깨끗한 3~4차 수축 재형성을 기다림. Pivot 위 +2.94% 위치는 buy zone 끝단이므로 신규 매수에 불리."
+}
