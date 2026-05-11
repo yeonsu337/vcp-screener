@@ -39,6 +39,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/company_research.py
         continue-on-error: true
+        timeout-minutes: 25
 
       - name: Generate Lessons Learned analytics
         env:

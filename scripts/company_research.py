@@ -50,7 +50,6 @@ PRIMARY_IDS: list[str] = [
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
-    "P6_monotonic_decreasing",
     "E7_roe",
     "F1_outperform_1y",
     "H4_ni_cagr_3y",
@@ -394,9 +393,10 @@ class LLMUnavailable(Exception):
 
 def gemini_call(prompt: str, max_output_tokens: int = 1500, temperature: float = 0.3) -> str:
     """Call Gemini 2.0 Flash Free Tier. Raises LLMUnavailable on missing key / quota."""
-    # Strip BOM/whitespace — secrets piped via PowerShell can carry UTF-16 BOM,
-    # which fails latin-1 header encoding in `requests`.
-    api_key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
+    # Strip BOM/whitespace/zero-width — secrets piped via PowerShell can carry
+    # UTF-16 BOM or stray invisible chars, which fail latin-1 header encoding.
+    raw_key = os.environ.get("GEMINI_API_KEY") or ""
+    api_key = re.sub(r"[​‌‍﻿\s]+", "", raw_key)
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
     body = {

@@ -23,7 +23,6 @@ const PRIMARY_IDS = [
   "B7_within_25pct_high",
   "R1_rs_70",
   "L1_liquidity_gate",
-  "P6_monotonic_decreasing",
   "E7_roe",
   "F1_outperform_1y",
   "H4_ni_cagr_3y",

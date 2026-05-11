@@ -776,7 +776,7 @@ def main():
         "A1_ud_vol_ratio", "B1_price_above_150_200", "B2_sma150_gt_sma200",
         "B3_sma50_gt_150_200", "B4_price_above_sma50", "B5_sma200_rising_5mo",
         "B6_30pct_above_52w_low", "B7_within_25pct_high", "R1_rs_70",
-        "L1_liquidity_gate", "P6_monotonic_decreasing", "E7_roe",
+        "L1_liquidity_gate", "E7_roe",
         "F1_outperform_1y", "H4_ni_cagr_3y",
     ]
     softgate_tickers = []

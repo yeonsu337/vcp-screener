@@ -69,7 +69,8 @@ GEMINI_MODEL = "gemini-2.5-flash"
 GEMINI_URL = (
     f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 )
-# Groq fallback — free 14400 RPD (vs Gemini's 250 RPD), much higher headroom
+# Groq fallback — free tier. 70b-versatile has 12K TPM, 8b-instant only 6K.
+# Need PDF text small enough to fit per-minute budget alongside output tokens.
 GROQ_MODEL = "llama-3.3-70b-versatile"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
@@ -87,6 +88,10 @@ def _gemini_call(prompt: str, max_output_tokens: int) -> str:
         "generationConfig": {
             "temperature": 0.2,
             "maxOutputTokens": max_output_tokens,
+            # Disable thinking — 2.5 Flash defaults to thinking mode which silently
+            # consumes the output budget, leaving zero visible JSON. Set to 0.
+            "thinkingConfig": {"thinkingBudget": 0},
+            "responseMimeType": "application/json",
         },
     }
     r = requests.post(
@@ -98,7 +103,7 @@ def _gemini_call(prompt: str, max_output_tokens: int) -> str:
     if r.status_code == 429:
         raise LLMUnavailable("gemini rate-limited (429)")
     if r.status_code >= 400:
-        raise LLMUnavailable(f"gemini http {r.status_code}")
+        raise LLMUnavailable(f"gemini http {r.status_code}: {r.text[:200]}")
     j = r.json()
     cands = j.get("candidates") or []
     if not cands:
@@ -106,7 +111,9 @@ def _gemini_call(prompt: str, max_output_tokens: int) -> str:
     parts = cands[0].get("content", {}).get("parts") or []
     text = "".join(p.get("text", "") for p in parts)
     if not text.strip():
-        raise LLMUnavailable("gemini empty response")
+        # Surface the finishReason so we can diagnose (e.g., MAX_TOKENS truncation).
+        fr = cands[0].get("finishReason", "?")
+        raise LLMUnavailable(f"gemini empty response (finishReason={fr})")
     return text
 
 
@@ -131,7 +138,24 @@ def _groq_call(prompt: str, max_output_tokens: int) -> str:
         timeout=60,
     )
     if r.status_code == 429:
-        raise LLMUnavailable("groq rate-limited (429)")
+        # Groq sends Retry-After header in seconds for TPM/RPM limits.
+        retry = r.headers.get("retry-after") or r.headers.get("Retry-After")
+        wait = float(retry) if retry and retry.replace(".", "", 1).isdigit() else 30.0
+        wait = min(wait, 90.0)  # cap so we don't stall forever
+        print(f"  [groq 429 — sleeping {wait:.0f}s for retry-after window]")
+        time.sleep(wait)
+        # Single retry after the suggested wait
+        r = requests.post(
+            GROQ_URL,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+            },
+            json=body,
+            timeout=60,
+        )
+        if r.status_code == 429:
+            raise LLMUnavailable("groq rate-limited (429 after retry)")
     if r.status_code >= 400:
         raise LLMUnavailable(f"groq http {r.status_code}: {r.text[:200]}")
     j = r.json()
@@ -188,7 +212,7 @@ def parse_filename(name: str) -> dict | None:
     return {"broker": matched_broker, "ticker": ticker, "title": title}
 
 
-def extract_pdf_text(path: Path, max_pages: int = 30, max_chars: int = 60_000) -> str:
+def extract_pdf_text(path: Path, max_pages: int = 15, max_chars: int = 14_000) -> str:
     try:
         with pdfplumber.open(path) as pdf:
             chunks = []
@@ -263,8 +287,32 @@ def analyze_report(parsed: dict, text: str) -> dict:
         n_chars=len(text),
         text=text,
     )
-    raw = gemini_call(prompt, max_output_tokens=1800)
-    return _parse_json_response(raw)
+    # Try Gemini → parse → if parse fails, retry with Groq (different model often
+    # produces cleaner JSON when one fails on formatting).
+    try:
+        raw = _gemini_call(prompt, max_output_tokens=2500)
+        result = _parse_json_response(raw)
+        if not result.get("_error"):
+            return result
+        gemini_raw = raw
+    except LLMUnavailable as e:
+        gemini_raw = None
+        print(f"  [gemini fail] {e}")
+
+    if os.environ.get("GROQ_API_KEY"):
+        try:
+            print(f"  [groq fallback]")
+            raw = _groq_call(prompt, max_output_tokens=2500)
+            result = _parse_json_response(raw)
+            if not result.get("_error"):
+                return result
+            return {"_error": f"groq parse: {result.get('_error')}", "_raw": raw[:300]}
+        except LLMUnavailable as e:
+            return {"_error": f"groq: {e}"}
+
+    if gemini_raw is not None:
+        return {"_error": "gemini parse failed", "_raw": gemini_raw[:300]}
+    return {"_error": "gemini unavailable, no groq fallback"}
 
 
 def merge_into_research(ticker: str, report_entry: dict) -> bool:

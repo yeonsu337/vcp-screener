@@ -1064,10 +1064,10 @@ def evaluate_market_direction(bench_close: pd.Series | None) -> dict[str, RuleRe
         rules["MD1_idx_sma21_gt_sma50"] = RuleResult(
             "Index SMA21 > SMA50", sma21 > sma50,
             round(sma21 / sma50, 4) if sma50 else None, 1.0)
-    all_rising, rising_days = _consecutive_rising(sma50_series.values, days=21)
+    all_rising, rising_days = _consecutive_rising(sma50_series.values, days=18)
     rules["MD2_idx_sma50_rising_21d"] = RuleResult(
-        "Index 50d SMA rising 21d", all_rising,
-        float(rising_days), 20.0)
+        "Index 50d SMA rising 17d", all_rising,
+        float(rising_days), 17.0)
     return rules
 
 
