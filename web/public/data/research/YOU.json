@@ -4,51 +4,116 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-05-08T00:06:37.913860+00:00",
+  "generated_at": "2026-05-11T15:21:49.919962+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
+  "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7840757248,
+    "market_cap": 7618693632,
     "shares_outstanding": 100612468,
     "employees": 3301,
     "country": "United States",
     "website": "https://www.clearme.com",
-    "beta": null
+    "beta": 1.067
   },
   "category_a_business": {
-    "overview": "CLEAR는 생체인식 기반의 보안 신원 확인 플랫폼을 제공하여 물리적/디지털 경험을 안전하고 편리하게 만듭니다.",
-    "milestones": [
-      "2003: 회사 설립",
-      "2009: 파산 신청 후 운영 중단",
-      "2012: 재출범 및 서비스 재개",
-      "2021: 뉴욕 증권 거래소 상장 (IPO)",
-      "2025: 60개 공항, 9개 스포츠/엔터테인먼트 시설에 CLEAR+ 레인 운영"
-    ],
-    "business_model": "구독 서비스 및 B2B 솔루션을 통해 신원 확인 서비스를 제공하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "CLEAR Plus (소비자 항공 구독 서비스)",
-      "TSA PreCheck® 등록 서비스",
-      "CLEAR1 (B2B 신원 확인 솔루션)",
-      "CLEAR Concierge (프리미엄 여행 서비스)",
-      "기타 여행 혜택 및 모바일 신원 솔루션"
-    ],
-    "value_chain_position": "Midstream + 신원 확인 기술을 개발하고 이를 소비자 및 기업 고객에게 직접 제공합니다.",
+    "overview": "Clear Secure, Inc.는 주로 미국에서 CLEAR 브랜드 이름으로 보안 ID 플랫폼을 운영합니다. 등록, 인증, 연결을 포함한 프런트엔드와 백엔드로 구성된 다계층 인프라인 보안 ID 플랫폼을 제공합니다.",
+    "business_model": "클리어 시큐어 주식회사",
     "products": [
-      "CLEAR Plus (공항 보안 검색대 신속 통과)",
-      "CLEAR1 (기업용 신원 확인 플랫폼)",
-      "RESERVE powered by CLEAR (공항 예약 서비스)",
-      "Home to Gate (여행 계획 및 시간 관리 기능)",
-      "CLEAR ID (무료 모바일 디지털 ID)",
-      "CLEAR Concierge (프리미엄 여행자 지원)"
+      "주로 미국에서 CLEAR 브랜드 이름으로 사용되는 보안 ID 플랫폼",
+      "보안 ID 플랫폼은 등록, 검증,",
+      "CLEAR Plus는 공항 보안 검색대에서 예측 가능한 입국 차선에 접근할 수 있는 소비자 항공 구독 서비스입니다.",
+      "RESERVE는 공항 위치 예약 지점에 대한 CLEAR 제공"
     ],
     "channels": [
-      "B2C (공항 내 직접 가입, 모바일 앱)",
-      "B2B (기업, 의료기관, 정부 기관 파트너십)"
+      "B2B / 기업"
     ],
-    "key_customers": "주요 고객은 CLEAR+ 구독자(개인)와 CLEAR1을 사용하는 기업 및 기관입니다. 공항 내 가입이 CLEAR+ 회원 확보의 60% 이상을 차지합니다."
+    "wikipedia_excerpt": "Clear Secure, Inc.는 일부 주요 공항과 경기장에서 생체 인식 여행 서류 확인 시스템을 운영하는 미국 기술 회사입니다. 2003년 설립됐으나 2009년 파산 신청으로 문을 닫았다. 2012년에 다시 출시되어 2021년에 공개되었습니다.",
+    "milestones": [
+      "2003년: , 그러나 파산 신청 후 2009년 문을 닫음",
+      "2012년: 2021년에 상장됨"
+    ]
   },
   "category_b_financials": {
+    "roe": 1.1,
+    "roa": 0.1,
+    "profit_margin": 0.13,
+    "operating_margin": 0.25,
+    "gross_margin": 0.65,
+    "revenue_growth_ttm": 0.2,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 1.06,
+    "payout_ratio": 0.42,
+    "annual_revenue": [
+      900779000.0,
+      770488000.0,
+      613579000.0,
+      437434000.0,
+      null
+    ],
+    "annual_operating_income": [
+      186478000.0,
+      123191000.0,
+      20138000.0,
+      -129064000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      1.56,
+      0.31,
+      -0.8,
+      -0.48
+    ],
+    "annual_free_cf": [
+      343112000.0,
+      283350000.0,
+      198898000.0,
+      136403000.0,
+      null
+    ],
+    "annual_total_debt": [
+      112323000.0,
+      121255000.0,
+      127382000.0,
+      130109000.0,
+      null
+    ],
+    "annual_equity": [
+      177734000.0,
+      198353000.0,
+      233329000.0,
+      291065000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.31,
+      0.29,
+      0.26,
+      0.26,
+      1.07
+    ],
+    "quarterly_revenue": [
+      240751000.0,
+      229193000.0,
+      219467000.0,
+      211368000.0,
+      206270000.0
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 52.7,
     "sales_yoy_pct": 19.7,
     "roe_pct": 109.5
@@ -62,52 +127,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 91,
-    "score": 68.5,
+    "rs_rating": 90,
+    "score": 65.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 46.536,
-    "forward_pe": 23.078386,
-    "ev_to_ebitda": 22.992,
-    "price_to_sales": 8.319865,
+    "trailing_pe": 45.6,
+    "forward_pe": 21.388369,
+    "ev_to_ebitda": 21.68,
+    "price_to_sales": 8.084232,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 80.74,
-    "outperform_6m_vs_nasdaq": 80.89,
-    "outperform_1m_vs_nasdaq": 1.38,
+    "outperform_1y_vs_nasdaq": 92.99,
+    "outperform_6m_vs_nasdaq": 66.19,
+    "outperform_1m_vs_nasdaq": 8.89,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "RISK FACTORS Risk Factors Summary The following is a summary of the principal risks that could adversely affect our business, operations and financial results.",
+        "description": "위험 요소 위험 요소 요약 다음은 당사의 사업, 운영 및 재무 결과에 부정적인 영향을 미칠 수 있는 주요 위험을 요약한 것입니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Failure to do so could adversely affect our business, results of operations and financial condition.",
+        "description": "그렇게 하지 않으면 당사의 사업, 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Development of new or enhanced features may require significant time and investment, which could result in increased costs and a reduction in our profit margins.",
+        "description": "새로운 기능이나 향상된 기능을 개발하려면 상당한 시간과 투자가 필요할 수 있으며, 이로 인해 비용이 증가하고 이윤이 감소할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "We have in the past, and may in the future, expand CLEAR+ membership to include benefits in addition to use at our partner airports, such as free access to CLEAR Mobile and CLEAR Perks.",
+        "description": "당사는 과거에도 그랬고 앞으로도 CLEAR+ 멤버십을 확장하여 파트너 공항에서의 사용 외에 CLEAR Mobile 및 CLEAR Perks 무료 이용과 같은 혜택을 포함할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "If our efforts to develop and offer more benefits are not valued by our current and future CLEAR+ Members, our ability to attract and retain CLEAR+ Members, or increase pricing, may be negatively impacted.",
+        "description": "더 많은 혜택을 개발하고 제공하려는 당사의 노력이 현재 및 미래의 CLEAR+ 회원에게 가치가 없는 경우, CLEAR+ 회원을 유치 및 유지하거나 가격을 인상하는 당사의 능력에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "We have and may, from time to time, adjust our CLEAR+ membership pricing, our family plans, or our pricing model itself.",
+        "description": "당사는 CLEAR+ 멤버십 가격, 가족 요금제 또는 가격 모델 자체를 수시로 조정하고 조정할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -118,5 +183,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021."
+  "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:26:20.644583+00:00"
+  }
 }

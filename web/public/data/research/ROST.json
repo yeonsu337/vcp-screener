@@ -4,19 +4,34 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-05-07T06:39:53.814829+00:00",
+  "generated_at": "2026-05-11T15:24:54.798192+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 74039779328,
+    "market_cap": 69783240704,
     "shares_outstanding": 322148148,
     "employees": 111000,
     "country": "United States",
     "website": "https://www.rossstores.com",
     "beta": 0.875
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes.",
+    "business_model": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States.",
+    "products": [
+      "off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United S",
+      "designer apparel, accessories, footwear, and home-fashioned products for the entire family",
+      "its products to middle income households and households with lower to more moderate incomes"
+    ],
+    "channels": [
+      "B2C / Retail"
+    ],
+    "wikipedia_excerpt": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states.",
+    "milestones": [
+      "2024: , Ross operates 1,795 stores in 43 U"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.37,
     "roa": 0.11,
@@ -25,7 +40,7 @@
     "gross_margin": 0.33,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.12,
-    "dividend_yield": 0.78,
+    "dividend_yield": 0.79,
     "payout_ratio": 0.25,
     "annual_revenue": [
       22750559000.0,
@@ -98,22 +113,29 @@
     "ni_cagr_3y_pct": 12.36,
     "roe_pct": 36.68
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Cyclical / Apparel Retail 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 67.2,
+    "rs_rating": 75,
+    "score": 62.4,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 3.3088,
-    "trailing_pe": 34.630863,
-    "forward_pe": 28.163107,
-    "ev_to_ebitda": 23.132,
-    "price_to_sales": 3.254416,
+    "peg_ratio": 3.2853,
+    "trailing_pe": 32.590633,
+    "forward_pe": 26.43561,
+    "ev_to_ebitda": 22.821,
+    "price_to_sales": 3.0673199,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 18.62,
-    "outperform_6m_vs_nasdaq": 34.22,
-    "outperform_1m_vs_nasdaq": -11.54,
+    "outperform_1y_vs_nasdaq": 7.52,
+    "outperform_6m_vs_nasdaq": 23.11,
+    "outperform_1m_vs_nasdaq": -15.8,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},

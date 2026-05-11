@@ -4,19 +4,30 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Solar",
-  "generated_at": "2026-05-07T06:40:56.331352+00:00",
+  "generated_at": "2026-05-11T15:19:46.483979+00:00",
   "primary_passed": 13,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 18960500736,
+    "market_cap": 19533465600,
     "shares_outstanding": 148475843,
     "employees": 1300,
     "country": "United States",
     "website": "https://www.nextpower.com",
     "beta": 1.598
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Nextpower Inc.는 미국 및 국제적으로 유틸리티 규모 및 분산 발전 태양광 애플리케이션을 위한 태양광 추적기 기술과 솔루션을 제공합니다. 이 회사는 태양광 추적 솔루션인 NX Horizon을 포함한 추적 솔루션을 제공합니다. 경사지고 고르지 않으며 까다로운 지형이 있는 현장의 추적기 시장을 확장하기 위한 지형 추적 추적기인 NX Horizon-XTR NX Horizon Hail Pro는 기상 서비스 정보를 사용하여 자동 적재 기능을 추가합니다. 그리고 탄소 배출량을 줄인 태양광 추적기 솔루션인 NX Horizon Low Carbon이 있습니다.",
+    "business_model": "넥스트파워(주)",
+    "products": [
+      "미국의 유틸리티 규모 및 분산 발전 태양광 애플리케이션을 위한 태양광 추적기 기술 및 솔루션",
+      "태양광 추적 솔루션인 NX Horizon을 포함한 추적 솔루션",
+      "전력 생산량 부족을 해결하는 에너지 수율 관리 시스템인 TrueCapture"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.33,
     "roa": 0.14,
@@ -98,24 +109,73 @@
     "ni_cagr_3y_pct": 115.45,
     "roe_pct": 33.17
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Solar 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 65.8,
+    "rs_rating": 87,
+    "score": 67.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.1095,
-    "trailing_pe": 32.163265,
-    "forward_pe": 26.31623,
-    "ev_to_ebitda": 23.282,
-    "price_to_sales": 5.2621064,
+    "peg_ratio": 3.3483,
+    "trailing_pe": 33.135204,
+    "forward_pe": 27.111477,
+    "ev_to_ebitda": 23.249,
+    "price_to_sales": 5.421121,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 161.81,
-    "outperform_6m_vs_nasdaq": 15.81,
-    "outperform_1m_vs_nasdaq": -1.88,
+    "outperform_1y_vs_nasdaq": 145.63,
+    "outperform_6m_vs_nasdaq": 8.42,
+    "outperform_1m_vs_nasdaq": -4.18,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": ""
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "다음 위험 중 하나라도 발생하면 당사의 사업, 재무 상태, 운영 결과 또는 전망에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 우리에게 알려지지 않았거나 현재 중요하다고 간주되지 않는 위험도 우리의 사업, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 위험 또는 다음 위험 중 하나라도 발생하면 당사 클래스 A 보통주의 거래 가격이 하락할 수 있으며 귀하는 투자금의 일부 또는 전부를 잃을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "태양 에너지에 대한 수요가 지속적으로 증가하지 못하면 당사 제품에 대한 수요가 정체되거나 감소할 것이며, 이는 당사의 수익 증대 및 비즈니스 성장 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 위험을 완화하고 이러한 어려움을 성공적으로 극복하지 못하면 당사의 사업, 재무 상태 및 운영 결과가 심각하고 부정적인 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "업계 내 경쟁 압력은 당사의 비즈니스, 운영 결과, 재무 상태 및 전망에 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:23:14.706834+00:00"
+  }
 }

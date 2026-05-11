@@ -1,0 +1,190 @@
+{
+  "ticker": "SSRM",
+  "company": "SSR Mining Inc.",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Gold",
+  "generated_at": "2026-05-11T15:08:24.453602+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 7282957824,
+    "shares_outstanding": 207491071,
+    "employees": 2900,
+    "country": "United States",
+    "website": "https://www.ssrmining.com",
+    "beta": 0.86
+  },
+  "category_a_business": {
+    "overview": "SSR Mining Inc.는 자회사와 함께 미국, 터키, 캐나다 및 아르헨티나에서 귀금속 자원 자산의 획득, 탐사 및 개발에 참여하고 있습니다. 이 회사는 금도레, 구리, 은, 납 및 아연 매장지를 탐색합니다. 터키 Erzincan 지방에 위치한 Çöpler에 지분을 보유하고 있습니다. 미국 네바다주에 위치한 메리골드; 캐나다 서스캐처원에 위치한 Seabee; 아르헨티나 후후이(Jujuy) 지방에 위치한 푸나(Puna).",
+    "business_model": "SSR Mining Inc.는 자회사와 함께 미국, 터키, 캐나다 및 아르헨티나에서 귀금속 자원 자산의 획득, 탐사 및 개발에 참여하고 있습니다.",
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "SSR Mining Inc.(이전 Silver Standard Resources)는 덴버에 본사를 둔 금, 은, 구리, 납 및 아연 생산업체로 아르헨티나에서 가장 큰 은 광산을 소유하고 있습니다. 또한 아메리카와 터키 전역에서 탐사 활동에 참여하고 있습니다. 2020년에 SSR Mining은 Alacer Gold와 합병되었습니다. 합병 이후 회사는 본사를 콜로라도주 덴버로 이전했습니다. Rodney P. Antal은 현재 SSR 마이닝의 사장 겸 CEO입니다. 2021년 2월 SSR Mining은 Alison White가 새로운 부사장 겸 CFO가 될 것이라고 발표했습니다. 또한 SSR 마이닝의 나머지 임원진도 추가되었습니다.",
+    "milestones": [
+      "2020: , SSR Mining이 Alacer Gold와 합병되었습니다.",
+      "2021: , SSR Mining은 Alison White가 새로운 부사장 겸 CFO가 될 것이라고 발표했습니다."
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.12,
+    "roa": 0.08,
+    "profit_margin": 0.12,
+    "operating_margin": 0.52,
+    "gross_margin": 0.55,
+    "revenue_growth_ttm": 0.84,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1629637000.0,
+      995618000.0,
+      1426927000.0,
+      1148033000.0,
+      null
+    ],
+    "annual_operating_income": [
+      469482000.0,
+      -179127000.0,
+      282322000.0,
+      189522000.0,
+      null
+    ],
+    "annual_eps": [
+      1.85,
+      -1.29,
+      -0.48,
+      0.89,
+      null
+    ],
+    "annual_free_cf": [
+      241649000.0,
+      -103404000.0,
+      198303000.0,
+      23381000.0,
+      null
+    ],
+    "annual_total_debt": [
+      377821000.0,
+      345183000.0,
+      327221000.0,
+      406589000.0,
+      null
+    ],
+    "annual_equity": [
+      3507773000.0,
+      3107043000.0,
+      3373080000.0,
+      3579737000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -0.52,
+      null,
+      0.31,
+      0.42,
+      0.28,
+      null,
+      0.05
+    ],
+    "quarterly_revenue": [
+      581778000.0,
+      521725000.0,
+      385839000.0,
+      405455000.0,
+      316618000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "sales_yoy_pct": 83.7,
+    "ni_cagr_3y_pct": 26.8,
+    "roe_pct": 12.41
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Basic Materials / Gold 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 70.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.02,
+    "trailing_pe": 13.448316,
+    "forward_pe": 6.7437425,
+    "ev_to_ebitda": 8.67,
+    "price_to_sales": 3.843661,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 185.04,
+    "outperform_6m_vs_nasdaq": 66.79,
+    "outperform_1m_vs_nasdaq": -6.74,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "회사의 운영 및 사업과 관련된 위험: • 회사의 생산, 개발 계획 및 비용 추정은 다양하거나 달성되지 않을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Çöpler 사건으로 인한 실제 및 잠재적 손실과 책임은 당사의 재무 상태, 유동성, 현금 흐름 및 운영 결과에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "장기 보관 및 복구에 드는 실제 비용은 현재 추정치와 크게 다를 수 있으며, 이는 현금 흐름, 운영 결과 또는 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Çöpler의 운영에 관한 추가 정보가 제공되면 TRS를 수정해야 할 수도 있으며, 이러한 일이 언제 발생할지는 확실하지 않습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "회사는 현재로서는 Çöpler가 언제 영업을 재개할지 예측할 수 없으며, 이는 회사의 미래 현금 흐름, 수익성, 영업 결과 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "회사가 Çöpler에서 운영을 재개하도록 허용되면 2014 EIA의 매개변수에 따라 광산을 운영하지 못할 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "SSR Mining Inc., formerly Silver Standard Resources is a Denver-based gold, silver, copper, lead and zinc producer that owns the largest silver mine in Argentina. In addition it engages in exploration activity throughout the Americas and Turkey. In 2020, SSR Mining merged with Alacer Gold. Since the merger, the company has moved headquarters to Denver, Colorado. Rodney P. Antal is now the president and CEO of SSR mining. In February 2021, SSR Mining announced that Alison White would be the new executive vice president and CFO. In addition, the rest of the executive team at SSR mining was added following the closure of the merger between SSR and Alacer Gold. Stewart Beckman is the executive vice president and COO ; F. Edward Farid is the vice president and CCDO. Michael J. Sparks is the vice president and chief legal and administrative officer. In addition, the rest of the leadership team and information can be found on their website. The merger created a company worth $4.0 billion",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:24:43.275897+00:00"
+  }
+}

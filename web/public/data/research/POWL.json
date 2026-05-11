@@ -1,0 +1,145 @@
+{
+  "ticker": "POWL",
+  "company": "Powell Industries, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "generated_at": "2026-05-11T15:25:56.635075+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 11485805568,
+    "shares_outstanding": 36431649,
+    "employees": 3143,
+    "country": "United States",
+    "website": "https://www.powellind.com",
+    "beta": 1.144
+  },
+  "category_a_business": {
+    "overview": "Powell Industries, Inc., together with its subsidiaries, designs, develops, manufactures, sells, and services custom-engineered equipment and systems. The company's products portfolio includes integrated power control room substations, custom-engineered modules, and electrical houses; and traditional and arc-resistant distribution switchgears and control gears, medium-voltage circuit breakers, monitoring and control communications systems, motor control centers, switches, and bus duct systems. It also provides field service inspection, installation, commissioning, modification, and repair serv",
+    "business_model": "Powell Industries, Inc., together with its subsidiaries, designs, develops, manufactures, sells, and services custom-engineered equipment and systems.",
+    "products": [
+      "field service inspection, installation, commissioning, modification, and repair services",
+      "in the United States, Canada, the Middle East, Africa, Europe, Mexico, the Asia/Pacific, and Central and South Americ"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.3,
+    "roa": 0.13,
+    "profit_margin": 0.17,
+    "operating_margin": 0.19,
+    "gross_margin": 0.3,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": -0.02,
+    "dividend_yield": 0.12,
+    "payout_ratio": 0.07,
+    "annual_revenue": [
+      1104318000.0,
+      1012356000.0,
+      699308000.0,
+      532582000.0,
+      null
+    ],
+    "annual_operating_income": [
+      217860000.0,
+      178773000.0,
+      62520000.0,
+      7224000.0,
+      null
+    ],
+    "annual_eps": [
+      4.95,
+      4.1,
+      1.5,
+      0.38,
+      null
+    ],
+    "annual_free_cf": [
+      154788000.0,
+      96428000.0,
+      174734000.0,
+      -6033000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1664000.0,
+      1216000.0,
+      1436000.0,
+      2322000.0,
+      null
+    ],
+    "annual_equity": [
+      640770000.0,
+      483073000.0,
+      345026000.0,
+      297206000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-09-30",
+      "2024-09-30",
+      "2023-09-30",
+      "2022-09-30",
+      "2021-09-30"
+    ],
+    "quarterly_eps": [
+      1.25,
+      1.13,
+      1.41,
+      1.32,
+      1.27,
+      null
+    ],
+    "quarterly_revenue": [
+      296615000.0,
+      251184000.0,
+      297983000.0,
+      286273000.0,
+      278631000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": -1.0,
+    "sales_yoy_pct": 6.5,
+    "ni_cagr_3y_pct": 136.08,
+    "roe_pct": 29.9
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Electrical Equipment & Parts 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 96,
+    "score": 73.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 4.1419,
+    "trailing_pe": 61.336575,
+    "forward_pe": 45.86079,
+    "ev_to_ebitda": 46.275,
+    "price_to_sales": 10.145978,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 390.38,
+    "outperform_6m_vs_nasdaq": 140.25,
+    "outperform_1m_vs_nasdaq": 22.77,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": ""
+}

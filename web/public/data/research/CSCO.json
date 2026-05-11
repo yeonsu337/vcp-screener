@@ -4,19 +4,35 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-07T06:40:24.631149+00:00",
+  "generated_at": "2026-05-11T15:13:34.022676+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 361968205824,
+    "market_cap": 385094844416,
     "shares_outstanding": 3949893042,
     "employees": 86200,
     "country": "United States",
     "website": "https://www.cisco.com",
     "beta": 0.912
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Cisco Systems, Inc.는 미주, 유럽, 중동, 아프리카, 아시아 태평양, 일본 및 중국의 인터넷을 강화하고 보호하며 통찰력을 얻는 데 도움이 되는 기술을 설계, 개발 및 판매합니다. 이 회사는 데이터 센터 전환을 제공합니다. 네트워크 보안, 신원 및 액세스 관리, 보안 액세스 서비스 에지; 위협 인텔리전스, 탐지 및 대응 솔루션; 공용 및 개인 유선 및 모바일 네트워크를 상호 연결하여 캠퍼스, 데이터 센터 및 지점 네트워크에 연결을 제공합니다. WEBEX 제품군, 협업 장치 및 연락 센터; 통신 플랫폼",
+    "business_model": "시스코 시스템즈, Inc.",
+    "products": [
+      "미주, 유럽, 중동의 인터넷에서 통찰력을 강화하고 보호하며 도출하는 데 도움이 되는 기술",
+      "데이터 센터 스위칭",
+      "기술 지원 및 자문 서비스",
+      "시스템 통합업체, 서비스 제공업체, 리셀러 및 유통업체를 통해 직접 제품 및 서비스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Cisco로 사업을 운영하는 Cisco Systems, Inc.는 네트워킹, 사이버 보안 및 AI에 초점을 맞춘 하드웨어, 소프트웨어, 통신 장비 및 기타 첨단 기술 서비스와 제품을 개발, 제조 및 판매하는 미국의 다국적 기술 대기업입니다. Cisco는 Webex, OpenDNS, Jabber 및 Jasper와 같은 제품을 포함하여 사물 인터넷(IoT), 도메인 보안, 화상 회의, 에너지 관리 등 특정 기술 시장을 전문으로 합니다. 이 회사는 캘리포니아주 산호세에 본사를 두고 있으며, 2025년 12월 현재 시가총액을 보유하고 있습니다.",
+    "milestones": [
+      "2025년: , 시가총액은 3,170억 달러입니다."
+    ]
+  },
   "category_b_financials": {
     "roe": 0.24,
     "roa": 0.07,
@@ -25,7 +41,7 @@
     "gross_margin": 0.65,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": 0.31,
-    "dividend_yield": 1.83,
+    "dividend_yield": 1.74,
     "payout_ratio": 0.59,
     "annual_revenue": [
       56654000000.0,
@@ -77,48 +93,55 @@
       0.72,
       0.71,
       0.62,
-      0.61,
-      null
+      0.61
     ],
     "quarterly_revenue": [
       15349000000.0,
       14883000000.0,
       14673000000.0,
       14149000000.0,
-      13991000000.0,
-      null
+      13991000000.0
     ],
     "quarterly_periods": [
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
       "2025-04-30",
-      "2025-01-31",
-      "2024-10-31"
+      "2025-01-31"
     ],
     "eps_qoq_yoy_pct": 30.8,
     "sales_yoy_pct": 9.7,
     "ni_cagr_3y_pct": -4.84,
     "roe_pct": 23.75
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Communication Equipment 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 65.8,
+    "rs_rating": 75,
+    "score": 70.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4579,
-    "trailing_pe": 32.964027,
-    "forward_pe": 20.311543,
-    "ev_to_ebitda": 23.199,
-    "price_to_sales": 6.1294446,
+    "peg_ratio": 1.493,
+    "trailing_pe": 35.070145,
+    "forward_pe": 21.609947,
+    "ev_to_ebitda": 24.394,
+    "price_to_sales": 6.521063,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 13.24,
-    "outperform_6m_vs_nasdaq": 16.01,
-    "outperform_1m_vs_nasdaq": -3.77,
+    "outperform_1y_vs_nasdaq": 20.17,
+    "outperform_6m_vs_nasdaq": 24.48,
+    "outperform_1m_vs_nasdaq": 3.65,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion."
+  "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:21:00.608480+00:00"
+  }
 }

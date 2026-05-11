@@ -4,19 +4,30 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-07T06:32:41.409969+00:00",
+  "generated_at": "2026-05-11T15:22:51.626574+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 300686934016,
+    "market_cap": 288927744000,
     "shares_outstanding": 268719995,
     "employees": 78000,
     "country": "United States",
     "website": "https://www.gevernova.com",
     "beta": 1.313
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa. The company operates through three segments: Power, Wind, and Electrification. The Power segment designs, manufactures, and services gas, nuclear, hydro, and steam technologies.",
+    "business_model": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, t",
+    "products": [
+      "through three segments: Power, Wind, and Electrificatio",
+      "wind generation technologies, including onshore and offshore wind turbines and blades",
+      "grid solutions"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.76,
     "roa": 0.02,
@@ -25,7 +36,7 @@
     "gross_margin": 0.2,
     "revenue_growth_ttm": 0.16,
     "earnings_growth_ttm": 18.16,
-    "dividend_yield": 0.13,
+    "dividend_yield": 0.14,
     "payout_ratio": 0.05,
     "annual_revenue": [
       38068000000.0,
@@ -101,89 +112,70 @@
     "sales_yoy_pct": 16.3,
     "roe_pct": 75.71
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Specialty Industrial Machinery 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 68.6,
+    "rs_rating": 89,
+    "score": 63.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.8554,
-    "trailing_pe": 32.679905,
-    "forward_pe": 45.6958,
-    "ev_to_ebitda": 86.622,
-    "price_to_sales": 7.6364937,
+    "peg_ratio": 1.797,
+    "trailing_pe": 31.42022,
+    "forward_pe": 43.90874,
+    "ev_to_ebitda": 80.42,
+    "price_to_sales": 7.3378477,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 134.78,
-    "outperform_6m_vs_nasdaq": 84.36,
-    "outperform_1m_vs_nasdaq": 5.51,
+    "outperform_1y_vs_nasdaq": 125.16,
+    "outperform_6m_vs_nasdaq": 80.46,
+    "outperform_1m_vs_nasdaq": -6.89,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "",
-  "analyst_reports": [
-    {
-      "source_filename": "Deutsche Bank GEV Multi-Industry and Electrical Equipment 1Q26 Earnings H.pdf",
-      "source_broker": "Deutsche Bank",
-      "source_title": "Multi-Industry and Electrical Equipment 1Q26 Earnings H",
-      "source_mtime": 1778133372.0,
-      "ingested_at": "2026-05-07T07:18:27.984756+00:00",
-      "summary": "1Q26 실적 호조, 주문 증가",
-      "rating": "N/A",
-      "price_target": "N/A",
-      "prior_price_target": "",
-      "thesis": [
-        "주문 증가",
-        "실적 호조",
-        "엔드 마켓 트렌드 혼조"
-      ],
-      "catalysts": [
-        "주문 증가",
-        "실적 개선"
-      ],
-      "risks": [
-        "경기 불확실성",
-        "원자재 가격 상승"
-      ],
-      "key_numbers": [
-        "1Q26 중간 실적",
-        "주문 증가율"
-      ],
-      "report_date": "2026-04-26"
-    },
-    {
-      "source_filename": "Barclays GEV GE Vernova Inc Taking hold of the Electrification share.pdf",
-      "source_broker": "Barclays",
-      "source_title": "GE Vernova Inc Taking hold of the Electrification share",
-      "source_mtime": 1778133329.0,
-      "ingested_at": "2026-05-07T07:15:56.901636+00:00",
-      "summary": "GE Vernova는 전력화 시장 점유율 확대 기회를 포착 중. 1분기 실적 호조로 추정치 및 목표주가 상향.",
-      "rating": "OVERWEIGHT",
-      "price_target": "$1250.00",
-      "prior_price_target": "$993.00",
-      "thesis": [
-        "전력화 부문에서 매력적인 시장 점유율 확대 기회",
-        "Prolec 인수 및 전력 생산 능력 확대로 빠른 계획 실행",
-        "데이터센터 고객으로부터 전력화 주문 급증",
-        "광범위한 제품 포트폴리오와 번들링 능력",
-        "경쟁사 대비 발전된 소프트웨어 제공"
-      ],
-      "catalysts": [
-        "전력화 부문의 상당한 성장",
-        "고객 선지급금으로 인한 2026년 FCF 가이드 상향 가능성",
-        "데이터센터 내부 아키텍처 진화 및 신제품 출시"
-      ],
-      "risks": [
-        "풍력 부문 마진 지속적인 어려움",
-        "'모든 것의 전력화' 투자 둔화"
-      ],
-      "key_numbers": [
-        "Q1 전력화 주문 24억 달러 (2025년 전체 주문 초과)",
-        "2030년 전력화 TAM 3,000억 달러 (현재 연간 매출 140억~145억 달러)",
-        "2026년 EPS 추정치 $15.53 (기존 $14.69에서 상향)",
-        "2026년 전력화 부문 유기적 매출 성장률 +22% 예상"
-      ],
-      "report_date": "2026-04-22"
-    }
-  ]
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties not presently known to us or that we presently deem less significant may also adversely affect our business.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Warranty and quality-related costs have represented, and may in the future represent, a meaningful portion of our expenses.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Supplier nonperformance or underperformance could impact our ability to fulfill customer commitments, trigger contract terminations or liability, and impair our competitiveness.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any of these factors could impede our ability to deliver quality products, solutions, and services and have a material adverse effect on our results of operations, cash flows, and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If disturbances at these locations prevent us from producing sufficient quantities, we may need to source more from external suppliers, which could introduce delays, quality control issues, or additional costs.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Expanding our capacity to meet current or future demand or support new products requires significant capital investment and lead time and may be delayed in execution.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
 }

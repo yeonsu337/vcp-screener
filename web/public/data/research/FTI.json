@@ -4,19 +4,35 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-07T06:41:27.258171+00:00",
+  "generated_at": "2026-05-11T15:23:53.382171+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 29480017920,
+    "market_cap": 27960963072,
     "shares_outstanding": 398701897,
     "employees": 22000,
     "country": "United States",
     "website": "https://www.technipfmc.com",
     "beta": 0.738
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation.",
+    "business_model": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle E",
+    "products": [
+      "through two segments, Subsea and Surface Technologies",
+      "subsea production systems",
+      "drilling",
+      "planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservati"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
+    "milestones": [
+      "2016: and completed in 2017"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.33,
     "roa": 0.09,
@@ -25,7 +41,7 @@
     "gross_margin": 0.23,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.94,
-    "dividend_yield": 0.27,
+    "dividend_yield": 0.29,
     "payout_ratio": 0.08,
     "annual_revenue": [
       9932600000.0,
@@ -107,24 +123,70 @@
     "sales_yoy_pct": 11.6,
     "roe_pct": 33.41
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 65.6,
+    "rs_rating": 87,
+    "score": 62.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 28.329504,
-    "forward_pe": 21.375813,
-    "ev_to_ebitda": 15.569,
-    "price_to_sales": 2.8925517,
+    "trailing_pe": 26.869732,
+    "forward_pe": 20.274353,
+    "ev_to_ebitda": 14.78,
+    "price_to_sales": 2.7435033,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 109.16,
-    "outperform_6m_vs_nasdaq": 67.56,
-    "outperform_1m_vs_nasdaq": -16.36,
+    "outperform_1y_vs_nasdaq": 92.4,
+    "outperform_6m_vs_nasdaq": 53.0,
+    "outperform_1m_vs_nasdaq": -18.95,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "RISK FACTORS Important risk factors that could impact our ability to achieve our anticipated operating results and growth plan goals are presented below.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Summary Risk Factors The following is a summary of some of the risks and uncertainties that could materially adversely affect our business, financial condition and results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Related to Our Operations • We may lose money on fixed-price contracts.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "These factors could have an adverse effect on our revenue and profitability.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Continued volatility or any future reduction in demand for oilfield services could further adversely affect our financial condition, results of operations, or cash flows.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We operate in a highly competitive environment and unanticipated changes relating to competitive factors in our industry, including ongoing industry consolidation, may impact our results of operations.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
   "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017."
 }

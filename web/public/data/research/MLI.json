@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-08T00:03:55.061049+00:00",
-  "primary_passed": 13,
-  "primary_total": 14,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "generated_at": "2026-05-11T14:56:26.067216+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 15232207872,
+    "market_cap": 15473252352,
     "shares_outstanding": 110570613,
     "employees": 4832,
     "country": "United States",
@@ -17,18 +17,37 @@
     "beta": 1.142
   },
   "category_a_business": {
-    "overview": "Mueller Industries, Inc. manufactures and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle East, and Mexico. It operates through three segments: Piping Systems, Industrial Metals, and Climate.",
-    "business_model": "Mueller Industries, Inc.",
+    "overview": "뮬러 인더스트리는 구리, 황동, 알루미늄 제품을 제조 및 판매하는 선도적인 기업입니다.",
+    "milestones": [
+      "1917: 회사 설립",
+      "1927: 뮬러 브라스 컴퍼니로 사명 변경",
+      "1990: 뮬러 인더스트리스로 사명 변경 및 상장",
+      "2000년대 초: 국제 시장 확장 (캐나다, 멕시코, 영국 등)",
+      "2010년대: 중동 및 아시아 합작 투자 (한국, 바레인)",
+      "2020년대: HVAC 및 냉동 시장 내 입지 강화"
+    ],
+    "business_model": "구리, 황동, 알루미늄 제품을 제조하여 다양한 산업에 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "배관 시스템 제품 판매",
+      "산업용 금속 제품 판매",
+      "기후 제어 제품 판매",
+      "재판매 제품 유통"
+    ],
+    "value_chain_position": "Midstream + 원자재를 가공하여 최종 제품을 생산하고 유통합니다.",
     "products": [
-      "and sells copper, brass, and aluminum products in the United States, the United Kingdom, Canada, Asia and the Middle Eas",
-      "through three segments: Piping Systems, Industrial Metals, and Climate",
-      "copper tubes, fittings, line sets, and pipe nipples",
-      "steel pipe, brass and plastic plumbing valves, malleable iron fittings, faucets, and plumbing specialties",
-      "its products to wholesalers in the plumbing and refrigeration markets, distributors to the manufactured housing and recr"
+      "구리 튜브 및 피팅",
+      "황동 로드, 바 및 형상",
+      "알루미늄 임팩트 압출품",
+      "냉동 밸브 및 피팅",
+      "절연 HVAC 플렉시블 덕트 시스템",
+      "고품질 전선 및 케이블"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (도매업체, OEM)",
+      "건축 자재 소매업체",
+      "제조 주택 및 RV 산업 유통업체"
+    ],
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 다양한 산업의 도매업체 및 OEM에 분산되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.28,
@@ -38,7 +57,7 @@
     "gross_margin": 0.3,
     "revenue_growth_ttm": 0.19,
     "earnings_growth_ttm": 0.55,
-    "dividend_yield": 1.01,
+    "dividend_yield": 0.99,
     "payout_ratio": 0.14,
     "annual_revenue": [
       4178547000.0,
@@ -118,69 +137,143 @@
     "roe_pct": 28.3
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 billion USD (추정) - 금속 가공 산업의 다양한 하위 시장(구리 튜브, 황동 제품, 알루미늄 압출, HVAC 부품, 전선 및 케이블 등)을 포괄하는 MLI의 사업 영역을 고려한 추정치. 정확한 TAM은 각 하위 시장의 데이터를 종합해야 하나, MLI의 광범위한 제품 포트폴리오를 감안할 때 상당한 규모로 추정됨.",
+    "tam_cagr_pct": "3-5% (추정) - 주택 착공 및 상업 건설, 리모델링 및 수리 프로젝트, 산업 및 운송 부문의 수요가 주요 성장 동력입니다. HVAC 및 냉동 시장의 지속적인 성장과 전력 인프라 투자도 긍정적인 영향을 미칠 것으로 예상됩니다. 다만, 금리 인상 및 경기 둔화 가능성은 성장을 제한할 수 있습니다.",
+    "growth_drivers": [
+      "주택 착공 및 상업 건설 증가: 신규 주택 및 상업 건물 건설은 MLI 제품의 주요 최종 사용처입니다.",
+      "수리 및 리모델링 프로젝트 증가: 기존 건물 유지보수 및 개선 수요는 MLI 제품의 꾸준한 수요를 창출합니다.",
+      "HVAC 및 냉동 시장 성장: 에너지 효율 및 친환경 냉매 관련 규제 강화로 고성능 HVAC 및 냉동 부품 수요가 증가합니다.",
+      "산업 및 운송 부문 수요: 다양한 산업 및 운송 애플리케이션에서 MLI의 금속 제품 및 부품이 사용됩니다.",
+      "전력 인프라 투자 확대: 전선 및 케이블 솔루션에 대한 수요는 전력 인프라 현대화 및 확장에 따라 증가할 것입니다."
+    ],
+    "market_share_pct": "5-10% (추정) - MLI가 다양한 금속 제품 및 부품 시장에서 선도적인 제조업체 중 하나이지만, 각 하위 시장별로 다양한 경쟁자들이 존재하므로 전체 시장 점유율은 이 범위 내로 추정됩니다.",
+    "competitors": [
+      {
+        "name": "Wieland Group",
+        "differentiation": "구리 및 구리 합금 제품 분야의 글로벌 리더로, 광범위한 제품 포트폴리오와 기술력을 보유하고 있습니다."
+      },
+      {
+        "name": "Chase Brass and Copper Company",
+        "differentiation": "황동 봉, 바, 형상 제품에 특화된 경쟁사로, 특정 니치 시장에서 강점을 가집니다."
+      },
+      {
+        "name": "Mueller Water Products, Inc.",
+        "differentiation": "수도 인프라 제품에 특화된 기업으로, MLI와는 다른 최종 시장을 주로 공략하지만 일부 제품군에서 간접적인 경쟁 관계에 있을 수 있습니다."
+      },
+      {
+        "name": "Southwire Company, LLC",
+        "differentiation": "전선 및 케이블 솔루션 분야의 주요 경쟁사로, MLI의 Nehring 사업부와 직접적인 경쟁 관계에 있습니다."
+      },
+      {
+        "name": "다수의 지역 및 전문 제조업체",
+        "differentiation": "각 제품군 및 지역별로 다양한 소규모 및 중견 기업들이 특정 제품이나 지역 시장에서 경쟁합니다."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 금속 가공 산업은 상당한 자본 투자, 기술 전문성, 유통망 구축이 필요하여 진입 장벽이 낮지 않지만, 특정 니치 시장이나 저가 제품군에서는 신규 진입이 상대적으로 용이할 수 있습니다.",
+      "substitutes": "medium - 구리, 황동, 알루미늄 제품은 특정 응용 분야에서 필수적이지만, 플라스틱, 복합 재료 등 다른 재료가 일부 응용 분야에서 대체재로 사용될 수 있으며, 기술 발전과 비용 효율성에 따라 대체 위협이 증가할 수 있습니다.",
+      "buyer_power": "medium - MLI의 주요 고객은 도매업체, 유통업체, OEM 등으로, 대량 구매 고객은 가격 협상력이 높을 수 있습니다. 그러나 MLI의 광범위한 제품 포트폴리오와 품질, 서비스는 구매자의 협상력을 일부 상쇄합니다.",
+      "supplier_power": "medium - 구리, 아연, 알루미늄 등 원자재 가격 변동성이 크고, 주요 원자재 공급업체는 제한적일 수 있어 공급업체의 협상력이 존재합니다. MLI는 원자재 조달 다변화 및 장기 계약을 통해 이를 관리합니다.",
+      "rivalry": "high - 금속 가공 산업은 다수의 국내외 경쟁자들이 존재하며, 가격, 품질, 서비스, 유통망을 기반으로 치열한 경쟁이 이루어집니다. MLI는 광범위한 제품군과 글로벌 입지를 통해 경쟁 우위를 확보하려 합니다."
+    },
     "competitive_advantages": [
-      "Industrials / Metal Fabrication 카테고리 — yfinance peer 비교 권장"
+      "광범위한 제품 포트폴리오: 구리 튜브, 황동 제품, 알루미늄 압출, HVAC 부품, 전선 및 케이블 등 다양한 제품군을 제공하여 고객의 다양한 요구를 충족하고 교차 판매 기회를 창출합니다.",
+      "글로벌 제조 및 유통 네트워크: 미국, 캐나다, 멕시코, 영국, 한국, 중동, 중국 등 전 세계에 걸쳐 생산 시설과 유통망을 보유하여 효율적인 공급과 시장 접근성을 확보합니다.",
+      "다각화된 최종 시장: 배관, 냉동, HVAC, 산업, 운송, 건설, 에너지, 통신 등 다양한 최종 시장에 제품을 공급하여 특정 시장의 경기 변동 위험을 분산합니다.",
+      "선도적인 시장 지위: 특정 제품군 및 지역 시장에서 선도적인 제조업체로서의 입지를 통해 규모의 경제와 브랜드 인지도를 확보합니다.",
+      "합작 투자 및 파트너십: 한국의 Jungwoo-Mueller, 바레인의 Mueller Middle East와 같은 합작 투자를 통해 특정 지역 시장에 대한 접근성과 전문성을 강화합니다."
+    ],
+    "competitive_weaknesses": [
+      "원자재 가격 변동성: 구리, 아연, 알루미늄 등 주요 원자재 가격 변동에 실적이 크게 영향을 받을 수 있습니다.",
+      "경기 변동에 대한 민감성: 주택 착공, 상업 건설, 산업 생산 등 거시 경제 지표에 따라 수요가 크게 변동할 수 있습니다.",
+      "글로벌 운영의 복잡성: 여러 국가에 걸쳐 사업을 운영함에 따라 환율 변동, 무역 정책 변화, 지정학적 위험 등 다양한 글로벌 리스크에 노출됩니다.",
+      "경쟁 심화: 금속 가공 산업은 다수의 경쟁자들이 존재하며, 특히 특정 제품군에서는 가격 경쟁이 치열할 수 있습니다."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 81.0,
-    "vcp_quality": 13.8,
+    "rs_rating": 80,
+    "score": 82.2,
+    "vcp_quality": 14.1,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.41,
-    "trailing_pe": 18.07874,
-    "forward_pe": 15.7439995,
-    "ev_to_ebitda": 13.269,
-    "price_to_sales": 3.4845252,
+    "trailing_pe": 18.34076,
+    "forward_pe": 15.993143,
+    "ev_to_ebitda": 13.593,
+    "price_to_sales": 3.5396667,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.86,
-    "outperform_6m_vs_nasdaq": 18.6,
-    "outperform_1m_vs_nasdaq": 2.28,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 42.64,
+    "outperform_6m_vs_nasdaq": 18.28,
+    "outperform_1m_vs_nasdaq": 0.89,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "MLI는 구리, 황동, 알루미늄 제품의 선도적인 제조업체로서 광범위한 제품 포트폴리오를 보유하고 있습니다. 이는 규모의 경제를 통해 원가 우위를 확보할 수 있음을 시사합니다.",
+      "파이핑 시스템, 산업용 금속, 기후 부문 등 다양한 사업 부문을 통해 여러 산업에 걸쳐 제품을 공급하며, 이는 원자재 조달 및 생산 효율성 측면에서 비용 절감 효과를 가져올 수 있습니다.",
+      "미국, 캐나다, 멕시코, 영국, 한국, 중동, 중국 등 전 세계에 걸쳐 생산 및 유통망을 구축하여 지역별 생산 효율성을 극대화하고 물류 비용을 절감할 수 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "글로벌 HVAC 및 냉매 시장 성장에 따른 제품 수요 증가",
+    "bull_case": "주택 및 상업용 건설 시장 회복과 인프라 투자 확대로 매출 및 이익이 크게 성장하며 주가 상승을 견인할 것입니다.",
+    "base_case": "안정적인 건설 시장 수요와 효율적인 비용 관리를 통해 견고한 수익성을 유지하며 꾸준한 성장을 이어갈 것입니다.",
+    "bear_case": "원자재 가격 변동성 심화, 건설 경기 침체, 경쟁 심화로 인해 수익성이 악화되고 성장 동력이 둔화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "주택 착공 건수 및 상업용 건설 투자 지표",
+      "구리 등 주요 원자재 가격 추이",
+      "각 사업 부문별 매출 성장률 및 이익률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Although we have tried to identify and discuss key risk factors, others could emerge in the future.",
+        "category": "거시",
+        "description": "원자재(구리, 황동, 아연, 알루미늄) 및 에너지(전기, 천연가스, 연료) 비용의 변동성이 커서 생산 및 유통 비용에 영향을 미치며, 이는 영업 마진에 부정적인 영향을 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "미국 정부의 관세 부과 및 무역 정책 불확실성은 원자재 조달 비용을 증가시키고 고객 수요를 감소시켜 매출 및 영업 실적에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "For example, tariffs may impact the total cost of our products and the components and raw materials that go into manufacturing them and could adversely impact the gross margin the Company earns on its products.",
+        "category": "거시",
+        "description": "주택 및 상업 건설 산업의 경기 침체, 인플레이션, 금리 변동은 제품 수요와 가격에 직접적인 영향을 미쳐 사업, 재무 상태 및 운영 결과에 심각한 악영향을 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "원자재 비용 상승분을 고객에게 성공적으로 전가하지 못하거나 생산성 개선 및 비용 절감 노력이 실패할 경우, 영업 마진이 크게 감소할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "While we typically attempt to pass costs through to our customers or to modify or adapt our activities to mitigate the impact of increases, we may not be able to do so successfully.",
+        "category": "공급망",
+        "description": "원자재 또는 에너지 확보에 실패할 경우 제품 생산 능력이 저해되어 영업 마진에 심각한 악영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Additionally, if we are for any reason unable to obtain raw materials or energy, our ability to manufacture our products would be impacted, which could have a material adverse impact on our operating margins.",
-        "severity": "medium"
+        "category": "거시",
+        "description": "운영하는 각 지역의 경제 침체 또는 국지적 경기 하락은 사업, 재무 상태 및 운영 결과에 심각한 악영향을 미칠 수 있습니다.",
+        "severity": "low"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "In particular, market prices of building products historically have been volatile and cyclical, and we may be unable to control the timing and extent of pricing changes for our products.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Significantly higher interest rates could have a material adverse effect on our business, financial condition, and results of operations.",
-        "severity": "medium"
+        "category": "재무",
+        "description": "국경 간 거래 및 현지 통화 결과의 미국 달러 환산 시 환율 변동에 노출되어 영업 실적 또는 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "원자재 및 에너지 비용이 급등하고 이를 고객에게 전가하지 못하며, 동시에 주택 및 상업 건설 시장이 심각하게 침체되어 제품 수요가 급감할 경우 회사는 파산할 수 있습니다.",
+      "미국 정부의 강력한 관세 및 무역 장벽으로 인해 원자재 조달이 불가능해지고, 주요 해외 시장에서 경쟁력을 상실하여 매출이 지속적으로 감소할 경우 회사는 파산할 수 있습니다.",
+      "예상치 못한 심각한 공급망 중단으로 인해 핵심 원자재나 에너지를 장기간 확보하지 못하여 생산이 전면 중단되고, 이로 인해 시장 점유율을 완전히 상실할 경우 회사는 파산할 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "원자재 비용이 2분기 연속 10% 이상 상승했음에도 불구하고 제품 가격 인상이 5% 미만에 그치는 경우",
+      "미국 주택 착공 건수 및 상업 건설 지출이 3분기 연속 전년 대비 15% 이상 감소하는 경우",
+      "주요 경쟁사들이 원자재 조달 또는 에너지 비용 절감에 성공하여 MLI 대비 현저히 낮은 가격으로 제품을 공급하기 시작하는 경우"
     ]
   },
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:22:48.861141+00:00"
+  }
 }

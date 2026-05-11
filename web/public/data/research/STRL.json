@@ -1,0 +1,186 @@
+{
+  "ticker": "STRL",
+  "company": "Sterling Infrastructure, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "generated_at": "2026-05-11T15:09:26.995215+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 26083368960,
+    "shares_outstanding": 30685954,
+    "employees": 4400,
+    "country": "United States",
+    "website": "https://www.strlco.com",
+    "beta": 1.639
+  },
+  "category_a_business": {
+    "overview": "Sterling Infrastructure, Inc.는 미국에서 e-인프라, 운송 및 건축 솔루션 제공에 참여하고 있습니다. E-인프라, 운송, 빌딩 솔루션의 세 가지 부문을 통해 운영됩니다.",
+    "business_model": "스털링 인프라스트럭처, Inc.",
+    "products": [
+      "E-인프라, 교통, 빌딩 솔루션의 세 가지 부문을 통해",
+      "전자상거래 유통센터, 데이터센터, 제조 분야의 우량 최종 사용자를 위한 사이트 개발 서비스",
+      "단독 주택 및 다가구 주택, 주차 구조물, 고가 주택용 주거용 및 상업용 콘크리트 기초",
+      "미국에서는 주로 남부, 북동부, 중부 대서양 및 록키 산맥 지역과 Paci 지역에 걸쳐 있습니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.37,
+    "roa": 0.13,
+    "profit_margin": 0.12,
+    "operating_margin": 0.17,
+    "gross_margin": 0.23,
+    "revenue_growth_ttm": 0.92,
+    "earnings_growth_ttm": 1.41,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      2490049000.0,
+      2115756000.0,
+      1972229000.0,
+      1769436000.0,
+      null
+    ],
+    "annual_operating_income": [
+      413512000.0,
+      269799000.0,
+      205999000.0,
+      160697000.0,
+      null
+    ],
+    "annual_eps": [
+      9.38,
+      8.27,
+      4.44,
+      3.48,
+      null
+    ],
+    "annual_free_cf": [
+      362676000.0,
+      416150000.0,
+      414205000.0,
+      158207000.0,
+      null
+    ],
+    "annual_total_debt": [
+      349914000.0,
+      369274000.0,
+      398879000.0,
+      491163000.0,
+      null
+    ],
+    "annual_equity": [
+      1108517000.0,
+      808081000.0,
+      618913000.0,
+      474599000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      3.09,
+      2.81,
+      2.97,
+      2.31,
+      1.28
+    ],
+    "quarterly_revenue": [
+      825675000.0,
+      755613000.0,
+      689019000.0,
+      614468000.0,
+      430949000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 143.1,
+    "sales_yoy_pct": 91.6,
+    "ni_cagr_3y_pct": 39.68,
+    "roe_pct": 36.68
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 95,
+    "score": 69.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.5544,
+    "trailing_pe": 76.234085,
+    "forward_pe": 37.937206,
+    "ev_to_ebitda": 44.353,
+    "price_to_sales": 9.041735,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 327.68,
+    "outperform_6m_vs_nasdaq": 105.01,
+    "outperform_1m_vs_nasdaq": 75.98,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 비즈니스 및 산업과 관련된 위험 경기 침체 또는 변동성이 심한 경제 사이클 동안 당사 서비스에 대한 수요가 감소할 수 있으며, 최종 시장의 수요 감소는 당사 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "인프라 산업의 재무 상태를 포함한 많은 요인이 고객과 향후 자본 지출 자금 조달 의지에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 우리가 서비스를 제공하는 업계의 통합, 경쟁 또는 자본 제약으로 인해 고객의 지출이 줄어들 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "자재 공급업체 및 하청업체에 대한 의존도는 비용을 증가시키고 적시에 또는 전혀 계약을 완료하는 능력을 손상시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "자재 부족 및 비용 증가, 노동 시장의 경색이 장기간 지속되어 이러한 비용 증가를 상쇄할 수 없는 경우 당사의 이윤에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "지난 몇 년 동안 당사의 영업 마진은 특정 건설 ​​자재 가격 인상과 장비 연료 가격 인상으로 인해 부정적인 영향을 받았으며 앞으로도 계속 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:24:59.404104+00:00"
+  }
+}

@@ -4,19 +4,31 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-07T06:36:48.316726+00:00",
+  "generated_at": "2026-05-11T15:11:30.834356+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 208803594240,
+    "market_cap": 230205521920,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
     "website": "https://www.sandisk.com",
     "beta": null
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다. 이 회사는 데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브를 제공합니다. 휴대폰, 태블릿, 노트북 PC 및 기타 휴대용 및 웨어러블 장치, 자동차 애플리케이션, 사물 인터넷, 산업 및 연결된 홈 애플리케이션은 물론 이동식 카드, 범용 직렬 버스 드라이브, 웨이퍼 및 구성 요소를 위한 플래시 기반 임베디드 스토리지 제품이 있습니다.",
+    "business_model": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다.",
+    "products": [
+      "미국, 유럽, 중동, 아프리카 등에서 NAND 플래시 기술을 활용한 데이터 저장 장치 및 솔루션",
+      "데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브",
+      "자사 제품을 컴퓨터 제조업체, OEM, 데이터센터, 프라이빗 클라우드 고객, 클라우드에 제공"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "SanDisk Corporation은 캘리포니아 밀피타스에 본사를 둔 미국의 다국적 반도체 회사입니다."
+  },
   "category_b_financials": {
     "roe": 0.39,
     "roa": 0.23,
@@ -87,24 +99,73 @@
     "sales_yoy_pct": 251.0,
     "roe_pct": 39.3
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Computer Hardware 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 74.4,
+    "score": 73.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 48.204445,
-    "forward_pe": 8.392683,
-    "ev_to_ebitda": 36.448,
-    "price_to_sales": 15.837651,
+    "trailing_pe": 53.19986,
+    "forward_pe": 9.184253,
+    "ev_to_ebitda": 40.454,
+    "price_to_sales": 17.460978,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 3929.11,
-    "outperform_6m_vs_nasdaq": 572.71,
-    "outperform_1m_vs_nasdaq": 81.01,
+    "outperform_1y_vs_nasdaq": 4058.24,
+    "outperform_6m_vs_nasdaq": 628.35,
+    "outperform_1m_vs_nasdaq": 66.4,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California."
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리 사업과 관련된 위험 운영 위험 • 불리한 글로벌 또는 지역적 상황은 우리 사업에 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "보통주와 관련된 위험 • 당사의 주가는 크게 변동할 수 있으며, 이로 인해 보통주 재판매가 어려울 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리 사업과 관련된 위험 운영 위험 불리한 글로벌 또는 지역적 상황은 우리 사업에 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리의 수익 성장은 국제 시장의 성장에 크게 좌우되며, 우리는 국제 판매 시장에서 어려움에 직면할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "비용 증가에 따른 당사 제품의 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 위험으로 인해 당사의 사업이 피해를 입을 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:24:11.735687+00:00"
+  }
 }

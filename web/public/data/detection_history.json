@@ -23,14 +23,20 @@
     "market": "US",
     "company": "Kodiak Gas Services Inc",
     "last_seen": "2026-04-28",
-    "current_price": 70.27,
+    "current_price": 74.85,
     "current_score": 92.7,
     "rs_rating": 92,
-    "max_return_pct": 17.49,
-    "peak_price": 71.4,
-    "return_pct": 15.63,
-    "profit_signal_partial": false,
-    "profit_signal_full": false
+    "max_return_pct": 23.17,
+    "peak_price": 74.85,
+    "return_pct": 23.17,
+    "profit_signal_partial": true,
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 74.85,
+    "exit_reasons": [
+      "EX6 absent 13d"
+    ]
   },
   "PWR": {
     "first_detected": "2026-04-11",
@@ -90,14 +96,20 @@
     "market": "US",
     "company": "Enviri Corp",
     "last_seen": "2026-04-30",
-    "current_price": 19.21,
+    "current_price": 19.45,
     "current_score": 80.6,
     "rs_rating": 89,
-    "max_return_pct": -1.64,
-    "peak_price": 19.24,
-    "return_pct": -1.79,
+    "max_return_pct": -0.56,
+    "peak_price": 19.45,
+    "return_pct": -0.56,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 19.45,
+    "exit_reasons": [
+      "EX6 absent 11d"
+    ]
   },
   "EQIX": {
     "first_detected": "2026-04-11",
@@ -345,12 +357,12 @@
     "market": "US",
     "company": "Viper Energy Inc",
     "last_seen": "2026-05-05",
-    "current_price": 46.98,
+    "current_price": 47.23,
     "current_score": 78.8,
     "rs_rating": 71,
     "max_return_pct": 5.7,
     "peak_price": 47.69,
-    "return_pct": 4.12,
+    "return_pct": 4.68,
     "profit_signal_partial": false,
     "profit_signal_full": false
   },
@@ -431,12 +443,18 @@
     "last_seen": "2026-05-01",
     "current_score": 73.6,
     "rs_rating": 74,
-    "current_price": 8270.0,
+    "current_price": 8070.0,
     "max_return_pct": 9.25,
     "peak_price": 8270.0,
-    "return_pct": 9.25,
+    "return_pct": 6.61,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 8070.0,
+    "exit_reasons": [
+      "EX6 absent 10d"
+    ]
   },
   "005930.KS": {
     "first_detected": "2026-04-22",
@@ -503,12 +521,18 @@
     "last_seen": "2026-04-28",
     "current_score": 77.4,
     "rs_rating": 87,
-    "current_price": 236.35,
-    "max_return_pct": -0.65,
-    "peak_price": 236.69,
-    "return_pct": -0.8,
+    "current_price": 246.19,
+    "max_return_pct": 3.33,
+    "peak_price": 246.19,
+    "return_pct": 3.33,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 246.19,
+    "exit_reasons": [
+      "EX6 absent 13d"
+    ]
   },
   "ZD": {
     "first_detected": "2026-04-28",
@@ -541,12 +565,18 @@
     "last_seen": "2026-04-29",
     "current_score": 83.0,
     "rs_rating": 80,
-    "current_price": 29.7,
-    "max_return_pct": 8.66,
-    "peak_price": 30.37,
-    "return_pct": 6.26,
+    "current_price": 31.39,
+    "max_return_pct": 12.31,
+    "peak_price": 31.39,
+    "return_pct": 12.31,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 31.39,
+    "exit_reasons": [
+      "EX6 absent 12d"
+    ]
   },
   "1113.HK": {
     "first_detected": "2026-04-28",
@@ -557,12 +587,18 @@
     "last_seen": "2026-04-28",
     "current_score": 87.7,
     "rs_rating": 90,
-    "current_price": 52.2,
+    "current_price": 51.2,
     "max_return_pct": 7.41,
     "peak_price": 52.2,
-    "return_pct": 7.41,
+    "return_pct": 5.35,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 51.2,
+    "exit_reasons": [
+      "EX6 absent 13d"
+    ]
   },
   "ECVT": {
     "first_detected": "2026-04-29",
@@ -573,10 +609,10 @@
     "last_seen": "2026-05-05",
     "current_score": 82.3,
     "rs_rating": 86,
-    "current_price": 13.97,
+    "current_price": 14.2,
     "max_return_pct": 5.08,
     "peak_price": 14.68,
-    "return_pct": 0.0,
+    "return_pct": 1.65,
     "profit_signal_partial": false,
     "profit_signal_full": false
   },
@@ -589,12 +625,18 @@
     "last_seen": "2026-04-30",
     "current_score": 80.5,
     "rs_rating": 73,
-    "current_price": 207.79,
+    "current_price": 206.89,
     "max_return_pct": 1.07,
     "peak_price": 216.63,
-    "return_pct": -3.06,
+    "return_pct": -3.48,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exited": true,
+    "exit_date": "2026-05-11",
+    "exit_price": 206.89,
+    "exit_reasons": [
+      "EX6 absent 11d"
+    ]
   },
   "403870.KQ": {
     "first_detected": "2026-05-07",
@@ -605,10 +647,10 @@
     "last_seen": "2026-05-07",
     "current_score": 75.9,
     "rs_rating": 73,
-    "current_price": 54700.0,
-    "max_return_pct": 0.18,
-    "peak_price": 54700.0,
-    "return_pct": 0.18,
+    "current_price": 55400.0,
+    "max_return_pct": 1.47,
+    "peak_price": 55400.0,
+    "return_pct": 1.47,
     "profit_signal_partial": false,
     "profit_signal_full": false
   }

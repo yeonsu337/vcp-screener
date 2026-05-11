@@ -1,0 +1,158 @@
+{
+  "ticker": "WST",
+  "company": "West Pharmaceutical Services, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "generated_at": "2026-05-11T15:18:44.785955+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 22885580800,
+    "shares_outstanding": 70647595,
+    "employees": 10800,
+    "country": "United States",
+    "website": "https://www.westpharma.com",
+    "beta": 1.17
+  },
+  "category_a_business": {
+    "overview": "West Pharmaceutical Services, Inc.는 미주, 유럽, 중동, 아프리카 및 아시아 태평양 지역의 주사용 약물 및 의료 제품에 대한 봉쇄 및 전달 시스템을 설계, 제조 및 판매합니다. 독점 제품과 계약 생산 제품이라는 두 가지 부문으로 운영됩니다.",
+    "business_model": "웨스트 제약 서비스, Inc.",
+    "products": [
+      "미주, 유럽, 중동의 주사제 및 의료 제품에 대한 봉쇄 및 전달 시스템",
+      "독점 제품과 계약 생산 제품이라는 두 가지 부문으로 나뉜다.",
+      "주사 가능한 포장 시스템용 마개 및 씰",
+      "바이알, 주사기, 카트리지 형태의 약물 봉쇄 솔루션",
+      "판매 인력과 유통망, 계약 판매 대리점, 지역 대리점을 통해 제품을 유통합니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "West Pharmaceutical Services, Inc.는 주사제 의약품 포장 및 전달 시스템을 설계하고 제조하는 회사입니다. 1923년 필라델피아 출신의 Herman O. West와 J.R. Wike가 설립한 이 회사는 펜실베이니아주 엑스턴에 본사를 두고 있습니다. 개발 초기에 West는 주사제 포장용 고무 부품을 생산하여 페니실린과 인슐린 생산업체에 멸균 환경을 제공했습니다.",
+    "milestones": [
+      "1923: 허먼 오(Herman O)"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.11,
+    "profit_margin": 0.17,
+    "operating_margin": 0.22,
+    "gross_margin": 0.36,
+    "revenue_growth_ttm": 0.21,
+    "earnings_growth_ttm": 0.56,
+    "dividend_yield": 0.27,
+    "payout_ratio": 0.12,
+    "annual_revenue": [
+      3074100000.0,
+      2893200000.0,
+      2949800000.0,
+      2886900000.0,
+      null
+    ],
+    "annual_operating_income": [
+      636100000.0,
+      590900000.0,
+      707400000.0,
+      760800000.0,
+      null
+    ],
+    "annual_eps": [
+      6.79,
+      6.69,
+      7.88,
+      7.73,
+      null
+    ],
+    "annual_free_cf": [
+      468900000.0,
+      276400000.0,
+      414500000.0,
+      439400000.0,
+      null
+    ],
+    "annual_total_debt": [
+      321100000.0,
+      302300000.0,
+      309000000.0,
+      317900000.0,
+      null
+    ],
+    "annual_equity": [
+      3176000000.0,
+      2682300000.0,
+      2881000000.0,
+      2684900000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.92,
+      1.82,
+      1.92,
+      1.82,
+      1.23,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      844900000.0,
+      805000000.0,
+      804600000.0,
+      766500000.0,
+      698000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 54.6,
+    "sales_yoy_pct": 21.0,
+    "ni_cagr_3y_pct": -5.55,
+    "roe_pct": 19.13
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Medical Instruments & Supplies 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 74,
+    "score": 78.6,
+    "vcp_quality": 11.5,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.1357,
+    "trailing_pe": 43.192,
+    "forward_pe": 33.908665,
+    "ev_to_ebitda": 26.239,
+    "price_to_sales": 7.1111484,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 4.66,
+    "outperform_6m_vs_nasdaq": 3.86,
+    "outperform_1m_vs_nasdaq": 11.52,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "West Pharmaceutical Services, Inc. is a designer and manufacturer of injectable pharmaceutical packaging and delivery systems. Founded in 1923 by Herman O. West and J.R. Wike of Philadelphia, the company is headquartered in Exton, Pennsylvania. In its early years of development, West produced rubber components for packaging injectable drugs, providing a sterile environment for the producers of penicillin and insulin.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:25:40.521894+00:00"
+  }
+}

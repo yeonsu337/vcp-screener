@@ -4,29 +4,38 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-05-07T06:36:17.520599+00:00",
+  "generated_at": "2026-05-11T15:10:29.030786+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 30067689472,
-    "shares_outstanding": 444379087,
+    "market_cap": 29494126592,
+    "shares_outstanding": 443274104,
     "employees": 100,
     "country": "United States",
     "website": "https://www.royaltypharma.com",
     "beta": 0.396
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다. 포트폴리오는 희귀질환, 종양학, 신경과학, 전염병, 혈액학, 당뇨병 등 다양한 치료 분야를 다루는 약 35개 시판 치료법과 20개 개발 단계 제품 후보에 대한 로열티로 구성된다. 이 회사는 자가면역질환용 임상시험용 의약품인 JNJ-4804의 개발을 진전시키기 위해 연구개발 자금 협력을 진행하고 있습니다.",
+    "business_model": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다.",
+    "products": [
+      "미국 세인트의 바이오의약품 로열티 구매자이자 바이오의약품 산업 혁신의 자금 제공자로서"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
   "category_b_financials": {
-    "roe": 0.13,
-    "roa": 0.05,
-    "profit_margin": 0.32,
-    "operating_margin": 0.58,
-    "gross_margin": 1.12,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 0.09,
-    "dividend_yield": 1.86,
-    "payout_ratio": 0.49,
+    "roe": 0.14,
+    "roa": 0.06,
+    "profit_margin": 0.34,
+    "operating_margin": 1.0,
+    "gross_margin": 1.15,
+    "revenue_growth_ttm": 0.11,
+    "earnings_growth_ttm": 0.23,
+    "dividend_yield": 1.85,
+    "payout_ratio": 0.47,
     "annual_revenue": [
       2378193000.0,
       2263576000.0,
@@ -77,52 +86,98 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.53,
       0.38,
-      0.51,
-      0.05,
-      0.41,
-      0.35,
-      null
+      0.67,
+      0.07,
+      0.55
     ],
     "quarterly_revenue": [
+      630576000.0,
       621990000.0,
       609291000.0,
       578665000.0,
-      568247000.0,
-      593641000.0,
-      null
+      568247000.0
     ],
     "quarterly_periods": [
+      "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2025-03-31"
     ],
-    "eps_qoq_yoy_pct": 2.9,
-    "sales_yoy_pct": 4.8,
+    "eps_qoq_yoy_pct": 23.1,
+    "sales_yoy_pct": 11.0,
     "ni_cagr_3y_pct": 162.07,
-    "roe_pct": 13.2
+    "roe_pct": 13.77
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Biotechnology 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 83.2,
-    "vcp_quality": 16.6,
+    "rs_rating": 73,
+    "score": 83.4,
+    "vcp_quality": 16.8,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.8783,
-    "trailing_pe": 28.494383,
-    "forward_pe": 9.17262,
-    "ev_to_ebitda": 21.223,
-    "price_to_sales": 12.643083,
+    "peg_ratio": 1.8993,
+    "trailing_pe": 26.957895,
+    "forward_pe": 9.123636,
+    "ev_to_ebitda": null,
+    "price_to_sales": 12.085172,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 12.55,
-    "outperform_6m_vs_nasdaq": 29.04,
-    "outperform_1m_vs_nasdaq": -9.14,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 12.06,
+    "outperform_6m_vs_nasdaq": 13.14,
+    "outperform_1m_vs_nasdaq": -7.64,
+    "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": ""
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업을 손상시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "위험 요소 요약 당사의 사업은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있는 위험을 포함하여 다양한 위험에 노출되어 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 획득하지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 사업을 성장시키거나 전혀 성장하지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 자산으로 인한 손실은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "개발 단계 제품 후보와 관련된 불확실성으로 인해 내부 모델에 대한 정확한 가정을 개발하기가 더 어려워지고, 이로 인해 추정치에 비해 로열티가 감소할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:23:55.000625+00:00"
+  }
 }

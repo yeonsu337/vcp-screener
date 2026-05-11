@@ -4,19 +4,48 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-07T06:30:37.173106+00:00",
+  "generated_at": "2026-05-11T15:04:17.731383+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8634199040,
+    "market_cap": 8409614848,
     "shares_outstanding": 51041606,
     "employees": 9400,
     "country": "United States",
     "website": "https://www.everus.com",
     "beta": null
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "ECG는 미국 전역에서 특수 계약 서비스를 제공하는 선도적인 건설 솔루션 기업입니다.",
+    "milestones": [
+      "1997: 사업 시작(MDU 건설 서비스 그룹)",
+      "2023: MDU Resources, ECG 분사 계획 발표",
+      "2024: MDU Resources로부터 분사, 독립 상장 기업으로 전환 (ECG 설립)",
+      "2025: Engineering News-Record 선정 600대 특수 계약업체 12위",
+      "2025: Electrical Construction & Maintenance 선정 50대 전기 계약업체 5위"
+    ],
+    "business_model": "전기, 기계, 송배전 인프라 건설 및 유지보수 서비스로 수익 창출",
+    "revenue_streams": [
+      "전기 및 통신 배선/인프라 건설 및 유지보수",
+      "소방 시스템 설치",
+      "재생에너지 인프라 및 기계 배관 서비스",
+      "가스 및 통신 인프라 건설 및 유지보수",
+      "송전선 건설 장비 및 도구 설계/제조/유통"
+    ],
+    "value_chain_position": "Downstream + 건설 및 유지보수 서비스 제공을 통해 최종 고객에게 가치를 전달합니다.",
+    "products": [
+      "전기 및 통신 인프라 서비스",
+      "소방 시스템",
+      "재생에너지 인프라",
+      "송배전 인프라 서비스",
+      "건설 장비 및 도구"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "다양한 고객 기반을 보유하며, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
+  },
   "category_b_financials": {
     "roe": 0.39,
     "roa": 0.11,
@@ -95,29 +124,39 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 60.4,
-    "sales_yoy_pct": 33.2,
+    "eps_qoq_yoy_pct": 59.0,
+    "sales_yoy_pct": 25.4,
     "ni_cagr_3y_pct": 17.37,
-    "roe_pct": 38.34
+    "roe_pct": 38.95
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 73.6,
+    "rs_rating": 92,
+    "score": 69.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 38.798164,
-    "forward_pe": 36.196888,
-    "ev_to_ebitda": 27.134,
-    "price_to_sales": 2.1821659,
+    "trailing_pe": 37.70252,
+    "forward_pe": 33.71621,
+    "ev_to_ebitda": 26.194,
+    "price_to_sales": 2.1254053,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 227.8,
-    "outperform_6m_vs_nasdaq": 79.07,
-    "outperform_1m_vs_nasdaq": 24.31,
+    "outperform_1y_vs_nasdaq": 193.12,
+    "outperform_6m_vs_nasdaq": 52.85,
+    "outperform_1m_vs_nasdaq": 11.17,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:21:04.578650+00:00"
+  }
 }

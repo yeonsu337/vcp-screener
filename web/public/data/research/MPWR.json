@@ -4,19 +4,31 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-07T06:33:43.011185+00:00",
+  "generated_at": "2026-05-11T15:14:35.622732+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 81179951104,
+    "market_cap": 79765995520,
     "shares_outstanding": 49130000,
     "employees": 4501,
     "country": "United States",
     "website": "https://www.monolithicpower.com",
     "beta": 1.742
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Monolithic Power Systems, Inc.는 중국, 대만, 한국, 동남아시아, 유럽, 미국, 일본 및 국제적으로 반도체 기반 전력 전자 솔루션을 제공합니다. 이 회사는 클라우드 기반 및 온프레미스 CPU 서버 및 워크스테이션, AI 시스템, 메모리, 스토리지 솔루션, 노트북, 인포테인먼트, 전원, 가전제품, 네트워크 인프라 및 위성 통신과 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC)-DC 솔루션을 제공합니다.",
+    "business_model": "모놀리식 파워 시스템즈, Inc.",
+    "products": [
+      "중국, 대만, 한국, 동남아시아, 유럽, 미국의 반도체 기반 전력 전자 솔루션",
+      "클라우드와 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC) 대 DC 솔루션",
+      "교류(AC)를 DC로"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Monolithic Power Systems, Inc.는 플로리다 주 웨스트 팜 비치에 본사를 둔 미국 상장 회사입니다. 전 세계 15개 이상의 지역에서 운영되고 있습니다."
+  },
   "category_b_financials": {
     "roe": 0.2,
     "roa": 0.12,
@@ -25,7 +37,7 @@
     "gross_margin": 0.55,
     "revenue_growth_ttm": 0.26,
     "earnings_growth_ttm": 0.4,
-    "dividend_yield": 0.48,
+    "dividend_yield": 0.5,
     "payout_ratio": 0.48,
     "annual_revenue": [
       2790459000.0,
@@ -42,7 +54,7 @@
       null
     ],
     "annual_eps": [
-      12.75,
+      12.86,
       36.59,
       8.76,
       9.05,
@@ -81,7 +93,7 @@
       3.46,
       3.71,
       2.78,
-      2.79
+      2.81
     ],
     "quarterly_revenue": [
       804185000.0,
@@ -102,24 +114,34 @@
     "ni_cagr_3y_pct": 12.4,
     "roe_pct": 19.57
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductors 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 72.2,
+    "score": 69.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.5608,
-    "trailing_pe": 117.68874,
-    "forward_pe": 54.78821,
-    "ev_to_ebitda": 93.132,
-    "price_to_sales": 27.452648,
+    "peg_ratio": 2.1029,
+    "trailing_pe": 116.55204,
+    "forward_pe": 53.83393,
+    "ev_to_ebitda": 90.18,
+    "price_to_sales": 26.97449,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 120.56,
-    "outperform_6m_vs_nasdaq": 56.79,
-    "outperform_1m_vs_nasdaq": 21.36,
+    "outperform_1y_vs_nasdaq": 109.13,
+    "outperform_6m_vs_nasdaq": 56.17,
+    "outperform_1m_vs_nasdaq": 5.28,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide."
+  "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:22:55.727501+00:00"
+  }
 }

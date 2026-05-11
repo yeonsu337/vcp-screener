@@ -4,27 +4,56 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-05-07T06:31:08.679594+00:00",
+  "generated_at": "2026-05-11T14:58:22.629862+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 2063155072,
-    "shares_outstanding": 58727053,
+    "market_cap": 2086691072,
+    "shares_outstanding": 58565807,
     "employees": 8500,
     "country": "United States",
     "website": "https://www.ezcorp.com",
     "beta": 0.657
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "EZCORP는 미국 및 라틴 아메리카에서 전당포 서비스를 제공하는 선도 기업입니다.",
+    "milestones": [
+      "1989년 : EZCORP, Inc. 설립",
+      "현재: 미국, 멕시코, 중남미에 1,360개 지점 운영",
+      "현재: EZPAWN, Value Pawn & Jewelry 등 다양한 브랜드 보유",
+      "현재: EZ+ 웹 기반 애플리케이션 출시",
+      "현재: Cash Converters International Limited 지분 43.7% 보유"
+    ],
+    "business_model": "담보 대출 및 중고 상품 판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "전당포 서비스 수수료 (Pawn Service Charges)",
+      "상품 판매 (Merchandise Sales)",
+      "보석 스크랩 판매 (Jewelry Scrapping)",
+      "지분 투자 수익"
+    ],
+    "value_chain_position": "Downstream + 고객에게 직접 전당포 대출 및 중고 상품 판매 서비스를 제공합니다.",
+    "products": [
+      "전당포 대출 (Pawn Loans)",
+      "중고 상품 판매 (Pre-owned Merchandise Sales)",
+      "EZ+ 온라인 서비스",
+      "할부 구매 (Layaways)",
+      "고객 로열티 프로그램"
+    ],
+    "channels": [
+      "B2C (오프라인 매장)",
+      "D2C (EZ+ 웹 애플리케이션)"
+    ],
+    "key_customers": "고객 집중도는 낮으며, 단기 현금 및 중고품 구매를 원하는 일반 소비자가 주 고객입니다."
+  },
   "category_b_financials": {
-    "roe": 0.13,
+    "roe": 0.15,
     "roa": 0.06,
-    "profit_margin": 0.09,
-    "operating_margin": 0.16,
+    "profit_margin": 0.1,
+    "operating_margin": 0.15,
     "gross_margin": 0.59,
-    "revenue_growth_ttm": 0.19,
-    "earnings_growth_ttm": 0.38,
+    "revenue_growth_ttm": 0.46,
+    "earnings_growth_ttm": 0.83,
     "dividend_yield": null,
     "payout_ratio": 0.0,
     "annual_revenue": [
@@ -97,29 +126,148 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 42.8,
-    "sales_yoy_pct": 19.3,
+    "eps_qoq_yoy_pct": 93.4,
+    "sales_yoy_pct": 45.9,
     "ni_cagr_3y_pct": 29.77,
-    "roe_pct": 12.97
+    "roe_pct": 14.76
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "20-30 billion USD (추정) - 미국 및 라틴 아메리카의 소액 대출 및 중고품 시장 규모를 기반으로 추정. 정확한 시장 규모 데이터는 제공되지 않음.",
+    "tam_cagr_pct": "3-5% (추정) - 경제 불확실성 증가로 인한 단기 현금 수요 증가, 디지털 전환을 통한 접근성 향상, 라틴 아메리카 시장의 성장 잠재력을 근거로 함.",
+    "growth_drivers": [
+      "경제 불확실성 증가 및 인플레이션으로 인한 단기 현금 수요 증가",
+      "디지털 플랫폼(EZ+)을 통한 고객 접근성 및 편의성 향상",
+      "라틴 아메리카 시장(멕시코, 과테말라, 엘살바도르, 온두라스)에서의 지속적인 매장 확장 및 인수",
+      "중고품 시장의 성장 및 가치 소비 트렌드 확산"
+    ],
+    "market_share_pct": "미국 내 전당포 시장 점유율 10-15% (추정) - 미국 내 두 번째로 큰 전당포 사업자라는 언급을 기반으로 추정. 라틴 아메리카에서는 주요 사업자 중 하나.",
+    "competitors": [
+      {
+        "name": "FirstCash Holdings, Inc. (미국)",
+        "differentiation": "미국 및 라틴 아메리카 전역에 걸쳐 EZPW보다 더 많은 매장을 보유한 최대 전당포 사업자. 다양한 금융 서비스 제공."
+      },
+      {
+        "name": "Cash Converters International Limited (호주, EZPW 지분 보유)",
+        "differentiation": "전당포 서비스 외에 개인 금융 상품(소액 대출 등)을 다양하게 제공하며, 국제적인 프랜차이즈 모델을 활용."
+      },
+      {
+        "name": "지역 소규모 전당포 체인 및 독립 전당포",
+        "differentiation": "지역 밀착형 서비스와 유연한 운영을 통해 특정 지역 고객층에 강점."
+      },
+      {
+        "name": "온라인 단기 대출 서비스 (Payday Loans 등)",
+        "differentiation": "담보 없이 온라인으로 신속하게 대출을 제공하여 편의성이 높지만, 높은 이자율과 규제 리스크가 존재."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 전당포 사업은 규제 준수, 매장 네트워크 구축, 담보 평가 전문성 등 진입 장벽이 존재하나, 온라인 플랫폼을 통한 소액 대출 서비스는 진입이 상대적으로 용이할 수 있음.",
+      "substitutes": "medium - 은행 대출, 신용카드 현금 서비스, 온라인 단기 대출, 가족/친구로부터의 차용 등 다양한 대체재가 존재하며, 경제 상황에 따라 대체재의 매력이 변동될 수 있음.",
+      "buyer_power": "medium - 고객은 다양한 전당포 및 대체 금융 서비스를 선택할 수 있으므로 가격 및 서비스 품질에 대한 협상력이 존재. 하지만 단기 현금 수요가 급한 고객은 선택의 폭이 제한적일 수 있음.",
+      "supplier_power": "low - EZPW의 주요 공급자는 인력, 부동산, IT 시스템 등이며, 이들은 일반적으로 공급자가 많아 협상력이 낮음. 담보물은 고객으로부터 조달되므로 공급자 개념에 해당하지 않음.",
+      "rivalry": "high - 미국 및 라틴 아메리카 시장에 다수의 경쟁사(특히 FirstCash)가 존재하며, 매장 수, 서비스 품질, 가격 경쟁이 치열함. 인수합병을 통한 시장 점유율 확대 경쟁도 활발함."
+    },
+    "competitive_advantages": [
+      "미국 및 라틴 아메리카에 걸친 광범위한 매장 네트워크 (1,360개 이상)",
+      "EZ+ 웹 기반 애플리케이션을 통한 디지털 전환 및 고객 편의성 증대",
+      "수십 년간 축적된 전당포 운영 노하우 및 담보물 평가 전문성",
+      "Cash Converters 및 Founders One 지분 투자를 통한 사업 확장 및 시너지 효과 추구",
+      "고객 중심 전략 및 충성도 프로그램 운영"
+    ],
+    "competitive_weaknesses": [
+      "전당포 산업에 대한 부정적인 사회적 인식 및 규제 리스크",
+      "경제 침체 시 고객의 상환 능력 저하 및 담보물 가치 하락 위험",
+      "온라인 단기 대출 서비스 등 새로운 형태의 경쟁사 등장",
+      "IT 및 데이터 현대화에 대한 지속적인 투자 필요성",
+      "해외 사업 확장에 따른 환율 변동 및 정치적 리스크 노출"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 72.5,
+    "rs_rating": 89,
+    "score": 73.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.28,
-    "trailing_pe": 21.299362,
-    "forward_pe": 16.372091,
-    "ev_to_ebitda": 11.71,
-    "price_to_sales": 1.5441287,
+    "trailing_pe": 18.329782,
+    "forward_pe": 15.860663,
+    "ev_to_ebitda": 10.655,
+    "price_to_sales": 1.413083,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 70.94,
-    "outperform_6m_vs_nasdaq": 75.94,
-    "outperform_1m_vs_nasdaq": 3.54,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 84.28,
+    "outperform_6m_vs_nasdaq": 80.02,
+    "outperform_1m_vs_nasdaq": 4.41,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "EZCORP은 미국 내 2위, 라틴 아메리카 내 최대 규모의 전당포 체인으로, 1,360개의 광범위한 지점 네트워크를 통해 규모의 경제를 달성하고 있습니다.",
+      "전당포 사업은 담보물을 기반으로 한 대출 및 중고품 판매를 통해 수익을 창출하며, 이는 전통적인 금융 기관이 접근하기 어려운 고객층을 대상으로 합니다. 이는 특정 시장에서 경쟁 우위를 제공합니다.",
+      "EZCORP은 '강력한 핵심 역량 강화', '비용 효율성 및 단순화', '혁신 및 성장'의 세 가지 전략적 기둥을 통해 운영 효율성을 지속적으로 개선하고 비용 우위를 확보하려는 노력을 기울이고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "멕시코 47개 전당포 인수 및 신규 자사주 매입 프로그램 승인",
+    "bull_case": "라틴 아메리카 시장 확장 가속화 및 디지털 전환 성공으로 3년 내 EPS 20% 성장",
+    "base_case": "미국 및 라틴 아메리카 핵심 시장에서 안정적인 성장세를 유지하며, 비용 효율성 개선과 디지털 서비스 확대를 통해 점진적인 수익성 향상을 이룰 것입니다. 연간 EPS 성장률은 한 자릿수 후반을 기록할 것으로 예상됩니다.",
+    "bear_case": "경기 침체로 인한 대출 수요 감소 및 담보물 가치 하락, 규제 강화로 인한 운영 비용 증가로 수익성이 악화될 수 있습니다. 신규 시장 진출 실패 또는 디지털 전환 지연 시 성장 동력이 둔화될 것입니다.",
+    "key_metrics_to_watch": [
+      "라틴 아메리카 지역 매출 성장률",
+      "총 대출 자산(Pawn Loan Balances) 증가율",
+      "자사주 매입 프로그램 이행률 및 효과",
+      "디지털 플랫폼(EZ+) 사용자 증가 및 거래량"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": ""
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "규제",
+        "description": "사업 운영 국가 및 지역의 법률 및 규제 변경 또는 미준수는 벌금, 영업 중단 명령 등으로 이어져 사업에 중대한 부정적 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "소비자 단체, 언론 등으로부터 전당포 산업에 대한 부정적인 인식 확산은 규제 강화, 주가 하락, 자금 조달 어려움, 인재 유치 난항 등으로 이어질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "미국 사업의 상당 부분이 텍사스(45%)와 플로리다(17%)에 집중되어 있어, 이들 주의 입법, 규제 또는 사업 환경 변화는 전체 운영 및 재무 성과에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "금 가치 또는 금 거래량의 급격한 감소는 전당포 대출 담보 및 재고의 상당 부분을 차지하는 금에 대한 의존도가 높아 수익 및 재무 상태에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "매출, 전당포 대출 잔액, 매출 마진 및 전당포 상환율의 변동은 경제 환경 변화, 경쟁 압력, 고객 선호도 변화 등으로 인해 영업 결과에 중대한 부정적 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "단일 개인이 모든 의결권 있는 주식을 소유하고 있어 주주 투표가 필요한 모든 사안의 결과에 영향을 미치며, 이는 공개 거래되는 비의결권 주식의 가치에 영향을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "2016년 자회사 매각과 관련된 세금 관련 면책 의무가 여전히 존재하며, 잠재적 배상 청구의 성격, 범위 및 유효성이 아직 결정되지 않아 재무적 불확실성이 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "전당포 산업에 대한 부정적인 인식이 확산되어 주요 사업 지역에서 규제가 대폭 강화되고, 금 가격이 급락하여 사업 모델이 지속 불가능해진다.",
+      "텍사스와 플로리다에서 사업에 치명적인 규제 변화가 발생하고, 동시에 금 가치가 급락하여 핵심 수익원이 고갈된다.",
+      "규제 준수 실패로 막대한 벌금과 영업 정지 명령을 받게 되고, 이로 인해 자금 조달이 불가능해져 사업을 지속할 수 없게 된다.",
+      "단일 대주주의 결정이 회사에 치명적인 영향을 미치고, 동시에 시장의 부정적인 인식으로 주식 가치가 급락하여 자본 조달이 불가능해진다."
+    ],
+    "exit_signals": [
+      "텍사스 또는 플로리다에서 전당포 사업에 대한 중대한 부정적 규제 변경이 발표될 경우.",
+      "금 가격이 지속적으로 크게 하락하여 전당포 대출 담보 가치 및 재고 처분 마진에 심각한 악영향을 미칠 경우.",
+      "전당포 산업에 대한 부정적인 여론이 확산되어 주요 사업 지역에서 추가적인 규제 강화 움직임이 명확해질 경우.",
+      "매출, 전당포 대출 잔액, 매출 마진 등 핵심 영업 지표가 지속적으로 악화되어 수익성 회복 가능성이 낮아질 경우."
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:21:06.293825+00:00"
+  }
 }

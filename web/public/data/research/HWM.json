@@ -4,29 +4,42 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-07T06:41:58.185149+00:00",
+  "generated_at": "2026-05-11T15:16:38.826875+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 102813057024,
-    "shares_outstanding": 400713557,
+    "market_cap": 108489146368,
+    "shares_outstanding": 400107483,
     "employees": 25430,
     "country": "United States",
     "website": "https://www.howmet.com",
     "beta": 1.191
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Howmet Aerospace Inc.는 미국, 일본, 프랑스, ​​독일, 영국, 멕시코, 이탈리아, 캐나다, 폴란드, 중국 및 국제적으로 항공우주 및 운송 산업을 위한 고급 엔지니어링 솔루션을 제공합니다. 엔진 제품, 고정 시스템, 엔지니어링 구조 및 단조 휠의 네 가지 부문을 통해 운영됩니다.",
+    "business_model": "하우메트 에어로스페이스(주)",
+    "products": [
+      "미국, 일본, 프랑스, ​​독일의 항공우주 및 운송 산업을 위한 고급 엔지니어링 솔루션",
+      "엔진 제품, 고정 시스템, 엔지니어링 구조 및 단조 휠의 네 가지 부문을 통해",
+      "주로 항공기 엔진 및 산업용 가스 터빈에 사용되는 에어포일 및 심리스 롤링 링",
+      "항공우주 고정 시스템, 상업용 운송, 산업 및 기타 고정 장치",
+      "티타늄 잉곳 및 밀 제품, 알루미늄 및 니켈 단조품, 항공우주용 가공 부품 및 조립품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
   "category_b_financials": {
-    "roe": 0.3,
+    "roe": 0.34,
     "roa": 0.12,
-    "profit_margin": 0.18,
-    "operating_margin": 0.26,
-    "gross_margin": 0.34,
-    "revenue_growth_ttm": 0.15,
-    "earnings_growth_ttm": 0.2,
-    "dividend_yield": 0.19,
-    "payout_ratio": 0.12,
+    "profit_margin": 0.2,
+    "operating_margin": 0.28,
+    "gross_margin": 0.35,
+    "revenue_growth_ttm": 0.19,
+    "earnings_growth_ttm": 0.71,
+    "dividend_yield": 0.18,
+    "payout_ratio": 0.11,
     "annual_revenue": [
       8252000000.0,
       7430000000.0,
@@ -77,22 +90,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      1.44,
       0.92,
       0.95,
       1.0,
       0.84,
-      0.77,
+      null,
       null
     ],
     "quarterly_revenue": [
+      2313000000.0,
       2168000000.0,
       2089000000.0,
       2053000000.0,
       1942000000.0,
-      1891000000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
@@ -100,29 +116,78 @@
       "2024-12-31",
       "2024-09-30"
     ],
-    "eps_qoq_yoy_pct": 18.5,
-    "sales_yoy_pct": 14.6,
+    "eps_qoq_yoy_pct": 68.6,
+    "sales_yoy_pct": 19.1,
     "ni_cagr_3y_pct": 47.6,
-    "roe_pct": 30.44
+    "roe_pct": 33.82
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Aerospace & Defense 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 63.3,
+    "rs_rating": 77,
+    "score": 67.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.8,
-    "trailing_pe": 69.1186,
-    "forward_pe": 45.658333,
-    "ev_to_ebitda": 44.089,
-    "price_to_sales": 12.4591675,
+    "trailing_pe": 63.058136,
+    "forward_pe": 46.082832,
+    "ev_to_ebitda": 43.212,
+    "price_to_sales": 12.581369,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.75,
-    "outperform_6m_vs_nasdaq": 15.77,
-    "outperform_1m_vs_nasdaq": -8.71,
+    "outperform_1y_vs_nasdaq": 26.23,
+    "outperform_6m_vs_nasdaq": 18.15,
+    "outperform_1m_vs_nasdaq": -7.25,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": ""
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 Howmet에 알려지지 않았거나 현재 Howmet이 중요하지 않다고 간주하는 추가 위험 및 불확실성도 향후 회사에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "OEM의 미래 항공기 생산 시기와 수준의 변화와 불확실성으로 인해 회사 제품 믹스의 변화로 인해 미래 결과가 이전 기간과 다를 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 경쟁적인 가격 압력 및 기타 요인으로 인해 제품 가격을 인상하지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Howmet은 원자재를 포함하여 당사 운영에 필수적인 자재 및 서비스를 제한된 수의 공급업체에 의존하고 있으며, 공급망 중단은 당사 사업에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 제약이 계속되거나 확대될 경우 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 공급업체의 공급이 지연되면 당사 제품에 대한 고객 요구를 충족하지 못할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:21:43.340167+00:00"
+  }
 }

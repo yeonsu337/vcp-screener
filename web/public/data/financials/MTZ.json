@@ -2,10 +2,10 @@
   "ticker": "MTZ",
   "metrics": {
     "eps_ttm": 5.72,
-    "eps_forward": 11.45,
-    "pe_ttm": 75.75,
-    "pe_forward": 37.83,
-    "market_cap": 34237161472.0,
+    "eps_forward": 11.51,
+    "pe_ttm": 73.19,
+    "pe_forward": 36.36,
+    "market_cap": 33082701824.0,
     "roe": 0.15,
     "roa": 0.05,
     "profit_margin": 0.03,
@@ -228,12 +228,12 @@
       null
     ],
     "eps": [
-      null,
+      0.77,
       1.81,
       2.04,
       1.09,
       0.13,
-      0.95,
+      null,
       null
     ],
     "gross_profit": [
@@ -388,8 +388,8 @@
       null
     ],
     "eps_yoy": [
+      492.3,
       null,
-      90.5,
       null,
       null,
       null,

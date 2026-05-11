@@ -4,19 +4,28 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-05-07T06:34:13.949276+00:00",
+  "generated_at": "2026-05-11T15:12:32.539175+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3920211968,
+    "market_cap": 4111539200,
     "shares_outstanding": 57112643,
     "employees": 336,
     "country": "United States",
     "website": "https://thevitacococompany.com",
     "beta": 0.714
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Vita Coco Company, Inc.는 미국, 캐나다, 유럽, 중동, 아프리카 및 아시아 태평양 지역에서 Vita Coco 브랜드 이름으로 코코넛 워터 제품을 개발, 제조, 판매 및 유통합니다. 코코넛 물, 오일, 주스 제품을 제공합니다. 식물성 유제품 대안인 Vita Coco Treats; Vita Coco Pressed, Vita Coco 코코넛 주스 및 Farmers Organic; 비타코코 코코넛MLK; 단백질이 함유된 피트니스 음료인 PWR LIFT도 있습니다.",
+    "business_model": "비타 코코 컴퍼니, Inc.",
+    "products": [
+      "코코넛 워터, 오일, 주스 제품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
   "category_b_financials": {
     "roe": 0.26,
     "roa": 0.14,
@@ -108,24 +117,73 @@
     "ni_cagr_3y_pct": 108.98,
     "roe_pct": 26.32
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Defensive / Beverages - Non-Alcoholic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 72.1,
+    "rs_rating": 87,
+    "score": 72.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 49.739132,
-    "forward_pe": 33.537407,
-    "ev_to_ebitda": 37.97,
-    "price_to_sales": 5.9521246,
+    "trailing_pe": 52.166664,
+    "forward_pe": 35.17421,
+    "ev_to_ebitda": 39.69,
+    "price_to_sales": 6.24262,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 52.38,
-    "outperform_6m_vs_nasdaq": 59.74,
-    "outperform_1m_vs_nasdaq": 22.1,
+    "outperform_1y_vs_nasdaq": 58.19,
+    "outperform_6m_vs_nasdaq": 57.43,
+    "outperform_1m_vs_nasdaq": 25.85,
     "lynch_category": "Fast Grower"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": ""
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사 사업에 부정적인 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 경우, 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 일부 또는 전부를 잃을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "생산 우선순위를 낮추거나 지연을 경험하거나 관계를 종료하는 등 기존 파트너와의 관계에 변화가 생기면 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "수요가 지속적으로 증가하려면 새로운 생산 능력과 파트너의 추가가 필요할 수 있으며 그러한 추가가 현재 공급업체만큼 비용 경쟁력이 있을 것이라는 보장은 없습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 당사가 통제할 수 없는 외부 사건으로 인해 공급망이 중단되거나 지연될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 공급망이 반응하고 정상화되는 데 소요되는 시간 동안 비용이 크게 증가하고 리드 타임이 길어질 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:20:50.027124+00:00"
+  }
 }

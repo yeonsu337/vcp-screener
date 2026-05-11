@@ -1,0 +1,165 @@
+{
+  "ticker": "GOOG",
+  "company": "Alphabet Inc.",
+  "market": "US",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "generated_at": "2026-05-11T15:02:05.762198+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 4732292169728,
+    "shares_outstanding": 5456000000,
+    "employees": 194668,
+    "country": "United States",
+    "website": "https://abc.xyz",
+    "beta": 1.267
+  },
+  "category_a_business": {
+    "overview": "Alphabet Inc.는 미국, 유럽, 중동, 아프리카, 아시아 태평양, 캐나다 및 라틴 아메리카에서 다양한 제품과 플랫폼을 제공합니다. Google 서비스, Google Cloud 및 기타 Bets 세그먼트를 통해 운영됩니다.",
+    "business_model": "알파벳 주식회사",
+    "products": [
+      "미국, 유럽, 중동, 아프리카, 아시아태평양, 캐나다, 라티 등 다양한 제품과 플랫폼",
+      "Google 서비스, Google Cloud 및 기타 Bets 세그먼트를 통해",
+      "광고, Android, Chrome, 기기, Gmail, Google 드라이브, Google 지도, Google 포토, Google을 포함한 제품 및 서비스",
+      "AI 인프라, Vertex AI 플랫폼, Gemini e를 포함한 AI 솔루션에 대한 소비 기반 요금 및 구독",
+      "사이버 보안, 데이터 및 분석 서비스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Alphabet Inc.는 캘리포니아주 마운틴뷰에 본사를 둔 미국의 다국적 기술 대기업 지주 회사입니다. 2015년 10월 2일 Google의 구조 조정을 통해 탄생했으며 Google과 여러 이전 Google 자회사의 모회사가 되었습니다. 알파벳은 나스닥 대형주 섹션에 GOOGL 및 GOOG라는 종목 코드로 상장되어 있습니다. 두 종류의 주식 모두 S&P 500 및 Nasdaq-100과 같은 주요 주식 시장 지수의 구성 요소입니다. 알파벳은 빅테크 회사로 묘사되었습니다.",
+    "milestones": [
+      "2015년: , Google 및 여러 이전 Google 자회사의 모회사가 되었습니다."
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.39,
+    "roa": 0.15,
+    "profit_margin": 0.38,
+    "operating_margin": 0.36,
+    "gross_margin": 0.6,
+    "revenue_growth_ttm": 0.22,
+    "earnings_growth_ttm": 0.82,
+    "dividend_yield": 0.22,
+    "payout_ratio": 0.06,
+    "annual_revenue": [
+      402836000000.0,
+      350018000000.0,
+      307394000000.0,
+      282836000000.0
+    ],
+    "annual_operating_income": [
+      129039000000.0,
+      112390000000.0,
+      84293000000.0,
+      74842000000.0
+    ],
+    "annual_eps": [
+      10.81,
+      8.04,
+      5.8,
+      4.56
+    ],
+    "annual_free_cf": [
+      73266000000.0,
+      72764000000.0,
+      69495000000.0,
+      60010000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      59291000000.0,
+      22574000000.0,
+      27121000000.0,
+      29679000000.0,
+      null
+    ],
+    "annual_equity": [
+      415265000000.0,
+      325084000000.0,
+      283379000000.0,
+      256144000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      5.11,
+      2.82,
+      2.87,
+      2.31,
+      2.81,
+      null
+    ],
+    "quarterly_revenue": [
+      109896000000.0,
+      113829000000.0,
+      102346000000.0,
+      96428000000.0,
+      90234000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 81.2,
+    "sales_yoy_pct": 21.8,
+    "ni_cagr_3y_pct": 30.14,
+    "roe_pct": 38.88
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "통신 서비스/인터넷 콘텐츠 및 정보 카테고리 — yfinance Peer 경쟁 페이지"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 86,
+    "score": 70.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.5633,
+    "trailing_pe": 29.816793,
+    "forward_pe": 27.003876,
+    "ev_to_ebitda": 29.629,
+    "price_to_sales": 11.202465,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 105.34,
+    "outperform_6m_vs_nasdaq": 23.28,
+    "outperform_1m_vs_nasdaq": 9.17,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Google Cloud 수익의 변동은 위에 설명된 일반적인 요인 외에도 고객 사용량, 수요, 공급 가용성의 변화와 같은 요인의 영향을 받아 왔으며 앞으로도 계속 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:21:22.508455+00:00"
+  }
+}

@@ -1,49 +1,53 @@
 {
   "ticker": "MTZ",
-  "company": "Mastec Inc",
+  "company": "MasTec, Inc.",
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-07T23:58:59.243542+00:00",
+  "generated_at": "2026-05-11T14:55:42.577499+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 33239947264,
+    "shares_outstanding": 79018556,
+    "employees": 37000,
+    "country": "United States",
+    "website": "https://www.mastec.com",
+    "beta": 1.818
   },
   "category_a_business": {
-    "overview": "북미 인프라 엔지니어링 및 건설 회사로 통신, 에너지, 유틸리티 등 다양한 인프라 구축 및 유지보수 서비스를 제공합니다.",
+    "overview": "MasTec은 북미 인프라 엔지니어링 및 건설 기업으로, 통신, 에너지, 유틸리티 등 다양한 인프라 서비스를 제공합니다.",
     "milestones": [
-      "1929: 전신 회사로 사업 시작 (전신 회사 포함 95년 이상)",
-      "2021: 저탄소 에너지 전환에 맞춰 사업 재편 시작",
-      "2021: 재생에너지, 전력 공급, 중공업 및 통신 서비스 분야 확장 위한 인수 합병 활발",
-      "2025: 통신 및 전력 공급 부문 구조 변경으로 최종 시장 및 운영 관리 보고 구조에 맞춰 조정"
+      "1929: 전신 회사 설립 (선행 기업)",
+      "1994년: MasTec, Inc. 설립",
+      "2000년대 초: 통신 인프라 서비스 확장",
+      "2010년대: 에너지 및 유틸리티 인프라 부문 강화",
+      "2021: 저탄소 에너지 전환에 초점을 맞춘 사업 재편 및 대규모 인수합병",
+      "2025: 통신 및 전력 공급 부문 구조 조정 (보고 목적)"
     ],
     "business_model": "다양한 인프라 프로젝트의 엔지니어링, 건설, 유지보수 서비스를 제공하여 수익을 창출합니다.",
     "revenue_streams": [
       "통신 인프라 구축 및 유지보수",
-      "청정 에너지 및 발전 시설 건설",
-      "전력 송배전 인프라 엔지니어링 및 건설",
-      "파이프라인 인프라 건설 및 무결성 서비스",
-      "중공업 및 산업 인프라 건설"
+      "청정에너지 및 발전 시설 건설",
+      "전력 송배전 시스템 구축 및 유지보수",
+      "파이프라인 인프라 건설",
+      "중공업 및 토목 인프라",
+      "환경 복원 서비스"
     ],
-    "value_chain_position": "Midstream + 인프라 설계, 건설, 설치 및 유지보수 서비스를 제공하는 핵심적인 역할을 수행합니다.",
+    "value_chain_position": "Midstream / Downstream + 인프라 프로젝트의 설계부터 시공, 유지보수까지 전반적인 서비스를 제공합니다.",
     "products": [
       "무선 및 유선/광섬유 네트워크 구축",
-      "풍력, 태양광 등 재생에너지 발전 시설 건설",
-      "송전 및 배전 인프라 구축",
-      "천연가스, 물, 탄소 포집 파이프라인 건설",
-      "도로, 교량, 철도 등 중공업 인프라 건설"
+      "풍력, 태양광 등 재생에너지 발전 시설",
+      "전기 및 가스 송배전 시스템",
+      "천연가스, 물, 탄소 포집 파이프라인",
+      "도로, 교량, 철도 건설",
+      "설치-투-홈 서비스"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주로 통신, 에너지, 유틸리티 산업의 기업 및 정부 기관이 주요 고객입니다. 고객 집중도에 대한 구체적인 정보는 제공되지 않았습니다."
+    "key_customers": "주로 유틸리티, 통신, 정부 산업의 기업 고객을 대상으로 하며, 다년간의 마스터 서비스 계약 비중이 높습니다."
   },
   "category_b_financials": {
     "roe": 0.15,
@@ -103,12 +107,12 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
-      null,
+      0.77,
       1.81,
       2.04,
       1.09,
       0.13,
-      0.95,
+      null,
       null
     ],
     "quarterly_revenue": [
@@ -135,111 +139,130 @@
     "roe_pct": 15.01
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-300 billion USD (추정치). 북미 인프라 엔지니어링 및 건설 시장은 통신, 에너지, 유틸리티, 파이프라인, 중공업 및 환경 복원 등 광범위한 분야를 포함하며, 각 분야의 시장 규모를 종합하여 추정.",
-    "tam_cagr_pct": "5-8% (추정치). 5G 및 광섬유 네트워크 확장을 통한 통신 인프라 수요 증가, 청정에너지 전환 및 전력망 현대화 투자, 노후 인프라 교체 및 탄소 포집 파이프라인과 같은 신규 인프라 수요가 성장을 견인할 것으로 예상.",
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (글로벌 인프라 건설 시장 규모, 2023년 기준, Statista 추정)",
+    "tam_cagr_pct": "4-6% (향후 3~5년) - 5G, 광섬유, 재생에너지, 전력망 현대화, 노후 인프라 교체 등 핵심 성장 동인들이 지속적인 투자를 유발할 것으로 예상됨.",
     "growth_drivers": [
-      "5G 및 광섬유 네트워크 확장으로 인한 통신 인프라 구축 수요 증가",
-      "청정에너지(재생에너지) 전환 및 전력망 현대화(스마트 그리드, 그리드 강화) 투자 확대",
-      "노후화된 기존 인프라(도로, 교량, 파이프라인)의 유지보수 및 교체 필요성 증대",
-      "탄소 포집 및 저장(CCS) 파이프라인과 같은 신규 환경 인프라 프로젝트 증가",
-      "정부의 인프라 투자 정책 및 자금 지원 확대"
+      "5G 및 광섬유 네트워크 확장: 통신 인프라에 대한 지속적인 수요 증가.",
+      "재생에너지 전환 및 전력망 현대화: 청정에너지 발전 및 효율적인 전력 전송 시스템 구축 필요성 증대.",
+      "노후 인프라 교체 및 복원: 기존 인프라의 노후화로 인한 유지보수 및 업그레이드 수요 증가.",
+      "정부 인프라 투자 확대: 미국 인프라 투자 및 일자리 법안(IIJA)과 같은 정부 정책의 지원.",
+      "데이터 센터 및 클라우드 인프라 확장: 디지털 경제 성장에 따른 데이터 센터 구축 및 상호 연결 수요 증가."
     ],
-    "market_share_pct": "5-10% (추정치). Engineering News-Record의 Top 400 Contractors 중 상위 5위권에 랭크되어 있지만, 북미 인프라 시장의 광범위함과 분산성을 고려할 때 전체 시장에서 차지하는 점유율은 상대적으로 낮을 것으로 추정.",
+    "market_share_pct": "1-2% (estimate) - MasTec은 북미 시장의 주요 플레이어이나, 전체 인프라 건설 시장은 매우 세분화되어 있어 단일 기업의 시장점유율은 상대적으로 낮음. Engineering News-Record의 Top 400 Contractors 중 상위 5위권에 랭크되어 있으나, 이는 특정 부문에 한정될 수 있음.",
     "competitors": [
       {
-        "name": "Quanta Services (PWR)",
-        "differentiation": "유틸리티 인프라(전력, 가스) 및 통신 인프라 분야의 선두 주자로, MTZ와 유사한 광범위한 서비스 포트폴리오와 대규모 프로젝트 수행 역량을 보유."
-      },
-      {
-        "name": "MYR Group (MYRG)",
-        "differentiation": "주로 전력 송전 및 배전 인프라 건설 및 유지보수에 특화되어 있으며, 특정 분야에서 강점을 가짐."
+        "name": "Quanta Services, Inc. (PWR)",
+        "differentiation": "유틸리티 인프라(전력, 가스), 통신, 파이프라인 등 유사한 광범위한 서비스 포트폴리오를 보유하며, MasTec보다 더 큰 규모와 시장 점유율을 가짐."
       },
       {
         "name": "Henkels & McCoy (H&M)",
-        "differentiation": "통신 및 유틸리티 인프라 서비스에 강점을 가지며, 특히 통신 네트워크 구축 및 유지보수 분야에서 경쟁력을 보유."
+        "differentiation": "주로 통신 및 전력 유틸리티 인프라에 중점을 두며, MasTec의 통신 및 전력 부문과 직접적으로 경쟁."
+      },
+      {
+        "name": "MYR Group Inc. (MYRG)",
+        "differentiation": "주로 전력 송전 및 배전 인프라 건설에 특화되어 있으며, MasTec의 Power Delivery 부문과 경쟁."
       },
       {
         "name": "Primoris Services Corporation (PRIM)",
-        "differentiation": "다양한 인프라 시장(파이프라인, 유틸리티, 중공업)에 걸쳐 서비스를 제공하며, 특히 파이프라인 및 산업 플랜트 건설에 강점."
+        "differentiation": "파이프라인, 전력, 통신, 중공업 등 다양한 인프라 서비스를 제공하며, MasTec과 유사한 다각화 전략을 추구."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium. 인프라 건설 산업은 대규모 자본 투자, 전문 기술 인력, 복잡한 규제 준수, 오랜 프로젝트 경험이 요구되어 진입 장벽이 높지만, 특정 틈새시장이나 소규모 프로젝트에서는 신규 진입이 가능.",
-      "substitutes": "low. 인프라 구축 및 유지보수 서비스는 필수적이며, 이를 대체할 수 있는 직접적인 대안은 거의 없음. 다만, 기술 발전으로 인한 효율성 향상이나 서비스 제공 방식의 변화는 있을 수 있음.",
-      "buyer_power": "medium. 고객은 주로 대형 통신사, 유틸리티 회사, 정부 기관 등으로, 대규모 프로젝트 발주 시 협상력이 높을 수 있음. 그러나 전문성과 신뢰성이 중요한 산업 특성상 공급업체 변경 비용도 존재.",
-      "supplier_power": "low. 건설 자재 및 장비 공급업체는 다양하며, MTZ와 같은 대형 기업은 구매량을 바탕으로 협상력을 가질 수 있음. 다만, 특정 전문 장비나 숙련된 인력의 경우 공급업체의 영향력이 커질 수 있음.",
-      "rivalry": "high. 북미 인프라 시장은 다수의 대형 및 중소형 기업들이 경쟁하고 있으며, 프로젝트 수주를 위한 가격 경쟁 및 서비스 품질 경쟁이 치열함. 특히 대형 프로젝트에서는 경쟁이 더욱 심화."
+      "new_entrants": "medium - 인프라 건설은 상당한 자본, 전문 인력, 기술, 규제 준수 역량이 필요하여 진입 장벽이 높지만, 특정 틈새시장에서는 신규 진입이 가능할 수 있음.",
+      "substitutes": "low - 인프라 건설 서비스는 필수적이며, 이를 대체할 수 있는 직접적인 대안은 거의 없음. 다만, 기술 발전으로 인한 건설 방식의 변화(예: 모듈러 건설)는 간접적인 대체 위협이 될 수 있음.",
+      "buyer_power": "medium - 대형 고객사(통신사, 유틸리티 회사, 정부)는 상당한 구매력을 가지며, 여러 공급업체로부터 견적을 받아 협상력을 행사할 수 있음. 그러나 장기 계약 및 전문성 요구로 인해 관계가 형성되면 전환 비용이 발생할 수 있음.",
+      "supplier_power": "medium - 숙련된 노동력, 특정 장비 및 자재 공급업체는 제한적일 수 있어 공급업체의 협상력이 존재함. 특히 숙련된 기술 인력 부족은 중요한 공급업체 파워 요인.",
+      "rivalry": "high - 인프라 건설 시장은 경쟁이 치열하며, MasTec과 같은 대형 기업뿐만 아니라 수많은 중소형 지역 기업들이 존재함. 가격 경쟁, 서비스 품질, 프로젝트 수행 능력 등이 주요 경쟁 요소."
     },
     "competitive_advantages": [
-      "95년 이상의 업력과 광범위한 북미 지역 사업장(810개)을 통한 강력한 시장 입지 및 브랜드 인지도",
-      "통신, 청정에너지, 전력, 파이프라인, 중공업 등 다각화된 서비스 포트폴리오 및 최종 시장",
-      "마스터 서비스 계약(MSA) 등 장기 계약을 통한 안정적인 수익 기반 확보",
-      "유기적 성장 및 전략적 인수를 통한 지속적인 시장 점유율 확대 및 서비스 역량 강화",
-      "저탄소 에너지 전환이라는 거시적 트렌드에 맞춰 사업 구조를 재편하여 미래 성장 동력 확보"
+      "광범위한 서비스 포트폴리오: 통신, 청정에너지, 전력, 파이프라인, 중공업 등 다각화된 서비스 제공으로 시장 변동성에 대한 회복력 강화.",
+      "강력한 고객 관계 및 장기 계약: 마스터 서비스 계약(MSA) 등 다년 계약을 통해 안정적인 매출 기반 확보.",
+      "북미 시장 리더십 및 규모의 경제: 북미 지역에서 선도적인 위치와 광범위한 운영 네트워크(810개 지점)를 통해 효율성 및 경쟁력 확보.",
+      "전략적 인수합병(M&A) 역량: 시장 입지 강화, 고객 기반 확대, 지리적 범위 확장 및 서비스 제공 확대를 위한 적극적인 M&A 전략.",
+      "청정에너지 전환에 대한 선제적 대응: 저탄소 에너지원으로의 전환에 맞춰 사업 구조를 재편하여 미래 성장 기회 선점."
     ],
     "competitive_weaknesses": [
-      "노동 집약적인 산업 특성상 숙련된 인력 확보 및 유지에 대한 의존도가 높고, 인건비 상승 압력에 취약할 수 있음",
-      "대규모 프로젝트 수행에 따른 운영 위험 및 프로젝트 지연, 비용 초과 등의 위험 존재",
-      "경제 상황 및 정부 정책 변화에 따른 인프라 투자 감소 시 실적에 부정적인 영향 가능성",
-      "경쟁이 치열한 시장에서 가격 경쟁 압력에 직면할 수 있음",
-      "인수합병(M&A)을 통한 성장에 대한 의존도가 높아, 통합 위험 및 재무적 부담이 발생할 수 있음"
+      "숙련된 노동력 부족: 인프라 건설 산업 전반의 문제로, 프로젝트 수행 능력 및 비용에 영향을 미칠 수 있음.",
+      "프로젝트 기반 사업의 위험: 대규모 프로젝트의 지연, 예산 초과, 계약 변경 등은 수익성에 부정적인 영향을 미칠 수 있음.",
+      "경제 사이클 및 정부 정책 의존성: 인프라 투자는 경제 상황 및 정부의 정책 결정에 크게 영향을 받음.",
+      "높은 자본 집약도: 장비 투자 및 유지보수에 상당한 자본이 필요하며, 이는 재무 부담으로 작용할 수 있음.",
+      "경쟁 심화: 다수의 경쟁사들과의 가격 및 서비스 경쟁으로 인해 마진 압박을 받을 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 93,
-    "score": 84.4,
-    "vcp_quality": 17.5,
+    "rs_rating": 92,
+    "score": 79.2,
+    "vcp_quality": 11.8,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 2.0166,
+    "trailing_pe": 73.54196,
+    "forward_pe": 36.53399,
+    "ev_to_ebitda": 29.258,
+    "price_to_sales": 2.175353,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 139.23,
-    "outperform_6m_vs_nasdaq": 100.34,
-    "outperform_1m_vs_nasdaq": 4.42
+    "outperform_1y_vs_nasdaq": 135.98,
+    "outperform_6m_vs_nasdaq": 98.14,
+    "outperform_1m_vs_nasdaq": 0.83,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "95년 이상의 업력과 'MasTec®' 서비스 마크는 강력한 브랜드 인지도와 신뢰를 구축했음을 시사합니다.",
+      "Engineering News-Record의 Top 400 Contractors 중 상위 5위권에 랭크된 점은 업계 내 독보적인 기술력과 시장 지위를 증명합니다.",
+      "다수의 고객과 다년간의 마스터 서비스 계약을 통해 안정적인 수익 흐름과 고객 충성도를 확보하고 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "저탄소 에너지 전환 및 재생에너지 인프라 확대를 위한 사업 재편 및 인수합병 활동",
+    "bull_case": "정부의 인프라 투자 확대와 청정에너지 전환 가속화로 MTZ는 3년간 연평균 20% 이상의 매출 성장을 달성할 것입니다.",
+    "base_case": "MTZ는 북미 인프라 시장의 견고한 수요와 청정에너지 전환 트렌드에 힘입어 안정적인 성장세를 유지할 것입니다. 특히 통신, 전력망, 재생에너지 분야의 지속적인 투자는 회사의 핵심 성장 동력이 될 것입니다. 장기 계약 기반의 사업 모델은 경기 변동에 대한 방어력을 제공하며, 전략적 인수합병을 통한 시장 확대 노력은 추가적인 성장 기회를 창출할 것입니다.",
+    "bear_case": "예상보다 더딘 인프라 투자, 금리 인상으로 인한 프로젝트 지연, 원자재 가격 상승 및 인력 부족은 MTZ의 수익성에 부정적인 영향을 미칠 수 있습니다. 또한, 경쟁 심화 및 주요 고객과의 계약 갱신 실패는 성장 둔화로 이어질 수 있습니다.",
+    "key_metrics_to_watch": [
+      "청정에너지 및 인프라 부문 매출 성장률",
+      "수주잔고 및 신규 계약 규모",
+      "영업이익률 (OPM) 추이"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties not known to us or not described below could also negatively affect our operations.",
+        "category": "규제",
+        "description": "정부 정책, 규제, 인허가 절차의 변경은 서비스 수요에 영향을 미치거나 프로젝트 지연 및 취소를 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "인플레이션, 금리 상승, 공급망 중단 등 불리한 시장 상황은 고객의 자본 지출 계획과 서비스 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "정부의 세금 공제, 보조금 프로그램(IIJA, IRA 등)의 변경 또는 축소는 재생 에너지 및 기타 인프라 프로젝트 수요를 감소시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "We also may not be able to achieve our goals or expectations.",
+        "category": "공급망",
+        "description": "관세 및 무역 조치는 건설 자재(철강, 콘크리트, 태양광 패널 등)의 비용을 증가시키고 공급망을 교란하여 고객의 프로젝트 계획에 영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Our inability or failure to adjust to such changes or factors could adversely affect our results of operations, cash flows and liquidity.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Implementation of these initiatives, along with pressures on and uncertainty surrounding the federal budget and budgetary priorities, could adversely affect funding and, as a result, demand for our services.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Tariff and trade actions by the United States and other countries could have a material adverse effect on our business, financial condition, and results of operations.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "We have not been, and may not be able to, fully adjust our contract pricing to compensate for these cost increases, which has affected, and may continue to affect, our profitability and cash flows.",
-        "severity": "medium"
+        "category": "경쟁",
+        "description": "인공지능(AI)의 발전은 산업 전반에 걸쳐 서비스 수요에 영향을 미치거나 새로운 경쟁 환경을 조성할 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "정부의 주요 인프라 투자 프로그램(IIJA, IRA 등)이 대폭 축소되거나 폐지되어 핵심 시장의 프로젝트 수요가 급감하는 경우.",
+      "예상치 못한 규제 변경이나 환경 정책 강화로 인해 주요 고객의 프로젝트가 대규모로 취소되거나 지연되는 경우.",
+      "글로벌 무역 분쟁 심화 및 관세 부과로 인해 핵심 건설 자재 비용이 통제 불능 수준으로 상승하여 프로젝트 수익성이 심각하게 악화되는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "미국 정부의 인프라 및 재생 에너지 관련 주요 법안(IIJA, IRA)이 의회에서 대폭 수정되거나 폐지되는 법안이 통과되는 경우.",
+      "회사의 주요 고객사(통신, 에너지, 유틸리티) 중 한 곳 이상이 대규모 자본 지출 계획을 철회하거나 대폭 축소한다고 발표하는 경우.",
+      "건설 자재(철강, 구리, 태양광 패널 등)의 가격이 2분기 연속 20% 이상 상승하거나, 주요 공급망이 3개월 이상 심각하게 중단되는 경우."
     ]
   },
-  "wikipedia_summary": ""
+  "wikipedia_summary": "Mastec, Inc. is an American infrastructure engineering and construction company based in Coral Gables, Florida. The company provides engineering, building, installation, maintenance and upgrade of energy, utility and communications infrastructure. Its customers are primarily in the utility, communications and government industries.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-11T15:22:57.512890+00:00"
+  }
 }
