@@ -5,16 +5,15 @@
     "detection_score": 88.2,
     "market": "US",
     "company": "Mastec Inc",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-05-07",
     "current_price": 425.39,
     "current_score": 90.2,
-    "rs_rating": 94,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 425.39,
-    "exit_reasons": [
-      "absent 24d (limit 10d)"
-    ]
+    "rs_rating": 92,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "KGS": {
     "first_detected": "2026-04-11",
@@ -44,16 +43,15 @@
     "detection_score": 85.6,
     "market": "US",
     "company": "Quanta Services, Inc",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-05-07",
     "current_price": 757.34,
     "current_score": 86.9,
-    "rs_rating": 87,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 757.34,
-    "exit_reasons": [
-      "absent 24d (limit 10d)"
-    ]
+    "rs_rating": 88,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "FTI": {
     "first_detected": "2026-04-11",
@@ -61,16 +59,15 @@
     "detection_score": 82.9,
     "market": "US",
     "company": "TechnipFMC plc",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-05-07",
     "current_price": 74.6,
     "current_score": 84.9,
-    "rs_rating": 93,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 74.6,
-    "exit_reasons": [
-      "absent 24d (limit 10d)"
-    ]
+    "rs_rating": 87,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "EIX": {
     "first_detected": "2026-04-11",
@@ -185,16 +182,15 @@
     "detection_score": 79.3,
     "market": "US",
     "company": "Royalty Pharma plc",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-05-07",
     "current_price": 50.2,
     "current_score": 80.0,
-    "rs_rating": 76,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 50.2,
-    "exit_reasons": [
-      "absent 24d (limit 10d)"
-    ]
+    "rs_rating": 73,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "KEX": {
     "first_detected": "2026-04-11",

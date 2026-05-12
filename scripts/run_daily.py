@@ -345,16 +345,32 @@ def fetch_ticker_financials(ticker: str) -> dict | None:
     }
 
 
+def _is_soft_gate(r: dict) -> bool:
+    """Trend-template-strong tickers that haven't formed a VCP pattern today
+    but are still in Stage 2 + RS≥70 + Primary ≥12. Spec T2."""
+    rules = r.get("rules") or {}
+    passed = sum(1 for rid in SOFT_GATE_PRIMARY_IDS if (rules.get(rid) or {}).get("passed"))
+    if passed < SOFT_GATE_MIN_PASSED:
+        return False
+    if SOFT_GATE_REQUIRE_STAGE2 and (r.get("stage") or 0) != 2:
+        return False
+    if (r.get("rs_rating") or 0) < SOFT_GATE_REQUIRE_RS:
+        return False
+    return True
+
+
 def _update_detection_history(rows: list[dict], today: str) -> dict:
     """
     Maintain first-detection history for permanent backtest tracking.
 
     Design:
-      - First detection date = Day 1, stored once and never changed.
+      - First detection date = Day 1 (only set on hard-gate VCP detection).
       - current_price is refreshed daily for ALL history tickers (even after
         they drop out of the screener), so return_pct tracks the full holding
         period from detection date.
-      - still_active flag = ticker is in today's detected set.
+      - last_seen updated when ticker is in detected ∪ soft-gate (T2 — keep
+        Stage 2 winners alive across VCP-pattern noise days).
+      - soft_gate_streak counts consecutive runs in soft-gate (T3 re-entry).
 
     Returns the updated history dict.
     """
@@ -366,6 +382,7 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
             history = {}
 
     detected = {r["ticker"]: r for r in rows if r.get("detected")}
+    soft_gate = {r["ticker"]: r for r in rows if (not r.get("detected")) and _is_soft_gate(r)}
 
     # Step 1: register new detections (first_detected = today, entry price)
     for ticker, r in detected.items():
@@ -380,6 +397,25 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
         history[ticker]["last_seen"] = today
         history[ticker]["current_score"] = r.get("score")
         history[ticker]["rs_rating"] = r.get("rs_rating")
+        history[ticker]["stage"] = r.get("stage")
+        history[ticker]["soft_gate_streak"] = (history[ticker].get("soft_gate_streak") or 0) + 1
+
+    # Step 1b (T2): soft-gate touch — keep last_seen fresh, refresh RS/Stage,
+    # increment streak. Does NOT create a new history entry; only updates if
+    # the ticker was already detected before (active or exited).
+    for ticker, r in soft_gate.items():
+        if ticker not in history:
+            continue
+        history[ticker]["last_seen"] = today
+        history[ticker]["rs_rating"] = r.get("rs_rating")
+        history[ticker]["stage"] = r.get("stage")
+        history[ticker]["soft_gate_streak"] = (history[ticker].get("soft_gate_streak") or 0) + 1
+
+    # Reset streak for tickers neither detected nor in soft-gate this run.
+    in_view = set(detected.keys()) | set(soft_gate.keys())
+    for ticker, h in history.items():
+        if ticker not in in_view:
+            h["soft_gate_streak"] = 0
 
     # Step 2: refresh current_price + recent OHLCV for ALL active history tickers.
     # OHLCV is needed for 50-day MA break detection (EX4).
@@ -405,13 +441,49 @@ def _update_detection_history(rows: list[dict], today: str) -> dict:
     # Step 2b: update peak return tracking + profit-taking signals (display only)
     _update_peak_metrics(history)
 
-    # Step 3: check exit rules for active tickers
-    _check_exits(history, detected, today, active_ohlcv)
+    # Step 3: check exit rules for active tickers (T2-aware EX6)
+    _check_exits(history, detected, soft_gate, today, active_ohlcv)
+
+    # Step 3b (T3): re-enter previously exited tickers that have rebuilt strength.
+    _check_reentry(history, soft_gate, detected, today)
 
     HISTORY_PATH.write_text(
         json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return history
+
+
+def _check_reentry(
+    history: dict,
+    soft_gate: dict,
+    detected: dict,
+    today: str,
+) -> None:
+    """T3: un-exit a ticker if it has been in detected or soft-gate for
+    RE_ENTRY_STREAK_DAYS consecutive runs. Preserves max_return_pct and
+    first_detected (audit trail); records re_entry_date + reason."""
+    re_entered = 0
+    for ticker, h in history.items():
+        if not h.get("exited"):
+            continue
+        if ticker not in detected and ticker not in soft_gate:
+            continue
+        streak = h.get("soft_gate_streak") or 0
+        if streak < RE_ENTRY_STREAK_DAYS:
+            continue
+        # Un-exit
+        h["exited"] = False
+        h.pop("exit_date", None)
+        h.pop("exit_price", None)
+        prev_reasons = h.pop("exit_reasons", None)
+        h["re_entry_date"] = today
+        h["re_entry_reason"] = (
+            f"soft-gate streak {streak}d · Stage 2 + RS≥70"
+            + (f" (was: {', '.join(prev_reasons)})" if prev_reasons else "")
+        )
+        re_entered += 1
+    if re_entered:
+        print(f"  {re_entered} tickers re-entered (T3)")
 
 
 # ---- Exit / signal thresholds (Minervini + O'Neil / IBD standard) ----------
@@ -420,8 +492,24 @@ EXIT_TRAILING_FROM_PEAK_PCT = -15.0  # protective trailing stop (after some gain
 EXIT_TRAILING_KICK_IN_PCT = 10.0   # trailing only kicks in once peak gain ≥ +10%
 EXIT_50DMA_VOLUME_MULT = 1.5       # 50d MA break must coincide with vol ≥ 1.5× SMA50
 EXIT_RS_BELOW = 40                 # RS Rating collapse
-EXIT_ABSENT_DAYS = 10              # 10 consecutive days not in detected list
+EXIT_ABSENT_DAYS = 20              # 20 consecutive days not in detected/soft-gate
 EXIT_SINGLE_DAY_DROP_PCT = -10.0   # single-session catastrophic drop (gap-down / earnings miss)
+
+# ---- Soft-gate "still tracked" (T2) — keeps Stage 2 winners alive when VCP
+# pattern temporarily breaks but the trend is intact. Aligned with
+# `web/app/screener/[ticker]/page.tsx` PRIMARY_IDS.
+SOFT_GATE_PRIMARY_IDS = [
+    "A1_ud_vol_ratio", "B1_price_above_150_200", "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200", "B4_price_above_sma50", "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low", "B7_within_25pct_high", "R1_rs_70",
+    "L1_liquidity_gate", "E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y",
+]
+SOFT_GATE_MIN_PASSED = 12
+SOFT_GATE_REQUIRE_STAGE2 = True
+SOFT_GATE_REQUIRE_RS = 70
+
+# ---- Re-entry (T3) — exited tickers can re-enter when they regain strength
+RE_ENTRY_STREAK_DAYS = 3           # must be in soft-gate this many runs in a row
 
 # Display-only signals (do NOT trigger exit — let 10-baggers run)
 PROFIT_SIGNAL_PCT_PARTIAL = 20.0   # +20% — "partial take signal"
@@ -505,6 +593,7 @@ def _check_50dma_break(df: pd.DataFrame) -> tuple[bool, dict]:
 def _check_exits(
     history: dict,
     detected: dict,
+    soft_gate: dict,
     today: str,
     ohlcv_map: dict[str, "pd.DataFrame"] | None = None,
 ) -> None:
@@ -515,11 +604,14 @@ def _check_exits(
       EX3  RS Rating < 40
       EX4  50d MA break + heavy volume (≥1.5× SMA50 vol)
       EX5  Trailing stop -15% from peak (only after peak gain ≥ +10%)
-      EX6  Absent ≥ 10 consecutive trading days
+      EX6  Absent ≥ 20 days from both detected AND soft-gate (T1+T2 —
+           Stage 2 + RS≥70 + Primary 12+ tickers stay in regardless of
+           VCP-pattern noise; only true trend breakdown triggers EX6)
 
     Profit-taking signals (+20% / +25%) are display-only — do NOT exit
     so 10-bagger candidates can keep running.
     """
+    in_view = set(detected.keys()) | set(soft_gate.keys())
     exit_count = 0
     for ticker, h in history.items():
         if h.get("exited"):
@@ -566,15 +658,18 @@ def _check_exits(
         if rs is not None and rs < EXIT_RS_BELOW:
             reasons.append(f"EX3 RS {rs} < {EXIT_RS_BELOW}")
 
-        # EX6: extended absence
+        # EX6: extended absence — only fires when ticker is absent from BOTH
+        # the hard-gate (detected) and the soft-gate (Stage 2 + RS≥70 + 12+
+        # primary rules). last_seen is now refreshed by soft-gate touches, so
+        # a Stage 2 winner with no VCP pattern stays alive.
         last_seen = h.get("last_seen", "")
-        if last_seen and ticker not in detected:
+        if last_seen and ticker not in in_view:
             days_absent = (
                 datetime.strptime(today, "%Y-%m-%d")
                 - datetime.strptime(last_seen, "%Y-%m-%d")
             ).days
             if days_absent >= EXIT_ABSENT_DAYS:
-                reasons.append(f"EX6 absent {days_absent}d")
+                reasons.append(f"EX6 absent {days_absent}d (no detected/soft-gate)")
 
         if reasons:
             h["exited"] = True
