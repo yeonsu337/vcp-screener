@@ -1,0 +1,42 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "SAMPLE",
+  "generated_at": "2026-05-12T08:00:00Z",
+  "source_results_date": "2026-05-12",
+  "verdict": "STOP_OUT",
+  "verdict_kr": "청산 (Stop hit)",
+  "confidence": 0.95,
+  "lines": [
+    "청산 — 진입 후 -8.4% (-8% 초기 손절선 도달), 현재 손익 -8.4% (Peak +3.2%).",
+    "진입 2026-04-15 @ $124.50 → 현재 $114.04.",
+    "Stage 2, RS 78. Minervini ironclad 손절 룰 발화 — 협의 불가.",
+    "전량 청산 후 새 진입 setup 형성 대기. 손실 누적 금지."
+  ],
+  "action": {
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": null,
+    "stop_pct": null,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": null,
+    "position_risk_pct": 1.5
+  },
+  "framework": {
+    "trend_template_score": "—",
+    "vcp_quality_score": "—",
+    "rs_rating": 78,
+    "stage": 2,
+    "base_count": 0,
+    "late_base_warning": false,
+    "market_regime": "neutral"
+  },
+  "rule_references": [],
+  "key_failures": [
+    "진입 후 -8.4% (-8% 초기 손절선 도달)"
+  ],
+  "warnings": [
+    "진입가 $124.50 · 감지일 2026-04-15",
+    "포지션 전량 청산 후 새 setup 형성 시까지 신규 진입 금지"
+  ]
+}

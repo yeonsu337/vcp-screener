@@ -23,6 +23,7 @@ DATA_DIR = ROOT / "web" / "public" / "data"
 OUT_DIR = DATA_DIR / "minervini-bot"
 RESULTS_PATH = DATA_DIR / "results.json"
 MACRO_PATH = DATA_DIR / "macro.json"
+HISTORY_PATH = DATA_DIR / "detection_history.json"
 
 SCHEMA = "minervini-bot.v1"
 
@@ -78,6 +79,11 @@ PCT_EXTENDED = 5.0
 STOP_PCT = -7.0
 TARGET1_PCT = 20.0
 POSITION_RISK_PCT = 1.5
+
+# STOP_OUT triggers for active tracking entries (spec §2-4 sell framework)
+STOP_OUT_INITIAL_LOSS = -8.0     # EX1 ironclad stop from entry
+STOP_OUT_TRAILING_FROM_PEAK = -15.0  # EX5 trailing after gain
+STOP_OUT_TRAILING_KICK_IN = 10.0  # trailing only activates after +10%
 
 
 def _rule_passed(rules: dict, rid: str) -> bool:
@@ -402,6 +408,25 @@ def _lines_extended(row, sym, tt, vcp, regime) -> list[str]:
     return lines
 
 
+def _lines_stop_out(row, sym, hist, reason_label) -> list[str]:
+    """Build STOP_OUT lines from detection_history entry + current screener row."""
+    det_px = hist.get("detection_price") or 0
+    cur_px = row.get("current_price") or hist.get("current_price") or det_px
+    ret = hist.get("return_pct")
+    peak = hist.get("max_return_pct")
+    rs = row.get("rs_rating") or hist.get("rs_rating") or 0
+    stage = row.get("stage") or hist.get("stage") or 0
+    first = hist.get("first_detected") or "—"
+    ret_s = f"{ret:+.1f}%" if ret is not None else "n/a"
+    peak_s = f"{peak:+.1f}%" if peak is not None else "n/a"
+    return [
+        f"청산 — {reason_label}, 현재 손익 {ret_s} (Peak {peak_s}).",
+        f"진입 {first} @ {sym}{det_px:.2f} → 현재 {sym}{cur_px:.2f}.",
+        f"Stage {stage}, RS {rs}. Minervini ironclad 손절 룰 발화 — 협의 불가.",
+        f"전량 청산 후 새 진입 setup 형성 대기. 손실 누적 금지.",
+    ]
+
+
 def _lines_avoid(row, sym, tt, vcp, regime) -> list[str]:
     rs = row.get("rs_rating") or 0
     stage = row.get("stage") or 0
@@ -453,6 +478,84 @@ def _dedupe(seq) -> list:
             seen.add(x)
             out.append(x)
     return out
+
+
+def _check_stop_out(hist: dict) -> str | None:
+    """Inspect a detection_history entry for STOP_OUT triggers.
+
+    Returns a human-readable reason label, or None if no stop fires.
+    Aligned with run_daily.py exit rules: EX1 -8% from entry, EX5 trailing
+    -15% from peak (after peak ≥ +10%).
+    """
+    if hist.get("exited"):
+        return None
+    ret = hist.get("return_pct")
+    peak = hist.get("max_return_pct")
+
+    if ret is not None and ret <= STOP_OUT_INITIAL_LOSS:
+        return f"진입 후 {ret:+.1f}% (-8% 초기 손절선 도달)"
+
+    if (
+        peak is not None
+        and peak >= STOP_OUT_TRAILING_KICK_IN
+        and ret is not None
+        and (ret - peak) <= STOP_OUT_TRAILING_FROM_PEAK
+    ):
+        return f"Peak +{peak:.1f}%에서 {(ret - peak):.1f}% 후퇴 (Trailing -15% 발화)"
+    return None
+
+
+def build_stop_out_call(
+    ticker: str,
+    hist: dict,
+    row: dict | None,
+    regime: str,
+    source_date: str,
+    reason_label: str,
+) -> dict:
+    """STOP_OUT verdict for an active tracking entry that hit a stop."""
+    market = (row or {}).get("market") or hist.get("market") or "US"
+    sym = _currency_symbol(market)
+    lines = _lines_stop_out(row or {}, sym, hist, reason_label)
+    rs = (row or {}).get("rs_rating") or hist.get("rs_rating") or 0
+    stage = (row or {}).get("stage") or hist.get("stage") or 0
+
+    return {
+        "$schema": SCHEMA,
+        "ticker": ticker,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_results_date": source_date,
+        "verdict": "STOP_OUT",
+        "verdict_kr": "청산 (Stop hit)",
+        "confidence": 0.95,
+        "lines": lines,
+        "action": {
+            "entry_type": "none",
+            "entry_price": None,
+            "stop_price": None,
+            "stop_pct": None,
+            "target1_price": None,
+            "target1_pct": None,
+            "trailing_rule": None,
+            "position_risk_pct": POSITION_RISK_PCT,
+        },
+        "framework": {
+            "trend_template_score": "—",
+            "vcp_quality_score": "—",
+            "rs_rating": rs,
+            "stage": stage,
+            "base_count": 0,
+            "late_base_warning": False,
+            "market_regime": regime,
+        },
+        "rule_references": [],
+        "key_failures": [reason_label],
+        "warnings": [
+            f"진입가 {sym}{(hist.get('detection_price') or 0):.2f} · "
+            f"감지일 {hist.get('first_detected', '—')}",
+            "포지션 전량 청산 후 새 setup 형성 시까지 신규 진입 금지",
+        ],
+    }
 
 
 def build_call(row: dict, regime: str, source_date: str) -> dict | None:
@@ -539,8 +642,44 @@ def main() -> int:
     # De-duplicate keep set (clean stale)
     keep: set[str] = set()
     written = 0
+    stopped_out: set[str] = set()
     by_verdict: dict[str, int] = {}
+
+    # Step 1 — STOP_OUT pass over active tracking entries.
+    # Held-position stops take precedence: a ticker that hit -8% from entry
+    # gets a STOP_OUT call regardless of whether it still passes the Primary
+    # 12+ gate today.
+    history = {}
+    if HISTORY_PATH.exists():
+        try:
+            history = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            history = {}
+
+    rows_by_ticker = {r["ticker"]: r for r in rows}
+    for ticker, hist in history.items():
+        if hist.get("exited"):
+            continue
+        reason = _check_stop_out(hist)
+        if not reason:
+            continue
+        row = rows_by_ticker.get(ticker)
+        call = build_stop_out_call(ticker, hist, row, regime, source_date, reason)
+        fname = _safe_filename(ticker) + ".json"
+        (OUT_DIR / fname).write_text(
+            json.dumps(call, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        keep.add(fname)
+        stopped_out.add(ticker)
+        by_verdict["STOP_OUT"] = by_verdict.get("STOP_OUT", 0) + 1
+        written += 1
+
+    # Step 2 — standard verdict pass for screener candidates.
+    # Skip tickers already classified as STOP_OUT in step 1.
     for row in candidates:
+        if row["ticker"] in stopped_out:
+            continue
         call = build_call(row, regime, source_date)
         if not call:
             continue

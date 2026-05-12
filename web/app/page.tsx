@@ -32,6 +32,14 @@ const sections = [
     statusColor: liveBadge,
   },
   {
+    title: "Minervini Bot",
+    description: "Per-ticker 5-tier 매매 권고 (BUY_NOW/BUY_AT_PIVOT/WATCH/EXTENDED/AVOID) · entry·stop·target · 한국어 4-5줄",
+    href: "/minervini",
+    icon: "\u{1F3AF}",
+    status: "Live",
+    statusColor: liveBadge,
+  },
+  {
     title: "Backtest",
     description: "Track screener performance: detection date vs current price, hit rate, avg return",
     href: "/backtest",
