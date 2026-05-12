@@ -26,6 +26,9 @@ import time
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _secrets import clean_api_key  # noqa: E402
+
 PROJ_DIR = Path(__file__).parent.parent
 RESEARCH_DIR = PROJ_DIR / "web" / "public" / "data" / "research"
 
@@ -172,7 +175,7 @@ class GeminiTranslator(Translator):
 
 
 def make_translator() -> Translator:
-    key = os.environ.get("GEMINI_API_KEY")
+    key = clean_api_key("GEMINI_API_KEY")
     if key:
         try:
             print("[translator] Gemini API (high fidelity)")

@@ -25,10 +25,14 @@ from __future__ import annotations
 import json
 import os
 import statistics
+import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _secrets import clean_api_key  # noqa: E402
 
 import requests
 
@@ -443,7 +447,7 @@ def _is_stale(prev: dict | None) -> bool:
 
 
 def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
-    api_key = os.environ.get("GEMINI_API_KEY")
+    api_key = clean_api_key("GEMINI_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
     body = {
@@ -455,10 +459,15 @@ def gemini_call(prompt: str, max_output_tokens: int = 1500) -> str:
             "thinkingConfig": {"thinkingBudget": 0},
         },
     }
+    # Header auth (x-goog-api-key) — never put the key in the URL where
+    # exception messages might echo it back.
     r = requests.post(
-        f"{GEMINI_URL}?key={api_key}",
+        GEMINI_URL,
         json=body,
-        headers={"Content-Type": "application/json"},
+        headers={
+            "Content-Type": "application/json",
+            "x-goog-api-key": api_key,
+        },
         timeout=60,
     )
     if r.status_code != 200:

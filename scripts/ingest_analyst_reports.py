@@ -28,6 +28,9 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _secrets import clean_api_key  # noqa: E402
+
 import pdfplumber
 import requests
 
@@ -80,7 +83,7 @@ class LLMUnavailable(Exception):
 
 
 def _gemini_call(prompt: str, max_output_tokens: int) -> str:
-    api_key = (os.environ.get("GEMINI_API_KEY") or "").strip().lstrip("﻿")
+    api_key = clean_api_key("GEMINI_API_KEY")
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
     body = {
@@ -118,7 +121,7 @@ def _gemini_call(prompt: str, max_output_tokens: int) -> str:
 
 
 def _groq_call(prompt: str, max_output_tokens: int) -> str:
-    api_key = (os.environ.get("GROQ_API_KEY") or "").strip().lstrip("﻿")
+    api_key = clean_api_key("GROQ_API_KEY")
     if not api_key:
         raise LLMUnavailable("GROQ_API_KEY not set")
     body = {

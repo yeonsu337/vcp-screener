@@ -27,6 +27,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+# Ensure scripts/ is on sys.path for the _secrets helper.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _secrets import clean_api_key  # noqa: E402
+
 import requests
 import yfinance as yf
 
@@ -393,10 +397,10 @@ class LLMUnavailable(Exception):
 
 def gemini_call(prompt: str, max_output_tokens: int = 1500, temperature: float = 0.3) -> str:
     """Call Gemini 2.0 Flash Free Tier. Raises LLMUnavailable on missing key / quota."""
-    # Strip BOM/whitespace/zero-width — secrets piped via PowerShell can carry
-    # UTF-16 BOM or stray invisible chars, which fail latin-1 header encoding.
-    raw_key = os.environ.get("GEMINI_API_KEY") or ""
-    api_key = re.sub(r"[​‌‍﻿\s]+", "", raw_key)
+    # Bulletproof BOM/whitespace strip — GitHub Actions env vars can carry
+    # UTF-8 BOM (0xFEFF) or zero-width chars that break latin-1 header
+    # encoding. clean_api_key keeps only ASCII printable (0x21-0x7E).
+    api_key = clean_api_key("GEMINI_API_KEY")
     if not api_key:
         raise LLMUnavailable("GEMINI_API_KEY not set")
     body = {
