@@ -182,3 +182,45 @@ export type ChartPayload = {
   ohlcv: OhlcvBar[];
   rs_line?: RsLinePoint[];
 };
+
+// Minervini bot recommendation per ticker (spec: docs/minervini-bot-persona.md).
+export type MinerviniVerdict =
+  | "BUY_NOW"
+  | "BUY_AT_PIVOT"
+  | "WATCH"
+  | "EXTENDED"
+  | "AVOID"
+  | "STOP_OUT";
+
+export type MinerviniCall = {
+  $schema: "minervini-bot.v1";
+  ticker: string;
+  generated_at: string;
+  source_results_date: string;
+  verdict: MinerviniVerdict;
+  verdict_kr: string;
+  confidence: number;
+  lines: string[];
+  action: {
+    entry_type: "pivot_breakout" | "immediate" | "none";
+    entry_price: number | null;
+    stop_price: number | null;
+    stop_pct: number | null;
+    target1_price: number | null;
+    target1_pct: number | null;
+    trailing_rule: string | null;
+    position_risk_pct: number;
+  };
+  framework: {
+    trend_template_score: string;
+    vcp_quality_score: string;
+    rs_rating: number;
+    stage: number;
+    base_count: number;
+    late_base_warning: boolean;
+    market_regime: "bull" | "neutral" | "bear";
+  };
+  rule_references: string[];
+  key_failures: string[];
+  warnings: string[];
+};

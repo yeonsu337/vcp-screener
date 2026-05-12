@@ -5,7 +5,13 @@ import { notFound } from "next/navigation";
 import ChartClient from "./ChartClient";
 import FinancialSummary from "./FinancialSummary";
 import RuleScorecard from "./RuleScorecard";
-import type { Candidate, TickerFinancials, ChartPayload } from "../../types";
+import MinerviniCall from "./MinerviniCall";
+import type {
+  Candidate,
+  TickerFinancials,
+  ChartPayload,
+  MinerviniCall as TMinerviniCall,
+} from "../../types";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
@@ -98,6 +104,23 @@ function loadCandidate(ticker: string): Candidate | null {
   }
 }
 
+function loadMinerviniCall(ticker: string): TMinerviniCall | null {
+  const safeName = ticker.replace(/\./g, "_");
+  const p = path.join(
+    process.cwd(),
+    "public",
+    "data",
+    "minervini-bot",
+    `${safeName}.json`,
+  );
+  if (!fs.existsSync(p)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf-8"));
+  } catch {
+    return null;
+  }
+}
+
 type HistoryEntry = {
   first_detected: string;
   detection_price: number;
@@ -165,6 +188,7 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
   const candidate = cached ?? (history ? candidateFromHistory(ticker, history) : null);
   const financials = loadFinancials(ticker);
   const chartPayload = loadChartData(ticker);
+  const minerviniCall = loadMinerviniCall(ticker);
 
   if (!candidate) notFound();
 
@@ -192,33 +216,36 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
           </span>
         </div>
         <div className="text-xs text-muted mt-1">
-          {candidate.sector} {candidate.sector && candidate.industry ? " \u00B7 " : ""} {candidate.industry}
+          {candidate.sector} {candidate.sector && candidate.industry ? " · " : ""} {candidate.industry}
         </div>
         {fromHistory && history && (
           <div className="mt-3 p-2.5 rounded border border-yellow-500/30 bg-yellow-500/10 text-xs text-yellow-300">
             <div className="font-semibold mb-1">
-              \u26A0 \uD604\uC7AC \uD65C\uC131 VCP \uD6C4\uBCF4 \uC544\uB2D8 \u2014 Backtest \uAE30\uB85D \uAE30\uBC18 \uD45C\uC2DC
+              ⚠ 현재 활성 VCP 후보 아님 — Backtest 기록 기반 표시
             </div>
             <div className="text-yellow-200/80 leading-relaxed">
-              \uCD5C\uCD08 \uAC10\uC9C0 {history.first_detected} @ ${history.detection_price.toFixed(2)} \u00B7
-              \uB9C8\uC9C0\uB9C9 \uAC10\uC9C0 {history.last_seen ?? "\u2014"} \u00B7
-              \uAC10\uC9C0 \uC810\uC218 {history.detection_score.toFixed(1)}
+              최초 감지 {history.first_detected} @ ${history.detection_price.toFixed(2)} ·
+              마지막 감지 {history.last_seen ?? "—"} ·
+              감지 점수 {history.detection_score.toFixed(1)}
               {history.exited && history.exit_date && (
                 <>
-                  {" "}\u00B7 <span className="text-red-400">Exit {history.exit_date}</span>
+                  {" "}· <span className="text-red-400">Exit {history.exit_date}</span>
                   {history.exit_reasons?.length ? ` (${history.exit_reasons.join(", ")})` : ""}
                 </>
               )}
               {history.max_return_pct !== undefined && (
-                <> \u00B7 Peak +{history.max_return_pct.toFixed(1)}%</>
+                <> · Peak +{history.max_return_pct.toFixed(1)}%</>
               )}
             </div>
             <div className="text-yellow-200/60 mt-1.5">
-              VCP \uB8F0\u00B7Contraction \uD45C\uC2DC\uB294 \uBE44\uD65C\uC131. \uCC28\uD2B8\uB294 \uB77C\uC774\uBE0C OHLCV\uB85C \uC815\uC0C1 \uD45C\uC2DC\uB428.
+              VCP 룰·Contraction 표시는 비활성. 차트는 라이브 OHLCV로 정상 표시됨.
             </div>
           </div>
         )}
       </header>
+
+      {/* Minervini Bot recommendation (Korean 4-5 line verdict + entry/stop/target) */}
+      <MinerviniCall call={minerviniCall} market={market} />
 
       {/* Chart (MarketSmith-style with live price + ratings) */}
       <section className="card p-4 mb-6 overflow-hidden">

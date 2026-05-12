@@ -34,6 +34,10 @@ jobs:
         run: python scripts/fetch_macro.py
         continue-on-error: true
 
+      - name: Generate Minervini bot calls (deterministic, no LLM)
+        run: python scripts/generate_minervini_calls.py
+        continue-on-error: true
+
       - name: Generate company research (Primary 12+)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
