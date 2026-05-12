@@ -95,9 +95,9 @@
     "market": "US",
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:37:49.968244+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:07:22.710944+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CAT",
@@ -105,9 +105,9 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-06T01:08:53.788388+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:20:29.758420+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CECO",
@@ -120,14 +120,24 @@
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
+    "ticker": "CMI",
+    "company": "Cummins Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:32:50.756237+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "COCO",
     "company": "The Vita Coco Company, Inc.",
     "market": "US",
     "sector": "Consumer Defensive",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:34:13.949276+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:12:32.539175+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CRS",
@@ -135,9 +145,9 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:32:10.514290+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:14:17.961253+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CRUS",
@@ -155,9 +165,9 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:40:24.631149+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:13:34.022676+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CSX",
@@ -180,14 +190,24 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "DOCN",
+    "company": "DigitalOcean Holdings, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:29:45.179751+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "ECG",
     "company": "Everus Construction Group, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:30:37.173106+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:13:16.338507+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "ECVT",
@@ -205,9 +225,9 @@
     "market": "US",
     "sector": "Financial Services",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:31:08.679594+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T14:58:22.629862+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "FIVE",
@@ -225,9 +245,9 @@
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:41:27.258171+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:28:43.391108+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "GEV",
@@ -235,9 +255,29 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:32:41.409969+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:27:41.858129+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "GOOG",
+    "company": "Alphabet Inc.",
+    "market": "US",
+    "sector": "Communication Services",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:02:05.762198+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "GOOGL",
+    "company": "Alphabet Inc.",
+    "market": "US",
+    "sector": "Communication Services",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:00:01.770214+00:00",
+    "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
     "ticker": "GVA",
@@ -245,9 +285,9 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:38:52.187299+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:30:47.187116+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "HASI",
@@ -255,9 +295,9 @@
     "market": "US",
     "sector": "Financial Services",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-06T01:34:04.597787+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:40:04.585852+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "HWM",
@@ -265,19 +305,19 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:41:58.185149+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:23:34.786394+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "IBKR",
-    "company": "",
+    "company": "Interactive Brokers Group, Inc.",
     "market": "US",
-    "sector": "",
-    "primary_passed": 0,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:53:27.386048+00:00",
-    "llm_status": "report-only"
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-11T14:57:22.720391+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "ILMN",
@@ -288,6 +328,16 @@
     "primary_total": 14,
     "generated_at": "2026-05-07T06:48:09.445965+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "INSW",
+    "company": "International Seaways, Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:12:14.641903+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "IRDM",
@@ -305,8 +355,8 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:04:56.089699+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:22:33.002754+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -314,10 +364,10 @@
     "company": "Keysight Technologies Inc",
     "market": "US",
     "sector": "Technology",
-    "primary_passed": 13,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:00:10.463936+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:11:12.477101+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "KLAC",
@@ -335,9 +385,9 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:42:29.325218+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:17:40.590949+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MD",
@@ -345,8 +395,8 @@
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:09:41.656908+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:38:00.849774+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -354,9 +404,19 @@
     "company": "Mueller Industries, Inc.",
     "market": "US",
     "sector": "Industrials",
-    "primary_passed": 13,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:03:55.061049+00:00",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-11T14:56:26.067216+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "MPC",
+    "company": "Marathon Petroleum Corporation",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:35:56.637883+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -365,19 +425,19 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:33:43.011185+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:14:35.622732+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MTZ",
-    "company": "Mastec Inc",
+    "company": "MasTec, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T23:58:59.243542+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T14:55:42.577499+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "NTNX",
@@ -405,9 +465,9 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 13,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:40:56.331352+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:19:46.483979+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "OII",
@@ -415,8 +475,8 @@
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:10:43.090737+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:39:02.703839+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -425,9 +485,29 @@
     "market": "US",
     "sector": "Real Estate",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:37:19.070792+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:31:49.037448+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "PARR",
+    "company": "Par Pacific Holdings, Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:34:54.825388+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "POWL",
+    "company": "Powell Industries, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:25:56.635075+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "PWR",
@@ -435,8 +515,8 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:02:53.675008+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:15:19.685518+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -445,9 +525,9 @@
     "market": "US",
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:39:53.814829+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:24:54.798192+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "RPRX",
@@ -455,9 +535,9 @@
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:36:17.520599+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-11T15:10:29.030786+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "SKYT",
@@ -465,9 +545,9 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:43:00.065086+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:33:52.853109+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "SNDK",
@@ -475,9 +555,39 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:36:48.316726+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:18:24.854495+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "SNEX",
+    "company": "StoneX Group Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:19:28.160134+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "SSRM",
+    "company": "SSR Mining Inc.",
+    "market": "US",
+    "sector": "Basic Materials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:17:23.183358+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "STRL",
+    "company": "Sterling Infrastructure, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:16:21.621700+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "STX",
@@ -505,8 +615,8 @@
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:07:39.370743+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:26:40.081217+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -515,9 +625,19 @@
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:43:30.873110+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:36:58.311210+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "VIAV",
+    "company": "Viavi Solutions Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:21:31.485012+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "VICR",
@@ -548,6 +668,16 @@
     "primary_total": 14,
     "generated_at": "2026-05-07T06:39:23.035129+00:00",
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+  },
+  {
+    "ticker": "WST",
+    "company": "West Pharmaceutical Services, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:24:36.706192+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WT",
@@ -585,8 +715,8 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-08T00:06:37.913860+00:00",
+    "primary_total": 13,
+    "generated_at": "2026-05-12T00:25:38.278531+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   }
 ]

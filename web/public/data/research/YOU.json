@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-05-11T15:21:49.919962+00:00",
+  "generated_at": "2026-05-12T00:25:38.278531+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7618693632,
+    "market_cap": 7603990528,
     "shares_outstanding": 100612468,
     "employees": 3301,
     "country": "United States",
@@ -17,13 +17,13 @@
     "beta": 1.067
   },
   "category_a_business": {
-    "overview": "Clear Secure, Inc.는 주로 미국에서 CLEAR 브랜드 이름으로 보안 ID 플랫폼을 운영합니다. 등록, 인증, 연결을 포함한 프런트엔드와 백엔드로 구성된 다계층 인프라인 보안 ID 플랫폼을 제공합니다.",
+    "overview": "Clear Secure, Inc.는 주로 미국에서 CLEAR 브랜드 이름으로 보안 ID 플랫폼을 운영합니다. 등록, 검증, 연결을 포함한 프런트엔드와 백엔드로 구성된 다계층 인프라인 보안 ID 플랫폼을 제공합니다.",
     "business_model": "클리어 시큐어 주식회사",
     "products": [
       "주로 미국에서 CLEAR 브랜드 이름으로 사용되는 보안 ID 플랫폼",
       "보안 ID 플랫폼은 등록, 검증,",
       "CLEAR Plus는 공항 보안 검색대에서 예측 가능한 입국 차선에 접근할 수 있는 소비자 항공 구독 서비스입니다.",
-      "RESERVE는 공항 위치 예약 지점에 대한 CLEAR 제공"
+      "공항 위치 예약 지점에 대한 CLEAR 제공 RESERVE"
     ],
     "channels": [
       "B2B / 기업"
@@ -128,19 +128,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 65.8,
+    "score": 65.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 45.6,
-    "forward_pe": 21.388369,
-    "ev_to_ebitda": 21.68,
-    "price_to_sales": 8.084232,
+    "trailing_pe": 45.512,
+    "forward_pe": 21.347092,
+    "ev_to_ebitda": 21.714,
+    "price_to_sales": 8.06863,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 92.99,
-    "outperform_6m_vs_nasdaq": 66.19,
-    "outperform_1m_vs_nasdaq": 8.89,
+    "outperform_1y_vs_nasdaq": 92.33,
+    "outperform_6m_vs_nasdaq": 65.69,
+    "outperform_1m_vs_nasdaq": 8.5,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:26:20.644583+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:40:53.659812+00:00"
   }
 }

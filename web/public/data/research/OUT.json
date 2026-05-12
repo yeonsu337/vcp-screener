@@ -4,29 +4,36 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-07T06:37:19.070792+00:00",
+  "generated_at": "2026-05-12T00:31:49.037448+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5589634560,
+    "market_cap": 5675900416,
     "shares_outstanding": 176051481,
     "employees": 1981,
     "country": "United States",
     "website": "https://www.outfrontmedia.com",
     "beta": 1.486
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 브랜드가 가장 중요한 순간과 환경에서 청중과 연결되도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
+    "business_model": "아웃프론트미디어(주)",
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 최고 경영자(CEO)인 Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
+  },
   "category_b_financials": {
-    "roe": 0.19,
+    "roe": 0.27,
     "roa": 0.04,
-    "profit_margin": 0.08,
-    "operating_margin": 0.25,
-    "gross_margin": 0.5,
-    "revenue_growth_ttm": 0.04,
-    "earnings_growth_ttm": 0.25,
-    "dividend_yield": 3.78,
-    "payout_ratio": 1.46,
+    "profit_margin": 0.1,
+    "operating_margin": 0.13,
+    "gross_margin": 0.51,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 3.54,
+    "payout_ratio": 1.12,
     "annual_revenue": [
       1831700000.0,
       1830900000.0,
@@ -100,66 +107,38 @@
       "2024-12-31",
       "2024-09-30"
     ],
-    "eps_qoq_yoy_pct": 30.8,
-    "sales_yoy_pct": 4.1,
+    "sales_yoy_pct": 10.0,
     "ni_cagr_3y_pct": 0.99,
-    "roe_pct": 19.37
+    "roe_pct": 26.81
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Real Estate / REIT - Specialty 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 71.5,
+    "rs_rating": 87,
+    "score": 67.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 38.719513,
-    "forward_pe": 25.592869,
-    "ev_to_ebitda": 23.061,
-    "price_to_sales": 3.0516102,
+    "trailing_pe": 30.13084,
+    "forward_pe": 24.981016,
+    "ev_to_ebitda": 22.013,
+    "price_to_sales": 3.0342674,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 70.35,
-    "outperform_6m_vs_nasdaq": 75.51,
-    "outperform_1m_vs_nasdaq": -1.86,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 75.47,
+    "outperform_6m_vs_nasdaq": 73.32,
+    "outperform_1m_vs_nasdaq": -4.04,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
-  "analyst_reports": [
-    {
-      "source_filename": "JP Morgan OUT Outfront Media Inc Remain OW and Increase PT to $28 on.pdf",
-      "source_broker": "JP Morgan",
-      "source_title": "Outfront Media Inc Remain OW and Increase PT to $28 on",
-      "source_mtime": 1778132758.0,
-      "ingested_at": "2026-05-07T07:20:44.537675+00:00",
-      "summary": [
-        "아웃프론트 미디어, 2026년 AFFO 성장률 '더블 디지트' 전망"
-      ],
-      "rating": "Overweight",
-      "price_target": "$28.00",
-      "prior_price_target": "$25.00",
-      "thesis": [
-        "2026년 뉴욕 MTA 계약 강세",
-        "FIFA 월드컵 광고 수익 기대",
-        "고정 비용 절감"
-      ],
-      "catalysts": [
-        "뉴욕 MTA 계약 수익 증가",
-        "FIFA 월드컵 광고 효과",
-        "고정 비용 구조 개선"
-      ],
-      "risks": [
-        "경기 둔화로 광고 수요 감소",
-        "국내 광고 시장 경쟁 심화"
-      ],
-      "key_numbers": [
-        "2026년 AFFO 성장률 +19%",
-        "1Q26 매출 7.6% 증가"
-      ],
-      "report_date": "2026-02-25"
-    }
-  ],
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:23:25.276395+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:37:39.767835+00:00"
   }
 }

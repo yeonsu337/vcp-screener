@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-11T15:04:17.731383+00:00",
+  "generated_at": "2026-05-12T00:13:16.338507+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8409614848,
+    "market_cap": 8363167744,
     "shares_outstanding": 51041606,
     "employees": 9400,
     "country": "United States",
@@ -17,34 +17,17 @@
     "beta": null
   },
   "category_a_business": {
-    "overview": "ECG는 미국 전역에서 특수 계약 서비스를 제공하는 선도적인 건설 솔루션 기업입니다.",
-    "milestones": [
-      "1997: 사업 시작(MDU 건설 서비스 그룹)",
-      "2023: MDU Resources, ECG 분사 계획 발표",
-      "2024: MDU Resources로부터 분사, 독립 상장 기업으로 전환 (ECG 설립)",
-      "2025: Engineering News-Record 선정 600대 특수 계약업체 12위",
-      "2025: Electrical Construction & Maintenance 선정 50대 전기 계약업체 5위"
-    ],
-    "business_model": "전기, 기계, 송배전 인프라 건설 및 유지보수 서비스로 수익 창출",
-    "revenue_streams": [
-      "전기 및 통신 배선/인프라 건설 및 유지보수",
-      "소방 시스템 설치",
-      "재생에너지 인프라 및 기계 배관 서비스",
-      "가스 및 통신 인프라 건설 및 유지보수",
-      "송전선 건설 장비 및 도구 설계/제조/유통"
-    ],
-    "value_chain_position": "Downstream + 건설 및 유지보수 서비스 제공을 통해 최종 고객에게 가치를 전달합니다.",
+    "overview": "Everus Construction Group, Inc.는 미국에서 계약 서비스를 제공합니다. 이는 전기 및 기계 부문과 전송 및 배전 부문의 두 부문을 통해 운영됩니다.",
+    "business_model": "Everus 건설 그룹, Inc.",
     "products": [
-      "전기 및 통신 인프라 서비스",
-      "소방 시스템",
-      "재생에너지 인프라",
-      "송배전 인프라 서비스",
-      "건설 장비 및 도구"
+      "미국 내 서비스 계약",
+      "전기 및 기계, 전송 및 배전의 두 부문을 통해",
+      "전기, 통신 배선 및 기반 시설의 건설 및 유지 보수 서비스",
+      "지상 및 지하 전기, 가스, 통신 인프라 및 운송의 건설 및 유지 관리"
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "다양한 고객 기반을 보유하며, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.39,
@@ -144,19 +127,19 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 37.70252,
-    "forward_pe": 33.71621,
-    "ev_to_ebitda": 26.194,
-    "price_to_sales": 2.1254053,
+    "trailing_pe": 37.49428,
+    "forward_pe": 33.52999,
+    "ev_to_ebitda": 26.291,
+    "price_to_sales": 2.1136665,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 193.12,
-    "outperform_6m_vs_nasdaq": 52.85,
-    "outperform_1m_vs_nasdaq": 11.17,
+    "outperform_1y_vs_nasdaq": 192.89,
+    "outperform_6m_vs_nasdaq": 52.68,
+    "outperform_1m_vs_nasdaq": 11.01,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:21:04.578650+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:36:06.534022+00:00"
   }
 }

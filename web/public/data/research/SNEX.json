@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-05-11T15:06:21.184449+00:00",
+  "generated_at": "2026-05-12T00:19:28.160134+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 9874736128,
+    "market_cap": 9656001536,
     "shares_outstanding": 79251496,
     "employees": 5307,
     "country": "United States",
@@ -124,20 +124,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 73.2,
+    "rs_rating": 89,
+    "score": 72.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.25,
-    "forward_pe": 18.736841,
+    "trailing_pe": 21.757143,
+    "forward_pe": 18.321804,
     "ev_to_ebitda": null,
-    "price_to_sales": 0.06559556,
+    "price_to_sales": 0.06414256,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 63.98,
-    "outperform_6m_vs_nasdaq": 100.78,
-    "outperform_1m_vs_nasdaq": 17.98,
+    "outperform_1y_vs_nasdaq": 61.58,
+    "outperform_6m_vs_nasdaq": 98.37,
+    "outperform_1m_vs_nasdaq": 16.43,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "StoneX Group Inc. is an American financial services company. The company operates in six areas: commercial hedging, global payments, securities, physical commodities, foreign exchange and clearing and execution services (CES).",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:24:28.734510+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:38:58.776292+00:00"
   }
 }

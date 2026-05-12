@@ -4,45 +4,175 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-05-06T01:34:04.597787+00:00",
+  "generated_at": "2026-05-12T00:40:04.585852+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5491611648,
+    "market_cap": 5237287424,
     "shares_outstanding": 127801066,
     "employees": 173,
     "country": "United States",
     "website": "https://www.hasi.com",
     "beta": 1.463
   },
-  "category_a_business": {},
-  "category_b_financials": {
-    "sales_yoy_pct": -9.8,
-    "ni_cagr_3y_pct": 64.44,
-    "roe_pct": 7.44
+  "category_a_business": {
+    "overview": "HA Sustainable Infrastructure Capital, Inc., through its subsidiaries, engages in the investment in energy efficiency, renewable energy, and other sustainable infrastructure markets in the United States. The company's portfolio includes equity investments, receivables, and debt securities. It invests in climate solutions, including Behind-the-Meter that distributes energy projects which reduce energy cost or usage that distributes energy projects which reduce energy; Grid-Connected, a renewable energy projects that deploy cleaner energy sources, such as solar, solar-plus-storage, and wind, to ",
+    "business_model": "HA Sustainable Infrastructure Capital, Inc., through its subsidiaries, engages in the investment in energy efficiency, renewable energy, and other sustainable infrastructure markets in the United Stat",
+    "channels": [
+      "B2B / Enterprise"
+    ]
   },
-  "category_c_market": {},
+  "category_b_financials": {
+    "roe": 0.02,
+    "roa": 0.01,
+    "profit_margin": 0.64,
+    "operating_margin": -1.24,
+    "gross_margin": 1.0,
+    "revenue_growth_ttm": -0.28,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 4.12,
+    "payout_ratio": 4.21,
+    "annual_revenue": [
+      408765000.0,
+      389109000.0,
+      289837000.0,
+      155469000.0
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      1.41,
+      1.62,
+      1.42,
+      0.47
+    ],
+    "annual_free_cf": [
+      167317000.0,
+      5852000.0,
+      99689000.0,
+      230000.0
+    ],
+    "annual_total_debt": [
+      5149394000.0,
+      4399531000.0,
+      4247420000.0,
+      2975288000.0,
+      null
+    ],
+    "annual_equity": [
+      2574878000.0,
+      2336756000.0,
+      2092261000.0,
+      1629237000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      -0.57,
+      -0.43,
+      0.61,
+      0.74,
+      0.44,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      -31248000.0,
+      156143000.0,
+      163619000.0,
+      120253000.0,
+      125596000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "sales_yoy_pct": -28.3,
+    "ni_cagr_3y_pct": 64.44,
+    "roe_pct": 2.25
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 71.6,
+    "rs_rating": 78,
+    "score": 64.2,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 1.5094,
-    "trailing_pe": 30.47518,
-    "forward_pe": 13.062975,
+    "peg_ratio": 1.4673,
+    "trailing_pe": 102.45,
+    "forward_pe": 12.418257,
     "ev_to_ebitda": null,
-    "price_to_sales": 57.232307,
+    "price_to_sales": 59.574883,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.09,
-    "outperform_6m_vs_nasdaq": 52.12,
-    "outperform_1m_vs_nasdaq": -1.01,
+    "outperform_1y_vs_nasdaq": 20.32,
+    "outperform_6m_vs_nasdaq": 33.09,
+    "outperform_1m_vs_nasdaq": -9.43,
     "lynch_category": "Cyclical / Turnaround?"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:21:24.200672+00:00"
-  }
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "We may refer to the energy efficiency, renewable energy and the other sustainable infrastructure projects or markets in which we participate collectively as climate solutions projects or the industry.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any resulting decline in demand for our investments or the price that industry participants receive for the sale of fossil fuel could adversely impact our operating results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If the market for various types of climate solutions projects or the investment techniques related to such projects do not develop as we anticipate, new business generation in this target area may be adversely impacted.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any changes in the markets, products, technologies, financing techniques, or the regulatory environment could adversely impact the demand or financial performance for such projects and our investments.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Some projects in which we invest rely on net metering and related policies to improve project economics which if reduced could impact repayment of our investments or the return on our assets.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, any changes to government or internal utility regulations and policies that favor electric utilities could reduce competitiveness and cause a significant reduction in demand for systems in which we invest.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": ""
 }

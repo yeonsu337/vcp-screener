@@ -1,0 +1,107 @@
+{
+  "ticker": "VIAV",
+  "company": "Viavi Solutions Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "generated_at": "2026-05-12T00:21:31.485012+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 12848559104,
+    "shares_outstanding": 233907870,
+    "employees": 3600,
+    "country": "United States",
+    "website": "https://www.viavisolutions.com",
+    "beta": 1.233
+  },
+  "category_a_business": {
+    "overview": "Viavi Solutions Inc.는 미주, 아시아 태평양, 유럽, 중동 및 아프리카의 통신, 클라우드, 기업, 최초 대응자, 군사, 항공우주 및 중요 인프라를 위한 네트워크 테스트, 모니터링 및 보증 솔루션을 제공합니다. NSE(Network and Service Enablement)와 OSP(Optical Security and Performance Products)라는 두 가지 부문으로 운영됩니다.",
+    "business_model": "비아비솔루션즈(주)",
+    "products": [
+      "통신, 클라우드, 기업, 최초 대응자, 군대를 위한 네트워크 테스트, 모니터링 및 보증 솔루션",
+      "네트워크 및 서비스 활성화(NSE)와 광학 보안 및 성능 제품(OSP)이라는 두 가지 부문으로 나뉩니다.",
+      "연구실 및 생산 환경, 네트워크 관리를 다루는 테스트, 모니터링, 보증 및 보안 솔루션",
+      "개발, 생산, 유지 관리 및 선택을 지원하는 장비, 마이크로프로브 및 영구 소프트웨어 라이센스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": -67.2,
+    "sales_yoy_pct": 42.8,
+    "ni_cagr_3y_pct": 30.94,
+    "roe_pct": -7.0
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Communication Equipment 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 97,
+    "score": 72.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.34,
+    "trailing_pe": null,
+    "forward_pe": 43.072895,
+    "ev_to_ebitda": 61.713,
+    "price_to_sales": 9.408039,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 452.47,
+    "outperform_6m_vs_nasdaq": 199.2,
+    "outperform_1m_vs_nasdaq": 16.72,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "위험 요소 글로벌 위험 정치적 혼란과 변동성, 지역 갈등, 테러, 전쟁 등 지정학적 상황은 시장 불안정을 초래할 수 있으며 이는 당사의 비즈니스 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한, 미중 지정학적 긴장으로 인해 당사 사업에 부정적인 영향을 미칠 수 있는 정부 조치가 취해질 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이는 이 지역의 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "수익성 기대치를 달성하지 못할 경우 당사의 부채 및 지분 증권 가격은 물론 당사의 비즈니스 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "업계의 급속한 기술 변화는 우리에게 심각한 위험과 과제를 안겨주고 있으며, 우리가 급속한 변화를 따라잡지 못하면 고객이 우리 제품을 덜 구매할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 당사 계약 제조업체가 의무를 이행하는 능력은 당사가 통제할 수 없는 경제적, 정치적 또는 기타 요인에 의해 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-12T00:40:17.845287+00:00"
+  }
+}

@@ -4,19 +4,31 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-05-07T06:43:30.873110+00:00",
+  "generated_at": "2026-05-12T00:36:58.311210+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 25330511872,
+    "market_cap": 24189544448,
     "shares_outstanding": 42446733,
     "employees": 1400,
     "country": "United States",
     "website": "https://www.unither.com",
-    "beta": null
+    "beta": 0.595
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "United Therapeutics Corporation은 미국 및 국제적으로 만성 및 생명을 위협하는 질병을 앓고 있는 환자의 충족되지 않은 의료 요구를 해결하기 위해 제품 개발 및 상업화에 참여하고 있습니다. 사전 충전된 일회용 카트리지를 통해 흡입되는 건조 분말인 Tyvaso DPI를 제공합니다. 초음파 분무기를 통한 흡입 용액인 Nebulized Tyvaso; 운동과 관련된 증상을 감소시키기 위해 폐동맥 고혈압 환자를 치료하기 위한 레모듈린(트레프로스티닐) 주사; 질병 진행을 지연시키고 개선하기 위한 트레프로스티닐의 정제 투여 형태인 오레니트람",
+    "business_model": "United Therapeutics Corporation은 미국 내 만성 및 생명을 위협하는 질병을 앓고 있는 환자의 충족되지 않은 의료 요구를 해결하기 위해 제품 개발 및 상업화에 참여하고 있습니다.",
+    "products": [
+      "사전 충전된 일회용 카트리지를 통한 흡입형 건조 분말인 Tyvaso DPI",
+      "고위험 신경아세포에 대한 단일클론항체 유니툭신(디누툭시맙)주사제",
+      "EVLP/CLES를 포함한 폐이식용 전임상 제품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "United Therapeutics Corporation은 이종 이식을 포함한 장기 이식과 관련된 의약품 및 기술을 개발하는 미국의 생명 공학 회사입니다. 회사 제품의 대부분은 폐 질환 및 장기 제조에 중점을 두고 있습니다. United Therapeutics는 메릴랜드주 실버스프링과 노스캐롤라이나주 리서치 트라이앵글 파크에 공동 본사를 두고 있으며, 퀘벡주 마고그와 브로몬트에 추가 시설을 두고 있습니다. 멜버른과 플로리다주 잭슨빌; 버지니아주 블랙스버그; 뉴햄프셔 주 맨체스터."
+  },
   "category_b_financials": {
     "roe": 0.2,
     "roa": 0.13,
@@ -105,27 +117,73 @@
     "ni_cagr_3y_pct": 22.43,
     "roe_pct": 20.26
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 66.8,
+    "rs_rating": 81,
+    "score": 63.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3178,
-    "trailing_pe": 22.053215,
-    "forward_pe": 17.388113,
-    "ev_to_ebitda": 14.967,
-    "price_to_sales": 7.991202,
+    "peg_ratio": 2.3141,
+    "trailing_pe": 20.882374,
+    "forward_pe": 17.43133,
+    "ev_to_ebitda": 14.23,
+    "price_to_sales": 7.631253,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 54.98,
-    "outperform_6m_vs_nasdaq": 27.63,
-    "outperform_1m_vs_nasdaq": -11.86,
+    "outperform_1y_vs_nasdaq": 38.47,
+    "outperform_6m_vs_nasdaq": 11.56,
+    "outperform_1m_vs_nasdaq": -15.04,
     "lynch_category": "Cyclical / Turnaround?"
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 아래에 설명된 위험과 불확실성은 우리가 직면한 유일한 위험과 불확실성이 아니며 우리가 직면했거나 미래에 직면할 수 있는 모든 잠재적 위험이나 불확실성에 대한 완전한 설명으로 간주되어서는 안 됩니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험도 당사 사업에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 제품의 판매가 크게 감소하면 당사 운영에 심각한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사 제품의 일반 버전의 가용성은 당사 수익에 부정적인 영향을 미쳤으며 이러한 제품과 향후 출시될 추가 일반 제품도 계속해서 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "새로운 치료법의 승인 및 출시는 당사의 현재 및 잠재적 신제품 판매에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 상업용 제품을 제조, 판매, 유통 또는 판매하는 제3자가 만족스럽게 제품을 판매하지 못하거나 당사가 당사의 제품을 관리할 수 없는 경우 매출이 감소할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
   "wikipedia_summary": "United Therapeutics Corporation is an American biotechnology company that develops pharmaceuticals and technologies related to organ transplantation, including xenotransplantation. Many of the company's products are focused towards lung disease and organ manufacturing. United Therapeutics is co-headquartered in Silver Spring, Maryland and Research Triangle Park, North Carolina, with additional facilities in Magog and Bromont, Quebec; Melbourne and Jacksonville, Florida; Blacksburg, Virginia; and Manchester, New Hampshire.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:25:17.968124+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:40:02.476812+00:00"
   }
 }

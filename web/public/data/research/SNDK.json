@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-11T15:11:30.834356+00:00",
+  "generated_at": "2026-05-12T00:18:24.854495+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 230205521920,
+    "market_cap": 229177802752,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -109,19 +109,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 73.4,
+    "score": 73.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 53.19986,
-    "forward_pe": 9.184253,
-    "ev_to_ebitda": 40.454,
-    "price_to_sales": 17.460978,
+    "trailing_pe": 52.962357,
+    "forward_pe": 9.14325,
+    "ev_to_ebitda": 40.066,
+    "price_to_sales": 17.383024,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 4058.24,
-    "outperform_6m_vs_nasdaq": 628.35,
-    "outperform_1m_vs_nasdaq": 66.4,
+    "outperform_1y_vs_nasdaq": 4074.83,
+    "outperform_6m_vs_nasdaq": 631.16,
+    "outperform_1m_vs_nasdaq": 66.97,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -148,7 +148,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "비용 증가에 따른 당사 제품의 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
+        "description": "비용 증가에 따른 당사 제품 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -166,6 +166,6 @@
   },
   "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:24:11.735687+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:38:42.286497+00:00"
   }
 }

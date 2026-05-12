@@ -1,0 +1,193 @@
+{
+  "ticker": "DOCN",
+  "company": "DigitalOcean Holdings, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "generated_at": "2026-05-12T00:29:45.179751+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 16982139904,
+    "shares_outstanding": 104364181,
+    "employees": 1462,
+    "country": "United States",
+    "website": "https://www.digitalocean.com",
+    "beta": 1.423
+  },
+  "category_a_business": {
+    "overview": "DigitalOcean Holdings, Inc.는 자회사를 통해 북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼을 운영합니다. 이 회사는 성장하는 기술 기업을 위해 AI 및 디지털 기반 기업이 지능형 애플리케이션을 구축, 실행 및 확장할 수 있도록 지원합니다. 또한 클라우드 방화벽, 관리형 로드 밸런서, NAT 게이트웨이, 가상 프라이빗 클라우드 소프트웨어, IP 주소 관리 및 도메인 이름 시스템 관리를 포함하여 컴퓨팅, 스토리지 및 네트워킹 제품으로 구성된 IaaS(Infrastructure-as-a-Service) 솔루션을 제공합니다.",
+    "business_model": "DigitalOcean Holdings, Inc.는 자회사를 통해 북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼을 운영합니다.",
+    "products": [
+      "북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼",
+      "AI 및 디지털 기반 기업은 성장하는 기술 기업을 위한 지능형 애플리케이션을 구축, 실행 및 확장합니다.",
+      "클라우드 방화벽을 포함하여 컴퓨팅, 스토리지, 네트워킹 제품으로 구성된 IaaS(Infrastructure-as-a-Service) 솔루션",
+      "관리형 데이터베이스와 같은 PaaS(Platform-as-a-Service) 및 SaaS(Software-as-a-Service) 솔루션",
+      "GPU 드롭릿으로 구성된 인공지능(AI)/머신러닝(ML) 애플리케이션"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "DigitalOcean Holdings, Inc.는 미국의 다국적 기술 회사이자 클라우드 서비스 제공업체입니다. 이 회사는 미국 콜로라도주 브룸필드에 본사를 두고 있으며 전 세계적으로 15개의 데이터 센터가 분산되어 있습니다. DigitalOcean은 개발자, 스타트업 및 SMB에 클라우드 IaaS(Infrastructure-as-a-Service) 플랫폼을 제공합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.7,
+    "roa": 0.05,
+    "profit_margin": 0.25,
+    "operating_margin": 0.14,
+    "gross_margin": 0.58,
+    "revenue_growth_ttm": 0.22,
+    "earnings_growth_ttm": -0.62,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      901427000.0,
+      780615000.0,
+      692884000.0,
+      576322000.0,
+      null
+    ],
+    "annual_operating_income": [
+      156989000.0,
+      91007000.0,
+      32783000.0,
+      -25697000.0,
+      null
+    ],
+    "annual_eps": [
+      2.52,
+      0.89,
+      0.2,
+      -0.24,
+      null
+    ],
+    "annual_free_cf": [
+      41089000.0,
+      96202000.0,
+      110129000.0,
+      74935000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1602105000.0,
+      1695132000.0,
+      1655500000.0,
+      1635395000.0,
+      null
+    ],
+    "annual_equity": [
+      -28690000.0,
+      -202955000.0,
+      -313698000.0,
+      47569000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.15,
+      0.24,
+      1.51,
+      0.39,
+      0.39,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      257905000.0,
+      242390000.0,
+      229634000.0,
+      218700000.0,
+      210703000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": -58.7,
+    "sales_yoy_pct": 22.4,
+    "roe_pct": 70.0
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 97,
+    "score": 73.7,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.54,
+    "trailing_pe": 71.36842,
+    "forward_pe": 98.407646,
+    "ev_to_ebitda": 59.517,
+    "price_to_sales": 17.901772,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 397.84,
+    "outperform_6m_vs_nasdaq": 231.66,
+    "outperform_1m_vs_nasdaq": 100.55,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "따라서 과거 실적이 미래 성과를 나타내지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 수익이 지속적으로 증가하더라도 당사 사업의 성숙도를 비롯한 다양한 요인으로 인해 향후 수익 증가율은 하락할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 목표를 성공적으로 달성하지 못할 수도 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 요인과 기타 요인 또는 이러한 요인의 누적 효과로 인해 당사의 운영 결과가 크게 달라질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 우리는 비용과 비용이 향후 증가할 것으로 예상하며, 이는 수익도 증가하지 않을 경우 향후 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "수익성을 유지하지 못할 경우, 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-12T00:35:57.627355+00:00"
+  }
+}

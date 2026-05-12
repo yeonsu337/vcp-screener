@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-08T00:10:43.090737+00:00",
+  "generated_at": "2026-05-12T00:39:02.703839+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
+  "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3648681472,
+    "market_cap": 3783337216,
     "shares_outstanding": 99745249,
     "employees": 11100,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 1.173
   },
   "category_a_business": {
-    "overview": "Oceaneering International, Inc.는 미국, 아프리카, 영국, 노르웨이, 브라질, 아시아, 호주 및 전 세계의 해양 에너지, 방위, 항공우주 및 제조 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다. 해저 로봇공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 솔루션, 항공우주 및 방위 기술 등 5개 부문으로 운영됩니다.",
-    "business_model": "오션니어링 인터내셔널, Inc.",
+    "overview": "Oceaneering International, Inc. provides engineered services and products and robotic solutions to the offshore energy, defense, aerospace, and manufacturing industries in the United States, Africa, the United Kingdom, Norway, Brazil, Asia, Australia, and internationally. It operates through five segments: Subsea Robotics, Manufactured Products, Offshore Projects Group, Integrity Management & Digital Solutions, and Aerospace and Defense Technologies.",
+    "business_model": "Oceaneering International, Inc.",
     "products": [
-      "해양 에너지, 방위, 항공우주 및 제조 분야에 대한 엔지니어링 서비스, 제품 및 로봇 솔루션 i",
-      "5개 부문: 해저 로봇 공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 S",
-      "해저 하드웨어 설치를 포함한 드릴 지원 및 선박 기반 서비스를 위한 원격 조종 차량(ROV)",
-      "생산 제어 엄빌리칼, 현장 개발 하드웨어 및 파이프라인과 같은 분배 및 연결 시스템",
-      "라이저리스 채광정 개입 서비스, 검사, 유지보수를 포함한 해저 설치 및 개입"
+      "engineered services and products and robotic solutions to the offshore energy, defense, aerospace, and manufacturing i",
+      "through five segments: Subsea Robotics, Manufactured Products, Offshore Projects Group, Integrity Management & Digital S",
+      "remotely operated vehicles (ROVs) for drill support and vessel-based services, including subsea hardware installation, c",
+      "distribution and connection systems, such as production control umbilicals and field development hardware and pipeline c",
+      "subsea installation and intervention, including riserless light well intervention services, inspection, maintenance"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
@@ -125,24 +125,21 @@
   },
   "category_d_thesis": {
     "rs_rating": 83,
-    "score": 63.3,
+    "score": 65.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 8.01,
-    "trailing_pe": 10.886906,
-    "forward_pe": 16.646946,
-    "ev_to_ebitda": 9.999,
-    "price_to_sales": 1.3021415,
+    "trailing_pe": 11.288691,
+    "forward_pe": 17.261309,
+    "ev_to_ebitda": 10.217,
+    "price_to_sales": 1.3501976,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 51.1,
-    "outperform_6m_vs_nasdaq": 49.28,
-    "outperform_1m_vs_nasdaq": -13.29,
+    "outperform_1y_vs_nasdaq": 53.29,
+    "outperform_6m_vs_nasdaq": 53.79,
+    "outperform_1m_vs_nasdaq": -9.94,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:23:25.275338+00:00"
-  }
+  "wikipedia_summary": ""
 }

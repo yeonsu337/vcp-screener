@@ -4,26 +4,38 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-07T06:43:00.065086+00:00",
+  "generated_at": "2026-05-12T00:33:52.853109+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1680693120,
+    "market_cap": 1724934912,
     "shares_outstanding": 49157448,
     "employees": 1551,
     "country": "United States",
     "website": "https://www.skywatertechnology.com",
     "beta": 3.304
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "SkyWater Technology, Inc.는 자회사와 함께 미국에서 반도체 제조 서비스를 제공합니다. 이 회사는 Legacy SkyWater와 SkyWater Texas라는 두 부문을 통해 운영됩니다. 회사는 주조 서비스를 제공합니다. 첨단 기술 서비스(ATS); 아날로그, 혼합 신호, MEMS 및 특수 CMOS 장치용 웨이퍼 제조 서비스; 첨단 반도체 패키징.",
+    "business_model": "SkyWater Technology, Inc.는 자회사와 함께 미국에서 반도체 제조 서비스를 제공합니다.",
+    "products": [
+      "미국의 반도체 제조 서비스",
+      "Legacy SkyWater와 SkyWater Texas라는 두 부문을 통해",
+      "주조 서비스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "SkyWater Technology, Inc.는 미네소타 주 블루밍턴에 본사를 둔 미국의 반도체 엔지니어링 및 제조 파운드리 회사입니다. 이는 미국이 소유한 유일한 순수 실리콘 파운드리입니다."
+  },
   "category_b_financials": {
     "roe": 0.96,
     "roa": -0.0,
-    "profit_margin": 0.27,
-    "operating_margin": -0.02,
-    "gross_margin": 0.2,
-    "revenue_growth_ttm": 1.27,
+    "profit_margin": 0.21,
+    "operating_margin": -0.03,
+    "gross_margin": 0.19,
+    "revenue_growth_ttm": 1.62,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
     "payout_ratio": 0.0,
@@ -100,30 +112,76 @@
       "2024-12-31",
       "2024-09-30"
     ],
-    "sales_yoy_pct": 126.6,
-    "roe_pct": 95.94
+    "sales_yoy_pct": 162.1,
+    "roe_pct": 95.85
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductors 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 68.4,
+    "rs_rating": 93,
+    "score": 69.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 14.012294,
-    "forward_pe": -168.1503,
-    "ev_to_ebitda": 59.061,
-    "price_to_sales": 3.8012776,
+    "trailing_pe": 14.995728,
+    "forward_pe": -172.5766,
+    "ev_to_ebitda": 46.855,
+    "price_to_sales": 3.1853046,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 326.13,
-    "outperform_6m_vs_nasdaq": 104.35,
-    "outperform_1m_vs_nasdaq": 4.45,
+    "outperform_1y_vs_nasdaq": 314.55,
+    "outperform_6m_vs_nasdaq": 73.58,
+    "outperform_1m_vs_nasdaq": 7.21,
     "lynch_category": "Fast Grower"
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리가 예상하는 기간 내에 제안된 IonQ 합병을 완료하지 못할 수도 있고 전혀 완료하지 못할 수도 있으며, 이는 우리 주가는 물론 비즈니스, 재무 결과 및/또는 운영에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "제안된 IonQ 합병은 다양한 요인과 조건으로 인해 예상 기간 내에 완료되지 않거나 전혀 완료되지 않을 수 있으며, 그 중 일부는 당사의 통제 범위를 벗어날 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "IonQ 합병이 완료될지 여부에 대한 불확실성은 예비 직원을 채용하는 능력이나 기존 직원을 유지하고 동기를 부여하는 능력에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "미래에 대한 불확실성은 당사의 비즈니스와 기존 및 잠재 고객, 공급업체, 기타 제3자와의 관계에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "기존 비즈니스 관계의 변경 또는 종료는 당사의 수익, 수익, 재무 상태는 물론 당사 보통주의 시장 가격에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "합병 계약은 우수한 제안을 포함한 다양한 상황에 따라 종료될 수 있으며, 그러한 종료와 관련하여 당사는 수수료 및 비용을 부담하게 됩니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
   "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:23:55.001706+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:38:27.115114+00:00"
   }
 }

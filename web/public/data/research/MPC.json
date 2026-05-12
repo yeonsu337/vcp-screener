@@ -1,0 +1,190 @@
+{
+  "ticker": "MPC",
+  "company": "Marathon Petroleum Corporation",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "generated_at": "2026-05-12T00:35:56.637883+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 73708158976,
+    "shares_outstanding": 291936635,
+    "employees": 18500,
+    "country": "United States",
+    "website": "https://www.marathonpetroleum.com",
+    "beta": 0.53
+  },
+  "category_a_business": {
+    "overview": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services.",
+    "business_model": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States.",
+    "products": [
+      "as an integrated downstream energy company in the United States",
+      "through three segments: Refining & Marketing",
+      "propane and petrochemicals",
+      "refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market,",
+      "renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011."
+  },
+  "category_b_financials": {
+    "roe": 0.27,
+    "roa": 0.05,
+    "profit_margin": 0.03,
+    "operating_margin": 0.04,
+    "gross_margin": 0.11,
+    "revenue_growth_ttm": 0.09,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 1.6,
+    "payout_ratio": 0.25,
+    "annual_revenue": [
+      132699000000.0,
+      138864000000.0,
+      148379000000.0,
+      177453000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5768000000.0,
+      5248000000.0,
+      12586000000.0,
+      18970000000.0,
+      null
+    ],
+    "annual_eps": [
+      13.22,
+      10.08,
+      23.63,
+      28.12,
+      null
+    ],
+    "annual_free_cf": [
+      4767000000.0,
+      6132000000.0,
+      12227000000.0,
+      13941000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      34358000000.0,
+      28758000000.0,
+      28501000000.0,
+      27909000000.0,
+      null
+    ],
+    "annual_equity": [
+      17314000000.0,
+      17745000000.0,
+      24404000000.0,
+      27715000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.73,
+      5.12,
+      4.51,
+      3.96,
+      -0.24,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      34200000000.0,
+      32574000000.0,
+      34809000000.0,
+      33799000000.0,
+      31517000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "sales_yoy_pct": 8.8,
+    "ni_cagr_3y_pct": -34.67,
+    "roe_pct": 27.46
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 79,
+    "score": 64.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.9459,
+    "trailing_pe": 16.63241,
+    "forward_pe": 11.767722,
+    "ev_to_ebitda": 10.973,
+    "price_to_sales": 0.54218704,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 25.41,
+    "outperform_6m_vs_nasdaq": 18.36,
+    "outperform_1m_vs_nasdaq": -1.31,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Our business, financial condition, results of operations and cash flows could be materially and adversely affected by these risks, and, as a result, the trading price of our common stock could decline.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our operations are subject to business interruptions and present inherent hazards and risks, which could adversely impact our results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We and our third-party vendors and service providers have been and may in the future be subject to cybersecurity events and incidents of varying degrees.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Existing and potential future data privacy laws pose increasingly complex compliance, monitoring and control obligations and could potentially elevate our costs and risk exposure.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "As we integrate artificial intelligence technologies into our processes, these technologies may present business, compliance and reputational risks.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our integration of these technologies, whether developed internally or procured through our third-party service providers, into our processes may result in new or expanded risks and liabilities.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011."
+}

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-11T15:09:26.995215+00:00",
+  "generated_at": "2026-05-12T00:16:21.621700+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26083368960,
+    "market_cap": 26640930816,
     "shares_outstanding": 30685954,
     "employees": 4400,
     "country": "United States",
@@ -123,20 +123,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 69.4,
+    "rs_rating": 96,
+    "score": 71.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.5544,
-    "trailing_pe": 76.234085,
-    "forward_pe": 37.937206,
+    "trailing_pe": 77.86368,
+    "forward_pe": 38.748158,
     "ev_to_ebitda": 44.353,
-    "price_to_sales": 9.041735,
+    "price_to_sales": 9.235012,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 327.68,
-    "outperform_6m_vs_nasdaq": 105.01,
-    "outperform_1m_vs_nasdaq": 75.98,
+    "outperform_1y_vs_nasdaq": 337.33,
+    "outperform_6m_vs_nasdaq": 109.4,
+    "outperform_1m_vs_nasdaq": 79.78,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -163,7 +163,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "자재 부족 및 비용 증가, 노동 시장의 경색이 장기간 지속되어 이러한 비용 증가를 상쇄할 수 없는 경우 당사의 이윤에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "자재 부족 및 비용 증가, 노동 시장의 경색이 장기간 지속되어 이러한 비용 증가를 상쇄할 수 없는 경우 당사의 이윤은 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-11T15:24:59.404104+00:00"
+    "GoogleWebTranslator": "2026-05-12T00:39:26.728392+00:00"
   }
 }

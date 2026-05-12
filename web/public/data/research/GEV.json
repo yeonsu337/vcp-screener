@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-11T15:22:51.626574+00:00",
+  "generated_at": "2026-05-12T00:27:41.858129+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 288927744000,
+    "market_cap": 288358039552,
     "shares_outstanding": 268719995,
     "employees": 78000,
     "country": "United States",
@@ -17,15 +17,15 @@
     "beta": 1.313
   },
   "category_a_business": {
-    "overview": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa. The company operates through three segments: Power, Wind, and Electrification. The Power segment designs, manufactures, and services gas, nuclear, hydro, and steam technologies.",
-    "business_model": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, t",
+    "overview": "에너지 회사인 GE Vernova Inc.는 미국, 유럽, 아시아, 중동 및 아프리카에서 전기를 생성, 전송, 조정, 변환 및 저장하는 다양한 제품과 서비스를 제공합니다. 이 회사는 전력, 풍력, 전기화라는 세 가지 부문으로 운영됩니다. 발전 부문은 가스, 원자력, 수력 및 증기 기술을 설계, 제조 및 서비스합니다.",
+    "business_model": "에너지 회사인 GE Vernova Inc.는 미국, 유럽, 아시아 및 기타 지역에서 전기를 생성, 전송, 조정, 변환 및 저장하는 다양한 제품과 서비스를 제공하고 있습니다.",
     "products": [
-      "through three segments: Power, Wind, and Electrificatio",
-      "wind generation technologies, including onshore and offshore wind turbines and blades",
-      "grid solutions"
+      "Power, Wind, Electrificatio의 세 가지 부문을 통해",
+      "육상 및 해상 풍력 터빈과 블레이드를 포함한 풍력 발전 기술",
+      "그리드 솔루션"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -122,51 +122,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 63.7,
+    "score": 64.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.797,
-    "trailing_pe": 31.42022,
-    "forward_pe": 43.90874,
-    "ev_to_ebitda": 80.42,
-    "price_to_sales": 7.3378477,
+    "trailing_pe": 30.398867,
+    "forward_pe": 43.822166,
+    "ev_to_ebitda": 83.011,
+    "price_to_sales": 7.323379,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 125.16,
-    "outperform_6m_vs_nasdaq": 80.46,
-    "outperform_1m_vs_nasdaq": -6.89,
+    "outperform_1y_vs_nasdaq": 126.4,
+    "outperform_6m_vs_nasdaq": 81.34,
+    "outperform_1m_vs_nasdaq": -6.47,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties not presently known to us or that we presently deem less significant may also adversely affect our business.",
+        "description": "현재 당사에 알려지지 않았거나 현재 덜 중요하다고 간주되는 추가 위험 및 불확실성도 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Warranty and quality-related costs have represented, and may in the future represent, a meaningful portion of our expenses.",
+        "description": "보증 및 품질 관련 비용은 당사 비용의 의미 있는 부분을 차지했으며 앞으로도 이를 차지할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Supplier nonperformance or underperformance could impact our ability to fulfill customer commitments, trigger contract terminations or liability, and impair our competitiveness.",
+        "description": "공급업체의 성과 불이행 또는 저조한 성과는 고객 약속 이행 능력에 영향을 미치고, 계약 종료 또는 책임을 촉발하고, 경쟁력을 손상시킬 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Any of these factors could impede our ability to deliver quality products, solutions, and services and have a material adverse effect on our results of operations, cash flows, and financial condition.",
+        "description": "이러한 요인 중 하나라도 고품질 제품, 솔루션 및 서비스를 제공하는 당사의 능력을 방해할 수 있으며 당사의 운영 결과, 현금 흐름 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "If disturbances at these locations prevent us from producing sufficient quantities, we may need to source more from external suppliers, which could introduce delays, quality control issues, or additional costs.",
+        "description": "이러한 위치의 교란으로 인해 충분한 수량을 생산할 수 없는 경우 외부 공급업체로부터 더 많은 것을 소싱해야 할 수 있으며 이로 인해 지연, 품질 관리 문제 또는 추가 비용이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Expanding our capacity to meet current or future demand or support new products requires significant capital investment and lead time and may be delayed in execution.",
+        "description": "현재 또는 미래의 수요를 충족하거나 신제품을 지원하기 위해 역량을 확장하려면 상당한 자본 투자와 리드 타임이 필요하며 실행이 지연될 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -177,5 +177,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-12T00:36:41.154073+00:00"
+  }
 }
