@@ -347,10 +347,13 @@ def fetch_ticker_financials(ticker: str) -> dict | None:
 
 def _is_soft_gate(r: dict) -> bool:
     """Trend-template-strong tickers that haven't formed a VCP pattern today
-    but are still in Stage 2 + RS≥70 + Primary ≥12. Spec T2."""
+    but are still in Stage 2 + RS≥70 + Primary ≥ market-specific threshold.
+    v1.2: market-aware — US uses 13 rules, non-US uses 10 (E7/F1/H4 dropped)."""
     rules = r.get("rules") or {}
-    passed = sum(1 for rid in SOFT_GATE_PRIMARY_IDS if (rules.get(rid) or {}).get("passed"))
-    if passed < SOFT_GATE_MIN_PASSED:
+    market = r.get("market")
+    ids = _soft_gate_ids(market)
+    passed = sum(1 for rid in ids if (rules.get(rid) or {}).get("passed"))
+    if passed < _soft_gate_threshold(market):
         return False
     if SOFT_GATE_REQUIRE_STAGE2 and (r.get("stage") or 0) != 2:
         return False
@@ -498,15 +501,29 @@ EXIT_SINGLE_DAY_DROP_PCT = -10.0   # single-session catastrophic drop (gap-down 
 # ---- Soft-gate "still tracked" (T2) — keeps Stage 2 winners alive when VCP
 # pattern temporarily breaks but the trend is intact. Aligned with
 # `web/app/screener/[ticker]/page.tsx` PRIMARY_IDS.
+# v1.2: market-aware — E7/F1/H4 are US-only (yfinance fundamentals
+# unavailable for KR/HK). Non-US uses 10-rule gate at 9-pass minimum.
 SOFT_GATE_PRIMARY_IDS = [
     "A1_ud_vol_ratio", "B1_price_above_150_200", "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200", "B4_price_above_sma50", "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low", "B7_within_25pct_high", "R1_rs_70",
     "L1_liquidity_gate", "E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y",
 ]
-SOFT_GATE_MIN_PASSED = 12
+SOFT_GATE_US_ONLY = {"E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y"}
+SOFT_GATE_MIN_PASSED_US = 12
+SOFT_GATE_MIN_PASSED_NON_US = 9
 SOFT_GATE_REQUIRE_STAGE2 = True
 SOFT_GATE_REQUIRE_RS = 70
+
+
+def _soft_gate_ids(market: str | None) -> list[str]:
+    if (market or "US") == "US":
+        return SOFT_GATE_PRIMARY_IDS
+    return [rid for rid in SOFT_GATE_PRIMARY_IDS if rid not in SOFT_GATE_US_ONLY]
+
+
+def _soft_gate_threshold(market: str | None) -> int:
+    return SOFT_GATE_MIN_PASSED_US if (market or "US") == "US" else SOFT_GATE_MIN_PASSED_NON_US
 
 # ---- Re-entry (T3) — exited tickers can re-enter when they regain strength
 RE_ENTRY_STREAK_DAYS = 3           # must be in soft-gate this many runs in a row

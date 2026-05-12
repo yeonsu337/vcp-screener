@@ -103,22 +103,34 @@ export default function BacktestPage() {
           <div className="mt-2 p-3 bg-border/20 rounded text-text/80 leading-relaxed">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div>
-                <span className="text-red-400 font-semibold">EX1</span> Stop Loss <code className="bg-border/40 px-1">−8%</code> (Minervini/O'Neil ironclad rule)
+                <span className="text-red-300 font-mono text-[10px] px-1 py-0.5 rounded bg-red-500/20 border border-red-500/40 mr-1">EX1</span>
+                −8% 초기 손절 — Minervini ironclad (진입가 대비)
               </div>
               <div>
-                <span className="text-red-400 font-semibold">EX3</span> RS Rating <code>&lt; 40</code> collapse
+                <span className="text-orange-300 font-mono text-[10px] px-1 py-0.5 rounded bg-orange-500/20 border border-orange-500/40 mr-1">EX3</span>
+                RS &lt; 40 — relative strength collapse
               </div>
               <div>
-                <span className="text-red-400 font-semibold">EX4</span> 50d MA break + volume <code>≥ 1.5×</code> SMA50
+                <span className="text-red-300 font-mono text-[10px] px-1 py-0.5 rounded bg-red-500/20 border border-red-500/40 mr-1">EX4</span>
+                50일선 이탈 + 거래량 ≥ 1.5× SMA50 (O'Neil)
               </div>
               <div>
-                <span className="text-red-400 font-semibold">EX5</span> Trailing <code>−15%</code> from peak (after peak ≥ +10%)
+                <span className="text-amber-300 font-mono text-[10px] px-1 py-0.5 rounded bg-amber-500/20 border border-amber-500/40 mr-1">EX5</span>
+                Peak −15% trailing (peak ≥ +10% 이후 작동)
               </div>
               <div>
-                <span className="text-red-400 font-semibold">EX6</span> Absent <code>≥ 10</code> consecutive days
+                <span className="text-slate-300 font-mono text-[10px] px-1 py-0.5 rounded bg-slate-500/20 border border-slate-500/40 mr-1">EX6</span>
+                장기 부재 ≥ 20일 (detected + soft-gate 모두 부재 시)
               </div>
               <div>
-                <span className="text-yellow-400 font-semibold">⚡ Signals</span> +20% / +25% reached (display only — 10x candidates keep running)
+                <span className="text-red-200 font-mono text-[10px] px-1 py-0.5 rounded bg-red-600/30 border border-red-600/50 mr-1">EX7</span>
+                단일일 ≤ −10% 폭락 (gap-down/earnings miss)
+              </div>
+              <div className="md:col-span-2 mt-1 pt-1 border-t border-border/40">
+                <span className="text-yellow-400 font-semibold">⚡ Signals</span> Peak +20% / +25% 도달 — 표시만, 자동 exit 안 함 (10x 종목 보유 가능)
+              </div>
+              <div className="md:col-span-2 mt-1 text-[11px] text-muted/80">
+                v1.2 변경: EX6 absent 10일 → 20일, soft-gate (Stage 2 + RS≥70 + Primary 12+) 종목은 last_seen 유지로 false exit 방지
               </div>
             </div>
           </div>

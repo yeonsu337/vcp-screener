@@ -28,7 +28,10 @@ HISTORY_PATH = DATA_DIR / "detection_history.json"
 SCHEMA = "minervini-bot.v1"
 
 # -------- gate: filter candidates that deserve a recommendation -------------
-# Aligned with run_daily.py / page.tsx soft-gate (Primary ≥12).
+# v1.2 — market-aware Primary gate. screener.py only evaluates E7/F1/H4 for
+# US tickers (fundamentals fetched via yfinance work reliably only for US).
+# To avoid systematic exclusion of non-US tickers, the gate scales the
+# denominator: US ≥12/13, non-US ≥9/10.
 PRIMARY_IDS = [
     "A1_ud_vol_ratio",
     "B1_price_above_150_200",
@@ -44,7 +47,18 @@ PRIMARY_IDS = [
     "F1_outperform_1y",
     "H4_ni_cagr_3y",
 ]
-PRIMARY_GATE = 12
+US_ONLY_PRIMARY = {"E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y"}
+
+
+def _primary_ids_for(market: str | None) -> list[str]:
+    if (market or "US") == "US":
+        return PRIMARY_IDS
+    return [rid for rid in PRIMARY_IDS if rid not in US_ONLY_PRIMARY]
+
+
+def _primary_gate_for(market: str | None) -> int:
+    # US 12/13, non-US 9/10 — same ~92% pass threshold.
+    return 12 if (market or "US") == "US" else 9
 
 # -------- Minervini Trend Template (8 criteria) -----------------------------
 TT_RULES = [
@@ -91,10 +105,11 @@ def _rule_passed(rules: dict, rid: str) -> bool:
     return bool(r and r.get("passed"))
 
 
-def _count_primary(rules: dict) -> int:
+def _count_primary(rules: dict, market: str | None = "US") -> int:
+    """Market-aware count of passed Primary rules."""
     if not rules:
         return 0
-    return sum(1 for rid in PRIMARY_IDS if _rule_passed(rules, rid))
+    return sum(1 for rid in _primary_ids_for(market) if _rule_passed(rules, rid))
 
 
 def _trend_template_score(rules: dict) -> int:
@@ -296,29 +311,62 @@ def _warnings(row: dict, verdict: str) -> list[str]:
     return warns
 
 
+def _ema(values: list[float], period: int) -> float | None:
+    """Simple EMA on a value series. Returns None if series too short."""
+    if not values or len(values) < period:
+        return None
+    k = 2 / (period + 1)
+    ema = sum(values[:period]) / period
+    for v in values[period:]:
+        ema = v * k + ema * (1 - k)
+    return ema
+
+
 def _market_regime() -> str:
     """
-    Simple regime from macro.json US Fear & Greed.
-      < 25 → bear, > 75 → bull (overheated/neutral mix), else neutral.
-    Fallback: neutral.
+    Composite regime from macro.json. Priority order (Minervini "trend off"
+    rule first, then sentiment + breadth).
+
+    Signals:
+      S1 — SPY (us_sp500_trend) Close vs 50-day EMA (≒ 10wEMA)
+            If close < EMA → bear (overrides all)
+      S2 — F&G index
+            < 25 → bear, 25~75 → neutral, > 75 → mild overheated (still neutral)
+
+    v1.2: replaces single-signal F&G logic per Task E research finding.
     """
     if not MACRO_PATH.exists():
         return "neutral"
     try:
         m = json.loads(MACRO_PATH.read_text(encoding="utf-8"))
-        for item in (m.get("us", {}) or {}).get("sentiment", []) or []:
-            if item.get("id") == "us_fg":
-                v = item.get("value")
-                if v is None:
-                    return "neutral"
-                if v < 25:
-                    return "bear"
-                if v > 75:
-                    return "neutral"  # overheated but not bear; spec leaves room
-                return "neutral"
     except Exception:
-        pass
-    return "neutral"
+        return "neutral"
+
+    # S1: Index vs EMA50 (Minervini "trend off" gate)
+    spy_close: list[float] = []
+    for item in (m.get("us", {}) or {}).get("macro", []) or []:
+        if item.get("id") == "us_sp500_trend":
+            for pt in (item.get("series") or [])[-250:]:
+                v = pt.get("value") if isinstance(pt, dict) else None
+                if v is not None:
+                    spy_close.append(float(v))
+            break
+    if len(spy_close) >= 50:
+        ema50 = _ema(spy_close, 50)
+        if ema50 is not None and spy_close[-1] < ema50:
+            return "bear"  # hard gate — index below 10wEMA
+
+    # S2: F&G
+    fg_val = None
+    for item in (m.get("us", {}) or {}).get("sentiment", []) or []:
+        if item.get("id") == "us_fg":
+            fg_val = item.get("value")
+            break
+    if fg_val is None:
+        return "neutral"
+    if fg_val < 25:
+        return "bear"
+    return "neutral"  # 25~75 + >75 both treated as non-bear
 
 
 # ----------------------------- Korean line templates ------------------------
@@ -627,13 +675,14 @@ def main() -> int:
         except Exception:
             pass
 
-    # Filter: detected OR primary ≥ 12
+    # Filter: detected OR primary ≥ gate (market-aware)
     candidates = []
     for r in rows:
         if r.get("detected"):
             candidates.append(r)
             continue
-        if _count_primary(r.get("rules") or {}) >= PRIMARY_GATE:
+        mkt = r.get("market")
+        if _count_primary(r.get("rules") or {}, mkt) >= _primary_gate_for(mkt):
             candidates.append(r)
 
     print(f"[minervini] regime={regime}  candidates={len(candidates)}")

@@ -26,14 +26,26 @@ SOFT_GATE_PRIMARY_IDS = [
     "B6_30pct_above_52w_low", "B7_within_25pct_high", "R1_rs_70",
     "L1_liquidity_gate", "E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y",
 ]
-SOFT_GATE_MIN_PASSED = 12
+SOFT_GATE_US_ONLY = {"E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y"}
 SOFT_GATE_REQUIRE_RS = 70
+
+
+def _soft_gate_ids(market: str | None) -> list[str]:
+    if (market or "US") == "US":
+        return SOFT_GATE_PRIMARY_IDS
+    return [rid for rid in SOFT_GATE_PRIMARY_IDS if rid not in SOFT_GATE_US_ONLY]
+
+
+def _soft_gate_threshold(market: str | None) -> int:
+    return 12 if (market or "US") == "US" else 9
 
 
 def is_soft_gate(r: dict) -> bool:
     rules = r.get("rules") or {}
-    passed = sum(1 for rid in SOFT_GATE_PRIMARY_IDS if (rules.get(rid) or {}).get("passed"))
-    if passed < SOFT_GATE_MIN_PASSED:
+    market = r.get("market")
+    ids = _soft_gate_ids(market)
+    passed = sum(1 for rid in ids if (rules.get(rid) or {}).get("passed"))
+    if passed < _soft_gate_threshold(market):
         return False
     if (r.get("stage") or 0) != 2:
         return False
@@ -83,13 +95,16 @@ def main():
         ret = h.get("return_pct")
         peak = h.get("max_return_pct")
         rs = (r.get("rs_rating") if r else h.get("rs_rating")) or 0
+        mkt = (r or {}).get("market") if r else h.get("market")
+        ids = _soft_gate_ids(mkt)
         passed = sum(
-            1 for rid in SOFT_GATE_PRIMARY_IDS
+            1 for rid in ids
             if r and (r.get("rules") or {}).get(rid, {}).get("passed")
         ) if r else 0
         ret_s = f"{ret:+.1f}%" if ret is not None else "n/a"
         peak_s = f"{peak:+.1f}%" if peak is not None else "n/a"
-        print(f"  {ticker:14s} ret={ret_s:>7s}  peak={peak_s:>7s}  RS={rs:3d}  rules={passed}/13  exit_reason={h.get('exit_reasons')}")
+        denom = len(ids)
+        print(f"  {ticker:14s} {mkt or 'US':3s} ret={ret_s:>7s}  peak={peak_s:>7s}  RS={rs:3d}  rules={passed}/{denom}  exit_reason={h.get('exit_reasons')}")
 
     if not apply:
         print("\n[dry-run] add --apply to write changes")

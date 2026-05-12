@@ -266,16 +266,15 @@
     "detection_score": 74.6,
     "market": "KR",
     "company": "유성티엔에스",
-    "last_seen": "2026-04-11",
+    "last_seen": "2026-05-07",
     "current_price": 4445.0,
     "current_score": 76.6,
-    "rs_rating": 78,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 4445.0,
-    "exit_reasons": [
-      "absent 24d (limit 10d)"
-    ]
+    "rs_rating": 80,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "BG": {
     "first_detected": "2026-04-11",
@@ -385,16 +384,15 @@
     "detection_score": 84.8,
     "market": "HK",
     "company": "Sun Hung Kai Properties Limited",
-    "last_seen": "2026-04-16",
+    "last_seen": "2026-05-07",
     "current_price": 138.0,
     "current_score": 85.0,
-    "rs_rating": 98,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 138.0,
-    "exit_reasons": [
-      "absent 19d (limit 10d)"
-    ]
+    "rs_rating": 99,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 19d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "160980.KQ": {
     "first_detected": "2026-04-15",
@@ -402,16 +400,15 @@
     "detection_score": 79.8,
     "market": "KR",
     "company": "싸이맥스",
-    "last_seen": "2026-04-16",
+    "last_seen": "2026-05-07",
     "current_price": 37650.0,
     "current_score": 83.1,
-    "rs_rating": 86,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 37650.0,
-    "exit_reasons": [
-      "absent 19d (limit 10d)"
-    ]
+    "rs_rating": 90,
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 19d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "TPH": {
     "first_detected": "2026-04-17",
@@ -458,16 +455,15 @@
     "detection_score": 83.3,
     "market": "KR",
     "company": "삼성전자",
-    "last_seen": "2026-04-22",
+    "last_seen": "2026-05-07",
     "current_score": 83.3,
-    "rs_rating": 90,
+    "rs_rating": 94,
     "current_price": 232500.0,
-    "exited": true,
-    "exit_date": "2026-05-05",
-    "exit_price": 232500.0,
-    "exit_reasons": [
-      "absent 13d (limit 10d)"
-    ]
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 13d (limit 10d))",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "HST": {
     "first_detected": "2026-04-23",
@@ -580,21 +576,20 @@
     "detection_score": 87.7,
     "market": "HK",
     "company": "CK Asset Holdings",
-    "last_seen": "2026-04-28",
+    "last_seen": "2026-05-07",
     "current_score": 87.7,
-    "rs_rating": 90,
+    "rs_rating": 87,
     "current_price": 51.2,
     "max_return_pct": 7.41,
     "peak_price": 52.2,
     "return_pct": 5.35,
     "profit_signal_partial": false,
     "profit_signal_full": false,
-    "exited": true,
-    "exit_date": "2026-05-11",
-    "exit_price": 51.2,
-    "exit_reasons": [
-      "EX6 absent 13d"
-    ]
+    "exited": false,
+    "re_entry_date": "2026-05-07",
+    "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: EX6 absent 13d)",
+    "stage": 2,
+    "soft_gate_streak": 1
   },
   "ECVT": {
     "first_detected": "2026-04-29",

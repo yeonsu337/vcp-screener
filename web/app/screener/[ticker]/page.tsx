@@ -16,8 +16,9 @@ import type {
 export const dynamic = "force-static";
 export const dynamicParams = true;
 
-// Pre-render detected (hard gate) + Primary 12+ (soft gate) tickers.
-// Other tickers fall back to dynamic rendering via dynamicParams = true.
+// Pre-render detected (hard gate) + Primary soft-gate tickers.
+// v1.2: market-aware — E7/F1/H4 are US-only (yfinance fundamentals data
+// reliably available only for US). Non-US passes ≥9/10 instead of ≥12/13.
 const PRIMARY_IDS = [
   "A1_ud_vol_ratio",
   "B1_price_above_150_200",
@@ -33,6 +34,16 @@ const PRIMARY_IDS = [
   "F1_outperform_1y",
   "H4_ni_cagr_3y",
 ];
+const US_ONLY_PRIMARY = new Set(["E7_roe", "F1_outperform_1y", "H4_ni_cagr_3y"]);
+
+function primaryIdsFor(market: string | undefined): string[] {
+  if ((market ?? "US") === "US") return PRIMARY_IDS;
+  return PRIMARY_IDS.filter((id) => !US_ONLY_PRIMARY.has(id));
+}
+
+function primaryGateFor(market: string | undefined): number {
+  return (market ?? "US") === "US" ? 12 : 9;
+}
 
 export async function generateStaticParams() {
   const tickers = new Set<string>();
@@ -48,11 +59,12 @@ export async function generateStaticParams() {
           continue;
         }
         if (!r.rules) continue;
-        const passed = PRIMARY_IDS.reduce(
+        const ids = primaryIdsFor(r.market);
+        const passed = ids.reduce(
           (acc, id) => acc + (r.rules?.[id]?.passed ? 1 : 0),
           0,
         );
-        if (passed >= 12) tickers.add(r.ticker);
+        if (passed >= primaryGateFor(r.market)) tickers.add(r.ticker);
       }
     } catch {}
   }

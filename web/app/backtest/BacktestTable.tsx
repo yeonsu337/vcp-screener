@@ -32,6 +32,74 @@ function fmtNum(v: number | null | undefined, digits = 2, suffix = ""): string {
   return `${v.toFixed(digits)}${suffix}`;
 }
 
+// Exit-reason classification \u2192 color + short Korean label.
+// Matches both new ("EX1 stop ...") and legacy ("absent Nd (limit Nd)") formats.
+const EXIT_CODES: Array<{
+  match: (s: string) => boolean;
+  code: string;
+  label: string;
+  cls: string;
+  desc: string;
+}> = [
+  {
+    match: (s) => /^ex1\b/i.test(s),
+    code: "EX1",
+    label: "\u22128% \ucd08\uae30 \uc190\uc808",
+    cls: "bg-red-500/20 text-red-300 border-red-500/40",
+    desc: "Minervini ironclad \u22128% stop from entry price",
+  },
+  {
+    match: (s) => /^ex3\b/i.test(s),
+    code: "EX3",
+    label: "RS \ubd95\uad34",
+    cls: "bg-orange-500/20 text-orange-300 border-orange-500/40",
+    desc: "RS Rating < 40 \u2014 relative strength collapse",
+  },
+  {
+    match: (s) => /^ex4\b/i.test(s),
+    code: "EX4",
+    label: "50\uc77c\uc120 \uc774\ud0c8+\ub300\ub7c9",
+    cls: "bg-red-500/20 text-red-300 border-red-500/40",
+    desc: "50d MA break + volume \u2265 1.5\u00d7 SMA50 \u2014 O'Neil circuit breaker",
+  },
+  {
+    match: (s) => /^ex5\b/i.test(s),
+    code: "EX5",
+    label: "Peak \u221215% trailing",
+    cls: "bg-amber-500/20 text-amber-300 border-amber-500/40",
+    desc: "Trailing stop: -15% from peak (kicks in after peak \u2265 +10%)",
+  },
+  {
+    match: (s) => /^ex6\b/i.test(s) || /^absent\s/i.test(s),
+    code: "EX6",
+    label: "\uc7a5\uae30 \ubd80\uc7ac",
+    cls: "bg-slate-500/20 text-slate-300 border-slate-500/40",
+    desc: "Absent from screener detected+soft-gate for \u2265 20 days",
+  },
+  {
+    match: (s) => /^ex7\b/i.test(s),
+    code: "EX7",
+    label: "\ub2e8\uc77c\uc77c \u221210% \ud3ed\ub77d",
+    cls: "bg-red-600/30 text-red-200 border-red-600/50",
+    desc: "Single-session \u2264-10% drop (gap-down / earnings miss)",
+  },
+];
+
+function classifyExit(reason: string): {
+  code: string;
+  label: string;
+  cls: string;
+  desc: string;
+} {
+  for (const e of EXIT_CODES) if (e.match(reason)) return e;
+  return {
+    code: "?",
+    label: "\uae30\ud0c0",
+    cls: "bg-border text-muted border-border",
+    desc: reason,
+  };
+}
+
 type TabFilter = "all" | "active" | "exited";
 
 export default function BacktestTable({ rows }: { rows: BacktestRow[] }) {
@@ -233,8 +301,44 @@ export default function BacktestTable({ rows }: { rows: BacktestRow[] }) {
                   </div>
                 )}
                 {r.exited && (
-                  <div className="mt-2 text-xs text-red-400 bg-red-500/10 rounded px-2 py-1">
-                    ✗ Exited {r.exit_date} — {r.exit_reasons?.join(", ")}
+                  <div className="mt-2 p-2 rounded bg-red-500/5 border border-red-500/20">
+                    <div className="flex items-center gap-2 text-xs mb-1.5">
+                      <span className="font-semibold text-red-400">✗ Exited</span>
+                      <span className="text-muted">{r.exit_date}</span>
+                      {r.exit_price != null && (
+                        <span className="text-muted">
+                          @ ${r.exit_price.toFixed(2)}
+                        </span>
+                      )}
+                      {r.exit_price != null && r.detection_price > 0 && (
+                        <span
+                          className={`ml-auto num font-semibold ${((r.exit_price - r.detection_price) / r.detection_price) * 100 >= 0 ? "text-emerald-400" : "text-red-400"}`}
+                        >
+                          {(((r.exit_price - r.detection_price) / r.detection_price) * 100).toFixed(1)}%
+                        </span>
+                      )}
+                    </div>
+                    {r.exit_reasons && r.exit_reasons.length > 0 && (
+                      <div className="space-y-1">
+                        {r.exit_reasons.map((reason, i) => {
+                          const c = classifyExit(reason);
+                          return (
+                            <div key={i} className="flex items-start gap-2">
+                              <span
+                                className={`text-[9px] font-mono font-semibold px-1.5 py-0.5 rounded border whitespace-nowrap ${c.cls}`}
+                                title={c.desc}
+                              >
+                                {c.code}
+                              </span>
+                              <span className="text-[11px] text-muted leading-tight">
+                                <span className="font-semibold text-text">{c.label}</span>
+                                <span className="opacity-60"> · {reason}</span>
+                              </span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -308,17 +412,51 @@ export default function BacktestTable({ rows }: { rows: BacktestRow[] }) {
                     <td className="px-3 py-2 text-right num text-muted">
                       {fmtNum(r.detection_score, 0)}
                     </td>
-                    <td className="px-3 py-2 text-left text-xs">
+                    <td className="px-3 py-2 text-left text-xs align-top">
                       {r.exited ? (
-                        <span
-                          className="text-red-400 cursor-help"
-                          title={`Exit ${r.exit_date ?? ""}${r.exit_reasons?.length ? ": " + r.exit_reasons.join("; ") : ""}`}
-                        >
-                          ✗ {r.exit_date ?? "exited"}
-                          <span className="block text-[10px] text-muted max-w-[180px] truncate">
-                            {r.exit_reasons?.join(", ")}
-                          </span>
-                        </span>
+                        <div className="space-y-1 max-w-[280px]">
+                          <div className="flex items-baseline gap-2">
+                            <span className="text-red-400 font-semibold">✗</span>
+                            <span className="text-muted text-[11px]">
+                              {r.exit_date ?? "—"}
+                            </span>
+                            {r.exit_price != null && (
+                              <span className="text-muted text-[11px] num">
+                                @{r.exit_price.toFixed(2)}
+                              </span>
+                            )}
+                            {r.exit_price != null && r.detection_price > 0 && (
+                              <span
+                                className={`text-[11px] num font-semibold ${((r.exit_price - r.detection_price) / r.detection_price) * 100 >= 0 ? "text-emerald-400" : "text-red-400"}`}
+                              >
+                                {(((r.exit_price - r.detection_price) / r.detection_price) * 100).toFixed(1)}%
+                              </span>
+                            )}
+                          </div>
+                          {r.exit_reasons && r.exit_reasons.length > 0 && (
+                            <div className="space-y-0.5">
+                              {r.exit_reasons.map((reason, i) => {
+                                const c = classifyExit(reason);
+                                return (
+                                  <div
+                                    key={i}
+                                    className="flex items-start gap-1.5"
+                                    title={`${c.desc} · raw: ${reason}`}
+                                  >
+                                    <span
+                                      className={`text-[9px] font-mono font-semibold px-1 py-0 rounded border whitespace-nowrap ${c.cls}`}
+                                    >
+                                      {c.code}
+                                    </span>
+                                    <span className="text-[10px] text-text/80 leading-tight">
+                                      {c.label}
+                                    </span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </div>
                       ) : (
                         <span className="text-emerald-400">Active</span>
                       )}
