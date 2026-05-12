@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Solar",
-  "generated_at": "2026-05-11T15:19:46.483979+00:00",
+  "generated_at": "2026-05-12T02:28:13.750035+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 19533465600,
+    "market_cap": 18987569152,
     "shares_outstanding": 148475843,
     "employees": 1300,
     "country": "United States",
@@ -118,20 +118,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 67.5,
+    "rs_rating": 86,
+    "score": 65.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.3483,
-    "trailing_pe": 33.135204,
-    "forward_pe": 27.111477,
-    "ev_to_ebitda": 23.249,
-    "price_to_sales": 5.421121,
+    "trailing_pe": 32.29156,
+    "forward_pe": 26.353802,
+    "ev_to_ebitda": 23.317,
+    "price_to_sales": 5.2696185,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 145.63,
-    "outperform_6m_vs_nasdaq": 8.42,
-    "outperform_1m_vs_nasdaq": -4.18,
+    "outperform_1y_vs_nasdaq": 136.54,
+    "outperform_6m_vs_nasdaq": 4.54,
+    "outperform_1m_vs_nasdaq": -7.69,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -143,7 +143,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "현재 우리에게 알려지지 않았거나 현재 중요하다고 간주되지 않는 위험도 우리의 사업, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "현재 우리에게 알려지지 않았거나 현재 중요하다고 간주되지 않는 위험도 당사의 비즈니스, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -153,7 +153,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "태양 에너지에 대한 수요가 지속적으로 증가하지 못하면 당사 제품에 대한 수요가 정체되거나 감소할 것이며, 이는 당사의 수익 증대 및 비즈니스 성장 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If demand for solar energy fails to continue to grow, demand for our products will plateau or decrease, which would have an adverse impact on our ability to increase our revenue and grow our business.",
         "severity": "medium"
       },
       {
@@ -176,6 +176,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:37:35.302213+00:00"
+    "GoogleWebTranslator": "2026-05-12T02:33:42.752629+00:00"
   }
 }

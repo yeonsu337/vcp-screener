@@ -5,15 +5,20 @@
     "detection_score": 88.2,
     "market": "US",
     "company": "Mastec Inc",
-    "last_seen": "2026-05-07",
-    "current_price": 425.39,
+    "last_seen": "2026-05-12",
+    "current_price": 421.37,
     "current_score": 90.2,
     "rs_rating": 92,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": 16.65,
+    "peak_price": 421.37,
+    "return_pct": 16.65,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "KGS": {
     "first_detected": "2026-04-11",
@@ -35,7 +40,8 @@
     "exit_price": 74.85,
     "exit_reasons": [
       "EX6 absent 13d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "PWR": {
     "first_detected": "2026-04-11",
@@ -43,15 +49,20 @@
     "detection_score": 85.6,
     "market": "US",
     "company": "Quanta Services, Inc",
-    "last_seen": "2026-05-07",
-    "current_price": 757.34,
+    "last_seen": "2026-05-12",
+    "current_price": 781.38,
     "current_score": 86.9,
-    "rs_rating": 88,
+    "rs_rating": 89,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": 33.49,
+    "peak_price": 781.38,
+    "return_pct": 33.49,
+    "profit_signal_partial": true,
+    "profit_signal_full": true
   },
   "FTI": {
     "first_detected": "2026-04-11",
@@ -59,15 +70,20 @@
     "detection_score": 82.9,
     "market": "US",
     "company": "TechnipFMC plc",
-    "last_seen": "2026-05-07",
-    "current_price": 74.6,
+    "last_seen": "2026-05-12",
+    "current_price": 71.15,
     "current_score": 84.9,
     "rs_rating": 87,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": -3.58,
+    "peak_price": 71.15,
+    "return_pct": -3.58,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "EIX": {
     "first_detected": "2026-04-11",
@@ -84,7 +100,8 @@
     "exit_price": 69.0,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "NVRI": {
     "first_detected": "2026-04-11",
@@ -106,7 +123,8 @@
     "exit_price": 19.45,
     "exit_reasons": [
       "EX6 absent 11d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "EQIX": {
     "first_detected": "2026-04-11",
@@ -123,7 +141,8 @@
     "exit_price": 1083.2,
     "exit_reasons": [
       "absent 22d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "ROST": {
     "first_detected": "2026-04-11",
@@ -140,7 +159,8 @@
     "exit_price": 226.02,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "TDW": {
     "first_detected": "2026-04-11",
@@ -157,7 +177,8 @@
     "exit_price": 87.08,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "NEE": {
     "first_detected": "2026-04-11",
@@ -174,7 +195,8 @@
     "exit_price": 95.51,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "RPRX": {
     "first_detected": "2026-04-11",
@@ -182,15 +204,20 @@
     "detection_score": 79.3,
     "market": "US",
     "company": "Royalty Pharma plc",
-    "last_seen": "2026-05-07",
-    "current_price": 50.2,
+    "last_seen": "2026-05-12",
+    "current_price": 51.65,
     "current_score": 80.0,
-    "rs_rating": 73,
+    "rs_rating": 74,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": 7.83,
+    "peak_price": 51.65,
+    "return_pct": 7.83,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "KEX": {
     "first_detected": "2026-04-11",
@@ -207,7 +234,8 @@
     "exit_price": 144.48,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "NE": {
     "first_detected": "2026-04-11",
@@ -224,7 +252,8 @@
     "exit_price": 50.93,
     "exit_reasons": [
       "absent 22d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "TRGP": {
     "first_detected": "2026-04-11",
@@ -241,7 +270,8 @@
     "exit_price": 258.98,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "BKR": {
     "first_detected": "2026-04-11",
@@ -258,7 +288,8 @@
     "exit_price": 69.01,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "024800.KQ": {
     "first_detected": "2026-04-11",
@@ -267,14 +298,19 @@
     "market": "KR",
     "company": "유성티엔에스",
     "last_seen": "2026-05-07",
-    "current_price": 4445.0,
+    "current_price": 4705.0,
     "current_score": 76.6,
     "rs_rating": 80,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 0,
+    "max_return_pct": 16.17,
+    "peak_price": 4705.0,
+    "return_pct": 16.17,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "BG": {
     "first_detected": "2026-04-11",
@@ -291,7 +327,8 @@
     "exit_price": 127.62,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "MGY": {
     "first_detected": "2026-04-11",
@@ -308,7 +345,8 @@
     "exit_price": 31.12,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "ERAS": {
     "first_detected": "2026-04-11",
@@ -326,7 +364,8 @@
     "exit_reasons": [
       "drawdown -40.4% (limit -15.0%)",
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "CLMT": {
     "first_detected": "2026-04-11",
@@ -343,7 +382,8 @@
     "exit_price": 34.15,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "VNOM": {
     "first_detected": "2026-04-11",
@@ -359,7 +399,8 @@
     "peak_price": 47.69,
     "return_pct": 5.3,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "soft_gate_streak": 0
   },
   "466910.KQ": {
     "first_detected": "2026-04-11",
@@ -376,7 +417,8 @@
     "exit_price": 5640.0,
     "exit_reasons": [
       "absent 24d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "0016.HK": {
     "first_detected": "2026-04-15",
@@ -384,15 +426,20 @@
     "detection_score": 84.8,
     "market": "HK",
     "company": "Sun Hung Kai Properties Limited",
-    "last_seen": "2026-05-07",
-    "current_price": 138.0,
+    "last_seen": "2026-05-12",
+    "current_price": 144.1,
     "current_score": 85.0,
     "rs_rating": 99,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 19d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": 4.72,
+    "peak_price": 144.1,
+    "return_pct": 4.72,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "160980.KQ": {
     "first_detected": "2026-04-15",
@@ -401,14 +448,24 @@
     "market": "KR",
     "company": "싸이맥스",
     "last_seen": "2026-05-07",
-    "current_price": 37650.0,
+    "current_price": 34200.0,
     "current_score": 83.1,
     "rs_rating": 90,
-    "exited": false,
+    "exited": true,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 19d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 0,
+    "max_return_pct": 23.24,
+    "peak_price": 34200.0,
+    "return_pct": 23.24,
+    "profit_signal_partial": true,
+    "profit_signal_full": false,
+    "exit_date": "2026-05-12",
+    "exit_price": 34200.0,
+    "exit_reasons": [
+      "EX7 single-day -10.0% drop (38000.0→34200.0)"
+    ]
   },
   "TPH": {
     "first_detected": "2026-04-17",
@@ -425,7 +482,8 @@
     "exit_price": 46.81,
     "exit_reasons": [
       "absent 18d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "078020.KQ": {
     "first_detected": "2026-04-17",
@@ -447,7 +505,8 @@
     "exit_price": 8070.0,
     "exit_reasons": [
       "EX6 absent 10d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "005930.KS": {
     "first_detected": "2026-04-22",
@@ -455,15 +514,20 @@
     "detection_score": 83.3,
     "market": "KR",
     "company": "삼성전자",
-    "last_seen": "2026-05-07",
+    "last_seen": "2026-05-12",
     "current_score": 83.3,
-    "rs_rating": 94,
-    "current_price": 232500.0,
+    "rs_rating": 90,
+    "current_price": 272000.0,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 13d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2,
+    "max_return_pct": 24.63,
+    "peak_price": 272000.0,
+    "return_pct": 24.63,
+    "profit_signal_partial": true,
+    "profit_signal_full": false
   },
   "HST": {
     "first_detected": "2026-04-23",
@@ -480,7 +544,8 @@
     "exit_price": 20.86,
     "exit_reasons": [
       "absent 11d (limit 10d)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "CLH": {
     "first_detected": "2026-04-24",
@@ -502,7 +567,8 @@
     "exit_price": 287.98,
     "exit_reasons": [
       "EX4 50d MA break (close 287.98 < SMA50 295.56, vol 4.21×)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "VLO": {
     "first_detected": "2026-04-27",
@@ -524,7 +590,8 @@
     "exit_price": 246.19,
     "exit_reasons": [
       "EX6 absent 13d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "ZD": {
     "first_detected": "2026-04-28",
@@ -546,7 +613,8 @@
     "exit_price": 43.31,
     "exit_reasons": [
       "EX1 stop -8% (ret -8.3%)"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "HPE": {
     "first_detected": "2026-04-28",
@@ -568,7 +636,8 @@
     "exit_price": 31.39,
     "exit_reasons": [
       "EX6 absent 12d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "1113.HK": {
     "first_detected": "2026-04-28",
@@ -576,20 +645,20 @@
     "detection_score": 87.7,
     "market": "HK",
     "company": "CK Asset Holdings",
-    "last_seen": "2026-05-07",
+    "last_seen": "2026-05-12",
     "current_score": 87.7,
-    "rs_rating": 87,
-    "current_price": 51.2,
+    "rs_rating": 86,
+    "current_price": 51.35,
     "max_return_pct": 7.41,
     "peak_price": 52.2,
-    "return_pct": 5.35,
+    "return_pct": 5.66,
     "profit_signal_partial": false,
     "profit_signal_full": false,
     "exited": false,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: EX6 absent 13d)",
     "stage": 2,
-    "soft_gate_streak": 1
+    "soft_gate_streak": 2
   },
   "ECVT": {
     "first_detected": "2026-04-29",
@@ -605,7 +674,8 @@
     "peak_price": 14.68,
     "return_pct": 3.22,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "soft_gate_streak": 0
   },
   "ITT": {
     "first_detected": "2026-04-30",
@@ -627,7 +697,8 @@
     "exit_price": 206.89,
     "exit_reasons": [
       "EX6 absent 11d"
-    ]
+    ],
+    "soft_gate_streak": 0
   },
   "403870.KQ": {
     "first_detected": "2026-05-07",
@@ -638,11 +709,12 @@
     "last_seen": "2026-05-07",
     "current_score": 75.9,
     "rs_rating": 73,
-    "current_price": 55400.0,
+    "current_price": 51100.0,
     "max_return_pct": 1.47,
     "peak_price": 55400.0,
-    "return_pct": 1.47,
+    "return_pct": -6.41,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "soft_gate_streak": 0
   }
 }

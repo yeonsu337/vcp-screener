@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-05-12T00:19:28.160134+00:00",
+  "generated_at": "2026-05-12T02:19:59.772085+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -130,7 +130,7 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 21.757143,
+    "trailing_pe": 21.796062,
     "forward_pe": 18.321804,
     "ev_to_ebitda": null,
     "price_to_sales": 0.06414256,
@@ -164,7 +164,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한, 글로벌 경기 침체나 둔화가 발생할 경우, 단기 저금리 기간이 장기화되고 변동성이 감소하여 당사 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "또한, 글로벌 경기침체 또는 경기 둔화가 발생할 경우, 단기 저금리 기간이 장기화되고 변동성이 감소하여 당사 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "StoneX Group Inc. is an American financial services company. The company operates in six areas: commercial hedging, global payments, securities, physical commodities, foreign exchange and clearing and execution services (CES).",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:38:58.776292+00:00"
+    "GoogleWebTranslator": "2026-05-12T02:34:52.112272+00:00"
   }
 }

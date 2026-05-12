@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "451700.KQ",
-  "generated_at": "2026-05-12T00:59:03.322099+00:00",
+  "generated_at": "2026-05-12T02:05:51.695108+00:00",
   "source_results_date": "2026-05-12",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.59,
+  "confidence": 0.57,
   "lines": [
-    "추격 위험 — Pivot ₩2690.00 대비 +47.0%, buy zone 초과.",
-    "13주 베이스 16.7% → 14.5%, VDU 1.02× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 82로 추세는 살아있음.",
+    "추격 위험 — Pivot ₩2690.00 대비 +41.6%, buy zone 초과.",
+    "13주 베이스 16.7% → 14.5%, VDU 1.01× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 72로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 82,
+    "rs_rating": 72,
     "stage": 2,
     "base_count": 3,
     "late_base_warning": true,
@@ -40,18 +40,18 @@
     "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
-    "R1_rs_70",
-    "R2_rs_80"
+    "R1_rs_70"
   ],
   "key_failures": [
     "P2_last_contraction (14.49% vs 6.5%)",
-    "P3_vol_dryup (1.02× vs 0.6×)",
+    "P3_vol_dryup (1.01× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-37.6% vs ≥-5.0%)"
+    "rs_line (-36.1% vs ≥-5.0%)"
   ],
   "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승",
+    "RS 72 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

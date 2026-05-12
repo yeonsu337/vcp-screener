@@ -1,0 +1,151 @@
+{
+  "ticker": "LRCX",
+  "company": "Lam Research Corporation",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "generated_at": "2026-05-12T02:18:58.285590+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 370231541760,
+    "shares_outstanding": 1250571000,
+    "employees": 20600,
+    "country": "United States",
+    "website": "https://www.lamresearch.com",
+    "beta": 1.819
+  },
+  "category_a_business": {
+    "overview": "Lam Research Corporation은 미국, 중국, 한국, 대만, 일본, 동남아시아 및 유럽에서 집적 회로 제조에 사용되는 반도체 처리 장비를 설계, 제조, 판매, 개조 및 서비스합니다. 이 회사는 텅스텐 또는 몰리브덴 금속화 응용 분야를 위해 컨포멀 또는 선택 필름을 증착하는 ALTUS 시스템을 제공합니다. 구리 다마신 제조를 제공하는 구리 상호 연결 전이용 SABRE 전기화학 증착 제품; SPEED 갭필 고밀도 플라즈마 화학 기상 증착(CVD) 제품; 스트라이커 단일 웨이퍼 원자 배치",
+    "business_model": "Lam Research Corporation은 미국, 중국, 한국에서 집적 회로 제조에 사용되는 반도체 처리 장비를 설계, 제조, 판매, 개조 및 서비스합니다.",
+    "products": [
+      "텅스텐 또는 몰리브덴 금속화 응용 분야를 위한 등각 또는 선택 필름을 증착하는 ALTUS 시스템",
+      "구리 다마신 제조",
+      "유전체 에칭 애플리케이션을 위한 Flex",
+      "Equipment Intelligence 솔루션을 통해 구현되는 RF 기술 및 반복 가능한 웨이퍼 간 성능",
+      "다이 수율을 향상시키는 Coronus 베벨 클린 제품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Lam Research Corporation은 미국의 반도체 산업에 웨이퍼 제조 장비 및 관련 서비스를 공급하는 회사입니다. 해당 제품은 반도체 장치의 활성 구성 요소와 배선(인터커넥트)을 생성하는 단계를 포함하는 프런트 엔드 웨이퍼 처리에 주로 사용됩니다. 이 회사는 또한 백엔드 웨이퍼 레벨 패키징(WLP) 및 미세 전자 기계 시스템(MEMS)과 같은 관련 제조 시장을 위한 장비도 제작합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.67,
+    "roa": 0.23,
+    "profit_margin": 0.31,
+    "operating_margin": 0.35,
+    "gross_margin": 0.5,
+    "revenue_growth_ttm": 0.24,
+    "earnings_growth_ttm": 0.41,
+    "dividend_yield": 0.35,
+    "payout_ratio": 0.19,
+    "annual_revenue": [
+      18435591000.0,
+      14905386000.0,
+      17428516000.0,
+      17227039000.0
+    ],
+    "annual_operating_income": [
+      5900968000.0,
+      4282100000.0,
+      5217010000.0,
+      5381822000.0
+    ],
+    "annual_eps": [
+      4.15,
+      2.9,
+      3.32,
+      3.27
+    ],
+    "annual_free_cf": [
+      5414078000.0,
+      4255599000.0,
+      4677370000.0,
+      2553640000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4484505000.0,
+      4983334000.0,
+      5011541000.0,
+      5005830000.0,
+      null
+    ],
+    "annual_equity": [
+      9861619000.0,
+      8539454000.0,
+      8210172000.0,
+      6278366000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30"
+    ],
+    "quarterly_eps": [
+      1.45,
+      1.26,
+      1.24,
+      1.35,
+      1.03,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      5841488000.0,
+      5344791000.0,
+      5324173000.0,
+      5171393000.0,
+      4720175000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 37.2,
+    "sales_yoy_pct": 23.8,
+    "ni_cagr_3y_pct": 5.18,
+    "roe_pct": 66.76
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 93,
+    "score": 73.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.7198,
+    "trailing_pe": 55.96408,
+    "forward_pe": 37.4134,
+    "ev_to_ebitda": 47.047,
+    "price_to_sales": 17.075647,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 251.6,
+    "outperform_6m_vs_nasdaq": 69.08,
+    "outperform_1m_vs_nasdaq": -2.43,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Lam Research Corporation is an American supplier of wafer-fabrication equipment and related services to the semiconductor industry. Its products are used primarily in front-end wafer processing, which involves the steps that create the active components of semiconductor devices and their wiring (interconnects). The company also builds equipment for back-end wafer-level packaging (WLP) and for related manufacturing markets such as for microelectromechanical systems (MEMS).",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-12T02:32:48.083833+00:00"
+  }
+}

@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-12T00:14:17.961253+00:00",
+  "generated_at": "2026-05-12T02:12:48.721781+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -32,6 +32,85 @@
     ]
   },
   "category_b_financials": {
+    "roe": 0.25,
+    "roa": 0.11,
+    "profit_margin": 0.16,
+    "operating_margin": 0.23,
+    "gross_margin": 0.3,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 0.19,
+    "payout_ratio": 0.08,
+    "annual_revenue": [
+      2877100000.0,
+      2759700000.0,
+      2550300000.0,
+      1836300000.0,
+      null
+    ],
+    "annual_operating_income": [
+      525400000.0,
+      354100000.0,
+      133100000.0,
+      -24900000.0,
+      null
+    ],
+    "annual_eps": [
+      7.42,
+      3.7,
+      1.14,
+      -1.01,
+      null
+    ],
+    "annual_free_cf": [
+      286100000.0,
+      178300000.0,
+      -67600000.0,
+      -85300000.0,
+      null
+    ],
+    "annual_total_debt": [
+      703400000.0,
+      703000000.0,
+      702100000.0,
+      701700000.0,
+      null
+    ],
+    "annual_equity": [
+      1887000000.0,
+      1628800000.0,
+      1396100000.0,
+      1330500000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      2.77,
+      2.09,
+      2.43,
+      2.21,
+      1.88
+    ],
+    "quarterly_revenue": [
+      811500000.0,
+      728000000.0,
+      733700000.0,
+      755600000.0,
+      727000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 46.3,
     "sales_yoy_pct": 11.6,
     "roe_pct": 24.89
@@ -51,7 +130,7 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.59,
-    "trailing_pe": 45.16421,
+    "trailing_pe": 45.259495,
     "forward_pe": 33.730946,
     "ev_to_ebitda": 28.362,
     "price_to_sales": 7.038467,
@@ -88,6 +167,6 @@
   },
   "wikipedia_summary": "Carpenter Technology Corporation develops, manufactures, and distributes stainless steels and corrosion-resistant nickel, copper and titanium alloys as well as powdered alloys for 3D additive manufacturing. In fiscal year 2018, the company's revenues were derived from the aerospace and defense industry (55%), the industrial and consumer industry (17%), the medical industry (8%), the transportation industry (7%), the energy industry (7%), and the distribution industry (6%). The company's products are used in landing gear, shaft collars, safety wires, electricity generation products, intervertebral disc arthroplasty, and engine valves and weldings.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:35:36.941581+00:00"
+    "GoogleWebTranslator": "2026-05-12T02:31:41.505273+00:00"
   }
 }

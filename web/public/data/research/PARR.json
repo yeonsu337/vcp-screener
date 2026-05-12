@@ -17,17 +17,17 @@
     "beta": 0.911
   },
   "category_a_business": {
-    "overview": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics. The Refining segment owns and operates refineries that convert crude oil into gasoline, distillate, asphalt, and other products.",
-    "business_model": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States.",
+    "overview": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다. 이 회사는 정제, 소매, 물류의 세 가지 부문으로 운영됩니다. 정유 부문은 원유를 휘발유, 증류액, 아스팔트 및 기타 제품으로 전환하는 정유소를 소유하고 운영합니다.",
+    "business_model": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다.",
     "products": [
-      "renewable and conventional fuels in the United States",
-      "through three segments: Refining, Retail, and Logistics",
-      "refineries that convert crude oil into gasoline, distillate, asphalt, and other products",
-      "convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prep",
-      "terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilit"
+      "미국의 재생 가능 및 기존 연료",
+      "정제, 소매, 물류의 3개 부문을 통해",
+      "원유를 휘발유, 증류액, 아스팔트 및 기타 제품으로 전환하는 정유소",
+      "휘발유, 경유 및 소매 상품(청량음료, 조제품 등)을 판매하는 편의점 및 연료 소매점",
+      "터미널, 파이프라인, 트럭 운송 작업, 해양 선박, 저장 시설, 적재 및 트럭 랙, 철도 시설"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -149,32 +149,32 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "In any such case, the trading price of our common stock could decline.",
+        "description": "이러한 경우 당사 보통주의 거래가격은 하락할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Additional risks not currently known to us or that we currently deem immaterial may also adversely affect us.",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험도 당사에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "These disclosures reflect the Company’s beliefs and opinions as to factors that could materially and adversely affect the Company and its securities in the future.",
+        "description": "이러한 공개는 향후 회사와 회사 증권에 실질적이고 부정적인 영향을 미칠 수 있는 요소에 대한 회사의 믿음과 의견을 반영합니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "OPERATING RISKS Our operations are subject to operational hazards that could expose us to potentially significant losses.",
+        "description": "운영 위험 당사의 운영은 잠재적으로 심각한 손실에 노출될 수 있는 운영상의 위험에 노출되어 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "The scientific consensus suggests that some of these physical risks to our facilities and third-party facilities, especially risks associated with extreme weather, may increase as a result of climate change.",
+        "description": "과학적 합의에 따르면 당사 시설 및 제3자 시설에 대한 이러한 물리적 위험 중 일부, 특히 기상 이변과 관련된 위험 중 일부는 기후 변화의 결과로 증가할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "A serious accident at our facilities could also result in serious injury or death to our employees or contractors and could expose us to significant liability for personal injury claims and reputational risk.",
+        "description": "당사 시설에서 심각한 사고가 발생하면 당사 직원이나 계약자가 심각한 부상을 입거나 사망할 수도 있으며, 당사는 개인 부상 청구 및 평판 위험에 대한 상당한 책임을 지게 될 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -185,5 +185,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-12T02:34:08.722276+00:00"
+  }
 }

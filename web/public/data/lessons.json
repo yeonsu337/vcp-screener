@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T00:34:44.331674+00:00",
+  "generated_at": "2026-05-12T02:31:04.395448+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -9,32 +9,33 @@
   },
   "snapshot": {
     "total_trades": 36,
-    "active": 3,
-    "exited": 33,
+    "active": 11,
+    "exited": 25,
     "winners_50pct": 0,
     "winners_30pct": 1,
     "losers": 1
   },
   "performance": {
-    "win_rate_pct": 80.6,
-    "profit_factor": 3.38,
-    "expectancy": 4.58,
-    "avg_winner_pct": 8.08,
-    "avg_loser_pct": -9.91,
+    "win_rate_pct": 75.0,
+    "profit_factor": 3.21,
+    "expectancy": 4.87,
+    "avg_winner_pct": 9.43,
+    "avg_loser_pct": -8.82,
     "best": {
-      "ticker": "160980.KQ",
-      "return_pct": 35.7
+      "ticker": "PWR",
+      "return_pct": 33.5
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 20.8,
-    "avg_holding_loser_days": 17.6
+    "avg_holding_winner_days": 23.1,
+    "avg_holding_loser_days": 17.1
   },
   "exit_breakdown": {
-    "EX6_absent": 30,
+    "EX6_absent": 21,
     "EX5_trailing": 1,
+    "EX0_unknown": 1,
     "EX4_50dma_break": 1,
     "EX1_stop_8pct": 1
   },
@@ -42,27 +43,27 @@
     "primary_pass_buckets": [
       {
         "primary_passed": 9,
-        "trades": 8,
-        "avg_return_pct": 8.86,
+        "trades": 3,
+        "avg_return_pct": 11.5,
         "win_rate_pct": 100.0
       },
       {
         "primary_passed": 10,
-        "trades": 6,
-        "avg_return_pct": 3.31,
-        "win_rate_pct": 83.3
+        "trades": 4,
+        "avg_return_pct": 4.1,
+        "win_rate_pct": 100.0
       },
       {
         "primary_passed": 11,
-        "trades": 5,
-        "avg_return_pct": 4.95,
-        "win_rate_pct": 100.0
+        "trades": 8,
+        "avg_return_pct": 4.48,
+        "win_rate_pct": 87.5
       },
       {
         "primary_passed": 12,
-        "trades": 3,
-        "avg_return_pct": 16.08,
-        "win_rate_pct": 100.0
+        "trades": 4,
+        "avg_return_pct": 13.6,
+        "win_rate_pct": 75.0
       }
     ],
     "rule_hit_rate_diff": [],
@@ -74,23 +75,23 @@
     {
       "sector": "Unknown",
       "trades": 20,
-      "win_rate_pct": 70.0,
-      "avg_return_pct": 3.01,
-      "best_return_pct": 35.7
+      "win_rate_pct": 65.0,
+      "avg_return_pct": 3.46,
+      "best_return_pct": 26.2
     },
     {
       "sector": "Energy",
       "trades": 5,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 4.98,
+      "win_rate_pct": 80.0,
+      "avg_return_pct": 4.04,
       "best_return_pct": 9.8
     },
     {
       "sector": "Industrials",
       "trades": 3,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 16.69,
-      "best_return_pct": 29.4
+      "avg_return_pct": 17.69,
+      "best_return_pct": 33.5
     },
     {
       "sector": "Real Estate",
@@ -110,8 +111,8 @@
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 4.8,
-      "best_return_pct": 4.8
+      "avg_return_pct": 7.83,
+      "best_return_pct": 7.8
     },
     {
       "sector": "Consumer Defensive",
@@ -138,44 +139,44 @@
   "market_breakdown": {
     "US": {
       "trades": 28,
-      "win_rate_pct": 75.0,
-      "avg_return_pct": 2.61
+      "win_rate_pct": 71.4,
+      "avg_return_pct": 2.66
     },
     "KR": {
       "trades": 6,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 14.37
+      "win_rate_pct": 83.3,
+      "avg_return_pct": 15.07
     },
     "HK": {
       "trades": 2,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 2.82
+      "avg_return_pct": 5.19
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.7,
+    "winner_avg_rs": 83.8,
     "loser_avg_rs": 80.1,
-    "winner_n": 29,
-    "loser_n": 7
+    "winner_n": 27,
+    "loser_n": 9
   },
   "time_curve": [
     {
       "day": 1,
       "trades": 35,
-      "avg_return_pct": 4.67,
-      "winners_pct": 80.0
+      "avg_return_pct": 5.19,
+      "winners_pct": 77.1
     },
     {
       "day": 5,
       "trades": 35,
-      "avg_return_pct": 4.67,
-      "winners_pct": 80.0
+      "avg_return_pct": 5.19,
+      "winners_pct": 77.1
     },
     {
       "day": 21,
-      "trades": 23,
-      "avg_return_pct": 5.05,
-      "winners_pct": 87.0
+      "trades": 25,
+      "avg_return_pct": 6.08,
+      "winners_pct": 84.0
     },
     {
       "day": 63,
@@ -192,7 +193,7 @@
     "error": "GEMINI_API_KEY not set"
   },
   "data_status": {
-    "exited_trades_count": 33,
+    "exited_trades_count": 25,
     "min_for_meaningful": 5,
     "fallback_message": null
   }

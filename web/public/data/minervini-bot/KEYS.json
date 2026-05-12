@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "KEYS",
-  "generated_at": "2026-05-12T00:59:01.170842+00:00",
+  "generated_at": "2026-05-12T02:05:51.673592+00:00",
   "source_results_date": "2026-05-12",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.73,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 8.08%).",
-    "13주 베이스 16.5% → 11.8% → 8.1%, VDU 0.81×, pivot $352.78(+3.85%).",
+    "13주 베이스 16.5% → 11.8% → 8.1%, VDU 0.82×, pivot $352.78(+3.85%).",
     "Trend Template 8/8 통과, RS 91 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -50,7 +50,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.08% vs 6.5%)",
-    "P3_vol_dryup (0.81× vs 0.6×)",
+    "P3_vol_dryup (0.82× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

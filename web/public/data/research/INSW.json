@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-05-12T00:12:14.641903+00:00",
+  "generated_at": "2026-05-12T02:07:18.540993+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,18 +17,34 @@
     "beta": -0.081
   },
   "category_a_business": {
-    "overview": "International Seaways, Inc.는 국제 무역에서 원유 및 석유 제품을 운송하는 원양 선박을 소유하고 운영합니다. 이 회사는 원유 유조선과 제품 운반선이라는 두 부문으로 운영됩니다.",
-    "business_model": "인터내셔널 시웨이즈, Inc.",
+    "overview": "INSW는 국제 해상 운송을 위한 유조선 및 석유 제품 운반선을 소유 및 운영하는 기업입니다.",
+    "milestones": [
+      "1999년: International Seaways, Inc. 설립 (당시 OSG International, Inc.)",
+      "2016: 사명을 OSG International, Inc.에서 International Seaways, Inc.로 변경",
+      "2025: 12척의 선박 매각 및 3척의 신규 선박 인도 완료",
+      "2025: 총 70척의 선박(8.4백만 DWT)으로 구성된 선단 운영",
+      "2026: 4척의 이중 연료 LR1 신조선 인도 예정"
+    ],
+    "business_model": "원유 및 석유 제품 운송 서비스를 제공하고 용선 계약을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "원유 운반선 용선료",
+      "석유 제품 운반선 용선료",
+      "선박 대 선박 (STS) 경량화 지원 서비스",
+      "선박 매각 이익"
+    ],
+    "value_chain_position": "Midstream + 원유 및 석유 제품의 해상 운송을 담당합니다.",
     "products": [
-      "국제 무역에서 원유 및 석유 제품을 운송하기 위한 원양 선박 함대",
-      "두 가지 부문: 원유 유조선과 제품 운반선",
-      "VLCC, Suezmaxes, Aframaxes와 MR, LR1, LR2 제품 운반선 70척으로 구성된 함대",
-      "호스, 펜더 등 선박 대 선박(STS) 경량화 지원 서비스",
-      "팜유, 식물성 기름 등 식용유 운반을 위한 IMO III 준수를 포함한 MR 제품 운반체"
+      "VLCC (초대형 원유 운반선)",
+      "Suezmax (수에즈막스급 원유 운반선)",
+      "Aframax (아프라막스급 원유 운반선)",
+      "LR2/LR1/MR (장거리/중거리 석유 제품 운반선)",
+      "STS 경량화 서비스"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (직접 용선 계약)",
+      "B2B (상업 풀 참여를 통한 스팟 시장)"
+    ],
+    "key_customers": "주요 독립 및 국영 석유 회사, 석유 트레이더, 정유사, 국제 정부 기관"
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -122,11 +138,51 @@
     "roe_pct": 26.87
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2023년 기준 글로벌 해상 원유 및 석유제품 운송 시장 규모 약 1,500억~2,000억 달러 (Clarksons Research, Drewry 등 해운 리서치 기관 추정치 기반)",
+    "tam_cagr_pct": "3%~5% (estimate) + 글로벌 에너지 수요 증가, 신흥국 경제 성장, 원유 및 정제유 무역량 증가에 대한 기대감. 다만, 에너지 전환 정책 및 지정학적 리스크는 변동성 요인.",
+    "growth_drivers": [
+      "글로벌 원유 및 석유제품 수요 증가: 특히 아시아 등 신흥 시장의 에너지 소비 증가가 해상 운송 수요를 견인합니다.",
+      "정유 시설의 지리적 분산: 주요 소비 시장과 정유 시설 간의 거리로 인해 해상 운송의 필요성이 지속됩니다.",
+      "선대 노후화 및 환경 규제 강화: 노후 선박의 폐선 증가와 IMO 2020 등 환경 규제 준수를 위한 신조선 수요가 발생합니다.",
+      "지정학적 요인 및 공급망 재편: 특정 지역의 생산량 변화나 운송 경로의 변화가 해상 운송 수요에 영향을 미칩니다."
+    ],
+    "market_share_pct": "<1% (estimate) + INSW는 70척의 선박을 보유하고 있으며, 글로벌 탱커 선대 규모(약 12,000척 이상)에 비추어 볼 때 시장 점유율은 매우 낮음.",
+    "competitors": [
+      {
+        "name": "Euronav NV",
+        "differentiation": "초대형 원유운반선(VLCC) 및 수에즈막스 선박에 특화된 대형 선대 보유, 시장 리더십 및 규모의 경제."
+      },
+      {
+        "name": "Frontline Ltd.",
+        "differentiation": "VLCC, 수에즈막스, LR2 탱커를 포함한 대규모 현대식 선대 보유, 스팟 시장 노출도가 높고 시장 변동성에 민감하게 반응."
+      },
+      {
+        "name": "Teekay Tankers Ltd.",
+        "differentiation": "아프라막스, LR2, MR 탱커에 중점을 둔 선대, 장기 용선 계약 비중이 높아 비교적 안정적인 수익 구조."
+      },
+      {
+        "name": "DHT Holdings, Inc.",
+        "differentiation": "VLCC에 집중된 선대 구성, 높은 배당 성향으로 주주 환원 정책 강조."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 선박 건조에 막대한 자본이 필요하고 운영 노하우가 중요하지만, 시장 호황기에는 신규 진입 유인이 존재합니다.",
+      "substitutes": "low + 원유 및 석유제품의 대량 장거리 운송에 있어 해상 운송을 대체할 수 있는 현실적인 대안은 거의 없습니다 (파이프라인은 특정 지역에 한정).",
+      "buyer_power": "medium + 주요 고객은 대형 정유사, 국영 석유회사 등으로 협상력이 높으나, 운송 수요가 공급을 초과하는 시기에는 운송사의 협상력이 강화됩니다.",
+      "supplier_power": "medium + 선박 건조사, 엔진 제조사, 선원 공급사 등이 주요 공급자이며, 특정 기술이나 인력에 대한 의존도가 있습니다.",
+      "rivalry": "high + 다수의 선사가 경쟁하며, 스팟 시장의 운임 변동성이 크고 선대 규모 및 효율성이 중요한 경쟁 요소입니다."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+      "다각화된 선대 구성: VLCC, Suezmax, Aframax 원유 탱커와 LR2, LR1, MR 제품 운반선을 모두 보유하여 시장 변화에 유연하게 대응 가능합니다.",
+      "현대화된 선대 및 신조선 투자: 2026년 인도 예정인 4척의 이중 연료 LR1 신조선을 통해 미래 환경 규제에 대비하고 연료 효율성을 높입니다.",
+      "강력한 재무 건전성: 높은 유동성, 낮은 순부채-자산 비율 및 무담보 선박 비중을 통해 재무적 안정성을 확보하고 있습니다.",
+      "운영 효율성 및 자산 관리: 선대 최적화 프로그램(선박 매매, 용선)을 통해 수익 잠재력을 극대화하고 자본을 효율적으로 배분합니다."
+    ],
+    "competitive_weaknesses": [
+      "스팟 시장 의존도: TCE 수익의 상당 부분이 스팟 시장에서 발생하여 운임 변동성에 취약합니다.",
+      "글로벌 경제 및 지정학적 리스크 노출: 국제 무역량, 유가 변동, 지정학적 갈등 등 외부 요인에 의해 실적이 크게 영향을 받을 수 있습니다.",
+      "환경 규제 및 탈탄소화 압력: IMO의 탄소 배출 규제 강화로 인해 선박 개조 또는 신조선 투자 부담이 증가할 수 있습니다.",
+      "낮은 시장 점유율: 글로벌 시장에서 상대적으로 작은 규모로, 대형 경쟁사 대비 규모의 경제 효과가 제한적일 수 있습니다."
     ]
   },
   "category_d_thesis": {
@@ -168,6 +224,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:37:22.494654+00:00"
+    "GoogleWebTranslator": "2026-05-12T02:32:32.092422+00:00"
   }
 }

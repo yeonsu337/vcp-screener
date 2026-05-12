@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-12T00:21:31.485012+00:00",
+  "generated_at": "2026-05-12T02:23:04.974033+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -30,6 +30,88 @@
     ]
   },
   "category_b_financials": {
+    "roe": -0.07,
+    "roa": 0.03,
+    "profit_margin": -0.04,
+    "operating_margin": 0.12,
+    "gross_margin": 0.6,
+    "revenue_growth_ttm": 0.43,
+    "earnings_growth_ttm": -0.69,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1084300000.0,
+      1000400000.0,
+      1106100000.0,
+      1292400000.0,
+      null
+    ],
+    "annual_operating_income": [
+      58200000.0,
+      34400000.0,
+      94500000.0,
+      184900000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      -0.12,
+      0.11,
+      0.07,
+      0.2
+    ],
+    "annual_free_cf": [
+      62000000.0,
+      96900000.0,
+      63000000.0,
+      105600000.0,
+      null
+    ],
+    "annual_total_debt": [
+      692300000.0,
+      687200000.0,
+      781000000.0,
+      744500000.0,
+      null
+    ],
+    "annual_equity": [
+      780200000.0,
+      681600000.0,
+      690800000.0,
+      671700000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      0.03,
+      -0.21,
+      -0.1,
+      0.04,
+      0.09,
+      null
+    ],
+    "quarterly_revenue": [
+      406800000.0,
+      369300000.0,
+      299100000.0,
+      290500000.0,
+      284800000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": -67.2,
     "sales_yoy_pct": 42.8,
     "ni_cagr_3y_pct": 30.94,
@@ -102,6 +184,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:40:17.845287+00:00"
+    "GoogleWebTranslator": "2026-05-12T02:35:25.139414+00:00"
   }
 }

@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-05-12T00:29:45.179751+00:00",
+  "generated_at": "2026-05-12T02:34:23.644283+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,19 +17,19 @@
     "beta": 1.423
   },
   "category_a_business": {
-    "overview": "DigitalOcean Holdings, Inc.는 자회사를 통해 북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼을 운영합니다. 이 회사는 성장하는 기술 기업을 위해 AI 및 디지털 기반 기업이 지능형 애플리케이션을 구축, 실행 및 확장할 수 있도록 지원합니다. 또한 클라우드 방화벽, 관리형 로드 밸런서, NAT 게이트웨이, 가상 프라이빗 클라우드 소프트웨어, IP 주소 관리 및 도메인 이름 시스템 관리를 포함하여 컴퓨팅, 스토리지 및 네트워킹 제품으로 구성된 IaaS(Infrastructure-as-a-Service) 솔루션을 제공합니다.",
-    "business_model": "DigitalOcean Holdings, Inc.는 자회사를 통해 북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼을 운영합니다.",
+    "overview": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally. The company provides AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies. It also offers infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firewalls, managed load balancers, NAT gateways, and virtual private cloud software, as well as IP address management and domain name system management.",
+    "business_model": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally.",
     "products": [
-      "북미, 유럽, 아시아 및 국제적으로 에이전트 추론 클라우드 플랫폼",
-      "AI 및 디지털 기반 기업은 성장하는 기술 기업을 위한 지능형 애플리케이션을 구축, 실행 및 확장합니다.",
-      "클라우드 방화벽을 포함하여 컴퓨팅, 스토리지, 네트워킹 제품으로 구성된 IaaS(Infrastructure-as-a-Service) 솔루션",
-      "관리형 데이터베이스와 같은 PaaS(Platform-as-a-Service) 및 SaaS(Software-as-a-Service) 솔루션",
-      "GPU 드롭릿으로 구성된 인공지능(AI)/머신러닝(ML) 애플리케이션"
+      "an agentic inference cloud platform in North America, Europe, Asia, and internationally",
+      "AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies",
+      "infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firew",
+      "platform-as-a-service (PaaS) and software-as-a-service (SaaS) solutions, such as managed databases",
+      "artificial intelligence (AI)/machine learning (ML) applications comprising GPU droplets"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "DigitalOcean Holdings, Inc.는 미국의 다국적 기술 회사이자 클라우드 서비스 제공업체입니다. 이 회사는 미국 콜로라도주 브룸필드에 본사를 두고 있으며 전 세계적으로 15개의 데이터 센터가 분산되어 있습니다. DigitalOcean은 개발자, 스타트업 및 SMB에 클라우드 IaaS(Infrastructure-as-a-Service) 플랫폼을 제공합니다."
+    "wikipedia_excerpt": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms."
   },
   "category_b_financials": {
     "roe": 0.7,
@@ -150,32 +150,32 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "따라서 과거 실적이 미래 성과를 나타내지 못할 수도 있습니다.",
+        "description": "As a result, our past results may not be indicative of our future performance.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 수익이 지속적으로 증가하더라도 당사 사업의 성숙도를 비롯한 다양한 요인으로 인해 향후 수익 증가율은 하락할 수 있습니다.",
+        "description": "Even if our revenue continues to increase, our revenue growth rate may decline in the 14 future as a result of a variety of factors, including the maturation of our business.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 목표를 성공적으로 달성하지 못할 수도 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
+        "description": "We may not successfully accomplish any of our objectives and, as a result, it is difficult for us to forecast our future results of operations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요인과 기타 요인 또는 이러한 요인의 누적 효과로 인해 당사의 운영 결과가 크게 달라질 수 있습니다.",
+        "description": "Any of these and other factors, or the cumulative effect of some of these factors, may cause our results of operations to vary significantly.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 우리는 비용과 비용이 향후 증가할 것으로 예상하며, 이는 수익도 증가하지 않을 경우 향후 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "We also expect our costs and expenses will increase in future periods, which could negatively affect our future results of operations if our revenue also does not increase.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "수익성을 유지하지 못할 경우, 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
+        "description": "If we are unable to sustain profitability, the value of our business and common stock may significantly decrease.",
         "severity": "medium"
       }
     ],
@@ -186,8 +186,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T00:35:57.627355+00:00"
-  }
+  "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms."
 }
