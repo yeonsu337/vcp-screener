@@ -198,6 +198,74 @@ export function useTracking() {
     broadcast();
   }, []);
 
+  /**
+   * Merge an imported entry set into the current list. Strategy:
+   *  - For each imported entry, if a matching ticker exists in the current
+   *    list (active state matched), keep whichever has the EARLIER
+   *    added_date (preserves the original entry timestamp) and the HIGHER
+   *    high_since_add (since high is a running max).
+   *  - Otherwise append.
+   * Exited entries are matched on ticker+exit_date+added_date triple to
+   * avoid collapsing distinct trade runs.
+   */
+  const merge = useCallback((incoming: TrackingEntry[]): ImportResult => {
+    const cur = loadList();
+    const out = [...cur];
+    let imported = 0;
+    let merged = 0;
+
+    const activeIdxByTicker: Record<string, number> = {};
+    out.forEach((e, i) => {
+      if (!e.exited) activeIdxByTicker[e.ticker] = i;
+    });
+
+    const exitedKey = (e: TrackingEntry) =>
+      `${e.ticker}|${e.added_date}|${e.exit_date ?? ""}`;
+    const exitedSet = new Set(
+      out.filter((e) => e.exited).map(exitedKey),
+    );
+
+    for (const inc of incoming) {
+      if (inc.exited) {
+        if (exitedSet.has(exitedKey(inc))) continue;
+        out.push(inc);
+        imported += 1;
+        continue;
+      }
+      const existingIdx = activeIdxByTicker[inc.ticker];
+      if (existingIdx === undefined) {
+        out.push(inc);
+        imported += 1;
+      } else {
+        const cur = out[existingIdx];
+        out[existingIdx] = {
+          ...cur,
+          added_date:
+            cur.added_date < inc.added_date ? cur.added_date : inc.added_date,
+          entry_price:
+            cur.added_date < inc.added_date ? cur.entry_price : inc.entry_price,
+          high_since_add: Math.max(cur.high_since_add, inc.high_since_add),
+          company: cur.company ?? inc.company,
+          market: cur.market ?? inc.market,
+          sector: cur.sector ?? inc.sector,
+          user_note: cur.user_note ?? inc.user_note,
+        };
+        merged += 1;
+      }
+    }
+    saveList(out);
+    setList(out);
+    broadcast();
+    return { ok: true, imported, merged };
+  }, []);
+
+  const replaceAll = useCallback((incoming: TrackingEntry[]): ImportResult => {
+    saveList(incoming);
+    setList(incoming);
+    broadcast();
+    return { ok: true, imported: incoming.length, merged: 0 };
+  }, []);
+
   const isTracking = useCallback(
     (ticker: string) => list.some((e) => e.ticker === ticker && !e.exited),
     [list],
@@ -213,6 +281,8 @@ export function useTracking() {
     updateHighs,
     clearAll,
     isTracking,
+    merge,
+    replaceAll,
   };
 }
 
@@ -234,17 +304,106 @@ export function computeDrawdown(high: number, current: number): number {
   return (current / high - 1) * 100;
 }
 
-// Backtest-aligned thresholds: drawdown -15%, no RS / absent-day equivalent
-// possible client-side because we don't know if the screener still flags it.
-// We surface ON_TRACK / WARNING signals only.
-export type TrackStatus = "ON_TRACK" | "WARNING" | "EXITED";
+// Backtest-aligned thresholds, two-step.
+//   ON_TRACK       — ret ≥ 0% AND drawdown ≥ -7%
+//   EARLY_WARNING  — small loss / minor drawdown (yellow)
+//   CRITICAL       — backtest-grade breakdown: ret ≤ -7% OR drawdown ≤ -15%
+//   EXITED         — manual exit, frozen
+//
+// Grace period: within GRACE_DAYS of added_date, EARLY_WARNING is suppressed
+// (early noise doesn't trigger an alert); CRITICAL still fires on real
+// breakdowns. Aligned with the backtest EX1 stop -8% and EX5 trailing -15%.
+export type TrackStatus =
+  | "ON_TRACK"
+  | "EARLY_WARNING"
+  | "CRITICAL"
+  | "EXITED";
+
+export const GRACE_DAYS = 5;
+export const EARLY_WARNING_RETURN_PCT = 0;
+export const EARLY_WARNING_DRAWDOWN_PCT = -7;
+export const CRITICAL_RETURN_PCT = -7;
+export const CRITICAL_DRAWDOWN_PCT = -15;
 
 export function computeStatus(
   ret: number,
   drawdown: number,
   exited: boolean,
+  daysHeld: number = 999,
 ): TrackStatus {
   if (exited) return "EXITED";
-  if (ret < 0 || drawdown < -15) return "WARNING";
+  if (ret <= CRITICAL_RETURN_PCT || drawdown <= CRITICAL_DRAWDOWN_PCT) {
+    return "CRITICAL";
+  }
+  if (daysHeld < GRACE_DAYS) return "ON_TRACK";
+  if (ret < EARLY_WARNING_RETURN_PCT || drawdown < EARLY_WARNING_DRAWDOWN_PCT) {
+    return "EARLY_WARNING";
+  }
   return "ON_TRACK";
+}
+
+// ---- import / export helpers (cross-device transfer stopgap) ---------------
+
+export type TrackingExport = {
+  $schema: "vcp-tracking.v1";
+  exported_at: string;
+  count: number;
+  entries: TrackingEntry[];
+};
+
+export function buildExport(list: TrackingEntry[]): TrackingExport {
+  return {
+    $schema: "vcp-tracking.v1",
+    exported_at: new Date().toISOString(),
+    count: list.length,
+    entries: list,
+  };
+}
+
+export type ImportResult = {
+  ok: boolean;
+  imported?: number;
+  merged?: number;
+  reason?: string;
+};
+
+/**
+ * Parse + validate an exported tracking JSON. Returns the entries array on
+ * success, or a reason string on failure. Strict: rejects unknown $schema
+ * or missing required fields per entry.
+ */
+export function parseImport(raw: string):
+  | { ok: true; entries: TrackingEntry[] }
+  | { ok: false; reason: string } {
+  let data: unknown;
+  try {
+    data = JSON.parse(raw);
+  } catch {
+    return { ok: false, reason: "invalid JSON" };
+  }
+  if (!data || typeof data !== "object") {
+    return { ok: false, reason: "not a tracking export object" };
+  }
+  const obj = data as { $schema?: string; entries?: unknown };
+  if (obj.$schema !== "vcp-tracking.v1") {
+    return { ok: false, reason: `unknown schema: ${obj.$schema ?? "missing"}` };
+  }
+  if (!Array.isArray(obj.entries)) {
+    return { ok: false, reason: "entries is not an array" };
+  }
+  const out: TrackingEntry[] = [];
+  for (const e of obj.entries) {
+    if (
+      !e ||
+      typeof e !== "object" ||
+      typeof (e as TrackingEntry).ticker !== "string" ||
+      typeof (e as TrackingEntry).added_date !== "string" ||
+      typeof (e as TrackingEntry).entry_price !== "number" ||
+      typeof (e as TrackingEntry).high_since_add !== "number"
+    ) {
+      continue;
+    }
+    out.push(e as TrackingEntry);
+  }
+  return { ok: true, entries: out };
 }

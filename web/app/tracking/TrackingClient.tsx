@@ -4,10 +4,12 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useLivePrices, fmtLiveTime } from "../lib/useLivePrices";
 import {
+  buildExport,
   computeDrawdown,
   computeReturn,
   computeStatus,
   daysBetween,
+  parseImport,
   useTracking,
   type TrackingEntry,
   type TrackStatus,
@@ -25,13 +27,15 @@ type SortKey =
 
 const STATUS_STYLES: Record<TrackStatus, string> = {
   ON_TRACK: "bg-emerald-500/20 text-emerald-400",
-  WARNING: "bg-yellow-500/20 text-yellow-400",
+  EARLY_WARNING: "bg-yellow-500/20 text-yellow-400",
+  CRITICAL: "bg-red-500/20 text-red-400",
   EXITED: "bg-border text-muted",
 };
 
 const STATUS_LABEL: Record<TrackStatus, string> = {
   ON_TRACK: "On Track",
-  WARNING: "Warning",
+  EARLY_WARNING: "Warning",
+  CRITICAL: "Critical",
   EXITED: "Exited",
 };
 
@@ -55,7 +59,10 @@ export default function TrackingClient() {
     reactivate,
     updateHighs,
     clearAll,
+    merge,
+    replaceAll,
   } = useTracking();
+  const [importMsg, setImportMsg] = useState<string | null>(null);
 
   const tickers = useMemo(
     () => list.filter((e) => !e.exited).map((e) => e.ticker),
@@ -107,7 +114,10 @@ export default function TrackingClient() {
       const days = e.exited
         ? daysBetween(e.added_date, e.exit_date ?? today)
         : daysBetween(e.added_date, today);
-      const status = computeStatus(ret, drawdown, !!e.exited);
+      const daysHeld = e.exited
+        ? daysBetween(e.added_date, e.exit_date ?? today)
+        : daysBetween(e.added_date, today);
+      const status = computeStatus(ret, drawdown, !!e.exited, daysHeld);
       return {
         ...e,
         current,
@@ -157,6 +167,54 @@ export default function TrackingClient() {
       setSortKey(k);
       setSortDir(k === "ticker" || k === "added_date" ? "asc" : "desc");
     }
+  }
+
+  function exportJson() {
+    const payload = buildExport(list);
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {
+      type: "application/json",
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `tracking-${today}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function importJson(mode: "merge" | "replace") {
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "application/json,.json";
+    input.onchange = async () => {
+      const file = input.files?.[0];
+      if (!file) return;
+      const raw = await file.text();
+      const parsed = parseImport(raw);
+      if (!parsed.ok) {
+        setImportMsg(`Import failed: ${parsed.reason}`);
+        setTimeout(() => setImportMsg(null), 4000);
+        return;
+      }
+      if (mode === "replace") {
+        if (
+          !confirm(
+            `Replace ${list.length} existing entries with ${parsed.entries.length} from file? This cannot be undone.`,
+          )
+        ) {
+          return;
+        }
+        const r = replaceAll(parsed.entries);
+        setImportMsg(`Replaced — ${r.imported} entries loaded`);
+      } else {
+        const r = merge(parsed.entries);
+        setImportMsg(
+          `Merged — ${r.imported} new, ${r.merged} updated`,
+        );
+      }
+      setTimeout(() => setImportMsg(null), 4000);
+    };
+    input.click();
   }
 
   function exportCsv() {
@@ -276,6 +334,28 @@ export default function TrackingClient() {
           >
             Export CSV
           </button>
+          <button
+            onClick={exportJson}
+            disabled={rows.length === 0}
+            title="다른 기기로 옮기려면 JSON 내보내기 → 그 기기에서 Import"
+            className="text-[11px] px-3 py-1.5 rounded border border-border text-muted hover:text-accent hover:border-accent/40 transition disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            Export JSON
+          </button>
+          <button
+            onClick={() => importJson("merge")}
+            title="기존 항목과 병합 — 같은 ticker는 가장 이른 added_date + 최대 high_since_add 유지"
+            className="text-[11px] px-3 py-1.5 rounded border border-border text-muted hover:text-accent hover:border-accent/40 transition"
+          >
+            Import (Merge)
+          </button>
+          <button
+            onClick={() => importJson("replace")}
+            title="기존 목록 전부 교체"
+            className="text-[11px] px-3 py-1.5 rounded border border-border text-muted hover:text-red-400 hover:border-red-400/40 transition"
+          >
+            Import (Replace)
+          </button>
           {rows.length > 0 && (
             <ConfirmButton
               label="Clear All"
@@ -286,6 +366,11 @@ export default function TrackingClient() {
           )}
         </div>
       </div>
+      {importMsg && (
+        <div className="mb-3 text-[11px] px-3 py-2 rounded border border-accent/30 bg-accent/10 text-accent">
+          {importMsg}
+        </div>
+      )}
 
       {/* Live indicator */}
       {tickers.length > 0 && (

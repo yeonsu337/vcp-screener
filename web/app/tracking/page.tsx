@@ -31,12 +31,28 @@ export default function TrackingPage() {
 
       <TrackingClient />
 
-      <footer className="mt-12 pt-6 border-t border-border text-xs text-muted leading-relaxed">
+      <footer className="mt-12 pt-6 border-t border-border text-xs text-muted leading-relaxed space-y-2">
         <p>
-          Stored client-side (localStorage). Returns computed entry → live
-          (falling back to last close). Status uses the same drawdown
-          threshold as the backtest (Warning if return &lt; 0 or drawdown
-          from high &lt; −15%). Not investment advice.
+          <span className="font-semibold text-muted">Status thresholds</span>:
+          {" "}
+          <span className="text-emerald-400">On Track</span> ret ≥ 0% AND
+          drawdown ≥ -7%
+          {" · "}
+          <span className="text-yellow-400">Warning</span> ret &lt; 0% OR
+          drawdown &lt; -7% (after 5-day grace)
+          {" · "}
+          <span className="text-red-400">Critical</span> ret ≤ -7% OR drawdown
+          ≤ -15% (backtest EX1/EX5 aligned)
+          {" · "}
+          <span>Exited</span> manual exit, frozen.
+        </p>
+        <p>
+          <span className="font-semibold text-muted">Cross-device sync</span>:
+          Stored client-side (localStorage), not synced across devices. Use
+          <span className="text-accent"> Export JSON</span> on one device
+          and <span className="text-accent">Import (Merge)</span> on
+          another to transfer your list. Merge keeps the earliest entry
+          date + highest seen price per ticker. Not investment advice.
         </p>
       </footer>
     </main>
