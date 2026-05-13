@@ -1469,7 +1469,7 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     recent = [(p[1] - p[3]) / p[1] for p in recent_pairs]
     n = len(recent)
 
-    tightening = all(recent[i] <= recent[i - 1] * 1.10 for i in range(1, n))
+    tightening = all(recent[i] <= recent[i - 1] * 1.0 for i in range(1, n))
     last_pct = recent[-1] * 100
 
     base_peaks = [p[1] for p in recent_pairs]
@@ -1534,11 +1534,13 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
     dryup_ranges = _detect_dryup_ranges(df, base_start_pos)
 
     # Detection requires: VCP pattern criteria + Stage 2
+    t1_depth_pct = recent[0] * 100 if n >= 1 else 0.0
     detected = (
         tightening
         and n >= 2
-        and last_pct < 10.0
-        and vol_ratio < 0.6
+        and t1_depth_pct >= 8.0
+        and last_pct < 12.0
+        and vol_ratio < 0.7
         and pct_to_pivot > -12.0
         and (base_depth_pct == base_depth_pct and base_depth_pct <= 35.0)
         and stage == 2
