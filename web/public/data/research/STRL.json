@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-12T02:14:52.207638+00:00",
+  "generated_at": "2026-05-13T00:19:59.686085+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26640930816,
+    "market_cap": 26124486656,
     "shares_outstanding": 30685954,
     "employees": 4400,
     "country": "United States",
@@ -123,20 +123,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 96,
-    "score": 71.8,
+    "rs_rating": 95,
+    "score": 69.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.5544,
-    "trailing_pe": 77.86368,
-    "forward_pe": 38.748158,
-    "ev_to_ebitda": 45.589,
-    "price_to_sales": 9.235012,
+    "trailing_pe": 76.01339,
+    "forward_pe": 37.99701,
+    "ev_to_ebitda": 44.699,
+    "price_to_sales": 9.055988,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 337.33,
-    "outperform_6m_vs_nasdaq": 109.4,
-    "outperform_1m_vs_nasdaq": 79.78,
+    "outperform_1y_vs_nasdaq": 333.48,
+    "outperform_6m_vs_nasdaq": 111.92,
+    "outperform_1m_vs_nasdaq": 72.94,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:35:06.075051+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:37:08.770264+00:00"
   }
 }

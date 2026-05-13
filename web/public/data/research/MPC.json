@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-05-12T00:35:56.637883+00:00",
+  "generated_at": "2026-05-13T00:37:29.270597+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 73708158976,
+    "market_cap": 73565118464,
     "shares_outstanding": 291936635,
     "employees": 18500,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 0.53
   },
   "category_a_business": {
-    "overview": "Marathon Petroleum Corporation은 자회사와 함께 미국에서 통합 다운스트림 에너지 회사로 운영됩니다. 회사는 세 가지 부문으로 운영됩니다: 정제 및 마케팅; 내의 한복판; 그리고 재생 가능한 디젤. 정유 및 마케팅 부문은 미국 걸프 연안, 중부 대륙 및 서부 연안 지역의 정유소에서 원유 및 기타 공급 원료를 정제합니다. 재판매를 위해 정제된 제품과 에탄올을 구매하고 운송, 보관, 유통, 마케팅 서비스를 통해 정제된 제품을 유통합니다.",
-    "business_model": "Marathon Petroleum Corporation은 자회사와 함께 미국에서 통합 다운스트림 에너지 회사로 운영됩니다.",
+    "overview": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States. The company operates through three segments: Refining & Marketing; Midstream; and Renewable Diesel. The Refining & Marketing segment refines crude oil and other feedstocks at its refineries in the Gulf Coast, Mid-Continent, and West Coast regions of the United States; and purchases refined products and ethanol for resale and distributes refined products through transportation, storage, distribution, and marketing services.",
+    "business_model": "Marathon Petroleum Corporation, together with its subsidiaries, operates as an integrated downstream energy company in the United States.",
     "products": [
-      "미국의 통합 다운스트림 에너지 회사로서",
-      "세 가지 부문을 통해: 정제 및 마케팅",
-      "프로판과 석유화학제품",
-      "미국 및 국제 도매 마케팅 고객, 현물 시장의 구매자에게 정제된 제품을",
-      "도매 마케팅 고객, 현물 시장 구매자, 장기 공급 계약을 통해 재생 디젤을 공급합니다."
+      "as an integrated downstream energy company in the United States",
+      "through three segments: Refining & Marketing",
+      "propane and petrochemicals",
+      "refined products to wholesale marketing customers in the United States and internationally, buyers on the spot market,",
+      "renewable diesel to wholesale marketing customers, buyers on the spot market, and through long-term supply contracts to"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Marathon Petroleum Corporation은 오하이오 주 핀들레이에 본사를 둔 미국의 석유 정제, 마케팅 및 운송 회사입니다. 이 회사는 2011년 분사 전까지 Marathon Oil의 전액 출자 자회사였습니다."
+    "wikipedia_excerpt": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -39,7 +39,7 @@
     "gross_margin": 0.11,
     "revenue_growth_ttm": 0.09,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.6,
+    "dividend_yield": 1.55,
     "payout_ratio": 0.25,
     "annual_revenue": [
       132699000000.0,
@@ -131,51 +131,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 79,
-    "score": 64.1,
+    "score": 64.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.9459,
-    "trailing_pe": 16.63241,
-    "forward_pe": 11.767722,
-    "ev_to_ebitda": 10.973,
-    "price_to_sales": 0.54218704,
+    "trailing_pe": 16.57829,
+    "forward_pe": 11.7448845,
+    "ev_to_ebitda": 10.959,
+    "price_to_sales": 0.54113483,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.41,
-    "outperform_6m_vs_nasdaq": 18.36,
-    "outperform_1m_vs_nasdaq": -1.31,
+    "outperform_1y_vs_nasdaq": 25.08,
+    "outperform_6m_vs_nasdaq": 17.96,
+    "outperform_1m_vs_nasdaq": -0.68,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "당사의 사업, 재무 상태, 영업 결과 및 현금 흐름은 이러한 위험으로 인해 실질적이고 부정적인 영향을 받을 수 있으며, 결과적으로 당사 보통주의 거래 가격이 하락할 수 있습니다.",
+        "description": "Our business, financial condition, results of operations and cash flows could be materially and adversely affected by these risks, and, as a result, the trading price of our common stock could decline.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 운영은 사업 중단의 대상이 될 수 있으며, 당사의 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있는 고유한 위험과 위험을 내재하고 있습니다.",
+        "description": "Our operations are subject to business interruptions and present inherent hazards and risks, which could adversely impact our results of operations and financial condition.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사와 당사의 제3자 공급업체 및 서비스 제공업체는 다양한 수준의 사이버 보안 사건 및 사건을 겪어왔고 앞으로도 그럴 수 있습니다.",
+        "description": "We and our third-party vendors and service providers have been and may in the future be subject to cybersecurity events and incidents of varying degrees.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "기존 및 잠재적 미래 데이터 개인 정보 보호법은 규정 준수, 모니터링 및 통제 의무를 점점 더 복잡하게 만들고 잠재적으로 비용과 위험 노출을 증가시킬 수 있습니다.",
+        "description": "Existing and potential future data privacy laws pose increasingly complex compliance, monitoring and control obligations and could potentially elevate our costs and risk exposure.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "인공 지능 기술을 프로세스에 통합하면 이러한 기술로 인해 비즈니스, 규정 준수 및 평판 위험이 발생할 수 있습니다.",
+        "description": "As we integrate artificial intelligence technologies into our processes, these technologies may present business, compliance and reputational risks.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "내부적으로 개발했든 타사 서비스 제공업체를 통해 조달했든 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
+        "description": "Our integration of these technologies, whether developed internally or procured through our third-party service providers, into our processes may result in new or expanded risks and liabilities.",
         "severity": "medium"
       }
     ],
@@ -186,8 +186,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:33:19.944418+00:00"
-  }
+  "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011."
 }

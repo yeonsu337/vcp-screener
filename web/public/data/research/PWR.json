@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-12T02:13:50.108601+00:00",
+  "generated_at": "2026-05-13T00:22:03.096576+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 117253996544,
+    "market_cap": 114917556224,
     "shares_outstanding": 150060149,
     "employees": 69500,
     "country": "United States",
@@ -124,19 +124,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 87.7,
-    "vcp_quality": 15.6,
+    "score": 84.2,
+    "vcp_quality": 14.2,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.0389,
-    "trailing_pe": 107.03835,
-    "forward_pe": 47.630398,
-    "ev_to_ebitda": 46.371,
-    "price_to_sales": 3.8927462,
+    "trailing_pe": 105.33838,
+    "forward_pe": 46.6813,
+    "ev_to_ebitda": 45.493,
+    "price_to_sales": 3.8151782,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 93.18,
-    "outperform_6m_vs_nasdaq": 62.54,
-    "outperform_1m_vs_nasdaq": 18.77,
+    "outperform_1y_vs_nasdaq": 89.71,
+    "outperform_6m_vs_nasdaq": 58.76,
+    "outperform_1m_vs_nasdaq": 16.0,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -158,7 +158,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "규제 및 규정 준수와 관련된 위험 • 당사 사업에 적용되는 규제 요건 및 해당 요건과 관련된 잠재적인 변경 사항은 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "규제 및 규정 준수와 관련된 위험 • 우리 사업에 적용되는 규제 요건과 그러한 요건과 관련된 잠재적인 변화는 우리 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "{{Multiple issues|",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:34:22.311694+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:36:57.181934+00:00"
   }
 }

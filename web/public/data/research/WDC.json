@@ -1,0 +1,180 @@
+{
+  "ticker": "WDC",
+  "company": "Western Digital Corporation",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "generated_at": "2026-05-13T00:12:22.178066+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 168459943936,
+    "shares_outstanding": 344682131,
+    "employees": 40000,
+    "country": "United States",
+    "website": "https://www.westerndigital.com",
+    "beta": 2.158
+  },
+  "category_a_business": {
+    "overview": "WDC는 1970년 설립된 글로벌 데이터 스토리지 기업으로, HDD 기술 기반의 저장 장치 및 솔루션을 개발, 제조, 판매합니다.",
+    "milestones": [
+      "1970년: Western Digital Corporation 설립",
+      "2016: SanDisk 인수 (플래시 사업 확장)",
+      "2025: HDD 사업부와 Flash 사업부 분사 완료 (Western Digital은 HDD에 집중)",
+      "현재: AI 시대 데이터 증가에 맞춰 클라우드 및 엔터프라이즈용 HDD 공급 주력"
+    ],
+    "business_model": "HDD 기술 기반의 데이터 저장 장치 및 솔루션을 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "클라우드 데이터센터용 HDD",
+      "엔터프라이즈 스토리지 시스템용 HDD",
+      "클라이언트(PC/노트북)용 HDD",
+      "소비자용 외장 HDD",
+      "데이터센터 플랫폼"
+    ],
+    "value_chain_position": "Midstream / Downstream + HDD 기술 개발, 제조 및 최종 제품/솔루션 공급까지 담당합니다.",
+    "products": [
+      "내부 HDD(내장형 HDD)",
+      "데이터센터 드라이브 (Data Center Drives)",
+      "외장 드라이브 (External Drives)",
+      "NAS(네트워크 연결 스토리지)",
+      "데이터센터 플랫폼"
+    ],
+    "channels": [
+      "컴퓨터 제조업체 (OEM)",
+      "딜러",
+      "유통업체",
+      "소매업체",
+      "직접 판매 (Sales Personnel)"
+    ],
+    "key_customers": "주로 클라우드 서비스 제공업체, 엔터프라이즈 고객, PC 제조업체 및 일반 소비자로 구성됩니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 516.3,
+    "sales_yoy_pct": 45.5,
+    "ni_cagr_3y_pct": 6.38,
+    "roe_pct": 85.92
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "2023년 기준 약 20-25 billion USD (HDD 시장 추정치, Western Digital은 플래시 사업부 분사 후 HDD에 집중)",
+    "tam_cagr_pct": "3-5% (AI 시대 데이터 생성 가속화 및 대용량 데이터 저장 수요 증가, HDD의 경제성 및 신뢰성 기반)",
+    "growth_drivers": [
+      "AI 및 신흥 애플리케이션으로 인한 전 세계 데이터 생성 및 저장 수요 폭증",
+      "클라우드 데이터 센터 및 하이퍼스케일 시장의 대용량, 고효율 스토리지 요구 증대",
+      "엣지 컴퓨팅 및 비디오 감시 시스템 등 다양한 애플리케이션에서의 HDD 활용 확대",
+      "HDD의 낮은 TCO(총 소유 비용)로 인한 대규모 데이터 저장 솔루션으로서의 지속적인 선호"
+    ],
+    "market_share_pct": "30-40% estimate (상위 2-3개 업체 중 하나로, 플래시 사업 분사 후 HDD 시장에 집중)",
+    "competitors": [
+      {
+        "name": "Seagate Technology",
+        "differentiation": "클라우드 및 엔터프라이즈 시장에 특화된 고용량 HDD 솔루션 제공, 독점적인 HAMR 기술 개발"
+      },
+      {
+        "name": "Toshiba Corporation (HDD 사업부)",
+        "differentiation": "다양한 용량대의 HDD 제품군 보유, 산업용 및 특수 목적 시장에서의 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (HDD 기술 개발 및 생산에 막대한 자본 투자와 고도의 기술력 필요, 기존 플레이어들의 강력한 시장 지배력)",
+      "substitutes": "medium (SSD/NAND 플래시 기술의 발전과 가격 하락으로 일부 시장에서 대체 가능성 존재하나, 대용량/저비용 저장에서는 HDD가 여전히 우위)",
+      "buyer_power": "medium (클라우드 서비스 제공업체 등 대형 구매자들은 가격 협상력이 높으나, HDD 공급업체 수가 제한적임)",
+      "supplier_power": "medium (주요 부품 공급업체는 제한적이나, HDD 제조사들도 규모의 경제를 통해 협상력 확보)",
+      "rivalry": "high (소수의 대형 플레이어들이 시장을 지배하며, 기술 혁신, 가격 경쟁, 시장 점유율 확보를 위한 치열한 경쟁)"
+    },
+    "competitive_advantages": [
+      "HDD 기술 개발 및 제조 분야의 오랜 역사와 깊은 산업 지식",
+      "클라우드, 엔터프라이즈, 클라이언트, 컨슈머를 아우르는 광범위한 제품 포트폴리오",
+      "업계 리더들과의 깊은 고객 관계 및 혁신적인 솔루션 제공 능력",
+      "대규모 데이터 저장에 가장 경제적인 솔루션으로서의 HDD 기술 리더십"
+    ],
+    "competitive_weaknesses": [
+      "SSD/NAND 플래시 기술 대비 속도 및 물리적 내구성 한계",
+      "플래시 사업부 분사로 인한 포트폴리오 다각화 기회 상실 (단기적 관점)",
+      "글로벌 경제 상황 및 공급망 변동에 따른 실적 영향 가능성",
+      "기술 혁신 및 R&D 투자에 대한 지속적인 압박"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 98,
+    "score": 69.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.4271,
+    "trailing_pe": 29.248356,
+    "forward_pe": 28.059704,
+    "ev_to_ebitda": 42.502,
+    "price_to_sales": 14.304147,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 967.53,
+    "outperform_6m_vs_nasdaq": 186.89,
+    "outperform_1m_vs_nasdaq": 27.05,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "WDC는 1970년에 설립된 S&P 500 기업으로, 데이터 저장 장치 및 솔루션 분야의 선두 개발, 제조업체이자 공급업체로서 오랜 업력과 시장 지위를 보유하고 있습니다.",
+      "WDC는 HDD 기술에 대한 깊이 있는 산업 지식과 광범위한 제품 포트폴리오를 바탕으로 클라우드, 엔터프라이즈, 엣지 컴퓨팅, 비디오 감시 등 다양한 애플리케이션에 필요한 안정적이고 비용 효율적인 고용량 스토리지 솔루션을 제공합니다.",
+      "WDC는 업계 선두 기업들과 깊은 관계를 구축하여 혁신적인 솔루션을 제공하며, 전 세계 데이터의 상당 부분이 WDC 제품에 저장되어 글로벌 기술 생태계의 핵심적인 역할을 수행하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2025년 2월 21일 HDD 및 Flash 사업부 분사 완료로 각 사업부의 혁신 및 성장에 집중",
+    "bull_case": "AI 시대 데이터 폭증으로 HDD 수요 급증, 분사 효과로 효율성 및 수익성 개선, 시장 점유율 확대",
+    "base_case": "AI 및 클라우드 데이터 증가에 따라 HDD 수요는 꾸준히 성장할 것이며, WDC는 분사를 통해 핵심 HDD 사업에 집중하여 시장 리더십을 유지하고 안정적인 성장을 이어갈 것입니다. 다만, Flash 기술과의 경쟁 심화는 잠재적 위험 요인입니다.",
+    "bear_case": "Flash 기술의 발전 및 가격 하락으로 HDD 시장이 예상보다 빠르게 위축되거나, 글로벌 경기 침체로 클라우드 투자 둔화 시 WDC의 매출 및 수익성에 부정적인 영향이 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "클라우드 부문 매출 성장률",
+      "HDD 평균 판매 가격 (ASP)",
+      "연구 개발 투자 및 신기술 개발 현황",
+      "총 마진율 (Gross Margin)"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "글로벌 및 지역 경제, 사회적 조건의 악화(금융 시장 변동성, 경기 침체, 인플레이션, 지정학적 긴장 등)는 제품 수요 감소, 수익성 악화, 운영 비용 증가를 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "미국 무역 정책의 변화, 관세 부과 및 보복 조치는 제품 수입 비용 증가, 공급망 혼란, 제품 수요 감소, 재무 시장 변동성 증가로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "핵심 서비스, 재료, 부품을 제공하는 제한된 수의 공급업체에 대한 의존도가 높아, 공급망 중단(무역 제한, 지정학적 분쟁, 자연재해 등) 발생 시 제품 생산 및 수요 충족에 어려움을 겪을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "해외 사업 운영 시 다양한 국가의 정부 승인, 규제 준수(해외 부패 방지법, 뇌물 방지법 등), 지적 재산권 보호 문제에 직면할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동, 통화 및 세금 통제, 글로벌 및 현지 세금 시스템의 변화는 회사의 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "다른 고용량 산업의 재료 또는 부품 수요 증가는 WDC 제품에 사용되는 재료 및 부품의 공급 부족을 야기하여 경쟁 우위를 약화시킬 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 경기 침체와 무역 분쟁 심화로 제품 수요가 급감하고, 핵심 부품 공급망이 완전히 마비되어 생산이 불가능해지는 경우.",
+      "미국 정부의 대중국 반도체 규제가 극단적으로 강화되어 중국 시장 접근이 완전히 차단되고, 주요 생산 시설이 폐쇄되는 경우.",
+      "주요 공급업체가 파산하거나 핵심 기술 공급을 중단하여 WDC가 대체 공급처를 찾지 못하고 제품 생산을 지속할 수 없게 되는 경우."
+    ],
+    "exit_signals": [
+      "글로벌 경제 성장률이 지속적으로 마이너스를 기록하고, 주요 시장의 소비자 지출이 급격히 감소하는 발표.",
+      "미국 정부가 WDC의 주요 해외 생산 기지 또는 핵심 시장에 대한 전면적인 무역 제재를 발표하는 경우.",
+      "핵심 NAND 또는 HDD 부품의 단독 공급업체가 파산하거나, WDC와의 계약을 일방적으로 해지하여 생산에 치명적인 차질이 발생하는 경우."
+    ]
+  },
+  "wikipedia_summary": "Western Digital Corporation, doing business as WD, is an American data storage company headquartered in San Jose, California. Established in 1970, the company is one of the world's largest manufacturers of hard disk drives (HDDs).",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-13T00:37:31.976403+00:00"
+  }
+}

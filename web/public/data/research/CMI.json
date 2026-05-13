@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-12T00:32:50.756237+00:00",
+  "generated_at": "2026-05-13T00:29:15.343090+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 96959397888,
+    "market_cap": 97221582848,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.26,
     "revenue_growth_ttm": 0.03,
     "earnings_growth_ttm": -0.21,
-    "dividend_yield": 1.15,
+    "dividend_yield": 1.11,
     "payout_ratio": 0.41,
     "annual_revenue": [
       33670000000.0,
@@ -132,19 +132,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 85,
-    "score": 81.5,
-    "vcp_quality": 11.7,
+    "score": 82.0,
+    "vcp_quality": 11.8,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.6472,
-    "trailing_pe": 36.53978,
-    "forward_pe": 21.193209,
-    "ev_to_ebitda": 20.591,
-    "price_to_sales": 2.8606656,
+    "trailing_pe": 36.60052,
+    "forward_pe": 21.217737,
+    "ev_to_ebitda": 20.644,
+    "price_to_sales": 2.8684008,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 87.03,
-    "outperform_6m_vs_nasdaq": 39.03,
-    "outperform_1m_vs_nasdaq": -0.68,
+    "outperform_1y_vs_nasdaq": 88.48,
+    "outperform_6m_vs_nasdaq": 36.59,
+    "outperform_1m_vs_nasdaq": 1.43,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -189,6 +189,6 @@
   },
   "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:31:19.013386+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:35:55.965451+00:00"
   }
 }

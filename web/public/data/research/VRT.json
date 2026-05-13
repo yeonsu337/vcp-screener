@@ -4,30 +4,52 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Electrical Equipment & Parts",
-  "generated_at": "2026-05-08T00:01:12.149566+00:00",
+  "generated_at": "2026-05-13T00:11:05.700196+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 130600837120,
-    "shares_outstanding": 384108816,
-    "employees": 34000,
-    "country": "United States",
-    "website": "https://www.vertiv.com",
-    "beta": 2.099
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
   },
   "category_a_business": {
-    "overview": "Vertiv Holdings Co는 미주, 아시아 태평양, 유럽, 중동 및 아프리카의 데이터 센터, 통신 네트워크, 상업 및 산업 환경을 위한 중요한 디지털 인프라 기술과 수명 주기 서비스를 설계, 제조 및 서비스합니다. 이 회사는 AC 및 DC 전원 관리 제품, 저/중전압 스위치기어, 버스바, 열 관리 제품, 공냉식 및 액체 냉각식 열 관리 제품, 통합 모듈형 솔루션, 랙, 단상 UPS, 랙 배전, 랙 열 시스템, 구성 가능한 통합 솔루션,",
-    "business_model": "Vertiv Holdings Co는 데이터 센터, 통신 네트워크, 상업 및 산업 환경을 위한 중요한 디지털 인프라 기술과 수명 주기 서비스를 설계, 제조 및 서비스합니다.",
+    "overview": "VRT는 데이터 센터, 통신 네트워크, 상업 및 산업 환경을 위한 핵심 디지털 인프라 솔루션의 글로벌 리더입니다.",
+    "milestones": [
+      "1946: Ralph Liebert, Liebert Corporation의 전신 설립",
+      "1965: Liebert Corporation, 컴퓨터룸 에어컨 제조업체로 설립",
+      "1987: Liebert, Emerson Electric Co.에 인수",
+      "2000: Emerson Network Power 설립, 핵심 인프라 기술 통합",
+      "2016: Emerson Network Power, Vertiv로 구성",
+      "2020: Vertiv, SPAC 합병을 통해 NYSE 상장"
+    ],
+    "business_model": "핵심 디지털 인프라 기술 및 서비스를 설계, 제조, 판매, 설치, 유지보수하여 수익 창출",
+    "revenue_streams": [
+      "AC/DC 전력 관리 제품 판매",
+      "열 관리 제품 판매",
+      "통합 모듈형 솔루션 판매",
+      "IT 장비 관리 소프트웨어 판매",
+      "설치 및 유지보수 서비스",
+      "예측 분석 및 전문 서비스"
+    ],
+    "value_chain_position": "Midstream + 핵심 디지털 인프라 기술 및 솔루션을 설계, 제조, 판매, 설치, 유지보수합니다.",
     "products": [
-      "AC 및 DC 전력 관리 제품, 저/중 전압 개폐 장치, 버스바, 열 관리 제품, 공냉식",
-      "라이프사이클 관리 서비스, 예측 분석, 배포, 유지 관리 및 최적화를 위한 전문 서비스",
-      "주로 Vertiv, Liebert, NetSure, Geist, Energy Labs, ERS, Albér 및 Avocent 브랜드의 제품"
+      "AC/DC 전력 관리",
+      "열 관리 (공랭식, 액랭식)",
+      "저/중전압 개폐장치",
+      "통합 모듈형 솔루션",
+      "랙 및 랙 전력 분배 시스템",
+      "IT 관리 소프트웨어"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B",
+      "직접 판매",
+      "글로벌 서비스 네트워크"
     ],
-    "wikipedia_excerpt": "Vertiv Holdings Co.는 데이터 센터, 통신 네트워크, 상업 및 산업 환경을 위한 인프라 및 서비스를 제공하는 미국의 회사입니다."
+    "key_customers": "고객 집중도 낮음 (다양한 산업 및 지역에 걸쳐 분산)"
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 137.1,
@@ -36,33 +58,139 @@
     "roe_pct": 45.1
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 billion USD (추정, 데이터 센터 및 통신 인프라 시장 규모 기반)",
+    "tam_cagr_pct": "10-15% (추정) - AI, IoT, 5G 등 디지털 전환 가속화로 데이터 생성 및 처리량 폭증, 이에 따른 데이터 센터 및 통신 인프라 수요 증가가 성장을 견인할 것으로 예상됩니다.",
+    "growth_drivers": [
+      "AI 및 고성능 컴퓨팅 수요 증가: AI 워크로드 처리를 위한 고밀도, 고효율 전력 및 냉각 솔루션 수요 증가.",
+      "데이터 센터 확장 및 현대화: 클라우드, 엣지 컴퓨팅 확산에 따른 데이터 센터 구축 및 기존 인프라 업그레이드 필요성 증대.",
+      "5G 및 통신 네트워크 발전: 5G 네트워크 구축 및 확장에 필요한 통신 인프라 전력 및 냉각 솔루션 수요 증가.",
+      "에너지 효율성 및 지속 가능성 요구 증대: 데이터 센터 운영 비용 절감 및 환경 규제 준수를 위한 에너지 효율적인 솔루션 도입 가속화.",
+      "디지털 전환 가속화: 전 산업 분야의 디지털 전환으로 인한 IT 인프라 투자 확대."
+    ],
+    "market_share_pct": "10-15% (추정, 특정 제품군 및 지역에 따라 상이)",
+    "competitors": [
+      {
+        "name": "Eaton",
+        "differentiation": "광범위한 전력 관리 포트폴리오 (UPS, 배전, 스위치기어 등)와 산업용 솔루션 강점."
+      },
+      {
+        "name": "Schneider Electric",
+        "differentiation": "데이터 센터 인프라 관리(DCIM) 소프트웨어 및 통합 솔루션, 에너지 관리 분야의 강점."
+      },
+      {
+        "name": "ABB",
+        "differentiation": "산업 자동화 및 전력 기술 분야의 오랜 역사와 광범위한 포트폴리오, 글로벌 서비스 네트워크."
+      },
+      {
+        "name": "Legrand",
+        "differentiation": "랙, PDU 등 데이터 센터 물리적 인프라 솔루션 및 빌딩 인프라 솔루션에 강점."
+      },
+      {
+        "name": "Rittal",
+        "differentiation": "인클로저, 랙 시스템, 냉각 솔루션 등 IT 인프라 물리적 보호 및 관리 솔루션 전문성."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 초기 투자 비용과 기술 전문성이 높지만, 특정 틈새시장 진입은 가능하며, 대기업의 시장 진입 가능성도 존재합니다.",
+      "substitutes": "low - 데이터 센터 및 통신 인프라의 핵심 기능을 대체할 수 있는 직접적인 대체재는 거의 없으나, 클라우드 서비스로의 전환 등 간접적인 대체 효과는 존재합니다.",
+      "buyer_power": "medium - 대규모 고객(하이퍼스케일 데이터 센터, 통신사)의 경우 구매력이 높지만, Vertiv의 전문성과 통합 솔루션 제공 능력으로 인해 협상력이 상쇄됩니다.",
+      "supplier_power": "medium - 핵심 부품 및 기술 공급업체에 대한 의존도가 존재하며, 공급망 불안정 시 영향이 있을 수 있습니다.",
+      "rivalry": "high - 다수의 글로벌 기업들이 경쟁하며, 기술 혁신, 가격 경쟁, 서비스 차별화를 통한 경쟁이 치열합니다."
+    },
     "competitive_advantages": [
-      "Industrials / Electrical Equipment & Parts 카테고리 — yfinance peer 비교 권장"
+      "광범위한 제품 포트폴리오: AC/DC 전력 관리, 열 관리, 통합 모듈형 솔루션 등 엔드-투-엔드 솔루션 제공 능력.",
+      "글로벌 서비스 네트워크: 40개국 이상에 걸친 엔지니어링, 제조, 영업 및 서비스 거점을 통한 글로벌 고객 지원.",
+      "혁신적인 기술 리더십: AI 컴퓨팅을 위한 차세대 랙 스케일 설계 등 시장 선도적인 기술 개발 능력.",
+      "오랜 업력 및 전문성: 1946년부터 시작된 정보화 시대의 경험과 전문성을 바탕으로 한 신뢰성.",
+      "맞춤형 솔루션 제공: 고객의 특정 요구사항에 맞춰 신속하게 배포 가능한 맞춤형 솔루션 설계 및 제공."
+    ],
+    "competitive_weaknesses": [
+      "경기 변동 및 고객 투자에 대한 의존성: 데이터 센터 및 통신 인프라 투자가 감소할 경우 실적에 부정적인 영향.",
+      "장기 판매 주기 및 주문 변동성: 특정 제품 및 솔루션의 판매 주기가 길고, 대규모 주문의 예측 불확실성.",
+      "치열한 시장 경쟁: 다수의 글로벌 경쟁사들과의 가격 및 기술 경쟁 심화.",
+      "공급망 리스크: 글로벌 공급망의 복잡성 및 특정 부품 공급에 대한 의존성으로 인한 리스크."
     ]
   },
   "category_d_thesis": {
     "rs_rating": 94,
-    "score": 68.3,
+    "score": 73.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6592,
-    "trailing_pe": 85.42965,
-    "forward_pe": 39.47807,
-    "ev_to_ebitda": 58.174,
-    "price_to_sales": 12.04427,
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 218.29,
-    "outperform_6m_vs_nasdaq": 77.63,
-    "outperform_1m_vs_nasdaq": 6.98,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 245.29,
+    "outperform_6m_vs_nasdaq": 90.91,
+    "outperform_1m_vs_nasdaq": 9.86,
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Vertiv는 1946년 Liebert Corporation의 전신으로 시작하여 1965년 업계 최초의 컴퓨터실 에어컨 제조업체로 설립된 오랜 역사와 기술적 선도력을 보유하고 있습니다.",
+      "Vertiv는 데이터 센터, 통신 네트워크, 상업 및 산업 환경 애플리케이션을 위한 핵심 디지털 인프라 분야의 글로벌 리더로서 광범위한 포트폴리오와 글로벌 서비스 네트워크를 통해 강력한 브랜드 인지도를 구축하고 있습니다.",
+      "Vertiv는 차세대 랙 스케일 AI 컴퓨팅을 위한 'first-to-market' 디자인을 통해 기술 혁신을 주도하며, 고객이 여러 컴퓨팅 세대에서 앞서나갈 수 있도록 지원하는 독점적인 기술력을 보유하고 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "AI 컴퓨팅 수요 급증에 따른 차세대 랙 스케일 냉각 솔루션 시장 선점",
+    "bull_case": "AI 및 데이터 센터 시장의 폭발적 성장으로 Vertiv의 핵심 인프라 솔루션 수요가 급증하며 매출과 이익이 크게 증가할 것입니다.",
+    "base_case": "데이터 센터 및 AI 인프라 시장의 꾸준한 성장에 힘입어 Vertiv는 핵심 기술 리더십을 유지하며 안정적인 매출 성장과 수익성을 기록할 것입니다.",
+    "bear_case": "글로벌 경기 침체, AI 투자 둔화, 경쟁 심화로 인해 Vertiv의 제품 수요가 감소하고 마진 압박이 심화되어 실적 부진을 겪을 수 있습니다.",
+    "key_metrics_to_watch": [
+      "데이터 센터 및 AI 관련 신규 수주액",
+      "매출총이익률 (Gross Margin)",
+      "연구 개발 투자 비중",
+      "글로벌 시장 점유율 변화",
+      "현금 흐름 (Free Cash Flow)"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Vertiv Holdings Co. is an American provider of infrastructure and services for data centers, communication networks, and commercial and industrial environments.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "VRT는 데이터센터 인프라 시장에서 경쟁이 심화되고 있으며, 이는 가격 압박과 시장 점유율 하락으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 불안정성 또는 주요 부품 공급업체와의 문제 발생 시 제품 생산 및 납품에 차질이 생겨 매출에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "데이터 프라이버시, 환경 규제 등 관련 법규 및 규정의 변경은 VRT의 운영 비용을 증가시키거나 사업 모델에 제약을 가할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "경기 침체 또는 고객사의 IT 투자 감소는 VRT의 제품 및 서비스 수요를 위축시켜 매출 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "핵심 인력의 유출 또는 경영진의 전략적 판단 오류는 VRT의 장기적인 성장 동력을 약화시키고 경쟁력을 저하시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제의 불확실성, 지정학적 리스크 증가는 VRT의 해외 시장 확장 및 운영에 예측 불가능한 위험을 초래할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 경쟁사들이 혁신적인 기술로 시장을 장악하고 VRT의 제품이 구식이 되어 매출이 급감하는 시나리오.",
+      "글로벌 공급망 붕괴로 핵심 부품 조달이 불가능해져 제품 생산이 전면 중단되고 고객 신뢰를 잃는 시나리오.",
+      "대규모 데이터 유출 사고 또는 보안 취약점 노출로 고객들이 대거 이탈하고 브랜드 이미지가 치명적으로 손상되는 시나리오."
+    ],
+    "exit_signals": [
+      "VRT의 시장 점유율이 3분기 연속 하락하고 신규 수주액이 예상치를 크게 밑도는 경우.",
+      "주요 경쟁사가 VRT의 핵심 기술을 능가하는 혁신적인 제품을 출시하여 시장 판도를 바꾸는 경우.",
+      "핵심 경영진 또는 기술 인력의 대규모 이탈이 발생하고 후속 인력 충원이 지연되는 경우."
+    ]
+  },
+  "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:35:25.140969+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:37:27.611551+00:00"
   }
 }

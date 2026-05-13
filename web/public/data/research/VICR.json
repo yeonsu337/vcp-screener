@@ -4,128 +4,192 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-05-07T06:31:39.657642+00:00",
+  "generated_at": "2026-05-13T00:14:10.271333+00:00",
   "primary_passed": 13,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 12778292224,
+    "market_cap": 13333928960,
     "shares_outstanding": 33863689,
     "employees": 1092,
     "country": "United States",
     "website": "https://www.vicorpower.com",
     "beta": 2.341
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "빅코어는 모듈형 전력 부품 및 시스템을 설계, 개발, 제조, 판매하는 기업입니다.",
+    "milestones": [
+      "1981년: Vicor Corporation 설립",
+      "1980년대: 모듈형 DC-DC 컨버터 시장 개척",
+      "2000년대: Factorized Power Architecture (FPA) 개발 및 도입",
+      "2010년대: 고성능 Advanced Products 라인업 확장",
+      "현재: 전 세계적으로 전력 솔루션 제공"
+    ],
+    "business_model": "전력 변환 모듈 및 시스템 판매, 맞춤형 솔루션 제공, 라이선스 로열티 수취로 수익 창출",
+    "revenue_streams": [
+      "모듈형 전력 부품 판매",
+      "전력 시스템 판매",
+      "맞춤형 전력 솔루션",
+      "라이선스 및 로열티 수입"
+    ],
+    "value_chain_position": "Midstream + 전력 변환 기술을 기반으로 모듈 및 시스템을 제조하여 다양한 산업에 공급합니다.",
+    "products": [
+      "브릭 포맷 DC-DC 컨버터",
+      "AC 라인 정류 및 필터링 부품",
+      "첨단제품(FPA 기반)",
+      "Brick Products (기존 아키텍처 기반)",
+      "맞춤형 전력 시스템 솔루션"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "독립 전자 기기 제조업체, OEM, ODM 및 계약 제조업체 등 다양한 산업군의 고객을 보유하고 있으며, 특정 고객 집중도는 낮음"
+  },
   "category_b_financials": {
-    "roe": 0.2,
-    "roa": 0.05,
-    "profit_margin": 0.32,
-    "operating_margin": 0.15,
-    "gross_margin": 0.54,
-    "revenue_growth_ttm": 0.2,
-    "earnings_growth_ttm": 7.01,
-    "dividend_yield": null,
-    "payout_ratio": 0.0,
-    "annual_revenue": [
-      452701000.0,
-      359058000.0,
-      405059000.0,
-      399079000.0,
-      null
-    ],
-    "annual_operating_income": [
-      81828000.0,
-      18190000.0,
-      51358000.0,
-      33701000.0,
-      null
-    ],
-    "annual_eps": [
-      2.61,
-      0.14,
-      1.19,
-      0.57,
-      null
-    ],
-    "annual_free_cf": [
-      119230000.0,
-      27240000.0,
-      41076000.0,
-      -41027000.0,
-      null
-    ],
-    "annual_total_debt": [
-      7176000.0,
-      7336000.0,
-      8228000.0,
-      8459000.0,
-      null
-    ],
-    "annual_equity": [
-      711557000.0,
-      570071000.0,
-      540869000.0,
-      464088000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.44,
-      1.01,
-      0.63,
-      0.91,
-      0.06,
-      null
-    ],
-    "quarterly_revenue": [
-      null,
-      107264000.0,
-      110423000.0,
-      141046000.0,
-      93968000.0,
-      96166000.0
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
-    ],
     "eps_qoq_yoy_pct": 713.9,
     "sales_yoy_pct": 20.2,
     "ni_cagr_3y_pct": 67.02,
     "roe_pct": 20.49
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "20-30 (estimate, 전력 변환 및 관리 시장)",
+    "tam_cagr_pct": "8-12% (데이터 센터, AI, 전기차, 산업 자동화 등 고성장 최종 시장의 전력 효율 및 밀도 요구 증가에 기반)",
+    "growth_drivers": [
+      "데이터 센터 및 AI 가속기 수요 증가: 고성능 컴퓨팅을 위한 고밀도, 고효율 전력 솔루션 필요성 증대",
+      "전기차(EV) 및 자율주행 기술 발전: 차량 내 다양한 전력 요구사항 충족을 위한 정교한 전력 변환 솔루션 수요 증가",
+      "산업 자동화 및 로봇 공학 확산: 정밀 제어 및 안정적인 전력 공급을 위한 모듈형 전력 시스템 채택 증가",
+      "국방 및 항공우주 분야의 고신뢰성 전력 시스템 요구: 극한 환경에서 작동하는 견고하고 효율적인 전력 솔루션 수요",
+      "48V DC 분배 아키텍처 채택 확대: 낮은 전압 분배 대비 비용 및 성능 이점 부각"
+    ],
+    "market_share_pct": "5-10% (estimate, 특정 니치 시장에서는 더 높을 수 있음)",
+    "competitors": [
+      {
+        "name": "Texas Instruments (TI)",
+        "differentiation": "광범위한 아날로그 및 임베디드 프로세싱 포트폴리오, 대규모 생산 능력 및 다양한 고객 기반"
+      },
+      {
+        "name": "Analog Devices (ADI)",
+        "differentiation": "고성능 아날로그, 혼합 신호 및 DSP 기술에 강점, 산업 및 자동차 시장에 집중"
+      },
+      {
+        "name": "Infineon Technologies",
+        "differentiation": "전력 반도체 분야의 선두 주자, 자동차, 산업, 전력 관리 솔루션에 강점"
+      },
+      {
+        "name": "STMicroelectronics",
+        "differentiation": "다양한 전력 관리 IC 및 모듈 제공, 자동차 및 산업 시장에 강점"
+      },
+      {
+        "name": "TDK-Lambda",
+        "differentiation": "광범위한 표준 및 맞춤형 전원 공급 장치 포트폴리오, 산업 및 의료 시장에 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (전력 변환 기술의 복잡성과 특허 보호는 진입 장벽을 높이지만, 특정 니치 시장에서는 신생 기업의 혁신 가능성 존재)",
+      "substitutes": "medium (기존의 중앙 집중식 전력 아키텍처나 통합 전원 공급 장치가 대체재로 존재하지만, Vicor의 고성능 모듈형 솔루션은 특정 애플리케이션에서 차별화됨)",
+      "buyer_power": "medium (대형 고객사는 가격 협상력이 높지만, Vicor의 고유한 기술과 성능 이점은 구매자의 협상력을 일부 상쇄함)",
+      "supplier_power": "low (반도체 및 전자 부품 공급업체는 다양하며, Vicor는 자체 기술 및 제조 공정을 통해 공급 의존도를 관리함)",
+      "rivalry": "high (전력 변환 시장은 다수의 대형 및 소형 경쟁사들이 존재하며, 기술 혁신과 가격 경쟁이 치열함)"
+    },
+    "competitive_advantages": [
+      "고유한 Factorized Power Architecture™ (FPA) 및 Advanced Products: 높은 전력 밀도, 효율성, 유연성을 제공하여 시스템 설계 간소화 및 성능 최적화",
+      "첨단 기술 및 공정 연구 개발 집중: 독점적인 반도체 회로, 재료, 패키징 기술을 통해 제품 성능 차별화",
+      "48V DC 분배 전문성: 고전압 분배의 비용 및 성능 이점을 활용하여 데이터 센터, AI 등 고성장 시장 공략",
+      "광범위한 제품 포트폴리오: 다양한 애플리케이션 요구사항을 충족하는 포괄적인 모듈형 전력 부품 및 시스템 제공",
+      "특허 및 지적 재산권: 고주파 스위칭 토폴로지 등 핵심 기술에 대한 특허를 통해 경쟁 우위 확보"
+    ],
+    "competitive_weaknesses": [
+      "특정 고성능 니치 시장에 대한 의존도: 범용 시장에서의 경쟁력은 상대적으로 낮을 수 있음",
+      "Advanced Products로의 전환 전략 위험: 기존 Brick Products 고객 기반의 이탈 또는 전환 지연 가능성",
+      "대형 경쟁사 대비 낮은 규모의 경제: 생산 비용 및 가격 경쟁력에서 불리할 수 있음",
+      "기술 복잡성 및 설계 주기: 고객이 Vicor 솔루션을 채택하는 데 필요한 설계 및 통합 시간이 길어질 수 있음"
+    ]
+  },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 74.7,
+    "score": 67.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 93.44666,
-    "forward_pe": 53.33034,
-    "ev_to_ebitda": 154.633,
-    "price_to_sales": 29.946642,
+    "trailing_pe": 97.51,
+    "forward_pe": 55.6493,
+    "ev_to_ebitda": 161.572,
+    "price_to_sales": 31.248808,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 548.59,
-    "outperform_6m_vs_nasdaq": 191.9,
-    "outperform_1m_vs_nasdaq": 58.04,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 565.55,
+    "outperform_6m_vs_nasdaq": 221.18,
+    "outperform_1m_vs_nasdaq": 44.56,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "VICR은 독점적인 반도체 회로, 재료 및 패키징에 구현된 첨단 기술 및 프로세스 연구 개발에 중점을 두어 제품 설계 및 성능에서 지속적인 혁신을 추구합니다.",
+      "VICR의 경쟁 우위는 특허 또는 독점적인 고주파 스위칭 토폴로지를 통합한 제품에서 비롯되며, 이는 기존 대안보다 효율적이고 훨씬 작은 전력 시스템 솔루션을 가능하게 합니다.",
+      "VICR은 독점적인 Factorized Power Architecture™(FPA)를 구현하는 데 주로 사용되는 'Advanced Products'를 통해 경쟁사 대비 차별화된 제품 성능과 가치를 제공합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 및 고성능 컴퓨팅 시장의 급격한 성장으로 인한 고효율 전력 솔루션 수요 증가",
+    "bull_case": "AI 데이터센터 확대로 Advanced Products 매출 폭발적 성장, 3년 내 EPS 2배 이상 증가",
+    "base_case": "AI 및 고성능 컴퓨팅 시장의 꾸준한 성장과 함께 Advanced Products 라인의 점진적인 시장 점유율 확대 및 수익성 개선이 예상됩니다. Brick Products 라인은 안정적인 수익을 창출하며 전체 매출 성장을 견인할 것입니다.",
+    "bear_case": "AI 시장 경쟁 심화 및 기술 변화에 대한 적응 실패로 Advanced Products 성장이 둔화되고, Brick Products 시장의 침체로 전반적인 매출 및 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "Advanced Products 매출 성장률",
+      "R&D 투자 비중",
+      "총 마진율",
+      "신규 고객 확보율"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "소수의 대형 OEM, ODM 및 계약 제조업체 고객에 대한 전략적 집중으로 인해 이들 고객의 주문 지연이나 취소가 회사 실적에 불균형적으로 큰 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "독점 회로 및 재료 공급업체 또는 서비스 제공업체 수가 적어 공급망 지연, 비용 증가 또는 핵심 부품 부족 위험에 노출되어 생산 및 수익에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "미국과 중국 간의 무역 분쟁으로 인한 관세(특히 Section 301 관세)는 회사의 총 이익 마진을 지속적으로 감소시키고 있으며, 이는 수익성에 직접적인 영향을 미칩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁사의 신제품 출시 시기 또는 가격 인하와 같은 경쟁 활동은 시장 점유율과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 및 정치적 불확실성, 특히 무역 정책, 관세 환경, 수출 통제 및 미국 달러 강세는 고객의 최종 수요를 감소시켜 회사 매출과 수익을 줄일 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "운영",
+        "description": "신제품 출시 시기 지연 또는 고객의 적시 납품 기대치를 충족하지 못할 경우 고객 만족도 저하 및 매출 손실로 이어질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "전 세계적으로 증가하는 거버넌스, 품질, 환경 및 기타 규제 준수와 관련된 비용은 운영 비용을 증가시키고 수익성에 부담을 줄 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "핵심 대형 고객들이 주문을 대규모로 취소하거나 다른 공급업체로 전환하여 매출이 급감하고 수익성이 심각하게 악화될 수 있습니다.",
+      "미국-중국 무역 분쟁이 심화되어 관세 비용이 통제 불능 수준으로 증가하거나 핵심 부품 공급이 완전히 중단되어 생산이 불가능해질 수 있습니다.",
+      "경쟁사가 혁신적인 기술로 시장을 장악하거나 가격 경쟁이 극심해져 회사의 제품이 시장 경쟁력을 완전히 상실할 수 있습니다."
+    ],
+    "exit_signals": [
+      "상위 3개 고객으로부터의 분기별 매출이 전년 동기 대비 20% 이상 지속적으로 감소하는 경우",
+      "Section 301 관세 비용이 총 매출의 3%를 초과하거나, 관세 환급 노력이 실패하여 비용 부담이 가중되는 경우",
+      "경쟁사의 신제품이 시장에서 압도적인 점유율을 확보하고, VICR의 신제품 출시가 6개월 이상 지연되는 경우"
+    ]
+  },
   "wikipedia_summary": "Vicor Corporation is a manufacturer of power modules headquartered in Andover, Massachusetts.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:35:25.140546+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:37:25.170308+00:00"
   }
 }

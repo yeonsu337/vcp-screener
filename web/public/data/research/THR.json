@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-12T02:30:16.980206+00:00",
+  "generated_at": "2026-05-13T00:27:11.361621+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2151968768,
+    "market_cap": 2126330496,
     "shares_outstanding": 32869538,
     "employees": 1568,
     "country": "United States",
@@ -121,19 +121,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 65.4,
+    "score": 64.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.98,
-    "trailing_pe": 36.9887,
-    "forward_pe": 28.969027,
-    "ev_to_ebitda": 20.902,
-    "price_to_sales": 4.1224585,
+    "trailing_pe": 36.548023,
+    "forward_pe": 28.623896,
+    "ev_to_ebitda": 20.666,
+    "price_to_sales": 4.073344,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 83.33,
-    "outperform_6m_vs_nasdaq": 85.64,
-    "outperform_1m_vs_nasdaq": 7.31,
+    "outperform_1y_vs_nasdaq": 80.05,
+    "outperform_6m_vs_nasdaq": 75.69,
+    "outperform_1m_vs_nasdaq": 4.52,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:35:17.121287+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:37:16.431388+00:00"
   }
 }

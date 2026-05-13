@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-12T02:08:20.621774+00:00",
+  "generated_at": "2026-05-13T00:16:35.244654+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8363167744,
+    "market_cap": 8138074112,
     "shares_outstanding": 51041606,
     "employees": 9400,
     "country": "United States",
@@ -17,17 +17,37 @@
     "beta": null
   },
   "category_a_business": {
-    "overview": "Everus Construction Group, Inc.는 미국에서 계약 서비스를 제공합니다. 이는 전기 및 기계 부문과 전송 및 배전 부문의 두 부문을 통해 운영됩니다.",
-    "business_model": "Everus 건설 그룹, Inc.",
+    "overview": "ECG는 미국 전역에서 전문 계약 서비스를 제공하는 선도적인 건설 솔루션 기업입니다.",
+    "milestones": [
+      "1997: 사업 시작 (MDU Construction Services Group, Inc.의 전신)",
+      "2023: MDU Resources, 건설 서비스 부문 분사 계획 발표",
+      "2024: Everus Construction Group, Inc. 설립(MDU Resources의 자회사)",
+      "2024: MDU Resources로부터 분사 완료, 독립 상장 기업으로 전환",
+      "2025: Engineering News-Record 선정 Top 600 전문 계약업체 12위",
+      "2025: Electrical Construction & Maintenance 선정 Top 50 전기 계약업체 5위"
+    ],
+    "business_model": "전기, 기계, 송배전 인프라 건설 및 유지보수 서비스로 수익 창출",
+    "revenue_streams": [
+      "전기 및 통신 배선/인프라 건설 및 유지보수",
+      "소방 시스템 설치",
+      "재생에너지 인프라 및 기계 배관 서비스",
+      "가공 및 지중 전기, 가스, 통신 인프라 건설 및 유지보수",
+      "운송 관련 조명 설치",
+      "송전선 건설 장비 및 도구 설계, 제조, 유통"
+    ],
+    "value_chain_position": "Downstream + 전문 계약 서비스를 통해 최종 고객에게 직접 솔루션을 제공합니다.",
     "products": [
-      "미국 내 서비스 계약",
-      "전기 및 기계, 전송 및 배전의 두 부문을 통해",
-      "전기, 통신 배선 및 기반 시설의 건설 및 유지 보수 서비스",
-      "지상 및 지하 전기, 가스, 통신 인프라 및 운송의 건설 및 유지 관리"
+      "전기 및 통신 인프라 서비스",
+      "소방 시스템",
+      "재생에너지 인프라 서비스",
+      "송배전 인프라 서비스",
+      "운송 관련 조명",
+      "송전선 건설 장비 및 도구"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "2025년 약 4,000개 고객, 2024년 약 3,900개 고객을 대상으로 서비스를 제공하여 고객 집중도가 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.39,
@@ -113,33 +133,76 @@
     "roe_pct": 38.95
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2,000-3,000 billion USD (추정치, 미국 건설 서비스 시장 규모 기반)",
+    "tam_cagr_pct": "5-7% (향후 3~5년) - 미국 인프라 투자 증가, 재생에너지 전환 가속화, 상업/산업 건설 수요 회복에 기반함.",
+    "growth_drivers": [
+      "미국 정부의 인프라 투자 확대 (예: 인프라 투자 및 일자리 법안)",
+      "재생에너지(태양광, 풍력) 프로젝트 증가 및 관련 전력 인프라 수요 증대",
+      "상업 및 산업 부문의 건설 및 유지보수 수요 회복",
+      "노후화된 전력망 현대화 및 스마트 그리드 구축 필요성 증대",
+      "전기차 충전 인프라 등 신규 시장 기회 발생"
+    ],
+    "market_share_pct": "0.5-1.0% (추정치, 미국 전체 건설 서비스 시장 대비)",
+    "competitors": [
+      {
+        "name": "Quanta Services, Inc.",
+        "differentiation": "대규모 유틸리티 인프라 프로젝트에 강점, 광범위한 서비스 포트폴리오 및 전국적인 네트워크"
+      },
+      {
+        "name": "MYR Group Inc.",
+        "differentiation": "전기 송배전 및 상업/산업 전기 건설 서비스 전문, 강력한 지역별 입지"
+      },
+      {
+        "name": "Comfort Systems USA, Inc.",
+        "differentiation": "기계 및 HVAC 시스템 설치 및 서비스에 특화, 다양한 상업 및 산업 고객 기반"
+      },
+      {
+        "name": "EMCOR Group, Inc.",
+        "differentiation": "다양한 건물 시스템 및 산업 서비스 제공, 광범위한 고객층과 서비스 범위"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 초기 자본 및 전문 인력 확보의 어려움이 있으나, 특정 틈새시장 진입은 상대적으로 용이할 수 있음.",
+      "substitutes": "low - 건설 서비스는 필수적이며, 대체재가 거의 없음. DIY나 내부 인력 활용은 대규모 프로젝트에는 한계가 있음.",
+      "buyer_power": "medium - 대형 고객(유틸리티, 정부)은 협상력이 높으나, 소규모 프로젝트에서는 구매자 협상력이 낮음. 공급업체 간 경쟁으로 인해 구매자 선택권이 존재.",
+      "supplier_power": "medium - 숙련된 노동력 부족, 특정 장비 및 자재의 공급 제약이 있을 수 있으나, 다수의 공급업체 존재로 균형을 이룸.",
+      "rivalry": "high - 시장에 다수의 경쟁사가 존재하며, 가격 경쟁이 치열함. 프로젝트 수주를 위한 경쟁이 심화되고 있음."
+    },
     "competitive_advantages": [
-      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+      "전국적인 서비스 네트워크 및 15개 운영 회사, 19개 지역 브랜드의 규모와 범위",
+      "다양한 최종 시장(상업, 산업, 기관, 재생에너지, 운송, 유틸리티)에 걸친 서비스 제공 능력",
+      "25개 이상의 인수를 통한 지속적인 역량 확장 및 시장 침투 경험",
+      "업계 상위권 랭킹 (ENR Top 600 Specialty Contractors 12위, EC&M Top 50 Electrical Contractors 5위)",
+      "Bombard Renewable Energy와 같은 특정 분야(태양광 설치)에서의 강력한 브랜드 인지도"
+    ],
+    "competitive_weaknesses": [
+      "대형 경쟁사에 비해 상대적으로 낮은 시장 점유율 및 브랜드 인지도",
+      "숙련된 노동력 확보 및 유지의 어려움 (프로젝트 기반 인력 변동성)",
+      "지역별 브랜드 분산으로 인한 통합된 마케팅 및 운영 효율성 저해 가능성",
+      "경제 변동 및 특정 최종 시장(예: 상업 건설)의 경기 침체에 대한 취약성",
+      "MDU Resources로부터 분사된 지 얼마 되지 않아 독립 기업으로서의 운영 안정성 및 시장 신뢰 구축 필요"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 92,
-    "score": 69.4,
+    "score": 66.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 37.49428,
-    "forward_pe": 33.52999,
-    "ev_to_ebitda": 26.291,
-    "price_to_sales": 2.1136665,
+    "trailing_pe": 36.485126,
+    "forward_pe": 32.627537,
+    "ev_to_ebitda": 25.591,
+    "price_to_sales": 2.0567775,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 192.89,
-    "outperform_6m_vs_nasdaq": 52.68,
-    "outperform_1m_vs_nasdaq": 11.01,
+    "outperform_1y_vs_nasdaq": 187.14,
+    "outperform_6m_vs_nasdaq": 49.61,
+    "outperform_1m_vs_nasdaq": 9.29,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:31:46.352688+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:36:07.003911+00:00"
   }
 }

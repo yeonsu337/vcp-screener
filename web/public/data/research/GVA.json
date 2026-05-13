@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-12T02:35:25.200484+00:00",
+  "generated_at": "2026-05-13T00:33:22.462789+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6177472000,
+    "market_cap": 6142911488,
     "shares_outstanding": 43746699,
     "employees": 2500,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 1.353
   },
   "category_a_business": {
-    "overview": "Granite Construction Incorporated provides infrastructure solutions for public and private clients in the United States. It operates through Construction and Materials segments. The Construction segment engages in the construction and rehabilitation of roads, pavement preservation, bridges, rail lines, airports, marine ports, dams, reservoirs, aqueducts, infrastructure, and site development for use by the public and water-related construction for municipal agencies, commercial water suppliers, industrial facilities, and energy companies; and construction of various complex projects, including ",
-    "business_model": "Granite Construction Incorporated provides infrastructure solutions for public and private clients in the United States.",
+    "overview": "Granite Construction Incorporated는 미국의 공공 및 민간 고객을 위한 인프라 솔루션을 제공합니다. 건설 및 재료 부문을 통해 운영됩니다. 건설 부문은 도로, 포장 도로 보존, 교량, 철도, 공항, 항만, 댐, 저수지, 수로, 기반 시설의 건설 및 재건과 공공 사용을 위한 부지 개발 및 지자체 기관, 상업용 물 공급업체, 산업 시설 및 에너지 회사를 위한 수자원 관련 건설에 종사합니다. 등 다양한 복합 프로젝트 건설",
+    "business_model": "Granite Construction Incorporated는 미국의 공공 및 민간 고객을 위한 인프라 솔루션을 제공합니다.",
     "products": [
-      "infrastructure solutions for public and private clients in the United States",
-      "through Construction and Materials segments",
-      "and delivers aggregates, asphalt concrete, liquid asphalt, and recycled materials for internal use in construction proje",
-      "site preparation, mining, and infrastructure services for railways, residential development, energy development, and com",
-      "construction materials"
+      "미국의 공공 및 민간 고객을 위한 인프라 솔루션",
+      "건설 및 자재 부문을 통해",
+      "건설 프로젝트에서 내부 사용을 위해 골재, 아스팔트 콘크리트, 액체 아스팔트 및 재활용 재료를 전달합니다.",
+      "철도, 주택 개발, 에너지 개발 및 통신을 위한 현장 준비, 광업 및 인프라 서비스",
+      "건축 자재"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products."
+    "wikipedia_excerpt": "Granite Construction Inc.는 캘리포니아 왓슨빌에 본사를 두고 설립된 S&P 600 지수의 회원이자 토목 건설 회사이자 종합 생산업체이며 Granite Construction Company의 모회사입니다. 이 회사는 대형 토목 건설 도급업체이자 건설 골재 제조업체로서 주로 모래, 자갈 및 쇄석 제품을 추출하기 위해 서부 여러 주에 채석장을 소유하거나 임대하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -131,21 +131,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 74,
-    "score": 67.6,
+    "score": 67.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.96,
-    "trailing_pe": 38.47684,
-    "forward_pe": 19.303167,
-    "ev_to_ebitda": 15.791,
-    "price_to_sales": 1.3321277,
+    "trailing_pe": 38.261578,
+    "forward_pe": 19.195175,
+    "ev_to_ebitda": 15.715,
+    "price_to_sales": 1.324675,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 24.84,
-    "outperform_6m_vs_nasdaq": 28.43,
-    "outperform_1m_vs_nasdaq": -3.52,
+    "outperform_1y_vs_nasdaq": 25.48,
+    "outperform_6m_vs_nasdaq": 29.47,
+    "outperform_1m_vs_nasdaq": -2.16,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products."
+  "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-13T00:36:26.701454+00:00"
+  }
 }

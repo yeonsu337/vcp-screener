@@ -1,128 +1,201 @@
 {
   "ticker": "STX",
-  "company": "Seagate Technology Holdings plc",
+  "company": "Seagate Technology Holdings Plc",
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-07T06:29:33.701741+00:00",
+  "generated_at": "2026-05-13T00:11:44.818294+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 176338157568,
-    "shares_outstanding": 224228992,
-    "employees": 30000,
-    "country": "Singapore",
-    "website": "https://www.seagate.com",
-    "beta": 2.009
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "STX는 데이터 저장 기술 및 인프라 솔루션을 제공하는 선도 기업으로, 기업 및 최종 사용자의 데이터 가치 실현을 돕습니다.",
+    "milestones": [
+      "1979: 슈가트 테크놀로지(Shugart Technology) 설립",
+      "1980: 최초의 5.25인치 HDD 출시",
+      "1989: 세계 최초 2.5인치 HDD 출시",
+      "2000년대 초반: HDD 시장 점유율 확대 및 주요 경쟁사 인수",
+      "2010년대: SSD 및 엔터프라이즈 스토리지 솔루션으로 사업 확장",
+      "2020년대: 엣지-클라우드 데이터 플랫폼 및 스토리지 서비스(Lyve) 출시"
+    ],
+    "business_model": "하드 디스크 드라이브, SSD, 스토리지 시스템 및 데이터 관리 서비스를 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "하드 디스크 드라이브(HDD) 판매",
+      "솔리드 스테이트 드라이브(SSD) 판매",
+      "스토리지 서브시스템 판매",
+      "엣지-투-클라우드 데이터 플랫폼 서비스(Lyve)",
+      "스토리지-애즈-어-서비스(Storage-as-a-Service)"
+    ],
+    "value_chain_position": "Midstream + 데이터 저장 장치 및 솔루션을 제조하고 공급하며, 데이터 관리 서비스도 제공합니다.",
+    "products": [
+      "하드 디스크 드라이브 (HDD)",
+      "솔리드 스테이트 드라이브 (SSD)",
+      "엔터프라이즈 스토리지 서브시스템",
+      "Lyve 데이터 전송 셔틀",
+      "Lyve 스토리지-애즈-어-서비스 클라우드"
+    ],
+    "channels": [
+      "B2B (OEM, 클라우드 서비스 제공업체, 기업)",
+      "도매 (유통업체)",
+      "직접 판매 (일부 솔루션)"
+    ],
+    "key_customers": "주요 고객은 하이퍼스케일 데이터 센터, 클라우드 서비스 제공업체, OEM 및 대기업입니다. 고객 집중도는 높은 편입니다."
+  },
   "category_b_financials": {
-    "roe": 17.88,
-    "roa": 0.25,
-    "profit_margin": 0.22,
-    "operating_margin": 0.36,
-    "gross_margin": 0.42,
-    "revenue_growth_ttm": 0.44,
-    "earnings_growth_ttm": 1.08,
-    "dividend_yield": 0.38,
-    "payout_ratio": 0.28,
-    "annual_revenue": [
-      9097000000.0,
-      6551000000.0,
-      7384000000.0,
-      11661000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      1915000000.0,
-      422000000.0,
-      60000000.0,
-      1958000000.0,
-      null
-    ],
-    "annual_eps": [
-      null,
-      1.58,
-      -2.56,
-      7.36,
-      5.36
-    ],
-    "annual_free_cf": [
-      818000000.0,
-      664000000.0,
-      626000000.0,
-      1276000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      4995000000.0,
-      5674000000.0,
-      5451000000.0,
-      5696000000.0,
-      null
-    ],
-    "annual_equity": [
-      -453000000.0,
-      -1491000000.0,
-      -1199000000.0,
-      109000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-06-30",
-      "2024-06-30",
-      "2023-06-30",
-      "2022-06-30",
-      "2021-06-30"
-    ],
-    "quarterly_eps": [
-      3.27,
-      2.6,
-      2.43,
-      2.24,
-      1.57
-    ],
-    "quarterly_revenue": [
-      3112000000.0,
-      2825000000.0,
-      2629000000.0,
-      2444000000.0,
-      2160000000.0
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
-    ],
     "eps_qoq_yoy_pct": 120.0,
     "sales_yoy_pct": 44.1,
     "ni_cagr_3y_pct": -3.78,
     "roe_pct": 1787.97
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 100-120 billion USD (추정) - HDD 및 SSD 시장 규모와 클라우드/엣지 스토리지 솔루션 시장을 종합적으로 고려한 추정치. (출처: 다양한 시장 조사 보고서 및 회사 사업 영역 분석)",
+    "tam_cagr_pct": "8-12% (추정) - 데이터 생성량의 폭발적 증가, AI/ML 및 Gen AI 애플리케이션 확산, 5G 및 IoT 기술 발전, 엣지 컴퓨팅 확대로 인한 스토리지 수요 증가가 주요 근거.",
+    "growth_drivers": [
+      "AI/ML 및 Gen AI 애플리케이션 확산으로 인한 대규모 데이터 저장 및 처리 수요 증가",
+      "클라우드 및 엣지 컴퓨팅 환경의 지속적인 성장과 데이터 이동 및 관리의 중요성 증대",
+      "5G, IoT, 자율주행차 등 신기술 도입으로 인한 미디어 리치 디지털 콘텐츠 및 비정형 데이터 생성량 급증",
+      "기업 및 개인의 디지털 전환 가속화로 인한 데이터 보존 및 활용의 중요성 증대",
+      "데이터 스토리지 비용 효율성 및 고용량 솔루션에 대한 지속적인 요구"
+    ],
+    "market_share_pct": "25-35% (추정) - HDD 시장에서는 상위권이나, 전체 데이터 스토리지 시장(SSD, 클라우드 스토리지 등 포함)에서는 경쟁사 대비 점유율이 다소 낮을 수 있음.",
+    "competitors": [
+      {
+        "name": "Western Digital (WDC)",
+        "differentiation": "HDD 및 NAND 플래시 기반 SSD 제품군을 모두 보유하고 있으며, 소비자 및 기업 시장 전반에 걸쳐 광범위한 포트폴리오를 제공."
+      },
+      {
+        "name": "Micron Technology (MU)",
+        "differentiation": "주로 DRAM 및 NAND 플래시 메모리 제품에 강점을 가지고 있으며, SSD 시장에서 강력한 경쟁력을 보유."
+      },
+      {
+        "name": "Samsung Electronics (005930.KS)",
+        "differentiation": "메모리 반도체(DRAM, NAND) 시장의 선두 주자로서, SSD 제품군에서 높은 기술력과 생산 능력을 바탕으로 경쟁 우위 확보."
+      },
+      {
+        "name": "NetApp (NTAP)",
+        "differentiation": "주로 기업용 스토리지 시스템 및 클라우드 데이터 서비스 솔루션에 특화되어 있으며, 소프트웨어 정의 스토리지 및 하이브리드 클라우드 솔루션 제공."
+      },
+      {
+        "name": "Dell Technologies (DELL)",
+        "differentiation": "서버, 스토리지, 네트워크 등 IT 인프라 전반에 걸친 광범위한 솔루션을 제공하며, 기업 고객 대상의 통합 스토리지 시스템 강점."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 데이터 스토리지 산업은 기술 집약적이고 대규모 투자가 필요하지만, 소프트웨어 정의 스토리지 및 클라우드 기반 서비스의 발전으로 진입 장벽이 다소 낮아질 수 있음.",
+      "substitutes": "medium - HDD의 경우 SSD가 주요 대체재이며, 온프레미스 스토리지 솔루션은 클라우드 스토리지 서비스로 대체될 수 있음. 그러나 각 기술의 장단점(비용, 성능, 용량)에 따라 공존.",
+      "buyer_power": "medium - 대규모 클라우드 서비스 제공업체(CSP) 및 OEM 고객은 대량 구매를 통해 가격 협상력이 높음. 그러나 특정 고성능/고용량 솔루션에 대한 수요는 공급자에게 유리하게 작용할 수 있음.",
+      "supplier_power": "medium - 주요 부품(예: 헤드, 미디어, 컨트롤러 칩) 공급업체는 제한적일 수 있으며, 특정 기술에 대한 의존도가 높을 경우 공급자 협상력이 증가할 수 있음.",
+      "rivalry": "high - HDD 시장은 소수 기업 간의 과점 경쟁이 치열하며, SSD 시장은 더 많은 플레이어가 경쟁하고 있음. 클라우드 스토리지 솔루션 분야에서도 경쟁이 심화되고 있음."
+    },
+    "competitive_advantages": [
+      "HDD 시장에서의 강력한 리더십과 기술력 (고용량, 고성능, 비용 효율성)",
+      "클라우드 및 엣지 컴퓨팅 환경에 최적화된 스토리지 솔루션 포트폴리오 (Lyve 플랫폼 포함)",
+      "HDD와 SSD를 아우르는 광범위한 제품군 및 시스템 솔루션 제공 능력",
+      "대규모 데이터 전송 및 관리 솔루션(Lyve shuttle)을 통한 차별화된 서비스 제공",
+      "오랜 업력과 축적된 기술 노하우 및 고객 기반"
+    ],
+    "competitive_weaknesses": [
+      "SSD 시장에서의 경쟁사 대비 상대적 약세 (NAND 플래시 생산 능력 부재)",
+      "클라우드 스토리지 서비스 분야에서 AWS, Azure, Google Cloud 등 거대 클라우드 기업과의 직접 경쟁",
+      "레거시 시장 의존도 (투자 축소 계획에도 불구하고 여전히 매출 비중 존재)",
+      "글로벌 공급망 불안정성 및 원자재 가격 변동에 대한 취약성",
+      "소프트웨어 정의 스토리지 및 데이터 관리 솔루션 분야에서의 추가적인 경쟁력 강화 필요"
+    ]
+  },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 74.8,
+    "score": 71.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.5109,
-    "trailing_pe": 74.6129,
-    "forward_pe": 29.932573,
-    "ev_to_ebitda": 51.044,
-    "price_to_sales": 16.016182,
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 706.4,
-    "outperform_6m_vs_nasdaq": 189.03,
-    "outperform_1m_vs_nasdaq": 50.43,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 710.43,
+    "outperform_6m_vs_nasdaq": 177.39,
+    "outperform_1m_vs_nasdaq": 45.05,
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "HDD는 성능, 신뢰성, 고용량, 우수한 품질 및 비용 효율성으로 인해 대량 데이터 저장의 주요 매체로 지속되고 있습니다.",
+      "당사의 HDD 및 SSD 제품 포트폴리오는 SATA, SAS, NVMe 기반 설계를 포함하여 다양한 대용량 및 레거시 애플리케이션을 지원합니다.",
+      "Lyve 포트폴리오는 분산된 기업 전반에 걸쳐 방대한 양의 데이터를 관리하는 간단하고 비용 효율적이며 안전한 방법을 제공합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 및 머신러닝 애플리케이션의 데이터 저장 수요 증가",
+    "bull_case": "AI 및 클라우드 데이터 폭증으로 HDD 수요 급증, 수익성 개선 및 시장 점유율 확대",
+    "base_case": "데이터 생성 및 클라우드 스토리지 수요 증가에 따라 HDD 및 SSD 제품 판매가 꾸준히 성장할 것으로 예상됩니다. AI 및 엣지 컴퓨팅 시장의 성장이 새로운 기회를 제공할 것입니다.",
+    "bear_case": "SSD 기술 발전 및 가격 하락으로 HDD 시장이 위축되고, 경쟁 심화로 수익성이 악화될 수 있습니다. 글로벌 경기 침체 또한 수요 감소로 이어질 수 있습니다.",
+    "key_metrics_to_watch": [
+      "HDD 및 SSD 출하량 성장률",
+      "클라우드 및 AI 관련 매출 비중",
+      "평균 판매 가격 (ASP)",
+      "연구 개발 투자 및 신기술 개발 현황"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "주요 고객(대규모 하이퍼스케일 데이터 센터 및 CSP 포함)의 구매 감소, 지연, 손실 또는 취소로 인해 부정적인 영향을 받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "고도로 경쟁적인 시장에서 기술 변화 및 가격 경쟁을 포함한 시장 발전에 대응하지 못하면 경쟁력이 저하되고 제품이 상품화될 위험이 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "제품 제조에 필요한 중요 부품, 장비 또는 원자재의 부족, 지연 또는 비용 증가는 생산 및 제품 개발에 영향을 미치고 운영 결과에 해를 끼칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "운영 및 투자로부터 충분한 현금 흐름을 창출하지 못하여 유동성 요구 사항(부채 상환 및 분기별 배당금 지급 포함)을 충족하지 못할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "거시 경제 환경의 변화, 지정학적 불확실성, 전쟁, 테러, 자연재해, 공중 보건 문제 등이 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "수출 통제법 및 기타 법률 변경 또는 위반은 사업, 운영 결과, 재무 상태 및 현금 흐름에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 공격, 랜섬웨어 또는 기타 사이버 보안 침해로 인해 운영이 중단되고, 데이터가 유출되며, 평판 손상 및 법적/규제적 결과가 발생할 수 있습니다.",
+        "severity": "high"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 고객들이 대규모로 이탈하거나 구매를 중단하여 매출이 급감하고 재정적 어려움에 처할 경우.",
+      "경쟁사들이 혁신적인 신제품을 출시하고 가격 경쟁력을 확보하여 시장 점유율을 급격히 잃고 제품이 상품화될 경우.",
+      "글로벌 공급망에 심각한 차질이 발생하여 핵심 부품 조달이 불가능해지고 생산이 장기간 중단될 경우.",
+      "심각한 사이버 공격으로 인해 고객 데이터가 유출되고 핵심 운영 시스템이 마비되어 사업 신뢰도를 상실할 경우."
+    ],
+    "exit_signals": [
+      "주요 고객(예: 대규모 하이퍼스케일 데이터 센터)의 분기별 구매량이 20% 이상 감소하는 추세가 두 분기 연속 지속될 경우.",
+      "경쟁사의 신기술 도입으로 STX 제품의 시장 점유율이 5% 이상 하락하고, 가격 경쟁으로 인한 마진율이 10% 이상 감소할 경우.",
+      "핵심 부품의 단일 공급업체에서 3개월 이상 공급 지연 또는 중단이 발생하여 생산 목표를 달성하지 못할 경우.",
+      "대규모 사이버 보안 침해로 인해 고객 정보가 유출되거나 핵심 서비스가 48시간 이상 중단되어 규제 당국의 중징계를 받을 경우."
+    ]
+  },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-12T02:35:06.076186+00:00"
+    "GoogleWebTranslator": "2026-05-13T00:37:08.771635+00:00"
   }
 }

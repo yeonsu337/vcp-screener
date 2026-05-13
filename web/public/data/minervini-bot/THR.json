@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "THR",
-  "generated_at": "2026-05-12T02:05:51.679453+00:00",
-  "source_results_date": "2026-05-12",
+  "generated_at": "2026-05-13T00:10:27.814897+00:00",
+  "source_results_date": "2026-05-13",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.66,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 7.89%).",
-    "13주 베이스 9.7% → 25.8% → 7.7% → 7.9%, VDU 1.74×, pivot $71.24(-8.10%).",
+    "13주 베이스 9.7% → 25.8% → 7.7% → 7.9%, VDU 1.43×, pivot $71.24(-9.19%).",
     "Trend Template 8/8 통과, RS 90 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -49,10 +49,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.89% vs 6.5%)",
-    "P3_vol_dryup (1.74× vs 0.6×)",
+    "P3_vol_dryup (1.43× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-8.1% vs ≥-5.0%)"
+    "rs_line (-9.1% vs ≥-5.0%)"
   ],
   "warnings": [
     "베이스 카운트 4 — 후기 베이스, 실패율 상승",
