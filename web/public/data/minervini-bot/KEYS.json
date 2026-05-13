@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "KEYS",
-  "generated_at": "2026-05-13T00:10:27.812079+00:00",
+  "generated_at": "2026-05-13T10:28:26.366401+00:00",
   "source_results_date": "2026-05-13",
   "verdict": "BUY_NOW",
   "verdict_kr": "매수 (Pivot 돌파 직후)",
   "confidence": 0.83,
   "lines": [
     "매수 — Stage 2 진입 확정, pivot $352.78 돌파(+2.51%, buy zone).",
-    "13주 베이스 16.5% → 11.8% → 8.1% 수축, VDU 0.93× 진행.",
+    "13주 베이스 16.5% → 11.8% → 8.1% 수축, VDU 0.96× 진행.",
     "Trend Template 8/8 통과, RS 91, RS 라인 신고가 -1.9%.",
     "$361.65 매수·-7% 손절($336.33)·+20%($433.98) 절반 익절, 이후 50일선 trailing."
   ],
@@ -50,7 +50,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.08% vs 6.5%)",
-    "P3_vol_dryup (0.93× vs 0.6×)",
+    "P3_vol_dryup (0.96× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

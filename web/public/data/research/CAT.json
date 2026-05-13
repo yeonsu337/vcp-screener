@@ -4,10 +4,10 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-05-13T00:17:46.794558+00:00",
+  "generated_at": "2026-05-13T10:37:20.140484+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
     "market_cap": 420124360704,
     "shares_outstanding": 460591983,
@@ -22,9 +22,9 @@
       "1925년: Caterpillar Tractor Co. 설립",
       "1986: Caterpillar Inc.로 재편성",
       "2025: 새로운 미션 '고객의 가장 어려운 문제 해결' 발표",
-      "2025: 3가지 성장 동력(상업적 우수성, 첨단 기술 리더, 업무 방식 혁신) 도입"
+      "2025: 상업적 우수성, 첨단 기술 리더, 업무 방식 혁신 등 3가지 성장 동력 제시"
     ],
-    "business_model": "건설 및 광산 장비, 엔진 판매와 금융 서비스를 통해 수익을 창출합니다.",
+    "business_model": "건설, 광산, 에너지 및 운송 산업에 장비, 엔진, 금융 서비스를 제공하여 수익을 창출합니다.",
     "revenue_streams": [
       "건설 장비 판매",
       "광산 장비 판매",
@@ -32,19 +32,19 @@
       "부품 및 서비스",
       "금융 서비스 (Cat Financial)"
     ],
-    "value_chain_position": "Midstream + 제품 설계, 제조 및 마케팅을 통해 고객에게 최종 제품을 공급합니다.",
+    "value_chain_position": "Midstream: 중장비 및 관련 부품을 설계, 제조, 마케팅합니다.",
     "products": [
-      "굴착기, 불도저 등 건설 장비",
-      "채굴 트럭, 굴착기 등 광산 장비",
+      "굴착기, 불도저, 로더 등 건설 장비",
+      "광산 트럭, 굴착기 등 광산 장비",
       "디젤 및 천연가스 엔진",
       "산업용 가스 터빈",
       "디젤-전기 기관차"
     ],
     "channels": [
-      "B2B (글로벌 딜러 네트워크)",
+      "B2B (글로벌 독립 딜러 네트워크)",
       "D2C (일부 직접 판매 및 서비스)"
     ],
-    "key_customers": "특정 고객 집중도에 대한 정보는 제공되지 않으나, 주로 건설, 광업, 에너지 산업의 기업 고객입니다."
+    "key_customers": "다양한 산업의 기업 고객을 대상으로 하며, 특정 고객에 대한 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 0.51,
@@ -54,7 +54,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.22,
     "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.65,
+    "dividend_yield": 0.66,
     "payout_ratio": 0.3,
     "annual_revenue": [
       67589000000.0,
@@ -138,11 +138,58 @@
     "roe_pct": 51.33
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "500-600 billion (estimate) + 건설 및 광업 장비, 산업용 엔진 시장 규모 종합 추정",
+    "tam_cagr_pct": "4-6% (estimate) + 글로벌 인프라 투자 증가, 광업 수요 회복, 개발도상국 건설 시장 성장 및 스마트 건설 기술 도입 가속화에 기반",
+    "growth_drivers": [
+      "글로벌 인프라 투자 확대: 각국 정부의 경기 부양책 및 노후 인프라 교체 수요 증가.",
+      "광업 부문 회복: 원자재 가격 상승 및 채굴 기술 발전으로 인한 광업 투자 증가.",
+      "개발도상국 건설 시장 성장: 도시화 및 산업화 가속화로 인한 건설 장비 수요 증가.",
+      "스마트 건설 및 자동화 기술 도입: 생산성 향상 및 안전성 강화를 위한 기술 투자 확대.",
+      "지속가능성 및 친환경 솔루션 수요: 배출가스 규제 강화 및 친환경 장비 선호도 증가."
+    ],
+    "market_share_pct": "15-20% (추정)",
+    "competitors": [
+      {
+        "name": "Komatsu Ltd.",
+        "differentiation": "일본 기반의 글로벌 기업으로, 높은 품질과 기술력, 특히 유압 굴삭기 및 광산 장비 분야에서 강점."
+      },
+      {
+        "name": "Deere & Company",
+        "differentiation": "농업 장비 분야에서 독보적인 위치를 차지하며, 건설 장비 부문에서도 북미 시장을 중심으로 강력한 브랜드 인지도와 딜러 네트워크 보유."
+      },
+      {
+        "name": "Volvo Construction Equipment",
+        "differentiation": "스웨덴 기반으로, 특히 휠 로더 및 굴삭기 분야에서 강점을 가지며, 친환경 및 전기 장비 개발에 선도적."
+      },
+      {
+        "name": "Hitachi Construction Machinery Co., Ltd.",
+        "differentiation": "일본 기반으로, 대형 유압 굴삭기 및 광산 장비 분야에서 높은 기술력을 보유하며, 광범위한 제품 라인업 제공."
+      },
+      {
+        "name": "Liebherr Group",
+        "differentiation": "독일 기반의 가족 기업으로, 크레인, 광산 장비, 콘크리트 기술 등 다양한 중장비 분야에서 고품질의 혁신적인 제품 제공."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 초기 투자 비용 및 기술 장벽이 높으나, 특정 틈새시장에서는 신규 진입 가능성 존재.",
+      "substitutes": "low + 건설 및 광업 장비는 대체재가 거의 없으며, 수작업이나 소형 장비로는 대규모 작업 대체 불가.",
+      "buyer_power": "medium + 대형 고객(건설사, 광산 회사)은 구매량이 많아 가격 협상력이 있으나, 브랜드 충성도와 서비스 의존도도 높음.",
+      "supplier_power": "medium + 핵심 부품(엔진, 유압 시스템 등) 공급업체는 제한적일 수 있으나, Caterpillar의 대규모 구매력으로 어느 정도 상쇄 가능.",
+      "rivalry": "high + 소수의 글로벌 대기업들이 시장을 지배하며, 기술, 가격, 서비스 경쟁이 매우 치열함."
+    },
     "competitive_advantages": [
-      "Industrials / Farm & Heavy Construction Machinery 카테고리 — yfinance peer 비교 권장"
+      "글로벌 리더십 및 브랜드 인지도: 건설 및 광업 장비 분야에서 세계 최고의 제조업체로서 강력한 브랜드 인지도 보유.",
+      "광범위한 제품 포트폴리오: 건설, 광업, 전력 및 에너지 등 다양한 산업에 걸쳐 광범위한 제품 및 솔루션 제공.",
+      "독립적인 글로벌 딜러 네트워크: 전 세계적으로 가장 크고 독립적인 딜러 네트워크를 통해 강력한 판매 및 서비스 지원.",
+      "기술 혁신 및 R&D 투자: 차세대 장비 및 첨단 기술(자동화, 디지털화) 개발에 지속적인 투자.",
+      "재무 서비스 제공: Cat Financial을 통한 고객 및 딜러 대상 금융 서비스 제공으로 판매 촉진 및 고객 충성도 강화.",
+      "개발도상국 맞춤형 제품 전략: SEM 브랜드와 같은 차별화된 제품으로 개발도상국 시장 경쟁력 확보."
+    ],
+    "competitive_weaknesses": [
+      "경기 변동에 대한 민감성: 건설 및 광업 산업의 경기 변동에 따라 실적의 영향을 크게 받음.",
+      "높은 생산 비용: 고품질 및 고성능 제품 생산을 위한 높은 제조 비용.",
+      "환율 변동 위험: 글로벌 사업 운영으로 인한 환율 변동에 대한 노출.",
+      "규제 환경 변화: 전 세계적으로 강화되는 환경 및 안전 규제에 대한 지속적인 대응 필요."
     ]
   },
   "category_d_thesis": {
@@ -152,7 +199,7 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.1443,
-    "trailing_pe": 45.357533,
+    "trailing_pe": 45.447933,
     "forward_pe": 30.995766,
     "ev_to_ebitda": 31.594,
     "price_to_sales": 5.9377337,
@@ -160,50 +207,67 @@
     "outperform_1y_vs_nasdaq": 137.65,
     "outperform_6m_vs_nasdaq": 49.27,
     "outperform_1m_vs_nasdaq": 2.9,
-    "lynch_category": "Stalwart"
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "1925년부터 시작된 오랜 역사와 세계적인 브랜드 인지도를 통해 건설 및 광산 장비 시장에서 독보적인 리더십을 구축했습니다.",
+      "세계 최대 규모의 독립 딜러 네트워크를 통해 고객에게 제품 판매, 서비스, 부품 공급 및 금융 서비스를 제공하며 강력한 고객 관계를 형성하고 있습니다.",
+      "Cat Financial을 통한 금융 서비스는 고객의 장비 구매 및 리스를 지원하여 고객 충성도를 높이고 경쟁사 대비 차별화된 가치를 제공합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "2025년 '고객의 가장 어려운 문제 해결'이라는 새로운 미션과 전략 발표",
+    "bull_case": "인프라 투자 확대 및 광업 수요 증가로 핵심 사업부문 성장 가속화, 수익성 개선 지속",
+    "base_case": "글로벌 경제 성장 둔화에도 불구하고, 인프라 투자 및 자원 산업의 꾸준한 수요를 바탕으로 안정적인 매출 성장과 수익성을 유지할 것입니다. 신규 전략을 통해 상업적 우수성 및 첨단 기술 리더십을 강화하며 시장 지배력을 공고히 할 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체 심화, 원자재 가격 급락, 지정학적 리스크 증가로 건설 및 광업 수요가 급감하여 매출과 수익성이 크게 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (TTM)",
+      "영업이익률 (OPM)",
+      "자유 현금 흐름 (FCF)",
+      "딜러 네트워크 확장 및 효율성",
+      "신흥 시장에서의 시장 점유율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "비록 우리가 가정에 있어 신중했다고 생각하더라도 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
+        "category": "거시",
+        "description": "글로벌 및 지역 경제 상황, 특히 건설, 광업, 에너지, 운송 산업의 경기 침체는 제품 및 서비스 수요를 감소시켜 실적에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "원자재 가격 변동성, 특히 에너지 및 광물 가격의 급격한 변화는 고객의 투자 결정을 지연시키거나 취소하게 하여 제품 수요를 감소시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "경제 성장 둔화 또는 경제 성장과 투자를 겪고 있는 지역 및 국가의 글로벌 구성 변화는 당사의 사업, 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "공급망",
+        "description": "원자재 가격 상승, 공급망 중단, 재료 및 부품 부족, 노동력 부족은 생산 비용을 증가시키고 고객 수요를 충족하는 능력을 제한하여 재무 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "지진, 홍수, 팬데믹, 사이버 공격, 전쟁 등 예측 불가능한 재난은 직원, 시스템, 생산 및 유통 능력에 심각한 영향을 미쳐 사업 운영 및 재무 상태를 악화시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "우리가 서비스를 제공하는 산업에 영향을 미치는 경제 상황은 앞서 언급한 다양한 상황에 대응하여 자본 지출을 감소시킬 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "당사의 제품은 이러한 활동의 ​​필수적인 구성 요소이며, 이러한 활동이 감소함에 따라 당사의 제품 및 서비스에 대한 수요가 크게 영향을 받을 수 있으며 이는 당사의 결과에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "재앙적인 사건은 당사의 사업, 운영 결과 및/또는 재무 상태에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "이러한 조치는 당사 인력과 운영, 고객, 딜러 및 공급업체의 운영 전체 또는 일부에 영향을 미칠 수 있습니다.",
+        "category": "재무",
+        "description": "철강 등 주요 원자재 가격 상승분을 제품 가격 인상, 생산성 향상, 비용 절감 또는 헤징 프로그램으로 완전히 상쇄하지 못할 경우 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "글로벌 경제가 장기적인 침체에 빠져 건설, 광업, 에너지 산업의 자본 지출이 급감하고, 동시에 주요 공급망이 마비되어 생산이 불가능해지는 경우.",
+      "예측 불가능한 대규모 재난(예: 전 세계적인 팬데믹 또는 대규모 사이버 공격)으로 인해 전 세계적인 생산 및 유통 시스템이 마비되고, 주요 고객 기반이 붕괴되는 경우.",
+      "핵심 원자재 가격이 통제 불가능하게 급등하고, 동시에 경쟁사들이 혁신적인 저비용 대체재를 출시하여 시장 점유율을 급격히 잃는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 시장(예: 북미, 중국)의 건설 및 광업 투자 지표가 3분기 연속으로 전년 대비 10% 이상 감소하는 경우.",
+      "핵심 원자재(예: 철강) 가격이 2분기 연속으로 20% 이상 상승하고, 회사가 이를 제품 가격에 전가하지 못하는 것이 확인되는 경우.",
+      "주요 공급업체 중 3개 이상이 파산하거나 생산을 중단하여 핵심 부품 조달에 심각한 차질이 발생하고, 대체 공급처를 찾지 못하는 경우."
     ]
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:35:47.654936+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:54:12.788873+00:00"
   }
 }

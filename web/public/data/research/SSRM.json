@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Basic Materials",
   "industry": "Gold",
-  "generated_at": "2026-05-13T00:18:58.083503+00:00",
+  "generated_at": "2026-05-13T10:39:22.270781+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,34 +17,16 @@
     "beta": 0.86
   },
   "category_a_business": {
-    "overview": "SSRM은 미국, 튀르키예, 캐나다, 아르헨티나에서 귀금속 및 비철금속을 탐사, 개발, 생산하는 글로벌 광업 회사입니다.",
-    "milestones": [
-      "1946년: Silver Standard Resources Inc. 설립",
-      "2017: 사명을 Silver Standard Resources Inc.에서 SSR Mining Inc.로 변경",
-      "2020: Alacer Gold와 합병하여 본사를 덴버, 콜로라도로 이전",
-      "2021: 새로운 경영진 구성 발표 (CEO, CFO 등)",
-      "2025: 호주 증권 거래소(ASX) 자발적 상장 폐지 예정"
-    ],
-    "business_model": "귀금속 및 비철금속 광산 운영, 탐사 및 개발을 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "금 도레 판매",
-      "은 농축물 판매",
-      "납 농축물 판매",
-      "아연 농축물 판매",
-      "구리 및 기타 부산물"
-    ],
-    "value_chain_position": "Upstream: 광물 자원 탐사, 개발 및 채굴에 집중하며, 정제는 외부 파트너를 통해 진행합니다.",
-    "products": [
-      "금 도레 (Gold Doré)",
-      "은 농축물 (Silver Concentrate)",
-      "납 농축물 (Lead Concentrate)",
-      "아연 농축물 (Zinc Concentrate)",
-      "구리 (Copper)"
-    ],
+    "overview": "SSR Mining Inc.는 자회사와 함께 미국, 터키, 캐나다 및 아르헨티나에서 귀금속 자원 자산의 획득, 탐사 및 개발에 참여하고 있습니다. 이 회사는 금도레, 구리, 은, 납 및 아연 매장지를 탐색합니다. 터키 Erzincan 지방에 위치한 Çöpler에 지분을 보유하고 있습니다. 미국 네바다주에 위치한 메리골드; 캐나다 서스캐처원에 위치한 Seabee; 아르헨티나 후후이(Jujuy) 지방에 위치한 푸나(Puna).",
+    "business_model": "SSR Mining Inc.는 자회사와 함께 미국, 터키, 캐나다 및 아르헨티나에서 귀금속 자원 자산의 획득, 탐사 및 개발에 참여하고 있습니다.",
     "channels": [
-      "B2B (은행, 중앙은행, 제련소, 트레이더)"
+      "B2B / 기업"
     ],
-    "key_customers": "주요 고객은 CIBC, RBC, NBC 등 은행과 튀르키예 중앙은행, Trafigura Trading LLC 등이며, 상위 고객 집중도가 높은 편입니다."
+    "wikipedia_excerpt": "SSR Mining Inc.(이전 Silver Standard Resources)는 덴버에 본사를 둔 금, 은, 구리, 납 및 아연 생산업체로 아르헨티나에서 가장 큰 은 광산을 소유하고 있습니다. 또한 아메리카와 터키 전역에서 탐사 활동에 참여하고 있습니다. 2020년에 SSR Mining은 Alacer Gold와 합병되었습니다. 합병 이후 회사는 본사를 콜로라도주 덴버로 이전했습니다. Rodney P. Antal은 현재 SSR 마이닝의 사장 겸 CEO입니다. 2021년 2월 SSR Mining은 Alison White가 새로운 부사장 겸 CFO가 될 것이라고 발표했습니다. 또한 SSR 마이닝의 나머지 임원진도 추가되었습니다.",
+    "milestones": [
+      "2020: , SSR Mining이 Alacer Gold와 합병되었습니다.",
+      "2021: , SSR Mining은 Alison White가 새로운 부사장 겸 CFO가 될 것이라고 발표했습니다."
+    ]
   },
   "category_b_financials": {
     "roe": 0.12,
@@ -152,7 +134,7 @@
     "stage_name": "Advancing",
     "peg_ratio": 0.02,
     "trailing_pe": 13.693488,
-    "forward_pe": 6.866686,
+    "forward_pe": 7.077424,
     "ev_to_ebitda": 9.05,
     "price_to_sales": 3.9137337,
     "stop_loss_pct": -7.0,
@@ -203,6 +185,6 @@
   },
   "wikipedia_summary": "SSR Mining Inc., formerly Silver Standard Resources is a Denver-based gold, silver, copper, lead and zinc producer that owns the largest silver mine in Argentina. In addition it engages in exploration activity throughout the Americas and Turkey. In 2020, SSR Mining merged with Alacer Gold. Since the merger, the company has moved headquarters to Denver, Colorado. Rodney P. Antal is now the president and CEO of SSR mining. In February 2021, SSR Mining announced that Alison White would be the new executive vice president and CFO. In addition, the rest of the executive team at SSR mining was added following the closure of the merger between SSR and Alacer Gold. Stewart Beckman is the executive vice president and COO ; F. Edward Farid is the vice president and CCDO. Michael J. Sparks is the vice president and chief legal and administrative officer. In addition, the rest of the leadership team and information can be found on their website. The merger created a company worth $4.0 billion",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:37:01.509548+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:57:56.272457+00:00"
   }
 }

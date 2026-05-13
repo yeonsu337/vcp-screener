@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-12T02:18:58.285590+00:00",
+  "generated_at": "2026-05-13T10:38:21.203601+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 370231541760,
+    "market_cap": 361715138560,
     "shares_outstanding": 1250571000,
     "employees": 20600,
     "country": "United States",
@@ -29,7 +29,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Lam Research Corporation은 미국의 반도체 산업에 웨이퍼 제조 장비 및 관련 서비스를 공급하는 회사입니다. 해당 제품은 반도체 장치의 활성 구성 요소와 배선(인터커넥트)을 생성하는 단계를 포함하는 프런트 엔드 웨이퍼 처리에 주로 사용됩니다. 이 회사는 또한 백엔드 웨이퍼 레벨 패키징(WLP) 및 미세 전자 기계 시스템(MEMS)과 같은 관련 제조 시장을 위한 장비도 제작합니다."
+    "wikipedia_excerpt": "Lam Research Corporation은 미국의 반도체 산업에 웨이퍼 제조 장비 및 관련 서비스를 공급하는 회사입니다. 해당 제품은 주로 반도체 장치의 활성 구성 요소와 배선(인터커넥트)을 생성하는 단계를 포함하는 프런트 엔드 웨이퍼 처리에 사용됩니다. 이 회사는 또한 백엔드 웨이퍼 레벨 패키징(WLP) 및 미세 전자 기계 시스템(MEMS)과 같은 관련 제조 시장을 위한 장비도 제작합니다."
   },
   "category_b_financials": {
     "roe": 0.67,
@@ -39,7 +39,7 @@
     "gross_margin": 0.5,
     "revenue_growth_ttm": 0.24,
     "earnings_growth_ttm": 0.41,
-    "dividend_yield": 0.35,
+    "dividend_yield": 0.36,
     "payout_ratio": 0.19,
     "annual_revenue": [
       18435591000.0,
@@ -128,24 +128,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 73.0,
+    "score": 70.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.7198,
-    "trailing_pe": 55.96408,
-    "forward_pe": 37.4134,
-    "ev_to_ebitda": 47.047,
-    "price_to_sales": 17.075647,
+    "trailing_pe": 54.676746,
+    "forward_pe": 36.552784,
+    "ev_to_ebitda": 45.962,
+    "price_to_sales": 16.68286,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 251.6,
-    "outperform_6m_vs_nasdaq": 69.08,
-    "outperform_1m_vs_nasdaq": -2.43,
+    "outperform_1y_vs_nasdaq": 241.11,
+    "outperform_6m_vs_nasdaq": 68.62,
+    "outperform_1m_vs_nasdaq": -4.33,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Lam Research Corporation is an American supplier of wafer-fabrication equipment and related services to the semiconductor industry. Its products are used primarily in front-end wafer processing, which involves the steps that create the active components of semiconductor devices and their wiring (interconnects). The company also builds equipment for back-end wafer-level packaging (WLP) and for related manufacturing markets such as for microelectromechanical systems (MEMS).",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:36:40.499594+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:55:32.825823+00:00"
   }
 }

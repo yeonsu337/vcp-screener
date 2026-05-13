@@ -4,19 +4,57 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-07T06:35:46.459062+00:00",
+  "generated_at": "2026-05-13T10:31:04.690027+00:00",
   "primary_passed": 13,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 5051308310528,
+    "market_cap": 5366057795584,
     "shares_outstanding": 24300000000,
     "employees": 42000,
     "country": "United States",
     "website": "https://www.nvidia.com",
     "beta": 2.244
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "엔비디아는 GPU 발명으로 가속 컴퓨팅을 선도하며, 데이터센터 AI 인프라 기업으로 진화했습니다.",
+    "milestones": [
+      "1993: 젠슨 황, 크리스 말라코스키, 커티스 프리엠 공동 설립",
+      "1999: GPU 발명, PC 게이밍 시장 성장 견인",
+      "2006: CUDA 플랫폼 출시, GPU의 병렬 처리 능력 개방",
+      "2012: 엔비디아 GPU로 훈련된 AlexNet, ImageNet 대회 우승 (AI 빅뱅)",
+      "2017: AI 시대를 위한 Tensor Core GPU 출시",
+      "2020: Mellanox 인수, 데이터센터 네트워킹 및 DPU 역량 강화",
+      "2023: 데이터센터 CPU 'Grace' 출시",
+      "2024: Blackwell 아키텍처 출시"
+    ],
+    "business_model": "하드웨어, 소프트웨어, 시스템을 통합한 플랫폼 전략으로 수익 창출",
+    "revenue_streams": [
+      "데이터센터 GPU 및 AI 솔루션",
+      "게이밍 GPU",
+      "전문가용 시각화 GPU (Quadro/RTX)",
+      "자동차 플랫폼 및 자율주행 솔루션",
+      "네트워킹 제품 (Mellanox)",
+      "소프트웨어 및 서비스"
+    ],
+    "value_chain_position": "Midstream / Downstream + GPU 설계 및 제조 (팹리스), AI 인프라 솔루션 제공",
+    "products": [
+      "지포스 GPU",
+      "엔비디아 RTX/쿼드로 GPU",
+      "NVIDIA H100/A100 (데이터센터 GPU)",
+      "NVIDIA DRIVE (자율주행 플랫폼)",
+      "CUDA (소프트웨어 플랫폼)",
+      "NVIDIA AI Enterprise (엔터프라이즈 AI 소프트웨어)"
+    ],
+    "channels": [
+      "OEM",
+      "ODM",
+      "시스템 통합업체 및 유통업체",
+      "클라우드 서비스 제공업체",
+      "자동차 제조사 및 Tier-1 공급업체"
+    ],
+    "key_customers": "다양한 산업의 기업 고객에게 판매하며, 특정 고객에 대한 매출 집중도는 낮은 편"
+  },
   "category_b_financials": {
     "roe": 1.01,
     "roa": 0.51,
@@ -102,27 +140,136 @@
     "ni_cagr_3y_pct": 201.8,
     "roe_pct": 101.48
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 1조 USD (데이터센터 AI 인프라 시장 추정치, NVIDIA 자체 추정치 및 시장 분석가 보고서 기반)",
+    "tam_cagr_pct": "30-40% (향후 3~5년) - AI 모델 학습 및 추론, 데이터 분석, 과학 컴퓨팅, 로봇 공학 등 가속 컴퓨팅 수요 폭발적 증가, 특히 생성형 AI 및 에이전트 AI의 확산에 기인",
+    "growth_drivers": [
+      "생성형 AI 및 에이전트 AI의 광범위한 채택 및 발전",
+      "데이터센터 규모의 AI 인프라 구축 및 확장 가속화",
+      "산업 전반에 걸친 AI 기반 디지털 전환 가속화 (헬스케어, 통신, 자동차, 제조 등)",
+      "로봇 공학 및 자율 시스템 시장의 성장",
+      "메타버스 및 3D 시뮬레이션 기술 발전"
+    ],
+    "market_share_pct": "데이터센터 GPU 시장 80-90% estimate",
+    "competitors": [
+      {
+        "name": "AMD (Advanced Micro Devices)",
+        "differentiation": "GPU 및 CPU 통합 솔루션 제공, 개방형 소프트웨어 생태계(ROCm) 구축 노력, 가격 경쟁력"
+      },
+      {
+        "name": "Intel",
+        "differentiation": "오랜 CPU 시장 지배력, 데이터센터용 가속기(Gaudi) 개발, 광범위한 고객 기반 및 소프트웨어 생태계"
+      },
+      {
+        "name": "Google (TPU)",
+        "differentiation": "자체 AI 워크로드에 최적화된 맞춤형 하드웨어(TPU) 개발 및 클라우드 서비스 제공, 소프트웨어-하드웨어 통합 최적화"
+      },
+      {
+        "name": "AWS (Inferentia, Trainium)",
+        "differentiation": "클라우드 서비스 내 자체 개발 AI 칩 제공, 클라우드 인프라와의 긴밀한 통합 및 최적화"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 높은 R&D 투자, 복잡한 기술 스택, 강력한 생태계 구축의 어려움으로 진입 장벽이 높지만, 특정 니치 시장이나 소프트웨어 기반의 새로운 접근 방식은 가능성 존재",
+      "substitutes": "medium - CPU 기반 컴퓨팅은 여전히 존재하지만, AI 및 가속 컴퓨팅 워크로드에서는 성능 및 효율성 면에서 GPU가 압도적. FPGA나 ASIC 등 맞춤형 칩이 일부 대체재가 될 수 있으나, 범용성 및 개발 생태계에서 NVIDIA가 우위.",
+      "buyer_power": "medium - 대규모 데이터센터 고객(클라우드 서비스 제공업체, 대기업)은 구매력이 높지만, NVIDIA의 독점적인 기술력과 성능 우위로 인해 협상력이 제한적. 특정 워크로드에 대한 의존도가 높음.",
+      "supplier_power": "medium - TSMC와 같은 파운드리 업체에 대한 의존도가 높으나, NVIDIA의 대규모 주문량과 전략적 파트너십으로 인해 공급업체 협상력이 균형을 이룸. 특정 소재 및 부품 공급업체는 영향력 가질 수 있음.",
+      "rivalry": "high - AMD, Intel 등 기존 반도체 강자들의 AI 가속기 시장 진입 및 투자 확대, 클라우드 기업들의 자체 칩 개발로 경쟁 심화. 그러나 NVIDIA는 현재 압도적인 시장 점유율과 기술 리더십을 보유."
+    },
+    "competitive_advantages": [
+      "CUDA 플랫폼 기반의 강력한 소프트웨어 생태계 및 개발자 커뮤니티",
+      "GPU 하드웨어(아키텍처)의 압도적인 성능 및 기술 리더십",
+      "데이터센터 규모의 AI 인프라를 위한 칩, 네트워킹, 시스템, 소프트웨어 통합 솔루션 제공",
+      "지속적인 R&D 투자 및 혁신 능력 (Blackwell, Tensor Core 등)",
+      "다양한 산업 분야에 걸친 광범위한 적용 사례 및 파트너십"
+    ],
+    "competitive_weaknesses": [
+      "높은 가격 정책으로 인한 고객의 비용 부담 및 대체재 모색 유인",
+      "특정 파운드리(TSMC)에 대한 높은 생산 의존도",
+      "지정학적 리스크 및 무역 규제에 대한 취약성 (특히 중국 시장)",
+      "경쟁사들의 개방형 소프트웨어 생태계 구축 노력에 대한 대응 필요",
+      "전력 소비 및 냉각 문제 등 고성능 하드웨어 운영의 복잡성"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 63.2,
+    "rs_rating": 74,
+    "score": 69.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.6237,
-    "trailing_pe": 42.414284,
-    "forward_pe": 18.491564,
-    "ev_to_ebitda": 37.523,
-    "price_to_sales": 23.3924,
+    "peg_ratio": 0.6831,
+    "trailing_pe": 45.05714,
+    "forward_pe": 19.453611,
+    "ev_to_ebitda": 39.884,
+    "price_to_sales": 24.849993,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 37.84,
-    "outperform_6m_vs_nasdaq": -7.94,
-    "outperform_1m_vs_nasdaq": -0.66,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 43.8,
+    "outperform_6m_vs_nasdaq": 3.95,
+    "outperform_1m_vs_nasdaq": 4.1,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "NVIDIA는 CUDA 개발 플랫폼을 포함한 광범위한 소프트웨어 스택을 통해 AI 모델 훈련 및 추론, 데이터 분석 등 컴퓨팅 집약적 워크로드를 가속화하며 독점적 기술 우위를 확보하고 있습니다.",
+      "블랙웰 아키텍처와 함께 데이터센터 규모의 인프라를 칩, 네트워킹, 시스템, 소프트웨어, 알고리즘까지 통합 설계 및 최적화하여 성능과 확장성을 극대화하는 극단적인 공동 설계를 제공합니다.",
+      "1999년 GPU 발명과 2006년 CUDA 도입 이후, NVIDIA는 767억 달러 이상을 R&D에 투자하여 현대 컴퓨팅에 필수적인 발명품들을 지속적으로 창출하며 기술 리더십을 유지하고 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "블랙웰 아키텍처 기반 데이터센터 스케일 AI 인프라 출시 및 생성형 AI 시장 성장",
+    "bull_case": "AI 인프라 수요 폭증으로 데이터센터 매출 급증, 소프트웨어 플랫폼 확장으로 수익성 개선 및 시장 지배력 강화.",
+    "base_case": "AI 시장의 견고한 성장과 함께 NVIDIA의 GPU 및 소프트웨어 플랫폼이 핵심 인프라로 자리매김하며 안정적인 매출 및 이익 성장을 지속할 것입니다.",
+    "bear_case": "경쟁사의 기술 발전 및 시장 점유율 확대, AI 투자 둔화 또는 규제 강화로 인한 성장률 저하 및 수익성 악화가 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "데이터센터 부문 매출 성장률",
+      "CUDA 플랫폼 개발자 수 및 생태계 확장",
+      "R&D 투자 대비 신제품 출시 및 시장 반응"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Nvidia Corporation is an American technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, video games, and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia has been widely described as a Big Tech company.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "AI 및 데이터 센터 시장의 경쟁 심화로 인해 시장 점유율과 수익성이 저하될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "반도체 제조 및 공급망의 복잡성으로 인해 생산 지연이나 비용 증가가 발생할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "국제 무역 정책, 특히 미국과 중국 간의 기술 규제 변화는 사업 운영에 상당한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "높은 주가 변동성과 시장 기대치 미달 시 투자자 신뢰도 하락 및 주가 급락 위험이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 위협에 대한 이사회 및 경영진의 감독 부실은 데이터 유출 및 명성 손상으로 이어질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화 또는 경기 침체는 기업 및 소비자 지출 감소로 이어져 제품 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "핵심 AI 칩 기술에서 경쟁사에 완전히 뒤처져 시장 지배력을 상실하고 수익성이 급락하는 경우.",
+      "미국-중국 기술 분쟁이 극단으로 치달아 중국 시장 접근이 완전히 차단되고 글로벌 공급망이 붕괴되는 경우.",
+      "심각한 보안 침해로 인해 핵심 기술이 유출되거나 고객 데이터가 대규모로 유출되어 막대한 법적 책임과 브랜드 신뢰도 상실을 겪는 경우."
+    ],
+    "exit_signals": [
+      "경쟁사가 NVDA의 H100/B100과 동등하거나 우월한 성능의 AI 칩을 대량 생산하여 시장 점유율을 급격히 잠식하는 것이 확인될 때.",
+      "미국 정부가 NVDA의 중국 수출에 대한 규제를 대폭 강화하여 주요 고객과의 거래가 불가능해지고 매출에 심각한 타격이 예상될 때.",
+      "주요 데이터 센터 고객사들이 NVDA 대신 자체 개발 칩(ASIC) 사용을 확대하거나 다른 공급업체로 전환하는 추세가 명확해질 때."
+    ]
+  },
+  "wikipedia_summary": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for data science, high-performance computing, video games, and mobile and automotive applications. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, Nvidia has been widely described as a Big Tech company.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:36:40.502816+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:56:11.589241+00:00"
   }
 }

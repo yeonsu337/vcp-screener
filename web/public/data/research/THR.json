@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-13T00:27:11.361621+00:00",
+  "generated_at": "2026-05-13T10:57:55.447525+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -145,7 +145,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한, 이러한 지연 및 취소로 인해 분기별로 영업 결과가 크게 변동될 수 있어 분기별 재무 성과를 예측하기가 어려워질 수 있습니다.",
+        "description": "또한, 이러한 지연 및 취소로 인해 분기별로 영업 결과가 크게 변동될 수 있어 분기별 재무 성과를 예측하기가 어려워집니다.",
         "severity": "medium"
       },
       {
@@ -155,7 +155,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "글로벌 기업으로서 우리는 여러 국가에서 경제적, 정치적 및 기타 위험에 노출되어 있으며, 이로 인해 수익, 수익성, 현금 흐름이 실질적으로 감소하거나 부채가 실질적으로 증가할 수 있습니다.",
+        "description": "글로벌 기업으로서 우리는 여러 국가에서 경제적, 정치적 및 기타 위험에 노출되어 있으며, 이로 인해 매출, 수익성, 현금 흐름이 실질적으로 감소하거나 부채가 실질적으로 증가할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:37:16.431388+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:58:22.013144+00:00"
   }
 }

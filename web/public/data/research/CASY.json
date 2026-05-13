@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
-  "generated_at": "2026-05-11T15:07:22.710944+00:00",
+  "generated_at": "2026-05-13T10:46:40.718673+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 32140920832,
+    "market_cap": 32144072704,
     "shares_outstanding": 36959030,
     "employees": 23338,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.25,
     "revenue_growth_ttm": 0.0,
     "earnings_growth_ttm": 0.5,
-    "dividend_yield": 0.27,
+    "dividend_yield": 0.26,
     "payout_ratio": 0.13,
     "annual_revenue": [
       15940899000.0,
@@ -118,20 +118,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 71.1,
+    "rs_rating": 85,
+    "score": 70.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.0455,
-    "trailing_pe": 49.690826,
-    "forward_pe": 43.20873,
-    "ev_to_ebitda": 24.612,
-    "price_to_sales": 1.8926375,
+    "trailing_pe": 49.752724,
+    "forward_pe": 43.07465,
+    "ev_to_ebitda": 24.817,
+    "price_to_sales": 1.8928231,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 45.65,
-    "outperform_6m_vs_nasdaq": 51.92,
-    "outperform_1m_vs_nasdaq": 2.76,
+    "outperform_1y_vs_nasdaq": 48.52,
+    "outperform_6m_vs_nasdaq": 49.39,
+    "outperform_1m_vs_nasdaq": 5.54,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -163,7 +163,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "리더십 팀 구성원과 기타 유통, 현장 및 매장 팀 구성원을 모집, 고용 또는 유지하는 데 어려움을 겪거나, 채용, 고용 또는 유지할 수 없는 경우 당사는 부정적인 영향을 받을 수 있습니다.",
+        "description": "리더십 팀 구성원과 기타 유통, 현장 및 매장 팀 구성원을 모집, 채용 또는 유지하는 데 어려움을 겪거나 이를 수행할 수 없는 경우 당사는 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -176,6 +176,6 @@
   },
   "wikipedia_summary": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of May 1, 2026, Casey's has 2,950 stores in 19 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:35:43.224671+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:54:11.063273+00:00"
   }
 }

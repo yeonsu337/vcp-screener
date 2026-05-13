@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-12T02:17:56.782309+00:00",
+  "generated_at": "2026-05-13T10:49:44.616777+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 229177802752,
+    "market_cap": 215029301248,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -22,7 +22,7 @@
     "products": [
       "미국, 유럽, 중동, 아프리카 등에서 NAND 플래시 기술을 활용한 데이터 저장 장치 및 솔루션",
       "데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브",
-      "자사 제품을 컴퓨터 제조업체, OEM, 데이터센터, 프라이빗 클라우드 고객, 클라우드에 제공"
+      "자사 제품을 컴퓨터 제조업체, OEM, 데이터센터, 프라이빗 클라우드 고객, 클라우드에 공급"
     ],
     "channels": [
       "B2B / 기업"
@@ -109,19 +109,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 73.8,
+    "score": 67.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 52.962357,
-    "forward_pe": 9.14325,
-    "ev_to_ebitda": 40.066,
-    "price_to_sales": 17.383024,
+    "trailing_pe": 49.50631,
+    "forward_pe": 8.578784,
+    "ev_to_ebitda": 37.553,
+    "price_to_sales": 16.309868,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 4074.83,
-    "outperform_6m_vs_nasdaq": 631.16,
-    "outperform_1m_vs_nasdaq": 66.97,
+    "outperform_1y_vs_nasdaq": 3701.92,
+    "outperform_6m_vs_nasdaq": 492.92,
+    "outperform_1m_vs_nasdaq": 39.92,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -148,7 +148,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "비용 증가에 따른 당사 제품 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
+        "description": "비용 증가에 따른 당사 제품의 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -166,6 +166,6 @@
   },
   "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:36:57.184674+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:57:19.033461+00:00"
   }
 }

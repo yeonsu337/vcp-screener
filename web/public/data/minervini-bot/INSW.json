@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "INSW",
-  "generated_at": "2026-05-13T00:10:27.812754+00:00",
+  "generated_at": "2026-05-13T10:28:26.368095+00:00",
   "source_results_date": "2026-05-13",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.83,
   "lines": [
     "매수 대기 — Stage 2 진입, pivot $92.66 근접(-4.60%).",
-    "13주 베이스 10.8% → 15.5% → 3.1% 수축, VDU 1.32× 진행.",
+    "13주 베이스 10.8% → 15.5% → 3.1% 수축, VDU 1.34× 진행.",
     "Trend Template 8/8 통과, RS 91, RS 라인 신고가 -3.6%.",
     "$92.66 돌파 시 매수·-7% 손절($86.17)·+20%($111.19) 절반 익절."
   ],
@@ -49,7 +49,7 @@
     "R3_rs_90"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.32× vs 0.6×)",
+    "P3_vol_dryup (1.34× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

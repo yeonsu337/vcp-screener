@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-11T15:17:40.590949+00:00",
+  "generated_at": "2026-05-13T10:47:42.527389+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 81757683712,
+    "market_cap": 77206388736,
     "shares_outstanding": 77800000,
     "employees": 10562,
     "country": "United States",
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 85.8,
-    "vcp_quality": 10.8,
+    "score": 68.7,
+    "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.63,
-    "trailing_pe": 184.68716,
-    "forward_pe": 58.381504,
-    "ev_to_ebitda": 127.641,
-    "price_to_sales": 32.855526,
+    "trailing_pe": 175.3304,
+    "forward_pe": 55.131516,
+    "ev_to_ebitda": 140.123,
+    "price_to_sales": 31.02652,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 1406.66,
-    "outperform_6m_vs_nasdaq": 311.63,
-    "outperform_1m_vs_nasdaq": -0.93,
+    "outperform_1y_vs_nasdaq": 1384.27,
+    "outperform_6m_vs_nasdaq": 299.89,
+    "outperform_1m_vs_nasdaq": 1.38,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -170,7 +170,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "따라서 경제 상황이 악화되거나 지속적인 약세 또는 성장 둔화를 겪을 경우 당사의 사업 및 재무 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "따라서 경제 상황이 악화되거나 지속적인 약세 또는 성장 둔화를 겪을 경우 당사의 비즈니스 및 재무 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:36:40.499219+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:55:22.641890+00:00"
   }
 }

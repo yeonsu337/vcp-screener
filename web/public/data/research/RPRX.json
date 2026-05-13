@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-05-12T02:16:55.393969+00:00",
+  "generated_at": "2026-05-13T10:44:38.376046+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 29741733888,
+    "market_cap": 29770524672,
     "shares_outstanding": 443274104,
     "employees": 100,
     "country": "United States",
@@ -34,7 +34,7 @@
     "gross_margin": 1.15,
     "revenue_growth_ttm": 0.11,
     "earnings_growth_ttm": 0.23,
-    "dividend_yield": 1.85,
+    "dividend_yield": 1.82,
     "payout_ratio": 0.47,
     "annual_revenue": [
       2378193000.0,
@@ -120,27 +120,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 84.1,
+    "rs_rating": 75,
+    "score": 84.4,
     "vcp_quality": 17.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.8993,
-    "trailing_pe": 27.184212,
-    "forward_pe": 9.200231,
+    "trailing_pe": 27.210527,
+    "forward_pe": 9.209137,
     "ev_to_ebitda": null,
-    "price_to_sales": 12.186628,
+    "price_to_sales": 12.198425,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 13.2,
-    "outperform_6m_vs_nasdaq": 14.06,
-    "outperform_1m_vs_nasdaq": -6.89,
+    "outperform_1y_vs_nasdaq": 14.15,
+    "outperform_6m_vs_nasdaq": 22.12,
+    "outperform_1m_vs_nasdaq": -5.78,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업을 손상시킬 수 있습니다.",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가적인 위험 및 불확실성도 당사의 사업을 손상시킬 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -155,7 +155,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 사업을 성장시키거나 전혀 성장하지 못할 수도 있습니다.",
+        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 비즈니스를 성장시키지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T00:36:57.183587+00:00"
+    "GoogleWebTranslator": "2026-05-13T10:57:01.457500+00:00"
   }
 }
