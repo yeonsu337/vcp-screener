@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import type { Candidate, Meta, RuleResult } from "../types";
 import { useLivePrices, fmtLiveTime } from "../lib/useLivePrices";
@@ -346,6 +346,151 @@ function sortValue(
   }
 }
 
+// --- Info tooltip (click-to-toggle popover with metric explanation) ---
+
+function InfoButton({
+  title,
+  body,
+  align = "left",
+}: {
+  title: string;
+  body: ReactNode;
+  align?: "left" | "right";
+}) {
+  const [open, setOpen] = useState(false);
+  return (
+    <span className="relative inline-block align-middle">
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          setOpen((o) => !o);
+        }}
+        className="ml-1 inline-flex w-3.5 h-3.5 items-center justify-center rounded-full bg-border/70 hover:bg-accent/50 text-[9px] text-muted hover:text-accent font-bold cursor-help leading-none transition"
+        aria-label={`About ${title}`}
+      >
+        i
+      </button>
+      {open && (
+        <>
+          <div
+            className="fixed inset-0 z-40"
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpen(false);
+            }}
+          />
+          <div
+            className={`absolute ${align === "right" ? "right-0" : "left-0"} top-5 z-50 w-72 p-3 rounded-md bg-[color:var(--bg)] border border-border text-xs text-text shadow-xl normal-case font-normal tracking-normal text-left`}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="font-semibold text-accent mb-1.5">{title}</div>
+            <div className="text-text/90 space-y-1.5">{body}</div>
+          </div>
+        </>
+      )}
+    </span>
+  );
+}
+
+// --- Column metric explanations (Minervini doctrine + actual code thresholds) ---
+
+const COL_INFO: Record<string, { title: string; body: ReactNode }> = {
+  primary: {
+    title: "Primary Rules (핵심 13)",
+    body: (
+      <>
+        <div>Minervini Trend Template + RS70 + Liquidity + ROE 17%. 미국은 13개, KR/HK는 10개 (E7·F1·H4 펀더멘털 제외).</div>
+        <div>
+          <span className="text-emerald-400">12+ → BUY 후보</span> (Gemini 리서치 카드 자동 생성).
+        </div>
+        <div className="text-muted text-[10px]">A1/B1~B7/R1/L1/E7/F1/H4. 슬라이더로 최소 통과 수 조절.</div>
+      </>
+    ),
+  },
+  secondary: {
+    title: "Secondary Rules (보조 30)",
+    body: (
+      <>
+        <div>EPS·Sales 가속, ATR 수축, base count, 단기 tightening 등. Primary 통과 후 정합성 강화용.</div>
+        <div className="text-muted text-[10px]">B8~B10, R2~R3, V1~V2, L2~L4, P1~P6, E1~E10, F2~F3, H1~H3.</div>
+      </>
+    ),
+  },
+  score: {
+    title: "Composite Score (0~100)",
+    body: (
+      <>
+        <div className="text-muted text-[11px] mb-1">6 차원 가중합산:</div>
+        <div>· RS Rating <span className="text-muted">— 20pt 선형</span></div>
+        <div>· Stage 2 <span className="text-muted">— 20pt (confidence 비례)</span></div>
+        <div>· MA Alignment <span className="text-muted">— 15pt</span></div>
+        <div>· 52W Position <span className="text-muted">— 15pt (-25%~0% 매핑)</span></div>
+        <div>· VCP Quality <span className="text-muted">— 20pt</span></div>
+        <div>· RS Line <span className="text-muted">— 10pt</span></div>
+        <div className="mt-1.5">
+          <span className="text-emerald-400">90+ 강력</span> · <span className="text-yellow-400">75+ 양호</span> · <span className="text-muted">50- 약함</span>
+        </div>
+      </>
+    ),
+  },
+  rs: {
+    title: "RS Rating (IBD 상대강도)",
+    body: (
+      <>
+        <div>1~99 백분위. 1년 주가 가속도 (Q1×0.4 + Q2~Q4×0.2) 기준.</div>
+        <div>
+          Minervini 기준: <span className="text-red-400">&lt;70 매수 금지</span> ·{" "}
+          <span className="text-yellow-400">≥70 hard gate</span> ·{" "}
+          <span className="text-emerald-400">≥80 leader</span> ·{" "}
+          <span className="text-emerald-400 font-semibold">≥90 champion</span>
+        </div>
+        <div className="text-muted text-[10px]">현재 universe = Finviz Trend Template 통과 종목 한정 (백로그: Russell 3000 확장 검토).</div>
+      </>
+    ),
+  },
+  vcp: {
+    title: "VCP Quality (0~20)",
+    body: (
+      <>
+        <div>Volatility Contraction Pattern 품질 점수. 0점 = 패턴 미검출.</div>
+        <div className="text-muted text-[11px] mt-1">하위 점수:</div>
+        <div>· 수축 횟수 (n × 1pt, max 4)</div>
+        <div>· 마지막 수축 폭 (≤6% 보너스 +2)</div>
+        <div>· Volume dry-up (3pt~)</div>
+        <div>· Base depth (≤15% 보너스)</div>
+        <div>· Pivot 근접도</div>
+        <div className="mt-1.5">
+          <span className="text-emerald-400">15+ 정석 VCP</span> · <span className="text-yellow-400">10+ 양호</span>
+        </div>
+      </>
+    ),
+  },
+  price: {
+    title: "Live Price",
+    body: (
+      <>
+        <div>30초 자동 갱신 (Yahoo Finance API).</div>
+        <div className="text-muted text-[10px]">장 마감 시 종가 표시. 색상 ± = 전일 대비 변동률.</div>
+      </>
+    ),
+  },
+  pivot: {
+    title: "→ Pivot (현재가 - pivot %)",
+    body: (
+      <>
+        <div>Pivot = 최근 base 내 최고 swing high (돌파 임계 가격).</div>
+        <div className="mt-1">
+          <div><span className="text-emerald-400">-5% ~ +3%</span> 🎯 이상적 entry zone</div>
+          <div><span className="text-yellow-400">+3% ~ +8%</span> ⚠️ 추격 매수 zone</div>
+          <div><span className="text-red-400">+8% 이상</span> ❌ Extended (매수 늦음)</div>
+          <div><span className="text-red-400">-12% 이하</span> ⛔ Base 무너짐 (제외)</div>
+        </div>
+      </>
+    ),
+  },
+};
+
 function SortHeader({
   label,
   col,
@@ -354,6 +499,7 @@ function SortHeader({
   onClick,
   align = "right",
   className = "",
+  info,
 }: {
   label: string;
   col: SortKey;
@@ -362,6 +508,7 @@ function SortHeader({
   onClick: (col: SortKey) => void;
   align?: "left" | "right";
   className?: string;
+  info?: { title: string; body: ReactNode };
 }) {
   const isActive = activeKey === col;
   const arrow = isActive ? (activeDir === "desc" ? "↓" : "↑") : "";
@@ -374,6 +521,7 @@ function SortHeader({
       <span className="inline-flex items-center gap-1">
         {label}
         <span className="text-[10px] w-2 inline-block">{arrow}</span>
+        {info && <InfoButton title={info.title} body={info.body} align={align} />}
       </span>
     </th>
   );
@@ -701,15 +849,24 @@ export default function ScreenerTable({
             <ScoreBar score={r.score} />
             <div className="grid grid-cols-3 gap-2 mt-3 text-xs">
               <div>
-                <div className="text-muted">Score</div>
+                <div className="text-muted flex items-center">
+                  Score
+                  <InfoButton title={COL_INFO.score.title} body={COL_INFO.score.body} />
+                </div>
                 <div className="num font-semibold">{r.score.toFixed(0)}</div>
               </div>
               <div>
-                <div className="text-muted">RS</div>
+                <div className="text-muted flex items-center">
+                  RS
+                  <InfoButton title={COL_INFO.rs.title} body={COL_INFO.rs.body} />
+                </div>
                 <div className="num font-semibold">{r.rs_rating}</div>
               </div>
               <div>
-                <div className="text-muted">&rarr; Pivot</div>
+                <div className="text-muted flex items-center">
+                  &rarr; Pivot
+                  <InfoButton title={COL_INFO.pivot.title} body={COL_INFO.pivot.body} align="right" />
+                </div>
                 <div className="num font-semibold">
                   {fmtNum(r.pct_to_pivot, 1, "%")}
                 </div>
@@ -720,7 +877,7 @@ export default function ScreenerTable({
       </div>
 
       {/* Desktop: sortable table */}
-      <div className="hidden md:block card overflow-hidden">
+      <div className="hidden md:block card overflow-visible">
         <table className="w-full text-sm">
           <thead className="bg-border/30 text-muted text-xs uppercase">
             <tr>
@@ -741,6 +898,7 @@ export default function ScreenerTable({
                 activeDir={sortDir}
                 onClick={handleSort}
                 className="w-24"
+                info={COL_INFO.primary}
               />
               <SortHeader
                 label="Secondary"
@@ -749,6 +907,7 @@ export default function ScreenerTable({
                 activeDir={sortDir}
                 onClick={handleSort}
                 className="w-24"
+                info={COL_INFO.secondary}
               />
               <SortHeader
                 label="Composite"
@@ -757,6 +916,7 @@ export default function ScreenerTable({
                 activeDir={sortDir}
                 onClick={handleSort}
                 className="w-32"
+                info={COL_INFO.score}
               />
               <SortHeader
                 label="RS"
@@ -764,6 +924,7 @@ export default function ScreenerTable({
                 activeKey={sortKey}
                 activeDir={sortDir}
                 onClick={handleSort}
+                info={COL_INFO.rs}
               />
               <SortHeader
                 label="VCP"
@@ -771,6 +932,7 @@ export default function ScreenerTable({
                 activeKey={sortKey}
                 activeDir={sortDir}
                 onClick={handleSort}
+                info={COL_INFO.vcp}
               />
               <SortHeader
                 label="Price"
@@ -778,6 +940,7 @@ export default function ScreenerTable({
                 activeKey={sortKey}
                 activeDir={sortDir}
                 onClick={handleSort}
+                info={COL_INFO.price}
               />
               <SortHeader
                 label="→ Pivot"
@@ -785,6 +948,7 @@ export default function ScreenerTable({
                 activeKey={sortKey}
                 activeDir={sortDir}
                 onClick={handleSort}
+                info={COL_INFO.pivot}
               />
             </tr>
           </thead>
