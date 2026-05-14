@@ -136,19 +136,29 @@ export default function CompositeBreakdown({ candidate }: { candidate: Candidate
   const v1 = candidate.score_v1 ?? 0;
   const fund = candidate.fundamentals_score ?? 0;
   const a1 = candidate.a1_pts ?? 0;
-  const total = v1 + fund + a1;
+  const extPenalty = candidate.extended_penalty ?? 0;
+  const total = v1 + fund + a1 - extPenalty;
   const v2 = candidate.score ?? 0;
   const a1Raw = _ruleVal(candidate, "A1_ud_vol_ratio");
 
   const isFallback = candidate.fundamentals_basis === "fallback_kr_hk";
+  const strictTT = candidate.qualifies_strict !== false;  // undefined treated as legacy-pass
+  const ttPenaltyApplied = candidate.qualifies_strict === false;
 
   return (
     <section className="card p-5 mb-6">
       <div className="flex items-baseline justify-between mb-4">
         <h2 className="text-base font-semibold">Composite Score v2 — 구성 분해</h2>
-        <div className="num tabular-nums">
-          <span className="text-accent text-2xl font-bold">{v2.toFixed(1)}</span>
-          <span className="text-muted text-sm"> / 100</span>
+        <div className="num tabular-nums text-right">
+          <div>
+            <span className="text-accent text-2xl font-bold">{v2.toFixed(1)}</span>
+            <span className="text-muted text-sm"> / 100</span>
+          </div>
+          {!strictTT && (
+            <div className="text-[10px] text-yellow-400 mt-0.5">
+              ⚠️ Trend Template 미통과 -15%
+            </div>
+          )}
         </div>
       </div>
 
@@ -189,14 +199,32 @@ export default function CompositeBreakdown({ candidate }: { candidate: Candidate
       </div>
 
       <div className="border-t border-border pt-3 mt-4 flex flex-col gap-1.5 text-xs">
+        {extPenalty > 0 && (
+          <div className="flex justify-between text-yellow-400">
+            <span>⚠️ Extended VCP penalty (pivot &gt; +8%)</span>
+            <span className="num font-semibold tabular-nums">-{extPenalty.toFixed(1)}</span>
+          </div>
+        )}
         <div className="flex justify-between">
-          <span className="text-muted">Raw total (Technical + Fund + A1)</span>
+          <span className="text-muted">Raw total (Technical + Fund + A1 - penalty)</span>
           <span className="num font-semibold tabular-nums">
             {total.toFixed(1)} / 135
           </span>
         </div>
         <div className="flex justify-between">
           <span className="text-muted">Normalized × (100 / 135)</span>
+          <span className="num tabular-nums">
+            {(total * 100 / 135).toFixed(1)}
+          </span>
+        </div>
+        {ttPenaltyApplied && (
+          <div className="flex justify-between text-yellow-400">
+            <span>⚠️ Trend Template 미통과 × 0.85</span>
+            <span className="num tabular-nums">→ {v2.toFixed(1)}</span>
+          </div>
+        )}
+        <div className="flex justify-between pt-1 border-t border-border/50">
+          <span className="text-muted font-semibold">Final v2</span>
           <span className="num text-accent font-bold tabular-nums">
             {v2.toFixed(1)} / 100
           </span>

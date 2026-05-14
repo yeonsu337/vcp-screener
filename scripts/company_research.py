@@ -81,12 +81,32 @@ def count_primary_passed(rules: dict) -> int:
     return sum(1 for rid in PRIMARY_IDS if rules.get(rid, {}).get("passed"))
 
 
+# Phase 2-4: Trend Template 8/8 strict gate for research card generation.
+# Prevents Gemini LLM tokens being spent on stocks that pass Primary 12+
+# but fail strict Minervini Trend Template (e.g., B5 SMA200 not rising 5mo).
+TT_REQUIRED_FOR_RESEARCH = [
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "R1_rs_70",
+]
+
+
 def select_qualifying(rows: list[dict], min_primary: int = PRIMARY_PASS_THRESHOLD) -> list[dict]:
     out: list[dict] = []
     for r in rows:
         rules = r.get("rules") or {}
-        if count_primary_passed(rules) >= min_primary:
-            out.append(r)
+        if count_primary_passed(rules) < min_primary:
+            continue
+        # Phase 2-4: require Trend Template 8/8 (faithful Minervini binary doctrine).
+        # Stocks Primary 12+ but TT-incomplete don't qualify for research generation.
+        if not all((rules.get(rid) or {}).get("passed") for rid in TT_REQUIRED_FOR_RESEARCH):
+            continue
+        out.append(r)
     return out
 
 

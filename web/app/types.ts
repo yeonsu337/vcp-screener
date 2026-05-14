@@ -48,6 +48,11 @@ export type Candidate = {
   fundamentals_score?: number;        // 0~30pt
   fundamentals_basis?: "computed" | "fallback_kr_hk";
   a1_pts?: number;                    // 0~5pt sliding
+  // Phase 2-4: strict Trend Template + Extended VCP penalty
+  qualifies_strict?: boolean;         // true iff Trend Template 8/8 passes
+  extended_penalty?: number;          // vcp_quality halved if pct_to_pivot > +8%
+  // Phase 2-3 demotion tracking
+  detection_demoted_reason?: string;
   // Provenance (added by /api/search): how this Candidate was produced.
   // "cached"        → daily-scan results.json (full 42-rule eval)
   // "computed"      → on-demand price-only eval (no fundamentals)

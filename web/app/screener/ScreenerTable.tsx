@@ -421,20 +421,20 @@ const COL_INFO: Record<string, { title: string; body: ReactNode }> = {
     title: "Composite Score v2 (0~100)",
     body: (
       <>
-        <div className="text-muted text-[11px] mb-1">v2: 기존 6차원 + Fundamentals 30pt + A1 5pt → 135pt 정규화</div>
+        <div className="text-muted text-[11px] mb-1">Technical 65pt + Fundamentals 30pt + A1 5pt → 135pt 정규화 후 페널티 적용</div>
         <div className="text-muted text-[11px] uppercase mt-1">기술 (65pt 비례)</div>
         <div>· RS · Stage 2 · MA · 52W · VCP · RS Line</div>
         <div className="text-muted text-[11px] uppercase mt-1.5">Fundamentals (30pt, US 한정)</div>
-        <div>· EPS YoY 10pt (≥20% / ≥40% full)</div>
-        <div>· Sales YoY 8pt (≥15% / ≥30% full)</div>
-        <div>· ROE 7pt (≥17% full)</div>
-        <div>· Op Income 5pt (성장 +2 / 가속 +3)</div>
+        <div>· EPS YoY 10pt · Sales YoY 8pt · ROE 7pt · Op Income 5pt</div>
         <div className="text-muted text-[11px] uppercase mt-1.5">기관 매집 (5pt)</div>
         <div>· A1 U/D Vol Ratio sliding (1.0~2.25)</div>
+        <div className="text-muted text-[11px] uppercase mt-1.5">페널티 (Phase 2-4)</div>
+        <div>· <span className="text-yellow-400">Trend Template 8/8 미통과</span>: 최종 × 0.85</div>
+        <div>· <span className="text-yellow-400">Extended VCP</span> (pivot &gt; +8%): vcp_q × 0.5 차감</div>
         <div className="mt-1.5">
-          <span className="text-emerald-400">80+ 강력</span> · <span className="text-yellow-400">65+ 양호</span> · <span className="text-muted">50- 약함</span>
+          <span className="text-emerald-400">75+ 강력</span> · <span className="text-yellow-400">60+ 양호</span> · <span className="text-muted">50- 약함</span>
         </div>
-        <div className="text-muted text-[10px] mt-1">⚠️ KR/HK: Fundamentals 30pt = 0 (yfinance 결손). 최대 ~78점.</div>
+        <div className="text-muted text-[10px] mt-1">⚠️ KR/HK: Fundamentals 30pt = 0 (yfinance 결손). 최대 ~66점 (TT- × 0.85 가정).</div>
       </>
     ),
   },

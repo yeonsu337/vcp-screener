@@ -791,6 +791,8 @@ def main():
         r["fundamentals_score"] = v2["fundamentals_score"]
         r["fundamentals_basis"] = v2["fundamentals_basis"]
         r["a1_pts"] = v2["a1_pts"]
+        r["qualifies_strict"] = v2["qualifies_strict"]
+        r["extended_penalty"] = v2["extended_penalty"]
 
     # ---- Phase 2-3: Trend Template 8/8 hard precondition for `detected` ----
     # Detection previously relied on stage==2 alone, which permitted stocks where

@@ -527,13 +527,38 @@ def compute_a1_continuous(a1_ratio: float | None) -> float:
     return round(max(0.0, min(5.0, (a1_ratio - 1.0) * 4.0)), 2)
 
 
+# Trend Template 8/8 rules — universal across markets (price/MA/RS based).
+# Used as `qualifies_strict` flag in composite v2.
+TT_REQUIRED_8 = [
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "R1_rs_70",
+]
+
+
 def compute_composite_v2_from_row(row: dict) -> dict:
     """v2 composite from a results-row dict (post rules computation).
-    Returns dict with score_v2 (0~100), fundamentals_score, fundamentals_basis, a1_pts.
-    KR/HK: fundamentals = 0 (conservative). score_v2 caps at ~77.8 for these markets."""
+    Returns dict with score_v2 (0~100), fundamentals_score, fundamentals_basis,
+    a1_pts, qualifies_strict, extended_penalty.
+
+    Phase 2-4 additions:
+      - qualifies_strict: True iff Trend Template 8/8 passes. Stocks failing
+        get a -15% score multiplier (vs strict Minervini "all-or-nothing" doctrine).
+      - extended_penalty: if pct_to_pivot > +8% (Extended zone), subtract half
+        of vcp_quality from raw total — stale VCP pattern shouldn't reward score.
+
+    KR/HK: fundamentals = 0 (conservative). score_v2 caps at ~77.8 for these
+    markets, then -15% if TT not strict -> effective max ~66."""
     score_v1 = row.get("score") or 0.0
     market = row.get("market") or "US"
     rules = row.get("rules") or {}
+    pct_to_pivot = row.get("pct_to_pivot")
+    vcp_quality = row.get("vcp_quality") or 0.0
 
     def _val(rule_id: str):
         r = rules.get(rule_id) or {}
@@ -558,14 +583,27 @@ def compute_composite_v2_from_row(row: dict) -> dict:
 
     a1_pts = compute_a1_continuous(_val("A1_ud_vol_ratio"))
 
-    raw_total = score_v1 + fund_pts + a1_pts  # 0~135 (US) / 0~105 (KR/HK)
-    score_v2 = round(raw_total * (100.0 / 135.0), 1)
+    # Phase 2-4a: Trend Template 8/8 binary qualification
+    qualifies_strict = all(_pass(rid) for rid in TT_REQUIRED_8)
+
+    # Phase 2-4b: Extended VCP penalty — stale pattern (price already broke out)
+    extended_penalty = 0.0
+    if pct_to_pivot is not None and pct_to_pivot > 8.0 and vcp_quality > 0:
+        extended_penalty = vcp_quality * 0.5
+
+    raw_total = score_v1 + fund_pts + a1_pts - extended_penalty
+    score_v2_base = max(0.0, raw_total * (100.0 / 135.0))
+
+    # Phase 2-4c: -15% penalty if Trend Template incomplete (Minervini binary doctrine)
+    score_v2 = score_v2_base * (1.0 if qualifies_strict else 0.85)
 
     return {
-        "score_v2": score_v2,
+        "score_v2": round(score_v2, 1),
         "fundamentals_score": fund_pts,
         "fundamentals_basis": fund_basis,
         "a1_pts": a1_pts,
+        "qualifies_strict": qualifies_strict,
+        "extended_penalty": round(extended_penalty, 2),
     }
 
 
