@@ -792,6 +792,48 @@ def main():
         r["fundamentals_basis"] = v2["fundamentals_basis"]
         r["a1_pts"] = v2["a1_pts"]
 
+    # ---- Phase 2-3: Trend Template 8/8 hard precondition for `detected` ----
+    # Detection previously relied on stage==2 alone, which permitted stocks where
+    # SMA200 was not yet rising 5mo (B5 fail) or base showed lower highs/lows
+    # (B10 fail). Minervini doctrine treats Trend Template as binary all-or-nothing.
+    # Incident: SILA on 2026-05-14 (B5 ✗, B10 ✗, but pct_to_pivot +16.6% Extended).
+    TT_REQUIRED_US = [
+        "B1_price_above_150_200",
+        "B2_sma150_gt_sma200",
+        "B3_sma50_gt_150_200",
+        "B4_price_above_sma50",
+        "B5_sma200_rising_5mo",
+        "B6_30pct_above_52w_low",
+        "B7_within_25pct_high",
+        "R1_rs_70",
+    ]
+    # Base structure: higher-highs/lower-lows (B10) is a separate pattern integrity
+    # check — required additionally to avoid descending bases qualifying as VCP.
+    TT_REQUIRED_PATTERN = ["B10_higher_highs_lows"]
+
+    demoted = 0
+    for r in rows:
+        if not r.get("detected"):
+            continue
+        rules = r.get("rules") or {}
+        tt_fail = [
+            rid for rid in TT_REQUIRED_US
+            if not (rules.get(rid) or {}).get("passed", False)
+        ]
+        pattern_fail = [
+            rid for rid in TT_REQUIRED_PATTERN
+            if not (rules.get(rid) or {}).get("passed", False)
+        ]
+        if tt_fail or pattern_fail:
+            r["detected"] = False
+            r["detection_demoted_reason"] = (
+                f"Trend Template / pattern incomplete: "
+                f"{','.join(tt_fail + pattern_fail)}"
+            )
+            demoted += 1
+    if demoted:
+        print(f"  Phase 2-3: demoted {demoted} detections (Trend Template incomplete)")
+
     # Sort: rules_passed desc, then composite score (v2) desc
     rows.sort(key=lambda x: (-(x.get("rules_passed") or 0), -(x.get("score") or 0)))
 
