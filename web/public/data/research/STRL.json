@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-14T00:19:42.735782+00:00",
+  "generated_at": "2026-05-14T01:51:17.793995+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,17 +17,31 @@
     "beta": 1.639
   },
   "category_a_business": {
-    "overview": "Sterling Infrastructure, Inc.는 미국에서 e-인프라, 운송 및 건축 솔루션 제공에 참여하고 있습니다. E-인프라, 운송, 빌딩 솔루션의 세 가지 부문을 통해 운영됩니다.",
-    "business_model": "스털링 인프라스트럭처, Inc.",
+    "overview": "STRL은 미국 전역에서 E-인프라, 운송 및 건축 솔루션을 제공하는 건설 회사입니다.",
+    "milestones": [
+      "2015: 저마진 고속도로 프로젝트 비중이 높았음",
+      "2016: 사업 포트폴리오 재평가 및 리스크 관리 강화 전략 시작",
+      "2016: 고마진 프로젝트로 전환 전략 실행 (저마진 고속도로 매출 비중 79% -> 9%로 감소)",
+      "2015-2019: 고마진 제품 및 서비스 성장 전략 집중",
+      "2025: 텍사스 고속도로 사업 축소 발표 (2026년 완료 예정)"
+    ],
+    "business_model": "다양한 인프라 및 건축 프로젝트를 수행하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "E-인프라 솔루션 (데이터 센터, 제조, 물류센터 등 부지 개발)",
+      "운송 솔루션 (고속도로, 교량, 공항, 항만 등 인프라 건설)",
+      "건축 솔루션 (주거 및 상업용 콘크리트 기초, 배관, 측량)"
+    ],
+    "value_chain_position": "Midstream + 건설 및 인프라 프로젝트의 실행 및 관리를 담당합니다.",
     "products": [
-      "E-인프라, 교통, 빌딩 솔루션의 세 가지 부문을 통해",
-      "전자상거래 유통센터, 데이터센터, 제조 분야의 우량 최종 사용자를 위한 사이트 개발 서비스",
-      "단독 주택 및 다가구 주택, 주차 구조물, 고가 주택용 주거용 및 상업용 콘크리트 기초",
-      "미국에서는 주로 남부, 북동부, 중부 대서양 및 록키 산맥 지역과 Paci 지역에 걸쳐 있습니다."
+      "데이터 센터 및 제조 시설 부지 개발",
+      "고속도로, 교량, 공항 건설 및 재건",
+      "주거 및 상업용 콘크리트 기초 공사",
+      "배관 및 측량 서비스"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주로 정부 기관(교통부, 공항/항만 당국), 개발업체, 일반 계약업체, 블루칩 기업 고객"
   },
   "category_b_financials": {
     "roe": 0.37,
@@ -124,7 +138,7 @@
   },
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 69.7,
+    "score": 72.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -181,6 +195,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T00:42:55.614148+00:00"
+    "GoogleWebTranslator": "2026-05-14T02:14:06.635089+00:00"
   }
 }

@@ -17,19 +17,19 @@
     "beta": 0.798
   },
   "category_a_business": {
-    "overview": "Iridium Communications Inc. provides mobile voice and data communications services and products to businesses, the United States and foreign governments, non-governmental organizations, and consumers in the United States, Canada, and internationally. The company offers mobile satellite communications services for land mobile end users and aviation sectors; broadband terminals, embedded devices, and handsets for merchant shipping, fishing, leisure and research vessels, and specialized watercraft; satellite-based IoT services; hosted payload and other data services; and other data services and e",
-    "business_model": "Iridium Communications Inc.",
+    "overview": "Iridium Communications Inc.는 미국, 캐나다 및 전 세계의 기업, 미국 및 외국 정부, 비정부 기관, 소비자에게 모바일 음성 및 데이터 통신 서비스와 제품을 제공합니다. 이 회사는 육상 이동 최종 사용자 및 항공 부문을 대상으로 이동 위성 통신 서비스를 제공합니다. 상선, 어업, 레저 및 연구 선박, 특수 선박용 광대역 단말기, 내장 장치 및 핸드셋; 위성 기반 IoT 서비스; 호스팅된 페이로드 및 기타 데이터 서비스 기타 데이터 서비스 및 e",
+    "business_model": "이리듐 커뮤니케이션즈(주)",
     "products": [
-      "mobile voice and data communications services and products to businesses, the United States and foreign governments, no",
-      "mobile satellite communications services for land mobile end users and aviation sectors",
-      "postpaid mobile voice and data satellite communications",
-      "personnel tracking devices",
-      "satellite handsets, voice and data modems, broadband data devices, and IoT data devices"
+      "모바일 음성 및 데이터 통신 서비스와 제품을 기업, 미국 및 외국 정부에 제공하지 않습니다.",
+      "육상 이동 최종 사용자 및 항공 부문을 위한 이동 위성 통신 서비스",
+      "후불 모바일 음성 및 데이터 위성 통신",
+      "인원 추적 장치",
+      "위성 단말기, 음성 및 데이터 모뎀, 광대역 데이터 장치, IoT 데이터 장치"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satel"
+    "wikipedia_excerpt": "Iridium Communications Inc.는 미국 버지니아 주 맥클린에 본사를 둔 미국 상장 회사입니다. Iridium은 80개의 위성으로 구성된 시스템인 Iridium 위성군을 운영합니다. 66개는 활성 위성이고 나머지 14개는 궤도 내 예비 위성으로 작동합니다. Iridium 위성은 휴대용 위성 전화기, 위성 메신저 통신 장치 및 통합 트랜시버를 통한 전세계 음성 및 데이터 통신뿐만 아니라 지원되는 기존 휴대 전화의 양방향 위성 메시징 서비스에도 사용됩니다. 거의 극에 가까운 궤도와 위성 간의 통신"
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -145,32 +145,32 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Risk Factors Risks related to our satellites and network Our satellites may experience operational problems, which could affect our ability to provide an acceptable level of service to our customers.",
+        "description": "위험 요소 위성 및 네트워크와 관련된 위험 당사 위성은 운영 문제를 겪을 수 있으며, 이는 고객에게 허용 가능한 수준의 서비스를 제공하는 능력에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "In the future, we may seek to make changes to our constellation to offer new services or adjust the power.",
+        "description": "앞으로 우리는 새로운 서비스를 제공하거나 권한을 조정하기 위해 별자리를 변경하려고 할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Any such changes may require prior FCC approval, and the FCC may subject the approval to other conditions that could be unfavorable to our business.",
+        "description": "그러한 변경에는 사전 FCC 승인이 필요할 수 있으며, FCC는 당사 사업에 불리할 수 있는 다른 조건에 따라 승인을 받을 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "In addition, from time to time we may reposition our satellites within the constellation in order to optimize our service, which could result in degraded service during the repositioning period.",
+        "description": "또한 때때로 당사는 서비스를 최적화하기 위해 위성군 내에서 위성의 위치를 ​​변경할 수 있으며, 이로 인해 위치 변경 기간 동안 서비스 품질이 저하될 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "We have in the past and may in the future experience in-orbit malfunctions of our satellites, which could adversely affect the reliability of their service or result in total failure of the satellite.",
+        "description": "우리는 과거에도 그랬고 앞으로도 위성의 궤도 내 오작동을 경험할 수 있으며, 이는 위성 서비스의 신뢰성에 부정적인 영향을 미치거나 위성의 전체 고장을 초래할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Other factors that could affect the useful lives of our satellites include the quality of construction, gradual degradation of solar panels and the durability of components.",
+        "description": "위성의 유효 수명에 영향을 미칠 수 있는 다른 요인으로는 구성 품질, 태양광 패널의 점진적인 성능 저하, 구성 요소의 내구성 등이 있습니다.",
         "severity": "medium"
       }
     ],
@@ -181,5 +181,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satellites via inter-satellite links provide global service availability."
+  "wikipedia_summary": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satellites via inter-satellite links provide global service availability.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-14T02:12:49.512710+00:00"
+  }
 }

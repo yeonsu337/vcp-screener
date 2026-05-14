@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-14T00:18:40.998249+00:00",
+  "generated_at": "2026-05-14T01:49:06.013226+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,38 +17,17 @@
     "beta": 1.742
   },
   "category_a_business": {
-    "overview": "MPWR은 고성능 반도체 기반 전력 전자 솔루션을 제공하는 팹리스 글로벌 기업입니다.",
-    "milestones": [
-      "1997: 회사 설립",
-      "2004: 나스닥 상장 (MPWR)",
-      "2010년대: 다양한 최종 시장으로 제품 포트폴리오 확장",
-      "2020년대: AI 및 클라우드 컴퓨팅 시장 성장 수혜",
-      "현재: 전 세계 15개 이상의 지점에서 운영"
-    ],
-    "business_model": "고성능 아날로그 및 혼합 신호 IC 설계 및 판매를 통해 수익 창출",
-    "revenue_streams": [
-      "DC-DC 솔루션",
-      "AC-DC 솔루션",
-      "드라이버 MOSFET",
-      "전력 관리 IC",
-      "전류 제한 스위치",
-      "조명 제어 제품"
-    ],
-    "value_chain_position": "Midstream + 팹리스 모델로 반도체 설계 및 개발에 집중합니다.",
+    "overview": "Monolithic Power Systems, Inc.는 중국, 대만, 한국, 동남아시아, 유럽, 미국, 일본 및 국제적으로 반도체 기반 전력 전자 솔루션을 제공합니다. 이 회사는 클라우드 기반 및 온프레미스 CPU 서버 및 워크스테이션, AI 시스템, 메모리, 스토리지 솔루션, 노트북, 인포테인먼트, 전원, 가전제품, 네트워크 인프라 및 위성 통신과 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC)-DC 솔루션을 제공합니다.",
+    "business_model": "모놀리식 파워 시스템즈, Inc.",
     "products": [
-      "DC-DC 컨버터",
-      "AC-DC 컨버터",
-      "전력 관리 IC",
-      "모터 드라이버",
-      "LED 드라이버",
-      "USB 전력 공급 솔루션"
+      "중국, 대만, 한국, 동남아시아, 유럽, 미국의 반도체 기반 전력 전자 솔루션",
+      "클라우드와 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC) 대 DC 솔루션",
+      "교류(AC)를 DC로"
     ],
     "channels": [
-      "B2B",
-      "타사 유통업체",
-      "부가가치 리셀러"
+      "B2B / 기업"
     ],
-    "key_customers": "다양한 최종 시장에 걸쳐 분산되어 있으며, 특정 고객 집중도는 낮음"
+    "wikipedia_excerpt": "Monolithic Power Systems, Inc.는 플로리다 주 웨스트 팜 비치에 본사를 둔 미국 상장 회사입니다. 전 세계 15개 이상의 지역에서 운영되고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -58,7 +37,7 @@
     "gross_margin": 0.55,
     "revenue_growth_ttm": 0.26,
     "earnings_growth_ttm": 0.4,
-    "dividend_yield": 0.5,
+    "dividend_yield": 0.48,
     "payout_ratio": 0.48,
     "annual_revenue": [
       2790459000.0,
@@ -145,14 +124,14 @@
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 71.2,
+    "score": 73.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.1029,
-    "trailing_pe": 118.55962,
+    "trailing_pe": 114.92688,
     "forward_pe": 54.721897,
-    "ev_to_ebitda": 90.104,
+    "ev_to_ebitda": 93.018,
     "price_to_sales": 27.41942,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 93.34,
@@ -163,6 +142,6 @@
   "category_e_risks": {},
   "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T00:42:05.385118+00:00"
+    "GoogleWebTranslator": "2026-05-14T02:13:30.649315+00:00"
   }
 }

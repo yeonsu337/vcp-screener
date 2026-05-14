@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-05-14T00:38:09.553767+00:00",
+  "generated_at": "2026-05-14T02:10:45.616841+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -131,14 +131,14 @@
   },
   "category_d_thesis": {
     "rs_rating": 97,
-    "score": 71.1,
+    "score": 64.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
     "trailing_pe": 70.123344,
     "forward_pe": 92.58311,
-    "ev_to_ebitda": 57.067,
+    "ev_to_ebitda": 58.278,
     "price_to_sales": 17.512316,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 362.45,
@@ -160,7 +160,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 목표를 성공적으로 달성하지 못할 수 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
+        "description": "우리는 목표를 성공적으로 달성하지 못할 수도 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
         "severity": "medium"
       },
       {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T00:40:49.175324+00:00"
+    "GoogleWebTranslator": "2026-05-14T02:12:01.023542+00:00"
   }
 }

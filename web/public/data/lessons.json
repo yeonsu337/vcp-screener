@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T00:39:00.223594+00:00",
+  "generated_at": "2026-05-14T02:11:13.639903+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -16,21 +16,21 @@
     "losers": 1
   },
   "performance": {
-    "win_rate_pct": 75.7,
-    "profit_factor": 3.76,
-    "expectancy": 5.29,
-    "avg_winner_pct": 9.52,
-    "avg_loser_pct": -7.87,
+    "win_rate_pct": 73.0,
+    "profit_factor": 3.75,
+    "expectancy": 5.42,
+    "avg_winner_pct": 10.13,
+    "avg_loser_pct": -7.29,
     "best": {
-      "ticker": "PWR",
-      "return_pct": 32.2
+      "ticker": "005930.KS",
+      "return_pct": 35.5
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 23.2,
-    "avg_holding_loser_days": 17.3
+    "avg_holding_winner_days": 23.8,
+    "avg_holding_loser_days": 16.3
   },
   "exit_breakdown": {
     "EX6_absent": 21,
@@ -48,14 +48,14 @@
       },
       {
         "primary_passed": 9,
-        "trades": 4,
-        "avg_return_pct": 6.49,
-        "win_rate_pct": 75.0
+        "trades": 2,
+        "avg_return_pct": 0.73,
+        "win_rate_pct": 50.0
       },
       {
         "primary_passed": 10,
         "trades": 7,
-        "avg_return_pct": 8.28,
+        "avg_return_pct": 9.05,
         "win_rate_pct": 85.7
       },
       {
@@ -80,9 +80,9 @@
     {
       "sector": "Unknown",
       "trades": 20,
-      "win_rate_pct": 80.0,
-      "avg_return_pct": 4.87,
-      "best_return_pct": 30.1
+      "win_rate_pct": 75.0,
+      "avg_return_pct": 5.1,
+      "best_return_pct": 35.5
     },
     {
       "sector": "Industrials",
@@ -135,8 +135,8 @@
     },
     "KR": {
       "trades": 6,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 17.93
+      "win_rate_pct": 83.3,
+      "avg_return_pct": 18.71
     },
     "HK": {
       "trades": 2,
@@ -145,28 +145,28 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.5,
-    "loser_avg_rs": 79.9,
-    "winner_n": 28,
-    "loser_n": 9
+    "winner_avg_rs": 83.6,
+    "loser_avg_rs": 79.6,
+    "winner_n": 27,
+    "loser_n": 10
   },
   "time_curve": [
     {
       "day": 1,
       "trades": 36,
-      "avg_return_pct": 5.44,
-      "winners_pct": 77.8
+      "avg_return_pct": 5.57,
+      "winners_pct": 75.0
     },
     {
       "day": 5,
       "trades": 36,
-      "avg_return_pct": 5.44,
-      "winners_pct": 77.8
+      "avg_return_pct": 5.57,
+      "winners_pct": 75.0
     },
     {
       "day": 21,
       "trades": 26,
-      "avg_return_pct": 7.28,
+      "avg_return_pct": 7.59,
       "winners_pct": 84.6
     },
     {

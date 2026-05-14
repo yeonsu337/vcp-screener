@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T00:13:43.882674+00:00",
+  "updated_at": "2026-05-14T01:45:56.999539+00:00",
   "us": {
     "sentiment": [
       {
@@ -16719,9 +16719,9 @@
       {
         "id": "us_dxy",
         "name": "DXY 달러 인덱스",
-        "value": 98.47,
+        "value": 98.45,
         "prev": 98.29,
-        "change_pct": 0.18,
+        "change_pct": 0.17,
         "unit": "pt",
         "source": "ICE Futures",
         "asof": "2026-05-13",
@@ -17736,7 +17736,7 @@
           },
           {
             "time": "2026-05-13",
-            "value": 98.469
+            "value": 98.454
           }
         ],
         "signal": "bullish",
@@ -19223,12 +19223,12 @@
       {
         "id": "kr_kospi_vol",
         "name": "KOSPI 21일 변동성 (연환산)",
-        "value": 33.76,
-        "prev": 59.39,
-        "change_pct": -43.15,
+        "value": 33.03,
+        "prev": 59.18,
+        "change_pct": -44.19,
         "unit": "% (연환산)",
         "source": "yfinance ^KS11 derived",
-        "asof": "2026-05-12",
+        "asof": "2026-05-14",
         "series": [
           {
             "time": "2025-06-16",
@@ -20117,6 +20117,14 @@
           {
             "time": "2026-05-12",
             "value": 33.76
+          },
+          {
+            "time": "2026-05-13",
+            "value": 34.05
+          },
+          {
+            "time": "2026-05-14",
+            "value": 33.03
           }
         ],
         "signal": "bearish",
@@ -20125,12 +20133,12 @@
       {
         "id": "kr_kosdaq_kospi_ratio",
         "name": "KOSDAQ/KOSPI 상대강도 (1년 정규화)",
-        "value": 0.551,
-        "prev": 0.551,
-        "change_pct": -0.03,
+        "value": 0.526,
+        "prev": 0.536,
+        "change_pct": -1.93,
         "unit": "비율",
         "source": "yfinance derived",
-        "asof": "2026-05-12",
+        "asof": "2026-05-14",
         "series": [
           {
             "time": "2025-05-14",
@@ -21103,6 +21111,14 @@
           {
             "time": "2026-05-12",
             "value": 0.5513
+          },
+          {
+            "time": "2026-05-13",
+            "value": 0.5361
+          },
+          {
+            "time": "2026-05-14",
+            "value": 0.5258
           }
         ],
         "signal": "bearish",
@@ -22821,21 +22837,13 @@
       {
         "id": "kr_kospi_trend",
         "name": "KOSPI vs SMA200",
-        "value": 69.77,
+        "value": 74.82,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
         "source": "Yahoo Finance ^KS11",
-        "asof": "2026-05-12",
+        "asof": "2026-05-14",
         "series": [
-          {
-            "time": "2024-11-08",
-            "value": 2561.15
-          },
-          {
-            "time": "2024-11-11",
-            "value": 2531.66
-          },
           {
             "time": "2024-11-12",
             "value": 2482.57
@@ -24287,6 +24295,14 @@
           {
             "time": "2026-05-12",
             "value": 7643.15
+          },
+          {
+            "time": "2026-05-13",
+            "value": 7844.01
+          },
+          {
+            "time": "2026-05-14",
+            "value": 7952.82
           }
         ],
         "signal": "bullish",
@@ -24295,9 +24311,9 @@
       {
         "id": "kr_usdkrw",
         "name": "USD/KRW 환율",
-        "value": 1489.98,
+        "value": 1491.26,
         "prev": 1492.99,
-        "change_pct": -0.2,
+        "change_pct": -0.12,
         "unit": "₩",
         "source": "Yahoo Finance KRW=X",
         "asof": "2026-05-14",
@@ -25340,7 +25356,7 @@
           },
           {
             "time": "2026-05-14",
-            "value": 1489.98
+            "value": 1491.26
           }
         ],
         "signal": "bearish",

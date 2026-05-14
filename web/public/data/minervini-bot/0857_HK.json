@@ -1,7 +1,7 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0857.HK",
-  "generated_at": "2026-05-14T00:13:47.285977+00:00",
+  "generated_at": "2026-05-14T01:46:00.658093+00:00",
   "source_results_date": "2026-05-14",
   "verdict": "WATCH",
   "verdict_kr": "관망",
@@ -50,7 +50,7 @@
     "P3_vol_dryup (0.84× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-10.1% vs ≥-5.0%)"
+    "rs_line (-10.2% vs ≥-5.0%)"
   ],
   "warnings": []
 }
