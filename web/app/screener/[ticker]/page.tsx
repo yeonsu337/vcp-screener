@@ -3,6 +3,7 @@ import path from "path";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ChartClient from "./ChartClient";
+import CompositeBreakdown from "./CompositeBreakdown";
 import FinancialSummary from "./FinancialSummary";
 import RuleScorecard from "./RuleScorecard";
 import MinerviniCall from "./MinerviniCall";
@@ -270,6 +271,9 @@ export default function TickerPage({ params }: { params: { ticker: string } }) {
           }
         />
       </section>
+
+      {/* Composite Score v2 breakdown (Phase 1.4-α) */}
+      {!fromHistory && <CompositeBreakdown candidate={candidate} />}
 
       {/* Rule Scorecard — Primary / Secondary breakdown */}
       <RuleScorecard candidate={candidate} />

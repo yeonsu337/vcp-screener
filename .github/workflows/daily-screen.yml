@@ -6,6 +6,14 @@ on:
     - cron: "0 23 * * 1-5"
   workflow_dispatch: {}  # manual trigger
 
+# Serialize all runs of this workflow so the commit step never races against
+# a parallel pipeline. Without this, scheduled run + workflow_dispatch can
+# finish near-simultaneously and one push fails after 3 rebase attempts
+# (incident: 2026-05-14 run #25834293114).
+concurrency:
+  group: daily-vcp-screen
+  cancel-in-progress: false
+
 permissions:
   contents: write  # needed to commit updated data back
 
