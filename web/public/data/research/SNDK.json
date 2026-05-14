@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-13T10:49:44.616777+00:00",
+  "generated_at": "2026-05-14T00:27:54.726758+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 215029301248,
+    "market_cap": 214319939584,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -109,19 +109,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 67.2,
+    "score": 66.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 49.50631,
-    "forward_pe": 8.578784,
+    "trailing_pe": 49.342995,
+    "forward_pe": 8.550484,
     "ev_to_ebitda": 37.553,
-    "price_to_sales": 16.309868,
+    "price_to_sales": 16.256063,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 3701.92,
-    "outperform_6m_vs_nasdaq": 492.92,
-    "outperform_1m_vs_nasdaq": 39.92,
+    "outperform_1y_vs_nasdaq": 3365.61,
+    "outperform_6m_vs_nasdaq": 427.89,
+    "outperform_1m_vs_nasdaq": 41.54,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -166,6 +166,6 @@
   },
   "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:57:19.033461+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:42:27.001007+00:00"
   }
 }

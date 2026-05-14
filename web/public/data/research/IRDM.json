@@ -4,19 +4,33 @@
   "market": "US",
   "sector": "Communication Services",
   "industry": "Telecom Services",
-  "generated_at": "2026-05-07T06:45:03.494955+00:00",
+  "generated_at": "2026-05-14T00:43:16.748744+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4291489024,
+    "market_cap": 4555808256,
     "shares_outstanding": 105727744,
     "employees": 975,
     "country": "United States",
     "website": "https://www.iridium.com",
     "beta": 0.798
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Iridium Communications Inc. provides mobile voice and data communications services and products to businesses, the United States and foreign governments, non-governmental organizations, and consumers in the United States, Canada, and internationally. The company offers mobile satellite communications services for land mobile end users and aviation sectors; broadband terminals, embedded devices, and handsets for merchant shipping, fishing, leisure and research vessels, and specialized watercraft; satellite-based IoT services; hosted payload and other data services; and other data services and e",
+    "business_model": "Iridium Communications Inc.",
+    "products": [
+      "mobile voice and data communications services and products to businesses, the United States and foreign governments, no",
+      "mobile satellite communications services for land mobile end users and aviation sectors",
+      "postpaid mobile voice and data satellite communications",
+      "personnel tracking devices",
+      "satellite handsets, voice and data modems, broadband data devices, and IoT data devices"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satel"
+  },
   "category_b_financials": {
     "roe": 0.21,
     "roa": 0.06,
@@ -25,7 +39,7 @@
     "gross_margin": 0.72,
     "revenue_growth_ttm": 0.02,
     "earnings_growth_ttm": -0.26,
-    "dividend_yield": 1.48,
+    "dividend_yield": 1.44,
     "payout_ratio": 0.6,
     "annual_revenue": [
       871659000.0,
@@ -102,27 +116,70 @@
     "ni_cagr_3y_pct": 135.81,
     "roe_pct": 21.39
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Communication Services / Telecom Services 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 91,
-    "score": 64.5,
+    "rs_rating": 93,
+    "score": 70.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3476,
-    "trailing_pe": 41.0,
-    "forward_pe": 28.484211,
-    "ev_to_ebitda": 13.609,
-    "price_to_sales": 4.899866,
+    "peg_ratio": 2.44,
+    "trailing_pe": 43.525253,
+    "forward_pe": 30.238598,
+    "ev_to_ebitda": 14.212,
+    "price_to_sales": 5.2016563,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 17.08,
-    "outperform_6m_vs_nasdaq": 116.54,
-    "outperform_1m_vs_nasdaq": 4.06,
+    "outperform_1y_vs_nasdaq": 23.02,
+    "outperform_6m_vs_nasdaq": 152.8,
+    "outperform_1m_vs_nasdaq": 7.61,
     "lynch_category": "Slow Grower"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satellites via inter-satellite links provide global service availability.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:54:54.870266+00:00"
-  }
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Risk Factors Risks related to our satellites and network Our satellites may experience operational problems, which could affect our ability to provide an acceptable level of service to our customers.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In the future, we may seek to make changes to our constellation to offer new services or adjust the power.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any such changes may require prior FCC approval, and the FCC may subject the approval to other conditions that could be unfavorable to our business.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, from time to time we may reposition our satellites within the constellation in order to optimize our service, which could result in degraded service during the repositioning period.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We have in the past and may in the future experience in-orbit malfunctions of our satellites, which could adversely affect the reliability of their service or result in total failure of the satellite.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Other factors that could affect the useful lives of our satellites include the quality of construction, gradual degradation of solar panels and the durability of components.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Iridium Communications Inc. is a publicly traded American company headquartered in McLean, Virginia, United States. Iridium operates the Iridium satellite constellation, a system of 80 satellites: 66 are active satellites and the remaining fourteen function as in-orbit spares. Iridium Satellites are used for worldwide voice and data communication from handheld satellite phones, satellite messenger communication devices and integrated transceivers, as well as for two-way satellite messaging service from supported conventional mobile phones. The nearly polar orbit and communication between satellites via inter-satellite links provide global service availability."
 }

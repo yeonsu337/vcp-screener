@@ -1,23 +1,23 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0005.HK",
-  "generated_at": "2026-05-13T10:28:26.379215+00:00",
-  "source_results_date": "2026-05-13",
+  "generated_at": "2026-05-14T00:13:47.280252+00:00",
+  "source_results_date": "2026-05-14",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.87,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot HK$144.80 근접(-2.56%).",
+    "매수 대기 — Stage 2 진입, pivot HK$144.70 근접(-2.56%).",
     "13주 베이스 6.0% → 7.3% → 6.1% 수축, VDU 0.63× 진행.",
-    "Trend Template 8/8 통과, RS 90, RS 라인 신고가 -2.9%.",
-    "HK$144.80 돌파 시 매수·-7% 손절(HK$134.66)·+20%(HK$173.76) 절반 익절."
+    "Trend Template 8/8 통과, RS 90, RS 라인 신고가 -4.4%.",
+    "HK$144.70 돌파 시 매수·-7% 손절(HK$134.57)·+20%(HK$173.64) 절반 익절."
   ],
   "action": {
     "entry_type": "pivot_breakout",
-    "entry_price": 144.8,
-    "stop_price": 134.66,
+    "entry_price": 144.7,
+    "stop_price": 134.57,
     "stop_pct": -7.0,
-    "target1_price": 173.76,
+    "target1_price": 173.64,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5

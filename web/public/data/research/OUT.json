@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-13T00:34:24.026550+00:00",
+  "generated_at": "2026-05-14T00:40:13.167895+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5605861888,
+    "market_cap": 5641074688,
     "shares_outstanding": 176063510,
     "employees": 1981,
     "country": "United States",
@@ -22,7 +22,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 최고 경영자(CEO)인 Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
+    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 CEO Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -32,7 +32,7 @@
     "gross_margin": 0.51,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": null,
-    "dividend_yield": 3.54,
+    "dividend_yield": 3.77,
     "payout_ratio": 1.12,
     "annual_revenue": [
       1831700000.0,
@@ -121,24 +121,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 86,
-    "score": 65.7,
+    "score": 66.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 29.757008,
-    "forward_pe": 22.901697,
-    "ev_to_ebitda": 21.219,
-    "price_to_sales": 2.9968257,
+    "trailing_pe": 29.943924,
+    "forward_pe": 23.045551,
+    "ev_to_ebitda": 21.296,
+    "price_to_sales": 3.01565,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 79.46,
-    "outperform_6m_vs_nasdaq": 48.25,
-    "outperform_1m_vs_nasdaq": -3.75,
+    "outperform_1y_vs_nasdaq": 67.46,
+    "outperform_6m_vs_nasdaq": 50.37,
+    "outperform_1m_vs_nasdaq": -1.66,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:56:28.547868+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:42:10.257834+00:00"
   }
 }

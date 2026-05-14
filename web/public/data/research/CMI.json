@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-13T00:29:15.343090+00:00",
+  "generated_at": "2026-05-14T00:39:10.934299+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 97221582848,
+    "market_cap": 97912905728,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -24,7 +24,7 @@
       "엔진, 배전, 부품, 전력 시스템, 가속기 등 5개 부문을 통해",
       "디젤 및 천연가스 구동 엔진",
       "맞춤형 엔지니어링 시스템과 통합 제어, 산화 촉매로 구성된 후처리 기술 및 솔루션",
-      "발전 시스템, 고마력 엔진, 대형 및 중형 엔진에 대한 지원 서비스를 제공합니다."
+      "발전시스템, 고마력 엔진, 중·대형 엔진 등 지원 서비스를 제공합니다."
     ],
     "channels": [
       "B2B / 기업"
@@ -131,20 +131,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 82.0,
-    "vcp_quality": 11.8,
+    "rs_rating": 84,
+    "score": 70.5,
+    "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.6472,
-    "trailing_pe": 36.60052,
-    "forward_pe": 21.217737,
-    "ev_to_ebitda": 20.644,
-    "price_to_sales": 2.8684008,
+    "trailing_pe": 36.899117,
+    "forward_pe": 21.368612,
+    "ev_to_ebitda": 20.782,
+    "price_to_sales": 2.8887975,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 88.48,
-    "outperform_6m_vs_nasdaq": 36.59,
-    "outperform_1m_vs_nasdaq": 1.43,
+    "outperform_1y_vs_nasdaq": 77.5,
+    "outperform_6m_vs_nasdaq": 35.41,
+    "outperform_1m_vs_nasdaq": 3.58,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -156,7 +156,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "규정 위반 문제가 발견되면 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "규정 위반 문제의 발견은 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -176,7 +176,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 당사 제품 및 서비스가 해결할 수 없는 새로운 규정이나 산업 표준을 채택하면 당사 제품 및 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "또한 당사 제품과 서비스가 해결할 수 없는 새로운 규정이나 산업 표준을 채택하면 당사 제품과 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -189,6 +189,6 @@
   },
   "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:54:12.790675+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:40:13.569112+00:00"
   }
 }

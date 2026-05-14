@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-13T10:41:34.210046+00:00",
+  "generated_at": "2026-05-14T00:19:42.735782+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26124486656,
+    "market_cap": 26214397952,
     "shares_outstanding": 30685954,
     "employees": 4400,
     "country": "United States",
@@ -17,33 +17,17 @@
     "beta": 1.639
   },
   "category_a_business": {
-    "overview": "STRL은 미국 전역에서 E-인프라, 운송 및 건축 솔루션을 제공하는 건설 회사입니다.",
-    "milestones": [
-      "2015: 저마진 고속도로 프로젝트 비중이 높았음",
-      "2016: 사업 포트폴리오 재평가 및 리스크 관리 강화 전략 시행",
-      "2016: 저마진 고속도로 프로젝트 비중을 줄이고 고마진 프로젝트로 전환 시작",
-      "2015-2019: 고마진 제품 및 서비스 성장 전략 집중",
-      "2025: 텍사스 중공업 고속도로 사업 규모 축소 발표 (2026년 완료 예정)",
-      "2025: 저마진 고속도로 매출 비중 9%로 감소"
-    ],
-    "business_model": "다양한 인프라 및 건축 프로젝트를 수행하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "E-인프라 솔루션 (데이터 센터, 제조, 물류 등 부지 개발)",
-      "운송 솔루션 (고속도로, 교량, 공항, 항만 등 인프라 개발 및 재건)",
-      "건축 솔루션 (주거 및 상업용 콘크리트 기초, 배관, 측량)"
-    ],
-    "value_chain_position": "Midstream + 인프라 및 건축 프로젝트의 설계, 시공, 유지보수 전반에 참여합니다.",
+    "overview": "Sterling Infrastructure, Inc.는 미국에서 e-인프라, 운송 및 건축 솔루션 제공에 참여하고 있습니다. E-인프라, 운송, 빌딩 솔루션의 세 가지 부문을 통해 운영됩니다.",
+    "business_model": "스털링 인프라스트럭처, Inc.",
     "products": [
-      "데이터 센터 부지 개발",
-      "고속도로 및 교량 건설",
-      "공항 및 항만 인프라",
-      "주거 및 상업용 콘크리트 기초",
-      "배관 및 측량 서비스"
+      "E-인프라, 교통, 빌딩 솔루션의 세 가지 부문을 통해",
+      "전자상거래 유통센터, 데이터센터, 제조 분야의 우량 최종 사용자를 위한 사이트 개발 서비스",
+      "단독 주택 및 다가구 주택, 주차 구조물, 고가 주택용 주거용 및 상업용 콘크리트 기초",
+      "미국에서는 주로 남부, 북동부, 중부 대서양 및 록키 산맥 지역과 Paci 지역에 걸쳐 있습니다."
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "주로 정부 기관(교통부, 공항/항만 당국), 개발업체, 일반 계약업체 등 다양한 고객에게 서비스를 제공하며, 특정 고객에 대한 집중도는 높지 않은 것으로 보입니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.37,
@@ -140,19 +124,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 69.6,
+    "score": 69.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.5544,
-    "trailing_pe": 76.35426,
-    "forward_pe": 37.99701,
-    "ev_to_ebitda": 44.699,
-    "price_to_sales": 9.055988,
+    "trailing_pe": 76.61704,
+    "forward_pe": 38.12778,
+    "ev_to_ebitda": 44.854,
+    "price_to_sales": 9.087155,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 333.48,
-    "outperform_6m_vs_nasdaq": 111.92,
-    "outperform_1m_vs_nasdaq": 72.94,
+    "outperform_1y_vs_nasdaq": 325.01,
+    "outperform_6m_vs_nasdaq": 109.99,
+    "outperform_1m_vs_nasdaq": 72.21,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -197,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:58:04.951301+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:42:55.614148+00:00"
   }
 }

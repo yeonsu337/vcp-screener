@@ -1,0 +1,159 @@
+{
+  "ticker": "MOD",
+  "company": "Modine Manufacturing Company",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
+  "generated_at": "2026-05-14T00:42:15.626159+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 14722550784,
+    "shares_outstanding": 52731197,
+    "employees": 11000,
+    "country": "United States",
+    "website": "https://www.modine.com",
+    "beta": 1.657
+  },
+  "category_a_business": {
+    "overview": "Modine Manufacturing Company designs, engineers, tests, manufactures, and sells mission-critical thermal solutions in the United States, Canada, Italy, Hungary, the United Kingdom, China, and internationally. The company offers heat transfer products, including round tube plate fin construction; gas-fired, hydronic, electric, and oil fired unit heaters; roof-mounted direct- and indirect-fired makeup air units, duct furnaces, infrared units, and perimeter heating products; single packaged unit ventilators, modular chillers, air handler and condensing units, and ceiling cassettes; evaporator uni",
+    "business_model": "Modine Manufacturing Company designs, engineers, tests, manufactures, and sells mission-critical thermal solutions in the United States, Canada, Italy, Hungary, the United Kingdom, China, and internat",
+    "products": [
+      "mission-critical thermal solutions in the United States, Canada, Italy, Hungary, the United Kingdom, China, and internat",
+      "heat transfer products, including round tube plate fin constructio",
+      "data center products that consists of IT cooling solutions, including precision air conditioning units for data center",
+      "replacement parts, maintenance service and control solutions for existing equipment and new building management controls",
+      "powertrain cooling products, such as radiators, condensers, engine cooling modules, charge air coolers, fan shrouds,"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Modine Manufacturing is a thermal management company established in 1916 in the United States. The company started as Modine Manufacturing Company by Arthur B Modine who patented the Spirex radiator for tractors. The Modine company manufactured the Turbotube radiator for Ford Model T cars. The company built the world's first vehicular wind tunnel in Racine, Wisconsin in 1941. During WWII, Modine manufactured aftercoolers for the P-51 Mustang fighter plane. After WWII, Modine introduced the Airditioner HVAC unit for both residential and non-residential applications. The company expanded with a ",
+    "milestones": [
+      "1916: in the United States",
+      "1990: and in 1993 acquired Längerer & Reich, a German heat transfer company founded in 1913"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.1,
+    "roa": 0.1,
+    "profit_margin": 0.03,
+    "operating_margin": 0.12,
+    "gross_margin": 0.24,
+    "revenue_growth_ttm": 0.3,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      2583500000.0,
+      2407800000.0,
+      2297900000.0,
+      2050100000.0
+    ],
+    "annual_operating_income": [
+      311700000.0,
+      251700000.0,
+      155400000.0,
+      94200000.0
+    ],
+    "annual_eps": [
+      3.42,
+      3.03,
+      2.9,
+      1.62
+    ],
+    "annual_free_cf": [
+      129300000.0,
+      126900000.0,
+      56800000.0,
+      -28800000.0
+    ],
+    "annual_total_debt": [
+      350800000.0,
+      431600000.0,
+      352700000.0,
+      377800000.0
+    ],
+    "annual_equity": [
+      910200000.0,
+      747600000.0,
+      592800000.0,
+      450700000.0
+    ],
+    "annual_periods": [
+      "2025-03-31",
+      "2024-03-31",
+      "2023-03-31",
+      "2022-03-31"
+    ],
+    "quarterly_eps": [
+      -0.9,
+      0.83,
+      0.95,
+      0.92,
+      0.76,
+      null
+    ],
+    "quarterly_revenue": [
+      805000000.0,
+      738900000.0,
+      682800000.0,
+      647200000.0,
+      616800000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "sales_yoy_pct": 30.5,
+    "ni_cagr_3y_pct": 29.26,
+    "roe_pct": 10.02
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Cyclical / Auto Parts 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 70.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.1167,
+    "trailing_pe": 151.73914,
+    "forward_pe": 37.84962,
+    "ev_to_ebitda": 36.666,
+    "price_to_sales": 5.122847,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 134.14,
+    "outperform_6m_vs_nasdaq": 62.56,
+    "outperform_1m_vs_nasdaq": -1.62,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Lucareli ​ 56 ​ Executive Vice President, Chief Financial Officer (May 2021 – Present); previously Vice President, Finance and Chief Financial Officer for the Company (July 2010 – May 2021).",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Modine Manufacturing is a thermal management company established in 1916 in the United States. The company started as Modine Manufacturing Company by Arthur B Modine who patented the Spirex radiator for tractors. The Modine company manufactured the Turbotube radiator for Ford Model T cars. The company built the world's first vehicular wind tunnel in Racine, Wisconsin in 1941. During WWII, Modine manufactured aftercoolers for the P-51 Mustang fighter plane. After WWII, Modine introduced the Airditioner HVAC unit for both residential and non-residential applications. The company expanded with a European operation, Modine Schnappling Europe, in 1990 and in 1993 acquired Längerer & Reich, a German heat transfer company founded in 1913.\nToday, the company employs around 11,000 people."
+}

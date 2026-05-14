@@ -4,19 +4,39 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Banks - Diversified",
-  "generated_at": "2026-05-07T06:34:44.690301+00:00",
+  "generated_at": "2026-05-14T00:28:55.720661+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 91727691776,
+    "market_cap": 92654305280,
     "shares_outstanding": 686379000,
     "employees": 47200,
     "country": "United States",
     "website": "https://www.bny.com",
     "beta": 1.068
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Bank of New York Mellon Corporation은 미국과 국제적으로 다양한 금융 상품과 서비스를 제공합니다. 증권 서비스, 시장 및 자산 서비스, 투자 및 자산 관리, 기타 부문을 통해 운영됩니다. 증권 서비스 부문은 보관, 신탁 및 예탁, 회계, 상장지수펀드, 미들오피스 솔루션, 이체 대행사, 사모펀드 및 부동산 펀드 서비스, 외환, 증권 대출, 유동성/대출 서비스 및 데이터 분석을 제공합니다.",
+    "business_model": "Bank of New York Mellon Corporation은 미국과 국제적으로 다양한 금융 상품과 서비스를 제공합니다.",
+    "products": [
+      "미국 및 해외의 다양한 금융 상품 및 서비스",
+      "증권 서비스, 시장 및 자산 서비스, 투자 및 자산 관리, 기타 부문을 통해",
+      "보관, 신탁 및 예탁, 회계, 상장지수펀드, 미들오피스 솔루션, 이체대행, 서비스",
+      "브로커와 투자자를 위한 수탁자, 지불 기관, 수탁자, 에스크로 및 기타 금융, 발행자 및 지원 서비스",
+      "청산 및 보관, 투자, 자산 및 은퇴 솔루션, 기술 및 기업 데이터 관리, 거래,"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "일반적으로 BNY 또는 이전 브랜드 이름인 BNY Mellon으로 알려진 Bank of New York Mellon Corporation은 뉴욕시에 본사를 두고 펜실베이니아주 피츠버그에도 주요 사무소를 두고 있는 미국의 국제 금융 서비스 회사입니다. 2007년 7월 뉴욕 은행과 멜론 파이낸셜 코퍼레이션의 합병으로 현재의 형태로 설립되었습니다. 1784년 알렉산더 해밀턴(Alexander Hamilton)을 포함한 그룹이 설립한 뉴욕 은행(Bank of New York)의 계보를 통해 BNY는 미국에서 가장 오래된 3대 은행 중 하나이자 세계에서도 가장 오래된 은행 중 하나로 간주됩니다. 처음이었습니다",
+    "milestones": [
+      "2007년: 뉴욕 은행과 멜론 파이낸셜 코퍼레이션의 합병",
+      "2024년: , 가장 큰 U의 Fortune 500 목록에서 130위를 차지했습니다.",
+      "2018년: 포춘 분석에 따르면 이 회사는 목록에서 가장 오래된 회사로 확인되었습니다.",
+      "2024년: 총 자산 기준으로 미국에서 13번째로 큰 은행이었으며 세계에서 83번째로 큰 은행이었습니다."
+    ]
+  },
   "category_b_financials": {
     "roe": 0.13,
     "roa": 0.01,
@@ -102,27 +122,34 @@
     "ni_cagr_3y_pct": 29.48,
     "roe_pct": 13.47
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Banks - Diversified 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 64.4,
+    "rs_rating": 72,
+    "score": 65.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4674,
-    "trailing_pe": 16.580645,
-    "forward_pe": 13.89864,
+    "peg_ratio": 1.4468,
+    "trailing_pe": 16.748138,
+    "forward_pe": 14.000077,
     "ev_to_ebitda": null,
-    "price_to_sales": 4.4197598,
+    "price_to_sales": 4.464407,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 20.87,
-    "outperform_6m_vs_nasdaq": 16.3,
-    "outperform_1m_vs_nasdaq": -9.69,
+    "outperform_1y_vs_nasdaq": 16.77,
+    "outperform_6m_vs_nasdaq": 10.46,
+    "outperform_1m_vs_nasdaq": -7.85,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2024, it was the 13th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:53:53.721629+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:39:41.274008+00:00"
   }
 }

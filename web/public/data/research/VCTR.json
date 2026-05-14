@@ -1,0 +1,187 @@
+{
+  "ticker": "VCTR",
+  "company": "Victory Capital Holdings, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "generated_at": "2026-05-14T00:22:47.051602+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 5440205824,
+    "shares_outstanding": 62531106,
+    "employees": 699,
+    "country": "United States",
+    "website": "https://vcm.com",
+    "beta": 1.106
+  },
+  "category_a_business": {
+    "overview": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다. 기관, 중개기관, 퇴직플랫폼, 개인투자자에게 특화된 투자전략을 제공합니다. 또한 회사는 액티브 및 패시브 관리 뮤추얼 펀드, 규칙 기반 및 액티브 상장지수펀드(ETF), 기관별도 계좌, 변액 보험 상품, 대체 투자, 프라이빗 폐쇄형 펀드, 529 교육 저축 플랜 등 다양한 투자 상품을 제공합니다. 및 제3자 투자",
+    "business_model": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다.",
+    "products": [
+      "미국 및 해외의 자산 관리 회사로서",
+      "기관, 중개업자, 은퇴플랫폼, 개인투자자를 위한 특화된 투자전략",
+      "능동적 및 수동적으로 관리되는 뮤추얼 펀드, 규칙 기반 및 능동적 교환 tr을 포함한 다양한 투자 상품",
+      "투자관리 서비스, 자금관리 서비스, 자금이체 대행 서비스, 자금배분 서비스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.22,
+    "roa": 0.12,
+    "profit_margin": 0.26,
+    "operating_margin": 0.46,
+    "gross_margin": 0.56,
+    "revenue_growth_ttm": 0.77,
+    "earnings_growth_ttm": 0.39,
+    "dividend_yield": 2.3,
+    "payout_ratio": 0.44,
+    "annual_revenue": [
+      1306131000.0,
+      893477000.0,
+      821028000.0,
+      854800000.0,
+      null
+    ],
+    "annual_operating_income": [
+      554979000.0,
+      442904000.0,
+      352506000.0,
+      359923000.0,
+      null
+    ],
+    "annual_eps": [
+      4.08,
+      4.38,
+      3.12,
+      3.81,
+      null
+    ],
+    "annual_free_cf": [
+      381328000.0,
+      338701000.0,
+      325122000.0,
+      329966000.0,
+      null
+    ],
+    "annual_total_debt": [
+      970014000.0,
+      963862000.0,
+      989269000.0,
+      985514000.0
+    ],
+    "annual_equity": [
+      2424729000.0,
+      1121637000.0,
+      1053001000.0,
+      1065410000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.32,
+      1.11,
+      0.68,
+      0.96,
+      1.17,
+      null
+    ],
+    "quarterly_revenue": [
+      374122000.0,
+      361195000.0,
+      351212000.0,
+      219602000.0,
+      232371000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 80.9,
+    "sales_yoy_pct": 76.7,
+    "ni_cagr_3y_pct": 6.21,
+    "roe_pct": 21.7
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 73,
+    "score": 79.3,
+    "vcp_quality": 9.9,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 19.550562,
+    "forward_pe": 11.334427,
+    "ev_to_ebitda": 8.614,
+    "price_to_sales": 3.6894808,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 1.75,
+    "outperform_6m_vs_nasdaq": 31.97,
+    "outperform_1m_vs_nasdaq": 9.19,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "이 경우 당사 보통주의 거래가격이 하락할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "비즈니스 위험 • 주요 투자 전문가 또는 고위 경영진 구성원의 상실은 당사 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "합병 및 인수 위험 • 통합의 어려움과 기타 문제로 인해 인수합병에서 기대하는 이점을 실현하지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "부채 위험 • 막대한 부채로 인해 중대한 위험에 노출될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "공개 회사의 위험 • 당사 보통주의 시장 가격은 변동성이 크며 하락할 가능성이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "업계 위험 • 투자 관리 업계의 최근 추세로 인해 패시브 운용, 낮은 수수료 상품 또는 대체 자산 클래스에 대한 수요 증가 등 AUM, 수익 및 순이익이 감소할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-14T00:43:22.311786+00:00"
+  }
+}

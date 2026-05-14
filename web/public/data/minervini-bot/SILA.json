@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "RPRX",
-  "generated_at": "2026-05-13T10:28:26.371170+00:00",
-  "source_results_date": "2026-05-13",
+  "ticker": "SILA",
+  "generated_at": "2026-05-14T00:13:47.279567+00:00",
+  "source_results_date": "2026-05-14",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.65,
+  "confidence": 0.62,
   "lines": [
-    "추격 위험 — Pivot $49.06 대비 +5.4%, buy zone 초과.",
-    "13주 베이스 6.8% → 6.5% → 5.2%, VDU 1.26× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 75로 추세는 살아있음.",
+    "추격 위험 — Pivot $26.20 대비 +16.6%, buy zone 초과.",
+    "13주 베이스 9.9% → 9.6%, VDU 0.58× — setup 자체는 유효.",
+    "Trend Template 7/8 + RS 71로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -23,9 +23,9 @@
     "position_risk_pct": 1.5
   },
   "framework": {
-    "trend_template_score": "8/8",
-    "vcp_quality_score": "4/8",
-    "rs_rating": 75,
+    "trend_template_score": "7/8",
+    "vcp_quality_score": "5/8",
+    "rs_rating": 71,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -37,21 +37,19 @@
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
     "B4_price_above_sma50",
-    "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
-    "F1_outperform_1y",
-    "H4_ni_cagr_3y",
-    "P2_last_contraction"
+    "P3_vol_dryup"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.26× vs 0.6×)",
+    "P2_last_contraction (9.59% vs 6.5%)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-5.4% vs ≥-5.0%)"
+    "H4_ni_cagr_3y (NI CAGR 미달)",
+    "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": [
-    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 71 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

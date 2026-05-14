@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-05-13T00:32:20.691750+00:00",
+  "generated_at": "2026-05-14T00:29:57.079237+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2863060480,
+    "market_cap": 2980825088,
     "shares_outstanding": 152941267,
     "employees": 357,
     "country": "United States",
@@ -29,12 +29,93 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "WisdomTree, Inc.는 뉴욕에 본사를 두고 있는 글로벌 상장지수펀드(ETF) 및 상장지수상품(ETP) 스폰서이자 자산 관리자입니다. WisdomTree는 2006년 6월에 첫 번째 ETF를 출시했으며 미국의 주요 ETF 제공업체 중 하나가 되었습니다. WisdomTree는 전 세계 자산 클래스와 국가에 걸쳐 다양한 ETF를 후원합니다. 카테고리에는 미국 및 국제 주식, 통화, 고정 수입 및 대안이 포함됩니다.",
+    "wikipedia_excerpt": "WisdomTree, Inc.는 뉴욕에 본사를 둔 글로벌 상장지수펀드(ETF) 및 상장지수상품(ETP) 스폰서이자 자산 관리자입니다. WisdomTree는 2006년 6월에 첫 번째 ETF를 출시했으며 미국의 주요 ETF 제공업체 중 하나가 되었습니다. WisdomTree는 전 세계 자산 클래스와 국가에 걸쳐 다양한 ETF를 후원합니다. 카테고리에는 미국 및 국제 주식, 통화, 고정 수입 및 대안이 포함됩니다.",
     "milestones": [
       "2006년: , 미국의 주요 ETF 제공업체 중 하나가 되었습니다."
     ]
   },
   "category_b_financials": {
+    "roe": 0.14,
+    "roa": 0.09,
+    "profit_margin": 0.11,
+    "operating_margin": 0.38,
+    "gross_margin": 0.52,
+    "revenue_growth_ttm": 0.47,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 0.64,
+    "payout_ratio": 0.29,
+    "annual_revenue": [
+      493753000.0,
+      427737000.0,
+      349035000.0,
+      301345000.0
+    ],
+    "annual_operating_income": [
+      178888000.0,
+      137293000.0,
+      93561000.0,
+      77193000.0
+    ],
+    "annual_eps": [
+      0.75,
+      0.33,
+      0.64,
+      0.31
+    ],
+    "annual_free_cf": [
+      144763000.0,
+      110984000.0,
+      83338000.0,
+      54867000.0,
+      null
+    ],
+    "annual_total_debt": [
+      956587000.0,
+      512913000.0,
+      275466000.0,
+      322680000.0,
+      null
+    ],
+    "annual_equity": [
+      413672000.0,
+      399980000.0,
+      409136000.0,
+      305611000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      -0.17,
+      0.28,
+      0.13,
+      0.17,
+      0.17,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      147434000.0,
+      125616000.0,
+      112621000.0,
+      108082000.0,
+      110697000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "sales_yoy_pct": 47.5,
     "ni_cagr_3y_pct": 29.13,
     "roe_pct": 13.78
@@ -48,20 +129,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 81,
-    "score": 67.6,
+    "rs_rating": 83,
+    "score": 71.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 45.658535,
-    "forward_pe": 14.181817,
+    "trailing_pe": 45.32558,
+    "forward_pe": 14.765151,
     "ev_to_ebitda": 15.847,
-    "price_to_sales": 5.251963,
+    "price_to_sales": 5.4679894,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 54.74,
-    "outperform_6m_vs_nasdaq": 48.96,
-    "outperform_1m_vs_nasdaq": 1.76,
+    "outperform_1y_vs_nasdaq": 65.61,
+    "outperform_6m_vs_nasdaq": 54.81,
+    "outperform_1m_vs_nasdaq": 1.17,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -106,6 +187,6 @@
   },
   "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:58:37.739072+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:43:46.103264+00:00"
   }
 }

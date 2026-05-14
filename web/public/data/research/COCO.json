@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-05-12T02:21:01.657781+00:00",
+  "generated_at": "2026-05-14T00:23:48.386994+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4138382080,
+    "market_cap": 4270312192,
     "shares_outstanding": 57112643,
     "employees": 336,
     "country": "United States",
@@ -126,20 +126,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 72.6,
+    "rs_rating": 89,
+    "score": 72.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 52.507244,
-    "forward_pe": 35.40385,
-    "ev_to_ebitda": 40.189,
-    "price_to_sales": 6.2833757,
+    "trailing_pe": 54.181156,
+    "forward_pe": 36.532513,
+    "ev_to_ebitda": 41.531,
+    "price_to_sales": 6.4836874,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 60.42,
-    "outperform_6m_vs_nasdaq": 59.3,
-    "outperform_1m_vs_nasdaq": 27.36,
+    "outperform_1y_vs_nasdaq": 87.46,
+    "outperform_6m_vs_nasdaq": 67.08,
+    "outperform_1m_vs_nasdaq": 38.97,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -184,6 +184,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-13T10:54:12.791203+00:00"
+    "GoogleWebTranslator": "2026-05-14T00:40:28.189543+00:00"
   }
 }
