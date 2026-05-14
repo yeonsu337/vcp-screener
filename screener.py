@@ -469,6 +469,107 @@ def compute_composite_score(
 
 
 # =============================================================================
+# Composite Score v2 (Minervini SEPA Fundamentals + A1 continuous)
+# Phase 1.4-α: additive — existing 100pt + Fundamentals 30pt + A1 5pt = 135pt → normalize ×(100/135)
+# KR/HK Fundamentals fallback = 0pt (conservative — no synthetic credit)
+# =============================================================================
+
+
+def compute_fundamentals_score(
+    eps_yoy_q: float | None,
+    sales_yoy_q: float | None,
+    roe: float | None,
+    op_inc_growing: bool,
+    op_inc_accel: bool,
+) -> float:
+    """Fundamentals 0~30pt. None → 0pt for that component (conservative)."""
+    # EPS YoY 10pt — Minervini: ≥20% baseline, ≥40% strong
+    if eps_yoy_q is None:
+        eps_pts = 0.0
+    elif eps_yoy_q >= 40:
+        eps_pts = 10.0
+    elif eps_yoy_q >= 18:
+        eps_pts = 3.0 + (eps_yoy_q - 18) / 22 * 7
+    else:
+        eps_pts = 0.0
+
+    # Sales YoY 8pt — Minervini: ≥15% baseline, ≥30% strong
+    if sales_yoy_q is None:
+        sales_pts = 0.0
+    elif sales_yoy_q >= 30:
+        sales_pts = 8.0
+    elif sales_yoy_q >= 15:
+        sales_pts = 2.0 + (sales_yoy_q - 15) / 15 * 6
+    else:
+        sales_pts = 0.0
+
+    # ROE 7pt — Minervini: ≥17%
+    if roe is None:
+        roe_pts = 0.0
+    elif roe >= 17:
+        roe_pts = 7.0
+    elif roe >= 12:
+        roe_pts = 2.0 + (roe - 12) / 5 * 5
+    else:
+        roe_pts = 0.0
+
+    # Op income trend 5pt (growing 2 + accelerating 3)
+    op_pts = (2.0 if op_inc_growing else 0.0) + (3.0 if op_inc_accel else 0.0)
+
+    return round(eps_pts + sales_pts + roe_pts + op_pts, 2)
+
+
+def compute_a1_continuous(a1_ratio: float | None) -> float:
+    """A1 up/down vol ratio → 0~5pt sliding scale.
+    A1 1.0 → 0pt, 1.5 → 2pt, 2.0 → 4pt, 2.25+ → 5pt."""
+    if a1_ratio is None:
+        return 0.0
+    return round(max(0.0, min(5.0, (a1_ratio - 1.0) * 4.0)), 2)
+
+
+def compute_composite_v2_from_row(row: dict) -> dict:
+    """v2 composite from a results-row dict (post rules computation).
+    Returns dict with score_v2 (0~100), fundamentals_score, fundamentals_basis, a1_pts.
+    KR/HK: fundamentals = 0 (conservative). score_v2 caps at ~77.8 for these markets."""
+    score_v1 = row.get("score") or 0.0
+    market = row.get("market") or "US"
+    rules = row.get("rules") or {}
+
+    def _val(rule_id: str):
+        r = rules.get(rule_id) or {}
+        return r.get("value")
+
+    def _pass(rule_id: str) -> bool:
+        r = rules.get(rule_id) or {}
+        return bool(r.get("passed"))
+
+    if market == "US":
+        fund_pts = compute_fundamentals_score(
+            eps_yoy_q=_val("E1_eps_growth"),
+            sales_yoy_q=_val("E3_rev_growth"),
+            roe=_val("E7_roe"),
+            op_inc_growing=_pass("E5_op_inc_growing"),
+            op_inc_accel=_pass("E6_op_inc_yoy_accel"),
+        )
+        fund_basis = "computed"
+    else:
+        fund_pts = 0.0
+        fund_basis = "fallback_kr_hk"
+
+    a1_pts = compute_a1_continuous(_val("A1_ud_vol_ratio"))
+
+    raw_total = score_v1 + fund_pts + a1_pts  # 0~135 (US) / 0~105 (KR/HK)
+    score_v2 = round(raw_total * (100.0 / 135.0), 1)
+
+    return {
+        "score_v2": score_v2,
+        "fundamentals_score": fund_pts,
+        "fundamentals_basis": fund_basis,
+        "a1_pts": a1_pts,
+    }
+
+
+# =============================================================================
 # Benchmark + RS Line
 # =============================================================================
 

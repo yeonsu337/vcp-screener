@@ -418,19 +418,23 @@ const COL_INFO: Record<string, { title: string; body: ReactNode }> = {
     ),
   },
   score: {
-    title: "Composite Score (0~100)",
+    title: "Composite Score v2 (0~100)",
     body: (
       <>
-        <div className="text-muted text-[11px] mb-1">6 차원 가중합산:</div>
-        <div>· RS Rating <span className="text-muted">— 20pt 선형</span></div>
-        <div>· Stage 2 <span className="text-muted">— 20pt (confidence 비례)</span></div>
-        <div>· MA Alignment <span className="text-muted">— 15pt</span></div>
-        <div>· 52W Position <span className="text-muted">— 15pt (-25%~0% 매핑)</span></div>
-        <div>· VCP Quality <span className="text-muted">— 20pt</span></div>
-        <div>· RS Line <span className="text-muted">— 10pt</span></div>
+        <div className="text-muted text-[11px] mb-1">v2: 기존 6차원 + Fundamentals 30pt + A1 5pt → 135pt 정규화</div>
+        <div className="text-muted text-[11px] uppercase mt-1">기술 (65pt 비례)</div>
+        <div>· RS · Stage 2 · MA · 52W · VCP · RS Line</div>
+        <div className="text-muted text-[11px] uppercase mt-1.5">Fundamentals (30pt, US 한정)</div>
+        <div>· EPS YoY 10pt (≥20% / ≥40% full)</div>
+        <div>· Sales YoY 8pt (≥15% / ≥30% full)</div>
+        <div>· ROE 7pt (≥17% full)</div>
+        <div>· Op Income 5pt (성장 +2 / 가속 +3)</div>
+        <div className="text-muted text-[11px] uppercase mt-1.5">기관 매집 (5pt)</div>
+        <div>· A1 U/D Vol Ratio sliding (1.0~2.25)</div>
         <div className="mt-1.5">
-          <span className="text-emerald-400">90+ 강력</span> · <span className="text-yellow-400">75+ 양호</span> · <span className="text-muted">50- 약함</span>
+          <span className="text-emerald-400">80+ 강력</span> · <span className="text-yellow-400">65+ 양호</span> · <span className="text-muted">50- 약함</span>
         </div>
+        <div className="text-muted text-[10px] mt-1">⚠️ KR/HK: Fundamentals 30pt = 0 (yfinance 결손). 최대 ~78점.</div>
       </>
     ),
   },
@@ -853,7 +857,17 @@ export default function ScreenerTable({
                   Score
                   <InfoButton title={COL_INFO.score.title} body={COL_INFO.score.body} />
                 </div>
-                <div className="num font-semibold">{r.score.toFixed(0)}</div>
+                <div className="num font-semibold flex items-center gap-1">
+                  {r.score.toFixed(0)}
+                  {r.fundamentals_basis === "fallback_kr_hk" && (
+                    <span
+                      className="text-[9px] text-yellow-400"
+                      title="KR/HK Fundamentals 결손 — 최대 ~78점"
+                    >
+                      T*
+                    </span>
+                  )}
+                </div>
               </div>
               <div>
                 <div className="text-muted flex items-center">
@@ -1006,6 +1020,14 @@ export default function ScreenerTable({
                     <span className="num text-accent font-semibold w-8 text-right">
                       {r.score.toFixed(0)}
                     </span>
+                    {r.fundamentals_basis === "fallback_kr_hk" && (
+                      <span
+                        className="text-[9px] text-yellow-400 font-semibold cursor-help"
+                        title="KR/HK: yfinance Fundamentals 데이터 결손으로 30pt = 0 처리 (보수적). Composite v2 최대 ~78점."
+                      >
+                        T*
+                      </span>
+                    )}
                     <div className="w-16">
                       <ScoreBar score={r.score} />
                     </div>

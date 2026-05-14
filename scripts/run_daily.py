@@ -23,6 +23,7 @@ warnings.filterwarnings("ignore")
 from screener import (  # noqa: E402
     run_screener, fetch_ohlcv, fetch_benchmark, load_config,
     BENCHMARK_TICKERS,
+    compute_composite_v2_from_row,
 )
 import pandas as pd  # noqa: E402
 
@@ -32,10 +33,12 @@ import yfinance as yf  # noqa: E402
 DATA_DIR = ROOT / "web" / "public" / "data"
 CHARTS_DIR = DATA_DIR / "charts"
 FIN_DIR = DATA_DIR / "financials"
+SNAPSHOT_DIR = DATA_DIR / "score_snapshots"
 HISTORY_PATH = DATA_DIR / "detection_history.json"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 CHARTS_DIR.mkdir(parents=True, exist_ok=True)
 FIN_DIR.mkdir(parents=True, exist_ok=True)
+SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
 
 TOP_CHART_N = 50
 
@@ -778,7 +781,18 @@ def main():
             if isinstance(v, float) and v != v:
                 r[k] = None
 
-    # Sort: rules_passed desc, then composite score desc (soft ranking)
+    # ---- Composite Score v2 (Phase 1.4-α) ----
+    # Preserve v1 in `score_v1`, replace `score` with v2 for downstream consumers.
+    # KR/HK fundamentals fallback = 0 (conservative). UI surfaces via `fundamentals_basis`.
+    for r in rows:
+        r["score_v1"] = r.get("score") or 0.0
+        v2 = compute_composite_v2_from_row(r)
+        r["score"] = v2["score_v2"]
+        r["fundamentals_score"] = v2["fundamentals_score"]
+        r["fundamentals_basis"] = v2["fundamentals_basis"]
+        r["a1_pts"] = v2["a1_pts"]
+
+    # Sort: rules_passed desc, then composite score (v2) desc
     rows.sort(key=lambda x: (-(x.get("rules_passed") or 0), -(x.get("score") or 0)))
 
     detected_count = sum(1 for r in rows if r.get("detected"))
@@ -807,6 +821,31 @@ def main():
 
     # Update detection history for backtest tracking
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    # ---- Score Snapshot (Phase 1.4-α — forward backtest data) ----
+    # Capture v1/v2 scores + price for ALL candidates today so 30/60/90d returns
+    # can be backtested in the future (N=426 vs detection_history N=11~36).
+    snapshot = {
+        "date": today,
+        "ticker_count": len(rows),
+        "tickers": {
+            r["ticker"]: {
+                "score_v1": r.get("score_v1"),
+                "score_v2": r.get("score"),
+                "fundamentals_score": r.get("fundamentals_score"),
+                "fundamentals_basis": r.get("fundamentals_basis"),
+                "a1_pts": r.get("a1_pts"),
+                "current_price": r.get("current_price"),
+                "market": r.get("market"),
+                "rules_passed": r.get("rules_passed"),
+                "detected": bool(r.get("detected")),
+            }
+            for r in rows
+        },
+    }
+    (SNAPSHOT_DIR / f"{today}.json").write_text(
+        json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     history = _update_detection_history(rows, today)
     history_detected = sum(1 for v in history.values() if v.get("first_detected"))
     print(f"\nDetection history: {history_detected} tickers tracked")

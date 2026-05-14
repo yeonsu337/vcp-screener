@@ -43,6 +43,11 @@ export type Candidate = {
   rules?: Record<string, RuleResult>;
   rules_passed?: number;
   rules_total?: number;
+  // Composite Score v2 (Phase 1.4-α): score is now v2, score_v1 preserved.
+  score_v1?: number;
+  fundamentals_score?: number;        // 0~30pt
+  fundamentals_basis?: "computed" | "fallback_kr_hk";
+  a1_pts?: number;                    // 0~5pt sliding
   // Provenance (added by /api/search): how this Candidate was produced.
   // "cached"        → daily-scan results.json (full 42-rule eval)
   // "computed"      → on-demand price-only eval (no fundamentals)
