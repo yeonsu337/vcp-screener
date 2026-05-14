@@ -1642,7 +1642,7 @@ def detect_vcp(ticker: str, df: pd.DataFrame, lookback: int = 90) -> VCPResult:
         and t1_depth_pct >= 8.0
         and last_pct < 12.0
         and vol_ratio < 0.7
-        and pct_to_pivot > -12.0
+        and -12.0 < pct_to_pivot < 8.0
         and (base_depth_pct == base_depth_pct and base_depth_pct <= 35.0)
         and stage == 2
     )
