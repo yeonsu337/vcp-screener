@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-14T01:52:18.940449+00:00",
+  "generated_at": "2026-05-15T00:09:54.188243+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 369468702720,
+    "market_cap": 374108323840,
     "shares_outstanding": 1250571000,
     "employees": 20600,
     "country": "United States",
@@ -17,19 +17,34 @@
     "beta": 1.819
   },
   "category_a_business": {
-    "overview": "Lam Research Corporation은 미국, 중국, 한국, 대만, 일본, 동남아시아 및 유럽에서 집적 회로 제조에 사용되는 반도체 처리 장비를 설계, 제조, 판매, 개조 및 서비스합니다. 이 회사는 텅스텐 또는 몰리브덴 금속화 응용 분야를 위해 컨포멀 또는 선택 필름을 증착하는 ALTUS 시스템을 제공합니다. 구리 다마신 제조를 제공하는 구리 상호 연결 전이용 SABRE 전기화학 증착 제품; SPEED 갭필 고밀도 플라즈마 화학 기상 증착(CVD) 제품; 스트라이커 단일 웨이퍼 원자 배치",
-    "business_model": "Lam Research Corporation은 미국, 중국, 한국에서 집적 회로 제조에 사용되는 반도체 처리 장비를 설계, 제조, 판매, 개조 및 서비스합니다.",
+    "overview": "램리서치는 반도체 제조에 사용되는 웨이퍼 가공 장비 및 관련 서비스를 공급하는 글로벌 기업입니다.",
+    "milestones": [
+      "1980: 램리서치 설립",
+      "1984: 나스닥 상장",
+      "2008: Novellus Systems 인수 발표",
+      "2012: Novellus Systems 인수 완료",
+      "2016: KLA-Tencor 인수 시도 (실패)",
+      "2020: 40주년 기념 및 지속적인 기술 혁신"
+    ],
+    "business_model": "반도체 제조 장비 판매 및 관련 서비스 제공을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "신규 장비 판매",
+      "장비 업그레이드 및 부품 판매",
+      "유지보수 및 기술 지원 서비스",
+      "소프트웨어 라이선스"
+    ],
+    "value_chain_position": "Upstream / midstream + 반도체 전공정 및 후공정 웨이퍼 가공 장비를 공급합니다.",
     "products": [
-      "텅스텐 또는 몰리브덴 금속화 응용 분야를 위한 등각 또는 선택 필름을 증착하는 ALTUS 시스템",
-      "구리 다마신 제조",
-      "유전체 에칭 애플리케이션을 위한 Flex",
-      "Equipment Intelligence 솔루션을 통해 구현되는 RF 기술 및 반복 가능한 웨이퍼 간 성능",
-      "다이 수율을 향상시키는 Coronus 베벨 클린 제품"
+      "디스플레이 (Deposition) 장비 (ALTUS, SABRE, Striker)",
+      "식각 (Etch) 장비 (Flex, Kiyo, Syndion)",
+      "세정 (Clean) 장비 (Coronus)",
+      "고급 패키징 솔루션",
+      "웨이퍼 처리 장비 (Da Vinci, DV-Prime)"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "Lam Research Corporation은 미국의 반도체 산업에 웨이퍼 제조 장비 및 관련 서비스를 공급하는 회사입니다. 해당 제품은 주로 반도체 장치의 활성 구성 요소와 배선(인터커넥트)을 생성하는 단계를 포함하는 프런트 엔드 웨이퍼 처리에 사용됩니다. 이 회사는 또한 백엔드 웨이퍼 레벨 패키징(WLP) 및 미세 전자 기계 시스템(MEMS)과 같은 관련 제조 시장을 위한 장비도 제작합니다."
+    "key_customers": "주요 반도체 메모리, 파운드리, 종합 반도체 제조업체 (IDM)에 집중되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.67,
@@ -119,33 +134,132 @@
     "roe_pct": 66.76
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "100-120 billion USD (2023년 기준, SEMI 및 회사 보고서 추정치 기반)",
+    "tam_cagr_pct": "7-10% (향후 3~5년) - 인공지능, 5G, IoT, 클라우드 컴퓨팅 등 신기술 수요 증가로 인한 반도체 수요 확대 및 3D 스케일링, 멀티 패터닝 등 첨단 제조 공정의 복잡성 증가가 장비 투자 확대로 이어질 것으로 예상됨.",
+    "growth_drivers": [
+      "인공지능(AI), 5G, 사물 인터넷(IoT), 클라우드 컴퓨팅 등 신기술의 확산으로 인한 고성능 반도체 수요 증가",
+      "전통적인 2D 스케일링의 한계로 인한 3D 아키텍처 및 멀티 패터닝과 같은 수직 스케일링 전략의 중요성 증대",
+      "모바일, PC, 서버, 웨어러블, 자동차, 데이터 저장 장치 등 다양한 전자 제품에서 더 작고 성능이 우수한 디바이스에 대한 지속적인 요구",
+      "나노스케일 제조, 화학, 플라즈마 및 유체역학, 첨단 시스템 엔지니어링 등 핵심 역량 기반의 기술 혁신 가속화",
+      "반도체 메모리, 파운드리, IDM 등 주요 고객사의 지속적인 기술 발전 및 투자 확대"
+    ],
+    "market_share_pct": "20-25% (증착, 식각, 세정 장비 시장 종합 추정치)",
+    "competitors": [
+      {
+        "name": "Applied Materials (AMAT)",
+        "differentiation": "증착, 식각, 이온 주입 등 광범위한 장비 포트폴리오와 재료 공학 분야의 강점"
+      },
+      {
+        "name": "Tokyo Electron (TEL)",
+        "differentiation": "코터/디벨로퍼, 식각, 증착 등 다양한 분야에서 강력한 시장 지위와 일본 시장에서의 강세"
+      },
+      {
+        "name": "KLA Corporation (KLAC)",
+        "differentiation": "반도체 제조 공정의 수율 관리 및 검사/측정 장비 분야의 독보적인 리더십"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - 반도체 장비 산업은 막대한 R&D 투자, 고도의 기술 전문성, 오랜 고객 관계가 필요하여 진입 장벽이 매우 높음.",
+      "substitutes": "low - 반도체 제조에 필수적인 핵심 장비이므로 직접적인 대체재가 존재하기 어려움.",
+      "buyer_power": "medium - 소수의 대형 반도체 제조업체(메모리, 파운드리, IDM)가 주요 고객이므로 구매자의 협상력이 존재하나, Lam Research의 기술적 우위와 필수적인 장비 특성으로 인해 제한적임.",
+      "supplier_power": "medium - 일부 핵심 부품 및 재료 공급업체는 독점적 지위를 가질 수 있으나, Lam Research의 규모와 공급망 관리 역량으로 인해 통제 가능한 수준임.",
+      "rivalry": "high - Applied Materials, Tokyo Electron 등 소수의 글로벌 대기업들이 시장을 지배하며, 기술 혁신 경쟁과 시장 점유율 확보를 위한 치열한 경쟁이 존재함."
+    },
     "competitive_advantages": [
-      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+      "증착(Deposition), 식각(Etch), 세정(Clean) 시장에서의 기술 리더십 및 전문성",
+      "하드웨어, 공정, 재료, 소프트웨어, 공정 제어를 통합하는 핵심 기술 역량",
+      "나노스케일 제조, 화학, 플라즈마 및 유체역학, 첨단 시스템 엔지니어링 분야의 강력한 글로벌 입지 및 전문성",
+      "지속적인 연구 개발(R&D) 투자와 고객과의 학습 사이클을 효과적으로 활용하는 능력",
+      "주요 반도체 메모리, 파운드리, IDM 고객사와의 견고한 관계 및 광범위한 고객 기반"
+    ],
+    "competitive_weaknesses": [
+      "반도체 산업의 경기 변동에 대한 높은 민감도 (Cyclicality)",
+      "소수의 대형 고객사에 대한 매출 의존도",
+      "글로벌 공급망 및 지정학적 리스크에 대한 노출",
+      "경쟁사 대비 특정 장비 포트폴리오의 다양성 부족 (예: 리소그래피, 이온 주입 등)"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 70.4,
+    "score": 71.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.7198,
-    "trailing_pe": 54.609985,
-    "forward_pe": 37.33631,
+    "trailing_pe": 56.550095,
+    "forward_pe": 37.805164,
     "ev_to_ebitda": 46.95,
-    "price_to_sales": 17.040464,
+    "price_to_sales": 17.254452,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 220.7,
-    "outperform_6m_vs_nasdaq": 65.86,
-    "outperform_1m_vs_nasdaq": -3.24,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 213.37,
+    "outperform_6m_vs_nasdaq": 74.97,
+    "outperform_1m_vs_nasdaq": 1.91,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Lam Research는 나노 스케일 제조 구현, 화학, 플라즈마 및 유체 역학, 고급 시스템 엔지니어링 등 핵심 역량을 통해 반도체 산업에 혁신적인 웨이퍼 제조 장비 및 서비스를 제공합니다.",
+      "하드웨어, 공정, 재료, 소프트웨어 및 공정 제어를 웨이퍼에 통합하는 핵심 기술 역량을 보유하고 있으며, 이는 원자 규모의 정밀 제어와 고도로 정교한 공정 기술을 요구하는 반도체 제조에 필수적입니다.",
+      "고객사의 성공이 차세대 반도체 혁신을 이끄는 자사의 약속의 일부라고 명시하며, 이는 고객과의 깊은 기술적 파트너십과 신뢰를 바탕으로 한 무형 자산을 시사합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "AI, 5G, IoT 등 신기술 수요 증가에 따른 반도체 제조 기술 혁신 가속화",
+    "bull_case": "AI 및 고성능 컴퓨팅 수요 폭증으로 첨단 반도체 장비 시장이 급성장하여 LRCX의 매출과 이익이 3년간 연평균 20% 이상 성장할 것입니다.",
+    "base_case": "반도체 산업의 구조적 성장과 기술 난이도 증가로 LRCX는 안정적인 시장 점유율을 유지하며, 연평균 10~15% 수준의 매출 및 이익 성장을 달성할 것입니다.",
+    "bear_case": "글로벌 경기 침체 및 지정학적 리스크 심화로 반도체 투자 위축과 장비 수요 감소가 발생하여 LRCX의 매출과 이익이 역성장할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "반도체 장비 산업 수주 잔고 및 출하액",
+      "메모리 및 파운드리 고객사의 Capex 투자 계획",
+      "R&D 투자 및 신기술 개발 현황"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "공급망",
+        "description": "반도체 제조 장비 공급망의 복잡성과 글로벌 의존성으로 인해 지정학적 긴장, 무역 정책 변화 또는 자연재해 발생 시 생산 차질 위험이 높습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "반도체 장비 산업은 기술 변화가 빠르고 경쟁이 치열하여, 신기술 개발 및 시장 점유율 유지를 위한 지속적인 투자가 필요합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화, 인플레이션, 금리 인상 등 거시 경제 환경 변화는 반도체 수요 감소로 이어져 회사 실적에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "미국과 중국 간의 기술 규제 및 수출 통제 강화는 주요 시장 접근을 제한하고 사업 운영에 불확실성을 가중시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "대규모 자사주 매입 및 배당 정책은 자본 가용성에 영향을 미칠 수 있으며, 시장 상황 변화 시 재무 유연성이 저하될 위험이 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 반도체 제조업체에 대한 높은 의존도는 소수 고객의 투자 계획 변경이나 재정 악화 시 매출에 큰 타격을 줄 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 반도체 산업이 장기적인 침체기에 진입하고, 주요 고객사들이 대규모 투자 축소를 단행하여 LRCX의 매출이 급감하는 경우.",
+      "미국과 중국 간의 기술 패권 경쟁이 심화되어 LRCX의 핵심 기술 수출이 전면 금지되고, 주요 시장에서 사업 철수를 강요받는 경우.",
+      "경쟁사들이 혁신적인 차세대 반도체 제조 기술을 개발하여 시장을 선점하고, LRCX의 기존 장비들이 급속도로 구식이 되어 경쟁력을 상실하는 경우.",
+      "반도체 공급망에 치명적인 문제가 발생하여 핵심 부품 조달이 불가능해지고, 장비 생산 및 납품이 장기간 중단되는 경우."
+    ],
+    "exit_signals": [
+      "주요 반도체 제조업체들의 CAPEX(자본적 지출) 가이드가 연속적으로 하향 조정되거나, 대규모 투자 계획이 철회되는 발표가 있을 때.",
+      "미국 정부가 중국에 대한 반도체 장비 수출 통제를 현재보다 훨씬 더 강력하게 확대하여 LRCX의 중국 매출이 크게 감소할 것으로 예상될 때.",
+      "경쟁사(예: Applied Materials, Tokyo Electron)가 LRCX의 핵심 시장(예: 식각, 증착)에서 기술적으로 우위를 점하는 신제품을 출시하고 시장 점유율을 빠르게 잠식하기 시작할 때.",
+      "글로벌 반도체 장비 시장의 전반적인 성장률이 장기간 마이너스를 기록하거나, LRCX의 분기별 매출 및 이익이 시장 예상치를 크게 하회하는 추세가 지속될 때."
+    ]
+  },
   "wikipedia_summary": "Lam Research Corporation is an American supplier of wafer-fabrication equipment and related services to the semiconductor industry. Its products are used primarily in front-end wafer processing, which involves the steps that create the active components of semiconductor devices and their wiring (interconnects). The company also builds equipment for back-end wafer-level packaging (WLP) and for related manufacturing markets such as for microelectromechanical systems (MEMS).",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:13:08.636964+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:36:32.837137+00:00"
   }
 }

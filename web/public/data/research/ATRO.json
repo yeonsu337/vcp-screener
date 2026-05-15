@@ -1,0 +1,191 @@
+{
+  "ticker": "ATRO",
+  "company": "Astronics Corporation",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "generated_at": "2026-05-15T00:23:14.904238+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 2964355840,
+    "shares_outstanding": 32040340,
+    "employees": 2700,
+    "country": "United States",
+    "website": "https://www.astronics.com",
+    "beta": 1.107
+  },
+  "category_a_business": {
+    "overview": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 남미 및 전 세계의 항공우주, 방위, 전자 산업을 위한 제품을 설계 및 제조합니다. 항공우주 및 테스트 시스템이라는 두 부문으로 운영됩니다. 항공우주 부문에서는 조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조, 항공 전자 제품, 시스템 인증 및 기타 제품을 제공합니다.",
+    "business_model": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 소우 지역의 항공우주, 방위산업, 전자 산업을 위한 제품을 설계 및 제조합니다.",
+    "products": [
+      "미국, 북미 지역, 아시아, 유럽의 항공우주, 방위산업, 전자 산업을 위한 제품",
+      "항공우주 및 테스트 시스템이라는 두 부문으로 나뉜다.",
+      "조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Astronics Corporation은 1968년에 설립된 미국 항공우주 전자 회사로 뉴욕주 이스트 오로라에 본사를 두고 있습니다. NASDAQ에서는 Nasdaq: ATRO로 거래됩니다. 군용, 상업용, 비즈니스 항공기 및 반도체 테스트 시스템의 조명 및 전자 통합으로 잘 알려져 있습니다.",
+    "milestones": [
+      "1968년: , 뉴욕주 이스트 오로라에 본사를 두고 있음"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.21,
+    "roa": 0.1,
+    "profit_margin": 0.05,
+    "operating_margin": 0.12,
+    "gross_margin": 0.31,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 1.54,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      862128000.0,
+      795426000.0,
+      689206000.0,
+      534894000.0,
+      null
+    ],
+    "annual_operating_income": [
+      76412000.0,
+      26466000.0,
+      -6671000.0,
+      -30044000.0,
+      null
+    ],
+    "annual_eps": [
+      0.81,
+      -0.46,
+      -0.8,
+      -1.11,
+      null
+    ],
+    "annual_free_cf": [
+      43122000.0,
+      22138000.0,
+      -31593000.0,
+      -35987000.0,
+      null
+    ],
+    "annual_total_debt": [
+      378354000.0,
+      193874000.0,
+      197678000.0,
+      178383000.0,
+      null
+    ],
+    "annual_equity": [
+      140074000.0,
+      256097000.0,
+      249518000.0,
+      239920000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.78,
+      -0.31,
+      0.04,
+      0.26,
+      -0.08,
+      null
+    ],
+    "quarterly_revenue": [
+      240067000.0,
+      211447000.0,
+      204678000.0,
+      205936000.0,
+      208540000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 168.1,
+    "sales_yoy_pct": 12.0,
+    "roe_pct": 21.18
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Aerospace & Defense 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 90,
+    "score": 65.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.45,
+    "trailing_pe": 67.79508,
+    "forward_pe": 25.968603,
+    "ev_to_ebitda": 24.989,
+    "price_to_sales": 3.3427143,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 137.63,
+    "outperform_6m_vs_nasdaq": 59.03,
+    "outperform_1m_vs_nasdaq": -2.45,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "아래 또는 이 보고서나 기타 SEC 서류의 다른 부분에서 논의된 위험은 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험도 향후 당사의 비즈니스, 재무 상태 또는 운영 결과에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그 결과, 당사 보통주의 거래 가격이 하락할 수 있으며, 귀하는 당사 보통주에 대한 투자의 전부 또는 일부를 잃을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "시장 위험 보잉의 주요 고객을 잃거나 이 고객과의 거래가 크게 감소하면 당사의 매출과 수익이 감소할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "보잉이 고객을 잃거나 보잉과의 사업이 크게 축소되면 당사의 매출과 수익이 크게 감소할 것입니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리가 서비스를 제공하는 시장은 주기적이며 국내외 경제 상황, 갈등 및 사건에 민감하며, 이로 인해 우리의 운영 결과가 변동될 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Astronics Corporation is an American aerospace electronics corporation founded in 1968, headquartered in East Aurora, New York. It is traded on NASDAQ as Nasdaq: ATRO. It is known for lighting and electronics integrations on military, commercial, and business aircraft and semiconductor test systems.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-15T00:35:05.969399+00:00"
+  }
+}

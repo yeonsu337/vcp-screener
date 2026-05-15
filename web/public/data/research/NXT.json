@@ -4,14 +4,14 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Solar",
-  "generated_at": "2026-05-13T10:51:47.253007+00:00",
+  "generated_at": "2026-05-15T00:26:22.876190+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 18853726208,
+    "market_cap": 21467412480,
     "shares_outstanding": 148475843,
-    "employees": 1300,
+    "employees": null,
     "country": "United States",
     "website": "https://www.nextpower.com",
     "beta": 1.598
@@ -29,13 +29,13 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.33,
-    "roa": 0.14,
+    "roe": 0.3,
+    "roa": 0.12,
     "profit_margin": 0.16,
-    "operating_margin": 0.19,
-    "gross_margin": 0.32,
-    "revenue_growth_ttm": 0.34,
-    "earnings_growth_ttm": 0.08,
+    "operating_margin": 0.17,
+    "gross_margin": 0.33,
+    "revenue_growth_ttm": -0.05,
+    "earnings_growth_ttm": -0.08,
     "dividend_yield": null,
     "payout_ratio": 0.0,
     "annual_revenue": [
@@ -104,10 +104,10 @@
       "2024-12-31",
       "2024-09-30"
     ],
-    "eps_qoq_yoy_pct": 13.8,
-    "sales_yoy_pct": 33.9,
+    "eps_qoq_yoy_pct": -3.9,
+    "sales_yoy_pct": -4.7,
     "ni_cagr_3y_pct": 115.45,
-    "roe_pct": 33.17
+    "roe_pct": 29.57
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -118,21 +118,21 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 65.1,
+    "rs_rating": 90,
+    "score": 59.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.3483,
-    "trailing_pe": 31.982143,
-    "forward_pe": 26.168036,
-    "ev_to_ebitda": 23.145,
-    "price_to_sales": 5.232473,
+    "trailing_pe": 37.077923,
+    "forward_pe": 30.638504,
+    "ev_to_ebitda": 27.619,
+    "price_to_sales": 6.0312057,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 123.87,
-    "outperform_6m_vs_nasdaq": 6.42,
-    "outperform_1m_vs_nasdaq": -0.14,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 123.8,
+    "outperform_6m_vs_nasdaq": 21.39,
+    "outperform_1m_vs_nasdaq": 18.73,
+    "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
@@ -176,6 +176,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:13:30.653524+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:36:44.166957+00:00"
   }
 }

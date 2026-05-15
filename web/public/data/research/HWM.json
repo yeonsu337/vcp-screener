@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-14T01:58:27.249315+00:00",
+  "generated_at": "2026-05-15T00:22:14.002062+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 109269360640,
+    "market_cap": 108977274880,
     "shares_outstanding": 400107483,
     "employees": 25430,
     "country": "United States",
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 67.3,
+    "rs_rating": 76,
+    "score": 66.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.8,
-    "trailing_pe": 63.21759,
-    "forward_pe": 45.881348,
-    "ev_to_ebitda": 43.609,
-    "price_to_sales": 12.67185,
+    "trailing_pe": 63.194897,
+    "forward_pe": 45.758705,
+    "ev_to_ebitda": 43.495,
+    "price_to_sales": 12.637978,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 33.26,
-    "outperform_6m_vs_nasdaq": 18.12,
-    "outperform_1m_vs_nasdaq": -5.8,
+    "outperform_1y_vs_nasdaq": 32.34,
+    "outperform_6m_vs_nasdaq": 17.02,
+    "outperform_1m_vs_nasdaq": -3.64,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:12:27.271210+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:36:16.769965+00:00"
   }
 }

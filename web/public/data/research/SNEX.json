@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-05-14T02:02:33.240943+00:00",
+  "generated_at": "2026-05-15T00:27:34.286348+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 9195550720,
+    "market_cap": 9144037376,
     "shares_outstanding": 79251496,
     "employees": 5307,
     "country": "United States",
@@ -17,18 +17,41 @@
     "beta": 0.642
   },
   "category_a_business": {
-    "overview": "StoneX Group Inc.는 기업, 조직, 거래자 및 투자자를 미국, 유럽, 남미, 중동, 아시아 및 국제 시장 생태계에 연결하는 글로벌 금융 서비스 네트워크로 운영됩니다. 이 회사는 상업, 기관, 자기 주도/소매, 결제 등 4개 부문을 통해 운영됩니다.",
-    "business_model": "스톤엑스그룹(주)",
+    "overview": "StoneX Group Inc.는 전 세계 기업, 기관, 트레이더 및 투자자를 글로벌 시장 생태계에 연결하는 금융 서비스 네트워크입니다.",
+    "milestones": [
+      "1924: 자회사 INTL FCStone 설립",
+      "2009: FCStone Group과 International Assets Holding Corporation 합병",
+      "2011: 글로벌 결제 서비스 확장",
+      "2020: 사명을 INTL FCStone Inc.에서 StoneX Group Inc.로 변경",
+      "2020: GAIN Capital Holdings 인수, 소매 외환 및 CFD 사업 강화",
+      "2022: Chasing Returns 인수, 트레이더 분석 도구 강화"
+    ],
+    "business_model": "글로벌 금융 시장 접근성 제공 및 거래, 리스크 관리, 투자 서비스를 통해 수수료와 스프레드를 얻습니다.",
+    "revenue_streams": [
+      "거래 수수료 및 스프레드",
+      "청산 및 결제 서비스 수수료",
+      "시장 정보 및 리스크 관리 컨설팅 수수료",
+      "고객 예치금 이자 수익",
+      "자산 관리 수수료",
+      "실물 상품 거래 마진"
+    ],
+    "value_chain_position": "Midstream + 다양한 자산 클래스에 걸쳐 거래 실행, 청산, 결제 및 리스크 관리 서비스를 제공합니다.",
     "products": [
-      "기업, 조직, 거래자 및 투자자를 시장 생태계에 연결하는 글로벌 금융 서비스 네트워크입니다.",
-      "상업, 기관, 자기주도/소매, 결제 등 4개 부문을 통해",
-      "위험 관리 및 헤징, 음성 중개, 시장 정보, 실물 거래, 상품 금융, 마케팅",
-      "현물 외환, 귀금속 거래를 포함한 글로벌 금융 시장의 거래 서비스 및 솔루션"
+      "상업 헤징 및 리스크 관리",
+      "글로벌 결제 서비스",
+      "증권 (채권, 주식)",
+      "외환 (FX) 및 CFD",
+      "실물 상품 거래",
+      "청산 및 실행 서비스"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (기업, 기관)",
+      "B2C (개인 투자자)",
+      "D2C (온라인 플랫폼)",
+      "제휴 프로그램",
+      "화이트 라벨 파트너십"
     ],
-    "wikipedia_excerpt": "StoneX Group Inc.는 미국의 금융 서비스 회사입니다. 회사는 상업 헤징, 글로벌 결제, 증권, 실물 상품, 외환, 청산 및 집행 서비스(CES) 등 6개 분야를 운영하고 있습니다."
+    "key_customers": "매출 집중도가 낮고, 80,000개 이상의 상업/기관 고객과 400,000개 이상의 개인 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -125,19 +148,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 71.1,
+    "score": 70.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 20.868706,
-    "forward_pe": 17.44812,
+    "trailing_pe": 20.640429,
+    "forward_pe": 17.350376,
     "ev_to_ebitda": null,
-    "price_to_sales": 0.061083894,
+    "price_to_sales": 0.0607417,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 56.81,
-    "outperform_6m_vs_nasdaq": 79.61,
-    "outperform_1m_vs_nasdaq": 1.81,
+    "outperform_1y_vs_nasdaq": 54.0,
+    "outperform_6m_vs_nasdaq": 78.98,
+    "outperform_1m_vs_nasdaq": 1.88,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -182,6 +205,6 @@
   },
   "wikipedia_summary": "StoneX Group Inc. is an American financial services company. The company operates in six areas: commercial hedging, global payments, securities, physical commodities, foreign exchange and clearing and execution services (CES).",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:13:57.058541+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:37:25.470190+00:00"
   }
 }

@@ -1,0 +1,160 @@
+{
+  "ticker": "ADEA",
+  "company": "Adeia Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "generated_at": "2026-05-15T00:24:16.069311+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 3472047360,
+    "shares_outstanding": 110293749,
+    "employees": 150,
+    "country": "United States",
+    "website": "https://adeia.com",
+    "beta": 1.055
+  },
+  "category_a_business": {
+    "overview": "Adeia Inc.는 자회사와 함께 미국, 아시아, 캐나다, 유럽, 중동 및 국제적으로 미디어 및 반도체 지적 재산권 라이선싱 플랫폼 회사로 운영되고 있습니다. 회사는 네트워크를 통해 선형 콘텐츠를 집계 및 배포하는 케이블, 위성 및 통신 텔레비전 제공업체와 광대역 네트워크를 통해 선형 콘텐츠를 집계 및 스트리밍하는 텔레비전 제공업체로 구성된 다중 채널 비디오 프로그래밍 배포자를 포함하여 다양한 시장에 걸쳐 특허 포트폴리오에 대한 라이선스를 부여합니다. OTT(Over-The-Top) 비디오 서비스 제공업체",
+    "business_model": "Adeia Inc.는 자회사와 함께 미국, 아시아, 캐나다, 유럽, 중동 및 인텔에서 미디어 및 반도체 지적 재산권 라이센스 플랫폼 회사로 운영되고 있습니다.",
+    "products": [
+      "미국, 아시아, 캐나다, 유럽의 미디어 및 반도체 지적재산권 라이선싱 플랫폼 회사로"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.29,
+    "roa": 0.13,
+    "profit_margin": 0.27,
+    "operating_margin": 0.39,
+    "gross_margin": 1.0,
+    "revenue_growth_ttm": 0.2,
+    "earnings_growth_ttm": 1.0,
+    "dividend_yield": 0.63,
+    "payout_ratio": 0.18,
+    "annual_revenue": [
+      443386000.0,
+      376024000.0,
+      388788000.0,
+      438933000.0,
+      null
+    ],
+    "annual_operating_income": [
+      199712000.0,
+      142262000.0,
+      145563000.0,
+      161647000.0,
+      null
+    ],
+    "annual_eps": [
+      0.99,
+      0.57,
+      0.6,
+      -2.84,
+      null
+    ],
+    "annual_free_cf": [
+      149330000.0,
+      190164000.0,
+      146412000.0,
+      170157000.0,
+      null
+    ],
+    "annual_total_debt": [
+      427744000.0,
+      485417000.0,
+      595928000.0,
+      736295000.0,
+      null
+    ],
+    "annual_equity": [
+      480541000.0,
+      396571000.0,
+      356622000.0,
+      301412000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.2,
+      0.65,
+      0.08,
+      0.15,
+      0.1,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      182642000.0,
+      87339000.0,
+      85735000.0,
+      87670000.0,
+      119168000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 92.8,
+    "sales_yoy_pct": 19.5,
+    "roe_pct": 28.51
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Application 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 65.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.51,
+    "trailing_pe": 28.880733,
+    "forward_pe": 20.332634,
+    "ev_to_ebitda": 13.799,
+    "price_to_sales": 7.5399303,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 87.48,
+    "outperform_6m_vs_nasdaq": 113.45,
+    "outperform_1m_vs_nasdaq": 6.03,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 절차에서 불리한 결정이 내려지면 당사의 사업과 연결 재무 상태, 운영 결과 및 현금 흐름에 심각한 피해를 줄 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-15T00:34:34.431219+00:00"
+  }
+}

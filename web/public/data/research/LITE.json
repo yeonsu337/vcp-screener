@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-14T01:59:29.840103+00:00",
+  "generated_at": "2026-05-15T00:25:17.242597+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 80162783232,
+    "market_cap": 77940817920,
     "shares_outstanding": 77800000,
     "employees": 10562,
     "country": "United States",
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 67.2,
+    "score": 64.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.63,
-    "trailing_pe": 175.53152,
-    "forward_pe": 57.24262,
-    "ev_to_ebitda": 145.439,
-    "price_to_sales": 32.214592,
+    "trailing_pe": 181.8167,
+    "forward_pe": 55.655956,
+    "ev_to_ebitda": 141.453,
+    "price_to_sales": 31.321661,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 1295.33,
-    "outperform_6m_vs_nasdaq": 284.24,
-    "outperform_1m_vs_nasdaq": 9.13,
+    "outperform_1y_vs_nasdaq": 1204.42,
+    "outperform_6m_vs_nasdaq": 283.31,
+    "outperform_1m_vs_nasdaq": 10.67,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한, 공급망 중단으로 인해 비용이 증가하고 계속해서 손해를 입을 수 있으며, 고객 요구를 충족하는 능력에 해를 끼치고 지속적으로 피해를 주어 매출과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "또한, 공급망 중단으로 인해 비용이 증가하고 계속해서 손해를 입을 수 있으며 고객 요구를 충족하는 능력에 해를 끼치고 지속적으로 피해를 주어 매출과 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:13:02.792839+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:36:31.208402+00:00"
   }
 }

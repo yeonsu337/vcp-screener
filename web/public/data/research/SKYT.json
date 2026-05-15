@@ -4,13 +4,13 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-12T00:33:52.853109+00:00",
+  "generated_at": "2026-05-15T00:36:47.335175+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1724934912,
-    "shares_outstanding": 49157448,
+    "market_cap": 1762508800,
+    "shares_outstanding": 49204602,
     "employees": 1551,
     "country": "United States",
     "website": "https://www.skywatertechnology.com",
@@ -125,19 +125,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 69.9,
+    "score": 64.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 14.995728,
-    "forward_pe": -172.5766,
-    "ev_to_ebitda": 46.855,
-    "price_to_sales": 3.1853046,
+    "trailing_pe": 14.924999,
+    "forward_pe": -176.16682,
+    "ev_to_ebitda": 48.299,
+    "price_to_sales": 3.2546895,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 314.55,
-    "outperform_6m_vs_nasdaq": 73.58,
-    "outperform_1m_vs_nasdaq": 7.21,
+    "outperform_1y_vs_nasdaq": 287.34,
+    "outperform_6m_vs_nasdaq": 48.66,
+    "outperform_1m_vs_nasdaq": 0.2,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-14T02:13:40.979387+00:00"
+    "GoogleWebTranslator": "2026-05-15T00:37:19.295018+00:00"
   }
 }
