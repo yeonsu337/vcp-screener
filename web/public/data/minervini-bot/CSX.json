@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CSX",
-  "generated_at": "2026-05-15T00:09:13.927383+00:00",
-  "source_results_date": "2026-05-15",
+  "generated_at": "2026-05-16T00:04:38.267133+00:00",
+  "source_results_date": "2026-05-16",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -48,7 +48,7 @@
   "key_failures": [
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-5.8% vs ≥-5.0%)"
+    "rs_line (-5.2% vs ≥-5.0%)"
   ],
   "warnings": []
 }

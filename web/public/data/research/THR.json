@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-15T00:35:44.479512+00:00",
+  "generated_at": "2026-05-16T00:31:07.530818+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2255179008,
+    "market_cap": 2144080128,
     "shares_outstanding": 32869538,
     "employees": 1568,
     "country": "United States",
@@ -121,19 +121,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 91,
-    "score": 53.1,
+    "score": 49.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.98,
-    "trailing_pe": 38.762714,
-    "forward_pe": 30.358408,
-    "ev_to_ebitda": 21.855,
-    "price_to_sales": 4.320175,
+    "trailing_pe": 36.85311,
+    "forward_pe": 28.862833,
+    "ev_to_ebitda": 20.83,
+    "price_to_sales": 4.1073465,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 84.77,
-    "outperform_6m_vs_nasdaq": 77.35,
-    "outperform_1m_vs_nasdaq": 16.24,
+    "outperform_1y_vs_nasdaq": 80.68,
+    "outperform_6m_vs_nasdaq": 71.29,
+    "outperform_1m_vs_nasdaq": 12.87,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -145,7 +145,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한, 이러한 지연 및 취소로 인해 분기별로 영업 결과가 크게 변동될 수 있어 분기별 재무 성과를 예측하기가 어려워집니다.",
+        "description": "또한, 이러한 지연 및 취소로 인해 분기별로 영업 결과가 크게 변동될 수 있어 분기별 재무 성과를 예측하기가 어려워질 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -155,7 +155,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "글로벌 기업으로서 우리는 여러 국가에서 경제적, 정치적 및 기타 위험에 노출되어 있으며, 이로 인해 매출, 수익성, 현금 흐름이 실질적으로 감소하거나 부채가 실질적으로 증가할 수 있습니다.",
+        "description": "글로벌 기업으로서 우리는 여러 국가에서 경제적, 정치적 및 기타 위험에 노출되어 있으며, 이로 인해 수익, 수익성, 현금 흐름이 실질적으로 감소하거나 부채가 실질적으로 증가할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리의 주요 성장 전략 중 하나는 전 세계 신흥 시장과 고성장 시장에서 글로벌 입지를 지속적으로 확장하는 것입니다. 그러나 국제 사업 확장에 성공하지 못할 수도 있습니다.",
+        "description": "우리의 주요 성장 전략 중 하나는 전 세계 신흥 시장과 고성장 시장에서 글로벌 입지를 지속적으로 확장하는 것입니다. 그러나 국제 사업을 확장하는 데는 성공하지 못할 수도 있습니다.",
         "severity": "medium"
       }
     ],
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-15T00:37:41.964695+00:00"
+    "GoogleWebTranslator": "2026-05-16T00:33:21.646764+00:00"
   }
 }

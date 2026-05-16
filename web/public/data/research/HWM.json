@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-15T00:22:14.002062+00:00",
+  "generated_at": "2026-05-16T00:17:10.855185+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 108977274880,
+    "market_cap": 104167989248,
     "shares_outstanding": 400107483,
     "employees": 25430,
     "country": "United States",
@@ -22,7 +22,7 @@
     "products": [
       "미국, 일본, 프랑스, ​​독일의 항공우주 및 운송 산업을 위한 고급 엔지니어링 솔루션",
       "엔진 제품, 고정 시스템, 엔지니어링 구조 및 단조 휠의 네 가지 부문을 통해",
-      "주로 항공기 엔진 및 산업용 가스 터빈에 사용되는 에어포일 및 심리스 롤링 링",
+      "주로 항공기 엔진 및 산업용 가스 터빈에 사용되는 익형 및 심리스 롤링 링",
       "항공우주 고정 시스템, 상업용 운송, 산업 및 기타 고정 장치",
       "티타늄 잉곳 및 압연 제품, 알루미늄 및 니켈 단조품, 항공우주용 가공 부품 및 조립품"
     ],
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 66.5,
+    "rs_rating": 73,
+    "score": 62.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.8,
-    "trailing_pe": 63.194897,
-    "forward_pe": 45.758705,
-    "ev_to_ebitda": 43.495,
-    "price_to_sales": 12.637978,
+    "trailing_pe": 60.54651,
+    "forward_pe": 43.739323,
+    "ev_to_ebitda": 41.617,
+    "price_to_sales": 12.08025,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 32.34,
-    "outperform_6m_vs_nasdaq": 17.02,
-    "outperform_1m_vs_nasdaq": -3.64,
+    "outperform_1y_vs_nasdaq": 26.67,
+    "outperform_6m_vs_nasdaq": 15.04,
+    "outperform_1m_vs_nasdaq": -3.61,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-15T00:36:16.769965+00:00"
+    "GoogleWebTranslator": "2026-05-16T00:31:34.565079+00:00"
   }
 }

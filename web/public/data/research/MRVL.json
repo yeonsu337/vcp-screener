@@ -1,0 +1,190 @@
+{
+  "ticker": "MRVL",
+  "company": "Marvell Technology Inc",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-16T00:05:15.787351+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
+  },
+  "category_a_business": {
+    "overview": "마벨은 데이터 인프라 반도체 솔루션을 공급하는 팹리스 기업으로, 데이터센터부터 네트워크 엣지까지 다양한 시장에 기여합니다.",
+    "milestones": [
+      "1995: 마벨 테크놀로지 설립",
+      "2000: 나스닥 상장",
+      "2025: 자동차 이더넷 사업부 인피니언에 매각",
+      "2026: Celestial AI 인수 (포토닉 패브릭 기술 확보)",
+      "2026: XConn Technologies 인수 (PCIe 및 CXL 스위칭 포트폴리오 확장)"
+    ],
+    "business_model": "고성능 반도체 제품을 설계 및 판매하여 데이터센터, 통신 등 다양한 시장에 솔루션을 제공합니다.",
+    "revenue_streams": [
+      "데이터센터 반도체 솔루션 판매",
+      "통신 인프라 반도체 솔루션 판매",
+      "엔터프라이즈 네트워킹 반도체 솔루션 판매",
+      "소비자 기기 반도체 솔루션 판매"
+    ],
+    "value_chain_position": "Midstream + 팹리스 모델로 반도체 설계 및 IP 개발에 집중하며 제조는 외부 파운드리에 위탁합니다.",
+    "products": [
+      "클라우드 및 온프레미스 AI 시스템용 반도체",
+      "이더넷 스위칭 솔루션",
+      "네트워크 스토리지 솔루션",
+      "광 전송 시스템용 반도체",
+      "무선 RAN 시스템용 반도체",
+      "브로드밴드 게이트웨이 및 라우터용 반도체"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "주로 데이터센터, 통신 장비 제조사, 엔터프라이즈 고객 등 다양한 기업 고객에게 제품을 공급합니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 97.9,
+    "sales_yoy_pct": 22.1,
+    "roe_pct": 19.25
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "수치 불확실 (데이터 부족)",
+    "tam_cagr_pct": "수치 불확실 (데이터 부족)",
+    "growth_drivers": [
+      "AI 및 클라우드 데이터 센터의 폭발적인 성장에 따른 고성능 상호 연결 솔루션 수요 증가",
+      "데이터 인프라 전반에 걸친 반도체 솔루션의 지속적인 수요 증가",
+      "차세대 AI 및 클라우드 데이터 센터를 위한 연결 전략 가속화 (Celestial AI 인수)",
+      "스위칭 포트폴리오 확장 및 Ultra Accelerator Link™ (UALink™) 역량 강화 (XConn Technologies 인수)"
+    ],
+    "market_share_pct": "수치 불확실 (데이터 부족)",
+    "competitors": [
+      {
+        "name": "NVIDIA",
+        "differentiation": "AI 가속기 및 GPU 시장의 지배적 강자, 소프트웨어 생태계 강점"
+      },
+      {
+        "name": "Broadcom",
+        "differentiation": "네트워킹 및 스토리지 반도체 분야의 광범위한 포트폴리오와 시장 리더십"
+      },
+      {
+        "name": "Intel",
+        "differentiation": "CPU 및 데이터 센터 솔루션 분야의 오랜 강자, AI 가속기 시장 진출"
+      },
+      {
+        "name": "AMD",
+        "differentiation": "CPU 및 GPU 시장에서 강력한 경쟁자, 데이터 센터 및 AI 분야 확장"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "중간",
+      "substitutes": "중간",
+      "buyer_power": "중간",
+      "supplier_power": "중간",
+      "rivalry": "높은"
+    },
+    "competitive_advantages": [
+      "데이터 인프라 반도체 솔루션 분야의 선도적인 공급업체",
+      "복잡한 SoC 아키텍처 개발 및 확장, 아날로그, 혼합 신호 및 디지털 신호 처리 기능 통합에 대한 핵심 강점",
+      "선도적인 지적 재산 및 심층적인 시스템 수준 전문성, 혁신적인 보안 펌웨어 보유",
+      "전략적 인수(Celestial AI, XConn)를 통한 AI 및 클라우드 데이터 센터 연결성 강화"
+    ],
+    "competitive_weaknesses": [
+      "특정 시장(예: AI 가속기)에서 강력한 경쟁자들에 비해 시장 점유율 및 브랜드 인지도 열위 가능성",
+      "팹리스 모델로 인한 제조 파트너 의존성",
+      "빠르게 변화하는 기술 환경에 대한 지속적인 투자 및 혁신 압박"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 74.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 132.18,
+    "outperform_6m_vs_nasdaq": 86.22,
+    "outperform_1m_vs_nasdaq": 23.83,
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "선도적인 데이터 인프라 반도체 솔루션 공급업체로서 데이터 센터 코어부터 네트워크 엣지까지 광범위한 제품을 제공합니다.",
+      "복잡한 시스템 온 칩(SoC) 아키텍처 개발 및 확장에 핵심 역량을 보유하고 있으며, 아날로그, 혼합 신호 및 디지털 신호 처리 기능을 통합합니다.",
+      "선도적인 지적 재산(IP)과 심층적인 시스템 수준 전문 지식, 혁신적인 보안 펌웨어를 활용하여 데이터 경제를 지원합니다.",
+      "최근 Celestial AI 및 XConn Technologies 인수를 통해 차세대 AI 및 클라우드 데이터 센터 연결 전략을 가속화하고 스위칭 포트폴리오를 확장했습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "Celestial AI 및 XConn Technologies 인수 완료로 AI 및 클라우드 데이터 센터 연결 전략 강화",
+    "bull_case": "AI 및 클라우드 데이터 센터 시장 성장에 힘입어 핵심 반도체 솔루션 수요 급증, 시장 점유율 확대 및 수익성 개선",
+    "base_case": "AI 및 클라우드 시장의 꾸준한 성장과 함께 데이터 인프라 반도체 솔루션 수요가 증가하며, Marvell은 기술 리더십을 바탕으로 안정적인 성장을 지속할 것입니다. 신규 인수 기업들의 시너지가 점진적으로 발현될 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체로 인한 IT 투자 위축, AI 및 클라우드 시장 성장 둔화, 경쟁 심화로 인한 가격 압박, 또는 신규 인수 기업들의 통합 실패로 인해 매출 및 수익성 목표 달성에 어려움을 겪을 수 있습니다.",
+    "key_metrics_to_watch": [
+      "데이터 센터 및 통신 부문 매출 성장률",
+      "Celestial AI 및 XConn Technologies 통합 시너지 및 재무 기여도",
+      "연구 개발(R&D) 투자 및 신기술 로드맵",
+      "총 마진율 및 영업 현금 흐름"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "소수의 주요 고객에 대한 매출 의존도가 높으며, 특히 데이터 센터 시장에 매출이 집중되어 있어 주요 고객의 이탈이나 주문 취소 시 매출에 큰 타격을 입을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "반도체 및 인프라 산업의 최종 시장은 경쟁이 매우 치열하며, 신제품 개발 및 기술 변화에 대한 적응 실패는 경쟁력 상실로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "공급망 중단, 부품 부족, 리드 타임 연장 등으로 인해 제품 생산 및 비용에 부정적인 영향을 받을 수 있으며, 이는 고객의 제품 출하 능력에도 영향을 미쳐 매출 감소로 이어질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "경제 둔화, 인플레이션, 고금리, 금융 불안정 등 거시 경제 상황 변화와 지정학적 갈등(예: 이스라엘-중동 분쟁)은 사업 운영 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "중국 등 해외 국가와의 관세 및 무역 제한은 고객의 자체 솔루션 개발, 수직 통합 또는 제3자로부터의 솔루션 구매를 유도하여 당사 제품의 필요성을 감소시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "부채 의무와 관련된 위험이 존재하며, 분기별 실적 변동성이 커서 미래 성과를 예측하기 어렵고 주가 변동성이 높을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "과거, 현재 또는 미래의 인수, 매각, 투자 또는 전략적 거래를 성공적으로 통합하고 예상되는 이점을 실현하지 못할 위험이 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 고객들이 자체 반도체 솔루션을 개발하거나 경쟁사 제품으로 전환하여 MRVL의 매출이 급감하고 시장 점유율을 잃는 경우.",
+      "글로벌 공급망의 심각한 붕괴로 핵심 부품 조달이 불가능해져 제품 생산이 중단되고 고객 주문을 이행하지 못하는 경우.",
+      "데이터 센터 및 통신 시장의 기술 변화에 적절히 대응하지 못하고 혁신적인 신제품을 적시에 출시하지 못하여 경쟁 우위를 상실하는 경우.",
+      "미중 무역 갈등 심화로 중국 시장 접근이 완전히 차단되고, 주요 고객들이 MRVL 제품 사용을 중단해야 하는 경우."
+    ],
+    "exit_signals": [
+      "주요 데이터 센터 고객 중 한 곳 이상이 MRVL과의 대규모 디자인 윈을 경쟁사에 빼앗기거나 자체 솔루션으로 전환한다는 발표.",
+      "분기별 실적 발표에서 데이터 센터 및 통신 시장 매출이 연속적으로 시장 기대치를 크게 하회하고, 경영진이 향후 전망에 대해 비관적인 입장을 표명.",
+      "핵심 기술 분야에서 경쟁사들이 MRVL보다 월등히 앞선 혁신적인 제품을 출시하여 MRVL 제품의 시장 경쟁력이 현저히 저하되는 것이 확인될 경우.",
+      "미국 정부가 중국에 대한 반도체 수출 통제를 더욱 강화하여 MRVL의 주요 중국 고객과의 거래가 사실상 불가능해지는 규제 발표."
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-16T00:32:41.883603+00:00"
+  }
+}

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-05-15T00:37:48.408275+00:00",
+  "generated_at": "2026-05-16T00:29:04.982045+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 16531286016,
+    "market_cap": 16162880512,
     "shares_outstanding": 104364181,
     "employees": 1462,
     "country": "United States",
@@ -17,19 +17,37 @@
     "beta": 1.423
   },
   "category_a_business": {
-    "overview": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally. The company provides AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies. It also offers infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firewalls, managed load balancers, NAT gateways, and virtual private cloud software, as well as IP address management and domain name system management.",
-    "business_model": "DigitalOcean Holdings, Inc., through its subsidiaries, operates an agentic inference cloud platform in North America, Europe, Asia, and internationally.",
+    "overview": "DigitalOcean은 AI 및 디지털 네이티브 기업을 위한 클라우드 플랫폼을 제공하는 글로벌 기술 기업입니다.",
+    "milestones": [
+      "2012년: DigitalOcean 설립",
+      "2013: 첫 번째 데이터센터 출시 및 Droplet 서비스 시작",
+      "2014: Managed Databases 서비스 출시",
+      "2018: Managed Kubernetes 서비스 출시",
+      "2021: 뉴욕 증권 거래소 상장 (NYSE: DOCN)",
+      "2023: AI/ML 플랫폼 Gradient AI Agentic Cloud 출시"
+    ],
+    "business_model": "클라우드 인프라 및 플랫폼 서비스를 구독 형태로 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "IaaS(Infrastructure-as-a-Service) 구독",
+      "PaaS(Platform-as-a-Service) 구독",
+      "SaaS(Software-as-a-Service) 구독",
+      "AI/ML 플랫폼 서비스 이용료"
+    ],
+    "value_chain_position": "Midstream + 클라우드 인프라 및 플랫폼을 구축하고 운영하여 고객에게 제공합니다.",
     "products": [
-      "an agentic inference cloud platform in North America, Europe, Asia, and internationally",
-      "AI and Digital Native Enterprises build, run, and scale intelligent applications for growing technology companies",
-      "infrastructure-as-a-service (IaaS) solutions comprising compute, storage, and networking products, including cloud firew",
-      "platform-as-a-service (PaaS) and software-as-a-service (SaaS) solutions, such as managed databases",
-      "artificial intelligence (AI)/machine learning (ML) applications comprising GPU droplets"
+      "Droplet (가상 머신)",
+      "관리형 데이터베이스",
+      "관리형 쿠버네티스",
+      "Gradient AI 에이전트 클라우드",
+      "스토리지 및 네트워킹",
+      "DigitalOcean 마켓플레이스"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "D2C (자체 웹사이트를 통한 셀프 서비스)",
+      "B2B (영업팀을 통한 기업 고객 유치)",
+      "파트너십"
     ],
-    "wikipedia_excerpt": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms."
+    "key_customers": "Top 5 고객 = 매출 35% (예시, 실제 데이터는 다를 수 있음)"
   },
   "category_b_financials": {
     "roe": 0.7,
@@ -131,51 +149,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 97,
-    "score": 63.5,
+    "score": 61.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 69.47369,
-    "forward_pe": 92.12944,
-    "ev_to_ebitda": 58.005,
-    "price_to_sales": 17.426502,
+    "trailing_pe": 67.92544,
+    "forward_pe": 90.0763,
+    "ev_to_ebitda": 56.77,
+    "price_to_sales": 17.038147,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 362.59,
-    "outperform_6m_vs_nasdaq": 203.31,
-    "outperform_1m_vs_nasdaq": 92.93,
+    "outperform_1y_vs_nasdaq": 359.09,
+    "outperform_6m_vs_nasdaq": 208.14,
+    "outperform_1m_vs_nasdaq": 66.33,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "As a result, our past results may not be indicative of our future performance.",
+        "description": "따라서 과거 실적이 미래 성과를 나타내지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Even if our revenue continues to increase, our revenue growth rate may decline in the 14 future as a result of a variety of factors, including the maturation of our business.",
+        "description": "당사의 수익이 지속적으로 증가하더라도 당사 사업의 성숙도를 비롯한 다양한 요인으로 인해 향후 수익 증가율은 하락할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "We may not successfully accomplish any of our objectives and, as a result, it is difficult for us to forecast our future results of operations.",
+        "description": "우리는 목표를 성공적으로 달성하지 못할 수 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Any of these and other factors, or the cumulative effect of some of these factors, may cause our results of operations to vary significantly.",
+        "description": "이러한 요인과 기타 요인 또는 이러한 요인의 누적 효과로 인해 당사의 운영 결과가 크게 달라질 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "We also expect our costs and expenses will increase in future periods, which could negatively affect our future results of operations if our revenue also does not increase.",
+        "description": "또한 우리는 비용과 비용이 향후 증가할 것으로 예상하며, 이는 수익도 증가하지 않을 경우 향후 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "If we are unable to sustain profitability, the value of our business and common stock may significantly decrease.",
+        "description": "수익성을 유지하지 못할 경우 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -186,5 +204,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms."
+  "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-16T00:30:44.810629+00:00"
+  }
 }

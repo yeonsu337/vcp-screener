@@ -1,0 +1,155 @@
+{
+  "ticker": "WMB",
+  "company": "The Williams Companies, Inc.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "generated_at": "2026-05-16T00:26:22.900984+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 95051423744,
+    "shares_outstanding": 1222998265,
+    "employees": 5987,
+    "country": "United States",
+    "website": "https://www.williams.com",
+    "beta": 0.633
+  },
+  "category_a_business": {
+    "overview": "Williams Companies, Inc.는 자회사와 함께 주로 미국에서 에너지 인프라 회사로 운영됩니다. 이는 전송, 전력 및 걸프, 북동부 G&P, 서부 및 가스 및 NGL 마케팅 서비스 부문을 통해 운영됩니다. 송전, 전력 및 걸프 부문은 Transco, NWP 및 Mountain West 주간 천연 가스 파이프라인과 관련 천연 가스 저장 시설, 천연 가스 수집 및 처리로 구성됩니다. 걸프 연안 지역의 원유 생산 처리 및 운송 자산.",
+    "business_model": "Williams Companies, Inc.는 자회사와 함께 주로 미국에서 에너지 인프라 회사로 운영됩니다.",
+    "products": [
+      "주로 미국의 에너지 인프라 회사로서",
+      "송전, 전력 및 걸프, 북동부 G&P, 서부, 가스 및 NGL 마케팅 서비스 부문을 통해",
+      "Conway 근처 캔자스 중부의 천연가스 액체(NGL) 분류 및 저장 자산",
+      "천연가스 유틸리티, 지방자치단체, 발전소를 위한 천연가스 도매 마케팅, 거래, 저장 및 운송",
+      "약 32,000마일의 파이프라인"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Williams Companies, Inc.는 오클라호마 주 털사에 본사를 둔 미국의 에너지 회사입니다. 핵심 사업은 천연가스 처리 및 운송이며, 추가적인 석유 및 발전 자산도 있습니다. Fortune 500대 기업인 이 회사의 보통주는 S&P 500의 구성 요소입니다."
+  },
+  "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.05,
+    "profit_margin": 0.23,
+    "operating_margin": 0.34,
+    "gross_margin": 0.64,
+    "revenue_growth_ttm": 0.09,
+    "earnings_growth_ttm": 0.25,
+    "dividend_yield": 2.7,
+    "payout_ratio": 0.89,
+    "annual_revenue": [
+      11950000000.0,
+      10503000000.0,
+      10907000000.0,
+      10965000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      4408000000.0,
+      3339000000.0,
+      4192000000.0,
+      3018000000.0,
+      null
+    ],
+    "annual_eps": [
+      2.14,
+      1.82,
+      2.6,
+      1.67,
+      null
+    ],
+    "annual_free_cf": [
+      899000000.0,
+      2296000000.0,
+      3371000000.0,
+      2606000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      29393000000.0,
+      26937000000.0,
+      26462000000.0,
+      22929000000.0,
+      null
+    ],
+    "annual_equity": [
+      12807000000.0,
+      12436000000.0,
+      12402000000.0,
+      11485000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.7,
+      null,
+      0.53,
+      0.45,
+      0.56,
+      null,
+      0.58
+    ],
+    "quarterly_revenue": [
+      3030000000.0,
+      3198000000.0,
+      2923000000.0,
+      2781000000.0,
+      3048000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 25.2,
+    "sales_yoy_pct": 9.0,
+    "ni_cagr_3y_pct": 8.51,
+    "roe_pct": 19.66
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 66.3,
+    "vcp_quality": 12.2,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.2305,
+    "trailing_pe": 34.08772,
+    "forward_pe": 29.976936,
+    "ev_to_ebitda": 18.562,
+    "price_to_sales": 7.8496513,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 0.94,
+    "outperform_6m_vs_nasdaq": 18.57,
+    "outperform_1m_vs_nasdaq": 0.88,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "The Williams Companies, Inc. is an American energy company based in Tulsa, Oklahoma. Its core business is natural gas processing and transportation, with additional petroleum and electricity generation assets. A Fortune 500 company, its common stock is a component of the S&P 500.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-16T00:33:44.008739+00:00"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "ticker": "LQDA",
+  "company": "Liquidia Corporation",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "generated_at": "2026-05-16T00:21:16.050760+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 5062676480,
+    "shares_outstanding": 88928099,
+    "employees": 216,
+    "country": "United States",
+    "website": "https://www.liquidia.com",
+    "beta": 0.416
+  },
+  "category_a_business": {
+    "overview": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다. 회사의 주요 제품 후보로는 폐동맥고혈압(PAH) 및 간질성 폐질환과 관련된 폐고혈압(PH-ILD) 치료를 위한 트레프로스티닐의 흡입 건조 분말 제제인 YUTREPIA가 있습니다. 또한 지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사제인 레모듈린(Remodulin)도 제공합니다. tr의 연구용 리포솜 제형인 L606을 개발합니다.",
+    "business_model": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다.",
+    "products": [
+      "지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사인 레모듈린(Remodulin)",
+      "L606은 임상 3상 시험 중인 트레프로스티닐의 연구용 리포솜 제제입니다.",
+      "크기를 정밀하게 제어하여 균일한 약물 입자를 설계 및 제조할 수 있는 PRINT 기술"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.28,
+    "roa": 0.09,
+    "profit_margin": 0.08,
+    "operating_margin": 0.46,
+    "gross_margin": 0.92,
+    "revenue_growth_ttm": 41.59,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      158320000.0,
+      13996000.0,
+      17488000.0,
+      15935000.0,
+      null
+    ],
+    "annual_operating_income": [
+      -51376000.0,
+      -121294000.0,
+      -73384000.0,
+      -38770000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      -1.66,
+      -1.21,
+      -0.67,
+      -0.7
+    ],
+    "annual_free_cf": [
+      -42022000.0,
+      -101871000.0,
+      -52854000.0,
+      -29180000.0,
+      null
+    ],
+    "annual_total_debt": [
+      197927000.0,
+      120287000.0,
+      49536000.0,
+      24463000.0,
+      null
+    ],
+    "annual_equity": [
+      44748000.0,
+      79378000.0,
+      47293000.0,
+      90422000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.15,
+      -0.04,
+      -0.49,
+      -0.45,
+      null,
+      -0.4
+    ],
+    "quarterly_revenue": [
+      92021000.0,
+      54342000.0,
+      8837000.0,
+      3120000.0,
+      2917000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "sales_yoy_pct": 4158.5,
+    "roe_pct": 28.18
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 93,
+    "score": 64.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 334.88235,
+    "forward_pe": 10.939662,
+    "ev_to_ebitda": 107.764,
+    "price_to_sales": 17.574772,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 168.29,
+    "outperform_6m_vs_nasdaq": 89.05,
+    "outperform_1m_vs_nasdaq": 28.71,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "아래에 설명된 사건이나 상황이 발생하면 당사의 비즈니스, 재무 상태, 운영 결과 및 성장 전망에 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업 운영에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 공급에 차질이 발생할 경우 당사의 YUTREPIA 및/또는 L606 개발 및 상용화 능력과 상용화 일정에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "필요한 경우 자금을 조달할 수 없는 경우 당사의 재정 상태와 비즈니스 전략을 추구하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-16T00:31:54.903755+00:00"
+  }
+}

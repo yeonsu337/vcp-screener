@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-15T00:32:40.286790+00:00",
+  "generated_at": "2026-05-16T00:22:17.248953+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 29109225472,
+    "market_cap": 28419469312,
     "shares_outstanding": 398701897,
     "employees": 22000,
     "country": "United Kingdom",
@@ -41,7 +41,7 @@
     "gross_margin": 0.23,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.94,
-    "dividend_yield": 0.28,
+    "dividend_yield": 0.27,
     "payout_ratio": 0.08,
     "annual_revenue": [
       9932600000.0,
@@ -132,20 +132,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 61.7,
+    "rs_rating": 87,
+    "score": 60.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 27.973183,
-    "forward_pe": 21.022596,
-    "ev_to_ebitda": 15.375,
-    "price_to_sales": 2.8561697,
+    "trailing_pe": 27.310345,
+    "forward_pe": 20.524456,
+    "ev_to_ebitda": 15.015,
+    "price_to_sales": 2.7884915,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 94.46,
-    "outperform_6m_vs_nasdaq": 54.52,
-    "outperform_1m_vs_nasdaq": -9.56,
+    "outperform_1y_vs_nasdaq": 90.59,
+    "outperform_6m_vs_nasdaq": 54.4,
+    "outperform_1m_vs_nasdaq": -10.89,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -177,7 +177,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 경쟁이 치열한 환경에서 사업을 운영하고 있으며 지속적인 업계 통합을 포함하여 업계의 경쟁 요소와 관련된 예상치 못한 변화가 우리의 운영 결과에 영향을 미칠 수 있습니다.",
+        "description": "우리는 경쟁이 매우 치열한 환경에서 사업을 운영하고 있으며 지속적인 업계 통합을 포함하여 업계의 경쟁 요소와 관련된 예상치 못한 변화가 우리의 운영 결과에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -190,6 +190,6 @@
   },
   "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-15T00:35:45.802833+00:00"
+    "GoogleWebTranslator": "2026-05-16T00:31:06.635651+00:00"
   }
 }

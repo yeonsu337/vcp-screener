@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-11T15:13:34.022676+00:00",
+  "generated_at": "2026-05-16T00:15:07.999915+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 385094844416,
+    "market_cap": 466916868096,
     "shares_outstanding": 3949893042,
     "employees": 86200,
     "country": "United States",
@@ -34,15 +34,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.24,
+    "roe": 0.25,
     "roa": 0.07,
-    "profit_margin": 0.19,
+    "profit_margin": 0.2,
     "operating_margin": 0.25,
-    "gross_margin": 0.65,
-    "revenue_growth_ttm": 0.1,
-    "earnings_growth_ttm": 0.31,
-    "dividend_yield": 1.74,
-    "payout_ratio": 0.59,
+    "gross_margin": 0.64,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.37,
+    "dividend_yield": 1.45,
+    "payout_ratio": 0.55,
     "annual_revenue": [
       56654000000.0,
       53803000000.0,
@@ -93,26 +93,29 @@
       0.72,
       0.71,
       0.62,
-      0.61
+      0.61,
+      null
     ],
     "quarterly_revenue": [
       15349000000.0,
       14883000000.0,
       14673000000.0,
       14149000000.0,
-      13991000000.0
+      13991000000.0,
+      null
     ],
     "quarterly_periods": [
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
       "2025-04-30",
-      "2025-01-31"
+      "2025-01-31",
+      "2024-10-31"
     ],
-    "eps_qoq_yoy_pct": 30.8,
-    "sales_yoy_pct": 9.7,
+    "eps_qoq_yoy_pct": 35.4,
+    "sales_yoy_pct": 12.0,
     "ni_cagr_3y_pct": -4.84,
-    "roe_pct": 23.75
+    "roe_pct": 25.23
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -123,25 +126,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 70.2,
+    "rs_rating": 88,
+    "score": 69.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.493,
-    "trailing_pe": 35.070145,
-    "forward_pe": 21.609947,
-    "ev_to_ebitda": 24.394,
-    "price_to_sales": 6.521063,
+    "trailing_pe": 39.40333,
+    "forward_pe": 24.934664,
+    "ev_to_ebitda": 28.388,
+    "price_to_sales": 7.686381,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 20.17,
-    "outperform_6m_vs_nasdaq": 24.48,
-    "outperform_1m_vs_nasdaq": 3.65,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 60.34,
+    "outperform_6m_vs_nasdaq": 49.51,
+    "outperform_1m_vs_nasdaq": 31.09,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-15T00:35:31.785209+00:00"
+    "GoogleWebTranslator": "2026-05-16T00:30:25.892353+00:00"
   }
 }

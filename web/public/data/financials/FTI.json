@@ -3,9 +3,9 @@
   "metrics": {
     "eps_ttm": 2.61,
     "eps_forward": 3.47,
-    "pe_ttm": 27.97,
-    "pe_forward": 21.02,
-    "market_cap": 29109225472.0,
+    "pe_ttm": 27.31,
+    "pe_forward": 20.52,
+    "market_cap": 28419469312.0,
     "roe": 0.33,
     "roa": 0.09,
     "profit_margin": 0.11,
@@ -13,7 +13,7 @@
     "operating_margin": 0.14,
     "revenue_growth": 0.12,
     "earnings_growth": 0.94,
-    "dividend_yield": 0.28,
+    "dividend_yield": 0.27,
     "payout_ratio": 0.08,
     "currency": "USD",
     "sector": "Energy",
@@ -36,10 +36,10 @@
       null
     ],
     "gross_profit": [
-      null,
-      null,
-      null,
-      null,
+      2181400000.0,
+      1723100000.0,
+      1274100000.0,
+      896300000.0,
       null
     ],
     "operating_income": [
@@ -113,10 +113,10 @@
       null
     ],
     "current_liabilities": [
-      null,
-      null,
-      null,
-      null,
+      4914800000.0,
+      4864800000.0,
+      4468600000.0,
+      4174300000.0,
       null
     ],
     "debt_to_equity": [
@@ -127,17 +127,17 @@
       null
     ],
     "current_ratio": [
-      null,
-      null,
-      null,
-      null,
+      1.13,
+      1.12,
+      1.16,
+      1.2,
       null
     ],
     "cash_ratio": [
-      null,
-      null,
-      null,
-      null,
+      0.21,
+      0.24,
+      0.21,
+      0.25,
       null
     ],
     "roe": [
@@ -169,10 +169,10 @@
       null
     ],
     "capex": [
-      null,
-      null,
-      null,
-      null,
+      -317200000.0,
+      -281600000.0,
+      -225200000.0,
+      -157900000.0,
       null
     ],
     "free_cf": [

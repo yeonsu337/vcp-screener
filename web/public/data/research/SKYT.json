@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-15T00:36:47.335175+00:00",
+  "generated_at": "2026-05-16T00:33:10.202067+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1762508800,
+    "market_cap": 1708383744,
     "shares_outstanding": 49204602,
     "employees": 1551,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 3.304
   },
   "category_a_business": {
-    "overview": "SkyWater Technology, Inc.는 자회사와 함께 미국에서 반도체 제조 서비스를 제공합니다. 이 회사는 Legacy SkyWater와 SkyWater Texas라는 두 부문을 통해 운영됩니다. 회사는 주조 서비스를 제공합니다. 첨단 기술 서비스(ATS); 아날로그, 혼합 신호, MEMS 및 특수 CMOS 장치용 웨이퍼 제조 서비스; 첨단 반도체 패키징.",
-    "business_model": "SkyWater Technology, Inc.는 자회사와 함께 미국에서 반도체 제조 서비스를 제공합니다.",
+    "overview": "SkyWater Technology, Inc., together with its subsidiaries, provides semiconductor manufacturing services in the United States. The company operates through two segments, Legacy SkyWater and SkyWater Texas. The company offers foundry services; advanced technology services (ATS); wafer manufacturing services for analog, mixed-signal, MEMS, and specialty CMOS devices; and advanced semiconductor packaging.",
+    "business_model": "SkyWater Technology, Inc., together with its subsidiaries, provides semiconductor manufacturing services in the United States.",
     "products": [
-      "미국의 반도체 제조 서비스",
-      "Legacy SkyWater와 SkyWater Texas라는 두 부문을 통해",
-      "주조 서비스"
+      "semiconductor manufacturing services in the United States",
+      "through two segments, Legacy SkyWater and SkyWater Texas",
+      "foundry services"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "SkyWater Technology, Inc.는 미네소타 주 블루밍턴에 본사를 둔 미국의 반도체 엔지니어링 및 제조 파운드리 회사입니다. 이는 미국이 소유한 유일한 순수 실리콘 파운드리입니다."
+    "wikipedia_excerpt": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry."
   },
   "category_b_financials": {
     "roe": 0.96,
@@ -125,51 +125,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 64.5,
+    "score": 62.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 14.924999,
-    "forward_pe": -176.16682,
-    "ev_to_ebitda": 48.299,
-    "price_to_sales": 3.2546895,
+    "trailing_pe": 14.837608,
+    "forward_pe": -170.75691,
+    "ev_to_ebitda": 48.079,
+    "price_to_sales": 3.1547408,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 287.34,
-    "outperform_6m_vs_nasdaq": 48.66,
-    "outperform_1m_vs_nasdaq": 0.2,
+    "outperform_1y_vs_nasdaq": 283.88,
+    "outperform_6m_vs_nasdaq": 50.28,
+    "outperform_1m_vs_nasdaq": -2.07,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리가 예상하는 기간 내에 제안된 IonQ 합병을 완료하지 못할 수도 있고 전혀 완료하지 못할 수도 있으며, 이는 우리 주가는 물론 비즈니스, 재무 결과 및/또는 운영에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "We may not complete the proposed IonQ Mergers within the time frame we anticipate or at all, which could have an adverse effect on our stock price as well as our business, financial results and/or operations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "제안된 IonQ 합병은 다양한 요인과 조건으로 인해 예상 기간 내에 완료되지 않거나 전혀 완료되지 않을 수 있으며, 그 중 일부는 당사의 통제 범위를 벗어날 수 있습니다.",
+        "description": "The proposed IonQ Mergers may not be completed within the expected timeframe, or at all, as a result of various factors and conditions, some of which may be beyond our control.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "IonQ 합병이 완료될지 여부에 대한 불확실성은 예비 직원을 채용하는 능력이나 기존 직원을 유지하고 동기를 부여하는 능력에 영향을 미칠 수 있습니다.",
+        "description": "Uncertainty as to whether the IonQ Mergers will be completed may affect our ability to recruit prospective employees or to retain and motivate existing employees.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "미래에 대한 불확실성은 당사의 비즈니스와 기존 및 잠재 고객, 공급업체, 기타 제3자와의 관계에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Uncertainty as to our future could adversely affect our business and our relationship with existing and potential customers, suppliers and other third parties.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "기존 비즈니스 관계의 변경 또는 종료는 당사의 수익, 수익, 재무 상태는 물론 당사 보통주의 시장 가격에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Changes to, or termination of existing business relationships could adversely affect our revenue, earnings and financial condition, as well as the market price of our common stock.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "합병 계약은 우수한 제안을 포함한 다양한 상황에 따라 종료될 수 있으며, 그러한 종료와 관련하여 당사는 수수료 및 비용을 부담하게 됩니다.",
+        "description": "The Merger Agreement may be terminated under various circumstances, including in connection with a Superior Proposal, and we would incur fees and expenses in connection with such termination.",
         "severity": "medium"
       }
     ],
@@ -180,8 +180,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-15T00:37:19.295018+00:00"
-  }
+  "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry."
 }

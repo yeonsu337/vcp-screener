@@ -1,0 +1,193 @@
+{
+  "ticker": "MNST",
+  "company": "Monster Beverage Corporation",
+  "market": "US",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
+  "generated_at": "2026-05-16T00:18:12.016828+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 85174722560,
+    "shares_outstanding": 978008110,
+    "employees": 5773,
+    "country": "United States",
+    "website": "https://www.monsterbevcorp.com",
+    "beta": 0.501
+  },
+  "category_a_business": {
+    "overview": "Monster Beverage Corporation은 자회사를 통해 미국 및 해외에서 에너지 드링크 음료 및 농축액의 개발, 마케팅, 판매 및 유통에 참여하고 있습니다. 이 회사는 Monster Energy Drinks, 전략적 브랜드, 주류 브랜드 및 기타의 4개 부문을 통해 운영됩니다. 탄산 비탄산 에너지 음료, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 1회용 주스 및 과일 음료, 즉석 음료 유제품 및 커피 음료, 에너지 음료, 스포츠 음료 및 1회용 정수 물, 천연 스파 음료로 간주되는 탄산음료를 제공합니다.",
+    "business_model": "Monster Beverage Corporation은 자회사를 통해 미국 및 해외에서 에너지 드링크 음료 및 농축액의 개발, 마케팅, 판매 및 유통에 참여하고 있습니다.",
+    "products": [
+      "Monster Energy Drinks, 전략적 브랜드, 알코올 브랜드 및 기타의 4개 부문을 통해",
+      "탄산 비탄산 에너지 드링크, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 일회용 주스 및 음료",
+      "Monster Energy, Monster Energy Ultra, Rehab Monster, Monster Energy Nitro, Java Monster, Punch Mo의 제품",
+      "Jai Alai IPA, Florida Man IPA, Dale's Pale Ale, Wild B의 수제 맥주, 향미 맥아 음료 및 하드 탄산수",
+      "자사 제품을 풀서비스 음료 제조/유통업체, 소매 식료품점 및 전문 체인점, 도매업체, 클럽 매장에 공급"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Monster Beverage Corporation은 Monster Energy, Relentless, Reign 및 Burn을 포함한 에너지 음료를 제조하는 미국 음료 회사입니다. 이 회사는 원래 1935년 남부 캘리포니아에서 Hansen's로 설립되었으며 원래 주스 제품을 판매했습니다. 2012년 회사명을 몬스터음료로 변경했다.",
+    "milestones": [
+      "1935년: 남부 캘리포니아에서 원래 주스 제품 판매"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.27,
+    "roa": 0.18,
+    "profit_margin": 0.23,
+    "operating_margin": 0.31,
+    "gross_margin": 0.55,
+    "revenue_growth_ttm": 0.27,
+    "earnings_growth_ttm": 0.29,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      8294343000.0,
+      7492709000.0,
+      7140027000.0,
+      6311050000.0,
+      null
+    ],
+    "annual_operating_income": [
+      2419354000.0,
+      1930294000.0,
+      1953355000.0,
+      1584721000.0,
+      null
+    ],
+    "annual_eps": [
+      1.94,
+      1.62,
+      1.54,
+      1.11,
+      null
+    ],
+    "annual_free_cf": [
+      1940648000.0,
+      1622099000.0,
+      1483029000.0,
+      675546000.0
+    ],
+    "annual_total_debt": [
+      null,
+      373951000.0,
+      null,
+      null,
+      null
+    ],
+    "annual_equity": [
+      8254108000.0,
+      5957718000.0,
+      8228744000.0,
+      7025041000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.46,
+      0.53,
+      0.5,
+      0.45,
+      0.38,
+      null
+    ],
+    "quarterly_revenue": [
+      2131053000.0,
+      2197139000.0,
+      2111593000.0,
+      1854558000.0,
+      1812041000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 28.6,
+    "sales_yoy_pct": 26.9,
+    "ni_cagr_3y_pct": 16.94,
+    "roe_pct": 26.65
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Defensive / Beverages - Non-Alcoholic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 72.5,
+    "vcp_quality": 10.6,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.49,
+    "trailing_pe": 42.072464,
+    "forward_pe": 33.812164,
+    "ev_to_ebitda": 29.162,
+    "price_to_sales": 9.686567,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 5.8,
+    "outperform_6m_vs_nasdaq": 11.52,
+    "outperform_1m_vs_nasdaq": 6.76,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "다음 위험 중 하나라도 실제로 발생하거나 계속 발생할 경우 당사의 사업, 평판, 재무 상태 및/또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않은 것으로 간주되는 추가 위험 및 불확실성도 당사의 비즈니스, 평판, 재무 상태 및/또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "위험 요소 요약 다음은 당사의 사업, 평판, 재무 상태 및/또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있는 주요 위험을 요약한 것입니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "병 제조 업체 및 계약 포장 업체와 좋은 관계를 유지할 수 없거나 제품 제조 능력이 제한되거나 사용할 수 없게 되는 경우 당사 사업은 어려움을 겪을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "기존 병 제조 업체 및 유통 업체와 좋은 관계를 유지하지 못하거나 그러한 병 제조 업체 및 유통 업체를 확보하지 못하는 경우 당사 사업은 어려움을 겪을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "조직 문서의 조항과 내부자 또는 TCCC에 의한 통제는 그러한 변경이 다른 주주들에게 이익이 되더라도 통제 변경을 방지할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless, Reign and Burn. The company was originally founded as Hansen's in 1935 in Southern California, originally selling juice products. The company renamed itself as Monster Beverage in 2012.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-16T00:32:16.007544+00:00"
+  }
+}
