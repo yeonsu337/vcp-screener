@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-05-16T00:19:13.251212+00:00",
+  "generated_at": "2026-05-19T00:29:18.030715+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7871313408,
+    "market_cap": 7910074880,
     "shares_outstanding": 100612468,
     "employees": 3301,
     "country": "United States",
@@ -17,22 +17,36 @@
     "beta": 1.067
   },
   "category_a_business": {
-    "overview": "Clear Secure, Inc.는 주로 미국에서 CLEAR 브랜드 이름으로 보안 ID 플랫폼을 운영합니다. 등록, 검증, 연결을 포함한 프런트엔드와 백엔드로 구성된 다계층 인프라인 보안 ID 플랫폼을 제공합니다.",
-    "business_model": "클리어 시큐어 주식회사",
+    "overview": "CLEAR는 생체인식 기반의 보안 신원 플랫폼을 운영하며, 물리적/디지털 환경에서 안전하고 원활한 경험을 제공합니다.",
+    "milestones": [
+      "2003: 회사 설립",
+      "2009: 파산 신청 후 운영 중단",
+      "2012: 회사 재출범",
+      "2021: 상장 (IPO)",
+      "2025: 3,800만 총 회원 달성 및 60개 공항, 9개 스포츠/엔터테인먼트 시설에 CLEAR+ 레인 확장"
+    ],
+    "business_model": "구독 서비스 및 B2B 솔루션을 통해 신원 확인 및 간소화된 경험을 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "CLEAR Plus 구독 서비스",
+      "TSA PreCheck® 등록 서비스",
+      "CLEAR1 (B2B 신원 확인 솔루션)",
+      "CLEAR Concierge 및 기타 프리미엄 서비스",
+      "제휴사 수수료"
+    ],
+    "value_chain_position": "Downstream + 최종 소비자 및 기업 고객에게 직접 신원 확인 서비스를 제공합니다.",
     "products": [
-      "주로 미국에서 CLEAR 브랜드 이름으로 사용되는 보안 ID 플랫폼",
-      "보안 ID 플랫폼은 등록, 검증,",
-      "CLEAR Plus는 공항 보안 검색대에서 예측 가능한 입국 차선에 접근할 수 있는 소비자 항공 가입 서비스입니다.",
-      "공항 위치 예약 지점에 대한 CLEAR 제공 RESERVE"
+      "CLEAR Plus (공항 보안 검색대 신속 통과)",
+      "CLEAR1 (B2B 신원 확인 플랫폼)",
+      "RESERVE powered by CLEAR (공항 예약 서비스)",
+      "CLEAR ID (모바일 디지털 ID)",
+      "CLEAR에서 제공하는 TSA PreCheck® 등록"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2C (공항 내 직접 가입, 모바일 앱)",
+      "B2B (기업, 의료기관, 정부 기관 제휴)",
+      "D2C (온라인 웹사이트 및 앱)"
     ],
-    "wikipedia_excerpt": "Clear Secure, Inc.는 일부 주요 공항과 경기장에서 생체 인식 여행 서류 확인 시스템을 운영하는 미국 기술 회사입니다. 2003년 설립됐으나 2009년 파산 신청으로 문을 닫았다. 2012년에 다시 출시되어 2021년에 공개되었습니다.",
-    "milestones": [
-      "2003년: , 그러나 파산 신청 후 2009년 문을 닫음",
-      "2012년: 2021년에 상장됨"
-    ]
+    "key_customers": "주요 고객은 CLEAR+ 구독자(개인)와 CLEAR1을 사용하는 기업 및 기관입니다. 고객 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 1.1,
@@ -42,7 +56,7 @@
     "gross_margin": 0.65,
     "revenue_growth_ttm": 0.2,
     "earnings_growth_ttm": 0.47,
-    "dividend_yield": 1.05,
+    "dividend_yield": 1.02,
     "payout_ratio": 0.42,
     "annual_revenue": [
       900779000.0,
@@ -127,20 +141,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 91,
-    "score": 69.9,
+    "rs_rating": 92,
+    "score": 70.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 47.112,
-    "forward_pe": 22.09756,
-    "ev_to_ebitda": 22.577,
-    "price_to_sales": 8.352288,
+    "trailing_pe": 47.344,
+    "forward_pe": 22.206379,
+    "ev_to_ebitda": 22.702,
+    "price_to_sales": 8.393418,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 101.1,
-    "outperform_6m_vs_nasdaq": 44.09,
-    "outperform_1m_vs_nasdaq": 4.34,
+    "outperform_1y_vs_nasdaq": 108.36,
+    "outperform_6m_vs_nasdaq": 43.24,
+    "outperform_1m_vs_nasdaq": 4.97,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -185,6 +199,6 @@
   },
   "wikipedia_summary": "Clear Secure, Inc. is an American technology company that operates biometric travel document verification systems at some major airports and stadiums. It was founded in 2003, but shut down in 2009 after filing for bankruptcy. It was relaunched in 2012 and went public in 2021.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:34:36.656900+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:47:35.548291+00:00"
   }
 }

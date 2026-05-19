@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-16T00:15:07.999915+00:00",
+  "generated_at": "2026-05-19T00:23:50.942221+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 466916868096,
+    "market_cap": 469563277312,
     "shares_outstanding": 3949893042,
     "employees": 86200,
     "country": "United States",
@@ -17,21 +17,37 @@
     "beta": 0.912
   },
   "category_a_business": {
-    "overview": "Cisco Systems, Inc.는 미주, 유럽, 중동, 아프리카, 아시아 태평양, 일본 및 중국의 인터넷을 강화하고 보호하며 통찰력을 얻는 데 도움이 되는 기술을 설계, 개발 및 판매합니다. 이 회사는 데이터 센터 전환을 제공합니다. 네트워크 보안, 신원 및 액세스 관리, 보안 액세스 서비스 에지; 위협 인텔리전스, 탐지 및 대응 솔루션; 공용 및 개인 유선 및 모바일 네트워크를 상호 연결하여 캠퍼스, 데이터 센터 및 지점 네트워크에 연결을 제공합니다. WEBEX 제품군, 협업 장치 및 연락 센터; 통신 플랫폼",
-    "business_model": "시스코 시스템즈, Inc.",
+    "overview": "시스코는 인터넷 기반 기술을 설계, 개발, 판매하는 다국적 기술 기업으로, 네트워킹, 보안, 협업 솔루션을 제공합니다.",
+    "milestones": [
+      "1984: 스탠포드 대학교 컴퓨터 과학자들에 의해 설립",
+      "1990: 나스닥(CSCO)",
+      "1990년대: 라우터 및 스위치 시장 지배력 확보",
+      "2000년대 초: 닷컴 버블 붕괴 후 사업 재편 및 소프트웨어/서비스 확장",
+      "2010년대: 클라우드, 사이버 보안, IoT 분야로 사업 확장",
+      "2020년대: AI 기술 통합 및 서비스형 모델 강화"
+    ],
+    "business_model": "하드웨어, 소프트웨어, 서비스를 통해 기업 및 통신 사업자의 네트워크 인프라를 구축하고 보호하며 최적화하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "네트워킹 하드웨어 판매",
+      "보안 솔루션 및 소프트웨어 구독",
+      "협업 솔루션 (Webex 등)",
+      "기술 지원 및 유지보수 서비스",
+      "컨설팅 및 전문 서비스"
+    ],
+    "value_chain_position": "Midstream + 네트워크 장비 및 솔루션 개발, 제조, 판매를 통해 인터넷 인프라의 핵심 역할을 수행합니다.",
     "products": [
-      "미주, 유럽, 중동의 인터넷에서 통찰력을 강화하고 보호하며 도출하는 데 도움이 되는 기술",
-      "데이터 센터 스위칭",
-      "기술 지원 및 자문 서비스",
-      "시스템 통합업체, 서비스 제공업체, 리셀러 및 유통업체를 통해 직접 제품 및 서비스"
+      "라우터 및 스위치",
+      "사이버 보안 솔루션",
+      "Webex (협업 플랫폼)",
+      "데이터 센터 제품",
+      "무선 제품"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (기업 직접 판매)",
+      "도매 (유통 파트너)",
+      "서비스 제공업체"
     ],
-    "wikipedia_excerpt": "Cisco로 사업을 운영하는 Cisco Systems, Inc.는 네트워킹, 사이버 보안 및 AI에 초점을 맞춘 하드웨어, 소프트웨어, 통신 장비 및 기타 첨단 기술 서비스와 제품을 개발, 제조 및 판매하는 미국의 다국적 기술 대기업입니다. Cisco는 Webex, OpenDNS, Jabber 및 Jasper와 같은 제품을 포함하여 사물 인터넷(IoT), 도메인 보안, 화상 회의, 에너지 관리 등 특정 기술 시장을 전문으로 합니다. 이 회사는 캘리포니아주 산호세에 본사를 두고 있으며, 2025년 12월 현재 시가총액을 보유하고 있습니다.",
-    "milestones": [
-      "2025년: , 시가총액은 3,170억 달러입니다."
-    ]
+    "key_customers": "고객 집중도 평가 어려움 (다양한 산업의 대기업, 통신사, 공공기관 등 광범위한 고객층 보유)"
   },
   "category_b_financials": {
     "roe": 0.25,
@@ -41,7 +57,7 @@
     "gross_margin": 0.64,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.37,
-    "dividend_yield": 1.45,
+    "dividend_yield": 1.42,
     "payout_ratio": 0.55,
     "annual_revenue": [
       56654000000.0,
@@ -118,11 +134,58 @@
     "roe_pct": 25.23
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1,000억 - 1,500억 (네트워킹 하드웨어, 소프트웨어, 보안, 협업 솔루션 등 Cisco의 핵심 사업 영역을 포괄하는 시장 추정치)",
+    "tam_cagr_pct": "5-7% (네트워킹 인프라의 지속적인 수요, 클라우드 전환 가속화, AI/ML 기반 네트워크 최적화, 보안 위협 증가에 따른 보안 솔루션 수요 증가)",
+    "growth_drivers": [
+      "클라우드 및 하이브리드 클라우드 환경으로의 전환 가속화에 따른 네트워크 인프라 및 보안 솔루션 수요 증가",
+      "AI/ML 기반 네트워크 자동화 및 최적화 기술 도입 확대로 인한 소프트웨어 정의 네트워킹(SDN) 및 AIOps 솔루션 시장 성장",
+      "사이버 보안 위협 증가에 따른 통합 보안 플랫폼 및 제로 트러스트 아키텍처 도입 확산",
+      "5G, IoT, 엣지 컴퓨팅 확산에 따른 분산형 네트워크 인프라 및 관련 솔루션 수요 증대",
+      "하이브리드 업무 환경 확산으로 인한 협업 솔루션 및 원격 접속 보안 솔루션 시장 성장"
+    ],
+    "market_share_pct": "40-50% (엔터프라이즈 라우터 및 스위치 시장 기준, 전체 TAM 기준으로는 더 낮음)",
+    "competitors": [
+      {
+        "name": "Huawei",
+        "differentiation": "정부 지원을 통한 공격적인 가격 정책 및 신흥 시장 침투, 광범위한 제품 포트폴리오 (통신 장비, 엔터프라이즈, 소비자)"
+      },
+      {
+        "name": "Arista Networks",
+        "differentiation": "클라우드 데이터센터 및 고성능 컴퓨팅 환경에 최적화된 소프트웨어 정의 네트워킹(SDN) 솔루션 및 오픈 네트워킹 접근 방식"
+      },
+      {
+        "name": "Juniper Networks",
+        "differentiation": "AI 기반 자동화 및 보안에 강점, 서비스 프로바이더 및 클라우드 사업자 시장에 집중"
+      },
+      {
+        "name": "Palo Alto Networks",
+        "differentiation": "차세대 방화벽을 중심으로 한 통합 사이버 보안 플랫폼 제공, 클라우드 보안 및 SASE(Secure Access Service Edge) 솔루션 강화"
+      },
+      {
+        "name": "Microsoft",
+        "differentiation": "클라우드 서비스(Azure) 및 협업 솔루션(Teams)을 통한 엔터프라이즈 시장 침투, 소프트웨어 중심의 통합 솔루션 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (진입 장벽은 상대적으로 낮고, 새로운 경쟁사들이 꾸준히 등장하며, 특정 제품 영역에 집중하는 신생 기업들이 많음)",
+      "substitutes": "medium (클라우드 서비스 제공업체의 자체 네트워킹 솔루션, 오픈소스 네트워킹 소프트웨어, 범용 하드웨어 기반 솔루션 등 대체재 위협 존재)",
+      "buyer_power": "medium (대규모 고객은 협상력이 높으며, 유통 채널을 통한 재판매업자들도 재고 관리 및 가격 협상에 영향력을 행사할 수 있음)",
+      "supplier_power": "medium (핵심 부품 및 기술 공급업체에 대한 의존도가 존재하며, 공급망 문제 발생 시 영향력이 커질 수 있음)",
+      "rivalry": "high (다수의 경쟁사들이 광범위한 제품 라인에서 경쟁하며, 신규 시장 진출 시 기존 강자들과의 경쟁 심화, 전략적 제휴 파트너가 경쟁사가 되는 경우도 발생)"
+    },
     "competitive_advantages": [
-      "Technology / Communication Equipment 카테고리 — yfinance peer 비교 권장"
+      "광범위한 제품 포트폴리오 및 엔드-투-엔드 솔루션 제공 능력 (네트워킹, 보안, 협업, 데이터센터 등)",
+      "강력한 브랜드 인지도 및 시장 리더십 (특히 엔터프라이즈 네트워킹 분야)",
+      "글로벌 영업 및 유통 채널, 광범위한 파트너 생태계",
+      "기술 혁신 및 R&D 투자 능력 (지속적인 신기술 개발 및 인수합병을 통한 포트폴리오 강화)",
+      "대규모 설치 기반 및 고객 충성도"
+    ],
+    "competitive_weaknesses": [
+      "상대적으로 높은 가격 정책으로 인한 가격 민감 시장에서의 경쟁력 약화",
+      "레거시 시스템 및 기술 부채로 인한 민첩성 저하 가능성",
+      "클라우드 네이티브 솔루션 및 소프트웨어 중심 아키텍처로의 전환 속도 경쟁 압력",
+      "전략적 제휴 파트너와의 복잡한 관계 관리의 어려움 (일부 영역에서 경쟁 관계로 전환 가능성)",
+      "급변하는 기술 환경 및 고객 요구사항에 대한 빠른 대응 및 재고 관리의 복잡성"
     ]
   },
   "category_d_thesis": {
@@ -132,19 +195,19 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.493,
-    "trailing_pe": 39.40333,
-    "forward_pe": 24.934664,
-    "ev_to_ebitda": 28.388,
-    "price_to_sales": 7.686381,
+    "trailing_pe": 39.626667,
+    "forward_pe": 25.0425,
+    "ev_to_ebitda": 28.539,
+    "price_to_sales": 7.7299457,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 60.34,
-    "outperform_6m_vs_nasdaq": 49.51,
-    "outperform_1m_vs_nasdaq": 31.09,
+    "outperform_1y_vs_nasdaq": 52.74,
+    "outperform_6m_vs_nasdaq": 41.21,
+    "outperform_1m_vs_nasdaq": 31.2,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:30:25.892353+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:43:31.119425+00:00"
   }
 }

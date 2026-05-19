@@ -4,19 +4,32 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-07T06:44:32.674908+00:00",
+  "generated_at": "2026-05-19T00:46:49.608665+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 237257457664,
+    "market_cap": 229440700416,
     "shares_outstanding": 130627521,
     "employees": 15000,
     "country": "United States",
     "website": "https://www.kla.com",
     "beta": 1.501
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "KLA Corporation, together with its subsidiaries, designs, manufactures, and markets process control, process-enabling, and yield management solutions for the semiconductor and related electronics industries worldwide. The company operates through three segments: Semiconductor Process Control; Specialty Semiconductor Process; and PCB and Component Inspection. It offers inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patterned and unpatterned wafers; metrology systems to measure pattern dimensions, film thickness, film stress, lay",
+    "business_model": "KLA Corporation, together with its subsidiaries, designs, manufactures, and markets process control, process-enabling, and yield management solutions for the semiconductor and related electronics indu",
+    "products": [
+      "through three segments: Semiconductor Process Control",
+      "inspection and review tools to identify, locate, characterize, review, and analyze defects on various surfaces of patter",
+      "etch, plasma dicing, deposition, and other wafer processing technologies and solutions for the semiconductor and microel",
+      "direct imaging, inspection, optical shaping, inkjet and additive printing, and computer-aided manufacturing and engineer"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing."
+  },
   "category_b_financials": {
     "roe": 0.95,
     "roa": 0.21,
@@ -25,7 +38,7 @@
     "gross_margin": 0.61,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.12,
-    "dividend_yield": 0.42,
+    "dividend_yield": 0.51,
     "payout_ratio": 0.22,
     "annual_revenue": [
       12156162000.0,
@@ -105,27 +118,70 @@
     "ni_cagr_3y_pct": 6.93,
     "roe_pct": 94.98
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 65.0,
+    "rs_rating": 87,
+    "score": 51.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9275,
-    "trailing_pe": 51.380203,
-    "forward_pe": 36.613644,
-    "ev_to_ebitda": 40.758,
-    "price_to_sales": 18.115873,
+    "peg_ratio": 1.9837,
+    "trailing_pe": 49.67336,
+    "forward_pe": 35.26377,
+    "ev_to_ebitda": 39.422,
+    "price_to_sales": 17.519022,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 119.16,
-    "outperform_6m_vs_nasdaq": 41.02,
-    "outperform_1m_vs_nasdaq": -0.09,
+    "outperform_1y_vs_nasdaq": 83.06,
+    "outperform_6m_vs_nasdaq": 37.56,
+    "outperform_1m_vs_nasdaq": -8.58,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:31:40.283808+00:00"
-  }
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "RISK FACTORS A description of factors that could materially affect our business, financial condition or operating results is provided below.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks occur or persist, our business, financial condition and results of operations could be materially harmed and the price of our common stock could significantly decline.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, a decline in the condition of the global financial markets could adversely impact the market values or liquidity of our investments.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If we are unable to timely and appropriately adapt to changes resulting from difficult macroeconomic conditions, our business, financial condition or results of operations may be materially and adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any of the factors above could have a significant negative impact on our business and results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "These rules and regulations may significantly harm our business, results of operations, financial condition and cash flows in future periods, unless we are able to obtain required licenses.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing."
 }

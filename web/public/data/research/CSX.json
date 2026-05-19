@@ -4,19 +4,37 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Railroads",
-  "generated_at": "2026-05-07T06:47:07.804812+00:00",
+  "generated_at": "2026-05-19T00:42:42.986350+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 84731133952,
+    "market_cap": 85846016000,
     "shares_outstanding": 1858138856,
     "employees": 22200,
     "country": "United States",
     "website": "https://www.csx.com",
     "beta": 1.238
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "CSX Corporation은 자회사와 함께 미국과 캐나다에서 철도 기반 화물 운송 서비스를 제공합니다. 철도와 트럭 운송이라는 두 가지 부문을 통해 운영됩니다. 회사는 철도 서비스를 제공합니다. 복합 컨테이너 및 트레일러 운송은 물론, 철도에서 트럭으로의 운송, 대량 상품 운영과 같은 기타 운송 서비스도 포함됩니다.",
+    "business_model": "CSX Corporation은 자회사와 함께 미국과 캐나다에서 철도 기반 화물 운송 서비스를 제공합니다.",
+    "products": [
+      "미국과 C의 철도 기반 화물 운송 서비스",
+      "철도와 트럭 운송이라는 두 가지 부문을 통해",
+      "철도 서비스",
+      "제조된 소비재를 컨테이너로 운송하는 약 30개의 터미널 네트워크를 통한 복합운송 서비스",
+      "미시시프 동부 26개 주의 다양한 인구 중심지에 서비스를 제공하는 약 20,000마일의 철도 네트워크"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "CSX Corporation은 다른 산업 중에서도 북미 지역의 철도 운송 및 부동산에 중점을 둔 미국 지주 회사입니다. 이 회사는 Chessie System과 Seaboard Coast Line Industries 합병의 일환으로 1980년에 설립되었습니다. 현재 CSX Corporation이 소유하고 있는 이전 Chessie System 및 Seaboard Coast Line Industries의 다양한 철도는 결국 1986년에 단일 노선으로 합병되어 CSX Transportation으로 알려지게 되었습니다. CSX Corporation은 현재 CSX Transportation 외에 여러 자회사를 보유하고 있습니다. 합병 후 이전에는 버지니아 주 리치몬드에 본사를 두고 있었으며,",
+    "milestones": [
+      "1980: Chessie System과 Seaboard Coast Line Industries 합병의 일환으로",
+      "1986년: CSX Transportation으로 알려지게 되었습니다."
+    ]
+  },
   "category_b_financials": {
     "roe": 0.24,
     "roa": 0.07,
@@ -106,27 +124,34 @@
     "ni_cagr_3y_pct": -11.12,
     "roe_pct": 23.68
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Railroads 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 66.5,
+    "rs_rating": 73,
+    "score": 59.5,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 2.087,
-    "trailing_pe": 27.97546,
-    "forward_pe": 21.187227,
-    "ev_to_ebitda": 15.556,
-    "price_to_sales": 5.987643,
+    "peg_ratio": 2.0778,
+    "trailing_pe": 28.34356,
+    "forward_pe": 21.466307,
+    "ev_to_ebitda": 15.573,
+    "price_to_sales": 6.0664277,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 17.8,
-    "outperform_6m_vs_nasdaq": 19.75,
-    "outperform_1m_vs_nasdaq": -7.26,
+    "outperform_1y_vs_nasdaq": 13.34,
+    "outperform_6m_vs_nasdaq": 19.3,
+    "outperform_1m_vs_nasdaq": 0.02,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:30:25.893499+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:43:41.887424+00:00"
   }
 }

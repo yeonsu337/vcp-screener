@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-05-16T00:18:12.016828+00:00",
+  "generated_at": "2026-05-19T00:21:24.745781+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 85174722560,
+    "market_cap": 86592839680,
     "shares_outstanding": 978008110,
     "employees": 5773,
     "country": "United States",
@@ -17,11 +17,11 @@
     "beta": 0.501
   },
   "category_a_business": {
-    "overview": "Monster Beverage Corporation은 자회사를 통해 미국 및 해외에서 에너지 드링크 음료 및 농축액의 개발, 마케팅, 판매 및 유통에 참여하고 있습니다. 이 회사는 Monster Energy Drinks, 전략적 브랜드, 주류 브랜드 및 기타의 4개 부문을 통해 운영됩니다. 탄산 비탄산 에너지 음료, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 1회용 주스 및 과일 음료, 즉석 음료 유제품 및 커피 음료, 에너지 음료, 스포츠 음료 및 1회용 정수 물, 천연 스파 음료로 간주되는 탄산음료를 제공합니다.",
+    "overview": "Monster Beverage Corporation은 자회사를 통해 미국 및 해외에서 에너지 드링크 음료 및 농축액의 개발, 마케팅, 판매 및 유통에 참여하고 있습니다. 이 회사는 Monster Energy Drinks, 전략적 브랜드, 알코올 브랜드 및 기타의 4개 부문을 통해 운영됩니다. 탄산 비탄산 에너지 음료, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 1회용 주스 및 과일 음료, 즉석 음료 유제품 및 커피 음료, 에너지 음료, 스포츠 음료 및 1회용 정수 물, 천연 스파 음료로 간주되는 탄산음료를 제공합니다.",
     "business_model": "Monster Beverage Corporation은 자회사를 통해 미국 및 해외에서 에너지 드링크 음료 및 농축액의 개발, 마케팅, 판매 및 유통에 참여하고 있습니다.",
     "products": [
       "Monster Energy Drinks, 전략적 브랜드, 알코올 브랜드 및 기타의 4개 부문을 통해",
-      "탄산 비탄산 에너지 드링크, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 일회용 주스 및 음료",
+      "탄산 비탄산 에너지 음료, 즉석 음료 아이스티, 레모네이드, 주스 칵테일, 일회용 주스 및 음료",
       "Monster Energy, Monster Energy Ultra, Rehab Monster, Monster Energy Nitro, Java Monster, Punch Mo의 제품",
       "Jai Alai IPA, Florida Man IPA, Dale's Pale Ale, Wild B의 수제 맥주, 향미 맥아 음료 및 하드 탄산수",
       "자사 제품을 풀서비스 음료 제조/유통업체, 소매 식료품점 및 전문 체인점, 도매업체, 클럽 매장에 공급"
@@ -93,22 +93,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.58,
       0.46,
       0.53,
       0.5,
       0.45,
-      0.38,
+      null,
       null
     ],
     "quarterly_revenue": [
+      2353291000.0,
       2131053000.0,
       2197139000.0,
       2111593000.0,
       1854558000.0,
-      1812041000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
@@ -131,19 +134,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 70,
-    "score": 72.5,
-    "vcp_quality": 10.6,
+    "score": 73.2,
+    "vcp_quality": 10.9,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.49,
-    "trailing_pe": 42.072464,
-    "forward_pe": 33.812164,
-    "ev_to_ebitda": 29.162,
-    "price_to_sales": 9.686567,
+    "peg_ratio": 2.5296,
+    "trailing_pe": 42.77295,
+    "forward_pe": 34.375122,
+    "ev_to_ebitda": 29.155,
+    "price_to_sales": 9.847844,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 5.8,
-    "outperform_6m_vs_nasdaq": 11.52,
-    "outperform_1m_vs_nasdaq": 6.76,
+    "outperform_1y_vs_nasdaq": 5.54,
+    "outperform_6m_vs_nasdaq": 10.48,
+    "outperform_1m_vs_nasdaq": 8.78,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -160,7 +163,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "위험 요소 요약 다음은 당사의 사업, 평판, 재무 상태 및/또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있는 주요 위험을 요약한 것입니다.",
+        "description": "위험 요소 요약 다음은 당사의 사업, 평판, 재무 상태 및/또는 운영 결과에 중대한 영향을 미칠 수 있는 주요 위험을 요약한 것입니다.",
         "severity": "medium"
       },
       {
@@ -188,6 +191,6 @@
   },
   "wikipedia_summary": "Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless, Reign and Burn. The company was originally founded as Hansen's in 1935 in Southern California, originally selling juice products. The company renamed itself as Monster Beverage in 2012.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:32:16.007544+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:45:13.821785+00:00"
   }
 }

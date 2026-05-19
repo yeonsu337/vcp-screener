@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "095610.KQ",
-  "generated_at": "2026-05-16T00:04:38.273719+00:00",
-  "source_results_date": "2026-05-16",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.65,
+  "generated_at": "2026-05-19T00:16:54.196499+00:00",
+  "source_results_date": "2026-05-19",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.7,
   "lines": [
-    "추격 위험 — Pivot ₩94300.00 대비 +25.2%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 23.9% → 26.0% → 22.5% → 12.8% → 22.3%, VDU 1.69× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 96로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 9.76%).",
+    "13주 베이스 23.9% → 26.0% → 22.5% → 12.8% → 22.3%, VDU 1.43×, pivot ₩133100.00(-12…",
+    "Trend Template 8/8 통과, RS 96 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
     "entry_type": "none",
@@ -19,7 +19,7 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.76% vs 6.5%)",
-    "P3_vol_dryup (1.69× vs 0.6×)",
+    "P3_vol_dryup (1.43× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

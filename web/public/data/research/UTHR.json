@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-05-13T00:36:27.636257+00:00",
+  "generated_at": "2026-05-19T00:45:48.076835+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 24692961280,
+    "market_cap": 24066871296,
     "shares_outstanding": 42446733,
     "employees": 1400,
     "country": "United States",
@@ -27,7 +27,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "United Therapeutics Corporation은 이종 이식을 포함한 장기 이식과 관련된 의약품 및 기술을 개발하는 미국의 생명 공학 회사입니다. 회사 제품의 대부분은 폐 질환 및 장기 제조에 중점을 두고 있습니다. United Therapeutics는 메릴랜드주 실버스프링과 노스캐롤라이나주 리서치 트라이앵글 파크에 공동 본사를 두고 있으며, 퀘벡주 마고그와 브로몬트에 추가 시설을 두고 있습니다. 멜버른과 플로리다주 잭슨빌; 버지니아주 블랙스버그; 뉴햄프셔 주 맨체스터."
+    "wikipedia_excerpt": "United Therapeutics Corporation은 이종 이식을 포함한 장기 이식과 관련된 의약품 및 기술을 개발하는 미국의 생명 공학 회사입니다. 회사 제품의 대부분은 폐 질환 및 장기 제조에 중점을 두고 있습니다. United Therapeutics는 메릴랜드주 실버스프링과 노스캐롤라이나주 리서치 트라이앵글 파크에 공동 본사를 두고 있으며, 퀘벡주 마고그와 브로몬트에도 추가 시설을 두고 있습니다. 멜버른과 플로리다주 잭슨빌; 버지니아주 블랙스버그; 뉴햄프셔 주 맨체스터."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -126,20 +126,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 65.3,
+    "rs_rating": 81,
+    "score": 52.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.3141,
-    "trailing_pe": 21.498152,
-    "forward_pe": 17.7941,
-    "ev_to_ebitda": 14.556,
-    "price_to_sales": 7.790069,
+    "trailing_pe": 20.953068,
+    "forward_pe": 17.069935,
+    "ev_to_ebitda": 14.151,
+    "price_to_sales": 7.592552,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 47.49,
-    "outperform_6m_vs_nasdaq": 16.18,
-    "outperform_1m_vs_nasdaq": -11.82,
+    "outperform_1y_vs_nasdaq": 50.05,
+    "outperform_6m_vs_nasdaq": 8.56,
+    "outperform_1m_vs_nasdaq": -10.27,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -171,7 +171,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 상업용 제품을 제조, 판매, 유통 또는 판매하는 제3자가 만족스럽게 제품을 판매하지 못하거나 당사가 당사의 제품을 관리할 수 없는 경우 매출이 감소할 수 있습니다.",
+        "description": "당사의 상업용 제품을 제조, 마케팅, 유통 또는 판매하는 제3자가 만족스럽게 제품을 판매하지 못하거나 당사가 당사의 제품을 관리할 수 없는 경우 매출이 감소할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -184,6 +184,6 @@
   },
   "wikipedia_summary": "United Therapeutics Corporation is an American biotechnology company that develops pharmaceuticals and technologies related to organ transplantation, including xenotransplantation. Many of the company's products are focused towards lung disease and organ manufacturing. United Therapeutics is co-headquartered in Silver Spring, Maryland and Research Triangle Park, North Carolina, with additional facilities in Magog and Bromont, Quebec; Melbourne and Jacksonville, Florida; Blacksburg, Virginia; and Manchester, New Hampshire.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:33:21.648172+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:46:39.686365+00:00"
   }
 }

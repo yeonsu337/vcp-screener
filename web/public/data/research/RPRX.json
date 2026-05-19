@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-05-16T00:14:06.596555+00:00",
+  "generated_at": "2026-05-19T00:30:19.714951+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 30432731136,
+    "market_cap": 29983582208,
     "shares_outstanding": 443274104,
     "employees": 100,
     "country": "United States",
@@ -17,33 +17,14 @@
     "beta": 0.396
   },
   "category_a_business": {
-    "overview": "로열티 파마는 바이오 제약 로열티를 매입하고 혁신을 지원하는 세계 최대 기업입니다.",
-    "milestones": [
-      "1996: 회사 설립",
-      "2020: 기업 재편 및 IPO 진행",
-      "2025: 포트폴리오 매출 33억 달러 달성",
-      "2025: 총 47억 달러 규모의 거래 발표 및 26억 달러 투자",
-      "현재: 35개 이상 시판 치료제 및 20개 개발 단계 후보 물질 로열티 보유"
-    ],
-    "business_model": "바이오 제약 로열티 매입 및 R&D 자금 지원을 통해 수익 창출",
-    "revenue_streams": [
-      "로열티 수입 (제품 판매 기반 변동 지급)",
-      "마일스톤 및 기타 계약 수입 (판매/규제 마일스톤, 고정 계약금)",
-      "개발 자금 조달 관련 수입"
-    ],
-    "value_chain_position": "Midstream + 바이오 제약 R&D와 상업화 사이에서 자금 조달 및 로열티 확보 역할을 수행합니다.",
+    "overview": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다. 포트폴리오는 희귀질환, 종양학, 신경과학, 전염병, 혈액학, 당뇨병 등 다양한 치료 분야를 다루는 약 35개 시판 치료법과 20개 개발 단계 제품 후보에 대한 로열티로 구성된다. 이 회사는 자가면역질환용 임상시험용 의약품인 JNJ-4804의 개발을 진전시키기 위해 연구개발 자금 협력을 진행하고 있습니다.",
+    "business_model": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다.",
     "products": [
-      "Vertex의 Trikafta 로열티",
-      "GSK의 Trelegy 로열티",
-      "Biogen의 Tysabri 로열티",
-      "Roche의 Evrysdi 로열티",
-      "J&J의 Tremfya 로열티",
-      "개발 단계 신약 후보 물질 로열티"
+      "미국 세인트의 바이오의약품 로열티 구매자이자 바이오의약품 산업 혁신의 자금 제공자로서"
     ],
     "channels": [
-      "B2B (제약사, 바이오텍, 학술기관, 연구 병원 등)"
-    ],
-    "key_customers": "다수의 제약사 및 바이오텍으로부터 로열티를 확보하여 고객 집중도가 낮은 편입니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.14,
@@ -53,7 +34,7 @@
     "gross_margin": 1.15,
     "revenue_growth_ttm": 0.11,
     "earnings_growth_ttm": 0.23,
-    "dividend_yield": 1.76,
+    "dividend_yield": 1.78,
     "payout_ratio": 0.47,
     "annual_revenue": [
       2378193000.0,
@@ -139,20 +120,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 70.3,
-    "vcp_quality": 16.5,
+    "rs_rating": 77,
+    "score": 68.8,
+    "vcp_quality": 16.3,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.8993,
-    "trailing_pe": 27.815788,
-    "forward_pe": 9.413981,
+    "trailing_pe": 27.405264,
+    "forward_pe": 9.2750435,
     "ev_to_ebitda": null,
-    "price_to_sales": 12.469763,
+    "price_to_sales": 12.285725,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.59,
-    "outperform_6m_vs_nasdaq": 22.9,
-    "outperform_1m_vs_nasdaq": 0.21,
+    "outperform_1y_vs_nasdaq": 25.15,
+    "outperform_6m_vs_nasdaq": 18.98,
+    "outperform_1m_vs_nasdaq": -2.03,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -169,12 +150,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 획득하지 못할 수도 있습니다.",
+        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고, 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 확보하지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 사업을 성장시키거나 전혀 성장하지 못할 수도 있습니다.",
+        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 비즈니스를 성장시키지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
@@ -197,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:33:01.476564+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:45:44.660617+00:00"
   }
 }

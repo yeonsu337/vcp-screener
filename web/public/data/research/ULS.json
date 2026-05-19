@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Business Services",
-  "generated_at": "2026-05-16T00:30:06.186073+00:00",
+  "generated_at": "2026-05-19T00:40:39.765681+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 19954749440,
+    "market_cap": 19956764672,
     "shares_outstanding": 77808115,
     "employees": 14587,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 0.585
   },
   "category_a_business": {
-    "overview": "UL Solutions Inc., together with its subsidiaries, provides testing, inspection and certification services and related software and advisory services worldwide. It operates through three segments: Industrial, Consumer, and Software and Advisory. The Industrial segment provides testing, inspection, and certification services across various end markets, including energy, industrial automation, engineered materials, and built environment, as well as stakeholders, such as manufacturers, building and asset owners, end users, and regulators.",
-    "business_model": "UL Solutions Inc., together with its subsidiaries, provides testing, inspection and certification services and related software and advisory services worldwide.",
+    "overview": "UL Solutions Inc.는 자회사와 함께 전 세계적으로 테스트, 검사, 인증 서비스와 관련 소프트웨어 및 자문 서비스를 제공합니다. 산업, 소비자, 소프트웨어 및 자문의 세 가지 부문으로 운영됩니다. 산업 부문은 에너지, 산업 자동화, 엔지니어링 자재, 건축 환경을 포함한 다양한 최종 시장은 물론 제조업체, 건물 및 자산 소유자, 최종 사용자 및 규제 기관과 같은 이해관계자에 걸쳐 테스트, 검사 및 인증 서비스를 제공합니다.",
+    "business_model": "UL Solutions Inc.는 자회사와 함께 전 세계적으로 테스트, 검사, 인증 서비스와 관련 소프트웨어 및 자문 서비스를 제공합니다.",
     "products": [
-      "testing, inspection and certification services and related software and advisory services worldwide",
-      "through three segments: Industrial, Consumer, and Software and Advisory",
-      "testing, inspection, and certification services across various end markets, including energy, industrial automation, eng",
-      "safety certification testing, ongoing certification, global market access, testing for connectivity, performance and qu",
-      "ULTRUS, a software that helps customers meet regulatory, supply chain, and sustainability challenges"
+      "전 세계적으로 테스트, 검사 및 인증 서비스와 관련 소프트웨어 및 자문 서비스",
+      "산업, 소비자, 소프트웨어 및 자문의 세 가지 부문을 통해",
+      "에너지, 산업 자동화, 엔지니어링 등 다양한 최종 시장에 걸친 테스트, 검사 및 인증 서비스",
+      "안전 인증 테스트, 지속적인 인증, 글로벌 시장 접근, 연결성, 성능 및 품질 테스트",
+      "고객이 규제, 공급망 및 지속 가능성 문제를 해결하도록 돕는 소프트웨어인 ULTRUS"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "UL Research Institutes is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions."
+    "wikipedia_excerpt": "UL 연구소(UL Research Institutes)는 일리노이주 노스브룩에 본사를 둔 글로벌 민간 안전 회사로, UL 연구소, UL Standards & Engagement, UL Solutions의 세 조직으로 구성되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.32,
@@ -39,7 +39,7 @@
     "gross_margin": 0.5,
     "revenue_growth_ttm": 0.07,
     "earnings_growth_ttm": 0.36,
-    "dividend_yield": 0.58,
+    "dividend_yield": 0.59,
     "payout_ratio": 0.31,
     "annual_revenue": [
       3053000000.0,
@@ -131,52 +131,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 59.4,
+    "rs_rating": 78,
+    "score": 59.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.2856,
-    "trailing_pe": 57.55814,
-    "forward_pe": 38.375214,
-    "ev_to_ebitda": 28.606,
-    "price_to_sales": 6.4245815,
+    "trailing_pe": 57.563953,
+    "forward_pe": 38.503418,
+    "ev_to_ebitda": 28.608,
+    "price_to_sales": 6.4252305,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 5.75,
-    "outperform_6m_vs_nasdaq": 2.73,
-    "outperform_1m_vs_nasdaq": 1.67,
+    "outperform_1y_vs_nasdaq": 3.83,
+    "outperform_6m_vs_nasdaq": 2.29,
+    "outperform_1m_vs_nasdaq": 1.32,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "If any of these risks actually occur, the Company’s business, financial condition and results of operations could be materially and adversely affected.",
+        "description": "이러한 위험 중 하나라도 실제로 발생하면 회사의 사업, 재무 상태 및 운영 결과가 심각하고 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "The Company is subject to evolving and complex data privacy and data protection laws, the violation of which could result in significant fines, operational restrictions or reputational harm.",
+        "description": "회사는 진화하고 복잡한 데이터 개인 정보 보호 및 데이터 보호법의 적용을 받으며, 이를 위반할 경우 상당한 벌금, 운영 제한 또는 평판 훼손이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Any new or changed regulations and policies, including in the economic policies of China, could result in a material change in the Company’s operations.",
+        "description": "중국의 경제 정책을 포함하여 모든 신규 또는 변경된 규정 및 정책으로 인해 회사 운영에 중대한 변화가 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "The value of our brand and our reputation could be severely damaged even by isolated incidents, particularly if the incidents receive considerable negative publicity or result in substantial litigation.",
+        "description": "우리 브랜드의 가치와 명성은 개별적인 사건으로 인해 심각하게 훼손될 수 있으며, 특히 해당 사건이 상당한 부정적인 평판을 얻거나 상당한 소송으로 이어질 경우 더욱 그렇습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Whether or not any such claims have merit, they may adversely affect our reputation, our customers’ trust in our brand and the demand for our services.",
+        "description": "그러한 주장이 타당한지 여부에 관계없이 당사의 평판, 당사 브랜드에 대한 고객의 신뢰 및 당사 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Any real or perceived issues with delivering our services to our customers or our failure to provide high-quality services to our customers could adversely affect our brand and reputation.",
+        "description": "고객에게 서비스를 제공하는 데 있어 실제적이거나 인지된 문제 또는 고객에게 고품질 서비스를 제공하지 못하는 경우 당사의 브랜드와 명성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -187,5 +187,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "UL Research Institutes is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions."
+  "wikipedia_summary": "UL Research Institutes is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-19T00:46:21.212788+00:00"
+  }
 }

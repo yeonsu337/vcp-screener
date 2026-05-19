@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-05-16T00:21:16.050760+00:00",
+  "generated_at": "2026-05-19T00:33:28.277876+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5062676480,
+    "market_cap": 5066233856,
     "shares_outstanding": 88928099,
     "employees": 216,
     "country": "United States",
@@ -124,19 +124,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 64.3,
+    "score": 64.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 334.88235,
-    "forward_pe": 10.939662,
-    "ev_to_ebitda": 107.764,
-    "price_to_sales": 17.574772,
+    "trailing_pe": 335.11765,
+    "forward_pe": 10.224336,
+    "ev_to_ebitda": 107.84,
+    "price_to_sales": 17.58712,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 168.29,
-    "outperform_6m_vs_nasdaq": 89.05,
-    "outperform_1m_vs_nasdaq": 28.71,
+    "outperform_1y_vs_nasdaq": 158.67,
+    "outperform_6m_vs_nasdaq": 97.39,
+    "outperform_1m_vs_nasdaq": 37.71,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -148,7 +148,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
+        "description": "이러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -163,7 +163,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 공급에 차질이 발생할 경우 당사의 YUTREPIA 및/또는 L606 개발 및 상용화 능력과 상용화 일정에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "이러한 공급이 중단될 경우 당사의 YUTREPIA 및/또는 L606 개발 및 상용화 능력과 상용화 일정에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:31:54.903755+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:44:53.519246+00:00"
   }
 }

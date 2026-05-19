@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-15T00:23:14.904238+00:00",
+  "generated_at": "2026-05-19T00:24:52.623661+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2964355840,
+    "market_cap": 2879772672,
     "shares_outstanding": 32040340,
     "employees": 2700,
     "country": "United States",
@@ -18,7 +18,7 @@
   },
   "category_a_business": {
     "overview": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 남미 및 전 세계의 항공우주, 방위, 전자 산업을 위한 제품을 설계 및 제조합니다. 항공우주 및 테스트 시스템이라는 두 부문으로 운영됩니다. 항공우주 부문에서는 조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조, 항공 전자 제품, 시스템 인증 및 기타 제품을 제공합니다.",
-    "business_model": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 소우 지역의 항공우주, 방위산업, 전자 산업을 위한 제품을 설계 및 제조합니다.",
+    "business_model": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 소우 지역의 항공우주, 방위산업 및 전자 산업을 위한 제품을 설계 및 제조합니다.",
     "products": [
       "미국, 북미 지역, 아시아, 유럽의 항공우주, 방위산업, 전자 산업을 위한 제품",
       "항공우주 및 테스트 시스템이라는 두 부문으로 나뉜다.",
@@ -34,7 +34,7 @@
   },
   "category_b_financials": {
     "roe": 0.21,
-    "roa": 0.1,
+    "roa": 0.09,
     "profit_margin": 0.05,
     "operating_margin": 0.12,
     "gross_margin": 0.31,
@@ -92,22 +92,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.67,
       0.78,
       -0.31,
       0.04,
       0.26,
-      -0.08,
+      null,
       null
     ],
     "quarterly_revenue": [
+      230619000.0,
       240067000.0,
       211447000.0,
       204678000.0,
       205936000.0,
-      208540000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
@@ -129,19 +132,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 65.1,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.45,
-    "trailing_pe": 67.79508,
-    "forward_pe": 25.968603,
-    "ev_to_ebitda": 24.989,
-    "price_to_sales": 3.3427143,
+    "trailing_pe": 65.86066,
+    "forward_pe": 25.227629,
+    "ev_to_ebitda": 25.727,
+    "price_to_sales": 3.2473352,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 137.63,
-    "outperform_6m_vs_nasdaq": 59.03,
-    "outperform_1m_vs_nasdaq": -2.45,
+    "outperform_1y_vs_nasdaq": 129.55,
+    "outperform_6m_vs_nasdaq": 49.27,
+    "outperform_1m_vs_nasdaq": -2.24,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -173,7 +176,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리가 서비스를 제공하는 시장은 주기적이며 국내외 경제 상황, 갈등 및 사건에 민감하며, 이로 인해 우리의 운영 결과가 변동될 수 있습니다.",
+        "description": "우리가 서비스를 제공하는 시장은 주기적이며 국내 및 해외 경제 상황, 갈등 및 사건에 민감하며 이로 인해 영업 결과가 변동될 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -186,6 +189,6 @@
   },
   "wikipedia_summary": "Astronics Corporation is an American aerospace electronics corporation founded in 1968, headquartered in East Aurora, New York. It is traded on NASDAQ as Nasdaq: ATRO. It is known for lighting and electronics integrations on military, commercial, and business aircraft and semiconductor test systems.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-16T00:29:53.889272+00:00"
+    "GoogleWebTranslator": "2026-05-19T00:42:48.797355+00:00"
   }
 }
