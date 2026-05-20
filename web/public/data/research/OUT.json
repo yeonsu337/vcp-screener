@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-19T00:43:44.435681+00:00",
+  "generated_at": "2026-05-20T00:16:03.718042+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5626989568,
+    "market_cap": 5653399040,
     "shares_outstanding": 176063510,
     "employees": 1981,
     "country": "United States",
@@ -17,12 +17,38 @@
     "beta": 1.486
   },
   "category_a_business": {
-    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 가장 중요한 순간과 환경에서 브랜드가 청중과 연결될 수 있도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
-    "business_model": "아웃프론트미디어(주)",
-    "channels": [
-      "B2B / 기업"
+    "overview": "OUTFRONT Media는 미국 최대의 옥외 미디어 기업 중 하나로, 브랜드가 잠재 고객과 연결되도록 돕습니다.",
+    "milestones": [
+      "2013년: OUTFRONT Media Inc. 설립",
+      "2014: CBS Outdoor Americas Inc.에서 OUTFRONT Media Inc.로 사명 변경 및 REIT 전환",
+      "2015: 옥외 광고 자산 포트폴리오 확장",
+      "2016: 디지털 디스플레이 및 기술 솔루션 투자 확대",
+      "2018: OUTFRONT STUDIOS 및 XLabs 설립으로 크리에이티브 및 혁신 역량 강화",
+      "2020: 코로나19 팬데믹으로 인한 옥외 광고 시장 변화에 대응",
+      "2023: IRL(In-Real-Life) 마케팅 시대를 정의하며 공공 공간을 플랫폼으로 활용"
     ],
-    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 CEO Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
+    "business_model": "광고주에게 옥외 광고 공간을 임대하여 광고 매출을 창출합니다.",
+    "revenue_streams": [
+      "빌보드 광고 임대",
+      "디지털 디스플레이 광고 임대",
+      "대중교통 시스템 광고 임대",
+      "기타 옥외 광고 형식 임대",
+      "크리에이티브 서비스 및 데이터 솔루션"
+    ],
+    "value_chain_position": "Downstream + 옥외 광고 자산을 소유 및 운영하며 광고주에게 직접 판매합니다.",
+    "products": [
+      "빌보드 (전통 및 디지털)",
+      "대중교통 광고 (버스, 지하철 등)",
+      "거리 가구 광고 (쉘터, 키오스크 등)",
+      "OUTFRONT STUDIOS (크리에이티브 서비스)",
+      "XLabs (혁신 및 데이터 솔루션)"
+    ],
+    "channels": [
+      "B2B (광고주 및 광고 대행사 대상 직접 판매)",
+      "영업팀",
+      "온라인 플랫폼"
+    ],
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 산업군의 광고주를 보유하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -112,33 +138,94 @@
     "roe_pct": 26.81
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 30-35 billion USD (2023년 기준, OOH 광고 시장 규모 추정치 기반. MarketsandMarkets, Statista 등 리서치 기관 자료 종합 추정)",
+    "tam_cagr_pct": "5-7% (향후 3~5년) + 근거: 디지털 옥외광고(DOOH)의 성장, 정교한 타겟팅 및 측정 기술 발전, 팬데믹 이후 외부 활동 증가에 따른 OOH 광고 효과 재조명, 광고주들의 OOH 광고 예산 증대 추세",
+    "growth_drivers": [
+      "디지털 옥외광고(DOOH)로의 전환 및 기술 투자 확대",
+      "정교한 오디언스 측정 및 타겟팅 기술 발전 (예: Geopath 활용)",
+      "대도시 및 고밀도 지역의 전략적 광고 공간 확보",
+      "광고주들의 브랜드 인지도 및 영향력 강화를 위한 OOH 광고 활용 증가",
+      "팬데믹 이후 외부 활동 증가 및 '실생활(IRL)' 경험의 중요성 부각"
+    ],
+    "market_share_pct": "10-15% (미국 OOH 광고 시장 기준, 주요 경쟁사 대비 규모 및 사업 영역 고려 추정)",
+    "competitors": [
+      {
+        "name": "Lamar Advertising Company",
+        "differentiation": "미국 내 광범위한 빌보드 네트워크 보유 및 디지털 빌보드 전환에 적극적, 지역 시장에 강점"
+      },
+      {
+        "name": "Clear Channel Outdoor Holdings, Inc.",
+        "differentiation": "전 세계적인 OOH 광고 네트워크 보유 (미국 외 국제 시장 강점), 공항 및 대중교통 광고에 특화"
+      },
+      {
+        "name": "JCDecaux SA",
+        "differentiation": "유럽 및 아시아 등 국제 시장에서 강력한 입지, 스트리트 퍼니처 및 대중교통 광고에 특화"
+      },
+      {
+        "name": "Various smaller regional/local players",
+        "differentiation": "특정 지역 또는 소규모 시장에 대한 깊은 이해와 유연한 서비스 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 초기 투자 비용(부지 확보, 디스플레이 설치)이 높으나, 디지털 기술 발전로 진입 장벽이 낮아질 가능성 존재",
+      "substitutes": "medium + 온라인/모바일 광고, TV, 라디오 등 다양한 광고 매체가 존재하며, 광고 예산은 대체재로 이동 가능",
+      "buyer_power": "medium + 대형 광고주들은 협상력이 높으나, OOH 광고의 독점적 위치와 효과로 인해 일정 수준의 가격 결정력 유지",
+      "supplier_power": "medium + 주요 공급자는 토지 소유주 및 지자체로, 독점적 위치에 따라 협상력이 있으나, 다수의 공급처를 통해 분산 가능",
+      "rivalry": "high + Lamar, Clear Channel 등 대형 경쟁사들과의 치열한 시장 점유율 경쟁 및 디지털 전환 경쟁 심화"
+    },
     "competitive_advantages": [
-      "Real Estate / REIT - Specialty 카테고리 — yfinance peer 비교 권장"
+      "미국 내 주요 대도시 및 고속도로에 전략적으로 위치한 광범위한 빌보드 및 대중교통 광고 네트워크",
+      "REIT 구조를 통한 세금 혜택 및 안정적인 배당 수익 제공",
+      "디지털 옥외광고(DOOH) 기술 및 플랫폼 투자로 미래 성장 동력 확보",
+      "Geopath 등 오디언스 측정 시스템 활용을 통한 광고 효과 증대 및 정교한 타겟팅 가능",
+      "뉴욕, LA, 샌프란시스코 등 상위 25개 시장을 포함한 약 120개 시장에 걸친 폭넓은 포트폴리오"
+    ],
+    "competitive_weaknesses": [
+      "경기 변동 및 광고 시장 침체에 대한 높은 민감도",
+      "디지털 전환 및 기술 투자에 따른 상당한 자본 지출 필요",
+      "REIT 규정 준수 및 배당금 지급 의무로 인한 재무 유연성 제약 가능성",
+      "대중교통 광고 계약의 만료 및 재계약 위험",
+      "경쟁사 대비 국제 시장에서의 입지 부족 (캐나다 사업 매각 이후 미국 시장에 집중)"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 56.1,
+    "rs_rating": 87,
+    "score": 57.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 29.869156,
-    "forward_pe": 22.988008,
-    "ev_to_ebitda": 21.092,
-    "price_to_sales": 3.0081203,
+    "trailing_pe": 30.009344,
+    "forward_pe": 23.095901,
+    "ev_to_ebitda": 21.265,
+    "price_to_sales": 3.0222385,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 70.41,
-    "outperform_6m_vs_nasdaq": 36.67,
-    "outperform_1m_vs_nasdaq": -0.13,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 71.71,
+    "outperform_6m_vs_nasdaq": 35.88,
+    "outperform_1m_vs_nasdaq": -0.21,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "OUTFRONT Media는 미국 전역 약 120개 시장(상위 25개 시장 포함)에 걸쳐 옥외 광고 구조물 및 사이트의 광고 공간을 제공하는 최대 공급업체 중 하나입니다. 이는 광범위한 시장 침투력과 규모의 경제를 나타냅니다.",
+      "회사는 특히 뉴욕, 로스앤젤레스, 샌프란시스코와 같은 주요 시장의 가장 교통량이 많은 고속도로 및 도로에 위치한 빌보드 디스플레이와 미국 대도시 지방자치단체와의 독점 다년 계약을 통해 운영되는 대중교통 광고 디스플레이를 보유하고 있습니다. 이는 핵심 지역에서의 강력한 입지와 장기 계약을 통한 안정적인 수익 기반을 의미합니다.",
+      "옥외 광고는 '실제' 존재감을 가지며, 항상 볼 수 있고, 꺼지거나 건너뛰거나 차단되거나 빨리 감기될 수 없다는 점에서 다른 광고 매체와 차별화되는 고유한 가치를 제공합니다. 이는 광고주에게 높은 영향력과 회피 불가능한 노출을 보장합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "캐나다 사업부 매각 완료 및 디지털 옥외 광고(DOOH) 기술 플랫폼 투자 확대",
+    "bull_case": "DOOH 전환 가속화 및 주요 시장 독점 계약 확대로 매출 성장 및 수익성 개선",
+    "base_case": "옥외 광고 시장의 꾸준한 성장과 디지털 전환 노력으로 안정적인 수익 유지 및 배당 지급",
+    "bear_case": "경기 침체로 인한 광고 지출 감소, 디지털 전환 지연 및 경쟁 심화로 수익성 악화",
+    "key_metrics_to_watch": [
+      "디지털 옥외 광고(DOOH) 매출 비중",
+      "주요 시장 점유율 및 신규 계약 현황",
+      "배당 성향 및 REIT 요건 충족 여부",
+      "매출 성장률 (TTM)",
+      "영업 현금 흐름"
+    ]
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-19T00:45:29.364425+00:00"
+    "GoogleWebTranslator": "2026-05-20T00:17:57.582741+00:00"
   }
 }

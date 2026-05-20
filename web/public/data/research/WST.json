@@ -1,38 +1,49 @@
 {
   "ticker": "WST",
-  "company": "West Pharmaceutical Services, Inc.",
+  "company": "West Pharmaceutical Services Inc",
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Instruments & Supplies",
-  "generated_at": "2026-05-19T00:36:33.315755+00:00",
+  "generated_at": "2026-05-20T00:11:38.534116+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 21505832960,
-    "shares_outstanding": 70647595,
-    "employees": 10800,
-    "country": "United States",
-    "website": "https://www.westpharma.com",
-    "beta": 1.17
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
   },
   "category_a_business": {
-    "overview": "West Pharmaceutical Services, Inc.는 미주, 유럽, 중동, 아프리카 및 아시아 태평양 지역의 주사용 약물 및 의료 제품에 대한 봉쇄 및 전달 시스템을 설계, 제조 및 판매합니다. 독점 제품과 계약 생산 제품이라는 두 가지 부문으로 운영됩니다.",
-    "business_model": "웨스트 제약 서비스, Inc.",
+    "overview": "WST는 주사제 및 헬스케어 제품을 위한 첨단 통합 봉쇄 및 전달 시스템을 설계, 생산하는 글로벌 선도 기업입니다.",
+    "milestones": [
+      "1923: 설립",
+      "1980년대: 주사제 포장 시스템 분야 선도 기업으로 성장",
+      "2000년대: 약물 전달 장치 및 통합 솔루션으로 사업 확장",
+      "2010년대: 바이오 의약품 시장 성장에 발맞춰 고품질 제품 개발 집중",
+      "2025: 해외 매출 비중 56.7% 달성"
+    ],
+    "business_model": "주사제 및 헬스케어 제품의 봉쇄 및 전달 시스템을 제조, 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "독점 제품 (엘라스토머, 주사기 부품, 자가 주사 장치 등)",
+      "계약 제조 제품 (의료 기기, 진단 기기 부품 등)",
+      "분석 실험실 서비스",
+      "통합 솔루션 (엔지니어링 개발, 규제 지원 등)"
+    ],
+    "value_chain_position": "Midstream + 주사제 및 헬스케어 제품의 핵심 부품 및 시스템을 제조하여 고객사에 공급합니다.",
     "products": [
-      "미주, 유럽, 중동의 주사제 및 의료 제품에 대한 봉쇄 및 전달 시스템",
-      "독점 제품과 계약 생산 제품이라는 두 가지 부문으로 나뉜다.",
-      "주사 가능한 포장 시스템용 마개 및 씰",
-      "바이알, 주사기, 카트리지 형태의 약물 봉쇄 솔루션",
-      "판매 인력과 유통망, 계약 판매 대리점, 지역 대리점을 통해 제품을 유통합니다."
+      "마개 및 씰",
+      "주사기 및 카트리지 부품",
+      "자가 주사 장치",
+      "바이알, 주사기, 플런저",
+      "맞춤형 계약 제조 및 조립 솔루션"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "West Pharmaceutical Services, Inc.는 주사제 의약품 포장 및 전달 시스템을 설계하고 제조하는 회사입니다. 1923년 필라델피아 출신의 Herman O. West와 J.R. Wike가 설립한 이 회사는 펜실베이니아주 엑스턴에 본사를 두고 있습니다. 개발 초기에 West는 주사제 포장용 고무 부품을 생산하여 페니실린과 인슐린 생산업체에 멸균 환경을 제공했습니다.",
-    "milestones": [
-      "1923: 허먼 오(Herman O)"
-    ]
+    "key_customers": "주요 바이오 의약품, 제네릭, 제약, 진단 및 의료 기기 회사들로 구성되어 있으며, 특정 고객에 대한 매출 집중도는 명시되어 있지 않습니다."
   },
   "category_b_financials": {
     "roe": 0.19,
@@ -126,33 +137,137 @@
     "roe_pct": 19.13
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "100-150 billion USD (추정치, 주사제 의약품 및 헬스케어 제품의 통합 봉쇄 및 전달 시스템 시장)",
+    "tam_cagr_pct": "7-10% (근거: 생물학적 제제, 제네릭, 의약품 시장의 지속적인 성장, 자가 주사 기기 및 연결형 헬스케어 기술의 확산, 고품질 및 규제 준수 요구 증가)",
+    "growth_drivers": [
+      "생물학적 제제 및 고부가가치 의약품 시장의 지속적인 성장",
+      "자가 주사 기기 및 환자 중심형 약물 전달 시스템 수요 증가",
+      "의약품 포장 및 전달 시스템의 품질, 안전성, 규제 준수 요구 강화",
+      "글로벌 헬스케어 시장의 확장 및 신흥 시장에서의 기회 증대",
+      "계약 제조 및 통합 솔루션에 대한 제약사들의 아웃소싱 증가"
+    ],
+    "market_share_pct": "10-15% (추정치, 글로벌 주사제 봉쇄 및 전달 시스템 시장 내 선도적 위치 고려)",
+    "competitors": [
+      {
+        "name": "Gerresheimer AG",
+        "differentiation": "유리 및 플라스틱 포장재, 주사기, 약물 전달 시스템 등 광범위한 제품 포트폴리오와 강력한 유럽 시장 입지"
+      },
+      {
+        "name": "SCHOTT AG",
+        "differentiation": "특수 유리 분야의 선두 주자로, 고품질 유리 바이알 및 주사기 등 주사제 포장 솔루션에 강점"
+      },
+      {
+        "name": "BD (Becton, Dickinson and Company)",
+        "differentiation": "의료 기기 및 기술 분야의 글로벌 리더로, 주사기, 약물 전달 시스템, 진단 제품 등 다양한 헬스케어 솔루션 제공"
+      },
+      {
+        "name": "Datwyler Holding Inc.",
+        "differentiation": "고품질 엘라스토머 부품 및 밀봉 솔루션에 특화되어 제약 및 의료 분야에 공급"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 초기 투자 비용, 기술 전문성, 엄격한 규제 요건으로 진입 장벽이 높지만, 특정 틈새 시장이나 혁신 기술을 통한 진입 가능성 존재)",
+      "substitutes": "low (주사제 의약품의 특성상 대체재가 제한적이며, 경구용 제제 등 다른 투여 경로가 있지만 모든 주사제에 적용되기 어려움)",
+      "buyer_power": "medium (주요 제약사들은 대량 구매를 통해 가격 협상력을 가지지만, WST의 고품질 및 통합 솔루션은 구매자의 전환 비용을 높임)",
+      "supplier_power": "low (WST는 다양한 공급업체로부터 원자재를 조달하며, 자체 제조 역량을 통해 공급업체 의존도를 낮춤)",
+      "rivalry": "high (글로벌 시장에서 다수의 대형 경쟁사들이 존재하며, 기술 혁신, 품질, 가격 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Healthcare / Medical Instruments & Supplies 카테고리 — yfinance peer 비교 권장"
+      "기술적으로 진보된 고품질 통합 봉쇄 및 전달 시스템 설계 및 생산 능력",
+      "엘라스토머, 주사기, 카트리지, 자가 주사 기기 등 광범위한 독점 제품 포트폴리오",
+      "분석 실험실 서비스, 사전 승인 포장 지원, 규제 전문성 등 통합 솔루션 제공",
+      "글로벌 제조 시설 및 고객 기반을 통한 광범위한 시장 접근성",
+      "생물학적 제제, 제네릭, 의약품, 진단, 의료 기기 등 다양한 고객군 확보"
+    ],
+    "competitive_weaknesses": [
+      "글로벌 경제 변동 및 환율 변화에 따른 실적 영향 가능성",
+      "신제품 개발 및 규제 승인 지연 위험",
+      "원자재 가격 변동 및 공급망 불안정성",
+      "경쟁사의 가격 인하 또는 혁신적인 제품 출시에 대한 압력",
+      "특정 고객 또는 제품군에 대한 높은 의존도"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 71.0,
-    "vcp_quality": 9.9,
+    "rs_rating": 73,
+    "score": 71.7,
+    "vcp_quality": 10.3,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.1357,
-    "trailing_pe": 40.696526,
-    "forward_pe": 31.864347,
-    "ev_to_ebitda": 24.492,
-    "price_to_sales": 6.676757,
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 8.45,
-    "outperform_6m_vs_nasdaq": 0.27,
-    "outperform_1m_vs_nasdaq": 4.66,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 6.09,
+    "outperform_6m_vs_nasdaq": 3.51,
+    "outperform_1m_vs_nasdaq": 3.4,
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "당사는 주사제 및 헬스케어 제품을 위한 기술적으로 진보된 고품질 통합 봉쇄 및 전달 시스템의 설계 및 생산 분야에서 선도적인 글로벌 제조업체입니다.",
+      "당사의 제품은 의약품과의 호환성 및 안정성을 보장하고 고객의 운영 효율성을 지원하도록 설계된 주사제 포장 시스템용 마개 및 밀봉재를 포함합니다.",
+      "당사는 분석 실험실 서비스, 사전 승인 1차 포장 지원 및 엔지니어링 개발, 규제 전문 지식, 애프터 서비스 기술 지원을 포함한 다양한 통합 솔루션을 고객에게 제공합니다.",
+      "고객은 전 세계 주요 생물학적 제제, 제네릭, 제약, 진단 및 의료 기기 회사를 포함하며, 이는 제품의 품질과 신뢰성에 대한 높은 의존도를 시사합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "환자 중심의 자가 주사 기기 및 연결형 건강 기술 통합으로 시장 확대",
+    "bull_case": "신제품 출시 및 글로벌 시장 확대로 매출 및 이익률 개선 가속화, EPS 성장 지속",
+    "base_case": "주사제 시장의 꾸준한 성장과 기술적 우위를 바탕으로 안정적인 매출 성장 및 수익성 유지. 신규 고객 확보 및 기존 고객과의 파트너십 강화.",
+    "bear_case": "경쟁 심화, 규제 환경 변화, 공급망 문제 또는 주요 고객 이탈로 인해 매출 성장 둔화 및 수익성 악화. R&D 투자 실패 시 기술적 우위 상실.",
+    "key_metrics_to_watch": [
+      "ROE",
+      "매출 성장 (TTM)",
+      "EPS QoQ YoY",
+      "신제품 출시 및 채택률",
+      "글로벌 시장 점유율 변화"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "West Pharmaceutical Services, Inc. is a designer and manufacturer of injectable pharmaceutical packaging and delivery systems. Founded in 1923 by Herman O. West and J.R. Wike of Philadelphia, the company is headquartered in Exton, Pennsylvania. In its early years of development, West produced rubber components for packaging injectable drugs, providing a sterile environment for the producers of penicillin and insulin.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "규제",
+        "description": "사이버 보안 사고 발생 시 운영 및 재무 상태에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "증권 집단 소송과 같은 법적 절차의 불리한 결과는 회사 사업, 재무 상태 및 유동성에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "일반적인 경제 및 지정학적 상황의 변동은 회사 운영 및 사업 전망에 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거시",
+        "description": "주주들의 투자 우선순위 변화는 회사에 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "규제",
+        "description": "사이버 보안 방어에도 불구하고, 랜섬웨어 공격, 데이터 손실 등 다양한 사이버 위협에 노출되어 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "지적 재산 및 고객, 공급업체 데이터 보안 유지가 중요하며, 실패 시 경쟁력에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "중대한 사이버 보안 침해로 인해 핵심 운영이 장기간 중단되고 민감한 정보가 유출되어 고객 신뢰를 잃고 막대한 벌금이 부과되는 경우.",
+      "증권 집단 소송에서 패소하여 예상치 못한 막대한 손해배상금을 지급하게 되어 재무 건전성이 심각하게 악화되는 경우.",
+      "글로벌 경제 침체 또는 지정학적 불안정으로 인해 주요 시장에서 제품 수요가 급감하고 공급망이 심각하게 교란되는 경우."
+    ],
+    "exit_signals": [
+      "중대한 사이버 보안 사고가 발생하여 운영이 중단되고 재무 실적에 부정적인 영향을 미치는 것이 공시되는 경우.",
+      "진행 중인 증권 집단 소송에서 회사가 불리한 판결을 받거나 상당한 합의금을 지불해야 한다는 소식이 발표되는 경우.",
+      "주요 제품 또는 서비스에 대한 시장 수요가 지속적으로 감소하거나 경쟁사 대비 시장 점유율이 크게 하락하는 추세가 확인되는 경우."
+    ]
+  },
+  "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-19T00:47:16.288385+00:00"
+    "GoogleWebTranslator": "2026-05-20T00:18:07.559173+00:00"
   }
 }
