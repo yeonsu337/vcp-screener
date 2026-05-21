@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-05-14T01:56:24.631377+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-05-21T00:24:07.509232+00:00",
+  "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4270312192,
+    "market_cap": 4447932416,
     "shares_outstanding": 57112643,
     "employees": 336,
     "country": "United States",
@@ -17,14 +17,43 @@
     "beta": 0.714
   },
   "category_a_business": {
-    "overview": "Vita Coco Company, Inc.는 미국, 캐나다, 유럽, 중동, 아프리카 및 아시아 태평양 지역에서 Vita Coco 브랜드 이름으로 코코넛 워터 제품을 개발, 제조, 판매 및 유통합니다. 코코넛 물, 오일, 주스 제품을 제공합니다. 식물성 유제품 대안인 Vita Coco Treats; Vita Coco Pressed, Vita Coco 코코넛 주스 및 Farmers Organic; 비타코코 코코넛MLK; 단백질이 함유된 피트니스 음료인 PWR LIFT도 있습니다.",
-    "business_model": "비타 코코 컴퍼니, Inc.",
+    "overview": "코코넛 워터 시장을 개척한 기업으로, Vita Coco 브랜드를 중심으로 다양한 식물성 음료를 개발, 제조, 판매합니다.",
+    "milestones": [
+      "2004: Vita Coco 브랜드로 코코넛 워터 시장 개척",
+      "2007: All Market Inc.로 델라웨어에 법인 설립",
+      "2021: 공익 법인으로 재편입",
+      "2021: The Vita Coco Company, Inc.로 사명 변경",
+      "2021: 뉴욕 증권 거래소에 상장 (IPO)",
+      "2023: Runa 제품 판매 중단",
+      "2024: Ever & Ever 제품 생산 중단"
+    ],
+    "business_model": "브랜드 음료 판매 및 소매업체에 프라이빗 라벨 제품을 공급하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "Vita Coco 브랜드 코코넛 워터",
+      "Vita Coco 브랜드 코코넛 오일/주스/밀크",
+      "PWR LIFT (단백질 음료)",
+      "프라이빗 라벨 코코넛 워터",
+      "프라이빗 라벨 코코넛 오일"
+    ],
+    "value_chain_position": "Midstream + 전 세계 공장에서 코코넛 워터를 조달하고 공동 포장업체를 통해 제품을 생산, 유통합니다.",
     "products": [
-      "코코넛 워터, 오일, 주스 제품"
+      "Vita Coco 코코넛 워터",
+      "Vita Coco 코코넛 오일",
+      "Vita Coco 코코넛 주스",
+      "Vita Coco Coconut MLK (식물성 우유)",
+      "PWR LIFT (단백질 음료)",
+      "Vita Coco Treats (식물성 유제품 대체품)"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "클럽",
+      "식료품점",
+      "약국",
+      "대형마트",
+      "편의점",
+      "이커머스",
+      "푸드서비스"
+    ],
+    "key_customers": "특정 고객에 대한 집중도 정보는 제공되지 않음"
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -118,72 +147,136 @@
     "roe_pct": 26.32
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "20-30 billion USD (추정치) - 글로벌 기능성 음료 시장 규모를 기반으로 추정. 코코넛/식물성 음료 시장은 이보다 작지만, 기능성 음료 시장 전체를 잠재적 TAM으로 간주.",
+    "tam_cagr_pct": "7-9% (추정치) - 건강 및 웰빙 트렌드, 천연/저당 음료 선호 증가, 식물성 음료 시장 확대에 기반함. 특히 아시아 태평양 지역의 성장이 두드러질 것으로 예상됨.",
+    "growth_drivers": [
+      "건강 및 웰빙 트렌드 확산으로 천연, 저당, 기능성 음료에 대한 소비자 수요 증가",
+      "식물성 음료 시장의 지속적인 성장과 다양한 제품군으로의 확장 기회",
+      "환경 및 사회적 책임에 대한 소비자 인식 증대로 지속가능한 브랜드 선호도 증가",
+      "신흥 시장에서의 코코넛 워터 및 식물성 음료 소비 저변 확대",
+      "온프레미스(On-premise) 채널 및 이커머스 채널의 성장"
+    ],
+    "market_share_pct": "미국 코코넛 워터 시장 40-50% (추정치) - Vita Coco 브랜드가 미국 코코넛 워터 시장 리더임을 기반으로 추정. 전체 기능성 음료 시장에서는 훨씬 낮음.",
+    "competitors": [
+      {
+        "name": "Zico (코카콜라)",
+        "differentiation": "글로벌 음료 대기업의 유통망 및 마케팅 역량 활용, 다양한 음료 포트폴리오 내 시너지"
+      },
+      {
+        "name": "Harmless Harvest",
+        "differentiation": "유기농, 공정 무역, 프리미엄 이미지 강조, 독특한 맛과 신선도 차별화"
+      },
+      {
+        "name": "O.N.E. Coconut Water (펩시코)",
+        "differentiation": "글로벌 음료 대기업의 유통망 및 마케팅 역량 활용, 다양한 음료 포트폴리오 내 시너지"
+      },
+      {
+        "name": "Private Label 브랜드",
+        "differentiation": "주요 유통업체의 자체 브랜드로 가격 경쟁력 우위, 유통 채널 내 독점적 위치"
+      },
+      {
+        "name": "기타 식물성 음료 브랜드 (예: 아몬드 우유, 귀리 우유 등)",
+        "differentiation": "다양한 식물성 원료 기반으로 소비자 선택의 폭 확대, 특정 기능성 강조"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 초기 자본 투자 부담은 있으나, 코코넛 워터 자체의 진입 장벽이 높지 않고, 기능성 음료 시장의 성장세로 신규 브랜드 진입 유인이 존재함.",
+      "substitutes": "high - 물, 주스, 스포츠 음료, 탄산음료 등 다양한 음료가 존재하며, 특히 건강 지향적인 소비자들은 다른 식물성 음료나 직접 만든 음료로 대체할 수 있음.",
+      "buyer_power": "medium - 유통 채널(클럽, 식품점, 편의점 등)은 가격 협상력이 높으며, 소비자는 다양한 선택지를 가지고 있어 브랜드 충성도가 낮아질 수 있음.",
+      "supplier_power": "medium - 코코넛 원료 공급처가 다변화되어 있지만, 특정 지역의 기후 변화나 작황 부진 시 원가 상승 압박을 받을 수 있음. 대규모 공급망 관리가 중요함.",
+      "rivalry": "high - 음료 산업은 매우 경쟁적이며, 브랜드 인지도, 맛, 품질, 가격, 유통, 지속가능성 등 다양한 요소로 경쟁함. 대기업 및 신생 브랜드 모두 활발하게 경쟁 중."
+    },
     "competitive_advantages": [
-      "Consumer Defensive / Beverages - Non-Alcoholic 카테고리 — yfinance peer 비교 권장"
+      "코코넛 워터 시장의 선두 주자로서 강력한 브랜드 인지도 및 시장 점유율 보유",
+      "글로벌 6개국 16개 공장 및 수천 명의 농부와 연결된 다각화된 공급망 네트워크",
+      "자산 경량화(asset-light) 모델을 통해 시장 변화 및 소비자 선호도에 유연하게 대응 가능",
+      "코코넛 오일, 주스, 우유, 단백질 음료 등 다양한 제품 포트폴리오 확장 능력",
+      "공익 법인(public benefit corporation)으로서 지속가능성 및 사회적 책임에 대한 노력"
+    ],
+    "competitive_weaknesses": [
+      "코코넛 워터 단일 제품에 대한 매출 의존도가 여전히 높음",
+      "경쟁이 치열한 음료 시장에서 대기업 경쟁사들의 막대한 마케팅 및 유통 역량에 비해 상대적 열위",
+      "원료 수급의 안정성 및 가격 변동성에 대한 취약성 (기후 변화, 작황 등)",
+      "Runa, Ever & Ever 등 일부 사업 철수로 인한 포트폴리오 전략의 불확실성",
+      "프라이빗 라벨 제품 공급으로 인한 브랜드 가치 희석 가능성 및 마진 압박"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 72.4,
+    "rs_rating": 91,
+    "score": 71.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 54.181156,
-    "forward_pe": 36.532513,
-    "ev_to_ebitda": 41.531,
-    "price_to_sales": 6.4836874,
+    "trailing_pe": 56.43478,
+    "forward_pe": 38.052055,
+    "ev_to_ebitda": 43.338,
+    "price_to_sales": 6.7533712,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 87.46,
-    "outperform_6m_vs_nasdaq": 67.08,
-    "outperform_1m_vs_nasdaq": 38.97,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 78.9,
+    "outperform_6m_vs_nasdaq": 55.74,
+    "outperform_1m_vs_nasdaq": 56.09,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Vita Coco는 2004년 포장 코코넛 워터를 개척했으며, 미국 코코넛 워터 카테고리에서 선두 브랜드입니다. 이는 강력한 브랜드 인지도와 시장 지배력을 시사합니다.",
+      "Vita Coco는 코코넛 및 기타 식물성 워터 카테고리에서 전 세계적으로 가장 큰 브랜드 중 하나이며, 프라이빗 라벨 코코넛 워터의 주요 공급업체입니다. 이는 규모의 경제와 유통망의 강점을 나타냅니다.",
+      "회사는 '더 나은 제품'이라는 사명을 통해 건강하고 지속 가능한 제품에 대한 소비자 선호를 활용하며, 이는 브랜드 충성도를 높이는 데 기여합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "PWR LIFT 단백질 음료 출시 및 기능성 음료 시장 확장",
+    "bull_case": "기능성 음료 시장 침투 가속화 및 신제품 성공으로 3년 내 EPS 2배 성장",
+    "base_case": "코코넛 워터 시장 리더십 유지 및 PWR LIFT 등 신규 브랜드의 점진적 성장으로 안정적인 매출 및 이익 증가. 자산 경량화 모델을 통해 효율적인 성장을 지속할 것으로 예상.",
+    "bear_case": "경쟁 심화 및 신제품(PWR LIFT) 시장 안착 실패로 매출 성장 둔화 및 수익성 악화. 원자재 가격 변동성 및 공급망 문제 발생 시 마진 압박 심화.",
+    "key_metrics_to_watch": [
+      "PWR LIFT 매출 성장률",
+      "코코넛 워터 시장 점유율 변화",
+      "영업이익률 (OPM)",
+      "신제품 출시 및 성공률",
+      "해외 시장 확장 성과"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사 사업에 부정적인 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "category": "고객집중도",
+        "description": "코코넛 워터 제품 매출이 전체 매출의 대부분을 차지하며, 코코넛 워터 수요 감소는 회사 재무 상태에 심각한 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소수의 대형 고객(유통업체 포함)에 대한 의존도가 높아, 주요 소매업체의 부정적인 결정이나 프라이빗 라벨 사업의 변동은 매출에 큰 영향을 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "공급망이 제3자 파트너에 크게 의존하고 있어, 파트너 관계의 변화, 생산 지연 또는 파트너 교체는 비용 증가 및 제품 시장 출시 능력에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "그러한 경우, 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 일부 또는 전부를 잃을 수 있습니다.",
+        "category": "공급망",
+        "description": "독립적인 운송 및 창고 파트너에 대한 의존도가 높아, 운송 비용 증가, 배송 지연, 창고 문제 또는 노동 파업 등은 물류 및 고객 서비스 품질에 악영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "생산 우선순위를 낮추거나 지연을 경험하거나 관계를 종료하는 등 기존 파트너와의 관계에 변화가 생기면 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "수요가 지속적으로 증가하려면 새로운 생산 능력과 파트너의 추가가 필요할 수 있으며 그러한 추가가 현재 공급업체만큼 비용 경쟁력이 있을 것이라는 보장은 없습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "또한 당사가 통제할 수 없는 외부 사건으로 인해 공급망이 중단되거나 지연될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "또한 공급망이 반응하고 정상화되는 데 소요되는 시간 동안 비용이 크게 증가하고 리드 타임이 길어질 수도 있습니다.",
+        "category": "거시",
+        "description": "자연재해, 전염병, 정치적 불안정 등 통제 불가능한 외부 사건은 공급망 운영을 방해하고 시설을 손상시키며 제품 흐름에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "코코넛 워터에 대한 소비자 수요가 급격히 감소하고 다른 제품으로의 다각화에 실패하여 매출이 지속적으로 하락하는 경우.",
+      "주요 유통 파트너가 계약을 해지하거나 프라이빗 라벨 사업을 다른 공급업체로 완전히 전환하여 대규모 매출 손실이 발생하는 경우.",
+      "핵심 공급망 파트너와의 관계가 단절되거나 심각한 운영 문제가 발생하여 제품 생산 및 유통이 장기간 중단되는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "코코넛 워터 제품의 분기별 매출이 전년 대비 10% 이상 지속적으로 감소하는 추세가 나타날 경우.",
+      "상위 3개 고객으로부터의 매출 비중이 50%를 초과하고, 이들 고객 중 한 곳 이상에서 대규모 계약 해지 또는 물량 감소 소식이 발표될 경우.",
+      "주요 생산 또는 물류 파트너와의 계약이 해지되거나, 새로운 파트너를 찾고 통합하는 데 1년 이상 소요될 것으로 예상되는 중대한 공급망 중단이 발생할 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-20T00:17:20.986459+00:00"
+    "GoogleWebTranslator": "2026-05-21T00:48:42.624264+00:00"
   }
 }

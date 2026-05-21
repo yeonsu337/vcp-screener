@@ -1,0 +1,183 @@
+{
+  "ticker": "ACMR",
+  "company": "ACM Research, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
+  "generated_at": "2026-05-21T00:43:24.981621+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 4948239360,
+    "shares_outstanding": 64117679,
+    "employees": 2513,
+    "country": "United States",
+    "website": "https://www.acmr.com",
+    "beta": 1.821
+  },
+  "category_a_business": {
+    "overview": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다. 또한 웨이퍼 조립 및 패키징 고객을 대상으로 다양한 패키징 도구를 개발, 제조 및 판매합니다. 이 회사는 프런트 엔드 생산 공정을 위한 웨트 클리닝 장비를 제공합니다. 전기화학 도금, 용광로, PECVD 및 트랙 플랫폼; 공간 교대 위상 편이(Space Alternated Phase Shift), 평면 및 웨이퍼 표면을 위한 기술; 시기 적절한 에너지 버블 진동, 고급 프로세스 노드에서 패턴화된 웨이퍼 표면을 위한 기술; 타호 기술; 그리고 셈",
+    "business_model": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다.",
+    "products": [
+      "중국 본토 및 국제적으로 자본 장비",
+      "웨이퍼 조립 및 패키징 고객을 위한 다양한 패키징 도구",
+      "프런트 엔드 생산 공정을 위한 웨트 클리닝 장비",
+      "코팅기, 현상액, 포토레지스트 스트리퍼, 스크러버, 습식 식각기 및 구리판과 같은 고급 패키징 장비",
+      "첨단 금속 도금을 위한 ECP 기술"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.08,
+    "roa": 0.03,
+    "profit_margin": 0.09,
+    "operating_margin": 0.16,
+    "gross_margin": 0.44,
+    "revenue_growth_ttm": 0.34,
+    "earnings_growth_ttm": -0.19,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      901309000.0,
+      782118000.0,
+      557723000.0,
+      388832000.0
+    ],
+    "annual_operating_income": [
+      109429000.0,
+      150998000.0,
+      95839000.0,
+      59035000.0
+    ],
+    "annual_eps": [
+      1.37,
+      1.53,
+      1.16,
+      0.59
+    ],
+    "annual_free_cf": [
+      -67980000.0,
+      66502000.0,
+      -139661000.0,
+      -154714000.0,
+      null
+    ],
+    "annual_total_debt": [
+      297908000.0,
+      188783000.0,
+      99096000.0,
+      79502000.0,
+      null
+    ],
+    "annual_equity": [
+      1464363000.0,
+      904625000.0,
+      767390000.0,
+      674856000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      0.24,
+      0.11,
+      0.52,
+      0.44,
+      0.3
+    ],
+    "quarterly_revenue": [
+      231263000.0,
+      244430000.0,
+      269160000.0,
+      215372000.0,
+      172347000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": -15.1,
+    "sales_yoy_pct": 34.2,
+    "ni_cagr_3y_pct": 33.81,
+    "roe_pct": 7.6
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 93,
+    "score": 60.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 54.65649,
+    "forward_pe": 31.775194,
+    "ev_to_ebitda": 31.135,
+    "price_to_sales": 5.1532083,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 169.92,
+    "outperform_6m_vs_nasdaq": 111.83,
+    "outperform_1m_vs_nasdaq": 31.53,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "지속적인 검토를 바탕으로 우리는 이러한 규정이 ACM Shanghai의 향후 생산 계획 충족 능력에 직접적인 영향을 미치거나 ACM Shanghai 고객 기반의 지출 계획에 간접적으로 영향을 미칠 수 있다고 믿습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "정부 무역 정책의 변화로 인해 도구에 대한 수요가 제한되고 도구 비용이 증가할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 중국 본토가 미국에서 조달하는 원자재, 하위 시스템 또는 기타 공급품에 대해 추가 관세를 부과한다면 해당 공급품에 대한 비용이 증가할 것입니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "고객의 비용 증가는 특히 가격에 민감한 시장에서 당사 제품에 대한 수요 감소로 이어질 수 있으며, 이는 당사의 수익과 시장 점유율에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "중국 본토 외부에서 사용하기 위해 필요한 경우 중국 본토에서 자금에 접근할 수 없는 경우 당사의 유동성과 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "특정 투자는 CFIUS의 검토 및 승인을 받을 수 있으며, 이로 인해 주주에게 이익이 될 투자 기회를 활용하지 못할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-21T00:47:08.273792+00:00"
+  }
+}

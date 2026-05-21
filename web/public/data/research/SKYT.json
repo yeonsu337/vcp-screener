@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-19T00:41:41.508350+00:00",
+  "generated_at": "2026-05-21T00:46:30.515147+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1687225728,
+    "market_cap": 1728557696,
     "shares_outstanding": 49204602,
     "employees": 1551,
     "country": "United States",
@@ -27,7 +27,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "SkyWater Technology, Inc.는 미네소타 주 블루밍턴에 본사를 둔 미국의 반도체 엔지니어링 및 제조 파운드리 회사입니다. 이는 미국이 소유한 유일한 순수 실리콘 파운드리입니다."
+    "wikipedia_excerpt": "SkyWater Technology, Inc.는 미네소타주 블루밍턴에 본사를 둔 미국의 반도체 엔지니어링 및 제조 파운드리 회사입니다. 이는 미국이 소유한 유일한 순수 실리콘 파운드리입니다."
   },
   "category_b_financials": {
     "roe": 0.96,
@@ -89,27 +89,27 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      -0.25,
       -0.16,
       2.95,
       -0.21,
       -0.15,
-      -0.01,
       null
     ],
     "quarterly_revenue": [
+      160686000.0,
       171039000.0,
       150741000.0,
       59063000.0,
       61296000.0,
-      75487000.0,
       null
     ],
     "quarterly_periods": [
+      "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
       "2024-09-30"
     ],
     "sales_yoy_pct": 162.1,
@@ -124,20 +124,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 61.6,
+    "rs_rating": 95,
+    "score": 63.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 14.653847,
-    "forward_pe": -168.64212,
-    "ev_to_ebitda": 48.079,
-    "price_to_sales": 3.11567,
+    "trailing_pe": 15.012821,
+    "forward_pe": -172.77333,
+    "ev_to_ebitda": 48.581,
+    "price_to_sales": 3.1919947,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 284.22,
-    "outperform_6m_vs_nasdaq": 80.42,
-    "outperform_1m_vs_nasdaq": -2.37,
+    "outperform_1y_vs_nasdaq": 267.54,
+    "outperform_6m_vs_nasdaq": 95.81,
+    "outperform_1m_vs_nasdaq": -3.67,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-20T00:18:00.527892+00:00"
+    "GoogleWebTranslator": "2026-05-21T00:51:19.389419+00:00"
   }
 }

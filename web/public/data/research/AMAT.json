@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-19T00:39:38.049518+00:00",
+  "generated_at": "2026-05-21T00:35:07.324238+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 328213233664,
+    "market_cap": 338752372736,
     "shares_outstanding": 793609867,
     "employees": 36400,
     "country": "United States",
@@ -20,14 +20,14 @@
     "overview": "Applied Materials, Inc.는 미국, 중국, 한국, 대만, 일본, 동남아시아, 유럽 및 전 세계의 반도체 및 관련 산업에 재료 공학 솔루션, 장비, 서비스 및 소프트웨어를 제공합니다. 이 회사는 반도체 시스템 및 응용 글로벌 서비스(AGS) 부문을 통해 운영됩니다.",
     "business_model": "어플라이드 머티리얼즈, Inc.",
     "products": [
-      "미국의 반도체 및 관련 산업에 대한 재료 엔지니어링 솔루션, 장비, 서비스 및 소프트웨어",
+      "미국의 반도체 및 관련 산업에 대한 재료 공학 솔루션, 장비, 서비스 및 소프트웨어",
       "반도체 시스템 및 응용 글로벌 서비스(AGS) 부문을 통해",
-      "예비 부품, 업그레이드, 서비스로 구성된 장비 및 공장 성능과 생산성을 최적화하는 통합 솔루션"
+      "예비품, 업그레이드, 서비스로 구성된 장비 및 제조공장 성능과 생산성을 최적화하는 통합 솔루션"
     ],
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Applied Materials, Inc.는 전자 제품용 반도체 칩, 컴퓨터용 평면 디스플레이, 스마트폰, TV 및 태양열 제품 제조를 위한 장비, 서비스 및 소프트웨어를 공급하는 미국 기업입니다. 또한 이 회사는 유연한 전자 제품, 포장 및 기타 응용 분야용 코팅을 생산하는 장비를 공급합니다. 이 회사는 캘리포니아주 산타클라라에 본사를 두고 있으며 네덜란드 회사인 ASML에 이어 매출 기준으로 세계에서 두 번째로 큰 반도체 장비 공급업체입니다."
+    "wikipedia_excerpt": "Applied Materials, Inc.는 전자 제품용 반도체 칩, 컴퓨터용 평면 패널 디스플레이, 스마트폰, TV 및 태양열 제품 제조를 위한 장비, 서비스 및 소프트웨어를 공급하는 미국 기업입니다. 또한 이 회사는 유연한 전자 제품, 포장 및 기타 응용 분야용 코팅을 생산하는 장비를 공급합니다. 이 회사는 캘리포니아주 산타클라라에 본사를 두고 있으며 네덜란드 회사인 ASML에 이어 매출 기준으로 세계에서 두 번째로 큰 반도체 장비 공급업체입니다."
   },
   "category_b_financials": {
     "roe": 0.4,
@@ -37,7 +37,7 @@
     "gross_margin": 0.49,
     "revenue_growth_ttm": 0.11,
     "earnings_growth_ttm": 0.34,
-    "dividend_yield": 0.49,
+    "dividend_yield": 0.52,
     "payout_ratio": 0.17,
     "annual_revenue": [
       28368000000.0,
@@ -89,13 +89,15 @@
       "2021-10-31"
     ],
     "quarterly_eps": [
+      3.51,
       2.54,
       2.38,
       2.22,
       2.63,
-      1.45
+      null
     ],
     "quarterly_revenue": [
+      null,
       7012000000.0,
       6800000000.0,
       7302000000.0,
@@ -103,6 +105,7 @@
       7166000000.0
     ],
     "quarterly_periods": [
+      "2026-04-30",
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
@@ -124,19 +127,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 91,
-    "score": 60.2,
+    "score": 62.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0746,
-    "trailing_pe": 38.979267,
-    "forward_pe": 25.991158,
-    "ev_to_ebitda": 35.212,
-    "price_to_sales": 11.308339,
+    "peg_ratio": 1.3821,
+    "trailing_pe": 38.316875,
+    "forward_pe": 26.470463,
+    "ev_to_ebitda": 36.349,
+    "price_to_sales": 11.671457,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 102.27,
-    "outperform_6m_vs_nasdaq": 71.78,
-    "outperform_1m_vs_nasdaq": -2.44,
+    "outperform_1y_vs_nasdaq": 122.82,
+    "outperform_6m_vs_nasdaq": 71.55,
+    "outperform_1m_vs_nasdaq": -0.04,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -153,12 +156,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "자원을 효율적으로 할당하고 비용을 관리하더라도 수요가 변화하는 기간에는 총이익률과 영업이익률, 현금흐름, 수익이 부정적인 영향을 받을 수 있습니다.",
+        "description": "자원을 효과적으로 배분하고 비용을 관리하더라도 수요가 변화하는 기간에는 총이익률과 영업이익률, 현금흐름, 수익이 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 고객은 운영 규모를 축소하거나, 사업을 종료하거나, 다른 제조업체와 합병하거나, 파산 신청을 할 수 있으며, 이로 인해 매출이 감소하고 추가 재고 또는 대손 비용이 발생할 수 있습니다.",
+        "description": "고객은 또한 운영 규모를 축소하거나, 사업을 종료하거나, 다른 제조업체와 합병하거나, 파산 신청을 할 수 있으며, 이로 인해 매출이 감소하고 추가 재고 또는 대손 비용이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -168,7 +171,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 구조 조정 활동을 포함하여 추가적인 비용 절감 노력을 수행해야 할 수도 있으며, 이는 기회 활용 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "우리는 구조 조정 활동을 포함하여 추가 비용 절감 노력을 수행해야 할 수도 있으며, 이는 기회 활용 능력에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -181,6 +184,6 @@
   },
   "wikipedia_summary": "Applied Materials, Inc. is an American corporation that supplies equipment, services and software for the manufacture of semiconductor chips for electronics, flat panel displays for computers, smartphones, televisions, and solar products. The company also supplies equipment to produce coatings for flexible electronics, packaging and other applications. The company is headquartered in Santa Clara, California, and is the second largest supplier of semiconductor equipment in the world based on revenue behind Dutch company ASML.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-20T00:17:17.271178+00:00"
+    "GoogleWebTranslator": "2026-05-21T00:47:25.974945+00:00"
   }
 }

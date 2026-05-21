@@ -4,19 +4,32 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-05-07T06:47:38.635122+00:00",
+  "generated_at": "2026-05-21T00:50:39.116340+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 24841605120,
+    "market_cap": 24741806080,
     "shares_outstanding": 117409981,
     "employees": 37000,
     "country": "United States",
     "website": "https://www.xpo.com",
     "beta": 1.666
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 가지 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
+    "business_model": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다.",
+    "products": [
+      "미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역의 화물 운송 서비스",
+      "북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 가지 부문으로 나뉩니다.",
+      "지리적 밀도와 특정 날짜의 국내 및 미국으로의 국경 간 서비스를 제공하는 화주",
+      "전용 트럭 운송, LTL, 트럭 중개, 운송 관리, 라스트 마일, 화물 운송, 창고 및 뮤"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "XPO, Inc.(이전 XPO Logistics)는 북미 지역에서 화물 미만 화물 운송(LTL)을 수행하는 미국 운송 회사입니다. 이 회사는 코네티컷주 그리니치에 본사를 두고 있으며 전 세계적으로 592개 지점을 운영하고 있습니다. XPO는 북미에서 두 번째로 큰 LTL 서비스 제공업체로, 미국 전체 우편번호의 99%를 운영하고 있습니다."
+  },
   "category_b_financials": {
     "roe": 0.2,
     "roa": 0.06,
@@ -108,27 +121,73 @@
     "ni_cagr_3y_pct": -22.0,
     "roe_pct": 19.94
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Trucking 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 62.2,
+    "rs_rating": 79,
+    "score": 58.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3804,
-    "trailing_pe": 72.4589,
-    "forward_pe": 35.544014,
-    "ev_to_ebitda": 22.16,
-    "price_to_sales": 2.9933252,
+    "peg_ratio": 2.2404,
+    "trailing_pe": 72.4158,
+    "forward_pe": 35.294964,
+    "ev_to_ebitda": 22.082,
+    "price_to_sales": 2.9812996,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.79,
-    "outperform_6m_vs_nasdaq": 44.59,
-    "outperform_1m_vs_nasdaq": -11.73,
+    "outperform_1y_vs_nasdaq": 30.94,
+    "outperform_6m_vs_nasdaq": 49.05,
+    "outperform_1m_vs_nasdaq": -15.7,
     "lynch_category": "Slow Grower"
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "회사 위험 비즈니스 모델과 관련된 위험 북미와 유럽 모두에서 경기 침체 및 화물량 감소를 초래하는 기타 요인은 당사 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "국제 무역 정책의 추가 변경으로 인해 전 세계적으로 운송되는 상품의 양이 크게 줄어들 수 있으며 당사의 비즈니스와 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 요인으로 인해 당사 사업은 당사의 운영 결과와 미래 전망에 중대한 영향을 미칠 수 있는 다양한 위험에 노출됩니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 위험에는 다음이 포함될 수 있습니다. • 전체 화물량 감소로 인해 성장 기회가 감소합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 조치는 당사의 운영 결과에 부정적인 영향을 미칠 수 있는 세계 경제의 약화에 기여할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 조치나 새로운 테러 방지 조치로 인해 당사의 운영이 중단되거나 방해를 받는 경우 당사는 고객에게 제품을 적시에 제공하지 못하거나 이를 위한 비용이 증가할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
   "wikipedia_summary": "XPO, Inc., formerly XPO Logistics, is an American transportation company that conducts less-than-truckload shipping, or less than load (LTL), in North America. The company has headquarters in Greenwich, Connecticut, and has 592 locations globally. XPO is the second largest provider of LTL services in North America, operating in 99 percent of all U.S. postal codes.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-20T00:18:09.183210+00:00"
+    "GoogleWebTranslator": "2026-05-21T00:52:25.155175+00:00"
   }
 }

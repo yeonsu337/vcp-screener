@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-19T00:27:35.985338+00:00",
+  "generated_at": "2026-05-21T00:27:00.475575+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 102823616512,
+    "market_cap": 104512069632,
     "shares_outstanding": 400107483,
     "employees": 25430,
     "country": "United States",
@@ -17,18 +17,34 @@
     "beta": 1.191
   },
   "category_a_business": {
-    "overview": "Howmet Aerospace Inc.는 미국, 일본, 프랑스, ​​독일, 영국, 멕시코, 이탈리아, 캐나다, 폴란드, 중국 및 국제적으로 항공우주 및 운송 산업을 위한 고급 엔지니어링 솔루션을 제공합니다. 엔진 제품, 고정 시스템, 엔지니어링 구조 및 단조 휠의 네 가지 부문을 통해 운영됩니다.",
-    "business_model": "하우메트 에어로스페이스(주)",
+    "overview": "항공우주 및 운송 산업을 위한 첨단 엔지니어링 솔루션을 제공하는 글로벌 선도 기업입니다.",
+    "milestones": [
+      "1888: Alcoa Inc. 설립 (Howmet의 전신)",
+      "2016: Alcoa Inc.가 Arconic Inc.와 Alcoa Corporation으로 분사",
+      "2017: Arconic Inc.가 델라웨어 주로 재편입",
+      "2020: Arconic Inc.가 Howmet Aerospace Inc.와 Arconic Corporation으로 구성",
+      "2025: Consolidated Aerospace Manufacturing, LLC 인수 계약 체결",
+      "2026년: Brunner Manufacturing Co. Inc. 인수"
+    ],
+    "business_model": "항공우주 및 운송 산업에 핵심 부품과 솔루션을 공급하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "항공기 엔진 부품",
+      "항공우주 체결 시스템",
+      "항공기 구조 부품",
+      "단조 알루미늄 휠"
+    ],
+    "value_chain_position": "Midstream + 항공우주 및 운송 산업의 핵심 부품 및 소재를 제조하고 공급합니다.",
     "products": [
-      "미국, 일본, 프랑스, ​​독일의 항공우주 및 운송 산업을 위한 고급 엔지니어링 솔루션",
-      "엔진 제품, 고정 시스템, 엔지니어링 구조 및 단조 휠의 네 가지 부문을 통해",
-      "주로 항공기 엔진 및 산업용 가스 터빈에 사용되는 익형 및 심리스 롤링 링",
-      "항공우주 고정 시스템, 상업용 운송, 산업 및 기타 고정 장치",
-      "티타늄 잉곳 및 압연 제품, 알루미늄 및 니켈 단조품, 항공우주용 가공 부품 및 조립품"
+      "에어포일 및 링",
+      "항공우주 체결 시스템",
+      "티타늄 잉곳 및 밀 제품",
+      "단조 알루미늄 휠",
+      "기계 가공 부품 및 조립품"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주요 항공기 제조업체, 엔진 제조업체 및 상업용 운송 회사"
   },
   "category_b_financials": {
     "roe": 0.34,
@@ -38,7 +54,7 @@
     "gross_margin": 0.35,
     "revenue_growth_ttm": 0.19,
     "earnings_growth_ttm": 0.71,
-    "dividend_yield": 0.18,
+    "dividend_yield": 0.19,
     "payout_ratio": 0.11,
     "annual_revenue": [
       8252000000.0,
@@ -131,19 +147,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 73,
-    "score": 62.0,
+    "score": 63.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.8,
-    "trailing_pe": 59.488422,
-    "forward_pe": 43.17483,
-    "ev_to_ebitda": 41.617,
-    "price_to_sales": 11.924344,
+    "trailing_pe": 60.746506,
+    "forward_pe": 43.60193,
+    "ev_to_ebitda": 41.751,
+    "price_to_sales": 12.120152,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 23.18,
-    "outperform_6m_vs_nasdaq": 13.71,
-    "outperform_1m_vs_nasdaq": -6.08,
+    "outperform_1y_vs_nasdaq": 20.77,
+    "outperform_6m_vs_nasdaq": 14.87,
+    "outperform_1m_vs_nasdaq": -2.79,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -188,6 +204,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-20T00:17:29.078205+00:00"
+    "GoogleWebTranslator": "2026-05-21T00:50:03.129782+00:00"
   }
 }
