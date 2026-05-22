@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-21T00:36:09.435732+00:00",
+  "generated_at": "2026-05-22T00:37:50.216046+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 28806211584,
+    "market_cap": 28471304192,
     "shares_outstanding": 398701897,
     "employees": 22000,
     "country": "United Kingdom",
@@ -41,7 +41,7 @@
     "gross_margin": 0.23,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.94,
-    "dividend_yield": 0.27,
+    "dividend_yield": 0.28,
     "payout_ratio": 0.08,
     "annual_revenue": [
       9932600000.0,
@@ -132,20 +132,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 61.2,
+    "rs_rating": 87,
+    "score": 60.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 27.681993,
-    "forward_pe": 20.7943,
-    "ev_to_ebitda": 15.217,
-    "price_to_sales": 2.8264384,
+    "trailing_pe": 27.678297,
+    "forward_pe": 20.55254,
+    "ev_to_ebitda": 15.042,
+    "price_to_sales": 2.7935774,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 96.25,
-    "outperform_6m_vs_nasdaq": 53.84,
-    "outperform_1m_vs_nasdaq": -8.38,
+    "outperform_1y_vs_nasdaq": 96.58,
+    "outperform_6m_vs_nasdaq": 46.18,
+    "outperform_1m_vs_nasdaq": -7.7,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -172,7 +172,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "유전 서비스에 대한 지속적인 변동성 또는 향후 수요 감소는 당사의 재무 상태, 운영 결과 또는 현금 흐름에 더욱 부정적인 영향을 미칠 수 있습니다.",
+        "description": "지속적인 변동성 또는 향후 유전 서비스 수요 감소는 당사의 재무 상태, 운영 결과 또는 현금 흐름에 더욱 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -190,6 +190,6 @@
   },
   "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-21T00:49:50.257537+00:00"
+    "GoogleWebTranslator": "2026-05-22T00:47:20.327432+00:00"
   }
 }

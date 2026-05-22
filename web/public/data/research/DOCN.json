@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-05-21T00:42:22.881078+00:00",
+  "generated_at": "2026-05-22T00:42:35.669847+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 16709749760,
+    "market_cap": 16526068736,
     "shares_outstanding": 104364181,
     "employees": 1462,
     "country": "United States",
@@ -131,19 +131,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 64.2,
+    "score": 63.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 70.22369,
-    "forward_pe": 93.12402,
-    "ev_to_ebitda": 58.604,
-    "price_to_sales": 17.614632,
+    "trailing_pe": 69.75771,
+    "forward_pe": 92.100365,
+    "ev_to_ebitda": 57.988,
+    "price_to_sales": 17.421003,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 391.0,
-    "outperform_6m_vs_nasdaq": 243.71,
-    "outperform_1m_vs_nasdaq": 60.77,
+    "outperform_1y_vs_nasdaq": 386.64,
+    "outperform_6m_vs_nasdaq": 242.6,
+    "outperform_1m_vs_nasdaq": 59.14,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -160,7 +160,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 목표를 성공적으로 달성하지 못할 수 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
+        "description": "우리는 목표를 성공적으로 달성하지 못할 수도 있으며, 그 결과 향후 운영 결과를 예측하기가 어렵습니다.",
         "severity": "medium"
       },
       {
@@ -170,12 +170,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 우리는 비용과 비용이 향후 증가할 것으로 예상하며, 이는 수익도 증가하지 않을 경우 향후 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "또한 당사는 향후 비용과 비용이 증가할 것으로 예상하며, 이는 수익도 증가하지 않을 경우 향후 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "수익성을 유지하지 못할 경우, 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
+        "description": "수익성을 유지하지 못할 경우 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-21T00:49:29.853840+00:00"
+    "GoogleWebTranslator": "2026-05-22T00:46:57.135572+00:00"
   }
 }

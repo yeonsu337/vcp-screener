@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-05-21T00:34:05.404034+00:00",
+  "generated_at": "2026-05-22T00:33:35.825953+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 401894113280,
+    "market_cap": 398849605632,
     "shares_outstanding": 460591983,
     "employees": 118000,
     "country": "United States",
@@ -21,7 +21,7 @@
     "business_model": "캐터필러 주식회사",
     "products": [
       "건설 및 광산 장비, 오프 하이웨이 디젤 및 천연가스 엔진, 산업용 가스 터빈, 디젤 선택",
-      "아스팔트 포장기, 냉간 대패기, 압축기, 임업 기계, 자재 취급자, 모터 그레이더, 파이프레이어, 도로 매립",
+      "아스팔트 포장 기계, 냉간 대패기, 압축기, 임업 기계, 자재 취급자, 모터 그레이더, 파이프레이어, 도로 매립",
       "전기 로프 및 유압 삽, 드래그라인, 회전 드릴, 하드 록 차량, 광산 트럭, 휠 로더, 오프 하이그",
       "왕복 엔진 구동 발전기 세트",
       "운영 및 금융리스, 회전청구계정, 할부판매계약, 수리/재구축 금융, 근로"
@@ -42,7 +42,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.22,
     "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.7,
+    "dividend_yield": 0.69,
     "payout_ratio": 0.3,
     "annual_revenue": [
       67589000000.0,
@@ -134,27 +134,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 62.6,
+    "rs_rating": 88,
+    "score": 61.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0441,
-    "trailing_pe": 43.540916,
-    "forward_pe": 29.267847,
-    "ev_to_ebitda": 30.342,
-    "price_to_sales": 5.680081,
+    "peg_ratio": 2.0736,
+    "trailing_pe": 43.471386,
+    "forward_pe": 29.046133,
+    "ev_to_ebitda": 30.132,
+    "price_to_sales": 5.637052,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 113.45,
-    "outperform_6m_vs_nasdaq": 43.04,
-    "outperform_1m_vs_nasdaq": 0.72,
+    "outperform_1y_vs_nasdaq": 113.1,
+    "outperform_6m_vs_nasdaq": 41.81,
+    "outperform_1m_vs_nasdaq": 0.42,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리는 가정에 있어서 신중했다고 생각하지만 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 향후 성과에 대해 어떠한 보장도 할 수 없습니다.",
+        "description": "비록 우리가 가정에 있어 신중했다고 생각하더라도 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
         "severity": "medium"
       },
       {
@@ -174,7 +174,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "재앙적인 사건은 당사의 사업, 운영 결과 및/또는 재무 상태에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "description": "치명적인 사건은 당사의 사업, 운영 결과 및/또는 재무 상태에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -192,6 +192,6 @@
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-21T00:48:20.512001+00:00"
+    "GoogleWebTranslator": "2026-05-22T00:45:50.047768+00:00"
   }
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "ILMN",
-  "generated_at": "2026-05-21T00:21:07.966222+00:00",
-  "source_results_date": "2026-05-21",
+  "generated_at": "2026-05-22T00:18:48.721365+00:00",
+  "source_results_date": "2026-05-22",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.66,
+  "confidence": 0.67,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 13.54%).",
-    "13주 베이스 9.3% → 27.6% → 14.4% → 9.3% → 10.9%, VDU 1.06×, pivot $155.53(-8.75%).",
-    "Trend Template 8/8 통과, RS 76 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 5회, 마지막 13.54%).",
+    "13주 베이스 27.6% → 14.4% → 9.3% → 10.9% → 13.5%, VDU 0.98×, pivot $155.53(-6.88%).",
+    "Trend Template 8/8 통과, RS 77 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 76,
+    "rs_rating": 77,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,13 +47,13 @@
   ],
   "key_failures": [
     "P2_last_contraction (13.54% vs 6.5%)",
-    "P3_vol_dryup (1.06× vs 0.6×)",
+    "P3_vol_dryup (0.98× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-14.6% vs ≥-5.0%)"
+    "rs_line (-13.0% vs ≥-5.0%)"
   ],
   "warnings": [
     "베이스 깊이 27.6% — 25% 초과로 변동성 큼",
-    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 77 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

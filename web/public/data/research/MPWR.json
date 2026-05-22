@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-21T00:28:55.881262+00:00",
+  "generated_at": "2026-05-22T00:31:33.534713+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 76312158208,
+    "market_cap": 76704210944,
     "shares_outstanding": 49130000,
     "employees": 4501,
     "country": "United States",
@@ -17,36 +17,17 @@
     "beta": 1.742
   },
   "category_a_business": {
-    "overview": "MPWR은 고성능 아날로그 및 혼합 신호 반도체 기반 전력 전자 솔루션을 제공하는 팹리스 글로벌 기업입니다.",
-    "milestones": [
-      "1997년: Monolithic Power Systems, Inc. 설립",
-      "2004: 나스닥 상장 (MPWR)",
-      "2010년대: 다양한 최종 시장으로 제품 포트폴리오 확장",
-      "2020년대: 클라우드 컴퓨팅, AI, 자동차 시장 성장 주도",
-      "현재: 전 세계 15개 이상의 지사 운영"
-    ],
-    "business_model": "반도체 기반 전력 관리 IC 및 솔루션을 설계, 개발, 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "DC-DC 솔루션",
-      "AC-DC 솔루션",
-      "드라이버 MOSFET",
-      "전력 관리 IC",
-      "전류 제한 스위치 및 조명 제어 제품"
-    ],
-    "value_chain_position": "Midstream + 팹리스 모델로 반도체 설계 및 개발에 집중합니다.",
+    "overview": "Monolithic Power Systems, Inc.는 중국, 대만, 한국, 동남아시아, 유럽, 미국, 일본 및 국제적으로 반도체 기반 전력 전자 솔루션을 제공합니다. 이 회사는 클라우드 기반 및 온프레미스 CPU 서버 및 워크스테이션, AI 시스템, 메모리, 스토리지 솔루션, 노트북, 인포테인먼트, 전원, 가전제품, 네트워크 인프라 및 위성 통신과 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC)-DC 솔루션을 제공합니다.",
+    "business_model": "모놀리식 파워 시스템즈, Inc.",
     "products": [
-      "DC-DC 컨버터",
-      "AC-DC 컨버터",
-      "전력 관리 IC",
-      "드라이버 MOSFET",
-      "조명 제어 IC"
+      "중국, 대만, 한국, 동남아시아, 유럽, 미국의 반도체 기반 전력 전자 솔루션",
+      "클라우드와 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC) 대 DC 솔루션",
+      "교류(AC)를 DC로"
     ],
     "channels": [
-      "B2B",
-      "제3자 유통업체",
-      "부가가치 리셀러"
+      "B2B / 기업"
     ],
-    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 최종 시장에 분산되어 있습니다."
+    "wikipedia_excerpt": "Monolithic Power Systems, Inc.는 플로리다 주 웨스트 팜 비치에 본사를 둔 미국 상장 회사입니다. 전 세계 15개 이상의 지역에서 운영되고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -56,7 +37,7 @@
     "gross_margin": 0.55,
     "revenue_growth_ttm": 0.26,
     "earnings_growth_ttm": 0.4,
-    "dividend_yield": 0.54,
+    "dividend_yield": 0.52,
     "payout_ratio": 0.48,
     "annual_revenue": [
       2790459000.0,
@@ -134,73 +115,33 @@
     "roe_pct": 19.57
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "2025년 기준 500억~600억 USD (추정) - 고성능 아날로그 및 혼합 신호 IC 시장 규모 추정치 기반",
-    "tam_cagr_pct": "10~15% (추정) - AI 시스템, 클라우드 컴퓨팅, 자동차 전장화 등 고성능 전력 관리 솔루션 수요 증가 및 MPWR의 주요 시장(스토리지 및 컴퓨팅, 엔터프라이즈 데이터, 자동차)의 높은 성장률을 근거로 함.",
-    "growth_drivers": [
-      "AI 시스템 및 클라우드 컴퓨팅 인프라 확장에 따른 고성능 전력 관리 솔루션 수요 증가",
-      "전기차 및 자율주행 기술 발전에 따른 자동차 전장 부품 및 전력 IC 수요 급증",
-      "산업 자동화 및 IoT 기기 확산으로 인한 산업용 전력 관리 솔루션 시장 성장",
-      "에너지 효율성 및 소형화 요구 증대로 인한 고집적, 고효율 전력 반도체 채택 가속화"
-    ],
-    "market_share_pct": "5~10% (추정) - 특정 시장 점유율 데이터는 없으나, 고성능 아날로그 및 혼합 신호 IC 시장 내에서 차별화된 기술력으로 성장 중임을 고려하여 추정.",
-    "competitors": [
-      {
-        "name": "Texas Instruments (TI)",
-        "differentiation": "광범위한 제품 포트폴리오, 강력한 유통망, 오랜 업력과 브랜드 인지도."
-      },
-      {
-        "name": "Analog Devices (ADI)",
-        "differentiation": "고정밀 아날로그 및 혼합 신호 솔루션에 특화, 광범위한 산업 및 통신 시장 커버리지."
-      },
-      {
-        "name": "Infineon Technologies",
-        "differentiation": "자동차 및 산업용 전력 반도체 시장의 강자, 높은 신뢰성과 견고한 고객 기반."
-      },
-      {
-        "name": "STMicroelectronics",
-        "differentiation": "다양한 반도체 제품군, 특히 자동차 및 산업용 마이크로컨트롤러 및 전력 관리 솔루션 강점."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 반도체 설계 및 제조에 필요한 높은 기술력과 R&D 투자, 숙련된 엔지니어 확보의 어려움이 진입 장벽으로 작용하나, 특정 니치 시장에서는 신규 진입 가능성이 존재.",
-      "substitutes": "low - 전력 관리 IC는 전자 시스템의 필수 구성 요소이므로 직접적인 대체재는 제한적이며, 기술 발전으로 인한 성능 향상이 주로 이루어짐.",
-      "buyer_power": "medium - 대형 고객사(예: 서버 제조업체, 자동차 OEM)는 구매량이 많아 가격 협상력이 있으나, MPWR의 차별화된 고성능 솔루션은 구매자의 협상력을 일부 상쇄.",
-      "supplier_power": "medium - 파운드리 및 핵심 재료 공급업체는 제한적이며, 특히 첨단 공정의 경우 공급업체의 협상력이 높을 수 있으나, MPWR은 팹리스 모델로 특정 공급업체에 대한 의존도를 분산할 수 있음.",
-      "rivalry": "high - 고성능 아날로그 및 혼합 신호 IC 시장은 TI, ADI 등 강력한 경쟁자들이 존재하며, 기술 혁신과 가격 경쟁이 치열함."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "고도로 통합되고 소형화된 에너지 효율적인 전력 관리 솔루션 제공 (독점 기술 및 시스템 통합 역량)",
-      "깊은 시스템 수준 지식과 강력한 반도체 설계 전문성을 바탕으로 한 차별화된 제품 개발 능력",
-      "긴 제품 수명 주기와 다양한 최종 시장(스토리지/컴퓨팅, 엔터프라이즈 데이터, 자동차 등)에 걸친 포트폴리오 다각화",
-      "정확성, 신뢰성, 비용 효율성 측면에서 경쟁사 대비 우위 제공"
-    ],
-    "competitive_weaknesses": [
-      "경쟁사에 비해 상대적으로 작은 시장 점유율 및 브랜드 인지도 (특히 범용 제품 시장에서)",
-      "팹리스 모델로 인한 외부 파운드리 의존성 및 공급망 위험 존재",
-      "특정 최종 시장(예: 스토리지 및 컴퓨팅, 엔터프라이즈 데이터)에 대한 매출 의존도가 높음",
-      "숙련된 설계 엔지니어 확보 및 유지의 어려움 (반도체 산업 전반의 인력난)"
+      "Technology / Semiconductors 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 68.2,
+    "score": 68.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9286,
-    "trailing_pe": 111.34552,
-    "forward_pe": 51.502945,
+    "peg_ratio": 2.0404,
+    "trailing_pe": 111.120995,
+    "forward_pe": 51.76754,
     "ev_to_ebitda": 87.453,
-    "price_to_sales": 25.806505,
+    "price_to_sales": 25.939085,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 86.11,
-    "outperform_6m_vs_nasdaq": 58.11,
-    "outperform_1m_vs_nasdaq": -6.63,
+    "outperform_1y_vs_nasdaq": 87.32,
+    "outperform_6m_vs_nasdaq": 65.65,
+    "outperform_1m_vs_nasdaq": -4.06,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-21T00:50:29.935469+00:00"
+    "GoogleWebTranslator": "2026-05-22T00:48:13.528422+00:00"
   }
 }

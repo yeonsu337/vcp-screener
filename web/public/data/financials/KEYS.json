@@ -1,18 +1,18 @@
 {
   "ticker": "KEYS",
   "metrics": {
-    "eps_ttm": 6.19,
-    "eps_forward": 11.6,
-    "pe_ttm": 55.26,
-    "pe_forward": 29.49,
-    "market_cap": 58406223872.0,
-    "roe": 0.17,
-    "roa": 0.06,
+    "eps_ttm": 6.14,
+    "eps_forward": 11.86,
+    "pe_ttm": 54.98,
+    "pe_forward": 28.47,
+    "market_cap": 57632776192.0,
+    "roe": 0.18,
+    "roa": 0.07,
     "profit_margin": 0.17,
-    "gross_margin": 0.62,
-    "operating_margin": 0.16,
-    "revenue_growth": 0.23,
-    "earnings_growth": 0.68,
+    "gross_margin": 0.64,
+    "operating_margin": 0.24,
+    "revenue_growth": 0.32,
+    "earnings_growth": 0.36,
     "dividend_yield": null,
     "payout_ratio": 0.0,
     "currency": "USD",
@@ -190,6 +190,7 @@
   },
   "quarterly": {
     "periods": [
+      "2026-04-30",
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
@@ -197,6 +198,7 @@
       "2025-01-31"
     ],
     "revenue": [
+      null,
       1600000000.0,
       1419000000.0,
       1352000000.0,
@@ -204,6 +206,7 @@
       1298000000.0
     ],
     "net_income": [
+      null,
       281000000.0,
       233000000.0,
       191000000.0,
@@ -211,13 +214,15 @@
       169000000.0
     ],
     "eps": [
+      2.02,
       1.63,
       1.33,
       1.1,
       1.49,
-      0.97
+      null
     ],
     "gross_profit": [
+      null,
       995000000.0,
       869000000.0,
       834000000.0,
@@ -225,6 +230,7 @@
       820000000.0
     ],
     "operating_income": [
+      null,
       248000000.0,
       217000000.0,
       234000000.0,
@@ -232,6 +238,7 @@
       218000000.0
     ],
     "operating_margin": [
+      null,
       15.5,
       15.29,
       17.31,
@@ -311,20 +318,23 @@
       null
     ],
     "roe": [
-      4.53,
-      3.96,
-      3.37,
-      4.69,
-      3.26
+      null,
+      4.78,
+      4.11,
+      3.49,
+      4.95,
+      null
     ],
     "roa": [
-      2.45,
-      2.06,
-      1.79,
-      2.44,
-      1.8
+      null,
+      2.49,
+      2.19,
+      1.81,
+      2.74,
+      null
     ],
     "dividend_yield": [
+      null,
       null,
       null,
       null,
@@ -356,13 +366,15 @@
       null
     ],
     "eps_yoy": [
-      68.0,
+      35.6,
+      null,
       null,
       null,
       null,
       null
     ],
     "revenue_yoy": [
+      null,
       23.3,
       null,
       null,
@@ -370,6 +382,7 @@
       null
     ],
     "operating_income_yoy": [
+      null,
       13.8,
       null,
       null,

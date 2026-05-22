@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T00:46:20.910326+00:00",
+  "generated_at": "2026-05-22T00:44:04.631460+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -12,25 +12,25 @@
     "active": 13,
     "exited": 26,
     "winners_50pct": 0,
-    "winners_30pct": 0,
+    "winners_30pct": 1,
     "losers": 1
   },
   "performance": {
     "win_rate_pct": 66.7,
-    "profit_factor": 2.49,
-    "expectancy": 3.32,
-    "avg_winner_pct": 8.34,
-    "avg_loser_pct": -6.71,
+    "profit_factor": 2.42,
+    "expectancy": 3.44,
+    "avg_winner_pct": 8.8,
+    "avg_loser_pct": -7.27,
     "best": {
       "ticker": "005930.KS",
-      "return_pct": 26.5
+      "return_pct": 37.2
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 24.8,
-    "avg_holding_loser_days": 16
+    "avg_holding_winner_days": 24.7,
+    "avg_holding_loser_days": 16.6
   },
   "exit_breakdown": {
     "EX6_absent": 21,
@@ -42,34 +42,28 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 8,
-        "trades": 1,
-        "avg_return_pct": 5.14,
-        "win_rate_pct": 100.0
-      },
-      {
         "primary_passed": 9,
-        "trades": 2,
-        "avg_return_pct": -0.69,
-        "win_rate_pct": 0.0
-      },
-      {
-        "primary_passed": 10,
-        "trades": 5,
-        "avg_return_pct": 11.65,
-        "win_rate_pct": 100.0
-      },
-      {
-        "primary_passed": 11,
-        "trades": 9,
-        "avg_return_pct": 2.87,
+        "trades": 3,
+        "avg_return_pct": 2.49,
         "win_rate_pct": 66.7
       },
       {
+        "primary_passed": 10,
+        "trades": 7,
+        "avg_return_pct": 8.62,
+        "win_rate_pct": 71.4
+      },
+      {
+        "primary_passed": 11,
+        "trades": 6,
+        "avg_return_pct": 3.91,
+        "win_rate_pct": 83.3
+      },
+      {
         "primary_passed": 12,
-        "trades": 5,
-        "avg_return_pct": 8.19,
-        "win_rate_pct": 80.0
+        "trades": 3,
+        "avg_return_pct": 9.69,
+        "win_rate_pct": 66.7
       }
     ],
     "rule_hit_rate_diff": [],
@@ -80,30 +74,30 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 20,
-      "win_rate_pct": 60.0,
-      "avg_return_pct": 1.57,
-      "best_return_pct": 26.5
+      "trades": 24,
+      "win_rate_pct": 58.3,
+      "avg_return_pct": 1.96,
+      "best_return_pct": 37.2
     },
     {
       "sector": "Energy",
-      "trades": 7,
-      "win_rate_pct": 85.7,
-      "avg_return_pct": 6.57,
+      "trades": 6,
+      "win_rate_pct": 83.3,
+      "avg_return_pct": 7.29,
       "best_return_pct": 23.2
     },
     {
       "sector": "Industrials",
       "trades": 3,
       "win_rate_pct": 66.7,
-      "avg_return_pct": 7.88,
-      "best_return_pct": 21.3
+      "avg_return_pct": 8.28,
+      "best_return_pct": 22.5
     },
     {
       "sector": "Real Estate",
-      "trades": 3,
-      "win_rate_pct": 33.3,
-      "avg_return_pct": 1.04,
+      "trades": 2,
+      "win_rate_pct": 50.0,
+      "avg_return_pct": 2.06,
       "best_return_pct": 5.1
     },
     {
@@ -116,65 +110,51 @@
     {
       "sector": "Technology",
       "trades": 2,
-      "win_rate_pct": 50.0,
-      "avg_return_pct": 6.15,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 6.17,
       "best_return_pct": 12.3
-    },
-    {
-      "sector": "Healthcare",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 10.77,
-      "best_return_pct": 10.8
-    },
-    {
-      "sector": "Basic Materials",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 0.07,
-      "best_return_pct": 0.1
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 31,
       "win_rate_pct": 64.5,
-      "avg_return_pct": 1.53
+      "avg_return_pct": 1.35
     },
     "KR": {
       "trades": 6,
       "win_rate_pct": 83.3,
-      "avg_return_pct": 13.01
+      "avg_return_pct": 14.58
     },
     "HK": {
       "trades": 2,
       "win_rate_pct": 50.0,
-      "avg_return_pct": 2.03
+      "avg_return_pct": 2.54
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83,
-    "loser_avg_rs": 82.2,
+    "winner_avg_rs": 82.9,
+    "loser_avg_rs": 82,
     "winner_n": 26,
     "loser_n": 13
   },
   "time_curve": [
     {
       "day": 1,
-      "trades": 36,
-      "avg_return_pct": 3.77,
-      "winners_pct": 72.2
+      "trades": 37,
+      "avg_return_pct": 3.84,
+      "winners_pct": 70.3
     },
     {
       "day": 5,
       "trades": 36,
-      "avg_return_pct": 3.77,
-      "winners_pct": 72.2
+      "avg_return_pct": 3.95,
+      "winners_pct": 69.4
     },
     {
       "day": 21,
       "trades": 26,
-      "avg_return_pct": 5.55,
+      "avg_return_pct": 5.95,
       "winners_pct": 80.8
     },
     {
@@ -185,12 +165,32 @@
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-05-06T01:22:40.977340+00:00",
-    "winner_patterns": [],
-    "loser_traps": [],
-    "rule_suggestions": [],
-    "error": "GEMINI_API_KEY not set",
-    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
+    "generated_at": "2026-05-22T00:44:04.631431+00:00",
+    "winner_patterns": [
+      "RS 등급 80 이상 종목이 다수 (90 이상 5개)",
+      "평균 보유 기간 30일 내외로 비교적 길게 유지",
+      "활성(active) 상태로 지속 상승하는 종목 다수",
+      "에너지, 산업재, 기술 섹터에서 높은 승률과 수익률",
+      "한국 및 미국 시장에서 고르게 수익 발생",
+      "일부 종목은 20% 이상 고수익 달성"
+    ],
+    "loser_traps": [
+      "RS 등급이 높아도 손실이 큰 종목 존재 (ERAS 99점)",
+      "8% 손절매 규칙(EX1)에 의해 청산된 종목 다수",
+      "50일 이동평균선 이탈(EX4) 시 손실 발생",
+      "보유 기간이 짧은 종목에서 손실 발생 (0~13일)",
+      "EX6_absent 청산 종목 중 손실 발생 사례 존재",
+      "일부 종목은 진입 직후 손실 발생 (holding_days 0)"
+    ],
+    "rule_suggestions": [
+      "RS 등급 90 이상 종목에 대한 비중 확대 고려",
+      "50일 이동평균선 이탈 시 손절매 규칙 강화",
+      "초기 진입 후 10일 이내 급락 시 조기 청산 룰 추가 [가설]",
+      "에너지, 산업재, 기술 섹터 종목에 우선순위 부여",
+      "손절매 기준을 8%보다 타이트하게 조정 검토 [가설]"
+    ],
+    "model": "gemini-2.5-flash",
+    "trades_analyzed": 39
   },
   "data_status": {
     "exited_trades_count": 26,

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
-  "generated_at": "2026-05-21T00:29:57.677876+00:00",
+  "generated_at": "2026-05-22T00:41:34.463043+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 31599931392,
+    "market_cap": 30572804096,
     "shares_outstanding": 36959030,
     "employees": 23338,
     "country": "United States",
@@ -118,20 +118,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 66.5,
+    "rs_rating": 82,
+    "score": 63.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.0455,
-    "trailing_pe": 49.051212,
-    "forward_pe": 42.2772,
-    "ev_to_ebitda": 24.426,
-    "price_to_sales": 1.8607811,
+    "trailing_pe": 49.03686,
+    "forward_pe": 40.90302,
+    "ev_to_ebitda": 23.689,
+    "price_to_sales": 1.800298,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 50.92,
-    "outperform_6m_vs_nasdaq": 43.52,
-    "outperform_1m_vs_nasdaq": 0.83,
+    "outperform_1y_vs_nasdaq": 43.17,
+    "outperform_6m_vs_nasdaq": 33.46,
+    "outperform_1m_vs_nasdaq": -1.21,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -153,7 +153,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요소 중 상당수는 우리가 통제할 수 없는 부분이며, 업계 내 상당한 경쟁력 있는 가격을 고려할 때 이러한 비용을 적절하게 완화하거나 이러한 비용을 고객에게 전가하지 못할 수도 있습니다.",
+        "description": "이러한 요인 중 상당수는 우리가 통제할 수 없는 부분이며, 업계 내 상당한 경쟁력 있는 가격을 고려할 때 이러한 비용을 적절하게 완화하거나 이러한 비용을 고객에게 전달하지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
@@ -176,6 +176,6 @@
   },
   "wikipedia_summary": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of May 1, 2026, Casey's has 2,950 stores in 19 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-21T00:48:00.969007+00:00"
+    "GoogleWebTranslator": "2026-05-22T00:45:28.835552+00:00"
   }
 }

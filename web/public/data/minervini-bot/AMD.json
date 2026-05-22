@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "AMD",
-  "generated_at": "2026-05-21T00:21:07.958432+00:00",
-  "source_results_date": "2026-05-21",
+  "generated_at": "2026-05-22T00:18:48.714082+00:00",
+  "source_results_date": "2026-05-22",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.7,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 16.17%).",
-    "13주 베이스 11.6% → 13.2% → 8.1% → 12.9% → 12.2%, VDU 0.81×, pivot $469.22(-4.61%).",
+    "13주 베이스 11.6% → 13.2% → 8.1% → 12.9% → 12.2%, VDU 0.82×, pivot $469.22(-4.18%).",
     "Trend Template 8/8 통과, RS 95 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (16.17% vs 6.5%)",
-    "P3_vol_dryup (0.81× vs 0.6×)",
+    "P3_vol_dryup (0.82× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
