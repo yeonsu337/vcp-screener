@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-05-22T00:35:47.195511+00:00",
+  "generated_at": "2026-05-23T00:24:12.798310+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2863286016,
+    "market_cap": 2898051328,
     "shares_outstanding": 32040340,
     "employees": 2700,
     "country": "United States",
@@ -17,37 +17,20 @@
     "beta": 1.107
   },
   "category_a_business": {
-    "overview": "ATRO는 항공우주, 방위 및 전자 산업에 첨단 기술을 제공하는 미국 기업입니다.",
-    "milestones": [
-      "1968: 회사 설립",
-      "2019: 반도체 테스트 사업부 매각",
-      "2025: Envoy Aerospace 인수 (FAA ODA 서비스 제공)",
-      "2025: Bühler Motor Aviation (BMA) 인수 (항공기 좌석 작동 시스템)",
-      "2025: 보잉 매출 비중 10.4%"
-    ],
-    "business_model": "항공우주 및 방위 산업에 제품과 테스트 시스템을 설계, 제조하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "항공우주 제품 판매 (조명, 전력, 구조물 등)",
-      "자동화 테스트 시스템 판매 및 유지보수",
-      "시스템 인증 서비스",
-      "훈련 및 시뮬레이션 장치"
-    ],
-    "value_chain_position": "Midstream + 항공기 및 전자 산업용 부품 및 시스템을 제조하고 공급합니다.",
+    "overview": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 남미 및 전 세계의 항공우주, 방위, 전자 산업을 위한 제품을 설계 및 제조합니다. 항공우주 및 테스트 시스템이라는 두 부문으로 운영됩니다. 항공우주 부문에서는 조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조, 항공 전자 제품, 시스템 인증 및 기타 제품을 제공합니다.",
+    "business_model": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 소우 지역의 항공우주, 방위산업, 전자 산업을 위한 제품을 설계 및 제조합니다.",
     "products": [
-      "조명 및 안전 시스템",
-      "전력 생성 및 분배 시스템",
-      "항공기 구조물",
-      "항공전자 제품",
-      "자동화 테스트 시스템",
-      "좌석 작동 시스템"
+      "미국, 북미 지역, 아시아, 유럽의 항공우주, 방위산업, 전자 산업을 위한 제품",
+      "항공우주 및 테스트 시스템이라는 두 부문으로 나뉜다.",
+      "조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조"
     ],
     "channels": [
-      "B2B (항공기 OEM)",
-      "B2B (OEM 공급업체)",
-      "B2B (항공사 및 운영자)",
-      "B2B (정부 계약업체)"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도가 높음. 보잉(The Boeing Company)이 2025년 매출의 10.4%를 차지."
+    "wikipedia_excerpt": "Astronics Corporation은 1968년에 설립된 미국 항공우주 전자 회사로 뉴욕주 이스트 오로라에 본사를 두고 있습니다. NASDAQ에서는 Nasdaq: ATRO로 거래됩니다. 군용, 상업용, 비즈니스 항공기 및 반도체 테스트 시스템의 조명 및 전자 통합으로 잘 알려져 있습니다.",
+    "milestones": [
+      "1968년: , 뉴욕주 이스트 오로라에 본사를 두고 있음"
+    ]
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -148,27 +131,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 61.6,
+    "rs_rating": 88,
+    "score": 63.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.45,
-    "trailing_pe": 69.46957,
-    "forward_pe": 25.5648,
-    "ev_to_ebitda": 27.581,
-    "price_to_sales": 3.2287443,
+    "trailing_pe": 66.27869,
+    "forward_pe": 25.8752,
+    "ev_to_ebitda": 26.385,
+    "price_to_sales": 3.267947,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 119.94,
-    "outperform_6m_vs_nasdaq": 43.89,
-    "outperform_1m_vs_nasdaq": 3.3,
+    "outperform_1y_vs_nasdaq": 124.75,
+    "outperform_6m_vs_nasdaq": 47.07,
+    "outperform_1m_vs_nasdaq": 3.23,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "아래 또는 이 보고서나 기타 SEC 서류의 다른 곳에서 논의된 모든 위험은 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 영향을 미칠 수 있습니다.",
+        "description": "아래 또는 이 보고서나 기타 SEC 서류의 다른 부분에서 논의된 모든 위험은 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,7 +166,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "시장 위험 보잉의 주요 고객을 잃거나 이 고객과의 거래가 크게 감소하면 당사의 매출과 수익이 감소할 수 있습니다.",
+        "description": "시장 위험 주요 고객인 Boeing을 잃거나 이 고객과의 사업이 크게 감소하면 당사의 매출과 수익이 감소할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -206,6 +189,6 @@
   },
   "wikipedia_summary": "Astronics Corporation is an American aerospace electronics corporation founded in 1968, headquartered in East Aurora, New York. It is traded on NASDAQ as Nasdaq: ATRO. It is known for lighting and electronics integrations on military, commercial, and business aircraft and semiconductor test systems.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-22T00:44:53.646283+00:00"
+    "GoogleWebTranslator": "2026-05-23T00:43:50.094546+00:00"
   }
 }

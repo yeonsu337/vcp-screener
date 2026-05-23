@@ -1,0 +1,194 @@
+{
+  "ticker": "ATI",
+  "company": "ATI Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
+  "generated_at": "2026-05-23T00:31:27.360401+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 22147784704,
+    "shares_outstanding": 136470427,
+    "employees": 7600,
+    "country": "United States",
+    "website": "https://www.atimaterials.com",
+    "beta": 0.943
+  },
+  "category_a_business": {
+    "overview": "ATI Inc.는 전 세계적으로 특수 소재와 복합 부품을 생산 및 판매합니다. 고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 운영됩니다.",
+    "business_model": "ATI 주식회사",
+    "products": [
+      "전 세계적으로 특수 소재와 복합 부품을 판매하고 있습니다.",
+      "고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 나뉜다.",
+      "티타늄 및 티타늄 기반 합금, 니켈 및 코발트 기반 합금 및 초합금을 포함한 고성능 소재",
+      "하프늄 및 니오븀, 니켈 기반 합금, 티타늄 및 티타늄 기반 합금을 포함한 지르코늄 및 관련 합금,",
+      "탄소강 제품으로 구성된 열간 압연 전환 서비스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "ATI Inc.는 텍사스주 달라스에 본사를 둔 미국의 특수 소재 생산업체입니다. ATI는 티타늄 및 티타늄 합금, 니켈 기반 합금 및 초합금, 스테인레스 및 특수강, 지르코늄, 하프늄 및 니오븀, 텅스텐 재료, 단조품 및 주조물을 포함한 금속을 생산합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.23,
+    "roa": 0.08,
+    "profit_margin": 0.09,
+    "operating_margin": 0.16,
+    "gross_margin": 0.23,
+    "revenue_growth_ttm": 0.01,
+    "earnings_growth_ttm": 0.27,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      4587400000.0,
+      4362100000.0,
+      4173700000.0,
+      3836000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      641900000.0,
+      555900000.0,
+      474500000.0,
+      416700000.0,
+      null
+    ],
+    "annual_eps": [
+      2.85,
+      2.55,
+      2.81,
+      0.96,
+      null
+    ],
+    "annual_free_cf": [
+      333700000.0,
+      168100000.0,
+      -114800000.0,
+      94000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1749400000.0,
+      1895300000.0,
+      2179600000.0,
+      1748000000.0,
+      null
+    ],
+    "annual_equity": [
+      1804500000.0,
+      1850400000.0,
+      1373000000.0,
+      1045900000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.85,
+      0.69,
+      0.78,
+      0.7,
+      0.67,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      1151500000.0,
+      1177100000.0,
+      1125500000.0,
+      1140400000.0,
+      1144400000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 21.9,
+    "sales_yoy_pct": 0.6,
+    "ni_cagr_3y_pct": 7.72,
+    "roe_pct": 22.67
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Metal Fabrication 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 85,
+    "score": 58.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.33,
+    "trailing_pe": 53.561054,
+    "forward_pe": 30.020456,
+    "ev_to_ebitda": 27.897,
+    "price_to_sales": 4.8204994,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 76.31,
+    "outperform_6m_vs_nasdaq": 48.65,
+    "outperform_1m_vs_nasdaq": -2.45,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "위험 요소 당사의 사업에는 당사의 운영 성과와 재무 상태에 부정적인 영향을 미칠 수 있는 고유한 위험과 불확실성이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "일반적인 경제 상황의 다양한 변화는 고객이 활동하는 산업에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 변화에는 경기 침체로 인해 고객 제품의 소비율이나 사용률이 감소하는 것이 포함될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 요인으로 인해 당사의 수익성은 현재에도 그렇고 앞으로도 상당한 변동을 겪을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "주요 고객의 상실은 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "언제든지 당사는 당사가 수용할 수 있는 가격 및 기타 조건으로 시기적절하게 이러한 중요한 원자재를 적절하게 공급하지 못할 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "ATI Inc. is an American producer of specialty materials headquartered in Dallas, Texas. ATI produces metals including titanium and titanium alloys, nickel-based alloys and superalloys, stainless and specialty steels, zirconium, hafnium, and niobium, tungsten materials, forgings and castings.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-23T00:43:32.710099+00:00"
+  }
+}

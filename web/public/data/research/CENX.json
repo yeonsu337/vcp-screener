@@ -1,0 +1,149 @@
+{
+  "ticker": "CENX",
+  "company": "Century Aluminum Company",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Aluminum",
+  "generated_at": "2026-05-23T00:25:15.686100+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 6438262272,
+    "shares_outstanding": 98974047,
+    "employees": 2906,
+    "country": "United States",
+    "website": "https://centuryaluminum.com",
+    "beta": 1.916
+  },
+  "category_a_business": {
+    "overview": "Century Aluminium Company는 자회사와 함께 미국과 아이슬란드에서 1차 알루미늄과 알루미나를 생산합니다. 이 회사는 표준 등급 및 부가가치가 높은 1차 알루미늄 제품을 생산하고 있습니다. 또한 네덜란드 Vlissingen에 탄소 양극 생산 시설을 소유 및 운영하고 있습니다. 알루미늄 환원 시설 또는 제련소를 운영합니다. 자메이카의 보크사이트 채굴 및 알루미나 정제.",
+    "business_model": "Century Aluminium Company는 자회사와 함께 미국과 아이슬란드에서 1차 알루미늄과 알루미나를 생산합니다.",
+    "products": [
+      "미국과 Icel의 1차 알루미늄 및 알루미나",
+      "네덜란드 블리싱엔 탄소음극 생산시설",
+      "알루미늄 환원 시설 또는 제련소"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Century Aluminium Company는 미국에 본사를 둔 1차 알루미늄 생산업체로 켄터키, 사우스캐롤라이나, 아이슬란드에 알루미늄 공장을 두고 있습니다. 미국 최대의 1차 알루미늄 생산국입니다. 이 회사는 나스닥에 상장된 공개 기업입니다. 본사는 시카고의 One South Wacker에 있습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.32,
+    "roa": 0.05,
+    "profit_margin": 0.14,
+    "operating_margin": 0.13,
+    "gross_margin": 0.12,
+    "revenue_growth_ttm": 0.02,
+    "earnings_growth_ttm": 10.1,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      2527900000.0,
+      2220300000.0,
+      2185400000.0,
+      2777300000.0,
+      null
+    ],
+    "annual_operating_income": [
+      158100000.0,
+      108400000.0,
+      27500000.0,
+      9200000.0,
+      null
+    ],
+    "annual_eps": [
+      0.42,
+      3.29,
+      -0.47,
+      -0.15,
+      null
+    ],
+    "annual_free_cf": [
+      84800000.0,
+      -106900000.0,
+      10600000.0,
+      -60400000.0,
+      null
+    ],
+    "annual_total_debt": [
+      548300000.0,
+      528200000.0,
+      479200000.0,
+      527700000.0,
+      null
+    ],
+    "annual_equity": [
+      805600000.0,
+      694400000.0,
+      355600000.0,
+      399300000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      3.23,
+      0.02,
+      0.15,
+      -0.05,
+      0.29,
+      null
+    ],
+    "quarterly_revenue": [
+      649200000.0,
+      633700000.0,
+      632200000.0,
+      628100000.0,
+      633900000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 1036.4,
+    "sales_yoy_pct": 2.4,
+    "roe_pct": 32.26
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Basic Materials / Aluminum 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 63.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.06,
+    "trailing_pe": 19.36012,
+    "forward_pe": 6.201144,
+    "ev_to_ebitda": 23.548,
+    "price_to_sales": 2.5315595,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 272.12,
+    "outperform_6m_vs_nasdaq": 116.07,
+    "outperform_1m_vs_nasdaq": 0.86,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Century Aluminum Company is a US-based producer of primary aluminum, with aluminum plants in Kentucky, South Carolina, and Iceland. It is the largest producer of primary aluminum in the United States. The company is a publicly held corporation listed on the NASDAQ. The headquarters is at One South Wacker in Chicago.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-23T00:44:35.119071+00:00"
+  }
+}

@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "SNDK",
-  "generated_at": "2026-05-22T00:18:48.717583+00:00",
-  "source_results_date": "2026-05-22",
+  "generated_at": "2026-05-23T00:17:48.286211+00:00",
+  "source_results_date": "2026-05-23",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.71,
+  "confidence": 0.67,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 20.17%).",
-    "13주 베이스 25.5% → 14.0% → 25.2% → 28.2% → 9.4%, VDU 0.76×, pivot $1600.00(-3.61%).",
+    "13주 베이스 25.5% → 14.0% → 25.2% → 28.2% → 9.4%, VDU 0.72×, pivot $1600.00(-7.58%).",
     "Trend Template 8/8 통과, RS 99 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -24,7 +24,7 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
+    "vcp_quality_score": "2/8",
     "rs_rating": 99,
     "stage": 2,
     "base_count": 4,
@@ -49,10 +49,11 @@
   ],
   "key_failures": [
     "P2_last_contraction (20.17% vs 6.5%)",
-    "P3_vol_dryup (0.76× vs 0.6×)",
+    "P3_vol_dryup (0.72× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)"
+    "H4_ni_cagr_3y (NI CAGR 미달)",
+    "rs_line (-6.4% vs ≥-5.0%)"
   ],
   "warnings": [
     "베이스 카운트 4 — 후기 베이스, 실패율 상승",

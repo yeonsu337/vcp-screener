@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-05-22T00:30:31.642183+00:00",
+  "generated_at": "2026-05-23T00:21:36.625943+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 5510874112,
+    "market_cap": 5422835200,
     "shares_outstanding": 88928099,
     "employees": 216,
     "country": "United States",
@@ -17,16 +17,30 @@
     "beta": 0.416
   },
   "category_a_business": {
-    "overview": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다. 회사의 주요 제품 후보로는 폐동맥고혈압(PAH) 및 간질성 폐질환과 관련된 폐고혈압(PH-ILD) 치료를 위한 트레프로스티닐의 흡입 건조 분말 제제인 YUTREPIA가 있습니다. 또한 지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사제인 레모듈린(Remodulin)도 제공합니다. tr의 연구용 리포솜 제형인 L606을 개발합니다.",
-    "business_model": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다.",
+    "overview": "희귀 심폐 질환 치료제를 개발, 제조, 판매하는 바이오 제약 회사입니다.",
+    "milestones": [
+      "2018: Sandoz와 제네릭 트레프로스티닐 주사제 판매 촉진 계약 체결",
+      "2025년 5월: YUTREPIA, 미국 FDA 승인",
+      "2025년 6월: YUTREPIA 상업화 시작",
+      "미정: L606, PAH 및 PH-ILD 치료를 위한 임상 3상 진행 중",
+      "미정: YUTREPIA, PH-COPD 등 추가 적응증 임상 연구 계획"
+    ],
+    "business_model": "희귀 심폐 질환 치료제 개발 및 판매, 제네릭 의약품 공동 판매로 수익 창출",
+    "revenue_streams": [
+      "YUTREPIA 판매",
+      "Sandoz 제네릭 트레프로스티닐 주사제 판매 이익 공유"
+    ],
+    "value_chain_position": "Midstream + 의약품 연구 개발, 제조 및 상업화에 집중합니다.",
     "products": [
-      "지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사인 레모듈린(Remodulin)",
-      "L606은 임상 3상 시험 중인 트레프로스티닐의 연구용 리포솜 제제입니다.",
-      "크기를 정밀하게 제어하여 균일한 약물 입자를 설계 및 제조할 수 있는 PRINT 기술"
+      "YUTREPIA (트레프로스티닐 흡입 건조 분말)",
+      "트레프로스티닐 주사제 (Sandoz 제네릭)",
+      "L606 (트레프로스티닐 리포솜 제형, 개발 중)"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (의료기관, 유통업체)",
+      "직접 판매 조직 (의료 전문가 대상)"
+    ],
+    "key_customers": "특정 질환(PAH, PH-ILD) 환자를 치료하는 의료기관 및 의료 전문가에 집중"
   },
   "category_b_financials": {
     "roe": 0.28,
@@ -118,72 +132,144 @@
     "roe_pct": 28.18
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "PAH 및 PH-ILD 시장 규모는 직접적으로 명시되어 있지 않으나, PAH의 미국 내 진단 및 치료 유병률이 약 45,000명으로 추정되며, 희귀 질환임을 감안할 때 전체 시장 규모는 수십억 달러 규모로 추정됩니다. (출처: 10-K Business Overview)",
+    "tam_cagr_pct": "5-10% (estimate). PAH 및 PH-ILD는 만성 진행성 질환으로 지속적인 치료가 필요하며, 새로운 치료법 개발 및 진단율 개선으로 시장이 꾸준히 성장할 것으로 예상됩니다. 특히 PH-ILD는 미충족 수요가 높은 분야입니다.",
+    "growth_drivers": [
+      "YUTREPIA의 PAH 및 PH-ILD 치료제로서의 상업화 확대 및 시장 침투율 증가",
+      "Sandoz와의 제네릭 트레프로스티닐 주사제(Treprostinil Injection) 판매를 통한 안정적인 수익 창출 및 시장 점유율 유지",
+      "L606 (리포좀 트레프로스티닐) 개발 및 임상 시험 성공을 통한 새로운 치료 옵션 제공",
+      "YUTREPIA의 PH-COPD, IPF, PPF, SSc-RP 등 추가 적응증 확대를 위한 임상 연구 진행"
+    ],
+    "market_share_pct": "초기 상업화 단계로 정확한 시장점유율은 명시되어 있지 않으나, YUTREPIA는 2025년 5월 승인 및 6월 상업화 시작으로 현재 시장점유율은 낮을 것으로 예상됩니다. (estimate)",
+    "competitors": [
+      {
+        "name": "United Therapeutics Corporation",
+        "differentiation": "트레프로스티닐 계열의 선두 주자로 다양한 제형(흡입, 주사, 경구)의 제품을 보유하고 있으며, 오랜 시장 경험과 광범위한 판매망을 가지고 있습니다."
+      },
+      {
+        "name": "Johnson & Johnson (Actelion)",
+        "differentiation": "PAH 치료제 시장에서 강력한 입지를 가지고 있으며, 다양한 기전의 치료제를 보유하고 있습니다."
+      },
+      {
+        "name": "Gilead Sciences",
+        "differentiation": "PAH 치료제 시장에서 특정 제품(예: Letairis)으로 경쟁하고 있습니다."
+      },
+      {
+        "name": "Sandoz Inc. (제네릭 트레프로스티닐 주사제 파트너)",
+        "differentiation": "Liquidia의 제네릭 트레프로스티닐 주사제 파트너이지만, 다른 제네릭 의약품으로도 경쟁할 수 있습니다."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium. 희귀 질환 치료제 개발은 높은 R&D 비용과 규제 장벽이 있지만, 미충족 수요가 높은 분야이므로 잠재적 신규 진입자가 존재할 수 있습니다.",
+      "substitutes": "medium. 트레프로스티닐 계열 내 다양한 제형의 제품들이 존재하며, 다른 기전의 PAH/PH-ILD 치료제도 대체재로 작용할 수 있습니다.",
+      "buyer_power": "medium. 보험사 및 정부 기관의 약가 협상력이 존재하며, 환자들은 치료 옵션에 따라 선택권이 있습니다.",
+      "supplier_power": "low. 원료의약품 공급처가 다양하거나 대체 가능성이 있어 공급자 교섭력은 낮은 편입니다.",
+      "rivalry": "high. PAH/PH-ILD 시장은 소수의 대형 제약사들이 경쟁하며, 유사한 기전의 제품들이 많아 경쟁 강도가 높습니다."
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+      "PRINT 기술을 활용한 YUTREPIA의 우수한 약물 전달 효율성 및 편리한 DPI 제형",
+      "PAH 및 PH-ILD 동시 적응증 승인으로 넓은 치료 범위 확보",
+      "Sandoz와의 제네릭 트레프로스티닐 주사제 판매를 통한 안정적인 수익원 및 시장 접근성",
+      "L606 등 파이프라인 확장을 통한 미래 성장 동력 확보 및 미충족 의료 수요 해결 노력"
+    ],
+    "competitive_weaknesses": [
+      "PAH/PH-ILD 시장 내 후발 주자로서 기존 경쟁사 대비 낮은 시장 인지도 및 점유율",
+      "YUTREPIA 상업화 초기 단계로 인한 매출 및 수익성 불확실성",
+      "단일 제품(YUTREPIA) 및 제네릭 제품에 대한 높은 매출 의존도",
+      "L606 등 파이프라인 개발의 성공 여부에 대한 불확실성 및 높은 R&D 비용"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 94,
-    "score": 70.2,
+    "score": 68.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 364.52942,
-    "forward_pe": 11.12168,
-    "ev_to_ebitda": 117.376,
-    "price_to_sales": 19.130663,
+    "trailing_pe": 358.70587,
+    "forward_pe": 10.944006,
+    "ev_to_ebitda": 115.488,
+    "price_to_sales": 18.82504,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 226.75,
-    "outperform_6m_vs_nasdaq": 87.99,
-    "outperform_1m_vs_nasdaq": 60.58,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 226.44,
+    "outperform_6m_vs_nasdaq": 88.98,
+    "outperform_1m_vs_nasdaq": 54.99,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "YUTREPIA는 독점적인 PRINT 기술을 활용하여 균일한 약물 입자를 정밀하게 생산, 심부 폐 전달을 향상시키고 편리한 DPI를 통해 고용량 투여를 가능하게 합니다.",
+      "Sandoz와의 프로모션 계약을 통해 제네릭 트레프로스티닐 주사제의 미국 내 판매 이익을 공유하며, 상업 활동에 대한 독점적 권리를 보유하고 있습니다.",
+      "L606 (트레프로스티닐 리포솜 제형) 및 YUTREPIA의 PH-COPD, IPF 등 추가 적응증 개발을 통해 파이프라인을 확장하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "YUTREPIA의 PAH 및 PH-ILD 치료제 FDA 승인 및 상업화 개시 (2025년 5월/6월)",
+    "bull_case": "YUTREPIA 시장 침투 가속화 및 L606 임상 성공으로 매출 및 이익 급증, 시장 지배력 강화.",
+    "base_case": "YUTREPIA의 PAH 및 PH-ILD 시장 점유율 점진적 확대, Sandoz 제네릭 주사제 이익 공유 지속, L606 임상 개발 순항.",
+    "bear_case": "YUTREPIA 경쟁 심화 및 시장 침투 부진, L606 임상 실패 또는 개발 지연, 규제 문제 발생으로 성장 동력 상실.",
+    "key_metrics_to_watch": [
+      "YUTREPIA 매출 성장률",
+      "L606 임상 개발 마일스톤",
+      "순이익률 (NPM)",
+      "연구개발(R&D) 투자 효율성"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "아래에 설명된 사건이나 상황이 발생하면 당사의 비즈니스, 재무 상태, 운영 결과 및 성장 전망에 해를 끼칠 수 있습니다.",
+        "category": "규제",
+        "description": "YUTREPIA의 FDA 승인 유지 및 L606의 최종 마케팅 승인 획득에 실패하거나 상업화에 성공하지 못할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "United Therapeutics와의 특허 침해 및 영업 비밀 유용 소송으로 인해 YUTREPIA 판매 중단 또는 막대한 손해 배상 책임이 발생할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "제품 생산을 위한 충분한 양의 원료 및 의료 기기 공급에 차질이 생겨 상업적 수요를 충족하지 못할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
+        "category": "재무",
+        "description": "YUTREPIA 상업화 및 기타 파이프라인 개발에 상당한 비용이 발생하며, 미래 운영 자금 조달 능력이 불확실합니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "대형 제약회사들과의 경쟁에서 효과적으로 경쟁하지 못하거나 경쟁사 제품이 YUTREPIA보다 우월한 경우 영업 실적이 악화될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업 운영에 영향을 미칠 수 있습니다.",
+        "category": "재무",
+        "description": "지속적인 손실 기록으로 인해 미래 수익성 확보가 불확실하며, 추가 자금 조달이 어려울 경우 사업 운영에 차질이 발생할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "전임상 및 임상 시험이 성공적이지 못하거나 지연될 경우 제품 상업화 능력이 저해되고 비용이 증가할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "당사는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "이러한 공급이 중단될 경우 당사의 YUTREPIA 및/또는 L606 개발 및 상용화 능력과 상용화 일정에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "필요한 경우 자금을 확보할 수 없는 경우 당사의 재정 상태와 비즈니스 전략을 추구하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "공급망",
+        "description": "YUTREPIA 및 L606의 활성 성분, 장치, 캡슐화 및 포장을 단일 공급업체에 의존하여 공급 중단 시 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "United Therapeutics와의 소송에서 패소하여 YUTREPIA 판매가 영구적으로 금지되고 막대한 손해 배상금을 지불하게 되는 경우.",
+      "YUTREPIA의 시장 수용도가 낮거나 경쟁사 제품에 밀려 매출이 저조하고, 추가 자금 조달에 실패하여 운영 자금이 고갈되는 경우.",
+      "주요 제품인 YUTREPIA 및 L606의 임상 시험이 실패하거나 규제 승인을 받지 못하여 상업화가 불가능해지는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "United Therapeutics와의 소송에서 YUTREPIA 판매 금지 또는 상당한 손해 배상 명령이 확정되는 경우.",
+      "YUTREPIA의 분기별 매출이 시장 기대치를 크게 하회하거나 지속적으로 감소하는 추세를 보이는 경우.",
+      "L606의 임상 3상 시험 결과가 통계적으로 유의미한 효능을 입증하지 못하거나 심각한 부작용이 발견되는 경우.",
+      "회사가 추가 자금 조달에 실패하여 운영 자금 부족으로 인해 주요 파이프라인 개발 또는 상업화 계획을 중단한다고 발표하는 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-22T00:48:05.374976+00:00"
+    "GoogleWebTranslator": "2026-05-23T00:45:49.925806+00:00"
   }
 }

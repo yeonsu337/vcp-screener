@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Airlines",
-  "generated_at": "2026-05-22T00:38:51.324560+00:00",
+  "generated_at": "2026-05-23T00:33:31.098691+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 49701625856,
+    "market_cap": 50023550976,
     "shares_outstanding": 656994340,
     "employees": 103000,
     "country": "United States",
@@ -38,7 +38,7 @@
     "gross_margin": 0.2,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.01,
+    "dividend_yield": 0.99,
     "payout_ratio": 0.1,
     "annual_revenue": [
       63364000000.0,
@@ -129,20 +129,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 54.9,
+    "rs_rating": 72,
+    "score": 55.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.21,
-    "trailing_pe": 10.822604,
-    "forward_pe": 9.407227,
-    "ev_to_ebitda": 8.332,
-    "price_to_sales": 0.76255214,
+    "trailing_pe": 11.115329,
+    "forward_pe": 9.468159,
+    "ev_to_ebitda": 8.501,
+    "price_to_sales": 0.76749134,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 15.82,
-    "outperform_6m_vs_nasdaq": 15.92,
-    "outperform_1m_vs_nasdaq": 4.24,
+    "outperform_1y_vs_nasdaq": 20.04,
+    "outperform_6m_vs_nasdaq": 17.85,
+    "outperform_1m_vs_nasdaq": 3.86,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -167,6 +167,6 @@
   },
   "wikipedia_summary": "Delta Air Lines, Inc. is a major airline in the United States headquartered in Atlanta, Georgia, operating nine hubs, with Hartsfield–Jackson Atlanta International Airport being its largest in terms of total passengers and number of departures. With its regional subsidiaries and contractors operating under the brand name Delta Connection, Delta has over 5,400 flights daily and serves 325 destinations in 52 countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-22T00:46:37.713377+00:00"
+    "GoogleWebTranslator": "2026-05-23T00:45:06.445021+00:00"
   }
 }

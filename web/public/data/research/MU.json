@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-22T00:23:44.655853+00:00",
+  "generated_at": "2026-05-23T00:19:07.161865+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 859446050816,
+    "market_cap": 846928216064,
     "shares_outstanding": 1127734051,
     "employees": 53000,
     "country": "United States",
@@ -21,34 +21,33 @@
     "milestones": [
       "1978: 아이다호주 보이시에서 설립",
       "1984: 첫 DRAM 제품 출시",
-      "1990: NAND 플래시 기술 개발 시작",
-      "2000년대 초: 주요 메모리 제조사로 성장",
-      "2013: 엘피다 메모리 인수, 시장 점유율 확대",
-      "2025: 1γ DRAM 생산 노드 및 EUV 리소그래피 도입"
+      "1990: NASDAQ 상장",
+      "1998: Texas Instruments의 메모리 사업부 인수",
+      "2012: Elpida Memory 인수 (DRAM 시장 점유율 확대)",
+      "2013: Rexchip Electronics 지분 인수 및 IM Flash Technologies 완전 소유",
+      "2025: 1γ (1-gamma) DRAM 생산 노드 출하 시작"
     ],
     "business_model": "메모리 및 스토리지 제품을 개발, 제조, 판매하여 수익을 창출합니다.",
     "revenue_streams": [
       "DRAM 제품 판매",
       "NAND 플래시 제품 판매",
       "SSD (솔리드 스테이트 드라이브) 판매",
-      "HBM (고대역폭 메모리) 판매",
-      "NOR 플래시 및 기타 메모리 솔루션"
+      "MCP (멀티칩 패키지) 판매",
+      "NOR 플래시 판매"
     ],
-    "value_chain_position": "Upstream / midstream + 반도체 메모리 및 스토리지 제품의 설계, 제조, 판매를 아우르는 통합 사업자입니다.",
+    "value_chain_position": "Upstream / midstream + 반도체 메모리 및 스토리지 제품의 설계, 제조, 판매를 모두 수행합니다.",
     "products": [
-      "DRAM (동적 랜덤 액세스 메모리)",
-      "NAND 플래시 (비휘발성 메모리)",
-      "SSD (솔리드 스테이트 드라이브)",
-      "HBM (고대역폭 메모리)",
-      "MCP (멀티칩 패키지)",
+      "DRAM(동적 랜덤 액세스 메모리)",
+      "NAND 플래시 (Flash Memory)",
+      "SSD(솔리드 스테이트 드라이브)",
+      "HBM(고대역폭 메모리)",
       "NOR 플래시"
     ],
     "channels": [
-      "B2B (기업 간 거래)",
-      "OEM (주문자 상표 부착 생산)",
-      "도매 (Crucial 브랜드)"
+      "B2B (클라우드, 데이터센터, 모바일, 클라이언트, 자동차, 산업 고객 대상)",
+      "Crucial 브랜드 통한 소비자 판매"
     ],
-    "key_customers": "주로 클라우드, 데이터센터, 모바일, PC, 자동차, 산업용 고객에게 제품을 공급하며, 특정 고객에 대한 매출 집중도는 공개되지 않았습니다."
+    "key_customers": "주요 고객은 하이퍼스케일 클라우드, 데이터센터, 모바일 기기 제조사, PC OEM, 자동차 및 산업용 고객입니다."
   },
   "category_b_financials": {
     "roe": 0.4,
@@ -139,72 +138,143 @@
     "roe_pct": 39.82
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 $160B (2024년 추정치, DRAM 및 NAND 시장 합산)",
+    "tam_cagr_pct": "10-15% (향후 3~5년) - AI, 데이터센터, 자동차 및 엣지 컴퓨팅의 폭발적인 성장이 고성능 메모리 및 스토리지 수요를 견인할 것으로 예상됨. 특히 HBM과 같은 고부가가치 제품의 성장이 두드러질 것.",
+    "growth_drivers": [
+      "AI 및 데이터센터 수요 증가: AI 학습 및 추론을 위한 고성능 DRAM(HBM 포함) 및 고밀도 스토리지 수요 급증",
+      "자동차 및 산업용 시장 성장: 자율주행, 인포테인먼트 시스템 및 산업용 IoT 기기의 메모리 및 스토리지 탑재량 증가",
+      "모바일 및 클라이언트 기기 고도화: 스마트폰, PC 등 기기의 성능 향상 및 새로운 기능 추가로 인한 고용량, 고성능 메모리 필요성 증대",
+      "기술 리더십 및 R&D 투자: 지속적인 공정 미세화 및 신제품 개발을 통한 경쟁 우위 확보",
+      "다각화된 제품 포트폴리오: DRAM, NAND, NOR 등 다양한 메모리 기술과 컴포넌트, 모듈, SSD 등 다양한 형태의 제품 제공"
+    ],
+    "market_share_pct": "DRAM: 25~30%(추정), NAND: 10~15%(추정)",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "differentiation": "DRAM, NAND 시장의 압도적인 점유율을 가진 선두 주자이자 종합 반도체 기업. 수직 통합된 제조 역량과 광범위한 제품 포트폴리오를 보유."
+      },
+      {
+        "name": "SK Hynix",
+        "differentiation": "DRAM, 특히 HBM 시장에서 강력한 경쟁력을 가진 기업. 기술 리더십과 고성능 메모리 솔루션에 집중."
+      },
+      {
+        "name": "Kioxia (구 Toshiba Memory)",
+        "differentiation": "NAND 플래시 메모리 시장의 주요 플레이어 중 하나. BiCS FLASH와 같은 3D NAND 기술에 강점."
+      },
+      {
+        "name": "Western Digital",
+        "differentiation": "NAND 플래시 메모리 및 HDD 시장의 주요 기업. Kioxia와의 합작 투자를 통해 NAND 기술 개발 및 생산."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - 반도체 제조는 막대한 초기 투자 비용, 고도의 기술력, 복잡한 지적 재산권이 필요하여 신규 진입 장벽이 매우 높음.",
+      "substitutes": "low - DRAM, NAND 등 메모리 및 스토리지 솔루션은 현대 컴퓨팅 시스템의 필수 불가결한 요소로, 이를 완전히 대체할 수 있는 기술은 현재로서는 제한적임.",
+      "buyer_power": "medium - 대형 고객사(하이퍼스케일 클라우드, OEM)는 대량 구매력을 바탕으로 가격 협상력이 있으나, 특정 고성능 메모리(HBM)의 경우 공급 부족으로 인해 구매자 협상력이 약화될 수 있음.",
+      "supplier_power": "medium - 웨이퍼, 특수 화학물질, 장비 등 핵심 원자재 및 장비 공급업체는 제한적이며, 이들의 기술력과 공급 안정성이 중요하나, Micron 또한 대규모 구매자로서 일정 수준의 협상력을 가짐.",
+      "rivalry": "high - 삼성, SK하이닉스 등 소수의 대형 기업들이 시장을 지배하며, 기술 개발 경쟁, 가격 경쟁, 생산 능력 확장을 통한 치열한 시장 점유율 경쟁이 상시적으로 발생함."
+    },
     "competitive_advantages": [
-      "Technology / Semiconductors 카테고리 — yfinance peer 비교 권장"
+      "기술 리더십 및 R&D 투자: 지속적인 제품 및 공정 기술 개발(비트 밀도 증가, 성능 향상, 전력 소비 감소)을 통해 경쟁 우위 확보.",
+      "다각화된 제품 포트폴리오: DRAM, NAND, NOR 등 다양한 메모리 기술과 컴포넌트, 모듈, SSD 등 다양한 형태의 제품을 제공하여 시장 변화에 유연하게 대응.",
+      "글로벌 제조 및 운영 효율성: 전 세계 제조 센터 네트워크를 통해 규모의 경제를 실현하고, 효율적인 생산 및 공급망 관리.",
+      "수직 통합된 비즈니스 모델: R&D부터 제조, 백엔드 공정까지 통합하여 제품 개발 주기 단축 및 비용 효율성 증대.",
+      "전략적 시장 집중: 클라우드, 데이터센터, 모바일, 자동차 등 성장 잠재력이 높은 핵심 시장에 대한 맞춤형 솔루션 제공."
+    ],
+    "competitive_weaknesses": [
+      "시장 주기성 및 가격 변동성: 메모리 시장은 수요와 공급에 따라 가격 변동성이 매우 커 실적 예측 및 안정적인 수익 확보에 어려움이 있음.",
+      "경쟁 심화: 삼성, SK하이닉스 등 강력한 경쟁사들과의 치열한 기술 및 가격 경쟁에 직면.",
+      "대규모 자본 지출 부담: 첨단 공정 개발 및 생산 능력 확대를 위해 막대한 R&D 및 CAPEX 투자가 지속적으로 필요.",
+      "특정 고객 의존도: 대형 클라우드 고객 및 OEM에 대한 매출 의존도가 높아, 이들 고객의 구매 정책 변화에 취약할 수 있음.",
+      "규제 및 지정학적 위험: 글로벌 공급망을 운영함에 따라 무역 분쟁, 수출 규제 등 지정학적 위험 및 규제 불확실성에 노출."
     ]
   },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 72.1,
+    "score": 70.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.2522,
-    "trailing_pe": 34.609444,
-    "forward_pe": 7.4178343,
-    "ev_to_ebitda": 23.25,
-    "price_to_sales": 14.787695,
+    "peg_ratio": 0.2626,
+    "trailing_pe": 35.441246,
+    "forward_pe": 7.309794,
+    "ev_to_ebitda": 22.909,
+    "price_to_sales": 14.572312,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 641.37,
-    "outperform_6m_vs_nasdaq": 216.59,
-    "outperform_1m_vs_nasdaq": 49.7,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 645.89,
+    "outperform_6m_vs_nasdaq": 215.94,
+    "outperform_1m_vs_nasdaq": 48.1,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Micron은 혁신적인 메모리 및 스토리지 솔루션 분야의 업계 리더로서, AI 및 컴퓨팅 집약적 애플리케이션 발전을 가능하게 하는 독점적인 제품 및 공정 기술 개발에 지속적으로 투자하고 있습니다.",
+      "회사는 고성능 DRAM, NAND, NOR 메모리 및 스토리지 제품의 풍부한 포트폴리오를 Micron® 및 Crucial® 브랜드로 제공하며, 이는 강력한 브랜드 인지도와 기술 리더십을 반영합니다.",
+      "글로벌 제조 우수 센터 네트워크를 통해 규모의 이점을 활용하고 공정을 간소화하며, 세계 최고 수준의 인재를 모아 최첨단 메모리 기술을 개발하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 및 데이터 센터 수요 증가에 따른 HBM(고대역폭 메모리) 시장 확대",
+    "bull_case": "AI 가속화로 HBM 및 고성능 메모리 수요 폭증, 마이크론의 기술 리더십이 시장 점유율 확대 및 수익성 개선을 견인할 것입니다.",
+    "base_case": "AI 및 데이터 센터 시장의 견고한 성장에 힘입어 메모리 수요가 꾸준히 증가하고, 마이크론은 기술 혁신과 효율적인 생산을 통해 시장 지위를 유지하며 안정적인 성장을 이룰 것입니다.",
+    "bear_case": "글로벌 경기 침체 심화로 인한 IT 지출 감소, 과도한 경쟁으로 인한 가격 하락, 또는 기술 개발 지연으로 시장 점유율이 하락하여 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "HBM 매출 성장률",
+      "DRAM 및 NAND ASP(평균 판매 가격)",
+      "R&D 투자 대비 신제품 출시 및 시장 반응",
+      "재고 수준 및 재고 회전율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 요인 중 하나라도 당사의 사업, 운영 결과, 재무 상태 또는 주가에 중대한 악영향을 미칠 수 있습니다.",
+        "category": "경쟁",
+        "description": "반도체 메모리 및 스토리지 제품의 평균 판매 가격 변동성이 매우 커서 수익성에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "제조 공정 개선을 통한 기가비트당 제조 비용 절감 능력에 따라 총 마진이 크게 좌우되며, 이는 다양한 요인으로 인해 저해될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "우리는 평균 판매 가격의 상당한 변동성을 경험해 왔으며 앞으로도 이러한 변동성을 계속 경험할 수 있습니다.",
+        "category": "공급망",
+        "description": "재료, 공급품, 전력, 가스, 물 및 자본 설비의 가용성 및 품질 문제 또는 제3자 서비스 제공업체에 대한 의존성은 생산에 차질을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "일부 이전 기간에는 당사 제품의 평균 판매 가격이 제조 비용보다 낮았으며 향후에도 그러한 상황이 발생할 수 있습니다.",
+        "category": "거시",
+        "description": "지역 또는 전 세계 경제의 침체 또는 지속적인 불리한 조건은 당사의 사업 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁이 치열한 산업에서 새로운 경쟁력 있는 메모리 및 스토리지 기술과 제품을 개발하고 생산하는 능력이 중요합니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "향후 평균 판매 가격이 크게 하락할 경우 당사의 사업, 운영 결과 또는 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "category": "규제",
+        "description": "정부의 관세, 무역 제한 및/또는 무역 규제와 같은 조치 및 준수 요구 사항은 사업 운영에 상당한 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "많은 요인으로 인해 생산량이 감소하거나 생산량 증가가 지연될 수 있으며, 이는 과거에도 그랬고 앞으로도 생산 자산의 활용도 저하로 이어질 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "생산을 간소화하고 용량을 최첨단 노드로 전환함에 따라 고객 요구를 충족하고 시장 범위를 유지하는 능력에 영향을 미칠 수 있는 실행 위험에 직면하게 됩니다.",
-        "severity": "medium"
+        "category": "고객집중도",
+        "description": "특정 고객, 특히 해외 고객 및 최종 시장에 대한 의존도는 시장 변동성에 대한 취약성을 증가시킵니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "반도체 시장의 장기적인 공급 과잉과 수요 감소로 인해 평균 판매 가격이 지속적으로 제조 원가 이하로 떨어져 대규모 손실이 발생하고 자금 조달이 불가능해집니다.",
+      "핵심 기술 개발에 실패하거나 경쟁사보다 뒤처져 시장 점유율을 급격히 잃고 수익성이 악화되어 사업을 지속할 수 없게 됩니다.",
+      "주요 제조 시설이 자연재해, 지정학적 사건 또는 심각한 사이버 공격으로 인해 장기간 운영이 중단되어 생산 능력을 상실하고 고객 신뢰를 잃게 됩니다.",
+      "주요 정부의 강력한 무역 제재 또는 규제 강화로 인해 핵심 시장 접근이 차단되거나 공급망이 붕괴되어 사업 모델이 근본적으로 훼손됩니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "DRAM 및 NAND 평균 판매 가격이 2분기 연속 20% 이상 하락하고, 회사의 총 마진이 마이너스로 전환됩니다.",
+      "경쟁사들이 새로운 세대의 메모리 기술을 상용화하는 데 성공했음에도 불구하고 MU가 1년 이상 해당 기술을 대량 생산하지 못합니다.",
+      "주요 고객사(예: 상위 3개 고객) 중 한 곳 이상이 MU와의 거래를 상당 부분 축소하거나 중단하고, 이에 대한 대체 수요를 확보하지 못합니다.",
+      "미국 또는 중국 정부가 MU의 핵심 시장에 대한 수출입을 심각하게 제한하는 새로운 규제를 발표하여 매출의 20% 이상이 직접적인 영향을 받습니다."
     ]
   },
   "wikipedia_summary": "Micron Technology, Inc. is an American multinational semiconductor company that manufactures computer memory and computer data storage products, including dynamic random-access memory (DRAM), flash memory, and solid-state drives (SSDs). Founded in 1978 in Boise, Idaho, Micron is the only major American computer memory manufacturer. It is one of the “Big Three” computer memory manufacturers, together with the South Korean companies Samsung Electronics and SK Hynix.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-22T00:48:22.035946+00:00"
+    "GoogleWebTranslator": "2026-05-23T00:45:57.005385+00:00"
   }
 }

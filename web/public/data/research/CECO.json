@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Pollution & Treatment Controls",
-  "generated_at": "2026-05-14T02:07:40.916881+00:00",
+  "generated_at": "2026-05-23T00:41:46.420916+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2982483968,
+    "market_cap": 2931185408,
     "shares_outstanding": 35873031,
     "employees": 1540,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.525
   },
   "category_a_business": {
-    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션 분야의 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
+    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션에 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
     "business_model": "(주)씨이코환경",
     "products": [
       "Unite의 산업용 공기질, 산업용 수처리 및 에너지 전환 솔루션의 핵심 솔루션",
@@ -126,27 +126,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 52.1,
+    "rs_rating": 87,
+    "score": 50.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.88,
-    "trailing_pe": 213.17949,
-    "forward_pe": 36.983986,
-    "ev_to_ebitda": 37.441,
-    "price_to_sales": 3.7113898,
+    "trailing_pe": 215.02632,
+    "forward_pe": 36.347866,
+    "ev_to_ebitda": 36.845,
+    "price_to_sales": 3.6475542,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 182.75,
-    "outperform_6m_vs_nasdaq": 41.17,
-    "outperform_1m_vs_nasdaq": 14.15,
+    "outperform_1y_vs_nasdaq": 160.27,
+    "outperform_6m_vs_nasdaq": 44.25,
+    "outperform_1m_vs_nasdaq": 18.3,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요소의 변화는 당사의 전체 매출총이익률에 중대한 영향을 미칠 수 있습니다.",
+        "description": "이러한 요인의 변화는 당사의 전체 매출총이익률에 중대한 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -159,6 +159,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-22T00:45:50.048609+00:00"
+    "GoogleWebTranslator": "2026-05-23T00:44:28.358705+00:00"
   }
 }

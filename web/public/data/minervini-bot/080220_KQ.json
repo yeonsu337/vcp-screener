@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "080220.KQ",
-  "generated_at": "2026-05-22T00:18:48.726363+00:00",
-  "source_results_date": "2026-05-22",
+  "generated_at": "2026-05-23T00:17:48.292793+00:00",
+  "source_results_date": "2026-05-23",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.62,
   "lines": [
-    "추격 위험 — Pivot ₩61900.00 대비 +90.3%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 12.3% → 15.7% → 33.3% → 11.0% → 14.4%, VDU 2.19× — setup 자체는 유효.",
+    "추격 위험 — Pivot ₩61900.00 대비 +91.8%, buy zone 초과, 베이스 카운트 4.",
+    "13주 베이스 12.3% → 15.7% → 33.3% → 11.0% → 14.4%, VDU 1.82× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 98로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (14.38% vs 6.5%)",
-    "P3_vol_dryup (2.19× vs 0.6×)",
+    "P3_vol_dryup (1.82× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

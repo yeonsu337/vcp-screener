@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "ULS",
-  "generated_at": "2026-05-22T00:18:48.719809+00:00",
-  "source_results_date": "2026-05-22",
+  "generated_at": "2026-05-23T00:17:48.289214+00:00",
+  "source_results_date": "2026-05-23",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.8,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $107.54 근접(-4.84%).",
-    "13주 베이스 7.9% → 7.1% → 9.4% → 8.1% → 12.5% 수축, VDU 0.77× 진행.",
-    "Trend Template 8/8 통과, RS 76, RS 라인 신고가 -4.8%.",
+    "매수 대기 — Stage 2 진입, pivot $107.54 근접(-4.36%).",
+    "13주 베이스 7.9% → 7.1% → 9.4% → 8.1% → 12.5% 수축, VDU 0.81× 진행.",
+    "Trend Template 8/8 통과, RS 76, RS 라인 신고가 -4.7%.",
     "$107.54 돌파 시 매수·-7% 손절($100.01)·+20%($129.05) 절반 익절."
   ],
   "action": {
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (12.49% vs 6.5%)",
-    "P3_vol_dryup (0.77× vs 0.6×)",
+    "P3_vol_dryup (0.81× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
