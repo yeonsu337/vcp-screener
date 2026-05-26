@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "131970.KQ",
-  "generated_at": "2026-05-23T00:17:48.298992+00:00",
-  "source_results_date": "2026-05-23",
+  "generated_at": "2026-05-26T00:11:43.618574+00:00",
+  "source_results_date": "2026-05-26",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.67,
@@ -51,7 +51,7 @@
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-8.4% vs ≥-5.0%)"
+    "rs_line (-8.2% vs ≥-5.0%)"
   ],
   "warnings": [
     "베이스 카운트 4 — 후기 베이스, 실패율 상승",

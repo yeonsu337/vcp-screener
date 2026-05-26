@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T00:14:16.092579+00:00",
+  "updated_at": "2026-05-26T00:11:31.822969+00:00",
   "total_candidates": 331,
   "vcp_detected": 1,
   "min_rs": 70,
@@ -43,14 +43,14 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": true,
-          "value": 1.0102,
+          "value": 1.009,
           "threshold": 1.0,
           "note": ""
         },
         "MD2_idx_sma50_rising_21d": {
           "name": "Index 50d SMA rising 17d",
           "passed": false,
-          "value": 4.0,
+          "value": 5.0,
           "threshold": 17.0,
           "note": ""
         }
@@ -63,7 +63,7 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": true,
-          "value": 1.1374,
+          "value": 1.1404,
           "threshold": 1.0,
           "note": ""
         },
@@ -79,5 +79,5 @@
       "direction_total": 2
     }
   },
-  "runtime_sec": 1086.1
+  "runtime_sec": 765.2
 }

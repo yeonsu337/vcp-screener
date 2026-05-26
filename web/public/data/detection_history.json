@@ -57,7 +57,7 @@
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 13,
+    "soft_gate_streak": 0,
     "max_return_pct": 33.49,
     "peak_price": 781.38,
     "return_pct": 23.59,
@@ -74,7 +74,7 @@
     "current_price": 70.99,
     "current_score": 84.9,
     "rs_rating": 87,
-    "exited": false,
+    "exited": true,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
@@ -83,7 +83,12 @@
     "peak_price": 73.88,
     "return_pct": -3.79,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exit_date": "2026-05-26",
+    "exit_price": 70.99,
+    "exit_reasons": [
+      "EX4 50d MA break (close 70.99 < SMA50 71.39, vol 1.6×)"
+    ]
   },
   "EIX": {
     "first_detected": "2026-04-11",
@@ -281,14 +286,19 @@
     "market": "US",
     "company": "Baker Hughes Co",
     "last_seen": "2026-05-23",
-    "current_price": 69.01,
+    "current_price": 66.06,
     "current_score": 76.7,
     "rs_rating": 75,
     "exited": false,
-    "soft_gate_streak": 3,
+    "soft_gate_streak": 0,
     "stage": 2,
     "re_entry_date": "2026-05-23",
-    "re_entry_reason": "soft-gate streak 3d · Stage 2 + RS≥70 (was: absent 24d (limit 10d))"
+    "re_entry_reason": "soft-gate streak 3d · Stage 2 + RS≥70 (was: absent 24d (limit 10d))",
+    "max_return_pct": 5.14,
+    "peak_price": 66.06,
+    "return_pct": 5.14,
+    "profit_signal_partial": false,
+    "profit_signal_full": false
   },
   "024800.KQ": {
     "first_detected": "2026-04-11",
@@ -399,7 +409,13 @@
     "return_pct": 3.92,
     "profit_signal_partial": false,
     "profit_signal_full": false,
-    "soft_gate_streak": 0
+    "soft_gate_streak": 0,
+    "exited": true,
+    "exit_date": "2026-05-26",
+    "exit_price": 46.89,
+    "exit_reasons": [
+      "EX6 absent 21d (no detected/soft-gate)"
+    ]
   },
   "466910.KQ": {
     "first_detected": "2026-04-11",
@@ -425,7 +441,7 @@
     "detection_score": 84.8,
     "market": "HK",
     "company": "Sun Hung Kai Properties Limited",
-    "last_seen": "2026-05-23",
+    "last_seen": "2026-05-26",
     "current_price": 138.6,
     "current_score": 85.0,
     "rs_rating": 96,
@@ -433,7 +449,7 @@
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 19d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 3,
+    "soft_gate_streak": 4,
     "max_return_pct": 4.72,
     "peak_price": 144.1,
     "return_pct": 0.73,
@@ -513,7 +529,7 @@
     "detection_score": 83.3,
     "market": "KR",
     "company": "삼성전자",
-    "last_seen": "2026-05-23",
+    "last_seen": "2026-05-26",
     "current_score": 83.3,
     "rs_rating": 94,
     "current_price": 292500.0,
@@ -521,7 +537,7 @@
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 13d (limit 10d))",
     "stage": 2,
-    "soft_gate_streak": 13,
+    "soft_gate_streak": 14,
     "max_return_pct": 37.23,
     "peak_price": 299500.0,
     "return_pct": 34.02,
@@ -674,7 +690,13 @@
     "return_pct": -1.15,
     "profit_signal_partial": false,
     "profit_signal_full": false,
-    "soft_gate_streak": 0
+    "soft_gate_streak": 0,
+    "exited": true,
+    "exit_date": "2026-05-26",
+    "exit_price": 13.81,
+    "exit_reasons": [
+      "EX6 absent 21d (no detected/soft-gate)"
+    ]
   },
   "ITT": {
     "first_detected": "2026-04-30",
@@ -705,7 +727,7 @@
     "detection_score": 75.9,
     "market": "KR",
     "company": "HPSP",
-    "last_seen": "2026-05-23",
+    "last_seen": "2026-05-26",
     "current_score": 75.9,
     "rs_rating": 77,
     "current_price": 49500.0,
@@ -714,14 +736,11 @@
     "return_pct": -9.34,
     "profit_signal_partial": false,
     "profit_signal_full": false,
-    "soft_gate_streak": 2,
+    "soft_gate_streak": 3,
     "stage": 2,
-    "exited": true,
-    "exit_date": "2026-05-16",
-    "exit_price": 49500.0,
-    "exit_reasons": [
-      "EX1 stop -8% (ret -9.3%)"
-    ]
+    "exited": false,
+    "re_entry_date": "2026-05-26",
+    "re_entry_reason": "soft-gate streak 3d · Stage 2 + RS≥70 (was: EX1 stop -8% (ret -9.3%))"
   },
   "SILA": {
     "first_detected": "2026-05-14",
@@ -765,11 +784,11 @@
     "detection_score": 73.9,
     "market": "US",
     "company": "TD Synnex Corp",
-    "last_seen": "2026-05-23",
-    "current_score": 76.9,
+    "last_seen": "2026-05-26",
+    "current_score": 65.6,
     "rs_rating": 86,
     "stage": 2,
-    "soft_gate_streak": 3,
+    "soft_gate_streak": 4,
     "current_price": 237.34,
     "max_return_pct": 2.89,
     "peak_price": 237.34,
