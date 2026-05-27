@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-23T00:42:48.077317+00:00",
+  "generated_at": "2026-05-27T00:19:46.056495+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5915733504,
+    "market_cap": 5873478656,
     "shares_outstanding": 176063510,
     "employees": 1981,
     "country": "United States",
@@ -17,99 +17,37 @@
     "beta": 1.486
   },
   "category_a_business": {
-    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 브랜드가 가장 중요한 순간과 환경에서 청중과 연결되도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
-    "business_model": "아웃프론트미디어(주)",
-    "channels": [
-      "B2B / 기업"
+    "overview": "OUTFRONT Media는 미국 최대 옥외 미디어 기업 중 하나로, 브랜드가 대중과 소통하도록 돕습니다.",
+    "milestones": [
+      "2013년: OUTFRONT Media Inc. 설립",
+      "2014: CBS Outdoor Americas Inc.에서 OUTFRONT Media로 사명 변경 및 REIT 전환",
+      "2015: Van Wagner Communications의 옥외 광고 사업부 인수",
+      "2016: 스마트시티 솔루션 제공업체인 Intersection의 지분 인수",
+      "2018: 캐나다 옥외 광고 사업부 매각",
+      "2020: 코로나19 팬데믹으로 인한 옥외 광고 시장 침체 경험",
+      "2022: 디지털 옥외 광고 디스플레이 확장 및 기술 투자 지속"
     ],
-    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 CEO Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
+    "business_model": "광고주에게 옥외 광고 공간을 임대하여 광고 수익을 창출합니다.",
+    "revenue_streams": [
+      "빌보드 광고 임대료",
+      "디지털 디스플레이 광고 임대료",
+      "대중교통 시스템 광고 임대료",
+      "옥외 광고 캠페인 기획 및 제작 서비스"
+    ],
+    "value_chain_position": "Downstream: 옥외 광고 자산을 소유 및 운영하며 광고주에게 직접 서비스를 제공합니다.",
+    "products": [
+      "빌보드 (전통 및 디지털)",
+      "대중교통 광고 (버스, 지하철, 기차)",
+      "거리 가구 광고 (쉘터, 키오스크)",
+      "OUTFRONT STUDIOS (크리에이티브 서비스)",
+      "XLabs (혁신 및 데이터 분석)"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "다수의 광고주에게 서비스를 제공하며, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": 0.27,
-    "roa": 0.04,
-    "profit_margin": 0.1,
-    "operating_margin": 0.13,
-    "gross_margin": 0.51,
-    "revenue_growth_ttm": 0.1,
-    "earnings_growth_ttm": null,
-    "dividend_yield": 3.6,
-    "payout_ratio": 1.12,
-    "annual_revenue": [
-      1831700000.0,
-      1830900000.0,
-      1820600000.0,
-      1772100000.0,
-      null
-    ],
-    "annual_operating_income": [
-      311300000.0,
-      282500000.0,
-      267300000.0,
-      282700000.0,
-      null
-    ],
-    "annual_eps": [
-      0.82,
-      1.51,
-      -2.73,
-      0.83,
-      null
-    ],
-    "annual_free_cf": [
-      199200000.0,
-      209100000.0,
-      167400000.0,
-      157500000.0,
-      null
-    ],
-    "annual_total_debt": [
-      4131000000.0,
-      4013000000.0,
-      4339800000.0,
-      4213100000.0,
-      null
-    ],
-    "annual_equity": [
-      710400000.0,
-      768800000.0,
-      697100000.0,
-      1345200000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.11,
-      0.55,
-      0.3,
-      0.1,
-      -0.14,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      429600000.0,
-      513300000.0,
-      467500000.0,
-      460200000.0,
-      390700000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "sales_yoy_pct": 10.0,
     "ni_cagr_3y_pct": 0.99,
     "roe_pct": 26.81
@@ -123,25 +61,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 60.0,
+    "rs_rating": 85,
+    "score": 58.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 31.401867,
-    "forward_pe": 24.167618,
-    "ev_to_ebitda": 21.791,
-    "price_to_sales": 3.1624792,
+    "trailing_pe": 31.177568,
+    "forward_pe": 23.994993,
+    "ev_to_ebitda": 21.895,
+    "price_to_sales": 3.1398904,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 86.37,
-    "outperform_6m_vs_nasdaq": 38.87,
-    "outperform_1m_vs_nasdaq": 4.73,
+    "outperform_1y_vs_nasdaq": 83.92,
+    "outperform_6m_vs_nasdaq": 35.04,
+    "outperform_1m_vs_nasdaq": 3.8,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-26T00:11:56.759893+00:00"
+    "GoogleWebTranslator": "2026-05-27T00:20:58.862455+00:00"
   }
 }

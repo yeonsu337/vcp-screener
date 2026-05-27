@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-05-21T00:50:39.116340+00:00",
+  "generated_at": "2026-05-27T00:20:47.195613+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 24741806080,
+    "market_cap": 24744155136,
     "shares_outstanding": 117409981,
     "employees": 37000,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.666
   },
   "category_a_business": {
-    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 가지 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
+    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
     "business_model": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다.",
     "products": [
       "미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역의 화물 운송 서비스",
@@ -28,94 +28,9 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "XPO, Inc.(이전 XPO Logistics)는 북미 지역에서 화물 미만 화물 운송(LTL)을 수행하는 미국 운송 회사입니다. 이 회사는 코네티컷주 그리니치에 본사를 두고 있으며 전 세계적으로 592개 지점을 운영하고 있습니다. XPO는 북미에서 두 번째로 큰 LTL 서비스 제공업체로, 미국 전체 우편번호의 99%를 운영하고 있습니다."
+    "wikipedia_excerpt": "XPO, Inc.(이전 XPO Logistics)는 북미에서 화물 미만 화물 운송(LTL)을 수행하는 미국 운송 회사입니다. 이 회사는 코네티컷주 그리니치에 본사를 두고 있으며 전 세계적으로 592개 지점을 운영하고 있습니다. XPO는 북미에서 두 번째로 큰 LTL 서비스 제공업체로, 미국 전체 우편번호의 99%를 운영하고 있습니다."
   },
   "category_b_financials": {
-    "roe": 0.2,
-    "roa": 0.06,
-    "profit_margin": 0.04,
-    "operating_margin": 0.09,
-    "gross_margin": 0.19,
-    "revenue_growth_ttm": 0.07,
-    "earnings_growth_ttm": 0.47,
-    "dividend_yield": null,
-    "payout_ratio": 0.0,
-    "annual_revenue": [
-      8157000000.0,
-      8072000000.0,
-      7744000000.0,
-      7718000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      729000000.0,
-      701000000.0,
-      543000000.0,
-      489000000.0,
-      null
-    ],
-    "annual_eps": [
-      2.64,
-      3.23,
-      1.6,
-      5.76,
-      null
-    ],
-    "annual_free_cf": [
-      329000000.0,
-      19000000.0,
-      -851000000.0,
-      311000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      4090000000.0,
-      4117000000.0,
-      4113000000.0,
-      3245000000.0,
-      null
-    ],
-    "annual_equity": [
-      1861000000.0,
-      1600000000.0,
-      1266000000.0,
-      1012000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.85,
-      0.5,
-      0.68,
-      0.89,
-      0.58,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      2096000000.0,
-      2011000000.0,
-      2111000000.0,
-      2080000000.0,
-      1954000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 46.4,
     "sales_yoy_pct": 7.3,
     "ni_cagr_3y_pct": -22.0,
@@ -130,20 +45,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 58.3,
+    "rs_rating": 78,
+    "score": 58.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.2404,
-    "trailing_pe": 72.4158,
-    "forward_pe": 35.294964,
-    "ev_to_ebitda": 22.082,
-    "price_to_sales": 2.9812996,
+    "peg_ratio": 2.2473,
+    "trailing_pe": 72.67241,
+    "forward_pe": 35.298313,
+    "ev_to_ebitda": 22.084,
+    "price_to_sales": 2.9815829,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.94,
-    "outperform_6m_vs_nasdaq": 49.05,
-    "outperform_1m_vs_nasdaq": -15.7,
+    "outperform_1y_vs_nasdaq": 36.58,
+    "outperform_6m_vs_nasdaq": 47.01,
+    "outperform_1m_vs_nasdaq": -13.11,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -188,6 +103,6 @@
   },
   "wikipedia_summary": "XPO, Inc., formerly XPO Logistics, is an American transportation company that conducts less-than-truckload shipping, or less than load (LTL), in North America. The company has headquarters in Greenwich, Connecticut, and has 592 locations globally. XPO is the second largest provider of LTL services in North America, operating in 99 percent of all U.S. postal codes.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-26T00:12:02.967007+00:00"
+    "GoogleWebTranslator": "2026-05-27T00:21:45.819145+00:00"
   }
 }

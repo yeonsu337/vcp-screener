@@ -451,12 +451,12 @@
   },
   {
     "ticker": "KEYS",
-    "company": "Keysight Technologies, Inc.",
+    "company": "Keysight Technologies Inc",
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-19T00:17:35.469573+00:00",
+    "generated_at": "2026-05-27T00:11:53.155481+00:00",
     "llm_status": "ok"
   },
   {
@@ -511,12 +511,12 @@
   },
   {
     "ticker": "MLI",
-    "company": "Mueller Industries, Inc.",
+    "company": "Mueller Industries Inc",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-19T00:18:18.339699+00:00",
+    "generated_at": "2026-05-27T00:11:13.067470+00:00",
     "llm_status": "ok"
   },
   {
@@ -626,8 +626,8 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:37:38.366925+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-05-27T00:17:33.296296+00:00",
+    "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
     "ticker": "OUT",
@@ -636,7 +636,7 @@
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:42:48.077317+00:00",
+    "generated_at": "2026-05-27T00:19:46.056495+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -661,13 +661,13 @@
   },
   {
     "ticker": "PWR",
-    "company": "Quanta Services, Inc.",
+    "company": "Quanta Services Inc",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:29:23.154474+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-05-27T00:12:29.179406+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "ROK",
@@ -796,8 +796,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-20T00:12:57.968761+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-05-27T00:18:34.633046+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "UTHR",
@@ -891,22 +891,22 @@
   },
   {
     "ticker": "WST",
-    "company": "West Pharmaceutical Services Inc",
+    "company": "West Pharmaceutical Services, Inc.",
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-20T00:11:38.534116+00:00",
+    "generated_at": "2026-05-27T00:15:06.369764+00:00",
     "llm_status": "ok"
   },
   {
     "ticker": "WT",
-    "company": "WisdomTree, Inc.",
+    "company": "WisdomTree Inc",
     "market": "US",
-    "sector": "Financial Services",
+    "sector": "Financial",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-20T00:12:18.218852+00:00",
+    "generated_at": "2026-05-27T00:13:56.182236+00:00",
     "llm_status": "ok"
   },
   {
@@ -926,7 +926,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:50:39.116340+00:00",
+    "generated_at": "2026-05-27T00:20:47.195613+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {

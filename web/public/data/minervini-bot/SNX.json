@@ -1,30 +1,30 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "SNX",
-  "generated_at": "2026-05-26T00:11:43.609881+00:00",
-  "source_results_date": "2026-05-26",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.68,
+  "generated_at": "2026-05-27T00:10:30.688797+00:00",
+  "source_results_date": "2026-05-27",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.82,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 8.63%).",
-    "13주 베이스 14.6% → 10.6% → 8.6%, VDU 0.64×, pivot $242.49(-2.12%).",
-    "Trend Template 8/8 통과, RS 86 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "매수 대기 — Stage 2 진입, pivot $242.49 근접(-1.03%).",
+    "13주 베이스 14.6% → 10.6% → 8.6% 수축, VDU 0.59× 진행.",
+    "Trend Template 8/8 통과, RS 86, RS 라인 신고가 -1.4%.",
+    "$242.49 돌파 시 매수·-7% 손절($225.52)·+20%($290.99) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 242.49,
+    "stop_price": 225.52,
+    "stop_pct": -7.0,
+    "target1_price": 290.99,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
+    "vcp_quality_score": "4/8",
     "rs_rating": 86,
     "stage": 2,
     "base_count": 3,
@@ -42,11 +42,12 @@
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
+    "F1_outperform_1y",
+    "P3_vol_dryup",
     "R2_rs_80"
   ],
   "key_failures": [
     "P2_last_contraction (8.63% vs 6.5%)",
-    "P3_vol_dryup (0.64× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
