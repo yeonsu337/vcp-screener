@@ -700,6 +700,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "RSI",
+    "company": "Rush Street Interactive Inc",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-28T00:07:19.099690+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "SKYT",
     "company": "SkyWater Technology, Inc.",
     "market": "US",
@@ -921,13 +931,13 @@
   },
   {
     "ticker": "XPO",
-    "company": "XPO, Inc.",
+    "company": "XPO Inc",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:20:47.195613+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-05-28T00:08:59.015889+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "YOU",
@@ -936,7 +946,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-20T00:11:00.470135+00:00",
+    "generated_at": "2026-05-28T00:08:16.276147+00:00",
     "llm_status": "ok"
   }
 ]
