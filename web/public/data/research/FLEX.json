@@ -1,0 +1,108 @@
+{
+  "ticker": "FLEX",
+  "company": "Flex Ltd.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "generated_at": "2026-05-29T00:34:02.571852+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 53069844480,
+    "shares_outstanding": 366377923,
+    "employees": 149686,
+    "country": "United States",
+    "website": "https://www.flex.com",
+    "beta": 1.446
+  },
+  "category_a_business": {
+    "overview": "Flex Ltd.는 미주, 아시아 및 유럽의 데이터 센터, 통신, 기업, 소비자, 자동차, 산업, 의료, 산업 및 전력 산업에 기술 혁신, 공급망 및 제조 솔루션을 제공합니다. 이 회사는 통합 기술 솔루션(ITS), 규제 제조 솔루션(RMS), 클라우드 및 전력 인프라(CPI)의 세 가지 부문을 통해 운영됩니다.",
+    "business_model": "플렉스 주식회사",
+    "products": [
+      "데이터 센터, 통신, 기업, 소비자,",
+      "통합 기술 솔루션(ITS), 규제 제조 솔루션(RMS), 클라우드 및 Po의 세 가지 부문을 통해",
+      "고속 네트워킹, 기업, Satelli 등 통신을 위한 유연한 공급 및 제조 솔루션",
+      "전력 집약적인 디지털 인프라 배포를 지원하는 통합 컴퓨팅 시스템과 같은 클라우드 및 냉각 제품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Flex Ltd.는 싱가포르-미국 다국적 제조 회사입니다. 이는 OEM(Original Equipment Manufacturer) 분야에서 Pegatron에 이어 세계 3위의 글로벌 전자 제조 서비스(EMS), 독창적인 디자인 제조업체(ODM) 회사입니다. Flex의 미국 본사는 텍사스 주 오스틴에 위치하고 있으며 주소는 싱가포르에 있습니다. 이 회사는 30개국 이상에서 제조 시설을 운영하고 있으며 총 직원 수는 약 172,000명입니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 12.6,
+    "sales_yoy_pct": 16.9,
+    "ni_cagr_3y_pct": 3.53,
+    "roe_pct": 17.35
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Electronic Components 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 94,
+    "score": 65.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.94,
+    "trailing_pe": 62.167385,
+    "forward_pe": 21.019928,
+    "ev_to_ebitda": 26.77,
+    "price_to_sales": 1.9011909,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 200.78,
+    "outperform_6m_vs_nasdaq": 136.66,
+    "outperform_1m_vs_nasdaq": 57.05,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리가 인식하지 못하거나 현재 중요하지 않다고 생각하는 추가적인 위험과 불확실성도 우리 사업에 실질적으로 부정적인 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이 경우 당사 보통주의 시장가격은 하락할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "비즈니스 및 운영 위험 고객 주문 취소, 생산 변경 및 수요 변동은 당사 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 일부 고객 계약에는 고객이 사전 서면 통지를 통해 편의를 위해 계약을 종료할 수 있도록 허용하는 조항이 포함되어 있으며 통지 기간은 상대적으로 짧을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "고객이 그러한 종료 ​​권리를 행사하는 경우 당사는 재공품, 문제 있는 재고 또는 향후 주문을 예상하면서 발생한 기타 비용에 대한 대금을 받을 자격이 없을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 요구는 우리의 자원에 부담을 주고, 공급망 관리 문제를 일으키며, 마진을 감소시킬 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Flex Ltd. is a Singaporean–American multinational manufacturing company. It is the world's third largest global electronics manufacturing services (EMS), original design manufacturer (ODM) company by revenue, behind only Pegatron for what concerns original equipment manufacturers. Flex's U.S. corporate headquarters are located in Austin, Texas, and is domiciled in Singapore. The company has manufacturing operations in over 30 countries, totaling about 172,000 employees.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-29T00:47:33.394874+00:00"
+  }
+}

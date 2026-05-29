@@ -1,0 +1,107 @@
+{
+  "ticker": "RMBS",
+  "company": "Rambus Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "generated_at": "2026-05-29T00:43:14.752000+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 16006434816,
+    "shares_outstanding": 108136967,
+    "employees": 791,
+    "country": "United States",
+    "website": "https://www.rambus.com",
+    "beta": 1.789
+  },
+  "category_a_business": {
+    "overview": "Rambus Inc.는 미국, 한국, 싱가포르 및 해외에서 반도체 제품을 제조 및 판매합니다. 이는 등록 클록 드라이버, 다중화된 등록 클록 드라이버, 다중화된 데이터 버퍼, 전원 관리 집적 회로, 직렬 존재 감지 허브, 온도 센서 및 클라이언트 클록 드라이버 제품을 포함하는 DDR5 메모리 인터페이스 칩으로 구성된 메모리 인터페이스 칩을 제공합니다. 및 DDR4 메모리 인터페이스 칩.",
+    "business_model": "램버스 주식회사",
+    "products": [
+      "미국, 한국, 싱가포르 및 국제적으로 반도체 제품을 판매하고 있습니다.",
+      "클럭 드라이버 등록, 다중화된 레지스터를 포함하는 DDR5 메모리 인터페이스 칩으로 구성된 메모리 인터페이스 칩",
+      "첨단 인공지능으로 데이터를 이동하고 보호하는 인터페이스, 보안 IP 솔루션 등 실리콘 IP",
+      "메모리 아키텍처, 고속 직렬 링크 및 보안 제품을 포괄하는 특허 포트폴리오",
+      "메모리 모듈 제조업체, OEM, 하이퍼스케일러, 칩 제조업체에 제품을 공급합니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": -0.7,
+    "sales_yoy_pct": 8.1,
+    "roe_pct": 18.02
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductors 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 53.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.8,
+    "trailing_pe": 70.822975,
+    "forward_pe": 40.7145,
+    "ev_to_ebitda": 50.432,
+    "price_to_sales": 22.195555,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 128.63,
+    "outperform_6m_vs_nasdaq": 41.9,
+    "outperform_1m_vs_nasdaq": 23.89,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리 회사에 대한 투자를 위험하게 만드는 주요 요인과 불확실성은 무엇보다도 다음과 같습니다. • 우리는 전통적으로 매우 순환적이고 경쟁적인 산업에 종사해 왔으며 앞으로 진출할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 비즈니스, 산업 및 시장 상황과 관련된 위험 당사는 전통적으로 순환이 심하고 경쟁이 심한 다른 산업에서 사업을 운영해왔으며 앞으로 진출할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "AI에 대한 수요를 예측할 수 없거나 AI로 인해 제품에 대한 수요를 과대평가하는 경우 당사의 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 모든 요인은 당사 제품 및 기술에 대한 수요에 부정적인 영향을 미칠 수 있으며 당사의 운영 결과 및 재무 상태에 상당한 변동을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 새로운 제품과 시장에 대한 경험이 제한적이거나 전혀 없을 수 있으며, 고객이 우리의 새로운 제품을 채택하지 않을 수도 있고/또는 신규 고객이 우리의 제품을 채택하지 않을 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 제품과 기타 새로운 제품은 새롭고 어려운 과제를 제시할 수 있으며 이는 당사의 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-05-29T00:49:18.681795+00:00"
+  }
+}

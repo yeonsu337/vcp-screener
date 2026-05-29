@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-23T00:39:42.468331+00:00",
+  "generated_at": "2026-05-29T00:42:13.292727+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 246674391040,
+    "market_cap": 251801534464,
     "shares_outstanding": 130627521,
     "employees": 15000,
     "country": "United States",
@@ -17,11 +17,11 @@
     "beta": 1.501
   },
   "category_a_business": {
-    "overview": "KLA Corporation은 자회사와 함께 전세계 반도체 및 관련 전자 산업을 위한 프로세스 제어, 프로세스 구현 및 수율 관리 솔루션을 설계, 제조 및 판매합니다. 이 회사는 세 가지 부문으로 운영됩니다: 반도체 공정 제어; 특수 반도체 공정; PCB 및 부품 검사. 패턴이 있는 웨이퍼와 패턴이 없는 웨이퍼의 다양한 표면에서 결함을 식별, 위치 지정, 특성화, 검토 및 분석하는 검사 및 검토 도구를 제공합니다. 패턴 치수, 필름 두께, 필름 응력, 레이를 측정하는 계측 시스템",
+    "overview": "KLA Corporation은 자회사와 함께 전세계 반도체 및 관련 전자 산업을 위한 프로세스 제어, 프로세스 구현 및 수율 관리 솔루션을 설계, 제조 및 판매합니다. 이 회사는 세 가지 부문으로 운영됩니다: 반도체 공정 제어; 특수 반도체 공정; PCB 및 부품 검사. 패턴화된 웨이퍼와 패턴화되지 않은 웨이퍼의 다양한 표면에서 결함을 식별, 위치 파악, 특성화, 검토 및 분석하는 검사 및 검토 도구를 제공합니다. 패턴 치수, 필름 두께, 필름 응력, 레이를 측정하는 계측 시스템",
     "business_model": "KLA Corporation은 자회사와 함께 반도체 및 관련 전자 산업 분야의 프로세스 제어, 프로세스 구현 및 수율 관리 솔루션을 설계, 제조 및 판매합니다.",
     "products": [
       "세 가지 부문을 통해: 반도체 공정 제어",
-      "다양한 패턴 표면의 결함을 식별, 위치 파악, 특성화, 검토 및 분석하는 검사 및 검토 도구",
+      "패턴의 다양한 표면에서 결함을 식별, 위치 파악, 특성화, 검토 및 분석하는 검사 및 검토 도구",
       "식각, 플라즈마 다이싱, 증착 등 반도체 및 마이크로엘 분야의 웨이퍼 가공 기술과 솔루션",
       "직접 이미징, 검사, 광학 성형, 잉크젯 및 적층 인쇄, 컴퓨터 지원 제조 및 엔지니어"
     ],
@@ -31,88 +31,6 @@
     "wikipedia_excerpt": "KLA Corporation은 캘리포니아 주 밀피타스에 본사를 두고 웨이퍼 팹 장비를 만드는 미국 회사입니다. 반도체 산업 및 기타 관련 나노전자공학 산업을 위한 공정 제어 및 수율 관리 시스템을 공급합니다. 회사의 제품과 서비스는 연구 개발부터 최종 대량 생산까지 웨이퍼, 레티클, 집적 회로(IC) 및 패키징 생산의 모든 단계를 대상으로 합니다."
   },
   "category_b_financials": {
-    "roe": 0.95,
-    "roa": 0.21,
-    "profit_margin": 0.36,
-    "operating_margin": 0.41,
-    "gross_margin": 0.61,
-    "revenue_growth_ttm": 0.12,
-    "earnings_growth_ttm": 0.12,
-    "dividend_yield": 0.5,
-    "payout_ratio": 0.22,
-    "annual_revenue": [
-      12156162000.0,
-      9812247000.0,
-      10496056000.0,
-      9211883000.0,
-      null
-    ],
-    "annual_operating_income": [
-      5014227000.0,
-      3635684000.0,
-      3994696000.0,
-      3654181000.0,
-      null
-    ],
-    "annual_eps": [
-      null,
-      20.28,
-      24.15,
-      21.92,
-      13.37
-    ],
-    "annual_free_cf": [
-      3741694000.0,
-      3031191000.0,
-      3328214000.0,
-      3005382000.0,
-      null
-    ],
-    "annual_total_debt": [
-      6088282000.0,
-      6819643000.0,
-      6063132000.0,
-      6774305000.0,
-      null
-    ],
-    "annual_equity": [
-      4692453000.0,
-      3368328000.0,
-      2919753000.0,
-      1401351000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-06-30",
-      "2024-06-30",
-      "2023-06-30",
-      "2022-06-30",
-      "2021-06-30"
-    ],
-    "quarterly_eps": [
-      9.12,
-      8.68,
-      8.47,
-      9.06,
-      8.16,
-      null
-    ],
-    "quarterly_revenue": [
-      3415078000.0,
-      3297146000.0,
-      3209696000.0,
-      3174741000.0,
-      3063029000.0,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
-    ],
     "eps_qoq_yoy_pct": 10.3,
     "sales_yoy_pct": 11.5,
     "ni_cagr_3y_pct": 6.93,
@@ -127,20 +45,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 56.5,
+    "rs_rating": 88,
+    "score": 55.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9339,
-    "trailing_pe": 53.389317,
-    "forward_pe": 37.87762,
-    "ev_to_ebitda": 42.368,
-    "price_to_sales": 18.834908,
+    "peg_ratio": 2.0546,
+    "trailing_pe": 55.551296,
+    "forward_pe": 38.664906,
+    "ev_to_ebitda": 43.244,
+    "price_to_sales": 19.22639,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 104.4,
-    "outperform_6m_vs_nasdaq": 45.42,
-    "outperform_1m_vs_nasdaq": -3.65,
+    "outperform_1y_vs_nasdaq": 105.67,
+    "outperform_6m_vs_nasdaq": 52.33,
+    "outperform_1m_vs_nasdaq": -2.44,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -167,7 +85,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "위의 모든 요소는 당사의 비즈니스와 운영 결과에 심각한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "위의 요소 중 하나라도 당사의 사업과 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -185,6 +103,6 @@
   },
   "wikipedia_summary": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:04.969262+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:48:37.002685+00:00"
   }
 }

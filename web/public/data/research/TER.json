@@ -4,131 +4,106 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-07T06:33:12.266246+00:00",
+  "generated_at": "2026-05-29T00:33:01.293731+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 59874246656,
+    "market_cap": 59900858368,
     "shares_outstanding": 156542162,
     "employees": 6600,
     "country": "United States",
     "website": "https://www.teradyne.com",
     "beta": 1.793
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "Teradyne, Inc.는 미국, 아시아 태평양, 유럽, 중동 및 아프리카에서 자동화 테스트 시스템 및 로봇 제품의 설계, 개발, 제조 및 판매에 종사하고 있습니다. 이 회사는 반도체 테스트, 로봇 공학 및 기타 부문을 통해 운영됩니다.",
+    "business_model": "테라다인(주)",
+    "products": [
+      "반도체 테스트, 로봇공학 및 기타 부문을 통해",
+      "웨이퍼 레벨 및 디바이스 패키지 테스트, 반도체 디바이스의 시스템 레벨 테스트를 위한 제품 및 서비스",
+      "FLEX 테스트 플랫폼 시스템",
+      "제조, 물류 및 산업 고객을 위한 협동 로봇 팔 및 자율 모바일 로봇",
+      "제품 및 SE의 설계, 제조 및 마케팅과 관련된 작업을 포함하는 제품 테스트 장비"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Teradyne, Inc.는 매사추세츠주 North Reading에 본사를 둔 미국의 자동 테스트 장비(ATE) 설계 및 제조업체입니다. 주요 고객으로는 Samsung, Qualcomm, Intel, Analog Devices, Texas Instruments 및 IBM이 있습니다."
+  },
   "category_b_financials": {
-    "roe": 0.29,
-    "roa": 0.16,
-    "profit_margin": 0.23,
-    "operating_margin": 0.38,
-    "gross_margin": 0.59,
-    "revenue_growth_ttm": 0.87,
-    "earnings_growth_ttm": 3.15,
-    "dividend_yield": 0.14,
-    "payout_ratio": 0.09,
-    "annual_revenue": [
-      3190024000.0,
-      2819880000.0,
-      2676298000.0,
-      3155045000.0,
-      null
-    ],
-    "annual_operating_income": [
-      688605000.0,
-      552240000.0,
-      522345000.0,
-      849124000.0,
-      null
-    ],
-    "annual_eps": [
-      3.47,
-      3.32,
-      2.73,
-      4.22,
-      null
-    ],
-    "annual_free_cf": [
-      450406000.0,
-      474081000.0,
-      425589000.0,
-      414674000.0,
-      null
-    ],
-    "annual_total_debt": [
-      283239000.0,
-      76621000.0,
-      82614000.0,
-      132885000.0,
-      null
-    ],
-    "annual_equity": [
-      2795752000.0,
-      2819294000.0,
-      2525897000.0,
-      2451294000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      2.53,
-      1.63,
-      0.75,
-      0.49,
-      0.61,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      1282494000.0,
-      1083337000.0,
-      769210000.0,
-      651797000.0,
-      685680000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 303.4,
     "sales_yoy_pct": 87.0,
     "ni_cagr_3y_pct": -8.17,
     "roe_pct": 28.75
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 64.1,
+    "rs_rating": 94,
+    "score": 68.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.3351,
-    "trailing_pe": 70.961044,
-    "forward_pe": 40.205105,
-    "ev_to_ebitda": 51.41,
-    "price_to_sales": 15.811146,
+    "peg_ratio": 1.487,
+    "trailing_pe": 71.25698,
+    "forward_pe": 40.222973,
+    "ev_to_ebitda": 51.433,
+    "price_to_sales": 15.818172,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 364.08,
-    "outperform_6m_vs_nasdaq": 100.76,
-    "outperform_1m_vs_nasdaq": 1.99,
+    "outperform_1y_vs_nasdaq": 329.13,
+    "outperform_6m_vs_nasdaq": 113.05,
+    "outperform_1m_vs_nasdaq": -8.44,
     "lynch_category": "Stalwart"
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "특정 기간 동안 배송 일정이 지연되거나 잔고가 취소되면 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 지연은 특정 제품의 제조 및 해당 제품을 고객에게 배송하는 시기에 영향을 미쳤으며 앞으로도 계속 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 단독 공급업체가 제품 배송을 지연하거나 중단하는 경우 당사는 일시적으로 부정적인 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않은 것으로 간주되는 추가 위험 및 불확실성도 당사의 비즈니스, 재무 상태 및/또는 운영 결과에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "글로벌 또는 산업별 경제 상황이 붕괴되거나 악화되면 고객의 당사 제품 구매가 줄어들어 당사의 수익과 수익이 감소할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 조치가 당사 비즈니스에 영향을 미칠 수 있는 글로벌 또는 시장별 혼란을 상쇄하기에 충분한지 여부를 예측할 수 없으며 향후 추가 또는 다른 조치를 취해야 할 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
   "wikipedia_summary": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm, Intel, Analog Devices, Texas Instruments and IBM.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:10.699063+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:50:35.520094+00:00"
   }
 }

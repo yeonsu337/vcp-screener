@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-23T00:23:10.858628+00:00",
+  "generated_at": "2026-05-29T00:31:59.880289+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 218978844672,
+    "market_cap": 243110068224,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -17,190 +17,46 @@
     "beta": null
   },
   "category_a_business": {
-    "overview": "샌디스크는 NAND 플래시 기술 기반의 데이터 저장 장치 및 솔루션을 개발, 제조, 판매하는 글로벌 기업입니다.",
-    "milestones": [
-      "2024: 샌디스크 법인 설립 (Milpitas, California)",
-      "2025: Western Digital Corporation으로부터 분사, 독립 상장 (티커: SNDK)",
-      "2025: 데이터 스토리지 산업에서 NAND 플래시 기술 리더십 강화",
-      "2025: AI 워크로드, 엣지 디바이스, 소비자용 플래시 스토리지 솔루션 확장",
-      "2025: 클라우드, 클라이언트, 소비자 시장을 아우르는 제품 포트폴리오 구축"
-    ],
-    "business_model": "NAND 플래시 기술 기반의 데이터 저장 장치 및 솔루션을 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "솔리드 스테이트 드라이브 (SSD)",
-      "임베디드 스토리지 제품",
-      "이동식 카드",
-      "USB 드라이브",
-      "웨이퍼 및 부품"
-    ],
-    "value_chain_position": "Midstream + NAND 플래시 기술을 활용한 데이터 저장 장치 및 솔루션의 개발, 제조, 판매를 담당합니다.",
+    "overview": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다. 이 회사는 데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브를 제공합니다. 휴대폰, 태블릿, 노트북 PC 및 기타 휴대용 및 웨어러블 장치, 자동차 애플리케이션, 사물 인터넷, 산업 및 연결된 홈 애플리케이션은 물론 이동식 카드, 범용 직렬 버스 드라이브, 웨이퍼 및 구성 요소를 위한 플래시 기반 임베디드 스토리지 제품이 있습니다.",
+    "business_model": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다.",
     "products": [
-      "SSD (데스크톱, 노트북, 게임 콘솔 등)",
-      "모바일/태블릿/IoT용 임베디드 플래시",
-      "SD/microSD 카드",
-      "USB 플래시 드라이브",
-      "데이터센터/클라우드용 스토리지 솔루션"
+      "미국, 유럽, 중동, 아프리카 등에서 NAND 플래시 기술을 활용한 데이터 저장 장치 및 솔루션",
+      "데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브",
+      "자사 제품을 컴퓨터 제조업체, OEM, 데이터센터, 프라이빗 클라우드 고객, 클라우드에 제공"
     ],
     "channels": [
-      "B2B (컴퓨터 제조업체, OEM, 데이터센터, 클라우드 서비스 제공업체)",
-      "도매 (리셀러, 유통업체)",
-      "B2C (소매점, 온라인)"
+      "B2B / 기업"
     ],
-    "key_customers": "다양한 최종 시장(클라우드, 클라이언트, 소비자)에 걸쳐 광범위한 고객 기반을 보유하고 있으며, 특정 고객에 대한 높은 집중도는 언급되지 않았습니다."
+    "wikipedia_excerpt": "SanDisk Corporation은 캘리포니아 밀피타스에 본사를 둔 미국의 다국적 반도체 회사입니다."
   },
   "category_b_financials": {
-    "roe": 0.39,
-    "roa": 0.23,
-    "profit_margin": 0.34,
-    "operating_margin": 0.7,
-    "gross_margin": 0.56,
-    "revenue_growth_ttm": 2.51,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": 0.0,
-    "annual_revenue": [
-      7355000000.0,
-      6663000000.0,
-      6086000000.0
-    ],
-    "annual_operating_income": [
-      507000000.0,
-      -444000000.0,
-      -1295000000.0
-    ],
-    "annual_eps": [
-      -11.32,
-      -4.63,
-      -14.78
-    ],
-    "annual_free_cf": [
-      -120000000.0,
-      -475000000.0,
-      -932000000.0
-    ],
-    "annual_total_debt": [
-      2042000000.0,
-      985000000.0
-    ],
-    "annual_equity": [
-      9216000000.0,
-      11082000000.0
-    ],
-    "annual_periods": [
-      "2025-06-30",
-      "2024-06-30",
-      "2023-06-30"
-    ],
-    "quarterly_eps": [
-      23.03,
-      5.15,
-      0.75,
-      -0.16,
-      -13.33,
-      null
-    ],
-    "quarterly_revenue": [
-      5950000000.0,
-      3025000000.0,
-      2308000000.0,
-      1901000000.0,
-      1695000000.0,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
-    ],
     "sales_yoy_pct": 251.0,
     "roe_pct": 39.3
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-250 (estimate) + NAND 플래시 시장 규모 및 데이터 스토리지 산업 성장률 기반 추정",
-    "tam_cagr_pct": "10-15% + AI 워크로드 증가, 엣지 디바이스 확산, 클라우드 데이터 폭증으로 인한 스토리지 수요 급증",
-    "growth_drivers": [
-      "AI 및 머신러닝 워크로드 증가에 따른 고성능 스토리지 수요 증대",
-      "클라우드 서비스 및 데이터센터 확대로 인한 대용량 스토리지 필요성 증대",
-      "엣지 컴퓨팅 및 IoT 기기 확산으로 인한 분산형 스토리지 솔루션 수요 증가",
-      "소비자 부문에서 고화질 콘텐츠 및 게이밍 수요 증가로 인한 개인용 스토리지 업그레이드",
-      "자동차, VR/AR 등 신기술 분야에서의 데이터 저장 및 처리 요구 증대"
-    ],
-    "market_share_pct": "15-20% (estimate) + NAND 플래시 시장 내 주요 플레이어 중 하나이며, 소비자 부문에서 강한 브랜드 인지도를 보유",
-    "competitors": [
-      {
-        "name": "Samsung Electronics",
-        "differentiation": "수직 통합된 생산 능력, 광범위한 제품 포트폴리오, DRAM 및 NAND 시장의 선두 주자"
-      },
-      {
-        "name": "SK Hynix",
-        "differentiation": "DRAM 및 NAND 플래시 기술 리더십, 고성능 메모리 솔루션에 강점"
-      },
-      {
-        "name": "Micron Technology",
-        "differentiation": "광범위한 메모리 및 스토리지 솔루션 제공, 기술 혁신 및 R&D 투자"
-      },
-      {
-        "name": "Kioxia (구 Toshiba Memory)",
-        "differentiation": "NAND 플래시 기술의 선구자 중 하나, 엔터프라이즈 및 데이터센터 솔루션에 강점"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium + 초기 투자 비용이 높고 기술 장벽이 존재하지만, 특정 니치 시장에서는 신규 진입 가능성 상존",
-      "substitutes": "low + NAND 플래시 기반 스토리지의 성능 및 비용 효율성을 대체할 수 있는 기술은 아직 제한적",
-      "buyer_power": "medium + 대형 OEM 및 클라우드 서비스 제공업체는 상당한 구매력을 가지며, 가격 협상력이 높음",
-      "supplier_power": "medium + NAND 웨이퍼 및 핵심 부품 공급업체는 소수이며, 공급망 안정성이 중요",
-      "rivalry": "high + 소수의 대형 플레이어들이 시장을 지배하며, 기술 혁신, 가격 경쟁, 생산 능력 확대를 통한 치열한 경쟁"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "NAND 플래시 기술 기반의 광범위한 데이터 스토리지 솔루션 포트폴리오",
-      "AI 워크로드, 데이터센터, 엣지 디바이스, 소비자 등 다양한 최종 시장 대응 능력",
-      "약 7,900개의 특허와 3,200개의 출원 중인 특허를 포함한 강력한 지적 재산권 포트폴리오",
-      "소비자 시장에서 강력한 브랜드 인지도와 광범위한 유통 채널",
-      "혁신적인 R&D 역량과 대규모의 효율적인 제조 공급망"
-    ],
-    "competitive_weaknesses": [
-      "웨스턴 디지털로부터 분리된 지 얼마 되지 않아 독립적인 운영 및 시장 전략 수립에 대한 초기 과제",
-      "NAND 플래시 시장의 주기적인 가격 변동성에 대한 노출",
-      "주요 경쟁사 대비 수직 통합 수준이 낮을 수 있어 공급망 통제력에 한계",
-      "특정 최종 시장(예: 엔터프라이즈 SSD)에서 경쟁사 대비 시장 점유율이 낮을 수 있음"
+      "Technology / Computer Hardware 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 65.1,
+    "score": 69.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 50.467236,
-    "forward_pe": 8.431555,
-    "ev_to_ebitda": 38.255,
-    "price_to_sales": 16.60944,
+    "trailing_pe": 54.34095,
+    "forward_pe": 9.327701,
+    "ev_to_ebitda": 41.18,
+    "price_to_sales": 18.439781,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 3691.21,
-    "outperform_6m_vs_nasdaq": 484.44,
-    "outperform_1m_vs_nasdaq": 50.79,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "NAND 플래시 기술 기반 데이터 저장 장치 및 솔루션 개발, 제조, 공급 분야의 선두 주자로서 차별화된 혁신 엔진을 보유하고 있습니다.",
-      "약 7,900개의 등록 특허와 약 3,200개의 출원 중인 특허를 포함하는 귀중한 특허 포트폴리오를 전 세계적으로 보유하고 있습니다.",
-      "강력한 제품 브랜드 인지도와 전 세계적인 광범위한 입지를 바탕으로 소비자 시장에서 강력한 위치를 차지하고 있습니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "WDC로부터 분사하여 독립 상장 회사로 전환, AI 워크로드용 플래시 스토리지 솔루션 강화",
-    "bull_case": "AI 및 데이터 폭증으로 인한 수요 급증, 기술 리더십 강화로 시장 점유율 확대 및 수익성 개선",
-    "base_case": "데이터 스토리지 시장의 꾸준한 성장과 AI 관련 수요 증가에 힘입어 안정적인 매출 성장과 수익성을 유지할 것으로 예상됩니다. 독립 상장 회사로서의 효율성 증대와 전략적 유연성 확보가 긍정적인 영향을 미칠 것입니다.",
-    "bear_case": "글로벌 경기 침체 심화로 인한 IT 지출 감소, 경쟁 심화로 인한 가격 경쟁 심화, NAND 플래시 시장의 공급 과잉으로 수익성이 악화될 수 있습니다. WDC와의 분리 과정에서 예상치 못한 운영상의 어려움이 발생할 가능성도 있습니다.",
-    "key_metrics_to_watch": [
-      "NAND 플래시 가격 동향",
-      "데이터센터 및 클라우드 부문 매출 성장률",
-      "연구 개발 투자 및 신기술 특허 출원 현황",
-      "영업이익률 (OPM)"
-    ]
+    "outperform_1y_vs_nasdaq": 4159.54,
+    "outperform_6m_vs_nasdaq": 605.63,
+    "outperform_1m_vs_nasdaq": 54.64,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
@@ -244,6 +100,6 @@
   },
   "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:10.185285+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:49:57.507290+00:00"
   }
 }

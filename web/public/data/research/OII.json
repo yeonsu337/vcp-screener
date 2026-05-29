@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-27T00:17:33.296296+00:00",
+  "generated_at": "2026-05-29T00:44:16.036078+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3895051776,
+    "market_cap": 3819245568,
     "shares_outstanding": 99745249,
     "employees": 11100,
     "country": "United States",
@@ -17,36 +17,18 @@
     "beta": 1.173
   },
   "category_a_business": {
-    "overview": "OII는 해양 에너지, 국방, 항공우주 등 다양한 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다.",
-    "milestones": [
-      "1964년: Oceaneering International 설립",
-      "1970년대: 북해 유전 개발과 함께 ROV 기술 선도",
-      "1980년대: ROV 서비스 및 수중 제품 포트폴리오 확장",
-      "1990년대: 국제적 입지 강화 및 다양한 해양 프로젝트 참여",
-      "2000년대: 심해 탐사 및 생산 솔루션 제공 확대",
-      "2010년대: 로봇 및 디지털 솔루션으로 사업 다각화",
-      "2020년대: 비에너지 산업으로의 기술 적용 확대"
-    ],
-    "business_model": "해양 및 극한 환경에서 고객의 복잡한 문제를 해결하는 엔지니어링 서비스와 제품을 제공하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "수중 로봇 서비스 (ROV)",
-      "제조 제품 (엄빌리컬, 커넥터 등)",
-      "해양 프로젝트 그룹",
-      "무결성 관리 및 디지털 솔루션",
-      "항공우주 및 방위 기술"
-    ],
-    "value_chain_position": "Midstream + 해양 에너지 및 기타 산업의 핵심 인프라 구축 및 유지보수에 기여합니다.",
+    "overview": "Oceaneering International, Inc.는 미국, 아프리카, 영국, 노르웨이, 브라질, 아시아, 호주 및 전 세계의 해양 에너지, 방위, 항공우주 및 제조 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다. 해저 로봇공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 솔루션, 항공우주 및 방위 기술 등 5개 부문으로 운영됩니다.",
+    "business_model": "오션니어링 인터내셔널, Inc.",
     "products": [
-      "원격 조종 잠수정 (ROV)",
-      "생산 제어 엄빌리컬",
-      "파이프라인 연결 및 수리 시스템",
-      "자율 이동 로봇 (AMR)",
-      "수중 측량 및 위치 확인 서비스"
+      "해양 에너지, 방위, 항공우주 및 제조 분야에 대한 엔지니어링 서비스, 제품 및 로봇 솔루션 i",
+      "5개 부문: 해저 로봇 공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 S",
+      "해저 하드웨어 설치를 포함한 드릴 지원 및 선박 기반 서비스를 위한 원격 조종 차량(ROV)",
+      "생산 제어 엄빌리칼, 현장 개발 하드웨어 및 파이프라인과 같은 분배 및 연결 시스템",
+      "라이저리스 채광정 개입 서비스, 검사, 유지보수를 포함한 해저 설치 및 개입"
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "주로 석유 및 가스 회사, 정부 기관, 방위 산업체, 항공우주 기업 등 소수 대형 고객에 집중되어 있습니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": -28.3,
@@ -55,80 +37,33 @@
     "roe_pct": 35.89
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "20-30 (estimate) - 해양 에너지 서비스 및 장비 시장은 유가 변동, 신재생에너지 전환, 국방 및 비에너지 해양 산업 투자에 따라 크게 달라지므로 정확한 TAM 추정은 어려움. OII의 사업 부문(ROV, 해양 건설, 자산 무결성, 고급 로봇, 비에너지)을 종합적으로 고려한 추정치.",
-    "tam_cagr_pct": "5-8% (estimate) - 유가 안정화 및 에너지 안보 강화로 인한 해양 유전 개발 투자 증가, 해양 풍력 등 신재생에너지 인프라 구축 수요, 해양 국방 및 과학 연구 등 비에너지 분야의 해양 로봇 및 서비스 수요 증가가 복합적으로 작용할 것으로 예상.",
-    "growth_drivers": [
-      "유가 안정화 및 에너지 안보 강화로 인한 해양 유전/가스 개발 및 생산 활동 증가.",
-      "해양 풍력 발전소 건설 및 유지보수 등 해양 신재생에너지 인프라 투자 확대.",
-      "해양 국방, 과학 연구, 해저 통신 등 비에너지 해양 산업에서의 로봇 및 자율 시스템 수요 증가.",
-      "기존 해양 인프라의 노후화에 따른 자산 무결성 관리 및 유지보수 서비스 수요 증가.",
-      "해양 작업의 안전성 및 효율성 증대를 위한 자동화 및 로봇 기술 도입 가속화."
-    ],
-    "market_share_pct": "5-10% (estimate) - OII는 ROV 시장에서는 선두권이나, 전체 해양 에너지 서비스 및 장비 시장은 매우 세분화되어 있어 전체 시장 점유율은 상대적으로 낮을 것으로 추정.",
-    "competitors": [
-      {
-        "name": "Subsea 7 S.A.",
-        "differentiation": "해저 건설 및 파이프라인 설치 분야의 글로벌 리더로, EPCI(설계, 조달, 건설, 설치) 통합 솔루션 제공에 강점."
-      },
-      {
-        "name": "TechnipFMC plc",
-        "differentiation": "해저 생산 시스템, 플렉시블 파이프, 표면 기술 등 광범위한 해저 솔루션 포트폴리오를 보유하며 통합 프로젝트 관리 역량 우수."
-      },
-      {
-        "name": "Saipem S.p.A.",
-        "differentiation": "해양 및 육상 시추, 건설, 엔지니어링 및 설치 서비스에 강점을 가지며, 특히 대형 해양 프로젝트 수행 경험이 풍부."
-      },
-      {
-        "name": "Helix Energy Solutions Group, Inc.",
-        "differentiation": "유정 개입(well intervention) 및 해저 건설 서비스에 특화되어 있으며, 특히 유정 폐쇄 및 유지보수 분야에서 경쟁 우위."
-      },
-      {
-        "name": "Fugro N.V.",
-        "differentiation": "지질 공학, 측량, 지구물리학 등 지반 및 해저 데이터 수집 및 분석 서비스에 특화되어 있으며, 해양 자산 무결성 관리와 시너지를 창출."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 해양 산업은 높은 자본 투자, 전문 기술 및 규제 준수가 필요하지만, 특정 니치 시장(예: 소형 ROV, 데이터 분석)에서는 진입 장벽이 낮아질 수 있음.",
-      "substitutes": "medium - 육상 유전 개발, 셰일가스, 신재생에너지(육상 풍력, 태양광) 등이 에너지원으로서 해양 유전/가스를 대체할 수 있으며, 특정 해양 서비스(예: 드론을 이용한 검사)도 잠재적 대체재가 될 수 있음.",
-      "buyer_power": "high - 주요 고객은 소수의 대형 석유 및 가스 회사, 정부 기관 등으로 구성되어 있어 가격 협상력이 높고, 프로젝트 규모가 커서 공급업체 간 경쟁이 치열함.",
-      "supplier_power": "medium - 특수 장비, 고급 부품, 숙련된 인력 등 특정 공급업체에 대한 의존도가 존재하나, 공급망 다변화를 통해 어느 정도 통제 가능함.",
-      "rivalry": "high - 시장은 소수의 대형 통합 서비스 제공업체와 다수의 전문 서비스 제공업체로 구성되어 있으며, 유가 변동에 따라 프로젝트 수주 경쟁이 매우 치열함."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "ROV(원격 조종 무인 잠수정) 시장에서의 선도적인 위치와 광범위한 글로벌 운영 네트워크.",
-      "다양한 해양 산업(에너지, 국방, 과학)에 걸쳐 로봇 공학 및 자율 시스템 기술 전문성 보유.",
-      "해양 자산의 수명 주기 전반에 걸친 통합 서비스 제공 능력 (설치, 유지보수, 검사, 해체).",
-      "고객 맞춤형 솔루션 제공 및 기술 혁신을 통한 경쟁 우위 확보 노력.",
-      "숙련된 인력과 안전 중심의 운영 문화."
-    ],
-    "competitive_weaknesses": [
-      "유가 변동 및 글로벌 경제 상황에 대한 높은 민감도.",
-      "대형 경쟁사 대비 자본력 및 규모의 경제 측면에서 열위.",
-      "신재생에너지 전환 가속화에 따른 전통적인 해양 석유/가스 사업의 장기적 불확실성.",
-      "기술 혁신 및 R&D 투자에 대한 지속적인 압박.",
-      "글로벌 팬데믹, 지정학적 리스크 등 외부 요인에 대한 취약성."
+      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 54.9,
+    "rs_rating": 79,
+    "score": 53.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 8.01,
-    "trailing_pe": 11.622024,
-    "forward_pe": 17.771002,
-    "ev_to_ebitda": 10.5,
-    "price_to_sales": 1.3900661,
+    "trailing_pe": 11.5331335,
+    "forward_pe": 18.284267,
+    "ev_to_ebitda": 10.308,
+    "price_to_sales": 1.3630124,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 64.79,
-    "outperform_6m_vs_nasdaq": 46.29,
-    "outperform_1m_vs_nasdaq": -2.77,
+    "outperform_1y_vs_nasdaq": 58.6,
+    "outperform_6m_vs_nasdaq": 40.47,
+    "outperform_1m_vs_nasdaq": -7.19,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:06.969635+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:48:58.338251+00:00"
   }
 }

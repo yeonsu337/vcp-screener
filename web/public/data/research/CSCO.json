@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-05-22T00:28:28.822796+00:00",
+  "generated_at": "2026-05-29T00:29:54.872229+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 465877565440,
+    "market_cap": 467611811840,
     "shares_outstanding": 3941434665,
     "employees": 86200,
     "country": "United States",
@@ -34,81 +34,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.25,
-    "roa": 0.07,
-    "profit_margin": 0.2,
-    "operating_margin": 0.25,
-    "gross_margin": 0.64,
-    "revenue_growth_ttm": 0.12,
-    "earnings_growth_ttm": 0.37,
-    "dividend_yield": 1.47,
-    "payout_ratio": 0.55,
-    "annual_revenue": [
-      56654000000.0,
-      53803000000.0,
-      56998000000.0,
-      51557000000.0
-    ],
-    "annual_operating_income": [
-      12504000000.0,
-      12970000000.0,
-      15562000000.0,
-      13975000000.0
-    ],
-    "annual_eps": [
-      2.55,
-      2.54,
-      3.07,
-      2.82
-    ],
-    "annual_free_cf": [
-      13288000000.0,
-      10210000000.0,
-      19037000000.0,
-      12749000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      28093000000.0,
-      30973000000.0,
-      8391000000.0,
-      9515000000.0,
-      null
-    ],
-    "annual_equity": [
-      46843000000.0,
-      45457000000.0,
-      44353000000.0,
-      39773000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-07-31",
-      "2024-07-31",
-      "2023-07-31",
-      "2022-07-31"
-    ],
-    "quarterly_eps": [
-      0.85,
-      0.8,
-      0.72,
-      0.71,
-      0.62
-    ],
-    "quarterly_revenue": [
-      15841000000.0,
-      15349000000.0,
-      14883000000.0,
-      14673000000.0,
-      14149000000.0
-    ],
-    "quarterly_periods": [
-      "2026-04-30",
-      "2026-01-31",
-      "2025-10-31",
-      "2025-07-31",
-      "2025-04-30"
-    ],
     "eps_qoq_yoy_pct": 35.4,
     "sales_yoy_pct": 12.0,
     "ni_cagr_3y_pct": -4.84,
@@ -123,25 +48,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 69.8,
+    "rs_rating": 86,
+    "score": 68.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5869,
-    "trailing_pe": 38.129032,
-    "forward_pe": 24.788916,
-    "ev_to_ebitda": 27.463,
-    "price_to_sales": 7.6692715,
+    "peg_ratio": 1.6608,
+    "trailing_pe": 39.81208,
+    "forward_pe": 24.859505,
+    "ev_to_ebitda": 28.696,
+    "price_to_sales": 7.6978207,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 53.31,
-    "outperform_6m_vs_nasdaq": 37.21,
-    "outperform_1m_vs_nasdaq": 24.99,
+    "outperform_1y_vs_nasdaq": 50.18,
+    "outperform_6m_vs_nasdaq": 39.61,
+    "outperform_1m_vs_nasdaq": 27.45,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:02.922551+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:46:38.358351+00:00"
   }
 }

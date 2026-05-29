@@ -106,7 +106,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:31:27.360401+00:00",
+    "generated_at": "2026-05-29T00:35:03.809074+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -176,7 +176,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:35:34.708413+00:00",
+    "generated_at": "2026-05-29T00:39:09.271793+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -206,7 +206,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:39:15.134127+00:00",
+    "generated_at": "2026-05-29T00:45:17.302863+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -236,7 +236,7 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:32:29.334485+00:00",
+    "generated_at": "2026-05-29T00:41:12.009917+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -246,7 +246,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:28:28.822796+00:00",
+    "generated_at": "2026-05-29T00:29:54.872229+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -266,7 +266,7 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:33:31.098691+00:00",
+    "generated_at": "2026-05-29T00:38:07.970017+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -286,7 +286,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:34:32.929891+00:00",
+    "generated_at": "2026-05-29T00:37:06.802287+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -330,6 +330,16 @@
     "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
   },
   {
+    "ticker": "FLEX",
+    "company": "Flex Ltd.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-29T00:34:02.571852+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "FTI",
     "company": "TechnipFMC plc",
     "market": "US",
@@ -356,7 +366,7 @@
     "sector": "Communication Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:22:03.500866+00:00",
+    "generated_at": "2026-05-29T00:24:07.771405+00:00",
     "llm_status": "ok"
   },
   {
@@ -366,7 +376,7 @@
     "sector": "Communication Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:21:25.535648+00:00",
+    "generated_at": "2026-05-29T00:23:09.478356+00:00",
     "llm_status": "ok"
   },
   {
@@ -386,7 +396,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-12T00:40:04.585852+00:00",
+    "generated_at": "2026-05-29T00:47:20.781862+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -406,8 +416,8 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-19T00:18:58.434923+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-05-29T00:26:10.162213+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "ILMN",
@@ -446,7 +456,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:26:17.673514+00:00",
+    "generated_at": "2026-05-29T00:36:05.583881+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -466,7 +476,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:39:42.468331+00:00",
+    "generated_at": "2026-05-29T00:42:13.292727+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -496,8 +506,8 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-15T00:09:54.188243+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-05-29T00:25:09.049804+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MD",
@@ -561,12 +571,12 @@
   },
   {
     "ticker": "MRVL",
-    "company": "Marvell Technology Inc",
+    "company": "Marvell Technology, Inc.",
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-16T00:05:15.787351+00:00",
+    "generated_at": "2026-05-29T00:22:12.354598+00:00",
     "llm_status": "ok"
   },
   {
@@ -626,8 +636,8 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:17:33.296296+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-05-29T00:44:16.036078+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "OUT",
@@ -636,7 +646,7 @@
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:19:46.056495+00:00",
+    "generated_at": "2026-05-29T00:46:19.017427+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -670,6 +680,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "RMBS",
+    "company": "Rambus Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-05-29T00:43:14.752000+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "ROK",
     "company": "Rockwell Automation, Inc.",
     "market": "US",
@@ -686,7 +706,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-11T15:24:54.798192+00:00",
+    "generated_at": "2026-05-29T00:40:10.632436+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -696,7 +716,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:32:01.534369+00:00",
+    "generated_at": "2026-05-29T00:30:58.360480+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -726,7 +746,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:23:10.858628+00:00",
+    "generated_at": "2026-05-29T00:31:59.880289+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -756,8 +776,8 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-16T00:05:55.676828+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-05-29T00:28:53.553387+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "STX",
@@ -766,7 +786,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:19:28.414292+00:00",
+    "generated_at": "2026-05-29T00:20:40.259192+00:00",
     "llm_status": "ok"
   },
   {
@@ -785,9 +805,9 @@
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-07T06:33:12.266246+00:00",
-    "llm_status": "unavailable: network error: 'latin-1' codec can't encode character '\\ufeff' in position 0: ordinal not in range(256)"
+    "primary_total": 13,
+    "generated_at": "2026-05-29T00:33:01.293731+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "THR",
@@ -846,8 +866,8 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-13T00:14:10.271333+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-05-29T00:27:51.903920+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "VRT",
@@ -866,7 +886,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:20:06.301592+00:00",
+    "generated_at": "2026-05-29T00:21:17.774013+00:00",
     "llm_status": "ok"
   },
   {

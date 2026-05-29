@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T00:08:59.462642+00:00",
+  "generated_at": "2026-05-29T00:45:12.014999+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -9,60 +9,60 @@
   },
   "snapshot": {
     "total_trades": 39,
-    "active": 11,
-    "exited": 28,
+    "active": 9,
+    "exited": 30,
     "winners_50pct": 0,
-    "winners_30pct": 1,
+    "winners_30pct": 2,
     "losers": 1
   },
   "performance": {
-    "win_rate_pct": 66.7,
-    "profit_factor": 2.6,
-    "expectancy": 3.64,
-    "avg_winner_pct": 8.88,
-    "avg_loser_pct": -6.84,
+    "win_rate_pct": 64.1,
+    "profit_factor": 2.74,
+    "expectancy": 4.26,
+    "avg_winner_pct": 10.47,
+    "avg_loser_pct": -6.83,
     "best": {
-      "ticker": "005930.KS",
-      "return_pct": 40.7
+      "ticker": "024800.KQ",
+      "return_pct": 47.7
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 27.0,
-    "avg_holding_loser_days": 20.5
+    "avg_holding_winner_days": 28.3,
+    "avg_holding_loser_days": 20.8
   },
   "exit_breakdown": {
     "EX6_absent": 22,
-    "EX4_50dma_break": 3,
+    "EX4_50dma_break": 4,
     "EX5_trailing": 1,
-    "EX0_unknown": 1,
+    "EX0_unknown": 2,
     "EX1_stop_8pct": 1
   },
   "rule_analysis": {
     "primary_pass_buckets": [
       {
         "primary_passed": 9,
-        "trades": 3,
-        "avg_return_pct": 7.43,
-        "win_rate_pct": 66.7
-      },
-      {
-        "primary_passed": 10,
-        "trades": 9,
-        "avg_return_pct": 7.65,
-        "win_rate_pct": 77.8
-      },
-      {
-        "primary_passed": 11,
         "trades": 1,
-        "avg_return_pct": 6.54,
+        "avg_return_pct": 47.65,
         "win_rate_pct": 100.0
       },
       {
+        "primary_passed": 10,
+        "trades": 5,
+        "avg_return_pct": 7.62,
+        "win_rate_pct": 80.0
+      },
+      {
+        "primary_passed": 11,
+        "trades": 4,
+        "avg_return_pct": 6.15,
+        "win_rate_pct": 75.0
+      },
+      {
         "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 25.33,
+        "trades": 3,
+        "avg_return_pct": 13.55,
         "win_rate_pct": 100.0
       }
     ],
@@ -75,23 +75,9 @@
     {
       "sector": "Unknown",
       "trades": 28,
-      "win_rate_pct": 60.7,
-      "avg_return_pct": 2.02,
-      "best_return_pct": 40.7
-    },
-    {
-      "sector": "Energy",
-      "trades": 3,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 11.01,
-      "best_return_pct": 23.2
-    },
-    {
-      "sector": "Industrials",
-      "trades": 2,
-      "win_rate_pct": 50.0,
-      "avg_return_pct": 12.38,
-      "best_return_pct": 25.3
+      "win_rate_pct": 57.1,
+      "avg_return_pct": 3.58,
+      "best_return_pct": 47.7
     },
     {
       "sector": "Consumer Cyclical",
@@ -101,68 +87,96 @@
       "best_return_pct": 2.2
     },
     {
-      "sector": "Basic Materials",
+      "sector": "Energy",
       "trades": 2,
-      "win_rate_pct": 50.0,
-      "avg_return_pct": 0.17,
-      "best_return_pct": 1.5
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 4.93,
+      "best_return_pct": 6.5
+    },
+    {
+      "sector": "Technology",
+      "trades": 2,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 9.52,
+      "best_return_pct": 12.3
+    },
+    {
+      "sector": "Industrials",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 24.73,
+      "best_return_pct": 24.7
     },
     {
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 12.67,
-      "best_return_pct": 12.7
+      "avg_return_pct": 13.74,
+      "best_return_pct": 13.7
     },
     {
-      "sector": "Technology",
+      "sector": "Basic Materials",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 12.31,
-      "best_return_pct": 12.3
+      "avg_return_pct": 1.49,
+      "best_return_pct": 1.5
+    },
+    {
+      "sector": "Real Estate",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -1.0,
+      "best_return_pct": -1.0
+    },
+    {
+      "sector": "Consumer Defensive",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -4.04,
+      "best_return_pct": -4.0
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 31,
       "win_rate_pct": 64.5,
-      "avg_return_pct": 1.52
+      "avg_return_pct": 1.61
     },
     "KR": {
       "trades": 6,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 17.2
+      "win_rate_pct": 83.3,
+      "avg_return_pct": 20.97
     },
     "HK": {
       "trades": 2,
       "win_rate_pct": 0.0,
-      "avg_return_pct": -4.1
+      "avg_return_pct": -4.72
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 82.7,
-    "loser_avg_rs": 82.5,
-    "winner_n": 26,
-    "loser_n": 13
+    "winner_avg_rs": 83.0,
+    "loser_avg_rs": 82.4,
+    "winner_n": 25,
+    "loser_n": 14
   },
   "time_curve": [
     {
       "day": 1,
       "trades": 37,
-      "avg_return_pct": 4.01,
-      "winners_pct": 70.3
+      "avg_return_pct": 4.63,
+      "winners_pct": 67.6
     },
     {
       "day": 5,
       "trades": 37,
-      "avg_return_pct": 4.01,
-      "winners_pct": 70.3
+      "avg_return_pct": 4.63,
+      "winners_pct": 67.6
     },
     {
       "day": 21,
       "trades": 29,
-      "avg_return_pct": 5.01,
-      "winners_pct": 75.9
+      "avg_return_pct": 5.81,
+      "winners_pct": 72.4
     },
     {
       "day": 63,
@@ -197,10 +211,11 @@
       "손절매 기준을 8%보다 타이트하게 조정 검토 [가설]"
     ],
     "model": "gemini-2.5-flash",
-    "trades_analyzed": 39
+    "trades_analyzed": 39,
+    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
   },
   "data_status": {
-    "exited_trades_count": 28,
+    "exited_trades_count": 30,
     "min_for_meaningful": 5,
     "fallback_message": null
   }

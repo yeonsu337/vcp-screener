@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-21T00:39:15.134127+00:00",
+  "generated_at": "2026-05-29T00:45:17.302863+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 92434735104,
+    "market_cap": 92270534656,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -24,7 +24,7 @@
       "엔진, 배전, 부품, 전력 시스템, 가속기 등 5개 부문을 통해",
       "디젤 및 천연가스 구동 엔진",
       "맞춤형 엔지니어링 시스템과 통합 제어, 산화 촉매로 구성된 후처리 기술 및 솔루션",
-      "발전시스템, 고마력 엔진, 중·대형 엔진 등 지원 서비스를 제공합니다."
+      "발전 시스템, 고마력 엔진, 대형 및 중형 엔진에 대한 지원 서비스를 제공합니다."
     ],
     "channels": [
       "B2B / 기업"
@@ -32,91 +32,6 @@
     "wikipedia_excerpt": "Cummins Inc.는 디젤 엔진, 전기 자동차 부품 및 발전 제품을 설계, 제조 및 유통하는 미국의 다국적 기업입니다. Cummins는 또한 연료 시스템, 공기 처리 시스템 제어, 여과, 배출 제어, 발전 시스템 및 엔진 제어 장치를 포함한 엔진 및 관련 장비에 대한 서비스를 제공합니다."
   },
   "category_b_financials": {
-    "roe": 0.22,
-    "roa": 0.07,
-    "profit_margin": 0.08,
-    "operating_margin": 0.1,
-    "gross_margin": 0.26,
-    "revenue_growth_ttm": 0.03,
-    "earnings_growth_ttm": -0.21,
-    "dividend_yield": 1.21,
-    "payout_ratio": 0.41,
-    "annual_revenue": [
-      33670000000.0,
-      34102000000.0,
-      34065000000.0,
-      28074000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      3865000000.0,
-      3372000000.0,
-      1278000000.0,
-      2580000000.0,
-      null
-    ],
-    "annual_eps": [
-      20.5,
-      28.37,
-      5.15,
-      15.12,
-      null
-    ],
-    "annual_free_cf": [
-      2386000000.0,
-      279000000.0,
-      2753000000.0,
-      1046000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      8114000000.0,
-      7598000000.0,
-      7208000000.0,
-      8355000000.0,
-      null
-    ],
-    "annual_equity": [
-      12349000000.0,
-      10271000000.0,
-      8850000000.0,
-      8975000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      4.71,
-      4.27,
-      3.86,
-      6.43,
-      5.96,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      8398000000.0,
-      8536000000.0,
-      8317000000.0,
-      8643000000.0,
-      8174000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": -20.6,
     "sales_yoy_pct": 2.7,
     "ni_cagr_3y_pct": 9.74,
@@ -131,20 +46,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 53.3,
+    "rs_rating": 81,
+    "score": 52.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5985,
-    "trailing_pe": 34.246933,
-    "forward_pe": 20.173052,
-    "ev_to_ebitda": 19.687,
-    "price_to_sales": 2.727171,
+    "peg_ratio": 1.6388,
+    "trailing_pe": 34.718586,
+    "forward_pe": 20.026548,
+    "ev_to_ebitda": 19.654,
+    "price_to_sales": 2.7223265,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 65.97,
-    "outperform_6m_vs_nasdaq": 32.35,
-    "outperform_1m_vs_nasdaq": -3.45,
+    "outperform_1y_vs_nasdaq": 68.03,
+    "outperform_6m_vs_nasdaq": 20.91,
+    "outperform_1m_vs_nasdaq": -4.73,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -156,7 +71,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "규정 위반 문제가 발견되면 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "규정 위반 문제의 발견은 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -189,6 +104,6 @@
   },
   "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:02.402009+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:46:15.588685+00:00"
   }
 }

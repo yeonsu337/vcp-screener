@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-05-23T00:35:34.708413+00:00",
+  "generated_at": "2026-05-29T00:39:09.271793+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 405270265856,
+    "market_cap": 408853676032,
     "shares_outstanding": 460591983,
     "employees": 118000,
     "country": "United States",
@@ -35,91 +35,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.51,
-    "roa": 0.09,
-    "profit_margin": 0.13,
-    "operating_margin": 0.18,
-    "gross_margin": 0.29,
-    "revenue_growth_ttm": 0.22,
-    "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.7,
-    "payout_ratio": 0.3,
-    "annual_revenue": [
-      67589000000.0,
-      64809000000.0,
-      67060000000.0,
-      59427000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      11151000000.0,
-      13072000000.0,
-      12966000000.0,
-      8829000000.0,
-      null
-    ],
-    "annual_eps": [
-      18.81,
-      22.05,
-      20.12,
-      12.64,
-      null
-    ],
-    "annual_free_cf": [
-      7453000000.0,
-      8820000000.0,
-      9793000000.0,
-      5167000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      43330000000.0,
-      38409000000.0,
-      37878000000.0,
-      36993000000.0,
-      null
-    ],
-    "annual_equity": [
-      21318000000.0,
-      19491000000.0,
-      19494000000.0,
-      15869000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      5.47,
-      5.12,
-      4.88,
-      4.62,
-      4.2,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      17415000000.0,
-      19133000000.0,
-      17638000000.0,
-      16569000000.0,
-      14249000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 27.3,
     "sales_yoy_pct": 22.2,
     "ni_cagr_3y_pct": 9.83,
@@ -135,26 +50,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 63.1,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0579,
-    "trailing_pe": 43.797413,
-    "forward_pe": 29.513716,
-    "ev_to_ebitda": 30.574,
-    "price_to_sales": 5.727797,
+    "peg_ratio": 2.1624,
+    "trailing_pe": 45.24312,
+    "forward_pe": 29.774675,
+    "ev_to_ebitda": 30.82,
+    "price_to_sales": 5.7784424,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 120.09,
-    "outperform_6m_vs_nasdaq": 43.01,
-    "outperform_1m_vs_nasdaq": -2.45,
+    "outperform_1y_vs_nasdaq": 115.06,
+    "outperform_6m_vs_nasdaq": 41.61,
+    "outperform_1m_vs_nasdaq": -0.6,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리는 가정에 있어서 신중했다고 생각하지만 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 향후 성과에 대해 어떠한 보장도 할 수 없습니다.",
+        "description": "비록 우리가 가정에 있어 신중했다고 생각하지만, 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
         "severity": "medium"
       },
       {
@@ -164,12 +79,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리가 서비스를 제공하는 산업에 영향을 미치는 경제 상황은 앞서 언급한 다양한 조건에 대응하여 자본 지출을 감소시킬 수 있습니다.",
+        "description": "우리가 서비스를 제공하는 산업에 영향을 미치는 경제 상황은 앞서 언급한 다양한 상황에 대응하여 자본 지출을 감소시킬 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 제품은 이러한 활동의 ​​필수적인 구성요소이며, 이러한 활동이 감소함에 따라 당사의 제품 및 서비스에 대한 수요가 크게 영향을 받을 수 있으며 이는 당사의 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "당사의 제품은 이러한 활동의 ​​필수적인 구성 요소이며, 이러한 활동이 감소함에 따라 당사의 제품 및 서비스에 대한 수요가 크게 영향을 받을 수 있으며 이는 당사의 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -192,6 +107,6 @@
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:02.400711+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:45:56.584900+00:00"
   }
 }

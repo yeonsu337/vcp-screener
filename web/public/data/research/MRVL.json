@@ -1,50 +1,46 @@
 {
   "ticker": "MRVL",
-  "company": "Marvell Technology Inc",
+  "company": "Marvell Technology, Inc.",
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-16T00:05:15.787351+00:00",
+  "generated_at": "2026-05-29T00:22:12.354598+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 179339558912,
+    "shares_outstanding": 875553173,
+    "employees": 7480,
+    "country": "United States",
+    "website": "https://www.marvell.com",
+    "beta": 2.251
   },
   "category_a_business": {
-    "overview": "마벨은 데이터 인프라 반도체 솔루션을 공급하는 팹리스 기업으로, 데이터센터부터 네트워크 엣지까지 다양한 시장에 기여합니다.",
+    "overview": "데이터 인프라 반도체 솔루션을 제공하는 팹리스 기업으로, 데이터 센터부터 네트워크 엣지까지 광범위한 시장을 공략합니다.",
     "milestones": [
-      "1995: 마벨 테크놀로지 설립",
-      "2000: 나스닥 상장",
-      "2025: 자동차 이더넷 사업부 인피니언에 매각",
-      "2026: Celestial AI 인수 (포토닉 패브릭 기술 확보)",
-      "2026: XConn Technologies 인수 (PCIe 및 CXL 스위칭 포트폴리오 확장)"
+      "1995: 회사 설립",
+      "2025: 자동차 이더넷 사업부 Infineon에 25억 달러에 매각 완료",
+      "2026: Celestial AI 인수 완료 (차세대 AI 및 클라우드 데이터 센터 연결성 강화)",
+      "2026: XConn Technologies Holdings 인수 완료 (PCIe 및 CXL 스위칭 포트폴리오 확장)"
     ],
-    "business_model": "고성능 반도체 제품을 설계 및 판매하여 데이터센터, 통신 등 다양한 시장에 솔루션을 제공합니다.",
+    "business_model": "데이터 인프라용 고성능 반도체 솔루션을 설계, 개발하여 판매합니다.",
     "revenue_streams": [
-      "데이터센터 반도체 솔루션 판매",
-      "통신 인프라 반도체 솔루션 판매",
-      "엔터프라이즈 네트워킹 반도체 솔루션 판매",
-      "소비자 기기 반도체 솔루션 판매"
+      "데이터 센터 솔루션 판매",
+      "통신 및 기타 시장 솔루션 판매"
     ],
-    "value_chain_position": "Midstream + 팹리스 모델로 반도체 설계 및 IP 개발에 집중하며 제조는 외부 파운드리에 위탁합니다.",
+    "value_chain_position": "Midstream / 팹리스 모델로 반도체 설계 및 개발에 집중합니다.",
     "products": [
-      "클라우드 및 온프레미스 AI 시스템용 반도체",
-      "이더넷 스위칭 솔루션",
-      "네트워크 스토리지 솔루션",
-      "광 전송 시스템용 반도체",
-      "무선 RAN 시스템용 반도체",
-      "브로드밴드 게이트웨이 및 라우터용 반도체"
+      "이더넷 솔루션 (컨트롤러, 어댑터, 트랜시버, 스위치)",
+      "프로세서 (단일/다중 코어)",
+      "맞춤형 ASIC",
+      "상호 연결 제품 (DSP, 레이저 드라이버, 실리콘 포토닉스)",
+      "파이버 채널 제품 (호스트 버스 어댑터, 컨트롤러)"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주로 데이터센터, 통신 장비 제조사, 엔터프라이즈 고객 등 다양한 기업 고객에게 제품을 공급합니다."
+    "key_customers": "주로 데이터 센터, 통신 장비 제조사 등 기업 고객에게 판매하며, 특정 고객에 대한 집중도 정보는 불명확합니다."
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 97.9,
@@ -52,139 +48,140 @@
     "roe_pct": 19.25
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "수치 불확실 (데이터 부족)",
-    "tam_cagr_pct": "수치 불확실 (데이터 부족)",
+    "tam_estimate_usd_b": "약 $200B - $300B (추정, 데이터 인프라 반도체 시장 규모 기반)",
+    "tam_cagr_pct": "10% - 15% (추정) + AI, 클라우드 데이터센터 및 5G/6G 통신 인프라 확장에 따른 고성능 반도체 수요 증가에 근거",
     "growth_drivers": [
-      "AI 및 클라우드 데이터 센터의 폭발적인 성장에 따른 고성능 상호 연결 솔루션 수요 증가",
-      "데이터 인프라 전반에 걸친 반도체 솔루션의 지속적인 수요 증가",
-      "차세대 AI 및 클라우드 데이터 센터를 위한 연결 전략 가속화 (Celestial AI 인수)",
-      "스위칭 포트폴리오 확장 및 Ultra Accelerator Link™ (UALink™) 역량 강화 (XConn Technologies 인수)"
+      "AI 및 클라우드 데이터센터의 폭발적인 성장과 고성능 연결 솔루션 수요 증가",
+      "5G/6G 통신 인프라 확장에 따른 네트워크 엣지 및 코어 솔루션 수요 증가",
+      "데이터 처리량 증가에 따른 스토리지 및 네트워킹 반도체 기술 발전 요구",
+      "맞춤형 SoC 아키텍처 및 통합 솔루션에 대한 시장 요구 증대"
     ],
-    "market_share_pct": "수치 불확실 (데이터 부족)",
+    "market_share_pct": "5% - 10% (추정, 특정 세그먼트별 상이)",
     "competitors": [
       {
-        "name": "NVIDIA",
-        "differentiation": "AI 가속기 및 GPU 시장의 지배적 강자, 소프트웨어 생태계 강점"
+        "name": "Broadcom Inc.",
+        "differentiation": "네트워킹, 브로드밴드 통신, 스토리지 등 광범위한 포트폴리오와 강력한 시장 지배력"
       },
       {
-        "name": "Broadcom",
-        "differentiation": "네트워킹 및 스토리지 반도체 분야의 광범위한 포트폴리오와 시장 리더십"
+        "name": "NVIDIA Corporation",
+        "differentiation": "AI 가속기, GPU 및 관련 네트워킹 솔루션에서 독보적인 기술력과 생태계"
       },
       {
-        "name": "Intel",
-        "differentiation": "CPU 및 데이터 센터 솔루션 분야의 오랜 강자, AI 가속기 시장 진출"
+        "name": "Intel Corporation",
+        "differentiation": "CPU 시장의 강자이며, 데이터센터 및 네트워킹 솔루션으로 확장 중"
       },
       {
-        "name": "AMD",
-        "differentiation": "CPU 및 GPU 시장에서 강력한 경쟁자, 데이터 센터 및 AI 분야 확장"
+        "name": "Cisco Systems, Inc.",
+        "differentiation": "네트워킹 장비 및 솔루션의 선두 주자이며, 자체 반도체 개발 및 통합"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "중간",
-      "substitutes": "중간",
-      "buyer_power": "중간",
-      "supplier_power": "중간",
-      "rivalry": "높은"
+      "new_entrants": "medium + 반도체 설계 및 제조의 높은 초기 투자 비용과 기술 장벽이 존재하나, 특정 니치 시장 진입은 가능",
+      "substitutes": "low + 데이터 인프라 반도체는 핵심 부품으로 직접적인 대체재가 적으나, FPGA 등 다른 기술이 일부 기능 대체 가능",
+      "buyer_power": "medium + 대형 클라우드 서비스 제공업체 및 통신사 등 소수 구매자의 협상력이 높음",
+      "supplier_power": "medium + 파운드리(TSMC 등) 및 IP 공급업체에 대한 의존도가 높으나, 여러 공급업체와의 관계를 통해 분산 가능",
+      "rivalry": "high + 고성능 데이터 인프라 반도체 시장은 기술 혁신 속도가 빠르고 경쟁이 매우 치열함"
     },
     "competitive_advantages": [
-      "데이터 인프라 반도체 솔루션 분야의 선도적인 공급업체",
-      "복잡한 SoC 아키텍처 개발 및 확장, 아날로그, 혼합 신호 및 디지털 신호 처리 기능 통합에 대한 핵심 강점",
-      "선도적인 지적 재산 및 심층적인 시스템 수준 전문성, 혁신적인 보안 펌웨어 보유",
-      "전략적 인수(Celestial AI, XConn)를 통한 AI 및 클라우드 데이터 센터 연결성 강화"
+      "데이터 인프라 반도체 솔루션에 특화된 전문성 및 포트폴리오",
+      "복잡한 SoC 아키텍처 개발 및 스케일링 역량, 아날로그/혼합 신호/디지털 신호 처리 통합 기술",
+      "선도적인 IP 및 심층적인 시스템 수준 전문성, 혁신적인 보안 펌웨어 기술",
+      "Celestial AI 및 XConn Technologies 인수를 통한 AI 및 클라우드 데이터센터 연결 전략 강화"
     ],
     "competitive_weaknesses": [
-      "특정 시장(예: AI 가속기)에서 강력한 경쟁자들에 비해 시장 점유율 및 브랜드 인지도 열위 가능성",
-      "팹리스 모델로 인한 제조 파트너 의존성",
-      "빠르게 변화하는 기술 환경에 대한 지속적인 투자 및 혁신 압박"
+      "특정 시장 세그먼트에서 경쟁사 대비 낮은 시장 점유율",
+      "파운드리 의존도가 높은 팹리스 모델의 공급망 리스크",
+      "대규모 경쟁사 대비 상대적으로 작은 규모와 자원",
+      "급변하는 기술 환경에서 지속적인 R&D 투자 및 혁신 압박"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 74.0,
+    "rs_rating": 95,
+    "score": 74.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 2.3308,
+    "trailing_pe": 66.50325,
+    "forward_pe": 37.029472,
+    "ev_to_ebitda": 66.885,
+    "price_to_sales": 21.88509,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 132.18,
-    "outperform_6m_vs_nasdaq": 86.22,
-    "outperform_1m_vs_nasdaq": 23.83,
+    "outperform_1y_vs_nasdaq": 181.62,
+    "outperform_6m_vs_nasdaq": 127.07,
+    "outperform_1m_vs_nasdaq": 24.54,
+    "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "선도적인 데이터 인프라 반도체 솔루션 공급업체로서 데이터 센터 코어부터 네트워크 엣지까지 광범위한 제품을 제공합니다.",
-      "복잡한 시스템 온 칩(SoC) 아키텍처 개발 및 확장에 핵심 역량을 보유하고 있으며, 아날로그, 혼합 신호 및 디지털 신호 처리 기능을 통합합니다.",
-      "선도적인 지적 재산(IP)과 심층적인 시스템 수준 전문 지식, 혁신적인 보안 펌웨어를 활용하여 데이터 경제를 지원합니다.",
-      "최근 Celestial AI 및 XConn Technologies 인수를 통해 차세대 AI 및 클라우드 데이터 센터 연결 전략을 가속화하고 스위칭 포트폴리오를 확장했습니다."
+      "데이터 인프라 반도체 솔루션 분야의 선두 공급업체로서, 데이터 센터 코어부터 네트워크 엣지까지 광범위한 솔루션을 제공합니다.",
+      "복잡한 시스템온칩(SoC) 아키텍처 개발 및 확장, 아날로그, 혼합 신호 및 디지털 신호 처리 기능 통합에 핵심 강점을 보유하고 있습니다.",
+      "선도적인 지적 재산(IP)과 심층적인 시스템 수준 전문성, 혁신적인 보안 펌웨어를 활용하여 데이터 경제를 지원하고 있습니다."
     ],
     "moat_durability_years": "5~10년",
-    "new_trigger": "Celestial AI 및 XConn Technologies 인수 완료로 AI 및 클라우드 데이터 센터 연결 전략 강화",
-    "bull_case": "AI 및 클라우드 데이터 센터 시장 성장에 힘입어 핵심 반도체 솔루션 수요 급증, 시장 점유율 확대 및 수익성 개선",
-    "base_case": "AI 및 클라우드 시장의 꾸준한 성장과 함께 데이터 인프라 반도체 솔루션 수요가 증가하며, Marvell은 기술 리더십을 바탕으로 안정적인 성장을 지속할 것입니다. 신규 인수 기업들의 시너지가 점진적으로 발현될 것으로 예상됩니다.",
-    "bear_case": "글로벌 경기 침체로 인한 IT 투자 위축, AI 및 클라우드 시장 성장 둔화, 경쟁 심화로 인한 가격 압박, 또는 신규 인수 기업들의 통합 실패로 인해 매출 및 수익성 목표 달성에 어려움을 겪을 수 있습니다.",
+    "new_trigger": "Celestial AI 및 XConn Technologies 인수로 차세대 AI 및 클라우드 데이터 센터 연결 전략 가속화",
+    "bull_case": "AI 및 클라우드 데이터 센터 시장 성장에 힘입어 데이터 인프라 솔루션 수요 급증, 시장 점유율 확대",
+    "base_case": "AI 및 클라우드 시장의 꾸준한 성장과 함께 데이터 인프라 반도체 솔루션 수요가 증가하며, Marvell은 핵심 기술력과 인수를 통해 시장 지위를 유지하고 점진적인 성장을 이룰 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체로 인한 IT 투자 위축, 경쟁 심화로 인한 마진 압박, 신기술 도입 지연 등으로 성장세가 둔화될 수 있습니다.",
     "key_metrics_to_watch": [
       "데이터 센터 및 통신 부문 매출 성장률",
-      "Celestial AI 및 XConn Technologies 통합 시너지 및 재무 기여도",
-      "연구 개발(R&D) 투자 및 신기술 로드맵",
-      "총 마진율 및 영업 현금 흐름"
+      "총 마진율 및 영업 이익률",
+      "R&D 투자 및 신제품 출시 주기",
+      "인수합병 시너지 효과"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "고객집중도",
-        "description": "소수의 주요 고객에 대한 매출 의존도가 높으며, 특히 데이터 센터 시장에 매출이 집중되어 있어 주요 고객의 이탈이나 주문 취소 시 매출에 큰 타격을 입을 수 있습니다.",
+        "description": "소수의 주요 고객에 대한 매출 의존도가 높으며, 특히 데이터센터 최종 시장에 매출이 집중되어 있어 주요 고객의 이탈이나 주문 취소 시 매출에 큰 타격을 입을 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "경쟁",
-        "description": "반도체 및 인프라 산업의 최종 시장은 경쟁이 매우 치열하며, 신제품 개발 및 기술 변화에 대한 적응 실패는 경쟁력 상실로 이어질 수 있습니다.",
+        "description": "반도체 및 인프라 산업 내 최종 시장의 경쟁이 매우 치열하여 신제품 개발 및 적시 출시에 실패하거나 기술 변화에 적응하지 못할 경우 시장 점유율을 잃을 위험이 있습니다.",
         "severity": "high"
       },
       {
         "category": "공급망",
-        "description": "공급망 중단, 부품 부족, 리드 타임 연장 등으로 인해 제품 생산 및 비용에 부정적인 영향을 받을 수 있으며, 이는 고객의 제품 출하 능력에도 영향을 미쳐 매출 감소로 이어질 수 있습니다.",
+        "description": "공급망 중단, 부품 부족, 제3자 제조 파트너에 대한 의존성으로 인해 제품 생산 비용 증가 및 고객에게 제품을 적시에 공급하지 못할 위험이 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거시",
-        "description": "경제 둔화, 인플레이션, 고금리, 금융 불안정 등 거시 경제 상황 변화와 지정학적 갈등(예: 이스라엘-중동 분쟁)은 사업 운영 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "경제 둔화, 인플레이션, 고금리 등 거시경제 상황 변화와 지정학적 갈등(예: 이스라엘 및 중동 분쟁)이 사업 운영 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "규제",
-        "description": "중국 등 해외 국가와의 관세 및 무역 제한은 고객의 자체 솔루션 개발, 수직 통합 또는 제3자로부터의 솔루션 구매를 유도하여 당사 제품의 필요성을 감소시킬 수 있습니다.",
+        "description": "중국 등 해외 국가와의 관세 및 무역 제한(수출 허가 필요 포함)은 고객의 자체 솔루션 개발, 수직 통합 또는 제3자 솔루션 구매를 유도하여 당사 제품 수요를 감소시킬 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "부채 의무와 관련된 위험이 존재하며, 분기별 실적 변동성이 커서 미래 성과를 예측하기 어렵고 주가 변동성이 높을 수 있습니다.",
+        "description": "상당한 부채를 보유하고 있어 이자율 상승 시 재무 부담이 가중될 수 있으며, 분기별 실적 변동성이 커서 미래 성과 예측이 어렵습니다.",
         "severity": "medium"
       },
       {
         "category": "거버넌스",
-        "description": "과거, 현재 또는 미래의 인수, 매각, 투자 또는 전략적 거래를 성공적으로 통합하고 예상되는 이점을 실현하지 못할 위험이 있습니다.",
+        "description": "과거 및 미래의 인수합병, 매각, 투자 또는 전략적 거래의 성공적인 통합 및 예상되는 시너지 효과 실현에 실패할 위험이 있습니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "주요 고객들이 자체 반도체 솔루션을 개발하거나 경쟁사 제품으로 전환하여 MRVL의 매출이 급감하고 시장 점유율을 잃는 경우.",
-      "글로벌 공급망의 심각한 붕괴로 핵심 부품 조달이 불가능해져 제품 생산이 중단되고 고객 주문을 이행하지 못하는 경우.",
-      "데이터 센터 및 통신 시장의 기술 변화에 적절히 대응하지 못하고 혁신적인 신제품을 적시에 출시하지 못하여 경쟁 우위를 상실하는 경우.",
-      "미중 무역 갈등 심화로 중국 시장 접근이 완전히 차단되고, 주요 고객들이 MRVL 제품 사용을 중단해야 하는 경우."
+      "주요 고객이 이탈하거나 대규모 주문을 취소하여 매출이 급감하고 재무 건전성이 심각하게 악화될 경우.",
+      "핵심 기술 개발 경쟁에서 뒤처지거나 공급망이 심각하게 마비되어 제품 생산 및 판매가 불가능해질 경우.",
+      "미중 무역 분쟁 심화 등으로 인해 중국 시장 접근이 완전히 차단되고, 핵심 고객들이 자사 제품 대신 다른 솔루션을 채택할 경우.",
+      "데이터센터 및 통신 시장의 수요가 급격히 감소하고, AI 기술의 발전이 당사의 기존 비즈니스 모델을 완전히 대체할 경우."
     ],
     "exit_signals": [
-      "주요 데이터 센터 고객 중 한 곳 이상이 MRVL과의 대규모 디자인 윈을 경쟁사에 빼앗기거나 자체 솔루션으로 전환한다는 발표.",
-      "분기별 실적 발표에서 데이터 센터 및 통신 시장 매출이 연속적으로 시장 기대치를 크게 하회하고, 경영진이 향후 전망에 대해 비관적인 입장을 표명.",
-      "핵심 기술 분야에서 경쟁사들이 MRVL보다 월등히 앞선 혁신적인 제품을 출시하여 MRVL 제품의 시장 경쟁력이 현저히 저하되는 것이 확인될 경우.",
-      "미국 정부가 중국에 대한 반도체 수출 통제를 더욱 강화하여 MRVL의 주요 중국 고객과의 거래가 사실상 불가능해지는 규제 발표."
+      "주요 고객 3곳 이상에서 대규모 디자인 윈(Design Win)을 상실하거나 주문이 30% 이상 감소하는 발표.",
+      "경쟁사 대비 신제품 출시가 1년 이상 지연되거나, 핵심 기술 분야에서 경쟁 우위를 상실했다는 시장 분석 보고서 발표.",
+      "중국 등 주요 시장에서 매출이 2분기 연속 20% 이상 감소하고, 무역 규제 강화로 인한 추가적인 시장 접근 제한 조치가 발표될 경우.",
+      "분기별 매출 및 영업이익이 시장 예상치를 2분기 연속 크게 하회하고, 경영진이 향후 성장 전망을 하향 조정하는 발표."
     ]
   },
-  "wikipedia_summary": "",
+  "wikipedia_summary": "Marvell Technology, Inc. is an American company, headquartered in Santa Clara, California, which develops and produces semiconductors and related technology. Founded in 1995, the company had close to 7,500 employees as of 2026, with over 10,000 patents worldwide, and an annual revenue of $8.2 billion for fiscal 2026.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:06.257953+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:48:49.945778+00:00"
   }
 }

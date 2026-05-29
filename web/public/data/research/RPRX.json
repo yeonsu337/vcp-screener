@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-05-21T00:32:01.534369+00:00",
+  "generated_at": "2026-05-29T00:30:58.360480+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 30553657344,
+    "market_cap": 31371337728,
     "shares_outstanding": 443274104,
     "employees": 100,
     "country": "United States",
@@ -27,85 +27,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.14,
-    "roa": 0.06,
-    "profit_margin": 0.34,
-    "operating_margin": 1.0,
-    "gross_margin": 1.15,
-    "revenue_growth_ttm": 0.11,
-    "earnings_growth_ttm": 0.23,
-    "dividend_yield": 1.79,
-    "payout_ratio": 0.47,
-    "annual_revenue": [
-      2378193000.0,
-      2263576000.0,
-      2354554000.0,
-      2237215000.0,
-      null
-    ],
-    "annual_operating_income": [
-      1559518000.0,
-      1292444000.0,
-      1492150000.0,
-      922892000.0,
-      null
-    ],
-    "annual_eps": [
-      1.78,
-      1.45,
-      2.53,
-      0.1,
-      null
-    ],
-    "annual_free_cf": [
-      2489823000.0,
-      2768986000.0,
-      2987802000.0,
-      2143980000.0,
-      null
-    ],
-    "annual_total_debt": [
-      8950917000.0,
-      7612426000.0,
-      6135285000.0,
-      7116322000.0,
-      null
-    ],
-    "annual_equity": [
-      6476900000.0,
-      6946581000.0,
-      6526497000.0,
-      5628150000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.53,
-      0.38,
-      0.67,
-      0.07,
-      0.55
-    ],
-    "quarterly_revenue": [
-      630576000.0,
-      621990000.0,
-      609291000.0,
-      578665000.0,
-      568247000.0
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
-    ],
     "eps_qoq_yoy_pct": 23.1,
     "sales_yoy_pct": 11.0,
     "ni_cagr_3y_pct": 162.07,
@@ -121,19 +42,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 77,
-    "score": 64.4,
-    "vcp_quality": 16.7,
+    "score": 65.8,
+    "vcp_quality": 17.6,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9595,
-    "trailing_pe": 27.926317,
-    "forward_pe": 9.451389,
+    "peg_ratio": 2.0181,
+    "trailing_pe": 28.375,
+    "forward_pe": 9.704329,
     "ev_to_ebitda": null,
-    "price_to_sales": 12.519313,
+    "price_to_sales": 12.854356,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.53,
-    "outperform_6m_vs_nasdaq": 21.12,
-    "outperform_1m_vs_nasdaq": -0.58,
+    "outperform_1y_vs_nasdaq": 30.03,
+    "outperform_6m_vs_nasdaq": 20.7,
+    "outperform_1m_vs_nasdaq": 1.32,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -178,6 +99,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:06.973438+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:49:38.443260+00:00"
   }
 }

@@ -4,14 +4,14 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-05-12T00:40:04.585852+00:00",
+  "generated_at": "2026-05-29T00:47:20.781862+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5237287424,
+    "market_cap": 5280739840,
     "shares_outstanding": 127801066,
-    "employees": 173,
+    "employees": 170,
     "country": "United States",
     "website": "https://www.hasi.com",
     "beta": 1.463
@@ -24,87 +24,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.02,
-    "roa": 0.01,
-    "profit_margin": 0.64,
-    "operating_margin": -1.24,
-    "gross_margin": 1.0,
-    "revenue_growth_ttm": -0.28,
-    "earnings_growth_ttm": null,
-    "dividend_yield": 4.12,
-    "payout_ratio": 4.21,
-    "annual_revenue": [
-      408765000.0,
-      389109000.0,
-      289837000.0,
-      155469000.0
-    ],
-    "annual_operating_income": [
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    "annual_eps": [
-      1.41,
-      1.62,
-      1.42,
-      0.47
-    ],
-    "annual_free_cf": [
-      167317000.0,
-      5852000.0,
-      99689000.0,
-      230000.0
-    ],
-    "annual_total_debt": [
-      5149394000.0,
-      4399531000.0,
-      4247420000.0,
-      2975288000.0,
-      null
-    ],
-    "annual_equity": [
-      2574878000.0,
-      2336756000.0,
-      2092261000.0,
-      1629237000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31"
-    ],
-    "quarterly_eps": [
-      -0.57,
-      -0.43,
-      0.61,
-      0.74,
-      0.44,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      null,
-      -31248000.0,
-      156143000.0,
-      163619000.0,
-      120253000.0,
-      125596000.0,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "sales_yoy_pct": -28.3,
     "ni_cagr_3y_pct": 64.44,
     "roe_pct": 2.25
@@ -118,20 +37,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 64.2,
-    "vcp_quality": 0.0,
-    "stage": 0,
-    "stage_name": "Unknown",
-    "peg_ratio": 1.4673,
-    "trailing_pe": 102.45,
-    "forward_pe": 12.418257,
+    "rs_rating": 76,
+    "score": 54.5,
+    "vcp_quality": 9.8,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.4583,
+    "trailing_pe": 103.299995,
+    "forward_pe": 12.401034,
     "ev_to_ebitda": null,
-    "price_to_sales": 59.574883,
+    "price_to_sales": 60.06916,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 20.32,
-    "outperform_6m_vs_nasdaq": 33.09,
-    "outperform_1m_vs_nasdaq": -9.43,
+    "outperform_1y_vs_nasdaq": 30.17,
+    "outperform_6m_vs_nasdaq": 13.38,
+    "outperform_1m_vs_nasdaq": -8.04,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -163,7 +82,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 전력회사에 유리한 정부 또는 내부 유틸리티 규정 및 정책의 변경으로 인해 경쟁력이 저하되고 우리가 투자하는 시스템에 대한 수요가 크게 감소할 수 있습니다.",
+        "description": "또한 전력회사에 우호적인 정부 또는 내부 유틸리티 규정 및 정책이 변경되면 경쟁력이 저하되고 우리가 투자하는 시스템에 대한 수요가 크게 감소할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -176,6 +95,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:03.414926+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:47:49.581761+00:00"
   }
 }

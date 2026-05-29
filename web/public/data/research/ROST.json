@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-05-11T15:24:54.798192+00:00",
+  "generated_at": "2026-05-29T00:40:10.632436+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 69783240704,
+    "market_cap": 73486688256,
     "shares_outstanding": 322148148,
     "employees": 111000,
     "country": "United States",
@@ -33,85 +33,10 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.37,
-    "roa": 0.11,
-    "profit_margin": 0.09,
-    "operating_margin": 0.12,
-    "gross_margin": 0.33,
-    "revenue_growth_ttm": 0.12,
-    "earnings_growth_ttm": 0.12,
-    "dividend_yield": 0.79,
-    "payout_ratio": 0.25,
-    "annual_revenue": [
-      22750559000.0,
-      21129219000.0,
-      20376941000.0,
-      18695829000.0
-    ],
-    "annual_operating_income": [
-      2707357000.0,
-      2585586000.0,
-      2307663000.0,
-      1990331000.0
-    ],
-    "annual_eps": [
-      6.61,
-      6.32,
-      5.56,
-      4.38
-    ],
-    "annual_free_cf": [
-      2207608000.0,
-      1636884000.0,
-      1751678000.0,
-      1035303000.0,
-      null
-    ],
-    "annual_total_debt": [
-      5212338000.0,
-      5682429000.0,
-      5747704000.0,
-      5706447000.0,
-      null
-    ],
-    "annual_equity": [
-      6187443000.0,
-      5509195000.0,
-      4871326000.0,
-      4288583000.0,
-      null
-    ],
-    "annual_periods": [
-      "2026-01-31",
-      "2025-01-31",
-      "2024-01-31",
-      "2023-01-31"
-    ],
-    "quarterly_eps": [
-      2.0,
-      1.58,
-      1.56,
-      1.47,
-      1.79
-    ],
-    "quarterly_revenue": [
-      6635490000.0,
-      5600946000.0,
-      5529152000.0,
-      4984971000.0,
-      5912279000.0
-    ],
-    "quarterly_periods": [
-      "2026-01-31",
-      "2025-10-31",
-      "2025-07-31",
-      "2025-04-30",
-      "2025-01-31"
-    ],
-    "eps_qoq_yoy_pct": 10.1,
-    "sales_yoy_pct": 12.2,
+    "eps_qoq_yoy_pct": 35.6,
+    "sales_yoy_pct": 20.6,
     "ni_cagr_3y_pct": 12.36,
-    "roe_pct": 36.68
+    "roe_pct": 38.98
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -123,24 +48,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 75,
-    "score": 62.4,
+    "score": 62.0,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 3.2853,
-    "trailing_pe": 32.590633,
-    "forward_pe": 26.43561,
-    "ev_to_ebitda": 22.821,
-    "price_to_sales": 3.0673199,
+    "peg_ratio": 2.8354,
+    "trailing_pe": 32.550144,
+    "forward_pe": 26.526745,
+    "ev_to_ebitda": 21.294,
+    "price_to_sales": 3.0907845,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 7.52,
-    "outperform_6m_vs_nasdaq": 23.11,
-    "outperform_1m_vs_nasdaq": -15.8,
+    "outperform_1y_vs_nasdaq": 22.21,
+    "outperform_6m_vs_nasdaq": 13.36,
+    "outperform_1m_vs_nasdaq": -8.39,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:06.972936+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:49:27.156591+00:00"
   }
 }

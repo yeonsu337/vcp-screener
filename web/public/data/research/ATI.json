@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-05-23T00:31:27.360401+00:00",
+  "generated_at": "2026-05-29T00:35:03.809074+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 22147784704,
+    "market_cap": 23272302592,
     "shares_outstanding": 136470427,
     "employees": 7600,
     "country": "United States",
@@ -17,11 +17,11 @@
     "beta": 0.943
   },
   "category_a_business": {
-    "overview": "ATI Inc.는 전 세계적으로 특수 소재와 복합 부품을 생산 및 판매합니다. 고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 운영됩니다.",
+    "overview": "ATI Inc.는 전 세계적으로 특수 재료와 복합 부품을 생산 및 판매합니다. 고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 운영됩니다.",
     "business_model": "ATI 주식회사",
     "products": [
       "전 세계적으로 특수 소재와 복합 부품을 판매하고 있습니다.",
-      "고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 나뉜다.",
+      "고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 가지 부문으로 나뉜다.",
       "티타늄 및 티타늄 기반 합금, 니켈 및 코발트 기반 합금 및 초합금을 포함한 고성능 소재",
       "하프늄 및 니오븀, 니켈 기반 합금, 티타늄 및 티타늄 기반 합금을 포함한 지르코늄 및 관련 합금,",
       "탄소강 제품으로 구성된 열간 압연 전환 서비스"
@@ -29,94 +29,9 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "ATI Inc.는 텍사스주 달라스에 본사를 둔 미국의 특수 소재 생산업체입니다. ATI는 티타늄 및 티타늄 합금, 니켈 기반 합금 및 초합금, 스테인레스 및 특수강, 지르코늄, 하프늄 및 니오븀, 텅스텐 재료, 단조품 및 주조물을 포함한 금속을 생산합니다."
+    "wikipedia_excerpt": "ATI Inc.는 텍사스 주 달라스에 본사를 둔 미국의 특수 소재 생산업체입니다. ATI는 티타늄 및 티타늄 합금, 니켈 기반 합금 및 초합금, 스테인리스강 및 특수강, 지르코늄, 하프늄, 니오븀, 텅스텐 재료, 단조품 및 주조물을 포함한 금속을 생산합니다."
   },
   "category_b_financials": {
-    "roe": 0.23,
-    "roa": 0.08,
-    "profit_margin": 0.09,
-    "operating_margin": 0.16,
-    "gross_margin": 0.23,
-    "revenue_growth_ttm": 0.01,
-    "earnings_growth_ttm": 0.27,
-    "dividend_yield": null,
-    "payout_ratio": 0.0,
-    "annual_revenue": [
-      4587400000.0,
-      4362100000.0,
-      4173700000.0,
-      3836000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      641900000.0,
-      555900000.0,
-      474500000.0,
-      416700000.0,
-      null
-    ],
-    "annual_eps": [
-      2.85,
-      2.55,
-      2.81,
-      0.96,
-      null
-    ],
-    "annual_free_cf": [
-      333700000.0,
-      168100000.0,
-      -114800000.0,
-      94000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      1749400000.0,
-      1895300000.0,
-      2179600000.0,
-      1748000000.0,
-      null
-    ],
-    "annual_equity": [
-      1804500000.0,
-      1850400000.0,
-      1373000000.0,
-      1045900000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.85,
-      0.69,
-      0.78,
-      0.7,
-      0.67,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      1151500000.0,
-      1177100000.0,
-      1125500000.0,
-      1140400000.0,
-      1144400000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 21.9,
     "sales_yoy_pct": 0.6,
     "ni_cagr_3y_pct": 7.72,
@@ -131,20 +46,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 58.5,
+    "rs_rating": 86,
+    "score": 60.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.33,
-    "trailing_pe": 53.561054,
-    "forward_pe": 30.020456,
-    "ev_to_ebitda": 27.897,
-    "price_to_sales": 4.8204994,
+    "trailing_pe": 56.46689,
+    "forward_pe": 31.544697,
+    "ev_to_ebitda": 29.221,
+    "price_to_sales": 5.0652523,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 76.31,
-    "outperform_6m_vs_nasdaq": 48.65,
-    "outperform_1m_vs_nasdaq": -2.45,
+    "outperform_1y_vs_nasdaq": 74.38,
+    "outperform_6m_vs_nasdaq": 56.98,
+    "outperform_1m_vs_nasdaq": 3.28,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -189,6 +104,6 @@
   },
   "wikipedia_summary": "ATI Inc. is an American producer of specialty materials headquartered in Dallas, Texas. ATI produces metals including titanium and titanium alloys, nickel-based alloys and superalloys, stainless and specialty steels, zirconium, hafnium, and niobium, tungsten materials, forgings and castings.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:01.415384+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:45:33.933079+00:00"
   }
 }

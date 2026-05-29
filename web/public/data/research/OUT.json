@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-05-27T00:19:46.056495+00:00",
+  "generated_at": "2026-05-29T00:46:19.017427+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5873478656,
+    "market_cap": 5718542336,
     "shares_outstanding": 176063510,
     "employees": 1981,
     "country": "United States",
@@ -17,35 +17,12 @@
     "beta": 1.486
   },
   "category_a_business": {
-    "overview": "OUTFRONT Media는 미국 최대 옥외 미디어 기업 중 하나로, 브랜드가 대중과 소통하도록 돕습니다.",
-    "milestones": [
-      "2013년: OUTFRONT Media Inc. 설립",
-      "2014: CBS Outdoor Americas Inc.에서 OUTFRONT Media로 사명 변경 및 REIT 전환",
-      "2015: Van Wagner Communications의 옥외 광고 사업부 인수",
-      "2016: 스마트시티 솔루션 제공업체인 Intersection의 지분 인수",
-      "2018: 캐나다 옥외 광고 사업부 매각",
-      "2020: 코로나19 팬데믹으로 인한 옥외 광고 시장 침체 경험",
-      "2022: 디지털 옥외 광고 디스플레이 확장 및 기술 투자 지속"
-    ],
-    "business_model": "광고주에게 옥외 광고 공간을 임대하여 광고 수익을 창출합니다.",
-    "revenue_streams": [
-      "빌보드 광고 임대료",
-      "디지털 디스플레이 광고 임대료",
-      "대중교통 시스템 광고 임대료",
-      "옥외 광고 캠페인 기획 및 제작 서비스"
-    ],
-    "value_chain_position": "Downstream: 옥외 광고 자산을 소유 및 운영하며 광고주에게 직접 서비스를 제공합니다.",
-    "products": [
-      "빌보드 (전통 및 디지털)",
-      "대중교통 광고 (버스, 지하철, 기차)",
-      "거리 가구 광고 (쉘터, 키오스크)",
-      "OUTFRONT STUDIOS (크리에이티브 서비스)",
-      "XLabs (혁신 및 데이터 분석)"
-    ],
+    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 브랜드가 가장 중요한 순간과 환경에서 청중과 연결되도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
+    "business_model": "아웃프론트미디어(주)",
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "다수의 광고주에게 서비스를 제공하며, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
+    "wikipedia_excerpt": "Outfront Media, Inc.는 미국의 광고 회사입니다. 미국에서 운영됩니다. 미주 사업부는 최고 경영자(CEO)인 Nick Brien이 이끌고 있습니다. Outfront Media에는 ​​광고판과 대중교통 디스플레이가 모두 있습니다."
   },
   "category_b_financials": {
     "sales_yoy_pct": 10.0,
@@ -61,25 +38,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 58.7,
+    "rs_rating": 83,
+    "score": 55.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 31.177568,
-    "forward_pe": 23.994993,
-    "ev_to_ebitda": 21.895,
-    "price_to_sales": 3.1398904,
+    "trailing_pe": 30.355139,
+    "forward_pe": 23.362032,
+    "ev_to_ebitda": 21.465,
+    "price_to_sales": 3.0570633,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 83.92,
-    "outperform_6m_vs_nasdaq": 35.04,
-    "outperform_1m_vs_nasdaq": 3.8,
+    "outperform_1y_vs_nasdaq": 69.7,
+    "outperform_6m_vs_nasdaq": 28.45,
+    "outperform_1m_vs_nasdaq": -2.82,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media has both billboards and transit displays.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:06.970440+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:49:03.108915+00:00"
   }
 }

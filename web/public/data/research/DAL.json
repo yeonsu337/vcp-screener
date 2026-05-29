@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Airlines",
-  "generated_at": "2026-05-23T00:33:31.098691+00:00",
+  "generated_at": "2026-05-29T00:38:07.970017+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 50023550976,
+    "market_cap": 54195462144,
     "shares_outstanding": 656994340,
     "employees": 103000,
     "country": "United States",
@@ -31,91 +31,6 @@
     "wikipedia_excerpt": "Delta Air Lines, Inc.는 조지아주 애틀랜타에 본사를 두고 있는 미국의 주요 항공사로 9개의 허브를 운영하고 있으며, 하츠필드-잭슨 애틀랜타 국제공항은 총 승객 수와 출발 횟수 측면에서 가장 큰 공항입니다. Delta Connection이라는 브랜드 이름으로 운영되는 지역 자회사 및 계약업체를 통해 Delta는 매일 5,400편 이상의 항공편을 운항하며 6개 대륙, 52개국, ​​325개 목적지에 서비스를 제공합니다."
   },
   "category_b_financials": {
-    "roe": 0.25,
-    "roa": 0.04,
-    "profit_margin": 0.07,
-    "operating_margin": 0.03,
-    "gross_margin": 0.2,
-    "revenue_growth_ttm": 0.13,
-    "earnings_growth_ttm": null,
-    "dividend_yield": 0.99,
-    "payout_ratio": 0.1,
-    "annual_revenue": [
-      63364000000.0,
-      61643000000.0,
-      58048000000.0,
-      50582000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      5822000000.0,
-      5995000000.0,
-      5521000000.0,
-      3661000000.0,
-      null
-    ],
-    "annual_eps": [
-      7.66,
-      5.33,
-      7.17,
-      2.06,
-      null
-    ],
-    "annual_free_cf": [
-      3843000000.0,
-      2885000000.0,
-      1141000000.0,
-      -3000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      20274000000.0,
-      22771000000.0,
-      27281000000.0,
-      30610000000.0,
-      null
-    ],
-    "annual_equity": [
-      20853000000.0,
-      15293000000.0,
-      11105000000.0,
-      6582000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      -0.44,
-      1.86,
-      2.17,
-      3.27,
-      0.37,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      15854000000.0,
-      16003000000.0,
-      16673000000.0,
-      16648000000.0,
-      14040000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "sales_yoy_pct": 12.9,
     "ni_cagr_3y_pct": 56.01,
     "roe_pct": 24.99
@@ -129,20 +44,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 55.2,
+    "rs_rating": 75,
+    "score": 58.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.21,
-    "trailing_pe": 11.115329,
-    "forward_pe": 9.468159,
-    "ev_to_ebitda": 8.501,
-    "price_to_sales": 0.76749134,
+    "trailing_pe": 12.0423355,
+    "forward_pe": 10.239078,
+    "ev_to_ebitda": 8.977,
+    "price_to_sales": 0.8314993,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 20.04,
-    "outperform_6m_vs_nasdaq": 17.85,
-    "outperform_1m_vs_nasdaq": 3.86,
+    "outperform_1y_vs_nasdaq": 28.79,
+    "outperform_6m_vs_nasdaq": 19.01,
+    "outperform_1m_vs_nasdaq": 13.9,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -167,6 +82,6 @@
   },
   "wikipedia_summary": "Delta Air Lines, Inc. is a major airline in the United States headquartered in Atlanta, Georgia, operating nine hubs, with Hartsfield–Jackson Atlanta International Airport being its largest in terms of total passengers and number of departures. With its regional subsidiaries and contractors operating under the brand name Delta Connection, Delta has over 5,400 flights daily and serves 325 destinations in 52 countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-28T00:09:02.923433+00:00"
+    "GoogleWebTranslator": "2026-05-29T00:46:51.248465+00:00"
   }
 }
