@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "037760.KQ",
-  "generated_at": "2026-05-30T00:17:57.272918+00:00",
-  "source_results_date": "2026-05-30",
+  "ticker": "BFH",
+  "generated_at": "2026-06-02T00:19:44.753704+00:00",
+  "source_results_date": "2026-06-02",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.66,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 2회, 마지막 10.76%).",
-    "13주 베이스 7.6% → 10.8%, VDU 1.01×, pivot ₩2555.00(-4.70%).",
-    "Trend Template 8/8 통과, RS 74 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 7.09%).",
+    "13주 베이스 11.9% → 13.6% → 8.1% → 9.9% → 16.8%, VDU 1.06×, pivot $98.87(-9.59%).",
+    "Trend Template 8/8 통과, RS 76 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 74,
+    "rs_rating": 76,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -40,16 +40,19 @@
     "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
-    "R1_rs_70"
+    "R1_rs_70",
+    "L1_liquidity_gate",
+    "E7_roe",
+    "F1_outperform_1y",
+    "H4_ni_cagr_3y"
   ],
   "key_failures": [
-    "P2_last_contraction (10.76% vs 6.5%)",
-    "P3_vol_dryup (1.01× vs 0.6×)",
+    "P2_last_contraction (7.09% vs 6.5%)",
+    "P3_vol_dryup (1.06× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-49.4% vs ≥-5.0%)"
+    "rs_line (-9.1% vs ≥-5.0%)"
   ],
   "warnings": [
-    "RS 74 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

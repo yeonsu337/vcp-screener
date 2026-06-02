@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "017670.KS",
-  "generated_at": "2026-05-30T00:17:57.271974+00:00",
-  "source_results_date": "2026-05-30",
+  "generated_at": "2026-06-02T00:19:44.761826+00:00",
+  "source_results_date": "2026-06-02",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.57,
+  "confidence": 0.58,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 11.20%).",
-    "13주 베이스 22.1% → 7.9% → 9.3% → 7.7% → 10.9%, VDU 1.36×, pivot ₩110578.23(-9.02%).",
-    "Trend Template 7/8 통과, RS 81 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 13.73%).",
+    "13주 베이스 7.9% → 9.3% → 7.7% → 10.9% → 11.2%, VDU 1.58×, pivot ₩110578.23(+1.47%).",
+    "Trend Template 7/8 통과, RS 86 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,9 +25,9 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 81,
+    "rs_rating": 86,
     "stage": 2,
-    "base_count": 3,
+    "base_count": 4,
     "late_base_warning": true,
     "market_regime": "neutral"
   },
@@ -44,14 +44,14 @@
     "R2_rs_80"
   ],
   "key_failures": [
-    "P2_last_contraction (11.20% vs 6.5%)",
-    "P3_vol_dryup (1.36× vs 0.6×)",
-    "P4_base_count (3 — 후기 베이스)",
+    "P2_last_contraction (13.73% vs 6.5%)",
+    "P3_vol_dryup (1.58× vs 0.6×)",
+    "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-38.0% vs ≥-5.0%)"
+    "rs_line (-37.9% vs ≥-5.0%)"
   ],
   "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+    "베이스 카운트 4 — 후기 베이스, 실패율 상승"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T00:26:34.410330+00:00",
+  "generated_at": "2026-06-02T00:23:56.915615+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -9,31 +9,31 @@
   },
   "snapshot": {
     "total_trades": 39,
-    "active": 7,
-    "exited": 32,
-    "winners_50pct": 0,
+    "active": 6,
+    "exited": 33,
+    "winners_50pct": 1,
     "winners_30pct": 1,
     "losers": 1
   },
   "performance": {
     "win_rate_pct": 64.1,
-    "profit_factor": 2.58,
-    "expectancy": 3.91,
-    "avg_winner_pct": 9.96,
-    "avg_loser_pct": -6.89,
+    "profit_factor": 2.77,
+    "expectancy": 4.27,
+    "avg_winner_pct": 10.44,
+    "avg_loser_pct": -6.74,
     "best": {
       "ticker": "005930.KS",
-      "return_pct": 45.2
+      "return_pct": 59.9
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 29,
+    "avg_holding_winner_days": 29.2,
     "avg_holding_loser_days": 20.8
   },
   "exit_breakdown": {
-    "EX0_unknown": 4,
+    "EX0_unknown": 5,
     "EX6_absent": 22,
     "EX4_50dma_break": 4,
     "EX5_trailing": 1,
@@ -44,24 +44,109 @@
       {
         "primary_passed": 10,
         "trades": 7,
-        "avg_return_pct": 6.74,
-        "win_rate_pct": 71.4
+        "avg_return_pct": 10.13,
+        "win_rate_pct": 57.1
       },
       {
         "primary_passed": 11,
-        "trades": 2,
-        "avg_return_pct": 2.99,
-        "win_rate_pct": 50.0
-      },
-      {
-        "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 21.59,
-        "win_rate_pct": 100.0
+        "trades": 3,
+        "avg_return_pct": 3.1,
+        "win_rate_pct": 66.7
       }
     ],
     "rule_hit_rate_diff": [],
-    "big_winners_common_rules": [],
+    "big_winners_common_rules": [
+      {
+        "rule_id": "A1_ud_vol_ratio",
+        "rule_name": "U/D Volume Ratio ≥ 1.0 (50d)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B1_price_above_150_200",
+        "rule_name": "Price > SMA150 & SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B2_sma150_gt_sma200",
+        "rule_name": "SMA150 > SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B3_sma50_gt_150_200",
+        "rule_name": "SMA50 > SMA150 & SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B4_price_above_sma50",
+        "rule_name": "Price > SMA50",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B5_sma200_rising_5mo",
+        "rule_name": "200d SMA rising 4-5 months",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B6_30pct_above_52w_low",
+        "rule_name": "≥ 30% above 52W low",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B7_within_25pct_high",
+        "rule_name": "Within 25% of 52W high",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B8_within_10pct_high",
+        "rule_name": "Within 10% of 52W high (bonus)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B9_stage2",
+        "rule_name": "Weinstein Stage 2 (Advancing)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R1_rs_70",
+        "rule_name": "RS Rating ≥ 70 (Minervini gate)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R2_rs_80",
+        "rule_name": "RS Rating ≥ 80 (CANSLIM Leader)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R3_rs_90",
+        "rule_name": "RS Rating ≥ 90 (Strong leader)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "V2_short_term_tightening",
+        "rule_name": "Near-term volatility tightening (30d/60d < 1.0)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "L1_liquidity_gate",
+        "rule_name": "Daily $ volume ≥ market threshold",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      }
+    ],
     "loser_threshold_pct": -10.0,
     "big_winner_threshold_pct": 50.0
   },
@@ -69,23 +154,9 @@
     {
       "sector": "Unknown",
       "trades": 31,
-      "win_rate_pct": 61.3,
-      "avg_return_pct": 3.84,
-      "best_return_pct": 45.2
-    },
-    {
-      "sector": "Industrials",
-      "trades": 2,
-      "win_rate_pct": 50.0,
-      "avg_return_pct": 10.51,
-      "best_return_pct": 21.6
-    },
-    {
-      "sector": "Consumer Cyclical",
-      "trades": 2,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 1.15,
-      "best_return_pct": 2.2
+      "win_rate_pct": 64.5,
+      "avg_return_pct": 4.58,
+      "best_return_pct": 59.9
     },
     {
       "sector": "Energy",
@@ -93,6 +164,27 @@
       "win_rate_pct": 100.0,
       "avg_return_pct": 4.93,
       "best_return_pct": 6.5
+    },
+    {
+      "sector": "Industrials",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -0.56,
+      "best_return_pct": -0.6
+    },
+    {
+      "sector": "Consumer Cyclical",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 2.2,
+      "best_return_pct": 2.2
+    },
+    {
+      "sector": "Healthcare",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 15.2,
+      "best_return_pct": 15.2
     },
     {
       "sector": "Basic Materials",
@@ -107,18 +199,25 @@
       "win_rate_pct": 0.0,
       "avg_return_pct": -1.0,
       "best_return_pct": -1.0
+    },
+    {
+      "sector": "Consumer Defensive",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -2.72,
+      "best_return_pct": -2.7
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 31,
       "win_rate_pct": 64.5,
-      "avg_return_pct": 1.69
+      "avg_return_pct": 1.67
     },
     "KR": {
       "trades": 6,
       "win_rate_pct": 83.3,
-      "avg_return_pct": 18.28
+      "avg_return_pct": 20.72
     },
     "HK": {
       "trades": 2,
@@ -127,7 +226,7 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83,
+    "winner_avg_rs": 83.0,
     "loser_avg_rs": 82.4,
     "winner_n": 25,
     "loser_n": 14
@@ -136,19 +235,19 @@
     {
       "day": 1,
       "trades": 37,
-      "avg_return_pct": 4.29,
+      "avg_return_pct": 4.61,
       "winners_pct": 67.6
     },
     {
       "day": 5,
       "trades": 37,
-      "avg_return_pct": 4.29,
+      "avg_return_pct": 4.61,
       "winners_pct": 67.6
     },
     {
       "day": 21,
       "trades": 29,
-      "avg_return_pct": 5.14,
+      "avg_return_pct": 5.41,
       "winners_pct": 72.4
     },
     {
@@ -188,7 +287,7 @@
     "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
   },
   "data_status": {
-    "exited_trades_count": 32,
+    "exited_trades_count": 33,
     "min_for_meaningful": 5,
     "fallback_message": null
   }

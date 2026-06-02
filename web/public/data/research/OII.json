@@ -1,34 +1,52 @@
 {
   "ticker": "OII",
-  "company": "Oceaneering International, Inc.",
+  "company": "Oceaneering International Inc",
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-30T00:25:31.978924+00:00",
+  "generated_at": "2026-06-02T00:23:56.321033+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 3813260800,
-    "shares_outstanding": 99745249,
-    "employees": 11100,
-    "country": "United States",
-    "website": "https://www.oceaneering.com",
-    "beta": 1.173
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
   },
   "category_a_business": {
-    "overview": "Oceaneering International, Inc.는 미국, 아프리카, 영국, 노르웨이, 브라질, 아시아, 호주 및 전 세계의 해양 에너지, 방위, 항공우주 및 제조 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다. 해저 로봇공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 솔루션, 항공우주 및 방위 기술 등 5개 부문으로 운영됩니다.",
-    "business_model": "오션니어링 인터내셔널, Inc.",
+    "overview": "OII는 해양 에너지, 국방, 산업 시장에 첨단 엔지니어링 제품과 서비스를 제공하는 글로벌 기업입니다.",
+    "milestones": [
+      "1962년: Oceaneering International, Inc. 설립",
+      "1969: 최초의 상업용 포화 잠수 시스템 개발",
+      "1980년대: ROV(원격 조종 수중 로봇) 기술 선도",
+      "1990년대: 해양 석유 및 가스 탐사 및 생산 서비스 확장",
+      "2000년대: 국방 및 우주 분야로 사업 다각화",
+      "2010년대: 비에너지 시장(예: 테마파크)으로 기술 적용 확대",
+      "2020년대: 재생 에너지 및 해양 풍력 시장 진출 가속화"
+    ],
+    "business_model": "첨단 로봇 공학, 엔지니어링 솔루션 및 기술 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "ROV 서비스",
+      "서브시 제품",
+      "자산 무결성 관리",
+      "고급 로봇 공학",
+      "국방 및 정부 계약"
+    ],
+    "value_chain_position": "Midstream + 해양 에너지 및 산업 분야의 핵심 기술 및 서비스 제공자입니다.",
     "products": [
-      "해양 에너지, 방위, 항공우주 및 제조 분야에 대한 엔지니어링 서비스, 제품 및 로봇 솔루션 i",
-      "5개 부문: 해저 로봇 공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 S",
-      "해저 하드웨어 설치를 포함한 드릴 지원 및 선박 기반 서비스를 위한 원격 조종 차량(ROV)",
-      "생산 제어 엄빌리칼, 현장 개발 하드웨어 및 파이프라인과 같은 분배 및 연결 시스템",
-      "라이저리스 채광정 개입 서비스, 검사, 유지보수를 포함한 해저 설치 및 개입"
+      "ROV (원격 조종 수중 로봇)",
+      "수중 생산 제어 시스템",
+      "유연한 라이저 및 파이프",
+      "잠수 서비스",
+      "비파괴 검사 및 유지보수"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주로 석유 및 가스 회사, 정부 기관, 해군, 재생 에너지 개발사 등 소수의 대형 고객에게 집중되어 있습니다."
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": -28.3,
@@ -37,33 +55,102 @@
     "roe_pct": 35.89
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
-    "competitive_advantages": [
-      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
-    ]
+    "tam_estimate_usd_b": "N/A (제공된 정보 부족)",
+    "tam_cagr_pct": "N/A (제공된 정보 부족)",
+    "growth_drivers": [],
+    "market_share_pct": "N/A (제공된 정보 부족)",
+    "competitors": [],
+    "porter_five_forces": {
+      "new_entrants": "N/A (제공된 정보 부족)",
+      "substitutes": "N/A (제공된 정보 부족)",
+      "buyer_power": "N/A (제공된 정보 부족)",
+      "supplier_power": "N/A (제공된 정보 부족)",
+      "rivalry": "N/A (제공된 정보 부족)"
+    },
+    "competitive_advantages": [],
+    "competitive_weaknesses": []
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 53.1,
+    "rs_rating": 78,
+    "score": 52.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 8.01,
-    "trailing_pe": 11.377976,
-    "forward_pe": 18.363386,
-    "ev_to_ebitda": 10.308,
-    "price_to_sales": 1.3608767,
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 59.26,
-    "outperform_6m_vs_nasdaq": 38.45,
-    "outperform_1m_vs_nasdaq": -3.12,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 52.43,
+    "outperform_6m_vs_nasdaq": 36.39,
+    "outperform_1m_vs_nasdaq": -9.08,
+    "moat_type": "None",
+    "moat_evidence": [],
+    "moat_durability_years": "None",
+    "new_trigger": "정보 부족으로 판단 불가",
+    "bull_case": "높은 ROE와 3년 순이익 CAGR을 바탕으로 시장 점유율 확대 및 수익성 개선 지속",
+    "base_case": "현재의 높은 ROE와 순이익 성장률을 유지하며 시장 평균 이상의 성과를 지속할 것으로 예상. 다만, EPS QoQ YoY 감소는 단기적인 우려 요인.",
+    "bear_case": "EPS QoQ YoY 감소세가 지속되고, 경쟁 심화로 인한 수익성 악화 및 시장 점유율 하락으로 성장 동력 상실",
+    "key_metrics_to_watch": [
+      "ROE",
+      "EPS QoQ YoY",
+      "매출 성장 (TTM)",
+      "3년 NI CAGR",
+      "경쟁사 대비 시장 점유율"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "OII는 경쟁이 치열한 시장에서 운영되며, 경쟁사들의 가격 인하, 신제품 출시 또는 기술 혁신으로 인해 시장 점유율과 수익성이 악화될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 중단, 원자재 가격 상승 또는 특정 부품의 공급 부족은 OII의 생산 능력과 비용에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "OII가 사업을 영위하는 다양한 국가의 규제 환경 변화, 특히 환경, 보건 및 안전 규제 강화는 추가적인 준수 비용을 발생시키거나 사업 운영에 제약을 가할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동, 이자율 상승 또는 신용 시장의 불안정은 OII의 재무 성과와 유동성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 침체, 지정학적 불안정 또는 주요 시장의 경기 둔화는 OII 제품 및 서비스에 대한 전반적인 수요를 감소시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "핵심 인력의 유출 또는 경영진의 전략적 오류는 OII의 장기적인 성장과 경쟁력에 심각한 위협이 될 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "고객집중도",
+        "description": "특정 소수 고객에 대한 매출 의존도가 높을 경우, 해당 고객과의 관계 악화 또는 고객의 사업 부진은 OII의 매출에 큰 타격을 줄 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "핵심 기술 경쟁에서 밀려 시장 점유율을 급격히 상실하고, 동시에 글로벌 공급망 붕괴로 생산이 중단되어 재무적 파산에 이릅니다.",
+      "예상치 못한 대규모 규제 위반으로 막대한 벌금을 부과받고, 브랜드 신뢰도가 추락하여 주요 고객들이 이탈하며 사업을 지속할 수 없게 됩니다.",
+      "글로벌 경기 침체 장기화로 주력 산업의 수요가 완전히 증발하고, 고정비 부담을 감당하지 못해 유동성 위기에 직면합니다."
+    ],
+    "exit_signals": [
+      "경쟁사의 혁신적인 신제품 출시로 OII의 주력 제품 매출이 2분기 연속 20% 이상 감소하는 경우",
+      "주요 원자재 가격이 1년 내 50% 이상 급등하여 OII의 매출총이익률이 5%p 이상 하락하는 경우",
+      "OII가 진출한 주요 시장에서 예상치 못한 강력한 규제가 도입되어 해당 시장에서의 사업 철수를 발표하는 경우"
+    ]
+  },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-30T00:27:19.926442+00:00"
+    "GoogleWebTranslator": "2026-06-02T00:24:20.724728+00:00"
   }
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "1113.HK",
-  "generated_at": "2026-05-30T00:17:57.269876+00:00",
-  "source_results_date": "2026-05-30",
+  "generated_at": "2026-06-02T00:19:44.761515+00:00",
+  "source_results_date": "2026-06-02",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -24,8 +24,8 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "1/8",
-    "rs_rating": 87,
+    "vcp_quality_score": "2/8",
+    "rs_rating": 86,
     "stage": 0,
     "base_count": 1,
     "late_base_warning": false,
@@ -46,8 +46,7 @@
   ],
   "key_failures": [
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-5.9% vs ≥-5.0%)"
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": []
 }

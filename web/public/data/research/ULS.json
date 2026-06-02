@@ -1,194 +1,201 @@
 {
   "ticker": "ULS",
-  "company": "UL Solutions Inc.",
+  "company": "UL Solutions Inc",
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Business Services",
-  "generated_at": "2026-05-27T00:18:34.633046+00:00",
+  "generated_at": "2026-06-02T00:22:16.131515+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 20323610624,
-    "shares_outstanding": 77808115,
-    "employees": 14587,
-    "country": "United States",
-    "website": "https://www.ul.com",
-    "beta": 0.585
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
+    "beta": null
   },
   "category_a_business": {
-    "overview": "UL Solutions Inc.는 자회사와 함께 전 세계적으로 테스트, 검사, 인증 서비스와 관련 소프트웨어 및 자문 서비스를 제공합니다. 산업, 소비자, 소프트웨어 및 자문의 세 가지 부문으로 운영됩니다. 산업 부문은 에너지, 산업 자동화, 엔지니어링 자재, 건축 환경을 포함한 다양한 최종 시장은 물론 제조업체, 건물 및 자산 소유자, 최종 사용자 및 규제 기관과 같은 이해관계자에 걸쳐 테스트, 검사 및 인증 서비스를 제공합니다.",
-    "business_model": "UL Solutions Inc.는 자회사와 함께 전 세계적으로 테스트, 검사, 인증 서비스와 관련 소프트웨어 및 자문 서비스를 제공합니다.",
+    "overview": "UL Solutions는 글로벌 안전 과학 리더로, 전 세계 고객에게 시험, 검사, 인증(TIC) 서비스 및 관련 소프트웨어, 자문 솔루션을 제공합니다.",
+    "milestones": [
+      "1894: 비영리 Underwriters Electrical Bureau의 일부로 설립",
+      "1903: UL 마크 도입",
+      "1906: 최초의 UL 표준 발행",
+      "1920s: 해외 시장으로 확장 시작",
+      "2000s: 소프트웨어 및 자문 서비스 강화",
+      "2025: 110개국 이상 8만 고객에게 서비스 제공",
+      "2026: 사업 부문 재편성 (산업, 소비자, S&A)"
+    ],
+    "business_model": "제품 안전, 보안, 지속가능성 관련 시험, 검사, 인증 및 소프트웨어, 자문 서비스를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "인증 시험 서비스",
+      "지속적인 인증 서비스",
+      "비인증 시험 및 기타 서비스",
+      "소프트웨어 솔루션"
+    ],
+    "value_chain_position": "Midstream + 제품 개발 및 생산 단계에서 안전, 품질, 규제 준수를 보장하는 핵심 서비스를 제공합니다.",
     "products": [
-      "전 세계적으로 테스트, 검사 및 인증 서비스와 관련 소프트웨어 및 자문 서비스",
-      "산업, 소비자, 소프트웨어 및 자문의 세 가지 부문을 통해",
-      "에너지, 산업 자동화, 엔지니어링 등 다양한 최종 시장에 걸친 테스트, 검사 및 인증 서비스",
-      "안전 인증 테스트, 지속적인 인증, 글로벌 시장 접근, 연결성, 성능 및 품질 테스트",
-      "고객이 규제, 공급망 및 지속 가능성 문제를 해결하도록 돕는 소프트웨어인 ULTRUS"
+      "제품 안전 인증 (UL 마크)",
+      "글로벌 시장 접근 서비스",
+      "성능 및 지속가능성 시험",
+      "공급망 투명성 소프트웨어",
+      "규제 준수 자문",
+      "산업 자동화 및 에너지 솔루션"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "UL 연구소(UL Research Institutes)는 일리노이주 노스브룩에 본사를 두고 있는 글로벌 민간 안전 회사로, UL 연구소, UL Standards & Engagement, UL Solutions의 3개 조직으로 구성되어 있습니다."
+    "key_customers": "80,000개 이상의 다양한 고객사를 보유하고 있으며, 특정 고객에 대한 매출 집중도는 낮습니다."
   },
   "category_b_financials": {
-    "roe": 0.32,
-    "roa": 0.12,
-    "profit_margin": 0.11,
-    "operating_margin": 0.18,
-    "gross_margin": 0.5,
-    "revenue_growth_ttm": 0.07,
-    "earnings_growth_ttm": 0.36,
-    "dividend_yield": 0.57,
-    "payout_ratio": 0.31,
-    "annual_revenue": [
-      3053000000.0,
-      2870000000.0,
-      2678000000.0,
-      2520000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      557000000.0,
-      461000000.0,
-      409000000.0,
-      412000000.0,
-      null
-    ],
-    "annual_eps": [
-      1.6,
-      1.62,
-      1.3,
-      1.47,
-      null
-    ],
-    "annual_free_cf": [
-      403000000.0,
-      287000000.0,
-      252000000.0,
-      208000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      683000000.0,
-      935000000.0,
-      1063000000.0,
-      660000000.0,
-      null
-    ],
-    "annual_equity": [
-      1262000000.0,
-      904000000.0,
-      654000000.0,
-      1054000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      0.45,
-      null,
-      0.49,
-      0.45,
-      0.33,
-      0.4,
-      null
-    ],
-    "quarterly_revenue": [
-      758000000.0,
-      789000000.0,
-      783000000.0,
-      776000000.0,
-      705000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 37.3,
     "sales_yoy_pct": 7.5,
     "ni_cagr_3y_pct": 3.52,
     "roe_pct": 31.98
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 (추정, 글로벌 TIC 시장 규모 기반)",
+    "tam_cagr_pct": "5-7% (추정, 디지털 전환 가속화 및 규제 강화로 인한 TIC 서비스 수요 증가)",
+    "growth_drivers": [
+      "글로벌 규제 환경 강화 및 복잡성 증가로 인한 TIC 서비스 수요 증대",
+      "제품 안전, 보안 및 지속가능성에 대한 소비자 및 기업의 인식 제고",
+      "디지털 전환 가속화에 따른 클라우드 기반 소프트웨어 및 서비스 통합 수요 증가",
+      "글로벌 공급망의 복잡성 증가로 인한 투명성 및 리스크 관리 필요성 증대",
+      "신기술(예: AI, IoT) 도입에 따른 새로운 안전 및 성능 표준 요구"
+    ],
+    "market_share_pct": "5-10% (추정, 북미 최대 TIC 제공업체이나 글로벌 시장은 파편화되어 있음)",
+    "competitors": [
+      {
+        "name": "SGS",
+        "differentiation": "광범위한 글로벌 네트워크와 다양한 산업 분야에 걸친 포괄적인 서비스 제공"
+      },
+      {
+        "name": "Bureau Veritas",
+        "differentiation": "건축 및 인프라, 산업, 해양 및 상품 분야에 강점, 특히 검사 및 인증 서비스에 집중"
+      },
+      {
+        "name": "Intertek",
+        "differentiation": "소비재, 전자제품, 식품 등 다양한 산업에 대한 품질 및 안전 솔루션 제공, 빠른 시장 출시 지원"
+      },
+      {
+        "name": "TÜV SÜD",
+        "differentiation": "독일 기반의 기술 전문성, 특히 자동차, 산업 플랜트, 의료기기 분야에서 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 초기 투자 비용과 기술 전문성, 광범위한 인증 및 인가 필요하지만, 특정 니치 시장 진입은 가능)",
+      "substitutes": "low (제품 안전, 품질, 규제 준수를 위한 제3자 TIC 서비스는 대체하기 어려움, 자체 검사/인증은 신뢰도 및 객관성 한계)",
+      "buyer_power": "medium (대형 고객사는 협상력이 있으나, 규제 준수 및 시장 접근을 위해 UL Solutions의 브랜드 가치와 전문성에 의존하는 경향이 있음)",
+      "supplier_power": "low (주요 공급자는 숙련된 인력 및 시험 장비이나, 대체 가능한 자원이 많고 특정 공급자에 대한 의존도가 낮음)",
+      "rivalry": "high (글로벌 TIC 시장은 다수의 대형 및 중소형 기업들이 경쟁하며, 서비스 차별화와 가격 경쟁이 존재)"
+    },
     "competitive_advantages": [
-      "Industrials / Specialty Business Services 카테고리 — yfinance peer 비교 권장"
+      "1894년부터 이어진 오랜 역사와 'UL Mark'라는 강력한 브랜드 인지도 및 신뢰성",
+      "650개 이상의 기술 인가 및 350개 이상의 독립적인 제3자 적합성 평가 서비스 제공 능력",
+      "1,200개 이상의 표준 패널 및 기술 위원회 활동을 통한 광범위한 산업 전문성 및 표준 제정 영향력",
+      "글로벌 네트워크를 통한 110개국 이상 80,000개 이상의 고객에게 서비스 제공 능력",
+      "전통적인 TIC 서비스와 클라우드 기반 소프트웨어 및 자문 솔루션을 결합한 포괄적인 서비스 제공"
+    ],
+    "competitive_weaknesses": [
+      "글로벌 경쟁사 대비 특정 지역(예: 유럽, 아시아)에서의 시장 점유율 및 인지도 부족 가능성",
+      "빠르게 변화하는 기술 및 규제 환경에 대한 지속적인 투자 및 적응 필요성",
+      "소프트웨어 및 자문 서비스 부문의 경쟁 심화 및 시장 침투를 위한 추가적인 노력 필요",
+      "비영리 기관과의 복잡한 지배구조 및 관계가 경영의 유연성에 영향을 미칠 가능성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 59.5,
+    "rs_rating": 72,
+    "score": 58.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3404,
-    "trailing_pe": 58.622093,
-    "forward_pe": 39.097157,
-    "ev_to_ebitda": 29.127,
-    "price_to_sales": 6.5433393,
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 2.17,
-    "outperform_6m_vs_nasdaq": -2.89,
-    "outperform_1m_vs_nasdaq": 4.47,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 0.73,
+    "outperform_6m_vs_nasdaq": -5.32,
+    "outperform_1m_vs_nasdaq": 1.79,
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "UL Solutions는 1894년에 설립되어 안전 과학 분야에서 오랜 역사와 명성을 보유하고 있습니다.",
+      "전 세계 110개국 이상에서 80,000명 이상의 고객에게 서비스를 제공하며, 650개 이상의 기술 인증과 76개의 상업용 소프트웨어 솔루션을 보유하고 있습니다.",
+      "전 세계적으로 1,200개 이상의 표준 패널 및 기술 위원회에 적극적으로 참여하고 있으며, 4,000개 이상의 글로벌 표준에 대한 테스트 및 인증이 가능합니다.",
+      "수십억 개의 제품에 부착되는 상징적인 'UL-in-a-circle' 인증 마크를 소유하고 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "2026년 1분기부터 CEO의 사업 성과 평가 및 자원 배분 방식에 맞춰 사업 부문 재편성",
+    "bull_case": "글로벌 안전 및 지속가능성 규제 강화로 TIC 서비스 수요 증가, 소프트웨어 및 자문 부문 성장 가속화",
+    "base_case": "UL Solutions는 글로벌 안전 과학 리더로서 견고한 시장 지위를 유지하며, TIC 서비스 및 소프트웨어 솔루션의 꾸준한 수요를 바탕으로 안정적인 성장을 지속할 것입니다. 특히, 디지털 전환 및 상호 연결성 증가에 따라 클라우드 기반 소프트웨어 및 서비스에 대한 고객 요구를 충족하며 시장 점유율을 확대할 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체로 인한 고객사의 투자 위축, 경쟁 심화로 인한 가격 경쟁 압력, 또는 새로운 규제 환경 변화에 대한 적응 실패 시 성장 둔화 및 수익성 악화 가능성",
+    "key_metrics_to_watch": [
+      "소프트웨어 및 자문(S&A) 부문 매출 성장률",
+      "신규 고객 확보 및 기존 고객 유지율",
+      "글로벌 시장 점유율 변화",
+      "운영 비용 효율성"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 위험 중 하나라도 실제로 발생하면 회사의 사업, 재무 상태 및 운영 결과가 심각하고 부정적인 영향을 받을 수 있습니다.",
+        "category": "경쟁",
+        "description": "회사의 성공은 브랜드 가치와 명성에 크게 의존하며, 부정적인 홍보나 평판 손상은 서비스 수요 감소 및 시장 점유율 하락으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "사이버 보안 위험에 노출되어 데이터 기밀성, 무결성, 가용성을 유지하지 못할 경우 회사의 사업, 재무 상태 및 운영 결과에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "인공지능(AI) 기술 발전이 회사가 운영하는 산업을 파괴할 수 있으며, 이에 발맞추지 못하면 서비스 수요가 크게 감소하거나 평판에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "회사는 진화하고 복잡한 데이터 개인 정보 보호 및 데이터 보호법의 적용을 받으며, 이를 위반할 경우 상당한 벌금, 운영 제한 또는 평판 훼손이 발생할 수 있습니다.",
+        "category": "규제",
+        "description": "회사는 다양한 국제 사업을 운영하며, 여러 법규 준수, 관세 부과, 무역 제한, 지정학적 긴장 등 해외 사업 관련 위험에 노출되어 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "중국의 경제 정책을 포함하여 모든 신규 또는 변경된 규정 및 정책으로 인해 회사 운영에 중대한 변화가 발생할 수 있습니다.",
+        "category": "거시",
+        "description": "글로벌 및 지역 경제 및 정치적 불안정은 회사의 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "우리 브랜드의 가치와 명성은 개별적인 사건으로 인해 심각하게 손상될 수 있으며, 특히 해당 사건이 상당한 부정적인 평판을 얻거나 상당한 소송으로 이어질 경우 더욱 그렇습니다.",
+        "category": "규제",
+        "description": "중국에서 상당한 사업을 영위하고 있어 중국의 급변하는 법규 및 정책 변화에 노출되어 있으며, 이는 운영에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "회사의 성공은 핵심 인력, 특히 고위 경영진 및 숙련된 엔지니어링, 기술 및 전문 인력을 채용, 훈련 및 유지하는 능력에 달려 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "그러한 주장이 타당한지 여부에 관계없이 당사의 평판, 당사 브랜드에 대한 고객의 신뢰 및 당사 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "고객에게 서비스를 제공하는 데 있어 실제적이거나 인지된 문제 또는 고객에게 고품질 서비스를 제공하지 못하는 경우 당사의 브랜드와 명성에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "규제",
+        "description": "관련 규제 프레임워크의 변경으로 인해 필수 검사, 테스트 또는 인증이 감소하거나, 회사가 제3자 테스트 결과 또는 인증을 수용해야 하는 경우 서비스 수요가 감소하거나 상품화될 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "사이버 보안 침해로 인해 고객 데이터가 유출되고 핵심 시스템이 마비되어 사업 운영이 불가능해질 경우 회사가 망할 수 있습니다.",
+      "AI 기술 발전과 규제 변화에 적절히 대응하지 못하여 핵심 서비스 수요가 급감하고 시장 경쟁력을 완전히 상실할 경우 회사가 망할 수 있습니다.",
+      "중국 정부의 갑작스러운 규제 강화나 사업 운영 제한으로 인해 중국 내 사업이 전면 중단되고, 이로 인한 재정적 손실이 회복 불가능한 수준에 이를 경우 회사가 망할 수 있습니다.",
+      "브랜드 명성과 평판이 심각하게 훼손되는 대규모 스캔들이 발생하여 고객 신뢰를 완전히 잃고 서비스 계약이 대거 해지될 경우 회사가 망할 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "회사의 핵심 서비스에 대한 수요가 2분기 연속 10% 이상 감소하는 추세가 나타날 경우.",
+      "주요 경쟁사가 AI 기반의 혁신적인 테스트 및 인증 솔루션을 출시하여 시장 점유율을 급격히 확대하는 것이 확인될 경우.",
+      "중국 정부가 회사의 주요 사업 부문에 대해 예상치 못한 강력한 규제 조치를 발표하거나, 합작 투자 관계에 중대한 변화를 요구할 경우.",
+      "UL 마크의 신뢰성에 대한 대규모 언론 보도나 법적 분쟁이 발생하여 브랜드 가치가 심각하게 하락하는 것이 확인될 경우."
     ]
   },
-  "wikipedia_summary": "UL Research Institutes is a global private safety company headquartered in Northbrook, Illinois, composed of three organizations, UL Research Institutes, UL Standards & Engagement and UL Solutions.",
+  "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-05-30T00:27:23.170825+00:00"
+    "GoogleWebTranslator": "2026-06-02T00:24:23.736290+00:00"
   }
 }
