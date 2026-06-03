@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-30T00:26:33.893815+00:00",
+  "generated_at": "2026-06-03T00:50:23.808841+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 89227870208,
+    "market_cap": 92821110784,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -17,19 +17,35 @@
     "beta": 1.268
   },
   "category_a_business": {
-    "overview": "Cummins Inc.는 전 세계적으로 다양한 전력 솔루션을 제공합니다. 이 회사는 엔진, 배전, 부품, 전력 시스템, Accelera 등 5개 부문으로 운영됩니다.",
-    "business_model": "커민스 주식회사",
+    "overview": "커민스(CMI)는 디젤 및 천연가스 엔진, 전력 솔루션, 친환경 기술을 제공하는 글로벌 동력 솔루션 기업입니다.",
+    "milestones": [
+      "1919: 커민스 엔진 회사 설립, 디젤 엔진 제조 시작",
+      "2001: 사명을 커민스(Cummins Inc.)로 변경",
+      "2023: 배출가스 규제 관련 합의금 지불 발표",
+      "2024: Atmus Filtration Technologies Inc. 지분 매각 완료"
+    ],
+    "business_model": "엔진, 부품, 전력 시스템 및 친환경 기술 솔루션을 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "엔진 판매 (디젤, 천연가스, 가솔린)",
+      "부품 판매 (터보차저, 연료 시스템, 변속기 등)",
+      "전력 시스템 판매 (발전기, 고마력 엔진)",
+      "유통 및 서비스 (부품, 수리, 유지보수)",
+      "친환경 기술 솔루션 (배터리, 전기 파워트레인)"
+    ],
+    "value_chain_position": "Midstream + 다양한 동력 솔루션의 설계, 제조 및 유통을 담당합니다.",
     "products": [
-      "전세계 다양한 전력 솔루션",
-      "엔진, 배전, 부품, 전력 시스템, 가속기 등 5개 부문을 통해",
-      "디젤 및 천연가스 구동 엔진",
-      "맞춤형 엔지니어링 시스템과 통합 제어, 산화 촉매로 구성된 후처리 기술 및 솔루션",
-      "발전 시스템, 고마력 엔진, 대형 및 중형 엔진에 대한 지원 서비스를 제공합니다."
+      "디젤 및 천연가스 엔진",
+      "파워트레인 시스템 (액슬, 브레이크, 서스펜션)",
+      "배기 후처리 시스템",
+      "터보차저, 연료 시스템, 밸브 트레인",
+      "발전 시스템 및 제어 장치",
+      "배터리 및 전기 파워트레인 시스템"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (OEM, 유통업체, 딜러)",
+      "글로벌 유통 네트워크 (자사 및 독립 유통업체, 공인 딜러)"
     ],
-    "wikipedia_excerpt": "Cummins Inc.는 디젤 엔진, 전기 자동차 부품 및 발전 제품을 설계, 제조 및 유통하는 미국의 다국적 기업입니다. Cummins는 또한 연료 시스템, 공기 처리 시스템 제어, 여과, 배출 제어, 발전 시스템 및 엔진 제어 장치를 포함한 엔진 및 관련 장비에 대한 서비스를 제공합니다."
+    "key_customers": "주로 OEM(Original Equipment Manufacturers) 및 대형 산업 고객에게 제품을 공급하며, 고객 집중도는 분산되어 있습니다."
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": -20.6,
@@ -46,20 +62,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 50.9,
+    "rs_rating": 82,
+    "score": 53.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6408,
-    "trailing_pe": 33.573727,
-    "forward_pe": 19.366163,
-    "ev_to_ebitda": 19.046,
-    "price_to_sales": 2.6325564,
+    "peg_ratio": 1.579,
+    "trailing_pe": 34.96206,
+    "forward_pe": 20.033844,
+    "ev_to_ebitda": 19.764,
+    "price_to_sales": 2.7385705,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 62.16,
-    "outperform_6m_vs_nasdaq": 14.36,
-    "outperform_1m_vs_nasdaq": -7.8,
+    "outperform_1y_vs_nasdaq": 70.84,
+    "outperform_6m_vs_nasdaq": 20.0,
+    "outperform_1m_vs_nasdaq": -5.24,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -71,7 +87,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "규정 위반 문제의 발견은 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "규정 위반 문제가 발견되면 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -91,7 +107,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 당사 제품과 서비스가 해결할 수 없는 새로운 규정이나 산업 표준의 채택은 당사 제품과 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "또한 당사 제품 및 서비스가 해결할 수 없는 새로운 규정이나 산업 표준을 채택하면 당사 제품 및 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -104,6 +120,6 @@
   },
   "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-02T00:24:03.741160+00:00"
+    "GoogleWebTranslator": "2026-06-03T00:50:37.902049+00:00"
   }
 }

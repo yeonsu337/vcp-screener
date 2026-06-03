@@ -106,8 +106,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-29T00:35:03.809074+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-03T00:44:54.623615+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "ATRO",
@@ -166,7 +166,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:18:26.388272+00:00",
+    "generated_at": "2026-06-03T00:42:25.400224+00:00",
     "llm_status": "ok"
   },
   {
@@ -216,7 +216,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-30T00:26:33.893815+00:00",
+    "generated_at": "2026-06-03T00:50:23.808841+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -236,7 +236,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:19:47.854790+00:00",
+    "generated_at": "2026-06-03T00:43:04.114119+00:00",
     "llm_status": "ok"
   },
   {
@@ -286,7 +286,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:22:04.351732+00:00",
+    "generated_at": "2026-06-03T00:41:47.011938+00:00",
     "llm_status": "ok"
   },
   {
@@ -471,12 +471,12 @@
   },
   {
     "ticker": "KEYS",
-    "company": "Keysight Technologies Inc",
+    "company": "Keysight Technologies, Inc.",
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:11:53.155481+00:00",
+    "generated_at": "2026-06-03T00:44:15.498181+00:00",
     "llm_status": "ok"
   },
   {
@@ -531,13 +531,13 @@
   },
   {
     "ticker": "MLI",
-    "company": "Mueller Industries Inc",
+    "company": "Mueller Industries, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:11:13.067470+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-03T00:46:58.130926+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MNST",
@@ -916,7 +916,7 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-23T00:38:40.835966+00:00",
+    "generated_at": "2026-06-03T00:48:11.087500+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -941,13 +941,13 @@
   },
   {
     "ticker": "WT",
-    "company": "WisdomTree Inc",
+    "company": "WisdomTree, Inc.",
     "market": "US",
-    "sector": "Financial",
+    "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-27T00:13:56.182236+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-03T00:45:56.137949+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WWD",

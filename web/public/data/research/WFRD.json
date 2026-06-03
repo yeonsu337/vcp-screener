@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-23T00:38:40.835966+00:00",
+  "generated_at": "2026-06-03T00:48:11.087500+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7824756736,
+    "market_cap": 7460094976,
     "shares_outstanding": 71925332,
     "employees": 16700,
     "country": "United States",
@@ -17,105 +17,35 @@
     "beta": 0.916
   },
   "category_a_business": {
-    "overview": "에너지 서비스 회사인 Weatherford International plc는 전 세계적으로 석유, 지열 및 천연가스 유정의 시추, 평가, 완성, 생산 및 개입을 위한 장비와 서비스를 제공합니다. 회사는 드릴링 및 평가의 세 가지 부문을 통해 운영됩니다. 유정 건설 및 완성; 생산과 개입. 관리형 압력 드릴링을 제공합니다. 방향성 시추 서비스, 시추 중 로깅 및 측정 서비스; 회전식 조향 시스템, 고온 및 고압 센서, 드릴링 리머 및 순환 장치와 관련된 서비스",
-    "business_model": "에너지 서비스 회사인 Weatherford International plc는 석유, 지열 및 천연가스의 시추, 평가, 완성, 생산 및 개입을 위한 장비와 서비스를 제공합니다.",
+    "overview": "WFRD는 전 세계 유정, 지열, 천연가스 시추, 평가, 완결, 생산, 개입 장비 및 서비스를 제공하는 에너지 서비스 기업입니다.",
+    "milestones": [
+      "2024: 유가 및 리그 수 감소로 매출 감소",
+      "2025: 유가 및 리그 수 추가 감소, 매출 11% 감소",
+      "2025: 아르헨티나 압력 펌핑 사업부 매각으로 이익 일부 상쇄",
+      "2025: 북미 리그 수 786개에서 738개로 감소",
+      "2025: 국제 리그 수 1,162개에서 1,080개로 감소"
+    ],
+    "business_model": "유전 서비스 및 장비 제공을 통해 석유 및 가스 탐사/생산 활동을 지원하여 수익 창출",
+    "revenue_streams": [
+      "시추 및 평가 서비스",
+      "유정 건설 및 완결 서비스",
+      "생산 및 개입 서비스",
+      "제품 판매 (장비 및 소모품)"
+    ],
+    "value_chain_position": "Upstream: 석유 및 가스 탐사, 시추, 생산 단계에 필요한 핵심 장비와 서비스를 제공합니다.",
     "products": [
-      "석유, 지열 및 석유 산업의 시추, 평가, 완성, 생산 및 개입을 위한 장비 및 서비스",
-      "세 부분을 통해: 드릴링 및 평가",
-      "관리형 압력 드릴링",
-      "관형 취급, 관리 및 연결 서비스",
-      "재진입, 낚시, 유정 포기 서비스, 특허 받은 굴착 도구, 관형 처리 장비, 압력 장치"
+      "관리형 압력 시추 시스템",
+      "방향성 시추 및 로깅 서비스",
+      "유정 완결 도구 (안전 밸브, 패커 등)",
+      "라이너 행거",
+      "시멘팅 제품"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (석유 및 가스 탐사/생산 기업 대상)"
+    ],
+    "key_customers": "주요 고객은 전 세계 석유 및 가스 탐사 및 생산 기업들이며, 특정 고객에 대한 매출 집중도는 명시되지 않았습니다."
   },
   "category_b_financials": {
-    "roe": 0.31,
-    "roa": 0.09,
-    "profit_margin": 0.09,
-    "operating_margin": 0.12,
-    "gross_margin": 0.31,
-    "revenue_growth_ttm": -0.03,
-    "earnings_growth_ttm": 0.45,
-    "dividend_yield": 1.0,
-    "payout_ratio": 0.16,
-    "annual_revenue": [
-      4918000000.0,
-      5513000000.0,
-      5135000000.0,
-      4331000000.0,
-      null
-    ],
-    "annual_operating_income": [
-      744000000.0,
-      980000000.0,
-      834000000.0,
-      412000000.0,
-      null
-    ],
-    "annual_eps": [
-      5.93,
-      6.75,
-      5.66,
-      0.36,
-      null
-    ],
-    "annual_free_cf": [
-      450000000.0,
-      493000000.0,
-      623000000.0,
-      217000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      1642000000.0,
-      1788000000.0,
-      2060000000.0,
-      2409000000.0,
-      null
-    ],
-    "annual_equity": [
-      1699000000.0,
-      1285000000.0,
-      924000000.0,
-      535000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      1.49,
-      1.91,
-      1.12,
-      1.87,
-      1.03,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      1152000000.0,
-      1289000000.0,
-      1232000000.0,
-      1204000000.0,
-      1193000000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "eps_qoq_yoy_pct": 42.1,
     "sales_yoy_pct": -3.4,
     "ni_cagr_3y_pct": 154.98,
@@ -130,25 +60,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 64.1,
+    "rs_rating": 81,
+    "score": 59.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3195,
-    "trailing_pe": 17.02504,
-    "forward_pe": 14.509435,
-    "ev_to_ebitda": 8.581,
-    "price_to_sales": 1.6044201,
+    "peg_ratio": 2.1656,
+    "trailing_pe": 16.231613,
+    "forward_pe": 13.833243,
+    "ev_to_ebitda": 8.21,
+    "price_to_sales": 1.5296483,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 102.86,
-    "outperform_6m_vs_nasdaq": 35.38,
-    "outperform_1m_vs_nasdaq": -1.84,
+    "outperform_1y_vs_nasdaq": 99.26,
+    "outperform_6m_vs_nasdaq": 23.44,
+    "outperform_1m_vs_nasdaq": -12.91,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-02T00:24:27.369841+00:00"
+    "GoogleWebTranslator": "2026-06-03T00:51:04.413398+00:00"
   }
 }
