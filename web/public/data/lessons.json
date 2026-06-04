@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T00:50:24.477728+00:00",
+  "generated_at": "2026-06-04T00:43:00.535633+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,13 +17,13 @@
   },
   "performance": {
     "win_rate_pct": 64.1,
-    "profit_factor": 2.86,
-    "expectancy": 4.5,
-    "avg_winner_pct": 10.8,
-    "avg_loser_pct": -6.75,
+    "profit_factor": 2.9,
+    "expectancy": 4.51,
+    "avg_winner_pct": 10.73,
+    "avg_loser_pct": -6.61,
     "best": {
       "ticker": "005930.KS",
-      "return_pct": 65.2
+      "return_pct": 61.9
     },
     "worst": {
       "ticker": "ERAS",
@@ -43,20 +43,26 @@
     "primary_pass_buckets": [
       {
         "primary_passed": 9,
-        "trades": 1,
-        "avg_return_pct": 2.72,
-        "win_rate_pct": 100.0
-      },
-      {
-        "primary_passed": 10,
-        "trades": 6,
-        "avg_return_pct": 12.42,
+        "trades": 3,
+        "avg_return_pct": 2.12,
         "win_rate_pct": 66.7
       },
       {
+        "primary_passed": 10,
+        "trades": 3,
+        "avg_return_pct": 26.27,
+        "win_rate_pct": 100.0
+      },
+      {
         "primary_passed": 11,
-        "trades": 2,
-        "avg_return_pct": 4.93,
+        "trades": 3,
+        "avg_return_pct": 10.31,
+        "win_rate_pct": 100.0
+      },
+      {
+        "primary_passed": 12,
+        "trades": 1,
+        "avg_return_pct": 17.45,
         "win_rate_pct": 100.0
       }
     ],
@@ -159,17 +165,31 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 32,
-      "win_rate_pct": 59.4,
-      "avg_return_pct": 4.67,
-      "best_return_pct": 65.2
+      "trades": 30,
+      "win_rate_pct": 56.7,
+      "avg_return_pct": 3.47,
+      "best_return_pct": 61.9
     },
     {
       "sector": "Energy",
       "trades": 3,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 4.2,
+      "avg_return_pct": 4.05,
       "best_return_pct": 6.5
+    },
+    {
+      "sector": "Real Estate",
+      "trades": 2,
+      "win_rate_pct": 50.0,
+      "avg_return_pct": 2.03,
+      "best_return_pct": 5.1
+    },
+    {
+      "sector": "Industrials",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 17.45,
+      "best_return_pct": 17.4
     },
     {
       "sector": "Consumer Cyclical",
@@ -182,34 +202,27 @@
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 12.76,
-      "best_return_pct": 12.8
+      "avg_return_pct": 14.76,
+      "best_return_pct": 14.8
     },
     {
-      "sector": "Basic Materials",
+      "sector": "Technology",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 1.49,
-      "best_return_pct": 1.5
-    },
-    {
-      "sector": "Consumer Defensive",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -2.88,
-      "best_return_pct": -2.9
+      "avg_return_pct": 21.06,
+      "best_return_pct": 21.1
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 31,
       "win_rate_pct": 64.5,
-      "avg_return_pct": 1.79
+      "avg_return_pct": 1.9
     },
     "KR": {
       "trades": 6,
       "win_rate_pct": 83.3,
-      "avg_return_pct": 21.6
+      "avg_return_pct": 21.05
     },
     "HK": {
       "trades": 2,
@@ -227,19 +240,19 @@
     {
       "day": 1,
       "trades": 38,
-      "avg_return_pct": 4.7,
+      "avg_return_pct": 4.65,
       "winners_pct": 65.8
     },
     {
       "day": 5,
       "trades": 38,
-      "avg_return_pct": 4.7,
+      "avg_return_pct": 4.65,
       "winners_pct": 65.8
     },
     {
       "day": 21,
       "trades": 29,
-      "avg_return_pct": 5.59,
+      "avg_return_pct": 5.53,
       "winners_pct": 72.4
     },
     {
@@ -250,33 +263,30 @@
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-05-22T00:44:04.631431+00:00",
+    "generated_at": "2026-06-04T00:43:00.535603+00:00",
     "winner_patterns": [
-      "RS 등급 80 이상 종목이 다수 (90 이상 5개)",
-      "평균 보유 기간 30일 내외로 비교적 길게 유지",
-      "활성(active) 상태로 지속 상승하는 종목 다수",
-      "에너지, 산업재, 기술 섹터에서 높은 승률과 수익률",
-      "한국 및 미국 시장에서 고르게 수익 발생",
-      "일부 종목은 20% 이상 고수익 달성"
+      "RS 등급 85 이상 우수 종목 다수 (90 이상 5개)",
+      "평균 보유 기간 30~50일 내외 (최대 52일)",
+      "활성(active) 상태로 높은 수익률 유지 종목 존재",
+      "한국 시장 종목의 높은 수익률 기여 (005930.KS 61.9%)",
+      "산업재, 헬스케어, 기술 섹터에서 높은 수익률 기록"
     ],
     "loser_traps": [
-      "RS 등급이 높아도 손실이 큰 종목 존재 (ERAS 99점)",
-      "8% 손절매 규칙(EX1)에 의해 청산된 종목 다수",
-      "50일 이동평균선 이탈(EX4) 시 손실 발생",
-      "보유 기간이 짧은 종목에서 손실 발생 (0~13일)",
-      "EX6_absent 청산 종목 중 손실 발생 사례 존재",
-      "일부 종목은 진입 직후 손실 발생 (holding_days 0)"
+      "RS 등급이 높아도 손실 발생 가능 (ERAS 99점 -40.4%)",
+      "50일 이동평균선 이탈(EX4)이 주요 손절 사유",
+      "8% 손절(EX1) 규칙이 작동한 종목 존재 (ZD -8.3%)",
+      "EX6_absent (이탈 사유 불명) 종목에서도 손실 발생",
+      "홍콩 시장 종목에서 50일 이평선 이탈 손실 발생"
     ],
     "rule_suggestions": [
-      "RS 등급 90 이상 종목에 대한 비중 확대 고려",
-      "50일 이동평균선 이탈 시 손절매 규칙 강화",
-      "초기 진입 후 10일 이내 급락 시 조기 청산 룰 추가 [가설]",
-      "에너지, 산업재, 기술 섹터 종목에 우선순위 부여",
-      "손절매 기준을 8%보다 타이트하게 조정 검토 [가설]"
+      "RS 등급 90 이상 종목에 대한 추가 분석 및 비중 확대 [가설]",
+      "50일 이평선 이탈 시 즉각적인 손절 규칙 강화",
+      "보유 기간 20일 미만 종목의 조기 청산 기준 검토 [가설]",
+      "섹터별 성과 분석을 통한 유망 섹터 집중 투자 [가설]",
+      "EX6_absent 청산 사유에 대한 원인 분석 및 규칙 보완"
     ],
     "model": "gemini-2.5-flash",
-    "trades_analyzed": 39,
-    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
+    "trades_analyzed": 39
   },
   "data_status": {
     "exited_trades_count": 34,

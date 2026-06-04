@@ -1,50 +1,50 @@
 {
   "ticker": "PWR",
-  "company": "Quanta Services Inc",
+  "company": "Quanta Services, Inc.",
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-27T00:12:29.179406+00:00",
+  "generated_at": "2026-06-04T00:42:57.358996+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 107393540096,
+    "shares_outstanding": 150060149,
+    "employees": 69500,
+    "country": "United States",
+    "website": "https://www.quantaservices.com",
+    "beta": 1.244
   },
   "category_a_business": {
-    "overview": "PWR은 전력, 통신, 인프라 산업에 종합적인 엔지니어링 및 건설 서비스를 제공하는 기업입니다.",
+    "overview": "Quanta Services는 전력, 파이프라인, 통신 등 핵심 인프라 솔루션을 제공하는 미국의 선도 기업입니다.",
     "milestones": [
-      "1913: Quanta Services의 전신인 Irby Construction 설립",
-      "1997: Quanta Services, Inc. 설립 (여러 서비스 회사 합병)",
-      "2000년대: 통신 인프라 및 재생 에너지 분야로 사업 확장",
-      "2010년대: 북미 전역의 전력망 현대화 및 확장 프로젝트 참여",
-      "2020년대: 기후 변화 관련 인프라 투자 증가에 따른 사업 기회 확대"
+      "1997: Quanta Services 설립",
+      "2000년대: 전력 인프라 및 통신 분야 확장 가속화",
+      "2010년대: 재생에너지 및 스마트 그리드 인프라 서비스 강화",
+      "2020년대: 데이터센터 전력 인프라 구축 참여 확대",
+      "지속적: 200개 이상의 기업 인수하며 성장"
     ],
-    "business_model": "다양한 인프라 프로젝트의 설계, 건설, 유지보수를 통해 수익을 창출합니다.",
+    "business_model": "다양한 인프라 프로젝트의 설계, 조달, 건설, 유지보수를 통해 수익 창출",
     "revenue_streams": [
-      "전력 인프라 건설 및 유지보수",
-      "통신 인프라 건설 및 유지보수",
-      "파이프라인 및 산업 인프라 서비스",
-      "재생 에너지 인프라 서비스"
+      "전력 송배전 및 변전소 인프라 구축/유지보수",
+      "재생에너지 발전 시설 건설 및 유지보수",
+      "통신 네트워크 인프라 설계 및 설치",
+      "지하 유틸리티 및 인프라 서비스",
+      "비상 복구 및 기술 서비스"
     ],
-    "value_chain_position": "Midstream + 인프라 프로젝트의 기획부터 시공, 유지보수까지 전 과정에 참여합니다.",
+    "value_chain_position": "Midstream + 인프라 프로젝트의 기획부터 완공, 유지보수까지 전 과정에 참여합니다.",
     "products": [
-      "전력 송배전망 건설 및 업그레이드",
-      "광섬유 및 무선 통신망 구축",
-      "석유 및 가스 파이프라인 건설",
-      "풍력 및 태양광 발전소 인프라 구축",
-      "재난 복구 및 유지보수 서비스"
+      "전력 전송 및 배전 인프라",
+      "스마트 그리드 기술 설치",
+      "무선 및 유선 통신 인프라",
+      "재생에너지 발전 시설",
+      "상업 및 산업용 배선"
     ],
     "channels": [
-      "B2B",
-      "정부 계약"
+      "B2B"
     ],
-    "key_customers": "고객 집중도가 낮으며, 다양한 유틸리티 회사, 통신사, 정부 기관이 주요 고객입니다."
+    "key_customers": "주로 전력 및 가스 유틸리티, 통신사, 정부 기관 등 대규모 기업 및 공공 부문"
   },
   "category_b_financials": {
     "eps_qoq_yoy_pct": 52.9,
@@ -53,134 +53,146 @@
     "roe_pct": 13.53
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "정보 부족으로 추정 불가 (None)",
-    "tam_cagr_pct": "정보 부족으로 추정 불가 (None)",
+    "tam_estimate_usd_b": "1,000-1,500 (estimate) - 전력 인프라, 통신 인프라, 재생에너지 인프라, 파이프라인 인프라 등 Quanta Services가 영위하는 주요 시장의 총합 추정치. 각 시장의 규모 및 성장률 데이터를 기반으로 산정.",
+    "tam_cagr_pct": "5-8% - 전력망 현대화 및 확장, 재생에너지 전환 가속화, 5G 및 광섬유 통신망 구축, 노후 인프라 교체 수요 증가 등 구조적 성장 동인이 견고함.",
     "growth_drivers": [
-      "전략적 인수를 통한 사업 확장 및 인접 산업 진출",
-      "기존 사업 운영의 효율성 증대 및 비용 절감",
-      "교차 판매 기회 활용을 통한 매출 증대"
+      "전력망 현대화 및 확장: 노후화된 전력 인프라 교체 및 스마트 그리드 구축 수요 증가.",
+      "재생에너지 전환: 태양광, 풍력 등 재생에너지 발전 및 송배전 인프라 구축 투자 확대.",
+      "통신 인프라 확충: 5G 네트워크 및 광섬유 통신망 구축 가속화.",
+      "정부 인프라 투자: 미국 인프라 투자 및 일자리 법(IIJA) 등 정부 주도 인프라 투자 증가.",
+      "전기차 충전 인프라 구축: 전기차 보급 확대로 인한 충전 인프라 수요 증가."
     ],
-    "market_share_pct": "정보 부족으로 추정 불가 (None)",
+    "market_share_pct": "5-10% (estimate) - Quanta Services는 북미 지역에서 인프라 서비스 분야의 선두 주자 중 하나이나, 시장 자체가 매우 세분화되어 있어 단일 기업의 시장점유율은 상대적으로 낮음.",
     "competitors": [
       {
-        "name": "잠재적 인수 대상 기업의 경쟁사",
-        "differentiation": "더 유리한 인수 조건을 제시하거나 더 큰 재정 자원을 보유할 수 있음"
+        "name": "MYR Group Inc.",
+        "differentiation": "주로 전력 송배전 및 변전소 건설에 강점을 가지며, 지역적으로 특정 시장에 집중하는 경향이 있음."
       },
       {
-        "name": "동일 산업 내 다른 계약업체",
-        "differentiation": "특정 지역, 서비스 또는 고객 기반에서 경쟁 우위를 가질 수 있음"
+        "name": "Henkels & McCoy Group, Inc. (MasTec에 인수됨)",
+        "differentiation": "통신 및 유틸리티 인프라 서비스에 강점을 보였으며, MasTec과의 통합으로 시장 지배력 강화."
       },
       {
-        "name": "자체적으로 작업을 수행하는 고객사",
-        "differentiation": "내부 역량을 활용하여 외부 서비스 의존도를 줄일 수 있음"
+        "name": "MasTec, Inc.",
+        "differentiation": "통신, 전력, 오일 및 가스 파이프라인 등 다양한 인프라 분야에서 Quanta Services와 유사한 광범위한 서비스를 제공하며, M&A를 통한 성장 전략 구사."
+      },
+      {
+        "name": "Primoris Services Corporation",
+        "differentiation": "다양한 인프라 시장(파이프라인, 전력, 통신, 도로 등)에서 서비스를 제공하며, 특정 지역 및 프로젝트 유형에 강점."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "중간",
-      "substitutes": "중간",
-      "buyer_power": "중간",
-      "supplier_power": "중간",
-      "rivalry": "중간"
+      "new_entrants": "medium - 초기 자본 투자 및 전문 인력 확보의 어려움이 진입 장벽으로 작용하나, 특정 니치 시장에서는 진입이 상대적으로 용이할 수 있음.",
+      "substitutes": "low - 인프라 구축 및 유지보수 서비스는 필수적이며, 이를 대체할 수 있는 직접적인 대안이 거의 없음. 다만, 기술 발전으로 인한 효율성 증대는 간접적인 대체 효과를 가져올 수 있음.",
+      "buyer_power": "medium - 대형 유틸리티 회사나 정부 기관 등 주요 고객은 구매력이 높으나, 서비스의 복잡성과 전문성으로 인해 공급업체 변경 비용이 발생할 수 있음.",
+      "supplier_power": "medium - 숙련된 노동력, 특정 장비 및 자재 공급업체에 대한 의존도가 높을 수 있으며, 이는 공급업체의 협상력을 높일 수 있음. 특히 숙련된 인력 부족은 큰 문제.",
+      "rivalry": "high - 시장에 다수의 경쟁사가 존재하며, 프로젝트 수주를 위한 경쟁이 치열함. 가격 경쟁 및 서비스 품질 경쟁이 상존."
     },
     "competitive_advantages": [
-      "전략적 인수를 통한 사업 확장 및 시너지 창출 능력",
-      "다양한 산업 및 인접 산업으로의 진출 기회 모색",
-      "기존 사업과의 통합을 통한 비용 절감 및 효율성 증대"
+      "광범위한 서비스 포트폴리오: 전력, 통신, 오일/가스 등 다양한 인프라 시장에서 종합적인 서비스를 제공하여 고객에게 원스톱 솔루션 제공.",
+      "규모의 경제 및 전국적인 네트워크: 북미 전역에 걸친 광범위한 운영 네트워크와 대규모 자원을 통해 대형 프로젝트 수행 능력 보유.",
+      "숙련된 인력 및 전문성: 오랜 업력과 다양한 프로젝트 경험을 통해 축적된 기술력 및 숙련된 노동력 보유.",
+      "전략적 인수합병(M&A) 역량: 지속적인 M&A를 통해 서비스 역량 및 시장 점유율을 확장하고 새로운 기술을 통합하는 능력."
     ],
     "competitive_weaknesses": [
-      "노동 집약적인 사업 특성상 숙련된 직원 유치 및 유지의 어려움",
-      "노동 비용 증가 및 인력 관리 비효율성 발생 가능성",
-      "기후 변화 관련 물리적 위험(산불, 홍수 등)으로 인한 운영 중단 및 비용 증가",
-      "보험료 증가 및 보험 적용 범위 축소로 인한 재정적 부담",
-      "인수 전략 실패 시 성장 동력 상실 및 재무적 위험 증가",
-      "인수 대상 기업의 통합 실패 및 예상 시너지 미달성 위험"
+      "높은 인력 의존도 및 인건비 상승 압력: 노동 집약적인 사업 특성상 숙련된 인력 확보 및 유지에 어려움이 있으며, 인건비 상승이 수익성에 부정적 영향.",
+      "기후 변화 및 자연재해 위험 노출: 사업 특성상 기후 변화로 인한 자연재해(산불, 허리케인 등)에 취약하며, 이는 운영 중단, 비용 증가, 보험료 상승 및 잠재적 책임으로 이어질 수 있음.",
+      "보험 및 클레임 비용 증가: 차량 및 기타 사고로 인한 '핵심' 판결 증가로 초과 보험 가용성 감소 및 보험료 급증, 클레임 비용 예측의 어려움.",
+      "M&A 통합 위험: 활발한 M&A 전략은 성장 동력이 될 수 있으나, 인수 기업의 성공적인 통합 실패 시 예상 시너지 미달 및 재무적 부담 발생 가능성."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 64.5,
+    "rs_rating": 85,
+    "score": 61.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 1.895,
+    "trailing_pe": 98.441536,
+    "forward_pe": 43.523075,
+    "ev_to_ebitda": 42.663,
+    "price_to_sales": 3.5653863,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 83.71,
-    "outperform_6m_vs_nasdaq": 52.03,
-    "outperform_1m_vs_nasdaq": 11.45,
-    "moat_type": "None",
+    "outperform_1y_vs_nasdaq": 67.77,
+    "outperform_6m_vs_nasdaq": 42.95,
+    "outperform_1m_vs_nasdaq": -12.63,
+    "lynch_category": "Stalwart",
+    "moat_type": "Switching Costs",
     "moat_evidence": [
-      "10-K 발췌 내용에서 해자 유형을 특정할 수 있는 명확한 증거가 부족합니다. 사업의 본질적인 경쟁 우위보다는 외부 환경 및 인수합병 관련 리스크에 대한 내용이 주를 이룹니다."
+      "PWR은 전력 및 통신 인프라 구축 및 유지보수 서비스를 제공하며, 이는 고객에게 핵심적인 운영 요소입니다. 이러한 서비스는 복잡하고 전문성을 요구하므로, 기존 공급업체를 변경하는 데 상당한 시간, 비용, 위험이 수반됩니다.",
+      "회사는 전략적 인수를 통해 사업 영역을 확장하고 있으며, 이는 고객에게 통합된 솔루션을 제공하여 전환 비용을 더욱 높이는 요인이 됩니다. 새로운 공급업체는 PWR이 제공하는 광범위한 서비스를 한 번에 제공하기 어려울 수 있습니다.",
+      "PWR의 서비스는 대규모 프로젝트와 장기 계약으로 이루어지는 경우가 많습니다. 이러한 프로젝트의 특성상 중간에 공급업체를 변경하는 것은 프로젝트 지연, 추가 비용 발생, 운영 효율성 저하 등 막대한 손실을 초래할 수 있습니다."
     ],
-    "moat_durability_years": "None",
-    "new_trigger": "최근 12개월 내 신제품, 신경영진, 산업 촉매제에 대한 정보는 10-K 발췌 내용에 없습니다.",
-    "bull_case": "인수합병 성공적 통합 및 시너지 창출로 시장 점유율 확대, 3년 내 수익성 및 매출 20% 이상 성장",
-    "base_case": "인수합병을 통한 완만한 성장 지속. 기후 변화 및 보험 관련 비용 증가 압박 속에서 기존 사업의 안정적인 운영을 통해 연간 10% 내외의 매출 성장 및 수익성 유지.",
-    "bear_case": "인수합병 실패, 통합 지연 및 예상치 못한 부채 발생으로 재무 상태 악화. 기후 변화 관련 재해 및 보험 비용 급증으로 수익성 크게 하락.",
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "기후 변화 대응 및 인프라 현대화 수요 증가로 전력망 투자 확대",
+    "bull_case": "3년 내 EPS 20% 이상 성장. 인프라 투자 확대 및 성공적인 M&A 통합으로 시장 점유율 확대.",
+    "base_case": "전력 및 통신 인프라 투자 증가 추세에 힘입어 안정적인 매출 성장과 수익성 유지. M&A를 통한 사업 확장 지속.",
+    "bear_case": "인플레이션 및 금리 인상으로 인한 인프라 투자 위축, 경쟁 심화, 기후 변화 관련 재해 및 보험 비용 증가로 수익성 악화.",
     "key_metrics_to_watch": [
-      "인수합병 후 통합 비용 및 시너지 효과",
-      "보험 및 클레임 관련 비용 추이",
-      "기후 변화 관련 재해 발생 빈도 및 영향",
-      "순이익 성장률 (NI CAGR)",
-      "매출 성장률 (TTM)"
+      "신규 수주액 및 수주잔고",
+      "영업이익률 (OPM)",
+      "인수합병(M&A) 통합 성공률",
+      "기후 변화 관련 보험 및 클레임 비용"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
+        "category": "재무",
+        "description": "분기별 실적이 크게 변동될 수 있으며, 이는 계절성, 프로젝트 일정 및 고객 요구사항 변동에 의해 영향을 받습니다.",
+        "severity": "medium"
+      },
+      {
         "category": "고객집중도",
-        "description": "특정 주요 고객과의 계약 상실 또는 취소는 회사 매출에 심각한 영향을 미칠 수 있습니다.",
+        "description": "특정 주요 고객과의 거래 손실은 회사 사업에 중대한 영향을 미칠 수 있으며, 이는 수익 감소로 이어질 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "운영",
-        "description": "프로젝트 지연, 비용 초과, 또는 예상치 못한 운영상의 위험(예: 산불, 폭발)은 수익성과 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "사업은 산불, 폭발 등 운영상의 위험에 노출되어 상당한 책임을 초래할 수 있으며, 모든 잠재적 책임에 대해 보험에 가입되어 있지 않을 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "인력",
-        "description": "숙련된 인력을 유치하고 유지하지 못하거나 인력 관리에 실패할 경우, 사업 운영에 차질이 생기고 비용이 증가할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "상당한 부채를 보유하고 있으며, 충분한 현금 흐름을 창출하지 못하거나 자금 조달에 어려움을 겪을 경우 사업 확장에 제약이 따를 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "규제",
-        "description": "환경 규제, 노동법, 국제 사업 관련 법규 등 다양한 규제 준수 실패는 막대한 벌금과 법적 책임을 초래할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거시",
-        "description": "부정적인 거시 경제 상황, 산업별 경기 침체, 또는 기후 변화와 관련된 물리적 위험은 사업 실적에 악영향을 미칠 수 있습니다.",
+        "description": "노동 집약적인 사업 특성상 숙련된 직원을 유치 및 유지하지 못하거나 인력 관리에 실패할 경우 상당한 비용이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "공급망",
-        "description": "연료, 자재, 장비 공급의 부족 또는 가격 상승은 프로젝트 비용을 증가시키고 수익성을 저해할 수 있습니다.",
-        "severity": "low"
+        "description": "공급업체, 하도급업체 및 장비 제조업체의 가용성 부족 또는 연료, 자재, 장비 가격 상승은 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "부정적인 거시 경제 상황 및 산업별 경제 및 시장 상황은 사업에 불리한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "상당한 부채를 보유하고 있어 사업에 부정적인 영향을 미칠 수 있으며, 부채 상환을 위한 충분한 현금 흐름을 확보하지 못할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "사업에 적용되는 규제 요구사항 및 잠재적인 변경 사항은 사업에 불리한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "주요 고객과의 계약을 대거 상실하고, 동시에 대형 프로젝트에서 심각한 비용 초과 및 지연이 발생하여 재정적 압박이 가중될 경우 회사는 파산할 수 있습니다.",
-      "예상치 못한 대규모 운영 사고(예: 대형 산불로 인한 인프라 손상)가 발생하고, 보험 적용이 불충분하여 막대한 배상 책임과 평판 손실을 감당하지 못할 경우 회사는 존속하기 어려울 수 있습니다.",
-      "경기 침체로 인해 주요 산업의 수요가 급감하고, 동시에 숙련된 인력 부족으로 프로젝트 수행 능력이 저하되어 경쟁력을 상실할 경우 회사는 사업을 지속할 수 없을 것입니다.",
-      "다수의 규제 위반으로 인해 막대한 벌금과 법적 소송에 휘말리고, 이로 인해 자금 조달 능력이 상실되어 부채 상환이 불가능해질 경우 회사는 파산에 이를 수 있습니다."
+      "주요 고객과의 계약이 대거 취소되거나 갱신되지 않아 매출이 급감하고 현금 흐름이 고갈되는 경우.",
+      "대규모 프로젝트에서 치명적인 운영 사고(예: 대형 산불, 폭발)가 발생하여 막대한 법적 책임과 보험 미적용 손실이 발생하고 기업 평판이 심각하게 훼손되는 경우.",
+      "숙련된 인력 부족이 심화되고 노사 관계 악화로 인해 주요 프로젝트 수행이 불가능해지고 경쟁력을 상실하는 경우.",
+      "글로벌 경기 침체와 에너지 산업의 급격한 변화로 인해 인프라 투자 수요가 급감하고 신규 프로젝트 수주가 거의 불가능해지는 경우."
     ],
     "exit_signals": [
-      "주요 고객 3곳 이상과의 계약이 취소되거나 상당 부분 축소되는 경우",
-      "대규모 프로젝트 2개 이상에서 예상 비용 대비 20% 이상의 초과 비용이 발생하거나 6개월 이상 지연되는 경우",
-      "회사의 부채 등급이 투기 등급으로 강등되거나, 신규 프로젝트 수주를 위한 보증서 확보에 지속적인 어려움을 겪는 경우",
-      "숙련된 기술 인력 이탈률이 업계 평균을 2배 이상 초과하고, 신규 인력 채용이 지속적으로 실패하는 경우"
+      "분기별 매출이 2분기 연속으로 전년 동기 대비 10% 이상 감소하고, 신규 수주액이 급격히 줄어드는 경우.",
+      "주요 고객사 중 한 곳 이상이 파산하거나, 쿼터와의 계약을 대규모로 해지하는 발표가 나오는 경우.",
+      "대규모 환경 재해 또는 안전 사고로 인해 회사가 감당할 수 없는 수준의 벌금이나 손해배상 청구가 발생하고, 보험 적용이 불가능하다는 것이 확인되는 경우.",
+      "신용 등급이 투자 부적격 등급으로 하향 조정되어 자본 시장 접근이 어려워지고 자금 조달 비용이 급증하는 경우."
     ]
   },
-  "wikipedia_summary": "",
+  "wikipedia_summary": "Quanta Services is a U.S. corporation that provides infrastructure services for the electric power, pipeline, industrial and communications industries. Its capabilities include planning, design, installation, program management, maintenance and repair of most types of network infrastructure. The company has grown organically since its founding, but it has also acquired over 200 companies in the electrical contracting and other construction industries. It has provided its services and expertise to many major electrical transmission construction projects and in the 2020s is involved in the construction of data centers as a consequence of the rise of artificial intelligence and its need for electrical power.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-03T00:51:01.676621+00:00"
+    "GoogleWebTranslator": "2026-06-04T00:43:24.016456+00:00"
   }
 }
