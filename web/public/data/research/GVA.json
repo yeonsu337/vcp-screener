@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-05-19T00:34:29.979097+00:00",
+  "generated_at": "2026-06-05T00:15:41.280200+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 6005547008,
+    "market_cap": 6193220608,
     "shares_outstanding": 43746699,
     "employees": 2500,
     "country": "United States",
@@ -17,138 +17,176 @@
     "beta": 1.353
   },
   "category_a_business": {
-    "overview": "Granite Construction Incorporated는 미국의 공공 및 민간 고객을 위한 인프라 솔루션을 제공합니다. 건설 및 재료 부문을 통해 운영됩니다. 건설 부문은 도로, 포장 도로 보존, 교량, 철도, 공항, 항만, 댐, 저수지, 수로, 기반 시설의 건설 및 재건과 공공 사용을 위한 부지 개발 및 지자체 기관, 상업용 물 공급업체, 산업 시설 및 에너지 회사를 위한 수자원 관련 건설에 종사합니다. 등 다양한 복합 프로젝트 건설",
-    "business_model": "Granite Construction Incorporated는 미국의 공공 및 민간 고객을 위한 인프라 솔루션을 제공합니다.",
+    "overview": "미국 내 공공 및 민간 고객에게 인프라 솔루션을 제공하는 건설 및 자재 회사입니다.",
+    "milestones": [
+      "1922: 캘리포니아 왓슨빌에서 설립",
+      "1990년대: S&P 600 지수 편입",
+      "2000년대: 건설 및 자재 사업 확장",
+      "2010년대: 다양한 복합 인프라 프로젝트 수행",
+      "현재: 미국 전역에서 사업 운영 중"
+    ],
+    "business_model": "건설 프로젝트 수행 및 건설 자재 생산/판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "도로, 교량, 철도 등 인프라 건설",
+      "공항, 항만, 댐 등 대규모 프로젝트 건설",
+      "골재, 아스팔트 콘크리트 등 건설 자재 판매",
+      "부지 개발 및 광업 서비스",
+      "건설 관리 전문 서비스"
+    ],
+    "value_chain_position": "Midstream + 건설 자재 생산부터 최종 인프라 건설까지 통합된 서비스를 제공합니다.",
     "products": [
-      "미국의 공공 및 민간 고객을 위한 인프라 솔루션",
-      "건설 및 자재 부문을 통해",
-      "건설 프로젝트에서 내부 사용을 위해 골재, 아스팔트 콘크리트, 액체 아스팔트 및 재활용 재료를 전달합니다.",
-      "철도, 주택 개발, 에너지 개발 및 통신을 위한 현장 준비, 광업 및 인프라 서비스",
-      "건축 자재"
+      "도로 및 포장",
+      "교량 및 철도",
+      "공항 및 항만",
+      "골재 및 아스팔트",
+      "댐 및 수자원 시설",
+      "태양광 및 배터리 저장 시설"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "Granite Construction Inc.는 캘리포니아 주 왓슨빌에 본사를 두고 설립된 S&P 600 지수의 회원이자 토목 건설 회사이자 종합 생산업체이며 Granite Construction Company의 모회사입니다. 이 회사는 대형 토목 건설 계약자이자 건설 골재 제조업체로서 주로 모래, 자갈 및 쇄석 제품을 추출하기 위해 여러 서부 주에 채석장을 소유하거나 임대하고 있습니다."
+    "key_customers": "주로 공공 기관 및 대형 민간 기업에 서비스를 제공하며, 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": 0.2,
-    "roa": 0.05,
-    "profit_margin": 0.04,
-    "operating_margin": -0.03,
-    "gross_margin": 0.16,
-    "revenue_growth_ttm": 0.3,
-    "earnings_growth_ttm": null,
-    "dividend_yield": 0.38,
-    "payout_ratio": 0.14,
-    "annual_revenue": [
-      4424379000.0,
-      4007574000.0,
-      3509138000.0,
-      3301256000.0,
-      null
-    ],
-    "annual_operating_income": [
-      262239000.0,
-      198599000.0,
-      51716000.0,
-      72764000.0,
-      null
-    ],
-    "annual_eps": [
-      3.86,
-      2.62,
-      0.97,
-      1.7,
-      null
-    ],
-    "annual_free_cf": [
-      330646000.0,
-      319938000.0,
-      43323000.0,
-      -65965000.0,
-      null
-    ],
-    "annual_total_debt": [
-      1497588000.0,
-      832851000.0,
-      735087000.0,
-      339213000.0,
-      null
-    ],
-    "annual_equity": [
-      1179048000.0,
-      1015226000.0,
-      977298000.0,
-      953016000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      -0.96,
-      1.03,
-      1.98,
-      1.42,
-      -0.77,
-      null,
-      null
-    ],
-    "quarterly_revenue": [
-      912465000.0,
-      1165370000.0,
-      1433498000.0,
-      1125964000.0,
-      699547000.0,
-      null,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
-    ],
     "sales_yoy_pct": 30.4,
     "ni_cagr_3y_pct": 32.32,
     "roe_pct": 20.03
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (2023년 미국 건설 시장 규모, Statista 추정)",
+    "tam_cagr_pct": "3.5% - 5.5% (향후 3~5년간 미국 인프라 투자 증가 및 건설 활동 활성화 예상)",
+    "growth_drivers": [
+      "미국 정부의 인프라 투자 확대 (예: 인프라 투자 및 일자리 법안)",
+      "재생 에너지 프로젝트 (태양광, 배터리 저장 등) 및 관련 인프라 수요 증가",
+      "노후화된 기존 인프라의 유지보수 및 재건축 필요성 증대",
+      "주거 및 상업 개발 프로젝트 지속",
+      "수자원 관리 및 지하수 개발 관련 수요 증가"
+    ],
+    "market_share_pct": "1% 미만 (미국 건설 시장은 매우 세분화되어 있으며, GVA는 특정 지역 및 전문 분야에 강점)",
+    "competitors": [
+      {
+        "name": "Fluor Corporation",
+        "differentiation": "대규모 복합 프로젝트 관리 및 EPC(설계, 조달, 시공) 역량, 국제적인 사업 범위"
+      },
+      {
+        "name": "Kiewit Corporation",
+        "differentiation": "다양한 인프라 및 중공업 분야의 강력한 시공 역량, 민간 소유 기업으로 장기적 관점"
+      },
+      {
+        "name": "Vulcan Materials Company",
+        "differentiation": "골재 및 건설 자재 생산에 특화된 수직 통합 기업, GVA의 자재 부문과 직접 경쟁"
+      },
+      {
+        "name": "Martin Marietta Materials",
+        "differentiation": "골재, 시멘트, 아스팔트 등 건설 자재 생산 및 공급에 중점, GVA의 자재 부문과 직접 경쟁"
+      },
+      {
+        "name": "Skanska USA",
+        "differentiation": "글로벌 건설 및 개발 회사로, 특히 공공-민간 파트너십(P3) 프로젝트 및 친환경 건설에 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (초기 자본 투자, 규제 준수, 숙련된 인력 확보의 어려움이 있으나, 특정 틈새시장 진입은 가능)",
+      "substitutes": "low (건설 및 인프라 프로젝트에 대한 직접적인 대체재는 거의 없으며, 필요한 자재 및 서비스는 필수적)",
+      "buyer_power": "medium (정부 기관 및 대형 민간 고객은 여러 입찰자를 통해 가격 협상력을 가질 수 있음)",
+      "supplier_power": "medium (특정 건설 자재(골재 등) 및 전문 장비 공급업체는 제한적일 수 있으며, 환경 규제 강화로 공급 비용 증가 가능)",
+      "rivalry": "high (미국 건설 시장은 매우 경쟁적이며, 다수의 지역 및 전국 규모 기업들이 입찰 경쟁을 벌임)"
+    },
     "competitive_advantages": [
-      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+      "수직 통합된 사업 모델 (골재 생산 및 건설 자재 공급을 통해 비용 효율성 및 공급 안정성 확보)",
+      "다양한 인프라 및 전문 건설 분야 (터널, 연방 프로젝트, 산업 및 에너지, 수자원 등)에서의 전문성",
+      "미국 내 광범위한 지역적 입지 및 운영 네트워크",
+      "공공 및 민간 부문 모두에 걸친 균형 잡힌 고객 기반",
+      "오랜 업력과 프로젝트 수행 경험을 통한 신뢰성 및 평판"
+    ],
+    "competitive_weaknesses": [
+      "엄격한 환경 규제 및 허가 절차 준수에 따른 운영 비용 및 위험 증가",
+      "골재 매장량 확보의 어려움 및 관련 규제 강화로 인한 사업 제약",
+      "계약 관련 수익 및 비용, 광물 매장량 평가에 대한 추정의 불확실성",
+      "영업권 및 무형자산 손상차손 발생 가능성",
+      "숙련된 인력 확보 및 유지의 어려움 (건설 산업 전반의 문제)"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 58.4,
+    "rs_rating": 70,
+    "score": 59.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.96,
-    "trailing_pe": 37.405994,
-    "forward_pe": 18.765942,
-    "ev_to_ebitda": 15.413,
-    "price_to_sales": 1.2950534,
+    "peg_ratio": 0.1659,
+    "trailing_pe": 38.574932,
+    "forward_pe": 18.690813,
+    "ev_to_ebitda": 15.826,
+    "price_to_sales": 1.3355237,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 23.27,
-    "outperform_6m_vs_nasdaq": 19.82,
-    "outperform_1m_vs_nasdaq": 3.84,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 20.17,
+    "outperform_6m_vs_nasdaq": 18.67,
+    "outperform_1m_vs_nasdaq": -6.01,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "GVA는 미국 내 최대 규모의 수직 통합형 토목 건설업체이자 건설 자재 생산 업체 중 하나입니다. 이는 규모의 경제를 통한 비용 우위를 시사합니다.",
+      "GVA는 골재 매장량을 소유 및 임대하고 있으며, 건설 운영에 수직 통합된 처리 공장을 소유하고 있습니다. 이는 원자재 조달 및 생산 비용 절감에 기여합니다.",
+      "GVA는 미국 전역에 걸쳐 광범위한 운영 지역을 보유하고 있으며, 다양한 공공 및 민간 인프라 프로젝트를 수행합니다. 이는 지리적 이점과 다양한 프로젝트 경험을 통한 효율성 증대를 의미합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "COO 퇴임 후 CEO가 단독 CODM을 맡아 의사결정 효율성 증대 기대",
+    "bull_case": "인프라 투자 확대 및 효율적인 경영으로 3년 내 시장 점유율 확대 및 수익성 개선",
+    "base_case": "미국 경제 성장과 인프라 투자 지속으로 안정적인 매출 및 이익 성장세를 유지하며, 수직 통합을 통한 비용 경쟁력을 바탕으로 시장 지위를 공고히 할 것입니다.",
+    "bear_case": "환경 규제 강화, 골재 확보 어려움, 건설 비용 증가 등으로 인해 수익성이 악화되고 프로젝트 지연이 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "공공 자금 조달 수준",
+      "골재 매장량 확보 및 비용",
+      "환경 규제 준수 비용",
+      "수주 잔고 및 신규 수주액"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "골재 가격 추정치(톤당 $5-$40)는 시장 상황에 따라 변동될 수 있으며, 이는 광물 자원 및 매장량 추정치에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "채굴 및 가공에 필요한 허가 취득 및 유지 실패는 운영에 중대한 차질을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "건설 경기 침체 또는 인프라 지출 감소는 건설 자재 수요 감소로 이어져 매출 및 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "캘리포니아와 켄터키에 채굴 작업이 집중되어 있어 특정 지역의 규제 변경, 자연재해 또는 경제적 요인에 취약합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "광물 자원 및 매장량 추정치는 지질학적 증거, 샘플링 및 테스트에 기반하며, 이러한 추정치의 변경은 회사의 장기적인 가치에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "광물 자원 및 매장량 추정치를 담당하는 내부 '자격 있는 사람'의 판단 오류나 편향은 회사의 재무 보고의 신뢰성에 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 채굴 허가가 취소되거나 갱신되지 않아 운영이 중단되고 매출이 급감할 수 있습니다.",
+      "건설 산업의 장기적인 침체로 골재 수요가 지속적으로 감소하여 회사의 수익성이 심각하게 악화될 수 있습니다.",
+      "예상치 못한 지질학적 문제로 인해 주요 채굴지의 광물 매장량이 대폭 하향 조정되어 자산 가치가 급락할 수 있습니다."
+    ],
+    "exit_signals": [
+      "캘리포니아 또는 켄터키의 주요 채굴 허가가 취소되거나 갱신되지 않는다는 발표.",
+      "골재 가격이 장기간 동안 톤당 $5 미만으로 하락하고 회복 조짐이 보이지 않음.",
+      "회사의 주요 광산(The Wine Group, Aerojet North White Rock, Euer Ranch 등)의 측정 및 표시된 광물 자원 추정치가 20% 이상 하향 조정된다는 발표."
+    ]
+  },
   "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-04T00:43:13.298519+00:00"
+    "GoogleWebTranslator": "2026-06-05T00:16:32.941025+00:00"
   }
 }
