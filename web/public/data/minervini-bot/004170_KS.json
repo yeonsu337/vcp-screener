@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "004170.KS",
-  "generated_at": "2026-06-05T00:14:23.356266+00:00",
-  "source_results_date": "2026-06-05",
+  "generated_at": "2026-06-06T00:12:30.337035+00:00",
+  "source_results_date": "2026-06-06",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.61,
+  "confidence": 0.65,
   "lines": [
-    "추격 위험 — Pivot ₩597522.38 대비 +10.3%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 12.5% → 21.1% → 14.0%, VDU 1.49× — setup 자체는 유효.",
+    "추격 위험 — Pivot ₩597522.38 대비 +8.8%, buy zone 초과, 베이스 카운트 4.",
+    "13주 베이스 12.5% → 21.1% → 14.0%, VDU 1.67× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 94로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -24,7 +24,7 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "2/8",
+    "vcp_quality_score": "3/8",
     "rs_rating": 94,
     "stage": 2,
     "base_count": 4,
@@ -47,11 +47,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (14.03% vs 6.5%)",
-    "P3_vol_dryup (1.49× vs 0.6×)",
+    "P3_vol_dryup (1.67× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-12.4% vs ≥-5.0%)"
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
     "베이스 카운트 4 — 후기 베이스, 실패율 상승"
