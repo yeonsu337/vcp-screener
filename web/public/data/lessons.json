@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T00:16:03.523353+00:00",
+  "generated_at": "2026-06-10T00:15:37.023722+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -42,22 +42,22 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
+        "primary_passed": 8,
+        "trades": 1,
+        "avg_return_pct": 1.15,
+        "win_rate_pct": 100.0
+      },
+      {
         "primary_passed": 9,
         "trades": 4,
-        "avg_return_pct": 0.77,
-        "win_rate_pct": 50.0
+        "avg_return_pct": 5.83,
+        "win_rate_pct": 75.0
       },
       {
         "primary_passed": 10,
-        "trades": 3,
-        "avg_return_pct": 5.01,
+        "trades": 6,
+        "avg_return_pct": 5.36,
         "win_rate_pct": 66.7
-      },
-      {
-        "primary_passed": 11,
-        "trades": 3,
-        "avg_return_pct": 9.23,
-        "win_rate_pct": 100.0
       }
     ],
     "rule_hit_rate_diff": [],
@@ -70,43 +70,50 @@
       "sector": "Unknown",
       "trades": 30,
       "win_rate_pct": 60.0,
-      "avg_return_pct": 3.05,
+      "avg_return_pct": 3.1,
       "best_return_pct": 35.4
-    },
-    {
-      "sector": "Real Estate",
-      "trades": 3,
-      "win_rate_pct": 33.3,
-      "avg_return_pct": 1.02,
-      "best_return_pct": 5.1
     },
     {
       "sector": "Energy",
       "trades": 3,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 4.36,
+      "avg_return_pct": 3.67,
       "best_return_pct": 6.5
+    },
+    {
+      "sector": "Real Estate",
+      "trades": 2,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -1.04,
+      "best_return_pct": -1.0
+    },
+    {
+      "sector": "Consumer Cyclical",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 2.2,
+      "best_return_pct": 2.2
     },
     {
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 14.53,
-      "best_return_pct": 14.5
+      "avg_return_pct": 16.14,
+      "best_return_pct": 16.1
     },
     {
-      "sector": "Basic Materials",
+      "sector": "Industrials",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 1.49,
-      "best_return_pct": 1.5
+      "avg_return_pct": 2.92,
+      "best_return_pct": 2.9
     },
     {
       "sector": "Technology",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 17.82,
-      "best_return_pct": 17.8
+      "avg_return_pct": 18.26,
+      "best_return_pct": 18.3
     }
   ],
   "market_breakdown": {
@@ -127,8 +134,8 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.0,
-    "loser_avg_rs": 82.4,
+    "winner_avg_rs": 83.2,
+    "loser_avg_rs": 82.7,
     "winner_n": 25,
     "loser_n": 14
   },
@@ -148,7 +155,7 @@
     {
       "day": 21,
       "trades": 30,
-      "avg_return_pct": 4.29,
+      "avg_return_pct": 4.27,
       "winners_pct": 70.0
     },
     {
