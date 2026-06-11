@@ -500,6 +500,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "LPG",
+    "company": "Dorian LPG Ltd",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-11T00:23:59.207823+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "LQDA",
     "company": "Liquidia Corporation",
     "market": "US",
@@ -521,13 +531,13 @@
   },
   {
     "ticker": "MD",
-    "company": "Pediatrix Medical Group, Inc.",
+    "company": "Pediatrix Medical Group Inc",
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-12T00:38:00.849774+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-11T00:24:54.620688+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "MLI",
@@ -641,12 +651,12 @@
   },
   {
     "ticker": "OII",
-    "company": "Oceaneering International Inc",
+    "company": "Oceaneering International, Inc.",
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-02T00:23:56.321033+00:00",
+    "generated_at": "2026-06-11T00:26:44.981032+00:00",
     "llm_status": "ok"
   },
   {
@@ -836,7 +846,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-02T00:22:16.131515+00:00",
+    "generated_at": "2026-06-11T00:25:48.979262+00:00",
     "llm_status": "ok"
   },
   {
@@ -971,13 +981,13 @@
   },
   {
     "ticker": "XPO",
-    "company": "XPO Inc",
+    "company": "XPO, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-28T00:08:59.015889+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-11T00:28:49.972273+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "YOU",

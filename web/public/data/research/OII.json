@@ -1,156 +1,279 @@
 {
   "ticker": "OII",
-  "company": "Oceaneering International Inc",
+  "company": "Oceaneering International, Inc.",
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-06-02T00:23:56.321033+00:00",
+  "generated_at": "2026-06-11T00:26:44.981032+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 3919988224,
+    "shares_outstanding": 99745249,
+    "employees": 11100,
+    "country": "United States",
+    "website": "https://www.oceaneering.com",
+    "beta": 1.161
   },
   "category_a_business": {
-    "overview": "OII는 해양 에너지, 국방, 산업 시장에 첨단 엔지니어링 제품과 서비스를 제공하는 글로벌 기업입니다.",
+    "overview": "OII는 해양 에너지, 방위, 항공우주 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다.",
     "milestones": [
-      "1962년: Oceaneering International, Inc. 설립",
+      "1964년: Oceaneering International 설립",
       "1969: 최초의 상업용 포화 잠수 시스템 개발",
-      "1980년대: ROV(원격 조종 수중 로봇) 기술 선도",
-      "1990년대: 해양 석유 및 가스 탐사 및 생산 서비스 확장",
-      "2000년대: 국방 및 우주 분야로 사업 다각화",
-      "2010년대: 비에너지 시장(예: 테마파크)으로 기술 적용 확대",
-      "2020년대: 재생 에너지 및 해양 풍력 시장 진출 가속화"
+      "1970년대: 북해 유전 개발에 참여하며 성장",
+      "1980년대: ROV(원격 조종 무인 잠수정) 기술 도입 및 확장",
+      "1990년대: 해양 에너지 외 방위 및 항공우주 분야로 사업 다각화",
+      "2000년대: 심해 탐사 및 생산 솔루션 강화",
+      "2010년대: 디지털 솔루션 및 자율 이동 로봇 기술 투자"
     ],
-    "business_model": "첨단 로봇 공학, 엔지니어링 솔루션 및 기술 서비스를 제공하여 수익을 창출합니다.",
+    "business_model": "해양 및 극한 환경에서 엔지니어링 서비스, 제품, 로봇 솔루션을 제공하여 수익을 창출합니다.",
     "revenue_streams": [
-      "ROV 서비스",
-      "서브시 제품",
-      "자산 무결성 관리",
-      "고급 로봇 공학",
-      "국방 및 정부 계약"
+      "해저 로봇 서비스 (ROV)",
+      "제조 제품 (엄빌리컬, 커넥터)",
+      "해양 프로젝트",
+      "무결성 관리 및 디지털 솔루션",
+      "항공우주 및 방위 기술"
     ],
-    "value_chain_position": "Midstream + 해양 에너지 및 산업 분야의 핵심 기술 및 서비스 제공자입니다.",
+    "value_chain_position": "Midstream + 해양 에너지 탐사, 개발, 생산 및 유지보수 전반에 걸쳐 핵심 기술과 서비스를 제공합니다.",
     "products": [
-      "ROV (원격 조종 수중 로봇)",
-      "수중 생산 제어 시스템",
-      "유연한 라이저 및 파이프",
-      "잠수 서비스",
-      "비파괴 검사 및 유지보수"
+      "ROV (원격 조종 무인 잠수정)",
+      "생산 제어 엄빌리컬",
+      "파이프라인 연결 및 수리 시스템",
+      "자율 이동 로봇 (AMR)",
+      "수중 측량 및 포지셔닝 서비스"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주로 석유 및 가스 회사, 정부 기관, 해군, 재생 에너지 개발사 등 소수의 대형 고객에게 집중되어 있습니다."
+    "key_customers": "주로 대형 에너지 기업, 방위 산업체, 정부 기관 등 소수 고객에 대한 의존도가 높습니다."
   },
   "category_b_financials": {
+    "roe": 0.36,
+    "roa": 0.07,
+    "profit_margin": 0.12,
+    "operating_margin": 0.08,
+    "gross_margin": 0.2,
+    "revenue_growth_ttm": 0.03,
+    "earnings_growth_ttm": -0.27,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      2784156000.0,
+      2661161000.0,
+      2424706000.0,
+      2066084000.0,
+      null
+    ],
+    "annual_operating_income": [
+      304552000.0,
+      246270000.0,
+      181328000.0,
+      110863000.0,
+      null
+    ],
+    "annual_eps": [
+      3.49,
+      1.44,
+      0.95,
+      0.26,
+      null
+    ],
+    "annual_free_cf": [
+      207846000.0,
+      96078000.0,
+      109229000.0,
+      39840000.0,
+      null
+    ],
+    "annual_total_debt": [
+      873139000.0,
+      851749000.0,
+      848657000.0,
+      868024000.0,
+      null
+    ],
+    "annual_equity": [
+      1070600000.0,
+      714259000.0,
+      628020000.0,
+      519741000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.36,
+      1.76,
+      0.71,
+      0.54,
+      0.49
+    ],
+    "quarterly_revenue": [
+      692429000.0,
+      668574000.0,
+      742898000.0,
+      698161000.0,
+      674523000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": -28.3,
     "sales_yoy_pct": 2.7,
     "ni_cagr_3y_pct": 138.91,
     "roe_pct": 35.89
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "N/A (제공된 정보 부족)",
-    "tam_cagr_pct": "N/A (제공된 정보 부족)",
-    "growth_drivers": [],
-    "market_share_pct": "N/A (제공된 정보 부족)",
-    "competitors": [],
+    "tam_estimate_usd_b": "20-30 (estimate, 해양 에너지 서비스 및 장비 시장 규모 추정치 기반)",
+    "tam_cagr_pct": "5-7% (해양 유전 개발 및 재생 에너지 전환 수요 증가, 해양 로봇 및 자율 시스템 기술 발전)",
+    "growth_drivers": [
+      "해양 유전 및 가스 탐사/생산 활동의 지속적인 투자",
+      "해상 풍력 등 해양 재생 에너지 인프라 구축 확대",
+      "해양 로봇 및 자율 시스템 기술의 적용 분야 확장",
+      "해양 자산의 유지보수 및 수명 연장 서비스 수요 증가",
+      "심해 탐사 및 생산 기술의 고도화"
+    ],
+    "market_share_pct": "5-10% (estimate, 특정 니치 시장에서는 더 높을 수 있음)",
+    "competitors": [
+      {
+        "name": "Schlumberger (SLB)",
+        "differentiation": "광범위한 유전 서비스 포트폴리오, 글로벌 네트워크, R&D 역량"
+      },
+      {
+        "name": "Halliburton (HAL)",
+        "differentiation": "유전 서비스 및 장비의 통합 솔루션 제공, 북미 시장 강점"
+      },
+      {
+        "name": "Baker Hughes (BKR)",
+        "differentiation": "첨단 기술 솔루션, 디지털화 및 탈탄소화 노력, LNG 및 터보 기계 강점"
+      },
+      {
+        "name": "TechnipFMC (FTI)",
+        "differentiation": "해저 생산 시스템 및 플렉서블 파이프 기술, 통합 프로젝트 관리"
+      },
+      {
+        "name": "Saipem S.p.A.",
+        "differentiation": "해양 드릴링, 건설 및 설치 서비스, 대규모 프로젝트 수행 능력"
+      }
+    ],
     "porter_five_forces": {
-      "new_entrants": "N/A (제공된 정보 부족)",
-      "substitutes": "N/A (제공된 정보 부족)",
-      "buyer_power": "N/A (제공된 정보 부족)",
-      "supplier_power": "N/A (제공된 정보 부족)",
-      "rivalry": "N/A (제공된 정보 부족)"
+      "new_entrants": "medium (높은 초기 투자 비용과 기술 장벽이 존재하나, 특정 니치 시장에서는 신규 진입 가능성 있음)",
+      "substitutes": "medium (육상 유전 개발, 다른 에너지원(재생에너지)으로의 전환이 장기적인 대체 위협이 될 수 있음)",
+      "buyer_power": "medium (주요 고객은 대형 에너지 기업으로, 가격 협상력이 있으나 OII의 전문 서비스는 대체가 쉽지 않음)",
+      "supplier_power": "low (다수의 공급업체가 존재하며, OII는 특정 부품에 대한 의존도를 낮추기 위해 노력함)",
+      "rivalry": "high (글로벌 대형 경쟁사들과 치열한 경쟁, 가격 및 기술 혁신 경쟁이 심화됨)"
     },
-    "competitive_advantages": [],
-    "competitive_weaknesses": []
+    "competitive_advantages": [
+      "원격 조종 잠수정(ROV) 및 해양 로봇 기술 분야의 선도적 위치",
+      "심해 작업 및 극한 환경에서의 운영 전문성",
+      "다양한 해양 산업(석유 및 가스, 해상 풍력, 국방 등)에 걸친 서비스 포트폴리오",
+      "글로벌 서비스 네트워크 및 현장 지원 역량",
+      "혁신적인 엔지니어링 및 기술 솔루션 개발 능력"
+    ],
+    "competitive_weaknesses": [
+      "유가 변동 및 해양 에너지 시장의 경기 침체에 대한 높은 민감도",
+      "대형 경쟁사 대비 상대적으로 작은 규모와 자본력",
+      "특정 기술 및 서비스 분야에 대한 의존도",
+      "신기술 개발 및 시장 변화에 대한 빠른 적응 필요성",
+      "지속적인 R&D 투자 및 인력 확보의 중요성"
+    ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 52.1,
+    "rs_rating": 82,
+    "score": 55.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 8.01,
+    "trailing_pe": 11.696428,
+    "forward_pe": 18.87735,
+    "ev_to_ebitda": 10.564,
+    "price_to_sales": 1.3989655,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 52.43,
-    "outperform_6m_vs_nasdaq": 36.39,
-    "outperform_1m_vs_nasdaq": -9.08,
-    "moat_type": "None",
-    "moat_evidence": [],
-    "moat_durability_years": "None",
-    "new_trigger": "정보 부족으로 판단 불가",
-    "bull_case": "높은 ROE와 3년 순이익 CAGR을 바탕으로 시장 점유율 확대 및 수익성 개선 지속",
-    "base_case": "현재의 높은 ROE와 순이익 성장률을 유지하며 시장 평균 이상의 성과를 지속할 것으로 예상. 다만, EPS QoQ YoY 감소는 단기적인 우려 요인.",
-    "bear_case": "EPS QoQ YoY 감소세가 지속되고, 경쟁 심화로 인한 수익성 악화 및 시장 점유율 하락으로 성장 동력 상실",
+    "outperform_1y_vs_nasdaq": 65.6,
+    "outperform_6m_vs_nasdaq": 38.44,
+    "outperform_1m_vs_nasdaq": 7.82,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "OII는 해양 엔지니어링 및 로봇 기술 분야에서 오랜 경험과 전문성을 보유하고 있으며, 이는 독점적인 기술 노하우와 지적 재산으로 이어진다.",
+      "심해 작업 및 복잡한 해양 환경에서의 솔루션 제공 능력은 높은 기술 진입 장벽을 형성하며, 경쟁사들이 쉽게 모방하기 어려운 핵심 역량이다.",
+      "글로벌 해양 에너지 및 국방 산업 고객들과의 장기적인 관계는 신뢰와 평판을 기반으로 한 무형 자산으로 작용한다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "해양 재생에너지 및 해양 국방 분야 투자 확대",
+    "bull_case": "해양 에너지 전환 가속화 및 국방 수요 증가로 ROV 및 해양 서비스 매출 급증, EPS 성장률 회복.",
+    "base_case": "해양 에너지 시장의 점진적 회복과 국방 부문의 꾸준한 수요를 바탕으로 매출 성장률은 소폭 개선되나, 수익성 개선은 제한적일 것으로 예상된다. 신규 시장 진출 노력은 있으나, 단기적인 성과보다는 장기적인 관점에서 지켜봐야 한다.",
+    "bear_case": "유가 하락 및 글로벌 경기 침체로 해양 에너지 투자 위축, 경쟁 심화로 인한 마진 압박 심화, 신규 사업 성과 부진으로 매출 및 이익 감소.",
     "key_metrics_to_watch": [
-      "ROE",
-      "EPS QoQ YoY",
-      "매출 성장 (TTM)",
-      "3년 NI CAGR",
-      "경쟁사 대비 시장 점유율"
+      "해양 에너지 부문 CAPEX 투자 동향",
+      "ROV(원격조종 무인잠수정) 활용률 및 일일 요율",
+      "해양 국방 및 재생에너지 부문 신규 수주액",
+      "영업이익률(OPM) 추이",
+      "자유현금흐름(FCF)"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "경쟁",
-        "description": "OII는 경쟁이 치열한 시장에서 운영되며, 경쟁사들의 가격 인하, 신제품 출시 또는 기술 혁신으로 인해 시장 점유율과 수익성이 악화될 수 있습니다.",
+        "category": "거시",
+        "description": "글로벌 에너지 시장의 변동성, 특히 유가 및 천연가스 가격의 하락은 해양 에너지 탐사 및 생산 활동을 위축시켜 OII의 서비스 수요를 감소시킬 수 있습니다.",
         "severity": "high"
       },
       {
-        "category": "공급망",
-        "description": "글로벌 공급망의 중단, 원자재 가격 상승 또는 특정 부품의 공급 부족은 OII의 생산 능력과 비용에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "경쟁",
+        "description": "해양 서비스 시장의 치열한 경쟁과 신기술 개발은 가격 경쟁을 심화시키고 OII의 시장 점유율 및 수익성을 압박할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "규제",
-        "description": "OII가 사업을 영위하는 다양한 국가의 규제 환경 변화, 특히 환경, 보건 및 안전 규제 강화는 추가적인 준수 비용을 발생시키거나 사업 운영에 제약을 가할 수 있습니다.",
+        "description": "환경 규제 강화 및 안전 기준 변화는 OII의 운영 비용을 증가시키고 특정 프로젝트 수행을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "환율 변동, 이자율 상승 또는 신용 시장의 불안정은 OII의 재무 성과와 유동성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "높은 부채 수준과 이자율 변동은 OII의 재무 건전성을 악화시키고 자본 조달 비용을 증가시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "핵심 부품 및 장비의 공급망 중단 또는 지연은 OII의 프로젝트 수행 능력과 납기 준수에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거시",
-        "description": "글로벌 경제 침체, 지정학적 불안정 또는 주요 시장의 경기 둔화는 OII 제품 및 서비스에 대한 전반적인 수요를 감소시킬 수 있습니다.",
+        "description": "글로벌 경제 침체 또는 지정학적 불안정은 OII의 고객사 투자 심리를 위축시키고 신규 프로젝트 수주 기회를 감소시킬 수 있습니다.",
         "severity": "high"
       },
       {
-        "category": "거버넌스",
-        "description": "핵심 인력의 유출 또는 경영진의 전략적 오류는 OII의 장기적인 성장과 경쟁력에 심각한 위협이 될 수 있습니다.",
-        "severity": "low"
-      },
-      {
         "category": "고객집중도",
-        "description": "특정 소수 고객에 대한 매출 의존도가 높을 경우, 해당 고객과의 관계 악화 또는 고객의 사업 부진은 OII의 매출에 큰 타격을 줄 수 있습니다.",
-        "severity": "low"
+        "description": "소수의 대형 에너지 기업에 대한 높은 매출 의존도는 해당 고객사의 투자 축소 시 OII의 실적에 큰 타격을 줄 수 있습니다.",
+        "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "핵심 기술 경쟁에서 밀려 시장 점유율을 급격히 상실하고, 동시에 글로벌 공급망 붕괴로 생산이 중단되어 재무적 파산에 이릅니다.",
-      "예상치 못한 대규모 규제 위반으로 막대한 벌금을 부과받고, 브랜드 신뢰도가 추락하여 주요 고객들이 이탈하며 사업을 지속할 수 없게 됩니다.",
-      "글로벌 경기 침체 장기화로 주력 산업의 수요가 완전히 증발하고, 고정비 부담을 감당하지 못해 유동성 위기에 직면합니다."
+      "유가가 장기간 폭락하여 해양 에너지 산업 전반의 투자가 급감하고, OII의 주요 고객사들이 파산하거나 대규모 프로젝트를 취소하여 OII가 심각한 유동성 위기에 직면할 수 있습니다.",
+      "기술 혁신에 실패하여 경쟁사 대비 경쟁 우위를 상실하고, 동시에 대규모 환경 재해 또는 안전 사고로 인해 막대한 벌금과 소송 비용을 지불하게 되어 파산에 이를 수 있습니다.",
+      "글로벌 경기 침체와 지정학적 리스크가 복합적으로 작용하여 해양 서비스 시장이 완전히 붕괴되고, OII가 보유한 자산의 가치가 급락하여 부채를 감당할 수 없게 될 수 있습니다."
     ],
     "exit_signals": [
-      "경쟁사의 혁신적인 신제품 출시로 OII의 주력 제품 매출이 2분기 연속 20% 이상 감소하는 경우",
-      "주요 원자재 가격이 1년 내 50% 이상 급등하여 OII의 매출총이익률이 5%p 이상 하락하는 경우",
-      "OII가 진출한 주요 시장에서 예상치 못한 강력한 규제가 도입되어 해당 시장에서의 사업 철수를 발표하는 경우"
+      "유가가 배럴당 40달러 이하로 6개월 이상 지속되거나, 주요 에너지 기업들이 해양 탐사 및 생산 예산을 20% 이상 삭감한다고 발표할 경우.",
+      "OII의 분기별 신규 수주액이 전년 동기 대비 30% 이상 감소하고, 동시에 영업이익률이 지속적으로 한 자릿수에 머무를 경우.",
+      "경쟁사가 OII의 핵심 기술 분야에서 혁신적인 돌파구를 마련하여 시장 점유율을 급격히 확대하거나, OII가 대규모 환경 규제 위반으로 막대한 벌금을 부과받을 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-10T00:15:58.671139+00:00"
+    "GoogleWebTranslator": "2026-06-11T00:29:13.978619+00:00"
   }
 }
