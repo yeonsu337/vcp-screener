@@ -100,6 +100,16 @@
     "llm_status": "unavailable: rate-limited (429)"
   },
   {
+    "ticker": "ATEN",
+    "company": "A10 Networks, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-12T00:42:38.739388+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "ATI",
     "company": "ATI Inc.",
     "market": "US",
@@ -166,7 +176,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-03T00:42:25.400224+00:00",
+    "generated_at": "2026-06-12T00:33:33.479626+00:00",
     "llm_status": "ok"
   },
   {
@@ -181,13 +191,13 @@
   },
   {
     "ticker": "CAT",
-    "company": "Caterpillar Inc",
+    "company": "Caterpillar Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-02T00:21:36.586976+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:44:43.103742+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CECO",
@@ -216,8 +226,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-05T00:16:23.561380+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:49:52.140167+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "COCO",
@@ -276,8 +286,8 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-05-30T00:21:15.705547+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:46:46.449801+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "DELL",
@@ -296,8 +306,8 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-30T00:20:37.413618+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:43:41.226954+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "ECG",
@@ -416,8 +426,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:26:26.411301+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:37:34.756610+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "IBKR",
@@ -476,7 +486,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-03T00:44:15.498181+00:00",
+    "generated_at": "2026-06-12T00:35:11.575568+00:00",
     "llm_status": "ok"
   },
   {
@@ -546,8 +556,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-04T00:41:35.946921+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:40:34.751182+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MNST",
@@ -650,6 +660,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "ODFL",
+    "company": "Old Dominion Freight Line, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-12T00:50:53.928376+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "OII",
     "company": "Oceaneering International, Inc.",
     "market": "US",
@@ -711,13 +731,13 @@
   },
   {
     "ticker": "ROK",
-    "company": "Rockwell Automation Inc",
+    "company": "Rockwell Automation, Inc.",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-04T00:40:52.475529+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:41:36.835336+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "ROST",
@@ -736,8 +756,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-29T00:30:58.360480+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-12T00:34:30.812980+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "RSI",
@@ -830,6 +850,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "TGT",
+    "company": "Target Corporation",
+    "market": "US",
+    "sector": "Consumer Defensive",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-12T00:48:50.356881+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "THR",
     "company": "Thermon Group Holdings, Inc.",
     "market": "US",
@@ -837,6 +867,16 @@
     "primary_passed": 12,
     "primary_total": 13,
     "generated_at": "2026-05-16T00:31:07.530818+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "TRGP",
+    "company": "Targa Resources Corp.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-12T00:45:44.806728+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -866,7 +906,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-19T00:20:23.200532+00:00",
+    "generated_at": "2026-06-12T00:32:54.014506+00:00",
     "llm_status": "ok"
   },
   {
@@ -956,8 +996,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-04T00:42:15.753596+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-12T00:39:31.361203+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WT",
@@ -986,7 +1026,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-11T00:28:49.972273+00:00",
+    "generated_at": "2026-06-12T00:47:48.424874+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {

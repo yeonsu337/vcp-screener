@@ -1,0 +1,193 @@
+{
+  "ticker": "ATEN",
+  "company": "A10 Networks, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "generated_at": "2026-06-12T00:42:38.739388+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 2351460352,
+    "shares_outstanding": 71998175,
+    "employees": 494,
+    "country": "United States",
+    "website": "https://www.a10networks.com",
+    "beta": 1.181
+  },
+  "category_a_business": {
+    "overview": "A10 Networks, Inc.는 미국, 기타 아메리카 지역, 일본, 기타 아시아 태평양 지역, 유럽, 중동 및 아프리카에 보안 애플리케이션 및 네트워크 인프라 솔루션을 제공합니다. 이 회사는 웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품을 제공합니다. A10 네트워크 전반의 이상 탐지 제품인 Defend DDoS Detector; A10 방어, 오케스트레이션 및 관리 제품인 DDoS Orchestrator를 방어합니다. A10 자동화된 완화 제품인 DDoS Mitigator를 방어합니다. 공격 SaaS 플랫폼인 A10 Defend Threat Control; 통합 앱인 Next-Gen WAF를 방어하세요.",
+    "business_model": "A10 네트웍스, Inc.",
+    "products": [
+      "미국, 나머지 미주 지역, 일본, 나머지 A 국가의 보안 애플리케이션 및 네트워크 인프라 솔루션",
+      "웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품",
+      "A10 Thunder ADC, 애플리케이션 딜리버리 컨트롤러 및 로드 밸런서를 포함한 인프라 제품",
+      "중앙 집중식 관리, 제어 및 분석 플랫폼인 A10 Control로 구성된 중앙 집중식 관리 및 분석"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "A10 Networks, Inc.는 애플리케이션 제공 컨트롤러 제조를 전문으로 하는 미국의 공개 회사입니다. Foundry Networks의 공동 창업자인 Lee Chen이 2004년에 설립한 A10은 원래 ID 시리즈 제품 라인을 통해 ID 관리 시장에만 서비스를 제공했습니다. 2007년 초에 대역폭 관리 장비를 추가했습니다. 회사는 2014년 3월 21일에 기업공개(IPO)를 통해 1억 8,750만 달러를 모금했습니다.",
+    "milestones": [
+      "2004년: Foundry Networks의 공동 창업자인 Lee Chen에 의해 A10은 원래 ID 관리 서비스만 제공했습니다.",
+      "2007: , 대역폭 관리 어플라이언스를 추가했습니다.",
+      "2014년: , $187 모금"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.21,
+    "roa": 0.05,
+    "profit_margin": 0.15,
+    "operating_margin": 0.18,
+    "gross_margin": 0.79,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": 0.29,
+    "dividend_yield": 0.76,
+    "payout_ratio": 0.39,
+    "annual_revenue": [
+      290557000.0,
+      261696000.0,
+      251700000.0,
+      280338000.0,
+      null
+    ],
+    "annual_operating_income": [
+      47142000.0,
+      43968000.0,
+      38648000.0,
+      53079000.0,
+      null
+    ],
+    "annual_eps": [
+      0.57,
+      0.67,
+      0.24,
+      0.6,
+      null
+    ],
+    "annual_free_cf": [
+      64766000.0,
+      78224000.0,
+      33618000.0,
+      55301000.0,
+      null
+    ],
+    "annual_total_debt": [
+      227758000.0,
+      11938000.0,
+      16820000.0,
+      21638000.0
+    ],
+    "annual_equity": [
+      211546000.0,
+      231829000.0,
+      207876000.0,
+      181012000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.17,
+      0.14,
+      0.17,
+      0.14,
+      0.13,
+      null
+    ],
+    "quarterly_revenue": [
+      75000000.0,
+      80355000.0,
+      74682000.0,
+      69383000.0,
+      66137000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 26.1,
+    "sales_yoy_pct": 13.4,
+    "ni_cagr_3y_pct": -3.51,
+    "roe_pct": 21.42
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 66.7,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 14.76,
+    "trailing_pe": 53.54098,
+    "forward_pe": 27.677967,
+    "ev_to_ebitda": 32.002,
+    "price_to_sales": 7.8533845,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 51.91,
+    "outperform_6m_vs_nasdaq": 71.49,
+    "outperform_1m_vs_nasdaq": 20.74,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리가 인식하지 못하거나 현재 중요하지 않다고 생각하는 추가적인 위험과 불확실성도 우리에게 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "다음 위험 중 하나라도 발생하면 당사의 사업, 재무 상태, 영업 결과 및 전망에 중대한 피해가 발생할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 경우, 당사 보통주의 거래 가격은 아마도 크게 하락할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "따라서 조직은 기존 애플리케이션 솔루션에 IT 예산을 계속 할당할 수 있으며 당사 솔루션이 우수한 성능이나 보안을 제공하는지 여부에 관계없이 당사 솔루션을 채택하지 않을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러한 사건은 당사의 사업, 재무 상태 및 운영 결과에 심각한 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 변화와 요구 사항을 적절하게 해결하는 새로운 제품과 기능을 적시에 개발하고 성공적으로 도입할 수 없는 경우 당사의 비즈니스 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "A10 Networks, Inc. is an American public company specializing in the manufacturing of application delivery controllers. Founded in 2004 by Lee Chen, co-founder of Foundry Networks, A10 originally serviced just the identity management market with its line of ID Series products. In early 2007, they added bandwidth management appliances. The company had its initial public offering on March 21, 2014, raising $187.5 million.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-12T00:51:20.915277+00:00"
+  }
+}

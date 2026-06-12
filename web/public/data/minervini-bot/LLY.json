@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "LLY",
-  "generated_at": "2026-06-11T00:23:05.365505+00:00",
-  "source_results_date": "2026-06-11",
+  "generated_at": "2026-06-12T00:32:12.006612+00:00",
+  "source_results_date": "2026-06-12",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.25,
   "lines": [
     "회피 — Stage 3 (≠2).",
-    "베이스 깊이 8.6%, 마지막 수축 8.44%, VDU 1.17×.",
+    "베이스 깊이 9.7%, 마지막 수축 8.44%, VDU 1.10×.",
     "Minervini Trend Template 7/8 — 진입 조건 미충족.",
     "신호 없음. 다른 종목 우선 검토."
   ],
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 73,
+    "rs_rating": 72,
     "stage": 3,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.44% vs 6.5%)",
-    "P3_vol_dryup (1.17× vs 0.6×)",
+    "P3_vol_dryup (1.10× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B3_sma50_gt_150_200"
   ],

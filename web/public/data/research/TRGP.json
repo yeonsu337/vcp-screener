@@ -1,0 +1,168 @@
+{
+  "ticker": "TRGP",
+  "company": "Targa Resources Corp.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "generated_at": "2026-06-12T00:45:44.806728+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 57818628096,
+    "shares_outstanding": 214643903,
+    "employees": 3570,
+    "country": "United States",
+    "website": "https://www.targaresources.com",
+    "beta": 0.71
+  },
+  "category_a_business": {
+    "overview": "Targa Resources Corp.는 자회사와 함께 북미 지역의 보완적인 국내 인프라 자산 포트폴리오를 소유, 운영, 인수 및 개발합니다. 수집 및 가공, 물류 및 운송이라는 두 부문으로 운영됩니다. 이 회사는 천연가스의 수집, 압축, 처리, 처리, 운송 및 판매에 참여합니다. 액화석유가스 수출업체에 대한 서비스를 포함하여 천연가스 액체(NGL) 및 NGL 제품을 저장, 분류, 처리, 운송 및 판매합니다. 원유 수집, 저장, 터미널 처리, 구매 및 판매",
+    "business_model": "Targa Resources Corp.는 자회사와 함께 북미 지역의 보완적인 국내 인프라 자산 포트폴리오를 소유, 운영, 인수 및 개발합니다.",
+    "products": [
+      "북미 지역의 보완적인 국내 인프라 자산 포트폴리오",
+      "수집 및 처리, 물류 및 운송이라는 두 가지 부문으로 나뉩니다.",
+      "NGL 밸런싱 서비스",
+      "천연가스"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Targa Resources Corp.는 텍사스 휴스턴에 본사를 둔 Fortune 500대 기업입니다. 미드스트림 에너지 인프라 기업인 Targa는 미국에서 천연가스 및 천연가스 액체를 공급하는 최대 인프라 기업 중 하나입니다. 그들의 활동은 전적으로는 아니지만 대부분 멕시코만 연안, 특히 텍사스와 루이지애나에 기반을 두고 있습니다. 매튜 J. 멜로이(Matthew J. Meloy)는 2020년부터 CEO를 맡고 있습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.74,
+    "roa": 0.09,
+    "profit_margin": 0.13,
+    "operating_margin": 0.21,
+    "gross_margin": 0.42,
+    "revenue_growth_ttm": -0.1,
+    "earnings_growth_ttm": 1.43,
+    "dividend_yield": 1.56,
+    "payout_ratio": 0.41,
+    "annual_revenue": [
+      17028300000.0,
+      16381500000.0,
+      16060300000.0,
+      20929800000.0,
+      null
+    ],
+    "annual_operating_income": [
+      3331200000.0,
+      2695400000.0,
+      2626200000.0,
+      1729000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.63,
+      5.87,
+      3.66,
+      3.88,
+      null
+    ],
+    "annual_free_cf": [
+      584100000.0,
+      683900000.0,
+      826200000.0,
+      1046500000.0,
+      null
+    ],
+    "annual_total_debt": [
+      17522000000.0,
+      14265000000.0,
+      13010400000.0,
+      11565000000.0,
+      null
+    ],
+    "annual_equity": [
+      3067900000.0,
+      2592400000.0,
+      2739700000.0,
+      2665700000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.23,
+      2.54,
+      2.2,
+      2.92,
+      0.92,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      4094700000.0,
+      4055500000.0,
+      4151200000.0,
+      4260100000.0,
+      4561500000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 77.3,
+    "sales_yoy_pct": -10.2,
+    "ni_cagr_3y_pct": 17.17,
+    "roe_pct": 74.1
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 79,
+    "score": 62.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.25,
+    "trailing_pe": 27.542946,
+    "forward_pe": 21.890158,
+    "ev_to_ebitda": 14.755,
+    "price_to_sales": 3.4911468,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 35.94,
+    "outperform_6m_vs_nasdaq": 38.64,
+    "outperform_1m_vs_nasdaq": 6.64,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "혼합 NGL 및 NGL 제품의 주요 생산자이거나 NGL 제품의 소비자인 당사 고객은 당사 서비스를 이용하는 대신 자체 분별 시설을 개발할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Targa Resources Corp. is a Fortune 500 company based in Houston, Texas. Targa, a midstream energy infrastructure corporation, is one of the largest infrastructure companies delivering natural gas and natural gas liquids in the United States. Their operations are based largely, though not entirely, on the Gulf Coast, particularly in Texas and Louisiana. Matthew J. Meloy has been Chief Executive Officer since 2020.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-12T00:54:25.965260+00:00"
+  }
+}

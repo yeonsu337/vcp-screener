@@ -1,191 +1,155 @@
 {
   "ticker": "ROK",
-  "company": "Rockwell Automation Inc",
+  "company": "Rockwell Automation, Inc.",
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-06-04T00:40:52.475529+00:00",
+  "generated_at": "2026-06-12T00:41:36.835336+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 50917847040,
+    "shares_outstanding": 111273953,
+    "employees": 26000,
+    "country": "United States",
+    "website": "https://www.rockwellautomation.com",
+    "beta": 1.561
   },
   "category_a_business": {
-    "overview": "산업 자동화 및 디지털 전환 전문 기업으로, 고객의 생산 과제를 해결하는 기술 및 산업 전문 솔루션을 제공합니다.",
-    "milestones": [
-      "1903년: Allen-Bradley Company 설립",
-      "1985: Rockwell International Corporation (RIC)이 Allen-Bradley Company 인수",
-      "1996: RIC의 항공우주 및 방위 사업부를 보잉에 매각 후, 산업 자동화 사업부로 재편성 및 분사",
-      "1996: Rockwell Automation, Inc. 설립 (델라웨어 법인)",
-      "2026: 연례 주주총회 예정 (사업보고서에 언급)"
-    ],
-    "business_model": "산업 자동화 제품, 소프트웨어, 서비스를 제공하여 고객의 생산성, 민첩성, 지속가능성을 향상시킵니다.",
-    "revenue_streams": [
-      "지능형 장치 (드라이브, 모션, 안전 등)",
-      "소프트웨어 및 제어 (제어, 시각화, 디지털 트윈 소프트웨어 등)",
-      "수명 주기 서비스 (컨설팅, 전문 서비스, 유지보수 등)"
-    ],
-    "value_chain_position": "Midstream + 산업 자동화 솔루션 및 서비스를 통해 고객의 생산 공정 효율화를 지원합니다.",
+    "overview": "Rockwell Automation, Inc.는 자회사와 함께 북미, 유럽, 중동, 아프리카, 아시아 태평양 및 라틴 아메리카에 산업 자동화 및 디지털 전환 솔루션을 제공합니다. 지능형 장치, 소프트웨어 및 제어, 라이프사이클 서비스의 세 가지 부문으로 운영됩니다. 이 회사는 드라이브, 모션, 고급 자재 취급, 안전, 감지, 산업용 부품, 하드웨어, 소프트웨어 및 주문형 제품을 제공합니다. 제어 및 시각화 소프트웨어 및 하드웨어, 디지털 트윈, 시뮬레이션 및 정보 소프트웨어, 네트워크 및 보안 인프라",
+    "business_model": "Rockwell Automation, Inc.는 자회사와 함께 북미, 유럽, 중동, 아프리카, 아시아 태평양 및 기타 지역에 산업 자동화 및 디지털 전환 솔루션을 제공합니다.",
     "products": [
-      "드라이브 및 모션 제어 시스템",
-      "제어 및 시각화 소프트웨어",
-      "안전 및 감지 장치",
-      "디지털 트윈 및 시뮬레이션 소프트웨어",
-      "산업용 네트워크 및 보안 인프라",
-      "디지털 컨설팅 및 전문 서비스"
+      "북미, 유럽, 중동, 아프리카, 아시아 지역의 산업 자동화 및 디지털 전환 솔루션 P",
+      "세 가지 부문: 지능형 장치, 소프트웨어 및 제어, 라이프사이클 서비스",
+      "드라이브, 모션, 고급 자재 취급, 안전, 감지, 산업용 부품, 하드웨어, 소프트웨어 및 구성 T",
+      "디지털 컨설팅, 전문 서비스, 주문형 솔루션, 반복 서비스, 사이버 보안, 안전, 렘",
+      "직접 판매 인력과 관련하여 독립 대리점을 통한 제품"
     ],
     "channels": [
-      "B2B",
-      "글로벌 유통망",
-      "직접 판매 (일부)"
+      "B2B / 기업"
     ],
-    "key_customers": "다양한 산업 분야의 기업 고객 (예: 자동차, 반도체, 식음료, 생명 과학, 에너지, 광업, 화학 등)으로 특정 고객에 대한 매출 집중도는 낮을 것으로 예상됩니다."
+    "wikipedia_excerpt": "Rockwell Automation, Inc.는 위스콘신주 밀워키에 본사를 둔 미국의 산업 자동화 및 디지털 혁신 기술 제공업체입니다. 해당 브랜드에는 Allen-Bradley, FactoryTalk 소프트웨어 및 LifecycleIQ 서비스가 포함됩니다. 로크웰 오토메이션은 약 27,000명의 직원을 고용하고 있으며 전 세계 100개 이상의 국가에 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
+    "roe": 0.27,
+    "roa": 0.09,
+    "profit_margin": 0.12,
+    "operating_margin": 0.21,
+    "gross_margin": 0.49,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.4,
+    "dividend_yield": 1.25,
+    "payout_ratio": 0.56,
+    "annual_revenue": [
+      8342000000.0,
+      8264000000.0,
+      9058000000.0,
+      7760400000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1423000000.0,
+      1192000000.0,
+      1693000000.0,
+      1335300000.0,
+      null
+    ],
+    "annual_eps": [
+      7.67,
+      8.28,
+      11.95,
+      7.97,
+      null
+    ],
+    "annual_free_cf": [
+      1358000000.0,
+      639000000.0,
+      1213000000.0,
+      682000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3647000000.0,
+      4085000000.0,
+      3334900000.0,
+      4183000000.0,
+      null
+    ],
+    "annual_equity": [
+      3654000000.0,
+      3498000000.0,
+      3561600000.0,
+      2725600000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-09-30",
+      "2024-09-30",
+      "2023-09-30",
+      "2022-09-30",
+      "2021-09-30"
+    ],
+    "quarterly_eps": [
+      3.1,
+      2.69,
+      1.23,
+      2.6,
+      2.22,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      2239000000.0,
+      2105000000.0,
+      2316000000.0,
+      2144000000.0,
+      2001000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 38.9,
     "sales_yoy_pct": 11.9,
     "ni_cagr_3y_pct": -2.31,
     "roe_pct": 27.18
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-300 billion USD (estimate) - 산업 자동화 및 디지털 전환 시장 규모 추정치 기반. 다양한 산업 분야에 걸쳐 광범위하게 적용되므로 정확한 단일 수치 산정 어려움.",
-    "tam_cagr_pct": "7-10% (estimate) - 제조업의 디지털 전환 가속화, 스마트 팩토리 도입 증가, 공급망 탄력성 및 지속가능성에 대한 요구 증대, 인더스트리 4.0 기술(AI, IoT, 빅데이터)의 확산이 주요 근거.",
-    "growth_drivers": [
-      "제조업의 디지털 전환 및 스마트 팩토리 도입 가속화",
-      "공급망 탄력성, 효율성 및 지속가능성에 대한 기업의 투자 증가",
-      "전기차(EV) 및 배터리, 반도체 등 신흥 고성장 산업 분야의 자동화 수요 증대",
-      "운영 생산성 향상, 자산 관리 및 신뢰성 확보를 위한 자동화 솔루션 필요성 증대",
-      "사이버 보안, 안전 및 규제 준수 요구사항 강화에 따른 솔루션 수요 증가"
-    ],
-    "market_share_pct": "5-10% (estimate) - 산업 자동화 시장은 매우 세분화되어 있으며, Rockwell Automation은 '세계 최대'라고 언급하지만, 전체 시장에서 특정 기술 분야에 집중되어 있어 점유율은 이 범위 내로 추정됨.",
-    "competitors": [
-      {
-        "name": "Siemens AG",
-        "differentiation": "광범위한 산업 포트폴리오(자동화, 전력, 인프라 등)와 강력한 유럽 시장 지배력, 포괄적인 디지털 엔터프라이즈 솔루션 제공."
-      },
-      {
-        "name": "Schneider Electric SE",
-        "differentiation": "에너지 관리 및 자동화 분야에 특화, 지속가능성 및 효율성 솔루션 강조, 빌딩 자동화 및 데이터 센터 시장에서도 강점."
-      },
-      {
-        "name": "ABB Ltd.",
-        "differentiation": "로봇 공학, 전력 및 자동화 기술 분야의 글로벌 리더, 중공업 및 프로세스 산업에 강점, 광범위한 하드웨어 및 소프트웨어 포트폴리오."
-      },
-      {
-        "name": "Emerson Electric Co.",
-        "differentiation": "프로세스 자동화 및 산업용 소프트웨어에 강점, 특히 석유 및 가스, 화학, 발전 등 프로세스 산업 분야에서 강력한 입지."
-      },
-      {
-        "name": "Honeywell International Inc.",
-        "differentiation": "항공우주, 빌딩 기술, 성능 재료 등 다양한 사업 부문과 시너지를 창출하며 산업 자동화 솔루션 제공, 특히 제어 시스템 및 소프트웨어에 강점."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 산업 자동화 시장은 기술 집약적이고 초기 투자 비용이 높으며, 기존 플레이어들의 강력한 브랜드 인지도와 고객 관계가 진입 장벽으로 작용하지만, 특정 니치 시장이나 소프트웨어 기반 솔루션에서는 신규 진입이 상대적으로 용이할 수 있음.",
-      "substitutes": "medium - 수동 작업이나 덜 자동화된 시스템이 여전히 존재하지만, 효율성, 안전성, 품질 향상에 대한 요구로 인해 완전한 대체재보다는 기술적 진보를 통한 업그레이드 및 통합 솔루션으로의 전환이 주를 이룸.",
-      "buyer_power": "medium - 대형 고객사(예: 자동차, 반도체 제조사)는 상당한 구매력을 가지며 맞춤형 솔루션과 가격 협상력을 요구할 수 있으나, Rockwell Automation의 전문성과 통합 솔루션은 고객의 전환 비용을 높여 구매자 협상력을 일부 상쇄함.",
-      "supplier_power": "low - 산업 자동화 부품 및 소프트웨어 공급업체는 다양하며, Rockwell Automation은 자체 기술 개발 및 다양한 공급망 관리를 통해 특정 공급업체에 대한 의존도를 낮출 수 있음.",
-      "rivalry": "high - Siemens, Schneider Electric, ABB 등 대형 다국적 기업부터 특정 분야 전문 기업까지 다양한 경쟁사들이 존재하며, 기술 혁신, 가격 경쟁, 서비스 차별화를 통해 치열하게 경쟁하고 있음."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "산업 자동화 및 디지털 전환 분야의 세계 최대 기업으로서의 브랜드 인지도 및 시장 리더십",
-      "지능형 장치, 소프트웨어 및 제어, 라이프사이클 서비스에 이르는 포괄적인 솔루션 포트폴리오",
-      "자동차(EV 및 배터리 포함), 반도체, 식음료, 생명 과학 등 다양한 핵심 산업 분야에 대한 깊은 전문성",
-      "글로벌 100개국 이상에서 사업을 운영하는 광범위한 글로벌 영업 및 서비스 네트워크",
-      "Allen-Bradley Company의 1903년 설립 이래 축적된 오랜 역사와 기술 노하우"
-    ],
-    "competitive_weaknesses": [
-      "하드웨어 기반 솔루션의 비중이 여전히 높아 소프트웨어 중심의 신흥 경쟁사에 비해 민첩성이 떨어질 수 있음",
-      "글로벌 경제 상황, 특정 산업의 투자 주기, 지정학적 위험 등 외부 요인에 대한 높은 민감도",
-      "다양한 산업 분야에 걸쳐 사업을 영위하므로 특정 니치 시장의 전문 기업 대비 집중도가 낮을 수 있음",
-      "대규모 조직 운영에 따른 의사결정 속도 및 혁신 문화의 경직성 가능성"
+      "Industrials / Specialty Industrial Machinery 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 63.2,
+    "rs_rating": 71,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 1.9243,
+    "trailing_pe": 47.467842,
+    "forward_pe": 31.510838,
+    "ev_to_ebitda": 26.741,
+    "price_to_sales": 5.78349,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 8.03,
-    "outperform_6m_vs_nasdaq": 3.81,
-    "outperform_1m_vs_nasdaq": 8.57,
-    "moat_type": "Switching Costs",
-    "moat_evidence": [
-      "록웰 오토메이션은 1903년 설립된 Allen-Bradley Company의 사업을 계승하며 산업 자동화 분야에서 오랜 역사와 전문성을 보유하고 있습니다. 이는 고객들이 기존 시스템을 변경할 때 발생하는 높은 전환 비용을 야기합니다.",
-      "회사는 지능형 장치, 소프트웨어 및 제어, 라이프사이클 서비스의 세 가지 운영 부문을 통해 광범위한 산업 자동화 솔루션을 제공합니다. 이러한 통합 솔루션은 고객의 생산 공정에 깊이 통합되어 있어 다른 공급업체로의 전환이 어렵습니다.",
-      "록웰 오토메이션은 'Connected Enterprise®' 전략을 통해 고객의 복잡한 생산 문제를 단순화하고 기술 및 산업 전문 지식을 결합한 솔루션을 제공합니다. 이는 고객의 생산성, 민첩성, 지속 가능성을 향상시켜 장기적인 파트너십을 구축하게 합니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "디지털 전환 및 AI, 에너지 전환, 지속 가능성 등 메가트렌드에 대응하는 산업 자동화 솔루션 강화",
-    "bull_case": "산업 자동화 및 디지털 전환 수요 증가로 3년간 EPS 15% 이상 성장, 시장 점유율 확대 및 수익성 개선",
-    "base_case": "글로벌 산업 생산 및 설비 투자 증가에 힘입어 견고한 매출 성장과 수익성 유지. Connected Enterprise® 전략을 통한 시장 리더십 강화.",
-    "bear_case": "글로벌 경기 침체 및 산업 생산 둔화로 인한 설비 투자 감소, 경쟁 심화로 인한 마진 압박 및 성장률 둔화.",
-    "key_metrics_to_watch": [
-      "유기적 매출 성장률",
-      "총 세그먼트 영업 이익률",
-      "소프트웨어 및 제어 부문 성장률",
-      "자유 현금 흐름"
-    ]
+    "outperform_1y_vs_nasdaq": 11.78,
+    "outperform_6m_vs_nasdaq": 5.5,
+    "outperform_1m_vs_nasdaq": 1.93,
+    "lynch_category": "Stalwart"
   },
-  "category_e_risks": {
-    "top_risks": [
-      {
-        "category": "거시",
-        "description": "미국 및 글로벌 제조 경기 둔화가 지속될 경우, 회사의 매출 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "공급망",
-        "description": "관세 및 무역 장벽의 지속적인 영향으로 인해 생산 비용이 증가하고 공급망 효율성이 저하될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "인플레이션으로 인한 생산자 물가 상승이 지속될 경우, 회사의 투입 비용이 증가하여 마진 압박을 받을 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거버넌스",
-        "description": "고도로 숙련된 직원을 유치, 개발 및 유지하는 데 실패할 경우, 회사의 혁신 역량과 경쟁력이 약화될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "경쟁",
-        "description": "주요 제품 및 서비스 부문(Intelligent Devices, Software & Control, Lifecycle Services)에서 경쟁 심화로 인해 시장 점유율이 하락하고 수익성이 저하될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "총 수주 잔고가 감소하고 있어 향후 매출 성장에 대한 불확실성이 존재합니다.",
-        "severity": "low"
-      }
-    ],
-    "inversion_scenarios": [
-      "미국 및 주요 글로벌 시장의 제조 PMI가 장기간 50 미만을 유지하며 경기 침체가 심화될 경우 회사는 심각한 매출 감소와 수익성 악화를 겪을 수 있습니다.",
-      "핵심 기술 인력 유출이 가속화되고 신규 인력 유치에 실패하여 제품 개발 및 서비스 제공 역량이 크게 저하될 경우 회사의 경쟁 우위가 상실될 수 있습니다.",
-      "주요 고객사들이 대규모 투자를 철회하거나 경쟁사로 전환하면서 회사의 주요 사업 부문 매출이 급격히 감소할 경우 회사는 존속 위기에 처할 수 있습니다."
-    ],
-    "exit_signals": [
-      "미국 제조업 PMI가 50 미만으로 3분기 이상 지속되거나, 주요 글로벌 시장의 산업 생산 지수가 전년 대비 5% 이상 하락하는 경우.",
-      "회사의 기술 인력 이직률이 업계 평균을 20% 이상 상회하고, 핵심 기술 분야에서 신규 특허 출원 및 제품 출시가 현저히 감소하는 경우.",
-      "총 수주 잔고가 전년 대비 10% 이상 감소하고, 특히 Intelligent Devices 및 Software & Control 부문의 매출이 2분기 연속 역성장하는 경우."
-    ]
-  },
-  "wikipedia_summary": "",
+  "category_e_risks": {},
+  "wikipedia_summary": "Rockwell Automation, Inc. is an American provider of industrial automation and digital transformation technologies headquartered in Milwaukee, Wisconsin. Its brands include Allen-Bradley, FactoryTalk software and LifecycleIQ Services. Rockwell Automation employs approximately 27,000 people and has customers in more than 100 countries worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-11T00:29:17.848392+00:00"
+    "GoogleWebTranslator": "2026-06-12T00:53:50.848819+00:00"
   }
 }

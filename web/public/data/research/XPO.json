@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-06-11T00:28:49.972273+00:00",
+  "generated_at": "2026-06-12T00:47:48.424874+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 25391081472,
+    "market_cap": 26728382464,
     "shares_outstanding": 117409981,
     "employees": 37000,
     "country": "United States",
@@ -17,35 +17,18 @@
     "beta": 1.638
   },
   "category_a_business": {
-    "overview": "XPO는 북미 및 유럽에서 화물 운송 서비스를 제공하는 선도 기업으로, LTL 운송에 강점을 가집니다.",
-    "milestones": [
-      "1989: 회사 설립",
-      "2021: 성장 계획 실행 및 네트워크 확장 시작",
-      "2022: XPO Logistics, Inc.에서 XPO, Inc.로 사명 변경",
-      "2024: 북미 LTL 시장 점유율 9% 달성 (추정)",
-      "2025: AI 기반 라인홀 모델 및 라우팅 혁신 개발"
-    ],
-    "business_model": "화물 운송 서비스를 제공하고 운송 효율성을 높여 수익을 창출합니다.",
-    "revenue_streams": [
-      "북미 LTL 운송 서비스",
-      "유럽 전용 트럭 운송",
-      "유럽 LTL 운송",
-      "유럽 트럭 중개",
-      "유럽 창고 및 복합 운송 솔루션"
-    ],
-    "value_chain_position": "Midstream + 화주와 최종 소비자 사이에서 운송 서비스를 제공합니다.",
+    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
+    "business_model": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다.",
     "products": [
-      "북미 LTL (Less-Than-Truckload) 운송",
-      "유럽 전용 트럭 운송",
-      "유럽 트럭 중개",
-      "유럽 관리 운송",
-      "유럽 라스트 마일 배송",
-      "유럽 화물 운송 주선"
+      "미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역의 화물 운송 서비스",
+      "북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 가지 부문으로 나뉩니다.",
+      "지리적 밀도와 특정 날짜의 국내 및 미국으로의 국경 간 서비스를 제공하는 화주",
+      "전용 트럭 운송, LTL, 트럭 중개, 운송 관리, 라스트 마일, 화물 운송, 창고 및 뮤"
     ],
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "약 55,000개의 다양한 고객사를 보유하여 고객 집중도가 낮습니다."
+    "wikipedia_excerpt": "XPO, Inc.(이전 XPO Logistics)는 북미 지역에서 LTL(혼적 화물 운송)을 수행하는 미국 운송 회사입니다. 이 회사는 코네티컷주 그리니치에 본사를 두고 있으며 전 세계적으로 592개 지점을 운영하고 있습니다. XPO는 북미에서 두 번째로 큰 LTL 서비스 제공업체로, 미국 전체 우편번호의 99%를 운영하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -139,95 +122,35 @@
     "roe_pct": 19.94
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "53 billion USD (2024년 미국 LTL 시장 규모, XPO 추정)",
-    "tam_cagr_pct": "medium (5-10%) + 경기 회복 시 산업 활동 증가 및 LTL 서비스 수요 증가 예상 (금리 인하, 관세 불확실성 해소 등)",
-    "growth_drivers": [
-      "경기 회복에 따른 산업 활동 증가 및 LTL 서비스 수요 증가",
-      "고유 기술(AI, 지능형 자동화)을 통한 운영 효율성 및 수익성 개선",
-      "초과 도어 용량 확보를 통한 수요 반등 시 신속한 대응 및 시장 점유율 확대",
-      "자체 트레일러 제조 시설 및 운전자 양성 학교를 통한 공급망 안정성 확보",
-      "유럽 시장 내 선도적 지위 및 광범위한 고객 기반 활용"
-    ],
-    "market_share_pct": "미국 LTL 시장의 약 9%",
-    "competitors": [
-      {
-        "name": "FedEx Freight",
-        "differentiation": "글로벌 물류 네트워크 및 브랜드 인지도, 광범위한 서비스 포트폴리오"
-      },
-      {
-        "name": "Old Dominion Freight Line",
-        "differentiation": "높은 서비스 품질과 효율적인 운영, 강력한 재무 성과"
-      },
-      {
-        "name": "Saia Inc.",
-        "differentiation": "지속적인 네트워크 확장 및 서비스 개선, 기술 투자"
-      },
-      {
-        "name": "TFI International (UPS Freight 인수)",
-        "differentiation": "북미 전역의 광범위한 네트워크와 다양한 운송 서비스 제공"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low + LTL 산업은 높은 초기 투자 비용(네트워크, 시설, 차량)과 운영 전문성이 요구되며, 기존 사업자들의 강력한 네트워크 효과가 존재함.",
-      "substitutes": "medium + 풀 트럭 로드(FTL) 또는 소포 배송 서비스가 일부 대체재가 될 수 있으나, LTL의 특정 니즈(소량 화물, 여러 목적지)를 완전히 대체하기는 어려움.",
-      "buyer_power": "medium + 대규모 화주나 계약 물량이 많은 고객은 가격 협상력이 높을 수 있으나, LTL 서비스의 필수적인 특성으로 인해 전반적으로는 중간 수준임.",
-      "supplier_power": "medium + 연료, 트럭, 부품, 인력(운전자) 등 주요 공급 요소의 가격 변동성이 높을 수 있으나, XPO의 자체 트레일러 제조 시설 및 운전자 학교는 일부 완충 역할을 함.",
-      "rivalry": "high + 북미 LTL 시장은 소수의 대형 플레이어가 지배하는 확고한 경쟁 구도를 가지고 있으며, 서비스 품질, 가격, 네트워크 효율성 측면에서 치열한 경쟁이 벌어지고 있음."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "북미 LTL 시장 내 대규모 네트워크 및 약 9%의 시장 점유율",
-      "AI 기반의 독점 기술 및 지능형 자동화를 통한 운영 효율성 및 수익성 증대",
-      "30% 이상의 초과 도어 용량 확보를 통한 시장 수요 변화에 대한 유연한 대응 능력",
-      "자체 트레일러 제조 시설 및 상업용 트럭 운전자 학교 운영을 통한 장비 및 인력 공급 안정성",
-      "유럽 시장 내 선도적인 입지(프랑스, 이베리아 LTL 및 FTL 1위, 영국 LTL 시장 리더)"
-    ],
-    "competitive_weaknesses": [
-      "거시 경제 환경(경기 침체, 고금리, 인플레이션)에 대한 민감성",
-      "운영 비용(급여, 연료, 보험) 상승 압력",
-      "관세 및 무역 정책 변화에 따른 불확실성",
-      "특정 지역의 지정학적 갈등이 고객의 물류 경로 선택에 미치는 영향"
+      "Industrials / Trucking 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 62.2,
+    "rs_rating": 83,
+    "score": 65.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.5203,
-    "trailing_pe": 74.31615,
-    "forward_pe": 36.006603,
-    "ev_to_ebitda": 22.584,
-    "price_to_sales": 3.059535,
+    "peg_ratio": 2.395,
+    "trailing_pe": 77.962326,
+    "forward_pe": 37.989468,
+    "ev_to_ebitda": 23.617,
+    "price_to_sales": 3.2206752,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 52.44,
-    "outperform_6m_vs_nasdaq": 46.67,
-    "outperform_1m_vs_nasdaq": 11.48,
-    "lynch_category": "Slow Grower",
-    "moat_type": "Cost Advantage",
-    "moat_evidence": [
-      "XPO는 북미 LTL 시장에서 약 9%의 점유율을 가진 최대 네트워크 중 하나를 보유하고 있으며, 이는 규모의 경제를 통한 비용 우위를 제공합니다.",
-      "회사는 독점적인 AI 기반 기술을 활용하여 화물 흐름 효율성을 개선하고, 픽업 및 배송 운영을 최적화하며, 실시간 노동 분석을 통해 생산성을 향상시켜 수익성을 직접적으로 높입니다.",
-      "XPO는 자체 트레일러 제조 시설과 상업용 트럭 운전사 학교를 운영하여 장비 및 운전자 수급이 어려운 산업 환경에서도 경쟁 우위를 확보하고 비용을 절감합니다.",
-      "성장 계획 실행 이후 2,000개 이상의 순 신규 도어를 네트워크에 추가하고 30% 이상의 초과 도어 용량을 구축하여 고정 비용을 활용하고 시장 수요 회복 시 빠르게 대응할 수 있는 기반을 마련했습니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "AI 기반 신규 라인홀 모델 및 라우팅 혁신, 초과 도어 용량 확충",
-    "bull_case": "화물 경기 회복과 AI 기술 도입 가속화로 LTL 시장 점유율 확대 및 수익성 대폭 개선",
-    "base_case": "현재의 경기 침체에도 불구하고 AI 기반 효율성 개선과 전략적 용량 확충을 통해 점진적인 시장 점유율 확대 및 수익성 유지를 예상합니다. 장기적으로는 LTL 산업의 구조적 성장과 함께 안정적인 성장을 이룰 것입니다.",
-    "bear_case": "거시 경제 침체 장기화, 연료비 및 인건비 상승 압력 지속, 경쟁 심화로 인한 가격 경쟁으로 수익성이 악화되고 투자 대비 성과가 미미할 수 있습니다.",
-    "key_metrics_to_watch": [
-      "북미 LTL 운송량 및 시장 점유율 변화",
-      "영업이익률 (OPM) 추이 및 AI 기술 도입 효과",
-      "자유 현금 흐름 (FCF) 및 투자 활동",
-      "트레일러 제조 및 운전자 학교의 생산성 및 기여도"
-    ]
+    "outperform_1y_vs_nasdaq": 53.37,
+    "outperform_6m_vs_nasdaq": 50.01,
+    "outperform_1m_vs_nasdaq": 17.2,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "회사 위험 비즈니스 모델과 관련된 위험 북미와 유럽 모두에서 경기 침체 및 화물량 감소를 초래하는 기타 요인은 당사 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "회사 위험 당사 비즈니스 모델과 관련된 위험 북미와 유럽 모두에서 경기 침체 및 화물량 감소를 초래하는 기타 요인은 당사 사업에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -265,6 +188,6 @@
   },
   "wikipedia_summary": "XPO, Inc., formerly XPO Logistics, is an American transportation company that conducts less-than-truckload shipping, or \"LTL\" in North America. The company has headquarters in Greenwich, Connecticut, and has 592 locations globally. XPO is the second largest provider of LTL services in North America, operating in 99 percent of all U.S. postal codes.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-11T00:29:36.373701+00:00"
+    "GoogleWebTranslator": "2026-06-12T00:54:52.501198+00:00"
   }
 }

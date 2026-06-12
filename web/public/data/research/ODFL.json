@@ -1,0 +1,183 @@
+{
+  "ticker": "ODFL",
+  "company": "Old Dominion Freight Line, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Trucking",
+  "generated_at": "2026-06-12T00:50:53.928376+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 51526221824,
+    "shares_outstanding": 207968283,
+    "employees": 20264,
+    "country": "United States",
+    "website": "https://www.odfl.com",
+    "beta": 1.18
+  },
+  "category_a_business": {
+    "overview": "Old Dominion Freight Line, Inc.는 미국과 북미에서 소형 화물 운송업체로 운영됩니다. 이 회사는 지역, 지역 간, 전국적 화물 운송 서비스는 물론 신속한 운송 서비스도 제공합니다.",
+    "business_model": "올드 도미니언 화물선(Old Dominion Freight Line, Inc.)",
+    "products": [
+      "미국과 북미 지역의 소형 화물 운송업체",
+      "지역, 지역간, 전국 소량 화물 서비스 및 신속한 운송 서비스",
+      "컨테이너 운송, 트럭 운송 중개, 공급망 컨설팅 등 다양한 부가 가치 서비스",
+      "차량 정비 센터"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Old Dominion Freight Line, Inc.(ODFL)은 미국 지역, 지역 간 및 전국 LTL(소형 트럭 운송) 회사입니다. 핵심 LTL 서비스 외에도 회사는 신속한 물류 및 가구 이사 서비스를 제공합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.23,
+    "roa": 0.15,
+    "profit_margin": 0.18,
+    "operating_margin": 0.24,
+    "gross_margin": 0.39,
+    "revenue_growth_ttm": -0.03,
+    "earnings_growth_ttm": -0.04,
+    "dividend_yield": 0.49,
+    "payout_ratio": 0.24,
+    "annual_revenue": [
+      5496389000.0,
+      5814810000.0,
+      5866152000.0,
+      6260077000.0
+    ],
+    "annual_operating_income": [
+      1361045000.0,
+      1543998000.0,
+      1640673000.0,
+      1840632000.0
+    ],
+    "annual_eps": [
+      4.84,
+      5.48,
+      5.63,
+      6.09
+    ],
+    "annual_free_cf": [
+      955099000.0,
+      887965000.0,
+      811826000.0,
+      916434000.0,
+      null
+    ],
+    "annual_total_debt": [
+      39995000.0,
+      59987000.0,
+      79977000.0,
+      99963000.0,
+      null
+    ],
+    "annual_equity": [
+      4311057000.0,
+      4244588000.0,
+      4257811000.0,
+      3652917000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      1.14,
+      1.09,
+      1.28,
+      1.27,
+      1.19
+    ],
+    "quarterly_revenue": [
+      1334696000.0,
+      1307296000.0,
+      1406511000.0,
+      1407724000.0,
+      1374858000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": -6.4,
+    "sales_yoy_pct": -2.9,
+    "ni_cagr_3y_pct": -9.41,
+    "roe_pct": 23.33
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Trucking 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 83,
+    "score": 60.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.3646,
+    "trailing_pe": 51.832634,
+    "forward_pe": 39.20898,
+    "ev_to_ebitda": 30.019,
+    "price_to_sales": 9.443563,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 17.62,
+    "outperform_6m_vs_nasdaq": 57.38,
+    "outperform_1m_vs_nasdaq": 30.87,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "다음은 당사의 사업, 재무 상태, 운영 결과 또는 현금 흐름에 부정적인 영향을 미칠 수 있는 몇 가지 중요한 위험에 대해 설명합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 기타 위험으로 인해 부정적인 영향을 받을 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "물가상승 압력이나 국내 경기 침체 등 다양한 경제 요인이 당사의 수익성과 현금흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "비용 증가를 상쇄하기 위해 고객 요금을 충분히 인상할 수 없는 경우 수익성과 현금 흐름에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "하나 이상의 고객으로 인한 사업 손실 또는 감소를 포함하여 중요한 고객과의 관계 변화는 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 고객 기반의 다양성으로 인해 한 고객의 손실이 비즈니스 및 매출 성장에 중대한 영향을 미칠 것이라고 생각하지 않습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-12T00:53:36.125128+00:00"
+  }
+}

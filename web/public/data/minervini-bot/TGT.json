@@ -1,0 +1,57 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "TGT",
+  "generated_at": "2026-06-12T00:32:12.010173+00:00",
+  "source_results_date": "2026-06-12",
+  "verdict": "BUY_NOW",
+  "verdict_kr": "매수 (Pivot 돌파 직후)",
+  "confidence": 0.8,
+  "lines": [
+    "매수 — Stage 2 진입 확정, pivot $131.85 돌파(+0.60%, buy zone).",
+    "13주 베이스 10.6% → 6.1% → 5.8% → 10.8% → 8.2% 수축, VDU 0.74× 진행.",
+    "Trend Template 8/8 통과, RS 73, RS 라인 신고가 -4.0%.",
+    "$132.64 매수·-7% 손절($123.36)·+20%($159.17) 절반 익절, 이후 50일선 trailing."
+  ],
+  "action": {
+    "entry_type": "immediate",
+    "entry_price": 132.64,
+    "stop_price": 123.36,
+    "stop_pct": -7.0,
+    "target1_price": 159.17,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
+    "position_risk_pct": 1.5
+  },
+  "framework": {
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "4/8",
+    "rs_rating": 73,
+    "stage": 2,
+    "base_count": 2,
+    "late_base_warning": false,
+    "market_regime": "neutral"
+  },
+  "rule_references": [
+    "A1_ud_vol_ratio",
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "R1_rs_70",
+    "L1_liquidity_gate",
+    "E7_roe",
+    "F1_outperform_1y"
+  ],
+  "key_failures": [
+    "P2_last_contraction (7.95% vs 6.5%)",
+    "P3_vol_dryup (0.74× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "H4_ni_cagr_3y (NI CAGR 미달)"
+  ],
+  "warnings": [
+    "RS 73 — Minervini 선호 80+ 미달, 강도 평균"
+  ]
+}

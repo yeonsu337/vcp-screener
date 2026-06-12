@@ -4,189 +4,169 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Airlines",
-  "generated_at": "2026-05-30T00:21:15.705547+00:00",
+  "generated_at": "2026-06-12T00:46:46.449801+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 54188896256,
+    "market_cap": 53761851392,
     "shares_outstanding": 656994340,
     "employees": 103000,
     "country": "United States",
     "website": "https://www.delta.com",
-    "beta": 1.252
+    "beta": 1.313
   },
   "category_a_business": {
-    "overview": "델타항공은 미국 기반의 주요 항공사로, 국내외 여객 및 화물 운송 서비스를 제공합니다.",
-    "milestones": [
-      "1924: 설립",
-      "1929: 첫 여객 서비스 시작",
-      "1972: 노스이스트 항공 인수",
-      "2008: 노스웨스트 항공과 합병",
-      "2012: 필라델피아 정유 공장 인수 (정유 사업 진출)",
-      "2020: 코로나19 팬데믹으로 인한 항공 산업 위기 직면 및 대응"
-    ],
-    "business_model": "항공편 운항을 통해 여객 및 화물 운송료를 받고, 정유 사업으로 연료 비용을 절감합니다.",
-    "revenue_streams": [
-      "여객 운송 (항공권 판매)",
-      "화물 운송",
-      "마일리지 프로그램 (스카이마일스)",
-      "항공기 유지보수 및 엔지니어링 서비스",
-      "휴가 패키지 판매",
-      "정유 제품 판매"
-    ],
-    "value_chain_position": "Downstream + 항공 운송 서비스를 최종 소비자에게 직접 제공합니다.",
+    "overview": "Delta Air Lines, Inc.는 미국 및 국제적으로 승객과 화물을 위한 정기 항공 운송을 제공합니다. 이 회사는 항공사와 정유소라는 두 부문을 통해 운영됩니다.",
+    "business_model": "델타항공, Inc.",
     "products": [
-      "국내선 항공편",
-      "국제선 항공편",
-      "델타 커넥션 (지역 항공편)",
-      "델타 베케이션스 (휴가 패키지)",
-      "항공기 유지보수 서비스"
+      "미국 및 국제적으로 승객과 화물을 위한 정기 항공 운송",
+      "항공사와 정유소라는 두 부문을 통해",
+      "항공기 유지 보수 및 엔지니어링 지원, 수리 및 정밀 검사 서비스",
+      "약 1,314대의 항공기를 통해"
     ],
     "channels": [
-      "B2C (자사 웹사이트, 모바일 앱)",
-      "B2B (여행사, 기업 계약)",
-      "D2C (직접 판매)"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도가 낮으며, 전 세계 수백만 명의 개인 및 기업 고객을 대상으로 합니다."
+    "wikipedia_excerpt": "Delta Air Lines, Inc.는 조지아주 애틀랜타에 본사를 두고 있는 미국의 주요 항공사로 9개의 허브를 운영하고 있으며, 하츠필드-잭슨 애틀랜타 국제공항은 총 승객 수와 출발 횟수 측면에서 가장 큰 공항입니다. Delta Connection이라는 브랜드 이름으로 운영되는 지역 자회사 및 계약업체를 통해 Delta는 매일 5,400편 이상의 항공편을 운항하며 6개 대륙, 52개국, ​​325개 목적지에 서비스를 제공합니다."
   },
   "category_b_financials": {
+    "roe": 0.25,
+    "roa": 0.04,
+    "profit_margin": 0.07,
+    "operating_margin": 0.03,
+    "gross_margin": 0.2,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 0.98,
+    "payout_ratio": 0.1,
+    "annual_revenue": [
+      63364000000.0,
+      61643000000.0,
+      58048000000.0,
+      50582000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5822000000.0,
+      5995000000.0,
+      5521000000.0,
+      3661000000.0,
+      null
+    ],
+    "annual_eps": [
+      7.66,
+      5.33,
+      7.17,
+      2.06,
+      null
+    ],
+    "annual_free_cf": [
+      3843000000.0,
+      2885000000.0,
+      1141000000.0,
+      -3000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      20274000000.0,
+      22771000000.0,
+      27281000000.0,
+      30610000000.0,
+      null
+    ],
+    "annual_equity": [
+      20853000000.0,
+      15293000000.0,
+      11105000000.0,
+      6582000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -0.44,
+      1.86,
+      2.17,
+      3.27,
+      0.37,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      15854000000.0,
+      16003000000.0,
+      16673000000.0,
+      16648000000.0,
+      14040000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "sales_yoy_pct": 12.9,
     "ni_cagr_3y_pct": 56.01,
     "roe_pct": 24.99
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 8,000억 달러 (2023년 글로벌 항공 시장 규모, IATA 추정)",
-    "tam_cagr_pct": "5-7% (향후 3~5년, 글로벌 항공 여객 수요 회복 및 프리미엄 수요 증가에 기반)",
-    "growth_drivers": [
-      "프리미엄 제품 및 기업 고객 수요의 지속적인 강세",
-      "로열티 프로그램(스카이마일스 등)을 통한 여행 보상 증가",
-      "Delta TechOps의 제3자 MRO(유지보수, 수리 및 정비) 사업 성장",
-      "정유 부문( refinery sales)의 제3자 판매 증가",
-      "글로벌 여행 수요의 전반적인 회복 및 증가"
-    ],
-    "market_share_pct": "미국 국내선 시장 약 17-19% estimate (2023년 기준, 출처: DOT 데이터 및 회사 보고서 종합)",
-    "competitors": [
-      {
-        "name": "American Airlines (AAL)",
-        "differentiation": "광범위한 국내외 네트워크, 특히 남미 노선 강점, Oneworld 얼라이언스"
-      },
-      {
-        "name": "United Airlines (UAL)",
-        "differentiation": "태평양 횡단 노선 및 국제선 네트워크 강점, Star Alliance"
-      },
-      {
-        "name": "Southwest Airlines (LUV)",
-        "differentiation": "단일 기종 운영을 통한 비용 효율성, 포인트-투-포인트 노선, 수하물 무료 정책"
-      },
-      {
-        "name": "Alaska Airlines (ALK)",
-        "differentiation": "미국 서부 해안 및 알래스카 노선 강점, 고객 서비스 품질"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low (항공 산업은 막대한 초기 자본 투자, 규제 장벽, 기존 항공사의 브랜드 충성도 등으로 신규 진입이 매우 어려움)",
-      "substitutes": "medium (고속철도, 자동차 등 대체 교통수단이 존재하나, 장거리 이동 시 시간 효율성 측면에서 항공편이 우위를 가짐)",
-      "buyer_power": "medium (항공권 가격 비교 사이트 및 OTA의 발달로 소비자의 정보 접근성이 높아졌고, 저가 항공사의 존재로 가격 민감도가 높음)",
-      "supplier_power": "medium (항공기 제조사(보잉, 에어버스)는 소수이며, 항공유 공급사도 제한적이나, 델타는 자체 정유 시설을 통해 일부 통제력을 가짐)",
-      "rivalry": "high (주요 항공사 간의 치열한 경쟁, 가격 경쟁, 노선 경쟁, 서비스 경쟁이 상시적으로 발생하며, 특히 미국 국내선 시장에서 경쟁이 심함)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "강력한 브랜드 인지도 및 고객 충성도 (프리미엄 서비스 및 스카이마일스 프로그램)",
-      "광범위한 국내외 네트워크 및 허브 공항 시스템",
-      "Delta TechOps를 통한 MRO 역량 및 제3자 사업 확장",
-      "자체 정유 시설(Trainer Refinery)을 통한 연료 비용 관리 및 제3자 판매 수익 창출",
-      "우수한 운영 효율성 및 고객 경험 관리 (Erik S. Snell의 역할 등)"
-    ],
-    "competitive_weaknesses": [
-      "사이버 보안 위협 및 시스템 장애 위험 (Crowdstrike outage 사례)",
-      "높은 고정비용 구조 (항공기 유지보수, 인건비 등)",
-      "항공유 가격 변동성에 대한 노출 (자체 정유 시설로 일부 상쇄하나 여전히 영향 받음)",
-      "경기 침체 및 외부 충격(팬데믹, 테러 등)에 취약한 사업 모델",
-      "노동조합과의 관계 및 인건비 상승 압력"
+      "Industrials / Airlines 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 57.9,
+    "rs_rating": 78,
+    "score": 57.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.21,
-    "trailing_pe": 12.040876,
-    "forward_pe": 10.233213,
-    "ev_to_ebitda": 9.034,
-    "price_to_sales": 0.83139855,
+    "trailing_pe": 11.945986,
+    "forward_pe": 10.152568,
+    "ev_to_ebitda": 8.98,
+    "price_to_sales": 0.82484657,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.54,
-    "outperform_6m_vs_nasdaq": 16.28,
-    "outperform_1m_vs_nasdaq": 15.47,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "델타는 프리미엄 제품, 특히 기업 고객의 수요 강세와 로열티 여행 보상 증가를 통해 강력한 브랜드 인지도를 구축하고 있습니다.",
-      "델타 테크옵스(Delta TechOps)의 제3자 MRO(유지보수, 수리 및 정비) 사업 성장은 항공기 유지보수 분야에서 델타의 전문성과 명성을 보여줍니다.",
-      "2025년 2월 14억 달러, 2026년 2월 13억 달러의 이익 공유금 지급은 직원 만족도와 충성도를 높여 서비스 품질과 운영 효율성에 긍정적인 영향을 미칩니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "Erik S. Snell의 최고 고객 경험 책임자 임명으로 고객 서비스 및 운영 효율성 강화 기대.",
-    "bull_case": "프리미엄 수요 및 MRO 사업 성장에 힘입어 3년간 매출 10% 성장, EPS 15% 증가 예상.",
-    "base_case": "프리미엄 제품 수요와 MRO 사업 성장이 지속되나, 높은 인건비와 잠재적 연료비 상승으로 인해 매출 성장률은 3~5% 수준을 유지할 것으로 예상됩니다. 고객 경험 개선 투자는 장기적인 경쟁력 강화에 기여할 것입니다.",
-    "bear_case": "항공기 사고, 사이버 보안 침해 또는 경기 침체로 인한 여행 수요 감소 시 매출 및 수익성이 크게 악화될 수 있습니다. 높은 인건비와 연료비 상승 압력은 수익 마진을 더욱 압박할 것입니다.",
-    "key_metrics_to_watch": [
-      "프리미엄 제품 매출 성장률",
-      "CASM-Ex (비연료 단위 비용)",
-      "기업 고객 예약률",
-      "델타 테크옵스 MRO 사업 매출",
-      "순이익 성장률"
-    ]
+    "outperform_1y_vs_nasdaq": 29.33,
+    "outperform_6m_vs_nasdaq": 12.57,
+    "outperform_1m_vs_nasdaq": 17.1,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "규제",
-        "description": "기후 변화, 항공기 배출 및 소음에 대한 미래 규제 조치는 항공 산업에 상당한 영향을 미칠 수 있으며, CORSIA, EU ETS, SAF 의무화 등으로 운영 비용이 증가할 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "거시",
-        "description": "전 세계적으로 불리한 경제 또는 정치적 상황, 환율 변동성, 무역 관계 악화는 항공 여행 수요를 감소시키고 사업 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "저탄소 기술(SAF 등)로의 전환 비용은 막대할 수 있으며, 적절한 정부 정책과 인센티브 없이는 재정적 부담이 될 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "CORSIA 외에도 미국 내 항공기 배기가스 규제 패치워크에 직면할 수도 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "경쟁",
-        "description": "항공 여행의 환경적 영향에 대한 부정적인 인식으로 인한 소비자 선호도 변화는 사업 및 재무 결과에 중대한 악영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "공급망",
-        "description": "저탄소 기술(SAF 등)은 현재 대규모로 이용 가능하지 않으며 개발에 수십 년이 걸릴 수 있어 연료 공급에 불확실성을 초래할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거버넌스",
-        "description": "사이버 보안 위협은 정보 시스템에 대한 무단 접근, 사용, 공개, 중단, 수정 또는 파괴를 초래하여 회사의 장기적인 사업 성공에 필요한 정보의 기밀성, 무결성 및 가용성을 저해할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "특히 장기간 동안 불리한 경제 상황이나 부정적인 소비자 인식이 발생할 경우 당사의 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "전 세계적인 경기 침체와 엄격한 환경 규제가 동시에 발생하여 항공 여행 수요가 급감하고 운영 비용이 감당할 수 없을 정도로 증가하는 경우.",
-      "사이버 공격으로 인해 핵심 운영 시스템이 마비되고 고객 데이터가 유출되어 브랜드 신뢰도가 심각하게 훼손되고 막대한 벌금 및 소송 비용이 발생하는 경우.",
-      "지속적인 지정학적 불안정으로 주요 국제 노선이 폐쇄되고, 동시에 SAF 등 저탄소 연료 전환 비용이 정부 지원 없이 급증하여 재정적 압박이 극심해지는 경우."
-    ],
     "exit_signals": [
-      "글로벌 항공 산업의 탄소 배출 규제가 예상보다 훨씬 더 엄격해지고, SAF 등 대체 연료의 가격이 급등하여 항공권 가격이 지속적으로 상승하고 수요가 감소하는 추세가 확인될 때.",
-      "주요 시장에서 경기 침체 또는 정치적 불안정이 장기화되어 국제선 및 국내선 항공 수요가 회복되지 않고, 환율 변동성이 심화되어 수익성이 지속적으로 악화될 때.",
-      "델타 항공의 핵심 IT 시스템에 대한 대규모 사이버 공격이 발생하여 장기간 서비스 중단이 발생하고, 고객 신뢰가 회복 불가능할 정도로 손상될 때."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "Delta Air Lines, Inc. is a major airline in the United States headquartered in Atlanta, Georgia, operating nine hubs, with Hartsfield–Jackson Atlanta International Airport being its largest in terms of total passengers and number of departures. With its regional subsidiaries and contractors operating under the brand name Delta Connection, Delta has over 5,400 flights daily and serves 325 destinations in 52 countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-11T00:28:58.305619+00:00"
+    "GoogleWebTranslator": "2026-06-12T00:52:16.560156+00:00"
   }
 }

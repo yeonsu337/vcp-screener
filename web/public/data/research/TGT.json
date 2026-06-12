@@ -1,0 +1,188 @@
+{
+  "ticker": "TGT",
+  "company": "Target Corporation",
+  "market": "US",
+  "sector": "Consumer Defensive",
+  "industry": "Discount Stores",
+  "generated_at": "2026-06-12T00:48:50.356881+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 60243906560,
+    "shares_outstanding": 454191112,
+    "employees": 415000,
+    "country": "United States",
+    "website": "https://corporate.target.com",
+    "beta": 0.991
+  },
+  "category_a_business": {
+    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 이 회사는 또한 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
+    "business_model": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다.",
+    "products": [
+      "미국의 일반 상품 소매업체로서",
+      "여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
+      "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
+      "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
+      "자사 매장을 통한 제품"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Target Corporation은 미국 미네소타 주 미니애폴리스에 본사를 둔 미국 소매 회사입니다. Target은 소매점을 운영합니다. 미국에서 8번째로 큰 소매업체이며 S&P 500 지수의 구성 요소입니다."
+  },
+  "category_b_financials": {
+    "roe": 0.22,
+    "roa": 0.06,
+    "profit_margin": 0.03,
+    "operating_margin": 0.05,
+    "gross_margin": 0.28,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": -0.25,
+    "dividend_yield": 3.56,
+    "payout_ratio": 0.6,
+    "annual_revenue": [
+      104780000000.0,
+      106566000000.0,
+      107412000000.0,
+      109120000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5117000000.0,
+      5566000000.0,
+      5707000000.0,
+      3848000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.13,
+      8.86,
+      8.94,
+      5.98,
+      null
+    ],
+    "annual_free_cf": [
+      2835000000.0,
+      4476000000.0,
+      3815000000.0,
+      -1510000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      20290000000.0,
+      19875000000.0,
+      19646000000.0,
+      19073000000.0,
+      null
+    ],
+    "annual_equity": [
+      16165000000.0,
+      14666000000.0,
+      13432000000.0,
+      11232000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-01-31",
+      "2025-01-31",
+      "2024-01-31",
+      "2023-01-31",
+      "2022-01-31"
+    ],
+    "quarterly_eps": [
+      1.71,
+      2.3,
+      1.51,
+      2.05,
+      2.27
+    ],
+    "quarterly_revenue": [
+      25443000000.0,
+      30453000000.0,
+      25270000000.0,
+      25211000000.0,
+      23846000000.0
+    ],
+    "quarterly_periods": [
+      "2026-04-30",
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30"
+    ],
+    "eps_qoq_yoy_pct": -24.6,
+    "sales_yoy_pct": 6.7,
+    "ni_cagr_3y_pct": 10.05,
+    "roe_pct": 22.02
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Defensive / Discount Stores 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 73,
+    "score": 56.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.3763,
+    "trailing_pe": 17.544973,
+    "forward_pe": 14.9050455,
+    "ev_to_ebitda": 9.106,
+    "price_to_sales": 0.56632453,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 6.47,
+    "outperform_6m_vs_nasdaq": 35.0,
+    "outperform_1m_vs_nasdaq": 11.0,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "다음과 같은 위험(일부 발생했거나 향후 발생할 수 있음)은 당사의 비즈니스 및 재무 성과에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이것이 우리가 직면한 유일한 위험은 아니며 우리의 비즈니스 및 재무 성과에 실질적이고 부정적인 영향을 미칠 수 있는 다른 위험이 있을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "경쟁 및 평판 위험 우리가 경쟁사와 적극적으로 차별화할 수 없는 경우, 우리의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "경쟁사와 고객 경험을 차별화하지 못하면 당사의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "소비자는 디지털 도구를 사용하여 신속하게 비교 쇼핑을 할 수 있기 때문에 가격이나 편의성에만 기초하여 결정을 내릴 수 있으며, 이는 경쟁업체와의 차별화 능력을 제한할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "개선된 성과나 효율성으로 이러한 계획이나 기타 계획에 대한 투자를 상쇄할 수 없는 경우 당사의 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates retail stores. It is the eighth-largest retailer in the United States and is a component of the S&P 500 Index.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-12T00:54:13.302842+00:00"
+  }
+}
