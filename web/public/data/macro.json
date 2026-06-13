@@ -1,21 +1,17 @@
 {
-  "updated_at": "2026-06-12T00:30:22.287170+00:00",
+  "updated_at": "2026-06-13T00:28:33.240936+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 29.7,
-        "prev": 27.5,
-        "change_pct": 8.12,
+        "value": 34.0,
+        "prev": 29.6,
+        "change_pct": 14.75,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-06-11",
+        "asof": "2026-06-12",
         "series": [
-          {
-            "time": "2025-06-12",
-            "value": 64.6
-          },
           {
             "time": "2025-06-13",
             "value": 59.54
@@ -914,35 +910,35 @@
           },
           {
             "time": "2026-05-07",
-            "value": 67.29
+            "value": 66.4
           },
           {
             "time": "2026-05-08",
-            "value": 67.29
+            "value": 66.69
           },
           {
             "time": "2026-05-11",
-            "value": 66.63
+            "value": 65.4
           },
           {
             "time": "2026-05-12",
-            "value": 65.69
+            "value": 65.11
           },
           {
             "time": "2026-05-13",
-            "value": 64.97
+            "value": 64.03
           },
           {
             "time": "2026-05-14",
-            "value": 65.91
+            "value": 64.97
           },
           {
             "time": "2026-05-15",
-            "value": 63.23
+            "value": 62.97
           },
           {
             "time": "2026-05-18",
-            "value": 61.57
+            "value": 61.54
           },
           {
             "time": "2026-05-19",
@@ -950,11 +946,11 @@
           },
           {
             "time": "2026-05-20",
-            "value": 60.26
+            "value": 60.23
           },
           {
             "time": "2026-05-21",
-            "value": 58.06
+            "value": 57.94
           },
           {
             "time": "2026-05-22",
@@ -966,11 +962,11 @@
           },
           {
             "time": "2026-05-27",
-            "value": 60.6
+            "value": 60.54
           },
           {
             "time": "2026-05-28",
-            "value": 60.09
+            "value": 60.03
           },
           {
             "time": "2026-05-29",
@@ -990,31 +986,35 @@
           },
           {
             "time": "2026-06-04",
-            "value": 53.89
+            "value": 53.86
           },
           {
             "time": "2026-06-05",
-            "value": 41.77
+            "value": 41.83
           },
           {
             "time": "2026-06-08",
-            "value": 39.89
+            "value": 39.86
           },
           {
             "time": "2026-06-09",
-            "value": 32.49
+            "value": 32.43
           },
           {
             "time": "2026-06-10",
-            "value": 26.91
+            "value": 26.89
           },
           {
             "time": "2026-06-11",
-            "value": 29.69
+            "value": 31.57
           },
           {
-            "time": "2026-06-11",
-            "value": 29.69
+            "time": "2026-06-12",
+            "value": 34.0
+          },
+          {
+            "time": "2026-06-12",
+            "value": 34.0
           }
         ],
         "signal": "neutral",
@@ -3961,17 +3961,13 @@
       {
         "id": "us_dxy",
         "name": "DXY 달러 인덱스",
-        "value": 99.77,
-        "prev": 99.95,
-        "change_pct": -0.18,
+        "value": 99.81,
+        "prev": 99.86,
+        "change_pct": -0.05,
         "unit": "pt",
         "source": "ICE Futures",
-        "asof": "2026-06-11",
+        "asof": "2026-06-12",
         "series": [
-          {
-            "time": "2025-06-11",
-            "value": 98.63
-          },
           {
             "time": "2025-06-12",
             "value": 97.92
@@ -4974,7 +4970,11 @@
           },
           {
             "time": "2026-06-11",
-            "value": 99.77
+            "value": 99.86
+          },
+          {
+            "time": "2026-06-12",
+            "value": 99.807
           }
         ],
         "signal": "bullish",
@@ -4983,17 +4983,13 @@
       {
         "id": "us_sp500_trend",
         "name": "S&P500 vs SMA200",
-        "value": 7.52,
+        "value": 7.98,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
         "source": "Yahoo Finance ^GSPC",
-        "asof": "2026-06-11",
+        "asof": "2026-06-12",
         "series": [
-          {
-            "time": "2024-12-26",
-            "value": 6037.59
-          },
           {
             "time": "2024-12-27",
             "value": 5970.84
@@ -6449,6 +6445,10 @@
           {
             "time": "2026-06-11",
             "value": 7394.3
+          },
+          {
+            "time": "2026-06-12",
+            "value": 7431.46
           }
         ],
         "signal": "bullish",
@@ -6461,9 +6461,9 @@
       {
         "id": "kr_kospi_vol",
         "name": "KOSPI 21일 변동성 (연환산)",
-        "value": 73.07,
-        "prev": 32.9,
-        "change_pct": 122.08,
+        "value": 68.89,
+        "prev": 33.76,
+        "change_pct": 104.03,
         "unit": "% (연환산)",
         "source": "yfinance ^KS11 derived",
         "asof": "2026-06-12",
@@ -7357,8 +7357,12 @@
             "value": 69.27
           },
           {
+            "time": "2026-06-11",
+            "value": 67.67
+          },
+          {
             "time": "2026-06-12",
-            "value": 73.07
+            "value": 68.89
           }
         ],
         "signal": "bearish",
@@ -7367,12 +7371,12 @@
       {
         "id": "kr_kosdaq_kospi_ratio",
         "name": "KOSDAQ/KOSPI 상대강도 (1년 정규화)",
-        "value": 0.459,
+        "value": 0.475,
         "prev": 0.455,
-        "change_pct": 0.79,
+        "change_pct": 4.31,
         "unit": "비율",
         "source": "yfinance derived",
-        "asof": "2026-06-12",
+        "asof": "2026-06-11",
         "series": [
           {
             "time": "2025-06-12",
@@ -8347,8 +8351,8 @@
             "value": 0.4553
           },
           {
-            "time": "2026-06-12",
-            "value": 0.4589
+            "time": "2026-06-11",
+            "value": 0.4749
           }
         ],
         "signal": "bearish",
@@ -10071,17 +10075,13 @@
       {
         "id": "kr_kospi_trend",
         "name": "KOSPI vs SMA200",
-        "value": 67.64,
+        "value": 62.35,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
         "source": "Yahoo Finance ^KS11",
         "asof": "2026-06-12",
         "series": [
-          {
-            "time": "2024-12-06",
-            "value": 2428.16
-          },
           {
             "time": "2024-12-09",
             "value": 2360.58
@@ -11535,8 +11535,12 @@
             "value": 7730.82
           },
           {
+            "time": "2026-06-11",
+            "value": 7763.95
+          },
+          {
             "time": "2026-06-12",
-            "value": 8352.14
+            "value": 8123.62
           }
         ],
         "signal": "bullish",
@@ -11545,9 +11549,9 @@
       {
         "id": "kr_usdkrw",
         "name": "USD/KRW 환율",
-        "value": 1518.18,
+        "value": 1517.89,
         "prev": 1525.05,
-        "change_pct": -0.45,
+        "change_pct": -0.47,
         "unit": "₩",
         "source": "Yahoo Finance KRW=X",
         "asof": "2026-06-12",
@@ -12590,7 +12594,7 @@
           },
           {
             "time": "2026-06-12",
-            "value": 1518.1801
+            "value": 1517.89
           }
         ],
         "signal": "bearish",

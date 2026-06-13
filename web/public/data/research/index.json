@@ -246,7 +246,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-03T00:43:04.114119+00:00",
+    "generated_at": "2026-06-13T00:31:03.269869+00:00",
     "llm_status": "ok"
   },
   {
@@ -286,7 +286,7 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:46:46.449801+00:00",
+    "generated_at": "2026-06-13T00:38:15.651462+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -306,7 +306,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:43:41.226954+00:00",
+    "generated_at": "2026-06-13T00:37:13.837562+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -406,8 +406,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-05T00:15:41.280200+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-13T00:35:10.387355+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "HASI",
@@ -426,8 +426,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:37:34.756610+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-13T00:31:43.163144+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "IBKR",
@@ -456,8 +456,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:25:48.095189+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-13T00:40:19.706274+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "IRDM",
@@ -556,8 +556,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:40:34.751182+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-13T00:33:06.483840+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "MNST",
@@ -736,8 +736,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:41:36.835336+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-13T00:33:46.084333+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "ROST",
@@ -876,7 +876,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:45:44.806728+00:00",
+    "generated_at": "2026-06-13T00:36:12.132959+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -996,18 +996,18 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:39:31.361203+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-06-13T00:32:23.281512+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WT",
-    "company": "WisdomTree Inc",
+    "company": "WisdomTree, Inc.",
     "market": "US",
-    "sector": "Financial",
+    "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-04T00:40:11.764568+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-06-13T00:39:17.366024+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WWD",
@@ -1026,7 +1026,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-12T00:47:48.424874+00:00",
+    "generated_at": "2026-06-13T00:41:21.575199+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
