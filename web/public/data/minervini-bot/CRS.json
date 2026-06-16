@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CRS",
-  "generated_at": "2026-06-13T00:30:19.337287+00:00",
-  "source_results_date": "2026-06-13",
+  "generated_at": "2026-06-16T00:47:17.254702+00:00",
+  "source_results_date": "2026-06-16",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.64,
   "lines": [
-    "추격 위험 — Pivot $475.69 대비 +18.0%, buy zone 초과.",
-    "13주 베이스 14.1% → 8.9% → 10.7% → 7.5% → 14.1%, VDU 1.19× — setup 자체는 유효.",
+    "추격 위험 — Pivot $475.69 대비 +18.5%, buy zone 초과.",
+    "13주 베이스 14.1% → 8.9% → 10.7% → 7.5% → 14.1%, VDU 1.23× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 90로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (13.02% vs 6.5%)",
-    "P3_vol_dryup (1.19× vs 0.6×)",
+    "P3_vol_dryup (1.23× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

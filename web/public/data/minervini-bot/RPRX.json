@@ -1,23 +1,23 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "DAL",
-  "generated_at": "2026-06-13T00:30:19.339880+00:00",
-  "source_results_date": "2026-06-13",
+  "ticker": "RPRX",
+  "generated_at": "2026-06-16T00:47:17.256369+00:00",
+  "source_results_date": "2026-06-16",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.81,
+  "confidence": 0.8,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $83.83 근접(-0.92%).",
-    "13주 베이스 13.2% → 8.2% → 12.3% → 9.4% → 8.9% 수축, VDU 0.81× 진행.",
-    "Trend Template 8/8 통과, RS 79, RS 라인 신고가 +0.0%.",
-    "$83.83 돌파 시 매수·-7% 손절($77.96)·+20%($100.60) 절반 익절."
+    "매수 대기 — Stage 2 진입, pivot $56.50 근접(-3.95%).",
+    "13주 베이스 6.5% → 5.2% 수축, VDU 0.75× 진행.",
+    "Trend Template 8/8 통과, RS 76, RS 라인 신고가 -5.1%.",
+    "$56.50 돌파 시 매수·-7% 손절($52.54)·+20%($67.80) 절반 익절."
   ],
   "action": {
     "entry_type": "pivot_breakout",
-    "entry_price": 83.83,
-    "stop_price": 77.96,
+    "entry_price": 56.5,
+    "stop_price": 52.54,
     "stop_pct": -7.0,
-    "target1_price": 100.6,
+    "target1_price": 67.8,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
@@ -25,9 +25,9 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 79,
+    "rs_rating": 76,
     "stage": 2,
-    "base_count": 1,
+    "base_count": 2,
     "late_base_warning": false,
     "market_regime": "neutral"
   },
@@ -42,16 +42,16 @@
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
-    "E7_roe",
     "F1_outperform_1y",
-    "H4_ni_cagr_3y"
+    "H4_ni_cagr_3y",
+    "P2_last_contraction"
   ],
   "key_failures": [
-    "P2_last_contraction (8.86% vs 6.5%)",
-    "P3_vol_dryup (0.81× vs 0.6×)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)"
+    "P3_vol_dryup (0.75× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "rs_line (-5.1% vs ≥-5.0%)"
   ],
   "warnings": [
-    "RS 79 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

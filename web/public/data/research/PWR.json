@@ -4,195 +4,186 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-06-04T00:42:57.358996+00:00",
+  "generated_at": "2026-06-16T01:05:25.778873+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 107393540096,
+    "market_cap": 108696059904,
     "shares_outstanding": 150060149,
     "employees": 69500,
     "country": "United States",
     "website": "https://www.quantaservices.com",
-    "beta": 1.244
+    "beta": 1.215
   },
   "category_a_business": {
-    "overview": "Quanta Services는 전력, 파이프라인, 통신 등 핵심 인프라 솔루션을 제공하는 미국의 선도 기업입니다.",
-    "milestones": [
-      "1997: Quanta Services 설립",
-      "2000년대: 전력 인프라 및 통신 분야 확장 가속화",
-      "2010년대: 재생에너지 및 스마트 그리드 인프라 서비스 강화",
-      "2020년대: 데이터센터 전력 인프라 구축 참여 확대",
-      "지속적: 200개 이상의 기업 인수하며 성장"
-    ],
-    "business_model": "다양한 인프라 프로젝트의 설계, 조달, 건설, 유지보수를 통해 수익 창출",
-    "revenue_streams": [
-      "전력 송배전 및 변전소 인프라 구축/유지보수",
-      "재생에너지 발전 시설 건설 및 유지보수",
-      "통신 네트워크 인프라 설계 및 설치",
-      "지하 유틸리티 및 인프라 서비스",
-      "비상 복구 및 기술 서비스"
-    ],
-    "value_chain_position": "Midstream + 인프라 프로젝트의 기획부터 완공, 유지보수까지 전 과정에 참여합니다.",
+    "overview": "Quanta Services, Inc.는 전기 및 가스 유틸리티, 발전, 부하 센터, 제조, 통신, 파이프라인 및 에너지 산업을 위한 인프라 솔루션을 제공합니다. 회사의 전기 인프라 솔루션 부문은 송전 및 배전 인프라와 변전소 시설의 설계, 조달, 건설, 업그레이드, 수리 및 유지 관리에 종사합니다. 전력 인프라 프로젝트의 설치, 유지관리 및 업그레이드; 전력망에 스마트 그리드 기술 설치; 설계, 설치, 유지보수,",
+    "business_model": "콴타 서비스, Inc.",
     "products": [
-      "전력 전송 및 배전 인프라",
-      "스마트 그리드 기술 설치",
-      "무선 및 유선 통신 인프라",
-      "재생에너지 발전 시설",
-      "상업 및 산업용 배선"
+      "전기 및 가스 유틸리티, 발전, 부하 센터, 제조, 통신을 위한 인프라 솔루션",
+      "항공",
+      "대형 로드 센터"
     ],
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "주로 전력 및 가스 유틸리티, 통신사, 정부 기관 등 대규모 기업 및 공공 부문"
+    "wikipedia_excerpt": "Quanta Services는 전력, 파이프라인, 산업 및 통신 산업에 인프라 서비스를 제공하는 미국 기업입니다. 그 기능에는 대부분의 네트워크 인프라 유형에 대한 계획, 설계, 설치, 프로그램 관리, 유지 관리 및 수리가 포함됩니다. 이 회사는 창립 이래 유기적으로 성장해 왔으며 전기 계약 및 기타 건설 산업 분야의 200개 이상의 회사도 인수했습니다. 많은 주요 송전 건설 프로젝트에 서비스와 전문 지식을 제공했으며 2020년대에는 건설에 참여하고 있습니다.",
+    "milestones": [
+      "2020년: s는 인공 지능의 등장으로 인해 데이터 센터 건설에 참여합니다."
+    ]
   },
   "category_b_financials": {
+    "roe": 0.14,
+    "roa": 0.05,
+    "profit_margin": 0.04,
+    "operating_margin": 0.04,
+    "gross_margin": 0.15,
+    "revenue_growth_ttm": 0.26,
+    "earnings_growth_ttm": 0.51,
+    "dividend_yield": 0.06,
+    "payout_ratio": 0.06,
+    "annual_revenue": [
+      28479697000.0,
+      23672795000.0,
+      20882206000.0,
+      17073903000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1587077000.0,
+      1303048000.0,
+      1092935000.0,
+      838471000.0,
+      null
+    ],
+    "annual_eps": [
+      6.8,
+      6.03,
+      5.0,
+      3.32,
+      null
+    ],
+    "annual_free_cf": [
+      1620816000.0,
+      1477118000.0,
+      1141149000.0,
+      702682000.0,
+      null
+    ],
+    "annual_total_debt": [
+      6418954000.0,
+      4478957000.0,
+      4463697000.0,
+      3975491000.0,
+      null
+    ],
+    "annual_equity": [
+      8938249000.0,
+      7317731000.0,
+      6272241000.0,
+      5383464000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.45,
+      2.08,
+      2.24,
+      1.52,
+      0.96
+    ],
+    "quarterly_revenue": [
+      7874787000.0,
+      7841948000.0,
+      7631408000.0,
+      6773007000.0,
+      6233334000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 52.9,
     "sales_yoy_pct": 26.3,
     "ni_cagr_3y_pct": 27.93,
     "roe_pct": 13.53
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "1,000-1,500 (estimate) - 전력 인프라, 통신 인프라, 재생에너지 인프라, 파이프라인 인프라 등 Quanta Services가 영위하는 주요 시장의 총합 추정치. 각 시장의 규모 및 성장률 데이터를 기반으로 산정.",
-    "tam_cagr_pct": "5-8% - 전력망 현대화 및 확장, 재생에너지 전환 가속화, 5G 및 광섬유 통신망 구축, 노후 인프라 교체 수요 증가 등 구조적 성장 동인이 견고함.",
-    "growth_drivers": [
-      "전력망 현대화 및 확장: 노후화된 전력 인프라 교체 및 스마트 그리드 구축 수요 증가.",
-      "재생에너지 전환: 태양광, 풍력 등 재생에너지 발전 및 송배전 인프라 구축 투자 확대.",
-      "통신 인프라 확충: 5G 네트워크 및 광섬유 통신망 구축 가속화.",
-      "정부 인프라 투자: 미국 인프라 투자 및 일자리 법(IIJA) 등 정부 주도 인프라 투자 증가.",
-      "전기차 충전 인프라 구축: 전기차 보급 확대로 인한 충전 인프라 수요 증가."
-    ],
-    "market_share_pct": "5-10% (estimate) - Quanta Services는 북미 지역에서 인프라 서비스 분야의 선두 주자 중 하나이나, 시장 자체가 매우 세분화되어 있어 단일 기업의 시장점유율은 상대적으로 낮음.",
-    "competitors": [
-      {
-        "name": "MYR Group Inc.",
-        "differentiation": "주로 전력 송배전 및 변전소 건설에 강점을 가지며, 지역적으로 특정 시장에 집중하는 경향이 있음."
-      },
-      {
-        "name": "Henkels & McCoy Group, Inc. (MasTec에 인수됨)",
-        "differentiation": "통신 및 유틸리티 인프라 서비스에 강점을 보였으며, MasTec과의 통합으로 시장 지배력 강화."
-      },
-      {
-        "name": "MasTec, Inc.",
-        "differentiation": "통신, 전력, 오일 및 가스 파이프라인 등 다양한 인프라 분야에서 Quanta Services와 유사한 광범위한 서비스를 제공하며, M&A를 통한 성장 전략 구사."
-      },
-      {
-        "name": "Primoris Services Corporation",
-        "differentiation": "다양한 인프라 시장(파이프라인, 전력, 통신, 도로 등)에서 서비스를 제공하며, 특정 지역 및 프로젝트 유형에 강점."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 초기 자본 투자 및 전문 인력 확보의 어려움이 진입 장벽으로 작용하나, 특정 니치 시장에서는 진입이 상대적으로 용이할 수 있음.",
-      "substitutes": "low - 인프라 구축 및 유지보수 서비스는 필수적이며, 이를 대체할 수 있는 직접적인 대안이 거의 없음. 다만, 기술 발전으로 인한 효율성 증대는 간접적인 대체 효과를 가져올 수 있음.",
-      "buyer_power": "medium - 대형 유틸리티 회사나 정부 기관 등 주요 고객은 구매력이 높으나, 서비스의 복잡성과 전문성으로 인해 공급업체 변경 비용이 발생할 수 있음.",
-      "supplier_power": "medium - 숙련된 노동력, 특정 장비 및 자재 공급업체에 대한 의존도가 높을 수 있으며, 이는 공급업체의 협상력을 높일 수 있음. 특히 숙련된 인력 부족은 큰 문제.",
-      "rivalry": "high - 시장에 다수의 경쟁사가 존재하며, 프로젝트 수주를 위한 경쟁이 치열함. 가격 경쟁 및 서비스 품질 경쟁이 상존."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "광범위한 서비스 포트폴리오: 전력, 통신, 오일/가스 등 다양한 인프라 시장에서 종합적인 서비스를 제공하여 고객에게 원스톱 솔루션 제공.",
-      "규모의 경제 및 전국적인 네트워크: 북미 전역에 걸친 광범위한 운영 네트워크와 대규모 자원을 통해 대형 프로젝트 수행 능력 보유.",
-      "숙련된 인력 및 전문성: 오랜 업력과 다양한 프로젝트 경험을 통해 축적된 기술력 및 숙련된 노동력 보유.",
-      "전략적 인수합병(M&A) 역량: 지속적인 M&A를 통해 서비스 역량 및 시장 점유율을 확장하고 새로운 기술을 통합하는 능력."
-    ],
-    "competitive_weaknesses": [
-      "높은 인력 의존도 및 인건비 상승 압력: 노동 집약적인 사업 특성상 숙련된 인력 확보 및 유지에 어려움이 있으며, 인건비 상승이 수익성에 부정적 영향.",
-      "기후 변화 및 자연재해 위험 노출: 사업 특성상 기후 변화로 인한 자연재해(산불, 허리케인 등)에 취약하며, 이는 운영 중단, 비용 증가, 보험료 상승 및 잠재적 책임으로 이어질 수 있음.",
-      "보험 및 클레임 비용 증가: 차량 및 기타 사고로 인한 '핵심' 판결 증가로 초과 보험 가용성 감소 및 보험료 급증, 클레임 비용 예측의 어려움.",
-      "M&A 통합 위험: 활발한 M&A 전략은 성장 동력이 될 수 있으나, 인수 기업의 성공적인 통합 실패 시 예상 시너지 미달 및 재무적 부담 발생 가능성."
+      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 85,
-    "score": 61.2,
+    "score": 61.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.895,
-    "trailing_pe": 98.441536,
-    "forward_pe": 43.523075,
-    "ev_to_ebitda": 42.663,
-    "price_to_sales": 3.5653863,
+    "peg_ratio": 1.9508,
+    "trailing_pe": 99.36214,
+    "forward_pe": 44.005985,
+    "ev_to_ebitda": 43.153,
+    "price_to_sales": 3.608629,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 67.77,
-    "outperform_6m_vs_nasdaq": 42.95,
-    "outperform_1m_vs_nasdaq": -12.63,
-    "lynch_category": "Stalwart",
-    "moat_type": "Switching Costs",
-    "moat_evidence": [
-      "PWR은 전력 및 통신 인프라 구축 및 유지보수 서비스를 제공하며, 이는 고객에게 핵심적인 운영 요소입니다. 이러한 서비스는 복잡하고 전문성을 요구하므로, 기존 공급업체를 변경하는 데 상당한 시간, 비용, 위험이 수반됩니다.",
-      "회사는 전략적 인수를 통해 사업 영역을 확장하고 있으며, 이는 고객에게 통합된 솔루션을 제공하여 전환 비용을 더욱 높이는 요인이 됩니다. 새로운 공급업체는 PWR이 제공하는 광범위한 서비스를 한 번에 제공하기 어려울 수 있습니다.",
-      "PWR의 서비스는 대규모 프로젝트와 장기 계약으로 이루어지는 경우가 많습니다. 이러한 프로젝트의 특성상 중간에 공급업체를 변경하는 것은 프로젝트 지연, 추가 비용 발생, 운영 효율성 저하 등 막대한 손실을 초래할 수 있습니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "기후 변화 대응 및 인프라 현대화 수요 증가로 전력망 투자 확대",
-    "bull_case": "3년 내 EPS 20% 이상 성장. 인프라 투자 확대 및 성공적인 M&A 통합으로 시장 점유율 확대.",
-    "base_case": "전력 및 통신 인프라 투자 증가 추세에 힘입어 안정적인 매출 성장과 수익성 유지. M&A를 통한 사업 확장 지속.",
-    "bear_case": "인플레이션 및 금리 인상으로 인한 인프라 투자 위축, 경쟁 심화, 기후 변화 관련 재해 및 보험 비용 증가로 수익성 악화.",
-    "key_metrics_to_watch": [
-      "신규 수주액 및 수주잔고",
-      "영업이익률 (OPM)",
-      "인수합병(M&A) 통합 성공률",
-      "기후 변화 관련 보험 및 클레임 비용"
-    ]
+    "outperform_1y_vs_nasdaq": 66.45,
+    "outperform_6m_vs_nasdaq": 42.11,
+    "outperform_1m_vs_nasdaq": -7.33,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "재무",
-        "description": "분기별 실적이 크게 변동될 수 있으며, 이는 계절성, 프로젝트 일정 및 고객 요구사항 변동에 의해 영향을 받습니다.",
+        "category": "10-K Item 1A",
+        "description": "아래에 설명된 사항은 당사가 직면한 유일한 위험과 불확실성이 아니며, 당사에 알려지지 않았거나 아래에 설명되지 않은 위험과 불확실성 또한 당사의 사업 운영에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "고객집중도",
-        "description": "특정 주요 고객과의 거래 손실은 회사 사업에 중대한 영향을 미칠 수 있으며, 이는 수익 감소로 이어질 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "운영",
-        "description": "사업은 산불, 폭발 등 운영상의 위험에 노출되어 상당한 책임을 초래할 수 있으며, 모든 잠재적 책임에 대해 보험에 가입되어 있지 않을 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "인력",
-        "description": "노동 집약적인 사업 특성상 숙련된 직원을 유치 및 유지하지 못하거나 인력 관리에 실패할 경우 상당한 비용이 발생할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "요약 위험 요소 다음은 당사의 사업, 재무 상태 및 운영 결과에 중대한 영향을 미칠 수 있는 일부 중요한 위험과 불확실성을 요약한 것입니다.",
         "severity": "medium"
       },
       {
-        "category": "공급망",
-        "description": "공급업체, 하도급업체 및 장비 제조업체의 가용성 부족 또는 연료, 자재, 장비 가격 상승은 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "사업 운영과 관련된 위험 • 당사의 운영 결과는 분기별로 크게 달라질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거시",
-        "description": "부정적인 거시 경제 상황 및 산업별 경제 및 시장 상황은 사업에 불리한 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "규제 및 규정 준수와 관련된 위험 • 당사 사업에 적용되는 규제 요건 및 해당 요건과 관련된 잠재적인 변경 사항은 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "상당한 부채를 보유하고 있어 사업에 부정적인 영향을 미칠 수 있으며, 부채 상환을 위한 충분한 현금 흐름을 확보하지 못할 수 있습니다.",
-        "severity": "high"
+        "category": "10-K Item 1A",
+        "description": "사업 자금 조달과 관련된 위험 • 우리는 원하는 성장과 운영 자금을 조달할 만큼 충분한 자금을 확보하지 못할 수 있습니다.",
+        "severity": "medium"
       },
       {
-        "category": "규제",
-        "description": "사업에 적용되는 규제 요구사항 및 잠재적인 변경 사항은 사업에 불리한 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "보통주와 관련된 위험 • 보통주 또는 기타 지분증권의 추가 매각 또는 발행은 각 주주의 소유 지분을 희석시키거나 보통주의 시장 가격에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "주요 고객과의 계약이 대거 취소되거나 갱신되지 않아 매출이 급감하고 현금 흐름이 고갈되는 경우.",
-      "대규모 프로젝트에서 치명적인 운영 사고(예: 대형 산불, 폭발)가 발생하여 막대한 법적 책임과 보험 미적용 손실이 발생하고 기업 평판이 심각하게 훼손되는 경우.",
-      "숙련된 인력 부족이 심화되고 노사 관계 악화로 인해 주요 프로젝트 수행이 불가능해지고 경쟁력을 상실하는 경우.",
-      "글로벌 경기 침체와 에너지 산업의 급격한 변화로 인해 인프라 투자 수요가 급감하고 신규 프로젝트 수주가 거의 불가능해지는 경우."
-    ],
     "exit_signals": [
-      "분기별 매출이 2분기 연속으로 전년 동기 대비 10% 이상 감소하고, 신규 수주액이 급격히 줄어드는 경우.",
-      "주요 고객사 중 한 곳 이상이 파산하거나, 쿼터와의 계약을 대규모로 해지하는 발표가 나오는 경우.",
-      "대규모 환경 재해 또는 안전 사고로 인해 회사가 감당할 수 없는 수준의 벌금이나 손해배상 청구가 발생하고, 보험 적용이 불가능하다는 것이 확인되는 경우.",
-      "신용 등급이 투자 부적격 등급으로 하향 조정되어 자본 시장 접근이 어려워지고 자금 조달 비용이 급증하는 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "Quanta Services is a U.S. corporation that provides infrastructure services for the electric power, pipeline, industrial and communications industries. Its capabilities include planning, design, installation, program management, maintenance and repair of most types of network infrastructure. The company has grown organically since its founding, but it has also acquired over 200 companies in the electrical contracting and other construction industries. It has provided its services and expertise to many major electrical transmission construction projects and in the 2020s is involved in the construction of data centers as a consequence of the rise of artificial intelligence and its need for electrical power.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:42:01.758072+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:16:52.832304+00:00"
   }
 }

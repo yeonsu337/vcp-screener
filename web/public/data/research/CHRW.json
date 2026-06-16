@@ -1,0 +1,187 @@
+{
+  "ticker": "CHRW",
+  "company": "C.H. Robinson Worldwide, Inc.",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
+  "generated_at": "2026-06-16T01:17:50.951915+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 22425346048,
+    "shares_outstanding": 117873042,
+    "employees": 11705,
+    "country": "United States",
+    "website": "https://www.chrobinson.com",
+    "beta": 0.925
+  },
+  "category_a_business": {
+    "overview": "C.H. Robinson Worldwide, Inc., together with its subsidiaries, provides freight transportation and related logistics and supply chain services in the United States and internationally. It operates in two segments, North American Surface Transportation and Global Forwarding.",
+    "business_model": "C.H.",
+    "products": [
+      "freight transportation and related logistics and supply chain services in the United States and internationally",
+      "in two segments, North American Surface Transportation and Global Forwarding",
+      "transportation and logistics services, such as trucklo",
+      "customs brokerage services",
+      "transportation management and other surface transportation services"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "C.H. Robinson Worldwide, Inc. is an American transportation company that includes third-party logistics (3PL). The company offers freight transportation, transportation management, brokerage and warehousing. It offers truckload, less than truckload, air freight, intermodal, and ocean transportation."
+  },
+  "category_b_financials": {
+    "roe": 0.35,
+    "roa": 0.1,
+    "profit_margin": 0.04,
+    "operating_margin": 0.05,
+    "gross_margin": 0.09,
+    "revenue_growth_ttm": -0.01,
+    "earnings_growth_ttm": 0.1,
+    "dividend_yield": 1.3,
+    "payout_ratio": 0.51,
+    "annual_revenue": [
+      16232763000.0,
+      17724956000.0,
+      17596443000.0,
+      24696625000.0
+    ],
+    "annual_operating_income": [
+      794961000.0,
+      669141000.0,
+      514607000.0,
+      1266782000.0
+    ],
+    "annual_eps": [
+      4.83,
+      3.86,
+      2.72,
+      7.4
+    ],
+    "annual_free_cf": [
+      843976000.0,
+      434796000.0,
+      647835000.0,
+      1521674000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1395386000.0,
+      1741132000.0,
+      1952501000.0,
+      2361168000.0,
+      null
+    ],
+    "annual_equity": [
+      1845647000.0,
+      1722051000.0,
+      1418697000.0,
+      1353422000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      1.22,
+      1.12,
+      1.34,
+      1.26,
+      1.11,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      4012934000.0,
+      3912634000.0,
+      4136846000.0,
+      4136543000.0,
+      4046740000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 8.8,
+    "sales_yoy_pct": -0.8,
+    "ni_cagr_3y_pct": -14.54,
+    "roe_pct": 34.84
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Integrated Freight & Logistics 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 76,
+    "score": 52.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.7353,
+    "trailing_pe": 39.226807,
+    "forward_pe": 25.892738,
+    "ev_to_ebitda": 26.943,
+    "price_to_sales": 1.3843697,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 67.72,
+    "outperform_6m_vs_nasdaq": 6.77,
+    "outperform_1m_vs_nasdaq": 19.29,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Business environment and competition risk factors Economic recession could have a significant, adverse impact on our business.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, some customers may not pay us as quickly as they have in the past, which may cause our working capital needs to increase.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In periods of rapid change, it may be more difficult to match our staffing levels to our business needs.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, we have other expenses that are fixed for a period of time, and we may not be able to adequately adjust them in a period of rapid change in market demand.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our adjusted gross profits and income from operations may decrease if we are unable to increase our pricing to our customers.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Changing fuel costs and interruptions of fuel supplies may have an impact on our adjusted gross profit margin.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "C.H. Robinson Worldwide, Inc. is an American transportation company that includes third-party logistics (3PL). The company offers freight transportation, transportation management, brokerage and warehousing. It offers truckload, less than truckload, air freight, intermodal, and ocean transportation."
+}

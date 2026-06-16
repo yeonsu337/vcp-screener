@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-05-29T00:41:12.009917+00:00",
+  "generated_at": "2026-06-16T01:06:27.577356+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8818115584,
-    "shares_outstanding": 50582893,
+    "market_cap": 8372124672,
+    "shares_outstanding": 50452718,
     "employees": 1651,
     "country": "United States",
     "website": "https://www.cirrus.com",
-    "beta": 1.154
+    "beta": 1.143
   },
   "category_a_business": {
     "overview": "팹리스 반도체 회사인 Cirrus Logic, Inc.는 중국, 미국 및 국제적으로 혼합 신호 처리 솔루션과 오디오 제품을 개발합니다. 이 회사는 증폭기를 포함한 오디오 제품을 제공합니다. 아날로그-디지털 변환기(ADC) 및 디지털-아날로그 변환기(DAC)를 단일 집적 회로(IC)에 통합하는 코덱 구성요소; 디지털 신호 처리 기능이 통합된 코덱인 스마트 코덱; 독립형 디지털 신호 프로세서; 스마트폰, PC, 태블릿, AR/VR 헤드셋, 웨어러블, 홈시어터 시스템, 자동차 엔터테이먼트 등에 사용되는 SoundClear 기술",
@@ -22,18 +22,103 @@
     "products": [
       "중국, 미국 및 국제적으로 혼합 신호 처리 솔루션 및 오디오 제품",
       "앰프를 포함한 오디오 제품",
-      "카메라 컨트롤러, 햅틱 및 센싱 솔루션, 스마트폰용 배터리 및 전원 IC, 자동차용 제품",
+      "카메라 컨트롤러, 촉각 및 센싱 솔루션, 스마트폰용 배터리 및 전원 IC, 자동차용 제품",
       "직접 판매원, 외부 판매 대리점 및 유통업체를 통해 제품을 판매합니다."
     ],
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Cirrus Logic Inc.는 텍사스 주 오스틴에 본사를 둔 미국의 팹리스 반도체 회사로, 아날로그, 혼합 신호 및 오디오 DSP 집적 회로를 전문으로 합니다. Suhas Patil은 회사를 \"Patil Systems, Inc.\"로 설립했습니다. 1981년 솔트레이크시티에서; 1984년 실리콘밸리로 이전하면서 'Cirrus Logic'이라는 이름을 채택했고, 2000년에 본사를 오스틴으로 옮겼습니다.",
+    "wikipedia_excerpt": "Cirrus Logic Inc.는 텍사스 주 오스틴에 본사를 둔 미국의 팹리스 반도체 회사로, 아날로그, 혼합 신호 및 오디오 DSP 집적 회로를 전문으로 합니다. Suhas Patil은 회사를 \"Patil Systems, Inc.\"로 설립했습니다. 1981년 솔트레이크시티에서; 1984년 실리콘밸리로 이전하면서 \"Cirrus Logic\"이라는 이름을 채택했고, 2000년에 본사를 오스틴으로 옮겼습니다.",
     "milestones": [
       "1981: ; 1984년 실리콘밸리로 이전하면서 'Cirrus Logic'이라는 이름을 채택하고 회사를 옮겼다."
     ]
   },
   "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.12,
+    "profit_margin": 0.21,
+    "operating_margin": 0.2,
+    "gross_margin": 0.53,
+    "revenue_growth_ttm": 0.06,
+    "earnings_growth_ttm": 0.2,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1997379000.0,
+      1896077000.0,
+      1788890000.0,
+      1897617000.0,
+      null
+    ],
+    "annual_operating_income": [
+      460380000.0,
+      410359000.0,
+      345425000.0,
+      345423000.0,
+      null
+    ],
+    "annual_eps": [
+      7.85,
+      6.0,
+      4.9,
+      3.09,
+      null
+    ],
+    "annual_free_cf": [
+      635762000.0,
+      415613000.0,
+      383329000.0,
+      302854000.0,
+      null
+    ],
+    "annual_total_debt": [
+      133977000.0,
+      143719000.0,
+      155216000.0,
+      141073000.0,
+      null
+    ],
+    "annual_equity": [
+      2127996000.0,
+      1949449000.0,
+      1817014000.0,
+      1658282000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-03-31",
+      "2025-03-31",
+      "2024-03-31",
+      "2023-03-31",
+      "2022-03-31"
+    ],
+    "quarterly_eps": [
+      1.56,
+      2.66,
+      2.48,
+      1.14,
+      1.31,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      448523000.0,
+      580624000.0,
+      560960000.0,
+      407272000.0,
+      424456000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 14.8,
     "sales_yoy_pct": 5.7,
     "ni_cagr_3y_pct": 32.86,
@@ -48,25 +133,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 57.3,
+    "rs_rating": 75,
+    "score": 52.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 9.35,
-    "trailing_pe": 22.207644,
-    "forward_pe": 18.572756,
-    "ev_to_ebitda": 15.73,
-    "price_to_sales": 4.4148436,
+    "trailing_pe": 21.165815,
+    "forward_pe": 17.678902,
+    "ev_to_ebitda": 14.902,
+    "price_to_sales": 4.1915555,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.39,
-    "outperform_6m_vs_nasdaq": 31.59,
-    "outperform_1m_vs_nasdaq": -1.86,
+    "outperform_1y_vs_nasdaq": 25.85,
+    "outperform_6m_vs_nasdaq": 18.58,
+    "outperform_1m_vs_nasdaq": 1.72,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cirrus Logic Inc. is an American fabless semiconductor company headquartered in Austin, Texas, that specializes in analog, mixed-signal, and audio DSP integrated circuits. Suhas Patil founded the company as \"Patil Systems, Inc.\" in Salt Lake City in 1981; it adopted the name \"Cirrus Logic\" when it relocated to Silicon Valley in 1984, and moved its headquarters to Austin in 2000.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:41:27.460574+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:14:13.905953+00:00"
   }
 }

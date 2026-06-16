@@ -4,60 +4,63 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
-  "generated_at": "2026-05-23T00:28:21.232706+00:00",
+  "generated_at": "2026-06-16T01:15:46.038812+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 30580961280,
+    "market_cap": 32336822272,
     "shares_outstanding": 36959030,
-    "employees": 23338,
+    "employees": null,
     "country": "United States",
     "website": "https://www.caseys.com",
-    "beta": 0.65
+    "beta": 0.624
   },
   "category_a_business": {
-    "overview": "Casey's General Stores, Inc.는 자회사와 함께 미국에서 Casey's 및 Casey's General Store 이름으로 편의점을 운영하고 있습니다. 매장에서는 피자, 도넛, 아침 식사 품목 및 샌드위치를 ​​​​제공합니다. 담배 및 니코틴 제품. 회사 매장에서는 청량음료, 에너지, 물, 스포츠 음료, 주스, 커피, 차 및 유제품도 제공합니다. 맥주, 와인, 주류; 스낵, 사탕, 포장된 빵집 및 기타 식품; 얼음, 아이스크림, 식사, 애피타이저; 건강 및 미용 보조제, 자동차 제품, 전자 액세서리 및 가정용품; 그리고 막대기",
-    "business_model": "Casey's General Stores, Inc.는 자회사와 함께 미국에서 Casey's 및 Casey's General Store 이름으로 편의점을 운영하고 있습니다.",
+    "overview": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States. Its stores offer pizza, donuts, breakfast items, and sandwiches; and tobacco and nicotine products. The company's stores also provide soft drinks, energy, water, sports drinks, juices, coffee, and tea and dairy products; beer, wine, and spirits; snacks, candy, packaged bakery, and other food items; ice, ice cream, meals, and appetizers; health and beauty aids, automotive products, electronic accessories, and housewares; and breadstick",
+    "business_model": "Casey's General Stores, Inc., together with its subsidiaries, operates convenience stores under the Casey's and Casey's General Store names in the United States.",
     "products": [
-      "미국 내 Casey's 및 Casey's General Store 이름의 편의점",
-      "유통 센터"
+      "convenience stores under the Casey's and Casey's General Store names in the United States",
+      "distribution centers"
     ],
     "channels": [
-      "B2C / 소매"
+      "B2C / Retail"
     ],
-    "wikipedia_excerpt": "Casey's General Stores, Inc.는 미국 중서부 및 남부 지역의 편의점 체인입니다. 이 회사의 본사는 아이오와주 디모인 교외 지역인 Ankeny에 위치해 있습니다. 2026년 5월 1일 현재 Casey's는 19개 주에 2,950개의 매장을 보유하고 있습니다. 7-Eleven이 Speedway를 인수한 후 Casey's는 미국에서 세 번째로 큰 편의점 체인이자 미국인 전체가 소유한 최대 규모의 편의점 체인입니다. 아이오와에 본사를 둔 Fortune 500대 기업 두 곳 중 하나입니다. Casey's는 브렉퍼스트 피자와 타코 피자를 포함한 피자로 유명하며, 그 결과 Casey's는 미국에서 5번째로 큰 피자 체인이 되었습니다.",
+    "wikipedia_excerpt": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of May 1, 2026, Casey's has 2,950 stores in 19 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S.",
     "milestones": [
-      "2026년: Casey's는 19개 주에 2,950개의 매장을 보유하고 있습니다."
+      "2026: , Casey's has 2,950 stores in 19 states"
     ]
   },
   "category_b_financials": {
-    "roe": 0.18,
-    "roa": 0.07,
+    "roe": 0.19,
+    "roa": 0.08,
     "profit_margin": 0.04,
     "operating_margin": 0.05,
     "gross_margin": 0.25,
-    "revenue_growth_ttm": 0.0,
-    "earnings_growth_ttm": 0.5,
-    "dividend_yield": 0.28,
-    "payout_ratio": 0.13,
+    "revenue_growth_ttm": 0.14,
+    "earnings_growth_ttm": 0.66,
+    "dividend_yield": 0.26,
+    "payout_ratio": 0.12,
     "annual_revenue": [
+      null,
       15940899000.0,
       14862913000.0,
       15094475000.0,
       12952594000.0
     ],
     "annual_operating_income": [
+      null,
       796400000.0,
       709601000.0,
       639333000.0,
       497700000.0
     ],
     "annual_eps": [
+      19.16,
       14.64,
       13.43,
       11.91,
-      9.1
+      null
     ],
     "annual_free_cf": [
       584630000.0,
@@ -78,19 +81,22 @@
       2240838000.0
     ],
     "annual_periods": [
+      "2026-04-30",
       "2025-04-30",
       "2024-04-30",
       "2023-04-30",
       "2022-04-30"
     ],
     "quarterly_eps": [
+      4.37,
       3.49,
       5.53,
       5.77,
       2.63,
-      2.33
+      null
     ],
     "quarterly_revenue": [
+      null,
       3916132000.0,
       4506084000.0,
       4567106000.0,
@@ -98,16 +104,16 @@
       3903633000.0
     ],
     "quarterly_periods": [
+      "2026-04-30",
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
       "2025-04-30",
       "2025-01-31"
     ],
-    "eps_qoq_yoy_pct": 49.3,
-    "sales_yoy_pct": 0.3,
-    "ni_cagr_3y_pct": 17.17,
-    "roe_pct": 17.88
+    "eps_qoq_yoy_pct": 65.5,
+    "sales_yoy_pct": 14.5,
+    "roe_pct": 19.15
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -119,51 +125,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 81,
-    "score": 63.2,
+    "score": 62.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0455,
-    "trailing_pe": 47.414944,
-    "forward_pe": 40.913933,
-    "ev_to_ebitda": 23.695,
-    "price_to_sales": 1.8007784,
+    "peg_ratio": 2.5439,
+    "trailing_pe": 46.726833,
+    "forward_pe": 37.330967,
+    "ev_to_ebitda": 23.319,
+    "price_to_sales": 1.8413893,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 44.28,
-    "outperform_6m_vs_nasdaq": 31.69,
-    "outperform_1m_vs_nasdaq": -3.27,
+    "outperform_1y_vs_nasdaq": 37.02,
+    "outperform_6m_vs_nasdaq": 47.92,
+    "outperform_1m_vs_nasdaq": -0.76,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "그러한 위험이 실제로 발생할 경우 당사의 사업, 재무 상태 및/또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If any of such risks actually occur, our business, financial condition, and/or results of operations could be materially adversely affected.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이 경우 당사 증권의 거래가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
+        "description": "In that case, the trading price of our securities could decline and you might lose all or part of your investment.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "공급업체 중 하나가 해당 법률을 준수하지 않거나 품질 표준을 충족하지 못하거나 식품 산업 표준을 충족하지 못할 경우 공급망이 중단되고 평판이 손상되며 판매에 부정적인 영향을 미칠 수도 있습니다.",
+        "description": "A failure of one of our suppliers to comply with such laws, to meet our quality standards, or to meet food industry standards, could also disrupt our supply chain, damage our reputation and adversely impact our sales.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요소 중 상당수는 우리가 통제할 수 없는 부분이며, 업계 내 상당한 경쟁력 있는 가격을 고려할 때 이러한 비용을 적절하게 완화하거나 이러한 비용을 고객에게 전가하지 못할 수도 있습니다.",
+        "description": "Many of these factors are beyond our control, and we may not be able to adequately mitigate these costs or pass along these costs to our customers, given the significant competitive pricing in our industry.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 당사는 특정 제품에 대해 단일 공급업체를 보유하거나 제한된 수의 공급업체를 보유할 수 있습니다.",
+        "description": "In addition, we may have a single supplier or limited number of suppliers for certain products.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "리더십 팀 구성원과 기타 유통, 현장 및 매장 팀 구성원을 모집, 고용 또는 유지하는 데 어려움을 겪거나, 채용, 고용 또는 유지할 수 없는 경우 당사는 부정적인 영향을 받을 수 있습니다.",
+        "description": "We could be adversely affected if we experience difficulties in, or are unable to recruit, hire or retain, members of our leadership team and other distribution, field and store Team Members.",
         "severity": "medium"
       }
     ],
@@ -174,8 +180,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of May 1, 2026, Casey's has 2,950 stores in 19 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:41:25.674362+00:00"
-  }
+  "wikipedia_summary": "Casey's General Stores, Inc. is a chain of convenience stores in the Midwestern and Southern United States. The company is headquartered in Ankeny, Iowa, a suburb of Des Moines. As of May 1, 2026, Casey's has 2,950 stores in 19 states. Following 7-Eleven's purchase of Speedway, Casey's is the third-largest convenience store chain in the United States and the largest that is wholly American-owned. It is one of two Iowa-based Fortune 500 companies. Casey's is famous for their pizza, including a breakfast pizza and a taco pizza, resulting in Casey's being the fifth largest pizza chain in the U.S."
 }

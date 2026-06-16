@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-06-09T00:14:04.830496+00:00",
+  "generated_at": "2026-06-16T01:02:18.623451+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 38397681664,
+    "market_cap": 40684978176,
     "shares_outstanding": 105502622,
     "employees": 135000,
     "country": "United States",
@@ -17,35 +17,19 @@
     "beta": 1.287
   },
   "category_a_business": {
-    "overview": "자빌은 전 세계적으로 엔지니어링, 제조 및 공급망 솔루션을 제공하는 다국적 기업입니다.",
-    "milestones": [
-      "1966년: Jabil Circuit Company 설립",
-      "1993: 뉴욕 증권 거래소 상장 (JBL)",
-      "2000년대 초: 글로벌 제조 역량 확장 및 다양한 산업으로 서비스 확대",
-      "2010년대: 헬스케어, 자동차, 클라우드 인프라 등 고성장 시장 집중",
-      "2020년대: AI 인프라, 디지털 커머스 등 신규 기술 및 시장에 대한 투자 강화"
-    ],
-    "business_model": "고객사의 제품 수명 주기 전반에 걸쳐 설계, 생산, 제품 관리 서비스를 제공합니다.",
-    "revenue_streams": [
-      "규제 산업 (자동차, 헬스케어, 재생에너지)",
-      "지능형 인프라 (클라우드, 데이터센터, 네트워킹)",
-      "커넥티드 리빙 및 디지털 커머스 (스마트 기기, 자동화)",
-      "전자 하드웨어 및 임베디드 소프트웨어 설계",
-      "플라스틱 및 금속 부품 설계 및 제조",
-      "공급망 관리 및 물류 서비스"
-    ],
-    "value_chain_position": "Midstream + 고객사의 제품 설계부터 제조, 공급망 관리에 이르는 핵심 가치 창출 단계에 참여합니다.",
+    "overview": "Jabil Inc.는 전 세계적으로 엔지니어링, 제조 및 공급망 솔루션을 제공합니다. 규제 산업, 지능형 인프라, 연결된 생활 및 디지털 상거래의 세 가지 부문으로 운영됩니다.",
+    "business_model": "자빌 주식회사",
     "products": [
-      "전자 회로 기판 어셈블리",
-      "클라우드 데이터센터 서버 플랫폼",
-      "의료 및 소비자 건강 기기",
-      "자동차 어셈블리",
-      "스마트 제어 및 보안 시스템"
+      "전 세계 엔지니어링, 제조 및 공급망 솔루션",
+      "세 가지 부문: 규제 산업, 지능형 인프라, 연결된 생활 및 디지털 상거래",
+      "아날로그, 디지털, 무선 주파수, 전력, 센서 및 광통신을 위한 전자 하드웨어 및 임베디드 소프트웨어 설계 서비스",
+      "클라우드 데이터 센터 서버 플랫폼",
+      "시스템 조립, 테스트, 직접 주문 이행 및 주문 구성 서비스"
     ],
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도에 대한 구체적인 정보는 없으나, 다양한 산업의 OEM을 대상으로 합니다."
+    "wikipedia_excerpt": "Jabil Inc.는 주로 원래 장비 제조업체에 서비스를 제공하는 공급망 서비스와 함께 전자 회로 기판 어셈블리 및 시스템의 설계, 엔지니어링, 제조에 관여하는 미국의 다국적 제조 회사입니다. 본사는 플로리다주 세인트피터즈버그 게이트웨이 지역에 위치해 있습니다. Tampa Bay 지역에서 가장 큰 회사 중 하나입니다."
   },
   "category_b_financials": {
     "roe": 0.6,
@@ -55,7 +39,7 @@
     "gross_margin": 0.09,
     "revenue_growth_ttm": 0.23,
     "earnings_growth_ttm": 0.96,
-    "dividend_yield": 0.09,
+    "dividend_yield": 0.08,
     "payout_ratio": 0.04,
     "annual_revenue": [
       29802000000.0,
@@ -134,135 +118,33 @@
     "roe_pct": 59.7
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 3,000억 달러 (추정, EMS 시장 규모 기반)",
-    "tam_cagr_pct": "5-7% (근거: AI 인프라, 클라우드 및 데이터 센터, 자동화, 전동화 등 핵심 성장 동인 산업의 지속적인 투자 및 아웃소싱 확대)",
-    "growth_drivers": [
-      "AI 인프라 및 클라우드/데이터 센터 수요 증가: AI 기술 발전과 데이터 사용량 폭증으로 관련 하드웨어 및 인프라 구축 수요가 급증하고 있습니다.",
-      "산업 자동화 및 로봇 공학 확산: 스마트 팩토리, 창고 자동화, 로봇 도입 증가가 제조 및 공급망 솔루션 수요를 견인합니다.",
-      "전동화 및 재생 에너지 전환: 자동차 산업의 전동화, 재생 에너지 인프라 구축 등 친환경 산업으로의 전환이 새로운 기회를 창출합니다.",
-      "글로벌 공급망 복잡성 증가 및 효율성 요구: 기업들이 복잡한 글로벌 공급망을 효율적으로 관리하고 비용을 절감하기 위해 외부 전문가의 도움을 필요로 합니다.",
-      "제품 라이프사이클 전반의 통합 서비스 수요: 설계부터 생산, 제품 관리까지 전 과정을 아우르는 통합 솔루션에 대한 고객의 요구가 증가하고 있습니다."
-    ],
-    "market_share_pct": "5-10% (추정, EMS 시장 내 상위권 플레이어)",
-    "competitors": [
-      {
-        "name": "Foxconn (Hon Hai Precision Industry)",
-        "differentiation": "압도적인 규모와 생산 능력, 특히 소비자 전자제품 분야에서 강력한 입지 및 수직 통합 역량"
-      },
-      {
-        "name": "Flex Ltd.",
-        "differentiation": "다양한 산업 분야에 걸친 광범위한 서비스 포트폴리오와 엔드-투-엔드 솔루션 제공, 특히 고부가가치 시장에 집중"
-      },
-      {
-        "name": "Sanmina Corporation",
-        "differentiation": "고신뢰성, 고성능 제품 및 복잡한 시스템에 특화된 제조 역량, 국방, 항공우주 등 규제 산업에 강점"
-      },
-      {
-        "name": "Celestica Inc.",
-        "differentiation": "항공우주 및 방위, 산업, 헬스케어 등 고부가가치 시장에 집중하며 설계 및 엔지니어링 서비스에 강점"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium (글로벌 규모의 생산 시설, 기술 전문성, 공급망 네트워크 구축에 상당한 자본과 시간이 소요되지만, 특정 틈새시장 진입은 가능)",
-      "substitutes": "medium (고객사의 자체 생산(in-house manufacturing)이 잠재적 대체재이나, 비용 효율성 및 전문성 측면에서 Jabil과 같은 EMS 기업의 이점이 큼)",
-      "buyer_power": "high (대형 고객사는 상당한 구매력을 가지며, 여러 EMS 업체 간 경쟁을 통해 유리한 조건을 협상할 수 있음)",
-      "supplier_power": "medium (전자 부품 및 원자재 공급업체는 특정 핵심 부품에 대한 독점적 지위를 가질 수 있으나, Jabil의 대규모 구매력과 다각화된 공급망 관리가 이를 완화함)",
-      "rivalry": "high (EMS 산업은 Foxconn, Flex 등 대형 글로벌 플레이어들이 치열하게 경쟁하며, 가격, 기술, 서비스 품질이 주요 경쟁 요소임)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "글로벌 생산 및 공급망 네트워크: 전 세계에 걸친 생산 시설과 공급망 관리 역량을 통해 고객에게 최적의 생산 위치와 효율적인 자원 관리를 제공합니다.",
-      "종합적인 엔지니어링 및 제조 솔루션: 설계부터 생산, 제품 관리까지 제품 라이프사이클 전반에 걸친 통합 서비스를 제공하여 고객의 비용 절감 및 효율성 증대를 돕습니다.",
-      "다양한 산업 및 최종 시장 포트폴리오: 규제 산업(자동차, 헬스케어), 지능형 인프라(AI, 클라우드), 커넥티드 리빙 및 디지털 커머스 등 다각화된 시장에 서비스를 제공하여 리스크를 분산하고 성장 기회를 확보합니다.",
-      "고자동화 및 첨단 제조 역량: 고도로 자동화된 연속 흐름 제조와 첨단 전자 설계 및 제조 가능성 설계를 통해 고품질의 효율적인 생산을 가능하게 합니다.",
-      "고객 중심의 비즈니스 유닛 모델: 각 고객에게 전담 비즈니스 유닛 팀을 배정하여 단일 접점 서비스를 제공하고, 글로벌 전문성을 활용한 교차 기능 팀의 지원을 받습니다."
-    ],
-    "competitive_weaknesses": [
-      "원자재 가격 변동성 및 공급망 위험: 전자 부품 및 원자재 가격 변동과 공급망 중단 위험에 노출되어 있으며, 이는 마진에 부정적인 영향을 미칠 수 있습니다.",
-      "높은 운전자본 요구: 턴키 제조 서비스 제공자로서 부품 및 자재 조달에 상당한 운전자본이 필요하며, 재고 관리 위험을 부담합니다.",
-      "대형 고객사에 대한 의존도: 특정 대형 고객사에 대한 매출 의존도가 높을 경우, 해당 고객사의 수요 변동이나 계약 조건 변경이 실적에 큰 영향을 미칠 수 있습니다.",
-      "글로벌 경제 환경 변화에 대한 민감성: 전 세계적인 경기 침체, 지정학적 리스크, 무역 정책 변화 등 거시 경제 환경 변화에 민감하게 반응합니다.",
-      "경쟁 심화 및 마진 압박: EMS 산업 내 치열한 경쟁으로 인해 가격 경쟁이 심화되고 마진 압박을 받을 수 있습니다."
+      "Technology / Electronic Components 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 69.2,
+    "score": 72.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.82,
-    "trailing_pe": 47.637436,
-    "forward_pe": 24.944023,
-    "ev_to_ebitda": 17.253,
-    "price_to_sales": 1.1754272,
+    "trailing_pe": 51.901752,
+    "forward_pe": 26.124163,
+    "ev_to_ebitda": 18.215,
+    "price_to_sales": 1.2454457,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 76.73,
-    "outperform_6m_vs_nasdaq": 56.18,
-    "outperform_1m_vs_nasdaq": 3.65,
-    "lynch_category": "Stalwart",
-    "moat_type": "Switching Costs",
-    "moat_evidence": [
-      "Jabil은 고객에게 포괄적인 설계, 생산 및 제품 관리 서비스를 제공하며, 이는 제품 수명 주기 전반에 걸쳐 자원 및 재료의 원활한 관리를 가능하게 합니다. 이러한 통합 서비스는 고객의 제조 비용 절감, 공급망 효율성 향상, 재고 위험 최소화, 운송 비용 절감 및 제품 이행 가속화를 돕습니다.",
-      "Jabil은 고도로 자동화된 연속 흐름 제조와 고급 전자 설계 및 제조 가능성 설계를 결합한 전담 사업부를 통해 고객에게 서비스를 제공합니다. 각 사업부 팀은 고객과 Jabil 간의 단일 접점 역할을 하며, 이는 고객이 다른 공급업체로 전환할 때 상당한 재조정 비용과 복잡성을 야기할 수 있습니다.",
-      "Jabil은 전 세계에 생산 시설을 보유하고 있어 고객이 제품에 최적의 위치에서 동시에 제품을 제조할 수 있도록 합니다. 이러한 글로벌 입지는 고객의 복잡한 글로벌 공급망 요구 사항을 충족시키며, 다른 공급업체로의 전환 시 글로벌 운영 재편이라는 큰 부담을 안겨줍니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "AI 인프라 및 자동화 솔루션에 대한 투자 확대 및 신규 세그먼트 재편",
-    "bull_case": "AI 인프라 및 규제 산업 성장에 힘입어 매출 및 이익률 개선, 주가 지속 상승",
-    "base_case": "글로벌 경기 둔화 우려에도 불구하고 AI 인프라 및 규제 산업의 견조한 수요로 안정적인 매출 성장과 수익성 유지. 효율적인 비용 관리와 자본 배분을 통해 주주 가치 제고.",
-    "bear_case": "글로벌 경기 침체 심화로 인한 고객사 수요 감소, 공급망 불안정 및 원자재 가격 상승으로 마진 압박 심화, 신규 사업 투자 성과 부진으로 성장 동력 약화.",
-    "key_metrics_to_watch": [
-      "Intelligent Infrastructure 세그먼트 매출 성장률",
-      "영업이익률 (OPM)",
-      "잉여현금흐름 (FCF)"
-    ]
+    "outperform_1y_vs_nasdaq": 79.91,
+    "outperform_6m_vs_nasdaq": 51.62,
+    "outperform_1m_vs_nasdaq": 8.67,
+    "lynch_category": "Stalwart"
   },
-  "category_e_risks": {
-    "top_risks": [
-      {
-        "category": "거버넌스",
-        "description": "2025년 9월 1일부로 새로운 CISO로 교체되었으며, 이는 사이버 보안 리더십의 전환으로 인한 잠재적 위험을 내포합니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "규제",
-        "description": "회사의 사이버 보안 프로그램 및 관행은 고객의 기밀 지적 재산 정보 및 데이터를 보호하고 관련 데이터 보호 법규를 준수해야 하는 지속적인 부담을 안고 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "운영",
-        "description": "전 세계적으로 광범위한 제조 시설을 운영하고 있으며, 이 중 약 10%는 현재 사업 운영에 사용되지 않아 효율성 및 자산 활용에 대한 우려가 있습니다.",
-        "severity": "low"
-      },
-      {
-        "category": "재무",
-        "description": "배당금 지급은 이사회 재량에 따라 결정되며, 회사의 재무 성과 및 글로벌 경제 상황에 따라 변동될 수 있습니다.",
-        "severity": "low"
-      },
-      {
-        "category": "거시",
-        "description": "글로벌 경제 상황은 회사의 재무 성과와 배당금 지급 능력에 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "운영",
-        "description": "제조 시설의 ISO 인증(ISO 9001:2008 및 ISO-14001:2004)을 유지해야 하며, 이는 지속적인 관리 및 투자를 필요로 합니다.",
-        "severity": "low"
-      }
-    ],
-    "inversion_scenarios": [
-      "대규모 사이버 공격으로 인해 고객 데이터 유출 및 핵심 운영 시스템 마비가 발생하여 막대한 벌금, 소송 및 고객 신뢰 상실로 회사가 파산할 수 있습니다.",
-      "글로벌 경제 침체 또는 주요 고객사의 대규모 이탈로 인해 매출이 급감하고 수익성이 악화되어 재정적 어려움에 처할 수 있습니다.",
-      "핵심 제조 시설에서 심각한 환경 재해 또는 안전 사고가 발생하여 생산이 중단되고 막대한 손실 및 법적 책임을 지게 될 수 있습니다."
-    ],
-    "exit_signals": [
-      "새로운 CISO의 리더십 하에 사이버 보안 사고가 빈번하게 발생하거나 심각한 데이터 유출 사건이 발생할 경우.",
-      "회사의 주요 고객사가 대규모 계약을 해지하거나 경쟁사로 전환하여 매출 및 수익성에 심각한 타격을 입을 경우.",
-      "글로벌 제조 시설의 가동률이 지속적으로 하락하고, 미사용 자산에 대한 효율적인 활용 계획이 제시되지 않을 경우."
-    ]
-  },
+  "category_e_risks": {},
   "wikipedia_summary": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with supply chain services, primarily serving original equipment manufacturers. It is headquartered in the Gateway area of St. Petersburg, Florida. It is one of the largest companies in the Tampa Bay area.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:42:00.023937+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:15:53.812597+00:00"
   }
 }

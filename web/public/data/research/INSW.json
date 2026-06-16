@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-06-13T00:40:19.706274+00:00",
+  "generated_at": "2026-06-16T01:07:29.769323+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4059880192,
+    "market_cap": 4030177536,
     "shares_outstanding": 49504696,
     "employees": 2837,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": -0.102
   },
   "category_a_business": {
-    "overview": "International Seaways, Inc.는 국제 무역에서 원유 및 석유 제품을 운송하는 원양 선박을 소유하고 운영합니다. 이 회사는 원유 유조선과 제품 운반선이라는 두 부문으로 운영됩니다.",
+    "overview": "International Seaways, Inc.는 국제 무역에서 원유 및 석유 제품을 운송하기 위한 원양 선박을 소유하고 운영합니다. 이 회사는 원유 유조선과 제품 운반선이라는 두 부문으로 운영됩니다.",
     "business_model": "인터내셔널 시웨이즈, Inc.",
     "products": [
       "국제 무역에서 원유 및 석유 제품을 운송하기 위한 원양 선박 함대",
@@ -31,6 +31,91 @@
     ]
   },
   "category_b_financials": {
+    "roe": 0.27,
+    "roa": 0.11,
+    "profit_margin": 0.55,
+    "operating_margin": 0.61,
+    "gross_margin": 0.68,
+    "revenue_growth_ttm": 0.79,
+    "earnings_growth_ttm": 4.75,
+    "dividend_yield": 4.76,
+    "payout_ratio": 0.4,
+    "annual_revenue": [
+      843302000.0,
+      951613000.0,
+      1071775000.0,
+      864665000.0,
+      null
+    ],
+    "annual_operating_income": [
+      306389000.0,
+      425556000.0,
+      580065000.0,
+      424165000.0,
+      null
+    ],
+    "annual_eps": [
+      6.23,
+      8.38,
+      11.25,
+      7.77,
+      null
+    ],
+    "annual_free_cf": [
+      38131000.0,
+      261958000.0,
+      481772000.0,
+      171115000.0,
+      null
+    ],
+    "annual_total_debt": [
+      576215000.0,
+      711739000.0,
+      744530000.0,
+      1074638000.0,
+      null
+    ],
+    "annual_equity": [
+      2020277000.0,
+      1856048000.0,
+      1716757000.0,
+      1487752000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      5.75,
+      2.56,
+      1.42,
+      1.25,
+      1.0,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      325476000.0,
+      267879000.0,
+      196388000.0,
+      195641000.0,
+      183394000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 477.3,
     "sales_yoy_pct": 78.5,
     "ni_cagr_3y_pct": -7.27,
@@ -45,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 64.3,
+    "rs_rating": 88,
+    "score": 68.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 7.469035,
-    "forward_pe": 12.775417,
-    "ev_to_ebitda": 7.543,
-    "price_to_sales": 4.1121707,
+    "trailing_pe": 7.468808,
+    "forward_pe": 12.68195,
+    "ev_to_ebitda": 7.491,
+    "price_to_sales": 4.0820856,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 102.17,
-    "outperform_6m_vs_nasdaq": 61.99,
-    "outperform_1m_vs_nasdaq": -1.92,
+    "outperform_1y_vs_nasdaq": 104.68,
+    "outperform_6m_vs_nasdaq": 68.52,
+    "outperform_1m_vs_nasdaq": 0.58,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -83,6 +168,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:41:59.448537+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:15:42.944792+00:00"
   }
 }

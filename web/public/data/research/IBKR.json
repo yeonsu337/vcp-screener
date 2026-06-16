@@ -4,71 +4,271 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-05-29T00:26:10.162213+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-06-16T00:49:05.377613+00:00",
+  "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 141291847680,
+    "market_cap": 157341581312,
     "shares_outstanding": 445484364,
     "employees": 3232,
     "country": "United States",
     "website": "https://www.interactivebrokers.com",
-    "beta": 1.322
+    "beta": 1.329
   },
   "category_a_business": {
-    "overview": "Interactive Brokers Group, Inc.는 미국 및 국제적으로 자동화된 전자 브로커로 운영됩니다. 회사는 주식, 옵션, 선물, 외환 상품, 채권, 귀금속 및 암호화폐 거래의 실행, 청산 및 결제에 참여합니다. 회사는 보관, 프라임 브로커리지, 증권 및 마진 대출 서비스를 제공합니다.",
-    "business_model": "인터랙티브 브로커스 그룹, Inc.",
+    "overview": "IBKR은 미국 및 국제적으로 자동화된 전자 브로커로, 다양한 자산군 거래 및 청산 서비스를 제공합니다.",
+    "milestones": [
+      "1977: 설립 (Timber Hill Inc.로 시작)",
+      "1993년: Interactive Brokers Inc. 설립",
+      "2007: 나스닥 상장 (IBKR)",
+      "2019: IBKR Lite 출시로 개인 투자자 접근성 확대",
+      "2024: 일평균 260만 건의 거래 처리 (미국 최대 전자 거래 플랫폼)"
+    ],
+    "business_model": "거래 수수료, 순이자 수익, 시장 조성 활동을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "거래 수수료",
+      "순이자 수익 (마진 대출, 미결제 현금 이자)",
+      "시장 조성 및 중개 활동",
+      "데이터 및 소프트웨어 라이선스"
+    ],
+    "value_chain_position": "Midstream + 전자 거래 플랫폼을 통해 고객과 시장을 연결하고 거래를 실행, 청산합니다.",
     "products": [
-      "미국 및 국제적으로 자동화된 전자 브로커로서",
-      "보관, 프라임 브로커리지, 증권, 마진대출 서비스",
-      "헤지 및 뮤추얼 펀드, ETF, 등록 투자 자문가, 자기매매 그룹에 대한 보관 및 서비스 계좌",
-      "IBKR Trader Workstation, IBKR Desktop, IBKR Mobile, IBKR Client Portal 플랫폼 등의 거래 플랫폼",
-      "IBKR Pro, IBKR Lite, IBKR Universal Account, 보험 은행 예금 회수 프로그램, 투자자 마켓플레이스, 뮤추얼 펀드 mar"
+      "주식, 옵션, 선물, 외환, 채권, 암호화폐 거래",
+      "프라임 브로커리지 및 증권 대여 서비스",
+      "IBKR Trader Workstation, IBKR Mobile 등 거래 플랫폼",
+      "IBKR Pro, IBKR Lite 그렇죠."
     ],
     "channels": [
-      "B2B / 기업"
+      "B2C (개인 투자자)",
+      "B2B (헤지펀드, 뮤추얼펀드, RIA, 전업 투자 그룹, 소개 브로커)"
     ],
-    "wikipedia_excerpt": "Interactive Brokers, Inc.는 코네티컷 주 그리니치에 본사를 둔 미국의 다국적 중개 회사입니다. 일일 평균 수익 거래 수 기준으로 미국 최대 규모의 전자 거래 플랫폼을 운영하고 있습니다. 2024년에 플랫폼은 거래일당 평균 260만 건의 거래를 처리했습니다. Interactive Brokers는 최대 외환 시장 브로커이자 상품 브로커에게 서비스를 제공하는 최대 프라임 브로커 중 하나입니다. 회사는 주식, 옵션, 선물 계약, 실물 선물 교환, 선물 옵션, 채권, 뮤추얼 펀드, 통화, 암호화폐를 중개합니다.",
-    "milestones": [
-      "2024: , 플랫폼은 평균 2를 처리했습니다.",
-      "2024년: , 3개였습니다"
-    ]
+    "key_customers": "고객 집중도는 낮음. 330만 명 이상의 기관 및 개인 고객을 보유하고 있으며 특정 고객에 대한 의존도가 낮습니다."
   },
   "category_b_financials": {
+    "roe": 0.24,
+    "roa": 0.02,
+    "profit_margin": 0.16,
+    "operating_margin": 0.77,
+    "gross_margin": 0.93,
+    "revenue_growth_ttm": 0.17,
+    "earnings_growth_ttm": 0.23,
+    "dividend_yield": 0.39,
+    "payout_ratio": 0.14,
+    "annual_revenue": [
+      10222000000.0,
+      9316000000.0,
+      7787000000.0,
+      4192000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      8789000000.0,
+      7841000000.0,
+      6523000000.0,
+      3126000000.0,
+      null
+    ],
+    "annual_eps": [
+      2.22,
+      1.73,
+      1.42,
+      0.94,
+      null
+    ],
+    "annual_free_cf": [
+      15744000000.0,
+      8675000000.0,
+      4495000000.0,
+      3899000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      19000000.0,
+      14000000.0,
+      17000000.0,
+      18000000.0,
+      null
+    ],
+    "annual_equity": [
+      5363000000.0,
+      4280000000.0,
+      3584000000.0,
+      2848000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.59,
+      0.63,
+      0.59,
+      0.51,
+      0.48
+    ],
+    "quarterly_revenue": [
+      2646000000.0,
+      2739000000.0,
+      2704000000.0,
+      2469000000.0,
+      2310000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 25.4,
     "sales_yoy_pct": 16.8,
     "ni_cagr_3y_pct": 37.32,
     "roe_pct": 23.56
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 (estimate) + 글로벌 온라인 브로커리지 및 자산 관리 시장 규모 추정치 기반",
+    "tam_cagr_pct": "8-12% + 개인 투자자의 증가, 디지털 자산 및 글로벌 투자 접근성 확대, 핀테크 기술 발전이 주요 근거",
+    "growth_drivers": [
+      "글로벌 개인 투자자 증가 및 투자 상품 다양화에 대한 수요 증대",
+      "핀테크 기술 발전 및 AI 기반 자산 관리 솔루션 도입 가속화",
+      "신흥 시장의 금융 시장 개방 및 디지털 투자 플랫폼 확산",
+      "저비용/수수료 없는 거래 모델 확산에 따른 경쟁 심화 및 시장 확대",
+      "글로벌 분산 투자 및 다양한 자산 클래스(주식, 선물, 옵션, 외환 등)에 대한 접근성 요구 증가"
+    ],
+    "market_share_pct": "5-10% (글로벌 온라인 브로커리지 시장 기준, estimate)",
+    "competitors": [
+      {
+        "name": "Charles Schwab (Schwab)",
+        "differentiation": "광범위한 고객 기반, 종합적인 금융 서비스 제공, 강력한 브랜드 인지도, 자문 서비스 강점"
+      },
+      {
+        "name": "Fidelity Investments",
+        "differentiation": "다양한 투자 상품 및 서비스, 은퇴 계획 솔루션, 뮤추얼 펀드 강점, 강력한 기관 투자자 네트워크"
+      },
+      {
+        "name": "Robinhood",
+        "differentiation": "수수료 없는 거래 모델 선도, 젊은 세대 및 모바일 친화적 인터페이스, 암호화폐 거래 제공"
+      },
+      {
+        "name": "eToro",
+        "differentiation": "소셜 트레이딩 및 카피 트레이딩 기능, 다양한 암호화폐 및 CFD 상품 제공, 글로벌 사용자 기반"
+      },
+      {
+        "name": "TD Ameritrade (Schwab에 인수)",
+        "differentiation": "고급 트레이딩 플랫폼 및 도구, 교육 자료 풍부, 활발한 트레이더 커뮤니티 (현재 Schwab의 일부)"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 진입 장벽이 높지만, 핀테크 스타트업의 혁신적인 서비스 출시 가능성 존재",
+      "substitutes": "medium + 전통적인 은행, 자산 관리사, 로보 어드바이저, 직접 투자 등 다양한 대체재 존재",
+      "buyer_power": "high + 투자자들은 수수료, 플랫폼 기능, 상품 다양성 등을 기준으로 쉽게 브로커를 변경할 수 있음",
+      "supplier_power": "low + 기술 제공업체, 데이터 공급업체 등은 다수 존재하며, 브로커는 자체 기술력 보유",
+      "rivalry": "high + 수수료 경쟁 심화, 서비스 차별화 노력, 기술 혁신 경쟁이 치열함"
+    },
     "competitive_advantages": [
-      "Financial Services / Capital Markets 카테고리 — yfinance peer 비교 권장"
+      "다양한 글로벌 시장 및 자산 클래스에 대한 광범위한 접근성 제공",
+      "낮은 거래 수수료 및 경쟁력 있는 마진 금리",
+      "고급 트레이딩 도구 및 기술적으로 우수한 플랫폼",
+      "기관 및 전문 투자자에게 매력적인 정교한 기능 제공",
+      "강력한 규제 준수 및 리스크 관리 프레임워크"
+    ],
+    "competitive_weaknesses": [
+      "초보 투자자에게는 다소 복잡하게 느껴질 수 있는 플랫폼 인터페이스",
+      "일부 경쟁사에 비해 마케팅 및 브랜드 인지도가 상대적으로 낮음",
+      "고객 서비스 채널 및 개인화된 자문 서비스가 제한적일 수 있음",
+      "글로벌 규제 환경 변화에 대한 높은 의존성 및 규제 준수 비용 부담",
+      "수수료 없는 거래 모델을 제공하는 경쟁사들과의 가격 경쟁 압력"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 57.3,
+    "rs_rating": 81,
+    "score": 64.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.1843,
-    "trailing_pe": 35.66953,
-    "forward_pe": 29.104013,
+    "peg_ratio": 2.4511,
+    "trailing_pe": 39.81116,
+    "forward_pe": 32.242817,
     "ev_to_ebitda": null,
-    "price_to_sales": 21.922707,
+    "price_to_sales": 24.412968,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 17.02,
-    "outperform_6m_vs_nasdaq": 15.74,
-    "outperform_1m_vs_nasdaq": -1.89,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 46.14,
+    "outperform_6m_vs_nasdaq": 27.61,
+    "outperform_1m_vs_nasdaq": 5.0,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "IBKR은 전 세계적으로 다양한 규제 기관(SEC, FINRA, FCA 등)의 엄격한 인허가를 획득하고 준수하며 사업을 운영하고 있습니다. 이는 신규 진입자가 쉽게 모방할 수 없는 강력한 무형 자산이자 진입 장벽으로 작용합니다.",
+      "다수의 국가 및 지역에서 브로커-딜러 라이선스를 보유하고 있으며, 이는 각 관할권의 복잡한 규제 환경을 이해하고 준수하는 데 필요한 전문성과 자본력을 입증합니다. 이러한 규제 준수 역량은 경쟁 우위의 핵심입니다.",
+      "규제 당국의 승인 없이는 지분 25% 이상 소유권 변경이 제한되는 등, 기존 사업자의 안정성을 보장하는 규제 환경은 IBKR의 시장 지위를 공고히 하는 데 기여합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "글로벌 시장 확장 및 다양한 자산 클래스 제공을 통한 고객 기반 확대 지속",
+    "bull_case": "글로벌 시장 점유율 확대와 금리 인상 기조 유지로 순이자수익 증가 및 EPS 30% 이상 성장",
+    "base_case": "견고한 고객 성장과 효율적인 비용 관리를 통해 안정적인 수익성을 유지하며, 규제 환경 변화에 유연하게 대응하여 시장 평균 이상의 성장을 지속할 것입니다.",
+    "bear_case": "글로벌 경기 침체로 인한 거래량 감소, 예상치 못한 규제 강화 및 경쟁 심화로 수익성 악화",
+    "key_metrics_to_watch": [
+      "고객 계좌 수 및 자산 증가율",
+      "순이자수익 (NII) 추이",
+      "거래량 및 거래 수수료 수익"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Interactive Brokers, Inc. is an American multinational brokerage firm headquartered in Greenwich, Connecticut. It operates the largest electronic trading platform in the United States by number of daily average revenue trades. In 2024, the platform processed an average of 2.6 million trades per trading day. Interactive Brokers is the largest foreign exchange market broker and is one of the largest prime brokers servicing commodity brokers. The company brokers stocks, options, futures contracts, exchange of futures for physicals, options on futures, bonds, mutual funds, currency, cryptocurrency, contracts for difference, derivatives, and trading in prediction markets. Interactive Brokers offers direct market access, omnibus and non-disclosed broker accounts, and provides clearing services. The firm has operations in 36 countries and 28 currencies. As of December 31, 2024, it had 3.337 million institutional and individual brokerage customers, with total customer equity of US$568.2 billion. In addition to its headquarters in Greenwich, on the Gold Coast of Connecticut, the company has offices in major financial centers worldwide. More than half of the company's customers reside outside the United States, in approximately 200 countries.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "규제",
+        "description": "IBKR은 전 세계 여러 관할권에서 엄격한 금융 규제를 받으며, 규제 위반 시 막대한 벌금, 사업 제한 또는 면허 취소 등의 불이익을 받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "수수료 인하 경쟁 심화, 신기술 도입, 새로운 시장 진입자 등으로 인해 IBKR의 시장 점유율과 수익성이 압박받을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "시장 변동성, 금리 변화, 신용 위험 등은 IBKR의 투자 포트폴리오 가치와 대출 사업에 부정적인 영향을 미쳐 재무 성과를 악화시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 침체, 지정학적 불안정, 인플레이션 등 거시 경제 환경의 악화는 고객 거래 활동 감소 및 자산 가치 하락으로 이어져 IBKR의 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "IBKR은 기관 투자자 및 고액 자산가 고객 비중이 높아, 이들 고객의 이탈 또는 거래량 감소는 회사 수익에 상당한 타격을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "내부 통제 시스템의 미비 또는 경영진의 부적절한 의사결정은 운영 위험을 증가시키고 회사의 명성을 훼손할 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "공급망",
+        "description": "핵심 기술 공급업체 또는 데이터 제공업체의 서비스 중단은 IBKR의 거래 시스템 운영에 심각한 지장을 초래할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 금융 위기 또는 대규모 사이버 공격으로 인해 거래 시스템이 마비되고 고객 자산에 대한 신뢰가 상실되어 대규모 인출 사태가 발생할 경우 회사가 파산할 수 있습니다.",
+      "주요 규제 당국으로부터 사업 면허가 취소되거나 막대한 벌금 부과로 인해 영업 활동이 불가능해지고 재무 건전성이 심각하게 훼손될 경우 회사가 망할 수 있습니다.",
+      "경쟁사의 파격적인 수수료 인하 및 혁신적인 서비스 도입으로 인해 대규모 고객 이탈이 발생하고 수익성이 급격히 악화될 경우 회사가 존속하기 어려울 수 있습니다."
+    ],
+    "exit_signals": [
+      "주요 시장에서 규제 당국으로부터 사업 면허 취소 또는 영업 정지 명령이 내려지는 경우",
+      "분기별 고객 계좌 수 및 거래량이 2분기 연속 10% 이상 감소하는 추세가 나타나는 경우",
+      "경쟁사의 시장 점유율이 급격히 상승하고 IBKR의 수익성 지표가 지속적으로 악화되는 경우"
+    ]
+  },
+  "wikipedia_summary": "Interactive Brokers, Inc. is an American multinational brokerage firm headquartered in Greenwich, Connecticut. It operates the largest electronic trading platform in the United States by number of daily average revenue trades. In 2024, the platform processed an average of 2.6 million trades per trading day. Interactive Brokers is the largest foreign exchange market broker and is one of the largest prime brokers servicing commodity brokers. The company brokers stocks, options, futures contracts, exchange of futures for physicals, options on futures, bonds, mutual funds, currency, cryptocurrency, contracts for difference, derivatives and trading in prediction markets. Interactive Brokers offers direct market access, omnibus and non-disclosed broker accounts, and provides clearing services. The firm has operations in 36 countries and 28 currencies. As of December 31, 2024, it had 3.337 million institutional and individual brokerage customers, with total customer equity of US$568.2 billion. In addition to its headquarters in Greenwich, on the Gold Coast of Connecticut, the company has offices in major financial centers worldwide. More than half of the company's customers reside outside the United States, in approximately 200 countries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:41:45.359803+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:15:22.296773+00:00"
   }
 }

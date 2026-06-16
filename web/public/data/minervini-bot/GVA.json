@@ -1,30 +1,30 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "GVA",
-  "generated_at": "2026-06-13T00:30:19.339043+00:00",
-  "source_results_date": "2026-06-13",
-  "verdict": "BUY_AT_PIVOT",
-  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.79,
+  "generated_at": "2026-06-16T00:47:17.258242+00:00",
+  "source_results_date": "2026-06-16",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.65,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $145.00 근접(-3.03%).",
-    "13주 베이스 6.5% → 16.0% → 7.0% → 12.9% → 6.7% 수축, VDU 0.99× 진행.",
-    "Trend Template 8/8 통과, RS 70, RS 라인 신고가 -4.5%.",
-    "$145.00 돌파 시 매수·-7% 손절($134.85)·+20%($174.00) 절반 익절."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 5회, 마지막 6.73%).",
+    "13주 베이스 6.5% → 16.0% → 7.0% → 12.9% → 6.7%, VDU 0.96×, pivot $145.00(-2.51%).",
+    "Trend Template 8/8 통과, RS 70 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
-    "entry_type": "pivot_breakout",
-    "entry_price": 145.0,
-    "stop_price": 134.85,
-    "stop_pct": -7.0,
-    "target1_price": 174.0,
-    "target1_pct": 20.0,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": null,
+    "stop_pct": null,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "4/8",
+    "vcp_quality_score": "3/8",
     "rs_rating": 70,
     "stage": 2,
     "base_count": 2,
@@ -47,8 +47,9 @@
   ],
   "key_failures": [
     "P2_last_contraction (6.73% vs 6.5%)",
-    "P3_vol_dryup (0.99× vs 0.6×)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)"
+    "P3_vol_dryup (0.96× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "rs_line (-5.6% vs ≥-5.0%)"
   ],
   "warnings": [
     "RS 70 — Minervini 선호 80+ 미달, 강도 평균"

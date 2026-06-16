@@ -4,200 +4,162 @@
   "market": "US",
   "sector": "Communication Services",
   "industry": "Internet Content & Information",
-  "generated_at": "2026-05-29T00:24:07.771405+00:00",
+  "generated_at": "2026-06-16T00:58:08.941372+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4678015254528,
-    "shares_outstanding": 5456000000,
+    "market_cap": 4476882124800,
+    "shares_outstanding": 5495819345,
     "employees": 194668,
     "country": "United States",
     "website": "https://abc.xyz",
-    "beta": 1.267
+    "beta": 1.237
   },
   "category_a_business": {
-    "overview": "Alphabet은 Google의 모회사로, 검색, 클라우드, AI 등 다양한 기술 서비스를 제공하는 글로벌 기업입니다.",
-    "milestones": [
-      "1998: Google Inc. 설립",
-      "2004년: Google Inc. IPO",
-      "2005: YouTube 인수",
-      "2007: Android 공개",
-      "2015: Google 사업 재편, Alphabet Inc. 설립",
-      "2023: Gemini AI 모델 출시"
-    ],
-    "business_model": "광고, 클라우드 서비스, 구독 및 하드웨어 판매를 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "Google 검색 및 YouTube 광고",
-      "Google Cloud 구독 및 사용료",
-      "Google Play 앱/콘텐츠 판매",
-      "YouTube 프리미엄/TV 구독",
-      "하드웨어 기기 판매",
-      "기타 사업 (자율주행, 인터넷 서비스 등)"
-    ],
-    "value_chain_position": "Downstream + 최종 사용자에게 직접 서비스를 제공하며, 광고주와 기업 고객을 연결합니다.",
+    "overview": "Alphabet Inc.는 미국, 유럽, 중동, 아프리카, 아시아 태평양, 캐나다 및 라틴 아메리카에서 다양한 제품과 플랫폼을 제공합니다. Google 서비스, Google Cloud 및 기타 Bets 세그먼트를 통해 운영됩니다.",
+    "business_model": "알파벳 주식회사",
     "products": [
-      "Google 검색",
-      "유튜브",
-      "기계적 인조 인간",
-      "구글 클라우드 플랫폼",
-      "지메일",
-      "구글 지도"
+      "미국, 유럽, 중동, 아프리카, 아시아태평양, 캐나다, 라티 등 다양한 제품과 플랫폼",
+      "Google 서비스, Google Cloud 및 기타 Bets 세그먼트를 통해",
+      "광고, Android, Chrome, 기기, Gmail, Google 드라이브, Google 지도, Google 포토, Google을 포함한 제품 및 서비스",
+      "AI 인프라, Vertex AI 플랫폼, Gemini e를 포함한 AI 솔루션에 대한 소비 기반 요금 및 구독",
+      "사이버 보안, 데이터 및 분석 서비스"
     ],
     "channels": [
-      "B2C",
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도는 낮음. 전 세계 수십억 명의 개인 사용자 및 수백만 기업 고객 보유."
+    "wikipedia_excerpt": "Alphabet Inc.는 캘리포니아주 마운틴뷰에 본사를 둔 미국의 다국적 기술 대기업 지주 회사입니다. 2015년 10월 2일 Google의 구조 조정을 통해 탄생했으며 Google과 여러 이전 Google 자회사의 모회사가 되었습니다. 알파벳은 나스닥 대형주 섹션에 GOOGL 및 GOOG라는 종목 코드로 상장되어 있습니다. 두 종류의 주식 모두 S&P 500 및 Nasdaq-100과 같은 주요 주식 시장 지수의 구성 요소입니다. 알파벳은 빅테크 회사로 묘사되었습니다.",
+    "milestones": [
+      "2015년: , Google 및 여러 이전 Google 자회사의 모회사가 되었습니다."
+    ]
   },
   "category_b_financials": {
+    "roe": 0.39,
+    "roa": 0.15,
+    "profit_margin": 0.38,
+    "operating_margin": 0.36,
+    "gross_margin": 0.6,
+    "revenue_growth_ttm": 0.22,
+    "earnings_growth_ttm": 0.82,
+    "dividend_yield": 0.25,
+    "payout_ratio": 0.06,
+    "annual_revenue": [
+      402836000000.0,
+      350018000000.0,
+      307394000000.0,
+      282836000000.0
+    ],
+    "annual_operating_income": [
+      129039000000.0,
+      112390000000.0,
+      84293000000.0,
+      74842000000.0
+    ],
+    "annual_eps": [
+      10.81,
+      8.04,
+      5.8,
+      4.56
+    ],
+    "annual_free_cf": [
+      73266000000.0,
+      72764000000.0,
+      69495000000.0,
+      60010000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      59291000000.0,
+      22574000000.0,
+      27121000000.0,
+      29679000000.0,
+      null
+    ],
+    "annual_equity": [
+      415265000000.0,
+      325084000000.0,
+      283379000000.0,
+      256144000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      5.11,
+      2.82,
+      2.87,
+      2.31,
+      2.81,
+      null
+    ],
+    "quarterly_revenue": [
+      109896000000.0,
+      113829000000.0,
+      102346000000.0,
+      96428000000.0,
+      90234000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 81.2,
     "sales_yoy_pct": 21.8,
     "ni_cagr_3y_pct": 30.14,
     "roe_pct": 38.88
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "5,000B - 7,000B (estimate) + 디지털 광고, 클라우드 컴퓨팅, AI, 자율주행, 기타 신기술 시장을 종합적으로 고려한 추정치. 각 시장의 성장 잠재력을 합산하여 추정.",
-    "tam_cagr_pct": "15% - 20% (estimate) + 디지털 전환 가속화, AI 기술의 광범위한 적용, 클라우드 서비스 수요 증가, 신흥 시장의 성장 잠재력에 기반한 추정.",
-    "growth_drivers": [
-      "AI 기술의 제품 및 서비스 전반에 걸친 통합 및 확장 (AI Overviews, AI Mode in Search, Google Cloud Platform의 엔터프라이즈 AI 솔루션 등).",
-      "클라우드 컴퓨팅 시장의 지속적인 성장 및 Google Cloud의 시장 점유율 확대.",
-      "광고 외 수익원 (클라우드, 소비자 구독, 플랫폼, 기기 등)의 다각화 및 성장.",
-      "글로벌 디지털 경제의 지속적인 확장 및 사용자 기반 증가.",
-      "Waymo와 같은 'Other Bets' 부문의 장기적인 혁신 및 잠재적 상업화."
-    ],
-    "market_share_pct": "디지털 광고 시장 25-30% (estimate), 클라우드 시장 10-15% (estimate), 검색 엔진 시장 85-90% (estimate).",
-    "competitors": [
-      {
-        "name": "Meta Platforms (Facebook)",
-        "differentiation": "소셜 미디어 플랫폼을 통한 방대한 사용자 데이터 및 광고 도달 범위, 메타버스 기술 투자."
-      },
-      {
-        "name": "Amazon (AWS)",
-        "differentiation": "클라우드 컴퓨팅 시장의 선두 주자로서 강력한 인프라 및 서비스 포트폴리오, 전자상거래 생태계와의 연계."
-      },
-      {
-        "name": "Microsoft (Azure, Bing)",
-        "differentiation": "엔터프라이즈 소프트웨어 시장의 지배력, 클라우드 서비스 (Azure)의 빠른 성장, AI 기술 투자 및 OpenAI와의 협력."
-      },
-      {
-        "name": "Apple",
-        "differentiation": "하드웨어-소프트웨어 통합 생태계, 강력한 브랜드 충성도, 개인 정보 보호에 대한 강조."
-      },
-      {
-        "name": "OpenAI",
-        "differentiation": "최첨단 생성형 AI 모델 개발 및 기술 리더십, Microsoft와의 전략적 파트너십."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium + 초기 투자 비용이 높지만, AI 기술 발전으로 특정 니치 시장 진입 장벽이 낮아질 수 있음.",
-      "substitutes": "medium + 검색, 광고, 클라우드 등 핵심 서비스에 대한 직접적인 대체재는 제한적이나, AI 챗봇 등 새로운 형태의 정보 접근 방식이 부상 중.",
-      "buyer_power": "medium + 광고주 및 클라우드 고객은 선택지가 많아 가격 협상력이 있으나, Google의 독점적인 데이터와 기술력으로 인해 전환 비용이 발생할 수 있음.",
-      "supplier_power": "low + 기술 인력, 데이터 센터 장비 등 공급업체는 다수 존재하며, Google의 구매력이 매우 큼.",
-      "rivalry": "high + 디지털 광고, 클라우드, AI 등 주요 사업 분야에서 Meta, Amazon, Microsoft 등 거대 기술 기업들과 치열한 경쟁."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "글로벌 검색 시장의 압도적인 점유율과 방대한 사용자 데이터.",
-      "AI 연구 및 개발에 대한 막대한 투자와 선도적인 기술력.",
-      "Google Cloud Platform을 통한 엔터프라이즈 시장 확장 및 수익 다각화.",
-      "Android, YouTube 등 강력한 플랫폼 생태계와 사용자 기반.",
-      "혁신적인 'Other Bets'를 통한 장기적인 성장 동력 확보."
-    ],
-    "competitive_weaknesses": [
-      "규제 당국의 반독점 조사 및 규제 강화 위험.",
-      "광고 수익 의존도가 여전히 높으며, 경기 침체 시 광고 지출 감소에 취약.",
-      "AI 기술 경쟁 심화로 인한 연구 개발 비용 증가 및 수익성 압박.",
-      "개인 정보 보호 및 데이터 보안에 대한 대중의 우려 증가.",
-      "'Other Bets' 부문의 지속적인 적자 및 불확실한 상업화 시점."
+      "커뮤니케이션 서비스 / 인터넷 콘텐츠 및 정보 카테고리 — yfinance Peer 경쟁 페이지"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 66.3,
+    "rs_rating": 79,
+    "score": 61.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5152,
-    "trailing_pe": 29.318148,
-    "forward_pe": 26.6761,
-    "ev_to_ebitda": 28.712,
-    "price_to_sales": 11.072278,
+    "peg_ratio": 1.4102,
+    "trailing_pe": 27.314732,
+    "forward_pe": 25.351831,
+    "ev_to_ebitda": 27.381,
+    "price_to_sales": 10.596221,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 82.5,
-    "outperform_6m_vs_nasdaq": 3.72,
-    "outperform_1m_vs_nasdaq": 1.98,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets | Network Effect",
-    "moat_evidence": [
-      "Google Services의 압도적인 시장 지배력과 브랜드 인지도는 무형 자산으로서 강력한 해자를 형성합니다.",
-      "Google 검색, YouTube 등 핵심 서비스의 방대한 사용자 기반은 네트워크 효과를 창출하여 신규 경쟁자의 진입을 어렵게 합니다.",
-      "AI 연구 개발에 대한 지속적인 대규모 투자는 기술 리더십을 유지하고 혁신적인 제품 및 서비스 출시를 가능하게 하는 무형 자산입니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "AI Overviews, AI Mode in Search 등 AI 제품 및 서비스 확장",
-    "bull_case": "AI 기반 제품의 성공적인 수익화와 클라우드 사업의 고성장으로 3년 내 EPS 50% 이상 성장",
-    "base_case": "Google Services의 안정적인 성장과 Google Cloud의 견조한 성장을 바탕으로 연간 15~20%의 매출 및 이익 성장률을 유지할 것입니다. AI 통합은 장기적인 성장 동력이 될 것입니다.",
-    "bear_case": "AI 경쟁 심화, 규제 강화, 광고 시장 둔화로 인해 매출 성장률이 둔화되고 수익성이 악화될 수 있습니다. 특히 AI 수익화 실패 시 성장 동력이 약화될 것입니다.",
-    "key_metrics_to_watch": [
-      "Google Cloud 매출 성장률",
-      "Google Services 영업이익률",
-      "AI 제품 및 서비스 사용자 참여도",
-      "Alphabet-level activities (AI R&D) 투자 효율성"
-    ]
+    "outperform_1y_vs_nasdaq": 72.32,
+    "outperform_6m_vs_nasdaq": 4.08,
+    "outperform_1m_vs_nasdaq": -7.7,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "경쟁",
-        "description": "온라인 광고 시장의 경쟁 심화와 광고 품질, 형식, 정책 변화로 인해 광고 수익이 감소할 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "지정학적 사건 및 규제 변화가 광고주, 소비자, 기업 지출에 영향을 미쳐 매출 변동을 초래할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Google Cloud 수익의 변동은 위에서 설명한 일반적인 요인 외에도 고객 사용량, 수요, 공급 가용성의 변화와 같은 요인의 영향을 받아 왔으며 앞으로도 계속 영향을 받을 수 있습니다.",
         "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "외환 환율 변동, 가격 정책 변화, 일반 경제 상황이 매출에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "고객집중도",
-        "description": "광고 수익은 검색 및 네트워크 파트너에게 지급하는 트래픽 획득 비용(TAC)에 크게 의존하며, 이는 수익성에 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거시",
-        "description": "신흥 시장의 트래픽 성장과 성숙 시장의 변화가 광고 수익에 영향을 미칠 수 있습니다.",
-        "severity": "low"
-      },
-      {
-        "category": "경쟁",
-        "description": "클라우드 서비스 시장에서의 경쟁 심화와 고객 사용량 및 수요 변화가 Google Cloud 매출에 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "직원 보상 비용을 포함한 비용 구조가 매출 변화와 직접적으로 연관되지 않아 수익성에 압박을 줄 수 있습니다.",
-        "severity": "low"
       }
     ],
-    "inversion_scenarios": [
-      "주요 규제 기관이 구글의 광고 사업 모델을 해체하도록 강제하거나, 핵심 서비스에 대한 독점금지 소송에서 패소하여 사업 구조가 근본적으로 변경될 경우.",
-      "AI 기술 경쟁에서 뒤처져 핵심 제품 및 서비스의 경쟁 우위를 상실하고, 사용자 이탈이 가속화될 경우.",
-      "글로벌 경기 침체가 장기화되어 광고주들의 지출이 급격히 감소하고, 클라우드 및 구독 서비스 수요가 크게 위축될 경우.",
-      "주요 검색 엔진 또는 모바일 운영체제 파트너가 구글과의 계약을 해지하거나, 자체적인 광고 플랫폼을 구축하여 트래픽 획득 비용이 감당할 수 없을 정도로 증가할 경우."
-    ],
     "exit_signals": [
-      "구글의 광고 매출 성장률이 3분기 연속 시장 평균을 하회하고, 시장 점유율이 지속적으로 감소하는 것이 확인될 경우.",
-      "주요 AI 모델 또는 클라우드 서비스에서 경쟁사에 비해 현저히 뒤처지는 기술적 결함이나 성능 저하가 반복적으로 보고될 경우.",
-      "주요 국가에서 구글의 핵심 사업 모델에 대한 강력한 규제 조치가 발표되고, 이로 인해 사업 운영 방식에 중대한 변화가 불가피해질 경우.",
-      "경영진의 중대한 전략적 오판이나 거버넌스 문제가 발생하여 기업 가치에 대한 신뢰가 크게 훼손될 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-13T00:41:44.120240+00:00"
+    "GoogleWebTranslator": "2026-06-16T01:15:07.013568+00:00"
   }
 }
