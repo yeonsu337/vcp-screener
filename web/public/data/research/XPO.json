@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-06-13T00:41:21.575199+00:00",
+  "generated_at": "2026-06-17T00:42:47.713406+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26808221696,
+    "market_cap": 25157437440,
     "shares_outstanding": 117409981,
     "employees": 37000,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.638
   },
   "category_a_business": {
-    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
+    "overview": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다. 이 회사는 북미 LTL(혼적 화물 운송)과 유럽 운송이라는 두 가지 부문으로 운영됩니다. 북미 LTL 부문은 배송업체에게 미국, 멕시코, 캐나다 및 카리브해 지역에 지리적 밀도와 날짜가 명확한 국내 및 국경 간 서비스를 제공합니다.",
     "business_model": "XPO, Inc.는 자회사와 함께 미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역에서 화물 운송 서비스를 제공합니다.",
     "products": [
       "미국, 북미, 프랑스, ​​영국 및 기타 유럽 지역의 화물 운송 서비스",
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 65.8,
-    "vcp_quality": 0.0,
+    "rs_rating": 78,
+    "score": 67.5,
+    "vcp_quality": 10.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.5211,
-    "trailing_pe": 78.46391,
-    "forward_pe": 38.102943,
-    "ev_to_ebitda": 23.678,
-    "price_to_sales": 3.2302954,
+    "peg_ratio": 2.4446,
+    "trailing_pe": 73.6323,
+    "forward_pe": 35.703693,
+    "ev_to_ebitda": 22.403,
+    "price_to_sales": 3.0313818,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 57.37,
-    "outperform_6m_vs_nasdaq": 42.34,
-    "outperform_1m_vs_nasdaq": 17.1,
+    "outperform_1y_vs_nasdaq": 41.98,
+    "outperform_6m_vs_nasdaq": 30.03,
+    "outperform_1m_vs_nasdaq": 4.34,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "XPO, Inc., formerly XPO Logistics, is an American transportation company that conducts less-than-truckload shipping, or \"LTL\" in North America. The company has headquarters in Greenwich, Connecticut, and has 592 locations globally. XPO is the second largest provider of LTL services in North America, operating in 99 percent of all U.S. postal codes.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-16T01:18:17.244541+00:00"
+    "GoogleWebTranslator": "2026-06-17T00:55:13.827251+00:00"
   }
 }

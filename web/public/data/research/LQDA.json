@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-06-16T00:59:12.489107+00:00",
+  "generated_at": "2026-06-17T00:35:38.336493+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6385037312,
+    "market_cap": 6048000000,
     "shares_outstanding": 88928099,
     "employees": 216,
     "country": "United States",
@@ -126,20 +126,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 96,
-    "score": 70.7,
+    "rs_rating": 95,
+    "score": 66.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 422.35297,
-    "forward_pe": 12.885859,
-    "ev_to_ebitda": 136.124,
-    "price_to_sales": 22.165266,
+    "trailing_pe": 425.06253,
+    "forward_pe": 12.205671,
+    "ev_to_ebitda": 128.896,
+    "price_to_sales": 20.995262,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 361.18,
-    "outperform_6m_vs_nasdaq": 107.22,
-    "outperform_1m_vs_nasdaq": 20.9,
+    "outperform_1y_vs_nasdaq": 346.43,
+    "outperform_6m_vs_nasdaq": 90.03,
+    "outperform_1m_vs_nasdaq": 18.89,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -184,6 +184,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-16T01:16:09.720347+00:00"
+    "GoogleWebTranslator": "2026-06-17T00:52:43.014512+00:00"
   }
 }

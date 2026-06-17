@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-06-12T00:48:50.356881+00:00",
+  "generated_at": "2026-06-17T00:50:57.656114+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 60243906560,
+    "market_cap": 60589088768,
     "shares_outstanding": 454191112,
     "employees": 415000,
     "country": "United States",
@@ -17,14 +17,14 @@
     "beta": 0.991
   },
   "category_a_business": {
-    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 이 회사는 또한 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
+    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 아동, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 이 회사는 또한 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
     "business_model": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다.",
     "products": [
       "미국의 일반 상품 소매업체로서",
-      "여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
+      "여성, 남성, 청소년, 아동, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
       "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
       "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
-      "자사 매장을 통한 제품"
+      "자사 매장을 통한 자사 제품"
     ],
     "channels": [
       "B2B / 기업"
@@ -39,7 +39,7 @@
     "gross_margin": 0.28,
     "revenue_growth_ttm": 0.07,
     "earnings_growth_ttm": -0.25,
-    "dividend_yield": 3.56,
+    "dividend_yield": 3.48,
     "payout_ratio": 0.6,
     "annual_revenue": [
       104780000000.0,
@@ -125,20 +125,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 56.0,
+    "rs_rating": 75,
+    "score": 55.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3763,
-    "trailing_pe": 17.544973,
-    "forward_pe": 14.9050455,
-    "ev_to_ebitda": 9.106,
-    "price_to_sales": 0.56632453,
+    "peg_ratio": 2.4727,
+    "trailing_pe": 17.598944,
+    "forward_pe": 14.986709,
+    "ev_to_ebitda": 9.135,
+    "price_to_sales": 0.5695694,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 6.47,
-    "outperform_6m_vs_nasdaq": 35.0,
-    "outperform_1m_vs_nasdaq": 11.0,
+    "outperform_1y_vs_nasdaq": 10.09,
+    "outperform_6m_vs_nasdaq": 26.39,
+    "outperform_1m_vs_nasdaq": 9.18,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "소비자는 디지털 도구를 사용하여 신속하게 비교 쇼핑을 할 수 있기 때문에 가격이나 편의성에만 기초하여 결정을 내릴 수 있으며, 이는 경쟁업체와의 차별화 능력을 제한할 수 있습니다.",
+        "description": "소비자는 디지털 도구를 사용하여 빠르게 비교 쇼핑을 할 수 있기 때문에 가격이나 편의성에만 기초하여 결정을 내릴 수 있으며, 이로 인해 경쟁사와 차별화하는 능력이 제한될 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates retail stores. It is the eighth-largest retailer in the United States and is a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-16T01:17:27.426221+00:00"
+    "GoogleWebTranslator": "2026-06-17T00:54:33.530611+00:00"
   }
 }

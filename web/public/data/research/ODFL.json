@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-06-12T00:50:53.928376+00:00",
+  "generated_at": "2026-06-17T00:49:56.642064+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 51526221824,
+    "market_cap": 48169615360,
     "shares_outstanding": 207968283,
     "employees": 20264,
     "country": "United States",
@@ -120,27 +120,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 60.5,
-    "vcp_quality": 0.0,
+    "rs_rating": 78,
+    "score": 60.6,
+    "vcp_quality": 9.4,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.3646,
-    "trailing_pe": 51.832634,
-    "forward_pe": 39.20898,
-    "ev_to_ebitda": 30.019,
-    "price_to_sales": 9.443563,
+    "peg_ratio": 3.3856,
+    "trailing_pe": 48.25416,
+    "forward_pe": 36.52356,
+    "ev_to_ebitda": 28.054,
+    "price_to_sales": 8.828375,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 17.62,
-    "outperform_6m_vs_nasdaq": 57.38,
-    "outperform_1m_vs_nasdaq": 30.87,
+    "outperform_1y_vs_nasdaq": 9.63,
+    "outperform_6m_vs_nasdaq": 31.9,
+    "outperform_1m_vs_nasdaq": 13.6,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "다음은 당사의 사업, 재무 상태, 운영 결과 또는 현금 흐름에 부정적인 영향을 미칠 수 있는 몇 가지 중요한 위험에 대해 설명합니다.",
+        "description": "다음은 당사의 사업, 재무 상태, 영업 결과 또는 현금 흐름에 부정적인 영향을 미칠 수 있는 몇 가지 중요한 위험에 대해 설명합니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-16T01:16:31.818796+00:00"
+    "GoogleWebTranslator": "2026-06-17T00:53:10.842100+00:00"
   }
 }

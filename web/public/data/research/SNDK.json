@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-29T00:31:59.880289+00:00",
+  "generated_at": "2026-06-17T00:34:36.804234+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 243110068224,
+    "market_cap": 294928154624,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -27,9 +27,75 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "SanDisk Corporation은 캘리포니아 밀피타스에 본사를 둔 미국의 다국적 반도체 회사입니다."
+    "wikipedia_excerpt": "Sandisk Corporation은 캘리포니아 주 밀피타스에 본사를 둔 미국의 다국적 컴퓨터 반도체 회사입니다."
   },
   "category_b_financials": {
+    "roe": 0.39,
+    "roa": 0.23,
+    "profit_margin": 0.34,
+    "operating_margin": 0.7,
+    "gross_margin": 0.56,
+    "revenue_growth_ttm": 2.51,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      7355000000.0,
+      6663000000.0,
+      6086000000.0
+    ],
+    "annual_operating_income": [
+      507000000.0,
+      -444000000.0,
+      -1295000000.0
+    ],
+    "annual_eps": [
+      -11.32,
+      -4.63,
+      -14.78
+    ],
+    "annual_free_cf": [
+      -120000000.0,
+      -475000000.0,
+      -932000000.0
+    ],
+    "annual_total_debt": [
+      2042000000.0,
+      985000000.0
+    ],
+    "annual_equity": [
+      9216000000.0,
+      11082000000.0
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30"
+    ],
+    "quarterly_eps": [
+      23.03,
+      5.15,
+      0.75,
+      -0.16,
+      -13.33,
+      null
+    ],
+    "quarterly_revenue": [
+      5950000000.0,
+      3025000000.0,
+      2308000000.0,
+      1901000000.0,
+      1695000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "sales_yoy_pct": 251.0,
     "roe_pct": 39.3
   },
@@ -43,19 +109,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 69.6,
+    "score": 66.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 54.34095,
-    "forward_pe": 9.327701,
-    "ev_to_ebitda": 41.18,
-    "price_to_sales": 18.439781,
+    "trailing_pe": 71.94906,
+    "forward_pe": 10.880052,
+    "ev_to_ebitda": 54.798,
+    "price_to_sales": 22.370157,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 4159.54,
-    "outperform_6m_vs_nasdaq": 605.63,
-    "outperform_1m_vs_nasdaq": 54.64,
+    "outperform_1y_vs_nasdaq": 4550.09,
+    "outperform_6m_vs_nasdaq": 852.21,
+    "outperform_1m_vs_nasdaq": 40.91,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -82,7 +148,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "비용 증가에 따른 당사 제품의 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
+        "description": "비용 증가에 따른 당사 제품 가격 인상은 미국 내 해당 제품에 대한 수요에 부정적인 영향을 미칠 수 있으며, 이는 당사의 성과 및 재무 결과에도 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -98,8 +164,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "SanDisk Corporation is an American multinational semiconductor company based in Milpitas, California.",
+  "wikipedia_summary": "Sandisk Corporation is an American multinational computer semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-16T01:17:27.422496+00:00"
+    "GoogleWebTranslator": "2026-06-17T00:54:00.996079+00:00"
   }
 }

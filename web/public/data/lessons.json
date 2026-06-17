@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T01:12:30.133969+00:00",
+  "generated_at": "2026-06-17T00:50:20.647096+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -9,31 +9,31 @@
   },
   "snapshot": {
     "total_trades": 40,
-    "active": 5,
-    "exited": 35,
+    "active": 4,
+    "exited": 36,
     "winners_50pct": 1,
     "winners_30pct": 2,
     "losers": 1
   },
   "performance": {
-    "win_rate_pct": 65.0,
-    "profit_factor": 3.0,
-    "expectancy": 4.88,
-    "avg_winner_pct": 11.26,
-    "avg_loser_pct": -6.98,
+    "win_rate_pct": 67.5,
+    "profit_factor": 3.44,
+    "expectancy": 5.55,
+    "avg_winner_pct": 11.59,
+    "avg_loser_pct": -6.99,
     "best": {
       "ticker": "160980.KQ",
-      "return_pct": 60.0
+      "return_pct": 52.6
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 33.2,
-    "avg_holding_loser_days": 25
+    "avg_holding_winner_days": 33.6,
+    "avg_holding_loser_days": 23.8
   },
   "exit_breakdown": {
-    "EX0_unknown": 4,
+    "EX0_unknown": 5,
     "EX6_absent": 25,
     "EX4_50dma_break": 4,
     "EX5_trailing": 1,
@@ -44,25 +44,25 @@
       {
         "primary_passed": 9,
         "trades": 2,
-        "avg_return_pct": 29.46,
+        "avg_return_pct": 25.77,
         "win_rate_pct": 50.0
       },
       {
         "primary_passed": 10,
-        "trades": 2,
-        "avg_return_pct": 14.31,
-        "win_rate_pct": 50.0
+        "trades": 3,
+        "avg_return_pct": 12.58,
+        "win_rate_pct": 66.7
       },
       {
         "primary_passed": 11,
-        "trades": 5,
-        "avg_return_pct": 6.31,
-        "win_rate_pct": 60.0
+        "trades": 3,
+        "avg_return_pct": 9.66,
+        "win_rate_pct": 66.7
       },
       {
         "primary_passed": 12,
-        "trades": 4,
-        "avg_return_pct": 9.87,
+        "trades": 3,
+        "avg_return_pct": 8.82,
         "win_rate_pct": 100.0
       }
     ],
@@ -153,10 +153,10 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 30,
-      "win_rate_pct": 63.3,
-      "avg_return_pct": 4.18,
-      "best_return_pct": 60.0
+      "trades": 31,
+      "win_rate_pct": 67.7,
+      "avg_return_pct": 5.33,
+      "best_return_pct": 52.6
     },
     {
       "sector": "Industrials",
@@ -169,8 +169,8 @@
       "sector": "Energy",
       "trades": 2,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 4.93,
-      "best_return_pct": 6.5
+      "avg_return_pct": 5.08,
+      "best_return_pct": 6.8
     },
     {
       "sector": "Real Estate",
@@ -183,7 +183,7 @@
       "sector": "Technology",
       "trades": 2,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 14.9,
+      "avg_return_pct": 14.78,
       "best_return_pct": 23.4
     },
     {
@@ -192,13 +192,6 @@
       "win_rate_pct": 100.0,
       "avg_return_pct": 2.2,
       "best_return_pct": 2.2
-    },
-    {
-      "sector": "Healthcare",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 13.3,
-      "best_return_pct": 13.3
     }
   ],
   "market_breakdown": {
@@ -209,8 +202,8 @@
     },
     "KR": {
       "trades": 6,
-      "win_rate_pct": 83.3,
-      "avg_return_pct": 24.14
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 28.62
     },
     "HK": {
       "trades": 2,
@@ -219,34 +212,34 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.0,
-    "loser_avg_rs": 83.1,
-    "winner_n": 26,
-    "loser_n": 14
+    "winner_avg_rs": 83.2,
+    "loser_avg_rs": 82.5,
+    "winner_n": 27,
+    "loser_n": 13
   },
   "time_curve": [
     {
       "day": 1,
       "trades": 39,
-      "avg_return_pct": 4.84,
-      "winners_pct": 64.1
+      "avg_return_pct": 5.53,
+      "winners_pct": 66.7
     },
     {
       "day": 5,
       "trades": 39,
-      "avg_return_pct": 4.84,
-      "winners_pct": 64.1
+      "avg_return_pct": 5.53,
+      "winners_pct": 66.7
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 6.25,
-      "winners_pct": 71.0
+      "avg_return_pct": 7.12,
+      "winners_pct": 74.2
     },
     {
       "day": 63,
-      "trades": 2,
-      "avg_return_pct": 9.92,
+      "trades": 3,
+      "avg_return_pct": 24.2,
       "winners_pct": 100.0
     }
   ],
@@ -278,7 +271,7 @@
     "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
   },
   "data_status": {
-    "exited_trades_count": 35,
+    "exited_trades_count": 36,
     "min_for_meaningful": 5,
     "fallback_message": null
   }
