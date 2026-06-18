@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-06-17T00:30:45.205762+00:00",
+  "generated_at": "2026-06-18T00:33:43.086920+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 64080535552,
+    "market_cap": 63956865024,
     "shares_outstanding": 156542162,
     "employees": 6600,
     "country": "United States",
@@ -17,34 +17,33 @@
     "beta": 1.794
   },
   "category_a_business": {
-    "overview": "반도체 테스트 장비 및 로봇 제품을 설계, 개발, 제조, 판매하는 글로벌 기업입니다.",
+    "overview": "테라다인은 자동화된 테스트 시스템 및 로봇 제품을 설계, 제조, 판매하는 글로벌 기업입니다.",
     "milestones": [
-      "1960: 창립",
-      "1980년대: 반도체 테스트 시장 선두 주자 부상",
-      "2000년대: 메모리 테스트 시장 확장 및 시스템 레벨 테스트 강화",
-      "2015: Universal Robots 인수, 로봇 사업 진출",
-      "2018: MiR (Mobile Industrial Robots) 인수, 자율 이동 로봇 사업 확장"
+      "1960: 회사 설립",
+      "1980년대: 반도체 테스트 장비 시장 진출 및 성장",
+      "2000년대 초: 무선 통신 및 소비자 가전용 테스트 솔루션 확장",
+      "2015: Universal Robots 인수, 로봇 사업 부문 강화",
+      "2018: MiR(Mobile Industrial Robots) 인수, 자율이동로봇(AMR) 시장 진출",
+      "2020년대: 5G, AI, 자동차 등 첨단 기술 분야 테스트 솔루션 지속 개발"
     ],
-    "business_model": "자동화된 테스트 시스템 및 로봇 제품 판매를 통해 수익을 창출합니다.",
+    "business_model": "반도체 테스트 장비 및 로봇 제품 판매를 통해 수익을 창출합니다.",
     "revenue_streams": [
       "반도체 테스트 시스템 판매",
-      "로봇 제품 (협동 로봇, 자율 이동 로봇) 판매",
-      "소프트웨어 및 서비스",
-      "부품 및 액세서리",
-      "유지보수 및 지원"
+      "로봇 제품(협동 로봇, 자율이동로봇) 판매",
+      "소프트웨어 및 서비스 매출",
+      "부품 및 업그레이드 판매"
     ],
-    "value_chain_position": "Midstream + 반도체 제조 및 로봇 자동화 공정의 핵심 테스트 및 생산 장비를 제공합니다.",
+    "value_chain_position": "Midstream + 반도체 제조 및 로봇 자동화 공정의 핵심 테스트 및 자동화 솔루션 제공.",
     "products": [
       "FLEX 테스트 플랫폼 (SoC 테스트)",
       "J750 테스트 시스템 (마이크로컨트롤러)",
       "Magnum 플랫폼 (메모리 테스트)",
-      "ETS 플랫폼 (아날로그/혼합 신호 테스트)",
       "Universal Robots (협동 로봇)",
-      "Mobile Industrial Robots (자율 이동 로봇)"
+      "Mobile Industrial Robots (자율이동로봇)"
     ],
     "channels": [
       "B2B (직접 판매)",
-      "B2B (유통 파트너)"
+      "글로벌 유통 파트너 네트워크"
     ],
     "key_customers": "주요 고객은 삼성, 퀄컴, 인텔, 아날로그 디바이스, 텍사스 인스트루먼트, IBM 등이며, 고객 집중도는 높은 편입니다."
   },
@@ -56,7 +55,7 @@
     "gross_margin": 0.59,
     "revenue_growth_ttm": 0.87,
     "earnings_growth_ttm": 3.15,
-    "dividend_yield": 0.12,
+    "dividend_yield": 0.13,
     "payout_ratio": 0.09,
     "annual_revenue": [
       3190024000.0,
@@ -140,93 +139,68 @@
     "roe_pct": 28.75
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "20-30 (estimate) + 반도체 테스트 장비 시장(AI 및 HBM 성장), 로봇 시장(협동 로봇 및 AMR), 기타 제품 테스트 시장(국방/항공, 무선, 보드 테스트) 종합 추정",
-    "tam_cagr_pct": "8-12% + AI 애플리케이션(네트워킹, VIP 컴퓨팅) 및 HBM 수요 증가, 협동 로봇 및 AMR 시장의 지속적인 확장, 국방 및 항공우주 분야의 견고한 성장세에 기반함.",
+    "tam_estimate_usd_b": "20-30 (estimate) + 반도체 테스트 장비 시장(AI, HBM, DRAM 등), 로봇 시장(협동 로봇, AMR), 제품 테스트 시장(국방/항공, 무선, 보드 테스트) 종합 추정",
+    "tam_cagr_pct": "10-15% + AI 애플리케이션(네트워킹, VIP 컴퓨팅 솔루션) 및 HBM/DRAM 최종 테스트 수요 증가, 국방/항공 분야 성장, 협동 로봇 및 AMR 시장 확대에 기반함.",
     "growth_drivers": [
-      "AI 애플리케이션(네트워킹, VIP 컴퓨팅) 및 고대역폭 메모리(HBM) 테스트 수요 급증",
-      "협동 로봇(Collaborative Robots) 및 자율 이동 로봇(AMR) 시장의 지속적인 성장",
-      "국방 및 항공우주 산업의 견고한 투자 및 테스트 수요 증가",
-      "무선 통신 기술 발전 및 관련 테스트 솔루션 필요성 증대",
-      "다양한 산업 분야의 자동화 및 효율성 향상 요구 증대"
+      "AI 애플리케이션 확산에 따른 반도체 테스트 수요 급증 (특히 네트워킹 및 VIP 컴퓨팅 솔루션)",
+      "고대역폭 메모리(HBM) 및 DRAM 최종 테스트 시장에서의 점유율 확대",
+      "국방 및 항공우주 분야의 제품 테스트 시스템 수요 증가",
+      "제조 및 물류 산업에서 협동 로봇(Cobots) 및 자율 이동 로봇(AMR) 도입 가속화"
     ],
-    "market_share_pct": "20-30% (estimate) + 반도체 테스트 장비 시장 내 주요 플레이어이며, 특정 니치 시장(HBM, AI)에서 점유율 확대 중. 로봇 시장에서는 Universal Robots와 MiR을 통해 상당한 점유율 확보.",
+    "market_share_pct": "20-30% (estimate) + 반도체 테스트 장비 시장에서 선두권 위치, 로봇 시장에서는 성장 중",
     "competitors": [
       {
         "name": "Advantest",
-        "differentiation": "주로 메모리 및 SoC 테스트 장비에 강점을 가지며, 광범위한 제품 포트폴리오와 글로벌 시장 점유율을 보유."
+        "differentiation": "주로 메모리 및 SoC 테스트 장비에 강점을 가지며, 광범위한 제품 포트폴리오를 보유"
       },
       {
         "name": "Cohu",
-        "differentiation": "반도체 테스트 핸들러, 인터페이스, 계측기 및 번인 장비 등 테스트 전반의 솔루션을 제공하며, 비용 효율적인 솔루션에 강점."
+        "differentiation": "테스트 핸들러, 인터페이스 솔루션 및 계측기 등 테스트 관련 전반적인 솔루션 제공"
       },
       {
-        "name": "National Instruments (NI, 현재 Emerson 소유)",
-        "differentiation": "모듈형 계측 및 테스트 시스템에 강점을 가지며, 소프트웨어 중심의 유연한 솔루션 제공."
+        "name": "Universal Robots (UR)",
+        "differentiation": "협동 로봇 시장의 선두 주자로, 사용자 친화적인 인터페이스와 다양한 애플리케이션 지원"
       },
       {
-        "name": "KUKA (로봇 부문)",
-        "differentiation": "산업용 로봇 시장의 선두 주자 중 하나로, 다양한 산업 분야에 걸쳐 광범위한 로봇 솔루션 제공."
-      },
-      {
-        "name": "FANUC (로봇 부문)",
-        "differentiation": "산업용 로봇, CNC 시스템 및 공작기계 분야의 글로벌 리더로, 높은 신뢰성과 기술력을 바탕으로 시장 선도."
+        "name": "Mobile Industrial Robots (MiR)",
+        "differentiation": "자율 이동 로봇(AMR) 분야의 선두 주자로, 유연하고 안전한 물류 자동화 솔루션 제공"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium + 반도체 테스트 장비는 높은 기술 장벽과 R&D 투자가 필요하지만, 특정 니치 시장에서는 신규 진입 가능성이 존재.",
-      "substitutes": "low + 반도체 및 복잡한 전자 시스템 테스트는 필수적이며, 현재 대체할 수 있는 기술이 거의 없음.",
-      "buyer_power": "high + 소수의 주요 고객이 상당한 구매력을 가지며, 이는 가격 협상력에 영향을 미침.",
-      "supplier_power": "medium + 핵심 부품 및 기술 공급업체에 대한 의존도가 있으나, 다각화를 통해 일부 완화 가능.",
-      "rivalry": "high + 소수의 대형 경쟁사들이 시장을 지배하며, 기술 혁신과 가격 경쟁이 치열함."
+      "new_entrants": "medium + 반도체 테스트 장비는 높은 기술 장벽과 R&D 투자가 필요하지만, 로봇 분야는 상대적으로 진입 장벽이 낮을 수 있음.",
+      "substitutes": "low + 반도체 및 복잡한 전자 시스템 테스트는 필수적이며, 로봇은 생산성 향상에 있어 대체재가 제한적임.",
+      "buyer_power": "high + 소수의 대형 고객이 매출의 상당 부분을 차지하여 구매자 협상력이 높음.",
+      "supplier_power": "medium + 특정 부품이나 기술에 대한 의존도가 있을 수 있으나, 공급망 다변화를 통해 관리 가능함.",
+      "rivalry": "high + 반도체 테스트 장비 시장은 소수 기업 간의 치열한 경쟁, 로봇 시장은 신규 진입자와 기존 강자 간의 경쟁이 심화되고 있음."
     },
     "competitive_advantages": [
-      "AI 및 HBM 테스트 시장에서의 선도적 위치 및 기술 투자",
-      "협동 로봇(Universal Robots) 및 자율 이동 로봇(MiR) 시장에서의 강력한 브랜드 및 시장 점유율",
-      "국방 및 항공우주 분야의 견고한 고객 기반 및 성장 기회",
-      "다양한 산업 분야에 걸친 광범위한 제품 포트폴리오 (반도체, 무선, 보드, 로봇)",
-      "수직 통합 생산자(VIP) 고객과의 긴밀한 관계 및 맞춤형 솔루션 제공"
+      "AI 애플리케이션 및 VIP 고객에 대한 선제적 투자 및 기술 리더십",
+      "HBM 및 DRAM 최종 테스트 시장에서의 점유율 확대 및 기술 우위",
+      "국방 및 항공우주 분야와 같은 고부가가치 시장에서의 강력한 입지",
+      "협동 로봇 및 자율 이동 로봇 분야의 혁신적인 제품 포트폴리오"
     ],
     "competitive_weaknesses": [
-      "소수의 주요 고객에 대한 높은 매출 의존도",
-      "반도체 시장의 경기 변동성에 대한 민감성",
-      "글로벌 공급망 불안정성 및 지정학적 위험에 노출",
-      "경쟁사들의 지속적인 기술 혁신 및 가격 경쟁 압력"
+      "매출이 소수의 주요 고객에 집중되어 있어 고객 의존도가 높음",
+      "반도체 시장의 경기 변동에 따른 실적 변동성",
+      "로봇 시장에서 경쟁 심화 및 신규 진입자의 위협"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 70.7,
+    "score": 70.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.7109,
-    "trailing_pe": 75.665436,
-    "forward_pe": 43.074467,
+    "peg_ratio": 1.6197,
+    "trailing_pe": 75.659256,
+    "forward_pe": 42.991337,
     "ev_to_ebitda": 55.032,
-    "price_to_sales": 16.921911,
+    "price_to_sales": 16.889254,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 358.07,
-    "outperform_6m_vs_nasdaq": 98.15,
-    "outperform_1m_vs_nasdaq": 20.62,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "Teradyne은 반도체, 무선 제품, 데이터 저장 장치 등 다양한 산업 분야에서 자동화된 테스트 장비 및 로봇 제품을 제공하는 선도적인 글로벌 기업입니다. 이는 기술적 전문성과 노하우를 바탕으로 한 무형 자산의 증거입니다.",
-      "특히 2025년에는 AI 애플리케이션 및 수직 통합 생산자(VIP) 컴퓨팅 솔루션의 강력한 수요에 힘입어 반도체 테스트 부문에서 상당한 성장을 달성했습니다. 이는 AI 관련 반도체 테스트 분야에서의 기술 리더십을 보여줍니다.",
-      "고대역폭 메모리(HBM) 및 DRAM 최종 테스트 애플리케이션에서 시장 점유율을 확보하며 메모리 테스트 매출을 안정적으로 유지한 것은 특정 기술 분야에서의 경쟁 우위를 시사합니다.",
-      "로봇 부문에서는 OEM, 시스템 통합업체 및 대기업과의 전략적 파트너십을 통해 전자상거래, 물류, 반도체 및 전자 제품과 같은 고성장 수직 시장에 집중하고 있습니다. 이는 기술 기반의 솔루션 제공 능력을 통해 고객과의 관계를 강화하는 무형 자산의 형태입니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "AI 기반 반도체 테스트 수요 급증 및 로봇 부문의 전략적 파트너십 확장",
-    "bull_case": "AI 반도체 시장 성장과 로봇 사업 확대로 3년 내 매출 및 이익 급증, 시장 지배력 강화",
-    "base_case": "AI 및 VIP 고객 수요에 힘입어 반도체 테스트 부문은 견고한 성장을 지속하고, 로봇 부문은 전략적 파트너십을 통해 점진적인 시장 점유율 확대를 이룰 것입니다. 전반적인 매출 및 이익은 안정적으로 증가할 것으로 예상됩니다.",
-    "bear_case": "AI 반도체 시장 경쟁 심화 및 수요 둔화, 로봇 부문의 시장 침투 지연, 주요 고객 의존도 심화로 인한 매출 변동성 증가로 실적 부진이 발생할 수 있습니다.",
-    "key_metrics_to_watch": [
-      "AI 관련 매출 비중 및 성장률",
-      "반도체 테스트 부문의 시장 점유율 변화",
-      "로봇 부문의 신규 파트너십 및 매출 성장률",
-      "주요 고객 집중도 변화"
-    ]
+    "outperform_1y_vs_nasdaq": 335.08,
+    "outperform_6m_vs_nasdaq": 97.15,
+    "outperform_1m_vs_nasdaq": 27.57,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
@@ -270,6 +244,6 @@
   },
   "wikipedia_summary": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm, Intel, Analog Devices, Texas Instruments and IBM.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:54:12.619862+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:54:57.311515+00:00"
   }
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "ROST",
-  "generated_at": "2026-06-17T00:25:07.732379+00:00",
-  "source_results_date": "2026-06-17",
+  "generated_at": "2026-06-18T00:27:14.565434+00:00",
+  "source_results_date": "2026-06-18",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.8,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $236.95 근접(-1.04%).",
-    "13주 베이스 9.9% → 6.5% 수축, VDU 0.93× 진행.",
-    "Trend Template 8/8 통과, RS 77, RS 라인 신고가 -6.7%.",
+    "매수 대기 — Stage 2 진입, pivot $236.95 근접(-1.56%).",
+    "13주 베이스 9.9% → 6.5% 수축, VDU 0.90× 진행.",
+    "Trend Template 8/8 통과, RS 77, RS 라인 신고가 -6.0%.",
     "$236.95 돌파 시 매수·-7% 손절($220.36)·+20%($284.34) 절반 익절."
   ],
   "action": {
@@ -47,10 +47,10 @@
     "P2_last_contraction"
   ],
   "key_failures": [
-    "P3_vol_dryup (0.93× vs 0.6×)",
+    "P3_vol_dryup (0.90× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-6.7% vs ≥-5.0%)"
+    "rs_line (-6.0% vs ≥-5.0%)"
   ],
   "warnings": [
     "RS 77 — Minervini 선호 80+ 미달, 강도 평균"

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-06-17T00:34:36.804234+00:00",
+  "generated_at": "2026-06-18T00:40:36.982633+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 294928154624,
+    "market_cap": 290078228480,
     "shares_outstanding": 148089758,
     "employees": 11000,
     "country": "United States",
@@ -17,17 +17,38 @@
     "beta": null
   },
   "category_a_business": {
-    "overview": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다. 이 회사는 데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브를 제공합니다. 휴대폰, 태블릿, 노트북 PC 및 기타 휴대용 및 웨어러블 장치, 자동차 애플리케이션, 사물 인터넷, 산업 및 연결된 홈 애플리케이션은 물론 이동식 카드, 범용 직렬 버스 드라이브, 웨이퍼 및 구성 요소를 위한 플래시 기반 임베디드 스토리지 제품이 있습니다.",
-    "business_model": "Sandisk Corporation은 미국, 유럽, 중동, 아프리카, 아시아 및 국제적으로 NAND 플래시 기술을 사용하여 데이터 저장 장치 및 솔루션을 개발, 제조 및 판매합니다.",
+    "overview": "NAND 플래시 기술 기반 데이터 저장 장치 및 솔루션을 개발, 제조, 판매하는 글로벌 기업입니다.",
+    "milestones": [
+      "2024: Sandisk Corporation 설립 (yfinance 정보 기준)",
+      "2025: Western Digital Corporation으로부터 분사, 독립 상장 (NASDAQ: SNDK)",
+      "2025: AI 워크로드용 플래시 스토리지 솔루션 포트폴리오 확장",
+      "2025: 클라우드, 클라이언트, 소비자 시장으로 사업 영역 확대",
+      "2025: 약 7,900개의 특허 및 3,200개의 출원 중인 특허 보유"
+    ],
+    "business_model": "NAND 플래시 기술 기반의 다양한 데이터 저장 솔루션을 판매하여 수익 창출",
+    "revenue_streams": [
+      "솔리드 스테이트 드라이브 (SSD)",
+      "임베디드 스토리지 제품",
+      "이동식 카드",
+      "USB 드라이브",
+      "웨이퍼 및 부품"
+    ],
+    "value_chain_position": "Midstream + NAND 플래시 기술 기반의 데이터 저장 장치 및 솔루션 제조 및 공급.",
     "products": [
-      "미국, 유럽, 중동, 아프리카 등에서 NAND 플래시 기술을 활용한 데이터 저장 장치 및 솔루션",
-      "데스크톱 및 노트북 PC, 게임 콘솔, 셋톱박스용 솔리드 스테이트 드라이브",
-      "자사 제품을 컴퓨터 제조업체, OEM, 데이터센터, 프라이빗 클라우드 고객, 클라우드에 제공"
+      "SSD (데스크탑, 노트북, 게임 콘솔 등)",
+      "플래시 기반 임베디드 스토리지 (모바일, 태블릿, IoT 등)",
+      "이동식 카드 (SD 카드 등)",
+      "USB 드라이브",
+      "웨이퍼 및 부품"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (컴퓨터 제조업체, OEM, 데이터센터, 클라우드 서비스 제공업체)",
+      "B2C (소매점, 유통업체)",
+      "영업 인력",
+      "딜러",
+      "자회사"
     ],
-    "wikipedia_excerpt": "Sandisk Corporation은 캘리포니아 주 밀피타스에 본사를 둔 미국의 다국적 컴퓨터 반도체 회사입니다."
+    "key_customers": "다양한 최종 시장(클라우드, 클라이언트, 소비자)에 걸쳐 고객 기반이 분산되어 있으며, 특정 고객에 대한 높은 집중도는 언급되지 않음."
   },
   "category_b_financials": {
     "roe": 0.39,
@@ -109,19 +130,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 99,
-    "score": 66.7,
+    "score": 65.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 71.94906,
-    "forward_pe": 10.880052,
-    "ev_to_ebitda": 54.798,
-    "price_to_sales": 22.370157,
+    "trailing_pe": 66.89891,
+    "forward_pe": 10.701136,
+    "ev_to_ebitda": 51.74,
+    "price_to_sales": 22.002293,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 4550.09,
-    "outperform_6m_vs_nasdaq": 852.21,
-    "outperform_1m_vs_nasdaq": 40.91,
+    "outperform_1y_vs_nasdaq": 4298.59,
+    "outperform_6m_vs_nasdaq": 857.47,
+    "outperform_1m_vs_nasdaq": 47.21,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -166,6 +187,6 @@
   },
   "wikipedia_summary": "Sandisk Corporation is an American multinational computer semiconductor company based in Milpitas, California.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:54:00.996079+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:54:42.799837+00:00"
   }
 }

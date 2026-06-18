@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-06-17T00:35:38.336493+00:00",
+  "generated_at": "2026-06-18T00:38:55.420451+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6048000000,
+    "market_cap": 6104913920,
     "shares_outstanding": 88928099,
     "employees": 216,
     "country": "United States",
@@ -37,7 +37,7 @@
     "revenue_growth_ttm": 41.59,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       158320000.0,
       13996000.0,
@@ -127,19 +127,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 66.4,
+    "score": 67.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 425.06253,
-    "forward_pe": 12.205671,
+    "trailing_pe": 403.82355,
+    "forward_pe": 12.320532,
     "ev_to_ebitda": 128.896,
-    "price_to_sales": 20.995262,
+    "price_to_sales": 21.192835,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 346.43,
-    "outperform_6m_vs_nasdaq": 90.03,
-    "outperform_1m_vs_nasdaq": 18.89,
+    "outperform_1y_vs_nasdaq": 355.14,
+    "outperform_6m_vs_nasdaq": 87.93,
+    "outperform_1m_vs_nasdaq": 20.77,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -184,6 +184,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:52:43.014512+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:54:22.467936+00:00"
   }
 }

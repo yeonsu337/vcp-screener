@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-06-17T00:37:41.173824+00:00",
+  "generated_at": "2026-06-18T00:45:55.705283+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 39617290240,
+    "market_cap": 39561375744,
     "shares_outstanding": 105502622,
     "employees": 135000,
     "country": "United States",
@@ -39,8 +39,8 @@
     "gross_margin": 0.09,
     "revenue_growth_ttm": 0.23,
     "earnings_growth_ttm": 0.96,
-    "dividend_yield": 0.08,
-    "payout_ratio": 0.04,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       29802000000.0,
       28883000000.0,
@@ -126,25 +126,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 69.6,
+    "rs_rating": 87,
+    "score": 69.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.82,
-    "trailing_pe": 50.744595,
-    "forward_pe": 25.438593,
+    "trailing_pe": 50.40054,
+    "forward_pe": 25.402689,
     "ev_to_ebitda": 17.766,
-    "price_to_sales": 1.2127618,
+    "price_to_sales": 1.2110502,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 77.92,
-    "outperform_6m_vs_nasdaq": 55.24,
-    "outperform_1m_vs_nasdaq": 9.93,
+    "outperform_1y_vs_nasdaq": 75.57,
+    "outperform_6m_vs_nasdaq": 56.75,
+    "outperform_1m_vs_nasdaq": 10.97,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Jabil Inc. is an American multinational manufacturing company involved in the design, engineering, and manufacturing of electronic circuit board assemblies and systems, along with supply chain services, primarily serving original equipment manufacturers. It is headquartered in the Gateway area of St. Petersburg, Florida. It is one of the largest companies in the Tampa Bay area.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:52:36.747643+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:54:15.682604+00:00"
   }
 }

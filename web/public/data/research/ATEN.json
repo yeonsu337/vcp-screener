@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-06-17T00:43:48.663833+00:00",
+  "generated_at": "2026-06-18T00:51:03.890029+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2334900992,
+    "market_cap": 2370179840,
     "shares_outstanding": 71998175,
     "employees": 494,
     "country": "United States",
@@ -43,8 +43,8 @@
     "gross_margin": 0.79,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": 0.29,
-    "dividend_yield": 0.73,
-    "payout_ratio": 0.39,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       290557000.0,
       261696000.0,
@@ -131,19 +131,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 65.3,
+    "score": 66.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 14.76,
-    "trailing_pe": 53.163933,
-    "forward_pe": 27.483053,
+    "trailing_pe": 53.96721,
+    "forward_pe": 27.898304,
     "ev_to_ebitda": 32.766,
-    "price_to_sales": 7.7980795,
+    "price_to_sales": 7.9159036,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 49.73,
-    "outperform_6m_vs_nasdaq": 66.17,
-    "outperform_1m_vs_nasdaq": 15.45,
+    "outperform_1y_vs_nasdaq": 53.12,
+    "outperform_6m_vs_nasdaq": 73.03,
+    "outperform_1m_vs_nasdaq": 17.33,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "A10 Networks, Inc. is an American public company specializing in the manufacturing of application delivery controllers. Founded in 2004 by Lee Chen, co-founder of Foundry Networks, A10 originally serviced just the identity management market with its line of ID Series products. In early 2007, they added bandwidth management appliances. The company had its initial public offering on March 21, 2014, raising $187.5 million.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:50:31.661472+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:53:22.546687+00:00"
   }
 }

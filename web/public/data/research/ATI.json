@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Metal Fabrication",
-  "generated_at": "2026-06-17T00:32:34.373279+00:00",
+  "generated_at": "2026-06-18T00:36:50.560421+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26790510592,
+    "market_cap": 26865569792,
     "shares_outstanding": 136470427,
     "employees": 7600,
     "country": "United States",
@@ -17,19 +17,33 @@
     "beta": 0.978
   },
   "category_a_business": {
-    "overview": "ATI Inc.는 전 세계적으로 특수 재료와 복합 부품을 생산 및 판매합니다. 고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 부문으로 운영됩니다.",
-    "business_model": "ATI 주식회사",
+    "overview": "ATI Inc.은 특수 소재 및 복합 부품을 전 세계적으로 생산 및 판매하는 기업입니다.",
+    "milestones": [
+      "1996: Allegheny Technologies Incorporated로 설립됨",
+      "2010년대: 항공우주 및 방위 산업 비중 확대",
+      "2020년대: 고성능 소재 및 부품(HPMC) 부문 성장 가속화",
+      "2020년대: 첨단 합금 및 솔루션(AA&S) 부문 항공우주 및 방위 시장 집중",
+      "2020년대: 상업용 제트 엔진 부품 매출 비중 확대"
+    ],
+    "business_model": "첨단 소재 과학 및 공정 기술을 활용하여 고성능 특수 소재 및 부품을 제조, 판매합니다.",
+    "revenue_streams": [
+      "고성능 소재 및 부품 (HPMC)",
+      "첨단 합금 및 솔루션 (AA&S)",
+      "열간 압연 전환 서비스"
+    ],
+    "value_chain_position": "Midstream + 특수 금속 및 합금의 주조, 단조, 가공을 통해 고부가가치 중간재 및 완제품을 생산합니다.",
     "products": [
-      "전 세계적으로 특수 소재와 복합 부품을 판매하고 있습니다.",
-      "고성능 소재 및 부품과 고급 합금 및 솔루션이라는 두 가지 부문으로 나뉜다.",
-      "티타늄 및 티타늄 기반 합금, 니켈 및 코발트 기반 합금 및 초합금을 포함한 고성능 소재",
-      "하프늄 및 니오븀, 니켈 기반 합금, 티타늄 및 티타늄 기반 합금을 포함한 지르코늄 및 관련 합금,",
-      "탄소강 제품으로 구성된 열간 압연 전환 서비스"
+      "티타늄 및 티타늄 기반 합금",
+      "니켈 및 코발트 기반 합금 및 초합금",
+      "지르코늄 및 관련 합금",
+      "첨단 분말 합금",
+      "정밀 단조품 및 가공 부품",
+      "판, 시트, 정밀 압연 스트립 제품"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "ATI Inc.는 텍사스 주 달라스에 본사를 둔 미국의 특수 소재 생산업체입니다. ATI는 티타늄 및 티타늄 합금, 니켈 기반 합금 및 초합금, 스테인리스강 및 특수강, 지르코늄, 하프늄, 니오븀, 텅스텐 재료, 단조품 및 주조물을 포함한 금속을 생산합니다."
+    "key_customers": "항공우주 및 방위 산업 고객이 전체 매출의 약 68%를 차지하며, 특정 고객에 대한 의존도가 높습니다."
   },
   "category_b_financials": {
     "roe": 0.23,
@@ -40,7 +54,7 @@
     "revenue_growth_ttm": 0.01,
     "earnings_growth_ttm": 0.27,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       4587400000.0,
       4362100000.0,
@@ -123,29 +137,94 @@
     "roe_pct": 22.67
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 billion USD (추정) - 항공우주 및 방위, 특수 에너지, 의료, 전자, 기타 산업 시장을 포함하는 특수 금속 및 고성능 소재 시장 규모를 기반으로 추정. 특히 항공우주 및 방위 부문이 전체 매출의 68%를 차지하며 핵심 시장을 형성.",
+    "tam_cagr_pct": "5-8% (추정) - 상업용 항공우주 시장의 지속적인 회복 및 성장, 국방 분야의 꾸준한 수요, 그리고 특수 에너지(원자력, 재생에너지) 및 첨단 산업 분야의 기술 발전 및 수요 증가에 기반함.",
+    "growth_drivers": [
+      "상업용 항공우주 시장의 회복 및 신규 항공기 수요 증가",
+      "국방 예산 증가 및 첨단 방위 시스템 개발 가속화",
+      "특수 에너지(원자력, 재생에너지) 분야의 투자 확대 및 기술 고도화",
+      "의료, 전자 등 고성능 소재를 요구하는 첨단 산업의 성장",
+      "3D 프린팅 등 첨단 제조 기술을 활용한 신제품 개발 및 시장 확대"
+    ],
+    "market_share_pct": "5-10% (추정) - ATI는 특정 고성능 소재 및 부품 분야에서 시장 선두 주자이나, 전체 금속 가공 산업 내에서는 니치 플레이어로 간주될 수 있음. 항공우주 및 방위 분야의 특정 소재에서는 더 높은 점유율을 가질 것으로 예상.",
+    "competitors": [
+      {
+        "name": "Allegheny Technologies Incorporated (ATI)",
+        "differentiation": "ATI는 본인 회사이므로 경쟁사 목록에는 포함하지 않습니다. 대신 주요 경쟁사들을 나열합니다."
+      },
+      {
+        "name": "Howmet Aerospace Inc.",
+        "differentiation": "항공우주 및 방위 산업에 특화된 고성능 금속 부품 및 시스템 제공. 티타늄, 니켈 합금 등 ATI와 유사한 소재를 다루며, 특히 항공기 엔진 및 구조물 부품에서 강점."
+      },
+      {
+        "name": "Carpenter Technology Corporation",
+        "differentiation": "특수 합금 및 고성능 금속 제품의 선도적인 제조업체. 항공우주, 방위, 의료, 에너지 등 다양한 시장에 고부가가치 소재 솔루션 제공. ATI와 유사한 합금 개발 및 생산 능력 보유."
+      },
+      {
+        "name": "Haynes International, Inc.",
+        "differentiation": "고온 내식성 및 고강도 합금(니켈 및 코발트 기반) 전문 기업. 항공우주, 화학 처리, 육상 기반 터빈 시장에 특화된 제품 제공. ATI의 HPMC 부문과 일부 경쟁."
+      },
+      {
+        "name": "VDM Metals GmbH (Acerinox 자회사)",
+        "differentiation": "니켈 합금 및 특수 스테인리스강 분야의 글로벌 선두 주자. 화학 처리, 석유 및 가스, 자동차, 항공우주 등 다양한 산업에 고성능 소재 공급. AA&S 부문과 경쟁."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 특수 소재 및 고성능 부품 산업은 높은 초기 투자 비용, 복잡한 기술 요구사항, 엄격한 품질 및 인증 절차로 인해 진입 장벽이 높지만, 특정 니치 시장에서는 기술 혁신을 통한 신규 진입 가능성이 존재.",
+      "substitutes": "medium - 고성능 금속 합금은 특정 극한 환경에서 대체재를 찾기 어렵지만, 복합 재료나 세라믹 등 다른 첨단 소재가 일부 응용 분야에서 대체재로 부상할 수 있음.",
+      "buyer_power": "medium - 항공우주 및 방위 산업의 주요 고객사(예: 보잉, 에어버스, GE 등)는 소수이며 대량 구매력을 가지고 있어 가격 협상력이 높지만, ATI의 고유한 기술력과 맞춤형 솔루션은 구매자의 협상력을 일부 상쇄.",
+      "supplier_power": "low - ATI는 다양한 원자재 공급업체로부터 니켈, 티타늄 등 원자재를 조달하며, 특정 원자재의 경우 공급업체 수가 제한적일 수 있으나, 일반적으로 여러 공급처를 확보하여 공급자 교섭력은 낮은 편.",
+      "rivalry": "high - 고성능 소재 및 금속 가공 산업은 소수의 대형 플레이어들이 시장을 지배하며, 기술력, 품질, 가격 경쟁이 치열함. 특히 항공우주 및 방위 분야에서는 고객 확보를 위한 경쟁이 심화."
+    },
     "competitive_advantages": [
-      "Industrials / Metal Fabrication 카테고리 — yfinance peer 비교 권장"
+      "고유한 재료 과학 전문성 및 첨단 공정 기술 (예: 3D 프린팅 항공우주 제품)",
+      "항공우주 및 방위 산업에 대한 강력한 시장 리더십 및 깊은 고객 관계",
+      "니켈 기반 합금, 슈퍼합금, 티타늄 및 티타늄 기반 합금 등 광범위한 고성능 소재 포트폴리오",
+      "극한 환경에 견딜 수 있는 고부가가치 소재 생산 능력",
+      "지속적인 합금 개발 및 신제품 혁신 역량"
+    ],
+    "competitive_weaknesses": [
+      "항공우주 및 방위 시장에 대한 높은 의존도 (전체 매출의 68%, HPMC 매출의 92%)",
+      "원자재 가격 변동 및 공급망 불안정성에 대한 노출",
+      "글로벌 경제 상황 및 지정학적 리스크에 따른 수요 변동성",
+      "신기술 개발 및 생산 시설 투자에 대한 지속적인 자본 지출 필요",
+      "경쟁사들의 유사 기술 개발 및 가격 경쟁 심화 가능성"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 62.8,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.33,
-    "trailing_pe": 64.57566,
-    "forward_pe": 36.313488,
+    "trailing_pe": 65.18543,
+    "forward_pe": 36.41523,
     "ev_to_ebitda": 33.364,
-    "price_to_sales": 5.8309956,
+    "price_to_sales": 5.8473325,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 95.12,
-    "outperform_6m_vs_nasdaq": 66.45,
-    "outperform_1m_vs_nasdaq": 26.72,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 99.08,
+    "outperform_6m_vs_nasdaq": 68.21,
+    "outperform_1m_vs_nasdaq": 31.84,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets | Switching Costs",
+    "moat_evidence": [
+      "ATI는 재료 과학 전문 지식과 고급 공정 기술을 통해 고도로 차별화된 특수 재료를 생산하며, 이는 경쟁사가 쉽게 모방하기 어려운 무형 자산입니다.",
+      "항공우주 및 방위 산업은 ATI 전체 매출의 약 68%를 차지하며, 제트 엔진 및 기체용 제품은 높은 기술 요구사항과 긴 인증 기간으로 인해 고객의 전환 비용이 매우 높습니다.",
+      "HPMC 부문은 주력 시장인 상업용 제트 엔진 제품에서 지난 몇 년간 매출 및 EBITDA 성장의 주요 원천이었으며, 이는 고객과의 깊은 관계와 기술적 우위를 시사합니다.",
+      "AA&S 부문은 극한의 열, 방사선 및 부식에 견딜 수 있는 고부가가치 재료에 중점을 두며, 이는 특정 산업에서 ATI 제품에 대한 의존도를 높여 전환 비용을 발생시킵니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "상업용 항공우주 시장 회복 및 3D 프린팅 항공우주 제품 성장",
+    "bull_case": "항공우주 및 방위 수요 급증, 신소재 개발 성공으로 3년간 EPS 15% 이상 성장",
+    "base_case": "항공우주 및 방위 시장의 꾸준한 성장과 신규 에너지 시장 확대로 견고한 실적 유지. 매출 성장률은 한 자릿수 중반, EPS는 두 자릿수 초반 성장 예상.",
+    "bear_case": "글로벌 경기 침체로 항공우주 및 방위 수요 감소, 원자재 가격 상승 압박으로 수익성 악화 및 예상보다 낮은 성장률 기록.",
+    "key_metrics_to_watch": [
+      "항공우주 및 방위 부문 매출 성장률",
+      "HPMC 부문의 상업용 제트 엔진 제품 매출 비중",
+      "영업이익률 (OPM) 및 순이익률 (NPM) 추이",
+      "신규 재료 및 3D 프린팅 제품 개발 현황"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
@@ -189,6 +268,6 @@
   },
   "wikipedia_summary": "ATI Inc. is an American producer of specialty materials headquartered in Dallas, Texas. ATI produces metals including titanium and titanium alloys, nickel-based alloys and superalloys, stainless and specialty steels, zirconium, hafnium, and niobium, tungsten materials, forgings and castings.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:50:39.586326+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:53:27.254677+00:00"
   }
 }

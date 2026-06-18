@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-05-15T00:24:16.069311+00:00",
+  "generated_at": "2026-06-18T00:41:39.737865+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3472047360,
+    "market_cap": 3461017856,
     "shares_outstanding": 110293749,
     "employees": 150,
     "country": "United States",
     "website": "https://adeia.com",
-    "beta": 1.055
+    "beta": 0.982
   },
   "category_a_business": {
     "overview": "Adeia Inc.는 자회사와 함께 미국, 아시아, 캐나다, 유럽, 중동 및 국제적으로 미디어 및 반도체 지적 재산권 라이선싱 플랫폼 회사로 운영되고 있습니다. 회사는 네트워크를 통해 선형 콘텐츠를 집계 및 배포하는 케이블, 위성 및 통신 텔레비전 제공업체와 광대역 네트워크를 통해 선형 콘텐츠를 집계 및 스트리밍하는 텔레비전 제공업체로 구성된 다중 채널 비디오 프로그래밍 배포자를 포함하여 다양한 시장에 걸쳐 특허 포트폴리오에 대한 라이선스를 부여합니다. OTT(Over-The-Top) 비디오 서비스 제공업체",
@@ -90,24 +90,21 @@
       0.65,
       0.08,
       0.15,
-      0.1,
-      null
+      0.1
     ],
     "quarterly_revenue": [
-      null,
+      104772000.0,
       182642000.0,
       87339000.0,
       85735000.0,
-      87670000.0,
-      119168000.0
+      87670000.0
     ],
     "quarterly_periods": [
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
+      "2025-03-31"
     ],
     "eps_qoq_yoy_pct": 92.8,
     "sales_yoy_pct": 19.5,
@@ -122,27 +119,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 65.0,
+    "rs_rating": 91,
+    "score": 64.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.51,
-    "trailing_pe": 28.880733,
-    "forward_pe": 20.332634,
-    "ev_to_ebitda": 13.799,
-    "price_to_sales": 7.5399303,
+    "trailing_pe": 28.78899,
+    "forward_pe": 20.268045,
+    "ev_to_ebitda": 13.929,
+    "price_to_sales": 7.5159783,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 87.48,
-    "outperform_6m_vs_nasdaq": 113.45,
-    "outperform_1m_vs_nasdaq": 6.03,
+    "outperform_1y_vs_nasdaq": 107.65,
+    "outperform_6m_vs_nasdaq": 132.53,
+    "outperform_1m_vs_nasdaq": 15.0,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 절차에서 불리한 결정이 내려지면 당사의 사업과 연결 재무 상태, 운영 결과 및 현금 흐름에 심각한 피해를 줄 수 있습니다.",
+        "description": "이러한 소송 절차에서 불리한 결정이 내려지면 당사의 사업과 통합 재무 상태, 운영 결과 및 현금 흐름에 심각한 피해를 줄 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -155,6 +152,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:50:22.007822+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:52:54.502926+00:00"
   }
 }

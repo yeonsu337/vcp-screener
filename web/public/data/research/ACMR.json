@@ -4,21 +4,21 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-05-22T00:43:36.939245+00:00",
+  "generated_at": "2026-06-18T00:52:05.550108+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4947548160,
+    "market_cap": 6647641600,
     "shares_outstanding": 64117679,
     "employees": 2513,
     "country": "United States",
     "website": "https://www.acmr.com",
-    "beta": 1.821
+    "beta": 1.978
   },
   "category_a_business": {
-    "overview": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 해외에서 자본 장비를 개발, 제조 및 판매합니다. 또한 웨이퍼 조립 및 패키징 고객을 대상으로 다양한 패키징 도구를 개발, 제조 및 판매합니다. 이 회사는 프런트 엔드 생산 공정을 위한 웨트 클리닝 장비를 제공합니다. 전기화학 도금, 용광로, PECVD 및 트랙 플랫폼; 공간 교대 위상 편이(Space Alternated Phase Shift), 평면 및 웨이퍼 표면을 위한 기술; 시기 적절한 에너지 버블 진동, 고급 프로세스 노드에서 패턴화된 웨이퍼 표면을 위한 기술; 타호 기술; 그리고 셈",
-    "business_model": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 해외에서 자본 장비를 개발, 제조 및 판매합니다.",
+    "overview": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다. 또한 웨이퍼 조립 및 패키징 고객을 대상으로 다양한 패키징 도구를 개발, 제조 및 판매합니다. 이 회사는 프런트 엔드 생산 공정을 위한 웨트 클리닝 장비를 제공합니다. 전기화학 도금, 용광로, PECVD 및 트랙 플랫폼; 공간 교대 위상 편이(Space Alternated Phase Shift), 평면 및 웨이퍼 표면을 위한 기술; 시기 적절한 에너지 버블 진동, 고급 프로세스 노드에서 패턴화된 웨이퍼 표면을 위한 기술; 타호 기술; 그리고 셈",
+    "business_model": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다.",
     "products": [
       "중국 본토 및 국제적으로 자본 장비",
       "웨이퍼 조립 및 패키징 고객을 위한 다양한 패키징 도구",
@@ -120,21 +120,21 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 93,
-    "score": 60.8,
+    "rs_rating": 96,
+    "score": 64.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 54.648853,
-    "forward_pe": 31.770756,
-    "ev_to_ebitda": 31.131,
-    "price_to_sales": 5.152488,
+    "trailing_pe": 73.42748,
+    "forward_pe": 42.687935,
+    "ev_to_ebitda": 40.491,
+    "price_to_sales": 6.923004,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 157.5,
-    "outperform_6m_vs_nasdaq": 115.45,
-    "outperform_1m_vs_nasdaq": 24.65,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 246.32,
+    "outperform_6m_vs_nasdaq": 142.09,
+    "outperform_1m_vs_nasdaq": 52.34,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
@@ -160,7 +160,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "중국 본토 외부에서 사용해야 하는 경우 중국 본토에서 자금에 접근할 수 없는 경우 당사의 유동성과 사업에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "중국 본토 외부에서 사용하기 위해 필요한 경우 중국 본토에서 자금에 접근할 수 없는 경우 당사의 유동성과 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:50:22.007321+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:52:48.388898+00:00"
   }
 }

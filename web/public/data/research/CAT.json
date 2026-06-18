@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-06-17T00:33:35.631773+00:00",
+  "generated_at": "2026-06-18T00:37:52.529384+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 435471286272,
+    "market_cap": 440289067008,
     "shares_outstanding": 460591983,
     "employees": 118000,
     "country": "United States",
@@ -42,7 +42,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.22,
     "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.7,
+    "dividend_yield": 0.69,
     "payout_ratio": 0.3,
     "annual_revenue": [
       67589000000.0,
@@ -135,19 +135,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 68.3,
+    "score": 68.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.2153,
-    "trailing_pe": 47.084663,
-    "forward_pe": 31.411634,
+    "peg_ratio": 2.2427,
+    "trailing_pe": 47.700596,
+    "forward_pe": 31.759153,
     "ev_to_ebitda": 32.648,
-    "price_to_sales": 6.1546364,
+    "price_to_sales": 6.2227273,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 131.75,
-    "outperform_6m_vs_nasdaq": 45.09,
-    "outperform_1m_vs_nasdaq": 5.86,
+    "outperform_1y_vs_nasdaq": 134.52,
+    "outperform_6m_vs_nasdaq": 49.92,
+    "outperform_1m_vs_nasdaq": 10.91,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -192,6 +192,6 @@
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-17T00:51:08.185168+00:00"
+    "GoogleWebTranslator": "2026-06-18T00:53:39.360253+00:00"
   }
 }
