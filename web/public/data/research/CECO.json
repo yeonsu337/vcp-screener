@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Pollution & Treatment Controls",
-  "generated_at": "2026-06-16T01:14:44.280554+00:00",
+  "generated_at": "2026-06-19T01:03:58.162157+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3408296960,
+    "market_cap": 3529906432,
     "shares_outstanding": 35873031,
     "employees": 1540,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 1.503
   },
   "category_a_business": {
-    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션에 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
-    "business_model": "(주)씨이코환경",
+    "overview": "CECO Environmental Corp. provides critical solutions in industrial air quality, industrial water treatment, and energy transition solutions in the United States, the United Kingdom, the Netherlands, China, and internationally. It operates through Engineered Systems and Industrial Process Solutions segments.",
+    "business_model": "CECO Environmental Corp.",
     "products": [
-      "Unite의 산업용 공기질, 산업용 수처리 및 에너지 전환 솔루션의 핵심 솔루션",
-      "엔지니어링 시스템 및 산업 공정 솔루션 부문을 통해",
-      "배출 관리, 유동층 사이클론, 열 음향학, 분리 및 여과 솔루션",
-      "댐퍼 및 전환기, 확장 조인트, 선택적 촉매를 포함하여 엔지니어링되고 구성된 제품 및 솔루션",
-      "다양한 응용 분야의 대기 오염 및 오염 제어, 유체 처리 및 공정 여과를 위한 솔루션"
+      "critical solutions in industrial air quality, industrial water treatment, and energy transition solutions in the Unite",
+      "through Engineered Systems and Industrial Process Solutions segments",
+      "emissions management, fluid bed cyclones, thermal acoustics, and separation and filtration solutions",
+      "engineered and configured products and solutions, including dampers and diverters, expansion joints, selective catalytic",
+      "solutions for air pollution and contamination control, fluid handling, and process filtration in various applications, s"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
@@ -39,7 +39,7 @@
     "revenue_growth_ttm": 0.17,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       774381000.0,
       557933000.0,
@@ -127,26 +127,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 92,
-    "score": 55.1,
+    "score": 57.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.88,
-    "trailing_pe": 256.78378,
-    "forward_pe": 33.415047,
-    "ev_to_ebitda": 42.387,
-    "price_to_sales": 4.2412696,
+    "trailing_pe": 258.9474,
+    "forward_pe": 34.60731,
+    "ev_to_ebitda": 41.362,
+    "price_to_sales": 4.3926,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 205.19,
-    "outperform_6m_vs_nasdaq": 42.94,
-    "outperform_1m_vs_nasdaq": 10.19,
+    "outperform_1y_vs_nasdaq": 194.36,
+    "outperform_6m_vs_nasdaq": 46.86,
+    "outperform_1m_vs_nasdaq": 23.14,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요소의 변화는 당사의 전체 매출총이익률에 중대한 영향을 미칠 수 있습니다.",
+        "description": "Changes in these factors may have a material impact on our overall gross profit margins.",
         "severity": "medium"
       }
     ],
@@ -157,8 +157,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:39.361343+00:00"
-  }
+  "wikipedia_summary": ""
 }

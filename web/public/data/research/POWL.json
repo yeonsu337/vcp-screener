@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Electrical Equipment & Parts",
-  "generated_at": "2026-05-15T00:34:42.631320+00:00",
+  "generated_at": "2026-06-19T00:58:49.330467+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 10819471360,
+    "market_cap": 10827486208,
     "shares_outstanding": 36431649,
     "employees": 3143,
     "country": "United States",
     "website": "https://www.powellind.com",
-    "beta": 1.144
+    "beta": 1.128
   },
   "category_a_business": {
     "overview": "Powell Industries, Inc.는 자회사와 함께 맞춤형 엔지니어링 장비 및 시스템을 설계, 개발, 제조, 판매 및 서비스합니다. 회사의 제품 포트폴리오에는 통합 전력 제어실 변전소, 맞춤형 엔지니어링 모듈 및 전기 주택이 포함됩니다. 기존의 아크 방지 배전 개폐 장치 및 제어 장치, 중압 회로 차단기, 모니터링 및 제어 통신 시스템, 모터 제어 센터, 스위치 및 버스 덕트 시스템. 또한 현장 서비스 검사, 설치, 시운전, 수정 및 수리 서비스도 제공합니다.",
@@ -28,88 +28,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.3,
-    "roa": 0.13,
-    "profit_margin": 0.17,
-    "operating_margin": 0.19,
-    "gross_margin": 0.3,
-    "revenue_growth_ttm": 0.07,
-    "earnings_growth_ttm": -0.02,
-    "dividend_yield": 0.12,
-    "payout_ratio": 0.07,
-    "annual_revenue": [
-      1104318000.0,
-      1012356000.0,
-      699308000.0,
-      532582000.0,
-      null
-    ],
-    "annual_operating_income": [
-      217860000.0,
-      178773000.0,
-      62520000.0,
-      7224000.0,
-      null
-    ],
-    "annual_eps": [
-      4.95,
-      4.1,
-      1.5,
-      0.38,
-      null
-    ],
-    "annual_free_cf": [
-      154788000.0,
-      96428000.0,
-      174734000.0,
-      -6033000.0,
-      null
-    ],
-    "annual_total_debt": [
-      1664000.0,
-      1216000.0,
-      1436000.0,
-      2322000.0,
-      null
-    ],
-    "annual_equity": [
-      640770000.0,
-      483073000.0,
-      345026000.0,
-      297206000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-09-30",
-      "2024-09-30",
-      "2023-09-30",
-      "2022-09-30",
-      "2021-09-30"
-    ],
-    "quarterly_eps": [
-      1.25,
-      1.13,
-      1.41,
-      1.32,
-      1.27,
-      null
-    ],
-    "quarterly_revenue": [
-      296615000.0,
-      251184000.0,
-      297983000.0,
-      286273000.0,
-      278631000.0,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
-    ],
     "eps_qoq_yoy_pct": -1.0,
     "sales_yoy_pct": 6.5,
     "ni_cagr_3y_pct": 136.08,
@@ -124,25 +42,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 54.4,
+    "rs_rating": 96,
+    "score": 54.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 4.1419,
-    "trailing_pe": 58.117416,
-    "forward_pe": 43.200237,
-    "ev_to_ebitda": 44.325,
-    "price_to_sales": 9.557372,
+    "peg_ratio": 3.2486,
+    "trailing_pe": 58.04688,
+    "forward_pe": 43.23224,
+    "ev_to_ebitda": 43.653,
+    "price_to_sales": 9.564452,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 318.83,
-    "outperform_6m_vs_nasdaq": 132.12,
-    "outperform_1m_vs_nasdaq": 18.37,
+    "outperform_1y_vs_nasdaq": 358.39,
+    "outperform_6m_vs_nasdaq": 153.51,
+    "outperform_1m_vs_nasdaq": 11.15,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:54:24.796823+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:04:31.350705+00:00"
   }
 }

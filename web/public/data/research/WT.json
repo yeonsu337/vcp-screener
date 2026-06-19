@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-06-17T00:40:44.525855+00:00",
+  "generated_at": "2026-06-19T00:57:46.098723+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2824825088,
+    "market_cap": 2800354560,
     "shares_outstanding": 152941267,
     "employees": 357,
     "country": "United States",
@@ -42,7 +42,7 @@
     "gross_margin": 0.52,
     "revenue_growth_ttm": 0.47,
     "earnings_growth_ttm": null,
-    "dividend_yield": 0.66,
+    "dividend_yield": 0.65,
     "payout_ratio": 0.29,
     "annual_revenue": [
       493753000.0,
@@ -130,19 +130,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 80,
-    "score": 58.3,
+    "score": 57.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 45.04878,
-    "forward_pe": 14.135168,
-    "ev_to_ebitda": 15.561,
-    "price_to_sales": 5.1818247,
+    "trailing_pe": 44.658535,
+    "forward_pe": 14.012719,
+    "ev_to_ebitda": 15.668,
+    "price_to_sales": 5.136936,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 49.2,
-    "outperform_6m_vs_nasdaq": 42.95,
-    "outperform_1m_vs_nasdaq": -5.42,
+    "outperform_1y_vs_nasdaq": 46.4,
+    "outperform_6m_vs_nasdaq": 42.84,
+    "outperform_1m_vs_nasdaq": -5.06,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -187,6 +187,6 @@
   },
   "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:55:04.718693+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:05:57.100400+00:00"
   }
 }

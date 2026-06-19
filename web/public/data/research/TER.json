@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-06-18T00:33:43.086920+00:00",
+  "generated_at": "2026-06-19T00:38:40.753336+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 63956865024,
+    "market_cap": 68552945664,
     "shares_outstanding": 156542162,
     "employees": 6600,
     "country": "United States",
@@ -17,33 +17,33 @@
     "beta": 1.794
   },
   "category_a_business": {
-    "overview": "테라다인은 자동화된 테스트 시스템 및 로봇 제품을 설계, 제조, 판매하는 글로벌 기업입니다.",
+    "overview": "반도체 테스트 장비 및 로봇 제품을 설계, 개발, 제조, 판매하는 글로벌 기업입니다.",
     "milestones": [
-      "1960: 회사 설립",
-      "1980년대: 반도체 테스트 장비 시장 진출 및 성장",
-      "2000년대 초: 무선 통신 및 소비자 가전용 테스트 솔루션 확장",
-      "2015: Universal Robots 인수, 로봇 사업 부문 강화",
-      "2018: MiR(Mobile Industrial Robots) 인수, 자율이동로봇(AMR) 시장 진출",
-      "2020년대: 5G, AI, 자동차 등 첨단 기술 분야 테스트 솔루션 지속 개발"
+      "1960: Teradyne 설립",
+      "1980년대: 반도체 테스트 장비 시장 선도",
+      "2000년대: 메모리 테스트 시장 확장",
+      "2015: Universal Robots 인수, 로봇 사업 진출",
+      "2018: MiR (Mobile Industrial Robots) 인수, 자율이동로봇 사업 강화"
     ],
-    "business_model": "반도체 테스트 장비 및 로봇 제품 판매를 통해 수익을 창출합니다.",
+    "business_model": "자동화된 테스트 시스템과 로봇 제품 판매를 통해 수익을 창출합니다.",
     "revenue_streams": [
       "반도체 테스트 시스템 판매",
-      "로봇 제품(협동 로봇, 자율이동로봇) 판매",
-      "소프트웨어 및 서비스 매출",
-      "부품 및 업그레이드 판매"
+      "로봇 제품 판매 (협동 로봇, 자율 이동 로봇)",
+      "서비스 및 유지보수",
+      "소프트웨어 라이선스"
     ],
-    "value_chain_position": "Midstream + 반도체 제조 및 로봇 자동화 공정의 핵심 테스트 및 자동화 솔루션 제공.",
+    "value_chain_position": "Midstream + 반도체 제조 및 로봇 자동화 솔루션의 핵심 장비를 공급합니다.",
     "products": [
-      "FLEX 테스트 플랫폼 (SoC 테스트)",
-      "J750 테스트 시스템 (마이크로컨트롤러)",
-      "Magnum 플랫폼 (메모리 테스트)",
+      "FLEX 테스트 플랫폼",
+      "J750 테스트 시스템",
+      "Magnum 메모리 테스트 플랫폼",
+      "ETS 아날로그/혼합 신호 테스트 플랫폼",
       "Universal Robots (협동 로봇)",
-      "Mobile Industrial Robots (자율이동로봇)"
+      "Mobile Industrial Robots (자율 이동 로봇)"
     ],
     "channels": [
       "B2B (직접 판매)",
-      "글로벌 유통 파트너 네트워크"
+      "유통 파트너 네트워크"
     ],
     "key_customers": "주요 고객은 삼성, 퀄컴, 인텔, 아날로그 디바이스, 텍사스 인스트루먼트, IBM 등이며, 고객 집중도는 높은 편입니다."
   },
@@ -139,111 +139,132 @@
     "roe_pct": 28.75
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "20-30 (estimate) + 반도체 테스트 장비 시장(AI, HBM, DRAM 등), 로봇 시장(협동 로봇, AMR), 제품 테스트 시장(국방/항공, 무선, 보드 테스트) 종합 추정",
-    "tam_cagr_pct": "10-15% + AI 애플리케이션(네트워킹, VIP 컴퓨팅 솔루션) 및 HBM/DRAM 최종 테스트 수요 증가, 국방/항공 분야 성장, 협동 로봇 및 AMR 시장 확대에 기반함.",
+    "tam_estimate_usd_b": "20-30 billion USD (추정치, 반도체 테스트 장비 및 로봇 시장 종합)",
+    "tam_cagr_pct": "8-12% (향후 3~5년). AI, HBM, DRAM 등 고성능 반도체 테스트 수요 증가와 로봇 자동화 시장의 지속적인 성장이 주요 근거.",
     "growth_drivers": [
-      "AI 애플리케이션 확산에 따른 반도체 테스트 수요 급증 (특히 네트워킹 및 VIP 컴퓨팅 솔루션)",
-      "고대역폭 메모리(HBM) 및 DRAM 최종 테스트 시장에서의 점유율 확대",
-      "국방 및 항공우주 분야의 제품 테스트 시스템 수요 증가",
-      "제조 및 물류 산업에서 협동 로봇(Cobots) 및 자율 이동 로봇(AMR) 도입 가속화"
+      "AI 애플리케이션 및 고성능 컴퓨팅(HPC)용 반도체 테스트 수요 급증",
+      "고대역폭 메모리(HBM) 및 DRAM 최종 테스트 시장 점유율 확대",
+      "국방 및 항공우주 분야의 테스트 장비 수요 증가",
+      "제조 및 물류 산업의 협동 로봇 및 자율 이동 로봇 도입 확대",
+      "수직 통합 생산자(VIP) 고객과의 파트너십 강화"
     ],
-    "market_share_pct": "20-30% (estimate) + 반도체 테스트 장비 시장에서 선두권 위치, 로봇 시장에서는 성장 중",
+    "market_share_pct": "20-30% (추정치, 반도체 테스트 장비 시장 내 주요 플레이어)",
     "competitors": [
       {
         "name": "Advantest",
-        "differentiation": "주로 메모리 및 SoC 테스트 장비에 강점을 가지며, 광범위한 제품 포트폴리오를 보유"
+        "differentiation": "메모리 및 비메모리 반도체 테스트 장비 시장의 강력한 경쟁자로, 특히 SoC(System-on-Chip) 테스트 분야에서 강점."
       },
       {
         "name": "Cohu",
-        "differentiation": "테스트 핸들러, 인터페이스 솔루션 및 계측기 등 테스트 관련 전반적인 솔루션 제공"
+        "differentiation": "반도체 테스트 핸들러 및 인터페이스 솔루션에 특화되어 있으며, 테스트 장비와 통합 솔루션을 제공."
       },
       {
         "name": "Universal Robots (UR)",
-        "differentiation": "협동 로봇 시장의 선두 주자로, 사용자 친화적인 인터페이스와 다양한 애플리케이션 지원"
+        "differentiation": "협동 로봇(Cobots) 시장의 선두 주자로, 사용 편의성과 유연성을 강조하며 다양한 산업에 적용."
       },
       {
         "name": "Mobile Industrial Robots (MiR)",
-        "differentiation": "자율 이동 로봇(AMR) 분야의 선두 주자로, 유연하고 안전한 물류 자동화 솔루션 제공"
+        "differentiation": "자율 이동 로봇(AMR) 분야의 주요 플레이어로, 물류 및 제조 환경에서 효율적인 자재 운반 솔루션 제공."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium + 반도체 테스트 장비는 높은 기술 장벽과 R&D 투자가 필요하지만, 로봇 분야는 상대적으로 진입 장벽이 낮을 수 있음.",
-      "substitutes": "low + 반도체 및 복잡한 전자 시스템 테스트는 필수적이며, 로봇은 생산성 향상에 있어 대체재가 제한적임.",
-      "buyer_power": "high + 소수의 대형 고객이 매출의 상당 부분을 차지하여 구매자 협상력이 높음.",
-      "supplier_power": "medium + 특정 부품이나 기술에 대한 의존도가 있을 수 있으나, 공급망 다변화를 통해 관리 가능함.",
-      "rivalry": "high + 반도체 테스트 장비 시장은 소수 기업 간의 치열한 경쟁, 로봇 시장은 신규 진입자와 기존 강자 간의 경쟁이 심화되고 있음."
+      "new_entrants": "medium. 반도체 테스트 장비는 높은 기술 장벽과 R&D 투자가 필요하지만, 특정 니치 시장에서는 신규 진입 가능성 존재.",
+      "substitutes": "low. 반도체 및 복잡한 전자 시스템 테스트는 필수적이며, 현재로서는 대체 기술이 제한적.",
+      "buyer_power": "high. 소수의 대형 고객사가 구매의 상당 부분을 차지하여 구매자들의 협상력이 매우 높음.",
+      "supplier_power": "medium. 특정 부품 및 기술에 대한 의존도가 있을 수 있으나, 공급망 다변화를 통해 일정 부분 통제 가능.",
+      "rivalry": "high. 소수의 주요 플레이어들이 시장을 지배하며, 기술 혁신과 가격 경쟁이 치열함."
     },
     "competitive_advantages": [
-      "AI 애플리케이션 및 VIP 고객에 대한 선제적 투자 및 기술 리더십",
-      "HBM 및 DRAM 최종 테스트 시장에서의 점유율 확대 및 기술 우위",
-      "국방 및 항공우주 분야와 같은 고부가가치 시장에서의 강력한 입지",
-      "협동 로봇 및 자율 이동 로봇 분야의 혁신적인 제품 포트폴리오"
+      "AI 및 고성능 컴퓨팅(HPC) 반도체 테스트 분야의 선도적인 기술력 및 투자",
+      "HBM 및 DRAM 최종 테스트 시장에서의 강력한 점유율 및 기술 우위",
+      "협동 로봇 및 자율 이동 로봇 시장에서의 혁신적인 제품 포트폴리오",
+      "국방 및 항공우주 등 고부가가치 시장으로의 사업 확장 및 다각화",
+      "소수의 대형 고객사와의 긴밀한 관계 및 전략적 파트너십"
     ],
     "competitive_weaknesses": [
-      "매출이 소수의 주요 고객에 집중되어 있어 고객 의존도가 높음",
-      "반도체 시장의 경기 변동에 따른 실적 변동성",
-      "로봇 시장에서 경쟁 심화 및 신규 진입자의 위협"
+      "소수의 대형 고객사에 대한 높은 매출 의존도로 인한 시장 변동성 위험",
+      "반도체 시장의 경기 변동에 따른 실적 민감성",
+      "글로벌 공급망 불안정성 및 부품 조달 위험",
+      "경쟁사의 기술 혁신 및 가격 경쟁에 대한 지속적인 압박",
+      "로봇 부문의 시장 경쟁 심화 및 신규 플레이어 등장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 70.6,
+    "rs_rating": 96,
+    "score": 75.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6197,
-    "trailing_pe": 75.659256,
-    "forward_pe": 42.991337,
+    "peg_ratio": 1.6165,
+    "trailing_pe": 81.0963,
+    "forward_pe": 46.080788,
     "ev_to_ebitda": 55.032,
-    "price_to_sales": 16.889254,
+    "price_to_sales": 18.102951,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 335.08,
-    "outperform_6m_vs_nasdaq": 97.15,
-    "outperform_1m_vs_nasdaq": 27.57,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 372.13,
+    "outperform_6m_vs_nasdaq": 113.18,
+    "outperform_1m_vs_nasdaq": 33.75,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "TER는 반도체, 무선 제품, 데이터 저장 등 다양한 산업에서 사용되는 자동화 테스트 장비 및 로봇 제품의 선도적인 글로벌 공급업체입니다. 이는 기술적 우위를 통한 무형 자산 해자를 시사합니다.",
+      "2025년 Semiconductor Test 부문은 AI 애플리케이션 및 VIP(수직 통합 생산자) 컴퓨팅 솔루션의 강력한 수요에 힘입어 상당한 성장을 달성했습니다. AI 관련 고객 수요가 2025년 하반기 매출의 대부분을 차지했으며, 이는 특정 기술 분야에서의 전문성과 선도적인 위치를 나타냅니다.",
+      "메모리 테스트 매출은 전체 시장 축소에도 불구하고 HBM(고대역폭 메모리) 및 DRAM 최종 테스트 애플리케이션에서 점유율을 확보하며 안정세를 유지했습니다. 이는 특정 고성능 메모리 테스트 시장에서의 기술적 리더십과 고객 충성도를 보여줍니다.",
+      "테스트 제품 시장은 소수의 주요 고객에게 집중되어 있으며, 이들 고객이 테스트 장비 구매의 상당 부분을 차지합니다. 이는 고객과의 깊은 관계와 특정 기술 표준에 대한 의존성을 통해 형성된 무형 자산 해자를 의미합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 애플리케이션 및 VIP 고객에 대한 집중 투자, Product Test 사업부 신설 (2025년 3월)",
+    "bull_case": "AI 반도체 테스트 수요 폭증 및 로봇 사업부의 고성장으로 3년 내 매출 및 EPS 두 자릿수 성장",
+    "base_case": "AI 관련 반도체 테스트 수요가 견조하게 유지되고, 로봇 사업부의 점진적인 성장과 비용 효율화 노력이 수익성 개선에 기여할 것입니다. 그러나 소수 고객 집중 리스크와 경기 변동에 따른 테스트 장비 수요의 불확실성은 존재합니다.",
+    "bear_case": "AI 반도체 시장 성장 둔화, 주요 고객사의 테스트 장비 투자 축소, 경쟁 심화로 인한 마진 압박, 로봇 사업부의 성장 정체로 매출 및 이익이 감소할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "AI 관련 매출 비중 및 성장률",
+      "Semiconductor Test 부문 매출 성장률",
+      "Robotics 부문 매출 성장률 및 수익성",
+      "주요 고객사별 매출 집중도 변화"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "특정 기간 동안 배송 일정이 지연되거나 잔고가 취소되면 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "category": "고객집중도",
+        "description": "백로그가 실제 매출로 이어지지 않을 수 있으며, 고객이 예고 없이 주문을 취소하거나 납품을 지연할 경우 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 지연은 특정 제품의 제조와 해당 제품을 고객에게 배송하는 시기에 영향을 미쳤으며 앞으로도 계속 영향을 미칠 수 있습니다.",
+        "category": "공급망",
+        "description": "일부 핵심 부품을 단일 공급업체로부터 조달하고 있어, 해당 공급업체에 문제가 발생하면 생산 및 납품에 심각한 지연이 발생할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁업체가 유사한 기술을 독자적으로 개발하거나, 지적 재산권 보호가 미흡한 국가에서 당사의 독점 정보를 악용할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "당사의 단독 공급업체가 제품 배송을 지연하거나 중단하는 경우 당사는 일시적으로 부정적인 영향을 받을 수 있습니다.",
-        "severity": "medium"
+        "category": "거버넌스",
+        "description": "지적 재산권 보호 장치가 모든 상황에서 효과적이지 않을 수 있으며, 특허 등이 법적 절차를 통해 무효화될 위험이 있습니다.",
+        "severity": "low"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않은 것으로 간주되는 추가 위험 및 불확실성도 당사의 비즈니스, 재무 상태 및/또는 운영 결과에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "글로벌 또는 산업별 경제 상황이 붕괴되거나 악화되면 고객의 당사 제품 구매가 줄어들어 당사의 수익과 수익이 감소할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "이러한 조치가 당사 비즈니스에 영향을 미칠 수 있는 글로벌 또는 시장별 혼란을 상쇄하기에 충분한지 여부를 예측할 수 없으며 향후 추가 또는 다른 조치를 취해야 할 수도 있습니다.",
+        "category": "거시",
+        "description": "고성능 인력을 유치, 개발 및 유지하는 능력에 따라 미래 성공이 좌우되며, 인력 이탈 시 사업 운영에 차질이 생길 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "핵심 단일 공급업체에서 부품 공급이 완전히 중단되고 대체 공급처를 찾지 못해 생산이 불가능해지는 경우.",
+      "주요 고객들이 대규모 주문 취소 및 납품 지연을 동시에 단행하여 매출이 급감하고 재무 건전성이 악화되는 경우.",
+      "핵심 기술에 대한 특허가 무효화되거나 경쟁업체가 이를 우회하는 기술을 개발하여 시장 경쟁력을 완전히 상실하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 단일 공급업체의 파산 또는 장기적인 생산 중단 발표.",
+      "분기별 백로그 취소율이 전년 대비 20% 이상 증가하고 신규 주문이 급격히 감소하는 추세가 2분기 연속 지속될 경우.",
+      "핵심 제품 라인에 대한 주요 특허가 법원에서 무효 판결을 받거나, 경쟁사의 혁신적인 대체 기술이 시장을 장악하기 시작할 경우."
     ]
   },
   "wikipedia_summary": "Teradyne, Inc. is an American automatic test equipment (ATE) designer and manufacturer based in North Reading, Massachusetts. Its high-profile customers include Samsung, Qualcomm, Intel, Analog Devices, Texas Instruments and IBM.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:54:57.311515+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:05:07.645228+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-06-16T01:03:20.879954+00:00",
+  "generated_at": "2026-06-19T00:53:41.716425+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 81177010176,
+    "market_cap": 76824576000,
     "shares_outstanding": 49130000,
     "employees": 4501,
     "country": "United States",
@@ -30,85 +30,6 @@
     "wikipedia_excerpt": "Monolithic Power Systems, Inc.는 플로리다 주 웨스트 팜 비치에 본사를 둔 미국 상장 회사입니다. 전 세계 15개 이상의 지역에서 운영되고 있습니다."
   },
   "category_b_financials": {
-    "roe": 0.2,
-    "roa": 0.12,
-    "profit_margin": 0.23,
-    "operating_margin": 0.3,
-    "gross_margin": 0.55,
-    "revenue_growth_ttm": 0.26,
-    "earnings_growth_ttm": 0.4,
-    "dividend_yield": 0.51,
-    "payout_ratio": 0.48,
-    "annual_revenue": [
-      2790459000.0,
-      2207100000.0,
-      1821072000.0,
-      1794148000.0,
-      null
-    ],
-    "annual_operating_income": [
-      728636000.0,
-      539358000.0,
-      481736000.0,
-      526785000.0,
-      null
-    ],
-    "annual_eps": [
-      12.75,
-      36.59,
-      8.76,
-      9.05,
-      null
-    ],
-    "annual_free_cf": [
-      663261000.0,
-      624117000.0,
-      580635000.0,
-      187831000.0,
-      null
-    ],
-    "annual_total_debt": [
-      19972000.0,
-      12974000.0,
-      5565000.0,
-      1664000.0,
-      null
-    ],
-    "annual_equity": [
-      3531497000.0,
-      2951125000.0,
-      2049939000.0,
-      1668602000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31",
-      "2021-12-31"
-    ],
-    "quarterly_eps": [
-      3.92,
-      3.46,
-      3.71,
-      2.78,
-      2.79
-    ],
-    "quarterly_revenue": [
-      804185000.0,
-      751155000.0,
-      737176000.0,
-      664574000.0,
-      637554000.0
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
-    ],
     "eps_qoq_yoy_pct": 43.1,
     "sales_yoy_pct": 26.1,
     "ni_cagr_3y_pct": 12.4,
@@ -123,25 +44,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 70.9,
+    "rs_rating": 87,
+    "score": 66.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.072,
-    "trailing_pe": 112.32427,
-    "forward_pe": 54.786224,
-    "ev_to_ebitda": 93.129,
-    "price_to_sales": 27.451653,
+    "peg_ratio": 1.9024,
+    "trailing_pe": 112.1736,
+    "forward_pe": 51.848778,
+    "ev_to_ebitda": 84.33,
+    "price_to_sales": 25.97979,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 95.98,
-    "outperform_6m_vs_nasdaq": 55.87,
-    "outperform_1m_vs_nasdaq": 2.19,
+    "outperform_1y_vs_nasdaq": 92.22,
+    "outperform_6m_vs_nasdaq": 50.23,
+    "outperform_1m_vs_nasdaq": 4.01,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:54:24.222636+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:04:26.046582+00:00"
   }
 }

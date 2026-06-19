@@ -1,141 +1,200 @@
 {
   "ticker": "ECG",
-  "company": "Everus Construction Group, Inc.",
+  "company": "Everus Construction Group",
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-06-16T00:55:02.851969+00:00",
+  "generated_at": "2026-06-19T00:37:01.608903+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 7959938560,
-    "shares_outstanding": 51041606,
-    "employees": 9400,
-    "country": "United States",
-    "website": "https://www.everus.com",
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": null,
+    "website": null,
     "beta": null
   },
   "category_a_business": {
-    "overview": "Everus Construction Group, Inc.는 미국에서 계약 서비스를 제공합니다. 전기 및 기계 부문과 전송 및 배전 부문의 두 부문을 통해 운영됩니다.",
-    "business_model": "Everus 건설 그룹, Inc.",
+    "overview": "미국 전역에서 전문 계약 서비스를 제공하는 선도적인 건설 솔루션 기업입니다.",
+    "milestones": [
+      "1997: 사업 시작 및 확장",
+      "2023: MDU Resources, Everus Construction 분사 계획 발표",
+      "2024: MDU Resources로부터 세금 없는 분사 완료, 독립 상장 기업으로 전환",
+      "2024: 뉴욕 증권 거래소 상장 (티커: ECG)",
+      "2025: Engineering News-Record 선정 Top 600 전문 계약업체 12위",
+      "2025: Electrical Construction & Maintenance 선정 Top 50 전기 계약업체 5위"
+    ],
+    "business_model": "전기, 기계, 송배전 등 전문 건설 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "전기 및 기계 서비스 (E&M)",
+      "송배전 서비스 (T&D)",
+      "상업 프로젝트",
+      "산업 프로젝트",
+      "재생에너지 프로젝트",
+      "운송 프로젝트"
+    ],
+    "value_chain_position": "Midstream + 건설 및 설치, 설계 지원 등 전문 계약 서비스를 제공합니다.",
     "products": [
-      "미국 내 서비스 계약",
-      "전기 및 기계, 전송 및 배전의 두 부문을 통해",
-      "전기, 통신 배선 및 기반 시설의 건설 및 유지 보수 서비스",
-      "지상 및 지하 전기, 가스, 통신 인프라 및 운송의 건설 및 유지 관리"
+      "전기 계약 서비스",
+      "기계 계약 서비스",
+      "송전선 건설",
+      "배전망 건설",
+      "태양광 설치",
+      "프로젝트 관리 및 엔지니어링"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "약 4,000개의 다양한 고객을 보유하고 있어 고객 집중도가 낮습니다."
   },
   "category_b_financials": {
-    "roe": 0.39,
-    "roa": 0.11,
-    "profit_margin": 0.06,
-    "operating_margin": 0.07,
-    "gross_margin": 0.12,
-    "revenue_growth_ttm": 0.25,
-    "earnings_growth_ttm": 0.59,
-    "dividend_yield": null,
-    "payout_ratio": 0.0,
-    "annual_revenue": [
-      3746387000.0,
-      2849685000.0,
-      2854390000.0,
-      2699250000.0
-    ],
-    "annual_operating_income": [
-      264750000.0,
-      189907000.0,
-      190543000.0,
-      164644000.0
-    ],
-    "annual_eps": [
-      3.95,
-      2.81,
-      2.69,
-      2.45
-    ],
-    "annual_free_cf": [
-      90009000.0,
-      115099000.0,
-      135748000.0,
-      -61339000.0,
-      null
-    ],
-    "annual_total_debt": [
-      372088000.0,
-      363202000.0,
-      222178000.0,
-      305223000.0
-    ],
-    "annual_equity": [
-      629818000.0,
-      422612000.0,
-      448850000.0,
-      382247000.0
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31"
-    ],
-    "quarterly_eps": [
-      1.14,
-      1.08,
-      1.11,
-      1.03,
-      0.72
-    ],
-    "quarterly_revenue": [
-      1036953000.0,
-      1011472000.0,
-      986820000.0,
-      921466000.0,
-      826629000.0
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
-    ],
     "eps_qoq_yoy_pct": 59.0,
     "sales_yoy_pct": 25.4,
     "ni_cagr_3y_pct": 17.37,
     "roe_pct": 38.95
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2025년 기준 미국 특수 건설 시장은 수천억 달러 규모로 추정됩니다. (출처: Engineering News-Record, Electrical Construction & Maintenance 등 산업 보고서 기반 추정)",
+    "tam_cagr_pct": "향후 3~5년 5-8% CAGR (근거: 재생에너지, 전력 인프라 현대화, 상업/산업 부문 투자 증가 등 주요 성장 동인에 힘입어 특수 건설 시장은 꾸준히 성장할 것으로 예상됩니다.)",
+    "growth_drivers": [
+      "재생에너지 프로젝트 증가 (태양광 설치 등)",
+      "노후화된 전력 송배전 인프라 현대화 및 확장 필요성",
+      "상업, 산업, 기관 부문의 건설 및 유지보수 수요 지속",
+      "전기차 충전 인프라 등 신규 인프라 투자 확대",
+      "정부의 인프라 투자 정책 및 자금 지원"
+    ],
+    "market_share_pct": "미국 특수 건설 시장 내 1% 미만 (근거: Engineering News-Record 2025년 Top 600 Specialty Contractors 12위, Electrical Construction & Maintenance 2025년 Top 50 Electrical Contractors 5위 등 높은 순위에도 불구하고, 전체 시장 규모가 매우 크고 파편화되어 있어 점유율은 낮을 것으로 추정됩니다.)",
+    "competitors": [
+      {
+        "name": "Quanta Services, Inc.",
+        "differentiation": "전력, 통신, 파이프라인 인프라에 걸친 광범위한 서비스 포트폴리오와 대규모 프로젝트 수행 능력"
+      },
+      {
+        "name": "MYR Group Inc.",
+        "differentiation": "전기 건설 및 유지보수 서비스에 특화된 전문성과 강력한 지역 기반"
+      },
+      {
+        "name": "MasTec, Inc.",
+        "differentiation": "통신, 에너지, 유틸리티 인프라 건설에 강점을 가진 다각화된 서비스 제공"
+      },
+      {
+        "name": "Henkels & McCoy Group, Inc. (Quanta Services에 인수됨)",
+        "differentiation": "전력 및 통신 인프라 건설 및 유지보수 분야의 오랜 역사와 전문성 (현재는 Quanta Services의 일부)"
+      },
+      {
+        "name": "Local/Regional Specialty Contractors",
+        "differentiation": "특정 지역 또는 틈새 시장에 대한 깊은 이해와 유연한 서비스 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (근거: 초기 자본 투자, 숙련된 인력 확보, 기술 전문성, 규제 준수 등이 진입 장벽으로 작용하지만, 특정 틈새 시장에서는 진입이 상대적으로 용이할 수 있습니다.)",
+      "substitutes": "low (근거: 특수 건설 서비스는 필수적인 인프라 구축 및 유지보수 활동으로, 직접적인 대체재가 거의 없습니다. DIY나 내부 인력 활용은 대규모/전문 프로젝트에는 한계가 있습니다.)",
+      "buyer_power": "medium (근거: 대형 고객(유틸리티, 대기업)은 협상력이 높을 수 있으나, ECG의 광범위한 서비스와 전문성은 고객의 선택지를 제한할 수 있습니다. 프로젝트 기반 계약이 많아 고객별 협상력이 다릅니다.)",
+      "supplier_power": "low (근거: 건설 자재 및 장비 공급업체는 다수 존재하며, ECG의 규모와 구매력은 공급업체에 대한 협상력을 높일 수 있습니다. 다만, 특정 전문 장비나 숙련된 인력의 경우 공급자 의존도가 높아질 수 있습니다.)",
+      "rivalry": "high (근거: 미국 전역에 걸쳐 수많은 대형 및 소형 특수 건설 업체들이 존재하며, 가격 경쟁 및 서비스 차별화를 통한 경쟁이 치열합니다. 특히 지역 시장에서는 경쟁이 더욱 심화될 수 있습니다.)"
+    },
     "competitive_advantages": [
-      "Industrials / Engineering & Construction 카테고리 — yfinance peer 비교 권장"
+      "전국적인 서비스 범위 및 규모 (미국 대부분 지역에서 운영)",
+      "다양한 최종 시장 및 고객 포트폴리오 (상업, 산업, 기관, 재생에너지, 운송, 유틸리티 등)",
+      "15개 운영 회사 및 19개 현지 브랜드를 통한 시장 차별화 및 지역 전문성 확보",
+      "25개 이상의 인수를 통한 역량 확장 및 시장 침투 경험",
+      "산업 내 높은 순위 (ENR Top 600 Specialty Contractors 12위, EC&M Top 50 Electrical Contractors 5위)",
+      "재생에너지 분야의 전문성 (Bombard Renewable Energy 브랜드)"
+    ],
+    "competitive_weaknesses": [
+      "매우 파편화된 시장에서 낮은 시장 점유율",
+      "프로젝트 기반 사업의 특성상 매출 및 이익의 변동성",
+      "숙련된 인력 확보 및 유지의 어려움 (약 10,000명의 직원을 보유하지만, 프로젝트 규모에 따라 인력 변동이 큼)",
+      "지역 및 특정 서비스에 특화된 소규모 경쟁사들의 유연성에 대한 대응",
+      "경제 상황 및 특정 산업(예: 건설, 유틸리티 투자)의 경기 변동에 대한 민감성"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 65.8,
+    "score": 66.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 34.050217,
-    "forward_pe": 30.538492,
-    "ev_to_ebitda": 25.037,
-    "price_to_sales": 2.0117564,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 122.31,
-    "outperform_6m_vs_nasdaq": 40.99,
-    "outperform_1m_vs_nasdaq": -3.4,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 128.11,
+    "outperform_6m_vs_nasdaq": 62.03,
+    "outperform_1m_vs_nasdaq": 5.33,
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "ECG는 1997년에 설립되어 25개 이상의 인수를 통해 역량을 확장했으며, 2025년 Engineering News-Record 매거진의 상위 600대 전문 계약업체 중 12위, Electrical Construction & Maintenance 매거진의 상위 50대 전기 계약업체 중 5위를 차지하는 등 규모와 명성을 통해 강력한 브랜드 인지도를 구축했습니다.",
+      "ECG는 미국 전역에 걸쳐 15개의 완전 소유 운영 회사를 통해 19개의 현지 브랜드로 시장에 진출하며, 다양한 서비스와 지리적 시장에 대한 차별화된 접근 방식을 제공하여 고객 충성도와 반복 사업을 유도합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2024년 10월 31일 MDU Resources로부터 분사하여 독립 상장 회사로 전환",
+    "bull_case": "미국 인프라 투자 확대 및 재생 에너지 수요 증가로 E&M, T&D 부문 고성장 지속",
+    "base_case": "미국 건설 시장의 꾸준한 성장과 인프라 투자 확대로 안정적인 매출 및 이익 성장세를 유지하며, 분사 효과로 효율성 증대 및 시장 점유율을 확대할 것입니다.",
+    "bear_case": "경기 침체로 인한 건설 수요 감소, 인력 부족 심화, 원자재 가격 상승 및 경쟁 심화로 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "E&M 및 T&D 부문별 매출 성장률",
+      "신규 프로젝트 수주액 및 백로그",
+      "운영 마진 (OPM)",
+      "인력 이직률 및 숙련공 확보 현황",
+      "미국 인프라 투자 정책 변화"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "다양한 최종 시장에 서비스를 제공하지만, 특정 대형 고객 또는 프로젝트에 대한 의존도가 높아질 경우 해당 고객의 사업 변동이 회사 실적에 큰 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "건설 솔루션 시장은 경쟁이 치열하며, 경쟁 심화로 인해 마진 압박을 받거나 시장 점유율을 잃을 위험이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "프로젝트 기반 사업의 특성상 프로젝트 수주 및 진행 상황에 따라 현금 흐름 변동성이 크며, 예상치 못한 비용 증가나 프로젝트 지연은 재무 건전성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "유능한 인재를 유지, 개발 및 채용하는 데 실패할 경우 프로젝트 실행 능력과 서비스 품질에 부정적인 영향을 미쳐 장기적인 성장을 저해할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "미국 전역에 걸쳐 사업을 운영하므로 지역별 경제 상황, 금리 변동, 인플레이션 등 거시 경제 요인의 변화가 건설 프로젝트 수요와 비용에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "건설 산업은 환경, 안전, 노동 등 다양한 규제에 직면해 있으며, 규제 변경 또는 위반 시 벌금, 사업 중단 등 불이익을 받을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "건설 자재 및 장비 공급망의 차질이나 가격 변동은 프로젝트 비용 증가와 일정 지연을 초래하여 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 대형 프로젝트에서 심각한 손실이 발생하거나, 여러 프로젝트에서 동시에 예상치 못한 비용 증가 및 지연이 발생하여 재무 건전성이 급격히 악화될 경우 회사가 망할 수 있습니다.",
+      "건설 시장의 급격한 침체 또는 주요 고객사의 대규모 이탈로 인해 신규 프로젝트 수주가 급감하고 기존 계약마저 취소될 경우 회사가 망할 수 있습니다.",
+      "경쟁사와의 기술 격차가 벌어지거나, 핵심 인력 유출로 인해 프로젝트 수행 능력이 현저히 저하되어 시장 경쟁력을 상실할 경우 회사가 망할 수 있습니다."
+    ],
+    "exit_signals": [
+      "분기별 실적 발표에서 연속적으로 매출 감소 및 마진율 하락이 확인되고, 경영진이 제시하는 성장 전략이 불확실해 보일 때.",
+      "주요 고객사와의 장기 계약이 해지되거나, 대규모 프로젝트 수주 실패 소식이 반복적으로 들려올 때.",
+      "건설 산업 전반에 걸쳐 규제 강화 또는 경기 침체 신호가 명확해지고, 회사가 이에 대한 효과적인 대응책을 제시하지 못할 때."
+    ]
+  },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:58.758808+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:02:57.452020+00:00"
   }
 }

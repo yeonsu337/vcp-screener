@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-06-12T00:32:54.014506+00:00",
+  "generated_at": "2026-06-19T00:47:32.660645+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5403937792,
+    "market_cap": 5440831488,
     "shares_outstanding": 62531106,
     "employees": 699,
     "country": "United States",
@@ -17,189 +17,174 @@
     "beta": 1.108
   },
   "category_a_business": {
-    "overview": "VCTR은 미국 및 국제적으로 기관, 중개인, 개인 투자자에게 전문 투자 전략을 제공하는 자산운용사입니다.",
-    "milestones": [
-      "2013: KeyCorp로부터 Victory Capital Management 및 Victory Capital Services 인수 목적으로 설립",
-      "2013: Victory Capital Management (RIA) 및 Victory Capital Services (브로커-딜러) 인수",
-      "2013: 뮤추얼 펀드, 기관 분리 계정, ETF 등 다양한 투자 상품 제공 시작",
-      "2013: 펀드 관리, 펀드 이전 대리인, 펀드 배포 서비스 제공 시작",
-      "2025: 총 운용자산(AUM) 3,138억 달러 달성 (예상치)"
-    ],
-    "business_model": "다양한 투자 프랜차이즈를 통해 전문화된 투자 전략과 상품을 제공하여 수수료를 받습니다.",
-    "revenue_streams": [
-      "투자 관리 수수료",
-      "펀드 관리 서비스 수수료",
-      "펀드 이전 대리인 서비스 수수료",
-      "펀드 배포 서비스 수수료"
-    ],
-    "value_chain_position": "Midstream + 다양한 투자 상품을 개발하고 운용하며 고객에게 배포하는 자산운용사입니다.",
+    "overview": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다. 기관, 중개기관, 퇴직플랫폼, 개인투자자에게 특화된 투자전략을 제공합니다. 또한 회사는 액티브 및 패시브 관리 뮤추얼 펀드, 규칙 기반 및 액티브 상장지수펀드(ETF), 기관별도 계좌, 변액 보험 상품, 대체 투자, 프라이빗 폐쇄형 펀드, 529 교육 저축 플랜 등 다양한 투자 상품을 제공합니다. 및 제3자 투자",
+    "business_model": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다.",
     "products": [
-      "액티브/패시브 뮤추얼 펀드",
-      "ETF (상장지수펀드)",
-      "기관 분리 계정",
-      "대체 투자 상품",
-      "529 교육 저축 플랜",
-      "집합 투자 신탁 (CIT)"
+      "미국 및 해외의 자산 관리 회사로서",
+      "기관, 중개인, 은퇴플랫폼, 개인투자자를 위한 특화된 투자전략",
+      "능동적 및 수동적으로 관리되는 뮤추얼 펀드, 규칙 기반 및 능동적 교환 tr을 포함한 다양한 투자 상품",
+      "투자관리 서비스, 자금관리 서비스, 자금이체 대행 서비스, 자금배분 서비스"
     ],
     "channels": [
-      "B2B (기관, 중개인)",
-      "B2C (개인 투자자)",
-      "D2C (자사 플랫폼)",
-      "퇴직 플랫폼"
-    ],
-    "key_customers": "특정 고객에 대한 집중도 정보는 제공되지 않았습니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
+    "roe": 0.22,
+    "roa": 0.12,
+    "profit_margin": 0.26,
+    "operating_margin": 0.46,
+    "gross_margin": 0.56,
+    "revenue_growth_ttm": 0.77,
+    "earnings_growth_ttm": 0.39,
+    "dividend_yield": 2.29,
+    "payout_ratio": 0.44,
+    "annual_revenue": [
+      1306131000.0,
+      893477000.0,
+      821028000.0,
+      854800000.0,
+      null
+    ],
+    "annual_operating_income": [
+      554979000.0,
+      442904000.0,
+      352506000.0,
+      359923000.0,
+      null
+    ],
+    "annual_eps": [
+      4.08,
+      4.38,
+      3.12,
+      3.81,
+      null
+    ],
+    "annual_free_cf": [
+      381328000.0,
+      338701000.0,
+      325122000.0,
+      329966000.0,
+      null
+    ],
+    "annual_total_debt": [
+      970014000.0,
+      963862000.0,
+      989269000.0,
+      985514000.0
+    ],
+    "annual_equity": [
+      2424729000.0,
+      1121637000.0,
+      1053001000.0,
+      1065410000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.33,
+      1.32,
+      1.11,
+      0.68,
+      0.96,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      387989000.0,
+      374122000.0,
+      361195000.0,
+      351212000.0,
+      219602000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 80.9,
     "sales_yoy_pct": 76.7,
     "ni_cagr_3y_pct": 6.21,
     "roe_pct": 21.7
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 120조 (글로벌 자산운용 산업 AUM, 2025년 기준 추정치) + 여러 시장 조사 기관 보고서 종합 추정",
-    "tam_cagr_pct": "5~7% + 글로벌 인구 고령화, 은퇴 자산 증가, 디지털 자산 관리 솔루션 확산, 신흥 시장 성장으로 인한 자산 증식 수요 증가",
-    "growth_drivers": [
-      "인수합병(M&A)을 통한 규모 및 역량 확장",
-      "다양한 투자 전략 및 상품(액티브/패시브 펀드, ETF, 대안 투자 등) 제공을 통한 고객 니즈 충족",
-      "강력한 리스크 조정 성과를 가진 가치 부가형 솔루션 제공",
-      "기관, 중개인, 은퇴 플랫폼 및 개인 투자자를 아우르는 광범위한 유통 채널 활용",
-      "독립적인 투자 프랜차이즈와 통합된 운영 플랫폼의 시너지 효과"
-    ],
-    "market_share_pct": "0.25% (AUM $313.8B / TAM $120T 기준 추정)",
-    "competitors": [
-      {
-        "name": "BlackRock",
-        "differentiation": "세계 최대 자산운용사로, iShares ETF를 통한 패시브 투자 시장 지배력, Aladdin 기술 플랫폼을 통한 광범위한 솔루션 제공"
-      },
-      {
-        "name": "Vanguard",
-        "differentiation": "저비용 인덱스 펀드 및 ETF를 통한 개인 투자자 시장 강세, 고객 중심의 소유 구조"
-      },
-      {
-        "name": "Fidelity Investments",
-        "differentiation": "다양한 투자 상품 및 서비스(브로커리지, 퇴직 플랜 등) 제공, 강력한 브랜드 인지도와 광범위한 고객 기반"
-      },
-      {
-        "name": "State Street Global Advisors",
-        "differentiation": "기관 투자자 대상 서비스 및 ETF(SPDR) 시장에서의 강점, 글로벌 자산 관리 및 서비스 역량"
-      },
-      {
-        "name": "T. Rowe Price",
-        "differentiation": "액티브 운용에 강점, 특히 은퇴 자산 및 뮤추얼 펀드 시장에서 강력한 입지, 장기적인 투자 성과"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium + 자산운용업은 규제 장벽과 규모의 경제가 중요하지만, 핀테크 기반의 소규모 자문사 진입 가능성 존재",
-      "substitutes": "medium + 직접 투자, 부동산, 대체 자산 등 다양한 투자 대안이 존재하며, 개인 투자자의 DIY(Do-It-Yourself) 투자 증가",
-      "buyer_power": "high + 기관 투자자 및 대규모 자산 보유 개인은 수수료 협상력과 서비스 선택권이 높음",
-      "supplier_power": "low + 자산운용업의 주요 공급자는 인재(투자 전문가)와 기술 플랫폼이지만, VCTR은 내부적으로 상당 부분 해결",
-      "rivalry": "high + 글로벌 및 지역 경쟁사 간의 치열한 경쟁, 수수료 인하 압력, 성과 경쟁 심화"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "부티크 투자 품질과 통합된 운영 및 유통 플랫폼의 결합 모델",
-      "다수의 독립적인 투자 프랜차이즈를 통한 다양한 전문 투자 전략 제공",
-      "액티브 및 패시브 펀드, ETF, 대안 투자 등 광범위한 투자 상품 포트폴리오",
-      "기관, 중개인, 은퇴 플랫폼, 개인 투자자를 아우르는 다각화된 고객 기반",
-      "유기적 성장과 무기적 성장(M&A)을 모두 추구하는 명확한 성장 전략"
-    ],
-    "competitive_weaknesses": [
-      "글로벌 대형 경쟁사에 비해 상대적으로 작은 AUM 규모",
-      "브랜드 인지도 및 마케팅 역량이 일부 대형 경쟁사에 비해 낮을 수 있음",
-      "시장 변동성 및 규제 변화에 대한 취약성 (자산운용 산업 전반의 리스크)",
-      "인수합병을 통한 성장에 대한 의존도가 높아 통합 리스크 존재",
-      "주요 투자 프랜차이즈의 핵심 인력 이탈 시 투자 성과에 부정적 영향 가능성"
+      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 82.1,
-    "vcp_quality": 14.6,
+    "rs_rating": 73,
+    "score": 71.0,
+    "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 19.420225,
-    "forward_pe": 11.146825,
-    "ev_to_ebitda": 8.565,
-    "price_to_sales": 3.664884,
+    "trailing_pe": 19.55281,
+    "forward_pe": 11.222926,
+    "ev_to_ebitda": 8.641,
+    "price_to_sales": 3.6899052,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 11.83,
-    "outperform_6m_vs_nasdaq": 30.36,
-    "outperform_1m_vs_nasdaq": 0.88,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "VCTR은 187개의 다양한 투자 전략을 제공하며, 'Victory Capital', 'VictoryShares' 등 다수의 상표권을 소유하고 있습니다. 이는 강력한 브랜드 인지도와 신뢰를 구축하는 데 기여합니다.",
-      "VCTR은 부티크 투자 품질과 통합된 운영 및 유통 플랫폼의 이점을 결합한 차별화된 비즈니스 모델을 보유하고 있습니다. 이는 고객에게 다양한 전문 투자 전략을 제공하며 경쟁 우위를 확보합니다.",
-      "VCTR은 기관, 중개인, 퇴직 플랫폼 및 개인 투자자에게 특화된 투자 전략을 제공하며, 다양한 투자 상품(뮤추얼 펀드, ETF, 기관 분리 계정 등)을 통해 광범위한 고객 기반을 확보하고 있습니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "다양한 투자 전략 및 상품 포트폴리오 확장, 529 교육 저축 플랜 제공",
-    "bull_case": "3년 내 AUM 4천억 달러 돌파 및 EPS 두 자릿수 성장. 다양한 투자 상품과 전략 확장이 핵심 드라이버.",
-    "base_case": "안정적인 AUM 성장과 견고한 수익성 유지. 시장 변동성에도 불구하고 다각화된 포트폴리오로 리스크 관리.",
-    "bear_case": "글로벌 경기 침체 및 시장 변동성 심화로 AUM 감소 및 수익성 악화. 경쟁 심화로 인한 수수료 압박.",
-    "key_metrics_to_watch": [
-      "총 운용 자산 (AUM) 성장률",
-      "순이익 (NI) 성장률",
-      "주당순이익 (EPS) 성장률",
-      "운영 마진 (OPM)"
-    ]
+    "outperform_1y_vs_nasdaq": 9.44,
+    "outperform_6m_vs_nasdaq": 22.51,
+    "outperform_1m_vs_nasdaq": 3.75,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "재무",
-        "description": "회사의 매출 대부분은 운용자산(AUM)에 기반하므로, AUM 감소는 매출과 수익성에 직접적인 악영향을 미칩니다.",
-        "severity": "high"
-      },
-      {
-        "category": "경쟁",
-        "description": "투자 전략의 성과가 저조할 경우 고객 자산 이탈로 이어져 AUM이 감소하고 수익이 줄어들 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "이 경우 당사 보통주의 거래가격이 하락할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "핵심 투자 전문가나 고위 경영진의 이탈은 회사 사업에 중대한 부정적 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "광범위한 미국 및 해외 규제에 직면해 있으며, 규제 미준수는 벌금, AUM 손실 및 사업 활동 제한으로 이어질 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "비즈니스 위험 • 주요 투자 전문가 또는 고위 경영진 구성원의 상실은 당사 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "경쟁",
-        "description": "투자 운용 산업은 경쟁이 치열하며, 패시브 운용, 저비용 상품, 대체 자산 클래스에 대한 수요 증가와 같은 업계 동향은 AUM, 매출 및 순이익을 감소시킬 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "합병 및 인수 위험 • 통합의 어려움 및 기타 문제로 인해 인수합병에서 기대하는 이점을 실현하지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "상당한 부채를 보유하고 있어 재무적 위험에 노출되어 있으며, 이는 회사의 유동성과 재무 상태에 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "부채 위험 • 막대한 부채로 인해 중대한 위험에 노출될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거시",
-        "description": "우크라이나, 베네수엘라, 중국/대만 및 중동 지역의 지속적인 분쟁은 글로벌 경제에 부정적인 영향을 미치고 있으며, 이는 회사 사업에도 영향을 줄 수 있습니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "공개 회사의 위험 • 당사 보통주의 시장 가격은 변동성이 크며 하락할 가능성이 있습니다.",
+        "severity": "medium"
       },
       {
-        "category": "운영",
-        "description": "사이버 보안 정책 및 역량 부족은 운영 중단 및 재정적 손실을 초래할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "업계 위험 • 투자 관리 업계의 최근 추세로 인해 패시브 운용, 낮은 수수료 상품 또는 대체 자산 클래스에 대한 수요 증가 등 AUM, 수익 및 순이익이 감소할 수 있습니다.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "글로벌 경제 위기 또는 지정학적 분쟁으로 인해 투자 시장이 급격히 침체되고, VCTR의 주요 투자 전략이 지속적으로 저조한 성과를 보이면서 대규모 고객 자산 이탈이 발생하여 회사의 AUM이 급감하고 재정적 파탄에 이르는 경우.",
-      "핵심 투자 전문가 및 경영진이 대거 이탈하고, 동시에 규제 위반으로 인한 대규모 벌금과 소송에 직면하여 회사의 평판이 심각하게 훼손되고 사업 운영이 불가능해지는 경우.",
-      "인수합병을 통한 성장 전략이 실패하고, 통합 과정에서 예상치 못한 막대한 부채와 손실이 발생하며, 동시에 사이버 공격으로 인한 대규모 고객 데이터 유출 및 시스템 마비로 인해 사업 연속성이 상실되는 경우."
-    ],
     "exit_signals": [
-      "분기별 AUM이 2분기 연속 10% 이상 감소하거나, 핵심 투자 전략의 성과가 1년 이상 시장 평균을 하회하는 경우.",
-      "주요 경영진 또는 핵심 투자 전문가의 대규모 이탈이 발생하거나, 회사의 주요 규제 위반으로 인해 중대한 벌금 또는 사업 제한 조치가 부과되는 경우.",
-      "주요 인수합병이 실패로 돌아가거나, 통합 과정에서 예상치 못한 막대한 손실이 발생하여 재무 상태가 급격히 악화되는 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:55:02.392237+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:05:32.811413+00:00"
   }
 }

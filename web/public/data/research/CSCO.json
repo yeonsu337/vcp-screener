@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-06-18T00:42:51.286546+00:00",
+  "generated_at": "2026-06-19T00:50:38.203757+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 462448525312,
+    "market_cap": 471159111680,
     "shares_outstanding": 3941434665,
     "employees": 86200,
     "country": "United States",
@@ -17,40 +17,21 @@
     "beta": 1.004
   },
   "category_a_business": {
-    "overview": "시스코는 인터넷 인프라를 구축하고 보호하는 하드웨어, 소프트웨어, 서비스를 제공하는 글로벌 기술 기업입니다.",
-    "milestones": [
-      "1984: 스탠포드 대학교에서 설립, 라우터 개발 시작",
-      "1990: 나스닥 상장, 기업 공개",
-      "1990년대: 인터넷 붐과 함께 라우터 및 스위치 시장 지배",
-      "2000년대: VoIP, 보안, 무선 등 다양한 기술 분야로 확장",
-      "2010년대: 클라우드, 데이터센터, 협업 솔루션 강화",
-      "2020년대: 사이버 보안, AI, IoT 분야 투자 및 솔루션 확대"
-    ],
-    "business_model": "네트워킹, 보안, 협업 솔루션 및 관련 서비스를 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "네트워킹 하드웨어 판매 (라우터, 스위치 등)",
-      "보안 소프트웨어 및 서비스 구독",
-      "협업 솔루션 (Webex 등) 판매 및 구독",
-      "데이터센터 및 클라우드 솔루션",
-      "기술 지원 및 컨설팅 서비스",
-      "AI 및 IoT 관련 솔루션"
-    ],
-    "value_chain_position": "Midstream: 인터넷 인프라 구축 및 운영에 필수적인 하드웨어, 소프트웨어, 서비스를 제공합니다.",
+    "overview": "Cisco Systems, Inc.는 미주, 유럽, 중동, 아프리카, 아시아 태평양, 일본 및 중국의 인터넷을 강화하고 보호하며 통찰력을 얻는 데 도움이 되는 기술을 설계, 개발 및 판매합니다. 이 회사는 데이터 센터 전환을 제공합니다. 네트워크 보안, 신원 및 액세스 관리, 보안 액세스 서비스 에지; 위협 인텔리전스, 탐지 및 대응 솔루션; 공용 및 개인 유선 및 모바일 네트워크를 상호 연결하여 캠퍼스, 데이터 센터 및 지점 네트워크에 연결을 제공합니다. WEBEX 제품군, 협업 장치 및 연락 센터; 통신 플랫폼",
+    "business_model": "시스코 시스템즈, Inc.",
     "products": [
-      "라우터 및 스위치",
-      "사이버 보안 솔루션 (네트워크 보안, 위협 탐지)",
-      "Webex (협업 플랫폼)",
-      "데이터센터 네트워킹",
-      "무선 제품",
-      "네트워크 모니터링 및 분석 도구"
+      "미주, 유럽, 중동의 인터넷에서 통찰력을 강화하고 보호하며 도출하는 데 도움이 되는 기술",
+      "데이터 센터 스위칭",
+      "기술 지원 및 자문 서비스",
+      "시스템 통합업체, 서비스 제공업체, 리셀러 및 유통업체를 통해 직접 제품 및 서비스"
     ],
     "channels": [
-      "B2B (기업 직접 판매)",
-      "도매 (유통 파트너를 통한 판매)",
-      "서비스 제공업체 (통신사 등)",
-      "클라우드 파트너"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도는 낮은 편이며, 전 세계 다양한 규모의 기업, 정부 기관, 서비스 제공업체가 주요 고객입니다."
+    "wikipedia_excerpt": "Cisco로 사업을 운영하는 Cisco Systems, Inc.는 네트워킹, 사이버 보안 및 AI에 초점을 맞춘 하드웨어, 소프트웨어, 통신 장비 및 기타 첨단 기술 서비스와 제품을 개발, 제조 및 판매하는 미국의 다국적 기술 대기업입니다. Cisco는 Webex, OpenDNS, Jabber 및 Jasper와 같은 제품을 포함하여 사물 인터넷(IoT), 도메인 보안, 화상 회의, 에너지 관리 등 특정 기술 시장을 전문으로 합니다. 이 회사는 캘리포니아주 산호세에 본사를 두고 있으며, 2025년 12월 현재 시가총액을 보유하고 있습니다.",
+    "milestones": [
+      "2025년: , 시가총액은 3,170억 달러입니다."
+    ]
   },
   "category_b_financials": {
     "roe": 0.25,
@@ -143,24 +124,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 86,
-    "score": 61.7,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6594,
-    "trailing_pe": 39.11,
-    "forward_pe": 24.564886,
+    "peg_ratio": 1.6283,
+    "trailing_pe": 39.84667,
+    "forward_pe": 25.027584,
     "ev_to_ebitda": 28.673,
-    "price_to_sales": 7.612823,
+    "price_to_sales": 7.7562165,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 51.14,
-    "outperform_6m_vs_nasdaq": 38.71,
-    "outperform_1m_vs_nasdaq": -1.04,
+    "outperform_1y_vs_nasdaq": 51.35,
+    "outperform_6m_vs_nasdaq": 41.07,
+    "outperform_1m_vs_nasdaq": 1.1,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:49.647375+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:02:25.986948+00:00"
   }
 }

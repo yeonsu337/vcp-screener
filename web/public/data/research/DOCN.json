@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-06-18T00:47:58.652673+00:00",
+  "generated_at": "2026-06-19T00:54:42.783326+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 18556995584,
+    "market_cap": 18083182592,
     "shares_outstanding": 104364181,
     "employees": 1462,
     "country": "United States",
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 98,
-    "score": 64.7,
+    "rs_rating": 97,
+    "score": 62.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 77.98684,
-    "forward_pe": 101.18766,
+    "trailing_pe": 75.99561,
+    "forward_pe": 98.60405,
     "ev_to_ebitda": 63.527,
-    "price_to_sales": 19.56191,
+    "price_to_sales": 19.062439,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 499.57,
-    "outperform_6m_vs_nasdaq": 275.55,
-    "outperform_1m_vs_nasdaq": 20.87,
+    "outperform_1y_vs_nasdaq": 484.97,
+    "outperform_6m_vs_nasdaq": 275.16,
+    "outperform_1m_vs_nasdaq": 13.0,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요인과 기타 요인 또는 이러한 요인의 누적 효과로 인해 당사의 운영 결과가 크게 달라질 수 있습니다.",
+        "description": "이러한 요인과 기타 요인 또는 이러한 요인 중 일부의 누적 효과로 인해 당사의 운영 결과가 크게 달라질 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "수익성을 유지하지 못할 경우, 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
+        "description": "수익성을 유지하지 못할 경우 당사 사업 및 보통주의 가치가 크게 하락할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "DigitalOcean Holdings, Inc. is an American multinational technology company and cloud service provider. The company is headquartered in Broomfield, Colorado, US, with 15 globally distributed data centers. DigitalOcean provides developers, startups, and SMBs with cloud infrastructure-as-a-service platforms.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:58.758001+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:02:57.450369+00:00"
   }
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "CASY",
-  "generated_at": "2026-06-18T00:27:14.569366+00:00",
-  "source_results_date": "2026-06-18",
+  "ticker": "POWL",
+  "generated_at": "2026-06-19T00:36:22.469761+00:00",
+  "source_results_date": "2026-06-19",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.64,
+  "confidence": 0.67,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 17.96%).",
-    "13주 베이스 9.1% → 6.5% → 18.0%, VDU 0.82×, pivot $927.85(-8.30%).",
-    "Trend Template 8/8 통과, RS 81 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 15.42%).",
+    "13주 베이스 14.3% → 16.0% → 23.7% → 15.4%, VDU 0.95×, pivot $327.89(-9.36%).",
+    "Trend Template 8/8 통과, RS 96 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,9 +25,9 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 81,
+    "rs_rating": 96,
     "stage": 2,
-    "base_count": 3,
+    "base_count": 4,
     "late_base_warning": true,
     "market_regime": "neutral"
   },
@@ -44,17 +44,18 @@
     "L1_liquidity_gate",
     "E7_roe",
     "F1_outperform_1y",
-    "R2_rs_80"
+    "H4_ni_cagr_3y",
+    "R2_rs_80",
+    "R3_rs_90"
   ],
   "key_failures": [
-    "P2_last_contraction (17.96% vs 6.5%)",
-    "P3_vol_dryup (0.82× vs 0.6×)",
-    "P4_base_count (3 — 후기 베이스)",
+    "P2_last_contraction (15.42% vs 6.5%)",
+    "P3_vol_dryup (0.95× vs 0.6×)",
+    "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-9.0% vs ≥-5.0%)"
+    "rs_line (-8.8% vs ≥-5.0%)"
   ],
   "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+    "베이스 카운트 4 — 후기 베이스, 실패율 상승"
   ]
 }

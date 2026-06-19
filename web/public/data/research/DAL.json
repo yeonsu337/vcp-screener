@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Airlines",
-  "generated_at": "2026-06-17T00:46:53.035891+00:00",
+  "generated_at": "2026-06-19T00:56:44.894358+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 54622511104,
+    "market_cap": 55305785344,
     "shares_outstanding": 656994340,
     "employees": 103000,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.313
   },
   "category_a_business": {
-    "overview": "Delta Air Lines, Inc.는 미국 및 국제적으로 승객과 화물을 위한 정기 항공 운송을 제공합니다. 이 회사는 항공사와 정유소라는 두 부문을 통해 운영됩니다.",
+    "overview": "Delta Air Lines, Inc.는 미국과 국제적으로 승객과 화물을 위한 정기 항공 운송을 제공합니다. 이 회사는 항공사와 정유소라는 두 부문을 통해 운영됩니다.",
     "business_model": "델타항공, Inc.",
     "products": [
       "미국 및 국제적으로 승객과 화물을 위한 정기 항공 운송",
@@ -38,7 +38,7 @@
     "gross_margin": 0.2,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": null,
-    "dividend_yield": 0.89,
+    "dividend_yield": 0.9,
     "payout_ratio": 0.1,
     "annual_revenue": [
       63364000000.0,
@@ -129,20 +129,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 57.2,
+    "rs_rating": 77,
+    "score": 57.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.21,
-    "trailing_pe": 12.262536,
-    "forward_pe": 10.315098,
-    "ev_to_ebitda": 9.168,
-    "price_to_sales": 0.8380513,
+    "trailing_pe": 12.289051,
+    "forward_pe": 10.44413,
+    "ev_to_ebitda": 9.09,
+    "price_to_sales": 0.8485345,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.95,
-    "outperform_6m_vs_nasdaq": 6.02,
-    "outperform_1m_vs_nasdaq": 17.81,
+    "outperform_1y_vs_nasdaq": 44.19,
+    "outperform_6m_vs_nasdaq": 4.23,
+    "outperform_1m_vs_nasdaq": 21.73,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -167,6 +167,6 @@
   },
   "wikipedia_summary": "Delta Air Lines, Inc. is a major airline in the United States headquartered in Atlanta, Georgia, operating nine hubs, with Hartsfield–Jackson Atlanta International Airport being its largest in terms of total passengers and number of departures. With its regional subsidiaries and contractors operating under the brand name Delta Connection, Delta has over 5,400 flights daily and serves 325 destinations in 52 countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:49.648388+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:02:38.596288+00:00"
   }
 }

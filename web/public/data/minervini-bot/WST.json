@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "WST",
-  "generated_at": "2026-06-18T00:27:14.564101+00:00",
-  "source_results_date": "2026-06-18",
+  "generated_at": "2026-06-19T00:36:22.468351+00:00",
+  "source_results_date": "2026-06-19",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.8,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $330.88 근접(-2.20%).",
-    "13주 베이스 12.5% → 10.3% → 10.6% 수축, VDU 0.68× 진행.",
-    "Trend Template 8/8 통과, RS 74, RS 라인 신고가 -4.8%.",
+    "매수 대기 — Stage 2 진입, pivot $330.88 근접(-0.89%).",
+    "13주 베이스 10.3% → 10.6% 수축, VDU 0.73× 진행.",
+    "Trend Template 8/8 통과, RS 74, RS 라인 신고가 -4.3%.",
     "$330.88 돌파 시 매수·-7% 손절($307.72)·+20%($397.06) 절반 익절."
   ],
   "action": {
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (10.57% vs 6.5%)",
-    "P3_vol_dryup (0.68× vs 0.6×)",
+    "P3_vol_dryup (0.73× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

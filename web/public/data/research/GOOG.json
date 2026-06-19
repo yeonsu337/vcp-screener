@@ -4,13 +4,13 @@
   "market": "US",
   "sector": "Communication Services",
   "industry": "Internet Content & Information",
-  "generated_at": "2026-06-16T00:58:08.941372+00:00",
-  "primary_passed": 13,
+  "generated_at": "2026-06-19T00:52:40.500196+00:00",
+  "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4476882124800,
-    "shares_outstanding": 5495819345,
+    "market_cap": 4483957391360,
+    "shares_outstanding": 5499638298,
     "employees": 194668,
     "country": "United States",
     "website": "https://abc.xyz",
@@ -35,84 +35,6 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.39,
-    "roa": 0.15,
-    "profit_margin": 0.38,
-    "operating_margin": 0.36,
-    "gross_margin": 0.6,
-    "revenue_growth_ttm": 0.22,
-    "earnings_growth_ttm": 0.82,
-    "dividend_yield": 0.25,
-    "payout_ratio": 0.06,
-    "annual_revenue": [
-      402836000000.0,
-      350018000000.0,
-      307394000000.0,
-      282836000000.0
-    ],
-    "annual_operating_income": [
-      129039000000.0,
-      112390000000.0,
-      84293000000.0,
-      74842000000.0
-    ],
-    "annual_eps": [
-      10.81,
-      8.04,
-      5.8,
-      4.56
-    ],
-    "annual_free_cf": [
-      73266000000.0,
-      72764000000.0,
-      69495000000.0,
-      60010000000.0,
-      null
-    ],
-    "annual_total_debt": [
-      59291000000.0,
-      22574000000.0,
-      27121000000.0,
-      29679000000.0,
-      null
-    ],
-    "annual_equity": [
-      415265000000.0,
-      325084000000.0,
-      283379000000.0,
-      256144000000.0,
-      null
-    ],
-    "annual_periods": [
-      "2025-12-31",
-      "2024-12-31",
-      "2023-12-31",
-      "2022-12-31"
-    ],
-    "quarterly_eps": [
-      5.11,
-      2.82,
-      2.87,
-      2.31,
-      2.81,
-      null
-    ],
-    "quarterly_revenue": [
-      109896000000.0,
-      113829000000.0,
-      102346000000.0,
-      96428000000.0,
-      90234000000.0,
-      null
-    ],
-    "quarterly_periods": [
-      "2026-03-31",
-      "2025-12-31",
-      "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
-    ],
     "eps_qoq_yoy_pct": 81.2,
     "sales_yoy_pct": 21.8,
     "ni_cagr_3y_pct": 30.14,
@@ -123,31 +45,31 @@
     "tam_cagr_pct": "—",
     "market_share_pct": "—",
     "competitive_advantages": [
-      "커뮤니케이션 서비스 / 인터넷 콘텐츠 및 정보 카테고리 — yfinance Peer 경쟁 페이지"
+      "통신 서비스/인터넷 콘텐츠 및 정보 카테고리 — yfinance Peer 경쟁 페이지"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 61.6,
+    "rs_rating": 78,
+    "score": 61.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4102,
-    "trailing_pe": 27.314732,
-    "forward_pe": 25.351831,
-    "ev_to_ebitda": 27.381,
-    "price_to_sales": 10.596221,
+    "peg_ratio": 1.4257,
+    "trailing_pe": 28.05038,
+    "forward_pe": 25.348362,
+    "ev_to_ebitda": 27.68,
+    "price_to_sales": 10.612967,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 72.32,
-    "outperform_6m_vs_nasdaq": 4.08,
-    "outperform_1m_vs_nasdaq": -7.7,
+    "outperform_1y_vs_nasdaq": 72.08,
+    "outperform_6m_vs_nasdaq": 4.83,
+    "outperform_1m_vs_nasdaq": -6.98,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Google Cloud 수익의 변동은 위에서 설명한 일반적인 요인 외에도 고객 사용량, 수요, 공급 가용성의 변화와 같은 요인의 영향을 받아 왔으며 앞으로도 계속 영향을 받을 수 있습니다.",
+        "description": "Google Cloud 수익의 변동은 위에 설명된 일반적인 요인 외에도 고객 사용량, 수요, 공급 가용성의 변화와 같은 요인의 영향을 받아 왔으며 앞으로도 계속 영향을 받을 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -160,6 +82,6 @@
   },
   "wikipedia_summary": "Alphabet Inc. is an American multinational technology conglomerate holding company headquartered in Mountain View, California. It was created through a restructuring of Google on October 2, 2015, and became the parent holding company of Google and several former Google subsidiaries. Alphabet is listed on the large-cap section of the Nasdaq under the ticker symbols GOOGL and GOOG; both classes of stock are components of major stock market indices such as the S&P 500 and Nasdaq-100. Alphabet has been described as a Big Tech company.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-18T00:53:58.763102+00:00"
+    "GoogleWebTranslator": "2026-06-19T01:03:14.426701+00:00"
   }
 }
