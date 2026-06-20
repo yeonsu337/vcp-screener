@@ -1,0 +1,282 @@
+{
+  "ticker": "GE",
+  "company": "GE Aerospace",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
+  "generated_at": "2026-06-20T00:20:58.519093+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 373672869888,
+    "shares_outstanding": 1043337235,
+    "employees": 57000,
+    "country": "United States",
+    "website": "https://www.geaerospace.com",
+    "beta": 1.375
+  },
+  "category_a_business": {
+    "overview": "GE Aerospace는 항공기 엔진 및 관련 시스템을 설계, 생산, 서비스하는 글로벌 선도 기업입니다.",
+    "milestones": [
+      "1892: 제너럴 일렉트릭(GE) 설립",
+      "1917: GE 항공 사업부 설립 (초기 항공기 엔진 개발 참여)",
+      "1942: 미국 최초의 제트 엔진 개발",
+      "1971: CFM International (사프란과의 합작법인) 설립",
+      "2021: GE, 헬스케어, 에너지, 항공 3개 독립 회사 분할 발표",
+      "2024: GE Aerospace로 사명 변경 및 독립 기업 출범"
+    ],
+    "business_model": "상업 및 방위 항공기 엔진, 부품, MRO 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "상업용 엔진 및 서비스 (신규 엔진 판매, 부품, MRO)",
+      "방위 및 추진 기술 (군용 엔진, 부품, MRO)",
+      "항공기 시스템 및 부품 판매",
+      "엔진 유지보수, 수리, 정비 (MRO) 서비스",
+      "예비 부품 판매"
+    ],
+    "value_chain_position": "Midstream / Downstream + 항공기 엔진 및 시스템의 설계, 제조, 판매, 유지보수 전반을 담당합니다.",
+    "products": [
+      "상업용 제트 엔진",
+      "군용 제트 엔진",
+      "소형 터보프롭 엔진",
+      "항공기 기계식 변속기",
+      "항공 전자 및 전력 시스템"
+    ],
+    "channels": [
+      "B2B (항공기 제조사, 항공사, 정부 및 군대)"
+    ],
+    "key_customers": "주요 항공기 제조사, 전 세계 항공사, 각국 정부 및 군대에 집중되어 있습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.45,
+    "roa": 0.05,
+    "profit_margin": 0.18,
+    "operating_margin": 0.2,
+    "gross_margin": 0.31,
+    "revenue_growth_ttm": 0.25,
+    "earnings_growth_ttm": -0.02,
+    "dividend_yield": null,
+    "payout_ratio": null,
+    "annual_revenue": [
+      45855000000.0,
+      38702000000.0,
+      35348000000.0,
+      29139000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      8680000000.0,
+      6761000000.0,
+      4717000000.0,
+      3596000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.14,
+      5.99,
+      8.36,
+      0.05,
+      null
+    ],
+    "annual_free_cf": [
+      7264000000.0,
+      3678000000.0,
+      4327000000.0,
+      5255000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      20495000000.0,
+      19273000000.0,
+      20525000000.0,
+      26148000000.0,
+      null
+    ],
+    "annual_equity": [
+      18677000000.0,
+      19342000000.0,
+      27403000000.0,
+      33696000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.81,
+      2.4,
+      2.02,
+      1.89,
+      1.83,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      12392000000.0,
+      12717000000.0,
+      12181000000.0,
+      11022000000.0,
+      9934000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": -3.7,
+    "sales_yoy_pct": 24.7,
+    "ni_cagr_3y_pct": 195.89,
+    "roe_pct": 45.43
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 200-250 billion (상업용 항공기 엔진 및 서비스 시장 추정치, GE Aerospace 2023년 매출 기준)",
+    "tam_cagr_pct": "5-7% (글로벌 항공 운송량 증가, 노후 항공기 교체 수요, 국방 예산 증가에 기반)",
+    "growth_drivers": [
+      "글로벌 항공 운송량 및 여객 마일리지 증가에 따른 신규 항공기 및 엔진 수요 증대",
+      "노후 항공기 교체 주기 도래 및 연료 효율성 개선 요구에 따른 신형 엔진 도입 가속화",
+      "국방 예산 증가 및 지정학적 긴장 고조에 따른 군용 항공기 및 엔진 수요 증가",
+      "항공기 엔진 유지보수, 수리, 분해점검(MRO) 시장의 지속적인 성장",
+      "지속가능성 목표 달성을 위한 친환경 항공 기술 및 엔진 개발 투자 확대"
+    ],
+    "market_share_pct": "약 40-50% (상업용 대형 엔진 시장 기준, CFM 합작법인 포함)",
+    "competitors": [
+      {
+        "name": "Pratt & Whitney (RTX)",
+        "differentiation": "단일 통로 항공기 엔진 시장에서 경쟁 우위, 군용 엔진 분야 강점, GTF(Geared Turbofan) 기술"
+      },
+      {
+        "name": "Rolls-Royce",
+        "differentiation": "광동체 항공기 엔진 시장에 집중, 트렌트(Trent) 시리즈 엔진으로 명성, 해양 및 에너지 부문 사업 다각화"
+      },
+      {
+        "name": "Safran S.A.",
+        "differentiation": "GE와의 CFM 합작법인을 통해 단일 통로 항공기 엔진 시장 지배, 항공기 장비 및 방위 산업 전반에 걸친 포트폴리오"
+      },
+      {
+        "name": "Honeywell Aerospace",
+        "differentiation": "항공 전자 장비, 보조 동력 장치(APU), 소형 엔진 및 시스템 통합 솔루션 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (막대한 초기 투자 비용, 고도의 기술력, 엄격한 규제 및 인증, 오랜 개발 기간 필요)",
+      "substitutes": "low (항공기 엔진의 핵심 부품으로 대체 불가능, 단기적으로는 대체재 없음)",
+      "buyer_power": "medium (소수의 대형 항공기 제조업체(Boeing, Airbus)가 주요 고객으로 협상력 보유, 장기 서비스 계약으로 일부 상쇄)",
+      "supplier_power": "medium (특정 소재 및 부품 공급업체에 대한 의존도 존재, 하지만 GE의 규모와 수직 통합으로 일부 제어 가능)",
+      "rivalry": "high (소수의 대형 플레이어 간 치열한 경쟁, 기술 혁신, 가격 경쟁, 서비스 품질이 중요)"
+    },
+    "competitive_advantages": [
+      "광범위한 설치 기반과 글로벌 서비스 네트워크를 통한 강력한 MRO(유지보수, 수리, 분해점검) 수익원",
+      "CFM International 합작법인을 통한 단일 통로 항공기 엔진 시장의 지배적 위치 (LEAP 엔진)",
+      "첨단 기술 개발 역량 및 지속적인 R&D 투자 (연료 효율성, 지속가능성 기술)",
+      "오랜 역사와 신뢰성을 바탕으로 한 강력한 브랜드 인지도 및 고객 관계",
+      "상업용 및 군용 항공 부문을 아우르는 다각화된 포트폴리오"
+    ],
+    "competitive_weaknesses": [
+      "신기술 개발 및 인증에 필요한 막대한 자본 투자 및 긴 개발 주기",
+      "항공 산업의 경기 변동 및 지정학적 리스크에 대한 민감성",
+      "공급망 교란 및 원자재 가격 변동에 대한 취약성",
+      "경쟁사들의 기술 혁신 및 시장 점유율 확대 노력에 대한 지속적인 대응 필요",
+      "노후 엔진 모델의 유지보수 비용 증가 및 효율성 저하 문제"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 69.3,
+    "vcp_quality": 12.7,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 8.607,
+    "trailing_pe": 44.42733,
+    "forward_pe": 41.17246,
+    "ev_to_ebitda": 34.244,
+    "price_to_sales": 7.7344165,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 20.42,
+    "outperform_6m_vs_nasdaq": 7.18,
+    "outperform_1m_vs_nasdaq": 25.63,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "GE Aerospace는 항공기 엔진 설계, 제조, 서비스 분야에서 100년 이상의 역사를 가진 독보적인 기술력과 특허를 보유하고 있습니다.",
+      "항공기 엔진은 고도의 안전성과 신뢰성을 요구하는 제품으로, GE Aerospace는 엄격한 인증 절차와 오랜 비행 실적을 통해 쌓아온 브랜드 신뢰도를 가지고 있습니다.",
+      "GE Aerospace는 전 세계 항공사 및 군용 고객과의 장기적인 관계를 통해 강력한 고객 기반과 유지보수 서비스 네트워크를 구축하고 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "LEAP 엔진 생산량 증대 및 차세대 엔진 개발 가속화",
+    "bull_case": "항공 여행 수요 회복 및 국방 예산 증가로 LEAP 엔진 판매 및 서비스 매출 급증, 차세대 엔진 시장 선점.",
+    "base_case": "글로벌 항공 산업의 점진적 회복과 국방 부문의 꾸준한 수요를 바탕으로 안정적인 매출 성장과 수익성 개선을 지속할 것으로 예상됩니다. LEAP 엔진의 생산량 증대와 서비스 계약 확대를 통해 견고한 현금 흐름을 창출하며, 신기술 개발 투자를 통해 미래 성장 동력을 확보할 것입니다.",
+    "bear_case": "글로벌 경기 침체 심화로 항공 여행 수요가 급감하고, 국방 예산 삭감 압력이 커질 경우 엔진 판매 및 서비스 매출이 크게 감소할 수 있습니다. 또한, 공급망 문제 장기화 및 신기술 개발 지연은 수익성에 부정적인 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "LEAP 엔진 생산량 및 인도량",
+      "서비스 계약 잔고 및 마진율",
+      "신규 엔진 개발 및 인증 진행 상황",
+      "글로벌 항공 여객 수요 지표",
+      "국방 예산 및 관련 프로젝트 수주 현황"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망 중단, 부품 부족, 인력난, 인플레이션 등으로 생산 및 납품 지연이 발생하고 비용이 증가할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "항공 산업의 엄격한 규제 및 인증 요건을 충족하지 못하거나 변경된 규제에 적응하지 못할 경우 사업 운영에 차질이 생길 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "기술 혁신, 가격 경쟁, 신규 진입자 등으로 인해 시장 점유율이 하락하고 수익성이 악화될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 고객사와의 관계 악화, 고객사의 재정적 어려움 또는 사업 전략 변경은 GE Aerospace의 매출에 상당한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "높은 인플레이션, 금리 인상, 환율 변동 등 거시경제적 요인으로 인해 재무 성과가 악화될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 침해, 데이터 유출, 지적 재산권 침해 등은 회사의 명성과 재무 상태에 심각한 손상을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경기 침체, 지정학적 불안정, 팬데믹 등 예측 불가능한 외부 요인이 항공 여행 수요를 감소시켜 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 공급망이 완전히 붕괴되어 항공기 엔진 생산이 장기간 중단되고, 주요 고객사들이 대안을 찾아 GE Aerospace의 시장 점유율이 급격히 하락하는 경우.",
+      "치명적인 엔진 결함이 발생하여 대규모 리콜 및 운항 중단 사태가 벌어지고, 이로 인해 고객 신뢰를 완전히 상실하고 막대한 소송 비용을 감당하지 못하는 경우.",
+      "경쟁사들이 획기적인 차세대 엔진 기술을 개발하여 시장을 독점하고, GE Aerospace가 기술 혁신에 실패하여 경쟁력을 완전히 상실하는 경우.",
+      "항공 산업에 대한 전례 없는 규제 강화로 인해 사업 모델이 근본적으로 흔들리고, 규제 준수 비용이 감당할 수 없는 수준으로 증가하는 경우."
+    ],
+    "exit_signals": [
+      "GE Aerospace의 핵심 엔진 프로그램에서 심각한 기술적 결함이 반복적으로 발생하여 대규모 리콜 및 고객 이탈이 가속화되는 경우.",
+      "주요 경쟁사들이 차세대 엔진 시장에서 압도적인 기술 우위를 확보하고, GE Aerospace의 신규 수주가 지속적으로 감소하는 추세가 확인되는 경우.",
+      "글로벌 항공 여행 수요가 장기간에 걸쳐 회복되지 않거나, 항공사들의 재정 악화로 인해 엔진 유지보수 및 신규 구매 주문이 급감하는 경우.",
+      "핵심 부품 공급망이 장기적으로 마비되거나, 주요 공급업체와의 관계가 심각하게 악화되어 생산 목표 달성이 불가능해지는 경우."
+    ]
+  },
+  "wikipedia_summary": "General Electric Company, doing business as GE Aerospace, is an American aircraft engine supplier that is headquartered in Evendale, Ohio, outside Cincinnati. It is the legal successor to the original General Electric Company founded in 1892, which split into three separate companies between November 2021 and April 2024, adopting the trade name GE Aerospace after divesting its healthcare and energy divisions.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-20T00:46:15.697776+00:00"
+  }
+}

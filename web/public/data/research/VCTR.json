@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-06-19T00:47:32.660645+00:00",
+  "generated_at": "2026-06-20T00:25:21.353980+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,17 +17,35 @@
     "beta": 1.108
   },
   "category_a_business": {
-    "overview": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다. 기관, 중개기관, 퇴직플랫폼, 개인투자자에게 특화된 투자전략을 제공합니다. 또한 회사는 액티브 및 패시브 관리 뮤추얼 펀드, 규칙 기반 및 액티브 상장지수펀드(ETF), 기관별도 계좌, 변액 보험 상품, 대체 투자, 프라이빗 폐쇄형 펀드, 529 교육 저축 플랜 등 다양한 투자 상품을 제공합니다. 및 제3자 투자",
-    "business_model": "Victory Capital Holdings, Inc.는 자회사와 함께 미국 및 국제적으로 자산 관리 회사로 운영됩니다.",
+    "overview": "VCTR은 미국 및 국제적으로 기관, 중개인, 개인 투자자에게 특화된 투자 전략을 제공하는 자산운용사입니다.",
+    "milestones": [
+      "2013: KeyCorp로부터 Victory Capital Management 및 Victory Capital Services 인수 목적으로 설립",
+      "2013: 미국 등록 투자 자문사(RIA)인 VCM 인수",
+      "2013: SEC 등록 브로커-딜러인 VCS 인수",
+      "2025: 총 운용자산(AUM) 3,138억 달러 달성 (예상치)",
+      "2025: 187개 투자 전략 운용 (예상치)"
+    ],
+    "business_model": "다양한 투자 상품과 서비스를 제공하여 운용자산에 대한 수수료를 받습니다.",
+    "revenue_streams": [
+      "투자 관리 수수료",
+      "펀드 관리 수수료",
+      "펀드 이전 대행 수수료",
+      "펀드 배분 서비스 수수료"
+    ],
+    "value_chain_position": "Midstream + 자산 운용 및 관련 서비스 제공을 통해 금융 가치 사슬의 중간에 위치합니다.",
     "products": [
-      "미국 및 해외의 자산 관리 회사로서",
-      "기관, 중개인, 은퇴플랫폼, 개인투자자를 위한 특화된 투자전략",
-      "능동적 및 수동적으로 관리되는 뮤추얼 펀드, 규칙 기반 및 능동적 교환 tr을 포함한 다양한 투자 상품",
-      "투자관리 서비스, 자금관리 서비스, 자금이체 대행 서비스, 자금배분 서비스"
+      "뮤추얼 펀드 (액티브/패시브)",
+      "ETF (규칙 기반/액티브)",
+      "기관 별도 계정",
+      "변액 보험 상품",
+      "대체 투자"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (기관, 중개인)",
+      "B2C (개인 투자자)",
+      "리타이어먼트 플랫폼"
+    ],
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 기관, 중개인, 개인 투자자 등 다양한 고객층을 보유하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.22,
@@ -119,16 +137,62 @@
     "roe_pct": 21.7
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 120조 달러 (글로벌 자산운용 시장 규모 추정치, 2025년 기준)",
+    "tam_cagr_pct": "5-7% (글로벌 자산운용 시장의 장기적인 성장 추세, 인구 고령화 및 부의 증가에 따른 투자 수요 증가, 기술 발전으로 인한 접근성 향상 등을 근거로 함)",
+    "growth_drivers": [
+      "다양한 투자 전략 및 상품 제공을 통한 고객 기반 확대 (액티브/패시브 펀드, ETF, 대안 투자 등)",
+      "인수합병(M&A)을 통한 AUM 및 시장 점유율 확대",
+      "강력한 리스크 조정 성과를 바탕으로 한 유기적 성장",
+      "기관, 중개인, 은퇴 플랫폼 등 다양한 유통 채널 활용",
+      "솔루션 플랫폼 및 투자 프랜차이즈의 자율성을 통한 전문성 강화"
+    ],
+    "market_share_pct": "0.26% (VCTR AUM $3,166억 / TAM $120T)",
+    "competitors": [
+      {
+        "name": "BlackRock (블랙록)",
+        "differentiation": "세계 최대 자산운용사로, iShares ETF를 통한 패시브 투자 시장 지배력, Aladdin 기술 플랫폼을 통한 광범위한 서비스 제공"
+      },
+      {
+        "name": "Vanguard (뱅가드)",
+        "differentiation": "저비용 인덱스 펀드 및 ETF의 선두 주자로, 투자자 중심의 소유 구조를 통해 낮은 수수료 제공"
+      },
+      {
+        "name": "Fidelity Investments (피델리티 인베스트먼트)",
+        "differentiation": "다양한 뮤추얼 펀드, 브로커리지 서비스, 은퇴 솔루션을 제공하며 개인 투자자 및 기관 고객 기반이 넓음"
+      },
+      {
+        "name": "J.P. Morgan Asset Management (JP모건 자산운용)",
+        "differentiation": "글로벌 은행의 자산운용 부문으로, 광범위한 투자 상품과 글로벌 네트워크를 활용한 기관 및 고액 자산가 서비스 제공"
+      },
+      {
+        "name": "State Street Global Advisors (스테이트 스트리트 글로벌 어드바이저스)",
+        "differentiation": "SPDR ETF를 통한 ETF 시장의 주요 플레이어이며, 기관 투자자를 위한 자산운용 및 자산 서비스 전문성 보유"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (자산운용업은 규제 장벽이 높고 신뢰 구축에 시간이 걸리지만, 핀테크 기술을 활용한 소규모 자문사 진입 가능성 존재)",
+      "substitutes": "medium (개인 투자자의 직접 투자, 로보 어드바이저, 대체 투자 플랫폼 등 다양한 투자 대안 존재)",
+      "buyer_power": "medium (기관 투자자는 수수료 협상력이 높고, 개인 투자자는 다양한 상품 선택권 보유)",
+      "supplier_power": "low (주요 공급자는 인력, 데이터, 기술 등이며, VCTR은 자체 플랫폼을 통해 일부 통제 가능)",
+      "rivalry": "high (글로벌 자산운용 시장은 대형 플레이어들이 많고 경쟁이 매우 치열함)"
+    },
     "competitive_advantages": [
-      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+      "부티크 투자 품질과 통합된 운영 및 유통 플랫폼의 결합",
+      "다양한 투자 프랜차이즈와 솔루션 플랫폼을 통한 전문화된 투자 전략 제공",
+      "액티브 및 패시브, ETF, 대안 투자 등 광범위한 투자 상품 포트폴리오",
+      "인수합병을 통한 지속적인 성장 전략 및 브랜드 포트폴리오 확장",
+      "강력한 리스크 조정 성과를 바탕으로 한 유기적 성장 추구"
+    ],
+    "competitive_weaknesses": [
+      "글로벌 대형 경쟁사 대비 낮은 AUM 및 시장 점유율",
+      "브랜드 인지도 및 마케팅 역량에서 대형 경쟁사에 비해 열위",
+      "다양한 프랜차이즈 관리의 복잡성 및 잠재적 비효율성",
+      "시장 변동성 및 규제 변화에 대한 취약성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 71.0,
+    "rs_rating": 74,
+    "score": 71.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -138,9 +202,9 @@
     "ev_to_ebitda": 8.641,
     "price_to_sales": 3.6899052,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 9.44,
-    "outperform_6m_vs_nasdaq": 22.51,
-    "outperform_1m_vs_nasdaq": 3.75,
+    "outperform_1y_vs_nasdaq": 11.22,
+    "outperform_6m_vs_nasdaq": 24.12,
+    "outperform_1m_vs_nasdaq": 0.68,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -185,6 +249,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-19T01:05:32.811413+00:00"
+    "GoogleWebTranslator": "2026-06-20T00:47:08.030474+00:00"
   }
 }

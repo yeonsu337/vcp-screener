@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-06-19T00:55:43.833844+00:00",
+  "generated_at": "2026-06-20T00:39:18.717174+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,48 +17,189 @@
     "beta": 1.504
   },
   "category_a_business": {
-    "overview": "KLA Corporation은 자회사와 함께 전세계 반도체 및 관련 전자 산업을 위한 프로세스 제어, 프로세스 구현 및 수율 관리 솔루션을 설계, 제조 및 판매합니다. 이 회사는 세 가지 부문으로 운영됩니다: 반도체 공정 제어; 특수 반도체 공정; PCB 및 부품 검사. 패턴이 있는 웨이퍼와 패턴이 없는 웨이퍼의 다양한 표면에서 결함을 식별, 위치 지정, 특성화, 검토 및 분석하는 검사 및 검토 도구를 제공합니다. 패턴 치수, 필름 두께, 필름 응력, 레이를 측정하는 계측 시스템",
-    "business_model": "KLA Corporation은 자회사와 함께 반도체 및 관련 전자 산업 분야의 프로세스 제어, 프로세스 구현 및 수율 관리 솔루션을 설계, 제조 및 판매합니다.",
+    "overview": "KLA는 반도체 및 관련 전자 산업을 위한 공정 제어, 수율 관리 솔루션을 설계, 제조, 판매하는 글로벌 기업입니다.",
+    "milestones": [
+      "1975년: KLA Instruments Corporation 설립",
+      "1976년: Tencor Instruments 설립",
+      "1997: KLA Instruments와 Tencor Instruments 합병, KLA-Tencor Corporation 유튜브",
+      "2000년대: 반도체 산업 성장과 함께 공정 제어 솔루션 시장 선도",
+      "2019: KLA Corporation으로 사명 변경",
+      "2020년대: AI, IoT, 자율주행 등 신기술 분야 반도체 수요 증가에 대응"
+    ],
+    "business_model": "반도체 및 전자 산업 고객에게 공정 제어 장비와 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "반도체 공정 제어 장비 판매",
+      "특수 반도체 공정 장비 판매",
+      "PCB 및 부품 검사 장비 판매",
+      "소프트웨어 솔루션 및 서비스 제공"
+    ],
+    "value_chain_position": "Upstream / midstream + 반도체 제조 공정의 핵심 단계에서 수율 향상 및 비용 절감을 지원합니다.",
     "products": [
-      "세 가지 부문을 통해: 반도체 공정 제어",
-      "다양한 패턴 표면의 결함을 식별, 위치 파악, 특성화, 검토 및 분석하는 검사 및 검토 도구",
-      "식각, 플라즈마 다이싱, 증착 등 반도체 및 마이크로엘 분야의 웨이퍼 가공 기술과 솔루션",
-      "직접 이미징, 검사, 광학 성형, 잉크젯 및 적층 인쇄, 컴퓨터 지원 제조 및 엔지니어"
+      "웨이퍼 검사 및 리뷰 장비",
+      "측정 시스템 (Metrology systems)",
+      "화학 공정 제어 장비",
+      "레티클 검사 및 측정 시스템",
+      "반도체 소프트웨어 솔루션",
+      "진공 증착 및 식각 공정 툴"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "KLA Corporation은 캘리포니아 주 밀피타스에 본사를 두고 웨이퍼 팹 장비를 만드는 미국 회사입니다. 반도체 산업 및 기타 관련 나노전자공학 산업을 위한 공정 제어 및 수율 관리 시스템을 공급합니다. 회사의 제품과 서비스는 연구 개발부터 최종 대량 생산까지 웨이퍼, 레티클, 집적 회로(IC) 및 패키징 생산의 모든 단계를 대상으로 합니다."
+    "key_customers": "주요 반도체 제조업체, 웨이퍼 및 레티클 제조업체, PCB 및 전자 부품 제조업체"
   },
   "category_b_financials": {
+    "roe": 0.95,
+    "roa": 0.21,
+    "profit_margin": 0.36,
+    "operating_margin": 0.41,
+    "gross_margin": 0.61,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.12,
+    "dividend_yield": 0.39,
+    "payout_ratio": 0.22,
+    "annual_revenue": [
+      12156162000.0,
+      9812247000.0,
+      10496056000.0,
+      9211883000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5014227000.0,
+      3635684000.0,
+      3994696000.0,
+      3654181000.0,
+      null
+    ],
+    "annual_eps": [
+      null,
+      20.28,
+      24.15,
+      21.92,
+      13.37
+    ],
+    "annual_free_cf": [
+      3741694000.0,
+      3031191000.0,
+      3328214000.0,
+      3005382000.0,
+      null
+    ],
+    "annual_total_debt": [
+      6088282000.0,
+      6819643000.0,
+      6063132000.0,
+      6774305000.0,
+      null
+    ],
+    "annual_equity": [
+      4692453000.0,
+      3368328000.0,
+      2919753000.0,
+      1401351000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-06-30",
+      "2024-06-30",
+      "2023-06-30",
+      "2022-06-30",
+      "2021-06-30"
+    ],
+    "quarterly_eps": [
+      9.12,
+      8.68,
+      8.47,
+      9.06,
+      8.16,
+      null
+    ],
+    "quarterly_revenue": [
+      3415078000.0,
+      3297146000.0,
+      3209696000.0,
+      3174741000.0,
+      3063029000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 10.3,
     "sales_yoy_pct": 11.5,
     "ni_cagr_3y_pct": 6.93,
     "roe_pct": 94.98
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "100-120 (estimate) + 반도체 장비 시장 규모 및 KLA의 주요 사업 영역(공정 제어, 특수 반도체 공정, PCB 및 부품 검사)을 고려한 추정치",
+    "tam_cagr_pct": "8-12% + AI, IoT, 5G, 자율주행 등 첨단 기술 발전으로 인한 반도체 수요 증가와 미세 공정 난이도 상승으로 인한 공정 제어 및 검사 장비의 중요성 증대",
+    "growth_drivers": [
+      "AI, IoT, 5G 등 첨단 기술 발전에 따른 반도체 수요 증가",
+      "반도체 미세 공정 난이도 증가로 인한 수율 향상 및 결함 검출의 중요성 증대",
+      "EUV(극자외선) 리소그래피 도입 확대로 인한 마스크 및 웨이퍼 검사 장비 수요 증가",
+      "전기차, 산업용 애플리케이션 등 특수 반도체 시장 성장",
+      "패키징 기술 발전 및 PCB 복잡성 증가에 따른 검사 솔루션 필요성 증대"
+    ],
+    "market_share_pct": "50-60% (estimate) + 특히 공정 제어 및 검사 분야에서 독보적인 시장 지위를 보유",
+    "competitors": [
+      {
+        "name": "Applied Materials (AMAT)",
+        "differentiation": "다양한 반도체 제조 공정 장비 포트폴리오를 보유하며, 증착 및 식각 장비 분야에서 강점"
+      },
+      {
+        "name": "ASML (ASML)",
+        "differentiation": "리소그래피 장비 시장의 독점적 지위를 가지며, 특히 EUV 리소그래피 기술을 선도"
+      },
+      {
+        "name": "Lam Research (LRCX)",
+        "differentiation": "식각 및 증착 장비 분야에 특화되어 있으며, 낸드 플래시 및 DRAM 제조 공정에서 강점"
+      },
+      {
+        "name": "Hitachi High-Tech (HTHIY)",
+        "differentiation": "일부 검사 및 계측 장비 분야에서 경쟁하며, 특히 CD-SEM(Critical Dimension-Scanning Electron Microscope) 분야에서 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + 반도체 장비 산업은 높은 기술 장벽, 막대한 R&D 투자, 고객사와의 긴밀한 관계 구축이 필수적임",
+      "substitutes": "low + KLA의 공정 제어 및 검사 솔루션은 반도체 제조 공정에서 필수적이며, 이를 대체할 수 있는 기술은 현재로서는 제한적임",
+      "buyer_power": "medium + 소수의 대형 반도체 제조업체들이 주요 고객이며, 이들의 구매력은 높지만 KLA의 독점적인 기술력으로 인해 어느 정도 상쇄됨",
+      "supplier_power": "medium + 특정 부품 및 소재 공급업체에 대한 의존도가 있을 수 있으나, KLA의 규모와 시장 지위로 인해 협상력이 존재함",
+      "rivalry": "medium + 소수의 글로벌 대기업들이 경쟁하며, 기술 혁신과 고객 관계 유지를 위한 경쟁이 치열함"
+    },
     "competitive_advantages": [
-      "Technology / Semiconductor Equipment & Materials 카테고리 — yfinance peer 비교 권장"
+      "공정 제어 및 검사 분야의 독보적인 기술 리더십과 광범위한 특허 포트폴리오",
+      "반도체 제조 공정 전반에 걸친 포괄적인 솔루션 제공 능력 (R&D부터 양산까지)",
+      "오랜 업력과 고객사와의 깊은 신뢰 관계 및 높은 전환 비용",
+      "지속적인 R&D 투자와 혁신을 통한 기술 격차 유지",
+      "글로벌 서비스 네트워크를 통한 고객 지원 및 장비 수명 연장"
+    ],
+    "competitive_weaknesses": [
+      "반도체 산업의 경기 변동에 대한 높은 민감도",
+      "특정 고객사 및 지역에 대한 매출 의존도",
+      "첨단 기술 개발을 위한 막대한 R&D 투자 부담",
+      "글로벌 공급망 불안정성에 대한 잠재적 취약성"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 60.9,
+    "score": 61.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.4692,
+    "peg_ratio": 2.6847,
     "trailing_pe": 73.32204,
     "forward_pe": 51.415127,
     "ev_to_ebitda": 53.196,
     "price_to_sales": 25.888796,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 156.69,
-    "outperform_6m_vs_nasdaq": 97.98,
-    "outperform_1m_vs_nasdaq": 46.62,
+    "outperform_1y_vs_nasdaq": 160.45,
+    "outperform_6m_vs_nasdaq": 99.86,
+    "outperform_1m_vs_nasdaq": 49.39,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -103,6 +244,6 @@
   },
   "wikipedia_summary": "KLA Corporation is an American company based in Milpitas, California that makes wafer fab equipment. It supplies process control and yield management systems for the semiconductor industry and other related nanoelectronics industries. The company's products and services are intended for all phases of wafer, reticle, integrated circuit (IC) and packaging production, from research and development to final volume manufacturing.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-19T01:04:01.822376+00:00"
+    "GoogleWebTranslator": "2026-06-20T00:46:40.934761+00:00"
   }
 }

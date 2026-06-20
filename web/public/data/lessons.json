@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T01:01:35.353799+00:00",
+  "generated_at": "2026-06-20T00:44:24.167535+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,19 +17,19 @@
   },
   "performance": {
     "win_rate_pct": 67.5,
-    "profit_factor": 3.69,
-    "expectancy": 6.11,
-    "avg_winner_pct": 12.41,
+    "profit_factor": 3.61,
+    "expectancy": 5.93,
+    "avg_winner_pct": 12.16,
     "avg_loser_pct": -6.99,
     "best": {
       "ticker": "005930.KS",
-      "return_pct": 68.4
+      "return_pct": 62.2
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 35.8,
+    "avg_holding_winner_days": 35.9,
     "avg_holding_loser_days": 23.8
   },
   "exit_breakdown": {
@@ -44,131 +44,47 @@
       {
         "primary_passed": 10,
         "trades": 1,
-        "avg_return_pct": 68.38,
-        "win_rate_pct": 100.0
+        "avg_return_pct": -1.08,
+        "win_rate_pct": 0.0
       },
       {
         "primary_passed": 11,
         "trades": 4,
-        "avg_return_pct": 8.91,
+        "avg_return_pct": 8.13,
         "win_rate_pct": 75.0
       },
       {
         "primary_passed": 12,
         "trades": 2,
-        "avg_return_pct": 8.47,
+        "avg_return_pct": 9.68,
         "win_rate_pct": 100.0
       }
     ],
     "rule_hit_rate_diff": [],
-    "big_winners_common_rules": [
-      {
-        "rule_id": "A1_ud_vol_ratio",
-        "rule_name": "U/D Volume Ratio ≥ 1.0 (50d)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B1_price_above_150_200",
-        "rule_name": "Price > SMA150 & SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B2_sma150_gt_sma200",
-        "rule_name": "SMA150 > SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B3_sma50_gt_150_200",
-        "rule_name": "SMA50 > SMA150 & SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B4_price_above_sma50",
-        "rule_name": "Price > SMA50",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B5_sma200_rising_5mo",
-        "rule_name": "200d SMA rising 4-5 months",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B6_30pct_above_52w_low",
-        "rule_name": "≥ 30% above 52W low",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B7_within_25pct_high",
-        "rule_name": "Within 25% of 52W high",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B8_within_10pct_high",
-        "rule_name": "Within 10% of 52W high (bonus)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B9_stage2",
-        "rule_name": "Weinstein Stage 2 (Advancing)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "R1_rs_70",
-        "rule_name": "RS Rating ≥ 70 (Minervini gate)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "R2_rs_80",
-        "rule_name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "R3_rs_90",
-        "rule_name": "RS Rating ≥ 90 (Strong leader)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "L1_liquidity_gate",
-        "rule_name": "Daily $ volume ≥ market threshold",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "L2_liquidity_50m",
-        "rule_name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      }
-    ],
+    "big_winners_common_rules": [],
     "loser_threshold_pct": -10.0,
     "big_winner_threshold_pct": 50.0
   },
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 34,
-      "win_rate_pct": 64.7,
-      "avg_return_pct": 5.64,
-      "best_return_pct": 68.4
+      "trades": 33,
+      "win_rate_pct": 66.7,
+      "avg_return_pct": 5.65,
+      "best_return_pct": 62.2
+    },
+    {
+      "sector": "Real Estate",
+      "trades": 2,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -1.04,
+      "best_return_pct": -1.0
     },
     {
       "sector": "Technology",
       "trades": 2,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 15.69,
+      "avg_return_pct": 14.13,
       "best_return_pct": 23.4
     },
     {
@@ -182,34 +98,27 @@
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 10.56,
-      "best_return_pct": 10.6
+      "avg_return_pct": 12.11,
+      "best_return_pct": 12.1
     },
     {
       "sector": "Energy",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 6.37,
-      "best_return_pct": 6.4
-    },
-    {
-      "sector": "Real Estate",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -1.0,
-      "best_return_pct": -1.0
+      "avg_return_pct": 7.26,
+      "best_return_pct": 7.3
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 32,
       "win_rate_pct": 65.6,
-      "avg_return_pct": 1.92
+      "avg_return_pct": 1.9
     },
     "KR": {
       "trades": 6,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 32.02
+      "avg_return_pct": 30.98
     },
     "HK": {
       "trades": 2,
@@ -218,7 +127,7 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.1,
+    "winner_avg_rs": 83.3,
     "loser_avg_rs": 82.5,
     "winner_n": 27,
     "loser_n": 13
@@ -227,25 +136,25 @@
     {
       "day": 1,
       "trades": 39,
-      "avg_return_pct": 6.06,
+      "avg_return_pct": 5.96,
       "winners_pct": 66.7
     },
     {
       "day": 5,
       "trades": 39,
-      "avg_return_pct": 6.06,
+      "avg_return_pct": 5.96,
       "winners_pct": 66.7
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 7.78,
+      "avg_return_pct": 7.66,
       "winners_pct": 74.2
     },
     {
       "day": 63,
       "trades": 4,
-      "avg_return_pct": 15.55,
+      "avg_return_pct": 16.16,
       "winners_pct": 100.0
     }
   ],

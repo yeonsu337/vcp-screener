@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-06-18T00:41:39.737865+00:00",
+  "generated_at": "2026-06-20T00:28:07.220562+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3461017856,
+    "market_cap": 3508444160,
     "shares_outstanding": 110293749,
     "employees": 150,
     "country": "United States",
@@ -120,26 +120,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 91,
-    "score": 64.8,
+    "score": 65.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.51,
-    "trailing_pe": 28.78899,
-    "forward_pe": 20.268045,
+    "trailing_pe": 29.183485,
+    "forward_pe": 20.545778,
     "ev_to_ebitda": 13.929,
-    "price_to_sales": 7.5159783,
+    "price_to_sales": 7.61897,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 107.65,
-    "outperform_6m_vs_nasdaq": 132.53,
-    "outperform_1m_vs_nasdaq": 15.0,
+    "outperform_1y_vs_nasdaq": 114.93,
+    "outperform_6m_vs_nasdaq": 132.34,
+    "outperform_1m_vs_nasdaq": 20.93,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 소송 절차에서 불리한 결정이 내려지면 당사의 사업과 통합 재무 상태, 운영 결과 및 현금 흐름에 심각한 피해를 줄 수 있습니다.",
+        "description": "이러한 소송 절차에서 불리한 결정이 내려지면 당사의 사업과 연결 재무 상태, 운영 결과 및 현금 흐름에 심각한 해를 끼칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -152,6 +152,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-19T01:01:36.253332+00:00"
+    "GoogleWebTranslator": "2026-06-20T00:44:31.077491+00:00"
   }
 }

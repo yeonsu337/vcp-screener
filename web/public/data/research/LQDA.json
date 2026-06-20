@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-06-19T00:48:35.033930+00:00",
+  "generated_at": "2026-06-20T00:27:03.730047+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,16 +17,30 @@
     "beta": 0.593
   },
   "category_a_business": {
-    "overview": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다. 회사의 주요 제품 후보로는 폐동맥고혈압(PAH) 및 간질성 폐질환과 관련된 폐고혈압(PH-ILD) 치료를 위한 트레프로스티닐의 흡입 건조 분말 제제인 YUTREPIA가 있습니다. 또한 지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사제인 레모듈린(Remodulin)도 제공합니다. tr의 연구용 리포솜 제형인 L606을 개발합니다.",
-    "business_model": "바이오제약회사인 Liquidia Corporation은 미국에서 희귀 심폐질환을 위한 다양한 제품을 개발, 제조, 상용화하고 있습니다.",
+    "overview": "희귀 심폐 질환 치료제를 개발, 제조, 판매하는 바이오 제약 회사입니다.",
+    "milestones": [
+      "2018: Sandoz와 제네릭 트레프로스티닐 주사제 판매 촉진 계약 체결",
+      "2025: YUTREPIA (트레프로스티닐 흡입 건조 분말) FDA 승인",
+      "2025: YUTREPIA 상업화 시작",
+      "미정: L606 (트레프로스티닐 리포솜 제형) 임상 3상 진행 중",
+      "미정: YUTREPIA의 추가 적응증 (PH-COPD, IPF 등) 임상 연구 계획"
+    ],
+    "business_model": "희귀 심폐 질환 치료제 개발 및 판매, 제네릭 의약품 판매 수익 공유",
+    "revenue_streams": [
+      "YUTREPIA 판매",
+      "Sandoz 제네릭 트레프로스티닐 주사제 판매 수익 공유"
+    ],
+    "value_chain_position": "Midstream (연구 개발, 제조) 및 Downstream (상업화, 판매)",
     "products": [
-      "지속적인 정맥 및 피하 주입을 통해 투여되는 트레프로스티닐 주사인 레모듈린(Remodulin)",
-      "L606은 임상 3상 시험 중인 트레프로스티닐의 연구용 리포솜 제제입니다.",
-      "크기를 정밀하게 제어하여 균일한 약물 입자를 설계 및 제조할 수 있는 PRINT 기술"
+      "YUTREPIA (트레프로스티닐 흡입 건조 분말)",
+      "트레프로스티닐 주사제 (Sandoz 제네릭)",
+      "L606 (트레프로스티닐 리포솜 제형, 개발 중)"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (의료기관 대상 영업)",
+      "B2C (환자 대상 간접 판매)"
+    ],
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 미국 내 PAH 및 PH-ILD 환자를 치료하는 의료기관이 주요 고객입니다."
   },
   "category_b_financials": {
     "roe": 0.28,
@@ -127,7 +141,7 @@
   },
   "category_d_thesis": {
     "rs_rating": 95,
-    "score": 70.1,
+    "score": 67.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -137,9 +151,9 @@
     "ev_to_ebitda": 128.896,
     "price_to_sales": 21.939909,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 387.12,
-    "outperform_6m_vs_nasdaq": 86.82,
-    "outperform_1m_vs_nasdaq": 15.99,
+    "outperform_1y_vs_nasdaq": 355.14,
+    "outperform_6m_vs_nasdaq": 87.93,
+    "outperform_1m_vs_nasdaq": 20.77,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -184,6 +198,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-19T01:04:17.115775+00:00"
+    "GoogleWebTranslator": "2026-06-20T00:46:44.390493+00:00"
   }
 }

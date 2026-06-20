@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-06-19T00:53:41.716425+00:00",
+  "generated_at": "2026-06-20T00:33:52.467592+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,19 +17,117 @@
     "beta": 1.691
   },
   "category_a_business": {
-    "overview": "Monolithic Power Systems, Inc.는 중국, 대만, 한국, 동남아시아, 유럽, 미국, 일본 및 국제적으로 반도체 기반 전력 전자 솔루션을 제공합니다. 이 회사는 클라우드 기반 및 온프레미스 CPU 서버 및 워크스테이션, AI 시스템, 메모리, 스토리지 솔루션, 노트북, 인포테인먼트, 전원, 가전제품, 네트워크 인프라 및 위성 통신과 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC)-DC 솔루션을 제공합니다.",
-    "business_model": "모놀리식 파워 시스템즈, Inc.",
+    "overview": "MPWR은 고성능 반도체 기반 전력 전자 솔루션을 제공하는 팹리스 글로벌 기업입니다.",
+    "milestones": [
+      "1997: 회사 설립",
+      "2004: 나스닥 상장",
+      "2010년대: 다양한 최종 시장으로 제품 포트폴리오 확장",
+      "2020년대: AI 및 클라우드 컴퓨팅 시장 성장과 함께 엔터프라이즈 데이터 시장 비중 확대",
+      "현재: 전 세계 15개 이상의 지점에서 운영"
+    ],
+    "business_model": "반도체 기반 전력 관리 IC 및 솔루션을 설계, 개발, 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "DC-DC 솔루션",
+      "AC-DC 솔루션",
+      "드라이버 MOSFET",
+      "전력 관리 IC",
+      "전류 제한 스위치 및 조명 제어 제품"
+    ],
+    "value_chain_position": "Midstream + 팹리스 기업으로 반도체 설계 및 개발에 집중합니다.",
     "products": [
-      "중국, 대만, 한국, 동남아시아, 유럽, 미국의 반도체 기반 전력 전자 솔루션",
-      "클라우드와 같은 다양한 전자 시스템 내에서 전압을 변환하고 제어하기 위한 직류(DC) 대 DC 솔루션",
-      "교류(AC)를 DC로"
+      "DC-DC 컨버터",
+      "AC-DC 컨버터",
+      "전력 관리 IC",
+      "드라이버 MOSFET",
+      "조명 제어 제품"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B",
+      "제3자 유통업체",
+      "부가가치 리셀러"
     ],
-    "wikipedia_excerpt": "Monolithic Power Systems, Inc.는 플로리다 주 웨스트 팜 비치에 본사를 둔 미국 상장 회사입니다. 전 세계 15개 이상의 지역에서 운영되고 있습니다."
+    "key_customers": "다양한 최종 시장에 걸쳐 분산되어 있으며, 특정 고객에 대한 높은 집중도는 없습니다."
   },
   "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.12,
+    "profit_margin": 0.23,
+    "operating_margin": 0.3,
+    "gross_margin": 0.55,
+    "revenue_growth_ttm": 0.26,
+    "earnings_growth_ttm": 0.4,
+    "dividend_yield": 0.53,
+    "payout_ratio": 0.48,
+    "annual_revenue": [
+      2790459000.0,
+      2207100000.0,
+      1821072000.0,
+      1794148000.0,
+      null
+    ],
+    "annual_operating_income": [
+      728636000.0,
+      539358000.0,
+      481736000.0,
+      526785000.0,
+      null
+    ],
+    "annual_eps": [
+      12.75,
+      36.59,
+      8.76,
+      9.05,
+      null
+    ],
+    "annual_free_cf": [
+      663261000.0,
+      624117000.0,
+      580635000.0,
+      187831000.0,
+      null
+    ],
+    "annual_total_debt": [
+      19972000.0,
+      12974000.0,
+      5565000.0,
+      1664000.0,
+      null
+    ],
+    "annual_equity": [
+      3531497000.0,
+      2951125000.0,
+      2049939000.0,
+      1668602000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      3.92,
+      3.46,
+      3.71,
+      2.78,
+      2.79
+    ],
+    "quarterly_revenue": [
+      804185000.0,
+      751155000.0,
+      737176000.0,
+      664574000.0,
+      637554000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
     "eps_qoq_yoy_pct": 43.1,
     "sales_yoy_pct": 26.1,
     "ni_cagr_3y_pct": 12.4,
@@ -44,25 +142,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 66.3,
+    "rs_rating": 88,
+    "score": 66.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9024,
+    "peg_ratio": 2.0541,
     "trailing_pe": 112.1736,
     "forward_pe": 51.848778,
     "ev_to_ebitda": 84.33,
     "price_to_sales": 25.97979,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 92.22,
-    "outperform_6m_vs_nasdaq": 50.23,
-    "outperform_1m_vs_nasdaq": 4.01,
+    "outperform_1y_vs_nasdaq": 95.98,
+    "outperform_6m_vs_nasdaq": 52.12,
+    "outperform_1m_vs_nasdaq": 6.78,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Monolithic Power Systems, Inc. is an American, publicly traded company headquartered in West Palm Beach, Florida. It operates in more than 15 locations worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-19T01:04:26.046582+00:00"
+    "GoogleWebTranslator": "2026-06-20T00:46:44.395908+00:00"
   }
 }
