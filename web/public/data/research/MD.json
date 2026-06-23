@@ -1,51 +1,32 @@
 {
   "ticker": "MD",
-  "company": "Pediatrix Medical Group Inc",
+  "company": "Pediatrix Medical Group, Inc.",
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-06-11T00:24:54.620688+00:00",
+  "generated_at": "2026-06-23T00:35:16.911595+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 1931507456,
+    "shares_outstanding": 82121911,
+    "employees": 4280,
+    "country": "United States",
+    "website": "https://www.pediatrix.com",
+    "beta": 0.696
   },
   "category_a_business": {
-    "overview": "MD는 헬스케어 산업 내 규제 준수 및 운영 효율성 지원 서비스를 제공하는 기업입니다.",
-    "milestones": [
-      "2020: CMS 및 OIG, 연방 불법 리베이트 방지법 등 최종 규칙 개정",
-      "2020: 가치 기반 진료 촉진 및 사기/남용 방지를 위한 규정 개정",
-      "미상: 연방 및 주 사기 및 남용 법규 준수 모니터링 및 해석 지속",
-      "미상: 헬스케어 거래법 준수 및 관련 규제 검토 대응",
-      "미상: 의료 서비스 제공자 면허 및 인증 유지 지원",
-      "미상: 38개 제3자 계약자를 통해 수익 주기 관리 기능 수행"
-    ],
-    "business_model": "헬스케어 규제 준수, 수익 주기 관리 및 운영 지원을 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "규제 준수 컨설팅",
-      "수익 주기 관리 서비스",
-      "의료 코딩 서비스",
-      "의료 서비스 문서화 지원",
-      "과오납금 식별 및 반환 지원"
-    ],
-    "value_chain_position": "Midstream: 헬스케어 서비스 제공자와 보험사/정부 간의 중간에서 운영 및 규제 준수 지원 서비스를 제공합니다.",
+    "overview": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다. 이 회사는 제휴 신생아 의사 하위 전문의, 신생아 간호사 실무자 및 기타 소아 임상 의사로 구성된 네트워크를 통해 병원의 특정 부서(주로 NICU) 내에서 조산아 또는 합병증이 있는 아기에게 임상 치료를 제공합니다. 산부인과 전문의, 산부인과 전문의 등을 통해 임산부와 태아에 대한 입원 및 진료실 기반 임상 진료를 제공합니다.",
+    "business_model": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다.",
     "products": [
-      "사기 및 남용 규정 준수 서비스",
-      "독점 금지법 준수 컨설팅",
-      "수익 주기 관리 솔루션",
-      "의료 코딩 및 문서화 서비스",
-      "과오납금 식별 및 보고 시스템"
+      "미국 내 신생아, 산모-태아 및 기타 소아과 하위 전문 진료 서비스",
+      "조산아 ​​또는 병원의 특정 부서(주로 NICU) 내에서 합병증이 있는 아기에 대한 임상 치료",
+      "소아 중환자 전문의, 소아 입원 전문의, 소아 외과 의사를 포함한 기타 소아 하위 전문 진료"
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "고객 집중도 평가 불가 (원천 데이터 부족)"
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -139,95 +120,72 @@
     "roe_pct": 20.89
   },
   "category_c_market": {
-    "error": "parse: Expecting ',' delimiter: line 45 column 3 (char 1952)",
-    "raw": "{\n  \"tam_estimate_usd_b\": \"정보 부족으로 추정 불가 (None)\",\n  \"tam_cagr_pct\": \"정보 부족으로 추정 불가 (None)\",\n  \"growth_drivers\": [\n    \"가치 기반 의료(Value-based care) 전환 가속화: CMS 및 OIG의 최종 규칙 개정은 가치 기반 의료를 장려하여 관련 서비스 및 솔루션에 대한 수요를 증가시킬 수 있습니다.\",\n    \"의료 서비스 조정 및 효율성 증대 필요성: 사기 및 남용 방지 노력은 의료 서비스 제공의 투명성과 효율성을 높이는 방향으로 규제 변화를 유도하며, 이는 관련 기술 및 서비스 시장을 성장시킬 수 있습니다.\",\n    \"의료 규제 준수 솔루션 수요 증가: 복잡한 규제 환경과 지속적인 변화는 기업들이 규제 준수를 위한 전문 솔루션 및 서비스에 투자하도록 유도합니다.\"\n  ],\n  \"market_share_pct\": \"정보 부족으로 추정 불가 (None)\",\n  \"competitors"
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Medical Care Facilities 카테고리 — yfinance peer 비교 권장"
+    ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 59.5,
+    "rs_rating": 71,
+    "score": 59.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 0.24,
+    "trailing_pe": 11.417477,
+    "forward_pe": 9.96796,
+    "ev_to_ebitda": 8.388,
+    "price_to_sales": 0.99990755,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 38.26,
-    "outperform_6m_vs_nasdaq": 2.33,
-    "outperform_1m_vs_nasdaq": 5.02,
-    "moat_type": "None",
-    "moat_evidence": [
-      "10-K 발췌문에서 기업의 경쟁 우위를 나타내는 명확한 증거를 찾기 어렵습니다. 오히려 정부 규제 및 법적 리스크에 대한 내용이 주를 이룹니다.",
-      "의료 산업의 특성상 정부 규제(사기 및 남용 조항, 독점 금지법 등) 준수 비용이 지속적으로 발생하며, 이는 해자 구축에 방해가 될 수 있습니다.",
-      "제3자 계약업체에 대한 의존성(수익 주기 관리 등)은 핵심 역량 내재화 및 경쟁 우위 확보에 한계로 작용할 수 있습니다."
-    ],
-    "moat_durability_years": "None",
-    "new_trigger": "CMS 및 OIG의 가치 기반 의료 촉진을 위한 규제 개정으로 새로운 사업 기회 모색 가능성",
-    "bull_case": "규제 변화에 성공적으로 적응하고 가치 기반 의료 모델을 선도하여 시장 점유율 확대 및 수익성 개선",
-    "base_case": "규제 준수 비용 증가와 경쟁 심화 속에서 현 수준의 성장세를 유지하며 점진적인 수익 개선을 추구합니다.",
-    "bear_case": "정부 규제 위반 또는 독점 금지법 위반으로 인한 막대한 벌금 및 사업 운영 제약으로 실적 악화 및 주가 하락",
-    "key_metrics_to_watch": [
-      "규제 준수 관련 비용 및 벌금",
-      "가치 기반 의료 모델 관련 매출 비중",
-      "수익 주기 관리 효율성 지표",
-      "의료 서비스 제공자 라이선스 유지율"
-    ]
+    "outperform_1y_vs_nasdaq": 42.31,
+    "outperform_6m_vs_nasdaq": -11.05,
+    "outperform_1m_vs_nasdaq": 5.07,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "거시",
-        "description": "경제 상황 악화 시 정부 지원 프로그램(GHC)으로의 환자 이동이 가속화되어 수익성이 낮은 GHC 프로그램에 대한 의존도가 높아질 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "미국 출생률 감소, 의료 개혁 노력, 메디케어/메디케이드 변경, 원격 의료 규제 강화 등 정부 정책 및 규제 변화가 사업에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "정부 지원 프로그램 및 민간 보험사로부터의 서비스 비용 상환이 제한되거나 삭감될 수 있으며, 미수금 증가로 인해 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "위험 요소 우리 사업은 향후 개발 및 성과에 실질적으로 영향을 미칠 수 있는 다양한 요소의 영향을 받습니다.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "수익 주기 관리 기능의 아웃소싱 전환 실패, 제3자 서비스 제공업체 관리 실패, 정보 시스템 유지보수 실패 등 내부 운영 효율성 저하 위험이 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업 운영에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "경쟁",
-        "description": "자격을 갖춘 의사 및 기타 임상 인력을 성공적으로 채용, 온보딩 및 유지하지 못하거나 인건비가 증가할 경우 사업 운영에 차질이 생길 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "우리는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "고객집중도",
-        "description": "특정 주에 운영이 집중되어 있어 해당 주의 불리한 변화나 조건이 사업에 중대한 영향을 미칠 수 있습니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "다음은 이 섹션에 설명된 주요 위험 요소를 요약한 것입니다. • 경제 상황은 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "인공지능 기술 사용으로 인해 추가적인 법적, 규제적, 운영적, 경쟁적 위험에 노출될 수 있습니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "이러한 기능을 아웃소싱하는 것은 상당한 위험을 수반하며, 이러한 위험을 성공적으로 관리하지 못하면 당사의 비즈니스, 운영 결과 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "인수로 인해 우리는 더 큰 비즈니스 위험에 노출될 수 있으며 지급인 구성에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "미국 경제의 장기적인 침체로 인해 GHC 프로그램으로의 환자 이동이 급증하고, 정부의 의료비 상환율이 지속적으로 하락하여 회사의 수익성이 급격히 악화될 경우.",
-      "정부의 의료 개혁 정책이 회사의 주요 서비스에 대한 상환을 대폭 축소하거나 금지하고, 동시에 원격 의료 규제가 강화되어 사업 모델의 근간이 흔들릴 경우.",
-      "핵심 의료 인력의 대규모 이탈과 신규 인력 채용 실패로 인해 서비스 제공 역량이 심각하게 저하되고, 이로 인해 환자 수가 급감하며 소송 위험이 증가할 경우.",
-      "사이버 공격 등으로 인해 환자 정보 유출 사고가 발생하고, 이로 인한 막대한 벌금과 신뢰도 하락으로 사업 운영이 불가능해질 경우."
-    ],
     "exit_signals": [
-      "분기별 GHC 프로그램 환자 비중이 5% 이상 증가하고, 평균 상환율이 2% 이상 하락하는 추세가 두 분기 연속 지속될 경우.",
-      "주요 사업 지역에서 메디케이드 또는 기타 정부 지원 프로그램의 상환율이 5% 이상 삭감되거나, 원격 의료 서비스에 대한 영구적인 규제 강화 법안이 통과될 경우.",
-      "핵심 의사 및 임상 인력의 이직률이 전년 대비 10% 이상 증가하고, 신규 채용 목표 달성률이 50% 미만으로 떨어질 경우.",
-      "회사의 정보 시스템에 대한 중대한 보안 침해 사고가 발생하여 대규모 개인 정보 유출이 확인되고, 이로 인해 규제 당국으로부터 상당한 벌금이 부과될 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:46:44.392609+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:42:56.541300+00:00"
   }
 }

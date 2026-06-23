@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-06-20T00:45:27.809405+00:00",
+  "generated_at": "2026-06-23T00:31:11.326317+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1799412224,
+    "market_cap": 1836807808,
     "shares_outstanding": 49204602,
     "employees": 1551,
     "country": "United States",
@@ -21,7 +21,7 @@
     "business_model": "SkyWater Technology, Inc.는 자회사와 함께 미국에서 반도체 제조 서비스를 제공합니다.",
     "products": [
       "미국의 반도체 제조 서비스",
-      "Legacy SkyWater와 SkyWater Texas라는 두 부문을 통해",
+      "Legacy SkyWater와 SkyWater Texas라는 두 개의 세그먼트를 통해",
       "주조 서비스"
     ],
     "channels": [
@@ -125,19 +125,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 94,
-    "score": 62.2,
+    "score": 65.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 15.628205,
-    "forward_pe": -179.85541,
-    "ev_to_ebitda": 49.806,
-    "price_to_sales": 3.3228362,
+    "trailing_pe": 15.952992,
+    "forward_pe": -183.59319,
+    "ev_to_ebitda": 50.344,
+    "price_to_sales": 3.3918917,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 286.66,
-    "outperform_6m_vs_nasdaq": 106.61,
-    "outperform_1m_vs_nasdaq": 5.16,
+    "outperform_1y_vs_nasdaq": 286.51,
+    "outperform_6m_vs_nasdaq": 136.24,
+    "outperform_1m_vs_nasdaq": 6.66,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -164,7 +164,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "기존 비즈니스 관계의 변경 또는 종료는 당사의 수익, 수익, 재무 상태는 물론 당사 보통주의 시장 가격에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "기존 비즈니스 관계의 변경 또는 종료는 당사의 수익, 수입, 재무 상태는 물론 당사 보통주의 시장 가격에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "SkyWater Technology, Inc. is an American semiconductor engineering and fabrication foundry, based in Bloomington, Minnesota. It is the only US-owned pure-play silicon foundry.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:46:55.988315+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:43:58.594245+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Pollution & Treatment Controls",
-  "generated_at": "2026-06-19T01:03:58.162157+00:00",
+  "generated_at": "2026-06-23T00:36:18.458759+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3529906432,
+    "market_cap": 3575464960,
     "shares_outstanding": 35873031,
     "employees": 1540,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.503
   },
   "category_a_business": {
-    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션에 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
+    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션 분야의 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
     "business_model": "(주)씨이코환경",
     "products": [
       "Unite의 산업용 공기질, 산업용 수처리 및 에너지 전환 솔루션의 핵심 솔루션",
@@ -39,7 +39,7 @@
     "revenue_growth_ttm": 0.17,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       774381000.0,
       557933000.0,
@@ -127,19 +127,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 92,
-    "score": 57.3,
+    "score": 57.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.88,
-    "trailing_pe": 258.9474,
-    "forward_pe": 34.60731,
-    "ev_to_ebitda": 41.362,
-    "price_to_sales": 4.3926,
+    "trailing_pe": 262.28946,
+    "forward_pe": 35.05397,
+    "ev_to_ebitda": 44.329,
+    "price_to_sales": 4.4492927,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 194.36,
-    "outperform_6m_vs_nasdaq": 46.86,
-    "outperform_1m_vs_nasdaq": 23.14,
+    "outperform_1y_vs_nasdaq": 205.61,
+    "outperform_6m_vs_nasdaq": 60.88,
+    "outperform_1m_vs_nasdaq": 23.01,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -159,6 +159,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:45:39.758543+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:41:27.019697+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Communication Equipment",
-  "generated_at": "2026-06-20T00:30:09.406414+00:00",
+  "generated_at": "2026-06-23T00:22:52.254580+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 471159111680,
+    "market_cap": 479002558464,
     "shares_outstanding": 3941434665,
     "employees": 86200,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.004
   },
   "category_a_business": {
-    "overview": "Cisco Systems, Inc.는 미주, 유럽, 중동, 아프리카, 아시아 태평양, 일본 및 중국의 인터넷을 강화하고 보호하며 통찰력을 얻는 데 도움이 되는 기술을 설계, 개발 및 판매합니다. 이 회사는 데이터 센터 전환을 제공합니다. 네트워크 보안, 신원 및 액세스 관리, 보안 액세스 서비스 에지; 위협 인텔리전스, 탐지 및 대응 솔루션; 공용 및 개인 유선 및 모바일 네트워크를 상호 연결하여 캠퍼스, 데이터 센터 및 지점 네트워크에 연결을 제공합니다. WEBEX 제품군, 협업 장치 및 연락 센터; 통신 플랫폼",
+    "overview": "Cisco Systems, Inc.는 미주, 유럽, 중동, 아프리카, 아시아 태평양, 일본 및 중국의 인터넷을 강화하고 보호하며 통찰력을 얻는 데 도움이 되는 기술을 설계, 개발 및 판매합니다. 이 회사는 데이터 센터 전환을 제공합니다. 네트워크 보안, 신원 및 액세스 관리, 보안 액세스 서비스 에지; 위협 인텔리전스, 탐지 및 대응 솔루션; 공용 및 개인 유선 및 모바일 네트워크를 상호 연결하여 캠퍼스, 데이터 센터 및 지점 네트워크에 연결을 제공합니다. WEBEX 제품군, 협업 장치 및 연락 센터 통신 플랫폼",
     "business_model": "시스코 시스템즈, Inc.",
     "products": [
       "미주, 유럽, 중동의 인터넷에서 통찰력을 강화하고 보호하며 도출하는 데 도움이 되는 기술",
@@ -93,24 +93,21 @@
       0.8,
       0.72,
       0.71,
-      0.62,
-      null
+      0.62
     ],
     "quarterly_revenue": [
       15841000000.0,
       15349000000.0,
       14883000000.0,
       14673000000.0,
-      14149000000.0,
-      null
+      14149000000.0
     ],
     "quarterly_periods": [
       "2026-04-30",
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
-      "2025-04-30",
-      "2025-01-31"
+      "2025-04-30"
     ],
     "eps_qoq_yoy_pct": 35.4,
     "sales_yoy_pct": 12.0,
@@ -127,24 +124,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 86,
-    "score": 63.3,
+    "score": 65.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.659,
-    "trailing_pe": 39.84667,
-    "forward_pe": 25.027584,
-    "ev_to_ebitda": 28.673,
-    "price_to_sales": 7.7562165,
+    "trailing_pe": 40.51,
+    "forward_pe": 25.444221,
+    "ev_to_ebitda": 29.127,
+    "price_to_sales": 7.885335,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 55.11,
-    "outperform_6m_vs_nasdaq": 42.95,
-    "outperform_1m_vs_nasdaq": 3.87,
+    "outperform_1y_vs_nasdaq": 54.96,
+    "outperform_6m_vs_nasdaq": 46.33,
+    "outperform_1m_vs_nasdaq": 6.67,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Cisco Systems, Inc., doing business as Cisco, is an American multinational technology conglomerate corporation that develops, manufactures, and sells hardware, software, telecommunications equipment and other high-technology services and products focused on networking, cyber security and AI. Cisco specializes in specific tech markets, such as the Internet of things (IoT), domain security, videoconferencing, and energy management, including products such as Webex, OpenDNS, Jabber, and Jasper. The company is headquartered in San Jose, California, and, as of December 2025, has a market capitalization of $317 billion.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:46:02.128962+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:42:17.984366+00:00"
   }
 }

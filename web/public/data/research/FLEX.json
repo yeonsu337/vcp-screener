@@ -4,105 +4,286 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Electronic Components",
-  "generated_at": "2026-05-29T00:34:02.571852+00:00",
+  "generated_at": "2026-06-23T00:19:29.253048+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 53069844480,
+    "market_cap": 57085341696,
     "shares_outstanding": 366377923,
     "employees": 149686,
     "country": "United States",
     "website": "https://www.flex.com",
-    "beta": 1.446
+    "beta": 1.638
   },
   "category_a_business": {
-    "overview": "Flex Ltd.는 미주, 아시아 및 유럽의 데이터 센터, 통신, 기업, 소비자, 자동차, 산업, 의료, 산업 및 전력 산업에 기술 혁신, 공급망 및 제조 솔루션을 제공합니다. 이 회사는 통합 기술 솔루션(ITS), 규제 제조 솔루션(RMS), 클라우드 및 전력 인프라(CPI)의 세 가지 부문을 통해 운영됩니다.",
-    "business_model": "플렉스 주식회사",
+    "overview": "Flex는 전 세계적으로 기술 혁신, 공급망 및 제조 솔루션을 제공하는 다국적 기업입니다.",
+    "milestones": [
+      "1969: Flextronics 설립",
+      "1990년대: 글로벌 제조 및 EMS(전자제품 위탁생산) 역량 확장",
+      "2000년대: 다양한 산업 분야로 사업 다각화",
+      "2015: 사명을 Flextronics에서 Flex로 변경",
+      "2020년대: 클라우드 및 전력 인프라 솔루션 강화",
+      "2026: CPI(클라우드 및 전력 인프라) 사업부 분사 계획 발표"
+    ],
+    "business_model": "고객의 제품 설계, 제조, 공급망 관리를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "통합 기술 솔루션 (ITS)",
+      "규제 제조 솔루션 (RMS)",
+      "클라우드 및 전력 인프라 (CPI)",
+      "디자인 및 엔지니어링 서비스",
+      "공급망 관리 서비스",
+      "전력 및 냉각 제품"
+    ],
+    "value_chain_position": "Midstream + 고객의 제품 개발부터 생산, 유통까지 전 과정에 걸쳐 통합 솔루션을 제공합니다.",
     "products": [
-      "데이터 센터, 통신, 기업, 소비자,",
-      "통합 기술 솔루션(ITS), 규제 제조 솔루션(RMS), 클라우드 및 Po의 세 가지 부문을 통해",
-      "고속 네트워킹, 기업, Satelli 등 통신을 위한 유연한 공급 및 제조 솔루션",
-      "전력 집약적인 디지털 인프라 배포를 지원하는 통합 컴퓨팅 시스템과 같은 클라우드 및 냉각 제품"
+      "고속 네트워킹 시스템",
+      "의료 기기 및 장비",
+      "산업 자동화 및 에너지 인프라",
+      "자동차 컴퓨팅 및 전력 전자 플랫폼",
+      "통합 컴퓨팅 시스템",
+      "고급 액체 냉각 솔루션"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "Flex Ltd.는 싱가포르-미국 다국적 제조 회사입니다. 이는 OEM(Original Equipment Manufacturer) 분야에서 Pegatron에 이어 세계 3위의 글로벌 전자 제조 서비스(EMS), 독창적인 디자인 제조업체(ODM) 회사입니다. Flex의 미국 본사는 텍사스 주 오스틴에 위치하고 있으며 주소는 싱가포르에 있습니다. 이 회사는 30개국 이상에서 제조 시설을 운영하고 있으며 총 직원 수는 약 172,000명입니다."
+    "key_customers": "상위 10개 고객이 총 매출의 45%를 차지하며, 특정 고객에 대한 의존도는 낮습니다."
   },
   "category_b_financials": {
+    "roe": 0.17,
+    "roa": 0.05,
+    "profit_margin": 0.03,
+    "operating_margin": 0.06,
+    "gross_margin": 0.09,
+    "revenue_growth_ttm": 0.17,
+    "earnings_growth_ttm": 0.17,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      27914000000.0,
+      25813000000.0,
+      26415000000.0,
+      28502000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1447000000.0,
+      1185000000.0,
+      873000000.0,
+      1021000000.0,
+      null
+    ],
+    "annual_eps": [
+      2.33,
+      2.11,
+      2.28,
+      1.72,
+      null
+    ],
+    "annual_free_cf": [
+      1052000000.0,
+      1067000000.0,
+      796000000.0,
+      315000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4316000000.0,
+      4148000000.0,
+      3751000000.0,
+      4198000000.0,
+      null
+    ],
+    "annual_equity": [
+      5144000000.0,
+      5002000000.0,
+      5325000000.0,
+      5351000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-03-31",
+      "2025-03-31",
+      "2024-03-31",
+      "2023-03-31",
+      "2022-03-31"
+    ],
+    "quarterly_eps": [
+      0.67,
+      0.64,
+      0.52,
+      0.5,
+      0.57,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      7477000000.0,
+      7058000000.0,
+      6804000000.0,
+      6575000000.0,
+      6398000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
     "eps_qoq_yoy_pct": 12.6,
     "sales_yoy_pct": 16.9,
     "ni_cagr_3y_pct": 3.53,
     "roe_pct": 17.35
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1조 5천억 ~ 2조 달러 (글로벌 EMS 시장 규모 추정치 기반, Flex의 다양한 최종 시장 포함)",
+    "tam_cagr_pct": "6% ~ 8% (클라우드 및 AI 인프라, 의료기기, 전기차 등 고성장 최종 시장의 수요 증가 및 복잡성 증대)",
+    "growth_drivers": [
+      "클라우드, AI 및 데이터 센터 인프라 수요 폭증으로 인한 컴퓨팅 및 전력 솔루션 필요성 증대",
+      "전기차 및 자율주행 기술 발전으로 인한 자동차 전자 부품 및 시스템 제조 수요 증가",
+      "의료기기 및 헬스케어 산업의 디지털 전환 및 규제 준수 요구사항 증가",
+      "글로벌 공급망 복잡성 심화 및 지정학적 리스크 증가로 인한 제조 파트너의 중요성 부각",
+      "다양한 산업 분야에서 제품의 복잡성 증가 및 빠른 혁신 주기 요구"
+    ],
+    "market_share_pct": "5% ~ 10% (글로벌 EMS 시장 내 상위권이나, 특정 니치 시장에서는 더 높을 수 있음)",
+    "competitors": [
+      {
+        "name": "Hon Hai Precision Industry (Foxconn)",
+        "differentiation": "압도적인 규모와 생산 능력, 애플 등 대형 고객사와의 강력한 관계, 수직 통합 역량"
+      },
+      {
+        "name": "Jabil Inc.",
+        "differentiation": "다양한 산업 분야에 걸친 광범위한 서비스 제공, 특히 헬스케어 및 패키징 솔루션 강점"
+      },
+      {
+        "name": "Sanmina Corporation",
+        "differentiation": "고부가가치, 고복잡성 제품 및 시스템 제조에 특화, 국방 및 항공우주 분야 강점"
+      },
+      {
+        "name": "Celestica Inc.",
+        "differentiation": "클라우드 및 통신 인프라, 항공우주 및 국방 분야에 집중, 설계 및 엔지니어링 역량 강조"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (초기 투자 비용, 기술 전문성, 글로벌 공급망 구축의 어려움이 진입 장벽이나, 특정 니치 시장에서는 진입 가능성 존재)",
+      "substitutes": "low (고객사가 자체 제조 역량을 갖추거나 다른 형태의 파트너십을 고려할 수 있으나, Flex의 전문성과 규모를 대체하기 어려움)",
+      "buyer_power": "medium (대형 고객사의 경우 협상력이 높으나, Flex의 전문성과 엔드투엔드 솔루션 제공 능력으로 인해 일정 수준의 협상력 유지)",
+      "supplier_power": "medium (반도체, 특정 부품 등 핵심 공급업체에 대한 의존도가 있으나, Flex의 글로벌 구매력과 공급망 관리 역량으로 완화)",
+      "rivalry": "high (EMS 시장은 경쟁이 치열하며, 주요 경쟁사들이 유사한 서비스를 제공하고 고객 유치를 위해 경쟁)"
+    },
     "competitive_advantages": [
-      "Technology / Electronic Components 카테고리 — yfinance peer 비교 권장"
+      "글로벌 규모의 엔드투엔드 제조 파트너십: 설계, 엔지니어링, 공급망, 제조 및 통합 서비스 제공",
+      "다양한 산업 및 최종 시장 포트폴리오: 데이터 센터, 헬스케어, 산업, 자동차, 통신, 라이프스타일 등",
+      "기술 및 규제 시장 전문성: ITS(기술 주도), RMS(규제 준수), CPI(클라우드 및 전력 인프라)의 특화된 역량",
+      "고복잡성 제품 및 시스템 통합 능력: 특히 클라우드 및 AI 인프라를 위한 시스템 수준 통합 및 고전력 밀도 솔루션",
+      "지속 가능한 운영 및 책임 있는 제조 강조"
+    ],
+    "competitive_weaknesses": [
+      "대형 고객사에 대한 의존도: 특정 고객사의 주문 변동이 실적에 큰 영향을 미칠 수 있음",
+      "글로벌 공급망 리스크: 지정학적 긴장, 무역 정책 변화, 원자재 가격 변동 등에 취약",
+      "낮은 마진율: EMS 산업의 특성상 낮은 마진율로 인해 수익성 압박이 존재",
+      "분사 계획에 따른 불확실성: CPI 부문 분리 후 각 사업부의 독립적인 경쟁력 강화 및 시장 인식 변화 필요",
+      "기술 변화에 대한 지속적인 투자 압박: 빠르게 변화하는 기술 트렌드에 맞춰 R&D 및 생산 설비 투자 필요"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 65.4,
+    "rs_rating": 95,
+    "score": 63.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.94,
-    "trailing_pe": 62.167385,
-    "forward_pe": 21.019928,
-    "ev_to_ebitda": 26.77,
-    "price_to_sales": 1.9011909,
+    "trailing_pe": 66.87125,
+    "forward_pe": 22.428871,
+    "ev_to_ebitda": 27.261,
+    "price_to_sales": 2.0450435,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 200.78,
-    "outperform_6m_vs_nasdaq": 136.66,
-    "outperform_1m_vs_nasdaq": 57.05,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 203.53,
+    "outperform_6m_vs_nasdaq": 132.6,
+    "outperform_1m_vs_nasdaq": 18.86,
+    "lynch_category": "Stalwart",
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "Flex는 고객의 제품 설계, 구축, 납품 및 관리를 돕는 포괄적인 제조 파트너로서, 고객이 Flex의 솔루션을 다른 공급업체로 전환하는 데 상당한 시간과 비용이 소요될 수 있습니다.",
+      "데이터 센터, 헬스케어, 산업, 자동차, 통신, 라이프스타일 등 다양한 산업 및 최종 시장에 걸쳐 복잡한 제품, 인프라 및 규제 요구사항을 지원하는 차별화된 규모와 전문성을 구축했습니다.",
+      "규제된 안전 필수 시장(RMS)에 대한 높은 수준의 정밀도, 규정 준수 및 신뢰성 요구사항은 고객이 공급업체를 변경할 때 높은 위험과 비용을 수반하게 합니다.",
+      "클라우드 및 전력 인프라(CPI) 부문의 시스템 수준 통합, 고전력 밀도 요구사항, 독점 엔지니어링 및 복잡한 글로벌 제조 및 공급망 실행은 고객의 전환 비용을 더욱 높입니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 인프라 및 액체 냉각 솔루션 확장으로 고성장 시장 진입",
+    "bull_case": "AI 및 클라우드 인프라 수요 폭증으로 CPI 부문 고성장, 수익성 개선 가속화",
+    "base_case": "Flex는 다양한 최종 시장과 규제 산업에 대한 전문성을 바탕으로 안정적인 성장을 지속할 것입니다. 특히 AI 및 클라우드 인프라 관련 CPI 부문의 성장이 전체 실적을 견인하며, 효율적인 운영을 통해 수익성을 점진적으로 개선할 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체 심화로 인한 수요 감소, 주요 고객사 이탈, 공급망 불안정 심화로 매출 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "CPI 부문 매출 성장률",
+      "OPM 및 NPM 추이",
+      "신규 수주 및 백로그 증가율",
+      "주요 고객사 이탈률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "우리가 인식하지 못하거나 현재 중요하지 않다고 생각하는 추가적인 위험과 불확실성도 우리 사업에 실질적으로 부정적인 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "category": "고객집중도",
+        "description": "소수의 주요 고객에 대한 매출 의존도가 높아, 이들 고객 중 한 곳이라도 매출이 감소하면 사업, 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "공급망 중단 및 수요 예측 실패는 고객 수요 충족 능력에 부정적인 영향을 미치고, 비용 증가 또는 과잉/노후 재고를 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 상황 및 지정학적 불확실성은 과거에 부정적인 영향을 미쳤으며, 미래에도 사업, 운영 결과, 재무 상태 및 자본 시장 접근에 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "산업 경쟁이 치열하고 고객이 자체 생산을 하거나 소싱 전략을 변경할 수 있으며, 클라우드 및 전력 인프라 사업은 빠른 기술 변화로 인해 지속적인 투자가 필요합니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이 경우 당사 보통주의 시장가격은 하락할 수 있습니다.",
+        "category": "규제",
+        "description": "관세, 무역 제한, 수출 통제 및 무역 정책의 변화는 과거에 부정적인 영향을 미쳤으며, 미래에도 사업, 운영 결과 및 재무 상태에 악영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "비즈니스 및 운영 위험 고객 주문 취소, 생산 변경 및 수요 변동은 당사 비즈니스에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "재무",
+        "description": "부채 수준이 높고 신용 등급 또는 자본 시장 상황의 변화가 자금 조달 접근을 제한하거나 차입 비용을 증가시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "또한 일부 고객 계약에는 고객이 사전 서면 통지를 통해 편의를 위해 계약을 종료할 수 있도록 허용하는 조항이 포함되어 있으며 통지 기간은 상대적으로 짧을 수 있습니다.",
+        "category": "거버넌스",
+        "description": "클라우드 및 전력 인프라 사업의 스핀오프가 계획대로 완료되지 않거나 상당한 비용과 위험을 수반할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "고객이 그러한 종료 ​​권리를 행사하는 경우 당사는 재공품, 문제 있는 재고 또는 향후 주문을 예상하면서 발생한 기타 비용에 대한 대금을 받을 자격이 없을 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "이러한 요구는 우리의 자원에 부담을 주고, 공급망 관리 문제를 일으키며, 마진을 감소시킬 수 있습니다.",
-        "severity": "medium"
+        "category": "재무",
+        "description": "고객별 자본 설비가 손상되거나 노후화될 경우 상당한 손실을 입을 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "주요 고객들이 대거 이탈하거나 자체 생산으로 전환하여 매출이 급감하고 수익성이 악화될 경우 회사가 파산할 수 있습니다.",
+      "글로벌 공급망이 심각하게 붕괴되고 주요 부품 조달이 불가능해져 생산이 중단되고 고객 주문을 이행하지 못하게 될 경우 회사가 망할 수 있습니다.",
+      "예상치 못한 지정학적 사건이나 심각한 경기 침체로 인해 전 세계적인 수요가 급감하고 자본 시장 접근이 막히면서 유동성 위기에 직면할 경우 회사가 망할 수 있습니다.",
+      "대규모 사이버 보안 침해 사고가 발생하여 고객 데이터 유출 및 생산 시스템 마비로 막대한 손실과 평판 손상을 입을 경우 회사가 망할 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 고객 3곳 이상이 Flex와의 계약을 해지하거나 대폭 축소한다는 발표가 있을 경우",
+      "글로벌 공급망 지수(예: PMI 공급업체 배송 시간)가 3개월 연속 급격히 악화되거나 주요 부품의 납기 지연이 6개월 이상 지속될 경우",
+      "클라우드 및 전력 인프라 사업 스핀오프가 취소되거나 예상보다 훨씬 불리한 조건으로 진행될 경우",
+      "회사의 신용 등급이 두 단계 이상 하향 조정되거나 차입 비용이 급격히 상승하여 자금 조달에 심각한 어려움을 겪는다는 보고가 있을 경우"
     ]
   },
-  "wikipedia_summary": "Flex Ltd. is a Singaporean–American multinational manufacturing company. It is the world's third largest global electronics manufacturing services (EMS), original design manufacturer (ODM) company by revenue, behind only Pegatron for what concerns original equipment manufacturers. Flex's U.S. corporate headquarters are located in Austin, Texas, and is domiciled in Singapore. The company has manufacturing operations in over 30 countries, totaling about 172,000 employees.",
+  "wikipedia_summary": "Flex Ltd. is a Singaporedomiciled multinational manufacturing company. It is the world's third largest global electronics manufacturing services (EMS), original design manufacturer (ODM) company by revenue, behind only Pegatron. Flex's U.S. corporate headquarters are located in Austin, Texas. The company has manufacturing operations in over 30 countries, and employs about 172,000 people.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:46:15.696488+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:42:24.148858+00:00"
   }
 }

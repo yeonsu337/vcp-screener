@@ -1,23 +1,23 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CMI",
-  "generated_at": "2026-06-20T00:19:11.327734+00:00",
-  "source_results_date": "2026-06-20",
+  "generated_at": "2026-06-23T00:16:21.114770+00:00",
+  "source_results_date": "2026-06-23",
   "verdict": "BUY_NOW",
   "verdict_kr": "매수 (Pivot 돌파 직후)",
   "confidence": 0.82,
   "lines": [
-    "매수 — Stage 2 진입 확정, pivot $715.71 돌파(+0.29%, buy zone).",
-    "13주 베이스 9.7% → 12.2% → 9.3% 수축, VDU 1.21× 진행.",
-    "Trend Template 8/8 통과, RS 85, RS 라인 신고가 -0.4%.",
-    "$717.78 매수·-7% 손절($667.54)·+20%($861.34) 절반 익절, 이후 50일선 trailing."
+    "매수 — Stage 2 진입 확정, pivot $715.71 돌파(+1.29%, buy zone).",
+    "13주 베이스 9.7% → 12.2% → 9.3% 수축, VDU 1.45× 진행.",
+    "Trend Template 8/8 통과, RS 85, RS 라인 신고가 -0.1%.",
+    "$724.93 매수·-7% 손절($674.18)·+20%($869.92) 절반 익절, 이후 50일선 trailing."
   ],
   "action": {
     "entry_type": "immediate",
-    "entry_price": 717.78,
-    "stop_price": 667.54,
+    "entry_price": 724.93,
+    "stop_price": 674.18,
     "stop_pct": -7.0,
-    "target1_price": 861.34,
+    "target1_price": 869.92,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
@@ -48,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.26% vs 6.5%)",
-    "P3_vol_dryup (1.21× vs 0.6×)",
+    "P3_vol_dryup (1.45× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

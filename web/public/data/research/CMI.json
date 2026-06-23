@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-06-17T00:48:55.521843+00:00",
+  "generated_at": "2026-06-23T00:33:14.120524+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 96588210176,
+    "market_cap": 100032413696,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.26,
     "revenue_growth_ttm": 0.03,
     "earnings_growth_ttm": -0.21,
-    "dividend_yield": 1.18,
+    "dividend_yield": 1.12,
     "payout_ratio": 0.41,
     "annual_revenue": [
       33670000000.0,
@@ -132,19 +132,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 85,
-    "score": 57.7,
+    "score": 59.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.634,
-    "trailing_pe": 36.380978,
-    "forward_pe": 20.649233,
-    "ev_to_ebitda": 20.517,
-    "price_to_sales": 2.849714,
+    "peg_ratio": 1.7233,
+    "trailing_pe": 37.6001,
+    "forward_pe": 21.371359,
+    "ev_to_ebitda": 21.205,
+    "price_to_sales": 2.951331,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 86.66,
-    "outperform_6m_vs_nasdaq": 24.41,
-    "outperform_1m_vs_nasdaq": 0.23,
+    "outperform_1y_vs_nasdaq": 99.96,
+    "outperform_6m_vs_nasdaq": 31.38,
+    "outperform_1m_vs_nasdaq": 8.95,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -189,6 +189,6 @@
   },
   "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:45:56.923577+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:42:04.572580+00:00"
   }
 }

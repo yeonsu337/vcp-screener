@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
-  "generated_at": "2026-06-20T00:42:24.245168+00:00",
+  "generated_at": "2026-06-23T00:37:19.616356+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 21811226624,
+    "market_cap": 22050510848,
     "shares_outstanding": 117873042,
     "employees": 11705,
     "country": "United States",
@@ -17,14 +17,14 @@
     "beta": 0.925
   },
   "category_a_business": {
-    "overview": "C.H. Robinson Worldwide, Inc.는 자회사와 함께 미국 및 국제적으로 화물 운송, 관련 물류 및 공급망 서비스를 제공합니다. 북미 지상 운송과 글로벌 포워딩이라는 두 부문으로 운영됩니다.",
+    "overview": "C.H. Robinson Worldwide, Inc.는 자회사와 함께 미국 및 국제적으로 화물 운송, 관련 물류 및 공급망 서비스를 제공합니다. 북미 육상 운송과 글로벌 포워딩이라는 두 부문으로 운영됩니다.",
     "business_model": "C.H.",
     "products": [
-      "미국 및 해외의 화물 운송, 관련 물류, 공급망 서비스",
+      "미국 및 해외의 화물 운송, 관련 물류 및 공급망 서비스",
       "북미 지상 운송과 글로벌 포워딩이라는 두 부문으로 나뉜다.",
       "Trucklo와 같은 운송 및 물류 서비스",
       "통관 중개 서비스",
-      "운송 관리 및 기타 지상 운송 서비스"
+      "운송 관리 및 기타 육상 운송 서비스"
     ],
     "channels": [
       "B2B / 기업"
@@ -39,8 +39,8 @@
     "gross_margin": 0.09,
     "revenue_growth_ttm": -0.01,
     "earnings_growth_ttm": 0.1,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "dividend_yield": 1.36,
+    "payout_ratio": 0.51,
     "annual_revenue": [
       16232763000.0,
       17724956000.0,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 50.6,
+    "rs_rating": 74,
+    "score": 51.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.6121,
-    "trailing_pe": 37.381817,
-    "forward_pe": 25.183664,
-    "ev_to_ebitda": 26.83,
-    "price_to_sales": 1.3464587,
+    "trailing_pe": 37.868423,
+    "forward_pe": 25.459946,
+    "ev_to_ebitda": 26.521,
+    "price_to_sales": 1.3612303,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 68.35,
-    "outperform_6m_vs_nasdaq": 5.46,
-    "outperform_1m_vs_nasdaq": 9.76,
+    "outperform_1y_vs_nasdaq": 69.56,
+    "outperform_6m_vs_nasdaq": 2.34,
+    "outperform_1m_vs_nasdaq": 4.31,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "C.H. Robinson Worldwide, Inc. is an American transportation company that includes third-party logistics (3PL). The company offers freight transportation, transportation management, brokerage and warehousing. It offers truckload, less than truckload, air freight, intermodal, and ocean transportation.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-20T00:45:56.922228+00:00"
+    "GoogleWebTranslator": "2026-06-23T00:41:45.597258+00:00"
   }
 }
