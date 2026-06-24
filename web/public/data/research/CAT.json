@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-06-18T00:37:52.529384+00:00",
+  "generated_at": "2026-06-24T00:18:00.501609+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 440289067008,
+    "market_cap": 453333024768,
     "shares_outstanding": 460591983,
     "employees": 118000,
     "country": "United States",
@@ -17,22 +17,34 @@
     "beta": 1.603
   },
   "category_a_business": {
-    "overview": "Caterpillar Inc.는 미국 및 전 세계에 건설 및 광산 장비, 오프 하이웨이 디젤 및 천연가스 엔진, 산업용 가스 터빈, 디젤 전기 기관차를 제공합니다. 건설 산업 부문은 아스팔트 포장기, 냉각 대패기, 압축기, 임업 기계, 자재 처리기, 모터 그레이더, 파이프레이어, 도로 회수기, 텔레핸들러, 트랙형 트랙터, 트랙 및 휠 굴삭기를 제공합니다. 백호, 컴팩트 트랙, 스키드 스티어, 트랙형 및 휠 로더; 관련 부품 및 작업 도구.",
-    "business_model": "캐터필러 주식회사",
+    "overview": "캐터필러는 건설 및 광산 장비, 엔진, 터빈 등을 제조하는 세계 최대의 중장비 기업입니다.",
+    "milestones": [
+      "1925년: Caterpillar Tractor Co. 설립",
+      "1986: Caterpillar Inc.로 재편성",
+      "2025: 새로운 미션 '고객의 가장 어려운 문제 해결' 발표",
+      "2025: 상업적 우수성, 첨단 기술 리더, 업무 방식 혁신 등 3가지 성장 동력 제시"
+    ],
+    "business_model": "건설, 광산 장비 및 엔진 판매와 금융 서비스를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "건설 산업 장비 판매",
+      "자원 산업 장비 판매",
+      "에너지 및 운송 부문 제품 판매",
+      "부품 및 서비스",
+      "금융 서비스 (Cat Financial)"
+    ],
+    "value_chain_position": "Midstream + 중장비 및 관련 부품을 설계, 제조, 마케팅합니다.",
     "products": [
-      "건설 및 광산 장비, 오프 하이웨이 디젤 및 천연가스 엔진, 산업용 가스 터빈, 디젤 선택",
-      "아스팔트 포장기, 냉간 대패기, 압축기, 임업 기계, 자재 취급자, 모터 그레이더, 파이프레이어, 도로 매립",
-      "전기 로프 및 유압 삽, 드래그라인, 회전 드릴, 하드 록 차량, 광산 트럭, 휠 로더, 오프 하이그",
-      "왕복 엔진 구동 발전기 세트",
-      "운영 및 금융리스, 회전청구계정, 할부판매계약, 수리/재구축 금융, 근로"
+      "굴착기, 불도저, 로더 등 건설 장비",
+      "광산 트럭, 굴착기 등 광산 장비",
+      "디젤 및 천연가스 엔진",
+      "산업용 가스 터빈",
+      "디젤-전기 기관차"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (글로벌 독립 딜러 네트워크)",
+      "D2C (일부 직접 판매 및 서비스)"
     ],
-    "wikipedia_excerpt": "Caterpillar Inc.는 미국의 건설, 광업 및 기타 엔지니어링 장비 제조업체입니다. 이 회사는 세계 최대의 건설 장비 제조업체입니다.\n2018년 Caterpillar는 Fortune 500 목록에서 73위, Global Fortune 500 목록에서 265위를 차지했습니다. Caterpillar 주식은 Dow Jones Industrial Average의 구성 요소입니다.",
-    "milestones": [
-      "2018년: Caterpillar는 Fortune 500 목록에서 73위, Global Fortune 500 목록에서 265위를 차지했습니다."
-    ]
+    "key_customers": "특정 고객 집중도에 대한 정보는 공개되지 않았습니다."
   },
   "category_b_financials": {
     "roe": 0.51,
@@ -42,7 +54,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.22,
     "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.69,
+    "dividend_yield": 0.64,
     "payout_ratio": 0.3,
     "annual_revenue": [
       67589000000.0,
@@ -126,35 +138,99 @@
     "roe_pct": 51.33
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "500-600 billion USD (estimate, 건설 및 광산 장비, 산업용 엔진, 발전기 시장 종합 추정)",
+    "tam_cagr_pct": "4-6% (향후 3~5년, 글로벌 인프라 투자 증가, 광업 수요 회복, 개발도상국 성장 및 건설 자동화 기술 도입에 기반)",
+    "growth_drivers": [
+      "글로벌 인프라 투자 확대: 각국 정부의 경기 부양책 및 노후 인프라 교체 수요 증가.",
+      "광업 수요 회복: 원자재 가격 상승 및 채굴 기술 발전으로 인한 광산 투자 증가.",
+      "개발도상국 건설 시장 성장: 도시화 및 산업화 가속화에 따른 건설 장비 수요 증대.",
+      "건설 자동화 및 디지털화: 스마트 건설 장비, 원격 제어, 데이터 분석 솔루션 도입 확산.",
+      "지속 가능성 및 친환경 규제 강화: 저배출, 전기/하이브리드 장비로의 전환 가속화."
+    ],
+    "market_share_pct": "15-20% (estimate, 건설 및 광산 장비 시장 기준)",
+    "competitors": [
+      {
+        "name": "Komatsu (일본)",
+        "differentiation": "품질 및 기술력 우수, 특히 소형 및 중형 장비 시장에서 강세, 광산 장비 분야 경쟁력."
+      },
+      {
+        "name": "Deere & Company (미국)",
+        "differentiation": "농업 장비 시장의 압도적 강자이나, 건설 장비 분야에서도 견고한 입지, 기술 혁신 및 디지털 솔루션 강조."
+      },
+      {
+        "name": "Volvo Construction Equipment (스웨덴)",
+        "differentiation": "친환경 및 전기 장비 분야 선도, 안전성과 연료 효율성에 강점, 유럽 시장에서 높은 인지도."
+      },
+      {
+        "name": "Hitachi Construction Machinery (일본)",
+        "differentiation": "굴착기 등 특정 장비 분야에서 높은 기술력과 시장 점유율, 광산 장비 및 서비스 솔루션 제공."
+      },
+      {
+        "name": "XCMG (중국)",
+        "differentiation": "가격 경쟁력 우위, 개발도상국 시장 및 대형 장비 분야에서 빠르게 성장, 중국 정부의 지원을 바탕으로 글로벌 확장."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 초기 투자 비용, 기술 장벽, 강력한 유통망 구축의 어려움이 진입 장벽으로 작용하나, 중국 기업들의 공격적인 시장 진입 시도 및 특정 니치 시장에서의 신생 기업 출현 가능성 존재)",
+      "substitutes": "low (건설 및 광산 작업에 필수적인 장비로, 직접적인 대체재가 거의 없음. 수작업이나 다른 방식으로는 효율성 및 규모 면에서 한계가 명확함)",
+      "buyer_power": "medium (대형 건설사나 광산 기업은 대량 구매를 통해 가격 협상력을 가질 수 있으며, 장비의 총 소유 비용(TCO)을 중시하여 브랜드 간 비교 구매가 활발함. 그러나 특정 고성능 장비에 대한 의존도는 높음)",
+      "supplier_power": "medium (엔진, 유압 부품 등 핵심 부품 공급업체는 기술력과 전문성을 바탕으로 일정 수준의 협상력을 가짐. 그러나 Caterpillar와 같은 대형 제조업체는 자체 생산 및 다각화된 공급망을 통해 위험을 분산하고 있음)",
+      "rivalry": "high (글로벌 및 지역 경쟁사 간의 치열한 경쟁, 특히 가격, 기술 혁신, 서비스 네트워크, 제품 다양성 측면에서 경쟁이 심화되고 있음. 개발도상국 시장에서는 가격 경쟁이 더욱 두드러짐)"
+    },
     "competitive_advantages": [
-      "Industrials / Farm & Heavy Construction Machinery 카테고리 — yfinance peer 비교 권장"
+      "글로벌 브랜드 인지도 및 명성: 오랜 역사와 신뢰를 바탕으로 한 강력한 브랜드 이미지.",
+      "광범위한 딜러 네트워크: 전 세계적으로 가장 크고 독립적인 딜러 네트워크를 통해 판매, 서비스, 부품 공급의 우위.",
+      "기술 리더십: 건설 및 광산 장비, 엔진 기술 분야에서 지속적인 R&D 투자 및 혁신.",
+      "다각화된 제품 포트폴리오: 건설, 광산, 에너지 등 다양한 산업 분야에 걸쳐 광범위한 제품 라인업 보유.",
+      "금융 서비스 제공: Cat Financial을 통한 고객 및 딜러 금융 지원으로 판매 촉진 및 고객 충성도 강화."
+    ],
+    "competitive_weaknesses": [
+      "높은 생산 비용: 선진국 기반의 생산 시설 및 고품질 전략으로 인한 높은 제조 비용.",
+      "개발도상국 시장에서의 가격 경쟁력: SEM 브랜드와 같은 차별화된 제품을 제공하지만, 저가 경쟁사 대비 가격 민감도가 높음.",
+      "글로벌 경기 변동에 대한 민감성: 건설 및 광산 산업의 특성상 경기 침체에 취약하며, 이는 매출 및 수익성에 직접적인 영향을 미침.",
+      "환경 규제 및 지속 가능성 압력: 엄격해지는 환경 규제에 대응하기 위한 추가적인 R&D 및 투자 필요."
     ]
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 68.4,
+    "score": 65.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.2427,
-    "trailing_pe": 47.700596,
-    "forward_pe": 31.759153,
-    "ev_to_ebitda": 32.648,
-    "price_to_sales": 6.2227273,
+    "peg_ratio": 2.4249,
+    "trailing_pe": 51.023327,
+    "forward_pe": 32.68571,
+    "ev_to_ebitda": 35.079,
+    "price_to_sales": 6.407081,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 134.52,
-    "outperform_6m_vs_nasdaq": 49.92,
-    "outperform_1m_vs_nasdaq": 10.91,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 144.39,
+    "outperform_6m_vs_nasdaq": 63.47,
+    "outperform_1m_vs_nasdaq": 16.35,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "1925년부터 시작된 오랜 역사와 'Caterpillar'라는 강력한 브랜드 인지도는 고객 신뢰와 시장 지배력을 구축하는 데 기여했습니다.",
+      "세계 최대 규모의 독립 딜러 네트워크는 제품 판매, 서비스 및 부품 공급을 통해 고객과의 관계를 강화하고 경쟁사 진입 장벽을 높입니다.",
+      "Cat Financial을 통한 금융 서비스 제공은 고객의 장비 구매 및 리스를 용이하게 하여 고객 충성도를 높이고 판매를 촉진합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "2025년 '고객의 가장 어려운 문제 해결'이라는 새로운 미션과 3대 성장 동력(상업적 우수성, 첨단 기술 리더, 업무 방식 혁신)을 포함한 기업 전략 재정비",
+    "bull_case": "인프라 투자 확대 및 자원 산업 회복으로 건설 및 광산 장비 수요 급증, 첨단 기술 도입으로 수익성 개선",
+    "base_case": "글로벌 경제 성장 둔화에도 불구하고, 인프라 투자 및 자원 산업의 꾸준한 수요와 강력한 딜러 네트워크를 기반으로 안정적인 매출 및 이익 성장 지속",
+    "bear_case": "글로벌 경기 침체 심화, 원자재 가격 하락, 지정학적 리스크 증대로 건설 및 광산 장비 수요 급감, 경쟁 심화로 인한 마진 압박",
+    "key_metrics_to_watch": [
+      "매출 성장률",
+      "영업이익률 (OPM)",
+      "신흥 시장 매출 비중",
+      "딜러 네트워크 확장 및 효율성",
+      "R&D 투자 및 신기술 도입 현황"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "비록 우리가 가정에 있어 신중했다고 생각하더라도 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
+        "description": "비록 우리가 가정에 있어 신중했다고 생각하지만, 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
         "severity": "medium"
       },
       {
@@ -192,6 +268,6 @@
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:41:16.666987+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:36:34.390037+00:00"
   }
 }

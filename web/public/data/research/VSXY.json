@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-06-23T00:32:12.930103+00:00",
+  "generated_at": "2026-06-24T00:33:18.592459+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6404647936,
+    "market_cap": 6260768256,
     "shares_outstanding": 79491720,
     "employees": 30000,
     "country": "United States",
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 94,
-    "score": 60.9,
+    "score": 59.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 32.0996,
-    "forward_pe": 14.88055,
-    "ev_to_ebitda": 13.608,
-    "price_to_sales": 0.9474331,
+    "trailing_pe": 31.378487,
+    "forward_pe": 14.546261,
+    "ev_to_ebitda": 13.393,
+    "price_to_sales": 0.92614913,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 304.01,
-    "outperform_6m_vs_nasdaq": 36.46,
-    "outperform_1m_vs_nasdaq": 69.27,
+    "outperform_1y_vs_nasdaq": 286.7,
+    "outperform_6m_vs_nasdaq": 33.22,
+    "outperform_1m_vs_nasdaq": 58.49,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -158,6 +158,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:44:52.069230+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:39:36.681268+00:00"
   }
 }

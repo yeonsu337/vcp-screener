@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "DAL",
-  "generated_at": "2026-06-23T00:16:21.113927+00:00",
-  "source_results_date": "2026-06-23",
+  "generated_at": "2026-06-24T00:09:59.928601+00:00",
+  "source_results_date": "2026-06-24",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.81,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $87.39 근접(-1.68%).",
-    "13주 베이스 8.2% → 12.3% → 9.4% → 8.9% 수축, VDU 1.25× 진행.",
-    "Trend Template 8/8 통과, RS 78, RS 라인 신고가 +0.0%.",
+    "매수 대기 — Stage 2 진입, pivot $87.39 근접(-0.77%).",
+    "13주 베이스 8.2% → 12.3% → 9.4% → 8.9% 수축, VDU 1.20× 진행.",
+    "Trend Template 8/8 통과, RS 79, RS 라인 신고가 +0.0%.",
     "$87.39 돌파 시 매수·-7% 손절($81.27)·+20%($104.87) 절반 익절."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 78,
+    "rs_rating": 79,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -48,10 +48,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.86% vs 6.5%)",
-    "P3_vol_dryup (1.25× vs 0.6×)",
+    "P3_vol_dryup (1.20× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [
-    "RS 78 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 79 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

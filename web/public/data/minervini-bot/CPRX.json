@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CPRX",
-  "generated_at": "2026-06-23T00:16:21.112889+00:00",
-  "source_results_date": "2026-06-23",
+  "generated_at": "2026-06-24T00:09:59.927282+00:00",
+  "source_results_date": "2026-06-24",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.74,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $32.56 근접(-3.62%).",
-    "13주 베이스 11.4% → 12.9% → 15.1% 수축, VDU 1.02× 진행.",
-    "Trend Template 7/8 통과, RS 76, RS 라인 신고가 -2.7%.",
+    "매수 대기 — Stage 2 진입, pivot $32.56 근접(-3.56%).",
+    "13주 베이스 11.4% → 12.9% → 15.1% 수축, VDU 0.89× 진행.",
+    "Trend Template 7/8 통과, RS 77, RS 라인 신고가 -1.2%.",
     "$32.56 돌파 시 매수·-7% 손절($30.28)·+20%($39.07) 절반 익절."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 76,
+    "rs_rating": 77,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -47,11 +47,11 @@
   ],
   "key_failures": [
     "P2_last_contraction (15.05% vs 6.5%)",
-    "P3_vol_dryup (1.02× vs 0.6×)",
+    "P3_vol_dryup (0.89× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": [
-    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 77 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

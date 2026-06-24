@@ -4,198 +4,285 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-06-03T00:41:47.011938+00:00",
+  "generated_at": "2026-06-24T00:10:37.478414+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 282763558912,
-    "shares_outstanding": 325034188,
+    "market_cap": 276406796288,
+    "shares_outstanding": 325046693,
     "employees": 97000,
     "country": "United States",
     "website": "https://www.dell.com",
-    "beta": 1.062
+    "beta": 1.378
   },
   "category_a_business": {
-    "overview": "델 테크놀로지스는 PC, 서버, 스토리지 등 IT 솔루션을 제공하는 글로벌 기술 기업입니다.",
+    "overview": "델 테크놀로지스는 PC, 서버, 스토리지, 네트워크 솔루션을 제공하는 글로벌 기술 기업입니다.",
     "milestones": [
       "1984: Michael Dell이 Dell Computer Corporation 설립",
       "1988: 나스닥 상장",
-      "2003: Dell Inc.로 사명 변경",
-      "2013: 비공개 회사로 전환 (상장 폐지)",
-      "2016: EMC Corporation 인수 및 Dell Technologies로 사명 변경",
-      "2018: 뉴욕 증권 거래소 재상장",
-      "2021: VMware 분사 완료"
+      "2004: Dell Inc.로 사명 변경",
+      "2013: 비상장 회사로 전환 (Michael Dell 및 Silver Lake 주도)",
+      "2016: EMC Corporation 인수 및 Dell Technologies 출범",
+      "2018: 뉴욕증권거래소 재상장",
+      "2021: VMware 분사"
     ],
-    "business_model": "하드웨어, 소프트웨어 및 서비스 판매를 통해 수익을 창출합니다.",
+    "business_model": "하드웨어, 소프트웨어, 서비스 판매를 통해 기업 및 개인 고객에게 IT 솔루션을 제공합니다.",
     "revenue_streams": [
-      "인프라 솔루션 (서버, 스토리지, 네트워킹)",
-      "클라이언트 솔루션 (PC, 워크스테이션, 주변기기)",
-      "소프트웨어 및 주변기기",
+      "서버 및 스토리지 솔루션 판매",
+      "PC, 노트북, 워크스테이션 판매",
+      "네트워킹 제품 및 서비스 판매",
       "컨설팅 및 지원 서비스",
-      "배포 및 확장 보증 서비스"
+      "소프트웨어 및 주변기기 판매"
     ],
-    "value_chain_position": "Midstream / downstream + 자체 설계, 제조, 마케팅, 판매 및 지원을 통합합니다.",
+    "value_chain_position": "Midstream / Downstream + 제품 설계, 제조, 마케팅, 판매 및 지원을 통합 제공합니다.",
     "products": [
-      "노트북 및 데스크탑 PC",
-      "서버 및 스토리지 솔루션",
-      "네트워킹 제품",
+      "서버 (AI 최적화 포함)",
+      "스토리지 솔루션 (올플래시, HCI)",
+      "노트북 및 데스크톱 PC",
+      "네트워킹 스위치",
       "모니터 및 주변기기",
-      "소프트웨어 및 보안 솔루션"
+      "IT 컨설팅 및 지원 서비스"
     ],
     "channels": [
-      "B2B (기업 고객 직접 판매)",
-      "B2C (개인 고객 직접 판매)",
-      "D2C (온라인 스토어)",
-      "파트너 및 리셀러"
+      "B2B (기업 직접 판매)",
+      "B2C (온라인 및 소매)",
+      "D2C (직접 판매 모델)"
     ],
-    "key_customers": "다양한 산업의 기업 및 개인 고객으로, 특정 고객에 대한 집중도는 낮은 편입니다."
+    "key_customers": "다수의 기업, 정부 기관, 교육 기관 및 개인 고객으로 구성되어 있어 고객 집중도가 낮습니다."
   },
   "category_b_financials": {
+    "roe": null,
+    "roa": 0.07,
+    "profit_margin": 0.06,
+    "operating_margin": 0.09,
+    "gross_margin": 0.19,
+    "revenue_growth_ttm": 0.88,
+    "earnings_growth_ttm": 2.83,
+    "dividend_yield": 0.6,
+    "payout_ratio": 0.18,
+    "annual_revenue": [
+      113538000000.0,
+      95567000000.0,
+      88425000000.0,
+      102301000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      8446000000.0,
+      6656000000.0,
+      5933000000.0,
+      5771000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.68,
+      6.38,
+      4.55,
+      3.24,
+      null
+    ],
+    "annual_free_cf": [
+      8552000000.0,
+      1869000000.0,
+      5920000000.0,
+      562000000.0
+    ],
+    "annual_total_debt": [
+      31503000000.0,
+      24567000000.0,
+      25994000000.0,
+      29588000000.0,
+      null
+    ],
+    "annual_equity": [
+      -2470000000.0,
+      -1482000000.0,
+      -2227000000.0,
+      -3122000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-01-31",
+      "2025-01-31",
+      "2024-01-31",
+      "2023-01-31",
+      "2022-01-31"
+    ],
+    "quarterly_eps": [
+      5.24,
+      3.37,
+      2.28,
+      1.7,
+      1.37,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      43842000000.0,
+      33379000000.0,
+      27005000000.0,
+      29776000000.0,
+      23378000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-04-30",
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31",
+      "2024-10-31"
+    ],
     "eps_qoq_yoy_pct": 256.3,
     "sales_yoy_pct": 87.5,
     "ni_cagr_3y_pct": 34.46
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 1,100 - 1,300 (IDC, Gartner 등 시장조사기관 보고서 기반 추정치)",
-    "tam_cagr_pct": "5-7% (클라우드, AI, 엣지 컴퓨팅 확산으로 인한 인프라 수요 증가 및 디지털 전환 가속화)",
+    "tam_estimate_usd_b": "약 1,100 - 1,300 (IDC, Gartner 등 시장 조사 기관 보고서 기반 추정치)",
+    "tam_cagr_pct": "5-7% (클라우드 컴퓨팅, AI, 엣지 컴퓨팅 확산으로 인한 인프라 수요 증가 및 디지털 전환 가속화)",
     "growth_drivers": [
-      "AI 및 머신러닝 워크로드 증가에 따른 고성능 컴퓨팅 및 스토리지 수요 확대",
-      "하이브리드 클라우드 환경 구축 가속화로 인한 온프레미스 인프라 및 서비스 수요 지속",
-      "엣지 컴퓨팅 확산으로 인한 분산형 인프라 및 데이터 처리 솔루션 필요성 증대",
-      "서비스형(as-a-Service) 모델로의 전환을 통한 IT 소비 유연성 및 효율성 추구",
-      "사이버 보안 위협 증가에 따른 통합 보안 솔루션 및 서비스 수요 증가"
+      "클라우드 및 하이브리드 클라우드 솔루션 채택 증가",
+      "AI 및 머신러닝 워크로드 증가에 따른 고성능 컴퓨팅 수요 상승",
+      "엣지 컴퓨팅 및 IoT 확산으로 인한 분산 인프라 구축 필요성 증대",
+      "서비스형(as-a-Service) 모델로의 전환 가속화",
+      "사이버 보안 위협 증가에 따른 보안 솔루션 및 서비스 수요 증가"
     ],
-    "market_share_pct": "서버 시장 15-20%, PC 시장 15-20%, 스토리지 시장 15-20% (각 부문별 상위권 유지)",
+    "market_share_pct": "서버 시장 15-20%, 스토리지 시장 15-20%, PC 시장 15-20% (각 부문별 상위권 유지)",
     "competitors": [
       {
-        "name": "HPE (Hewlett Packard Enterprise)",
-        "differentiation": "하이브리드 클라우드 및 엣지 솔루션에 집중, 서비스형(as-a-Service) 모델 'GreenLake'를 통한 차별화"
-      },
-      {
-        "name": "Lenovo",
-        "differentiation": "PC 시장의 강력한 리더십과 함께 서버 및 데이터센터 솔루션 확장, 글로벌 공급망 효율성"
-      },
-      {
-        "name": "Cisco",
-        "differentiation": "네트워킹 분야의 독보적인 강점과 통합 데이터센터 솔루션, 보안 및 협업 솔루션과의 시너지"
-      },
-      {
-        "name": "NetApp",
-        "differentiation": "데이터 관리 및 스토리지 솔루션 전문성, 하이브리드 클라우드 환경에서의 데이터 이동성 및 관리 강점"
-      },
-      {
         "name": "HP Inc.",
-        "differentiation": "PC 및 프린팅 시장의 강력한 브랜드 인지도와 유통망, 소비자 및 중소기업 시장 집중"
+        "differentiation": "PC 및 프린팅 시장에 강점을 가지며, 소비자 및 중소기업 시장에 폭넓은 유통망을 보유."
+      },
+      {
+        "name": "Lenovo Group Ltd.",
+        "differentiation": "글로벌 PC 시장 점유율 1위로, 가격 경쟁력과 광범위한 제품 라인업을 통해 시장을 공략."
+      },
+      {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "differentiation": "엔터프라이즈 서버, 스토리지, 네트워킹 및 서비스형(as-a-Service) 솔루션에 집중하며, 하이브리드 클라우드 전략을 강조."
+      },
+      {
+        "name": "Cisco Systems Inc.",
+        "differentiation": "네트워킹 장비 및 솔루션 분야의 강자로, 데이터센터 및 클라우드 인프라 통합 솔루션을 제공."
+      },
+      {
+        "name": "NetApp Inc.",
+        "differentiation": "데이터 관리 및 스토리지 솔루션 전문 기업으로, 하이브리드 클라우드 환경에 최적화된 데이터 서비스를 제공."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low (IT 인프라 시장은 높은 초기 투자 비용, 기술 복잡성, 기존 브랜드 충성도로 진입 장벽이 높음)",
-      "substitutes": "medium (클라우드 서비스(AWS, Azure, GCP)가 온프레미스 인프라의 대체재로 부상하며, 특히 중소기업 시장에서 영향력이 커지고 있음)",
-      "buyer_power": "medium (대기업 및 공공 부문 고객은 구매량이 많아 가격 협상력이 높으며, 다양한 공급업체 옵션을 보유하고 있음)",
-      "supplier_power": "medium (주요 부품(CPU, 메모리 등) 공급업체는 소수이며, 이들의 가격 변동은 Dell의 원가에 영향을 미침)",
-      "rivalry": "high (PC, 서버, 스토리지 등 모든 핵심 시장에서 HPE, Lenovo, Cisco 등 강력한 경쟁사들과 치열한 경쟁을 벌이고 있음)"
+      "new_entrants": "medium (기술 및 자본 집약적 산업이나, 특정 니치 시장 진입은 가능)",
+      "substitutes": "medium (클라우드 서비스 제공업체의 자체 하드웨어 개발 또는 오픈소스 솔루션 확산)",
+      "buyer_power": "medium (대기업 및 정부 기관 구매자들은 가격 협상력이 높으나, 벤더 종속성도 존재)",
+      "supplier_power": "medium (주요 부품 공급업체는 소수이나, Dell의 대량 구매력으로 일정 부분 상쇄)",
+      "rivalry": "high (PC, 서버, 스토리지 등 모든 핵심 시장에서 글로벌 대기업들과 치열한 경쟁)"
     },
     "competitive_advantages": [
-      "광범위한 제품 포트폴리오 (PC, 서버, 스토리지, 네트워킹, 서비스 등 엔드투엔드 솔루션 제공)",
-      "강력한 글로벌 공급망 및 효율적인 운영 능력",
-      "대기업 및 공공 부문 고객 기반의 높은 브랜드 인지도와 충성도",
-      "직접 판매 모델을 통한 고객 관계 관리 및 맞춤형 솔루션 제공 역량",
-      "R&D 투자 및 기술 혁신을 통한 경쟁력 유지 (AI, 엣지, 하이브리드 클라우드 분야)"
+      "광범위한 제품 포트폴리오 (PC, 서버, 스토리지, 네트워킹, 소프트웨어, 서비스)",
+      "강력한 엔터프라이즈 고객 기반 및 글로벌 유통망",
+      "직접 판매 모델을 통한 고객 관계 및 맞춤형 솔루션 제공 능력",
+      "R&D 투자 및 기술 혁신을 통한 경쟁력 유지",
+      "서비스형(as-a-Service) 모델로의 전환 가속화 및 Apex 포트폴리오 강화"
     ],
     "competitive_weaknesses": [
-      "PC 시장의 경기 변동 및 소비자 수요 변화에 대한 민감성",
-      "클라우드 서비스로의 전환 가속화에 따른 온프레미스 하드웨어 수요 감소 압력",
-      "경쟁 심화로 인한 마진 압박 및 가격 경쟁 심화",
-      "복잡한 조직 구조 및 사업 부문 간 시너지 창출의 어려움",
-      "서비스형(as-a-Service) 모델 전환 가속화에 대한 투자 및 실행 부담"
+      "PC 시장의 경기 변동성에 대한 높은 노출도",
+      "클라우드 서비스 제공업체(CSP)의 자체 하드웨어 개발 및 서비스 확장으로 인한 잠재적 위협",
+      "치열한 가격 경쟁으로 인한 마진 압박",
+      "공급망 복잡성 및 지정학적 리스크에 대한 취약성",
+      "기존 온프레미스 인프라 중심의 비즈니스 모델에서 클라우드 및 서비스형 모델로의 전환 가속화 필요"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 97,
-    "score": 67.8,
+    "score": 67.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.7642,
-    "trailing_pe": 50.208767,
-    "forward_pe": 21.924892,
-    "ev_to_ebitda": 21.704,
-    "price_to_sales": 2.1101444,
+    "peg_ratio": 0.6867,
+    "trailing_pe": 34.058914,
+    "forward_pe": 19.987068,
+    "ev_to_ebitda": 20.74,
+    "price_to_sales": 2.0627065,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 255.42,
-    "outperform_6m_vs_nasdaq": 212.93,
-    "outperform_1m_vs_nasdaq": 99.24,
+    "outperform_1y_vs_nasdaq": 232.24,
+    "outperform_6m_vs_nasdaq": 239.34,
+    "outperform_1m_vs_nasdaq": 71.9,
     "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
+    "moat_type": "Switching Costs",
     "moat_evidence": [
-      "Dell Technologies는 전 세계적으로 인정받는 강력한 브랜드 자산을 보유하고 있으며, 이는 고객 신뢰와 충성도를 구축하는 데 핵심적인 역할을 합니다. (Item 1. Business)",
-      "수십 년간 축적된 기술력과 혁신 역량은 서버, 스토리지, PC 등 다양한 IT 솔루션 분야에서 경쟁 우위를 제공합니다. (Item 1. Business)",
-      "글로벌 공급망 관리 및 유통 네트워크는 효율적인 제품 생산 및 시장 접근성을 보장하며, 이는 신규 진입자가 쉽게 모방하기 어려운 무형 자산입니다. (Item 1. Business)"
+      "Dell의 엔터프라이즈 솔루션(서버, 스토리지, 네트워크)은 고객사의 기존 IT 인프라에 깊이 통합되어 있어, 다른 공급업체로의 전환 시 상당한 비용과 복잡성을 야기합니다. (Item 1. Business)",
+      "기업 고객들은 Dell의 광범위한 서비스 및 지원 생태계에 의존하며, 이는 솔루션 도입 후에도 지속적인 관계를 형성하여 전환 비용을 높입니다. (Item 1. Business)",
+      "Dell의 PC 및 워크스테이션은 기업 환경에서 표준화된 솔루션으로 자리매김하여, 대규모 조직에서 새로운 공급업체로 변경 시 교육, 호환성, 관리 측면에서 상당한 전환 비용이 발생합니다. (Item 1. Business)"
     ],
-    "moat_durability_years": "10년 이상",
+    "moat_durability_years": "5~10년",
     "new_trigger": "AI 서버 수요 급증 및 데이터센터 인프라 투자 확대",
-    "bull_case": "AI 인프라 투자 가속화로 서버 및 스토리지 매출 급증, EPS 30% 이상 성장",
-    "base_case": "AI 및 클라우드 전환 트렌드에 힘입어 서버 및 스토리지 부문 견조한 성장세 유지. PC 시장 회복과 함께 전반적인 매출 성장 예상.",
-    "bear_case": "글로벌 경기 침체 심화 및 기업 IT 지출 감소로 모든 사업 부문 매출 하락. AI 경쟁 심화로 수익성 악화 가능성.",
+    "bull_case": "AI 인프라 투자 가속화로 서버 및 스토리지 매출 급증, 수익성 개선 지속",
+    "base_case": "AI 및 클라우드 전환 수요에 힘입어 엔터프라이즈 솔루션 부문 견조한 성장. PC 시장 회복과 함께 전반적인 매출 성장 및 수익성 유지.",
+    "bear_case": "글로벌 경기 침체 심화로 기업 IT 투자 위축, PC 시장 회복 지연, AI 경쟁 심화로 마진 압박.",
     "key_metrics_to_watch": [
       "AI 서버 및 스토리지 매출 성장률",
-      "데이터센터 인프라 솔루션(ISG) 부문 영업이익률",
-      "PC(CSG) 부문 매출 회복 속도",
-      "총 부채 대비 현금 흐름"
+      "엔터프라이즈 솔루션 부문 OPM",
+      "PC 출하량 및 평균 판매 단가 (ASP)",
+      "총 부채 대비 EBITDA 비율",
+      "자유 현금 흐름 (FCF)"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "경쟁",
-        "description": "IT 산업의 경쟁 심화로 가격 압박 및 시장 점유율 하락 위험이 존재합니다.",
+        "description": "IT 산업의 경쟁 심화와 기술 변화 속도 가속화로 인해 시장 점유율 및 수익성 유지가 어려울 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "공급망",
-        "description": "글로벌 공급망 중단, 부품 부족 또는 비용 상승은 제품 생산 및 배송에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "글로벌 공급망의 복잡성과 지정학적 리스크, 원자재 가격 변동성으로 인해 생산 및 제품 공급에 차질이 발생할 수 있습니다.",
         "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "데이터 프라이버시, 사이버 보안, 무역 정책 등 다양한 규제 환경 변화는 운영 비용 증가 및 사업 제약을 초래할 수 있습니다.",
-        "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "환율 변동, 금리 인상, 글로벌 경제 둔화 등 거시 경제 요인은 매출 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "높은 부채 수준과 금리 인상으로 인한 이자 비용 증가가 재무 건전성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "사이버 보안 위협의 증가로 데이터 유출, 시스템 마비 등 심각한 운영 및 재무적 손실이 발생할 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "고객집중도",
-        "description": "일부 대형 고객에 대한 매출 의존도가 높아 해당 고객의 이탈 시 매출에 큰 타격을 입을 수 있습니다.",
-        "severity": "low"
+        "category": "규제",
+        "description": "데이터 프라이버시, 사이버 보안, 무역 정책 등 다양한 규제 환경 변화가 사업 운영 및 비용에 영향을 줄 수 있습니다.",
+        "severity": "medium"
       },
       {
         "category": "거시",
-        "description": "글로벌 경기 침체 또는 지정학적 불안정은 기업 및 소비자 IT 지출을 감소시켜 Dell의 매출에 악영향을 미칠 수 있습니다.",
+        "description": "글로벌 경제 둔화, 인플레이션, 환율 변동 등 거시 경제 요인이 고객의 IT 투자 감소로 이어져 매출에 부정적인 영향을 줄 수 있습니다.",
         "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "일부 대형 고객 또는 특정 산업 부문에 대한 매출 의존도가 높아 해당 고객/산업의 부진 시 실적에 큰 영향을 받을 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거버넌스",
+        "description": "경영진의 핵심 인력 이탈 또는 승계 문제 발생 시 사업 연속성 및 전략 실행에 차질이 생길 수 있습니다.",
+        "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "핵심 부품 공급망이 완전히 마비되어 제품 생산이 불가능해지고, 동시에 주요 경쟁사들이 혁신적인 기술로 시장을 장악하여 Dell의 시장 점유율이 급락하는 경우.",
-      "대규모 사이버 공격으로 고객 데이터가 유출되고 핵심 시스템이 마비되어 막대한 벌금과 고객 신뢰 상실로 이어지며, 이로 인해 매출이 급감하고 브랜드 이미지가 회복 불가능한 수준으로 손상되는 경우.",
-      "글로벌 경기 침체가 장기화되고 기업 및 소비자 IT 지출이 급격히 감소하는 상황에서, Dell이 신기술 전환에 실패하여 시장의 변화에 적응하지 못하고 경쟁력을 완전히 상실하는 경우."
+      "핵심 기술 개발 경쟁에서 지속적으로 뒤처져 시장에서 완전히 도태될 경우.",
+      "글로벌 공급망 붕괴 또는 주요 부품 공급사의 파산으로 생산이 장기간 중단될 경우.",
+      "사이버 공격으로 인한 대규모 고객 데이터 유출 및 서비스 중단으로 브랜드 신뢰가 완전히 상실될 경우.",
+      "과도한 부채 부담과 경기 침체가 겹쳐 재무 구조가 악화되고 자금 조달에 실패할 경우."
     ],
     "exit_signals": [
-      "PC 및 서버 시장 점유율이 3분기 연속 5% 이상 하락하고, 클라이언트 솔루션 그룹의 매출이 전년 대비 10% 이상 감소하는 경우.",
-      "핵심 부품(예: CPU, GPU) 공급업체와의 장기 계약이 해지되거나, 주요 공급망 허브에서 대규모 생산 차질이 발생하여 제품 출하가 6개월 이상 지연되는 경우.",
-      "대규모 데이터 유출 사고가 발생하여 수억 명의 고객 정보가 유출되고, 이로 인해 10억 달러 이상의 벌금 또는 소송 비용이 발생하며 브랜드 신뢰도가 심각하게 훼손되는 경우."
+      "PC 및 서버 시장 점유율이 3분기 연속 10% 이상 하락하는 경우.",
+      "주요 클라우드 서비스 제공업체와의 파트너십이 해지되거나 매출 기여도가 급감하는 경우.",
+      "신용 등급이 투자 부적격 등급으로 강등되거나 부채 상환에 심각한 문제가 발생하는 경우.",
+      "핵심 인프라 솔루션 부문에서 경쟁사 대비 기술적 우위를 상실했다는 명확한 증거가 나타나는 경우."
     ]
   },
   "wikipedia_summary": "Dell Technologies Inc. is an American multinational technology company that has been headquartered in Round Rock, Texas, since 1994. It was formed as a result of the September 2016 merger of Dell and EMC Corporation. Dell Technologies ranked 48th on the 2024 Fortune 500 rankings of the largest United States corporations based on its 2023 revenue; its products include personal computers, servers, monitors, computer software, computer security and network security, as well as information security services.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:24.143804+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:37:15.588783+00:00"
   }
 }

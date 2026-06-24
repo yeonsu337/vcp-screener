@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CMI",
-  "generated_at": "2026-06-23T00:16:21.114770+00:00",
-  "source_results_date": "2026-06-23",
-  "verdict": "BUY_NOW",
-  "verdict_kr": "매수 (Pivot 돌파 직후)",
-  "confidence": 0.82,
+  "generated_at": "2026-06-24T00:09:59.930837+00:00",
+  "source_results_date": "2026-06-24",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.72,
   "lines": [
-    "매수 — Stage 2 진입 확정, pivot $715.71 돌파(+1.29%, buy zone).",
-    "13주 베이스 9.7% → 12.2% → 9.3% 수축, VDU 1.45× 진행.",
-    "Trend Template 8/8 통과, RS 85, RS 라인 신고가 -0.1%.",
-    "$724.93 매수·-7% 손절($674.18)·+20%($869.92) 절반 익절, 이후 50일선 trailing."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 9.26%).",
+    "13주 베이스 9.7% → 12.2% → 9.3%, VDU 1.42×, pivot $737.76(-5.25%).",
+    "Trend Template 8/8 통과, RS 84 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
-    "entry_type": "immediate",
-    "entry_price": 724.93,
-    "stop_price": 674.18,
-    "stop_pct": -7.0,
-    "target1_price": 869.92,
-    "target1_pct": 20.0,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": null,
+    "stop_pct": null,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 85,
+    "rs_rating": 84,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -48,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.26% vs 6.5%)",
-    "P3_vol_dryup (1.45× vs 0.6×)",
+    "P3_vol_dryup (1.42× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

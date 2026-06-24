@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-06-20T00:27:03.730047+00:00",
+  "generated_at": "2026-06-24T00:14:54.879892+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6320119808,
+    "market_cap": 6584236544,
     "shares_outstanding": 88928099,
     "employees": 216,
     "country": "United States",
@@ -19,28 +19,29 @@
   "category_a_business": {
     "overview": "희귀 심폐 질환 치료제를 개발, 제조, 판매하는 바이오 제약 회사입니다.",
     "milestones": [
-      "2018: Sandoz와 제네릭 트레프로스티닐 주사제 판매 촉진 계약 체결",
-      "2025: YUTREPIA (트레프로스티닐 흡입 건조 분말) FDA 승인",
+      "2018: 산도즈와 제네릭 트레프로스티닐 주사제 프로모션 계약 체결",
+      "2025: YUTREPIA (트레프로스티닐 흡입 분말) FDA 승인",
       "2025: YUTREPIA 상업화 시작",
-      "미정: L606 (트레프로스티닐 리포솜 제형) 임상 3상 진행 중",
-      "미정: YUTREPIA의 추가 적응증 (PH-COPD, IPF 등) 임상 연구 계획"
+      "YYYY: L606 (트레프로스티닐 리포솜 제형) 임상 3상 진행",
+      "YYYY: PRINT 기술 개발 및 특허 확보"
     ],
-    "business_model": "희귀 심폐 질환 치료제 개발 및 판매, 제네릭 의약품 판매 수익 공유",
+    "business_model": "희귀 심폐 질환 치료제 판매 및 제네릭 의약품 수익 공유",
     "revenue_streams": [
-      "YUTREPIA 판매",
-      "Sandoz 제네릭 트레프로스티닐 주사제 판매 수익 공유"
+      "YUTREPIA (트레프로스티닐 흡입 분말) 판매",
+      "산도즈 제네릭 트레프로스티닐 주사제 수익 공유",
+      "L606 개발 및 상업화 (예정)"
     ],
-    "value_chain_position": "Midstream (연구 개발, 제조) 및 Downstream (상업화, 판매)",
+    "value_chain_position": "Midstream (의약품 개발, 제조) 및 Downstream (상업화, 판매)",
     "products": [
-      "YUTREPIA (트레프로스티닐 흡입 건조 분말)",
-      "트레프로스티닐 주사제 (Sandoz 제네릭)",
+      "YUTREPIA (트레프로스티닐 흡입 분말)",
+      "트레프로스티닐 주사제 (산도즈 제네릭)",
       "L606 (트레프로스티닐 리포솜 제형, 개발 중)"
     ],
     "channels": [
-      "B2B (의료기관 대상 영업)",
-      "B2C (환자 대상 간접 판매)"
+      "B2B (의료기관, 약국)",
+      "영업 인력 (의료 전문가 대상)"
     ],
-    "key_customers": "특정 고객에 대한 집중도는 낮으며, 미국 내 PAH 및 PH-ILD 환자를 치료하는 의료기관이 주요 고객입니다."
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 희귀 질환 환자 및 관련 의료기관이 주요 고객입니다."
   },
   "category_b_financials": {
     "roe": 0.28,
@@ -51,7 +52,7 @@
     "revenue_growth_ttm": 41.59,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       158320000.0,
       13996000.0,
@@ -140,20 +141,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 67.6,
+    "rs_rating": 96,
+    "score": 70.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 418.0588,
-    "forward_pe": 12.754846,
-    "ev_to_ebitda": 128.896,
-    "price_to_sales": 21.939909,
+    "trailing_pe": 435.52942,
+    "forward_pe": 13.287868,
+    "ev_to_ebitda": 140.397,
+    "price_to_sales": 22.856775,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 355.14,
-    "outperform_6m_vs_nasdaq": 87.93,
-    "outperform_1m_vs_nasdaq": 20.77,
+    "outperform_1y_vs_nasdaq": 430.62,
+    "outperform_6m_vs_nasdaq": 108.68,
+    "outperform_1m_vs_nasdaq": 22.16,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -165,7 +166,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
+        "description": "그러한 경우 당사 보통주의 시장 가격이 하락할 수 있으며 귀하는 투자금의 전부 또는 일부를 잃을 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -175,7 +176,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
+        "description": "당사는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -185,7 +186,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "필요한 경우 자금을 조달할 수 없는 경우 당사의 재정 상태와 비즈니스 전략을 추구하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "필요한 경우 자금을 확보할 수 없는 경우 당사의 재정 상태와 비즈니스 전략을 추구하는 능력에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -198,6 +199,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:39.980908+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:38:02.117028+00:00"
   }
 }

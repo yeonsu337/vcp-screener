@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-06-23T00:23:53.256625+00:00",
+  "generated_at": "2026-06-24T00:22:06.120606+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 76015493120,
+    "market_cap": 73474908160,
     "shares_outstanding": 320781076,
     "employees": 111000,
     "country": "United States",
@@ -22,7 +22,7 @@
     "products": [
       "미국 내 Ross Dress for Less 및 dd's DISCOUNTS 브랜드의 할인 소매 의류 및 홈 패션 매장",
       "온 가족을 위한 디자이너 의류, 액세서리, 신발, 홈패션 제품",
-      "중산층 가구와 중저소득층 가구에 제품을 공급합니다."
+      "중산층 가구와 저소득층 및 중산층 가구에 제품을 공급합니다."
     ],
     "channels": [
       "B2C / 소매"
@@ -40,7 +40,7 @@
     "gross_margin": 0.33,
     "revenue_growth_ttm": 0.21,
     "earnings_growth_ttm": 0.37,
-    "dividend_yield": 0.76,
+    "dividend_yield": 0.75,
     "payout_ratio": 0.23,
     "annual_revenue": [
       22750559000.0,
@@ -122,25 +122,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 73.7,
-    "vcp_quality": 12.5,
+    "rs_rating": 75,
+    "score": 70.5,
+    "vcp_quality": 11.3,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.7539,
-    "trailing_pe": 33.05021,
-    "forward_pe": 27.667442,
-    "ev_to_ebitda": 22.328,
-    "price_to_sales": 3.1971438,
+    "peg_ratio": 2.8032,
+    "trailing_pe": 31.990225,
+    "forward_pe": 26.801449,
+    "ev_to_ebitda": 21.588,
+    "price_to_sales": 3.090289,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 52.87,
-    "outperform_6m_vs_nasdaq": 14.9,
-    "outperform_1m_vs_nasdaq": 9.41,
+    "outperform_1y_vs_nasdaq": 49.47,
+    "outperform_6m_vs_nasdaq": 14.75,
+    "outperform_1m_vs_nasdaq": 8.35,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Ross Stores, Inc., operating under the brand name Ross Dress for Less, is an American chain of discount department stores headquartered in Dublin, California. It is the largest off-price retailer in the U.S.; as of July 2024, Ross operates 1,795 stores in 43 U.S. states, Washington, D.C. Puerto Rico and Guam, covering much of the country, but with no presence in Alaska. The company also operates DD's Discounts, a discount department store chain with over 353 locations across the United States, most of which are located in Sun Belt states.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:43:39.131838+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:38:50.978891+00:00"
   }
 }

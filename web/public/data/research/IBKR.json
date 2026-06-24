@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-06-16T00:49:05.377613+00:00",
+  "generated_at": "2026-06-24T00:11:16.341576+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 157341581312,
+    "market_cap": 160632242176,
     "shares_outstanding": 445484364,
     "employees": 3232,
     "country": "United States",
@@ -19,31 +19,31 @@
   "category_a_business": {
     "overview": "IBKR은 미국 및 국제적으로 자동화된 전자 브로커로, 다양한 자산군 거래 및 청산 서비스를 제공합니다.",
     "milestones": [
-      "1977: 설립 (Timber Hill Inc.로 시작)",
-      "1993년 : 인터랙티브 브로커스(주) 설립",
+      "1977년: 설립 (Timber Hill Inc.)",
+      "1993: Interactive Brokers Group, Inc.로 사명 변경",
       "2007: 나스닥 상장 (IBKR)",
       "2019: IBKR Lite 출시로 개인 투자자 접근성 확대",
       "2024: 일평균 260만 건의 거래 처리 (미국 최대 전자 거래 플랫폼)"
     ],
-    "business_model": "거래 수수료, 순이자 수익, 시장 조성 활동을 통해 수익을 창출합니다.",
+    "business_model": "수수료, 이자 수익 및 거래 활동을 통해 수익을 창출합니다.",
     "revenue_streams": [
       "거래 수수료",
-      "순이자 수익 (마진 대출, 미결제 현금 이자)",
-      "시장 조성 및 중개 활동",
-      "데이터 및 소프트웨어 라이선스"
+      "순 이자 수익",
+      "시장 조성 및 거래 활동 수익",
+      "데이터 및 소프트웨어 라이선스 수익"
     ],
-    "value_chain_position": "Midstream + 전자 거래 플랫폼을 통해 고객과 시장을 연결하고 거래를 실행, 청산합니다.",
+    "value_chain_position": "Midstream + 전자 브로커리지 및 청산 서비스를 제공하며 금융 시장의 핵심 연결 고리 역할을 합니다.",
     "products": [
       "주식, 옵션, 선물, 외환, 채권, 암호화폐 거래",
       "프라임 브로커리지 및 증권 대여 서비스",
       "IBKR Trader Workstation, IBKR Mobile 등 거래 플랫폼",
-      "IBKR Pro, IBKR Lite 그렇죠."
+      "IBKR API 및 맞춤형 거래 애플리케이션"
     ],
     "channels": [
       "B2C (개인 투자자)",
-      "B2B (헤지펀드, 뮤추얼펀드, RIA, 전업 투자 그룹, 소개 브로커)"
+      "B2B (헤지펀드, 뮤추얼펀드, RIA, 독점 거래 그룹 등)"
     ],
-    "key_customers": "고객 집중도는 낮음. 330만 명 이상의 기관 및 개인 고객을 보유하고 있으며 특정 고객에 대한 의존도가 낮습니다."
+    "key_customers": "고객 집중도는 낮으며, 330만 명 이상의 다양한 기관 및 개인 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.24,
@@ -53,7 +53,7 @@
     "gross_margin": 0.93,
     "revenue_growth_ttm": 0.17,
     "earnings_growth_ttm": 0.23,
-    "dividend_yield": 0.39,
+    "dividend_yield": 0.36,
     "payout_ratio": 0.14,
     "annual_revenue": [
       10222000000.0,
@@ -131,144 +131,146 @@
     "roe_pct": 23.56
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-300 (estimate) + 글로벌 온라인 브로커리지 및 자산 관리 시장 규모 추정치 기반",
-    "tam_cagr_pct": "8-12% + 개인 투자자의 증가, 디지털 자산 및 글로벌 투자 접근성 확대, 핀테크 기술 발전이 주요 근거",
+    "tam_estimate_usd_b": "약 150-200 billion USD (추정) - 글로벌 온라인 브로커리지 및 자산 관리 시장 규모 기반 추정. (출처: Statista, Mordor Intelligence 등 시장 조사 보고서 종합)",
+    "tam_cagr_pct": "7-10% (추정) - 글로벌 디지털 자산 관리 및 온라인 트레이딩 플랫폼의 지속적인 성장, 개인 투자자의 시장 참여 증가, 신흥 시장의 금융 서비스 접근성 확대에 기인. 특히, 기술 기반의 효율적인 서비스에 대한 수요 증가가 주요 동인.",
     "growth_drivers": [
-      "글로벌 개인 투자자 증가 및 투자 상품 다양화에 대한 수요 증대",
-      "핀테크 기술 발전 및 AI 기반 자산 관리 솔루션 도입 가속화",
-      "신흥 시장의 금융 시장 개방 및 디지털 투자 플랫폼 확산",
-      "저비용/수수료 없는 거래 모델 확산에 따른 경쟁 심화 및 시장 확대",
-      "글로벌 분산 투자 및 다양한 자산 클래스(주식, 선물, 옵션, 외환 등)에 대한 접근성 요구 증가"
+      "글로벌 개인 투자자의 증가 및 온라인 트레이딩 플랫폼 선호 심화",
+      "다양한 자산 클래스(주식, 파생상품, 암호화폐 등)에 대한 접근성 확대 요구",
+      "기술 발전(AI, 빅데이터)을 통한 개인화된 투자 서비스 및 분석 도구 제공",
+      "신흥 시장의 금융 서비스 디지털화 및 투자 인구 증가",
+      "저렴한 수수료 및 효율적인 거래 시스템에 대한 지속적인 수요"
     ],
-    "market_share_pct": "5-10% (글로벌 온라인 브로커리지 시장 기준, estimate)",
+    "market_share_pct": "글로벌 온라인 브로커리지 시장에서 2-5% (추정)",
     "competitors": [
       {
-        "name": "Charles Schwab (Schwab)",
-        "differentiation": "광범위한 고객 기반, 종합적인 금융 서비스 제공, 강력한 브랜드 인지도, 자문 서비스 강점"
+        "name": "Charles Schwab (TD Ameritrade 포함)",
+        "differentiation": "광범위한 고객 기반, 다양한 투자 상품 및 서비스, 강력한 브랜드 인지도, 전통적인 자문 서비스와 디지털 플랫폼의 결합."
       },
       {
         "name": "Fidelity Investments",
-        "differentiation": "다양한 투자 상품 및 서비스, 은퇴 계획 솔루션, 뮤추얼 펀드 강점, 강력한 기관 투자자 네트워크"
+        "differentiation": "다양한 투자 상품, 은퇴 계획 서비스, 뮤추얼 펀드 강점, 강력한 자산 관리 서비스 및 브랜드 충성도."
       },
       {
         "name": "Robinhood",
-        "differentiation": "수수료 없는 거래 모델 선도, 젊은 세대 및 모바일 친화적 인터페이스, 암호화폐 거래 제공"
+        "differentiation": "수수료 없는 거래, 젊은 세대 투자자 중심의 사용자 친화적인 모바일 앱, gamification 요소를 통한 투자 경험 제공."
       },
       {
         "name": "eToro",
-        "differentiation": "소셜 트레이딩 및 카피 트레이딩 기능, 다양한 암호화폐 및 CFD 상품 제공, 글로벌 사용자 기반"
+        "differentiation": "소셜 트레이딩 및 카피 트레이딩 기능, 암호화폐 거래 강점, 글로벌 사용자 기반."
       },
       {
-        "name": "TD Ameritrade (Schwab에 인수)",
-        "differentiation": "고급 트레이딩 플랫폼 및 도구, 교육 자료 풍부, 활발한 트레이더 커뮤니티 (현재 Schwab의 일부)"
+        "name": "Interactive Investor (UK)",
+        "differentiation": "영국 시장에 특화된 서비스, 정액제 수수료 모델, 다양한 투자 상품 및 ISA/SIPP 계좌 제공."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium + 진입 장벽이 높지만, 핀테크 스타트업의 혁신적인 서비스 출시 가능성 존재",
-      "substitutes": "medium + 전통적인 은행, 자산 관리사, 로보 어드바이저, 직접 투자 등 다양한 대체재 존재",
-      "buyer_power": "high + 투자자들은 수수료, 플랫폼 기능, 상품 다양성 등을 기준으로 쉽게 브로커를 변경할 수 있음",
-      "supplier_power": "low + 기술 제공업체, 데이터 공급업체 등은 다수 존재하며, 브로커는 자체 기술력 보유",
-      "rivalry": "high + 수수료 경쟁 심화, 서비스 차별화 노력, 기술 혁신 경쟁이 치열함"
+      "new_entrants": "medium - 금융 서비스 산업은 규제 장벽이 높지만, 핀테크 기술 발전으로 특정 니치 시장에 진입하는 신규 업체는 증가하고 있음.",
+      "substitutes": "medium - 은행의 자산 관리 서비스, 로보 어드바이저, 직접 투자(P2P, 크라우드펀딩 등)와 같은 대체재가 존재하며, 고객의 선택지가 다양함.",
+      "buyer_power": "high - 투자자들은 낮은 수수료, 다양한 상품, 우수한 사용자 경험을 제공하는 플랫폼을 쉽게 선택할 수 있어 구매자의 협상력이 높음.",
+      "supplier_power": "low - IBKR은 자체 기술 스택과 광범위한 시장 접근성을 통해 공급업체(거래소, 데이터 제공업체 등)에 대한 의존도를 낮추고 있음.",
+      "rivalry": "high - 온라인 브로커리지 시장은 경쟁이 매우 치열하며, 수수료 인하 경쟁, 서비스 차별화, 기술 혁신을 통한 고객 유치 경쟁이 심화되고 있음."
     },
     "competitive_advantages": [
-      "다양한 글로벌 시장 및 자산 클래스에 대한 광범위한 접근성 제공",
-      "낮은 거래 수수료 및 경쟁력 있는 마진 금리",
-      "고급 트레이딩 도구 및 기술적으로 우수한 플랫폼",
-      "기관 및 전문 투자자에게 매력적인 정교한 기능 제공",
-      "강력한 규제 준수 및 리스크 관리 프레임워크"
+      "낮은 수수료 및 효율적인 거래 비용 구조",
+      "글로벌 시장 및 다양한 자산 클래스에 대한 광범위한 접근성",
+      "고급 트레이딩 도구 및 기술 플랫폼 (Trader Workstation)",
+      "강력한 규제 준수 및 리스크 관리 시스템",
+      "기관 투자자 및 전문 트레이더를 위한 맞춤형 서비스 제공"
     ],
     "competitive_weaknesses": [
-      "초보 투자자에게는 다소 복잡하게 느껴질 수 있는 플랫폼 인터페이스",
-      "일부 경쟁사에 비해 마케팅 및 브랜드 인지도가 상대적으로 낮음",
-      "고객 서비스 채널 및 개인화된 자문 서비스가 제한적일 수 있음",
-      "글로벌 규제 환경 변화에 대한 높은 의존성 및 규제 준수 비용 부담",
-      "수수료 없는 거래 모델을 제공하는 경쟁사들과의 가격 경쟁 압력"
+      "일부 개인 투자자에게는 복잡하게 느껴질 수 있는 플랫폼 인터페이스",
+      "마케팅 및 브랜드 인지도 측면에서 대형 경쟁사에 비해 상대적 열위",
+      "고객 서비스 경험이 일부 경쟁사 대비 부족하다는 평가 존재",
+      "규제 환경 변화에 대한 높은 민감도 (다국적 규제 준수 부담)",
+      "젊은 세대 투자자를 위한 사용자 친화적인 모바일 경험 개선 필요"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 81,
-    "score": 64.5,
+    "rs_rating": 82,
+    "score": 63.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.4511,
-    "trailing_pe": 39.81116,
-    "forward_pe": 32.242817,
+    "peg_ratio": 2.6132,
+    "trailing_pe": 41.535088,
+    "forward_pe": 32.917145,
     "ev_to_ebitda": null,
-    "price_to_sales": 24.412968,
+    "price_to_sales": 24.923544,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 46.14,
-    "outperform_6m_vs_nasdaq": 27.61,
-    "outperform_1m_vs_nasdaq": 5.0,
+    "outperform_1y_vs_nasdaq": 53.74,
+    "outperform_6m_vs_nasdaq": 39.56,
+    "outperform_1m_vs_nasdaq": 15.77,
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "IBKR은 전 세계적으로 다양한 규제 기관(SEC, FINRA, FCA 등)의 엄격한 인허가를 획득하고 준수하며 사업을 운영하고 있습니다. 이는 신규 진입자가 쉽게 모방할 수 없는 강력한 무형 자산이자 진입 장벽으로 작용합니다.",
-      "다수의 국가 및 지역에서 브로커-딜러 라이선스를 보유하고 있으며, 이는 각 관할권의 복잡한 규제 환경을 이해하고 준수하는 데 필요한 전문성과 자본력을 입증합니다. 이러한 규제 준수 역량은 경쟁 우위의 핵심입니다.",
-      "규제 당국의 승인 없이는 지분 25% 이상 소유권 변경이 제한되는 등, 기존 사업자의 안정성을 보장하는 규제 환경은 IBKR의 시장 지위를 공고히 하는 데 기여합니다."
+      "IBKR은 미국 SEC, FINRA, 연준 등은 물론 캐나다, 영국, 아일랜드, 스위스, 홍콩, 싱가포르 등 전 세계 주요 금융 규제 기관의 엄격한 규제를 준수하며 운영됩니다. 이는 신뢰와 합법성을 보장하는 강력한 무형 자산입니다.",
+      "다수의 자회사들이 FINRA Rule 1017 등 각국 규제 기관의 지배구조 변경 승인 규제를 받습니다. 이는 신규 진입자의 시장 진입을 어렵게 하고 기존 사업자의 경쟁 우위를 유지하는 데 기여합니다.",
+      "증권 및 파생상품 사업의 높은 규제 환경은 신규 진입자에게 상당한 진입 장벽으로 작용하며, IBKR의 광범위한 규제 준수 경험과 인프라는 강력한 경쟁 우위로 작용합니다."
     ],
     "moat_durability_years": "10년 이상",
-    "new_trigger": "글로벌 시장 확장 및 다양한 자산 클래스 제공을 통한 고객 기반 확대 지속",
-    "bull_case": "글로벌 시장 점유율 확대와 금리 인상 기조 유지로 순이자수익 증가 및 EPS 30% 이상 성장",
-    "base_case": "견고한 고객 성장과 효율적인 비용 관리를 통해 안정적인 수익성을 유지하며, 규제 환경 변화에 유연하게 대응하여 시장 평균 이상의 성장을 지속할 것입니다.",
-    "bear_case": "글로벌 경기 침체로 인한 거래량 감소, 예상치 못한 규제 강화 및 경쟁 심화로 수익성 악화",
+    "new_trigger": "글로벌 시장 변동성 증가 및 개인 투자자 유입 확대",
+    "bull_case": "글로벌 시장 점유율 확대 및 신규 서비스 출시로 3년간 순이익 20% 이상 성장 예상. 핵심 드라이버는 플랫폼 경쟁력 강화 및 고객 기반 확장.",
+    "base_case": "견고한 규제 준수와 기술 우위를 바탕으로 안정적인 고객 성장 및 수익성 유지. 시장 변동성에 따른 거래량 변화에 따라 완만한 성장 예상.",
+    "bear_case": "예상치 못한 규제 강화, 경쟁 심화, 또는 시장 침체로 인해 고객 이탈 및 수익성 악화. 특히 거래 수수료 인하 압박이 심화될 경우 수익에 부정적 영향.",
     "key_metrics_to_watch": [
-      "고객 계좌 수 및 자산 증가율",
-      "순이자수익 (NII) 추이",
-      "거래량 및 거래 수수료 수익"
+      "고객 계좌 수 증가율",
+      "거래량 (DARTs)",
+      "순이자수익 (NII)",
+      "규제 준수 비용",
+      "시장 점유율"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "규제",
-        "description": "IBKR은 전 세계 여러 관할권에서 엄격한 금융 규제를 받으며, 규제 위반 시 막대한 벌금, 사업 제한 또는 면허 취소 등의 불이익을 받을 수 있습니다.",
+        "description": "IBKR은 전 세계 여러 관할권에서 엄격한 규제를 받으며, 규제 환경 변화나 규제 위반 시 막대한 벌금, 사업 제한 또는 라이선스 박탈 위험이 있습니다.",
         "severity": "high"
       },
       {
         "category": "경쟁",
-        "description": "수수료 인하 경쟁 심화, 신기술 도입, 새로운 시장 진입자 등으로 인해 IBKR의 시장 점유율과 수익성이 압박받을 수 있습니다.",
+        "description": "온라인 브로커리지 시장은 경쟁이 매우 치열하며, 수수료 인하 압력, 신기술 도입 경쟁, 신규 진입자의 위협 등으로 인해 시장 점유율 및 수익성에 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "시장 변동성, 금리 변화, 신용 위험 등은 IBKR의 투자 포트폴리오 가치와 대출 사업에 부정적인 영향을 미쳐 재무 성과를 악화시킬 수 있습니다.",
+        "description": "시장 변동성, 금리 변화, 신용 위험, 유동성 위험 등 금융 시장의 다양한 위험에 노출되어 있으며, 이는 회사의 재무 성과에 직접적인 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "거시",
-        "description": "글로벌 경제 침체, 지정학적 불안정, 인플레이션 등 거시 경제 환경의 악화는 고객 거래 활동 감소 및 자산 가치 하락으로 이어져 IBKR의 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "글로벌 경제 침체, 지정학적 불안정, 팬데믹 등 거시 경제 환경의 악화는 고객 거래 활동 감소 및 자산 가치 하락으로 이어져 IBKR의 수익에 부정적인 영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "고객집중도",
-        "description": "IBKR은 기관 투자자 및 고액 자산가 고객 비중이 높아, 이들 고객의 이탈 또는 거래량 감소는 회사 수익에 상당한 타격을 줄 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거버넌스",
-        "description": "내부 통제 시스템의 미비 또는 경영진의 부적절한 의사결정은 운영 위험을 증가시키고 회사의 명성을 훼손할 수 있습니다.",
+        "description": "특정 유형의 고객 또는 거래 활동에 대한 의존도가 높을 경우, 해당 고객층의 이탈이나 거래 감소가 발생하면 회사 수익에 큰 타격을 입을 수 있습니다.",
         "severity": "low"
       },
       {
         "category": "공급망",
-        "description": "핵심 기술 공급업체 또는 데이터 제공업체의 서비스 중단은 IBKR의 거래 시스템 운영에 심각한 지장을 초래할 수 있습니다.",
+        "description": "핵심 IT 시스템 및 인프라를 외부 공급업체에 의존하는 경우, 해당 공급업체의 서비스 중단이나 보안 침해는 IBKR의 운영에 심각한 차질을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "내부 통제 미흡, 경영진의 부적절한 의사결정, 윤리적 문제 발생 시 회사의 명성과 재무 건전성에 심각한 손상을 입을 수 있습니다.",
         "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "글로벌 금융 위기 또는 대규모 사이버 공격으로 인해 거래 시스템이 마비되고 고객 자산에 대한 신뢰가 상실되어 대규모 인출 사태가 발생할 경우 회사가 파산할 수 있습니다.",
-      "주요 규제 당국으로부터 사업 면허가 취소되거나 막대한 벌금 부과로 인해 영업 활동이 불가능해지고 재무 건전성이 심각하게 훼손될 경우 회사가 망할 수 있습니다.",
-      "경쟁사의 파격적인 수수료 인하 및 혁신적인 서비스 도입으로 인해 대규모 고객 이탈이 발생하고 수익성이 급격히 악화될 경우 회사가 존속하기 어려울 수 있습니다."
+      "글로벌 금융 위기 또는 시스템적 리스크로 인해 대규모 고객 자산 손실이 발생하고, 이로 인해 대규모 인출 사태 및 규제 기관의 영업 정지 명령이 내려질 경우 회사가 파산할 수 있습니다.",
+      "핵심 거래 시스템에 대한 대규모 사이버 공격으로 고객 정보 유출 및 거래 시스템 마비가 장기간 지속되어 고객 신뢰를 완전히 상실하고 막대한 손해배상 및 벌금을 지불하게 될 경우 회사가 망할 수 있습니다.",
+      "주요 시장에서 규제 위반으로 인한 대규모 벌금과 영업 라이선스 박탈이 동시에 발생하여 핵심 수익원이 사라지고, 재무 건전성이 급격히 악화될 경우 회사가 파산할 수 있습니다."
     ],
     "exit_signals": [
-      "주요 시장에서 규제 당국으로부터 사업 면허 취소 또는 영업 정지 명령이 내려지는 경우",
-      "분기별 고객 계좌 수 및 거래량이 2분기 연속 10% 이상 감소하는 추세가 나타나는 경우",
-      "경쟁사의 시장 점유율이 급격히 상승하고 IBKR의 수익성 지표가 지속적으로 악화되는 경우"
+      "주요 시장에서 규제 기관의 중대한 제재 또는 영업 라이선스 취소 발표가 있을 경우",
+      "핵심 거래 시스템에 대한 대규모 사이버 공격으로 인해 서비스가 며칠 이상 중단되고 고객 자산 손실이 발생할 경우",
+      "경쟁 심화로 인한 지속적인 수수료 인하 압력으로 분기별 순이익이 2분기 연속 20% 이상 감소할 경우"
     ]
   },
   "wikipedia_summary": "Interactive Brokers, Inc. is an American multinational brokerage firm headquartered in Greenwich, Connecticut. It operates the largest electronic trading platform in the United States by number of daily average revenue trades. In 2024, the platform processed an average of 2.6 million trades per trading day. Interactive Brokers is the largest foreign exchange market broker and is one of the largest prime brokers servicing commodity brokers. The company brokers stocks, options, futures contracts, exchange of futures for physicals, options on futures, bonds, mutual funds, currency, cryptocurrency, contracts for difference, derivatives and trading in prediction markets. Interactive Brokers offers direct market access, omnibus and non-disclosed broker accounts, and provides clearing services. The firm has operations in 36 countries and 28 currencies. As of December 31, 2024, it had 3.337 million institutional and individual brokerage customers, with total customer equity of US$568.2 billion. In addition to its headquarters in Greenwich, on the Gold Coast of Connecticut, the company has offices in major financial centers worldwide. More than half of the company's customers reside outside the United States, in approximately 200 countries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:26.383942+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:37:31.055886+00:00"
   }
 }

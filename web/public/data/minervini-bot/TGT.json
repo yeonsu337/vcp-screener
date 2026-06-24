@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "TGT",
-  "generated_at": "2026-06-23T00:16:21.116603+00:00",
-  "source_results_date": "2026-06-23",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.65,
+  "generated_at": "2026-06-24T00:09:59.931035+00:00",
+  "source_results_date": "2026-06-24",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.8,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 7.95%).",
-    "13주 베이스 10.6% → 6.1% → 5.8% → 10.8% → 8.2%, VDU 0.92×, pivot $137.87(-5.90%).",
-    "Trend Template 8/8 통과, RS 71 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "매수 대기 — Stage 2 진입, pivot $137.87 근접(-2.73%).",
+    "13주 베이스 6.1% → 5.8% → 10.8% → 8.2% → 8.0% 수축, VDU 0.84× 진행.",
+    "Trend Template 8/8 통과, RS 75, RS 라인 신고가 -2.6%.",
+    "$137.87 돌파 시 매수·-7% 손절($128.22)·+20%($165.44) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 137.87,
+    "stop_price": 128.22,
+    "stop_pct": -7.0,
+    "target1_price": 165.44,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
-    "rs_rating": 71,
+    "vcp_quality_score": "4/8",
+    "rs_rating": 75,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -46,13 +46,12 @@
     "F1_outperform_1y"
   ],
   "key_failures": [
-    "P2_last_contraction (7.95% vs 6.5%)",
-    "P3_vol_dryup (0.92× vs 0.6×)",
+    "P2_last_contraction (7.41% vs 6.5%)",
+    "P3_vol_dryup (0.84× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-7.2% vs ≥-5.0%)"
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "RS 71 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

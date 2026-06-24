@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-06-20T00:44:26.813475+00:00",
+  "generated_at": "2026-06-24T00:30:14.431071+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2394659328,
+    "market_cap": 2437138176,
     "shares_outstanding": 71998175,
     "employees": 494,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 1.181
   },
   "category_a_business": {
-    "overview": "A10 Networks, Inc.는 미국, 기타 아메리카 지역, 일본, 기타 아시아 태평양 지역, 유럽, 중동 및 아프리카에서 보안 애플리케이션 및 네트워크 인프라 솔루션을 제공합니다. 이 회사는 웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품을 제공합니다. A10 네트워크 전반의 이상 탐지 제품인 Defend DDoS Detector; A10 방어, 오케스트레이션 및 관리 제품인 DDoS Orchestrator를 방어합니다. A10 자동화된 완화 제품인 DDoS Mitigator를 방어합니다. A10 공격 SaaS 플랫폼인 Defend Threat Control; 통합 앱인 Next-Gen WAF를 방어하세요.",
+    "overview": "A10 Networks, Inc.는 미국, 기타 미주 지역, 일본, 기타 아시아 태평양 지역, 유럽, 중동 및 아프리카에서 보안 애플리케이션 및 네트워크 인프라 솔루션을 제공합니다. 이 회사는 웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품을 제공합니다. A10 네트워크 전반의 이상 탐지 제품인 Defend DDoS Detector; A10 방어, 오케스트레이션 및 관리 제품인 DDoS Orchestrator를 방어합니다. A10 자동화된 완화 제품인 DDoS Mitigator를 방어합니다. 공격 SaaS 플랫폼인 A10 Defend Threat Control; 통합 앱인 Next-Gen WAF를 방어하세요.",
     "business_model": "A10 네트웍스, Inc.",
     "products": [
       "미국, 나머지 미주 지역, 일본, 나머지 A 국가의 보안 애플리케이션 및 네트워크 인프라 솔루션",
@@ -43,8 +43,8 @@
     "gross_margin": 0.79,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": 0.29,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "dividend_yield": 0.71,
+    "payout_ratio": 0.39,
     "annual_revenue": [
       290557000.0,
       261696000.0,
@@ -131,19 +131,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 66.5,
+    "score": 66.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 14.76,
-    "trailing_pe": 54.524586,
-    "forward_pe": 28.186441,
-    "ev_to_ebitda": 32.766,
-    "price_to_sales": 7.9976597,
+    "trailing_pe": 55.4918,
+    "forward_pe": 28.686441,
+    "ev_to_ebitda": 34.294,
+    "price_to_sales": 8.13953,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 53.12,
-    "outperform_6m_vs_nasdaq": 73.03,
-    "outperform_1m_vs_nasdaq": 17.33,
+    "outperform_1y_vs_nasdaq": 61.11,
+    "outperform_6m_vs_nasdaq": 74.7,
+    "outperform_1m_vs_nasdaq": 22.17,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -170,7 +170,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러한 사건은 당사의 비즈니스, 재무 상태 및 운영 결과에 심각한 해를 끼칠 수 있습니다.",
+        "description": "그러한 사건은 당사의 사업, 재무 상태 및 운영 결과에 심각한 해를 끼칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "A10 Networks, Inc. is an American public company specializing in the manufacturing of application delivery controllers. Founded in 2004 by Lee Chen, co-founder of Foundry Networks, A10 originally serviced just the identity management market with its line of ID Series products. In early 2007, they added bandwidth management appliances. The company had its initial public offering on March 21, 2014, raising $187.5 million.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:40:53.341150+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:35:57.377882+00:00"
   }
 }

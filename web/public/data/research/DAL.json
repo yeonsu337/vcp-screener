@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Airlines",
-  "generated_at": "2026-06-23T00:29:08.779350+00:00",
+  "generated_at": "2026-06-24T00:27:11.350153+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 56448954368,
+    "market_cap": 56974553088,
     "shares_outstanding": 656994340,
     "employees": 103000,
     "country": "United States",
@@ -17,37 +17,18 @@
     "beta": 1.313
   },
   "category_a_business": {
-    "overview": "미국 주요 항공사로, 여객 및 화물 운송 서비스를 제공하며 글로벌 허브 네트워크를 운영합니다.",
-    "milestones": [
-      "1924년: 설립(농작물 살포 작업)",
-      "1929: 여객 서비스 시작",
-      "1972년: 동북항공 인수",
-      "2008: Northwest Airlines와 합병",
-      "2012: Trainer Refinery 인수 (항공사 최초 정유사 소유)",
-      "2020: 코로나19 팬데믹으로 인한 항공 산업 위기 직면"
-    ],
-    "business_model": "항공 운송 서비스 및 관련 부대 사업을 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "여객 운송 (국내/국제선)",
-      "화물 운송",
-      "정유 사업 (Trainer Refinery)",
-      "항공기 유지보수 및 엔지니어링 서비스",
-      "휴가 패키지 판매"
-    ],
-    "value_chain_position": "Downstream + 항공 운송 서비스를 최종 소비자에게 직접 제공합니다.",
+    "overview": "Delta Air Lines, Inc.는 미국과 국제적으로 승객과 화물을 위한 정기 항공 운송을 제공합니다. 이 회사는 항공사와 정유소라는 두 부문을 통해 운영됩니다.",
+    "business_model": "델타항공, Inc.",
     "products": [
-      "정기 항공편 (국내선)",
-      "정기 항공편 (국제선)",
-      "델타 커넥션 (지역 항공편)",
-      "델타 바케이션스 (휴가 패키지)",
-      "항공기 유지보수 서비스"
+      "미국 및 국제적으로 승객과 화물을 위한 정기 항공 운송",
+      "항공사와 정유소라는 두 부문을 통해",
+      "항공기 유지 보수 및 엔지니어링 지원, 수리 및 정밀 검사 서비스",
+      "약 1,314대의 항공기를 통해"
     ],
     "channels": [
-      "B2C (직접 판매: 웹사이트, 모바일 앱, 콜센터)",
-      "B2C (간접 판매: 온라인 여행사, 여행사)",
-      "B2B (기업 계약)"
+      "B2B / 기업"
     ],
-    "key_customers": "매우 분산된 고객 기반으로, 특정 고객에 대한 매출 집중도는 낮습니다."
+    "wikipedia_excerpt": "Delta Air Lines, Inc.는 조지아주 애틀랜타에 본사를 두고 있는 미국의 주요 항공사로 9개의 허브를 운영하고 있으며, 하츠필드-잭슨 애틀랜타 국제공항은 총 승객 수와 출발 횟수 측면에서 가장 큰 공항입니다. Delta Connection이라는 브랜드 이름으로 운영되는 지역 자회사 및 계약업체를 통해 Delta는 매일 5,400편 이상의 항공편을 운항하며 6개 대륙, 52개국, ​​325개 목적지에 서비스를 제공합니다."
   },
   "category_b_financials": {
     "roe": 0.25,
@@ -57,7 +38,7 @@
     "gross_margin": 0.2,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": null,
-    "dividend_yield": 0.89,
+    "dividend_yield": 0.9,
     "payout_ratio": 0.1,
     "annual_revenue": [
       63364000000.0,
@@ -148,20 +129,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 58.3,
+    "rs_rating": 79,
+    "score": 58.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.21,
-    "trailing_pe": 12.543066,
-    "forward_pe": 10.662416,
-    "ev_to_ebitda": 9.323,
-    "price_to_sales": 0.8660737,
+    "trailing_pe": 12.659854,
+    "forward_pe": 10.817269,
+    "ev_to_ebitda": 9.391,
+    "price_to_sales": 0.87413776,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.95,
-    "outperform_6m_vs_nasdaq": 8.59,
-    "outperform_1m_vs_nasdaq": 16.32,
+    "outperform_1y_vs_nasdaq": 54.36,
+    "outperform_6m_vs_nasdaq": 13.07,
+    "outperform_1m_vs_nasdaq": 17.32,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -186,6 +167,6 @@
   },
   "wikipedia_summary": "Delta Air Lines, Inc. is a major airline in the United States headquartered in Atlanta, Georgia, operating nine hubs, with Hartsfield–Jackson Atlanta International Airport being its largest in terms of total passengers and number of departures. With its regional subsidiaries and contractors operating under the brand name Delta Connection, Delta has over 5,400 flights daily and serves 325 destinations in 52 countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:22.474983+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:37:14.297542+00:00"
   }
 }

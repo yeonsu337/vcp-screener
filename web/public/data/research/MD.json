@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-06-23T00:35:16.911595+00:00",
+  "generated_at": "2026-06-24T00:32:17.268795+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1931507456,
+    "market_cap": 1959428864,
     "shares_outstanding": 82121911,
     "employees": 4280,
     "country": "United States",
@@ -128,27 +128,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 59.3,
+    "rs_rating": 74,
+    "score": 60.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 11.417477,
-    "forward_pe": 9.96796,
-    "ev_to_ebitda": 8.388,
-    "price_to_sales": 0.99990755,
+    "trailing_pe": 11.582525,
+    "forward_pe": 10.112055,
+    "ev_to_ebitda": 8.36,
+    "price_to_sales": 1.014362,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.31,
-    "outperform_6m_vs_nasdaq": -11.05,
-    "outperform_1m_vs_nasdaq": 5.07,
+    "outperform_1y_vs_nasdaq": 48.91,
+    "outperform_6m_vs_nasdaq": -0.96,
+    "outperform_1m_vs_nasdaq": 13.4,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "위험 요소 우리 사업은 향후 개발 및 성과에 실질적으로 영향을 미칠 수 있는 다양한 요소의 영향을 받습니다.",
+        "description": "위험 요소 우리 사업은 향후 개발 및 성과에 실질적으로 영향을 미칠 수 있는 여러 가지 요소의 영향을 받습니다.",
         "severity": "medium"
       },
       {
@@ -158,7 +158,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
+        "description": "당사는 정기적으로 SEC에 제출하는 기타 서류에서 이러한 위험 요소를 업데이트할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:56.541300+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:38:14.424182+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-06-23T00:33:14.120524+00:00",
+  "generated_at": "2026-06-24T00:39:35.338999+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 100032413696,
+    "market_cap": 96461258752,
     "shares_outstanding": 137989067,
     "employees": 67400,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 1.24
   },
   "category_a_business": {
-    "overview": "Cummins Inc.는 전 세계적으로 다양한 전력 솔루션을 제공합니다. 이 회사는 엔진, 배전, 부품, 전력 시스템, Accelera 등 5개 부문으로 운영됩니다.",
-    "business_model": "커민스 주식회사",
+    "overview": "Cummins Inc. offers various power solutions worldwide. The company operates through five segments: Engine, Distribution, Components, Power Systems, and Accelera.",
+    "business_model": "Cummins Inc.",
     "products": [
-      "전세계 다양한 전력 솔루션",
-      "엔진, 배전, 부품, 전력 시스템, 가속기 등 5개 부문을 통해",
-      "디젤 및 천연가스 구동 엔진",
-      "맞춤형 엔지니어링 시스템과 통합 제어, 산화 촉매로 구성된 후처리 기술 및 솔루션",
-      "발전 시스템, 고마력 엔진, 대형 및 중형 엔진에 대한 지원 서비스를 제공합니다."
+      "various power solutions worldwide",
+      "through five segments: Engine, Distribution, Components, Power Systems, and Acceler",
+      "diesel and natural gas-powered engines",
+      "aftertreatment technology and solutions comprising custom engineering systems and integrated controls, oxidation catalys",
+      "and offers support services power generation systems, high-horsepower engines, and heavy-duty and medium-duty engines"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Cummins Inc.는 디젤 엔진, 전기 자동차 부품 및 발전 제품을 설계, 제조 및 유통하는 미국의 다국적 기업입니다. Cummins는 또한 연료 시스템, 공기 처리 시스템 제어, 여과, 배출 제어, 발전 시스템 및 엔진 제어 장치를 포함한 엔진 및 관련 장비에 대한 서비스도 제공합니다."
+    "wikipedia_excerpt": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units."
   },
   "category_b_financials": {
     "roe": 0.22,
@@ -39,7 +39,7 @@
     "gross_margin": 0.26,
     "revenue_growth_ttm": 0.03,
     "earnings_growth_ttm": -0.21,
-    "dividend_yield": 1.12,
+    "dividend_yield": 1.1,
     "payout_ratio": 0.41,
     "annual_revenue": [
       33670000000.0,
@@ -131,52 +131,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 59.7,
+    "rs_rating": 84,
+    "score": 57.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.7233,
-    "trailing_pe": 37.6001,
-    "forward_pe": 21.371359,
-    "ev_to_ebitda": 21.205,
-    "price_to_sales": 2.951331,
+    "peg_ratio": 1.7427,
+    "trailing_pe": 36.25778,
+    "forward_pe": 20.608402,
+    "ev_to_ebitda": 20.492,
+    "price_to_sales": 2.8459685,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 99.96,
-    "outperform_6m_vs_nasdaq": 31.38,
-    "outperform_1m_vs_nasdaq": 8.95,
+    "outperform_1y_vs_nasdaq": 94.44,
+    "outperform_6m_vs_nasdaq": 29.33,
+    "outperform_1m_vs_nasdaq": 12.46,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 비용과 관련 비용 및 평판 손상은 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Those and related expenses and reputational damage could have a material adverse impact on our results of operations, financial condition and cash flows.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "규정 위반 문제가 발견되면 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "The discovery of noncompliance issues could have a material adverse impact on our results of operations, financial condition and cash flows.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러한 법률, 규정 또는 협정을 성공적으로 준수하지 못하면 시장에서 경쟁하는 능력에 영향을 미치고 제품에 대한 수요가 감소할 수도 있습니다.",
+        "description": "Our failure to successfully comply with any such legislation, regulation or accord could also impact our ability to compete in our markets and decrease demand for our products.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 전 세계적으로 사업을 운영하고 있으며, 관세 변경 및 기타 무역 중단으로 인해 우리 제품에 대한 수요와 경쟁적 위치에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "We operate our business on a global basis and changes in tariffs and other trade disruptions could adversely impact the demand for our products and our competitive position.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 결과는 당사의 운영 결과, 재무 상태 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Any of these consequences could have a material adverse effect on our results of operations, financial condition and cash flows.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 당사 제품과 서비스가 해결할 수 없는 새로운 규정이나 산업 표준의 채택은 당사 제품과 서비스에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "In addition, the adoption of new regulations or industry standards which our products and services are not positioned to address, could adversely affect demand for our products and services.",
         "severity": "medium"
       }
     ],
@@ -187,8 +187,5 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:04.572580+00:00"
-  }
+  "wikipedia_summary": "Cummins Inc. is an American multinational corporation that designs, manufactures, and distributes diesel engines, electric vehicle components, and power generation products. Cummins also services engines and related equipment, including fuel systems, air handling systems controls, filtration, emission control, electrical power generation systems, and engine control units."
 }

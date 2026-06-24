@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Engineering & Construction",
-  "generated_at": "2026-06-20T00:31:10.402921+00:00",
+  "generated_at": "2026-06-24T00:21:05.010077+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6416328192,
+    "market_cap": 6565505024,
     "shares_outstanding": 43746699,
     "employees": 2500,
     "country": "United States",
@@ -29,7 +29,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Granite Construction Inc.는 캘리포니아 왓슨빌에 본사를 두고 설립된 S&P 600 지수의 회원이자 토목 건설 회사이자 종합 생산업체이며 Granite Construction Company의 모회사입니다. 이 회사는 대형 토목 건설 도급업체이자 건설 골재 제조업체로서 주로 모래, 자갈 및 쇄석 제품을 추출하기 위해 서부 여러 주에 채석장을 소유하거나 임대하고 있습니다."
+    "wikipedia_excerpt": "Granite Construction Inc.는 캘리포니아 주 왓슨빌에 본사를 두고 설립된 S&P 600 지수의 회원이자 토목 건설 회사이자 종합 생산업체이며 Granite Construction Company의 모회사입니다. 이 회사는 대형 토목 건설 계약자이자 건설 골재 제조업체로서 주로 모래, 자갈 및 쇄석 제품을 추출하기 위해 여러 서부 주에 채석장을 소유하거나 임대하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -39,8 +39,8 @@
     "gross_margin": 0.16,
     "revenue_growth_ttm": 0.3,
     "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "dividend_yield": 0.34,
+    "payout_ratio": 0.14,
     "annual_revenue": [
       4424379000.0,
       4007574000.0,
@@ -130,25 +130,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 61.1,
+    "rs_rating": 76,
+    "score": 62.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.163,
-    "trailing_pe": 39.964577,
-    "forward_pe": 19.36414,
-    "ev_to_ebitda": 16.173,
-    "price_to_sales": 1.3836353,
+    "peg_ratio": 0.1683,
+    "trailing_pe": 40.893734,
+    "forward_pe": 19.814346,
+    "ev_to_ebitda": 16.644,
+    "price_to_sales": 1.4158043,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 29.35,
-    "outperform_6m_vs_nasdaq": 11.3,
-    "outperform_1m_vs_nasdaq": 4.68,
+    "outperform_1y_vs_nasdaq": 37.82,
+    "outperform_6m_vs_nasdaq": 20.97,
+    "outperform_1m_vs_nasdaq": 20.28,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Granite Construction Inc. is a civil construction company and aggregate producer, a member of the S&P 600 Index based and founded in Watsonville, California, and is the parent corporation of Granite Construction Company. The company is both a heavy civil construction contractor and construction aggregate manufacturer, owning or leasing quarries in several Western states for extracting mostly sands, gravel, and crushed stone products.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-23T00:42:24.153252+00:00"
+    "GoogleWebTranslator": "2026-06-24T00:37:27.092985+00:00"
   }
 }
