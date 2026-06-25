@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-06-24T00:32:17.268795+00:00",
+  "generated_at": "2026-06-25T00:30:46.786620+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1959428864,
+    "market_cap": 1988992640,
     "shares_outstanding": 82121911,
     "employees": 4280,
     "country": "United States",
@@ -17,16 +17,36 @@
     "beta": 0.696
   },
   "category_a_business": {
-    "overview": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다. 이 회사는 제휴 신생아 의사 하위 전문의, 신생아 간호사 실무자 및 기타 소아 임상 의사로 구성된 네트워크를 통해 병원의 특정 부서(주로 NICU) 내에서 조산아 또는 합병증이 있는 아기에게 임상 치료를 제공합니다. 산부인과 전문의, 산부인과 전문의 등을 통해 임산부와 태아에 대한 입원 및 진료실 기반 임상 진료를 제공합니다.",
-    "business_model": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다.",
+    "overview": "Pediatrix Medical Group은 미국에서 신생아, 산모-태아 및 기타 소아 전문 의료 서비스를 제공합니다.",
+    "milestones": [
+      "1979년: Pediatrix Medical Group 설립",
+      "1995: 나스닥 상장 (MEDNAX, Inc.로)",
+      "2000년대: 여러 소아과 전문 그룹 인수하며 사업 확장",
+      "2010년대: 마취과, 방사선과 등 비소아과 사업부문 확장",
+      "2020: 비소아과 사업부문 매각 및 핵심 소아과 사업에 집중",
+      "2022: 사명을 MEDNAX, Inc.에서 Pediatrix Medical Group, Inc.로 변경"
+    ],
+    "business_model": "의료 전문가 네트워크를 통해 병원 및 외래 진료 서비스를 제공하고 보험사 및 환자로부터 진료비를 청구하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "신생아 집중 치료실(NICU) 서비스",
+      "산모-태아 의학 서비스",
+      "기타 소아과 전문 진료 서비스",
+      "신생아 청력 검사 프로그램"
+    ],
+    "value_chain_position": "Downstream + 병원 및 외래 진료 환경에서 직접 환자에게 의료 서비스를 제공합니다.",
     "products": [
-      "미국 내 신생아, 산모-태아 및 기타 소아과 하위 전문 진료 서비스",
-      "조산아 ​​또는 병원의 특정 부서(주로 NICU) 내에서 합병증이 있는 아기에 대한 임상 치료",
-      "소아 중환자 전문의, 소아 입원 전문의, 소아 외과 의사를 포함한 기타 소아 하위 전문 진료"
+      "신생아 전문의 진료",
+      "산모-태아 의학 전문의 진료",
+      "소아 집중 치료 전문의 진료",
+      "소아 병원 전문의 진료",
+      "신생아 청력 검사",
+      "유전 상담"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (병원과의 계약)",
+      "B2C (환자 직접 진료)"
+    ],
+    "key_customers": "주요 고객은 병원 시스템 및 개별 환자이며, 매출 집중도는 공개되지 않았습니다."
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -129,19 +149,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 74,
-    "score": 60.2,
+    "score": 60.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 11.582525,
-    "forward_pe": 10.112055,
-    "ev_to_ebitda": 8.36,
-    "price_to_sales": 1.014362,
+    "trailing_pe": 11.588517,
+    "forward_pe": 10.264626,
+    "ev_to_ebitda": 8.464,
+    "price_to_sales": 1.0296667,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.91,
-    "outperform_6m_vs_nasdaq": -0.96,
-    "outperform_1m_vs_nasdaq": 13.4,
+    "outperform_1y_vs_nasdaq": 51.37,
+    "outperform_6m_vs_nasdaq": 1.24,
+    "outperform_1m_vs_nasdaq": 17.22,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +206,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-24T00:38:14.424182+00:00"
+    "GoogleWebTranslator": "2026-06-25T00:45:41.030970+00:00"
   }
 }

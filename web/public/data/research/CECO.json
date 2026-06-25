@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Pollution & Treatment Controls",
-  "generated_at": "2026-06-24T00:35:21.628591+00:00",
+  "generated_at": "2026-06-25T00:36:33.620327+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5645820928,
+    "market_cap": 5571649536,
     "shares_outstanding": 58403031,
     "employees": 1540,
     "country": "United States",
@@ -17,18 +17,35 @@
     "beta": 1.503
   },
   "category_a_business": {
-    "overview": "CECO Environmental Corp.은 미국, 영국, 네덜란드, 중국 및 국제적으로 산업 공기 질, 산업 수처리 및 에너지 전환 솔루션 분야의 중요한 솔루션을 제공합니다. 엔지니어링 시스템 및 산업 프로세스 솔루션 부문을 통해 운영됩니다.",
-    "business_model": "(주)씨이코환경",
+    "overview": "CECO는 산업 공기질, 수처리, 에너지 전환 솔루션을 제공하는 글로벌 환경 기술 기업입니다.",
+    "milestones": [
+      "1966년: CECO 환경 설립",
+      "1990년대: 다양한 환경 기술 기업 인수 및 통합 시작",
+      "2000년대 초반: 글로벌 시장 확장 가속화",
+      "2010년대: 에너지 전환 및 지속가능성 솔루션 포트폴리오 강화",
+      "2020년대: 산업용 공기 및 수처리 분야의 선도적 위치 공고화"
+    ],
+    "business_model": "산업 고객에게 맞춤형 환경 솔루션 및 제품을 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "엔지니어링 시스템 판매 및 설치",
+      "산업 공정 솔루션 제공",
+      "유지보수 및 서비스 계약",
+      "부품 및 소모품 판매"
+    ],
+    "value_chain_position": "Midstream + 환경 문제 해결을 위한 기술 및 솔루션 개발, 제조, 설치 및 서비스를 제공합니다.",
     "products": [
-      "Unite의 산업용 공기질, 산업용 수처리 및 에너지 전환 솔루션의 핵심 솔루션",
-      "엔지니어링 시스템 및 산업 공정 솔루션 부문을 통해",
-      "배출 관리, 유동층 사이클론, 열 음향학, 분리 및 여과 솔루션",
-      "댐퍼 및 전환기, 확장 조인트, 선택적 촉매를 포함하여 엔지니어링되고 구성된 제품 및 솔루션",
-      "다양한 응용 분야의 대기 오염 및 오염 제어, 유체 처리 및 공정 여과를 위한 솔루션"
+      "배출가스 관리 시스템",
+      "산업용 수처리 패키지",
+      "집진기 및 스크러버",
+      "열 산화기",
+      "소음기 및 댐퍼",
+      "여과 및 분리 시스템"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (직접 판매)",
+      "글로벌 유통망 및 파트너십"
+    ],
+    "key_customers": "다양한 산업 분야의 기업 고객으로, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.05,
@@ -126,20 +143,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 55.3,
+    "rs_rating": 91,
+    "score": 54.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.88,
-    "trailing_pe": 254.39473,
-    "forward_pe": 33.998867,
-    "ev_to_ebitda": 43.079,
-    "price_to_sales": 7.0256343,
+    "trailing_pe": 251.05264,
+    "forward_pe": 33.552208,
+    "ev_to_ebitda": 42.529,
+    "price_to_sales": 6.933336,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 207.74,
+    "outperform_1y_vs_nasdaq": 200.21,
     "outperform_6m_vs_nasdaq": 53.19,
-    "outperform_1m_vs_nasdaq": 22.5,
+    "outperform_1m_vs_nasdaq": 20.05,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -159,6 +176,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-24T00:36:48.413433+00:00"
+    "GoogleWebTranslator": "2026-06-25T00:44:12.908967+00:00"
   }
 }

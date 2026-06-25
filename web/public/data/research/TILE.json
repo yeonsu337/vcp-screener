@@ -1,0 +1,193 @@
+{
+  "ticker": "TILE",
+  "company": "Interface, Inc.",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
+  "generated_at": "2026-06-25T00:29:05.110758+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 1987844096,
+    "shares_outstanding": 58056192,
+    "employees": 3600,
+    "country": "United States",
+    "website": "https://www.interface.com",
+    "beta": 1.927
+  },
+  "category_a_business": {
+    "overview": "Interface, Inc.는 미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주에서 모듈형 카펫 제품을 디자인, 생산 및 판매합니다. 이 회사는 모듈식 카펫을 제공합니다. 고급 비닐 타일; 모듈식 탄력 바닥재 제품; 고무 바닥재; 상업용 인테리어에 사용되는 카펫 타일에는 사무실, 교육 시설, 의료 시설, 공항, 접대 공간, 소매 공간 및 주거용 인테리어가 포함됩니다.",
+    "business_model": "인터페이스 주식회사",
+    "products": [
+      "미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주의 모듈식 카펫 제품",
+      "모듈식 카펫",
+      "카펫 교체, 설치 및 유지관리 서비스",
+      "최종 사용자에게 직접 판매 및 간접 판매를 통해 Interface, FLOR, NORAPLAN 및 NORAMENT 브랜드로 제품을 판매합니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "조지아주 애틀랜타에 본사를 두고 있는 Interface, Inc.는 상업용 바닥재를 생산하는 글로벌 제조업체입니다. 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, Nora 브랜드 고무 바닥재를 판매합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.22,
+    "roa": 0.09,
+    "profit_margin": 0.09,
+    "operating_margin": 0.09,
+    "gross_margin": 0.39,
+    "revenue_growth_ttm": 0.11,
+    "earnings_growth_ttm": 0.82,
+    "dividend_yield": 0.37,
+    "payout_ratio": 0.04,
+    "annual_revenue": [
+      1386854000.0,
+      1315658000.0,
+      1261498000.0,
+      1297919000.0,
+      null
+    ],
+    "annual_operating_income": [
+      163995000.0,
+      134406000.0,
+      102020000.0,
+      113543000.0,
+      null
+    ],
+    "annual_eps": [
+      1.96,
+      1.48,
+      0.76,
+      0.33,
+      null
+    ],
+    "annual_free_cf": [
+      121714000.0,
+      114642000.0,
+      115927000.0,
+      24624000.0,
+      null
+    ],
+    "annual_total_debt": [
+      264532000.0,
+      383145000.0,
+      507829000.0,
+      604376000.0,
+      null
+    ],
+    "annual_equity": [
+      640674000.0,
+      489148000.0,
+      425947000.0,
+      361537000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.4,
+      0.41,
+      0.78,
+      0.55,
+      0.22,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      331037000.0,
+      349393000.0,
+      364526000.0,
+      375522000.0,
+      297413000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31",
+      "2024-09-30"
+    ],
+    "eps_qoq_yoy_pct": 81.6,
+    "sales_yoy_pct": 11.3,
+    "ni_cagr_3y_pct": 81.06,
+    "roe_pct": 22.08
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "소비재 / 가구, 비품 및 가전제품 카테고리 — yfinance Peer 개발자"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 74,
+    "score": 61.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.0168,
+    "trailing_pe": 16.0,
+    "forward_pe": 14.679529,
+    "ev_to_ebitda": 10.441,
+    "price_to_sales": 1.3994192,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 35.84,
+    "outperform_6m_vs_nasdaq": 13.56,
+    "outperform_1m_vs_nasdaq": 22.26,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "다음 위험 요소 중 일부 또는 전부는 당사의 비즈니스, 재무 상태, 운영 결과 및 전망에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 가격 경쟁, 비즈니스에 대한 투자, 제품 디자인이나 지속 가능성을 놓고 경쟁하는 등의 어려움에 직면할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "경쟁사의 생산 능력 증가 또는 제조 효율성 증가로 인해 당사 제품에 대한 가격 압박이 발생하고 당사 제품에 대한 수요가 감소하여 수익과 수익성 모두에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "효과적으로 경쟁하려면 제품 개발 노력, 제조 시설, 유통 네트워크, 판매 및 마케팅 활동에 추가 투자가 필요할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리가 그러한 변화에 충분히 빠르게 적응하기 전이나 시장에서 그러한 변화가 일어났다는 것을 우리가 인식하기 전에 고객의 디자인 선호도가 진화하거나 바뀔 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이런 일이 발생하면 고객이 자신의 디자인 선호도에 더 밀접하게 맞는 다른 제품을 선택하므로 판매에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring. The company sells modular carpet tiles, luxury vinyl tile, and Nora brand rubber flooring.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-25T00:46:25.058759+00:00"
+  }
+}

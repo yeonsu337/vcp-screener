@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-06-20T00:43:25.809491+00:00",
+  "generated_at": "2026-06-25T00:32:49.700512+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4182651648,
+    "market_cap": 4342552064,
     "shares_outstanding": 49504696,
     "employees": 2837,
     "country": "United States",
@@ -38,7 +38,7 @@
     "gross_margin": 0.68,
     "revenue_growth_ttm": 0.79,
     "earnings_growth_ttm": 4.75,
-    "dividend_yield": 4.76,
+    "dividend_yield": 4.33,
     "payout_ratio": 0.4,
     "annual_revenue": [
       843302000.0,
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 69.4,
+    "rs_rating": 89,
+    "score": 73.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 7.6949,
-    "forward_pe": 13.161748,
-    "ev_to_ebitda": 7.54,
-    "price_to_sales": 4.2365236,
+    "trailing_pe": 7.9890714,
+    "forward_pe": 13.618242,
+    "ev_to_ebitda": 8.04,
+    "price_to_sales": 4.3984833,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 104.4,
-    "outperform_6m_vs_nasdaq": 69.15,
-    "outperform_1m_vs_nasdaq": 1.34,
+    "outperform_1y_vs_nasdaq": 123.35,
+    "outperform_6m_vs_nasdaq": 88.57,
+    "outperform_1m_vs_nasdaq": 14.45,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -168,6 +168,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-24T00:37:41.449134+00:00"
+    "GoogleWebTranslator": "2026-06-25T00:45:27.458019+00:00"
   }
 }

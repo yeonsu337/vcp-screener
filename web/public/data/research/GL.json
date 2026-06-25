@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Insurance - Life",
-  "generated_at": "2026-06-24T00:38:34.266572+00:00",
+  "generated_at": "2026-06-25T00:40:39.893975+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 13632867328,
+    "market_cap": 13637525504,
     "shares_outstanding": 77644761,
     "employees": 3695,
     "country": "United States",
@@ -17,16 +17,16 @@
     "beta": 0.499
   },
   "category_a_business": {
-    "overview": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products to lower middle- and middle-income families in the United States. It operates in three segments: Life Insurance, Supplemental Health Insurance, and Investments. The company offers whole, term, and other life insurance products, as well as life insurance for children; Medicare supplement and limited-benefit supplemental health insurance products, such as accident, cancer, critical illness, heart, intensive care, and other health products; and final expense, accidental death, mortgage prot",
-    "business_model": "Globe Life Inc., through its subsidiaries, provides various life and supplemental health insurance products to lower middle- and middle-income families in the United States.",
+    "overview": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다. 생명 보험, 보충 건강 보험, 투자의 세 가지 부문으로 운영됩니다. 이 회사는 전체, 정기, 기타 생명 보험 상품과 어린이 생명 보험을 제공합니다. 사고, 암, 중대한 질병, 심장, 집중 치료 및 기타 건강 제품과 같은 메디케어 보충식품 및 제한적 혜택 보충 건강 보험 상품, 최종 비용, 사고사, 모기지 이익",
+    "business_model": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다.",
     "products": [
-      "various life and supplemental health insurance products to lower middle- and middle-income families in the United States",
-      "in three segments: Life Insurance, Supplemental Health Insurance, and Investments",
-      "whole, term, and other life insurance products, as well as life insurance for childre",
-      "its products through direct-to-consumer channels, exclusive independent agents, general agency independent agents, and b"
+      "미국의 중산층 가정을 위한 다양한 생명보험 및 보충 건강 보험 상품",
+      "세 가지 부문: 생명 보험, 보충 건강 보험, 투자",
+      "종신보험, 정기보험, 기타 생명보험 상품과 어린이 생명보험",
+      "소비자 직접 채널, 독점 독립 대리점, 일반 대리점 독립 대리점을 통해 제품을 판매합니다. b"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -37,7 +37,7 @@
     "gross_margin": 0.34,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.13,
-    "dividend_yield": 0.77,
+    "dividend_yield": 0.75,
     "payout_ratio": 0.08,
     "annual_revenue": [
       5994318000.0,
@@ -126,22 +126,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 57.8,
+    "rs_rating": 70,
+    "score": 57.7,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": 1.3,
-    "trailing_pe": 12.150866,
-    "forward_pe": 10.545592,
-    "ev_to_ebitda": 9.877,
-    "price_to_sales": 2.244642,
+    "trailing_pe": 12.146611,
+    "forward_pe": 10.549195,
+    "ev_to_ebitda": 10.045,
+    "price_to_sales": 2.245409,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 15.27,
-    "outperform_6m_vs_nasdaq": 16.07,
-    "outperform_1m_vs_nasdaq": 14.81,
+    "outperform_1y_vs_nasdaq": 15.29,
+    "outperform_6m_vs_nasdaq": 17.02,
+    "outperform_1m_vs_nasdaq": 15.68,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-25T00:44:44.367339+00:00"
+  }
 }
