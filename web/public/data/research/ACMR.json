@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductor Equipment & Materials",
-  "generated_at": "2026-06-25T00:39:38.400443+00:00",
+  "generated_at": "2026-06-26T00:36:02.554197+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 7021523968,
+    "market_cap": 7385039872,
     "shares_outstanding": 64117679,
     "employees": 2513,
     "country": "United States",
@@ -17,18 +17,37 @@
     "beta": 1.978
   },
   "category_a_business": {
-    "overview": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다. 또한 웨이퍼 조립 및 패키징 고객을 대상으로 다양한 패키징 도구를 개발, 제조 및 판매합니다. 이 회사는 프런트 엔드 생산 공정을 위한 웨트 클리닝 장비를 제공합니다. 전기화학 도금, 용광로, PECVD 및 트랙 플랫폼; 공간 교대 위상 편이(Space Alternated Phase Shift), 평면 및 웨이퍼 표면을 위한 기술; 시기 적절한 에너지 버블 진동, 고급 프로세스 노드에서 패턴화된 웨이퍼 표면을 위한 기술; 그리고 타호 기술; 그리고 셈",
-    "business_model": "ACM Research, Inc.는 자회사와 함께 중국 본토 및 국제적으로 자본 장비를 개발, 제조 및 판매합니다.",
+    "overview": "ACMR은 반도체 제조 및 패키징 공정에 필요한 첨단 장비를 개발, 제조, 판매하는 글로벌 기업입니다.",
+    "milestones": [
+      "2006: 회사 설립",
+      "2010년대 초: 습식 세정 장비 시장 진출 및 기술 개발",
+      "2017: 나스닥 상장 (ACMR)",
+      "2020년대 초: 전기도금, 퍼니스, PECVD 등 제품 포트폴리오 확장",
+      "2023: 습식 세정 장비 매출이 전체 매출의 70% 이상 차지",
+      "2025: 전 세계 웨이퍼 팹 장비 시장에서 약 210억 달러 규모의 기회 시장 공략"
+    ],
+    "business_model": "첨단 반도체 제조 및 패키징 장비를 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "단일 웨이퍼 세정 장비 판매",
+      "Tahoe 및 준임계 세정 장비 판매",
+      "ECP (전면 패키징) 장비 판매",
+      "퍼니스 및 기타 전면 공정 장비 판매",
+      "첨단 패키징 장비 (ECP 제외) 판매",
+      "서비스 및 예비 부품 판매"
+    ],
+    "value_chain_position": "Upstream: 반도체 제조 공정에 필수적인 자본 설비를 공급합니다.",
     "products": [
-      "중국 본토 및 국제적으로 자본 장비",
-      "웨이퍼 조립 및 패키징 고객을 위한 다양한 패키징 도구",
-      "프런트 엔드 생산 공정을 위한 웨트 클리닝 장비",
-      "코팅기, 현상액, 포토레지스트 스트리퍼, 스크러버, 습식 식각기 및 구리판과 같은 고급 패키징 장비",
-      "첨단 금속 도금을 위한 ECP 기술"
+      "습식 세정 장비 (SAP, TEBO, Tahoe 기술)",
+      "전기화학 증착 (ECP) 장비",
+      "퍼니스 장비",
+      "플라즈마 강화 화학 기상 증착 (PECVD) 장비",
+      "트랙 플랫폼",
+      "첨단 패키징 장비 (코터, 디벨로퍼, 포토레지스트 스트리퍼 등)"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주요 파운드리, 로직 및 메모리 칩 제조업체에 집중하며, 아시아 지역 고객 비중이 높습니다."
   },
   "category_b_financials": {
     "roe": 0.08,
@@ -121,19 +140,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 96,
-    "score": 58.1,
+    "score": 62.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 75.82089,
-    "forward_pe": 45.088825,
-    "ev_to_ebitda": 44.284,
-    "price_to_sales": 7.3123736,
+    "trailing_pe": 81.572525,
+    "forward_pe": 47.42315,
+    "ev_to_ebitda": 45.469,
+    "price_to_sales": 7.690947,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 281.89,
-    "outperform_6m_vs_nasdaq": 146.16,
-    "outperform_1m_vs_nasdaq": 41.81,
+    "outperform_1y_vs_nasdaq": 280.9,
+    "outperform_6m_vs_nasdaq": 153.61,
+    "outperform_1m_vs_nasdaq": 28.46,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -160,7 +179,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "중국 본토 외부에서 사용하기 위해 필요한 경우 중국 본토에서 자금에 접근할 수 없는 경우 당사의 유동성과 비즈니스에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "중국 본토 외부에서 사용해야 하는 경우 중국 본토에서 자금에 접근할 수 없는 경우 당사의 유동성과 사업에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +197,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-25T00:43:10.432191+00:00"
+    "GoogleWebTranslator": "2026-06-26T00:40:19.324666+00:00"
   }
 }

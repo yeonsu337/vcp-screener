@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-06-23T00:40:23.482723+00:00",
+  "generated_at": "2026-06-26T00:39:07.334196+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 58922209280,
+    "market_cap": 63391457280,
     "shares_outstanding": 454191112,
     "employees": 415000,
     "country": "United States",
@@ -21,10 +21,10 @@
     "business_model": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다.",
     "products": [
       "미국의 일반 상품 소매업체로서",
-      "여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
+      "여성, 남성, 청소년, 아동, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
       "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
       "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
-      "자사 매장을 통한 제품"
+      "자사 매장을 통한 자사 제품"
     ],
     "channels": [
       "B2B / 기업"
@@ -39,7 +39,7 @@
     "gross_margin": 0.28,
     "revenue_growth_ttm": 0.07,
     "earnings_growth_ttm": -0.25,
-    "dividend_yield": 3.55,
+    "dividend_yield": 3.29,
     "payout_ratio": 0.6,
     "annual_revenue": [
       104780000000.0,
@@ -125,20 +125,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 52.6,
+    "rs_rating": 78,
+    "score": 57.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.4276,
-    "trailing_pe": 17.137383,
-    "forward_pe": 14.55578,
-    "ev_to_ebitda": 8.948,
-    "price_to_sales": 0.5538999,
+    "peg_ratio": 2.6218,
+    "trailing_pe": 18.437252,
+    "forward_pe": 15.641303,
+    "ev_to_ebitda": 9.483,
+    "price_to_sales": 0.5959132,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 8.48,
-    "outperform_6m_vs_nasdaq": 18.86,
-    "outperform_1m_vs_nasdaq": 6.44,
+    "outperform_1y_vs_nasdaq": 22.02,
+    "outperform_6m_vs_nasdaq": 41.26,
+    "outperform_1m_vs_nasdaq": 16.14,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates retail stores. It is the eighth-largest retailer in the United States and is a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-25T00:46:03.724206+00:00"
+    "GoogleWebTranslator": "2026-06-26T00:42:38.510460+00:00"
   }
 }

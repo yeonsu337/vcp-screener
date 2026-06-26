@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-06-24T00:24:08.183571+00:00",
+  "generated_at": "2026-06-26T00:26:26.211455+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4081113088,
+    "market_cap": 4300713984,
     "shares_outstanding": 38448408,
     "employees": 2700,
     "country": "United States",
@@ -17,20 +17,33 @@
     "beta": 1.152
   },
   "category_a_business": {
-    "overview": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 남미 및 전 세계의 항공우주, 방위, 전자 산업을 위한 제품을 설계 및 제조합니다. 항공우주 및 테스트 시스템이라는 두 부문으로 운영됩니다. 항공우주 부문에서는 조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조, 항공 전자 제품, 시스템 인증 및 기타 제품을 제공합니다.",
-    "business_model": "Astronics Corporation은 자회사를 통해 미국, 북미 지역, 아시아, 유럽, 소우 지역의 항공우주, 방위산업, 전자 산업을 위한 제품을 설계 및 제조합니다.",
+    "overview": "ATRO는 항공우주, 방위, 전자 산업을 위한 첨단 기술 제품을 설계 및 제조하는 기업입니다.",
+    "milestones": [
+      "1968: 회사 설립",
+      "2019: 반도체 테스트 사업부 매각 (테스트 시스템 부문)",
+      "2025: Envoy Aerospace 인수 (FAA ODA 서비스 제공업체)",
+      "2025: Bühler Motor Aviation (BMA) 인수 (항공기 좌석 작동 시스템 제조업체)"
+    ],
+    "business_model": "항공우주 및 방위 산업에 첨단 시스템과 테스트 솔루션을 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "항공우주 제품 판매 (조명, 전력, 구조물, 항공전자 등)",
+      "테스트 시스템 판매 및 유지보수",
+      "시스템 인증 서비스",
+      "훈련 및 시뮬레이션 장치"
+    ],
+    "value_chain_position": "Midstream + 항공기 OEM, 운영사 및 정부 계약자에게 핵심 부품 및 시스템을 공급합니다.",
     "products": [
-      "미국, 북미 나머지 지역, 아시아, 유럽의 항공우주, 방위, 전자 산업을 위한 제품",
-      "항공우주 및 테스트 시스템이라는 두 부문으로 나뉜다.",
-      "조명 및 안전 시스템, 발전 시스템, 분배 및 좌석 모션 시스템, 항공기 구조"
+      "조명 및 안전 시스템",
+      "전력 생성 및 분배 시스템",
+      "항공기 구조물",
+      "항공전자 제품",
+      "자동화 테스트 시스템",
+      "좌석 작동 시스템"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (OEM, 정부 계약자, 항공사)"
     ],
-    "wikipedia_excerpt": "Astronics Corporation은 1968년에 설립된 미국 항공우주 전자 회사로 뉴욕주 이스트 오로라에 본사를 두고 있습니다. NASDAQ에서는 Nasdaq: ATRO로 거래됩니다. 군용, 상업용, 비즈니스 항공기 및 반도체 테스트 시스템의 조명 및 전자 통합으로 잘 알려져 있습니다.",
-    "milestones": [
-      "1968년: , 뉴욕주 이스트 오로라에 본사를 두고 있음"
-    ]
+    "key_customers": "보잉(The Boeing Company)에 대한 매출 집중도가 높으며, 2023-2025년 매출의 10% 이상을 차지합니다."
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -123,35 +136,94 @@
     "roe_pct": 21.18
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 (estimate) + 항공우주 및 방위 산업의 다양한 하위 시장(항공기 전력, 조명, 테스트 시스템 등)을 종합적으로 고려한 추정치. 각 시장의 규모는 수십억 달러에 달하며, ATRO는 이 중 일부에 집중하고 있음.",
+    "tam_cagr_pct": "5-7% + 상업용 항공기 생산 증가, 군사 프로그램 투자 지속, 항공기 업그레이드 및 개조 수요 증가, 자동화된 테스트 시스템 시장 성장에 기반함.",
+    "growth_drivers": [
+      "신규 항공기 생산 증가: 상업용 및 군용 항공기 수요 증가에 따른 OEM 공급 물량 확대.",
+      "항공기 업그레이드 및 개조: 항공사 및 운영사의 기존 항공기 성능 향상 및 현대화 투자.",
+      "국방 예산 및 프로그램 투자: 군사 항공우주 및 방위 산업의 지속적인 지출 및 신규 프로젝트.",
+      "자동화된 테스트 시스템 수요 증가: 항공우주, 방위, 통신, 대중교통 산업 전반의 품질 및 효율성 요구 증대.",
+      "기술 개발 및 인수합병: 내부 기술 개발 및 전략적 인수를 통한 시장 확대 및 경쟁력 강화."
+    ],
+    "market_share_pct": "1-3% (estimate) + ATRO는 특정 틈새 시장에서 강점을 가지지만, 전체 항공우주 및 방위 산업 시장에서 차지하는 비중은 상대적으로 작음.",
+    "competitors": [
+      {
+        "name": "Safran S.A.",
+        "differentiation": "항공우주 분야의 광범위한 제품 포트폴리오(엔진, 착륙 장치, 전기 시스템 등)와 글로벌 입지."
+      },
+      {
+        "name": "Collins Aerospace (Raytheon Technologies)",
+        "differentiation": "항공우주 및 방위 산업의 주요 공급업체로, 전력, 조명, 항공전자 등 다양한 시스템 솔루션 제공."
+      },
+      {
+        "name": "Esterline Technologies (TransDigm Group)",
+        "differentiation": "항공우주 및 방위 산업에 특화된 센서, 제어 시스템, 전력 솔루션 등 다양한 제품군."
+      },
+      {
+        "name": "Keysight Technologies",
+        "differentiation": "자동화된 테스트 및 측정 솔루션 분야의 선두 주자로, 다양한 산업에 걸쳐 광범위한 테스트 시스템 제공."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 항공우주 및 방위 산업은 높은 기술 장벽, 규제 요건, 대규모 초기 투자, 기존 OEM과의 강력한 관계가 필요하지만, 특정 틈새 기술 분야에서는 신규 진입 가능성이 있음.",
+      "substitutes": "low + ATRO의 제품은 항공기 운항 및 안전에 필수적인 핵심 부품이므로, 직접적인 대체재가 거의 없음. 다만, 기술 발전으로 인한 새로운 솔루션이 장기적으로 대체재가 될 수 있음.",
+      "buyer_power": "high + 주요 고객(보잉 등 OEM, 대형 항공사, 국방부)은 소수이며 대량 구매력을 가지고 있어 가격 및 조건 협상력이 높음. 특히 보잉에 대한 매출 의존도가 10% 이상으로 높음.",
+      "supplier_power": "medium + 특정 부품이나 원자재의 경우 소수 공급업체에 의존할 수 있으나, ATRO는 다양한 공급망을 관리하고 있어 전반적인 공급업체 협상력은 중간 수준으로 판단됨.",
+      "rivalry": "high + 항공우주 및 방위 산업은 소수의 대형 플레이어들이 시장을 지배하며, 기술력, 가격, 고객 관계를 기반으로 치열하게 경쟁함. 특히 OEM과의 '설계 반영(design-in)' 경쟁이 중요함."
+    },
     "competitive_advantages": [
-      "Industrials / Aerospace & Defense 카테고리 — yfinance peer 비교 권장"
+      "고급 기술력 및 전문성: 항공우주 및 방위 산업에 특화된 고성능 전기 전력, 조명, 항공전자, 자동화 테스트 시스템 분야의 기술 전문성.",
+      "OEM 및 국방부와의 관계: 보잉을 포함한 주요 항공기 OEM 및 미국 국방부와의 오랜 협력 관계 및 공급 실적.",
+      "시스템 인증 역량: Envoy Aerospace 인수를 통해 FAA ODA 서비스 제공 역량을 확보하여 시스템 인증 분야의 경쟁 우위.",
+      "다각화된 제품 포트폴리오: 항공우주(상업, 군사, 일반 항공) 및 테스트 시스템(항공우주, 방위, 통신, 대중교통) 시장에 걸쳐 다양한 제품 및 서비스 제공."
+    ],
+    "competitive_weaknesses": [
+      "주요 고객 의존도: 보잉 등 소수 주요 고객에 대한 매출 의존도가 높아 고객사의 사업 변동에 취약할 수 있음.",
+      "시장 주기성: 신규 항공기 생산율 및 항공기 업그레이드 지출이 글로벌 경제 상황에 따라 주기적인 변동성을 보임.",
+      "대규모 프로젝트 의존성 (테스트 시스템): 테스트 시스템 사업은 대규모, 다년 프로젝트에 의존하며, 프로젝트 수주 시점 간의 공백이 발생할 수 있음.",
+      "공급망 및 인력 시장 압력: 글로벌 공급망 문제 및 숙련된 인력 확보의 어려움이 성장 및 수익성에 영향을 미칠 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 70.2,
+    "rs_rating": 93,
+    "score": 70.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.45,
-    "trailing_pe": 80.29126,
-    "forward_pe": 31.75688,
-    "ev_to_ebitda": 31.412,
-    "price_to_sales": 4.60201,
+    "trailing_pe": 85.44118,
+    "forward_pe": 33.465687,
+    "ev_to_ebitda": 32.458,
+    "price_to_sales": 4.84964,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 181.77,
-    "outperform_6m_vs_nasdaq": 88.29,
-    "outperform_1m_vs_nasdaq": 32.39,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 199.79,
+    "outperform_6m_vs_nasdaq": 87.78,
+    "outperform_1m_vs_nasdaq": 34.19,
+    "lynch_category": "Stalwart",
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "항공기 OEM에 제품이 설계되면 관련 예비 부품 사업도 회사에 자주 유지됩니다. 이는 고객이 공급업체를 변경하기 어렵게 만드는 높은 전환 비용을 시사합니다.",
+      "테스트 시스템 부문은 대규모의 다년 프로젝트를 수행하며, 이는 고객이 기존 시스템을 다른 공급업체로 교체하는 데 드는 비용과 복잡성이 높음을 의미합니다.",
+      "항공우주 및 방위 산업은 제품의 신뢰성과 안전성이 매우 중요하므로, 이미 검증된 공급업체를 변경하는 데 상당한 위험과 비용이 따릅니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "항공우주 및 방위 산업의 지속적인 기술 발전과 신규 항공기 생산 증가",
+    "bull_case": "신규 항공기 생산 증가 및 국방 예산 확대로 3년간 매출 15% 성장, 수익성 개선",
+    "base_case": "항공우주 및 방위 산업의 꾸준한 성장과 기존 고객과의 관계를 바탕으로 안정적인 매출 유지 및 점진적인 수익성 개선. 신규 프로젝트 수주에 따른 매출 변동성 상존.",
+    "bear_case": "항공기 생산 지연, 국방 예산 삭감, 공급망 문제 심화로 매출 감소 및 수익성 악화. 주요 고객 의존도에 따른 위험 증가.",
+    "key_metrics_to_watch": [
+      "신규 항공기 인도량",
+      "국방 예산 및 프로그램 수주 현황",
+      "테스트 시스템 부문 신규 프로젝트 수주액",
+      "매출총이익률",
+      "자유 현금 흐름"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "아래 또는 이 보고서나 기타 SEC 서류의 다른 곳에서 논의된 모든 위험은 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 영향을 미칠 수 있습니다.",
+        "description": "아래 또는 이 보고서나 기타 SEC 서류의 다른 부분에서 논의된 위험은 당사의 비즈니스, 재무 상태 또는 운영 결과에 중대한 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -189,6 +261,6 @@
   },
   "wikipedia_summary": "Astronics Corporation is an American aerospace electronics corporation founded in 1968, headquartered in East Aurora, New York. It is traded on NASDAQ as Nasdaq: ATRO. It is known for lighting and electronics integrations on military, commercial, and business aircraft and semiconductor test systems.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-25T00:43:53.997316+00:00"
+    "GoogleWebTranslator": "2026-06-26T00:40:27.136935+00:00"
   }
 }
