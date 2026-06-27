@@ -1,23 +1,24 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "ROK",
-  "generated_at": "2026-06-26T00:20:05.748759+00:00",
-  "source_results_date": "2026-06-26",
-  "verdict": "BUY_AT_PIVOT",
-  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.84,
+  "generated_at": "2026-06-27T00:09:58.566818+00:00",
+  "source_results_date": "2026-06-27",
+  "verdict": "BUY_NOW",
+  "verdict_kr": "매수 (Pivot 돌파 직후)",
+  "confidence": 0.83,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $479.59 근접(-0.04%).",
-    "13주 베이스 12.6% → 9.8% → 5.9% → 9.3% → 6.1% 수축, VDU 1.10× 진행.",
-    "Trend Template 8/8 통과, RS 75, RS 라인 신고가 +0.0%.",
-    "$479.59 돌파 시 매수·-7% 손절($446.02)·+20%($575.51) 절반 익절."
+    "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
+    "매수 — Stage 2 진입 확정, pivot $468.11 돌파(+1.86%, buy zone).",
+    "13주 베이스 12.6% → 9.8% → 5.9% → 9.3% → 6.1% 수축, VDU 1.19× 진행.",
+    "Trend Template 8/8 통과, RS 73, RS 라인 신고가 +0.0%.",
+    "$476.82 매수·-7% 손절($443.44)·+20%($572.18) 절반 익절, 이후 50일선 trailing."
   ],
   "action": {
-    "entry_type": "pivot_breakout",
-    "entry_price": 479.59,
-    "stop_price": 446.02,
+    "entry_type": "immediate",
+    "entry_price": 476.82,
+    "stop_price": 443.44,
     "stop_pct": -7.0,
-    "target1_price": 575.51,
+    "target1_price": 572.18,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
@@ -25,11 +26,11 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 75,
+    "rs_rating": 73,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -47,11 +48,11 @@
     "P2_last_contraction"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.10× vs 0.6×)",
+    "P3_vol_dryup (1.19× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 73 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

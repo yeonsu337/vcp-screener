@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "GL",
-  "generated_at": "2026-06-26T00:20:05.752738+00:00",
-  "source_results_date": "2026-06-26",
+  "generated_at": "2026-06-27T00:09:58.569834+00:00",
+  "source_results_date": "2026-06-27",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -29,7 +29,7 @@
     "stage": 0,
     "base_count": 2,
     "late_base_warning": false,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",

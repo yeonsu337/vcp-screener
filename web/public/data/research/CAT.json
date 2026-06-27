@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-06-25T00:25:00.426097+00:00",
+  "generated_at": "2026-06-27T00:18:34.390222+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 458035691520,
+    "market_cap": 459426660352,
     "shares_outstanding": 460591983,
     "employees": 118000,
     "country": "United States",
@@ -17,34 +17,22 @@
     "beta": 1.603
   },
   "category_a_business": {
-    "overview": "캐터필러는 건설 및 광산 장비, 엔진, 터빈 등을 제조하는 세계 최대의 중장비 기업입니다.",
-    "milestones": [
-      "1925년: 캐터필러 트랙터 주식회사 설립",
-      "1986: Caterpillar Inc.로 재편성",
-      "2025: 새로운 미션 '고객의 가장 어려운 문제 해결' 발표",
-      "2025: 상업적 우수성, 첨단 기술 리더, 업무 방식 혁신 등 3가지 성장 동력 제시"
-    ],
-    "business_model": "건설, 광산, 에너지 및 운송 산업에 장비와 서비스를 제공하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "건설 장비 판매",
-      "광산 장비 판매",
-      "엔진 및 터빈 판매",
-      "부품 및 서비스",
-      "금융 서비스"
-    ],
-    "value_chain_position": "Midstream + 제품 설계, 제조 및 마케팅을 통해 고객에게 가치를 제공합니다.",
+    "overview": "Caterpillar Inc.는 미국 및 전 세계에 건설 및 광산 장비, 오프 하이웨이 디젤 및 천연가스 엔진, 산업용 가스 터빈, 디젤 전기 기관차를 제공합니다. 건설 산업 부문은 아스팔트 포장기, 냉각 대패기, 압축기, 임업 기계, 자재 처리기, 모터 그레이더, 파이프레이어, 도로 회수기, 텔레핸들러, 트랙형 트랙터, 트랙 및 휠 굴삭기를 제공합니다. 백호, 컴팩트 트랙, 스키드 스티어, 트랙형 및 휠 로더; 관련 부품 및 작업 도구.",
+    "business_model": "캐터필러 주식회사",
     "products": [
-      "굴착기 및 로더",
-      "광산 트럭 및 드릴",
-      "디젤 및 천연가스 엔진",
-      "산업용 가스 터빈",
-      "디젤-전기 기관차"
+      "건설 및 광산 장비, 오프 하이웨이 디젤 및 천연가스 엔진, 산업용 가스 터빈, 디젤 선택",
+      "아스팔트 포장 기계, 냉간 대패기, 압축기, 임업 기계, 자재 취급자, 모터 그레이더, 파이프레이어, 도로 매립",
+      "전기 로프 및 유압 삽, 드래그라인, 회전 드릴, 하드 록 차량, 광산 트럭, 휠 로더, 오프 하이그",
+      "왕복 엔진 구동 발전기 세트",
+      "운영 및 금융리스, 회전청구계정, 할부판매계약, 수리/재구축 금융, 근로"
     ],
     "channels": [
-      "B2B (글로벌 딜러 네트워크)",
-      "D2C (일부 직접 판매 및 서비스)"
+      "B2B / 기업"
     ],
-    "key_customers": "고객 집중도 낮음 (다양한 산업 분야의 전 세계 고객)"
+    "wikipedia_excerpt": "Caterpillar Inc.는 미국의 건설, 광업 및 기타 엔지니어링 장비 제조업체입니다. 이 회사는 세계 최대의 건설 장비 제조업체입니다.\n2018년 Caterpillar는 Fortune 500 목록에서 73위, Global Fortune 500 목록에서 265위를 차지했습니다. Caterpillar 주식은 Dow Jones Industrial Average의 구성 요소입니다.",
+    "milestones": [
+      "2018년: Caterpillar는 Fortune 500 목록에서 73위, Global Fortune 500 목록에서 265위를 차지했습니다."
+    ]
   },
   "category_b_financials": {
     "roe": 0.51,
@@ -54,7 +42,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.22,
     "earnings_growth_ttm": 0.3,
-    "dividend_yield": 0.66,
+    "dividend_yield": 0.62,
     "payout_ratio": 0.3,
     "annual_revenue": [
       67589000000.0,
@@ -138,99 +126,35 @@
     "roe_pct": 51.33
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "500-600 billion (estimate) + 건설 및 광업 장비, 산업용 엔진 시장 규모 종합 추정",
-    "tam_cagr_pct": "4-6% + 글로벌 인프라 투자 증가, 광업 활동 회복, 에너지 전환 수요 증가에 기반",
-    "growth_drivers": [
-      "글로벌 인프라 투자 확대: 각국 정부의 경기 부양책 및 노후 인프라 교체 수요 증가",
-      "광업 활동 회복 및 자동화 수요: 원자재 가격 상승 및 생산성 향상을 위한 장비 교체/업그레이드",
-      "에너지 전환 및 지속가능성: 친환경 장비, 대체 연료 엔진 및 전동화 솔루션에 대한 수요 증가",
-      "개발도상국 시장 성장: 신흥 경제국의 도시화 및 산업화에 따른 건설 장비 수요 증가",
-      "기술 혁신 및 디지털화: 자율 주행, IoT, 데이터 분석 기반의 스마트 장비 도입 확산"
-    ],
-    "market_share_pct": "15-20% (추정)",
-    "competitors": [
-      {
-        "name": "Komatsu (일본)",
-        "differentiation": "품질 및 기술력 우수, 특히 광산 장비 분야에서 강력한 경쟁력 보유"
-      },
-      {
-        "name": "Deere & Company (미국)",
-        "differentiation": "농업 장비 분야의 강자이나, 건설 장비 시장에서도 강력한 브랜드 인지도와 기술력 보유"
-      },
-      {
-        "name": "Volvo Construction Equipment (스웨덴)",
-        "differentiation": "친환경 및 전동화 장비 개발에 선두적이며, 안전성과 효율성을 강조"
-      },
-      {
-        "name": "Hitachi Construction Machinery (일본)",
-        "differentiation": "굴착기 등 특정 장비 분야에서 높은 기술력과 시장 점유율 보유"
-      },
-      {
-        "name": "XCMG (중국)",
-        "differentiation": "가격 경쟁력을 바탕으로 개발도상국 시장에서 빠르게 성장하며, 제품 라인업 확장 중"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium + 높은 초기 투자 비용, 기술 장벽, 강력한 유통망 구축의 어려움이 있으나, 특정 니치 시장에서는 신규 진입 가능성 존재",
-      "substitutes": "low + 건설 및 광업 장비는 특수 목적 장비로, 대체재가 제한적이며 생산성 및 효율성 측면에서 대체 불가능",
-      "buyer_power": "medium + 대형 고객(광산 회사, 대형 건설사)은 구매량이 많아 가격 협상력이 높으나, 장비의 필수성과 브랜드 충성도로 인해 제한적",
-      "supplier_power": "medium + 주요 부품(엔진, 유압 시스템 등) 공급업체는 제한적일 수 있으나, Caterpillar의 자체 생산 능력 및 규모의 경제로 인해 영향력 상쇄",
-      "rivalry": "high + 소수의 글로벌 대기업들이 시장을 지배하며, 기술 혁신, 가격 경쟁, 서비스 차별화를 통해 치열하게 경쟁"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "글로벌 리더십 및 브랜드 인지도: 건설 및 광업 장비 분야에서 세계 최고의 제조업체로서 강력한 브랜드 파워 보유",
-      "광범위한 제품 포트폴리오: 건설, 광업, 동력 및 에너지 등 다양한 산업에 걸쳐 광범위한 제품과 솔루션 제공",
-      "강력한 글로벌 딜러 네트워크: 전 세계적으로 가장 큰 독립 딜러 네트워크 중 하나를 통해 판매, 서비스 및 지원 제공",
-      "기술 혁신 및 R&D 투자: 차세대 장비 및 첨단 기술(자율 주행, 전동화) 개발에 지속적인 투자",
-      "금융 서비스 제공: Cat Financial을 통해 고객 및 딜러에게 금융 솔루션을 제공하여 판매 촉진"
-    ],
-    "competitive_weaknesses": [
-      "글로벌 경기 변동에 대한 민감성: 건설, 광업 등 주요 산업의 경기 침체에 따라 실적 변동 가능성",
-      "높은 생산 비용: 고품질 및 첨단 기술 장비 생산에 따른 높은 제조 원가",
-      "개발도상국 시장에서의 가격 경쟁력: SEM 브랜드로 대응하고 있으나, 저가 경쟁사 대비 가격 경쟁력 열위 가능성",
-      "환경 규제 및 지속가능성 압력: 엄격해지는 환경 규제 및 탄소 배출 감축 요구에 대한 지속적인 투자 및 대응 필요"
+      "Industrials / Farm & Heavy Construction Machinery 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 90,
-    "score": 66.7,
+    "score": 63.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3347,
-    "trailing_pe": 49.011826,
-    "forward_pe": 33.024776,
-    "ev_to_ebitda": 33.876,
-    "price_to_sales": 6.473545,
+    "peg_ratio": 2.5073,
+    "trailing_pe": 49.6748,
+    "forward_pe": 33.12507,
+    "ev_to_ebitda": 36.178,
+    "price_to_sales": 6.493204,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 144.7,
-    "outperform_6m_vs_nasdaq": 64.01,
-    "outperform_1m_vs_nasdaq": 16.31,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "세계 최고의 건설 및 광업 장비 제조업체로서의 강력한 브랜드 인지도와 시장 리더십 (10-K Item 1)",
-      "Cat Financial을 통한 금융 서비스 제공 및 광범위한 독립 글로벌 딜러 네트워크를 통한 고객 접근성 및 충성도 강화 (10-K Item 1)",
-      "고객의 가장 어려운 문제를 해결하기 위한 상업적 우수성, 첨단 기술 리더십, 그리고 운영 효율성을 기반으로 한 기업 전략 (10-K Item 1)"
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "2025년 '고객의 가장 어려운 문제 해결'을 미션으로 한 새로운 기업 전략 발표",
-    "bull_case": "인프라 투자 확대 및 자원 산업 회복으로 매출 및 이익 성장 가속화, 주주 가치 극대화",
-    "base_case": "글로벌 경제 성장 둔화에도 불구하고, 강력한 브랜드와 딜러 네트워크, 첨단 기술을 바탕으로 안정적인 매출과 이익을 유지하며 시장 평균을 상회하는 성과를 지속할 것으로 예상됩니다.",
-    "bear_case": "글로벌 경기 침체 심화, 원자재 가격 하락, 경쟁 심화 등으로 인해 매출 및 이익이 감소하고 수익성이 악화될 수 있습니다.",
-    "key_metrics_to_watch": [
-      "건설 및 광업 장비 신규 주문량",
-      "Cat Financial의 대출 포트폴리오 건전성",
-      "신흥 시장에서의 매출 성장률",
-      "영업이익률 (OPM)",
-      "주당순이익 (EPS) 성장률"
-    ]
+    "outperform_1y_vs_nasdaq": 144.69,
+    "outperform_6m_vs_nasdaq": 64.62,
+    "outperform_1m_vs_nasdaq": 14.78,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리는 가정에 있어서 신중했다고 생각하지만 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 향후 성과에 대해 어떠한 보장도 할 수 없습니다.",
+        "description": "비록 우리가 가정에 있어 신중했다고 생각하더라도 미래 예측 진술 중 일부 또는 전부가 부정확한 것으로 판명될 수 있으며 미래 성과에 대해 어떠한 보장도 할 수 없습니다.",
         "severity": "medium"
       },
       {
@@ -250,7 +174,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "치명적인 사건은 당사의 사업, 운영 결과 및/또는 재무 상태에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "description": "재앙적인 사건은 당사의 사업, 운영 결과 및/또는 재무 상태에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -268,6 +192,6 @@
   },
   "wikipedia_summary": "Caterpillar Inc. is an American construction, mining, and other engineering equipment manufacturer. The company is the world's largest manufacturer of construction equipment.\nIn 2018, Caterpillar was ranked number 73 on the Fortune 500 list and number 265 on the Global Fortune 500 list. Caterpillar stock is a component of the Dow Jones Industrial Average.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-26T00:40:32.015168+00:00"
+    "GoogleWebTranslator": "2026-06-27T00:27:41.398913+00:00"
   }
 }

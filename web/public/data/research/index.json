@@ -116,7 +116,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-25T00:33:50.676676+00:00",
+    "generated_at": "2026-06-27T00:21:38.639953+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -206,7 +206,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-25T00:25:00.426097+00:00",
+    "generated_at": "2026-06-27T00:18:34.390222+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -246,7 +246,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:37:03.524901+00:00",
+    "generated_at": "2026-06-27T00:25:55.438241+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -306,7 +306,7 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-06-24T00:27:11.350153+00:00",
+    "generated_at": "2026-06-27T00:16:31.919219+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -336,7 +336,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-19T00:37:01.608903+00:00",
+    "generated_at": "2026-06-27T00:11:32.418240+00:00",
     "llm_status": "ok"
   },
   {
@@ -416,7 +416,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:38:06.172932+00:00",
+    "generated_at": "2026-06-27T00:23:42.039562+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -536,7 +536,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:32:17.922808+00:00",
+    "generated_at": "2026-06-27T00:22:39.827415+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -596,7 +596,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:28:34.317131+00:00",
+    "generated_at": "2026-06-27T00:20:37.474166+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -726,7 +726,7 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:40:08.603522+00:00",
+    "generated_at": "2026-06-27T00:24:43.964380+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -738,6 +738,16 @@
     "primary_total": 13,
     "generated_at": "2026-06-25T00:34:51.614017+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "PACS",
+    "company": "PACS Group, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-06-27T00:12:11.296936+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "PARR",
@@ -841,12 +851,12 @@
   },
   {
     "ticker": "SNEX",
-    "company": "StoneX Group Inc.",
+    "company": "StoneX Group Inc",
     "market": "US",
-    "sector": "Financial Services",
+    "sector": "Financial",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-19T00:39:18.793189+00:00",
+    "generated_at": "2026-06-27T00:10:56.144752+00:00",
     "llm_status": "ok"
   },
   {
@@ -896,7 +906,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-19T00:38:40.753336+00:00",
+    "generated_at": "2026-06-27T00:12:48.311580+00:00",
     "llm_status": "ok"
   },
   {
@@ -906,7 +916,7 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:39:07.334196+00:00",
+    "generated_at": "2026-06-27T00:26:56.621237+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -936,7 +946,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-26T00:30:37.174730+00:00",
+    "generated_at": "2026-06-27T00:19:35.546810+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1056,7 +1066,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-24T00:23:07.096392+00:00",
+    "generated_at": "2026-06-27T00:17:33.209835+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1074,9 +1084,9 @@
     "company": "Woodward, Inc.",
     "market": "US",
     "sector": "Industrials",
-    "primary_passed": 13,
+    "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-19T00:38:03.684101+00:00",
+    "generated_at": "2026-06-27T00:13:27.794128+00:00",
     "llm_status": "ok"
   },
   {

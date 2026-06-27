@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-06-26T00:28:34.317131+00:00",
+  "generated_at": "2026-06-27T00:20:37.474166+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1979959296,
+    "market_cap": 2026768768,
     "shares_outstanding": 82121911,
     "employees": 4280,
     "country": "United States",
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 60.4,
+    "rs_rating": 73,
+    "score": 62.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 11.703884,
-    "forward_pe": 10.218007,
-    "ev_to_ebitda": 8.575,
-    "price_to_sales": 1.0249902,
+    "trailing_pe": 11.980583,
+    "forward_pe": 10.459578,
+    "ev_to_ebitda": 8.541,
+    "price_to_sales": 1.0492227,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 51.51,
-    "outperform_6m_vs_nasdaq": 1.35,
-    "outperform_1m_vs_nasdaq": 16.7,
+    "outperform_1y_vs_nasdaq": 54.42,
+    "outperform_6m_vs_nasdaq": 7.58,
+    "outperform_1m_vs_nasdaq": 19.16,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-26T00:41:55.238191+00:00"
+    "GoogleWebTranslator": "2026-06-27T00:28:35.450820+00:00"
   }
 }

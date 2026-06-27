@@ -1,15 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "ATRO",
-  "generated_at": "2026-06-26T00:20:05.750164+00:00",
-  "source_results_date": "2026-06-26",
+  "ticker": "037710.KS",
+  "generated_at": "2026-06-27T00:09:58.573302+00:00",
+  "source_results_date": "2026-06-27",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.65,
+  "confidence": 0.6,
   "lines": [
-    "추격 위험 — Pivot $72.35 대비 +20.5%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 14.2% → 24.1% → 16.6% → 11.4% → 11.5%, VDU 1.19× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 93로 추세는 살아있음.",
+    "시장 약세 — 보유분도 trailing 강화 권고.",
+    "추격 위험 — Pivot ₩38728.41 대비 +36.6%, buy zone 초과.",
+    "13주 베이스 14.2% → 6.5% → 7.7% → 14.3% → 10.5%, VDU 8.68× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 90로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -24,12 +25,12 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
-    "rs_rating": 93,
+    "vcp_quality_score": "2/8",
+    "rs_rating": 90,
     "stage": 2,
-    "base_count": 4,
+    "base_count": 3,
     "late_base_warning": true,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -41,20 +42,18 @@
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
     "R1_rs_70",
-    "L1_liquidity_gate",
-    "E7_roe",
-    "F1_outperform_1y",
     "R2_rs_80",
     "R3_rs_90"
   ],
   "key_failures": [
-    "P2_last_contraction (11.54% vs 6.5%)",
-    "P3_vol_dryup (1.19× vs 0.6×)",
-    "P4_base_count (4 — 후기 베이스)",
+    "P2_last_contraction (10.50% vs 6.5%)",
+    "P3_vol_dryup (8.68× vs 0.6×)",
+    "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)"
+    "H4_ni_cagr_3y (NI CAGR 미달)",
+    "rs_line (-54.7% vs ≥-5.0%)"
   ],
   "warnings": [
-    "베이스 카운트 4 — 후기 베이스, 실패율 상승"
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
   ]
 }
