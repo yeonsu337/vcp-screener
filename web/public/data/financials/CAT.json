@@ -1,11 +1,11 @@
 {
   "ticker": "CAT",
   "metrics": {
-    "eps_ttm": 20.08,
+    "eps_ttm": 20.05,
     "eps_forward": 30.11,
-    "pe_ttm": 49.67,
-    "pe_forward": 33.13,
-    "market_cap": 459426660352.0,
+    "pe_ttm": 51.53,
+    "pe_forward": 34.31,
+    "market_cap": 475878981632.0,
     "roe": 0.51,
     "roa": 0.09,
     "profit_margin": 0.13,
@@ -13,7 +13,7 @@
     "operating_margin": 0.18,
     "revenue_growth": 0.22,
     "earnings_growth": 0.3,
-    "dividend_yield": 0.62,
+    "dividend_yield": 0.65,
     "payout_ratio": 0.3,
     "currency": "USD",
     "sector": "Industrials",
@@ -218,8 +218,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "revenue": [
       17415000000.0,
@@ -227,7 +226,6 @@
       17638000000.0,
       16569000000.0,
       14249000000.0,
-      null,
       null
     ],
     "net_income": [
@@ -236,7 +234,6 @@
       2300000000.0,
       2179000000.0,
       2003000000.0,
-      null,
       null
     ],
     "eps": [
@@ -245,7 +242,6 @@
       4.88,
       4.62,
       4.2,
-      null,
       null
     ],
     "gross_profit": [
@@ -254,7 +250,6 @@
       5619000000.0,
       5426000000.0,
       4958000000.0,
-      null,
       null
     ],
     "operating_income": [
@@ -263,7 +258,6 @@
       3052000000.0,
       2860000000.0,
       2579000000.0,
-      null,
       null
     ],
     "operating_margin": [
@@ -272,7 +266,6 @@
       17.3,
       17.26,
       18.1,
-      null,
       null
     ],
     "total_debt": [
@@ -369,8 +362,7 @@
       1.41,
       1.69,
       1.58,
-      1.45,
-      1.63
+      1.45
     ],
     "operating_cf": [
       1870000000.0,
@@ -378,7 +370,6 @@
       3737000000.0,
       3122000000.0,
       1289000000.0,
-      null,
       null
     ],
     "capex": [
@@ -387,7 +378,6 @@
       -1071000000.0,
       -955000000.0,
       -918000000.0,
-      null,
       null
     ],
     "free_cf": [
@@ -396,12 +386,10 @@
       2666000000.0,
       2167000000.0,
       371000000.0,
-      null,
       null
     ],
     "eps_yoy": [
       30.2,
-      null,
       null,
       null,
       null,
@@ -414,12 +402,10 @@
       null,
       null,
       null,
-      null,
       null
     ],
     "operating_income_yoy": [
       19.6,
-      null,
       null,
       null,
       null,

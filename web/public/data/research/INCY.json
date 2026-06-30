@@ -1,0 +1,188 @@
+{
+  "ticker": "INCY",
+  "company": "Incyte Corporation",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "generated_at": "2026-06-30T00:17:44.075198+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 22907023360,
+    "shares_outstanding": 199782155,
+    "employees": 2844,
+    "country": "United States",
+    "website": "https://www.incyte.com",
+    "beta": 0.79
+  },
+  "category_a_business": {
+    "overview": "바이오제약 회사인 Incyte Corporation은 미국, 유럽, 캐나다 및 일본에서 치료제의 발견, 개발 및 상업화에 참여하고 있습니다. 이 회사는 골수섬유화증(MF), 진성적혈구증가증 및 스테로이드 불응성 급성 이식편대숙주병 치료를 위해 JAKAFI를 제공합니다. 만성 골수성 백혈병 및 필라델피아 염색체 양성 급성 림프구성 백혈병을 치료하는 키나제 억제제인 ​​아이클루시그(ICLUSIG); 미만성 거대 B세포 림프종 및 여포성 림프종 치료를 위한 MONJUVI/MINJUVI; 만성 이식편대숙주병 치료를 위한 NIKTIMVO",
+    "business_model": "바이오제약 회사인 Incyte Corporation은 미국, 유럽, 캐나다 및 일본에서 치료제의 발견, 개발 및 상업화에 참여하고 있습니다.",
+    "products": [
+      "골수섬유화증(MF), 진성적혈구증가증, 스테로이드 불응성 급성 이식편대숙주병 치료를 위한 JAKAFI",
+      "본태혈소판증가증 및 골수섬유화증 치료용 INCA033989",
+      "자사 제품을 전문 약국, 소매 약국, 병원 약국, 유통업체에 공급"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.31,
+    "roa": 0.14,
+    "profit_margin": 0.27,
+    "operating_margin": 0.26,
+    "gross_margin": 0.53,
+    "revenue_growth_ttm": 0.21,
+    "earnings_growth_ttm": 0.84,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      5141242000.0,
+      4241217000.0,
+      3695649000.0,
+      3394635000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1342790000.0,
+      101294000.0,
+      655358000.0,
+      591626000.0,
+      null
+    ],
+    "annual_eps": [
+      6.41,
+      0.15,
+      2.65,
+      1.52,
+      null
+    ],
+    "annual_free_cf": [
+      1329631000.0,
+      235174000.0,
+      449001000.0,
+      892108000.0,
+      null
+    ],
+    "annual_total_debt": [
+      40412000.0,
+      43544000.0,
+      38287000.0,
+      41457000.0,
+      null
+    ],
+    "annual_equity": [
+      5167478000.0,
+      3447628000.0,
+      5189837000.0,
+      4370119000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.47,
+      1.46,
+      2.11,
+      2.04,
+      0.8,
+      null
+    ],
+    "quarterly_revenue": [
+      1272676000.0,
+      1506835000.0,
+      1365980000.0,
+      1215529000.0,
+      1052898000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 91.7,
+    "sales_yoy_pct": 20.9,
+    "ni_cagr_3y_pct": 55.73,
+    "roe_pct": 30.82
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Biotechnology 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 66.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 11.6827,
+    "trailing_pe": 16.194916,
+    "forward_pe": 12.466892,
+    "ev_to_ebitda": 12.104,
+    "price_to_sales": 4.2728853,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 33.9,
+    "outperform_6m_vs_nasdaq": 4.81,
+    "outperform_1m_vs_nasdaq": 21.68,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "당사가 JAKAFI로부터 수익을 유지할 수 없거나 해당 수익이 감소하는 경우 당사의 사업은 심각한 피해를 입을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "국가별로 협상 과정을 완료하는 시기는 매우 불확실하며, 일부 국가에서는 12개월이 넘을 수도 있을 것으로 예상하고 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "적절한 처방집 위치를 유지할 수 없으면 당사 제품에 대한 환자의 비용 분담이 증가하고 일부 환자가 당사 제품을 사용하지 않기로 결정하게 될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "상환 승인이 지연되거나 예상치 못한 어려움으로 인해 환자 접근이 제한되고, 치료 순응도가 저하될 수 있으며, 제품을 성공적으로 상용화하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사가 당사 제품에 대한 광범위한 보장 및 환급을 획득하고 유지하는 데 실패할 경우, 당사 제품의 예상 수익과 성장 전망에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 방식의 실질적인 지원은 향후 당사의 수익성에 해를 끼칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-06-30T00:28:28.726396+00:00"
+  }
+}

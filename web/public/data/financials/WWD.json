@@ -1,11 +1,11 @@
 {
   "ticker": "WWD",
   "metrics": {
-    "eps_ttm": 8.34,
+    "eps_ttm": 8.33,
     "eps_forward": 10.76,
-    "pe_ttm": 51.75,
-    "pe_forward": 40.11,
-    "market_cap": 25717153792.0,
+    "pe_ttm": 50.82,
+    "pe_forward": 39.34,
+    "market_cap": 25222617088.0,
     "roe": 0.21,
     "roa": 0.08,
     "profit_margin": 0.13,
@@ -13,7 +13,7 @@
     "operating_margin": 0.15,
     "revenue_growth": 0.23,
     "earnings_growth": 0.23,
-    "dividend_yield": 0.29,
+    "dividend_yield": 0.3,
     "payout_ratio": 0.14,
     "currency": "USD",
     "sector": "Industrials",
@@ -274,7 +274,6 @@
       722401000.0,
       953048000.0,
       932139000.0,
-      null,
       null
     ],
     "equity": [
@@ -283,7 +282,6 @@
       2566390000.0,
       2468566000.0,
       2337507000.0,
-      null,
       null
     ],
     "current_assets": [
@@ -292,7 +290,6 @@
       1884414000.0,
       2061157000.0,
       1911937000.0,
-      null,
       null
     ],
     "current_liabilities": [
@@ -301,7 +298,6 @@
       907389000.0,
       1010198000.0,
       979717000.0,
-      null,
       null
     ],
     "cash": [
@@ -310,7 +306,6 @@
       327431000.0,
       473159000.0,
       364141000.0,
-      null,
       null
     ],
     "total_assets": [
@@ -319,7 +314,6 @@
       4630143000.0,
       4711850000.0,
       4493469000.0,
-      null,
       null
     ],
     "debt_to_equity": [
@@ -328,7 +322,6 @@
       0.28,
       0.39,
       0.4,
-      null,
       null
     ],
     "current_ratio": [
@@ -337,7 +330,6 @@
       2.08,
       2.04,
       1.95,
-      null,
       null
     ],
     "cash_ratio": [
@@ -346,7 +338,6 @@
       0.36,
       0.47,
       0.37,
-      null,
       null
     ],
     "roe": [
@@ -379,7 +370,6 @@
       233318000.0,
       125635000.0,
       77825000.0,
-      null,
       null
     ],
     "capex": [
@@ -388,7 +378,6 @@
       -52391000.0,
       -26547000.0,
       -18416000.0,
-      null,
       null
     ],
     "free_cf": [
@@ -397,7 +386,6 @@
       180927000.0,
       99088000.0,
       59409000.0,
-      null,
       null
     ],
     "eps_yoy": [

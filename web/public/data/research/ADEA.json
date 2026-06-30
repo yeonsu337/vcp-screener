@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Application",
-  "generated_at": "2026-06-23T00:21:16.734795+00:00",
+  "generated_at": "2026-06-30T00:16:41.275441+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3508444160,
+    "market_cap": 3639693824,
     "shares_outstanding": 110293749,
     "employees": 150,
     "country": "United States",
@@ -17,14 +17,33 @@
     "beta": 0.982
   },
   "category_a_business": {
-    "overview": "Adeia Inc.는 자회사와 함께 미국, 아시아, 캐나다, 유럽, 중동 및 국제적으로 미디어 및 반도체 지적 재산권 라이선싱 플랫폼 회사로 운영되고 있습니다. 회사는 네트워크를 통해 선형 콘텐츠를 집계 및 배포하는 케이블, 위성 및 통신 텔레비전 제공업체와 광대역 네트워크를 통해 선형 콘텐츠를 집계 및 스트리밍하는 텔레비전 제공업체로 구성된 다중 채널 비디오 프로그래밍 배포자를 포함하여 다양한 시장에 걸쳐 특허 포트폴리오에 대한 라이선스를 부여합니다. OTT(Over-The-Top) 비디오 서비스 제공업체",
-    "business_model": "Adeia Inc.는 자회사와 함께 미국, 아시아, 캐나다, 유럽, 중동 및 인텔에서 미디어 및 반도체 지적 재산권 라이선싱 플랫폼 회사로 운영되고 있습니다.",
+    "overview": "Adeia Inc.는 미디어 및 반도체 지적 재산권 라이선싱 플랫폼 기업입니다.",
+    "milestones": [
+      "1986: Macrovision 설립 (원래 이름)",
+      "2000년대 초반: 디지털 콘텐츠 보호 기술 시장 선도",
+      "2008: Rovi Corporation 인수 및 사명 변경",
+      "2016: TiVo Corporation 인수 및 사명 변경",
+      "2022: TiVo 사업부 분사 후 Adeia Inc.로 사명 변경",
+      "2022: 지적 재산권 라이선싱 사업에 집중"
+    ],
+    "business_model": "자사의 특허 포트폴리오를 다양한 시장에 라이선싱하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "멀티채널 비디오 프로그래밍 배급사 라이선싱",
+      "OTT 비디오 서비스 제공업체 라이선싱",
+      "가전제품 제조업체 라이선싱",
+      "반도체 기업 라이선싱"
+    ],
+    "value_chain_position": "Upstream: 미디어 및 반도체 분야의 핵심 지적 재산권을 개발하고 소유합니다.",
     "products": [
-      "미국, 아시아, 캐나다, 유럽의 미디어 및 반도체 지적재산권 라이선싱 플랫폼 회사로"
+      "멀티채널 비디오 기술 특허",
+      "OTT 스트리밍 기술 특허",
+      "스마트 TV 및 스트리밍 기기 특허",
+      "메모리 및 로직 반도체 특허"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주요 고객은 전 세계 미디어, 엔터테인먼트, 가전 및 반도체 기업들로, 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.29,
@@ -34,7 +53,7 @@
     "gross_margin": 1.0,
     "revenue_growth_ttm": 0.2,
     "earnings_growth_ttm": 1.0,
-    "dividend_yield": 0.63,
+    "dividend_yield": 0.65,
     "payout_ratio": 0.18,
     "annual_revenue": [
       443386000.0,
@@ -111,35 +130,92 @@
     "roe_pct": 28.51
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 (estimate) + 디지털 미디어 및 반도체 IP 라이선싱 시장 규모 추정치 기반",
+    "tam_cagr_pct": "8-12% (estimate) + 커넥티드 디바이스 증가, 엔터테인먼트 소비 방식 변화, AI 및 IoT 기술 발전으로 인한 IP 수요 증가",
+    "growth_drivers": [
+      "커넥티드 디바이스 및 스마트 기기 확산으로 인한 핵심 기술 IP 수요 증가",
+      "엔터테인먼트 콘텐츠 소비 방식의 진화 (스트리밍, 몰입형 경험)에 따른 미디어 IP 중요성 증대",
+      "반도체 기술 발전 및 복잡성 증가로 인한 특허 라이선싱의 지속적인 필요성",
+      "AI, IoT, 메타버스 등 신기술 분야에서 새로운 IP 창출 및 라이선싱 기회 확대"
+    ],
+    "market_share_pct": "5-10% (estimate) - 특정 기술 분야에 특화된 IP 라이선싱 기업으로, 전체 소프트웨어 시장 대비 점유율은 낮지만, 특정 니치 시장에서는 높은 영향력을 가질 것으로 추정",
+    "competitors": [
+      {
+        "name": "Dolby Laboratories",
+        "differentiation": "오디오 및 비디오 기술 표준화 및 라이선싱에 강점, 강력한 브랜드 인지도"
+      },
+      {
+        "name": "InterDigital",
+        "differentiation": "무선 통신 기술 분야의 광범위한 특허 포트폴리오 및 라이선싱 전문성"
+      },
+      {
+        "name": "Qualcomm (IP 라이선싱 부문)",
+        "differentiation": "모바일 통신 분야의 핵심 특허 다수 보유, 칩셋 판매와 연계된 강력한 라이선싱 모델"
+      },
+      {
+        "name": "MPEG LA",
+        "differentiation": "다수의 특허권자로부터 특허를 모아 라이선싱하는 풀(pool) 모델 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 핵심 IP 포트폴리오 구축에 시간과 자본이 많이 소요되지만, 특정 기술 분야의 스타트업 진입 가능성은 존재",
+      "substitutes": "medium + 자체 기술 개발 또는 오픈소스 솔루션 활용 가능성이 있지만, 핵심 특허 회피는 어렵고 비용이 많이 듦",
+      "buyer_power": "medium + 대형 고객사(제조사)는 협상력이 있지만, Adeia의 핵심 기술 없이는 제품 개발에 제약이 따름",
+      "supplier_power": "low + Adeia는 자체 IP를 개발하고 소유하므로, 외부 공급업체 의존도가 낮음",
+      "rivalry": "high + 유사 기술을 보유한 경쟁사들이 많고, 라이선싱 계약 확보를 위한 경쟁이 치열함"
+    },
     "competitive_advantages": [
-      "Technology / Software - Application 카테고리 — yfinance peer 비교 권장"
+      "미디어 및 반도체 분야의 광범위하고 핵심적인 특허 포트폴리오 (약 13,750개 특허 자산)",
+      "35년 이상의 운영 경험과 깊이 있는 산업 전문성",
+      "소비자 엔터테인먼트 경험 향상에 기여하는 차별화된 핵심 기술 보유",
+      "글로벌 시장에서 수십억 개의 디바이스에 적용되는 기술력"
+    ],
+    "competitive_weaknesses": [
+      "거시 경제 상황 (인플레이션, 지정학적 불안정)에 따른 사업 변동성 노출",
+      "특허 만료 및 기술 변화에 따른 IP 포트폴리오의 지속적인 업데이트 및 방어 필요성",
+      "소송 위험 및 특허 분쟁 가능성 (IP 라이선싱 사업의 본질적 위험)",
+      "특정 산업(소비자 가전)에 대한 높은 의존도"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 65.7,
+    "rs_rating": 88,
+    "score": 68.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.51,
-    "trailing_pe": 29.183485,
-    "forward_pe": 20.545778,
-    "ev_to_ebitda": 13.933,
-    "price_to_sales": 7.61897,
+    "trailing_pe": 30.275229,
+    "forward_pe": 21.314388,
+    "ev_to_ebitda": 13.532,
+    "price_to_sales": 7.9039927,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 112.5,
-    "outperform_6m_vs_nasdaq": 133.83,
-    "outperform_1m_vs_nasdaq": 21.07,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 106.38,
+    "outperform_6m_vs_nasdaq": 81.63,
+    "outperform_1m_vs_nasdaq": 25.4,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Adeia는 소비자 및 엔터테인먼트 분야의 선도적인 IP 라이선싱 플랫폼으로, 미디어 및 반도체 지적 재산권에 대한 광범위한 포트폴리오와 전 세계적으로 약 13,750개의 특허 자산을 보유하고 있습니다.",
+      "당사의 발명품은 소비자가 가정과 이동 중에 엔터테인먼트 및 장치와 상호 작용하는 방식을 주도하는 핵심 기술입니다.",
+      "당사의 혁신적인 솔루션은 스마트 장치, 엔터테인먼트 경험 등을 지원하며, 고도로 참여하는 소비자에게 도달하고 새로운 비즈니스 기회를 발굴하는 통합 생태계를 구축했습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "연결된 세상에 대한 혁신적인 IP 라이선싱 확장 및 새로운 비즈니스 기회 발굴",
+    "bull_case": "IP 포트폴리오 확장 및 신규 시장 진출 성공으로 매출 및 EPS 고성장 지속. 마진 개선.",
+    "base_case": "강력한 IP 포트폴리오를 기반으로 안정적인 라이선스 수익을 창출하며, 꾸준한 매출 성장과 높은 수익성을 유지할 것으로 예상됩니다. 거시경제 불확실성에도 불구하고 견고한 사업 모델을 통해 시장 대비 우수한 성과를 지속할 것입니다.",
+    "bear_case": "거시경제 악화 및 소비자 전자제품 시장의 변동성 심화로 라이선스 수익이 감소하고, 신규 기술 경쟁 심화로 IP 가치가 하락하여 매출 및 수익성이 저하될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "신규 특허 출원 및 등록 건수",
+      "라이선스 계약 건수 및 평균 계약 규모",
+      "매출 성장률 (특히 변동 수수료 기반 매출)",
+      "영업이익률 (OPM) 및 순이익률 (NPM)"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 소송 절차에서 불리한 결정이 내려지면 당사의 사업과 연결 재무 상태, 운영 결과 및 현금 흐름에 심각한 해를 끼칠 수 있습니다.",
+        "description": "이러한 소송 절차에서 불리한 결정이 내려지면 당사의 사업과 통합 재무 상태, 운영 결과 및 현금 흐름에 심각한 피해를 줄 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -152,6 +228,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-27T00:26:58.093252+00:00"
+    "GoogleWebTranslator": "2026-06-30T00:27:08.607720+00:00"
   }
 }

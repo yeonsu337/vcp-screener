@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-06-27T00:19:35.546810+00:00",
+  "generated_at": "2026-06-30T00:20:48.997436+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 58514071552,
+    "market_cap": 58243624960,
     "shares_outstanding": 214643903,
     "employees": 3570,
     "country": "United States",
@@ -38,7 +38,7 @@
     "gross_margin": 0.42,
     "revenue_growth_ttm": -0.1,
     "earnings_growth_ttm": 1.43,
-    "dividend_yield": 1.55,
+    "dividend_yield": 1.56,
     "payout_ratio": 0.41,
     "annual_revenue": [
       17028300000.0,
@@ -95,7 +95,6 @@
       2.2,
       2.92,
       0.92,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -104,7 +103,6 @@
       4151200000.0,
       4260100000.0,
       4561500000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -113,8 +111,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 77.3,
     "sales_yoy_pct": -10.2,
@@ -130,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 62.9,
+    "rs_rating": 72,
+    "score": 61.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.25,
-    "trailing_pe": 27.84576,
-    "forward_pe": 22.10264,
-    "ev_to_ebitda": 14.923,
-    "price_to_sales": 3.5331383,
+    "trailing_pe": 27.717058,
+    "forward_pe": 22.000483,
+    "ev_to_ebitda": 14.836,
+    "price_to_sales": 3.5168085,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.9,
-    "outperform_6m_vs_nasdaq": 41.64,
-    "outperform_1m_vs_nasdaq": 8.56,
+    "outperform_1y_vs_nasdaq": 29.82,
+    "outperform_6m_vs_nasdaq": 39.83,
+    "outperform_1m_vs_nasdaq": 7.59,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -163,6 +160,6 @@
   },
   "wikipedia_summary": "Targa Resources Corp. is a Fortune 500 company based in Houston, Texas. Targa, a midstream energy infrastructure corporation, is one of the largest infrastructure companies delivering natural gas and natural gas liquids in the United States. Their operations are based largely, though not entirely, on the Gulf Coast, particularly in Texas and Louisiana. Matthew J. Meloy has been Chief Executive Officer since 2020.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-27T00:29:20.874681+00:00"
+    "GoogleWebTranslator": "2026-06-30T00:29:49.846253+00:00"
   }
 }

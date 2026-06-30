@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-06-26T00:27:32.129967+00:00",
+  "generated_at": "2026-06-30T00:22:52.811968+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 26878443520,
+    "market_cap": 27400431616,
     "shares_outstanding": 151300000,
     "employees": 8600,
     "country": "United States",
@@ -27,7 +27,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Illumina, Inc.는 캘리포니아주 샌디에이고에 본사를 둔 미국의 생명공학 회사입니다. 1998년 4월 1일에 설립된 Illumina는 유전적 변이와 생물학적 기능 분석을 위한 통합 시스템을 개발, 제조 및 판매합니다. 이 회사는 시퀀싱, 유전형 분석, 유전자 발현, 단백질체학 시장에 서비스를 제공하는 제품 및 서비스 라인을 제공하며 155개국 이상에 서비스를 제공하고 있습니다.",
+    "wikipedia_excerpt": "Illumina, Inc.는 캘리포니아주 샌디에고에 본사를 둔 미국의 생명공학 회사입니다. 1998년 4월 1일에 설립된 Illumina는 유전적 변이와 생물학적 기능 분석을 위한 통합 시스템을 개발, 제조 및 판매합니다. 이 회사는 시퀀싱, 유전형 분석, 유전자 발현, 단백질체학 시장에 서비스를 제공하는 제품 및 서비스 라인을 제공하며 155개국 이상에 서비스를 제공하고 있습니다.",
     "milestones": [
       "1998년: Illumina는 유전적 변이 분석을 위한 통합 시스템을 개발, 제조 및 판매합니다."
     ]
@@ -97,7 +97,6 @@
       0.98,
       1.49,
       0.82,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -106,7 +105,6 @@
       1084000000.0,
       1059000000.0,
       1041000000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -115,8 +113,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 2.3,
     "sales_yoy_pct": 4.8,
@@ -131,25 +128,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 60.6,
+    "rs_rating": 85,
+    "score": 60.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.0539,
-    "trailing_pe": 32.3,
-    "forward_pe": 29.951628,
-    "ev_to_ebitda": 24.139,
-    "price_to_sales": 6.118471,
+    "peg_ratio": 3.0793,
+    "trailing_pe": 32.86751,
+    "forward_pe": 30.53103,
+    "ev_to_ebitda": 24.925,
+    "price_to_sales": 6.2372937,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 66.76,
-    "outperform_6m_vs_nasdaq": 20.87,
-    "outperform_1m_vs_nasdaq": 27.19,
+    "outperform_1y_vs_nasdaq": 64.31,
+    "outperform_6m_vs_nasdaq": 24.49,
+    "outperform_1m_vs_nasdaq": 18.19,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variation and biological function. The company provides a line of products and services that serves the sequencing, genotyping and gene expression, and proteomics markets, and serves more than 155 countries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-27T00:28:07.985563+00:00"
+    "GoogleWebTranslator": "2026-06-30T00:28:13.724581+00:00"
   }
 }

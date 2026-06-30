@@ -1,11 +1,11 @@
 {
   "ticker": "CMI",
   "metrics": {
-    "eps_ttm": 19.28,
+    "eps_ttm": 19.27,
     "eps_forward": 33.93,
-    "pe_ttm": 35.57,
-    "pe_forward": 20.22,
-    "market_cap": 94642561024.0,
+    "pe_ttm": 35.86,
+    "pe_forward": 20.37,
+    "market_cap": 95362875392.0,
     "roe": 0.22,
     "roa": 0.07,
     "profit_margin": 0.08,
@@ -13,7 +13,7 @@
     "operating_margin": 0.1,
     "revenue_growth": 0.03,
     "earnings_growth": -0.21,
-    "dividend_yield": 1.1,
+    "dividend_yield": 1.17,
     "payout_ratio": 0.41,
     "currency": "USD",
     "sector": "Industrials",
@@ -218,8 +218,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "revenue": [
       8398000000.0,
@@ -227,7 +226,6 @@
       8317000000.0,
       8643000000.0,
       8174000000.0,
-      null,
       null
     ],
     "net_income": [
@@ -236,7 +234,6 @@
       536000000.0,
       890000000.0,
       824000000.0,
-      null,
       null
     ],
     "eps": [
@@ -245,7 +242,6 @@
       3.86,
       6.43,
       5.96,
-      null,
       null
     ],
     "gross_profit": [
@@ -254,7 +250,6 @@
       2129000000.0,
       2281000000.0,
       2155000000.0,
-      null,
       null
     ],
     "operating_income": [
@@ -263,7 +258,6 @@
       962000000.0,
       1108000000.0,
       1003000000.0,
-      null,
       null
     ],
     "operating_margin": [
@@ -272,7 +266,6 @@
       11.57,
       12.82,
       12.27,
-      null,
       null
     ],
     "total_debt": [
@@ -281,7 +274,6 @@
       8182000000.0,
       8684000000.0,
       8035000000.0,
-      null,
       null
     ],
     "equity": [
@@ -290,7 +282,6 @@
       12064000000.0,
       11789000000.0,
       10924000000.0,
-      null,
       null
     ],
     "current_assets": [
@@ -299,7 +290,6 @@
       16720000000.0,
       16933000000.0,
       15540000000.0,
-      null,
       null
     ],
     "current_liabilities": [
@@ -308,7 +298,6 @@
       9454000000.0,
       10315000000.0,
       11575000000.0,
-      null,
       null
     ],
     "cash": [
@@ -317,7 +306,6 @@
       2566000000.0,
       2319000000.0,
       1532000000.0,
-      null,
       null
     ],
     "total_assets": [
@@ -326,7 +314,6 @@
       33638000000.0,
       34259000000.0,
       32531000000.0,
-      null,
       null
     ],
     "debt_to_equity": [
@@ -335,7 +322,6 @@
       0.68,
       0.74,
       0.74,
-      null,
       null
     ],
     "current_ratio": [
@@ -344,7 +330,6 @@
       1.77,
       1.64,
       1.34,
-      null,
       null
     ],
     "cash_ratio": [
@@ -353,7 +338,6 @@
       0.27,
       0.22,
       0.13,
-      null,
       null
     ],
     "roe": [
@@ -362,7 +346,6 @@
       4.44,
       7.55,
       7.54,
-      null,
       null
     ],
     "roa": [
@@ -371,7 +354,6 @@
       1.59,
       2.6,
       2.53,
-      null,
       null
     ],
     "dividend_yield": [
@@ -380,8 +362,7 @@
       2.09,
       2.35,
       2.07,
-      2.07,
-      2.46
+      2.07
     ],
     "operating_cf": [
       309000000.0,
@@ -413,7 +394,6 @@
       null,
       null,
       null,
-      null,
       null
     ],
     "revenue_yoy": [
@@ -422,12 +402,10 @@
       null,
       null,
       null,
-      null,
       null
     ],
     "operating_income_yoy": [
       -0.3,
-      null,
       null,
       null,
       null,

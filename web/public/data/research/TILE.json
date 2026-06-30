@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
-  "generated_at": "2026-06-25T00:29:05.110758+00:00",
+  "generated_at": "2026-06-30T00:19:47.208649+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1987844096,
+    "market_cap": 2071444992,
     "shares_outstanding": 58056192,
     "employees": 3600,
     "country": "United States",
@@ -28,7 +28,7 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "조지아주 애틀랜타에 본사를 두고 있는 Interface, Inc.는 상업용 바닥재를 생산하는 글로벌 제조업체입니다. 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, Nora 브랜드 고무 바닥재를 판매합니다."
+    "wikipedia_excerpt": "조지아주 애틀랜타에 본사를 두고 있는 Interface, Inc.는 상업용 바닥재를 생산하는 글로벌 제조업체입니다. 이 회사는 모듈형 카펫 타일, 고급 비닐 타일, Nora 브랜드 고무 바닥재를 판매합니다."
   },
   "category_b_financials": {
     "roe": 0.22,
@@ -38,7 +38,7 @@
     "gross_margin": 0.39,
     "revenue_growth_ttm": 0.11,
     "earnings_growth_ttm": 0.82,
-    "dividend_yield": 0.37,
+    "dividend_yield": 0.34,
     "payout_ratio": 0.04,
     "annual_revenue": [
       1386854000.0,
@@ -95,7 +95,6 @@
       0.78,
       0.55,
       0.22,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -104,7 +103,6 @@
       364526000.0,
       375522000.0,
       297413000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -113,8 +111,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 81.6,
     "sales_yoy_pct": 11.3,
@@ -130,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 61.3,
+    "rs_rating": 76,
+    "score": 64.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.0168,
-    "trailing_pe": 16.0,
-    "forward_pe": 14.679529,
-    "ev_to_ebitda": 10.441,
-    "price_to_sales": 1.3994192,
+    "peg_ratio": 1.1213,
+    "trailing_pe": 16.672897,
+    "forward_pe": 15.296892,
+    "ev_to_ebitda": 10.835,
+    "price_to_sales": 1.4582733,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 35.84,
-    "outperform_6m_vs_nasdaq": 13.56,
-    "outperform_1m_vs_nasdaq": 22.26,
+    "outperform_1y_vs_nasdaq": 43.16,
+    "outperform_6m_vs_nasdaq": 17.05,
+    "outperform_1m_vs_nasdaq": 23.53,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -188,6 +185,6 @@
   },
   "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring. The company sells modular carpet tiles, luxury vinyl tile, and Nora brand rubber flooring.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-27T00:29:11.100413+00:00"
+    "GoogleWebTranslator": "2026-06-30T00:29:38.596995+00:00"
   }
 }
