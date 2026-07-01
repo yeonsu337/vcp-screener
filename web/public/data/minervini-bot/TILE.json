@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "TILE",
-  "generated_at": "2026-06-30T00:10:45.218625+00:00",
-  "source_results_date": "2026-06-30",
+  "generated_at": "2026-07-01T00:15:14.828848+00:00",
+  "source_results_date": "2026-07-01",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.69,
   "lines": [
-    "추격 위험 — Pivot $33.79 대비 +5.6%, buy zone 초과.",
-    "13주 베이스 27.9% → 8.5% → 10.2% → 6.3%, VDU 1.32× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 76로 추세는 살아있음.",
+    "추격 위험 — Pivot $33.79 대비 +6.1%, buy zone 초과.",
+    "13주 베이스 27.9% → 8.5% → 10.2% → 6.3%, VDU 1.34× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 75로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 76,
+    "rs_rating": 75,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -47,11 +47,11 @@
     "P2_last_contraction"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.32× vs 0.6×)",
+    "P3_vol_dryup (1.34× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [
     "베이스 깊이 27.9% — 25% 초과로 변동성 큼",
-    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

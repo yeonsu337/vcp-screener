@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-06-30T00:17:44.075198+00:00",
+  "generated_at": "2026-07-01T00:23:35.655226+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 22907023360,
+    "market_cap": 22647306240,
     "shares_outstanding": 199782155,
     "employees": 2844,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 0.79
   },
   "category_a_business": {
-    "overview": "바이오제약 회사인 Incyte Corporation은 미국, 유럽, 캐나다 및 일본에서 치료제의 발견, 개발 및 상업화에 참여하고 있습니다. 이 회사는 골수섬유화증(MF), 진성적혈구증가증 및 스테로이드 불응성 급성 이식편대숙주병 치료를 위해 JAKAFI를 제공합니다. 만성 골수성 백혈병 및 필라델피아 염색체 양성 급성 림프구성 백혈병을 치료하는 키나제 억제제인 ​​아이클루시그(ICLUSIG); 미만성 거대 B세포 림프종 및 여포성 림프종 치료를 위한 MONJUVI/MINJUVI; 만성 이식편대숙주병 치료를 위한 NIKTIMVO",
+    "overview": "바이오제약 회사인 Incyte Corporation은 미국, 유럽, 캐나다 및 일본에서 치료제의 발견, 개발 및 상업화에 참여하고 있습니다. 이 회사는 골수섬유증(MF), 진성적혈구증가증 및 스테로이드 불응성 급성 이식편대숙주병 치료를 위해 JAKAFI를 제공합니다. 만성 골수성 백혈병 및 필라델피아 염색체 양성 급성 림프구성 백혈병을 치료하는 키나제 억제제인 ​​아이클루시그(ICLUSIG); 미만성 거대 B세포 림프종 및 여포성 림프종 치료를 위한 MONJUVI/MINJUVI; 만성 이식편대숙주병 치료를 위한 NIKTIMVO",
     "business_model": "바이오제약 회사인 Incyte Corporation은 미국, 유럽, 캐나다 및 일본에서 치료제의 발견, 개발 및 상업화에 참여하고 있습니다.",
     "products": [
       "골수섬유화증(MF), 진성적혈구증가증, 스테로이드 불응성 급성 이식편대숙주병 치료를 위한 JAKAFI",
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 70,
-    "score": 66.1,
+    "score": 64.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 11.6827,
-    "trailing_pe": 16.194916,
-    "forward_pe": 12.466892,
-    "ev_to_ebitda": 12.104,
-    "price_to_sales": 4.2728853,
+    "peg_ratio": 11.7751,
+    "trailing_pe": 16.033945,
+    "forward_pe": 12.27059,
+    "ev_to_ebitda": 12.222,
+    "price_to_sales": 4.22444,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 33.9,
-    "outperform_6m_vs_nasdaq": 4.81,
-    "outperform_1m_vs_nasdaq": 21.68,
+    "outperform_1y_vs_nasdaq": 36.5,
+    "outperform_6m_vs_nasdaq": 2.13,
+    "outperform_1m_vs_nasdaq": 19.99,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -160,12 +160,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "상환 승인이 지연되거나 예상치 못한 어려움으로 인해 환자 접근이 제한되고, 치료 순응도가 저하될 수 있으며, 제품을 성공적으로 상용화하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "상환 승인이 지연되거나 예상치 못한 어려움으로 인해 환자 접근이 제한되고, 치료 순응률이 저하될 수 있으며, 제품을 성공적으로 상용화하는 능력에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사가 당사 제품에 대한 광범위한 보장 및 환급을 획득하고 유지하는 데 실패할 경우, 당사 제품의 예상 수익과 성장 전망에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "당사 제품에 대한 폭넓은 보장과 환급을 획득하고 유지하는 데 실패할 경우 당사 제품의 예상 수익과 성장 전망에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-30T00:28:28.726396+00:00"
+    "GoogleWebTranslator": "2026-07-01T00:32:14.474581+00:00"
   }
 }

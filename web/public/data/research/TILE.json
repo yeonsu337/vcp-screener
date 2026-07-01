@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
-  "generated_at": "2026-06-30T00:19:47.208649+00:00",
+  "generated_at": "2026-07-01T00:24:36.749046+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2071444992,
+    "market_cap": 2080733952,
     "shares_outstanding": 58056192,
     "employees": 3600,
     "country": "United States",
@@ -17,18 +17,18 @@
     "beta": 1.927
   },
   "category_a_business": {
-    "overview": "Interface, Inc.는 미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주에서 모듈형 카펫 제품을 디자인, 생산 및 판매합니다. 이 회사는 모듈식 카펫을 제공합니다. 고급 비닐 타일; 모듈식 탄력 바닥재 제품; 고무 바닥재; 상업용 인테리어에 사용되는 카펫 타일에는 사무실, 교육 시설, 의료 시설, 공항, 접대 공간, 소매 공간 및 주거용 인테리어가 포함됩니다.",
+    "overview": "Interface, Inc.는 미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주에서 모듈식 카펫 제품을 디자인, 생산 및 판매합니다. 이 회사는 모듈식 카펫을 제공합니다. 고급 비닐 타일; 모듈식 탄력 바닥재 제품; 고무 바닥재; 상업용 인테리어에 사용되는 카펫 타일에는 사무실, 교육 시설, 의료 시설, 공항, 접대 공간, 소매 공간 및 주거용 인테리어가 포함됩니다.",
     "business_model": "인터페이스 주식회사",
     "products": [
-      "미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주의 모듈식 카펫 제품",
-      "모듈식 카펫",
+      "미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주의 모듈형 카펫 제품",
+      "모듈형 카펫",
       "카펫 교체, 설치 및 유지관리 서비스",
       "최종 사용자에게 직접 판매 및 간접 판매를 통해 Interface, FLOR, NORAPLAN 및 NORAMENT 브랜드로 제품을 판매합니다."
     ],
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "조지아주 애틀랜타에 본사를 두고 있는 Interface, Inc.는 상업용 바닥재를 생산하는 글로벌 제조업체입니다. 이 회사는 모듈형 카펫 타일, 고급 비닐 타일, Nora 브랜드 고무 바닥재를 판매합니다."
+    "wikipedia_excerpt": "조지아 주 애틀랜타에 본사를 둔 Interface, Inc.는 상업용 바닥재의 글로벌 제조업체이자 지속 가능성 분야의 선두주자로 인정받고 있습니다. 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, 노라 브랜드 고무 바닥재를 판매합니다."
   },
   "category_b_financials": {
     "roe": 0.22,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 64.0,
+    "rs_rating": 75,
+    "score": 63.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.1213,
-    "trailing_pe": 16.672897,
-    "forward_pe": 15.296892,
-    "ev_to_ebitda": 10.835,
-    "price_to_sales": 1.4582733,
+    "peg_ratio": 1.1194,
+    "trailing_pe": 16.747663,
+    "forward_pe": 15.365488,
+    "ev_to_ebitda": 10.882,
+    "price_to_sales": 1.4648125,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 43.16,
-    "outperform_6m_vs_nasdaq": 17.05,
-    "outperform_1m_vs_nasdaq": 23.53,
+    "outperform_1y_vs_nasdaq": 41.34,
+    "outperform_6m_vs_nasdaq": 15.06,
+    "outperform_1m_vs_nasdaq": 24.02,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -152,7 +152,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 가격 경쟁, 비즈니스에 대한 투자, 제품 디자인이나 지속 가능성을 놓고 경쟁하는 등의 어려움에 직면할 수 있습니다.",
+        "description": "우리는 가격 경쟁, 사업 투자, 제품 디자인이나 지속 가능성 경쟁 등의 어려움에 직면할 수도 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,8 +183,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring. The company sells modular carpet tiles, luxury vinyl tile, and Nora brand rubber flooring.",
+  "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring and recognized leader in sustainability. The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-06-30T00:29:38.596995+00:00"
+    "GoogleWebTranslator": "2026-07-01T00:33:20.735214+00:00"
   }
 }

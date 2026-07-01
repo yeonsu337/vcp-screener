@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "UAL",
-  "generated_at": "2026-06-30T00:10:45.219876+00:00",
-  "source_results_date": "2026-06-30",
+  "generated_at": "2026-07-01T00:15:14.829712+00:00",
+  "source_results_date": "2026-07-01",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.59,
+  "confidence": 0.6,
   "lines": [
-    "추격 위험 — Pivot $124.79 대비 +8.3%, buy zone 초과.",
-    "13주 베이스 28.0% → 8.5% → 13.6% → 17.0% → 14.9%, VDU 1.04× — setup 자체는 유효.",
-    "Trend Template 7/8 + RS 78로 추세는 살아있음.",
+    "추격 위험 — Pivot $124.79 대비 +9.0%, buy zone 초과.",
+    "13주 베이스 28.0% → 8.5% → 13.6% → 17.0% → 14.9%, VDU 1.06× — setup 자체는 유효.",
+    "Trend Template 7/8 + RS 79로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 78,
+    "rs_rating": 79,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,12 +47,12 @@
   ],
   "key_failures": [
     "P2_last_contraction (13.72% vs 6.5%)",
-    "P3_vol_dryup (1.04× vs 0.6×)",
+    "P3_vol_dryup (1.06× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": [
     "베이스 깊이 28.0% — 25% 초과로 변동성 큼",
-    "RS 78 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 79 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

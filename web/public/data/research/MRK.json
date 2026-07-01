@@ -1,0 +1,149 @@
+{
+  "ticker": "MRK",
+  "company": "Merck & Co., Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "generated_at": "2026-07-01T00:30:44.725072+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 317372465152,
+    "shares_outstanding": 2469824415,
+    "employees": 73000,
+    "country": "United States",
+    "website": "https://www.merck.com",
+    "beta": 0.218
+  },
+  "category_a_business": {
+    "overview": "Merck & Co., Inc.는 전 세계적으로 의료 회사로 운영되고 있습니다. Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress로 다양한 분야의 인체 건강 의약품을 제공합니다. HD, Delstrigo, Pifeltro, Belsomra, Januvia 및 Janumet 브랜드.",
+    "business_model": "머크 앤 컴퍼니(Merck & Co., Inc.)",
+    "products": [
+      "전세계 헬스케어 기업으로서",
+      "Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, V에 따라 다양한 분야의 인체 건강 의약품",
+      "동물용의약품, 백신, 축산물 등 건강관리 솔루션과 서비스를"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Merck & Co., Inc.는 뉴저지주 라웨이에 본사를 둔 미국의 다국적 제약회사입니다. 이 회사는 미국과 캐나다 이외의 지역에서는 Merck Sharp & Dohme 또는 MSD로 사업을 운영하고 있습니다. 이 회사는 수익 기준으로 가장 큰 생물의학 기업 목록에서 5위를 차지했습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.13,
+    "profit_margin": 0.14,
+    "operating_margin": 0.39,
+    "gross_margin": 0.77,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 2.63,
+    "payout_ratio": 0.94,
+    "annual_revenue": [
+      65011000000.0,
+      64168000000.0,
+      60115000000.0,
+      59283000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      22107000000.0,
+      20221000000.0,
+      2954000000.0,
+      18282000000.0,
+      null
+    ],
+    "annual_eps": [
+      7.28,
+      6.74,
+      0.14,
+      5.71,
+      null
+    ],
+    "annual_free_cf": [
+      12360000000.0,
+      18096000000.0,
+      9143000000.0,
+      14707000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      49339000000.0,
+      37111000000.0,
+      35055000000.0,
+      30691000000.0,
+      null
+    ],
+    "annual_equity": [
+      52606000000.0,
+      46313000000.0,
+      37581000000.0,
+      45991000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      -1.72,
+      1.19,
+      2.32,
+      1.76,
+      2.01,
+      null
+    ],
+    "quarterly_revenue": [
+      16286000000.0,
+      16400000000.0,
+      17276000000.0,
+      15806000000.0,
+      15529000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "sales_yoy_pct": 4.9,
+    "ni_cagr_3y_pct": 7.93,
+    "roe_pct": 18.94
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 53.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 6.3923,
+    "trailing_pe": 36.19718,
+    "forward_pe": 13.416358,
+    "ev_to_ebitda": 12.225,
+    "price_to_sales": 4.8256364,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 38.58,
+    "outperform_6m_vs_nasdaq": 11.0,
+    "outperform_1m_vs_nasdaq": 11.83,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Merck & Co., Inc. is an American multinational pharmaceutical company headquartered in Rahway, New Jersey. The company does business as Merck Sharp & Dohme or MSD outside the United States and Canada. The company is ranked fifth on the list of largest biomedical companies by revenue.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-07-01T00:32:23.489028+00:00"
+  }
+}
