@@ -1,0 +1,188 @@
+{
+  "ticker": "AROC",
+  "company": "Archrock, Inc.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
+  "generated_at": "2026-07-02T00:22:50.660481+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 6793139200,
+    "shares_outstanding": 175261596,
+    "employees": 1350,
+    "country": "United States",
+    "website": "https://www.archrock.com",
+    "beta": 0.872
+  },
+  "category_a_business": {
+    "overview": "Archrock, Inc.는 자회사와 함께 미국에서 에너지 인프라 회사로 운영되고 있습니다. 이 회사는 계약 운영과 애프터마켓 서비스라는 두 부문으로 운영됩니다. 천연가스 압축 서비스를 제공하기 위해 소유한 천연가스 압축 장비의 설계, 소싱, 소유, 설치, 운영, 서비스, 수리 및 유지 관리에 참여합니다.",
+    "business_model": "Archrock, Inc.는 자회사와 함께 미국에서 에너지 인프라 회사로 운영되고 있습니다.",
+    "products": [
+      "미국의 에너지 인프라 회사로서",
+      "계약 운영과 애프터마켓 서비스라는 두 부문으로 나뉜다.",
+      "일반 부품 및 부품을 판매할 뿐만 아니라 운영, 주요 및 일상적인 유지 관리, 점검 및 복구 서비스도 제공합니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.23,
+    "roa": 0.09,
+    "profit_margin": 0.21,
+    "operating_margin": 0.35,
+    "gross_margin": 0.66,
+    "revenue_growth_ttm": 0.08,
+    "earnings_growth_ttm": 0.03,
+    "dividend_yield": 2.16,
+    "payout_ratio": 0.45,
+    "annual_revenue": [
+      1489818000.0,
+      1157591000.0,
+      990337000.0,
+      845568000.0,
+      null
+    ],
+    "annual_operating_income": [
+      575826000.0,
+      366775000.0,
+      258438000.0,
+      144641000.0,
+      null
+    ],
+    "annual_eps": [
+      1.83,
+      1.05,
+      0.67,
+      0.28,
+      null
+    ],
+    "annual_free_cf": [
+      119642000.0,
+      70559000.0,
+      11555000.0,
+      -36417000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2421113000.0,
+      2210791000.0,
+      12271000.0,
+      1563195000.0,
+      null
+    ],
+    "annual_equity": [
+      1491479000.0,
+      1323531000.0,
+      871021000.0,
+      860693000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.41,
+      0.67,
+      0.4,
+      0.36,
+      0.4,
+      null
+    ],
+    "quarterly_revenue": [
+      373767000.0,
+      377073000.0,
+      382430000.0,
+      383152000.0,
+      347163000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 4.2,
+    "sales_yoy_pct": 7.7,
+    "ni_cagr_3y_pct": 93.77,
+    "roe_pct": 22.68
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 73,
+    "score": 50.7,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.8093,
+    "trailing_pe": 21.065216,
+    "forward_pe": 16.150402,
+    "ev_to_ebitda": 10.799,
+    "price_to_sales": 4.4797153,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 33.07,
+    "outperform_6m_vs_nasdaq": 40.36,
+    "outperform_1m_vs_nasdaq": 21.6,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "무엇보다도 아래에 설명된 위험 요인으로 인해 당사의 실제 결과가 미래 예측 진술에 반영된 기대와 실질적으로 다를 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "다음 위험 중 하나라도 실제로 발생하면 당사의 사업, 재무 상태, 영업 결과 및 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "인플레이션율의 증가는 임금 상승, 운영 비용 상승, 금융 비용 상승 및/또는 공급업체 가격 상승으로 인해 수익성과 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 그렇게 높은 비용을 고객에게 전가하지 못할 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "또한 인플레이션은 고객의 금융 비용, 현금 흐름 및 수익성에 부정적인 영향을 미칠 수 있으며, 이는 고객의 운영 및 미수금 회수 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "전염병 및 기타 공중 보건 위기는 당사 서비스에 대한 수요에 부정적인 영향을 미칠 수 있으며 당사의 재정 상태, 운영 결과 및 현금 흐름에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-07-02T00:24:11.366087+00:00"
+  }
+}

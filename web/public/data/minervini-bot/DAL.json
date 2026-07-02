@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "DAL",
-  "generated_at": "2026-07-01T00:15:14.827897+00:00",
-  "source_results_date": "2026-07-01",
+  "generated_at": "2026-07-02T00:13:55.669586+00:00",
+  "source_results_date": "2026-07-02",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.66,
   "lines": [
-    "추격 위험 — Pivot $87.39 대비 +7.2%, buy zone 초과.",
-    "13주 베이스 8.2% → 12.3% → 9.4% → 8.9%, VDU 1.16× — setup 자체는 유효.",
+    "추격 위험 — Pivot $87.39 대비 +6.5%, buy zone 초과.",
+    "13주 베이스 8.2% → 12.3% → 9.4% → 8.9%, VDU 1.09× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 81로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.86% vs 6.5%)",
-    "P3_vol_dryup (1.16× vs 0.6×)",
+    "P3_vol_dryup (1.09× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": []

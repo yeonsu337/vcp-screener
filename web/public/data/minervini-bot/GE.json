@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "GE",
-  "generated_at": "2026-07-01T00:15:14.826817+00:00",
-  "source_results_date": "2026-07-01",
+  "generated_at": "2026-07-02T00:13:55.668945+00:00",
+  "source_results_date": "2026-07-02",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.64,
   "lines": [
-    "추격 위험 — Pivot $319.14 대비 +17.1%, buy zone 초과.",
-    "13주 베이스 15.7% → 9.2%, VDU 1.07× — setup 자체는 유효.",
+    "추격 위험 — Pivot $319.14 대비 +17.5%, buy zone 초과.",
+    "13주 베이스 15.7% → 9.2%, VDU 1.00× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 70로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -48,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.25% vs 6.5%)",
-    "P3_vol_dryup (1.07× vs 0.6×)",
+    "P3_vol_dryup (1.00× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [

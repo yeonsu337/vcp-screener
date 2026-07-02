@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Insurance - Life",
-  "generated_at": "2026-06-27T00:23:42.039562+00:00",
+  "generated_at": "2026-07-02T00:20:48.400053+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 13922482176,
+    "market_cap": 13981492224,
     "shares_outstanding": 77644761,
     "employees": 3695,
     "country": "United States",
@@ -17,17 +17,33 @@
     "beta": 0.499
   },
   "category_a_business": {
-    "overview": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다. 생명 보험, 보충 건강 보험, 투자의 세 가지 부문으로 운영됩니다. 이 회사는 전체, 정기, 기타 생명 보험 상품과 어린이 생명 보험을 제공합니다. 사고, 암, 중대한 질병, 심장, 집중 치료 및 기타 건강 제품과 같은 메디케어 보충식품 및 제한적 혜택 보충 건강 보험 상품, 최종 비용, 사고사, 모기지 이익",
-    "business_model": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다.",
+    "overview": "Globe Life Inc.는 미국 중하위 및 중산층 가정을 대상으로 생명 및 보충 건강 보험 상품을 제공하는 지주회사입니다.",
+    "milestones": [
+      "1900: 회사 설립",
+      "1979: 델라웨어에 보험 지주회사로 편입",
+      "2019: Torchmark Corporation에서 Globe Life Inc.로 사명 변경"
+    ],
+    "business_model": "보험 상품 판매 및 보험료 운용을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "생명 보험료",
+      "보충 건강 보험료",
+      "투자 수익"
+    ],
+    "value_chain_position": "Downstream: 최종 소비자에게 직접 보험 상품을 판매하고 서비스를 제공합니다.",
     "products": [
-      "미국의 중산층 가정을 위한 다양한 생명보험 및 보충 건강 보험 상품",
-      "세 가지 부문: 생명 보험, 보충 건강 보험, 투자",
-      "종신보험, 정기보험, 기타 생명보험 상품과 어린이 생명보험",
-      "소비자 직접 채널, 독점 독립 대리점, 일반 대리점 독립 대리점을 통해 제품을 판매합니다. b"
+      "전통 종신보험",
+      "정기보험",
+      "어린이 생명보험",
+      "메디케어 보충보험",
+      "사고, 암, 중대 질병 등 제한적 보충 건강보험"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "D2C (직접 우편, 전자 미디어 등)",
+      "독점 독립 에이전트",
+      "일반 대리점 독립 에이전트",
+      "브로커"
+    ],
+    "key_customers": "고객 집중도가 낮으며, 주로 미국 중하위 및 중산층 가정을 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -37,7 +53,7 @@
     "gross_margin": 0.34,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.13,
-    "dividend_yield": 0.75,
+    "dividend_yield": 0.74,
     "payout_ratio": 0.08,
     "annual_revenue": [
       5994318000.0,
@@ -127,24 +143,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 70,
-    "score": 57.9,
+    "score": 57.2,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": 1.3,
-    "trailing_pe": 12.408997,
-    "forward_pe": 10.769621,
-    "ev_to_ebitda": 10.083,
-    "price_to_sales": 2.292327,
+    "trailing_pe": 12.452974,
+    "forward_pe": 10.8152685,
+    "ev_to_ebitda": 10.257,
+    "price_to_sales": 2.302043,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 22.28,
-    "outperform_6m_vs_nasdaq": 19.12,
-    "outperform_1m_vs_nasdaq": 21.3,
+    "outperform_1y_vs_nasdaq": 18.28,
+    "outperform_6m_vs_nasdaq": 16.64,
+    "outperform_1m_vs_nasdaq": 22.24,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-01T00:31:45.185148+00:00"
+    "GoogleWebTranslator": "2026-07-02T00:24:34.695694+00:00"
   }
 }

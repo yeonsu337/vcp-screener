@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-06-24T00:13:13.840676+00:00",
+  "generated_at": "2026-07-02T00:15:55.093092+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 50780979200,
+    "market_cap": 53725290496,
     "shares_outstanding": 111273953,
     "employees": 26000,
     "country": "United States",
@@ -17,36 +17,36 @@
     "beta": 1.561
   },
   "category_a_business": {
-    "overview": "산업 자동화 및 디지털 전환 솔루션을 제공하는 글로벌 기업으로, 생산성 향상을 돕습니다.",
+    "overview": "록웰 오토메이션은 산업 자동화 및 디지털 전환 솔루션을 제공하는 글로벌 기업입니다.",
     "milestones": [
       "1903년: Allen-Bradley Company 설립",
       "1985년: Rockwell International Corporation이 Allen-Bradley 인수",
-      "1996: Rockwell International의 사업 재편으로 Rockwell Automation 분사 및 상장",
-      "2007: Rockwell Automation으로 사명 변경",
-      "2018: PTC와 전략적 제휴를 통해 산업 IoT 및 AR 솔루션 강화",
-      "2020: Sensia 합작 투자 설립 (유전 및 가스 산업 자동화)"
+      "1996: Rockwell International로부터 분사하여 Rockwell Automation으로 재편",
+      "2000년대: 소프트웨어 및 서비스 역량 강화에 집중",
+      "2019: Sensia 합작 투자 설립 (슐룸베르거와)",
+      "2020년대: 디지털 트랜스포메이션 및 스마트 제조 솔루션 확장"
     ],
-    "business_model": "산업 자동화 제품, 소프트웨어, 서비스를 제공하여 고객의 생산성을 높이고 수익을 창출합니다.",
+    "business_model": "산업 자동화 제품, 소프트웨어, 서비스를 통해 고객의 생산성 향상 및 디지털 전환을 지원합니다.",
     "revenue_streams": [
-      "지능형 장치 (하드웨어)",
-      "소프트웨어 및 제어 (소프트웨어 및 시스템)",
-      "라이프사이클 서비스 (컨설팅, 유지보수, 교육)",
-      "맞춤형 엔지니어링 솔루션"
+      "지능형 장치 (Intelligent Devices)",
+      "소프트웨어 및 제어 (Software & Control)",
+      "라이프사이클 서비스 (Lifecycle Services)"
     ],
-    "value_chain_position": "Midstream + 산업 자동화 기술 및 솔루션을 개발, 생산하여 최종 고객에게 제공합니다.",
+    "value_chain_position": "Midstream + 산업 자동화 기술 및 솔루션을 개발, 제조, 공급합니다.",
     "products": [
       "드라이브 및 모션 제어",
+      "안전 및 센싱 장치",
       "제어 및 시각화 소프트웨어",
       "디지털 트윈 및 시뮬레이션 소프트웨어",
-      "산업용 센서 및 안전 장치",
-      "사이버 보안 및 원격 모니터링 서비스"
+      "컨설팅 및 엔지니어링 서비스",
+      "사이버 보안 및 원격 모니터링"
     ],
     "channels": [
       "B2B",
       "독립 유통업체",
       "직접 판매"
     ],
-    "key_customers": "특정 고객에 대한 집중도는 낮으며, 다양한 산업 분야의 전 세계 기업들이 고객입니다."
+    "key_customers": "특정 고객 집중도에 대한 정보는 공개되지 않았습니다. 다양한 산업 분야의 기업 고객을 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -56,7 +56,7 @@
     "gross_margin": 0.49,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.4,
-    "dividend_yield": 1.15,
+    "dividend_yield": 1.11,
     "payout_ratio": 0.56,
     "annual_revenue": [
       8342000000.0,
@@ -113,7 +113,6 @@
       1.23,
       2.6,
       2.22,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -122,7 +121,6 @@
       2316000000.0,
       2144000000.0,
       2001000000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -131,8 +129,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 38.9,
     "sales_yoy_pct": 11.9,
@@ -140,149 +137,146 @@
     "roe_pct": 27.18
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-250 billion USD (추정, 산업 자동화 및 디지털 전환 시장 규모 기반)",
-    "tam_cagr_pct": "7-9% (근거: 제조업의 지속적인 디지털 전환 투자, 스마트 팩토리 확산, ESG 및 지속가능성 목표 달성을 위한 자동화 수요 증가, 신흥 시장의 산업화 가속화)",
+    "tam_estimate_usd_b": "200-300 billion USD (추정치, 산업 자동화 및 디지털 전환 시장 규모 기반)",
+    "tam_cagr_pct": "7-9% (근거: 산업 자동화 및 디지털 전환에 대한 지속적인 투자, 제조 시설 확장 및 업그레이드, 생산성, 민첩성, 지속가능성 요구 증대)",
     "growth_drivers": [
-      "제조업의 생산성, 민첩성, 회복탄력성 및 지속가능성 향상을 위한 디지털 전환 투자 증가",
-      "전기차, 배터리, 반도체, 전자상거래 및 창고 자동화 등 신흥 산업 분야의 자동화 수요 급증",
-      "산업 전반에 걸친 품질, 안전, 보안 및 규제 준수 요구 증대로 인한 자동화 솔루션 도입 가속화",
-      "글로벌 산업 생산 및 설비 가동률 상승에 따른 자동화 장비 및 서비스 수요 증가",
-      "클라우드, AI, IoT 등 첨단 기술과의 융합을 통한 산업 자동화 솔루션의 고도화"
+      "제조업의 신규 시설 투자, 기존 시설 업그레이드 및 확장",
+      "디지털 전환 및 스마트 팩토리 솔루션 도입 가속화",
+      "생산성 향상, 시장 출시 시간 단축, 운영 민첩성 요구 증대",
+      "지속가능성, 품질, 안전에 대한 규제 및 고객 요구 증가",
+      "전기차 및 배터리, 반도체, 전자상거래 및 창고 자동화 등 특정 최종 시장의 성장"
     ],
-    "market_share_pct": "10-15% (추정, 산업 자동화 시장 내 선두 기업 중 하나)",
+    "market_share_pct": "10-15% (추정치, '세계 최대 산업 자동화 및 디지털 전환 전문 기업'이라는 언급과 다양한 경쟁사 존재를 고려)",
     "competitors": [
       {
         "name": "Siemens AG",
-        "differentiation": "광범위한 산업 포트폴리오(자동화, 전력, 운송 등)와 강력한 유럽 시장 지배력, 소프트웨어 및 디지털 서비스 역량"
+        "differentiation": "광범위한 산업 포트폴리오, 강력한 유럽 시장 입지, 디지털 엔터프라이즈 솔루션"
       },
       {
         "name": "Schneider Electric SE",
-        "differentiation": "에너지 관리 및 자동화 분야에 특화, 빌딩 자동화 및 데이터 센터 솔루션 강점, 지속가능성 및 효율성 강조"
+        "differentiation": "에너지 관리 및 자동화 전문성, 빌딩 자동화 및 데이터 센터 솔루션"
       },
       {
         "name": "ABB Ltd.",
-        "differentiation": "로봇 공학, 전력 및 자동화 분야의 글로벌 리더, 중공업 및 프로세스 산업에 강점, 광범위한 하드웨어 포트폴리오"
+        "differentiation": "로봇 공학, 전력 및 자동화 기술, 프로세스 산업에 강점"
       },
       {
-        "name": "Mitsubishi Electric Corporation",
-        "differentiation": "아시아 시장에서의 강력한 입지, FA(Factory Automation) 제품 및 시스템 솔루션 제공, 높은 기술력과 신뢰성"
+        "name": "Emerson Electric Co.",
+        "differentiation": "프로세스 자동화 및 상업/주거 솔루션, 측정 및 분석 기술"
       },
       {
         "name": "Honeywell International Inc.",
-        "differentiation": "항공우주, 빌딩 기술, 성능 재료 등 다양한 산업 분야에 걸친 사업 확장, 산업 제어 시스템 및 소프트웨어 솔루션 제공"
+        "differentiation": "항공우주, 빌딩 기술, 성능 재료 등 다각화된 사업 포트폴리오 내 자동화 솔루션"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (산업 자동화는 높은 기술 전문성, R&D 투자, 기존 고객과의 관계 구축이 필요하지만, 특정 니치 시장이나 소프트웨어 기반 솔루션에서는 신규 진입이 상대적으로 용이할 수 있음)",
-      "substitutes": "low (산업 자동화는 생산성, 효율성, 안전성 향상에 필수적이므로, 이를 완전히 대체할 수 있는 대안은 제한적이며, 수동 작업으로의 회귀는 비효율적임)",
-      "buyer_power": "medium (대규모 고객사는 가격 협상력이 높을 수 있으며, 다양한 공급업체로부터 솔루션을 비교 선택할 수 있지만, 특정 고도화된 솔루션이나 통합 시스템의 경우 공급업체 전환 비용이 발생할 수 있음)",
-      "supplier_power": "low (ROK는 다양한 부품 및 기술 공급업체와 거래하며, 특정 공급업체에 대한 의존도를 낮추기 위한 노력을 기울이고 있어 공급업체의 협상력은 상대적으로 낮음)",
-      "rivalry": "high (산업 자동화 시장은 Siemens, Schneider Electric, ABB 등 다수의 글로벌 대기업들이 경쟁하고 있으며, 기술 혁신과 가격 경쟁이 치열함)"
+      "new_entrants": "medium (산업 자동화는 기술 집약적이고 높은 초기 투자 비용이 필요하지만, 특정 니치 시장에서는 신규 진입이 가능)",
+      "substitutes": "low (산업 자동화 솔루션의 핵심 기능에 대한 직접적인 대체재는 제한적이며, 수동 작업으로의 회귀는 비효율적)",
+      "buyer_power": "medium (대형 고객사는 협상력이 높지만, Rockwell의 전문성과 통합 솔루션은 고객의 전환 비용을 높임)",
+      "supplier_power": "low (다수의 부품 및 기술 공급업체가 존재하여 특정 공급업체에 대한 의존도가 낮음)",
+      "rivalry": "high (다수의 대형 글로벌 기업들이 광범위한 제품과 솔루션을 제공하며 치열하게 경쟁)"
     },
     "competitive_advantages": [
-      "산업 자동화 및 디지털 전환에 전념하는 세계 최대 기업으로서의 전문성 및 브랜드 인지도",
-      "Intelligent Devices, Software & Control, Lifecycle Services의 세 가지 세그먼트를 통한 포괄적인 솔루션 제공 능력",
-      "Allen-Bradley 브랜드의 오랜 역사와 신뢰성을 기반으로 한 강력한 고객 관계 및 시장 침투력",
-      "Connected Enterprise® 전략을 통해 고객의 복잡한 생산 과제를 단순화하고 가치 있는 솔루션을 제공하는 능력",
-      "글로벌 100개국 이상에서 사업을 영위하며 다양한 지역 및 산업별 고객 요구에 대응하는 역량"
+      "산업 자동화 및 디지털 전환에 특화된 세계 최대 기업으로서의 전문성",
+      "Allen-Bradley 브랜드의 오랜 역사와 기술 리더십",
+      "Intelligent Devices, Software & Control, Lifecycle Services를 아우르는 포괄적인 솔루션 포트폴리오",
+      "Connected Enterprise® 전략을 통한 고객의 복잡한 생산 문제 해결 능력",
+      "글로벌 영업, 공급망 및 기능 지원 조직을 통한 전 세계 100개국 이상 사업 운영"
     ],
     "competitive_weaknesses": [
-      "대규모 다각화된 경쟁사에 비해 특정 산업 분야(예: 전력 인프라, 운송)에서의 포트폴리오 확장성 제한",
-      "하드웨어 중심의 사업 구조에서 소프트웨어 및 서비스로의 전환 가속화 필요성",
-      "글로벌 경제 변동 및 지정학적 리스크에 대한 노출 (특히 중국 등 주요 시장에서의 불확실성)",
-      "기술 변화 속도에 대한 지속적인 R&D 투자 및 인재 확보의 중요성 증대",
-      "경쟁 심화로 인한 가격 압박 및 마진 유지의 어려움"
+      "일부 대형 경쟁사에 비해 사업 포트폴리오의 다각화가 상대적으로 낮음",
+      "글로벌 경제 상황 및 특정 산업 부문의 투자 사이클에 대한 높은 민감도",
+      "소프트웨어 및 서비스 부문 강화에도 불구하고 여전히 하드웨어 매출 비중이 높음",
+      "치열한 경쟁 환경에서 가격 압박 및 시장 점유율 유지의 어려움"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 60.7,
+    "rs_rating": 72,
+    "score": 62.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0826,
-    "trailing_pe": 47.488033,
-    "forward_pe": 31.410864,
-    "ev_to_ebitda": 27.662,
-    "price_to_sales": 5.7679443,
+    "peg_ratio": 2.1567,
+    "trailing_pe": 50.033165,
+    "forward_pe": 33.048313,
+    "ev_to_ebitda": 29.85,
+    "price_to_sales": 6.102373,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 12.43,
-    "outperform_6m_vs_nasdaq": 6.08,
-    "outperform_1m_vs_nasdaq": 6.34,
+    "outperform_1y_vs_nasdaq": 19.57,
+    "outperform_6m_vs_nasdaq": 11.65,
+    "outperform_1m_vs_nasdaq": 9.58,
     "lynch_category": "Stalwart",
-    "moat_type": "Switching Costs",
+    "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "록웰 오토메이션은 산업 자동화 및 디지털 전환 분야의 세계 최대 기업으로, 고객의 복잡한 생산 문제를 단순화하고 기술 및 산업 전문 지식을 결합한 솔루션을 제공합니다.",
-      "1903년 Allen-Bradley Company로 시작하여 1985년 Rockwell International Corporation에 인수된 오랜 역사와 산업 내 확고한 입지를 가지고 있습니다.",
-      "지능형 장치, 소프트웨어 및 제어, 라이프사이클 서비스의 세 가지 운영 부문을 통해 광범위한 제품과 서비스를 제공하며, 이는 고객이 록웰 솔루션에 깊이 통합되도록 만듭니다.",
-      "고객의 생산 최적화, 복원력 구축, 인력 역량 강화, 지속 가능성 향상 및 전환 가속화를 돕는 Connected Enterprise® 전략을 통해 고객의 핵심 운영에 깊이 관여합니다."
+      "Rockwell Automation은 1903년 설립된 Allen-Bradley Company의 사업을 계승하며, 1985년 Rockwell International Corporation에 인수된 후 산업 자동화 분야에서 오랜 역사와 전문성을 축적했습니다. 이는 강력한 브랜드 인지도와 고객 신뢰로 이어집니다.",
+      "회사는 '산업 자동화 및 디지털 전환에 전념하는 세계 최대 기업'으로, Connected Enterprise® 전략을 통해 고객의 복잡한 생산 문제를 해결하고 기술 및 산업 전문성을 결합한 솔루션을 제공합니다. 이는 독점적인 기술 노하우와 솔루션 역량을 의미합니다.",
+      "Intelligent Devices, Software & Control, Lifecycle Services의 세 가지 운영 부문을 통해 드라이브, 모션, 제어 및 시각화 소프트웨어, 디지털 트윈, 사이버 보안, 자산 관리 등 광범위한 제품과 서비스를 제공하며, 이는 고객에게 통합적이고 포괄적인 솔루션을 제공할 수 있는 역량을 보여줍니다."
     ],
     "moat_durability_years": "10년 이상",
-    "new_trigger": "산업 자동화 및 디지털 전환의 메가트렌드 가속화, AI 및 에너지 전환 기술 통합",
-    "bull_case": "산업 자동화 및 디지털 전환 수요 폭발로 3년간 EPS 20% 이상 성장, 시장 점유율 확대",
-    "base_case": "글로벌 산업 생산 증가 및 디지털 전환 가속화에 힘입어 견고한 매출 성장과 수익성 유지. Connected Enterprise® 전략을 통해 고객 충성도 강화 및 신규 시장 침투 지속.",
-    "bear_case": "글로벌 경기 침체 심화 및 산업 투자 위축으로 매출 성장 둔화, 경쟁 심화로 인한 마진 압박 및 신규 기술 도입 지연.",
+    "new_trigger": "디지털 전환 가속화 및 AI, 에너지 전환 등 메가트렌드에 대응하는 Connected Enterprise® 전략 강화",
+    "bull_case": "산업 자동화 및 디지털 전환 수요 증가로 3년간 매출 및 EPS 고성장 지속, 시장 점유율 확대",
+    "base_case": "글로벌 산업 생산 및 설비 투자 증가에 힘입어 견조한 매출 성장과 수익성 유지. Connected Enterprise® 전략을 통한 시장 리더십 강화.",
+    "bear_case": "글로벌 경기 침체 심화, 제조 산업 투자 위축, 경쟁 심화로 인한 매출 감소 및 수익성 악화.",
     "key_metrics_to_watch": [
       "유기적 매출 성장률",
-      "소프트웨어 및 제어 부문 성장률",
-      "총 세그먼트 운영 이익률",
-      "자유 현금 흐름",
-      "신규 수주액"
+      "소프트웨어 및 서비스 부문 매출 비중",
+      "총 세그먼트 영업 이익률",
+      "자유 현금 흐름 (Free Cash Flow)"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "거시",
-        "description": "미국 및 비미국 지역의 산업 생산 지수(IP Index)와 구매관리자 지수(PMI)가 지속적으로 50 미만을 기록하며 제조업 경기 둔화가 매출에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "미국 및 비미국 지역의 산업 생산 지수(IP)와 구매관리자 지수(PMI)가 혼조세를 보이거나 50 미만으로 하락하는 등 전반적인 산업 경기 둔화가 매출에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "재무",
-        "description": "생산자 물가 지수(PPI) 상승으로 인한 원가 압박이 지속되고 있으며, 이는 마진에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "생산자 물가 지수(PPI) 상승으로 인한 원가 압박이 지속되고 있으나, 가격 인상 여력이 제한될 경우 마진에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "공급망",
-        "description": "관세 및 무역 정책 변화가 지속될 경우, 공급망 다변화 및 가격 조정 노력에도 불구하고 비용 증가 및 수익성 악화로 이어질 수 있습니다.",
+        "description": "관세 및 무역 정책 변화는 생산 비용 증가와 공급망 재편을 야기하며, 이는 수익성에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "경쟁",
-        "description": "산업 자동화 시장의 경쟁 심화 및 기술 변화에 대한 적절한 대응 실패는 시장 점유율 하락 및 매출 감소로 이어질 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "고객집중도",
-        "description": "미국 시장 매출이 전체 매출의 절반 이상을 차지하고 있어, 미국 경제 동향에 대한 의존도가 높아 해당 시장의 침체 시 전반적인 실적에 큰 영향을 받을 수 있습니다.",
+        "description": "경쟁 심화 또는 신기술 등장으로 인해 시장 점유율이 하락하거나 가격 경쟁이 심화될 경우 수익성이 악화될 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거버넌스",
-        "description": "고도로 숙련된 인재를 유치, 개발 및 유지하는 데 실패할 경우, 기술 혁신 및 경쟁력 유지에 어려움을 겪을 수 있습니다.",
+        "description": "고도로 숙련된 직원의 유치, 개발 및 유지가 어려워질 경우 혁신 역량과 생산성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "미국 시장 매출이 전체 매출의 절반 이상을 차지하므로, 미국 경제의 급격한 침체는 회사 전체 매출에 큰 타격을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "총 수주 잔고가 전년 대비 감소하는 추세이며, 이는 향후 매출 성장 둔화의 신호일 수 있습니다.",
+        "description": "총 수주 잔고가 전년 대비 감소하는 추세는 향후 매출 성장에 대한 우려를 높입니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "글로벌 제조업 경기 침체가 장기화되고 주요 고객 산업의 투자 위축이 심화되어 매출과 수익성이 급격히 악화될 경우 회사가 망할 수 있습니다.",
-      "핵심 기술 경쟁에서 뒤처지거나 주요 경쟁사에게 시장 점유율을 대량으로 빼앗겨 지속적인 매출 감소와 이익률 하락을 겪을 경우 회사가 망할 수 있습니다.",
-      "글로벌 공급망 교란이 심화되고 원자재 가격이 통제 불능 수준으로 상승하여 생산 비용이 급증하고 제품 가격 경쟁력을 상실할 경우 회사가 망할 수 있습니다.",
-      "사이버 보안 침해 또는 주요 제품 결함으로 인해 대규모 리콜 및 브랜드 신뢰도 하락이 발생하여 고객 이탈이 가속화될 경우 회사가 망할 수 있습니다."
+      "글로벌 산업 자동화 시장이 장기적인 침체에 빠지고, 주요 고객사들이 대규모 투자를 철회하여 ROK의 매출이 급감할 경우.",
+      "핵심 기술 인력 유출이 심화되고 경쟁사들이 혁신적인 신제품을 출시하여 ROK의 시장 경쟁력이 급격히 약화될 경우.",
+      "주요 생산 거점의 지정학적 리스크가 현실화되거나 심각한 공급망 붕괴로 인해 생산 및 납품이 장기간 중단될 경우.",
+      "대규모 사이버 공격으로 인해 고객 데이터 유출 또는 생산 시스템 마비가 발생하여 신뢰도 하락 및 막대한 손실이 발생할 경우."
     ],
     "exit_signals": [
-      "미국 및 비미국 지역의 제조업 PMI가 50 이하로 3분기 연속 하락하고, IP Index가 전년 대비 5% 이상 감소하는 경우",
-      "총 수주 잔고가 전년 대비 10% 이상 감소하고, 특히 소프트웨어 및 제어 부문의 성장률이 둔화되는 경우",
-      "주요 경쟁사의 신기술 출시로 인해 ROK의 시장 점유율이 2분기 연속 2% 이상 하락하는 경우",
-      "핵심 인재 이탈률이 급증하거나, 기술 인력 확보에 심각한 어려움을 겪는다는 내부 보고가 나오는 경우"
+      "미국 및 글로벌 제조 PMI 지수가 12개월 연속 45 미만을 기록하며 장기적인 경기 침체 신호가 명확해지는 경우.",
+      "핵심 사업 부문(Intelligent Devices, Software & Control)의 매출이 2년 연속 두 자릿수 감소를 기록하는 경우.",
+      "주요 경쟁사들이 ROK의 핵심 기술을 뛰어넘는 혁신적인 제품을 출시하고 시장 점유율을 빠르게 잠식하는 경우.",
+      "숙련된 기술 인력의 이직률이 급격히 증가하고 신규 인력 채용에 심각한 어려움을 겪는다는 내부 보고가 나오는 경우."
     ]
   },
   "wikipedia_summary": "Rockwell Automation, Inc. is an American provider of industrial automation and digital transformation technologies headquartered in Milwaukee, Wisconsin. Its brands include Allen-Bradley, FactoryTalk software and LifecycleIQ Services. Rockwell Automation employs approximately 27,000 people and has customers in more than 100 countries worldwide.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-01T00:32:43.790725+00:00"
+    "GoogleWebTranslator": "2026-07-02T00:25:04.498387+00:00"
   }
 }
