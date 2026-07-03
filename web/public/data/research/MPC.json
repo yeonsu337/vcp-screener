@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-07-02T00:19:37.834468+00:00",
+  "generated_at": "2026-07-03T00:13:41.284499+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 77325254656,
+    "market_cap": 77757325312,
     "shares_outstanding": 291936635,
     "employees": 18500,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.11,
     "revenue_growth_ttm": 0.09,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.53,
+    "dividend_yield": 1.48,
     "payout_ratio": 0.25,
     "annual_revenue": [
       132699000000.0,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 52.9,
+    "rs_rating": 75,
+    "score": 53.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.2683,
-    "trailing_pe": 17.43713,
-    "forward_pe": 11.040822,
-    "ev_to_ebitda": 11.063,
-    "price_to_sales": 0.5687939,
+    "peg_ratio": 1.3139,
+    "trailing_pe": 17.546114,
+    "forward_pe": 11.102515,
+    "ev_to_ebitda": 11.325,
+    "price_to_sales": 0.57197213,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.74,
-    "outperform_6m_vs_nasdaq": 52.4,
-    "outperform_1m_vs_nasdaq": 6.27,
+    "outperform_1y_vs_nasdaq": 31.92,
+    "outperform_6m_vs_nasdaq": 53.72,
+    "outperform_1m_vs_nasdaq": 5.91,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -172,7 +172,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "내부적으로 개발했든 타사 서비스 제공업체를 통해 조달했든 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
+        "description": "내부적으로 개발되었거나 제3자 서비스 제공업체를 통해 조달된 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-02T00:24:56.442685+00:00"
+    "GoogleWebTranslator": "2026-07-03T00:17:10.240122+00:00"
   }
 }

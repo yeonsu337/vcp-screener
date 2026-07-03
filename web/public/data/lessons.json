@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T00:23:53.441481+00:00",
+  "generated_at": "2026-07-03T00:16:26.098499+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,9 +17,9 @@
   },
   "performance": {
     "win_rate_pct": 62.5,
-    "profit_factor": 3.16,
-    "expectancy": 5.14,
-    "avg_winner_pct": 12.04,
+    "profit_factor": 3.2,
+    "expectancy": 5.26,
+    "avg_winner_pct": 12.23,
     "avg_loser_pct": -6.36,
     "best": {
       "ticker": "005930.KS",
@@ -43,15 +43,15 @@
     "primary_pass_buckets": [
       {
         "primary_passed": 10,
-        "trades": 4,
-        "avg_return_pct": 2.17,
-        "win_rate_pct": 50.0
+        "trades": 3,
+        "avg_return_pct": -2.59,
+        "win_rate_pct": 33.3
       },
       {
         "primary_passed": 11,
-        "trades": 1,
-        "avg_return_pct": 3.33,
-        "win_rate_pct": 100.0
+        "trades": 3,
+        "avg_return_pct": 3.09,
+        "win_rate_pct": 66.7
       }
     ],
     "rule_hit_rate_diff": [],
@@ -62,17 +62,24 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 35,
-      "win_rate_pct": 62.9,
-      "avg_return_pct": 5.53,
+      "trades": 34,
+      "win_rate_pct": 64.7,
+      "avg_return_pct": 6.14,
       "best_return_pct": 42.0
     },
     {
-      "sector": "Healthcare",
-      "trades": 1,
+      "sector": "Energy",
+      "trades": 2,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 16.45,
-      "best_return_pct": 16.5
+      "avg_return_pct": 4.91,
+      "best_return_pct": 6.5
+    },
+    {
+      "sector": "Industrials",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -0.56,
+      "best_return_pct": -0.6
     },
     {
       "sector": "Basic Materials",
@@ -89,13 +96,6 @@
       "best_return_pct": -1.0
     },
     {
-      "sector": "Energy",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 3.33,
-      "best_return_pct": 3.3
-    },
-    {
       "sector": "Communication Services",
       "trades": 1,
       "win_rate_pct": 0.0,
@@ -107,7 +107,7 @@
     "US": {
       "trades": 32,
       "win_rate_pct": 59.4,
-      "avg_return_pct": 1.54
+      "avg_return_pct": 1.69
     },
     "KR": {
       "trades": 6,
@@ -130,54 +130,54 @@
     {
       "day": 1,
       "trades": 40,
-      "avg_return_pct": 5.14,
+      "avg_return_pct": 5.26,
       "winners_pct": 62.5
     },
     {
       "day": 5,
       "trades": 40,
-      "avg_return_pct": 5.14,
+      "avg_return_pct": 5.26,
       "winners_pct": 62.5
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 6.82,
+      "avg_return_pct": 6.97,
       "winners_pct": 71.0
     },
     {
       "day": 63,
       "trades": 5,
-      "avg_return_pct": 20.19,
+      "avg_return_pct": 21.11,
       "winners_pct": 80.0
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-06-04T00:43:00.535603+00:00",
+    "generated_at": "2026-07-03T00:16:26.098472+00:00",
     "winner_patterns": [
-      "RS 등급 85 이상 우수 종목 다수 (90 이상 5개)",
-      "평균 보유 기간 30~50일 내외 (최대 52일)",
-      "활성(active) 상태로 높은 수익률 유지 종목 존재",
-      "한국 시장 종목의 높은 수익률 기여 (005930.KS 61.9%)",
-      "산업재, 헬스케어, 기술 섹터에서 높은 수익률 기록"
+      "RS 등급 85 이상 종목에서 높은 수익률 발생",
+      "평균 보유 기간 40일 이상에서 높은 수익률 기록",
+      "한국 시장 종목들이 높은 수익률 상위권 차지",
+      "미국 시장 종목들도 꾸준히 상위권에 포함",
+      "[가설] EX0_unknown은 장기 보유 후 큰 수익 실현 가능성"
     ],
     "loser_traps": [
-      "RS 등급이 높아도 손실 발생 가능 (ERAS 99점 -40.4%)",
-      "50일 이동평균선 이탈(EX4)이 주요 손절 사유",
-      "8% 손절(EX1) 규칙이 작동한 종목 존재 (ZD -8.3%)",
-      "EX6_absent (이탈 사유 불명) 종목에서도 손실 발생",
+      "RS 등급이 높아도 손실 발생 가능성 존재 (ERAS 99점)",
+      "50일 이동평균선 이탈(EX4)은 주요 손절 트리거",
+      "8% 손절(EX1)은 손실을 제한하는 데 효과적",
+      "트레일링 스탑(EX5)은 큰 손실을 방지할 수 있음",
+      "단기 보유(20일 미만) 시 손실 위험 높음",
       "홍콩 시장 종목에서 50일 이평선 이탈 손실 발생"
     ],
     "rule_suggestions": [
-      "RS 등급 90 이상 종목에 대한 추가 분석 및 비중 확대 [가설]",
-      "50일 이평선 이탈 시 즉각적인 손절 규칙 강화",
-      "보유 기간 20일 미만 종목의 조기 청산 기준 검토 [가설]",
-      "섹터별 성과 분석을 통한 유망 섹터 집중 투자 [가설]",
-      "EX6_absent 청산 사유에 대한 원인 분석 및 규칙 보완"
+      "RS 등급 85 이상 종목 위주로 스크리닝 강화",
+      "50일 이동평균선 이탈 시 즉시 청산 룰 강화",
+      "8% 손절 룰을 모든 종목에 일관 적용",
+      "보유 기간 20일 미만 종목의 리스크 관리 강화",
+      "섹터별 성과 분석 후 유망 섹터 비중 확대 (에너지)"
     ],
     "model": "gemini-2.5-flash",
-    "trades_analyzed": 39,
-    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
+    "trades_analyzed": 40
   },
   "data_status": {
     "exited_trades_count": 38,
