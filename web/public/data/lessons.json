@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T00:16:26.098499+00:00",
+  "generated_at": "2026-07-04T00:23:51.469675+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -43,15 +43,15 @@
     "primary_pass_buckets": [
       {
         "primary_passed": 10,
-        "trades": 3,
-        "avg_return_pct": -2.59,
-        "win_rate_pct": 33.3
+        "trades": 1,
+        "avg_return_pct": -8.26,
+        "win_rate_pct": 0.0
       },
       {
         "primary_passed": 11,
-        "trades": 3,
-        "avg_return_pct": 3.09,
-        "win_rate_pct": 66.7
+        "trades": 5,
+        "avg_return_pct": 1.95,
+        "win_rate_pct": 60.0
       }
     ],
     "rule_hit_rate_diff": [],

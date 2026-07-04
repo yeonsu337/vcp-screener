@@ -4,51 +4,51 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-06-25T00:20:19.685359+00:00",
+  "generated_at": "2026-07-04T00:14:44.883961+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 92617367552,
+    "market_cap": 95453593600,
     "shares_outstanding": 978008110,
     "employees": 5773,
     "country": "United States",
     "website": "https://www.monsterbevcorp.com",
-    "beta": 0.542
+    "beta": 0.527
   },
   "category_a_business": {
-    "overview": "몬스터 베버리지 코퍼레이션은 에너지 드링크 및 기타 대체 음료를 개발, 마케팅, 판매하는 글로벌 기업입니다.",
+    "overview": "몬스터 베버리지 코퍼레이션은 에너지 음료 개발, 마케팅, 판매 및 유통을 주력으로 하는 미국 기업입니다.",
     "milestones": [
       "1935: Hansen's로 설립, 주스 제품 판매 시작",
       "2002: Monster Energy 브랜드 출시",
       "2012: 회사명을 Monster Beverage Corporation으로 변경",
-      "2015: 코카콜라 컴퍼니와 전략적 제휴 및 일부 에너지 드링크 브랜드 인수",
+      "2015: 코카콜라 컴퍼니와의 전략적 제휴 및 일부 에너지 음료 브랜드 인수",
       "2022: Bang Energy 인수",
-      "2023: 알코올 음료 시장 진출 (크래프트 맥주, FMB, 하드셀처)"
+      "2023: 알코올 음료 부문 확장 (크래프트 맥주, FMB, 하드 셀처)"
     ],
-    "business_model": "에너지 드링크 및 대체 음료 개발, 마케팅, 유통을 통해 수익 창출",
+    "business_model": "에너지 음료 및 기타 음료의 개발, 마케팅, 판매를 통해 수익을 창출합니다.",
     "revenue_streams": [
-      "몬스터 에너지 드링크 판매",
-      "전략 브랜드 에너지 드링크 판매 (NOS, Full Throttle 등)",
-      "알코올 브랜드 판매 (크래프트 맥주, FMB, 하드셀처)",
-      "AFF 제3자 제품 판매"
+      "몬스터 에너지 음료 판매",
+      "전략 브랜드(NOS, Full Throttle 등) 음료 판매",
+      "알코올 브랜드(크래프트 맥주, 하드 셀처) 판매",
+      "AFF(American Fruits and Flavors) 제3자 제품 판매"
     ],
-    "value_chain_position": "Midstream + 음료 개발 및 마케팅에 집중하며, 생산 및 유통은 파트너사와 협력합니다.",
+    "value_chain_position": "Downstream + 음료 제품을 개발, 마케팅하며 주로 유통업체를 통해 최종 소비자에게 판매합니다.",
     "products": [
-      "몬스터 에너지",
-      "총 신체 연료를 지배하십시오",
-      "NOS",
-      "자바 몬스터",
+      "Monster Energy (에너지 음료)",
+      "Reign Total Body Fuel (고성능 에너지 음료)",
+      "NOS (에너지 음료)",
+      "Java Monster (커피 에너지 음료)",
       "Jai Alai IPA (크래프트 맥주)",
-      "와일드 베이슨 하드 셀처"
+      "Wild Basin Hard Seltzers (하드 셀처)"
     ],
     "channels": [
       "B2B (보틀러/유통업체)",
-      "B2C (소매점: 식료품점, 편의점, 클럽 스토어 등)",
-      "전자상거래",
-      "푸드 서비스"
+      "B2C (직접 소매점 판매)",
+      "도매 (클럽 스토어, 대형 할인점)",
+      "전자상거래"
     ],
-    "key_customers": "주로 보틀러/유통업체를 통해 판매하며, 특정 소매 체인에는 직접 판매하여 고객 집중도는 분산되어 있습니다."
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 광범위한 유통 채널을 통해 다양한 소매점 및 소비자에게 판매됩니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -114,7 +114,6 @@
       0.53,
       0.5,
       0.45,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -123,7 +122,6 @@
       2197139000.0,
       2111593000.0,
       1854558000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -132,8 +130,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 28.6,
     "sales_yoy_pct": 26.9,
@@ -141,143 +138,146 @@
     "roe_pct": 26.65
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "76.8 billion (2025년 미국 국내 '대체 음료' 시장 도매 판매액 추정치, Beverage Marketing Corporation)",
-    "tam_cagr_pct": "2.4% (2024년 대비 2025년 미국 국내 '대체 음료' 시장 성장률 추정치, Beverage Marketing Corporation)",
+    "tam_estimate_usd_b": "76.8 billion (2025년 미국 국내 대체 음료 시장 도매 판매액 추정치, Beverage Marketing Corporation)",
+    "tam_cagr_pct": "2.4% (2024년 대비 2025년 미국 국내 대체 음료 시장 성장률, Beverage Marketing Corporation)",
     "growth_drivers": [
-      "에너지 드링크 시장의 지속적인 성장 및 소비자 선호도 증가",
-      "다양한 맛과 기능성 제품 출시를 통한 소비자층 확대 (예: Ultra, Rehab, Nitro 등)",
-      "고성능 에너지 드링크 (Reign, Bang) 및 웰니스 에너지 드링크 (Reign Storm) 등 세분화된 시장 공략",
-      "크래프트 맥주, FMB, 하드 셀처 등 주류 시장으로의 사업 확장",
-      "글로벌 시장 확장을 통한 성장 기회 모색"
+      "다양한 에너지 드링크 브랜드 포트폴리오를 통한 소비자 니즈 충족 (Monster Energy, Reign, Bang Energy 등)",
+      "크래프트 맥주, FMB, 하드 셀처 등 알코올 음료 시장으로의 확장",
+      "전 세계적인 에너지 드링크 수요 증가 및 신흥 시장 침투",
+      "건강 및 웰니스 트렌드에 맞춘 '토탈 웰니스 에너지 드링크' (Reign Storm) 출시",
+      "코카콜라 컴퍼니와의 전략적 제휴를 통한 유통망 확장 및 시너지 효과"
     ],
-    "market_share_pct": "미공개 (다만, 에너지 드링크 시장의 주요 선두 주자 중 하나)",
+    "market_share_pct": "미국 에너지 드링크 시장 내 선두권 (정확한 수치 미제공, Red Bull과 경쟁)",
     "competitors": [
       {
-        "name": "Red Bull GmbH",
-        "differentiation": "독점적인 브랜드 이미지, 스포츠 마케팅을 통한 강력한 포지셔닝, 프리미엄 가격 전략"
+        "name": "Red Bull",
+        "differentiation": "독보적인 브랜드 이미지와 스포츠 마케팅을 통한 프리미엄 포지셔닝"
       },
       {
-        "name": "PepsiCo, Inc. (Rockstar, Gatorade 등)",
-        "differentiation": "광범위한 유통망, 다양한 음료 포트폴리오, 기존 브랜드 파워를 활용한 시장 침투"
+        "name": "PepsiCo (Rockstar)",
+        "differentiation": "광범위한 유통망과 다양한 음료 포트폴리오를 활용한 시장 침투"
       },
       {
-        "name": "The Coca-Cola Company (Bodyarmor, Powerade 등)",
-        "differentiation": "세계적인 유통망과 브랜드 인지도, 다양한 음료 카테고리에서의 강력한 입지, 전략적 파트너십 (몬스터 지분 보유)"
+        "name": "Coca-Cola Company (NOS, Full Throttle 등)",
+        "differentiation": "글로벌 유통망과 강력한 브랜드 인지도를 바탕으로 한 시장 지배력 (MNST는 TCCC로부터 일부 브랜드 인수)"
       },
       {
-        "name": "Celsius Holdings, Inc.",
-        "differentiation": "건강 및 피트니스에 초점을 맞춘 기능성 에너지 드링크, 천연 성분 강조"
+        "name": "Bang Energy (MNST가 인수)",
+        "differentiation": "피트니스 및 운동 전 음료 시장에 특화된 고성능 에너지 드링크"
+      },
+      {
+        "name": "Celsius Holdings",
+        "differentiation": "건강 지향적인 성분과 피트니스 커뮤니티를 타겟으로 한 차별화"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (음료 시장 진입 장벽은 낮으나, 에너지 드링크 시장은 강력한 브랜드와 유통망 구축에 상당한 자본과 시간이 소요됨)",
-      "substitutes": "high (커피, 차, 탄산음료, 스포츠 드링크 등 다양한 대체 음료가 존재하며, 소비자의 선택 폭이 넓음)",
-      "buyer_power": "medium (대형 유통업체 및 소매업체의 협상력이 존재하나, 강력한 브랜드 인지도는 구매자 협상력을 일부 상쇄함)",
-      "supplier_power": "low (원재료 공급처가 다양하고, 대량 구매를 통해 공급자 협상력을 낮출 수 있음)",
-      "rivalry": "high (에너지 드링크 시장은 Red Bull, PepsiCo, Coca-Cola 등 강력한 경쟁자들이 치열하게 경쟁하고 있으며, 신제품 출시 및 마케팅 경쟁이 활발함)"
+      "new_entrants": "medium + 에너지 드링크 시장은 브랜드 충성도가 높고 유통망 확보가 중요하지만, 틈새시장 공략 및 건강 지향 트렌드를 활용한 신규 진입 가능성은 존재함.",
+      "substitutes": "high + 커피, 차, 탄산음료, 스포츠 드링크 등 다양한 대체 음료가 존재하며, 소비자의 기호에 따라 쉽게 전환될 수 있음.",
+      "buyer_power": "medium + 대형 유통업체(마트, 편의점 등)의 구매력은 높지만, MNST의 강력한 브랜드 파워와 소비자 선호도로 인해 일정 수준의 가격 결정력을 유지함.",
+      "supplier_power": "low + 원재료(설탕, 카페인, 향료 등) 공급처가 다양하고 표준화되어 있어 공급업체의 협상력은 낮은 편임.",
+      "rivalry": "high + Red Bull, PepsiCo 등 강력한 경쟁사들이 존재하며, 치열한 마케팅, 신제품 출시, 가격 경쟁이 상시적으로 발생함."
     },
     "competitive_advantages": [
-      "강력하고 다양한 브랜드 포트폴리오 (Monster Energy, Reign, Bang, NOS 등)",
-      "The Coca-Cola Company와의 전략적 유통 파트너십 (글로벌 유통망 활용)",
-      "혁신적인 제품 개발 및 시장 트렌드에 맞는 신제품 출시 능력",
-      "효과적인 마케팅 및 스폰서십 활동을 통한 강력한 브랜드 이미지 구축",
-      "주류 시장 (크래프트 맥주, FMB, 하드 셀처)으로의 사업 다각화"
+      "다양하고 강력한 브랜드 포트폴리오 (Monster Energy, Reign, Bang Energy 등)를 통한 시장 지배력",
+      "코카콜라 컴퍼니와의 전략적 유통 파트너십을 통한 글로벌 시장 접근성 및 효율적인 유통망",
+      "지속적인 신제품 개발 및 혁신을 통한 소비자 트렌드 선도 (예: Reign Storm)",
+      "알코올 음료 시장으로의 성공적인 확장을 통한 새로운 성장 동력 확보",
+      "강력한 마케팅 및 스폰서십 활동을 통한 브랜드 인지도 및 소비자 충성도 구축"
     ],
     "competitive_weaknesses": [
-      "에너지 드링크 시장에 대한 높은 의존도 (주력 사업)",
-      "건강 및 안전 문제에 대한 규제 및 소비자 인식 변화에 취약",
-      "주요 경쟁사 대비 제한적인 글로벌 유통망 (코카콜라 파트너십에도 불구하고)",
-      "원재료 가격 변동 및 공급망 리스크에 노출 가능성",
-      "주류 사업 부문의 경쟁 심화 및 규제 환경 변화 리스크"
+      "주요 에너지 드링크 브랜드에 대한 높은 매출 의존도",
+      "건강 및 웰니스 트렌드에 따른 설탕 함유 음료에 대한 부정적 인식 증가",
+      "규제 환경 변화 (특히 카페인 함량 및 마케팅 관련)에 대한 잠재적 위험",
+      "원재료 가격 변동 및 공급망 불안정성에 대한 노출",
+      "경쟁사들의 공격적인 마케팅 및 신제품 출시에 대한 지속적인 대응 필요"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 75,
-    "score": 78.6,
-    "vcp_quality": 12.3,
-    "stage": 2,
-    "stage_name": "Advancing",
-    "peg_ratio": 2.7213,
-    "trailing_pe": 45.74879,
-    "forward_pe": 36.597477,
-    "ev_to_ebitda": 31.442,
-    "price_to_sales": 10.532989,
+    "score": 69.9,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 2.8349,
+    "trailing_pe": 47.149757,
+    "forward_pe": 37.718204,
+    "ev_to_ebitda": 32.797,
+    "price_to_sales": 10.855541,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 20.04,
-    "outperform_6m_vs_nasdaq": 14.87,
-    "outperform_1m_vs_nasdaq": 12.41,
+    "outperform_1y_vs_nasdaq": 25.74,
+    "outperform_6m_vs_nasdaq": 15.78,
+    "outperform_1m_vs_nasdaq": 15.26,
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "MNST는 Monster Energy®, Reign Total Body Fuel®, NOS® 등 강력한 브랜드 포트폴리오를 보유하고 있으며, 이는 소비자 인지도와 충성도를 높여 경쟁 우위를 확보합니다. (10-K ITEM 1. BUSINESS)",
-      "다양한 에너지 드링크 브랜드 외에도 크래프트 맥주, FMB, 하드 셀처 등 주류 시장으로 사업을 확장하여 브랜드 가치를 다각화하고 있습니다. (10-K ITEM 1. BUSINESS)",
-      "코카콜라 컴퍼니와의 전략적 제휴를 통해 유통망을 강화하고 있으며, 이는 신규 진입 기업이 쉽게 모방하기 어려운 강력한 유통 경쟁력을 제공합니다. (10-K ITEM 1. BUSINESS - Strategic Brands segment)"
+      "Monster Energy®, Reign Total Body Fuel®, NOS® 등 강력한 브랜드 포트폴리오를 통해 소비자 인지도를 높이고 충성도를 확보하고 있습니다.",
+      "에너지 드링크 시장에서 선도적인 위치를 차지하며, 다양한 브랜드와 제품군으로 시장 점유율을 유지하고 있습니다.",
+      "코카콜라 컴퍼니와의 전략적 파트너십을 통해 강력한 유통망을 확보하고 있으며, 이는 신규 경쟁자의 진입 장벽으로 작용합니다."
     ],
     "moat_durability_years": "10년 이상",
-    "new_trigger": "주류 시장 확장 및 신규 에너지 드링크 브랜드 'Reign Storm®' 출시",
-    "bull_case": "글로벌 시장 점유율 확대 및 주류 사업 성공으로 3년간 EPS 20% 이상 성장",
-    "base_case": "에너지 드링크 시장의 견고한 성장과 신제품 출시 효과로 안정적인 매출 및 이익 성장 지속",
-    "bear_case": "경쟁 심화, 규제 강화, 소비자 선호도 변화로 인한 시장 점유율 하락 및 수익성 악화",
+    "new_trigger": "알코올 브랜드 포트폴리오 확장 및 신규 에너지 드링크 제품 출시",
+    "bull_case": "글로벌 시장 확장 가속화 및 신제품 성공으로 매출 및 이익 성장률이 시장 예상치를 상회할 것입니다.",
+    "base_case": "에너지 드링크 시장의 견고한 성장과 신규 시장 진출을 통해 안정적인 매출 및 이익 성장을 지속할 것입니다.",
+    "bear_case": "경쟁 심화, 규제 강화 또는 소비자 선호도 변화로 인해 시장 점유율이 하락하고 수익성이 악화될 수 있습니다.",
     "key_metrics_to_watch": [
-      "글로벌 시장 점유율 변화",
-      "신제품 매출 기여도",
-      "주류 사업 부문 성장률",
-      "마케팅 및 유통 비용 효율성"
+      "글로벌 매출 성장률",
+      "신제품 출시 및 시장 반응",
+      "알코올 브랜드 부문 성장률",
+      "영업이익률 (OPM)",
+      "주당순이익 (EPS) 성장률"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "고객집중도",
-        "description": "몬스터의 미래 성과는 코카콜라 컴퍼니(TCCC)와의 관계 성공에 크게 의존하며, TCCC 유통망에 대한 의존도가 높습니다.",
+        "description": "코카콜라 컴퍼니(TCCC)와의 광범위한 상업적 계약으로 인해, 몬스터의 미래 성과는 TCCC와의 관계 성공에 크게 의존합니다.",
         "severity": "high"
       },
       {
         "category": "경쟁",
-        "description": "에너지 드링크 시장의 경쟁 심화와 음료 산업 전반의 경쟁 증가는 몬스터의 사업 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "규제",
-        "description": "에너지 드링크, 알코올 음료, 데이터 보호 및 광고 관련 정부 규제 변경 또는 미준수는 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "에너지 드링크 카테고리 내 경쟁 심화 및 음료 산업 전반의 경쟁 증가는 몬스터의 사업 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "공급망",
-        "description": "원자재(알루미늄 캔, 재료, 연료 등) 비용 상승, 공동 포장 비용 증가 및 관세 인상을 소비자에게 전가하지 못하면 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "주로 병입업체 및 계약 포장업체에 생산을 의존하며, 이들과의 관계 유지 실패 또는 생산 능력 제약은 사업에 타격을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "에너지 드링크, 데이터 보호, 광고 등 정부 규제 변경 또는 기존 규제 미준수는 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거시",
-        "description": "소비자 제품 및 쇼핑 선호도 변화는 몬스터 제품에 대한 수요를 감소시킬 수 있으며, 이는 사업에 부정적인 영향을 미칩니다.",
+        "description": "원자재(알루미늄 캔, 재료, 연료), 공동 포장 비용 및 관세 증가를 소비자에게 전가하지 못할 경우, 비용 기반이 높아져 사업 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "내부자 또는 TCCC의 통제 조항으로 인해 다른 주주에게 이익이 되는 경우에도 경영권 변경이 방지될 수 있습니다.",
+        "category": "거시",
+        "description": "소비자 제품 및 쇼핑 선호도 변화는 몬스터 제품에 대한 수요를 감소시킬 수 있습니다.",
         "severity": "low"
       },
       {
-        "category": "재무",
-        "description": "환율 변동은 몬스터의 운영 결과에 부정적인 영향을 미칠 수 있으며, 이는 국제 사업 확장에 따른 위험입니다.",
+        "category": "거시",
+        "description": "제품에 대한 비판이나 부정적인 인식(정확성 여부와 무관하게)은 몬스터에 전반적으로 부정적인 영향을 미칠 수 있습니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "코카콜라 컴퍼니(TCCC)와의 유통 계약이 해지되거나 관계가 심각하게 악화되어 글로벌 유통망이 붕괴될 경우 회사가 망할 수 있습니다.",
-      "에너지 드링크에 대한 부정적인 여론이 확산되고 정부의 강력한 규제(판매 금지 등)가 도입되어 주력 제품의 매출이 급감할 경우 회사가 망할 수 있습니다.",
-      "주요 원자재 공급망이 완전히 마비되거나 원가 상승분을 소비자에게 전혀 전가하지 못하여 지속적인 적자가 발생할 경우 회사가 망할 수 있습니다.",
-      "대규모 제품 리콜 사태가 발생하고 브랜드 이미지가 치명적으로 손상되어 시장 점유율을 완전히 상실할 경우 회사가 망할 수 있습니다."
+      "코카콜라 컴퍼니(TCCC)와의 유통 계약이 중단되거나 심각하게 악화되어 주요 시장 접근성을 상실하는 경우.",
+      "에너지 드링크 제품에 대한 정부의 강력한 규제(예: 판매 금지 또는 연령 제한)가 전 세계적으로 확산되어 핵심 사업 모델이 붕괴되는 경우.",
+      "소비자 선호도가 에너지 드링크에서 급격히 멀어지거나, 제품 안전성에 대한 대규모 부정적 여론 및 소송으로 인해 브랜드 이미지가 회복 불가능하게 손상되는 경우."
     ],
     "exit_signals": [
-      "TCCC와의 유통 계약 조건이 몬스터에게 불리하게 변경되거나 계약이 해지된다는 공식 발표.",
-      "주요 시장에서 에너지 드링크에 대한 판매 금지 또는 연령 제한 등 강력한 정부 규제가 도입된다는 발표.",
-      "경쟁사의 신제품 출시로 몬스터의 시장 점유율이 5% 이상 급락하고 매출 성장률이 마이너스로 전환.",
-      "원자재 비용 상승분을 소비자에게 전가하지 못하여 2분기 연속 영업이익률이 5%p 이상 하락."
+      "TCCC와의 유통 계약 조건이 몬스터에 불리하게 변경되거나, TCCC 네트워크 내에서 몬스터 제품의 유통 우선순위가 현저히 낮아지는 공식 발표.",
+      "주요 시장에서 에너지 드링크 판매에 대한 새로운 규제(예: 높은 세금, 광고 제한, 연령 제한 확대)가 도입되거나, 제품 성분에 대한 대규모 리콜이 발생하는 경우.",
+      "몬스터의 시장 점유율이 3분기 연속으로 5% 이상 하락하거나, 신제품 출시가 시장에서 지속적으로 실패하여 성장 동력을 상실하는 경우."
     ]
   },
   "wikipedia_summary": "Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless, Reign and Burn. The company was originally founded as Hansen's in 1935 in Southern California, originally selling juice products. The company renamed itself as Monster Beverage in 2012.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-03T00:16:50.823227+00:00"
+    "GoogleWebTranslator": "2026-07-04T00:24:25.047975+00:00"
   }
 }

@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-07-03T00:15:21.937216+00:00",
+  "generated_at": "2026-07-04T00:21:45.754855+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -14,36 +14,26 @@
     "employees": 494,
     "country": "United States",
     "website": "https://www.a10networks.com",
-    "beta": 1.181
+    "beta": 1.14
   },
   "category_a_business": {
-    "overview": "A10 네트웍스는 기업 및 서비스 제공업체에 보안 애플리케이션 및 네트워크 인프라 솔루션을 제공합니다.",
-    "milestones": [
-      "2004: Foundry Networks 공동 설립자 Lee Chen이 A10 Networks 설립",
-      "2007: 대역폭 관리 어플라이언스 제품군 추가",
-      "2014: 나스닥 상장 (IPO)",
-      "2025: ThreatX Protect 자산 및 인력 인수 (클라우드 기반 WAF/API 보호 강화)"
-    ],
-    "business_model": "보안 네트워킹 및 사이버 보안 솔루션 판매와 유지보수 서비스로 수익을 창출합니다.",
-    "revenue_streams": [
-      "보안 네트워킹 솔루션 판매",
-      "사이버 보안 솔루션 판매",
-      "유지보수 및 지원 서비스",
-      "구독 및 기간제 소프트웨어 라이선스"
-    ],
-    "value_chain_position": "Midstream: 네트워크 인프라 및 보안 솔루션 개발 및 공급을 통해 고객의 디지털 서비스 운영을 지원합니다.",
+    "overview": "A10 Networks, Inc.는 미국, 기타 아메리카 지역, 일본, 기타 아시아 태평양 지역, 유럽, 중동 및 아프리카에 보안 애플리케이션 및 네트워크 인프라 솔루션을 제공합니다. 이 회사는 웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품을 제공합니다. A10 네트워크 전반의 이상 탐지 제품인 Defend DDoS Detector; A10 방어, 오케스트레이션 및 관리 제품인 DDoS Orchestrator를 방어합니다. A10 자동화된 완화 제품인 DDoS Mitigator를 방어합니다. A10 공격 SaaS 플랫폼인 Defend Threat Control; 통합 앱인 Next-Gen WAF를 방어하세요.",
+    "business_model": "A10 네트웍스, Inc.",
     "products": [
-      "ThreatX (웹 애플리케이션 보호 플랫폼)",
-      "A10 Defend DDoS (DDoS 탐지 및 완화 솔루션)",
-      "A10 Thunder ADC (애플리케이션 전송 컨트롤러)",
-      "A10 Thunder CFW (통합 네트워크 보안 플랫폼)",
-      "A10 Control (중앙 집중식 관리 및 분석)"
+      "미국, 미주 나머지 지역, 일본, 나머지 A 국가의 보안 애플리케이션 및 네트워크 인프라 솔루션",
+      "웹 애플리케이션 보호 플랫폼인 ThreatX와 같은 보안 제품",
+      "A10 Thunder ADC, 애플리케이션 딜리버리 컨트롤러 및 로드 밸런서를 포함한 인프라 제품",
+      "중앙 집중식 관리, 제어 및 분석 플랫폼인 A10 Control로 구성된 중앙 집중식 관리 및 분석"
     ],
     "channels": [
-      "B2B (직접 판매)",
-      "B2B (채널 파트너)"
+      "B2B / 기업"
     ],
-    "key_customers": "다양한 산업(통신, 기술, 금융, 공공 등)의 기업 및 서비스 제공업체에 분산되어 있습니다."
+    "wikipedia_excerpt": "A10 Networks, Inc.는 애플리케이션 제공 컨트롤러 제조를 전문으로 하는 미국의 공개 회사입니다. Foundry Networks의 공동 창업자인 Lee Chen이 2004년에 설립한 A10은 원래 ID 시리즈 제품 라인을 통해 ID 관리 시장에만 서비스를 제공했습니다. 2007년 초에 대역폭 관리 장비를 추가했습니다. 회사는 2014년 3월 21일에 기업공개(IPO)를 통해 1억 8,750만 달러를 모금했습니다.",
+    "milestones": [
+      "2004년: Foundry Networks의 공동 창업자인 Lee Chen에 의해 A10은 원래 ID 관리 서비스만 제공했습니다.",
+      "2007: , 대역폭 관리 어플라이언스를 추가했습니다.",
+      "2014년: , $187 모금"
+    ]
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -53,7 +43,7 @@
     "gross_margin": 0.79,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": 0.29,
-    "dividend_yield": 0.63,
+    "dividend_yield": 0.66,
     "payout_ratio": 0.39,
     "annual_revenue": [
       290557000.0,
@@ -195,6 +185,6 @@
   },
   "wikipedia_summary": "A10 Networks, Inc. is an American public company specializing in the manufacturing of application delivery controllers. Founded in 2004 by Lee Chen, co-founder of Foundry Networks, A10 originally serviced just the identity management market with its line of ID Series products. In early 2007, they added bandwidth management appliances. The company had its initial public offering on March 21, 2014, raising $187.5 million.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-03T00:16:36.279256+00:00"
+    "GoogleWebTranslator": "2026-07-04T00:24:10.234227+00:00"
   }
 }

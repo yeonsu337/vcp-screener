@@ -1,21 +1,17 @@
 {
-  "updated_at": "2026-07-03T00:08:49.295615+00:00",
+  "updated_at": "2026-07-04T00:13:57.390799+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_vix",
         "name": "VIX (S&P500 변동성지수)",
-        "value": 16.15,
-        "prev": 16.59,
-        "change_pct": -2.65,
+        "value": 15.81,
+        "prev": 16.15,
+        "change_pct": -2.11,
         "unit": "pt",
         "source": "Yahoo Finance ^VIX",
-        "asof": "2026-07-02",
+        "asof": "2026-07-03",
         "series": [
-          {
-            "time": "2025-07-02",
-            "value": 16.64
-          },
           {
             "time": "2025-07-03",
             "value": 16.38
@@ -1023,6 +1019,10 @@
           {
             "time": "2026-07-02",
             "value": 16.15
+          },
+          {
+            "time": "2026-07-03",
+            "value": 15.81
           }
         ],
         "signal": "neutral",
@@ -1031,17 +1031,13 @@
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 31.4,
-        "prev": 31.9,
-        "change_pct": -1.52,
+        "value": 31.9,
+        "prev": 31.4,
+        "change_pct": 1.45,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-07-02",
+        "asof": "2026-07-03",
         "series": [
-          {
-            "time": "2025-07-03",
-            "value": 77.63
-          },
           {
             "time": "2025-07-07",
             "value": 75.09
@@ -2040,11 +2036,15 @@
           },
           {
             "time": "2026-07-02",
-            "value": 31.43
+            "value": 34.06
           },
           {
-            "time": "2026-07-02",
-            "value": 31.43
+            "time": "2026-07-03",
+            "value": 34.06
+          },
+          {
+            "time": "2026-07-03",
+            "value": 31.89
           }
         ],
         "signal": "neutral",
@@ -16727,17 +16727,13 @@
       {
         "id": "us_dxy",
         "name": "DXY 달러 인덱스",
-        "value": 100.97,
-        "prev": 101.39,
-        "change_pct": -0.41,
+        "value": 100.86,
+        "prev": 100.86,
+        "change_pct": -0.0,
         "unit": "pt",
         "source": "ICE Futures",
-        "asof": "2026-07-02",
+        "asof": "2026-07-03",
         "series": [
-          {
-            "time": "2025-07-02",
-            "value": 96.78
-          },
           {
             "time": "2025-07-03",
             "value": 97.18
@@ -17740,7 +17736,11 @@
           },
           {
             "time": "2026-07-02",
-            "value": 100.971
+            "value": 100.86
+          },
+          {
+            "time": "2026-07-03",
+            "value": 100.857
           }
         ],
         "signal": "neutral",
@@ -19227,12 +19227,12 @@
       {
         "id": "kr_kospi_vol",
         "name": "KOSPI 21일 변동성 (연환산)",
-        "value": 73.57,
-        "prev": 53.04,
-        "change_pct": 38.72,
+        "value": 78.26,
+        "prev": 53.17,
+        "change_pct": 47.2,
         "unit": "% (연환산)",
         "source": "yfinance ^KS11 derived",
-        "asof": "2026-07-01",
+        "asof": "2026-07-03",
         "series": [
           {
             "time": "2025-08-01",
@@ -20121,6 +20121,10 @@
           {
             "time": "2026-07-01",
             "value": 73.57
+          },
+          {
+            "time": "2026-07-02",
+            "value": 78.26
           }
         ],
         "signal": "bearish",
@@ -20129,12 +20133,12 @@
       {
         "id": "kr_kosdaq_kospi_ratio",
         "name": "KOSDAQ/KOSPI 상대강도 (1년 정규화)",
-        "value": 0.44,
-        "prev": 0.425,
-        "change_pct": 3.55,
+        "value": 0.445,
+        "prev": 0.44,
+        "change_pct": 1.25,
         "unit": "비율",
         "source": "yfinance derived",
-        "asof": "2026-07-01",
+        "asof": "2026-07-02",
         "series": [
           {
             "time": "2025-07-03",
@@ -21107,6 +21111,10 @@
           {
             "time": "2026-07-01",
             "value": 0.4396
+          },
+          {
+            "time": "2026-07-02",
+            "value": 0.4452
           }
         ],
         "signal": "bearish",
@@ -22833,21 +22841,13 @@
       {
         "id": "kr_kospi_trend",
         "name": "KOSPI vs SMA200",
-        "value": 54.91,
+        "value": NaN,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
         "source": "Yahoo Finance ^KS11",
-        "asof": "2026-07-01",
+        "asof": "2026-07-03",
         "series": [
-          {
-            "time": "2024-12-27",
-            "value": 2404.77
-          },
-          {
-            "time": "2024-12-30",
-            "value": 2399.49
-          },
           {
             "time": "2025-01-02",
             "value": 2398.94
@@ -24299,17 +24299,25 @@
           {
             "time": "2026-07-01",
             "value": 8303.41
+          },
+          {
+            "time": "2026-07-02",
+            "value": 7648.09
+          },
+          {
+            "time": "2026-07-03",
+            "value": NaN
           }
         ],
-        "signal": "bullish",
-        "note": "SMA200 위 = Stage 2 추세"
+        "signal": "bearish",
+        "note": "SMA200 아래 = Stage 4 하락"
       },
       {
         "id": "kr_usdkrw",
         "name": "USD/KRW 환율",
-        "value": 1547.08,
+        "value": 1530.15,
         "prev": 1551.81,
-        "change_pct": -0.3,
+        "change_pct": -1.4,
         "unit": "₩",
         "source": "Yahoo Finance KRW=X",
         "asof": "2026-07-03",
@@ -25352,7 +25360,7 @@
           },
           {
             "time": "2026-07-03",
-            "value": 1547.08
+            "value": 1530.15
           }
         ],
         "signal": "bearish",
