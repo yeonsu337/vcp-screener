@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-07-04T00:20:44.135645+00:00",
+  "generated_at": "2026-07-07T00:21:29.845697+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 77757325312,
+    "market_cap": 78528036864,
     "shares_outstanding": 291936635,
     "employees": 18500,
     "country": "United States",
@@ -128,19 +128,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 75,
-    "score": 53.6,
+    "score": 54.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.3139,
-    "trailing_pe": 17.546114,
-    "forward_pe": 11.102515,
+    "peg_ratio": 1.3213,
+    "trailing_pe": 17.720026,
+    "forward_pe": 11.21256,
     "ev_to_ebitda": 11.367,
-    "price_to_sales": 0.57197213,
+    "price_to_sales": 0.57764137,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 31.92,
-    "outperform_6m_vs_nasdaq": 53.72,
-    "outperform_1m_vs_nasdaq": 5.91,
+    "outperform_1y_vs_nasdaq": 29.11,
+    "outperform_6m_vs_nasdaq": 54.48,
+    "outperform_1m_vs_nasdaq": 3.4,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -162,7 +162,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "기존 및 잠재적 미래 데이터 개인정보 보호법은 규정 준수, 모니터링 및 통제 의무를 점점 더 복잡하게 만들고 잠재적으로 비용과 위험 노출을 증가시킬 수 있습니다.",
+        "description": "기존 및 잠재적 미래 데이터 개인 정보 보호법은 규정 준수, 모니터링 및 통제 의무를 점점 더 복잡하게 만들고 잠재적으로 비용과 위험 노출을 증가시킬 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -172,7 +172,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "내부적으로 개발되었거나 제3자 서비스 제공업체를 통해 조달된 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
+        "description": "내부적으로 개발했든 타사 서비스 제공업체를 통해 조달했든 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-04T00:24:38.656673+00:00"
+    "GoogleWebTranslator": "2026-07-07T00:23:06.045803+00:00"
   }
 }

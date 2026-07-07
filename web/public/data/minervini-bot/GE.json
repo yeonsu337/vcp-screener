@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "GE",
-  "generated_at": "2026-07-04T00:14:06.523655+00:00",
-  "source_results_date": "2026-07-04",
+  "generated_at": "2026-07-07T00:13:21.588863+00:00",
+  "source_results_date": "2026-07-07",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.64,
+  "confidence": 0.65,
   "lines": [
-    "추격 위험 — Pivot $319.14 대비 +18.3%, buy zone 초과.",
-    "13주 베이스 15.7% → 9.2%, VDU 0.93× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 70로 추세는 살아있음.",
+    "추격 위험 — Pivot $331.88 대비 +14.1%, buy zone 초과.",
+    "13주 베이스 14.9% → 15.7% → 9.2%, VDU 0.77× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 73로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 70,
+    "rs_rating": 73,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -48,10 +48,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.25% vs 6.5%)",
-    "P3_vol_dryup (0.93× vs 0.6×)",
+    "P3_vol_dryup (0.77× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [
-    "RS 70 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 73 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

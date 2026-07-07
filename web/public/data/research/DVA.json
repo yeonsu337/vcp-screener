@@ -1,0 +1,189 @@
+{
+  "ticker": "DVA",
+  "company": "DaVita Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
+  "generated_at": "2026-07-07T00:17:56.877650+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 15129047040,
+    "shares_outstanding": 64185000,
+    "employees": 78000,
+    "country": "United States",
+    "website": "https://www.davita.com",
+    "beta": 0.882
+  },
+  "category_a_business": {
+    "overview": "DaVita는 만성 신부전 및 말기 신장 질환 환자에게 신장 투석 서비스를 제공하는 선도적인 의료 서비스 기업입니다.",
+    "milestones": [
+      "1994: DaVita Inc. 설립",
+      "2016: DaVita HealthCare Partners Inc.에서 DaVita Inc.로 사명 변경",
+      "현재: 미국 내 2,600개 이상, 해외 14개국에 580개 이상의 외래 투석 센터 운영"
+    ],
+    "business_model": "신장 투석 및 관련 통합 신장 관리 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "외래 투석 서비스",
+      "관련 실험실 서비스",
+      "통합 신장 관리 서비스",
+      "병원 입원 및 재택 혈액 투석 서비스",
+      "임상 연구 프로그램"
+    ],
+    "value_chain_position": "Downstream + 환자에게 직접 의료 서비스를 제공하는 최종 단계에 위치합니다.",
+    "products": [
+      "혈액 투석 서비스",
+      "복막 투석 서비스",
+      "신장 관련 진단 검사",
+      "만성 신장 질환 관리 프로그램",
+      "신장 이식 지원 서비스"
+    ],
+    "channels": [
+      "B2C (외래 투석 센터)",
+      "B2B (병원 및 요양 시설)",
+      "D2C (재택 투석 서비스)"
+    ],
+    "key_customers": "주로 만성 신부전 및 말기 신장 질환 환자이며, 특정 고객에 대한 매출 집중도는 낮습니다."
+  },
+  "category_b_financials": {
+    "eps_qoq_yoy_pct": 21.2,
+    "sales_yoy_pct": 6.0,
+    "ni_cagr_3y_pct": 10.04,
+    "roe_pct": 80.98
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 100-120 billion USD (추정치, 미국 신장 질환 시장 규모 및 글로벌 확장 가능성 고려)",
+    "tam_cagr_pct": "5-7% (추정치, 만성 신장 질환(CKD) 및 말기 신장 질환(ESKD) 유병률 증가, 고령화, 당뇨 및 고혈압 등 동반 질환 증가에 기인)",
+    "growth_drivers": [
+      "만성 신장 질환(CKD) 및 말기 신장 질환(ESKD) 유병률의 지속적인 증가",
+      "글로벌 인구 고령화 및 당뇨, 고혈압 등 신장 질환 관련 동반 질환 증가",
+      "신장 질환 관리 및 치료 기술의 발전 및 혁신 (예: 재택 투석, 통합 케어 모델)",
+      "예방 및 조기 진단에 대한 인식 증가 및 정부 정책 지원 확대"
+    ],
+    "market_share_pct": "미국 투석 시장의 약 35-40% (추정치, 주요 경쟁사와의 점유율 비교 및 회사 규모 고려)",
+    "competitors": [
+      {
+        "name": "Fresenius Medical Care",
+        "differentiation": "글로벌 시장에서 가장 큰 투석 서비스 및 제품 공급업체로, 수직 통합된 비즈니스 모델 보유"
+      },
+      {
+        "name": "U.S. Renal Care",
+        "differentiation": "주로 미국 내에서 투석 서비스를 제공하며, 의사 파트너십 모델을 통해 성장"
+      },
+      {
+        "name": "American Renal Associates",
+        "differentiation": "의사 소유 투석 센터에 중점을 두며, 지역별로 강력한 입지 구축"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (높은 초기 투자 비용, 복잡한 규제 환경, 기존 플레이어의 강력한 브랜드 및 네트워크)",
+      "substitutes": "low (신장 이식 외에 투석을 대체할 수 있는 치료법이 제한적이며, 신장 이식은 가용성 및 적합성 제약이 큼)",
+      "buyer_power": "medium (환자들은 의료 서비스 제공자를 선택할 수 있지만, 신장 질환의 특성상 전문성과 접근성이 중요하며, 보험사의 영향력이 큼)",
+      "supplier_power": "medium (투석 장비 및 소모품 공급업체는 소수이며, 특정 기술에 대한 의존도가 있을 수 있으나, 규모의 경제를 통해 협상력 확보 가능)",
+      "rivalry": "high (소수의 대형 플레이어가 시장을 지배하며, 환자 유치 및 시장 점유율을 위한 경쟁이 치열함)"
+    },
+    "competitive_advantages": [
+      "미국 내 선도적인 투석 서비스 제공업체로서의 강력한 시장 지위 및 브랜드 인지도",
+      "25년 이상의 임상 품질 및 혁신 리더십을 통한 환자 중심의 통합 신장 관리 서비스 제공",
+      "광범위한 서비스 네트워크 (투석 센터, 재택 투석, 병원, 요양 시설 등 다양한 환경에서 케어 제공)",
+      "예방, 통합 케어, 맞춤형 치료 등 미래 지향적인 케어 모델에 대한 투자 및 비전",
+      "환자 및 직원을 위한 강력한 '돌봄 문화(caring culture)'"
+    ],
+    "competitive_weaknesses": [
+      "정부 규제 및 보험 정책 변화에 대한 높은 의존성 및 취약성",
+      "주요 경쟁사(Fresenius) 대비 글로벌 시장에서의 입지 및 수직 통합 수준이 상대적으로 낮음",
+      "투석 서비스에 대한 높은 의존도로 인한 사업 포트폴리오의 제한성 (다각화 필요성)",
+      "인력 부족 및 의료진 확보 경쟁 심화 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 65.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.7293,
+    "trailing_pe": 22.708094,
+    "forward_pe": 13.718681,
+    "ev_to_ebitda": 10.56,
+    "price_to_sales": 1.0935273,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 37.25,
+    "outperform_6m_vs_nasdaq": 95.09,
+    "outperform_1m_vs_nasdaq": 23.59,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "DaVita는 25년 이상 신장 관리 분야의 선두 주자로서, 만성 신장 질환(CKD) 환자들에게 신장 질환의 진행을 늦추는 것부터 이식 지원에 이르기까지 포괄적인 서비스를 제공합니다. 이는 환자들이 다른 서비스 제공자로 전환하기 어렵게 만드는 높은 전환 비용을 발생시킵니다.",
+      "말기 신장 질환(ESKD) 환자는 생존을 위해 평생 정기적인 투석 치료 또는 신장 이식이 필요합니다. DaVita는 투석 센터, 병원, 요양 시설 등 다양한 환경에서 환자를 지원하며, 이는 환자들이 익숙해진 치료 환경과 관계를 쉽게 포기하기 어렵게 만듭니다.",
+      "DaVita는 '최고의 제공자, 파트너, 고용주'가 되기 위한 사명을 가지고 있으며, 이는 환자들에게 고품질의 통합된 맞춤형 치료를 제공하려는 노력을 반영합니다. 이러한 신뢰와 서비스 품질은 환자들이 다른 제공자로 전환할 때 잃을 수 있는 중요한 가치로 작용합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "예방적이고 통합된 신장 관리 솔루션 확장 및 기술 기반 치료 혁신",
+    "bull_case": "3년 내 EPS 20% 성장, 신장 관리 시장 리더십 강화 및 신규 서비스 확장 성공",
+    "base_case": "DaVita는 안정적인 투석 서비스 수요와 효율적인 운영을 바탕으로 견고한 수익성을 유지할 것입니다. 만성 신장 질환(CKD) 환자 증가와 예방적 관리 서비스 확대를 통해 점진적인 성장을 이룰 것으로 예상됩니다.",
+    "bear_case": "정부 규제 강화, 투석 서비스 수가 인하 압력, 경쟁 심화로 인해 수익성이 악화되고 성장률이 둔화될 수 있습니다. 신규 서비스 도입 지연 또는 실패 시 시장 점유율이 감소할 위험도 있습니다.",
+    "key_metrics_to_watch": [
+      "EPS 성장률",
+      "투석 환자 수 증가율",
+      "운영 현금 흐름",
+      "정부 수가 정책 변화"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "규제",
+        "description": "정부 의료 프로그램(메디케어, 메디케어 어드밴티지, 메디케이드) 참여에 대한 복잡한 법률, 규제 및 기타 요구사항의 변경은 사업에 중대한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "고액 상업 보험 환자 수 또는 비율의 감소와 경쟁력 있는 조건으로 민간 보험사와 계약을 협상하고 유지하는 능력 부족은 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "비용 효율적인 가격으로 공급업체 및 서비스 제공업체 관계를 구축 및 유지하고, 새로운 기술 또는 우수한 제품에 접근하며, 제3자 서비스 제공업체에 대한 의존도 증가에 따른 위험이 존재합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 보건 상황, 인구 통계학적 변화, 악천후 또는 자연재해, 일반적인 경제 및 정치적 상황은 환자 수, 치료량 및 운영 비용에 영향을 미쳐 사업에 중대한 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "성공적으로 경쟁하고, 성장 전략을 실행하며, 환자와 의사를 유치 및 유지하는 능력은 사업 성과에 중요합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "복잡한 개인 정보 보호 및 정보 보안 법규를 준수하고, 데이터 무결성을 유지하며, 사이버 공격으로부터 방어하는 능력은 사업 운영에 필수적입니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "현재 또는 미래의 부채 수준, 부채 상환을 위한 현금 창출 능력, 부채 약정 준수 능력은 재무 건전성에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "정부 의료 프로그램의 보상률이 급격히 인하되거나 규제 환경이 사업 운영을 불가능하게 할 정도로 강화될 경우.",
+      "고액 상업 보험 환자 수가 지속적으로 감소하고 민간 보험사와의 계약 협상에 실패하여 수익성이 크게 악화될 경우.",
+      "심각한 사이버 공격으로 환자 데이터가 유출되거나 핵심 정보 시스템이 마비되어 운영이 중단되고 막대한 법적, 재정적 손실이 발생할 경우.",
+      "만성 신장 질환 치료 패러다임이 급격히 변화하여 투석 서비스 수요가 크게 감소하거나 경쟁사들이 혁신적인 치료법으로 시장을 장악할 경우."
+    ],
+    "exit_signals": [
+      "메디케어 또는 메디케이드 보상률이 예상치를 훨씬 초과하여 10% 이상 인하되는 법안이 통과되거나 시행될 경우.",
+      "상업 보험 환자 비율이 2년 연속 5% 이상 감소하거나, 주요 민간 보험사와의 계약 갱신에 실패하여 수익에 중대한 타격을 입을 경우.",
+      "대규모 데이터 유출 사고가 발생하여 수백만 명의 환자 정보가 유출되고, 이로 인해 대규모 소송 및 규제 벌금이 부과될 경우.",
+      "경쟁사가 투석의 필요성을 현저히 줄이는 신기술 또는 치료법을 상용화하여 시장 점유율이 급격히 하락할 경우."
+    ]
+  },
+  "wikipedia_summary": "DaVita Inc., incorporated in Delaware and headquartered in Denver, provides kidney dialysis services through a network of 2,657 outpatient centers in the United States, serving 200,500 patients, and 585 outpatient centers in 14 other countries serving 94,500 patients. The company primarily treats end-stage renal disease (ESRD), which requires patients to undergo kidney dialysis, often 3 times per week for the rest of their lives unless they receive a kidney transplant via organ donation.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-07-07T00:22:42.291564+00:00"
+  }
+}

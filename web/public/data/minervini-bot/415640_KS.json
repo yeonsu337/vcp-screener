@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "415640.KS",
-  "generated_at": "2026-07-04T00:14:06.529027+00:00",
-  "source_results_date": "2026-07-04",
+  "generated_at": "2026-07-07T00:13:21.594046+00:00",
+  "source_results_date": "2026-07-07",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -45,7 +45,7 @@
   "key_failures": [
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-49.6% vs ≥-5.0%)"
+    "rs_line (-51.0% vs ≥-5.0%)"
   ],
   "warnings": []
 }

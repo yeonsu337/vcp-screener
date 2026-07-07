@@ -216,8 +216,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-02T00:18:36.880436+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-07-07T00:19:05.149464+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "CECO",
@@ -338,6 +338,16 @@
     "primary_total": 13,
     "generated_at": "2026-06-20T00:34:53.544755+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "DVA",
+    "company": "DaVita Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-07-07T00:17:56.877650+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "EBAY",
@@ -464,9 +474,9 @@
     "company": "Granite Construction Incorporated",
     "market": "US",
     "sector": "Industrials",
-    "primary_passed": 13,
+    "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-30T00:13:00.881252+00:00",
+    "generated_at": "2026-07-07T00:15:56.103844+00:00",
     "llm_status": "ok"
   },
   {
@@ -481,12 +491,12 @@
   },
   {
     "ticker": "HWM",
-    "company": "Howmet Aerospace Inc.",
+    "company": "Howmet Aerospace Inc",
     "market": "US",
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-23T00:17:45.028655+00:00",
+    "generated_at": "2026-07-07T00:15:18.330646+00:00",
     "llm_status": "ok"
   },
   {
@@ -666,7 +676,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-04T00:20:44.135645+00:00",
+    "generated_at": "2026-07-07T00:21:29.845697+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -766,7 +776,7 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-04T00:23:51.140886+00:00",
+    "generated_at": "2026-07-07T00:22:31.403341+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -986,7 +996,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-01T00:21:33.296031+00:00",
+    "generated_at": "2026-07-07T00:20:28.758985+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1106,8 +1116,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-27T00:17:33.209835+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-07-07T00:16:35.156694+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WT",
