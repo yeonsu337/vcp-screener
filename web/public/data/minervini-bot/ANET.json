@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "GE",
-  "generated_at": "2026-07-07T00:13:21.588863+00:00",
-  "source_results_date": "2026-07-07",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.65,
+  "ticker": "ANET",
+  "generated_at": "2026-07-08T00:06:12.405795+00:00",
+  "source_results_date": "2026-07-08",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.66,
   "lines": [
-    "추격 위험 — Pivot $331.88 대비 +14.1%, buy zone 초과.",
-    "13주 베이스 14.9% → 15.7% → 9.2%, VDU 0.77× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 73로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 11.68%).",
+    "13주 베이스 18.6% → 9.8% → 24.6% → 7.4% → 18.1%, VDU 0.91×, pivot $179.80(-7.42%).",
+    "Trend Template 8/8 통과, RS 73 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
     "entry_type": "none",
@@ -19,12 +19,12 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "4/8",
+    "vcp_quality_score": "3/8",
     "rs_rating": 73,
     "stage": 2,
     "base_count": 1,
@@ -32,7 +32,6 @@
     "market_regime": "neutral"
   },
   "rule_references": [
-    "A1_ud_vol_ratio",
     "B1_price_above_150_200",
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
@@ -47,9 +46,10 @@
     "H4_ni_cagr_3y"
   ],
   "key_failures": [
-    "P2_last_contraction (9.25% vs 6.5%)",
-    "P3_vol_dryup (0.77× vs 0.6×)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)"
+    "P2_last_contraction (11.68% vs 6.5%)",
+    "P3_vol_dryup (0.91× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "rs_line (-11.1% vs ≥-5.0%)"
   ],
   "warnings": [
     "RS 73 — Minervini 선호 80+ 미달, 강도 평균"

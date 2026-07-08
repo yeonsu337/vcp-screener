@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-07-07T00:20:28.758985+00:00",
+  "generated_at": "2026-07-08T00:15:38.705639+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 56562958336,
+    "market_cap": 58771648512,
     "shares_outstanding": 214643903,
     "employees": 3570,
     "country": "United States",
@@ -17,108 +17,130 @@
     "beta": 0.704
   },
   "category_a_business": {
-    "overview": "북미 전역에서 천연가스, NGL, 원유 인프라 자산을 소유, 운영, 개발하는 선도적인 미드스트림 에너지 기업입니다.",
-    "milestones": [
-      "2005년: Targa Resources Corp. 설립",
-      "2020: 매튜 J. 멜로이(Matthew J. Meloy) CEO",
-      "2023: Gulf Coast Fractionators (GCF) 135 MBbl/d 분별 시설 재가동 합의",
-      "2025: Bull Moose 천연가스 처리 플랜트 가동 시작",
-      "2025: Pembrook II 천연가스 처리 플랜트 가동 시작",
-      "2025: Bull Moose II 천연가스 처리 플랜트 가동 시작",
-      "2025: GCF 분별 시설 가동 시작",
-      "2025: 델라웨어 분지 내 NGL 파이프라인 확장 발표"
-    ],
-    "business_model": "천연가스, NGL, 원유의 수집, 처리, 운송, 저장 서비스를 제공하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "천연가스 수집 및 처리 서비스",
-      "NGL 운송, 저장, 분별 및 마케팅 서비스",
-      "원유 수집, 저장 및 터미널링 서비스",
-      "NGL 제품 구매 및 재판매",
-      "프로판 판매 및 관련 물류 서비스",
-      "NGL 밸런싱 및 운송 서비스"
-    ],
-    "value_chain_position": "Midstream: 유전에서 생산된 천연자원을 최종 시장으로 운송하고 처리하는 핵심 인프라를 제공합니다.",
+    "overview": "Targa Resources Corp.는 자회사와 함께 북미 지역의 보완적인 국내 인프라 자산 포트폴리오를 소유, 운영, 인수 및 개발합니다. 수집 및 가공, 물류 및 운송이라는 두 부문으로 운영됩니다. 이 회사는 천연가스의 수집, 압축, 처리, 처리, 운송 및 판매에 참여합니다. 액화석유가스 수출업체에 대한 서비스를 포함하여 천연가스 액체(NGL) 및 NGL 제품을 저장, 분류, 처리, 운송 및 판매합니다. 원유 수집, 저장, 터미널 처리, 구매 및 판매",
+    "business_model": "Targa Resources Corp.는 자회사와 함께 북미 지역의 보완적인 국내 인프라 자산 포트폴리오를 소유, 운영, 인수 및 개발합니다.",
     "products": [
-      "천연가스 (처리 및 판매)",
-      "천연가스액 (NGL) 및 NGL 제품 (운송, 저장, 분별, 판매)",
-      "원유 (수집, 저장, 터미널링, 판매)",
-      "액화석유가스 (LPG) 수출 서비스",
-      "NGL 밸런싱 서비스"
+      "북미 지역의 보완적인 국내 인프라 자산 포트폴리오",
+      "수집 및 처리, 물류 및 운송이라는 두 가지 부문으로 나뉩니다.",
+      "NGL 밸런싱 서비스",
+      "천연가스"
     ],
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "주로 석유 및 가스 생산자, 정유사, 석유화학 회사, 다국적 소매업체 및 독립 소매업체에 서비스를 제공합니다."
+    "wikipedia_excerpt": "Targa Resources Corp.는 텍사스 휴스턴에 본사를 둔 Fortune 500대 기업입니다. 미드스트림 에너지 인프라 기업인 Targa는 미국에서 천연가스 및 천연가스 액체를 공급하는 최대 인프라 기업 중 하나입니다. 그들의 활동은 전적으로는 아니지만 주로 멕시코만 연안, 특히 텍사스와 루이지애나에 기반을 두고 있습니다. 매튜 J. 멜로이(Matthew J. Meloy)는 2020년부터 CEO를 맡고 있습니다."
   },
   "category_b_financials": {
+    "roe": 0.74,
+    "roa": 0.09,
+    "profit_margin": 0.13,
+    "operating_margin": 0.21,
+    "gross_margin": 0.42,
+    "revenue_growth_ttm": -0.1,
+    "earnings_growth_ttm": 1.43,
+    "dividend_yield": 1.61,
+    "payout_ratio": 0.41,
+    "annual_revenue": [
+      17028300000.0,
+      16381500000.0,
+      16060300000.0,
+      20929800000.0,
+      null
+    ],
+    "annual_operating_income": [
+      3331200000.0,
+      2695400000.0,
+      2626200000.0,
+      1729000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.63,
+      5.87,
+      3.66,
+      3.88,
+      null
+    ],
+    "annual_free_cf": [
+      584100000.0,
+      683900000.0,
+      826200000.0,
+      1046500000.0,
+      null
+    ],
+    "annual_total_debt": [
+      17522000000.0,
+      14265000000.0,
+      13010400000.0,
+      11565000000.0,
+      null
+    ],
+    "annual_equity": [
+      3067900000.0,
+      2592400000.0,
+      2739700000.0,
+      2665700000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.23,
+      2.54,
+      2.2,
+      2.92,
+      0.92,
+      null
+    ],
+    "quarterly_revenue": [
+      4094700000.0,
+      4055500000.0,
+      4151200000.0,
+      4260100000.0,
+      4561500000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 77.3,
     "sales_yoy_pct": -10.2,
     "ni_cagr_3y_pct": 17.17,
     "roe_pct": 74.1
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "2023년 북미 미드스트림 시장 규모 약 1,500억~2,000억 USD (추정치, 에너지 정보국(EIA) 및 산업 보고서 기반)",
-    "tam_cagr_pct": "3~5% (향후 3~5년, 북미 셰일 생산량 증가 및 에너지 전환 과정에서의 천연가스 수요 유지, NGL 수출 증가 추세에 기반)",
-    "growth_drivers": [
-      "북미 셰일 가스 및 원유 생산량 증가 (특히 퍼미안 분지)",
-      "천연가스 및 NGL 수출 수요 증가 (특히 아시아 및 유럽 시장)",
-      "기존 인프라 확장을 통한 처리 및 운송 능력 증대",
-      "에너지 전환 과정에서 천연가스의 교량 연료 역할 지속"
-    ],
-    "market_share_pct": "5-10% (추정치, 북미 미드스트림 시장 내 주요 독립 인프라 회사 중 하나)",
-    "competitors": [
-      {
-        "name": "Enterprise Products Partners L.P. (EPD)",
-        "differentiation": "광범위한 자산 포트폴리오와 규모의 경제, 특히 NGL 및 원유 파이프라인 및 수출 터미널에서 강력한 입지"
-      },
-      {
-        "name": "Energy Transfer LP (ET)",
-        "differentiation": "다양한 지역에 걸친 광범위한 파이프라인 네트워크와 통합된 미드스트림 서비스 제공 능력"
-      },
-      {
-        "name": "Kinder Morgan, Inc. (KMI)",
-        "differentiation": "천연가스 파이프라인 분야의 선두 주자이며, 다양한 에너지 운송 및 저장 인프라를 보유"
-      },
-      {
-        "name": "Plains All American Pipeline, L.P. (PAA)",
-        "differentiation": "원유 운송 및 저장에 특화된 강력한 네트워크와 시장 점유율"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low (미드스트림 산업은 막대한 자본 투자, 복잡한 규제, 기존 인프라 구축의 어려움으로 진입 장벽이 높음)",
-      "substitutes": "medium (천연가스 및 NGL에 대한 대체 에너지원(재생에너지)의 장기적 위협이 있으나, 단기적으로는 대체가 어려움)",
-      "buyer_power": "medium (주요 고객은 대형 에너지 생산 및 마케팅 회사로, 일정 수준의 협상력을 가지지만, TRGP의 필수 인프라에 대한 의존도도 높음)",
-      "supplier_power": "low (TRGP의 주요 공급자는 원유 및 가스 생산자로, 공급자가 많고 TRGP의 인프라가 필수적이므로 공급자 협상력은 낮음)",
-      "rivalry": "high (북미 미드스트림 시장은 소수의 대형 플레이어들이 경쟁하며, 특히 퍼미안 분지와 같은 핵심 지역에서는 치열한 경쟁이 존재)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "퍼미안 분지 등 주요 생산 지역에 집중된 전략적 자산 위치 및 확장 계획",
-      "천연가스 처리부터 NGL 운송, 분별, 저장, 수출까지 통합된 미드스트림 서비스 제공 능력",
-      "북미 최대 독립 인프라 회사 중 하나로서의 규모와 운영 효율성",
-      "LPG 수출 서비스 제공을 통한 부가가치 창출"
-    ],
-    "competitive_weaknesses": [
-      "상품 가격 변동성 및 수요 변화에 대한 높은 노출도",
-      "신규 공급원 확보 및 기존 자산의 자연 감소에 대한 지속적인 투자 필요성",
-      "경쟁이 치열한 시장 환경에서 신규 고객 확보 및 기존 고객 유지의 어려움",
-      "규제 변화 및 환경 문제에 대한 잠재적 위험"
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 59.0,
+    "rs_rating": 78,
+    "score": 62.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.25,
-    "trailing_pe": 26.917261,
-    "forward_pe": 21.365643,
-    "ev_to_ebitda": 14.514,
-    "price_to_sales": 3.4153283,
+    "trailing_pe": 27.939795,
+    "forward_pe": 22.199934,
+    "ev_to_ebitda": 14.938,
+    "price_to_sales": 3.548691,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 27.02,
-    "outperform_6m_vs_nasdaq": 31.87,
-    "outperform_1m_vs_nasdaq": 3.04,
+    "outperform_1y_vs_nasdaq": 36.08,
+    "outperform_6m_vs_nasdaq": 36.96,
+    "outperform_1m_vs_nasdaq": 6.18,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -138,6 +160,6 @@
   },
   "wikipedia_summary": "Targa Resources Corp. is a Fortune 500 company based in Houston, Texas. Targa, a midstream energy infrastructure corporation, is one of the largest infrastructure companies delivering natural gas and natural gas liquids in the United States. Their operations are based largely, though not entirely, on the Gulf Coast, particularly in Texas and Louisiana. Matthew J. Meloy has been Chief Executive Officer since 2020.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-07T00:23:28.575047+00:00"
+    "GoogleWebTranslator": "2026-07-08T00:20:51.005593+00:00"
   }
 }

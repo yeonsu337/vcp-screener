@@ -64,10 +64,10 @@
     "company": "Arista Networks, Inc.",
     "market": "US",
     "sector": "Technology",
-    "primary_passed": 13,
-    "primary_total": 14,
-    "generated_at": "2026-05-06T00:54:26.972023+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-07-08T00:08:28.857270+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "APA",
@@ -126,7 +126,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-04T00:21:45.754855+00:00",
+    "generated_at": "2026-07-08T00:14:37.532837+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -356,7 +356,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-04T00:19:42.207331+00:00",
+    "generated_at": "2026-07-08T00:11:00.367591+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -516,7 +516,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-01T00:26:39.547751+00:00",
+    "generated_at": "2026-07-08T00:16:39.725030+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -526,8 +526,8 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-01T00:23:35.655226+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-07-08T00:09:06.909109+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "INSW",
@@ -631,13 +631,13 @@
   },
   {
     "ticker": "MD",
-    "company": "Pediatrix Medical Group, Inc.",
+    "company": "Pediatrix Medical Group Inc",
     "market": "US",
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-30T00:21:50.953232+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-07-08T00:06:50.723790+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "MLI",
@@ -676,7 +676,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-07T00:21:29.845697+00:00",
+    "generated_at": "2026-07-08T00:17:40.816974+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -696,7 +696,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-04T00:22:47.340650+00:00",
+    "generated_at": "2026-07-08T00:19:53.168812+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -776,7 +776,7 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-07T00:22:31.403341+00:00",
+    "generated_at": "2026-07-08T00:18:52.039162+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -866,8 +866,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-01T00:25:38.553778+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-07-08T00:07:33.576207+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "RSI",
@@ -996,7 +996,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-07T00:20:28.758985+00:00",
+    "generated_at": "2026-07-08T00:15:38.705639+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {

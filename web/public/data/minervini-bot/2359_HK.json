@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "2359.HK",
-  "generated_at": "2026-07-07T00:13:21.591656+00:00",
-  "source_results_date": "2026-07-07",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.66,
+  "generated_at": "2026-07-08T00:06:12.409586+00:00",
+  "source_results_date": "2026-07-08",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.75,
   "lines": [
-    "추격 위험 — Pivot HK$146.07 대비 +6.5%, buy zone 초과.",
-    "13주 베이스 8.1% → 10.9% → 9.2% → 10.9% → 12.0%, VDU 1.26× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 98로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 16.27%).",
+    "13주 베이스 8.1% → 10.9% → 9.2% → 10.9% → 12.0%, VDU 1.04×, pivot HK$161.30(-6.82%).",
+    "Trend Template 8/8 통과, RS 98 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
     "entry_type": "none",
@@ -19,16 +19,16 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
+    "vcp_quality_score": "4/8",
     "rs_rating": 98,
     "stage": 2,
-    "base_count": 3,
-    "late_base_warning": true,
+    "base_count": 2,
+    "late_base_warning": false,
     "market_regime": "neutral"
   },
   "rule_references": [
@@ -47,12 +47,9 @@
   ],
   "key_failures": [
     "P2_last_contraction (16.27% vs 6.5%)",
-    "P3_vol_dryup (1.26× vs 0.6×)",
-    "P4_base_count (3 — 후기 베이스)",
+    "P3_vol_dryup (1.04× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
-  "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
-  ]
+  "warnings": []
 }

@@ -4,46 +4,271 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Computer Hardware",
-  "generated_at": "2026-05-06T00:54:26.972023+00:00",
-  "primary_passed": 13,
-  "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "generated_at": "2026-07-08T00:08:28.857270+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 214335815680,
+    "market_cap": 209601347584,
     "shares_outstanding": 1259169438,
     "employees": 5115,
     "country": "United States",
     "website": "https://www.arista.com",
-    "beta": 1.673
+    "beta": 1.601
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "아리스타 네트웍스는 AI, 데이터센터, 캠퍼스 등 클라이언트-클라우드 네트워킹 솔루션을 제공하는 기업입니다.",
+    "milestones": [
+      "2004년: Arista Networks 설립",
+      "2008: 첫 번째 10 기가비트 이더넷 스위치 출시",
+      "2014: 뉴욕 증권 거래소 상장 (IPO)",
+      "2018: 인지 네트워킹 솔루션 확장",
+      "2020: 클라이언트-클라우드 네트워킹 전략 강화",
+      "2023: AI 센터 네트워킹 솔루션 시장 리더십 강화"
+    ],
+    "business_model": "데이터 기반 네트워킹 솔루션 및 관련 소프트웨어/서비스 판매로 수익 창출",
+    "revenue_streams": [
+      "데이터센터, 클라우드 및 AI 네트워킹 솔루션 판매",
+      "인지 인접(캠퍼스 및 라우팅) 솔루션 판매",
+      "인지 네트워크 소프트웨어 및 서비스 판매",
+      "계약 후 고객 지원 서비스 (기술 지원, 하드웨어 수리 등)"
+    ],
+    "value_chain_position": "Midstream + 네트워크 장비 및 소프트웨어 개발, 제조, 판매를 통해 데이터 흐름을 최적화합니다.",
+    "products": [
+      "확장 가능한 운영 체제(EOS)",
+      "데이터센터, 클라우드 및 AI 네트워킹",
+      "인지 인접 솔루션 (캠퍼스, 라우팅)",
+      "인지 네트워크 소프트웨어",
+      "고객 지원 서비스"
+    ],
+    "channels": [
+      "직접 판매",
+      "유통업체",
+      "시스템 통합업체",
+      "부가가치 리셀러",
+      "OEM 파트너"
+    ],
+    "key_customers": "주로 클라우드 및 AI 거대 기업, AI 및 전문 서비스 제공업체, 대기업에 집중"
+  },
   "category_b_financials": {
-    "eps_qoq_yoy_pct": 19.3,
-    "sales_yoy_pct": 28.9,
+    "roe": 0.32,
+    "roa": 0.14,
+    "profit_margin": 0.38,
+    "operating_margin": 0.43,
+    "gross_margin": 0.64,
+    "revenue_growth_ttm": 0.35,
+    "earnings_growth_ttm": 0.25,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      9005700000.0,
+      7003100000.0,
+      5860200000.0,
+      4381310000.0,
+      null
+    ],
+    "annual_operating_income": [
+      3856100000.0,
+      2944600000.0,
+      2257300000.0,
+      1527106000.0,
+      null
+    ],
+    "annual_eps": [
+      2.75,
+      2.23,
+      1.65,
+      1.07,
+      null
+    ],
+    "annual_free_cf": [
+      4252400000.0,
+      3676200000.0,
+      1999600000.0,
+      448169000.0,
+      null
+    ],
+    "annual_total_debt": [
+      null,
+      null,
+      null,
+      43964000.0,
+      56527000.0
+    ],
+    "annual_equity": [
+      12370500000.0,
+      9994800000.0,
+      7219059000.0,
+      4885820000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.8,
+      0.75,
+      0.67,
+      0.7,
+      0.64
+    ],
+    "quarterly_revenue": [
+      2709000000.0,
+      2487800000.0,
+      2308300000.0,
+      2204800000.0,
+      2004800000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 25.7,
+    "sales_yoy_pct": 35.1,
     "ni_cagr_3y_pct": 37.44,
-    "roe_pct": 31.4
+    "roe_pct": 31.52
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "200-250 billion USD (추정: 데이터 센터 네트워킹, 캠퍼스, WAN 시장 통합)",
+    "tam_cagr_pct": "15-20% (근거: AI 및 클라우드 컴퓨팅의 폭발적인 성장, 데이터 트래픽 증가, 기업의 하이퍼스케일 기술 채택 가속화)",
+    "growth_drivers": [
+      "AI 및 머신러닝 워크로드 증가에 따른 고성능 네트워킹 수요 증대",
+      "클라우드 컴퓨팅 및 하이퍼스케일 데이터 센터의 지속적인 확장",
+      "기업의 디지털 전환 가속화 및 '데이터 중심' 네트워킹 전략 채택",
+      "캠퍼스 및 WAN 영역으로의 솔루션 확장 및 통합 네트워킹 서비스 제공",
+      "오픈 표준 기반 기술 및 자동화 솔루션에 대한 시장 선호도 증가"
+    ],
+    "market_share_pct": "고속 이더넷 스위칭 시장에서 선두권 (정확한 수치는 10-K에 명시되지 않음)",
+    "competitors": [
+      {
+        "name": "Cisco Systems",
+        "differentiation": "광범위한 제품 포트폴리오, 강력한 기존 고객 기반, 엔드-투-엔드 솔루션 제공 능력"
+      },
+      {
+        "name": "Juniper Networks",
+        "differentiation": "AI 기반 자동화 및 보안 솔루션에 강점, 클라우드 및 서비스 프로바이더 시장 집중"
+      },
+      {
+        "name": "HPE (Aruba)",
+        "differentiation": "캠퍼스 및 엣지 네트워킹에 강점, 하이브리드 클라우드 솔루션과의 통합"
+      },
+      {
+        "name": "NVIDIA (Mellanox)",
+        "differentiation": "고성능 컴퓨팅(HPC) 및 AI 네트워킹에 특화된 InfiniBand 및 이더넷 솔루션"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (네트워킹 시장은 기술 진입 장벽이 높으나, 특정 니치 시장이나 소프트웨어 정의 네트워킹(SDN) 분야에서는 신규 진입 가능성이 있음)",
+      "substitutes": "low (데이터 중심의 현대 비즈니스 환경에서 네트워크는 필수적인 인프라이므로 직접적인 대체재는 거의 없음. 다만, 클라우드 서비스 제공업체의 자체 네트워킹 솔루션이 간접적인 대체재 역할을 할 수 있음)",
+      "buyer_power": "medium (대규모 클라우드 및 AI 기업, 통신사 등 주요 고객은 구매력이 높으나, Arista의 차별화된 기술력으로 인해 어느 정도 상쇄됨)",
+      "supplier_power": "low (반도체 및 부품 공급업체는 다수 존재하며, Arista는 오픈 표준 기반 기술을 활용하여 특정 공급업체에 대한 의존도를 낮춤)",
+      "rivalry": "high (Cisco, Juniper 등 강력한 기존 경쟁사들과의 치열한 경쟁, 특히 가격 및 성능 경쟁이 심화되고 있음)"
+    },
+    "competitive_advantages": [
+      "데이터 중심의 '클라이언트-투-클라우드' 네트워킹-애즈-어-서비스 전략",
+      "Arista EOS(Extensible Operating System) 및 NetDL(Network Data Lake) 기반의 통합 플랫폼",
+      "높은 신뢰성, 개방형 표준 기반 기술, 실시간 텔레메트리 및 지능형 자동화",
+      "클라우드 및 AI 타이탄 고객 기반을 통한 기술 검증 및 시장 리더십",
+      "AI 센터, 데이터 센터, 캠퍼스, WAN을 아우르는 'Centers of Data' 전략"
+    ],
+    "competitive_weaknesses": [
+      "Cisco와 같은 기존 강자 대비 상대적으로 좁은 제품 포트폴리오 (특히 보안, 음성/영상 통합 등)",
+      "대규모 엔터프라이즈 시장에서의 브랜드 인지도 및 채널 역량 강화 필요성",
+      "특정 대형 고객(클라우드 타이탄)에 대한 매출 의존도 (분산 노력 중)",
+      "하드웨어 기반 솔루션의 한계 및 소프트웨어 정의 네트워킹(SDN) 경쟁 심화"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 64.9,
+    "rs_rating": 73,
+    "score": 60.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3974,
-    "trailing_pe": 62.12409,
-    "forward_pe": 39.358044,
-    "ev_to_ebitda": 52.499,
-    "price_to_sales": 23.800016,
+    "peg_ratio": 2.0433,
+    "trailing_pe": 57.20275,
+    "forward_pe": 37.370296,
+    "ev_to_ebitda": 46.553,
+    "price_to_sales": 21.586355,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 46.14,
-    "outperform_6m_vs_nasdaq": 1.2,
-    "outperform_1m_vs_nasdaq": 19.69,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 37.04,
+    "outperform_6m_vs_nasdaq": 13.48,
+    "outperform_1m_vs_nasdaq": 4.04,
+    "lynch_category": "Stalwart",
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "Arista의 Extensible Operating System (EOS) 및 Network Data Lake (NetDL) 기반의 'network-as-a-service' 플랫폼은 고객에게 통합된 네트워킹 경험을 제공하며, 이는 기존 시스템에서 전환 시 높은 비용과 복잡성을 야기합니다.",
+      "Arista의 솔루션은 '오픈 및 표준 기반 기술'을 기반으로 하지만, '일관된 실시간 원격 측정 및 지능형 자동화'를 제공하여 운영자의 수동 작업을 줄여줍니다. 이는 고객이 Arista 솔루션에 익숙해지고 워크플로우를 최적화함에 따라 전환 비용이 발생합니다.",
+      "Arista는 '클라우드 및 AI 타이탄', 'AI 및 전문 공급업체', '엔터프라이즈' 등 광범위한 고객 기반에 포괄적인 제품군을 제공하며, 이들이 Arista의 기술을 채택하고 운영에 통합할수록 다른 공급업체로의 전환이 어려워집니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 센터, 데이터 센터, 캠퍼스, WAN을 통합하는 'Centers of Data' 전략 및 AI 시대 네트워크 솔루션 강화",
+    "bull_case": "AI 및 클라우드 시장 성장에 힘입어 3년간 매출 및 EPS 20% 이상 성장, 시장 점유율 확대 및 신규 AI 인프라 구축 수요 선점",
+    "base_case": "AI 및 클라우드 시장의 견고한 성장과 함께 Arista의 'Centers of Data' 전략이 성공적으로 안착하여 매출 및 이익이 꾸준히 증가할 것으로 예상됩니다. 특히, 고성능 이더넷 스위칭 분야의 리더십을 유지하며 엔터프라이즈 및 AI 고객 기반을 확장할 것입니다. 경쟁 심화에도 불구하고 기술적 우위와 고객 충성도를 바탕으로 안정적인 성장을 지속할 것입니다.",
+    "bear_case": "거시 경제 둔화로 인한 기업 IT 투자 위축, AI 인프라 구축 지연, 또는 경쟁사의 혁신적인 기술 출시로 인한 시장 점유율 하락이 발생할 수 있습니다. 또한, 공급망 문제나 예상치 못한 기술적 결함이 발생할 경우 성장세가 둔화되고 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "AI 및 클라우드 부문 매출 성장률",
+      "총 마진율 및 영업 이익률",
+      "R&D 투자 및 신제품 출시 주기"
+    ]
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "Arista Networks, Inc. is an American computer networking company headquartered in Santa Clara, California. The company designs and sells multilayer network switches to deliver software-defined networking (SDN) for large datacenter, cloud computing, high-performance computing, and high-frequency trading environments. These products include 10/25/40/50/100/200/400/800 gigabit low-latency cut-through Ethernet switches. Arista's Linux-based network operating system, Extensible Operating System (EOS), runs on all Arista products.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "공급망",
+        "description": "핵심 부품의 공급원이 단일 또는 제한적이어서 공급 부족, 리드 타임 연장 또는 공급망 변경 위험이 높습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "제한된 수의 대형 고객으로부터 발생하는 대규모 구매가 회사 매출의 상당 부분을 차지하여 고객 이탈 시 매출에 큰 타격을 입을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "네트워킹 시장은 빠르게 진화하고 있으며, 치열한 경쟁과 산업 통합으로 인해 시장 점유율 유지 및 확대가 어렵습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "미국 관세 인상 및 다른 국가의 보복 조치, 또는 전반적인 경제 상황 악화 및 IT 지출 감소는 글로벌 경제 및 회사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "매출 및 매출 성장률이 변동성이 크고 예측 불가능하며, 총 마진도 다양한 요인에 의해 변동될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "해외 투자 법규, 무역 장벽, 강화된 수출 통제(특히 대중국) 및 기타 규제 준수 실패는 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "지적재산권",
+        "description": "제3자의 지적재산권 침해 주장 또는 자사 지적재산권 보호 실패는 경쟁력에 해를 끼치고 소송 위험을 증가시킬 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "핵심 부품 공급망이 완전히 붕괴되어 제품 생산이 중단되고, 주요 대형 고객들이 경쟁사로 이탈하여 매출이 급감할 경우 회사가 파산할 수 있습니다.",
+      "기술 변화를 예측하지 못하고 신제품 개발에 실패하여 시장 경쟁력을 완전히 상실하고, 동시에 지적재산권 침해 소송에서 패소하여 막대한 배상금을 지불해야 할 경우 회사가 망할 수 있습니다.",
+      "글로벌 경제 침체와 IT 지출 급감으로 인해 신규 고객 확보가 불가능해지고 기존 고객의 유지보수 계약 갱신율이 급락하여 현금 흐름이 고갈될 경우 회사가 파산할 수 있습니다."
+    ],
+    "exit_signals": [
+      "핵심 부품의 단일 공급처가 생산을 중단하거나 공급 계약을 해지하여 제품 생산에 심각한 차질이 발생하고, 대체 공급처 확보가 불가능하다는 발표가 있을 경우.",
+      "상위 3개 고객사의 매출 기여도가 70% 이상으로 증가하고, 이들 중 한 곳 이상이 경쟁사 제품으로 전환하거나 대규모 주문을 취소한다는 공식 발표가 있을 경우.",
+      "신규 제품 및 서비스 출시가 2년 연속 지연되거나, 시장 점유율이 30% 이상 하락하여 경쟁 우위를 상실했다는 분석 보고서가 발표될 경우."
+    ]
+  },
+  "wikipedia_summary": "Arista Networks, Inc. is an American provider of client to cloud networking services for large data center/AI, campus and routing environments.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-07T00:22:32.615617+00:00"
+    "GoogleWebTranslator": "2026-07-08T00:19:55.707293+00:00"
   }
 }

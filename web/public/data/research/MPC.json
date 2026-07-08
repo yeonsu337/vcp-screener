@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-07-07T00:21:29.845697+00:00",
+  "generated_at": "2026-07-08T00:17:40.816974+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 78528036864,
+    "market_cap": 77751484416,
     "shares_outstanding": 291936635,
     "employees": 18500,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.11,
     "revenue_growth_ttm": 0.09,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.47,
+    "dividend_yield": 1.45,
     "payout_ratio": 0.25,
     "annual_revenue": [
       132699000000.0,
@@ -128,19 +128,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 75,
-    "score": 54.0,
+    "score": 53.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.3213,
-    "trailing_pe": 17.720026,
-    "forward_pe": 11.21256,
-    "ev_to_ebitda": 11.367,
-    "price_to_sales": 0.57764137,
+    "trailing_pe": 17.52171,
+    "forward_pe": 11.101681,
+    "ev_to_ebitda": 11.442,
+    "price_to_sales": 0.57192916,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 29.11,
-    "outperform_6m_vs_nasdaq": 54.48,
-    "outperform_1m_vs_nasdaq": 3.4,
+    "outperform_1y_vs_nasdaq": 28.91,
+    "outperform_6m_vs_nasdaq": 51.59,
+    "outperform_1m_vs_nasdaq": 3.5,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-07T00:23:06.045803+00:00"
+    "GoogleWebTranslator": "2026-07-08T00:20:32.401657+00:00"
   }
 }
