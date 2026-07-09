@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "LLY",
-  "generated_at": "2026-07-08T00:06:12.402757+00:00",
-  "source_results_date": "2026-07-08",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.7,
+  "generated_at": "2026-07-09T00:18:06.043779+00:00",
+  "source_results_date": "2026-07-09",
+  "verdict": "BUY_NOW",
+  "verdict_kr": "매수 (Pivot 돌파 직후)",
+  "confidence": 0.8,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 8.75%).",
-    "13주 베이스 8.0% → 8.6% → 8.4% → 8.8%, VDU 0.85×, pivot $1182.73(+4.47%).",
-    "Trend Template 8/8 통과, RS 76 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "매수 — Stage 2 진입 확정, pivot $1182.73 돌파(+2.80%, buy zone).",
+    "13주 베이스 8.0% → 8.6% → 8.4% → 8.8% 수축, VDU 0.79× 진행.",
+    "Trend Template 8/8 통과, RS 75, RS 라인 신고가 -1.7%.",
+    "$1215.83 매수·-7% 손절($1130.72)·+20%($1459.00) 절반 익절, 이후 50일선 trailing."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "immediate",
+    "entry_price": 1215.83,
+    "stop_price": 1130.72,
+    "stop_pct": -7.0,
+    "target1_price": 1459.0,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 76,
+    "rs_rating": 75,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -48,10 +48,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (8.75% vs 6.5%)",
-    "P3_vol_dryup (0.85× vs 0.6×)",
+    "P3_vol_dryup (0.79× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [
-    "RS 76 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

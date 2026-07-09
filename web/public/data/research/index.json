@@ -106,7 +106,7 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-02T00:22:50.660481+00:00",
+    "generated_at": "2026-07-09T00:35:35.986447+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -126,7 +126,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:14:37.532837+00:00",
+    "generated_at": "2026-07-09T00:31:30.471894+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -136,8 +136,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-02T00:16:34.709833+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-07-09T00:25:30.249713+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "ATRO",
@@ -196,8 +196,8 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-30T00:12:21.828417+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-07-09T00:23:04.035838+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CASY",
@@ -276,7 +276,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-02T00:14:36.641657+00:00",
+    "generated_at": "2026-07-09T00:19:23.633136+00:00",
     "llm_status": "ok"
   },
   {
@@ -316,7 +316,7 @@
     "sector": "Industrials",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-02T00:17:12.157545+00:00",
+    "generated_at": "2026-07-09T00:21:30.419052+00:00",
     "llm_status": "ok"
   },
   {
@@ -326,7 +326,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-01T00:16:33.279799+00:00",
+    "generated_at": "2026-07-09T00:18:43.722921+00:00",
     "llm_status": "ok"
   },
   {
@@ -356,7 +356,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:11:00.367591+00:00",
+    "generated_at": "2026-07-09T00:27:33.580013+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -516,7 +516,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:16:39.725030+00:00",
+    "generated_at": "2026-07-09T00:33:33.088819+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -560,6 +560,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "JNJ",
+    "company": "Johnson & Johnson",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-07-09T00:30:29.043142+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "KEYS",
     "company": "Keysight Technologies, Inc.",
     "market": "US",
@@ -577,6 +587,26 @@
     "primary_passed": 12,
     "primary_total": 13,
     "generated_at": "2026-06-27T00:22:39.827415+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "LAMR",
+    "company": "Lamar Advertising Company",
+    "market": "US",
+    "sector": "Real Estate",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-07-09T00:26:31.750151+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "LAUR",
+    "company": "Laureate Education, Inc.",
+    "market": "US",
+    "sector": "Consumer Defensive",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-07-09T00:34:34.162777+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -786,7 +816,7 @@
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-25T00:34:51.614017+00:00",
+    "generated_at": "2026-07-09T00:28:34.578087+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -996,7 +1026,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:15:38.705639+00:00",
+    "generated_at": "2026-07-09T00:32:31.945977+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1081,12 +1111,12 @@
   },
   {
     "ticker": "WELL",
-    "company": "Welltower Inc",
+    "company": "Welltower Inc.",
     "market": "US",
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-20T00:10:19.854545+00:00",
+    "generated_at": "2026-07-09T00:20:04.794395+00:00",
     "llm_status": "ok"
   },
   {

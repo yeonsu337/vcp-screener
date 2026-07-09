@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "EBAY",
-  "generated_at": "2026-07-08T00:06:12.406771+00:00",
-  "source_results_date": "2026-07-08",
+  "generated_at": "2026-07-09T00:18:06.048355+00:00",
+  "source_results_date": "2026-07-09",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.83,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $118.98 근접(-3.59%).",
-    "13주 베이스 8.4% → 10.3% → 11.8% 수축, VDU 0.45× 진행.",
-    "Trend Template 8/8 통과, RS 70, RS 라인 신고가 -4.4%.",
+    "매수 대기 — Stage 2 진입, pivot $118.98 근접(-3.14%).",
+    "13주 베이스 8.4% → 10.3% → 11.8% 수축, VDU 0.44× 진행.",
+    "Trend Template 8/8 통과, RS 71, RS 라인 신고가 -3.6%.",
     "$118.98 돌파 시 매수·-7% 손절($110.65)·+20%($142.78) 절반 익절."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 70,
+    "rs_rating": 71,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -52,6 +52,6 @@
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "RS 70 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 71 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

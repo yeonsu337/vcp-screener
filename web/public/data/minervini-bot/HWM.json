@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "HWM",
-  "generated_at": "2026-07-08T00:06:12.403274+00:00",
-  "source_results_date": "2026-07-08",
+  "generated_at": "2026-07-09T00:18:06.044633+00:00",
+  "source_results_date": "2026-07-09",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.66,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 11.02%).",
-    "13주 베이스 9.5% → 10.2% → 10.6% → 11.0%, VDU 0.86×, pivot $290.63(-5.23%).",
+    "13주 베이스 9.5% → 10.2% → 10.6% → 11.0%, VDU 0.74×, pivot $290.63(-6.55%).",
     "Trend Template 8/8 통과, RS 72 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -47,9 +47,9 @@
   ],
   "key_failures": [
     "P2_last_contraction (11.02% vs 6.5%)",
-    "P3_vol_dryup (0.86× vs 0.6×)",
+    "P3_vol_dryup (0.74× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-5.1% vs ≥-5.0%)"
+    "rs_line (-6.1% vs ≥-5.0%)"
   ],
   "warnings": [
     "RS 72 — Minervini 선호 80+ 미달, 강도 평균"

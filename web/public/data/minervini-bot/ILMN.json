@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "ILMN",
-  "generated_at": "2026-07-08T00:06:12.407816+00:00",
-  "source_results_date": "2026-07-08",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.71,
+  "generated_at": "2026-07-09T00:18:06.049719+00:00",
+  "source_results_date": "2026-07-09",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.86,
   "lines": [
-    "추격 위험 — Pivot $177.22 대비 +8.2%, buy zone 초과.",
-    "13주 베이스 9.3% → 10.9% → 13.5% → 8.1% → 12.2%, VDU 1.19× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 87로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "매수 대기 — Stage 2 진입, pivot $196.66 근접(-4.50%).",
+    "13주 베이스 9.3% → 10.9% → 13.5% → 8.1% → 12.2% 수축, VDU 1.25× 진행.",
+    "Trend Template 8/8 통과, RS 86, RS 라인 신고가 -2.6%.",
+    "$196.66 돌파 시 매수·-7% 손절($182.89)·+20%($235.99) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 196.66,
+    "stop_price": 182.89,
+    "stop_pct": -7.0,
+    "target1_price": 235.99,
+    "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 87,
+    "rs_rating": 86,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -48,7 +48,7 @@
     "R2_rs_80"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.19× vs 0.6×)",
+    "P3_vol_dryup (1.25× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

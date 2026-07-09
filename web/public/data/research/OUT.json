@@ -4,20 +4,20 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-06-25T00:34:51.614017+00:00",
+  "generated_at": "2026-07-09T00:28:34.578087+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5651638272,
+    "market_cap": 5841786880,
     "shares_outstanding": 176063510,
     "employees": 1981,
     "country": "United States",
     "website": "https://www.outfrontmedia.com",
-    "beta": 1.478
+    "beta": 1.472
   },
   "category_a_business": {
-    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 가장 중요한 순간과 환경에서 브랜드가 청중과 연결될 수 있도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
+    "overview": "OUTFRONT Media Inc.는 미국에서 가장 크고 신뢰받는 옥외 미디어 회사 중 하나로, 브랜드가 가장 중요한 순간과 환경에서 청중과 연결되도록 돕습니다. OUTFRONT가 발전함에 따라 공공 공간을 창의성, 연결 및 문화적 관련성을 위한 플랫폼으로 전환하여 실생활(IRL) 마케팅의 새로운 시대를 정의합니다.",
     "business_model": "아웃프론트미디어(주)",
     "channels": [
       "B2B / 기업"
@@ -32,7 +32,7 @@
     "gross_margin": 0.51,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": null,
-    "dividend_yield": 3.73,
+    "dividend_yield": 3.61,
     "payout_ratio": 1.12,
     "annual_revenue": [
       1831700000.0,
@@ -89,7 +89,6 @@
       0.3,
       0.1,
       -0.14,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -98,7 +97,6 @@
       467500000.0,
       460200000.0,
       390700000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -107,8 +105,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "sales_yoy_pct": 10.0,
     "ni_cagr_3y_pct": 0.99,
@@ -123,25 +120,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 55.4,
+    "rs_rating": 84,
+    "score": 56.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.3854,
-    "trailing_pe": 29.999996,
-    "forward_pe": 23.088707,
-    "ev_to_ebitda": 21.338,
-    "price_to_sales": 3.0212972,
+    "trailing_pe": 31.009344,
+    "forward_pe": 23.865524,
+    "ev_to_ebitda": 21.733,
+    "price_to_sales": 3.1229484,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 82.68,
-    "outperform_6m_vs_nasdaq": 27.71,
-    "outperform_1m_vs_nasdaq": -0.25,
+    "outperform_1y_vs_nasdaq": 79.21,
+    "outperform_6m_vs_nasdaq": 28.64,
+    "outperform_1m_vs_nasdaq": 5.72,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Outfront Media, Inc. is an American advertising company which operates billboards, logo signs, and transit displays and focused on outdoor advertising. It operates in the United States. The Americas division is led by chief executive officer Nick Brien. Outfront Media is one of the big three billboard and outdoor advertising companies.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-08T00:20:39.821605+00:00"
+    "GoogleWebTranslator": "2026-07-09T00:37:31.020562+00:00"
   }
 }
