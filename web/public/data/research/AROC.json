@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-07-09T00:35:35.986447+00:00",
+  "generated_at": "2026-07-10T00:36:32.534484+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6933349376,
+    "market_cap": 6749323776,
     "shares_outstanding": 175261596,
     "employees": 1350,
     "country": "United States",
@@ -36,7 +36,7 @@
     "gross_margin": 0.66,
     "revenue_growth_ttm": 0.08,
     "earnings_growth_ttm": 0.03,
-    "dividend_yield": 2.32,
+    "dividend_yield": 2.22,
     "payout_ratio": 0.45,
     "annual_revenue": [
       1489818000.0,
@@ -125,27 +125,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 52.8,
+    "rs_rating": 78,
+    "score": 50.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6236,
-    "trailing_pe": 21.5,
-    "forward_pe": 16.483746,
-    "ev_to_ebitda": 10.964,
-    "price_to_sales": 4.5721765,
+    "peg_ratio": 1.7582,
+    "trailing_pe": 20.929346,
+    "forward_pe": 16.046234,
+    "ev_to_ebitda": 10.747,
+    "price_to_sales": 4.4508214,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 43.45,
-    "outperform_6m_vs_nasdaq": 41.15,
-    "outperform_1m_vs_nasdaq": 15.05,
+    "outperform_1y_vs_nasdaq": 36.84,
+    "outperform_6m_vs_nasdaq": 39.55,
+    "outperform_1m_vs_nasdaq": 9.31,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "무엇보다도 아래에 설명된 위험 요소로 인해 당사의 실제 결과가 미래 예측 진술에 반영된 기대와 실질적으로 다를 수 있습니다.",
+        "description": "무엇보다도 아래에 설명된 위험 요인으로 인해 당사의 실제 결과가 미래 예측 진술에 반영된 기대와 실질적으로 다를 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-09T00:35:54.528569+00:00"
+    "GoogleWebTranslator": "2026-07-10T00:38:04.891864+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-07-08T00:18:52.039162+00:00",
+  "generated_at": "2026-07-10T00:37:33.926308+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3977840640,
+    "market_cap": 4057636608,
     "shares_outstanding": 99745249,
     "employees": 11100,
     "country": "United States",
@@ -17,35 +17,18 @@
     "beta": 1.151
   },
   "category_a_business": {
-    "overview": "OII는 해양 에너지, 국방, 항공우주 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다.",
-    "milestones": [
-      "1964년: Oceaneering International 설립",
-      "1969: 최초의 상업용 포화 잠수 시스템 개발",
-      "1970s: 북해 유전 개발에 참여하며 ROV 기술 도입",
-      "1990s: 해양 에너지 외 국방, 항공우주 분야로 사업 확장",
-      "2000s: ROV 시장 선도 및 수중 로봇 기술 강화",
-      "2010s: 무인 잠수정(AUV) 및 자율 이동 로봇(AMR) 기술 투자"
-    ],
-    "business_model": "해양 및 극한 환경에서 필요한 특수 엔지니어링 서비스와 제품을 판매합니다.",
-    "revenue_streams": [
-      "수중 로봇 서비스 (ROV, AUV)",
-      "제조 제품 (엄빌리컬, 커넥터, 밸브)",
-      "해양 프로젝트 (설치, 유지보수)",
-      "무결성 관리 및 디지털 솔루션",
-      "항공우주 및 국방 기술"
-    ],
-    "value_chain_position": "Midstream / downstream + 해양 에너지 및 특수 산업의 인프라 구축 및 유지보수에 기여합니다.",
+    "overview": "Oceaneering International, Inc.는 미국, 아프리카, 영국, 노르웨이, 브라질, 아시아, 호주 및 전 세계의 해양 에너지, 방위, 항공우주 및 제조 산업에 엔지니어링 서비스, 제품 및 로봇 솔루션을 제공합니다. 해저 로봇공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 솔루션, 항공우주 및 방위 기술 등 5개 부문으로 운영됩니다.",
+    "business_model": "오션니어링 인터내셔널, Inc.",
     "products": [
-      "원격 조종 잠수정 (ROV)",
-      "생산 제어 엄빌리컬",
-      "파이프라인 연결 및 수리 시스템",
-      "자율 이동 로봇 (AMR)",
-      "수중 조사 및 위치 확인 서비스"
+      "해양 에너지, 방위, 항공우주 및 제조 분야에 대한 엔지니어링 서비스, 제품 및 로봇 솔루션 i",
+      "5개 부문: 해저 로봇 공학, 제조 제품, 해양 프로젝트 그룹, 무결성 관리 및 디지털 S",
+      "해저 하드웨어 설치를 포함한 드릴 지원 및 선박 기반 서비스를 위한 원격 조종 차량(ROV)",
+      "생산 제어 엄빌리칼, 현장 개발 하드웨어 및 파이프라인과 같은 분배 및 연결 시스템",
+      "라이저리스 채광정 개입 서비스, 검사, 유지보수를 포함한 해저 설치 및 개입"
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "주로 석유 및 가스 회사, 정부 기관, 방위 산업체, 항공우주 기업 등 소수 대형 고객에 집중"
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.36,
@@ -142,24 +125,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 81,
-    "score": 55.5,
+    "score": 56.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 8.01,
-    "trailing_pe": 11.869048,
-    "forward_pe": 18.727226,
-    "ev_to_ebitda": 10.71,
-    "price_to_sales": 1.4196119,
+    "trailing_pe": 12.107143,
+    "forward_pe": 19.102898,
+    "ev_to_ebitda": 10.913,
+    "price_to_sales": 1.4480895,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 61.99,
-    "outperform_6m_vs_nasdaq": 49.37,
-    "outperform_1m_vs_nasdaq": 4.02,
+    "outperform_1y_vs_nasdaq": 58.94,
+    "outperform_6m_vs_nasdaq": 41.81,
+    "outperform_1m_vs_nasdaq": 2.73,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-09T00:37:26.650404+00:00"
+    "GoogleWebTranslator": "2026-07-10T00:39:35.194372+00:00"
   }
 }

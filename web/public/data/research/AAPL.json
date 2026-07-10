@@ -4,36 +4,53 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Consumer Electronics",
-  "generated_at": "2026-05-21T00:37:11.315999+00:00",
+  "generated_at": "2026-07-10T00:33:27.364069+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4439253450752,
+    "market_cap": 4644435656704,
     "shares_outstanding": 14687356000,
     "employees": 166000,
     "country": "United States",
     "website": "https://www.apple.com",
-    "beta": 1.065
+    "beta": 1.097
   },
   "category_a_business": {
-    "overview": "Apple Inc.는 전 세계적으로 스마트폰, 개인용 컴퓨터, 태블릿, 웨어러블 및 액세서리를 설계, 제조 및 판매합니다. 이 회사는 스마트폰 제품군인 iPhone을 제공합니다. 개인용 컴퓨터 제품군인 Mac; 다목적 태블릿 제품군인 iPad; AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats 제품, HomePod 등으로 구성된 웨어러블, 홈, 액세서리는 물론 Apple 브랜드 및 타사 액세서리도 포함됩니다.",
-    "business_model": "애플 주식회사",
+    "overview": "Apple은 스마트폰, PC, 태블릿, 웨어러블 및 서비스를 설계, 제조, 판매하는 글로벌 기술 기업입니다.",
+    "milestones": [
+      "1976: 스티브 잡스, 스티브 워즈니악, 로널드 웨인에 의해 Apple Computer Company 설립",
+      "1977: Apple Computer, Inc.로 법인 전환",
+      "2001: iPod 출시, 디지털 음악 시장 혁신",
+      "2007: iPhone 출시 및 회사명을 Apple Inc.로 변경, 모바일 혁명 주도",
+      "2010: iPad 출시, 태블릿 시장 개척",
+      "2014: Apple Watch 출시, 웨어러블 시장 진출",
+      "2023: Apple Vision Pro 공개, 공간 컴퓨팅 시대 예고"
+    ],
+    "business_model": "하드웨어, 소프트웨어, 서비스를 통합하여 프리미엄 생태계를 구축하고 판매합니다.",
+    "revenue_streams": [
+      "iPhone 판매",
+      "Mac 및 iPad 판매",
+      "웨어러블, 홈 및 액세서리 판매",
+      "App Store 및 디지털 콘텐츠",
+      "AppleCare 및 클라우드 서비스",
+      "구독 서비스 (Apple Music, Apple TV+ 등)"
+    ],
+    "value_chain_position": "Downstream + 제품 설계부터 최종 소비자 판매까지 전 과정을 직접 관리합니다.",
     "products": [
-      "아이폰, 스마트폰 계열",
-      "AppleCare 지원 및 클라우드 서비스",
-      "고객이 애플리케이션과 디지털 콘텐츠를 검색하고 다운로드할 수 있는 App Store를 포함한 다양한 플랫폼",
-      "게임 구독 서비스인 Apple 아케이드 등 다양한 구독 기반 서비스",
-      "주문형 라디오 방송국을 통해 사용자에게 선별된 청취 경험 제공"
+      "아이폰",
+      "Mac",
+      "아이패드",
+      "애플워치",
+      "에어팟",
+      "애플 비전 프로"
     ],
     "channels": [
-      "B2C / 소매"
+      "D2C (Apple 리테일 스토어, 온라인 스토어)",
+      "B2C (직접 판매)",
+      "도매 (이동통신사, 리셀러)"
     ],
-    "wikipedia_excerpt": "Apple Inc.는 캘리포니아주 쿠퍼티노, 실리콘 밸리에 본사를 두고 있으며 가전제품, 소프트웨어 및 온라인 서비스로 유명한 미국의 다국적 기술 회사입니다. 1976년 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 애플 컴퓨터 컴퍼니(Apple Computer Company)로 설립한 이 회사는 이듬해 잡스와 워즈니악에 의해 애플 컴퓨터(Apple Computer, Inc.)로 통합되었습니다. 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서 2007년에 회사 이름이 현재의 회사로 변경되었습니다. Apple은 Big Tech 회사 중 하나입니다.",
-    "milestones": [
-      "1976년: 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 Apple 컴퓨터 회사로 법인 설립",
-      "2007년: 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서"
-    ]
+    "key_customers": "고객 집중도는 낮음. 전 세계 소비자, 중소기업, 교육기관, 기업 및 정부 시장에 걸쳐 광범위한 고객 기반을 보유."
   },
   "category_b_financials": {
     "roe": 1.41,
@@ -43,7 +60,7 @@
     "gross_margin": 0.48,
     "revenue_growth_ttm": 0.17,
     "earnings_growth_ttm": 0.22,
-    "dividend_yield": 0.36,
+    "dividend_yield": 0.34,
     "payout_ratio": 0.13,
     "annual_revenue": [
       416161000000.0,
@@ -130,26 +147,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 70,
-    "score": 60.9,
+    "score": 62.3,
     "vcp_quality": 0.0,
-    "stage": 2,
-    "stage_name": "Advancing",
-    "peg_ratio": 2.6015,
-    "trailing_pe": 36.241005,
-    "forward_pe": 31.471817,
-    "ev_to_ebitda": 27.55,
-    "price_to_sales": 9.833496,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 2.5322,
+    "trailing_pe": 38.237,
+    "forward_pe": 32.908905,
+    "ev_to_ebitda": 29.128,
+    "price_to_sales": 10.288,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 8.63,
-    "outperform_6m_vs_nasdaq": -2.47,
-    "outperform_1m_vs_nasdaq": 5.37,
+    "outperform_1y_vs_nasdaq": 22.82,
+    "outperform_6m_vs_nasdaq": 9.46,
+    "outperform_1m_vs_nasdaq": 3.8,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "위험 요소 다음은 회사의 사업, 평판, 영업 결과, 재무 상태 및 주가에 중대한 악영향을 미칠 수 있는 요소를 요약한 것입니다.",
+        "description": "위험요소 다음은 회사의 사업, 평판, 영업결과, 재무상태 및 주가에 중대한 부정적 영향을 미칠 수 있는 요소를 요약한 것입니다.",
         "severity": "medium"
       },
       {
@@ -185,8 +202,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its name was changed to its current one in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
+  "wikipedia_summary": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-09T00:35:37.103174+00:00"
+    "GoogleWebTranslator": "2026-07-10T00:37:47.631709+00:00"
   }
 }

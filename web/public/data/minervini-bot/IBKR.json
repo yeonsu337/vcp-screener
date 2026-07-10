@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "IBKR",
-  "generated_at": "2026-07-09T00:18:06.046092+00:00",
-  "source_results_date": "2026-07-09",
+  "generated_at": "2026-07-10T00:17:15.927111+00:00",
+  "source_results_date": "2026-07-10",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.81,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $97.84 근접(-4.54%).",
-    "13주 베이스 9.9% → 10.0% → 5.4% → 10.5% → 8.7% 수축, VDU 1.06× 진행.",
-    "Trend Template 8/8 통과, RS 78, RS 라인 신고가 -3.7%.",
+    "매수 대기 — Stage 2 진입, pivot $97.84 근접(-2.62%).",
+    "13주 베이스 9.9% → 10.0% → 5.4% → 10.5% → 8.7% 수축, VDU 0.87× 진행.",
+    "Trend Template 8/8 통과, RS 78, RS 라인 신고가 -2.5%.",
     "$97.84 돌파 시 매수·-7% 손절($90.99)·+20%($117.41) 절반 익절."
   ],
   "action": {
@@ -48,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (11.43% vs 6.5%)",
-    "P3_vol_dryup (1.06× vs 0.6×)",
+    "P3_vol_dryup (0.87× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [

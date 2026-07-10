@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T00:35:36.242381+00:00",
+  "generated_at": "2026-07-10T00:37:34.327886+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,9 +17,9 @@
   },
   "performance": {
     "win_rate_pct": 62.5,
-    "profit_factor": 3.3,
-    "expectancy": 5.48,
-    "avg_winner_pct": 12.59,
+    "profit_factor": 3.27,
+    "expectancy": 5.41,
+    "avg_winner_pct": 12.48,
     "avg_loser_pct": -6.36,
     "best": {
       "ticker": "005930.KS",
@@ -29,7 +29,7 @@
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 37.7,
+    "avg_holding_winner_days": 37.8,
     "avg_holding_loser_days": 27.1
   },
   "exit_breakdown": {
@@ -49,14 +49,14 @@
       },
       {
         "primary_passed": 11,
-        "trades": 2,
-        "avg_return_pct": -0.78,
-        "win_rate_pct": 0.0
+        "trades": 4,
+        "avg_return_pct": 0.81,
+        "win_rate_pct": 50.0
       },
       {
         "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 14.3,
+        "trades": 2,
+        "avg_return_pct": 16.66,
         "win_rate_pct": 100.0
       }
     ],
@@ -68,10 +68,17 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 36,
-      "win_rate_pct": 66.7,
-      "avg_return_pct": 5.97,
+      "trades": 33,
+      "win_rate_pct": 63.6,
+      "avg_return_pct": 5.7,
       "best_return_pct": 42.0
+    },
+    {
+      "sector": "Energy",
+      "trades": 2,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 7.82,
+      "best_return_pct": 12.3
     },
     {
       "sector": "Industrials",
@@ -81,11 +88,18 @@
       "best_return_pct": -0.6
     },
     {
-      "sector": "Energy",
+      "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 14.3,
-      "best_return_pct": 14.3
+      "avg_return_pct": 21.0,
+      "best_return_pct": 21.0
+    },
+    {
+      "sector": "Basic Materials",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 1.49,
+      "best_return_pct": 1.5
     },
     {
       "sector": "Real Estate",
@@ -106,7 +120,7 @@
     "US": {
       "trades": 32,
       "win_rate_pct": 59.4,
-      "avg_return_pct": 1.97
+      "avg_return_pct": 1.88
     },
     "KR": {
       "trades": 6,
@@ -129,25 +143,25 @@
     {
       "day": 1,
       "trades": 40,
-      "avg_return_pct": 5.48,
+      "avg_return_pct": 5.41,
       "winners_pct": 62.5
     },
     {
       "day": 5,
       "trades": 40,
-      "avg_return_pct": 5.48,
+      "avg_return_pct": 5.41,
       "winners_pct": 62.5
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 7.26,
+      "avg_return_pct": 7.17,
       "winners_pct": 71.0
     },
     {
       "day": 63,
       "trades": 5,
-      "avg_return_pct": 22.93,
+      "avg_return_pct": 22.36,
       "winners_pct": 80.0
     }
   ],
@@ -176,7 +190,8 @@
       "섹터별 성과 분석 후 유망 섹터 비중 확대 (에너지)"
     ],
     "model": "gemini-2.5-flash",
-    "trades_analyzed": 40
+    "trades_analyzed": 40,
+    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
   },
   "data_status": {
     "exited_trades_count": 38,

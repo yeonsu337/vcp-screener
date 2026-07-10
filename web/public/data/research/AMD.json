@@ -4,48 +4,48 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-06-26T00:20:45.137685+00:00",
+  "generated_at": "2026-07-10T00:18:35.254709+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 868408950784,
+    "market_cap": 891481882624,
     "shares_outstanding": 1630600639,
     "employees": 31000,
     "country": "United States",
     "website": "https://www.amd.com",
-    "beta": 2.492
+    "beta": 2.469
   },
   "category_a_business": {
-    "overview": "AMD는 CPU, GPU 등 고성능 반도체 설계 및 개발을 통해 다양한 시장에 솔루션을 제공하는 글로벌 기업입니다.",
+    "overview": "AMD는 CPU, GPU, FPGA 등을 개발하는 글로벌 반도체 기업으로, 다양한 컴퓨팅 시장에 솔루션을 제공합니다.",
     "milestones": [
-      "1969: 제리 샌더스 외 7명이 AMD 설립",
-      "1982: IBM PC용 2차 공급업체 계약 체결",
-      "2006: ATI 테크놀로지스 인수, GPU 시장 경쟁력 강화",
-      "2017: Zen 아키텍처 기반 라이젠(Ryzen) CPU 출시, 시장 점유율 확대",
-      "2022: 자일링스(Xilinx) 인수, FPGA 및 적응형 SoC 포트폴리오 확장"
+      "1969: AMD 설립",
+      "1982: IBM PC용 2차 소스 프로세서 공급 계약 체결",
+      "2006: ATI Technologies 인수, 그래픽 기술 강화",
+      "2017: Zen 아키텍처 기반 Ryzen CPU 출시, 시장 경쟁력 회복",
+      "2022: Xilinx 인수, FPGA 및 적응형 SoC 시장 진출"
     ],
-    "business_model": "반도체 설계 및 개발 후 파운드리에 위탁 생산하여 판매합니다.",
+    "business_model": "반도체 설계 및 개발을 통해 다양한 컴퓨팅 솔루션을 판매하여 수익을 창출합니다.",
     "revenue_streams": [
       "데이터 센터 (서버 CPU, GPU)",
       "클라이언트 (PC CPU, GPU)",
-      "게이밍 (콘솔 및 PC GPU)",
-      "임베디드 (산업용 SoC, FPGA)"
+      "게이밍 (콘솔, PC GPU)",
+      "임베디드 (산업용, 통신용 SoC)"
     ],
-    "value_chain_position": "Midstream / 팹리스 모델로 반도체 설계 및 개발에 집중합니다.",
+    "value_chain_position": "Midstream + 반도체 설계 및 개발에 집중하며 제조는 파운드리에 위탁합니다.",
     "products": [
-      "라이젠(Ryzen) CPU",
-      "라데온(Radeon) GPU",
-      "에픽(EPYC) 서버 CPU",
-      "인스팅트(Instinct) AI 가속기",
-      "자일링스(Xilinx) FPGA"
+      "AMD 라이젠(CPU)",
+      "AMD EPYC (서버 CPU)",
+      "AMD Radeon (그래픽 카드)",
+      "AMD Instinct (데이터 센터 GPU)",
+      "AMD Xilinx (FPGA, 적응형 SoC)"
     ],
     "channels": [
       "B2B (OEM, 클라우드 서비스 제공업체)",
       "도매 (유통업체)",
-      "B2C (리테일 파트너)"
+      "B2C (리테일 채널)"
     ],
-    "key_customers": "소수의 주요 고객이 매출의 상당 부분을 차지하며, 고객 집중도가 높은 편입니다."
+    "key_customers": "소수의 주요 고객이 매출의 상당 부분을 차지하며, 특히 데이터 센터 및 콘솔 시장의 대형 고객 집중도가 높습니다."
   },
   "category_b_financials": {
     "roe": 0.08,
@@ -112,7 +112,6 @@
       0.75,
       0.54,
       0.44,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -121,7 +120,6 @@
       9246000000.0,
       7685000000.0,
       7438000000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -130,8 +128,7 @@
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "eps_qoq_yoy_pct": 95.1,
     "sales_yoy_pct": 37.8,
@@ -139,148 +136,147 @@
     "roe_pct": 8.06
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 $1,000B (2027년 예상, 출처: Statista, Mordor Intelligence 등 반도체 시장 보고서 종합 추정)",
-    "tam_cagr_pct": "10-15% (근거: AI, 고성능 컴퓨팅, 데이터센터 시장의 폭발적인 성장과 반도체 기술 발전 가속화)",
+    "tam_estimate_usd_b": "약 500-600 billion USD (2023년 기준, 다양한 시장 조사 기관 추정치 종합)",
+    "tam_cagr_pct": "10-15% (향후 3~5년) - AI, 고성능 컴퓨팅(HPC), 데이터센터 시장의 지속적인 성장과 AMD의 해당 시장 내 경쟁력 강화에 기반함.",
     "growth_drivers": [
-      "AI 및 머신러닝 워크로드 증가에 따른 고성능 컴퓨팅 수요 급증",
-      "데이터센터 인프라 확장 및 클라우드 서비스 성장",
-      "AI PC 시장의 부상과 NPU 통합을 통한 온디바이스 AI 확산",
-      "게임 콘솔 및 PC 게이밍 시장의 지속적인 성장",
-      "임베디드 시스템 및 산업용 애플리케이션에서의 고성능 반도체 채택 증가"
+      "AI 및 머신러닝 워크로드 증가에 따른 고성능 컴퓨팅 수요 폭발적 증가",
+      "데이터센터 시장의 지속적인 확장 및 클라우드 서비스 채택 가속화",
+      "AI PC 시장의 부상과 NPU 통합을 통한 새로운 컴퓨팅 경험 제공",
+      "게임 및 임베디드 시스템 시장에서의 꾸준한 수요와 기술 혁신",
+      "반도체 기술 발전 및 공정 미세화에 따른 성능 향상"
     ],
-    "market_share_pct": "CPU: 20-30% (서버 및 클라이언트 시장 종합 추정), GPU: 10-20% (데이터센터 및 게이밍 시장 종합 추정)",
+    "market_share_pct": "CPU 시장 20-30% (서버 CPU는 20%대 초반, 클라이언트 CPU는 20%대 후반), GPU 시장 10-20% (데이터센터 GPU는 성장 중, 클라이언트 GPU는 10%대 후반), FPGA/Adaptive SoC 시장 50% 이상 (자일링스 인수 효과)",
     "competitors": [
       {
-        "name": "Intel",
-        "differentiation": "오랜 시장 지배력, 광범위한 고객 기반, 통합 솔루션 제공 능력, 파운드리 사업 확장"
+        "name": "Intel Corporation",
+        "differentiation": "오랜 시장 지배력, 광범위한 제품 포트폴리오, 강력한 브랜드 인지도, IDM(종합 반도체 기업) 모델"
       },
       {
-        "name": "NVIDIA",
-        "differentiation": "AI 가속기 시장의 압도적인 선두 주자, CUDA 생태계 기반의 강력한 소프트웨어 경쟁력, 데이터센터 GPU 시장 지배"
+        "name": "NVIDIA Corporation",
+        "differentiation": "AI 가속기(GPU) 시장의 압도적 선두주자, CUDA 플랫폼 기반의 강력한 소프트웨어 생태계, 데이터센터 및 전문 그래픽 시장 지배력"
       },
       {
-        "name": "Qualcomm",
-        "differentiation": "모바일 AP 시장의 강자, AI PC 시장 진출 가속화, 저전력 고성능 Arm 기반 솔루션"
+        "name": "Qualcomm Incorporated",
+        "differentiation": "모바일 AP 시장의 강자, 저전력 고성능 Arm 기반 SoC 설계 역량, AI PC 시장 진출 가속화"
       },
       {
-        "name": "Broadcom",
-        "differentiation": "네트워킹 및 스토리지 솔루션 강점, 맞춤형 ASIC 설계 능력, 데이터센터 인프라 전반에 걸친 포트폴리오"
+        "name": "Broadcom Inc.",
+        "differentiation": "네트워킹, 스토리지, 브로드밴드 통신 등 다양한 인프라 반도체 솔루션 제공, 맞춤형 ASIC 역량"
       },
       {
-        "name": "TSMC (고객사 관점)",
-        "differentiation": "세계 최고의 파운드리 기술력과 생산 능력, 다양한 고객사의 최첨단 반도체 생산 지원"
+        "name": "Xilinx (AMD에 인수됨)",
+        "differentiation": "FPGA 및 적응형 SoC 시장의 선두주자, 맞춤형 하드웨어 가속 솔루션 제공 (현재 AMD의 일부)"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low (반도체 설계 및 제조에 막대한 자본, 기술, R&D 투자가 필요하며, 기존 플레이어의 강력한 특허 장벽 존재)",
-      "substitutes": "medium (클라우드 기반 서비스, FPGA, ASIC 등 대체 기술이 존재하나, 범용 CPU/GPU의 성능 및 비용 효율성을 완전히 대체하기는 어려움)",
-      "buyer_power": "medium (소수의 대형 고객사(클라우드 서비스 제공업체, OEM)가 상당한 구매력을 가지지만, AMD의 차별화된 기술력으로 어느 정도 상쇄 가능)",
-      "supplier_power": "high (TSMC와 같은 첨단 파운드리 업체에 대한 의존도가 높고, 특정 소재 및 장비 공급업체의 독과점적 지위가 존재)",
-      "rivalry": "high (Intel, NVIDIA 등 강력한 경쟁사들과의 치열한 기술 및 가격 경쟁, AI 시장 선점을 위한 격렬한 경쟁)"
+      "new_entrants": "low - 반도체 설계 및 제조에 막대한 자본, 기술, 인력, 시간 소요, 기존 플레이어의 강력한 특허 및 생태계 구축으로 진입 장벽이 매우 높음",
+      "substitutes": "medium - 특정 워크로드에 따라 클라우드 기반 서비스, FPGA, ASIC 등 대체 기술이 존재하나, 범용 컴퓨팅 시장에서는 직접적인 대체재가 제한적임",
+      "buyer_power": "medium - 소수의 대형 고객(클라우드 서비스 제공업체, OEM)이 상당한 구매력을 가지지만, AMD의 차별화된 기술력과 공급 안정성으로 인해 구매자 협상력이 어느 정도 상쇄됨",
+      "supplier_power": "high - TSMC와 같은 파운드리 업체에 대한 의존도가 높아 공급업체의 협상력이 높으며, 최첨단 공정 기술 확보가 중요함",
+      "rivalry": "high - Intel, NVIDIA 등 강력한 경쟁사들과의 치열한 기술 및 가격 경쟁, 시장 점유율 확보를 위한 지속적인 혁신과 투자 요구"
     },
     "competitive_advantages": [
+      "고성능 및 AI 컴퓨팅 분야의 혁신적인 제품 포트폴리오 (CPU, GPU, NPU, FPGA 등)",
       "Zen 아키텍처 기반의 강력한 CPU 성능 및 전력 효율성",
-      "RDNA 아키텍처 기반의 고성능 GPU 및 통합 솔루션 제공 능력",
-      "Xilinx 인수를 통한 적응형 SoC(FPGA) 및 AI 엔진 기술 확보",
-      "개방형 소프트웨어 생태계(ROCm) 구축 노력 및 AI 개발자 커뮤니티 확장",
-      "AI PC 시장을 위한 NPU 통합 x86 CPU 선도적 출시"
+      "데이터센터 GPU 시장에서의 빠른 성장 및 AI 가속기 솔루션 강화",
+      "자일링스 인수를 통한 적응형 SoC 및 FPGA 시장 리더십 확보",
+      "개방형 소프트웨어 생태계 (ROCm) 구축 노력 및 파트너십 확장"
     ],
     "competitive_weaknesses": [
-      "AI 가속기 시장에서 NVIDIA의 CUDA 생태계 대비 소프트웨어 및 개발자 지원 부족",
-      "Intel 대비 서버 시장에서의 브랜드 인지도 및 시장 점유율 열세",
-      "최첨단 공정 기술을 위한 파운드리(TSMC) 의존도가 높음",
-      "대규모 R&D 투자 및 마케팅 비용 부담으로 인한 수익성 압박 가능성",
-      "일부 대형 고객사에 대한 매출 의존도가 높아 고객사 전략 변화에 취약"
+      "Intel 대비 클라이언트 CPU 시장에서의 브랜드 인지도 및 시장 점유율 열세",
+      "NVIDIA 대비 AI 가속기 시장에서의 소프트웨어 생태계 및 시장 지배력 격차",
+      "최첨단 파운드리(TSMC)에 대한 높은 의존도로 인한 공급망 리스크",
+      "대규모 R&D 투자 및 마케팅 비용 부담",
+      "일부 고객(소수 대형 고객)에 대한 높은 매출 의존도"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 96,
-    "score": 68.2,
+    "rs_rating": 97,
+    "score": 64.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.2503,
-    "trailing_pe": 176.93356,
-    "forward_pe": 40.443798,
-    "ev_to_ebitda": 112.922,
-    "price_to_sales": 23.186014,
+    "peg_ratio": 1.2394,
+    "trailing_pe": 182.23999,
+    "forward_pe": 41.258053,
+    "ev_to_ebitda": 118.843,
+    "price_to_sales": 23.802048,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 257.37,
-    "outperform_6m_vs_nasdaq": 139.53,
-    "outperform_1m_vs_nasdaq": 10.56,
+    "outperform_1y_vs_nasdaq": 268.34,
+    "outperform_6m_vs_nasdaq": 143.76,
+    "outperform_1m_vs_nasdaq": 10.43,
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "AMD는 고성능 및 AI 컴퓨팅 분야에서 혁신을 주도하며, AI 최적화된 CPU, GPU, 네트워킹 및 소프트웨어의 광범위한 포트폴리오를 통해 고객이 데이터를 혁신으로 전환하도록 돕는 풀스택 솔루션을 제공합니다.",
-      "AMD는 x86 CPU와 동일한 SoC에 전용 NPU를 통합한 최초의 회사로, AI PC 시장에서 차별화된 기술적 입지를 구축하고 AI 지원 애플리케이션 생태계를 확장하고 있습니다.",
-      "데이터 센터, 클라이언트 컴퓨팅, 게임 및 임베디드 시스템 등 다양한 시장에서 차별화된 솔루션(세미 커스텀 SoC, 적응형 SoC, APU 등)을 제공하며 기술 리더십을 확보하고 있습니다."
+      "AMD는 고성능 및 AI 컴퓨팅 분야에서 혁신을 주도하며, AI 최적화된 CPU, GPU, 네트워킹 및 소프트웨어의 광범위한 포트폴리오를 통해 차별화된 솔루션을 제공합니다.",
+      "AMD는 x86 CPU와 동일한 SoC에 전용 NPU를 통합한 최초의 기업으로, AI PC 시장에서 독점적인 기술 발자취를 구축하고 Ryzen™ AI 로드맵을 통해 리더십을 확장하고 있습니다.",
+      "데이터 센터용 AI 가속기, 마이크로프로세서, GPU, DPU, AI NIC 및 FPGA 등 광범위한 고성능 제품 포트폴리오를 통해 고객에게 풀 스택 솔루션을 제공합니다."
     ],
     "moat_durability_years": "5~10년",
-    "new_trigger": "AI PC 시장 선점 및 데이터 센터 AI 가속기 포트폴리오 확장",
-    "bull_case": "AI 시장 폭발적 성장과 AMD의 기술 리더십으로 3년 내 매출 및 이익 급증, 시장 점유율 확대",
-    "base_case": "AI 및 고성능 컴퓨팅 시장의 꾸준한 성장과 함께 AMD의 혁신적인 제품 포트폴리오가 견고한 매출 성장과 수익성 개선을 이끌 것으로 예상됩니다. 특히 AI PC와 데이터 센터 AI 가속기 분야에서의 초기 리더십이 시장 점유율 확대로 이어질 것입니다.",
-    "bear_case": "거시 경제 둔화로 인한 IT 지출 감소, 경쟁 심화로 인한 시장 점유율 하락, 신제품 개발 지연 또는 실패 시 매출 및 이익 성장이 둔화될 수 있습니다.",
+    "new_trigger": "AI PC용 NPU 통합 및 데이터센터 AI 가속기 시장 확장",
+    "bull_case": "AI 시장 폭발적 성장과 데이터센터 및 AI PC 제품군 리더십 강화로 3년 내 매출 및 이익 급증",
+    "base_case": "AI 시장 성장에 힘입어 데이터센터 및 임베디드 부문 견조한 성장세 유지. PC 및 게이밍 부문은 시장 상황에 따라 변동성을 보이나, AI PC 전환 가속화로 점진적 개선 기대. 전반적인 매출 및 이익 성장률은 시장 평균을 상회할 것으로 예상.",
+    "bear_case": "AI 경쟁 심화 및 시장 성장 둔화, 주요 고객사 의존도 심화, 제조 및 공급망 문제 발생 시 매출 및 이익 성장률이 크게 둔화될 수 있으며, 시장 점유율 하락 가능성 존재.",
     "key_metrics_to_watch": [
-      "데이터 센터 매출 성장률",
-      "AI PC 관련 제품 출하량 및 시장 점유율",
-      "연구 개발(R&D) 투자 및 신기술 로드맵",
-      "총 마진율 (Gross Margin)",
-      "경쟁사 대비 성능 우위 유지 여부"
+      "데이터센터 부문 매출 성장률",
+      "AI PC 관련 NPU 출하량 및 시장 점유율",
+      "연구 개발 투자 및 신제품 출시 주기",
+      "총 마진율 (Gross Margin)"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "경쟁",
-        "description": "반도체 시장은 경쟁이 매우 치열하고 빠르게 변화하며, 경쟁사들은 더 강력한 시장 지위와 자원을 가지고 있어 AMD의 시장 점유율 확보를 제한할 수 있습니다.",
+        "description": "반도체 시장은 경쟁이 매우 치열하고 빠르게 변화하며, 경쟁사들은 더 강력한 시장 지위와 자원을 보유하고 있어 AMD의 시장 점유율 확보 및 신규 시장 기회 활용을 제한할 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "공급망",
-        "description": "제품 제조를 제3자에게 의존하고 있으며, 이들이 적시에 충분한 수량으로 경쟁력 있는 기술을 사용하여 제조하지 못할 경우 사업에 심각한 영향을 미칠 수 있습니다.",
+        "description": "제품 제조를 제3자에게 의존하고 있으며, 이들이 적시에 충분한 수량과 경쟁력 있는 기술로 제품을 생산하지 못할 경우 AMD 사업에 심각한 부정적 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "고객집중도",
-        "description": "주요 고객의 손실은 AMD에 중대한 악영향을 미칠 수 있으며, 특정 고객의 제품 성공에 따라 반맞춤형 SoC 제품의 매출이 좌우됩니다.",
+        "description": "주요 고객을 잃을 경우 AMD 사업에 중대한 부정적 영향을 미칠 수 있으며, 특히 세미 커스텀 SoC 제품의 매출은 고객 제품의 성공에 크게 의존합니다.",
         "severity": "medium"
       },
       {
-        "category": "기술",
-        "description": "기술 또는 기타 지적 재산을 특허, 저작권 등으로 적절히 보호하지 못하면 경쟁 우위를 잃고 상당한 비용이 발생할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거시",
-        "description": "경제 및 시장 불확실성은 AMD의 사업 및 운영 결과에 부정적인 영향을 미칠 수 있으며, 반도체 산업은 경기 변동성이 매우 높습니다.",
+        "category": "재무",
+        "description": "반도체 산업은 경기 변동성이 매우 크고 심각한 침체를 겪었으며, 경제 및 시장 불확실성은 AMD의 사업 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "규제",
-        "description": "수출 규제, 수입 관세 및 무역 보호 조치를 포함한 정부 조치 및 규제는 특정 고객에게 제품을 수출하는 AMD의 능력을 제한할 수 있습니다.",
+        "description": "정부 조치 및 규제(수출 규제, 수입 관세, 무역 보호 조치 등)는 특정 고객에게 제품을 수출하는 AMD의 능력을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "운영",
-        "description": "IT 중단, 데이터 손실, 데이터 유출 및 사이버 공격은 운영을 방해하고 지적 재산 또는 기타 민감한 정보를 침해하며, 복구에 비용이 많이 들거나 사업, 평판, 재무 상태 및 운영 결과에 상당한 피해를 줄 수 있습니다.",
+        "category": "거시",
+        "description": "전 세계적인 사업 운영은 정치적, 법적, 경제적 위험 및 자연재해에 노출되어 있으며, 이는 사업 운영에 차질을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "기술 또는 기타 지적 재산을 특허, 저작권, 영업 비밀 등으로 적절히 보호하지 못하면 경쟁 우위를 잃고 상당한 비용이 발생할 수 있습니다.",
         "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "주요 파운드리 파트너가 생산에 심각한 차질을 겪거나 AMD의 핵심 기술을 경쟁사에 유출하여 제품 공급이 중단되고 경쟁력을 상실하는 경우.",
-      "인텔, 엔비디아 등 주요 경쟁사들이 혁신적인 신제품을 출시하고 공격적인 가격 정책으로 시장 점유율을 급격히 확대하여 AMD의 매출과 수익성이 지속적으로 하락하는 경우.",
-      "핵심 고객사(예: 콘솔 제조사)가 AMD와의 계약을 해지하거나 자체 칩 개발로 전환하여 반맞춤형 SoC 매출이 급감하고 재무 구조가 악화되는 경우.",
-      "글로벌 경기 침체가 장기화되어 PC, 서버, 게임 콘솔 등 주요 시장의 수요가 급감하고, AMD가 이에 효과적으로 대응하지 못하여 대규모 손실을 기록하는 경우."
+      "주요 파운드리 파트너가 생산에 실패하거나 경쟁사보다 뒤처진 기술을 제공하여 AMD가 시장에서 경쟁력을 완전히 상실하는 경우.",
+      "주요 고객(예: 콘솔 제조업체)이 AMD 제품 사용을 중단하거나 자체 칩 개발로 전환하여 매출의 상당 부분을 잃는 경우.",
+      "핵심 기술 유출 또는 주요 지적 재산권 침해 소송 패소로 인해 막대한 손실을 입고 제품 개발 및 판매가 불가능해지는 경우.",
+      "글로벌 경제 침체와 반도체 시장의 심각한 불황이 겹쳐 제품 수요가 급감하고 재고가 쌓여 재무 건전성이 급격히 악화되는 경우."
     ],
     "exit_signals": [
-      "AMD의 주요 제품(CPU, GPU) 시장 점유율이 3분기 연속 하락하고, 경쟁사 제품 대비 성능 및 가격 경쟁력이 현저히 떨어지는 신제품이 출시되는 경우.",
-      "주요 파운드리 파트너와의 공급 계약에 중대한 변경이 발생하거나, 차세대 공정 기술 도입이 지연되어 경쟁사 대비 기술 격차가 벌어지는 소식이 확인되는 경우.",
-      "데이터 센터 및 AI 시장에서 AMD의 성장률이 둔화되거나, 주요 고객사들이 경쟁사 제품으로 전환하는 움직임이 나타나는 경우.",
-      "AMD의 재무제표에서 매출 성장률이 둔화되고 영업이익률이 지속적으로 하락하며, 현금 흐름이 악화되는 추세가 명확해지는 경우."
+      "주요 파운드리 파트너(예: TSMC)와의 계약이 해지되거나, 핵심 공정 기술에서 경쟁사 대비 2세대 이상 뒤처진다는 공식 발표.",
+      "AMD의 주요 고객(예: Microsoft, Sony)이 차세대 제품에서 AMD 칩 대신 경쟁사 칩 또는 자체 개발 칩을 사용한다고 발표.",
+      "AMD의 핵심 제품(CPU, GPU)이 경쟁사 제품 대비 성능, 전력 효율성, 가격 경쟁력에서 현저히 뒤처지는 벤치마크 결과가 지속적으로 발표되고 시장 점유율이 급격히 하락.",
+      "AMD가 핵심 인재를 대거 유출하거나, 주요 인수 합병이 실패하여 시너지가 발생하지 않고 오히려 재무적 부담만 가중되는 경우."
     ]
   },
   "wikipedia_summary": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-09T00:35:37.106204+00:00"
+    "GoogleWebTranslator": "2026-07-10T00:37:49.073998+00:00"
   }
 }

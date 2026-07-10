@@ -4,46 +4,30 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Insurance - Life",
-  "generated_at": "2026-07-03T00:12:40.259120+00:00",
+  "generated_at": "2026-07-10T00:35:30.585675+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 14014103552,
+    "market_cap": 13887542272,
     "shares_outstanding": 77644761,
     "employees": 3695,
     "country": "United States",
     "website": "https://home.globelifeinsurance.com",
-    "beta": 0.499
+    "beta": 0.47
   },
   "category_a_business": {
-    "overview": "글로브 라이프는 미국 중하위 및 중산층 가정을 대상으로 생명 및 보충 건강 보험 상품을 제공하는 지주회사입니다.",
-    "milestones": [
-      "1900: 회사 설립",
-      "1979: 델라웨어에 보험 지주회사로 편입",
-      "2019: Torchmark Corporation에서 Globe Life Inc.로 사명 변경"
-    ],
-    "business_model": "보험 상품 판매를 통해 보험료를 수취하고 투자 수익을 창출합니다.",
-    "revenue_streams": [
-      "생명 보험료",
-      "보충 건강 보험료",
-      "투자 수익"
-    ],
-    "value_chain_position": "Downstream: 보험 상품을 직접 개발하고 판매하여 최종 소비자에게 제공합니다.",
+    "overview": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다. 생명 보험, 보충 건강 보험, 투자의 세 가지 부문으로 운영됩니다. 이 회사는 전체, 정기, 기타 생명 보험 상품과 어린이 생명 보험을 제공합니다. 사고, 암, 중대한 질병, 심장, 집중 치료 및 기타 건강 제품과 같은 메디케어 보충식품 및 제한적 혜택 보충 건강 보험 상품, 최종 비용, 사고사, 모기지 이익",
+    "business_model": "Globe Life Inc.는 자회사를 통해 미국의 중하위 소득 가구에 다양한 생명 보험 및 보충 건강 보험 상품을 제공합니다.",
     "products": [
-      "전통 종신보험",
-      "정기보험",
-      "어린이 생명보험",
-      "메디케어 보충 보험",
-      "사고, 암, 중대 질병 등 보충 건강 보험"
+      "미국의 중산층 가정을 위한 다양한 생명보험 및 보충 건강 보험 상품",
+      "세 가지 부문: 생명 보험, 보충 건강 보험, 투자",
+      "종신보험, 정기보험, 기타 생명보험 상품과 어린이 생명보험",
+      "소비자 직접 채널, 독점 독립 대리점, 일반 대리점 독립 대리점을 통해 제품을 판매합니다. b"
     ],
     "channels": [
-      "D2C (직접 우편, 전자 미디어)",
-      "독점 독립 에이전트",
-      "일반 대리점 독립 에이전트",
-      "브로커"
-    ],
-    "key_customers": "고객 집중도가 낮으며, 주로 미국 중하위 및 중산층 가정을 대상으로 합니다."
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -53,7 +37,7 @@
     "gross_margin": 0.34,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.13,
-    "dividend_yield": 0.73,
+    "dividend_yield": 0.75,
     "payout_ratio": 0.08,
     "annual_revenue": [
       5994318000.0,
@@ -134,141 +118,33 @@
     "roe_pct": 20.46
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 1,000억 달러 (미국 생명보험 및 보충 건강보험 시장 규모 추정치 기반)",
-    "tam_cagr_pct": "3-5% (미국 생명보험 시장의 안정적인 성장과 고령화 추세, 보충 건강보험 수요 증가에 기반)",
-    "growth_drivers": [
-      "고령화 인구 증가 및 건강보험 보장 격차 확대로 인한 보충 건강보험 수요 증대",
-      "경제 불확실성 증가로 인한 저소득층 및 중산층의 기본 생명보험 및 건강보험 니즈 지속",
-      "디지털 채널을 통한 보험 상품 접근성 향상 및 효율적인 고객 도달",
-      "미국 내 저소득층 및 중산층 시장의 지속적인 성장 잠재력"
-    ],
-    "market_share_pct": "1-3% (미국 생명보험 및 보충 건강보험 시장은 매우 세분화되어 있으며, GL은 특정 틈새시장에 집중)",
-    "competitors": [
-      {
-        "name": "Prudential Financial",
-        "differentiation": "광범위한 금융 서비스 제공, 다양한 유통 채널, 고액 자산가 및 기관 고객 대상"
-      },
-      {
-        "name": "MetLife",
-        "differentiation": "글로벌 입지, 다양한 보험 및 연금 상품, 대기업 단체 보험 시장 강점"
-      },
-      {
-        "name": "New York Life",
-        "differentiation": "상호회사 구조, 강력한 재정 건전성, 고품질 고객 서비스 및 재정 상담"
-      },
-      {
-        "name": "Aflac",
-        "differentiation": "보충 건강보험 시장의 선두 주자, 강력한 브랜드 인지도, 직장 단체 보험 채널 강점"
-      },
-      {
-        "name": "Transamerica",
-        "differentiation": "다양한 생명보험 및 은퇴 솔루션, 독립 에이전트 네트워크 활용"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium (보험 산업은 규제가 많고 자본 집약적이지만, 핀테크 기반의 새로운 플레이어가 특정 틈새시장에 진입할 가능성 존재)",
-      "substitutes": "medium (정부 지원 프로그램, 저축 상품, 다른 형태의 투자 상품 등이 일부 대체재가 될 수 있으나, 보험 본연의 위험 보장 기능은 대체하기 어려움)",
-      "buyer_power": "medium (소비자는 다양한 보험 상품과 제공업체를 비교할 수 있으며, 온라인 정보 접근성 증가로 구매자 협상력이 높아지고 있음)",
-      "supplier_power": "low (주요 공급자는 재보험사, 기술 제공업체 등이며, GL은 자체적인 언더라이팅 및 유통 채널을 보유하여 공급자 의존도가 낮음)",
-      "rivalry": "high (미국 생명보험 및 건강보험 시장은 매우 경쟁적이며, 수많은 대형 및 소형 플레이어가 존재하며 가격 및 상품 차별화를 통해 경쟁)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "저소득층 및 중산층이라는 특정 틈새시장에 대한 60년 이상의 집중된 경험과 데이터",
-      "직접 소비자(Direct-to-Consumer) 및 독점 에이전트 채널을 통한 효율적인 시장 도달 능력",
-      "기본적인 생명보험 및 보충 건강보험 상품에 특화된 포트폴리오",
-      "높은 자기자본이익률(ROE)을 통한 재무 건전성 및 효율적인 운영"
-    ],
-    "competitive_weaknesses": [
-      "고액 자산가 및 기관 고객 시장에서의 낮은 인지도 및 경쟁력",
-      "상품 포트폴리오가 제한적이며, 이자율 변동에 민감한 상품 부재",
-      "독점 에이전트 및 직접 판매 채널에 대한 높은 의존도 (에이전트 이탈 시 리스크)",
-      "디지털 혁신 및 기술 도입 속도가 경쟁사에 비해 느릴 가능성"
+      "Financial Services / Insurance - Life 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 57.4,
+    "rs_rating": 72,
+    "score": 56.7,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": 1.3,
-    "trailing_pe": 12.499309,
-    "forward_pe": 10.840494,
-    "ev_to_ebitda": 10.277,
-    "price_to_sales": 2.3074124,
+    "trailing_pe": 12.377855,
+    "forward_pe": 10.745175,
+    "ev_to_ebitda": 10.2,
+    "price_to_sales": 2.2865741,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 17.87,
-    "outperform_6m_vs_nasdaq": 17.84,
-    "outperform_1m_vs_nasdaq": 24.15,
-    "lynch_category": "Slow Grower",
-    "moat_type": "Intangible Assets | Switching Costs",
-    "moat_evidence": [
-      "GL은 60년 이상 저소득층에서 중산층까지의 시장에 동일한 상품으로 서비스를 제공하며 방대한 데이터와 경험을 축적했습니다. 이는 이 시장에 대한 깊은 이해와 효율적인 접근을 가능하게 하는 무형 자산입니다.",
-      "GL은 독점 에이전트 및 직접 소비자 채널을 통해 저소득층에서 중산층 시장에 효율적으로 도달할 수 있는 독점적인 유통망을 구축했습니다. 이는 경쟁사들이 쉽게 모방하기 어려운 진입 장벽으로 작용합니다.",
-      "GL의 보험 상품은 저소득층에서 중산층 소비자의 재정적 안정을 돕기 위해 특별히 설계되었습니다. 이 시장의 고객들은 보험 상품 변경에 대한 높은 전환 비용(정보 탐색, 신뢰 구축 등)을 가질 수 있습니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "총 순매출 13% 증가 및 독점 에이전트 수 3% 증가로 유통 채널 강화",
-    "bull_case": "3년 내 EPS 10% 이상 성장. 저소득층-중산층 시장 침투 가속화 및 효율적인 유통망 확대로 달성.",
-    "base_case": "GL은 저소득층-중산층 시장에서 안정적인 성장을 지속할 것입니다. 독점적인 유통 채널과 오랜 경험을 바탕으로 꾸준한 프리미엄 증가와 수익성을 유지할 것으로 예상됩니다. ROE 20% 수준을 유지하며 주주 가치를 창출할 것입니다.",
-    "bear_case": "경기 침체로 인한 저소득층-중산층 소비자의 보험 구매력 감소, 경쟁 심화로 인한 시장 점유율 하락, 또는 에이전트 이탈률 증가로 매출 성장 둔화 및 수익성 악화가 발생할 수 있습니다.",
-    "key_metrics_to_watch": [
-      "총 프리미엄 성장률 (특히 생명보험 및 건강보험 부문)",
-      "독점 에이전트 수 변화 및 생산성",
-      "순이익 ROE 및 영업이익률"
-    ]
+    "outperform_1y_vs_nasdaq": 20.56,
+    "outperform_6m_vs_nasdaq": 17.33,
+    "outperform_1m_vs_nasdaq": 12.97,
+    "lynch_category": "Slow Grower"
   },
-  "category_e_risks": {
-    "top_risks": [
-      {
-        "category": "규제",
-        "description": "보험 산업에 대한 규제 환경 변화, 특히 자본 요건, 판매 관행, 소비자 보호 관련 규제 강화는 GL의 사업 모델과 수익성에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "금리 변동은 GL의 투자 수익률과 보험 부채 평가에 직접적인 영향을 미쳐, 저금리 환경 지속 또는 급격한 금리 인상은 수익성 악화로 이어질 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "경쟁",
-        "description": "경쟁 심화는 보험료 인하 압력, 고객 유치 비용 증가, 시장 점유율 하락으로 이어져 GL의 성장과 수익성에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "고객집중도",
-        "description": "특정 고객층 또는 유통 채널에 대한 높은 의존도는 해당 부문의 변화나 문제 발생 시 GL의 사업에 큰 타격을 줄 수 있습니다.",
-        "severity": "low"
-      },
-      {
-        "category": "거시",
-        "description": "경기 침체, 높은 실업률 등 거시 경제 악화는 보험 상품 수요 감소, 해약률 증가, 투자 자산 가치 하락으로 이어져 GL의 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "거버넌스",
-        "description": "사이버 보안 침해 또는 데이터 유출 사고 발생 시 고객 신뢰도 하락, 법적 책임, 규제 벌금 등으로 인해 GL의 명성과 재무 상태에 심각한 피해를 줄 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "보험금 지급 예측 오류 또는 예상치 못한 대규모 보험금 청구 발생 시 GL의 재무 건전성에 심각한 부담을 줄 수 있습니다.",
-        "severity": "medium"
-      }
-    ],
-    "inversion_scenarios": [
-      "예상치 못한 대규모 재해 발생으로 인한 보험금 지급 급증과 동시에 투자 자산 가치 폭락이 발생하여 회사의 지급 능력이 상실됩니다.",
-      "엄격한 신규 규제 도입으로 기존 사업 모델이 무력화되고, 경쟁사 대비 혁신 역량 부족으로 시장 점유율을 급격히 상실합니다.",
-      "반복적인 사이버 보안 침해와 고객 데이터 유출로 인해 브랜드 신뢰도가 완전히 붕괴되고 대규모 소송 및 규제 벌금에 직면합니다."
-    ],
-    "exit_signals": [
-      "핵심 보험 상품의 판매량이 2분기 연속 10% 이상 감소하고, 해약률이 지속적으로 증가하는 추세가 나타납니다.",
-      "주요 신용 평가 기관이 GL의 신용 등급을 하향 조정하고, 이에 대한 명확한 회복 계획이 제시되지 않습니다.",
-      "새로운 규제가 도입되어 GL의 핵심 사업 부문에서 수익성이 급격히 악화되거나, 사업 운영 방식에 근본적인 변화가 강제됩니다."
-    ]
-  },
+  "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-09T00:36:45.082657+00:00"
+    "GoogleWebTranslator": "2026-07-10T00:38:59.720646+00:00"
   }
 }
