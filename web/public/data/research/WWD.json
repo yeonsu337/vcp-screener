@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Aerospace & Defense",
-  "generated_at": "2026-07-04T00:18:30.751035+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-07-11T00:06:11.277944+00:00",
+  "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 24906825728,
+    "market_cap": 24214474752,
     "shares_outstanding": 59582861,
     "employees": 10200,
     "country": "United States",
@@ -17,36 +17,36 @@
     "beta": 0.855
   },
   "category_a_business": {
-    "overview": "우드워드(WWD)는 항공우주 및 산업 시장을 위한 정밀 제어 솔루션을 설계, 제조, 서비스하는 기업입니다.",
+    "overview": "우드워드(WWD)는 항공우주 및 산업 시장을 위한 제어 솔루션을 설계, 제조, 서비스하는 기업입니다.",
     "milestones": [
       "1870: 회사 설립",
-      "1900년대 초: 수력 터빈 조속기 개발",
-      "1930년대: 항공기 엔진 제어 시스템 시장 진출",
-      "1950년대: 산업용 가스 터빈 제어 시스템 확장",
-      "2000년대: 전자 제어 및 소프트웨어 솔루션 강화",
-      "현재: 항공우주 및 산업 부문으로 사업 운영"
+      "1902: 최초의 유압식 터빈 조속기 특허",
+      "1930s: 항공기 엔진 제어 시스템 개발 시작",
+      "1950s: 산업용 가스 터빈 제어 시스템 시장 진출",
+      "2000s: 글로벌 시장 확장 및 다양한 제어 기술 포트폴리오 구축",
+      "2020s: 지속적인 기술 혁신 및 애프터마켓 서비스 강화"
     ],
-    "business_model": "정밀 제어 시스템 및 부품을 설계, 제조, 판매하고 관련 서비스를 제공하여 수익을 창출합니다.",
+    "business_model": "항공우주 및 산업용 제어 시스템 및 부품 판매, 애프터마켓 서비스로 수익을 창출합니다.",
     "revenue_streams": [
       "항공우주 부문 제품 판매",
       "산업 부문 제품 판매",
-      "항공우주 애프터마켓 서비스 (MRO)",
+      "항공우주 애프터마켓 서비스",
       "산업 애프터마켓 서비스"
     ],
-    "value_chain_position": "Midstream + 핵심 부품 및 시스템 제조를 통해 고객사의 최종 제품에 통합됩니다.",
+    "value_chain_position": "Midstream: 고성능 제어 시스템 및 부품을 설계, 제조하여 최종 장비에 통합됩니다.",
     "products": [
       "연료 펌프 및 계량 장치",
       "액추에이터 및 밸브",
       "연료 분사 시스템",
       "제어 시스템 및 전자 장치",
-      "센서",
-      "추력 역전 장치 작동 시스템"
+      "추력 역전 장치 작동 시스템",
+      "센서 및 점화 시스템"
     ],
     "channels": [
       "B2B (OEM 및 장비 패키저)",
       "B2B (상업 항공사, 수리 시설, 군수 창고)"
     ],
-    "key_customers": "주로 OEM 및 장비 패키저에 집중되어 있으며, 특정 고객에 대한 매출 의존도는 공개되지 않았습니다."
+    "key_customers": "주로 OEM 및 장비 패키저에 집중되어 있으며, 애프터마켓 고객도 중요합니다."
   },
   "category_b_financials": {
     "roe": 0.21,
@@ -56,7 +56,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.23,
     "earnings_growth_ttm": 0.23,
-    "dividend_yield": 0.31,
+    "dividend_yield": 0.32,
     "payout_ratio": 0.14,
     "annual_revenue": [
       3567064000.0,
@@ -137,33 +137,142 @@
     "roe_pct": 21.13
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 (estimate) + 항공우주 및 산업용 제어 시스템 시장 규모 추정치 기반",
+    "tam_cagr_pct": "5-7% + 항공우주 산업의 지속적인 성장, 산업 자동화 및 에너지 효율성 증대 요구, 그리고 친환경 에너지 전환 트렌드에 기반",
+    "growth_drivers": [
+      "항공우주 산업의 지속적인 성장 및 신규 항공기 수요 증가",
+      "산업 자동화 및 에너지 효율성 향상에 대한 전 세계적인 요구 증대",
+      "탄소 배출 저감 및 친환경 에너지 솔루션(수소, 바이오 연료, 연료전지 등)으로의 전환 가속화",
+      "국방 예산 증가 및 군용 항공기, 지상 차량 등 장비 현대화 수요",
+      "디지털화 가속화에 따른 정밀 제어 및 최적화 솔루션 수요 증가"
+    ],
+    "market_share_pct": "5~10%(추정)",
+    "competitors": [
+      {
+        "name": "Honeywell International Inc.",
+        "differentiation": "다양한 산업 분야에 걸친 광범위한 포트폴리오와 강력한 브랜드 인지도, 통합 솔루션 제공 능력"
+      },
+      {
+        "name": "Parker-Hannifin Corporation",
+        "differentiation": "유체 동력 및 제어 기술 분야의 강점, 광범위한 제품 라인업 및 글로벌 유통망"
+      },
+      {
+        "name": "Safran S.A.",
+        "differentiation": "항공우주 및 방위 산업에 특화된 엔진 및 장비 전문성, OEM과의 긴밀한 협력 관계"
+      },
+      {
+        "name": "Moog Inc.",
+        "differentiation": "고성능 정밀 제어 시스템 및 액추에이터 분야의 전문성, 극한 환경 솔루션 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + 고도의 기술 전문성, 막대한 R&D 투자, 엄격한 규제 및 인증, 기존 OEM과의 장기적인 관계 구축의 어려움",
+      "substitutes": "medium + 기존 기계식 제어 시스템의 디지털화 및 소프트웨어 기반 솔루션으로의 전환 가능성, 그러나 핵심 제어 기능 대체는 어려움",
+      "buyer_power": "medium + 주요 고객이 대형 OEM으로, 대량 구매력을 가지며 맞춤형 솔루션 요구, 그러나 Woodward의 기술 전문성에 대한 의존도도 높음",
+      "supplier_power": "low + 다양한 부품 및 원자재 공급업체가 존재하며, Woodward는 핵심 기술을 내재화하여 특정 공급업체에 대한 의존도가 낮음",
+      "rivalry": "high + 소수의 대형 글로벌 기업들이 시장을 지배하며, 기술 혁신, 가격 경쟁, 고객 관계를 통한 치열한 경쟁"
+    },
     "competitive_advantages": [
-      "Industrials / Aerospace & Defense 카테고리 — yfinance peer 비교 권장"
+      "항공우주 및 산업 시장을 위한 에너지 제어 및 최적화 솔루션 분야의 독립적인 전문성",
+      "정밀 제어, 효율성, 저배출, 고성능 에너지 제어 제품에 대한 깊은 기술력 및 R&D 역량",
+      "다양한 응용 분야에 걸쳐 활용 가능한 핵심 기술(모션, 유체, 연소, 전기 에너지 제어)의 교차 활용 능력",
+      "주요 OEM 및 장비 패키저와의 강력한 파트너십 및 장기적인 고객 관계",
+      "설치된 제품에 대한 서비스, 수리, 유지보수 및 교체 지원을 통한 지속적인 수익 창출"
+    ],
+    "competitive_weaknesses": [
+      "특정 산업(항공우주, 산업용 터빈/엔진)에 대한 높은 의존도로 인한 시장 변동성 노출",
+      "글로벌 경제 상황 및 지정학적 리스크에 대한 민감성",
+      "대형 경쟁사 대비 상대적으로 작은 규모로 인한 자본 및 마케팅 역량의 한계",
+      "신기술 개발 및 시장 변화에 대한 지속적인 투자 압박"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 62.2,
+    "rs_rating": 72,
+    "score": 59.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.6713,
-    "trailing_pe": 50.00239,
-    "forward_pe": 38.84388,
-    "ev_to_ebitda": 35.38,
-    "price_to_sales": 6.230239,
+    "peg_ratio": 2.5606,
+    "trailing_pe": 48.670654,
+    "forward_pe": 37.605324,
+    "ev_to_ebitda": 34.182,
+    "price_to_sales": 6.057053,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 43.88,
-    "outperform_6m_vs_nasdaq": 27.85,
-    "outperform_1m_vs_nasdaq": 25.93,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 34.38,
+    "outperform_6m_vs_nasdaq": 14.76,
+    "outperform_1m_vs_nasdaq": 4.39,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "우드워드는 항공우주 및 산업 시장을 위한 제어 솔루션의 독립적인 설계자, 제조업체 및 서비스 제공업체입니다. 이는 고도의 전문성과 기술 노하우가 필요한 분야입니다.",
+      "정밀하고 효율적인 에너지 제어(모션, 유체, 연소, 전기 에너지 포함)는 당사가 서비스하는 시장에서 증가하는 요구사항이며, 우드워드는 이 분야에서 핵심 기술을 보유하고 있습니다.",
+      "우드워드의 핵심 기술은 시장 및 고객 애플리케이션 전반에 걸쳐 활용될 수 있어 비용 효율적이고 최첨단 연료, 연소, 유체, 작동 및 전자 시스템을 개발하고 통합할 수 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "온실가스 감축, 우주 상업화, 디지털 시대 가속화 등 거시적 트렌드에 대응하는 에너지 제어 및 최적화 솔루션 개발",
+    "bull_case": "3년 내 EPS 50% 성장. 항공우주 및 산업 시장의 강력한 수요와 친환경 에너지 솔루션 채택 가속화가 핵심 동력.",
+    "base_case": "항공우주 및 산업 시장의 꾸준한 성장과 에너지 효율 및 저배출 솔루션에 대한 지속적인 수요 증가에 힘입어 매출 및 이익이 안정적으로 성장할 것으로 예상됩니다. 신기술 개발 및 시장 확대를 통해 점진적인 시장 점유율 확대가 기대됩니다.",
+    "bear_case": "글로벌 무역 긴장 심화, 관세 정책 변화, 공급망 불안정으로 인한 비용 압박 증가, 그리고 예상보다 더딘 친환경 에너지 전환으로 인해 매출 성장 둔화 및 수익성 악화가 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "항공우주 및 산업 부문별 매출 성장률",
+      "신제품 및 친환경 솔루션 관련 R&D 투자 및 성과",
+      "글로벌 무역 정책 변화 및 관세 영향",
+      "수익성 지표 (OPM, NPM) 추이"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "소수의 주요 고객(특히 보잉, 에어버스)에 대한 매출 의존도가 높아, 이들 고객의 사업 변동이나 주문 감소 시 회사 실적에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 중단, 원자재 가격 변동, 특정 부품의 단일 공급업체 의존성 등으로 인해 생산 지연, 비용 증가 및 고객 납기 준수 어려움이 발생할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "항공우주 및 산업 시장의 치열한 경쟁 환경에서 기술 혁신 실패, 가격 경쟁력 상실 또는 신규 경쟁자의 진입은 시장 점유율과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "항공우주 및 방위 산업에 적용되는 엄격한 정부 규제, 환경 규제, 수출 통제 및 무역 정책 변화는 사업 운영에 제약이 되거나 추가 비용을 발생시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "인플레이션 압력, 금리 변동, 외환 환율 변동 등 거시경제적 요인이 원가 상승, 수익성 악화 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 침체, 지정학적 불안정, 팬데믹과 같은 예측 불가능한 사건은 항공 여행 수요 감소, 국방 예산 변동 등으로 이어져 회사 사업에 광범위한 영향을 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 침해, 데이터 유출 또는 정보 시스템 장애는 운영 중단, 재정적 손실, 평판 손상 및 법적 책임을 초래할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "보잉과 에어버스의 주요 프로그램이 장기적으로 중단되거나, WWD가 핵심 부품 공급업체 지위를 상실하여 매출의 상당 부분을 잃는 경우.",
+      "핵심 기술 개발에 실패하거나 경쟁사에게 기술적 우위를 빼앗겨 시장 점유율이 급격히 하락하고 수익성이 지속적으로 악화되는 경우.",
+      "글로벌 공급망이 심각하게 붕괴되어 생산이 장기간 중단되고, 고객과의 계약 불이행으로 막대한 위약금을 지불해야 하는 경우.",
+      "대규모 사이버 공격으로 핵심 지적 재산이 유출되거나 생산 시스템이 마비되어 복구 불가능한 손실을 입는 경우."
+    ],
+    "exit_signals": [
+      "보잉 또는 에어버스의 주요 항공기 프로그램에서 WWD가 핵심 공급업체 지위를 상실했다는 공식 발표.",
+      "WWD의 주요 제품 라인에서 경쟁사에게 기술적으로 뒤처지거나, 시장 점유율이 2년 연속 5% 이상 하락하는 추세가 확인될 때.",
+      "글로벌 항공우주 산업의 장기적인 침체 조짐(예: 항공사들의 대규모 주문 취소, 생산량 급감)이 뚜렷해질 때.",
+      "핵심 원자재 가격이 급등하거나 공급망 문제가 장기화되어 영업이익률이 지속적으로 악화되는 재무 지표가 나타날 때."
+    ]
+  },
   "wikipedia_summary": "Woodward, Inc. is an American designer, manufacturer, and service provider of control systems and control system components for aircraft, aircraft engines, industrial engines and turbines, power generation and mobile industrial equipment. The company also provides military devices and other equipment for defense.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-10T00:40:23.110079+00:00"
+    "GoogleWebTranslator": "2026-07-11T00:14:56.317653+00:00"
   }
 }

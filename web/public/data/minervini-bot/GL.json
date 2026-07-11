@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "GL",
-  "generated_at": "2026-07-10T00:17:15.931740+00:00",
-  "source_results_date": "2026-07-10",
+  "generated_at": "2026-07-11T00:04:13.119645+00:00",
+  "source_results_date": "2026-07-11",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 72,
+    "rs_rating": 73,
     "stage": 0,
     "base_count": 2,
     "late_base_warning": false,

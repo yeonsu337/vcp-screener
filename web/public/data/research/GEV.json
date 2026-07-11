@@ -4,29 +4,44 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Specialty Industrial Machinery",
-  "generated_at": "2026-05-15T00:31:38.556586+00:00",
+  "generated_at": "2026-07-11T00:05:32.490956+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 293047238656,
+    "market_cap": 293326684160,
     "shares_outstanding": 268719995,
     "employees": 78000,
     "country": "United States",
     "website": "https://www.gevernova.com",
-    "beta": 1.313
+    "beta": 0.935
   },
   "category_a_business": {
-    "overview": "에너지 기업인 GE Vernova Inc.는 미국, 유럽, 아시아, 중동 및 아프리카에서 전기를 생성, 전송, 조정, 변환 및 저장하는 다양한 제품과 서비스를 제공합니다. 이 회사는 전력, 풍력, 전기화의 세 가지 부문으로 운영됩니다. 발전 부문은 가스, 원자력, 수력 및 증기 기술을 설계, 제조 및 서비스합니다.",
-    "business_model": "에너지 회사인 GE Vernova Inc.는 미국, 유럽, 아시아 및 세계에서 전기를 생성, 전송, 조정, 변환 및 저장하는 다양한 제품과 서비스를 제공하고 있습니다.",
+    "overview": "GE Vernova는 전력 산업의 글로벌 리더로, 전력 생산, 전송, 변환, 저장 기술을 제공합니다.",
+    "milestones": [
+      "2023년: GE Vernova Inc. 설립",
+      "2024: 제너럴 일렉트릭(GE)으로부터 분사하여 독립 회사로 출범"
+    ],
+    "business_model": "전력 생산, 전송, 변환, 저장 기술 및 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "가스, 원자력, 수력, 증기 기술 설계, 제조 및 서비스",
+      "육상 및 해상 풍력 터빈 및 블레이드",
+      "그리드 솔루션 및 전력 변환",
+      "전력화 소프트웨어 및 태양광/저장 솔루션"
+    ],
+    "value_chain_position": "Midstream + 전력 시스템 구축, 현대화, 서비스 및 에너지 전환 솔루션 제공.",
     "products": [
-      "Power, Wind, Electrificatio의 세 가지 부문을 통해",
-      "육상 및 해상 풍력 터빈과 블레이드를 포함한 풍력 발전 기술",
-      "그리드 솔루션"
+      "가스 터빈",
+      "풍력 터빈",
+      "원자력 기술",
+      "수력 발전 기술",
+      "그리드 솔루션",
+      "전력 변환 시스템"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주요 유틸리티, 개발업체, 정부 및 대규모 전력 사용자에게 서비스를 제공합니다."
   },
   "category_b_financials": {
     "roe": 0.76,
@@ -36,7 +51,7 @@
     "gross_margin": 0.2,
     "revenue_growth_ttm": 0.16,
     "earnings_growth_ttm": 18.16,
-    "dividend_yield": 0.14,
+    "dividend_yield": 0.19,
     "payout_ratio": 0.05,
     "annual_revenue": [
       38068000000.0,
@@ -113,72 +128,137 @@
     "roe_pct": 75.71
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 (추정) + 전력 산업 전반의 장비 및 서비스 시장 규모를 기반으로 추정. 전 세계 전력 수요 증가 및 에너지 전환 투자 규모 고려.",
+    "tam_cagr_pct": "5-8% + 전 세계적인 전력 수요 증가, 탈탄소화 및 전력 시스템 현대화 필요성 증대, 재생에너지 투자 확대에 기반함.",
+    "growth_drivers": [
+      "전 세계적인 전력 수요 증가 및 신흥 시장의 전력 인프라 확장",
+      "탈탄소화 및 에너지 전환 가속화로 인한 재생에너지 및 관련 인프라 투자 확대",
+      "기존 전력 시스템의 현대화 및 디지털화 필요성 증대",
+      "전력 시스템의 신뢰성 및 복원력 강화 요구 증대",
+      "정부 정책 및 규제 지원을 통한 청정에너지 기술 도입 장려"
+    ],
+    "market_share_pct": "20-30% (추정) + 전 세계 전력 생산량의 약 25%를 자사 기술 기반으로 한다는 점을 고려.",
+    "competitors": [
+      {
+        "name": "Siemens Energy",
+        "differentiation": "가스 및 증기 터빈, 송배전, 재생에너지 등 광범위한 포트폴리오와 유럽 시장에서의 강력한 입지."
+      },
+      {
+        "name": "Mitsubishi Heavy Industries (MHI)",
+        "differentiation": "가스 터빈, 원자력 발전, 재생에너지 등 중공업 기반의 기술력과 아시아 시장에서의 강점."
+      },
+      {
+        "name": "ABB",
+        "differentiation": "전력망, 자동화, 로봇 등 전력 및 산업 자동화 솔루션에 특화된 기술력과 글로벌 네트워크."
+      },
+      {
+        "name": "Vestas Wind Systems",
+        "differentiation": "풍력 터빈 제조 및 서비스에 특화된 글로벌 리더로, 재생에너지 분야에서 강력한 경쟁력."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 높은 초기 투자 비용, 복잡한 기술 요구사항, 강력한 기존 플레이어의 존재로 진입 장벽이 높으나, 특정 니치 시장이나 신기술 분야에서는 새로운 진입자가 발생할 수 있음.",
+      "substitutes": "low + 전력 생산 및 송배전 시스템은 필수 인프라로, 직접적인 대체재가 거의 없음. 다만, 분산형 에너지원이나 에너지 효율 기술이 간접적인 대체 효과를 가질 수 있음.",
+      "buyer_power": "medium + 주요 고객은 대형 유틸리티, 정부, 대규모 개발사로 구매력이 높으나, GE Vernova의 기술력과 광범위한 솔루션은 고객의 선택지를 제한할 수 있음.",
+      "supplier_power": "medium + 핵심 부품 및 기술 공급업체에 대한 의존도가 존재하나, GE Vernova의 규모와 구매력으로 어느 정도 협상력을 가질 수 있음.",
+      "rivalry": "high + Siemens Energy, MHI 등 강력한 글로벌 경쟁사들과의 치열한 경쟁이 존재하며, 기술 혁신과 가격 경쟁이 심화되고 있음."
+    },
     "competitive_advantages": [
-      "Industrials / Specialty Industrial Machinery 카테고리 — yfinance peer 비교 권장"
+      "전 세계 전력 생산량의 약 25%를 담당하는 광범위한 설치 기반 및 서비스 네트워크",
+      "전력 산업 전반에 걸친 포괄적인 제품 및 서비스 포트폴리오 (발전, 송전, 변환, 저장)",
+      "에너지 전환 및 탈탄소화를 위한 혁신적인 기술 개발 및 투자 역량",
+      "주요 유틸리티, 개발사, 정부 등과의 강력한 고객 관계 및 파트너십",
+      "GE의 오랜 역사와 기술 혁신 유산을 통한 브랜드 신뢰도 및 기술 전문성"
+    ],
+    "competitive_weaknesses": [
+      "GE로부터의 분사로 인한 독립 기업으로서의 초기 운영 및 시장 적응 과제",
+      "복잡하고 광범위한 포트폴리오 관리 및 효율성 증대 필요성",
+      "글로벌 경쟁 심화 및 가격 압박에 대한 지속적인 대응 필요",
+      "신기술 개발 및 투자에 대한 막대한 자본 지출 요구",
+      "기존 화석 연료 기반 기술의 비중이 여전히 존재하여 에너지 전환 과정에서의 포트폴리오 조정 필요성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 63.1,
+    "rs_rating": 84,
+    "score": 61.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.797,
-    "trailing_pe": 31.877523,
-    "forward_pe": 44.041016,
-    "ev_to_ebitda": 84.385,
-    "price_to_sales": 7.4424696,
+    "peg_ratio": 1.8577,
+    "trailing_pe": 31.926586,
+    "forward_pe": 44.725033,
+    "ev_to_ebitda": 83.183,
+    "price_to_sales": 7.449567,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 112.1,
-    "outperform_6m_vs_nasdaq": 76.06,
-    "outperform_1m_vs_nasdaq": -0.3,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 76.78,
+    "outperform_6m_vs_nasdaq": 53.56,
+    "outperform_1m_vs_nasdaq": 16.34,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "GE Vernova는 전력 산업의 글로벌 리더로서 전 세계 전력의 약 25%를 생산하는 설치 기반을 보유하고 있습니다. 이는 오랜 기간 축적된 기술력과 시장 지배력을 보여줍니다.",
+      "회사는 전력 시스템을 구축, 현대화, 서비스하며 전력 수요 증가, 시스템 신뢰성 및 복원력 향상, 에너지 전환을 통한 배출량 저감 등 고객의 다양한 요구를 충족시키는 광범위한 기술 포트폴리오를 보유하고 있습니다.",
+      "GE Vernova는 혁신의 강력한 역사를 가지고 있으며, 이는 고객의 요구를 충족시키는 핵심 강점입니다. 이는 지속적인 R&D 투자와 기술 개발을 통해 확보된 무형 자산입니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "GE Aerospace로부터의 스핀오프 완료 및 독립 회사로의 전환 (2024년 4월 2일)",
+    "bull_case": "에너지 전환 가속화 및 전력 수요 증가로 핵심 제품군 매출 및 수익성 개선, 주주 환원 확대.",
+    "base_case": "글로벌 전력 수요 증가와 에너지 전환 트렌드에 힘입어 안정적인 매출 성장과 수익성 개선을 지속할 것으로 예상됩니다. 스핀오프 이후 독립적인 경영을 통해 효율성이 증대되고, 핵심 제품 및 서비스에 집중하여 시장 리더십을 강화할 것입니다. 다만, 글로벌 경제 불확실성과 원자재 가격 변동성은 잠재적 위험 요인으로 작용할 수 있습니다.",
+    "bear_case": "에너지 전환 속도 둔화, 경쟁 심화, 글로벌 경기 침체로 인한 전력 투자 감소, 공급망 문제 장기화로 매출 성장 둔화 및 수익성 악화.",
+    "key_metrics_to_watch": [
+      "수주 잔고 및 신규 수주액",
+      "서비스 부문 매출 성장률",
+      "잉여 현금 흐름 (FCF)",
+      "운영 마진 (OPM)",
+      "R&D 투자 비중"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 덜 중요하다고 간주되는 추가 위험 및 불확실성도 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "운영 및 공급망",
+        "description": "제품 및 서비스의 품질 문제 발생 시 막대한 비용, 수요 감소, 손해배상 청구 또는 규제 조치로 이어져 사업 및 명성에 심각한 피해를 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "핵심 자재 및 부품의 비용 또는 가용성 변동을 포함한 심각한 공급망 및 물류 중단은 고객 의무 이행 능력에 영향을 미치고 비용을 증가시키며 계약 및 평판 위험을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "운영",
+        "description": "제조 및 운영 시설의 중단 또는 생산 능력 제약은 납품 지연, 비용 증가, 고객 관계 손상 및 제품 및 서비스 수요 충족 능력 제한으로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "보증 및 품질 관련 비용은 당사 비용의 의미 있는 부분을 차지했으며 앞으로도 이를 차지할 수 있습니다.",
+        "category": "재무",
+        "description": "예상되는 비용 절감 목표를 달성하지 못할 경우 장기적인 재무 및 현금 흐름 목표 달성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "공급업체의 불이행 또는 저조한 성과는 고객 약속 이행 능력에 영향을 미치고, 계약 종료 또는 책임을 촉발하고, 경쟁력을 손상시킬 수 있습니다.",
+        "category": "거시",
+        "description": "글로벌 공급망은 경제 및 지정학적 역학, 제재, 관세, 수출입 제한, 악천후 및 기타 요인에 영향을 받습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 요인 중 하나라도 고품질 제품, 솔루션 및 서비스를 제공하는 당사의 능력을 방해할 수 있으며 당사의 운영 결과, 현금 흐름 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "이러한 위치의 방해로 인해 충분한 수량을 생산할 수 없는 경우 외부 공급업체로부터 더 많은 양을 조달해야 할 수 있으며 이로 인해 지연, 품질 관리 문제 또는 추가 비용이 발생할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "현재 또는 미래의 수요를 충족하거나 신제품을 지원하기 위해 역량을 확장하려면 상당한 자본 투자와 리드 타임이 필요하며 실행이 지연될 수 있습니다.",
-        "severity": "medium"
+        "category": "운영",
+        "description": "신기술 및 기존 제품 라인에서 실제 또는 인지된 설계, 생산, 성능 또는 기타 품질 문제는 상당한 보증, 유지 보수 및 기타 손해 배상 청구를 초래할 수 있습니다.",
+        "severity": "high"
       }
     ],
+    "inversion_scenarios": [
+      "핵심 제품 라인에서 광범위한 품질 결함이 발생하여 대규모 리콜, 소송 및 규제 조치로 이어져 회사의 재정적 안정성과 명성을 파괴하는 경우.",
+      "글로벌 공급망이 심각하게 붕괴되어 핵심 부품 및 자재를 조달할 수 없게 되어 생산이 중단되고 고객에게 제품을 납품할 수 없게 되는 경우.",
+      "예상 수요가 크게 감소하거나 신규 생산 능력 확장이 수요를 초과하여 시설 과잉 투자, 고정 비용 미흡수 및 자산 손상으로 이어지는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 제품 라인에서 품질 관련 비용이 예상치를 20% 초과하여 증가하는 경우.",
+      "핵심 부품의 단일 공급업체에 대한 의존도가 증가하고 해당 공급업체에서 3개월 이상 납품 지연이 발생하는 경우.",
+      "생산 시설의 가동률이 1년 이상 70% 미만으로 떨어지고 신규 주문이 감소하는 추세가 지속되는 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-10T00:38:52.025870+00:00"
+    "GoogleWebTranslator": "2026-07-11T00:14:40.184234+00:00"
   }
 }
