@@ -1,0 +1,145 @@
+{
+  "ticker": "EIX",
+  "company": "Edison International",
+  "market": "US",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
+  "generated_at": "2026-07-14T00:11:14.590073+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 29232797696,
+    "shares_outstanding": 384793941,
+    "employees": 13725,
+    "country": "United States",
+    "website": "https://www.edison.com",
+    "beta": 0.649
+  },
+  "category_a_business": {
+    "overview": "Edison International은 자회사를 통해 전력 생산 및 유통에 종사하고 있습니다. 이 회사는 전기 인프라를 통해 캘리포니아 남부, 중부 및 해안의 약 50,000평방마일에 달하는 지역에 공급하고 배송합니다. 주거, 상업, 산업, 공공 기관, 농업, 가로등 및 기타 분야에 서비스를 제공합니다.",
+    "business_model": "Edison International은 자회사를 통해 전력 생산 및 유통에 종사하고 있습니다.",
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Edison International은 캘리포니아주 로즈미드에 본사를 둔 공공 유틸리티 지주 회사입니다. 자회사로는 Southern California Edison과 규제되지 않은 비공익 사업 자산인 Edison Energy가 있습니다. Edison의 뿌리는 1886년 캘리포니아 비살리아에서 가로등 공급업체로 설립된 회사인 Holt & Knupps로 거슬러 올라갑니다.",
+    "milestones": [
+      "1886년: 캘리포니아주 비살리아의 가로등 공급업체"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.04,
+    "profit_margin": 0.18,
+    "operating_margin": 0.27,
+    "gross_margin": 0.59,
+    "revenue_growth_ttm": 0.08,
+    "earnings_growth_ttm": -0.63,
+    "dividend_yield": 4.67,
+    "payout_ratio": 0.37,
+    "annual_revenue": [
+      19317000000.0,
+      17599000000.0,
+      16338000000.0,
+      17220000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      5240000000.0,
+      2930000000.0,
+      2628000000.0,
+      1532000000.0,
+      null
+    ],
+    "annual_eps": [
+      11.55,
+      3.31,
+      3.11,
+      1.6,
+      null
+    ],
+    "annual_free_cf": [
+      -715000000.0,
+      -693000000.0,
+      -2047000000.0,
+      -2562000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      41549000000.0,
+      37761000000.0,
+      35311000000.0,
+      33096000000.0,
+      null
+    ],
+    "annual_equity": [
+      17579000000.0,
+      15565000000.0,
+      15501000000.0,
+      15621000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.37,
+      null,
+      2.16,
+      0.89,
+      3.72
+    ],
+    "quarterly_revenue": [
+      4103000000.0,
+      5213000000.0,
+      5750000000.0,
+      4543000000.0,
+      3811000000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": -63.0,
+    "sales_yoy_pct": 7.7,
+    "ni_cagr_3y_pct": 78.68,
+    "roe_pct": 18.86
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Utilities / Utilities - Regulated Electric 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 53.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.5513,
+    "trailing_pe": 8.257609,
+    "forward_pe": 11.666478,
+    "ev_to_ebitda": 8.528,
+    "price_to_sales": 1.4907848,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 30.87,
+    "outperform_6m_vs_nasdaq": 20.32,
+    "outperform_1m_vs_nasdaq": 4.72,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Edison International is a public utility holding company based in Rosemead, California. Its subsidiaries include Southern California Edison, and unregulated non-utility business assets Edison Energy. Edison's roots trace back to Holt & Knupps, a company founded in 1886 as a provider of street lights in Visalia, California.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-07-14T00:23:49.305822+00:00"
+  }
+}

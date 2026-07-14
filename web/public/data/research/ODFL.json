@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-06-17T00:49:56.642064+00:00",
+  "generated_at": "2026-07-14T00:22:37.547886+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 48169615360,
+    "market_cap": 48435814400,
     "shares_outstanding": 207968283,
     "employees": 20264,
     "country": "United States",
     "website": "https://www.odfl.com",
-    "beta": 1.18
+    "beta": 1.184
   },
   "category_a_business": {
     "overview": "Old Dominion Freight Line, Inc.는 미국과 북미에서 소형 화물 운송업체로 운영됩니다. 이 회사는 지역, 지역 간, 전국적 화물 운송 서비스는 물론 신속한 운송 서비스도 제공합니다.",
@@ -38,7 +38,7 @@
     "gross_margin": 0.39,
     "revenue_growth_ttm": -0.03,
     "earnings_growth_ttm": -0.04,
-    "dividend_yield": 0.49,
+    "dividend_yield": 0.51,
     "payout_ratio": 0.24,
     "annual_revenue": [
       5496389000.0,
@@ -120,27 +120,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 60.6,
-    "vcp_quality": 9.4,
+    "rs_rating": 74,
+    "score": 59.2,
+    "vcp_quality": 9.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.3856,
-    "trailing_pe": 48.25416,
-    "forward_pe": 36.52356,
-    "ev_to_ebitda": 28.054,
-    "price_to_sales": 8.828375,
+    "peg_ratio": 3.359,
+    "trailing_pe": 48.723846,
+    "forward_pe": 36.05849,
+    "ev_to_ebitda": 28.21,
+    "price_to_sales": 8.877163,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 9.63,
-    "outperform_6m_vs_nasdaq": 31.9,
-    "outperform_1m_vs_nasdaq": 13.6,
+    "outperform_1y_vs_nasdaq": 11.58,
+    "outperform_6m_vs_nasdaq": 26.31,
+    "outperform_1m_vs_nasdaq": -4.09,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "다음은 당사의 사업, 재무 상태, 영업 결과 또는 현금 흐름에 부정적인 영향을 미칠 수 있는 몇 가지 중요한 위험에 대해 설명합니다.",
+        "description": "다음은 당사의 사업, 재무 상태, 운영 결과 또는 현금 흐름에 부정적인 영향을 미칠 수 있는 몇 가지 중요한 위험에 대해 설명합니다.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-11T00:14:46.371215+00:00"
+    "GoogleWebTranslator": "2026-07-14T00:24:57.695896+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Consumer Electronics",
-  "generated_at": "2026-07-10T00:33:27.364069+00:00",
+  "generated_at": "2026-07-14T00:16:21.004712+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4644435656704,
+    "market_cap": 4660444790784,
     "shares_outstanding": 14687356000,
     "employees": 166000,
     "country": "United States",
@@ -17,26 +17,27 @@
     "beta": 1.097
   },
   "category_a_business": {
-    "overview": "Apple은 스마트폰, PC, 태블릿, 웨어러블 및 서비스를 설계, 제조, 판매하는 글로벌 기술 기업입니다.",
+    "overview": "애플은 스마트폰, PC, 태블릿, 웨어러블 및 서비스를 전 세계적으로 설계, 제조, 판매하는 다국적 기술 기업입니다.",
     "milestones": [
-      "1976: 스티브 잡스, 스티브 워즈니악, 로널드 웨인에 의해 Apple Computer Company 설립",
-      "1977: Apple Computer, Inc.로 법인 전환",
-      "2001: iPod 출시, 디지털 음악 시장 혁신",
-      "2007: iPhone 출시 및 회사명을 Apple Inc.로 변경, 모바일 혁명 주도",
-      "2010: iPad 출시, 태블릿 시장 개척",
-      "2014: Apple Watch 출시, 웨어러블 시장 진출",
-      "2023: Apple Vision Pro 공개, 공간 컴퓨팅 시대 예고"
+      "1976: 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 Apple Computer Company 설립",
+      "1977: Apple Computer, Inc. 법인 설립",
+      "1984: 매킨토시 출시",
+      "1997: 스티브 잡스 복귀 및 마이크로소프트 투자 유치",
+      "2001: iPod 출시 및 iTunes Store 오픈",
+      "2007: iPhone 출시 및 회사명을 Apple Inc.로 변경",
+      "2010: iPad 출시",
+      "2015: Apple Watch 출시"
     ],
     "business_model": "하드웨어, 소프트웨어, 서비스를 통합하여 프리미엄 생태계를 구축하고 판매합니다.",
     "revenue_streams": [
       "iPhone 판매",
-      "Mac 및 iPad 판매",
+      "Mac 판매",
+      "iPad 판매",
       "웨어러블, 홈 및 액세서리 판매",
-      "App Store 및 디지털 콘텐츠",
-      "AppleCare 및 클라우드 서비스",
-      "구독 서비스 (Apple Music, Apple TV+ 등)"
+      "서비스 (App Store, Apple Music, iCloud 등)",
+      "광고 서비스"
     ],
-    "value_chain_position": "Downstream + 제품 설계부터 최종 소비자 판매까지 전 과정을 직접 관리합니다.",
+    "value_chain_position": "Downstream + 자체 설계 및 제조를 통해 제품을 직접 소비자에게 판매하고 서비스 제공.",
     "products": [
       "아이폰",
       "Mac",
@@ -46,11 +47,11 @@
       "애플 비전 프로"
     ],
     "channels": [
-      "D2C (Apple 리테일 스토어, 온라인 스토어)",
+      "D2C (직영 리테일 스토어, 온라인 스토어)",
       "B2C (직접 판매)",
       "도매 (이동통신사, 리셀러)"
     ],
-    "key_customers": "고객 집중도는 낮음. 전 세계 소비자, 중소기업, 교육기관, 기업 및 정부 시장에 걸쳐 광범위한 고객 기반을 보유."
+    "key_customers": "고객 집중도 낮음 (주로 일반 소비자, 중소기업, 교육기관, 기업, 정부 시장에 분산)"
   },
   "category_b_financials": {
     "roe": 1.41,
@@ -146,20 +147,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 62.3,
+    "rs_rating": 71,
+    "score": 62.5,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 2.5322,
-    "trailing_pe": 38.237,
-    "forward_pe": 32.908905,
-    "ev_to_ebitda": 29.128,
-    "price_to_sales": 10.288,
+    "peg_ratio": 2.5478,
+    "trailing_pe": 38.415253,
+    "forward_pe": 33.00932,
+    "ev_to_ebitda": 29.051,
+    "price_to_sales": 10.3234625,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 22.82,
-    "outperform_6m_vs_nasdaq": 9.46,
-    "outperform_1m_vs_nasdaq": 3.8,
+    "outperform_1y_vs_nasdaq": 24.57,
+    "outperform_6m_vs_nasdaq": 12.53,
+    "outperform_1m_vs_nasdaq": 6.03,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -176,7 +177,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "아래에 설명된 위험과 불확실성은 완전한 것이 아니며 회사가 직면하거나 미래에 직면할 수 있는 모든 잠재적 위험이나 불확실성에 대한 완전한 설명으로 간주되어서는 안 됩니다.",
+        "description": "아래 설명된 위험과 불확실성은 완전한 것이 아니며 회사가 직면했거나 미래에 직면할 수 있는 모든 잠재적 위험이나 불확실성에 대한 완전한 설명으로 간주되어서는 안 됩니다.",
         "severity": "medium"
       },
       {
@@ -204,6 +205,6 @@
   },
   "wikipedia_summary": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-11T00:14:27.125066+00:00"
+    "GoogleWebTranslator": "2026-07-14T00:22:53.466438+00:00"
   }
 }

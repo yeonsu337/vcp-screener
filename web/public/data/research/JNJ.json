@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-07-11T00:11:09.651872+00:00",
+  "generated_at": "2026-07-14T00:14:39.739322+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 618606624768,
+    "market_cap": 620508282880,
     "shares_outstanding": 2407216971,
     "employees": 138200,
     "country": "United States",
@@ -17,22 +17,39 @@
     "beta": 0.235
   },
   "category_a_business": {
-    "overview": "Johnson & Johnson은 자회사와 함께 전 세계 의료 분야의 다양한 제품에 대한 연구 개발, 제조 및 판매에 참여하고 있습니다. 혁신의학(Innovative Medicine)과 의료기술(MedTech)이라는 두 부문으로 운영됩니다. 혁신 의학 부문은 종양학, 면역학, 신경과학, 폐고혈압, 전염병, 심혈관 및 대사 등 다양한 치료 분야에 대한 제품을 소매업체, 도매업체, 유통업체, 병원 및 의료 전문가를 통해 처방용으로 유통합니다.",
-    "business_model": "Johnson & Johnson은 자회사와 함께 전 세계 의료 분야의 다양한 제품에 대한 연구 개발, 제조 및 판매에 참여하고 있습니다.",
+    "overview": "존슨앤드존슨은 전 세계 헬스케어 분야에서 혁신 의약품, 의료기기 연구개발, 제조 및 판매를 하는 다국적 기업입니다.",
+    "milestones": [
+      "1886: 존슨 형제에 의해 설립",
+      "1888: 외과용 멸균 드레싱 및 응급처치 키트 출시",
+      "1921: 반창고(Band-Aid) 출시",
+      "1943: 기업 신조(Credo) 발표",
+      "1961: 제약 사업 확장 (얀센 인수)",
+      "2023: 소비자 건강 사업부(Kenvue) 분사"
+    ],
+    "business_model": "혁신 의약품 및 의료 기술 제품 판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "혁신 의약품 (항암, 면역, 신경과학 등)",
+      "수술용 의료기기",
+      "정형외과용 의료기기",
+      "심혈관 의료기기",
+      "안과용 제품"
+    ],
+    "value_chain_position": "Midstream / downstream + 자체 연구개발 및 제조를 통해 제품을 생산하고, 다양한 채널을 통해 최종 소비자에게 판매합니다.",
     "products": [
-      "혁신의학(Innovative Medicine)과 의료기술(MedTech)이라는 두 부문으로 나뉜다.",
-      "종양학, 면역학, 신경과학, 폐고혈압, 감염성 등 다양한 치료 분야를 위한 제품",
-      "수술, 정형외과, 심혈관, 안과 분야에 사용되는 제품 포트폴리오를 도매로 유통하고 있습니다.",
-      "관절 재건, 외상, 척추, 스포츠 관련 부상 등을 지원하는 제품 및 기술 지원"
+      "항암제 (예: Darzalex)",
+      "면역 질환 치료제 (예: Stelara)",
+      "수술용 기구 (예: Ethicon)",
+      "정형외과 임플란트 (예: DePuy Synthes)",
+      "콘택트렌즈 (예: Acuvue)"
     ],
     "channels": [
-      "B2B / 기업"
+      "도매업체",
+      "병원",
+      "소매업체",
+      "의료 전문가 (의사, 간호사, 안과 전문의)",
+      "클리닉"
     ],
-    "wikipedia_excerpt": "Johnson & Johnson(J&J)은 뉴저지주 뉴브런즈윅에 본사를 둔 미국의 다국적 제약, 생명공학, 의료 기술 기업입니다. 이 회사는 2025년 Fortune 500대 미국 최대 기업 목록에서 48위를 차지했습니다. 2025년에 이 회사는 Forbes Global 2000에서 42위에 올랐습니다. Johnson & Johnson은 Microsoft와 함께 S&P Global에서 AAA의 주요 신용 등급을 받은 미국 기반 회사 두 곳 중 하나입니다.",
-    "milestones": [
-      "2025년: Fortune 500대 미국 최대 기업 목록",
-      "2025년: 회사는 Forbes Global 2000에서 42위를 차지했습니다."
-    ]
+    "key_customers": "매출이 특정 고객에 집중되지 않고, 전 세계 병원, 약국, 의료기관 및 개인 소비자에게 분산되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -42,7 +59,7 @@
     "gross_margin": 0.68,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": -0.53,
-    "dividend_yield": 2.07,
+    "dividend_yield": 2.09,
     "payout_ratio": 0.6,
     "annual_revenue": [
       94193000000.0,
@@ -122,33 +139,80 @@
     "roe_pct": 26.42
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1.6조 USD (2023년 글로벌 제약 시장 규모, IQVIA 추정치 기반)",
+    "tam_cagr_pct": "5-8% (향후 3~5년, 고령화 심화, 만성 질환 증가, 신약 개발 가속화, 신흥 시장 성장 및 바이오 의약품 수요 증가에 근거)",
+    "growth_drivers": [
+      "혁신적인 의약품 개발 및 포트폴리오 확장 (특히 항암제, 면역학, 신경과학 분야)",
+      "글로벌 시장, 특히 신흥 시장에서의 입지 강화 및 접근성 확대",
+      "고령화 및 만성 질환 유병률 증가에 따른 의약품 수요 증대",
+      "정밀 의학 및 개인 맞춤형 치료법 개발을 통한 시장 선점",
+      "디지털 헬스케어 솔루션과의 통합을 통한 환자 치료 결과 개선"
+    ],
+    "market_share_pct": "글로벌 제약 시장 점유율 5-7% (추정치)",
+    "competitors": [
+      {
+        "name": "Pfizer (화이자)",
+        "differentiation": "광범위한 치료 영역 포트폴리오, 강력한 백신 사업부, 대규모 R&D 투자 및 글로벌 유통망"
+      },
+      {
+        "name": "Roche (로슈)",
+        "differentiation": "항암제 및 진단 분야의 선두 주자, 개인 맞춤형 의학에 대한 강한 집중, 바이오 의약품 개발 역량"
+      },
+      {
+        "name": "Merck & Co. (머크)",
+        "differentiation": "면역항암제(Keytruda)를 중심으로 한 강력한 항암제 포트폴리오, 백신 및 동물 건강 사업부 보유"
+      },
+      {
+        "name": "Novartis (노바티스)",
+        "differentiation": "심혈관, 면역학, 신경과학 등 다양한 치료 영역에서의 혁신 신약 개발, 제네릭 사업부(Sandoz) 보유"
+      },
+      {
+        "name": "AbbVie (애브비)",
+        "differentiation": "면역학(Humira) 및 항암제 분야의 강력한 포트폴리오, 바이오시밀러 경쟁에 대한 대응 전략"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (높은 R&D 비용, 엄격한 규제 승인 절차, 강력한 특허 보호, 기존 기업의 브랜드 충성도)",
+      "substitutes": "medium (제네릭 의약품, 바이오시밀러, 대체 치료법의 존재, 그러나 혁신 신약은 대체가 어려움)",
+      "buyer_power": "medium (정부 및 보험사의 약가 인하 압력, 대형 병원 및 구매 그룹의 협상력, 그러나 생명과 직결된 의약품은 수요 비탄력적)",
+      "supplier_power": "low (원료의약품 공급처 다변화 가능성, 대규모 구매력, 그러나 특정 핵심 원료는 공급 의존도가 높을 수 있음)",
+      "rivalry": "high (다수의 글로벌 제약사 간 치열한 경쟁, 신약 개발 경쟁, 특허 만료에 따른 시장 점유율 방어)"
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+      "광범위하고 혁신적인 의약품 포트폴리오 (특히 항암제, 면역학, 신경과학 분야의 강력한 파이프라인)",
+      "글로벌 시장에서의 강력한 브랜드 인지도 및 유통망",
+      "대규모 R&D 투자 및 혁신적인 기술 개발 역량 (CAR-T, 이중 특이성 항체 등)",
+      "다각화된 사업 구조 (제약, 의료기기, 소비자 건강 제품)를 통한 위험 분산 및 시너지 효과",
+      "오랜 역사와 축적된 임상 경험 및 규제 대응 능력"
+    ],
+    "competitive_weaknesses": [
+      "엄격한 정부 규제 및 법적 소송 위험 (탈크 관련 소송, 제품 책임 소송 등)",
+      "특허 만료에 따른 주요 제품의 매출 감소 위험 및 제네릭/바이오시밀러 경쟁 심화",
+      "신약 개발의 높은 실패율 및 장기간 소요되는 개발 프로세스",
+      "제품 리콜, 안전성 문제 발생 시 기업 이미지 및 신뢰도 손상 가능성",
+      "글로벌 공급망의 복잡성 및 잠재적 병목 현상"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 51.5,
+    "rs_rating": 73,
+    "score": 51.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 4.9765,
-    "trailing_pe": 29.777521,
-    "forward_pe": 20.164024,
-    "ev_to_ebitda": 19.13,
-    "price_to_sales": 6.419612,
+    "peg_ratio": 4.9358,
+    "trailing_pe": 29.86906,
+    "forward_pe": 20.208727,
+    "ev_to_ebitda": 19.037,
+    "price_to_sales": 6.4393463,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 41.03,
-    "outperform_6m_vs_nasdaq": 13.79,
-    "outperform_1m_vs_nasdaq": 6.08,
+    "outperform_1y_vs_nasdaq": 42.14,
+    "outperform_6m_vs_nasdaq": 16.48,
+    "outperform_1m_vs_nasdaq": 5.29,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 48 on the 2025 Fortune 500 list of the largest United States corporations. In 2025, the company was ranked 42nd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-11T00:14:46.353547+00:00"
+    "GoogleWebTranslator": "2026-07-14T00:24:12.510289+00:00"
   }
 }
