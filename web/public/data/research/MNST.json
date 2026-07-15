@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-07-14T00:02:28.809727+00:00",
+  "generated_at": "2026-07-15T00:01:19.638962+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 94935244800,
+    "market_cap": 95849684992,
     "shares_outstanding": 978008110,
     "employees": 5773,
     "country": "United States",
@@ -20,34 +20,35 @@
     "overview": "몬스터 베버리지 코퍼레이션은 에너지 드링크 및 기타 음료를 개발, 마케팅, 판매, 유통하는 미국 기업입니다.",
     "milestones": [
       "1935: Hansen's로 설립, 주스 제품 판매 시작",
-      "2002: Monster Energy 브랜드 출시",
+      "2002: 몬스터 에너지 드링크 출시",
       "2012: 회사명을 Monster Beverage Corporation으로 변경",
-      "2015: 코카콜라 컴퍼니로부터 일부 에너지 드링크 브랜드 인수 및 전략적 제휴",
-      "2022: Bang Energy 인수"
+      "2015: 코카콜라 컴퍼니와 전략적 제휴 및 일부 에너지 드링크 브랜드 인수",
+      "2022: Bang Energy 인수",
+      "2023: 알코올 음료 부문 확장"
     ],
-    "business_model": "에너지 드링크 및 기타 음료의 개발, 마케팅, 판매를 통해 수익을 창출합니다.",
+    "business_model": "에너지 드링크 및 기타 음료를 개발, 마케팅, 판매하여 수익 창출",
     "revenue_streams": [
       "몬스터 에너지 드링크 판매",
       "전략적 브랜드(NOS, Full Throttle 등) 판매",
-      "주류 브랜드(크래프트 맥주, 하드 셀처 등) 판매",
+      "알코올 브랜드(크래프트 맥주, 하드 셀처 등) 판매",
       "AFF(American Fruits and Flavors) 제3자 제품 판매"
     ],
-    "value_chain_position": "Midstream + 음료 제조 및 마케팅에 집중하며 유통은 파트너사와 협력합니다.",
+    "value_chain_position": "Midstream + 음료 제품의 개발, 마케팅, 유통에 집중하며 생산은 외부 위탁 또는 자회사에서 진행합니다.",
     "products": [
-      "몬스터 에너지",
-      "총 신체 연료를 지배하십시오",
-      "NOS",
-      "자바 몬스터",
-      "Jai Alai IPA (주류)",
-      "Wild Basin Hard Seltzer (주류)"
+      "몬스터 에너지 (Monster Energy)",
+      "레인 토탈 바디 퓨얼 (Reign Total Body Fuel)",
+      "NOS 에너지 드링크",
+      "자바 몬스터 (Java Monster)",
+      "크래프트 맥주 (Jai Alai IPA 등)",
+      "하드 셀처 (Wild Basin Hard Seltzers)"
     ],
     "channels": [
       "B2B (보틀러/유통업체)",
-      "B2C (직접 소매 체인, 클럽, 편의점 등)",
+      "B2C (소매점, 식료품점, 편의점 등)",
       "전자상거래",
-      "군납"
+      "푸드서비스"
     ],
-    "key_customers": "주로 보틀러/유통업체를 통해 판매하며, 특정 소매 채널에 직접 공급하는 경우도 있습니다. 고객 집중도는 분산되어 있습니다."
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 유통 채널을 통해 광범위한 소비자에게 도달합니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -137,28 +138,70 @@
     "roe_pct": 26.65
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "76.8 billion (2025년 미국 국내 '대체 음료' 시장 도매 판매액 추정치, Beverage Marketing Corporation 자료 기반)",
+    "tam_cagr_pct": "2.4% (2024년 대비 2025년 미국 국내 '대체 음료' 시장 성장률, Beverage Marketing Corporation 자료 기반)",
+    "growth_drivers": [
+      "에너지 드링크 시장의 지속적인 성장 및 소비자 선호도 증가",
+      "다양한 맛과 기능(예: 무설탕, 고성능)을 가진 신제품 출시를 통한 시장 확대",
+      "알코올 음료(크래프트 맥주, FMB, 하드 셀처) 포트폴리오 확장을 통한 신규 시장 진입 및 매출 다각화",
+      "글로벌 시장 확장을 통한 성장 기회 모색",
+      "건강 및 웰니스 트렌드에 맞춰 Reign Storm®과 같은 웰니스 에너지 드링크 개발"
+    ],
+    "market_share_pct": "미국 에너지 드링크 시장에서 선두권 (정확한 수치는 제공되지 않으나, Red Bull과 함께 시장을 양분)",
+    "competitors": [
+      {
+        "name": "Red Bull GmbH",
+        "differentiation": "독특한 마케팅 전략, 스포츠 스폰서십, 강력한 브랜드 이미지 및 오리지널 에너지 드링크 포지셔닝"
+      },
+      {
+        "name": "PepsiCo (Rockstar, Mountain Dew Energy 등)",
+        "differentiation": "광범위한 유통망, 다양한 음료 포트폴리오와의 시너지, 기존 브랜드 인지도를 활용한 에너지 드링크 시장 진입"
+      },
+      {
+        "name": "Coca-Cola Company (Bang Energy 지분 인수 및 유통 파트너십)",
+        "differentiation": "글로벌 유통망 및 브랜드 파워, 다양한 음료 카테고리에서의 지배력, Monster와의 전략적 파트너십"
+      },
+      {
+        "name": "Celsius Holdings, Inc.",
+        "differentiation": "건강 및 피트니스에 초점을 맞춘 기능성 에너지 드링크, 천연 성분 강조"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (음료 산업은 초기 투자 비용과 유통망 구축의 어려움이 있지만, 틈새시장 공략을 위한 소규모 신규 브랜드 진입은 가능)",
+      "substitutes": "high (커피, 차, 탄산음료, 스포츠 드링크 등 다양한 대체 음료가 존재하며, 소비자의 선택권이 넓음)",
+      "buyer_power": "medium (대형 유통업체 및 소매 체인의 구매력은 높지만, 강력한 브랜드 파워를 가진 Monster는 일정 수준의 가격 결정력을 유지)",
+      "supplier_power": "low (원재료 공급업체는 다수 존재하며, Monster는 대량 구매를 통해 협상력을 가짐)",
+      "rivalry": "high (에너지 드링크 시장은 Red Bull, PepsiCo 등 강력한 경쟁자들이 존재하며, 치열한 마케팅 및 신제품 경쟁이 지속됨)"
+    },
     "competitive_advantages": [
-      "Consumer Defensive / Beverages - Non-Alcoholic 카테고리 — yfinance peer 비교 권장"
+      "다양한 에너지 드링크 브랜드 포트폴리오 (Monster Energy, Reign, Bang Energy 등)",
+      "강력한 브랜드 인지도와 충성도 높은 소비자 기반",
+      "코카콜라 컴퍼니와의 전략적 유통 파트너십을 통한 광범위한 글로벌 유통망",
+      "지속적인 신제품 개발 및 혁신 능력 (다양한 맛, 기능성, 무설탕 옵션 등)",
+      "알코올 음료 시장 진출을 통한 사업 다각화"
+    ],
+    "competitive_weaknesses": [
+      "에너지 드링크 시장에 대한 높은 의존도 (주력 사업)",
+      "건강 관련 우려 및 규제 강화 가능성 (고카페인, 설탕 함유 등)",
+      "경쟁사의 공격적인 마케팅 및 신제품 출시에 대한 지속적인 대응 필요",
+      "원재료 가격 변동 및 공급망 불안정성에 대한 노출"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 68.5,
+    "rs_rating": 79,
+    "score": 69.2,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 2.8288,
-    "trailing_pe": 46.893723,
-    "forward_pe": 37.506424,
-    "ev_to_ebitda": 32.614,
-    "price_to_sales": 10.796592,
+    "peg_ratio": 2.8195,
+    "trailing_pe": 47.34541,
+    "forward_pe": 37.867695,
+    "ev_to_ebitda": 32.938,
+    "price_to_sales": 10.900587,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 38.64,
-    "outperform_6m_vs_nasdaq": 16.53,
-    "outperform_1m_vs_nasdaq": 3.63,
+    "outperform_1y_vs_nasdaq": 39.77,
+    "outperform_6m_vs_nasdaq": 16.43,
+    "outperform_1m_vs_nasdaq": 5.34,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -203,6 +246,6 @@
   },
   "wikipedia_summary": "Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless, Reign and Burn. The company was originally founded as Hansen's in 1935 in Southern California, originally selling juice products. The company renamed itself as Monster Beverage in 2012.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:24:38.915390+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:22:24.316874+00:00"
   }
 }

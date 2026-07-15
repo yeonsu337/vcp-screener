@@ -4,30 +4,51 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-07-01T00:27:41.204396+00:00",
+  "generated_at": "2026-07-15T00:04:52.765685+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6635969024,
+    "market_cap": 6511961600,
     "shares_outstanding": 79491720,
     "employees": 30000,
     "country": "United States",
     "website": "https://www.victoriassecretandco.com",
-    "beta": 2.227
+    "beta": 2.137
   },
   "category_a_business": {
-    "overview": "Victoria's Secret & Co.는 전세계 여성용품, 기타 의류, 미용 제품 전문 소매업체로 운영되고 있습니다. 이 회사는 브래지어, 팬티, 란제리, 캐주얼 잠옷, 의류, 라운지, 스포츠 및 수영 제품은 물론 고급 향수 및 바디 케어 제품도 제공합니다. Victoria's Secret, PINK, Adore Me 브랜드의 액세서리와 뷰티 제품도 만나보실 수 있습니다.",
-    "business_model": "빅토리아 시크릿 앤 컴퍼니",
+    "overview": "빅토리아 시크릿은 여성 속옷, 의류, 뷰티 제품을 전문으로 판매하는 글로벌 리테일 기업입니다.",
+    "milestones": [
+      "1977: 빅토리아 시크릿 설립 (원천 데이터에 없으나 일반적 지식으로 추가)",
+      "1982: L Brands (현 Bath & Body Works)에 인수",
+      "2021: L Brands로부터 분사하여 독립 법인 Victoria's Secret & Co. (VSCO)로 상장",
+      "2021: Adore Me 인수 (원천 데이터에 없으나 일반적 지식으로 추가)",
+      "2023: 'Path to Potential' 성장 전략 발표"
+    ],
+    "business_model": "여성 속옷, 의류, 뷰티 제품을 온/오프라인 채널을 통해 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "회사 운영 매장 판매",
+      "자사 웹사이트 및 디지털 채널 판매",
+      "프랜차이즈 및 라이선스 계약",
+      "도매 판매",
+      "Adore Me 구독 서비스"
+    ],
+    "value_chain_position": "Downstream + 제품 디자인, 생산 소싱, 마케팅, 유통 및 판매를 직접 수행합니다.",
     "products": [
-      "전세계 여성용품, 기타 의류 및 미용 제품 전문 소매업체로서",
-      "브라, 팬티, 란제리, 캐주얼 잠옷, 의류, 라운지, 스포츠, 수영용품은 물론 프레스티지 향수까지",
-      "자사의 소매점을 통한 제품",
-      "프랜차이즈, 라이센스, 도매 계약을 맺은 매장"
+      "브라 및 팬티",
+      "란제리 및 잠옷",
+      "의류 (라운지웨어, 스포츠웨어, 수영복)",
+      "향수 및 바디케어",
+      "액세서리"
     ],
     "channels": [
-      "B2C / 소매"
-    ]
+      "B2C (회사 운영 매장)",
+      "D2C (자사 웹사이트 및 디지털 채널)",
+      "프랜차이즈",
+      "라이선스",
+      "도매"
+    ],
+    "key_customers": "고객 집중도는 낮으며, 전 세계 수천만 명의 충성도 높은 여성 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
     "roe": 0.32,
@@ -125,20 +146,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 56.7,
+    "rs_rating": 96,
+    "score": 55.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 33.258965,
-    "forward_pe": 15.418002,
-    "ev_to_ebitda": 13.954,
-    "price_to_sales": 0.9816522,
+    "trailing_pe": 31.386974,
+    "forward_pe": 15.028406,
+    "ev_to_ebitda": 13.419,
+    "price_to_sales": 0.9633079,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 302.79,
-    "outperform_6m_vs_nasdaq": 44.03,
-    "outperform_1m_vs_nasdaq": 54.6,
+    "outperform_1y_vs_nasdaq": 301.18,
+    "outperform_6m_vs_nasdaq": 14.02,
+    "outperform_1m_vs_nasdaq": 2.83,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -158,6 +179,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:25:19.549603+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:23:02.426977+00:00"
   }
 }

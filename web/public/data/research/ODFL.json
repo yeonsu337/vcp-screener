@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Trucking",
-  "generated_at": "2026-07-14T00:22:37.547886+00:00",
+  "generated_at": "2026-07-15T00:20:15.120210+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 48435814400,
+    "market_cap": 47543631872,
     "shares_outstanding": 207968283,
     "employees": 20264,
     "country": "United States",
@@ -38,7 +38,7 @@
     "gross_margin": 0.39,
     "revenue_growth_ttm": -0.03,
     "earnings_growth_ttm": -0.04,
-    "dividend_yield": 0.51,
+    "dividend_yield": 0.5,
     "payout_ratio": 0.24,
     "annual_revenue": [
       5496389000.0,
@@ -120,20 +120,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 59.2,
-    "vcp_quality": 9.0,
+    "rs_rating": 73,
+    "score": 57.4,
+    "vcp_quality": 8.6,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.359,
-    "trailing_pe": 48.723846,
-    "forward_pe": 36.05849,
-    "ev_to_ebitda": 28.21,
-    "price_to_sales": 8.877163,
+    "peg_ratio": 3.4368,
+    "trailing_pe": 47.627083,
+    "forward_pe": 35.4714,
+    "ev_to_ebitda": 27.687,
+    "price_to_sales": 8.713647,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 11.58,
-    "outperform_6m_vs_nasdaq": 26.31,
-    "outperform_1m_vs_nasdaq": -4.09,
+    "outperform_1y_vs_nasdaq": 10.36,
+    "outperform_6m_vs_nasdaq": 22.11,
+    "outperform_1m_vs_nasdaq": -8.88,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "Old Dominion Freight Line, Inc. (ODFL) is an American regional, inter-regional and national less than truckload shipping (LTL) company. In addition to its core LTL services, the company offers expedited, logistics and household moving services.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:24:57.695896+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:22:31.614996+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-07-14T00:20:35.318667+00:00",
+  "generated_at": "2026-07-15T00:19:13.934480+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6677466624,
+    "market_cap": 6752829440,
     "shares_outstanding": 175261596,
     "employees": 1350,
     "country": "United States",
@@ -17,27 +17,16 @@
     "beta": 0.836
   },
   "category_a_business": {
-    "overview": "미국 내 에너지 인프라 기업으로, 천연가스 압축 서비스 및 관련 애프터마켓 서비스를 제공합니다.",
-    "milestones": [
-      "1990: 회사 설립",
-      "2015: Exterran Holdings, Inc.에서 Archrock, Inc.로 사명 변경"
-    ],
-    "business_model": "천연가스 압축 장비 임대 및 관련 유지보수 서비스로 수익을 창출합니다.",
-    "revenue_streams": [
-      "계약 운영 (천연가스 압축 서비스)",
-      "애프터마켓 서비스 (유지보수, 수리, 부품 판매)"
-    ],
-    "value_chain_position": "Midstream + 천연가스 생산, 처리, 운송 및 저장에 필수적인 압축 서비스를 제공합니다.",
+    "overview": "Archrock, Inc.는 자회사와 함께 미국에서 에너지 인프라 회사로 운영되고 있습니다. 이 회사는 계약 운영과 애프터마켓 서비스라는 두 부문으로 운영됩니다. 천연가스 압축 서비스를 제공하기 위해 소유한 천연가스 압축 장비의 설계, 소싱, 소유, 설치, 운영, 서비스, 수리 및 유지 관리에 참여합니다.",
+    "business_model": "Archrock, Inc.는 자회사와 함께 미국에서 에너지 인프라 회사로 운영되고 있습니다.",
     "products": [
-      "천연가스 압축 장비 임대",
-      "압축 장비 운영 및 유지보수 서비스",
-      "압축 장비 수리 및 재구성 서비스",
-      "압축 장비 부품 및 구성 요소 판매"
+      "미국의 에너지 인프라 회사로서",
+      "계약 운영과 애프터마켓 서비스라는 두 부문으로 나뉜다.",
+      "일반 부품 및 부품을 판매할 뿐만 아니라 운영, 주요 및 정기 유지보수, 점검 및 복구 서비스도 제공합니다."
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "통합 및 독립 석유 및 천연가스 처리업체, 수집업체, 운송업체"
+      "B2B / 기업"
+    ]
   },
   "category_b_financials": {
     "roe": 0.23,
@@ -47,7 +36,7 @@
     "gross_margin": 0.66,
     "revenue_growth_ttm": 0.08,
     "earnings_growth_ttm": 0.03,
-    "dividend_yield": 2.28,
+    "dividend_yield": 2.31,
     "payout_ratio": 0.45,
     "annual_revenue": [
       1489818000.0,
@@ -136,20 +125,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 49.7,
+    "rs_rating": 78,
+    "score": 50.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.7124,
-    "trailing_pe": 20.70652,
-    "forward_pe": 15.876454,
-    "ev_to_ebitda": 10.663,
-    "price_to_sales": 4.4034357,
+    "peg_ratio": 1.6933,
+    "trailing_pe": 20.940216,
+    "forward_pe": 16.055637,
+    "ev_to_ebitda": 10.751,
+    "price_to_sales": 4.453133,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 43.07,
-    "outperform_6m_vs_nasdaq": 37.9,
-    "outperform_1m_vs_nasdaq": 3.96,
+    "outperform_1y_vs_nasdaq": 43.34,
+    "outperform_6m_vs_nasdaq": 41.27,
+    "outperform_1m_vs_nasdaq": 5.67,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -194,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:23:01.637704+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:20:45.892139+00:00"
   }
 }

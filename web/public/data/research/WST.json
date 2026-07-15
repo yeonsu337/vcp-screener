@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Instruments & Supplies",
-  "generated_at": "2026-07-07T00:16:35.156694+00:00",
+  "generated_at": "2026-07-15T00:05:53.948857+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 25266405376,
+    "market_cap": 25267109888,
     "shares_outstanding": 70647595,
     "employees": 10800,
     "country": "United States",
@@ -17,171 +17,139 @@
     "beta": 1.159
   },
   "category_a_business": {
-    "overview": "주사제 및 헬스케어 제품용 밀봉 및 전달 시스템을 설계, 제조, 판매하는 글로벌 선두 기업입니다.",
-    "milestones": [
-      "1923: Herman O. West와 J.R. Wike가 필라델피아에서 회사 설립",
-      "1920년대: 페니실린 및 인슐린 생산을 위한 주사제 포장용 고무 부품 생산 시작",
-      "1980년대: 주사제 포장 및 전달 시스템으로 사업 확장",
-      "2000년대: 첨단 재료 및 기술 개발에 집중",
-      "2010년대: 자가 주사 장치 및 통합 솔루션 포트폴리오 강화",
-      "2020년대: 바이오 의약품 및 제네릭 의약품 시장 성장에 기여"
-    ],
-    "business_model": "주사제 및 헬스케어 제품용 포장 및 전달 시스템을 개발, 제조하여 판매합니다.",
-    "revenue_streams": [
-      "자체 제품 (Proprietary Products) 판매",
-      "계약 제조 제품 (Contract-Manufactured Products) 판매",
-      "분석 실험실 서비스",
-      "통합 솔루션 및 기술 지원"
-    ],
-    "value_chain_position": "Midstream: 주사제 및 헬스케어 제품의 핵심 부품 및 시스템을 제조하여 제약사에 공급합니다.",
+    "overview": "West Pharmaceutical Services, Inc.는 미주, 유럽, 중동, 아프리카 및 아시아 태평양 지역의 주사용 약물 및 의료 제품에 대한 봉쇄 및 전달 시스템을 설계, 제조 및 판매합니다. 독점 제품과 계약 생산 제품이라는 두 가지 부문으로 운영됩니다.",
+    "business_model": "웨스트 제약 서비스, Inc.",
     "products": [
-      "주사제 포장 시스템용 스토퍼 및 씰",
-      "프리필드 시린지 및 카트리지 부품",
-      "자가 주사 장치",
-      "재구성 및 전달 시스템",
-      "바이알, 시린지, 플런저, 카트리지",
-      "맞춤형 계약 제조 및 조립 솔루션"
+      "미주, 유럽, 중동의 주사제 및 의료 제품에 대한 봉쇄 및 전달 시스템",
+      "독점 제품과 계약 생산 제품이라는 두 가지 부문으로 나뉜다.",
+      "주사 가능한 포장 시스템용 마개 및 씰",
+      "바이알, 주사기, 카트리지 형태의 약물 봉쇄 솔루션",
+      "판매 인력과 유통망, 계약 판매 대리점, 지역 대리점을 통해 제품을 유통합니다."
     ],
     "channels": [
-      "B2B"
+      "B2B / 기업"
     ],
-    "key_customers": "주요 바이오 의약품, 제네릭, 제약, 진단 및 의료기기 회사에 제품을 공급하며, 고객 집중도는 낮은 편입니다."
+    "wikipedia_excerpt": "West Pharmaceutical Services, Inc.는 주사제 의약품 포장 및 전달 시스템을 설계하고 제조하는 회사입니다. 1923년 필라델피아 출신의 Herman O. West와 J.R. Wike가 설립한 이 회사는 펜실베니아주 엑스턴에 본사를 두고 있습니다. 개발 초기에 West는 주사제 포장용 고무 부품을 생산하여 페니실린과 인슐린 생산업체에 멸균 환경을 제공했습니다.",
+    "milestones": [
+      "1923: 허먼 오(Herman O)"
+    ]
   },
   "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.11,
+    "profit_margin": 0.17,
+    "operating_margin": 0.22,
+    "gross_margin": 0.36,
+    "revenue_growth_ttm": 0.21,
+    "earnings_growth_ttm": 0.56,
+    "dividend_yield": 0.24,
+    "payout_ratio": 0.12,
+    "annual_revenue": [
+      3074100000.0,
+      2893200000.0,
+      2949800000.0,
+      2886900000.0,
+      null
+    ],
+    "annual_operating_income": [
+      636100000.0,
+      590900000.0,
+      707400000.0,
+      760800000.0,
+      null
+    ],
+    "annual_eps": [
+      6.79,
+      6.69,
+      7.88,
+      7.73,
+      null
+    ],
+    "annual_free_cf": [
+      468900000.0,
+      276400000.0,
+      414500000.0,
+      439400000.0,
+      null
+    ],
+    "annual_total_debt": [
+      321100000.0,
+      302300000.0,
+      309000000.0,
+      317900000.0,
+      null
+    ],
+    "annual_equity": [
+      3176000000.0,
+      2682300000.0,
+      2881000000.0,
+      2684900000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.92,
+      1.82,
+      1.92,
+      1.82,
+      1.23,
+      null
+    ],
+    "quarterly_revenue": [
+      844900000.0,
+      805000000.0,
+      804600000.0,
+      766500000.0,
+      698000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
     "eps_qoq_yoy_pct": 54.6,
     "sales_yoy_pct": 21.0,
     "ni_cagr_3y_pct": -5.55,
     "roe_pct": 19.13
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "20-30 billion USD (추정) - 주사제 용기 및 전달 시스템 시장은 생물학적 제제, 제네릭 의약품, 의약품 전반의 성장과 함께 지속적으로 확대되고 있으며, 특히 고품질, 첨단 기술 솔루션에 대한 수요가 높음.",
-    "tam_cagr_pct": "7-10% (추정) - 생물학적 제제 및 주사제 시장의 지속적인 성장, 자가 투여 장치 및 커넥티드 헬스 기술의 확산, 고품질 및 규제 준수 요구 증가가 주요 성장 동력임.",
-    "growth_drivers": [
-      "생물학적 제제 및 주사제 의약품 시장의 지속적인 성장 및 신약 개발 증가",
-      "환자 중심의 자가 투여 장치(self-injection devices) 및 편의성 향상 요구 증대",
-      "의약품 안전성, 무결성 및 규제 준수에 대한 엄격한 요구사항 증가",
-      "유리 대체재 및 콜드 체인 보관 솔루션에 대한 수요 증가",
-      "커넥티드 헬스 기술과의 통합을 통한 치료 순응도 향상 가능성"
-    ],
-    "market_share_pct": "20-30% (추정) - 주사제 용기 및 전달 시스템 시장에서 선도적인 위치를 차지하고 있으며, 특히 고품질, 첨단 솔루션 부문에서 강세를 보임.",
-    "competitors": [
-      {
-        "name": "Gerresheimer AG",
-        "differentiation": "유리 및 플라스틱 포장재, 주사기, 약물 전달 시스템 등 광범위한 제품 포트폴리오를 보유하며, 특히 유리 제품에서 강점."
-      },
-      {
-        "name": "SCHOTT AG",
-        "differentiation": "특수 유리 및 유리 세라믹 분야의 글로벌 리더로, 제약 포장재(바이알, 주사기 등)에서 고품질 솔루션을 제공."
-      },
-      {
-        "name": "BD (Becton, Dickinson and Company)",
-        "differentiation": "주사기, 바늘 등 의료 기기 및 약물 전달 시스템 분야의 선두 주자로, 광범위한 의료 솔루션을 제공."
-      },
-      {
-        "name": "Datwyler Holding Inc.",
-        "differentiation": "고품질 엘라스토머 부품 및 개스킷 전문 기업으로, 제약 및 의료 분야에 정밀 부품을 공급."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low - 고품질, 규제 준수, 기술 전문성 및 대규모 생산 시설 구축에 필요한 높은 초기 투자 비용과 오랜 고객 관계 형성 필요성으로 인해 신규 진입 장벽이 높음.",
-      "substitutes": "medium - 경구용 약물이나 다른 투여 경로가 일부 주사제를 대체할 수 있으나, 생물학적 제제 등 주사제만이 가능한 치료 영역이 많고, WST의 제품은 고유한 기능과 안전성을 제공하여 직접적인 대체 위협은 제한적임.",
-      "buyer_power": "medium - 주요 제약사, 바이오텍 기업 등 소수의 대형 고객이 존재하며, 이들은 품질, 가격, 공급 안정성에 민감하게 반응하여 구매자 교섭력이 중간 수준임.",
-      "supplier_power": "low - WST는 자체적인 기술력과 생산 능력을 보유하고 있으며, 다양한 공급업체로부터 원자재를 조달하여 특정 공급업체에 대한 의존도가 낮음.",
-      "rivalry": "medium - 소수의 글로벌 선두 기업들이 시장을 지배하고 있으며, 기술 혁신, 품질, 고객 서비스 및 가격 경쟁이 존재하지만, 차별화된 기술과 솔루션으로 경쟁 강도가 과도하게 높지는 않음."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "기술적으로 진보된 고품질 통합 용기 및 전달 시스템 설계 및 생산 분야의 글로벌 리더십",
-      "엘라스토머, 약물 전달 장치, 통합 시스템 및 분석 실험실 서비스를 포함하는 광범위한 독점 제품 포트폴리오",
-      "생물학적 제제, 제네릭, 제약, 진단 및 의료 기기 분야의 선도적인 고객 기반",
-      "유리 비호환성 문제 해결 및 콜드 스토리지 환경에 강한 고품질 플라스틱 기반 솔루션 제공 능력",
-      "환자 중심의 자가 주사 장치 및 커넥티드 헬스 기술 통합을 통한 시장 선도"
-    ],
-    "competitive_weaknesses": [
-      "특정 고부가가치 주사제 시장에 대한 의존도가 높아, 해당 시장의 변동에 취약할 수 있음",
-      "첨단 기술 및 고품질 제품 생산에 필요한 높은 연구 개발 및 제조 비용",
-      "글로벌 공급망 및 생산 시설 운영에 따른 복잡성과 잠재적 위험"
+      "Healthcare / Medical Instruments & Supplies 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 69.5,
+    "rs_rating": 79,
+    "score": 69.7,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 3.5188,
-    "trailing_pe": 47.685337,
-    "forward_pe": 37.421864,
-    "ev_to_ebitda": 28.815,
-    "price_to_sales": 7.8442736,
+    "peg_ratio": 3.4607,
+    "trailing_pe": 47.81417,
+    "forward_pe": 37.29495,
+    "ev_to_ebitda": 28.816,
+    "price_to_sales": 7.8444924,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.11,
-    "outperform_6m_vs_nasdaq": 17.81,
-    "outperform_1m_vs_nasdaq": 15.8,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets | Switching Costs",
-    "moat_evidence": [
-      "WST는 주사제 및 헬스케어 제품을 위한 기술적으로 진보된 고품질 통합 봉쇄 및 전달 시스템의 설계 및 생산 분야에서 선도적인 글로벌 제조업체입니다. 이는 기술적 전문성과 품질에 대한 명성을 구축하여 무형 자산 해자를 형성합니다.",
-      "WST는 생물학적 제제, 제네릭, 제약, 진단 및 의료기기 분야의 선도적인 기업들을 고객으로 보유하고 있습니다. 이들 고객은 의약품의 안전성과 효능에 직접적인 영향을 미치는 WST의 제품에 대한 높은 의존도를 가지므로, 공급업체 전환 시 발생할 수 있는 잠재적 위험과 비용(규제 승인, 호환성 테스트 등)이 높아 전환 비용 해자를 형성합니다.",
-      "WST는 독점적인 1차 포장재, 봉쇄 솔루션, 재구성 및 전달 시스템, 약물 전달 시스템뿐만 아니라 계약 제조, 분석 실험실 서비스 및 통합 솔루션을 제공합니다. 이러한 광범위한 제품 및 서비스 포트폴리오는 고객이 다른 공급업체로 전환하기 어렵게 만드는 통합 솔루션 제공자로서의 역할을 강화합니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "자가 주사 장치 및 연결형 헬스케어 기술 통합으로 환자 편의성 및 치료 순응도 향상",
-    "bull_case": "고마진 독점 제품 판매 증가, 신흥 시장 확장, 신약 개발 파이프라인 성장으로 3년 내 EPS 20% 이상 성장",
-    "base_case": "주사제 시장의 꾸준한 성장과 WST의 기술 리더십을 바탕으로 안정적인 매출 성장 및 수익성 유지. 독점 제품 비중 확대로 마진 개선 기대.",
-    "bear_case": "신약 개발 지연, 경쟁 심화, 규제 환경 변화 또는 공급망 문제 발생 시 매출 성장 둔화 및 마진 압박 심화.",
-    "key_metrics_to_watch": [
-      "독점 제품 매출 성장률",
-      "영업이익률 (OPM) 추이",
-      "신규 고객 및 파트너십 확보 현황",
-      "R&D 투자 및 신제품 출시 주기"
-    ]
+    "outperform_1y_vs_nasdaq": 31.13,
+    "outperform_6m_vs_nasdaq": 19.74,
+    "outperform_1m_vs_nasdaq": 7.12,
+    "lynch_category": "Stalwart"
   },
-  "category_e_risks": {
-    "top_risks": [
-      {
-        "category": "거버넌스",
-        "description": "증권 집단 소송에 휘말려 있으며, 이는 회사의 사업, 재무 상태, 운영 결과 또는 유동성에 중대한 악영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "공급망",
-        "description": "글로벌 제조 시설 및 공급망은 지정학적 불안정, 자연재해 또는 기타 예상치 못한 사건으로 인해 운영 중단 위험에 노출되어 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "재무",
-        "description": "일반적인 경제 및 지정학적 상황의 변동성과 회사 운영 또는 사업 전망에 대한 지배적인 정서의 가변성은 재무 성과에 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "거버넌스",
-        "description": "사이버 보안 위협에 대한 지속적인 노출은 중요 정보 자산의 손실, 운영 중단 또는 규제 위반으로 이어질 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "규제",
-        "description": "제품 책임, 지적 재산권 또는 고용 관련 소송을 포함한 다양한 법적 절차 및 청구에 직면할 수 있으며, 이는 상당한 손실을 초래할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "경쟁",
-        "description": "주주들의 투자 우선순위 변화는 회사의 주가 및 자본 조달 능력에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "low"
-      }
-    ],
-    "inversion_scenarios": [
-      "증권 집단 소송에서 막대한 배상금을 지불하게 되어 재정적으로 파산할 수 있습니다.",
-      "심각한 사이버 공격으로 인해 핵심 운영이 마비되고 고객 데이터가 유출되어 신뢰를 잃고 사업을 지속할 수 없게 될 수 있습니다.",
-      "글로벌 공급망의 심각한 붕괴로 인해 생산이 중단되고 주요 제품을 공급하지 못하여 시장 점유율을 잃고 수익이 급감할 수 있습니다."
-    ],
-    "exit_signals": [
-      "증권 집단 소송에서 회사가 패소하고 예상보다 훨씬 큰 규모의 손해배상액을 지불해야 한다는 법원 판결이 나올 경우.",
-      "회사의 핵심 제조 시설 중 한 곳이 장기간 운영 불능 상태에 빠지거나, 주요 공급업체가 파산하여 핵심 부품 조달이 불가능해질 경우.",
-      "회사의 주요 제품 라인에 대한 심각한 제품 결함이 발견되어 대규모 리콜 및 소송으로 이어질 경우."
-    ]
-  },
+  "category_e_risks": {},
   "wikipedia_summary": "West Pharmaceutical Services, Inc. is a designer and manufacturer of injectable pharmaceutical packaging and delivery systems. Founded in 1923 by Herman O. West and J.R. Wike of Philadelphia, the company is headquartered in Exton, Pennsylvania. In its early years of development, West produced rubber components for packaging injectable drugs, providing a sterile environment for the producers of penicillin and insulin.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:25:21.182554+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:23:15.490108+00:00"
   }
 }

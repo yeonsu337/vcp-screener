@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
-  "generated_at": "2026-07-14T00:10:13.664838+00:00",
+  "generated_at": "2026-07-15T00:07:56.269867+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 23162052608,
+    "market_cap": 23528638464,
     "shares_outstanding": 117873042,
     "employees": 11705,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.09,
     "revenue_growth_ttm": -0.01,
     "earnings_growth_ttm": 0.1,
-    "dividend_yield": 1.3,
+    "dividend_yield": 1.28,
     "payout_ratio": 0.51,
     "annual_revenue": [
       16232763000.0,
@@ -124,20 +124,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 53.9,
+    "rs_rating": 81,
+    "score": 55.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.7315,
-    "trailing_pe": 39.858013,
-    "forward_pe": 26.530428,
-    "ev_to_ebitda": 27.773,
-    "price_to_sales": 1.4298484,
+    "peg_ratio": 2.7741,
+    "trailing_pe": 40.488846,
+    "forward_pe": 26.920048,
+    "ev_to_ebitda": 28.186,
+    "price_to_sales": 1.4524786,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 72.53,
-    "outperform_6m_vs_nasdaq": 8.99,
-    "outperform_1m_vs_nasdaq": 3.42,
+    "outperform_1y_vs_nasdaq": 77.17,
+    "outperform_6m_vs_nasdaq": 7.4,
+    "outperform_1m_vs_nasdaq": 3.3,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -182,6 +182,6 @@
   },
   "wikipedia_summary": "C.H. Robinson Worldwide, Inc. is an American transportation company that includes third-party logistics (3PL). The company offers freight transportation, transportation management, brokerage and warehousing. It offers truckload, less than truckload, air freight, intermodal, and ocean transportation.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:23:27.862672+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:20:55.959232+00:00"
   }
 }

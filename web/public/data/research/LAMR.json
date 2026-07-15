@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Specialty",
-  "generated_at": "2026-07-09T00:26:31.750151+00:00",
+  "generated_at": "2026-07-15T00:06:55.056014+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 16245148672,
+    "market_cap": 15954929664,
     "shares_outstanding": 87055016,
     "employees": 3500,
     "country": "United States",
@@ -25,10 +25,9 @@
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Lamar Advertising Company는 미국과 캐나다에서 광고판, 로고 사인, 대중교통 디스플레이를 운영하고 옥외 광고에 중점을 두는 미국의 광고 회사입니다. 이 회사는 1902년 Charles W. Lamar와 J.M. Coe에 의해 설립되었으며 루이지애나주 배턴루지에 본사를 두고 있습니다. 이 회사는 미국과 캐나다에 200개 이상의 지점을 두고 있습니다. 미국 전역에 363,000개 이상의 디스플레이가 있는 것으로 알려졌습니다. 라마광고회사는 2014년 부동산투자신탁으로 전환되었으며, 빅3 광고판 및 옥외광고회사 중 하나입니다.",
+    "wikipedia_excerpt": "Lamar Advertising Company는 미국과 캐나다에서 광고판, 로고 사인, 대중교통 디스플레이를 운영하고 옥외 광고에 중점을 두는 미국의 광고 회사입니다. 이 회사는 1902년 Charles W. Lamar와 J.M. Coe에 의해 설립되었으며 루이지애나주 배턴루지에 본사를 두고 있습니다. 이 회사는 미국과 캐나다에 200개 이상의 지점을 두고 있습니다. 미국 전역에 363,000개 이상의 디스플레이가 있는 것으로 알려졌습니다. Lamar Advertising Company는 2014년에 부동산 투자 신탁이 되었습니다.",
     "milestones": [
-      "1902: 찰스 W",
-      "2014년: 3대 광고판 및 옥외 광고 회사 중 하나입니다."
+      "1902: 찰스 W"
     ]
   },
   "category_b_financials": {
@@ -39,7 +38,7 @@
     "gross_margin": 0.67,
     "revenue_growth_ttm": 0.04,
     "earnings_growth_ttm": -0.26,
-    "dividend_yield": 4.0,
+    "dividend_yield": 4.07,
     "payout_ratio": 1.15,
     "annual_revenue": [
       2266214000.0,
@@ -128,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 60.4,
+    "rs_rating": 70,
+    "score": 57.6,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": 2.2,
-    "trailing_pe": 29.482506,
-    "forward_pe": 25.053207,
-    "ev_to_ebitda": 20.351,
-    "price_to_sales": 7.098248,
+    "trailing_pe": 29.009224,
+    "forward_pe": 24.605633,
+    "ev_to_ebitda": 20.072,
+    "price_to_sales": 6.971438,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 11.0,
-    "outperform_6m_vs_nasdaq": 20.92,
-    "outperform_1m_vs_nasdaq": 6.21,
+    "outperform_1y_vs_nasdaq": 4.59,
+    "outperform_6m_vs_nasdaq": 13.96,
+    "outperform_1m_vs_nasdaq": 3.12,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -168,7 +167,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "회사는 상당한 채무 상환 의무를 이행하기에 충분한 현금 흐름을 창출하지 못할 수도 있습니다.",
+        "description": "회사는 상당한 채무 상환 의무를 충족할 만큼 충분한 현금 흐름을 창출하지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
@@ -184,8 +183,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Lamar Advertising Company is an American advertising company which operates billboards, logo signs, and transit displays in the United States and Canada and focused on outdoor advertising. The company was founded in 1902 by Charles W. Lamar and J.M. Coe, and is headquartered in Baton Rouge, Louisiana. The company has over 200 locations in the United States and Canada. They have reportedly more than 363,000 displays across the USA. Lamar Advertising Company became a real estate investment trust in 2014 and is one of the big three billboard and outdoor advertising companies.",
+  "wikipedia_summary": "Lamar Advertising Company is an American advertising company which operates billboards, logo signs, and transit displays in the United States and Canada and focused on outdoor advertising. The company was founded in 1902 by Charles W. Lamar and J.M. Coe, and is headquartered in Baton Rouge, Louisiana. The company has over 200 locations in the United States and Canada. They have reportedly more than 363,000 displays across the USA. Lamar Advertising Company became a real estate investment trust in 2014.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:24:12.512274+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:22:05.907723+00:00"
   }
 }

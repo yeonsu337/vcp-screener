@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Consumer Electronics",
-  "generated_at": "2026-07-14T00:16:21.004712+00:00",
+  "generated_at": "2026-07-15T00:12:02.528341+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4660444790784,
+    "market_cap": 4624460808192,
     "shares_outstanding": 14687356000,
     "employees": 166000,
     "country": "United States",
@@ -17,41 +17,23 @@
     "beta": 1.097
   },
   "category_a_business": {
-    "overview": "애플은 스마트폰, PC, 태블릿, 웨어러블 및 서비스를 전 세계적으로 설계, 제조, 판매하는 다국적 기술 기업입니다.",
-    "milestones": [
-      "1976: 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 Apple Computer Company 설립",
-      "1977: Apple Computer, Inc. 법인 설립",
-      "1984: 매킨토시 출시",
-      "1997: 스티브 잡스 복귀 및 마이크로소프트 투자 유치",
-      "2001: iPod 출시 및 iTunes Store 오픈",
-      "2007: iPhone 출시 및 회사명을 Apple Inc.로 변경",
-      "2010: iPad 출시",
-      "2015: Apple Watch 출시"
-    ],
-    "business_model": "하드웨어, 소프트웨어, 서비스를 통합하여 프리미엄 생태계를 구축하고 판매합니다.",
-    "revenue_streams": [
-      "iPhone 판매",
-      "Mac 판매",
-      "iPad 판매",
-      "웨어러블, 홈 및 액세서리 판매",
-      "서비스 (App Store, Apple Music, iCloud 등)",
-      "광고 서비스"
-    ],
-    "value_chain_position": "Downstream + 자체 설계 및 제조를 통해 제품을 직접 소비자에게 판매하고 서비스 제공.",
+    "overview": "Apple Inc.는 전 세계적으로 스마트폰, 개인용 컴퓨터, 태블릿, 웨어러블 및 액세서리를 설계, 제조 및 판매합니다. 이 회사는 스마트폰 제품군인 iPhone을 제공합니다. 개인용 컴퓨터 제품군인 Mac; 다목적 태블릿 제품군인 iPad; AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats 제품, HomePod 등으로 구성된 웨어러블, 홈, 액세서리는 물론 Apple 브랜드 및 타사 액세서리도 포함됩니다.",
+    "business_model": "애플 주식회사",
     "products": [
-      "아이폰",
-      "Mac",
-      "아이패드",
-      "애플워치",
-      "에어팟",
-      "애플 비전 프로"
+      "아이폰, 스마트폰 계열",
+      "AppleCare 지원 및 클라우드 서비스",
+      "고객이 애플리케이션과 디지털 콘텐츠를 검색하고 다운로드할 수 있는 App Store를 포함한 다양한 플랫폼",
+      "게임 구독 서비스인 Apple 아케이드 등 다양한 구독 기반 서비스",
+      "주문형 라디오 방송국을 통해 사용자에게 선별된 청취 경험 제공"
     ],
     "channels": [
-      "D2C (직영 리테일 스토어, 온라인 스토어)",
-      "B2C (직접 판매)",
-      "도매 (이동통신사, 리셀러)"
+      "B2C / 소매"
     ],
-    "key_customers": "고객 집중도 낮음 (주로 일반 소비자, 중소기업, 교육기관, 기업, 정부 시장에 분산)"
+    "wikipedia_excerpt": "Apple Inc.는 캘리포니아주 쿠퍼티노, 실리콘 밸리에 본사를 두고 있으며 가전제품, 소프트웨어 및 온라인 서비스로 유명한 미국의 다국적 기술 회사입니다. 1976년 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 애플 컴퓨터 컴퍼니(Apple Computer Company)로 설립한 이 회사는 이듬해 잡스와 워즈니악에 의해 애플 컴퓨터(Apple Computer, Inc.)로 통합되었습니다. 현재 회사 이름은 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서 2007년에 채택되었습니다. Apple은 Big Tech 회사 중 하나입니다.",
+    "milestones": [
+      "1976년: 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 Apple 컴퓨터 회사로 법인 설립",
+      "2007년: 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서"
+    ]
   },
   "category_b_financials": {
     "roe": 1.41,
@@ -148,19 +130,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 71,
-    "score": 62.5,
+    "score": 61.4,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 2.5478,
-    "trailing_pe": 38.415253,
-    "forward_pe": 33.00932,
-    "ev_to_ebitda": 29.051,
-    "price_to_sales": 10.3234625,
+    "peg_ratio": 2.5639,
+    "trailing_pe": 38.16485,
+    "forward_pe": 32.72694,
+    "ev_to_ebitda": 29.233,
+    "price_to_sales": 10.243753,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 24.57,
-    "outperform_6m_vs_nasdaq": 12.53,
-    "outperform_1m_vs_nasdaq": 6.03,
+    "outperform_1y_vs_nasdaq": 22.88,
+    "outperform_6m_vs_nasdaq": 11.33,
+    "outperform_1m_vs_nasdaq": 5.35,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -205,6 +187,6 @@
   },
   "wikipedia_summary": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-07-14T00:22:53.466438+00:00"
+    "GoogleWebTranslator": "2026-07-15T00:20:34.890673+00:00"
   }
 }
