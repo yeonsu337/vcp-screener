@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T00:20:15.558207+00:00",
+  "generated_at": "2026-07-15T23:59:40.200353+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,9 +17,9 @@
   },
   "performance": {
     "win_rate_pct": 62.5,
-    "profit_factor": 3.26,
+    "profit_factor": 3.25,
     "expectancy": 5.38,
-    "avg_winner_pct": 12.43,
+    "avg_winner_pct": 12.42,
     "avg_loser_pct": -6.36,
     "best": {
       "ticker": "005930.KS",
@@ -40,32 +40,7 @@
     "EX1_stop_8pct": 1
   },
   "rule_analysis": {
-    "primary_pass_buckets": [
-      {
-        "primary_passed": 10,
-        "trades": 1,
-        "avg_return_pct": -8.26,
-        "win_rate_pct": 0.0
-      },
-      {
-        "primary_passed": 11,
-        "trades": 3,
-        "avg_return_pct": -0.02,
-        "win_rate_pct": 33.3
-      },
-      {
-        "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 16.22,
-        "win_rate_pct": 100.0
-      },
-      {
-        "primary_passed": 13,
-        "trades": 1,
-        "avg_return_pct": -8.87,
-        "win_rate_pct": 0.0
-      }
-    ],
+    "primary_pass_buckets": [],
     "rule_hit_rate_diff": [],
     "big_winners_common_rules": [],
     "loser_threshold_pct": -10.0,
@@ -74,52 +49,10 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 34,
-      "win_rate_pct": 67.6,
-      "avg_return_pct": 6.36,
+      "trades": 40,
+      "win_rate_pct": 62.5,
+      "avg_return_pct": 5.38,
       "best_return_pct": 42.0
-    },
-    {
-      "sector": "Utilities",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -8.87,
-      "best_return_pct": -8.9
-    },
-    {
-      "sector": "Industrials",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -0.56,
-      "best_return_pct": -0.6
-    },
-    {
-      "sector": "Healthcare",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 16.22,
-      "best_return_pct": 16.2
-    },
-    {
-      "sector": "Basic Materials",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 1.49,
-      "best_return_pct": 1.5
-    },
-    {
-      "sector": "Real Estate",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -1.0,
-      "best_return_pct": -1.0
-    },
-    {
-      "sector": "Communication Services",
-      "trades": 1,
-      "win_rate_pct": 0.0,
-      "avg_return_pct": -8.26,
-      "best_return_pct": -8.3
     }
   ],
   "market_breakdown": {
@@ -167,37 +100,34 @@
     {
       "day": 63,
       "trades": 5,
-      "avg_return_pct": 22.11,
+      "avg_return_pct": 22.09,
       "winners_pct": 80.0
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-07-03T00:16:26.098472+00:00",
+    "generated_at": "2026-07-15T23:59:40.200329+00:00",
     "winner_patterns": [
-      "RS 등급 85 이상 종목에서 높은 수익률 발생",
-      "평균 보유 기간 40일 이상에서 높은 수익률 기록",
-      "한국 시장 종목들이 높은 수익률 상위권 차지",
-      "미국 시장 종목들도 꾸준히 상위권에 포함",
-      "[가설] EX0_unknown은 장기 보유 후 큰 수익 실현 가능성"
+      "RS 등급 85 이상 고성능 종목",
+      "평균 보유 기간 2~3개월 (40~60일) 내 높은 수익률",
+      "한국 시장 종목의 높은 수익률 기여 [가설]",
+      "20% 이상 수익 달성 종목 다수"
     ],
     "loser_traps": [
-      "RS 등급이 높아도 손실 발생 가능성 존재 (ERAS 99점)",
-      "50일 이동평균선 이탈(EX4)은 주요 손절 트리거",
-      "8% 손절(EX1)은 손실을 제한하는 데 효과적",
-      "트레일링 스탑(EX5)은 큰 손실을 방지할 수 있음",
-      "단기 보유(20일 미만) 시 손실 위험 높음",
-      "홍콩 시장 종목에서 50일 이평선 이탈 손실 발생"
+      "RS 등급이 높아도 손실 발생 가능성",
+      "50일 이동평균선 이탈 시 손실 확대",
+      "8% 손절매 규칙 준수 시 손실 제한 가능",
+      "단기 보유 (20일 미만) 손실 종목 다수",
+      "미국 시장 종목의 변동성 및 손실 기여 [가설]"
     ],
     "rule_suggestions": [
-      "RS 등급 85 이상 종목 위주로 스크리닝 강화",
+      "RS 등급 85 이상 종목에 집중",
       "50일 이동평균선 이탈 시 즉시 청산 룰 강화",
-      "8% 손절 룰을 모든 종목에 일관 적용",
-      "보유 기간 20일 미만 종목의 리스크 관리 강화",
-      "섹터별 성과 분석 후 유망 섹터 비중 확대 (에너지)"
+      "8% 손절매 룰 엄격 적용",
+      "보유 기간 20일 미만 종목의 성과 재검토",
+      "한국 시장 종목 스크리닝 비중 확대 [가설]"
     ],
     "model": "gemini-2.5-flash",
-    "trades_analyzed": 40,
-    "last_error": "gemini HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.go"
+    "trades_analyzed": 40
   },
   "data_status": {
     "exited_trades_count": 38,
