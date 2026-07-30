@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T23:59:32.641608+00:00",
+  "generated_at": "2026-07-30T00:03:18.143574+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -18,8 +18,8 @@
   "performance": {
     "win_rate_pct": 62.5,
     "profit_factor": 3.26,
-    "expectancy": 5.4,
-    "avg_winner_pct": 12.46,
+    "expectancy": 5.39,
+    "avg_winner_pct": 12.44,
     "avg_loser_pct": -6.36,
     "best": {
       "ticker": "005930.KS",
@@ -40,7 +40,14 @@
     "EX1_stop_8pct": 1
   },
   "rule_analysis": {
-    "primary_pass_buckets": [],
+    "primary_pass_buckets": [
+      {
+        "primary_passed": 10,
+        "trades": 1,
+        "avg_return_pct": -4.2,
+        "win_rate_pct": 0.0
+      }
+    ],
     "rule_hit_rate_diff": [],
     "big_winners_common_rules": [],
     "loser_threshold_pct": -10.0,
@@ -51,7 +58,7 @@
       "sector": "Unknown",
       "trades": 40,
       "win_rate_pct": 62.5,
-      "avg_return_pct": 5.4,
+      "avg_return_pct": 5.39,
       "best_return_pct": 42.0
     }
   ],
@@ -59,7 +66,7 @@
     "US": {
       "trades": 32,
       "win_rate_pct": 59.4,
-      "avg_return_pct": 1.86
+      "avg_return_pct": 1.85
     },
     "KR": {
       "trades": 6,
@@ -82,25 +89,25 @@
     {
       "day": 1,
       "trades": 40,
-      "avg_return_pct": 5.4,
+      "avg_return_pct": 5.39,
       "winners_pct": 62.5
     },
     {
       "day": 5,
       "trades": 40,
-      "avg_return_pct": 5.4,
+      "avg_return_pct": 5.39,
       "winners_pct": 62.5
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 7.16,
+      "avg_return_pct": 7.14,
       "winners_pct": 71.0
     },
     {
       "day": 63,
       "trades": 5,
-      "avg_return_pct": 22.26,
+      "avg_return_pct": 22.18,
       "winners_pct": 80.0
     }
   ],
