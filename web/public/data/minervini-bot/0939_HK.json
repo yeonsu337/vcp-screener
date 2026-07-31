@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "2319.HK",
-  "generated_at": "2026-07-31T00:01:53.058641+00:00",
+  "ticker": "0939.HK",
+  "generated_at": "2026-07-31T00:01:53.060950+00:00",
   "source_results_date": "2026-07-31",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
+  "verdict": "EXTENDED",
+  "verdict_kr": "추격 위험",
   "confidence": 0.67,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 8.59%).",
-    "13주 베이스 10.2% → 9.9% → 9.7% → 8.6%, VDU 0.78×, pivot HK$18.82(+3.19%).",
-    "Trend Template 7/8 통과, RS 92 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "추격 위험 — Pivot HK$8.81 대비 +6.3%, buy zone 초과.",
+    "13주 베이스 7.2% → 12.7%, VDU 1.39× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 83로 추세는 살아있음.",
+    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
     "entry_type": "none",
@@ -19,15 +19,15 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": null,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
-    "trend_template_score": "7/8",
+    "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 92,
+    "rs_rating": 83,
     "stage": 2,
-    "base_count": 2,
+    "base_count": 1,
     "late_base_warning": false,
     "market_regime": "neutral"
   },
@@ -37,19 +37,18 @@
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
     "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
-    "R2_rs_80",
-    "R3_rs_90"
+    "R2_rs_80"
   ],
   "key_failures": [
-    "P2_last_contraction (8.59% vs 6.5%)",
-    "P3_vol_dryup (0.78× vs 0.6×)",
+    "P2_last_contraction (12.68% vs 6.5%)",
+    "P3_vol_dryup (1.39× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "Trend Template fail: B5_sma200_rising_5mo"
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": []
 }

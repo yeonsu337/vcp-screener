@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-07-30T00:03:14.841630+00:00",
+  "updated_at": "2026-07-31T00:01:50.857151+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 32.3,
-        "prev": 38.5,
-        "change_pct": -16.19,
+        "value": 38.9,
+        "prev": 32.3,
+        "change_pct": 20.65,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-07-29",
+        "asof": "2026-07-30",
         "series": [
           {
             "time": "2025-07-30",
@@ -1006,11 +1006,15 @@
           },
           {
             "time": "2026-07-29",
-            "value": 32.25
+            "value": 34.66
           },
           {
-            "time": "2026-07-29",
-            "value": 32.25
+            "time": "2026-07-30",
+            "value": 38.91
+          },
+          {
+            "time": "2026-07-30",
+            "value": 38.91
           }
         ],
         "signal": "neutral",
@@ -1026,12 +1030,8 @@
         "change_pct": 0.0,
         "unit": "%",
         "source": "FRED DFF",
-        "asof": "2026-07-28",
+        "asof": "2026-07-29",
         "series": [
-          {
-            "time": "2024-07-29",
-            "value": 5.33
-          },
           {
             "time": "2024-07-30",
             "value": 5.33
@@ -3946,6 +3946,10 @@
           },
           {
             "time": "2026-07-28",
+            "value": 3.63
+          },
+          {
+            "time": "2026-07-29",
             "value": 3.63
           }
         ],
@@ -6889,17 +6893,13 @@
       {
         "id": "us_fed_balance",
         "name": "Fed 자산 (QT 트래커)",
-        "value": 6747378.0,
-        "prev": 6743028.0,
-        "change_pct": 0.06,
+        "value": 6738190.0,
+        "prev": 6747378.0,
+        "change_pct": -0.14,
         "unit": "$M",
         "source": "FRED WALCL",
-        "asof": "2026-07-22",
+        "asof": "2026-07-29",
         "series": [
-          {
-            "time": "2012-08-01",
-            "value": 2851118.0
-          },
           {
             "time": "2012-08-08",
             "value": 2856181.0
@@ -9815,6 +9815,10 @@
           {
             "time": "2026-07-22",
             "value": 6747378.0
+          },
+          {
+            "time": "2026-07-29",
+            "value": 6738190.0
           }
         ],
         "signal": "neutral",
@@ -9823,17 +9827,13 @@
       {
         "id": "us_rrp",
         "name": "ON Reverse Repo (단기 유동성)",
-        "value": 2.576,
-        "prev": 1.126,
-        "change_pct": 128.77,
+        "value": 1.076,
+        "prev": 2.576,
+        "change_pct": -58.23,
         "unit": "$B",
         "source": "FRED RRPONTSYD",
-        "asof": "2026-07-29",
+        "asof": "2026-07-30",
         "series": [
-          {
-            "time": "2023-08-24",
-            "value": 1731.623
-          },
           {
             "time": "2023-08-25",
             "value": 1687.379
@@ -12749,6 +12749,10 @@
           {
             "time": "2026-07-29",
             "value": 2.576
+          },
+          {
+            "time": "2026-07-30",
+            "value": 1.076
           }
         ],
         "signal": "neutral",
@@ -12760,16 +12764,12 @@
         "id": "us_yieldspread",
         "name": "10Y-2Y 국채 스프레드",
         "value": 0.45,
-        "prev": 0.35,
-        "change_pct": 28.57,
+        "prev": 0.45,
+        "change_pct": 0.0,
         "unit": "%p",
         "source": "FRED T10Y2Y",
-        "asof": "2026-07-29",
+        "asof": "2026-07-30",
         "series": [
-          {
-            "time": "2023-08-25",
-            "value": -0.78
-          },
           {
             "time": "2023-08-28",
             "value": -0.78
@@ -15684,6 +15684,10 @@
           },
           {
             "time": "2026-07-29",
+            "value": 0.45
+          },
+          {
+            "time": "2026-07-30",
             "value": 0.45
           }
         ],

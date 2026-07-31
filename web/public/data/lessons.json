@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T00:03:18.143574+00:00",
+  "generated_at": "2026-07-31T00:02:17.150545+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,9 +17,9 @@
   },
   "performance": {
     "win_rate_pct": 62.5,
-    "profit_factor": 3.26,
-    "expectancy": 5.39,
-    "avg_winner_pct": 12.44,
+    "profit_factor": 3.27,
+    "expectancy": 5.42,
+    "avg_winner_pct": 12.49,
     "avg_loser_pct": -6.36,
     "best": {
       "ticker": "005930.KS",
@@ -58,7 +58,7 @@
       "sector": "Unknown",
       "trades": 40,
       "win_rate_pct": 62.5,
-      "avg_return_pct": 5.39,
+      "avg_return_pct": 5.42,
       "best_return_pct": 42.0
     }
   ],
@@ -66,7 +66,7 @@
     "US": {
       "trades": 32,
       "win_rate_pct": 59.4,
-      "avg_return_pct": 1.85
+      "avg_return_pct": 1.89
     },
     "KR": {
       "trades": 6,
@@ -89,51 +89,50 @@
     {
       "day": 1,
       "trades": 40,
-      "avg_return_pct": 5.39,
+      "avg_return_pct": 5.42,
       "winners_pct": 62.5
     },
     {
       "day": 5,
       "trades": 40,
-      "avg_return_pct": 5.39,
+      "avg_return_pct": 5.42,
       "winners_pct": 62.5
     },
     {
       "day": 21,
       "trades": 31,
-      "avg_return_pct": 7.14,
+      "avg_return_pct": 7.18,
       "winners_pct": 71.0
     },
     {
       "day": 63,
       "trades": 5,
-      "avg_return_pct": 22.18,
+      "avg_return_pct": 22.41,
       "winners_pct": 80.0
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-07-23T00:07:16.364073+00:00",
+    "generated_at": "2026-07-31T00:02:17.150522+00:00",
     "winner_patterns": [
-      "RS 등급 85 이상 고성능 종목 다수",
-      "평균 보유 기간 24~94일로 다양함",
-      "한국 시장 종목의 높은 수익률 (20% 이상)",
-      "미국 시장 종목도 꾸준한 수익률 (17% 이상)",
-      "[가설] EX0_unknown은 장기 보유 후 청산 가능성"
+      "RS 등급 85 이상 고성능 종목",
+      "평균 보유 기간 40일 이상으로 추세 유지",
+      "한국 시장 종목의 높은 수익률 [가설: 국내 시장 강세]",
+      "미국 시장 종목도 꾸준한 수익 기여",
+      "대부분의 승자는 명확한 청산 사유 없음 [가설: 추세 지속]"
     ],
     "loser_traps": [
-      "RS 등급이 높아도 급락 가능성 (ERAS, 99점)",
-      "50일 이동평균선 이탈 시 손실 확대 (EX4_50dma_break)",
-      "8% 손절매 규칙 준수에도 손실 발생 (ZD)",
-      "24일 이내 단기 보유 후 손실 (EIX, ERAS)",
-      "홍콩 시장 종목의 50일 이평선 이탈 손실",
-      "[가설] RS 등급 70대 초반 종목은 변동성 주의"
+      "RS 등급이 높아도 급락 가능성 [가설: 과열 매수]",
+      "8% 손절매 규칙이 작동한 경우",
+      "50일 이동평균선 이탈 시 손실 확대",
+      "단기 보유 종목에서 손실 발생 [가설: 빠른 진입/청산]",
+      "홍콩 시장 종목의 손실 발생 [가설: 시장 특성]"
     ],
     "rule_suggestions": [
-      "RS 등급 90 이상 종목에 대한 추가 분석 필요",
-      "50일 이평선 이탈 시 손절매 규칙 강화",
-      "초기 손실 발생 시 빠른 청산 고려 (보유 기간 20일 미만)",
-      "시장별 특성 고려한 청산 전략 세분화",
-      "수익률 20% 이상 달성 시 이익 실현 기준 마련"
+      "RS 등급 85 이상 종목에 집중",
+      "50일 이동평균선 이탈 시 엄격한 손절매 적용",
+      "초기 손실 발생 시 빠른 청산 고려",
+      "수익 발생 시 트레일링 스탑 규칙 강화",
+      "한국 시장 종목 스크리닝 비중 확대 [가설: 성과 우수]"
     ],
     "model": "gemini-2.5-flash",
     "trades_analyzed": 40
