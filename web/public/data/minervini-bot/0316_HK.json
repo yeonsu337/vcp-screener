@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0316.HK",
-  "generated_at": "2026-07-31T00:01:53.061741+00:00",
-  "source_results_date": "2026-07-31",
+  "generated_at": "2026-08-01T00:00:32.892069+00:00",
+  "source_results_date": "2026-08-01",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.62,
+  "confidence": 0.61,
   "lines": [
-    "추격 위험 — Pivot HK$145.44 대비 +6.8%, buy zone 초과.",
-    "13주 베이스 9.7% → 8.2% → 14.1%, VDU 0.76× — setup 자체는 유효.",
-    "Trend Template 7/8 + RS 89로 추세는 살아있음.",
+    "추격 위험 — Pivot HK$145.44 대비 +5.3%, buy zone 초과.",
+    "13주 베이스 9.7% → 8.2% → 14.1%, VDU 0.72× — setup 자체는 유효.",
+    "Trend Template 7/8 + RS 87로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 89,
+    "rs_rating": 87,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -45,7 +45,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (14.07% vs 6.5%)",
-    "P3_vol_dryup (0.76× vs 0.6×)",
+    "P3_vol_dryup (0.72× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
     "Trend Template fail: B5_sma200_rising_5mo"
