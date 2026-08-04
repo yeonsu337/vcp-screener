@@ -230,19 +230,24 @@
     "market": "US",
     "company": "Royalty Pharma plc",
     "last_seen": "2026-07-14",
-    "current_price": 58.43,
+    "current_price": 57.17,
     "current_score": 80.0,
     "rs_rating": 77,
-    "exited": false,
+    "exited": true,
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: absent 24d (limit 10d))",
     "stage": 2,
     "soft_gate_streak": 0,
     "max_return_pct": 25.2,
     "peak_price": 59.97,
-    "return_pct": 21.98,
+    "return_pct": 19.35,
     "profit_signal_partial": true,
-    "profit_signal_full": true
+    "profit_signal_full": true,
+    "exit_date": "2026-08-04",
+    "exit_price": 57.17,
+    "exit_reasons": [
+      "EX6 absent 21d (no detected/soft-gate)"
+    ]
   },
   "KEX": {
     "first_detected": "2026-04-11",
@@ -287,19 +292,24 @@
     "market": "US",
     "company": "Targa Resources Corp",
     "last_seen": "2026-07-13",
-    "current_price": 270.37,
+    "current_price": 264.6,
     "current_score": 77.3,
     "rs_rating": 82,
-    "exited": false,
+    "exited": true,
     "soft_gate_streak": 0,
     "stage": 2,
     "re_entry_date": "2026-06-16",
     "re_entry_reason": "soft-gate streak 3d · Stage 2 + RS≥70 (was: absent 24d (limit 10d))",
     "max_return_pct": 17.48,
     "peak_price": 285.58,
-    "return_pct": 11.22,
+    "return_pct": 8.85,
     "profit_signal_partial": false,
-    "profit_signal_full": false
+    "profit_signal_full": false,
+    "exit_date": "2026-08-04",
+    "exit_price": 264.6,
+    "exit_reasons": [
+      "EX6 absent 22d (no detected/soft-gate)"
+    ]
   },
   "BKR": {
     "first_detected": "2026-04-11",
@@ -704,9 +714,9 @@
     "detection_score": 87.7,
     "market": "HK",
     "company": "CK Asset Holdings",
-    "last_seen": "2026-07-31",
+    "last_seen": "2026-08-04",
     "current_score": 87.7,
-    "rs_rating": 86,
+    "rs_rating": 84,
     "current_price": 46.56,
     "max_return_pct": 7.41,
     "peak_price": 52.2,
@@ -717,7 +727,7 @@
     "re_entry_date": "2026-05-07",
     "re_entry_reason": "healer: EX6 reversal (Stage 2 + RS≥70 + Primary 12+ confirmed) (was: EX6 absent 13d)",
     "stage": 2,
-    "soft_gate_streak": 0,
+    "soft_gate_streak": 1,
     "exit_date": "2026-05-28",
     "exit_price": 46.56,
     "exit_reasons": [
