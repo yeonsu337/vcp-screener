@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "2359.HK",
-  "generated_at": "2026-08-11T23:39:35.180523+00:00",
-  "source_results_date": "2026-08-11",
+  "generated_at": "2026-08-12T23:39:33.173629+00:00",
+  "source_results_date": "2026-08-12",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.66,
   "lines": [
-    "추격 위험 — Pivot HK$167.60 대비 +18.8%, buy zone 초과.",
-    "13주 베이스 9.2% → 12.0% → 16.3% → 10.2% → 9.9%, VDU 1.47× — setup 자체는 유효.",
+    "추격 위험 — Pivot HK$167.60 대비 +18.7%, buy zone 초과.",
+    "13주 베이스 9.2% → 12.0% → 16.3% → 10.2% → 9.9%, VDU 1.39× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 98로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.67% vs 6.5%)",
-    "P3_vol_dryup (1.47× vs 0.6×)",
+    "P3_vol_dryup (1.39× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
