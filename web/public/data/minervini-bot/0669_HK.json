@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0669.HK",
-  "generated_at": "2026-08-12T23:39:33.171803+00:00",
-  "source_results_date": "2026-08-12",
+  "generated_at": "2026-08-13T23:39:24.084448+00:00",
+  "source_results_date": "2026-08-13",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.84,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot HK$150.00 근접(-3.47%).",
-    "13주 베이스 5.9% → 11.5% → 7.0% → 7.1% → 11.6% 수축, VDU 1.13× 진행.",
-    "Trend Template 8/8 통과, RS 97, RS 라인 신고가 -1.4%.",
+    "매수 대기 — Stage 2 진입, pivot HK$150.00 근접(-3.40%).",
+    "13주 베이스 5.9% → 11.5% → 7.0% → 7.1% → 11.6% 수축, VDU 0.97× 진행.",
+    "Trend Template 8/8 통과, RS 96, RS 라인 신고가 -0.3%.",
     "HK$150.00 돌파 시 매수·-7% 손절(HK$139.50)·+20%(HK$180.00) 절반 익절."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 97,
+    "rs_rating": 96,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (11.60% vs 6.5%)",
-    "P3_vol_dryup (1.13× vs 0.6×)",
+    "P3_vol_dryup (0.97× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
