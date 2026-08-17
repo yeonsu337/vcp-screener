@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "241710.KQ",
-  "generated_at": "2026-08-14T23:24:36.294211+00:00",
-  "source_results_date": "2026-08-14",
+  "generated_at": "2026-08-17T23:22:02.778142+00:00",
+  "source_results_date": "2026-08-17",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.69,
@@ -49,7 +49,7 @@
     "P3_vol_dryup (3.57× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-15.2% vs ≥-5.0%)"
+    "rs_line (-15.4% vs ≥-5.0%)"
   ],
   "warnings": []
 }
