@@ -1,21 +1,17 @@
 {
-  "updated_at": "2026-08-19T23:20:47.596995+00:00",
+  "updated_at": "2026-08-20T23:24:23.031870+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 56.3,
-        "prev": 54.4,
-        "change_pct": 3.57,
+        "value": 52.5,
+        "prev": 56.3,
+        "change_pct": -6.85,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-08-19",
+        "asof": "2026-08-20",
         "series": [
-          {
-            "time": "2025-08-19",
-            "value": 59.89
-          },
           {
             "time": "2025-08-20",
             "value": 55.91
@@ -1010,15 +1006,19 @@
           },
           {
             "time": "2026-08-19",
-            "value": 56.34
+            "value": 57.2
           },
           {
-            "time": "2026-08-19",
-            "value": 56.34
+            "time": "2026-08-20",
+            "value": 52.49
+          },
+          {
+            "time": "2026-08-20",
+            "value": 52.49
           }
         ],
         "signal": "neutral",
-        "note": "greed — 중립 — 추세 추종"
+        "note": "neutral — 중립 — 추세 추종"
       }
     ],
     "liquidity": [
@@ -1030,12 +1030,8 @@
         "change_pct": 0.0,
         "unit": "%",
         "source": "FRED DFF",
-        "asof": "2026-08-18",
+        "asof": "2026-08-19",
         "series": [
-          {
-            "time": "2024-08-19",
-            "value": 5.33
-          },
           {
             "time": "2024-08-20",
             "value": 5.33
@@ -3950,6 +3946,10 @@
           },
           {
             "time": "2026-08-18",
+            "value": 3.63
+          },
+          {
+            "time": "2026-08-19",
             "value": 3.63
           }
         ],
@@ -6893,17 +6893,13 @@
       {
         "id": "us_fed_balance",
         "name": "Fed 자산 (QT 트래커)",
-        "value": 6759955.0,
-        "prev": 6748567.0,
-        "change_pct": 0.17,
+        "value": 6745699.0,
+        "prev": 6759955.0,
+        "change_pct": -0.21,
         "unit": "$M",
         "source": "FRED WALCL",
-        "asof": "2026-08-12",
+        "asof": "2026-08-19",
         "series": [
-          {
-            "time": "2012-08-22",
-            "value": 2825661.0
-          },
           {
             "time": "2012-08-29",
             "value": 2812806.0
@@ -9819,6 +9815,10 @@
           {
             "time": "2026-08-12",
             "value": 6759955.0
+          },
+          {
+            "time": "2026-08-19",
+            "value": 6745699.0
           }
         ],
         "signal": "neutral",
@@ -9827,17 +9827,13 @@
       {
         "id": "us_rrp",
         "name": "ON Reverse Repo (단기 유동성)",
-        "value": 0.317,
-        "prev": 0.155,
-        "change_pct": 104.52,
+        "value": 0.225,
+        "prev": 0.317,
+        "change_pct": -29.02,
         "unit": "$B",
         "source": "FRED RRPONTSYD",
-        "asof": "2026-08-19",
+        "asof": "2026-08-20",
         "series": [
-          {
-            "time": "2023-09-15",
-            "value": 1401.403
-          },
           {
             "time": "2023-09-18",
             "value": 1452.942
@@ -12753,6 +12749,10 @@
           {
             "time": "2026-08-19",
             "value": 0.317
+          },
+          {
+            "time": "2026-08-20",
+            "value": 0.225
           }
         ],
         "signal": "neutral",
@@ -12763,17 +12763,13 @@
       {
         "id": "us_yieldspread",
         "name": "10Y-2Y 국채 스프레드",
-        "value": 0.46,
-        "prev": 0.52,
-        "change_pct": -11.54,
+        "value": 0.5,
+        "prev": 0.46,
+        "change_pct": 8.7,
         "unit": "%p",
         "source": "FRED T10Y2Y",
-        "asof": "2026-08-19",
+        "asof": "2026-08-20",
         "series": [
-          {
-            "time": "2023-09-18",
-            "value": -0.73
-          },
           {
             "time": "2023-09-19",
             "value": -0.71
@@ -15689,10 +15685,14 @@
           {
             "time": "2026-08-19",
             "value": 0.46
+          },
+          {
+            "time": "2026-08-20",
+            "value": 0.5
           }
         ],
-        "signal": "neutral",
-        "note": "수축 (0~0.5%) — 경계"
+        "signal": "bullish",
+        "note": "정상 (0.5%↑)"
       }
     ]
   },
