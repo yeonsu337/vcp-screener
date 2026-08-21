@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "1088.HK",
-  "generated_at": "2026-08-20T23:24:29.536422+00:00",
-  "source_results_date": "2026-08-20",
+  "generated_at": "2026-08-21T23:21:12.324805+00:00",
+  "source_results_date": "2026-08-21",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.25,
   "lines": [
     "회피 — Stage 3 (≠2).",
-    "베이스 깊이 17.1%, 마지막 수축 6.09%, VDU 0.55×.",
+    "베이스 깊이 17.1%, 마지막 수축 6.09%, VDU 0.61×.",
     "Minervini Trend Template 7/8 — 진입 조건 미충족.",
     "신호 없음. 다른 종목 우선 검토."
   ],
@@ -24,8 +24,8 @@
   },
   "framework": {
     "trend_template_score": "7/8",
-    "vcp_quality_score": "5/8",
-    "rs_rating": 74,
+    "vcp_quality_score": "4/8",
+    "rs_rating": 72,
     "stage": 3,
     "base_count": 1,
     "late_base_warning": false,
@@ -41,13 +41,13 @@
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
-    "P2_last_contraction",
-    "P3_vol_dryup"
+    "P2_last_contraction"
   ],
   "key_failures": [
+    "P3_vol_dryup (0.61× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-10.3% vs ≥-5.0%)",
+    "rs_line (-10.7% vs ≥-5.0%)",
     "Trend Template fail: B3_sma50_gt_150_200"
   ],
   "warnings": []

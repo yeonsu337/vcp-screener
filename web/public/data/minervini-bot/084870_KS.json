@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "073240.KS",
-  "generated_at": "2026-08-20T23:24:29.538780+00:00",
-  "source_results_date": "2026-08-20",
+  "ticker": "084870.KS",
+  "generated_at": "2026-08-21T23:21:12.324981+00:00",
+  "source_results_date": "2026-08-21",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.62,
+  "confidence": 0.66,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 17.86%).",
-    "13주 베이스 15.0% → 18.4% → 23.3% → 27.3% → 18.7%, VDU 1.22×, pivot ₩8850.00(-16.1…",
-    "Trend Template 7/8 통과, RS 84 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 18.33%).",
+    "13주 베이스 17.4% → 10.4% → 18.3%, VDU 2.69×, pivot ₩2325.00(+2.80%).",
+    "Trend Template 8/8 통과, RS 91 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -23,12 +23,12 @@
     "position_risk_pct": 1.5
   },
   "framework": {
-    "trend_template_score": "7/8",
-    "vcp_quality_score": "3/8",
-    "rs_rating": 84,
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "2/8",
+    "rs_rating": 91,
     "stage": 2,
-    "base_count": 1,
-    "late_base_warning": false,
+    "base_count": 4,
+    "late_base_warning": true,
     "market_regime": "neutral"
   },
   "rule_references": [
@@ -37,21 +37,22 @@
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
     "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
     "R1_rs_70",
-    "L1_liquidity_gate",
-    "R2_rs_80"
+    "R2_rs_80",
+    "R3_rs_90"
   ],
   "key_failures": [
-    "P2_last_contraction (17.86% vs 6.5%)",
-    "P3_vol_dryup (1.22× vs 0.6×)",
+    "P2_last_contraction (18.33% vs 6.5%)",
+    "P3_vol_dryup (2.69× vs 0.6×)",
+    "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-25.4% vs ≥-5.0%)",
-    "Trend Template fail: B5_sma200_rising_5mo"
+    "rs_line (-32.8% vs ≥-5.0%)"
   ],
   "warnings": [
-    "베이스 깊이 27.3% — 25% 초과로 변동성 큼"
+    "베이스 카운트 4 — 후기 베이스, 실패율 상승"
   ]
 }
