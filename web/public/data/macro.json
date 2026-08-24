@@ -1,25 +1,17 @@
 {
-  "updated_at": "2026-08-21T23:21:10.933211+00:00",
+  "updated_at": "2026-08-24T23:21:27.032377+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 55.2,
-        "prev": 52.5,
-        "change_pct": 5.12,
+        "value": 55.0,
+        "prev": 55.2,
+        "change_pct": -0.26,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-08-21",
+        "asof": "2026-08-24",
         "series": [
-          {
-            "time": "2025-08-21",
-            "value": 52.6
-          },
-          {
-            "time": "2025-08-22",
-            "value": 55.54
-          },
           {
             "time": "2025-08-25",
             "value": 53.94
@@ -1010,11 +1002,15 @@
           },
           {
             "time": "2026-08-21",
-            "value": 55.17
+            "value": 54.51
           },
           {
-            "time": "2026-08-21",
-            "value": 55.17
+            "time": "2026-08-24",
+            "value": 55.03
+          },
+          {
+            "time": "2026-08-24",
+            "value": 55.03
           }
         ],
         "signal": "neutral",
@@ -1030,12 +1026,8 @@
         "change_pct": 0.0,
         "unit": "%",
         "source": "FRED DFF",
-        "asof": "2026-08-20",
+        "asof": "2026-08-21",
         "series": [
-          {
-            "time": "2024-08-21",
-            "value": 5.33
-          },
           {
             "time": "2024-08-22",
             "value": 5.33
@@ -3950,6 +3942,10 @@
           },
           {
             "time": "2026-08-20",
+            "value": 3.63
+          },
+          {
+            "time": "2026-08-21",
             "value": 3.63
           }
         ],
@@ -9827,17 +9823,13 @@
       {
         "id": "us_rrp",
         "name": "ON Reverse Repo (단기 유동성)",
-        "value": 0.2,
-        "prev": 0.225,
-        "change_pct": -11.11,
+        "value": 0.38,
+        "prev": 0.2,
+        "change_pct": 90.0,
         "unit": "$B",
         "source": "FRED RRPONTSYD",
-        "asof": "2026-08-21",
+        "asof": "2026-08-24",
         "series": [
-          {
-            "time": "2023-09-19",
-            "value": 1453.324
-          },
           {
             "time": "2023-09-20",
             "value": 1486.984
@@ -12753,6 +12745,10 @@
           {
             "time": "2026-08-21",
             "value": 0.2
+          },
+          {
+            "time": "2026-08-24",
+            "value": 0.38
           }
         ],
         "signal": "neutral",
@@ -12763,17 +12759,13 @@
       {
         "id": "us_yieldspread",
         "name": "10Y-2Y 국채 스프레드",
-        "value": 0.5,
+        "value": 0.46,
         "prev": 0.5,
-        "change_pct": 0.0,
+        "change_pct": -8.0,
         "unit": "%p",
         "source": "FRED T10Y2Y",
-        "asof": "2026-08-21",
+        "asof": "2026-08-24",
         "series": [
-          {
-            "time": "2023-09-20",
-            "value": -0.77
-          },
           {
             "time": "2023-09-21",
             "value": -0.63
@@ -15689,10 +15681,14 @@
           {
             "time": "2026-08-21",
             "value": 0.5
+          },
+          {
+            "time": "2026-08-24",
+            "value": 0.46
           }
         ],
-        "signal": "bullish",
-        "note": "정상 (0.5%↑)"
+        "signal": "neutral",
+        "note": "수축 (0~0.5%) — 경계"
       }
     ]
   },
