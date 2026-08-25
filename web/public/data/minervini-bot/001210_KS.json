@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "001210.KS",
-  "generated_at": "2026-08-24T23:21:28.341620+00:00",
-  "source_results_date": "2026-08-24",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.56,
+  "generated_at": "2026-08-25T23:24:47.426519+00:00",
+  "source_results_date": "2026-08-25",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.61,
   "lines": [
-    "추격 위험 — Pivot ₩8170.00 대비 +6.5%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 55.2% → 55.8% → 46.6% → 44.0% → 33.2%, VDU 0.71× — setup 자체는 유효.",
-    "Trend Template 7/8 + RS 99로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 5회, 마지막 33.17%).",
+    "13주 베이스 55.2% → 55.8% → 46.6% → 44.0% → 33.2%, VDU 0.71×, pivot ₩9740.00(-11.9…",
+    "Trend Template 7/8 통과, RS 99 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
     "entry_type": "none",
@@ -19,7 +19,7 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
