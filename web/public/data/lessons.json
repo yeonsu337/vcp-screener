@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:24:48.340631+00:00",
+  "generated_at": "2026-08-27T04:14:29.396350+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -40,7 +40,14 @@
     "EX1_stop_8pct": 1
   },
   "rule_analysis": {
-    "primary_pass_buckets": [],
+    "primary_pass_buckets": [
+      {
+        "primary_passed": 8,
+        "trades": 1,
+        "avg_return_pct": -4.2,
+        "win_rate_pct": 0.0
+      }
+    ],
     "rule_hit_rate_diff": [],
     "big_winners_common_rules": [],
     "loser_threshold_pct": -10.0,
