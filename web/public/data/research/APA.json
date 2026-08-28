@@ -4,46 +4,187 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
-  "generated_at": "2026-05-06T01:32:10.793474+00:00",
+  "generated_at": "2026-08-28T06:50:52.610959+00:00",
   "primary_passed": 12,
-  "primary_total": 14,
-  "llm_status": "unavailable: rate-limited (429)",
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 14659049472,
-    "shares_outstanding": 353400414,
+    "market_cap": 14847897600,
+    "shares_outstanding": 350351510,
     "employees": 1791,
     "country": "United States",
     "website": "https://www.apacorp.com",
-    "beta": 0.374
+    "beta": 0.348
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "APA Corporation, an independent energy company, explores for, develops, and produces natural gas, crude oil, and natural gas liquids. The company has oil and gas operations in the United States, Egypt, and North Sea. It also has exploration and appraisal activities in Suriname, as well as holds interests in projects located in Uruguay and internationally.",
+    "business_model": "독립 에너지 기업인 APA Corporation은 천연가스, 원유, 천연가스 액체를 탐색, 개발, 생산합니다.",
+    "products": [
+      "natural gas, crude oil, and natural gas liquids"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "APA Corporation, a holding company for Apache Corporation, is an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston."
+  },
   "category_b_financials": {
-    "eps_qoq_yoy_pct": -21.2,
-    "sales_yoy_pct": -28.0,
+    "roe": 0.27,
+    "roa": 0.12,
+    "profit_margin": 0.2,
+    "operating_margin": 0.56,
+    "gross_margin": 0.78,
+    "revenue_growth_ttm": 0.09,
+    "earnings_growth_ttm": 0.26,
+    "dividend_yield": 2.43,
+    "payout_ratio": 0.21,
+    "annual_revenue": [
+      8920000000.0,
+      9737000000.0,
+      8279000000.0,
+      11075000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      2750000000.0,
+      3199000000.0,
+      3358000000.0,
+      5082000000.0,
+      null
+    ],
+    "annual_eps": [
+      3.99,
+      2.27,
+      9.25,
+      11.02,
+      null
+    ],
+    "annual_free_cf": [
+      1779000000.0,
+      709000000.0,
+      772000000.0,
+      2545000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      4590000000.0,
+      6162000000.0,
+      5304000000.0,
+      5620000000.0,
+      null
+    ],
+    "annual_equity": [
+      6093000000.0,
+      5280000000.0,
+      2655000000.0,
+      423000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.11,
+      1.26,
+      0.79,
+      0.57,
+      1.67,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      2373000000.0,
+      2327000000.0,
+      1991000000.0,
+      2115000000.0,
+      2178000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 23.9,
+    "sales_yoy_pct": 9.2,
     "ni_cagr_3y_pct": -26.45,
-    "roe_pct": 25.32
+    "roe_pct": 26.66
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas E&P 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 65.0,
+    "rs_rating": 86,
+    "score": 57.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.1857,
-    "trailing_pe": 10.395989,
-    "forward_pe": 10.292012,
-    "ev_to_ebitda": 3.859,
-    "price_to_sales": 1.6878583,
+    "peg_ratio": 0.7978,
+    "trailing_pe": 8.702259,
+    "forward_pe": 10.087257,
+    "ev_to_ebitda": 3.358,
+    "price_to_sales": 1.7321392,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 121.62,
-    "outperform_6m_vs_nasdaq": 79.36,
-    "outperform_1m_vs_nasdaq": -18.07,
-    "lynch_category": "Cyclical / Turnaround?"
+    "outperform_1y_vs_nasdaq": 75.08,
+    "outperform_6m_vs_nasdaq": 31.63,
+    "outperform_1m_vs_nasdaq": 6.89,
+    "lynch_category": "Slow Grower"
   },
-  "category_e_risks": {},
-  "wikipedia_summary": "APA Corporation, a holding company for Apache Corporation, an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston.",
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties not presently known to the Company or that the Company currently considers immaterial may also adversely affect the Company.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "RISKS RELATED TO COMMODITY PRICES, DEMAND, AND PRODUCTION Crude oil, natural gas, and NGL prices and their volatility could adversely affect the Company’s operating results and the price of APA’s common stock.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Without the ability to fund capital expenditures, the Company would be unable to replace reserves and production.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Additionally, the Company has previously and may in the future voluntarily curtail production in response to market conditions, such as weak or negative prices.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If a substantial amount of the Company’s production is interrupted or curtailed at the same time, it could temporarily adversely affect the Company’s cash flows.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Further, if the Company is unable to procure and resell third-party volumes at or above a net price that covers the cost of transportation, the Company’s cash flows could be adversely affected.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "APA Corporation, a holding company for Apache Corporation, is an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:30.239487+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:06:29.481659+00:00"
   }
 }

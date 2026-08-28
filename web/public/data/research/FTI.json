@@ -4,29 +4,29 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-22T00:37:50.216046+00:00",
+  "generated_at": "2026-08-28T06:48:49.864586+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 28471304192,
-    "shares_outstanding": 398701897,
+    "market_cap": 29929986048,
+    "shares_outstanding": 392164388,
     "employees": 22000,
     "country": "United Kingdom",
     "website": "https://www.technipfmc.com",
-    "beta": 0.738
+    "beta": 0.74
   },
   "category_a_business": {
-    "overview": "TechnipFMC plc는 유럽, 중앙 아시아, 북미, 라틴 아메리카, 아시아 태평양, 아프리카, 중동 및 국제적으로 석유 및 천연 가스 프로젝트, 기술, 시스템 및 서비스 비즈니스에 참여하고 있습니다. Subsea와 Surface Technologies라는 두 부문을 통해 운영됩니다. 해저 부문은 석유 및 천연가스 생산과 운송에 사용되는 해저 시스템, 해저 현장 인프라, 해저 파이프라인 시스템을 위한 현장 서비스의 설계, 엔지니어링, 조달, 제조, 제작, 설치 및 수명에 관여합니다.",
-    "business_model": "TechnipFMC plc는 유럽, 중앙 아시아, 북미, 라틴 아메리카, 아시아 태평양, 아프리카, 중동 지역에서 석유 및 천연 가스 프로젝트, 기술, 시스템 및 서비스 사업에 참여하고 있습니다.",
+    "overview": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation.",
+    "business_model": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle E",
     "products": [
-      "Subsea 및 Surface Technologies라는 두 가지 부문을 통해",
-      "해저 생산 시스템",
+      "through two segments, Subsea and Surface Technologies",
+      "subsea production systems",
       "교련",
       "계획, 테스트 및 설치, 시운전, 운영, 교체 및 업그레이드, 유지 관리, 보관, 보존"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
     "wikipedia_excerpt": "TechnipFMC plc는 에너지 산업에 서비스를 제공하는 프랑스계 미국인, 영국 소재 글로벌 석유 및 가스 회사입니다. 이 회사는 2016년에 발표되어 2017년에 완성된 미국의 FMC Technologies와 프랑스의 Technip의 합병으로 구성되었습니다.",
     "milestones": [
@@ -34,15 +34,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.33,
-    "roa": 0.09,
+    "roe": 0.36,
+    "roa": 0.1,
     "profit_margin": 0.11,
-    "operating_margin": 0.14,
+    "operating_margin": 0.18,
     "gross_margin": 0.23,
-    "revenue_growth_ttm": 0.12,
-    "earnings_growth_ttm": 0.94,
-    "dividend_yield": 0.28,
-    "payout_ratio": 0.08,
+    "revenue_growth_ttm": 0.09,
+    "earnings_growth_ttm": 0.41,
+    "dividend_yield": 0.26,
+    "payout_ratio": 0.07,
     "annual_revenue": [
       9932600000.0,
       9083300000.0,
@@ -93,35 +93,35 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.9,
       0.64,
       0.59,
       0.64,
       0.64,
-      0.33,
       null,
       null
     ],
     "quarterly_revenue": [
+      2763100000.0,
       2492700000.0,
       2517000000.0,
       2647300000.0,
       2534700000.0,
-      2233600000.0,
       null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 83.5,
-    "sales_yoy_pct": 11.6,
-    "roe_pct": 33.41
+    "eps_qoq_yoy_pct": 34.6,
+    "sales_yoy_pct": 9.0,
+    "roe_pct": 35.81
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -132,21 +132,21 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 60.8,
+    "rs_rating": 83,
+    "score": 59.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 27.678297,
-    "forward_pe": 20.55254,
-    "ev_to_ebitda": 15.042,
-    "price_to_sales": 2.7935774,
+    "trailing_pe": 26.499998,
+    "forward_pe": 21.206833,
+    "ev_to_ebitda": 15.217,
+    "price_to_sales": 2.8723319,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 96.58,
-    "outperform_6m_vs_nasdaq": 46.18,
-    "outperform_1m_vs_nasdaq": -7.7,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 88.03,
+    "outperform_6m_vs_nasdaq": -2.35,
+    "outperform_1m_vs_nasdaq": -2.12,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
@@ -162,7 +162,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사 운영과 관련된 위험 • 고정 가격 계약으로 인해 손실을 입을 수 있습니다.",
+        "description": "Risks Related to Our Operations • We may lose money on fixed-price contracts.",
         "severity": "medium"
       },
       {
@@ -177,7 +177,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 경쟁이 매우 치열한 환경에서 사업을 운영하고 있으며 지속적인 업계 통합을 포함하여 업계의 경쟁 요소와 관련된 예상치 못한 변화가 우리의 운영 결과에 영향을 미칠 수 있습니다.",
+        "description": "우리는 경쟁이 치열한 환경에서 사업을 운영하고 있으며 지속적인 업계 통합을 포함하여 업계의 경쟁 요소와 관련된 예상치 못한 변화가 우리의 운영 결과에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -190,6 +190,6 @@
   },
   "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:42.152256+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:06:54.662052+00:00"
   }
 }

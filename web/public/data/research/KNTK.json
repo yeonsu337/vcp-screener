@@ -1,0 +1,150 @@
+{
+  "ticker": "KNTK",
+  "company": "Kinetik Holdings Inc.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "generated_at": "2026-08-28T06:56:58.886596+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 9201089536,
+    "shares_outstanding": 80442263,
+    "employees": 500,
+    "country": "United States",
+    "website": "https://www.kinetik.com",
+    "beta": 0.77
+  },
+  "category_a_business": {
+    "overview": "Kinetik Holdings Inc.는 자회사를 통해 텍사스 델라웨어 분지의 중류 기업으로 운영됩니다. 이 회사는 미드스트림 물류(Midstream Logistics)와 파이프라인 운송(Pipeline Transportation)이라는 두 가지 부문을 통해 운영됩니다. 수집, 압축, 처리, 안정화, 처리 및 저장 서비스를 제공합니다. 파이프라인을 통한 운송 서비스; 천연가스, 천연가스액체(NGL) 및 원유를 생산하는 회사를 위한 물 수집 및 처리 서비스를 제공합니다.",
+    "business_model": "Kinetik Holdings Inc.는 자회사를 통해 텍사스 델라웨어 분지의 중류 기업으로 운영됩니다.",
+    "products": [
+      "텍사스 델라웨어 베이시(Texas Delaware Basi)의 미드스트림 기업으로",
+      "미드스트림 물류(Midstream Logistics)와 파이프라인 운송(Pipeline Transportatio)이라는 두 부문을 통해",
+      "수집, 압축, 가공, 안정화, 처리 및 보관 서비스",
+      "응축수, 천연가스 잔류물, NGL"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.19,
+    "roa": 0.02,
+    "profit_margin": 0.29,
+    "operating_margin": 0.23,
+    "gross_margin": 0.41,
+    "revenue_growth_ttm": 0.36,
+    "earnings_growth_ttm": 0.95,
+    "dividend_yield": 5.83,
+    "payout_ratio": 1.11,
+    "annual_revenue": [
+      1764389000.0,
+      1482929000.0,
+      1256412000.0,
+      1213490000.0,
+      null
+    ],
+    "annual_operating_income": [
+      164927000.0,
+      183273000.0,
+      178657000.0,
+      163100000.0,
+      null
+    ],
+    "annual_eps": [
+      2.63,
+      1.02,
+      2.38,
+      1.48,
+      null
+    ],
+    "annual_free_cf": [
+      74449000.0,
+      361473000.0,
+      254926000.0,
+      391427000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3865567000.0,
+      3534387000.0,
+      3601361000.0,
+      3397343000.0,
+      null
+    ],
+    "annual_equity": [
+      -565380000.0,
+      -2976596000.0,
+      -530823000.0,
+      -839775000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.64,
+      -0.07,
+      2.16,
+      0.03,
+      0.33,
+      null
+    ],
+    "quarterly_revenue": [
+      581440000.0,
+      409976000.0,
+      430419000.0,
+      463969000.0,
+      426738000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 65.4,
+    "sales_yoy_pct": 36.3,
+    "ni_cagr_3y_pct": 57.15,
+    "roe_pct": 19.23
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 78,
+    "score": 69.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.49,
+    "trailing_pe": 19.28369,
+    "forward_pe": 26.112846,
+    "ev_to_ebitda": 19.847,
+    "price_to_sales": 4.879133,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 18.52,
+    "outperform_6m_vs_nasdaq": 3.55,
+    "outperform_1m_vs_nasdaq": -1.11,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:07:34.937848+00:00"
+  }
+}

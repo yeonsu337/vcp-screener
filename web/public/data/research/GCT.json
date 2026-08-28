@@ -1,0 +1,190 @@
+{
+  "ticker": "GCT",
+  "company": "GigaCloud Technology Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "generated_at": "2026-08-28T07:01:14.955886+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "yf_metadata": {
+    "market_cap": 1841934080,
+    "shares_outstanding": 28839563,
+    "employees": 1644,
+    "country": "United States",
+    "website": "https://www.gigacloudtech.com",
+    "beta": 1.643
+  },
+  "category_a_business": {
+    "overview": "GigaCloud Technology Inc.는 미국 및 국제적으로 대형 소포 상품을 위한 엔드 투 엔드 B2B 전자 상거래 솔루션을 제공합니다. 이 회사는 제품 검색, 결제 및 물류 도구를 사용하기 쉬운 하나의 플랫폼으로 통합하는 GigaCloud Marketplace를 제공합니다.",
+    "business_model": "기가클라우드테크놀로지(주)",
+    "products": [
+      "미국 및 해외의 대형 소포 상품을 위한 엔드투엔드 B2B 전자상거래 솔루션",
+      "제품 검색, 결제 및 물류 도구를 사용하기 쉬운 하나의 플랫폼으로 통합한 GigaCloud Marketplace"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.32,
+    "roa": 0.09,
+    "profit_margin": 0.11,
+    "operating_margin": 0.12,
+    "gross_margin": 0.24,
+    "revenue_growth_ttm": 0.28,
+    "earnings_growth_ttm": 0.28,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      1289897000.0,
+      1161042000.0,
+      703831000.0,
+      490071000.0,
+      null
+    ],
+    "annual_operating_income": [
+      145072000.0,
+      130815000.0,
+      113314000.0,
+      36108000.0,
+      null
+    ],
+    "annual_eps": [
+      3.59,
+      3.05,
+      2.3,
+      0.6,
+      null
+    ],
+    "annual_free_cf": [
+      182787000.0,
+      142542000.0,
+      129072000.0,
+      48947000.0,
+      null
+    ],
+    "annual_total_debt": [
+      469681000.0,
+      484278000.0,
+      403237000.0,
+      148207000.0,
+      null
+    ],
+    "annual_equity": [
+      485799000.0,
+      405217000.0,
+      290416000.0,
+      195165000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.16,
+      1.04,
+      1.04,
+      0.99,
+      0.91,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      411643000.0,
+      359488000.0,
+      362747000.0,
+      332638000.0,
+      322606000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 22.5,
+    "sales_yoy_pct": 27.6,
+    "ni_cagr_3y_pct": 78.95,
+    "roe_pct": 32.34
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 84,
+    "score": 64.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.27,
+    "trailing_pe": 12.399039,
+    "forward_pe": 10.67909,
+    "ev_to_ebitda": 10.973,
+    "price_to_sales": 1.2559932,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 71.15,
+    "outperform_6m_vs_nasdaq": -6.22,
+    "outperform_1m_vs_nasdaq": 15.44,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "우리의 역사적 성장률과 실적은 지속 가능하지 않거나 미래 성장 및 재무 결과를 나타내지 않을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러나 당사의 과거 실적이 당사의 미래 성장이나 재무 결과를 나타내지 않을 수도 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "빠르게 발전하는 시장에서 활동하는 기업이 노출될 수 있는 위험을 해결하는 데 충분한 경험이 없기 때문에 우리의 전망을 평가하는 것은 어렵습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "당사의 성장률이 하락할 경우, 당사의 사업, 재무 상태 및 운영 결과가 실질적이고 부정적인 영향을 받을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "적시에 인수를 성공적으로 통합하지 못하면 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "인수로 인한 이익이 금융 분석가나 업계 분석가의 기대에 미치지 못하는 경우, 당사 주식의 시장 가격이 하락할 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:07:10.794487+00:00"
+  }
+}

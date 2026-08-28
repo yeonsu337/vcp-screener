@@ -4,58 +4,42 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-07-03T00:10:09.303126+00:00",
+  "generated_at": "2026-08-28T06:51:53.625185+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4130006016,
-    "shares_outstanding": 40407065,
+    "market_cap": 4150433536,
+    "shares_outstanding": 38419268,
     "employees": 6000,
     "country": "United States",
     "website": "https://www.breadfinancial.com",
-    "beta": 1.169
+    "beta": 1.138
   },
   "category_a_business": {
-    "overview": "BFH는 북미 고객 및 소비자 기반 산업에 기술 기반 결제 및 대출 솔루션을 제공하는 기업입니다.",
-    "milestones": [
-      "1996년: Alliance Data Systems 설립",
-      "2000년대 초: 사모 상표 신용카드 및 로열티 프로그램 사업 확장",
-      "2010년대: 디지털 결제 및 데이터 분석 역량 강화",
-      "2022: Bread Financial Holdings, Inc.로 사명 변경 및 브랜드 재정비",
-      "2020년대: Bread Pay 등 디지털 결제 플랫폼 확장"
-    ],
-    "business_model": "소비자에게 신용카드 및 대출 서비스를 제공하고, 파트너사에 마케팅 및 데이터 분석 서비스를 제공하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "신용카드 및 대출 이자 및 수수료",
-      "위험 관리 솔루션",
-      "인수 및 자금 조달 서비스",
-      "마케팅 및 데이터 분석 서비스",
-      "예금 상품 (CD, 고금리 저축 계좌)"
-    ],
-    "value_chain_position": "Midstream + 소매 파트너와 소비자 사이에서 결제 및 대출 솔루션을 제공합니다.",
+    "overview": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships.",
+    "business_model": "Bread Financial Holdings, Inc.",
     "products": [
-      "사모 상표 신용카드 프로그램",
-      "코브랜드 신용카드 프로그램",
-      "할부 대출 및 분할 결제 상품 (Bread Pay)",
-      "디지털 결제 플랫폼 (Bread Pay)",
-      "예금 상품 (CD, 고금리 저축 계좌)"
+      "tech-forward payment and lending solutions to customers and consumer-based industries in North Americ",
+      "credit card and other loans financing services, including risk management solutions, underwriting, and funding services",
+      "marketing, and data and analytics services",
+      "an enhanced digital suite that includes a unified software development kit, which provides access to its suite of produc",
+      "retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including"
     ],
     "channels": [
-      "B2B (소매 파트너사)",
-      "B2C (최종 소비자)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "매출의 상당 부분이 소수의 주요 파트너사 관계에 집중되어 있습니다."
+    "wikipedia_excerpt": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data."
   },
   "category_b_financials": {
-    "roe": 0.18,
+    "roe": 0.17,
     "roa": 0.03,
     "profit_margin": 0.21,
-    "operating_margin": 0.34,
+    "operating_margin": 0.29,
     "gross_margin": 0.0,
-    "revenue_growth_ttm": 0.06,
-    "earnings_growth_ttm": 0.49,
-    "dividend_yield": 0.87,
+    "revenue_growth_ttm": 0.04,
+    "earnings_growth_ttm": 0.21,
+    "dividend_yield": 0.86,
     "payout_ratio": 0.07,
     "annual_revenue": [
       3845000000.0,
@@ -130,148 +114,78 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 31.2,
-    "sales_yoy_pct": 6.1,
+    "eps_qoq_yoy_pct": 5.0,
+    "sales_yoy_pct": 3.8,
     "ni_cagr_3y_pct": 32.44,
-    "roe_pct": 17.52
+    "roe_pct": 17.42
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-300 billion USD (추정) - 미국 신용카드 및 소비자 금융 시장 규모 기반 추정",
-    "tam_cagr_pct": "4-6% (추정) - 디지털 결제 및 전자상거래 성장, 소비자 신용 수요 증가에 기반하나, 경기 침체 및 금리 인상 압력으로 성장률 둔화 가능성 상존",
-    "growth_drivers": [
-      "전자상거래 및 디지털 결제 확산에 따른 파트너십 기회 증대",
-      "데이터 분석 및 AI 기반 맞춤형 금융 상품 개발을 통한 경쟁력 강화",
-      "신규 파트너 유치 및 기존 파트너와의 관계 심화를 통한 포트폴리오 확장"
-    ],
-    "market_share_pct": "5-10% (추정) - 특정 브랜드 파트너십 기반 시장 점유율로, 전체 신용 서비스 시장 대비는 낮음",
-    "competitors": [
-      {
-        "name": "Synchrony Financial",
-        "differentiation": "유사한 브랜드 파트너십 기반 신용카드 사업 모델, 다양한 산업군에 걸친 파트너십 보유"
-      },
-      {
-        "name": "Alliance Data Systems (Comenity Bank)",
-        "differentiation": "BFH와 유사하게 브랜드 신용카드 및 로열티 프로그램 제공, 데이터 기반 마케팅 강점"
-      },
-      {
-        "name": "Capital One",
-        "differentiation": "광범위한 소비자 신용카드 포트폴리오, 디지털 혁신 및 기술 투자 강점"
-      },
-      {
-        "name": "Discover Financial Services",
-        "differentiation": "직접 발급 모델 및 강력한 고객 서비스, 학자금 대출 등 다양한 금융 상품 제공"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 신용 서비스 산업은 규제 장벽과 자본 요구 사항이 높지만, 핀테크 기업의 기술 기반 진입 가능성 존재",
-      "substitutes": "medium - 일반 신용카드, 직불카드, BNPL(선구매 후결제) 서비스, 현금 등 다양한 결제 수단이 존재하며, 특히 BNPL의 성장이 위협적",
-      "buyer_power": "high - 소비자는 다양한 신용카드 및 결제 수단을 선택할 수 있으며, 파트너사들은 더 유리한 조건을 제시하는 금융사를 선택할 수 있음",
-      "supplier_power": "low - BFH는 클라우드 인프라(AWS, Microsoft) 및 카드 프로세싱(Fiserv) 등 외부 공급업체에 의존하지만, 대체 가능한 공급업체가 많아 협상력이 낮음",
-      "rivalry": "high - 기존 대형 은행 및 전문 신용 서비스 제공업체 간의 경쟁이 매우 치열하며, 파트너십 유치를 위한 경쟁이 심화되고 있음"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "강력한 브랜드 파트너십 네트워크 및 파트너와의 긴밀한 협력 관계",
-      "데이터 분석 및 기술 투자를 통한 맞춤형 상품 및 서비스 제공 능력",
-      "다년간의 신용 서비스 운영 경험과 리스크 관리 역량"
-    ],
-    "competitive_weaknesses": [
-      "소수 파트너사에 대한 높은 매출 의존도로 인한 사업 안정성 취약",
-      "파트너사의 사업 모델 변화 또는 프로모션 부족 시 매출에 부정적 영향",
-      "경기 침체 및 거시경제 상황 변화에 따른 소비자 신용 수요 감소 위험"
+      "Financial Services / Credit Services 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 83,
-    "score": 59.9,
+    "score": 57.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.4324,
-    "trailing_pe": 8.343674,
-    "forward_pe": 8.211557,
+    "peg_ratio": 3.9028,
+    "trailing_pe": 8.348532,
+    "forward_pe": 8.08038,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.5620295,
+    "price_to_sales": 1.5556347,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.97,
-    "outperform_6m_vs_nasdaq": 27.44,
-    "outperform_1m_vs_nasdaq": 16.3,
-    "lynch_category": "Slow Grower",
-    "moat_type": "Switching Costs",
-    "moat_evidence": [
-      "BFH는 파트너사와의 프로그램 계약을 통해 신용 상품을 제공하며, 파트너사의 이탈은 매출에 상당한 영향을 미칩니다. 이는 파트너사가 BFH의 시스템에 통합되어 있어 전환 비용이 발생함을 시사합니다.",
-      "BFH는 파트너사가 자사 제품을 고객에게 적극적으로 홍보하고, 매장 및 온라인 쇼핑 경험, 로열티 프로그램에 통합하도록 의존합니다. 이는 파트너사가 BFH의 제품을 사용하기 위해 상당한 투자를 했음을 의미하며, 전환 시 해당 투자를 상실할 위험이 있습니다.",
-      "BFH는 클라우드 인프라(AWS, Microsoft) 및 신용카드 처리 서비스(Fiserv)와 같은 핵심 기술 시스템을 타사에 의존하고 있습니다. 이러한 시스템은 파트너사의 운영에 깊이 통합되어 있어, 파트너사가 다른 신용 상품 제공업체로 전환하기 위해서는 상당한 시스템 변경 및 재통합 비용이 발생할 수 있습니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "클라우드, 머신러닝, AI, 자동화, 데이터 분석 등 신기술 전략적 투자",
-    "bull_case": "3년 내 파트너사 확장 및 신기술 도입으로 비용 절감, ROE 20% 달성 및 EPS 40% 성장",
-    "base_case": "기존 파트너 관계 유지 및 신규 파트너 확보를 통해 안정적인 매출 성장과 수익성 유지. 기술 투자를 통해 효율성 개선 및 경쟁 우위 강화.",
-    "bear_case": "경기 침체 심화, 주요 파트너사 이탈, 경쟁 심화로 인한 계약 조건 악화, 또는 사이버 보안 문제 발생 시 매출 및 수익성 급감.",
-    "key_metrics_to_watch": [
-      "파트너사 이탈률 및 신규 파트너 확보율",
-      "기술 투자 성과 및 비용 절감 효과",
-      "총 순이자 및 비이자 소득 (매출) 성장률",
-      "대손충당금 및 연체율"
-    ]
+    "outperform_1y_vs_nasdaq": 47.52,
+    "outperform_6m_vs_nasdaq": 21.02,
+    "outperform_1m_vs_nasdaq": -7.61,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "거시",
-        "description": "시장 상황, 인플레이션, 금리, 경기 침체 압력 등 거시경제적 요인이 소비자 지출 및 상환 능력에 부정적인 영향을 미쳐 사업에 중대한 악영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "고객집중도",
-        "description": "수익의 상당 부분이 제한된 수의 파트너십을 통해 발생하므로, 주요 파트너와의 관계 악화 또는 상실은 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "무담보 대출 비중이 높아 고객의 신용 성과에 크게 의존하며, 고객의 상환 불능 시 연체율 및 대손상각률이 증가할 위험이 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "경쟁",
-        "description": "핀테크 기업 등 신규 및 비전통적 경쟁자를 포함한 업계 내 치열한 경쟁과 신기술의 등장은 사업 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks actually occur, our business, financial condition, results of operations, and future prospects could be materially and adversely affected.",
         "severity": "medium"
       },
       {
-        "category": "규제",
-        "description": "광범위한 정부 규제 및 감독, 그리고 신용카드 이자율, 연체료, 수수료 등에 대한 향후 법률 및 규제 변경은 사업 운영 및 수익성에 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "공급망",
-        "description": "핵심 운영을 위해 제3자 벤더에 크게 의존하고 있으며, 이들 벤더의 의무 불이행 시 사업에 부정적인 영향을 받을 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Risks related to cybersecurity, technology and third-party vendors include: • We rely on third-party vendors, and could be adversely impacted if such vendors fail to fulfill their obligations.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "자금 조달 및 유동성 위험을 효과적으로 관리하지 못하거나 자본 시장 접근이 어려워질 경우 사업, 유동성 및 채무 상환 능력에 중대한 악영향을 미칠 수 있습니다.",
-        "severity": "high"
+        "category": "10-K Item 1A",
+        "description": "Moreover, the current Presidential Administration’s policies on trade, immigration and taxes could create inflationary pressures, which in turn could disproportionately impact our customer base.",
+        "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "인공지능(AI)의 개발 및 사용은 새로운 AI 법규 준수, AI 모델 관련 위험, 악의적인 AI 기술 사용 등 사업에 대한 새로운 위험과 도전을 제시합니다.",
+        "category": "10-K Item 1A",
+        "description": "The loans we make are unsecured, and we may not be able to ultimately collect from customers that default on their loans.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "As a result, the data and models upon which we rely may not fully reflect the extent of our customers’ actual financial obligations.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "장기간의 심각한 경기 침체로 인해 소비자 신용이 광범위하게 악화되고 대규모 대출 부실이 발생하여 회사의 재무 건전성이 심각하게 훼손될 수 있습니다.",
-      "주요 파트너십 상실 또는 핵심 파트너의 재정적 어려움으로 인해 수익이 급감하고 사업 모델의 지속 가능성이 위협받을 수 있습니다.",
-      "신용카드 이자율 또는 수수료에 대한 정부의 강력한 규제 변경으로 인해 핵심 수익원이 크게 감소하고 사업 수익성이 악화될 수 있습니다.",
-      "사이버 보안 침해 또는 주요 기술 시스템 장애로 인해 고객 신뢰가 상실되고 대규모 운영 중단 및 재정적 손실이 발생할 수 있습니다."
-    ],
     "exit_signals": [
-      "분기별 연체율 및 대손상각률이 지속적으로 증가하여 경영진의 예상치를 크게 초과하는 경우",
-      "주요 파트너 중 한 곳과의 계약이 해지되거나 재협상 과정에서 회사에 불리한 조건으로 변경되는 경우",
-      "정부 또는 규제 기관이 신용카드 이자율 또는 주요 수수료에 대한 새로운 제한을 부과하여 회사의 수익 모델에 중대한 영향을 미치는 경우",
-      "핵심 기술 시스템에 대한 대규모 사이버 공격 또는 데이터 유출 사건이 발생하여 회사의 평판과 고객 기반에 심각한 손상을 입히는 경우"
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:36.247537+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:06:31.072389+00:00"
   }
 }

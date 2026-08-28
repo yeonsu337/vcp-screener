@@ -1,0 +1,194 @@
+{
+  "ticker": "DINO",
+  "company": "HF Sinclair Corporation",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "generated_at": "2026-08-28T06:54:57.051153+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 17245034496,
+    "shares_outstanding": 177783849,
+    "employees": 5165,
+    "country": "United States",
+    "website": "https://www.hfsinclair.com",
+    "beta": 0.685
+  },
+  "category_a_business": {
+    "overview": "HF Sinclair Corporation operates as an independent energy company in the United States. It operates through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream. The company produces and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commodity and modified asphalt products, and others.",
+    "business_model": "HF Sinclair Corporation operates as an independent energy company in the United States.",
+    "products": [
+      "as an independent energy company in the United States",
+      "through five segments: Refining, Renewables, Marketing, Lubricants & Specialties, and Midstream",
+      "and markets gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, commo",
+      "refineries located in Kansas, Oklahoma, New Mexico, Wyoming, Washington, and Utah, as well as markets its refined produc",
+      "base oils and other specialized lubricants"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "HF Sinclair Corporation is an American energy company that manufactures and sells products such as gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, and specialty and modified asphalt, among others. It is based in Dallas, Texas, United States."
+  },
+  "category_b_financials": {
+    "roe": 0.2,
+    "roa": 0.09,
+    "profit_margin": 0.06,
+    "operating_margin": 0.12,
+    "gross_margin": 0.13,
+    "revenue_growth_ttm": 0.53,
+    "earnings_growth_ttm": 3.5,
+    "dividend_yield": 2.18,
+    "payout_ratio": 0.19,
+    "annual_revenue": [
+      26869000000.0,
+      28580000000.0,
+      31964000000.0,
+      38205000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      927000000.0,
+      261000000.0,
+      2203000000.0,
+      4054000000.0,
+      null
+    ],
+    "annual_eps": [
+      3.08,
+      0.91,
+      8.29,
+      14.28,
+      null
+    ],
+    "annual_free_cf": [
+      794000000.0,
+      640000000.0,
+      1912000000.0,
+      3253000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3232000000.0,
+      3098000000.0,
+      3181000000.0,
+      3619613000.0,
+      null
+    ],
+    "annual_equity": [
+      9184000000.0,
+      9278000000.0,
+      10169000000.0,
+      9243815000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      4.93,
+      3.56,
+      -0.16,
+      2.15,
+      1.1,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      null,
+      7123000000.0,
+      6464000000.0,
+      7251000000.0,
+      6784000000.0,
+      6370000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 328.8,
+    "sales_yoy_pct": 53.2,
+    "ni_cagr_3y_pct": -41.71,
+    "roe_pct": 19.5
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 73.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.201,
+    "trailing_pe": 9.246902,
+    "forward_pe": 10.3483,
+    "ev_to_ebitda": 5.735,
+    "price_to_sales": 0.5522299,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 80.85,
+    "outperform_6m_vs_nasdaq": 79.64,
+    "outperform_1m_vs_nasdaq": -0.14,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "If we are unable to complete capital projects at their expected costs or in a timely manner, our financial condition, results of operations or cash flows could be materially and adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "계속되는 글로벌 적대 행위 또는 기타 지속적인 군사 작전은 우리의 작전 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이는 우리가 미래의 자본 수요를 충족하는 것을 방해하거나 방해할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial may also materially and adversely affect our business operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks were to actually occur, our business, financial condition and results of operations could be materially and adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Further, our underwriters could have credit issues that affect their ability to pay claims.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "HF Sinclair Corporation is an American energy company that manufactures and sells products such as gasoline, diesel fuel, jet fuel, renewable diesel, specialty lubricant products, specialty chemicals, and specialty and modified asphalt, among others. It is based in Dallas, Texas, United States.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:06:36.945105+00:00"
+  }
+}

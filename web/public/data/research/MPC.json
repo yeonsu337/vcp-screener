@@ -4,43 +4,61 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-07-08T00:17:40.816974+00:00",
+  "generated_at": "2026-08-28T06:42:50.388870+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 77751484416,
-    "shares_outstanding": 291936635,
+    "market_cap": 102091038720,
+    "shares_outstanding": 280824763,
     "employees": 18500,
     "country": "United States",
     "website": "https://www.marathonpetroleum.com",
-    "beta": 0.52
+    "beta": 0.508
   },
   "category_a_business": {
-    "overview": "Marathon Petroleum Corporation은 자회사와 함께 미국에서 통합 다운스트림 에너지 회사로 운영됩니다. 회사는 세 가지 부문으로 운영됩니다: 정제 및 마케팅; 내의 한복판; 그리고 재생 가능한 디젤. 정유 및 마케팅 부문은 미국 걸프 연안, 중부 대륙 및 서부 연안 지역의 정유소에서 원유 및 기타 공급 원료를 정제합니다. 재판매를 위해 정제된 제품과 에탄올을 구매하고 운송, 보관, 유통, 마케팅 서비스를 통해 정제된 제품을 유통합니다.",
-    "business_model": "Marathon Petroleum Corporation은 자회사와 함께 미국에서 통합 다운스트림 에너지 회사로 운영됩니다.",
+    "overview": "미국 최대의 독립 정유사로, 정유, 마케팅, 미드스트림 및 재생 디젤 사업을 영위하는 통합 다운스트림 에너지 기업입니다.",
+    "milestones": [
+      "2011: Marathon Oil로부터 분사하여 독립 회사로 설립",
+      "2018: Andeavor 인수, 미국 최대 정유사로 등극",
+      "2020: Speedway 소매 사업부 매각",
+      "2021: 재생 디젤 생산 시설 확장 발표",
+      "2022: MPLX 지분 조정 및 미드스트림 사업 강화"
+    ],
+    "business_model": "원유를 정제하여 다양한 석유 제품을 생산하고 유통하며, 미드스트림 및 재생 디젤 사업을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "정유 및 마케팅 (휘발유, 디젤 등)",
+      "미드스트림 (원유 및 정제유 운송, 저장)",
+      "재생 디젤 생산 및 판매",
+      "프로판 및 석유화학 제품",
+      "도매 및 소매 판매"
+    ],
+    "value_chain_position": "다운스트림: 원유 정제, 석유 제품 생산 및 판매. 미드스트림: 원유 및 정제유의 운송, 저장, 유통.",
     "products": [
-      "미국의 통합 다운스트림 에너지 회사로서",
-      "세 가지 부문을 통해: 정제 및 마케팅",
-      "프로판과 석유화학제품",
-      "미국 및 국제 도매 마케팅 고객, 현물 시장의 구매자에게 정제된 제품을",
-      "도매 마케팅 고객, 현물 시장 구매자, 장기 공급 계약을 통해 재생 디젤을 공급합니다."
+      "휘발유 (개질 휘발유, 블렌드 등급 휘발유)",
+      "디젤 연료",
+      "중유",
+      "아스팔트",
+      "프로판",
+      "석유화학 제품"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B (도매 마케팅 고객, 현물 시장 구매자)",
+      "B2C (마라톤 브랜드 아울렛 운영 독립 사업자)",
+      "직접 딜러 (ARCO 브랜드 등 장기 연료 공급 계약)"
     ],
-    "wikipedia_excerpt": "Marathon Petroleum Corporation은 오하이오 주 핀들레이에 본사를 둔 미국의 석유 정제, 마케팅 및 운송 회사입니다. 이 회사는 2011년 분사 전까지 Marathon Oil의 전액 출자 자회사였습니다."
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 도매 고객, 현물 시장 구매자, 독립 사업자 및 직접 딜러에게 제품을 판매합니다."
   },
   "category_b_financials": {
-    "roe": 0.27,
-    "roa": 0.05,
-    "profit_margin": 0.03,
-    "operating_margin": 0.04,
-    "gross_margin": 0.11,
-    "revenue_growth_ttm": 0.09,
-    "earnings_growth_ttm": null,
-    "dividend_yield": 1.45,
-    "payout_ratio": 0.25,
+    "roe": 0.42,
+    "roa": 0.09,
+    "profit_margin": 0.06,
+    "operating_margin": 0.14,
+    "gross_margin": 0.13,
+    "revenue_growth_ttm": 0.54,
+    "earnings_growth_ttm": 3.48,
+    "dividend_yield": 1.1,
+    "payout_ratio": 0.14,
     "annual_revenue": [
       132699000000.0,
       138864000000.0,
@@ -91,22 +109,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      17.73,
       1.73,
       5.12,
       4.51,
       3.96,
-      -0.24,
+      null,
       null
     ],
     "quarterly_revenue": [
+      51994000000.0,
       34200000000.0,
       32574000000.0,
       34809000000.0,
       33799000000.0,
-      31517000000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -114,77 +135,144 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "sales_yoy_pct": 8.8,
+    "eps_qoq_yoy_pct": 322.5,
+    "sales_yoy_pct": 53.7,
     "ni_cagr_3y_pct": -34.67,
-    "roe_pct": 27.46
+    "roe_pct": 42.1
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2023년 기준 글로벌 정유 및 마케팅 시장 규모 약 6조 5천억 달러 (Statista 추정치 기반)",
+    "tam_cagr_pct": "1.5-2.5% (향후 3~5년) - 전반적인 에너지 전환 추세와 전기차 보급 확대로 인한 화석 연료 수요 증가세 둔화가 예상되나, 개발도상국의 에너지 수요 증가와 항공/해운 부문의 꾸준한 수요가 하방 압력을 상쇄할 것으로 보임.",
+    "growth_drivers": [
+      "개발도상국 및 신흥 시장의 산업화 및 경제 성장으로 인한 에너지 수요 증가",
+      "글로벌 항공 및 해운 산업의 지속적인 연료 수요",
+      "석유화학 제품 원료로서의 정유 제품 수요 유지",
+      "지정학적 불안정으로 인한 에너지 안보 강화 필요성"
+    ],
+    "market_share_pct": "글로벌 정유 시장 점유율 2-3% (추정치)",
+    "competitors": [
+      {
+        "name": "ExxonMobil",
+        "differentiation": "통합된 상류(Upstream) 및 하류(Downstream) 사업 구조를 통해 원료 공급 안정성 및 비용 효율성 확보, 광범위한 글로벌 네트워크 보유."
+      },
+      {
+        "name": "Chevron",
+        "differentiation": "강력한 상류 부문과 통합된 사업 모델, 기술 혁신 및 효율적인 운영을 통한 경쟁력 유지."
+      },
+      {
+        "name": "Shell",
+        "differentiation": "글로벌 통합 에너지 기업으로 다양한 에너지 포트폴리오 보유, 재생에너지 및 저탄소 솔루션으로의 전환 노력."
+      },
+      {
+        "name": "Valero Energy Corporation",
+        "differentiation": "북미 최대 독립 정유사 중 하나로, 전략적 위치의 정유 시설과 효율적인 운영을 통해 경쟁 우위 확보."
+      },
+      {
+        "name": "Phillips 66",
+        "differentiation": "정유, 마케팅, 화학 및 미드스트림 사업을 아우르는 다각화된 포트폴리오, 강력한 브랜드 인지도."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - 정유 산업은 막대한 초기 자본 투자, 복잡한 규제, 환경 규제 준수, 숙련된 인력 및 기술 요구로 인해 신규 진입 장벽이 매우 높음.",
+      "substitutes": "medium - 전기차 보급 확대 및 재생에너지 전환 가속화로 인해 장기적으로 운송 연료 수요가 감소할 수 있으나, 단기적으로는 대체재의 즉각적인 대규모 전환이 어려움.",
+      "buyer_power": "medium - 대규모 산업 구매자(항공사, 운송 회사)는 가격 협상력이 있으나, 일반 소비자 시장에서는 브랜드 충성도와 접근성이 중요하며, 비전통적인 소매업체(슈퍼마켓, 클럽 스토어)의 경쟁 심화로 구매자 협상력이 증가하고 있음.",
+      "supplier_power": "medium - 원유 공급은 OPEC+ 등 주요 산유국에 집중되어 있어 공급자 협상력이 높으나, 다양한 원유 공급원과 장기 계약을 통해 일부 완화될 수 있음. MPC는 자체 원유 생산이 없어 공급자 의존도가 높음.",
+      "rivalry": "high - 정유 및 마케팅 산업은 다수의 대형 통합 석유 회사 및 독립 정유사들이 경쟁하며, 원료 공급 및 제품 판매 모두에서 치열한 가격 경쟁이 발생함. 특히 정제 마진 변동성이 높음."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+      "미국 내 전략적 위치에 있는 대규모 정유 시설 네트워크 보유",
+      "강력한 유통 및 마케팅 네트워크 (Marathon 브랜드 아울렛 및 직영 딜러)",
+      "다양한 정제 제품 포트폴리오 및 효율적인 운영 능력",
+      "MPLX 지분 보유를 통한 미드스트림 자산과의 시너지 효과"
+    ],
+    "competitive_weaknesses": [
+      "원유 공급원 자체 생산 부족으로 인한 원료 가격 변동성 및 공급 중단 위험 노출",
+      "제3자 운송 의존도가 높아 운송 중단 및 비용 증가 위험 존재",
+      "환경 규제 및 탄소 배출 규제 강화에 따른 운영 비용 증가 및 투자 부담",
+      "전기차 보급 확대 및 에너지 전환 정책으로 인한 장기적인 수요 감소 위협",
+      "인플레이션 상승에 따른 운영 비용 증가 및 마진 압박"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 53.3,
+    "rs_rating": 93,
+    "score": 75.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.3213,
-    "trailing_pe": 17.52171,
-    "forward_pe": 11.101681,
-    "ev_to_ebitda": 11.442,
-    "price_to_sales": 0.57192916,
+    "peg_ratio": 1.7971,
+    "trailing_pe": 12.561852,
+    "forward_pe": 11.28942,
+    "ev_to_ebitda": 8.785,
+    "price_to_sales": 0.66230094,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 28.91,
-    "outperform_6m_vs_nasdaq": 51.59,
-    "outperform_1m_vs_nasdaq": 3.5,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 89.83,
+    "outperform_6m_vs_nasdaq": 65.98,
+    "outperform_1m_vs_nasdaq": 9.49,
+    "lynch_category": "Stalwart",
+    "moat_type": "None",
+    "moat_evidence": [
+      "MPC는 원유 공급원을 자체 생산하지 않아, 원유를 자체 생산하는 다국적 통합 정유사 대비 원료 공급 및 마진 변동성 측면에서 경쟁 우위가 부족합니다.",
+      "정유 및 마케팅 산업은 원료 공급과 정제 석유 제품 모두에서 경쟁이 매우 치열하며, MPC는 다수의 회사들과 경쟁합니다.",
+      "소매 부문에서 MPC의 브랜드 아울렛과 직영 딜러들은 다른 편의점 체인, 통합 정유사 소유 아울렛, 비전통적인 연료 소매업체(슈퍼마켓, 클럽 스토어 등)와 경쟁하며, 이들은 종종 매우 경쟁력 있는 가격으로 제품을 판매합니다."
+    ],
+    "moat_durability_years": "없음",
+    "new_trigger": "EPA의 차량 온실가스 배출 기준 철회 및 법적 도전으로 인한 규제 불확실성 증대",
+    "bull_case": "글로벌 원유 수요 회복 및 정제 마진 개선으로 수익성 증대, 주주 환원 확대",
+    "base_case": "높은 경쟁 환경과 유가 변동성 속에서 안정적인 정제 마진 유지 및 효율적인 운영을 통해 현 수준의 수익성 방어. 규제 불확실성은 지속될 것으로 예상.",
+    "bear_case": "경기 침체로 인한 수요 감소, 정제 마진 악화, 환경 규제 강화 및 소송 비용 증가로 실적 부진 심화",
+    "key_metrics_to_watch": [
+      "정제 마진 (Refining Margin)",
+      "원유 및 제품 운송 비용",
+      "환경 규제 관련 소송 및 준수 비용",
+      "차량 연료 효율 및 배출가스 규제 변화"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "당사의 사업, 재무 상태, 영업 결과 및 현금 흐름은 이러한 위험으로 인해 실질적이고 부정적인 영향을 받을 수 있으며, 결과적으로 당사 보통주의 거래 가격이 하락할 수 있습니다.",
+        "category": "재무",
+        "description": "정제 마진의 높은 변동성은 원유 및 기타 원료 가격, 정제 제품 수요 등 통제 불가능한 요인에 의해 결정되며, 이는 회사의 재무 성과에 큰 영향을 미칩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "배출가스 규제, 연비 향상, 대체 연료 차량 개발 등 산업, 시장, 기술 및 규제 변화는 액체 수송 연료 수요를 감소시키고 비용을 증가시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "정부의 전기차 판매 의무화 규제 및 인센티브, 소비자 선호도 변화는 액체 수송 연료 수요를 감소시키고 회사의 사업 모델에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "당사의 운영은 사업 중단의 대상이 될 수 있으며 고유한 위험과 위험을 내포하고 있으며, 이는 당사의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "공급망",
+        "description": "정유 공장 정비, 폭발, 화재, 파이프라인 누출, 악천후 등 사업 운영 중단 및 내재된 위험은 생산 능력 저하, 재산 피해, 환경 오염 및 막대한 손실을 초래할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "당사와 당사의 제3자 공급업체 및 서비스 제공업체는 다양한 수준의 사이버 보안 사건 및 사건을 겪어왔고 앞으로도 그럴 수 있습니다.",
+        "category": "경쟁",
+        "description": "재생 연료, 수소, 암모니아 등 대체 연료 기술의 발전이나 내연기관의 효율성 개선은 액체 수송 연료에 대한 수요를 감소시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "기존 및 잠재적 미래 데이터 개인 정보 보호법은 규정 준수, 모니터링 및 통제 의무를 점점 더 복잡하게 만들고 잠재적으로 비용과 위험 노출을 증가시킬 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "인공 지능 기술을 프로세스에 통합하면 이러한 기술로 인해 비즈니스, 규정 준수 및 평판 위험이 발생할 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "내부적으로 개발했든 타사 서비스 제공업체를 통해 조달했든 이러한 기술을 프로세스에 통합하면 위험과 책임이 새로워지거나 확대될 수 있습니다.",
+        "category": "규제",
+        "description": "환경 규제 강화 및 관련 법규 위반 시 막대한 벌금, 손해배상 청구, 사업 운영 중단 등 재정적 및 운영상 불이익을 받을 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "정제 마진이 장기간 극심하게 하락하여 대규모 자산 손상차손이 발생하고 배당 및 자사주 매입이 중단되며, 결국 파산에 이릅니다.",
+      "정부의 강력한 탈탄소 정책과 전기차 전환 가속화로 액체 수송 연료 수요가 급감하여 정유 사업의 경제성이 완전히 상실됩니다.",
+      "대규모 정유 공장 사고 또는 환경 재해가 발생하여 막대한 벌금, 소송 비용, 복구 비용이 발생하고, 기업 이미지가 치명적으로 손상되어 사업 지속이 불가능해집니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "분기별 정제 마진이 2분기 연속으로 과거 5년 평균 최하위 25% 수준 이하로 하락하고 회복 조짐이 보이지 않을 때.",
+      "미국 연방 정부 또는 주요 주 정부가 2035년까지 내연기관 신차 판매 전면 금지 법안을 통과시키거나, 전기차 전환 목표를 현재보다 훨씬 공격적으로 상향 조정할 때.",
+      "회사의 주요 정유 시설에서 대규모 환경 오염 사고가 발생하여 수십억 달러 규모의 벌금 및 소송 비용이 부과되고, 생산 능력이 장기간 심각하게 저하될 때."
     ]
   },
   "wikipedia_summary": "Marathon Petroleum Corporation is an American petroleum refining, marketing, and transportation company headquartered in Findlay, Ohio. The company was a wholly owned subsidiary of Marathon Oil until a corporate spin-off in 2011.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:46.402071+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:07:43.128480+00:00"
   }
 }

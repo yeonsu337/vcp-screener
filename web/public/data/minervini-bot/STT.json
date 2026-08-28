@@ -1,0 +1,58 @@
+{
+  "$schema": "minervini-bot.v1",
+  "ticker": "STT",
+  "generated_at": "2026-08-28T06:40:51.609609+00:00",
+  "source_results_date": "2026-08-28",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.86,
+  "lines": [
+    "매수 대기 — Stage 2 진입, pivot $195.18 근접(-0.93%).",
+    "13주 베이스 8.8% → 6.3% 수축, VDU 0.59× 진행.",
+    "Trend Template 8/8 통과, RS 85, RS 라인 신고가 -0.8%.",
+    "$195.18 돌파 시 매수·-7% 손절($181.52)·+20%($234.22) 절반 익절."
+  ],
+  "action": {
+    "entry_type": "pivot_breakout",
+    "entry_price": 195.18,
+    "stop_price": 181.52,
+    "stop_pct": -7.0,
+    "target1_price": 234.22,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
+    "position_risk_pct": 1.5
+  },
+  "framework": {
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "5/8",
+    "rs_rating": 85,
+    "stage": 2,
+    "base_count": 3,
+    "late_base_warning": true,
+    "market_regime": "neutral"
+  },
+  "rule_references": [
+    "A1_ud_vol_ratio",
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "R1_rs_70",
+    "L1_liquidity_gate",
+    "F1_outperform_1y",
+    "P2_last_contraction",
+    "P3_vol_dryup",
+    "R2_rs_80"
+  ],
+  "key_failures": [
+    "P4_base_count (3 — 후기 베이스)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "H4_ni_cagr_3y (NI CAGR 미달)"
+  ],
+  "warnings": [
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+  ]
+}

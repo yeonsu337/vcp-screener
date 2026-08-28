@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T04:14:29.396350+00:00",
+  "generated_at": "2026-08-28T07:06:04.305906+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -8,19 +8,19 @@
     "llm_refresh_days": 7
   },
   "snapshot": {
-    "total_trades": 40,
-    "active": 0,
+    "total_trades": 44,
+    "active": 4,
     "exited": 40,
     "winners_50pct": 0,
     "winners_30pct": 2,
     "losers": 1
   },
   "performance": {
-    "win_rate_pct": 62.5,
+    "win_rate_pct": 56.8,
     "profit_factor": 3.22,
-    "expectancy": 5.28,
+    "expectancy": 4.8,
     "avg_winner_pct": 12.27,
-    "avg_loser_pct": -6.36,
+    "avg_loser_pct": -5.02,
     "best": {
       "ticker": "005930.KS",
       "return_pct": 42.0
@@ -30,7 +30,7 @@
       "return_pct": -40.4
     },
     "avg_holding_winner_days": 39.8,
-    "avg_holding_loser_days": 27.1
+    "avg_holding_loser_days": 21.4
   },
   "exit_breakdown": {
     "EX0_unknown": 6,
@@ -42,10 +42,22 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 8,
+        "primary_passed": 10,
         "trades": 1,
-        "avg_return_pct": -4.2,
+        "avg_return_pct": 0.0,
         "win_rate_pct": 0.0
+      },
+      {
+        "primary_passed": 11,
+        "trades": 5,
+        "avg_return_pct": 0.12,
+        "win_rate_pct": 20.0
+      },
+      {
+        "primary_passed": 12,
+        "trades": 4,
+        "avg_return_pct": 5.01,
+        "win_rate_pct": 75.0
       }
     ],
     "rule_hit_rate_diff": [],
@@ -56,17 +68,45 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 40,
-      "win_rate_pct": 62.5,
-      "avg_return_pct": 5.28,
+      "trades": 35,
+      "win_rate_pct": 60.0,
+      "avg_return_pct": 5.45,
       "best_return_pct": 42.0
+    },
+    {
+      "sector": "Energy",
+      "trades": 4,
+      "win_rate_pct": 75.0,
+      "avg_return_pct": 2.38,
+      "best_return_pct": 8.8
+    },
+    {
+      "sector": "Healthcare",
+      "trades": 3,
+      "win_rate_pct": 33.3,
+      "avg_return_pct": 6.45,
+      "best_return_pct": 19.4
+    },
+    {
+      "sector": "Communication Services",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": -8.26,
+      "best_return_pct": -8.3
+    },
+    {
+      "sector": "Financial",
+      "trades": 1,
+      "win_rate_pct": 0.0,
+      "avg_return_pct": 0.0,
+      "best_return_pct": 0.0
     }
   ],
   "market_breakdown": {
     "US": {
-      "trades": 32,
-      "win_rate_pct": 59.4,
-      "avg_return_pct": 1.72
+      "trades": 35,
+      "win_rate_pct": 54.3,
+      "avg_return_pct": 1.57
     },
     "KR": {
       "trades": 6,
@@ -74,16 +114,16 @@
       "avg_return_pct": 27.62
     },
     "HK": {
-      "trades": 2,
+      "trades": 3,
       "win_rate_pct": 0.0,
-      "avg_return_pct": -4.72
+      "avg_return_pct": -3.14
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.6,
-    "loser_avg_rs": 81.9,
+    "winner_avg_rs": 83.9,
+    "loser_avg_rs": 83.6,
     "winner_n": 25,
-    "loser_n": 15
+    "loser_n": 19
   },
   "time_curve": [
     {

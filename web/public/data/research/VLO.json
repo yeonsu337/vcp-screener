@@ -1,0 +1,283 @@
+{
+  "ticker": "VLO",
+  "company": "Valero Energy Corporation",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "generated_at": "2026-08-28T06:41:29.667970+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 99792773120,
+    "shares_outstanding": 287927461,
+    "employees": 9785,
+    "country": "United States",
+    "website": "https://www.valero.com",
+    "beta": 0.554
+  },
+  "category_a_business": {
+    "overview": "Valero Energy는 미국 기반의 주요 운송 연료 및 석유화학 제품 제조 및 마케팅 기업입니다.",
+    "milestones": [
+      "1980: Coastal Corporation의 천연가스 사업부로 분사",
+      "1997: Ultramar Diamond Shamrock 인수",
+      "2001: ExxonMobil의 정유 자산 인수",
+      "2005: Premcor 인수, 미국 최대 정유사로 부상",
+      "2013: 소매 사업부 CST Brands 분사",
+      "2013: Diamond Green Diesel 합작 투자 설립 (재생 디젤 사업 확장)",
+      "2018: 캐나다 Quebec 정유소 매각",
+      "2023: 지속 가능한 항공유(SAF) 생산 확대 발표"
+    ],
+    "business_model": "원유를 정제하여 운송 연료 및 석유화학 제품을 생산, 판매합니다.",
+    "revenue_streams": [
+      "정유 제품 판매 (휘발유, 디젤, 제트 연료 등)",
+      "재생 디젤 판매",
+      "에탄올 판매",
+      "석유화학 제품 판매",
+      "아스팔트 및 기타 부산물 판매"
+    ],
+    "value_chain_position": "Downstream: 원유를 정제하여 최종 소비자에게 판매 가능한 연료 및 제품으로 변환합니다.",
+    "products": [
+      "휘발유 (CARBOB, CBOB)",
+      "디젤 (CARB 디젤)",
+      "제트 연료",
+      "재생 디젤",
+      "에탄올",
+      "아스팔트"
+    ],
+    "channels": [
+      "도매 시장 (Wholesale rack)",
+      "벌크 시장 (Bulk markets)",
+      "자사 브랜드 소매점 (Valero, Beacon, Diamond Shamrock 등)",
+      "B2B (산업용 고객)"
+    ],
+    "key_customers": "주로 도매 및 소매 유통망을 통해 광범위한 고객에게 판매하며, 특정 고객 집중도는 낮습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.28,
+    "roa": 0.11,
+    "profit_margin": 0.05,
+    "operating_margin": 0.12,
+    "gross_margin": 0.16,
+    "revenue_growth_ttm": 0.52,
+    "earnings_growth_ttm": 4.54,
+    "dividend_yield": 1.38,
+    "payout_ratio": 0.19,
+    "annual_revenue": [
+      122687000000.0,
+      129881000000.0,
+      144766000000.0,
+      176383000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      4312000000.0,
+      3755000000.0,
+      11858000000.0,
+      15751000000.0,
+      null
+    ],
+    "annual_eps": [
+      7.57,
+      8.58,
+      24.92,
+      29.04,
+      null
+    ],
+    "annual_free_cf": [
+      5030000000.0,
+      5776000000.0,
+      8318000000.0,
+      10893000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      11703000000.0,
+      11540000000.0,
+      12637000000.0,
+      12722000000.0,
+      null
+    ],
+    "annual_equity": [
+      23725000000.0,
+      24512000000.0,
+      26346000000.0,
+      23561000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      12.62,
+      4.22,
+      3.73,
+      3.53,
+      2.28,
+      null
+    ],
+    "quarterly_revenue": [
+      44476000000.0,
+      32381000000.0,
+      30372000000.0,
+      32168000000.0,
+      29889000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 421.0,
+    "sales_yoy_pct": 51.7,
+    "ni_cagr_3y_pct": -41.16,
+    "roe_pct": 27.64
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 4조 - 5조 USD (글로벌 정유 및 마케팅 시장 규모 추정치, EIA, IEA 보고서 기반)",
+    "tam_cagr_pct": "0.5% - 1.5% (향후 3~5년, 글로벌 에너지 수요 증가 둔화 및 신재생 에너지 전환 가속화 추세 반영. 다만, 단기적으로는 지정학적 요인에 따른 유가 변동성 상존)",
+    "growth_drivers": [
+      "글로벌 경제 성장 및 산업 활동 증가에 따른 석유 제품 수요 회복",
+      "개발도상국 및 신흥 시장의 에너지 수요 지속적인 증가",
+      "항공유, 선박유 등 특정 정유 제품 수요의 점진적 회복",
+      "정유 시설의 효율성 개선 및 고부가가치 제품 생산 능력 강화",
+      "재생 디젤 및 지속 가능한 항공유(SAF) 등 저탄소 연료 시장 성장"
+    ],
+    "market_share_pct": "미국 정유 시장 약 10-12% (Valero는 북미 최대 독립 정유사 중 하나)",
+    "competitors": [
+      {
+        "name": "Marathon Petroleum Corporation (MPC)",
+        "differentiation": "미국 최대 정유사 중 하나로, 중서부 및 걸프 연안에 광범위한 정유 및 유통 네트워크 보유. MPLX LP를 통한 미드스트림 자산 통합."
+      },
+      {
+        "name": "Phillips 66 (PSX)",
+        "differentiation": "정유, 마케팅, 화학 및 미드스트림 사업을 통합한 다각화된 포트폴리오. 특히 화학 부문 강점."
+      },
+      {
+        "name": "ExxonMobil (XOM)",
+        "differentiation": "통합 에너지 회사로, 업스트림(탐사 및 생산)부터 다운스트림(정유 및 마케팅), 화학까지 전 밸류체인에 걸쳐 막대한 규모와 기술력 보유."
+      },
+      {
+        "name": "Chevron (CVX)",
+        "differentiation": "글로벌 통합 에너지 회사로, 광범위한 업스트림 및 다운스트림 자산 보유. 특히 아시아 태평양 지역에서의 입지 강화."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (정유 산업은 막대한 초기 자본 투자, 복잡한 규제, 환경 허가, 숙련된 인력 및 기술 요구로 진입 장벽이 매우 높음)",
+      "substitutes": "medium (전기차, 신재생 에너지(태양광, 풍력) 등 대체 에너지원의 장기적인 위협이 존재하나, 단기적으로는 운송, 산업, 난방 등에서 석유 제품의 대체가 어려움)",
+      "buyer_power": "medium (대형 산업 구매자 및 유통 채널은 가격 협상력이 있으나, 일반 소비자는 브랜드 충성도 및 접근성에 따라 제한적. 글로벌 유가 변동에 크게 영향받음)",
+      "supplier_power": "high (원유 공급은 OPEC+ 등 소수 국가 및 기업에 집중되어 있어 공급자의 가격 결정력이 높음. 지정학적 요인에 따른 공급 불안정성 상존)",
+      "rivalry": "high (정유 산업은 소수의 대형 플레이어가 시장을 지배하며, 생산 능력, 효율성, 유통망, 가격 경쟁을 통해 치열하게 경쟁함. 마진이 낮은 산업 특성상 경쟁 강도가 높음)"
+    },
+    "competitive_advantages": [
+      "북미 최대 독립 정유사로서의 규모의 경제 및 효율적인 운영 능력",
+      "미국 걸프 연안 및 중서부에 전략적으로 위치한 정유 시설 네트워크",
+      "다양한 종류의 원유를 처리할 수 있는 정유 시설의 유연성 및 복잡성",
+      "재생 디젤 생산 능력 확대를 통한 저탄소 연료 시장 선점 노력",
+      "광범위한 물류 및 유통 인프라 (파이프라인, 터미널 등) 보유"
+    ],
+    "competitive_weaknesses": [
+      "원유 가격 변동성에 대한 높은 노출도 및 마진 압박",
+      "환경 규제 강화 및 탄소 배출량 감축 압력 증가",
+      "신재생 에너지 전환 가속화에 따른 장기적인 수요 감소 위험",
+      "정유 시설 노후화 및 유지보수 비용 증가 가능성",
+      "지정학적 리스크 및 글로벌 경제 둔화에 따른 수요 위축 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 93,
+    "score": 74.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 4.0843,
+    "trailing_pe": 14.51382,
+    "forward_pe": 11.313216,
+    "ev_to_ebitda": 7.963,
+    "price_to_sales": 0.7535511,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 117.66,
+    "outperform_6m_vs_nasdaq": 55.53,
+    "outperform_1m_vs_nasdaq": 6.88,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "Valero는 미국 내 전략적 위치에 대규모 정유 시설을 보유하여 원유 조달 및 제품 유통에서 규모의 경제를 달성합니다.",
+      "복잡한 정유 시설은 다양한 종류의 원유를 처리할 수 있는 유연성을 제공하여 저렴한 원유를 활용하고 마진을 최적화할 수 있습니다.",
+      "미국 걸프만 지역의 파이프라인 및 터미널 네트워크는 효율적인 물류 및 운송 비용 절감에 기여합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "지속적인 정유 시설 최적화 및 저탄소 연료 생산 투자 확대",
+    "bull_case": "글로벌 정유 마진 강세 지속 및 저탄소 연료 사업 성장으로 EPS 및 주가 상승",
+    "base_case": "견고한 정유 마진과 효율적인 운영을 바탕으로 안정적인 현금 흐름을 창출하며 배당 및 자사주 매입을 통해 주주 가치 환원. 저탄소 연료 사업은 점진적으로 성장.",
+    "bear_case": "글로벌 경기 침체로 인한 석유 수요 감소 및 정유 마진 급락, 저탄소 연료 사업의 더딘 성장으로 실적 악화",
+    "key_metrics_to_watch": [
+      "정유 마진 (Crack Spreads)",
+      "시설 가동률",
+      "저탄소 연료 생산량 및 마진",
+      "자유 현금 흐름 (Free Cash Flow)",
+      "부채 비율"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "원유 및 정제 제품 가격의 변동성은 회사의 수익성, 현금 흐름 및 재무 상태에 상당한 영향을 미칩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "환경 규제 및 기후 변화 관련 법규의 강화는 운영 비용 증가, 투자 필요성 증대 및 사업 확장 제약을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "정유 및 재생 연료 시장의 치열한 경쟁은 마진 압박을 가하고 시장 점유율 유지에 어려움을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "원유 및 기타 원자재 공급의 중단 또는 운송 인프라의 장애는 생산 및 판매에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "높은 부채 수준과 신용 시장 접근성의 변화는 회사의 유동성과 자본 조달 능력에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 침체 또는 에너지 수요 감소는 정제 제품 판매량과 마진에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "재생 연료 의무(RFS) 및 관련 크레딧(RINs) 가격의 변동성은 회사의 재생 연료 사업 수익성에 큰 불확실성을 야기합니다.",
+        "severity": "high"
+      }
+    ],
+    "inversion_scenarios": [
+      "전 세계적인 화석 연료 사용의 급격한 감소와 재생 에너지로의 전환 가속화로 정유 사업의 수요가 영구적으로 붕괴될 경우.",
+      "정유 마진이 장기간 극도로 낮은 수준을 유지하고, 재생 연료 사업이 규제 불확실성 및 경쟁 심화로 수익성을 확보하지 못할 경우.",
+      "주요 정유 시설에 대한 대규모 환경 재해 또는 규제 위반으로 막대한 벌금과 운영 중단이 발생하여 재무 건전성이 심각하게 훼손될 경우."
+    ],
+    "exit_signals": [
+      "정유 마진이 2분기 연속 역사적 최저 수준을 기록하고, 경영진이 장기적인 회복 전망에 대해 비관적인 입장을 표명할 경우.",
+      "주요 정유 시설의 가동률이 지속적으로 하락하고, 대규모 자산 손상차손이 발생하여 회사의 장기적인 수익 창출 능력에 의문이 제기될 경우.",
+      "재생 연료 사업 부문에서 예상치 못한 규제 변경으로 인해 수익성이 급격히 악화되거나, 경쟁사 대비 기술적 우위가 상실될 경우."
+    ]
+  },
+  "wikipedia_summary": "Valero Energy Corporation is an American-based fuels producer mostly involved in manufacturing and marketing transportation fuels and other related products. It is headquartered in San Antonio, Texas, United States. Throughout the United States, Canada, and the United Kingdom, the company owns and operates 14 refineries with a combined throughput capacity of approximately 3.2 million barrels per day, two renewable diesel plants that produce approximately 1.2 billion gallons per year, and 12 ethanol plants with a combined production capacity of 1.6 billion gallons as its subsidiaries.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:08:09.769713+00:00"
+  }
+}

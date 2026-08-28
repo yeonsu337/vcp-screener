@@ -1,0 +1,152 @@
+{
+  "ticker": "NTRS",
+  "company": "Northern Trust Corporation",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
+  "generated_at": "2026-08-28T06:57:59.791971+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 34079150080,
+    "shares_outstanding": 182955653,
+    "employees": 23600,
+    "country": "United States",
+    "website": "https://www.northerntrust.com",
+    "beta": 1.259
+  },
+  "category_a_business": {
+    "overview": "금융 지주 회사인 Northern Trust Corporation은 기업, 기관, 가족 및 개인을 위한 자산 관리, 자산 서비스, 자산 관리 및 금융 솔루션을 제공합니다. 자산 서비스와 자산 관리라는 두 가지 부문으로 운영됩니다. 자산 서비스 부문은 보관, 펀드 관리, 투자 운영 아웃소싱, 투자 관리, 투자 위험 및 분석 서비스, 직원 혜택 서비스, 증권 대출, 외환, 재무 관리, 중개, 전환 관리,",
+    "business_model": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals.",
+    "products": [
+      "wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families,",
+      "자산 서비스와 자산 관리라는 두 가지 부문으로",
+      "asset servicing and related services, including custody, fund administration, investment operations outsourcing, investm",
+      "신탁, 투자 관리, 보관 및 자선 서비스",
+      "global custody, fiduciary services, family office consulting, and technology solutions to high-net-worth individuals"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Northern Trust Corporation은 일리노이주 시카고에 본사를 둔 미국 금융 서비스 회사로 기업, 기관 투자자 및 초고액 순자산 보유자를 대상으로 합니다. 노던 트러스트(Northern Trust)는 미국에서 가장 큰 은행 중 하나이자 지속적으로 운영되는 가장 오래된 은행 중 하나입니다. 2025년 12월 31일 기준으로 관리 중인 자산은 1조 8천억 달러, 관리 중인 자산은 14조 9천억 달러였습니다. Northern Trust Corporation은 델라웨어에 설립되었습니다.",
+    "milestones": [
+      "2025년: , $1가 있었습니다."
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.17,
+    "roa": 0.01,
+    "profit_margin": 0.25,
+    "operating_margin": 0.42,
+    "gross_margin": 0.0,
+    "revenue_growth_ttm": 0.36,
+    "earnings_growth_ttm": 0.99,
+    "dividend_yield": 1.75,
+    "payout_ratio": 0.27,
+    "annual_revenue": [
+      8086400000.0,
+      8290400000.0,
+      6773500000.0,
+      6761200000.0,
+      null
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      8.74,
+      9.77,
+      5.08,
+      6.14,
+      null
+    ],
+    "annual_free_cf": [
+      4759300000.0,
+      -1231500000.0,
+      1949800000.0,
+      1668900000.0,
+      null
+    ],
+    "annual_total_debt": [
+      13994200000.0,
+      13372000000.0,
+      13406000000.0,
+      12382700000.0,
+      null
+    ],
+    "annual_equity": [
+      12957900000.0,
+      12788400000.0,
+      11897900000.0,
+      11259500000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      4.23,
+      2.71,
+      2.42,
+      2.29,
+      2.13
+    ],
+    "quarterly_revenue": [
+      2698000000.0,
+      2205600000.0,
+      2123200000.0,
+      2025400000.0,
+      1997900000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 88.0,
+    "sales_yoy_pct": 36.4,
+    "ni_cagr_3y_pct": 9.14,
+    "roe_pct": 17.07
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 73,
+    "score": 67.6,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": 1.2422,
+    "trailing_pe": 16.127274,
+    "forward_pe": 14.701287,
+    "ev_to_ebitda": null,
+    "price_to_sales": 3.7509382,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 21.26,
+    "outperform_6m_vs_nasdaq": 11.49,
+    "outperform_1m_vs_nasdaq": -3.73,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:07:50.612599+00:00"
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "ticker": "ELVN",
+  "metrics": {
+    "eps_ttm": -1.64,
+    "eps_forward": -2.34,
+    "pe_ttm": null,
+    "pe_forward": -25.87,
+    "market_cap": 4432881152.0,
+    "roe": -0.15,
+    "roa": -0.11,
+    "profit_margin": 0.0,
+    "gross_margin": 0.0,
+    "operating_margin": 0.0,
+    "revenue_growth": null,
+    "earnings_growth": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "currency": "USD",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "name": "Enliven Therapeutics, Inc."
+  },
+  "annual": {
+    "periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "revenue": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gross_profit": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_income": [
+      -119658000.0,
+      -104554000.0,
+      -83529000.0,
+      -38791000.0
+    ],
+    "operating_margin": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "net_income": [
+      -103694000.0,
+      -89024000.0,
+      -71584000.0,
+      -37662000.0
+    ],
+    "eps": [
+      -1.83,
+      -1.89,
+      -2.01,
+      -0.92
+    ],
+    "total_assets": [
+      476168000.0,
+      325760000.0,
+      271867000.0,
+      83298000.0,
+      null
+    ],
+    "total_liabilities": [
+      16568000.0,
+      15915000.0,
+      25961000.0,
+      160123000.0,
+      null
+    ],
+    "equity": [
+      459600000.0,
+      309845000.0,
+      245906000.0,
+      -76825000.0,
+      null
+    ],
+    "cash": [
+      98896000.0,
+      124117000.0,
+      100141000.0,
+      75536000.0,
+      null
+    ],
+    "total_debt": [
+      399000.0,
+      0.0,
+      335000.0,
+      323000.0,
+      null
+    ],
+    "current_assets": [
+      474878000.0,
+      318127000.0,
+      266151000.0,
+      77753000.0,
+      null
+    ],
+    "current_liabilities": [
+      16568000.0,
+      15915000.0,
+      25894000.0,
+      9715000.0,
+      null
+    ],
+    "debt_to_equity": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      null
+    ],
+    "current_ratio": [
+      28.66,
+      19.99,
+      10.28,
+      8.0,
+      null
+    ],
+    "cash_ratio": [
+      5.97,
+      7.8,
+      3.87,
+      7.78,
+      null
+    ],
+    "roe": [
+      -22.56,
+      -28.73,
+      -29.11,
+      49.02
+    ],
+    "roa": [
+      -21.78,
+      -27.33,
+      -26.33,
+      -45.21
+    ],
+    "dividend_yield": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_cf": [
+      -70301000.0,
+      -73192000.0,
+      -61269000.0,
+      -32077000.0,
+      null
+    ],
+    "capex": [
+      -158000.0,
+      -44000.0,
+      -149000.0,
+      -612000.0,
+      null
+    ],
+    "free_cf": [
+      -70459000.0,
+      -73236000.0,
+      -61418000.0,
+      -32689000.0,
+      null
+    ],
+    "revenue_yoy": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_income_yoy": [
+      14.4,
+      25.2,
+      115.3,
+      null
+    ],
+    "eps_yoy": [
+      -3.2,
+      -6.0,
+      118.5,
+      null
+    ],
+    "free_cf_yoy": [
+      -3.8,
+      19.2,
+      87.9,
+      null,
+      null
+    ]
+  },
+  "quarterly": {
+    "periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "revenue": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      null
+    ],
+    "net_income": [
+      -32485000.0,
+      -23627000.0,
+      -29667000.0,
+      -20148000.0,
+      -25335000.0,
+      null,
+      null
+    ],
+    "eps": [
+      -0.49,
+      -0.38,
+      -0.48,
+      -0.32,
+      -0.49,
+      null,
+      null
+    ],
+    "gross_profit": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_income": [
+      -37209000.0,
+      -27823000.0,
+      -34285000.0,
+      -25096000.0,
+      -28584000.0,
+      null,
+      null
+    ],
+    "operating_margin": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "total_debt": [
+      597000.0,
+      302000.0,
+      399000.0,
+      387000.0,
+      580000.0,
+      null,
+      null
+    ],
+    "equity": [
+      895149000.0,
+      453365000.0,
+      459600000.0,
+      476122000.0,
+      488472000.0,
+      null,
+      null
+    ],
+    "current_assets": [
+      907339000.0,
+      463137000.0,
+      474878000.0,
+      482683000.0,
+      495622000.0,
+      null,
+      null
+    ],
+    "current_liabilities": [
+      14161000.0,
+      11487000.0,
+      16568000.0,
+      14650000.0,
+      15211000.0,
+      null,
+      null
+    ],
+    "cash": [
+      135505000.0,
+      132184000.0,
+      98896000.0,
+      101732000.0,
+      119437000.0,
+      null,
+      null
+    ],
+    "total_assets": [
+      910223000.0,
+      464852000.0,
+      476168000.0,
+      490875000.0,
+      503887000.0,
+      null,
+      null
+    ],
+    "debt_to_equity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null,
+      null
+    ],
+    "current_ratio": [
+      64.07,
+      40.32,
+      28.66,
+      32.95,
+      32.58,
+      null,
+      null
+    ],
+    "cash_ratio": [
+      9.57,
+      11.51,
+      5.97,
+      6.94,
+      7.85,
+      null,
+      null
+    ],
+    "roe": [
+      -3.63,
+      -5.21,
+      -6.45,
+      -4.23,
+      -5.19,
+      null,
+      null
+    ],
+    "roa": [
+      -3.57,
+      -5.08,
+      -6.23,
+      -4.1,
+      -5.03,
+      null,
+      null
+    ],
+    "dividend_yield": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_cf": [
+      -18531000.0,
+      -19291000.0,
+      -15838000.0,
+      -13279000.0,
+      -17057000.0,
+      null,
+      null
+    ],
+    "capex": [
+      null,
+      null,
+      null,
+      null,
+      -139000.0,
+      -20000.0,
+      null
+    ],
+    "free_cf": [
+      -18630000.0,
+      -19291000.0,
+      -15838000.0,
+      -13278000.0,
+      -17196000.0,
+      null,
+      null
+    ],
+    "eps_yoy": [
+      0.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "revenue_yoy": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "operating_income_yoy": [
+      30.2,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}

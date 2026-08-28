@@ -1,0 +1,187 @@
+{
+  "ticker": "BMY",
+  "company": "Bristol-Myers Squibb Company",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "generated_at": "2026-08-28T07:02:17.839683+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "yf_metadata": {
+    "market_cap": 136759738368,
+    "shares_outstanding": 2042714656,
+    "employees": 32500,
+    "country": "United States",
+    "website": "https://www.bms.com",
+    "beta": 0.225
+  },
+  "category_a_business": {
+    "overview": "브리스톨 마이어스 스큅은 전 세계적으로 바이오 의약품을 연구, 개발, 제조, 판매하는 다국적 제약 회사입니다.",
+    "milestones": [
+      "1887: Bristol-Myers Company 설립",
+      "1989: Bristol-Myers Company와 Squibb Corporation 합병, Bristol-Myers Squibb Company 탄생",
+      "2000년대 초: 주요 블록버스터 약물 특허 만료로 인한 어려움 극복 노력",
+      "2015: 면역항암제 옵디보(Opdivo) 출시, 암 치료 시장의 선두 주자로 부상",
+      "2019: 셀진(Celgene) 인수, 혈액암 및 면역학 분야 포트폴리오 강화",
+      "2020년대: 주요 제품의 특허 만료에 대비한 신약 파이프라인 강화 및 포트폴리오 다각화"
+    ],
+    "business_model": "혁신적인 바이오 의약품을 개발, 제조, 판매하여 질병 치료 및 예방에 기여합니다.",
+    "revenue_streams": [
+      "항암제 판매",
+      "혈액암 치료제 판매",
+      "면역학 및 염증 질환 치료제 판매",
+      "심혈관 질환 치료제 판매",
+      "신경과학 치료제 판매"
+    ],
+    "value_chain_position": "Midstream + 신약 연구개발부터 제조, 마케팅, 유통까지 전 과정을 아우릅니다.",
+    "products": [
+      "옵디보 (Opdivo)",
+      "엘리퀴스 (Eliquis)",
+      "오렌시아 (Orencia)",
+      "레블로질 (Reblozyl)",
+      "브레얀지 (Breyanzi)",
+      "캠자이오스 (Camzyos)"
+    ],
+    "channels": [
+      "B2B (병원, 약국)",
+      "도매 (의약품 도매상)"
+    ],
+    "key_customers": "고객 집중도는 낮으며, 전 세계 의료기관 및 환자를 대상으로 합니다."
+  },
+  "category_b_financials": {
+    "roe": 0.47,
+    "roa": 0.11,
+    "profit_margin": 0.19,
+    "operating_margin": 0.34,
+    "gross_margin": 0.72,
+    "revenue_growth_ttm": 0.06,
+    "earnings_growth_ttm": 1.53,
+    "dividend_yield": 3.73,
+    "payout_ratio": 0.55,
+    "annual_revenue": [
+      48195000000.0,
+      48300000000.0,
+      45006000000.0,
+      46159000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      13724000000.0,
+      5887000000.0,
+      8195000000.0,
+      9104000000.0,
+      null
+    ],
+    "annual_eps": [
+      3.46,
+      -4.41,
+      3.86,
+      2.95,
+      null
+    ],
+    "annual_free_cf": [
+      12845000000.0,
+      13942000000.0,
+      12651000000.0,
+      11948000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      47139000000.0,
+      51200000000.0,
+      41464000000.0,
+      40717000000.0,
+      null
+    ],
+    "annual_equity": [
+      18473000000.0,
+      16335000000.0,
+      29430000000.0,
+      31061000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.62,
+      1.31,
+      0.53,
+      1.08,
+      0.64,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      12973000000.0,
+      11489000000.0,
+      12503000000.0,
+      12222000000.0,
+      12269000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 153.2,
+    "sales_yoy_pct": 5.7,
+    "ni_cagr_3y_pct": 3.69,
+    "roe_pct": 46.6
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 74,
+    "score": 64.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.3885,
+    "trailing_pe": 14.877777,
+    "forward_pe": 10.208967,
+    "ev_to_ebitda": 9.02,
+    "price_to_sales": 2.7804606,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 25.43,
+    "outperform_6m_vs_nasdaq": -4.06,
+    "outperform_1m_vs_nasdaq": -2.48,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties that are not presently known to us, or risks that we currently consider immaterial, could also impair our business operations, financial condition, operating results or cash flows.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:06:31.348315+00:00"
+  }
+}

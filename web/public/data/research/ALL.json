@@ -1,0 +1,174 @@
+{
+  "ticker": "ALL",
+  "company": "The Allstate Corporation",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "generated_at": "2026-08-28T06:59:00.800922+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 65141264384,
+    "shares_outstanding": 252857950,
+    "employees": 53000,
+    "country": "United States",
+    "website": "https://www.allstate.com",
+    "beta": 0.156
+  },
+  "category_a_business": {
+    "overview": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다. 이는 4개 부문으로 운영됩니다: Allstate Protection; 유출 재산 책임; 보호 서비스; 기업 및 기타. 이 회사는 Allstate, National General, Direct Auto 및 Answer Financial 브랜드로 독점 대리점, 독립 대리점, 연락 센터 및 온라인을 통해 개인 승용차, 주택 소유자, 기타 개인 보험 및 상업 보험을 제공합니다.",
+    "business_model": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다.",
+    "products": [
+      "미국 및 C의 재산 및 상해 보험, 기타 보험 상품",
+      "네 가지 부문: Allstate Protectio",
+      "개인 승용차, 주택 소유자, 기타 개인 보험 및 독점 대리인을 통한 상업 보험, 독립",
+      "자동차를 활용한 소비자 제품 보호 계획, 기기 및 모바일 데이터 수집 서비스, 분석 솔루션",
+      "재산 및 상해 보험은 물론 회사 활동 및 특정 비보험 운영에도 참여합니다."
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "The Allstate Corporation is an American insurance company, headquartered in Glenview, Illinois since 2022. Founded in 1931 as part of Sears, Roebuck and Co., it was spun off in 1993, but was still partially owned by Sears until it became an independent company completely in June 1995. The company also has personal line insurance operations in Canada.",
+    "milestones": [
+      "1931년: Sears, Roebuck and Co의 일부로",
+      "1993: , 그러나 6월 1일 완전히 독립 회사가 될 때까지 Sears가 부분적으로 소유했습니다."
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.46,
+    "roa": 0.09,
+    "profit_margin": 0.19,
+    "operating_margin": 0.23,
+    "gross_margin": 0.37,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.61,
+    "dividend_yield": 1.65,
+    "payout_ratio": 0.08,
+    "annual_revenue": [
+      67069000000.0,
+      63515000000.0,
+      56591000000.0,
+      50617000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      38.06,
+      16.99,
+      -1.2,
+      -5.22,
+      null
+    ],
+    "annual_free_cf": [
+      9882000000.0,
+      8721000000.0,
+      3961000000.0,
+      4701000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      7490000000.0,
+      8085000000.0,
+      7942000000.0,
+      7964000000.0,
+      null
+    ],
+    "annual_equity": [
+      30610000000.0,
+      21442000000.0,
+      17770000000.0,
+      17488000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      12.51,
+      9.25,
+      14.37,
+      13.95,
+      7.76,
+      null
+    ],
+    "quarterly_revenue": [
+      18336000000.0,
+      16751000000.0,
+      17199000000.0,
+      17061000000.0,
+      16546000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 55.1,
+    "sales_yoy_pct": 11.8,
+    "roe_pct": 46.11
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Insurance - Property & Casualty 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 66.3,
+    "vcp_quality": 11.9,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.1371,
+    "trailing_pe": 5.243639,
+    "forward_pe": 9.359298,
+    "ev_to_ebitda": 4.026,
+    "price_to_sales": 0.9287717,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 6.15,
+    "outperform_6m_vs_nasdaq": 6.33,
+    "outperform_1m_vs_nasdaq": -14.7,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "또한, 재난 또는 여러 재난으로 인해 유동성이 제한될 수 있으며, 이로 인해 엄청난 손실, 투자 매각, 부채 또는 재무 건전성 등급 강등이 발생할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "재해 손실에 대한 노출을 평가하고 예측하는 데 사용되는 분석 모델의 한계는 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다. 우리는 내부에서 개발한 제3자를 사용합니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "The Allstate Corporation is an American insurance company, headquartered in Glenview, Illinois since 2022. Founded in 1931 as part of Sears, Roebuck and Co., it was spun off in 1993, but was still partially owned by Sears until it became an independent company completely in June 1995. The company also has personal line insurance operations in Canada.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:06:20.263860+00:00"
+  }
+}

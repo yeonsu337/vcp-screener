@@ -4,38 +4,38 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-05-21T00:48:35.762358+00:00",
+  "generated_at": "2026-08-28T07:00:03.704067+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 4205223936,
-    "shares_outstanding": 49730652,
+    "market_cap": 4629319680,
+    "shares_outstanding": 49756231,
     "employees": 7300,
     "country": "United States",
     "website": "https://www.tdw.com",
-    "beta": 0.572
+    "beta": 0.541
   },
   "category_a_business": {
-    "overview": "Tidewater Inc.는 자회사와 함께 전 세계 해양 해양 서비스 선박 함대의 운영을 통해 해양 에너지 산업에 해양 지원 선박 및 해양 지원 서비스를 제공합니다. 이 회사는 미주, 아시아 태평양, 중동, 유럽/지중해 및 서아프리카의 5개 부문을 통해 운영됩니다. 해상 원유 및 천연가스 탐사, 현장 개발, 생산, 유지 관리, 풍력 발전 단지 개발 및 유지 관리 활동의 단계를 제공합니다. 이동식 해양 시추 장치의 견인 및 앵커 처리; 보급품 운송 및",
-    "business_model": "Tidewater Inc.는 자회사와 함께 해양 해양 서비스 함대 운영을 통해 해양 에너지 산업에 해양 지원 선박 및 해양 지원 서비스를 제공합니다.",
+    "overview": "Tidewater Inc., together with its subsidiaries, provides offshore support vessels and marine support services to the offshore energy industry through the operation of a fleet of offshore marine service vessels worldwide. The company operates through five segments: Americas, Asia Pacific, Middle East, Europe/Mediterranean, and West Africa. It offers phases of offshore crude oil and natural gas exploration, field development, production, maintenance, and windfarm development and maintenance activities; towing and anchor handling for mobile offshore drilling units; transportation of supplies and ",
+    "business_model": "Tidewater Inc., together with its subsidiaries, provides offshore support vessels and marine support services to the offshore energy industry through the operation of a fleet of offshore marine servic",
     "products": [
-      "해양 지원 선박 및 해상 지원 서비스를 해양 에너지 산업에 제공합니다.",
-      "미주, 아시아 태평양, 중동, 유럽/지중해 및 서아프리카의 5개 부문을 통해",
+      "offshore support vessels and marine support services to the offshore energy industry through the operation of a fleet of",
+      "through five segments: Americas, Asia Pacific, Middle East, Europe/Mediterranean, and West Afric",
       "해상 원유 및 천연가스 탐사, 현장 개발, 생산, 유지 관리 및 풍력 발전 개발 단계",
       "해양 건설"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Tidewater, Inc.는 미국 텍사스 주 휴스턴에 본사를 둔 공개 상장 국제 석유 서비스 회사입니다. 이 회사는 주로 해상 석유 및 해상 풍력 산업에 선박 및 해양 서비스를 제공하는 선박을 운영하고 있습니다."
+    "wikipedia_excerpt": "Tidewater, Inc. is a publicly traded international petroleum service company headquartered in Houston, Texas, U.S. It operates a fleet of ships, primarily providing vessels and marine services to the offshore petroleum and offshore wind industries."
   },
   "category_b_financials": {
-    "roe": 0.24,
+    "roe": 0.19,
     "roa": 0.07,
-    "profit_margin": 0.22,
+    "profit_margin": 0.18,
     "operating_margin": -0.09,
-    "gross_margin": 0.49,
+    "gross_margin": 0.48,
     "revenue_growth_ttm": -0.43,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
@@ -90,34 +90,34 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.43,
       0.12,
       4.41,
       -0.02,
       1.46,
-      0.83,
       null,
       null
     ],
     "quarterly_revenue": [
+      342287000.0,
       326222000.0,
       336798000.0,
       341113000.0,
       341431000.0,
-      333444000.0,
       null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
     "sales_yoy_pct": -43.1,
-    "roe_pct": 24.01
+    "roe_pct": 19.45
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -128,32 +128,32 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 51.3,
-    "vcp_quality": 0.0,
+    "rs_rating": 81,
+    "score": 63.7,
+    "vcp_quality": 11.3,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 14.259696,
-    "forward_pe": 14.015314,
-    "ev_to_ebitda": 10.196,
-    "price_to_sales": 3.1252499,
+    "trailing_pe": 18.031008,
+    "forward_pe": 15.730272,
+    "ev_to_ebitda": 11.637,
+    "price_to_sales": 3.4382434,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 71.66,
-    "outperform_6m_vs_nasdaq": 33.95,
-    "outperform_1m_vs_nasdaq": -7.46,
+    "outperform_1y_vs_nasdaq": 33.6,
+    "outperform_6m_vs_nasdaq": 3.87,
+    "outperform_1m_vs_nasdaq": 18.8,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요인 중 하나라도 직간접적으로 당사의 실제 재무 상태 및 운영 결과가 미래예측 진술에서 예상, 예상 또는 가정한 것과 실질적으로 달라질 수 있습니다.",
+        "description": "Any of these factors could, directly or indirectly, cause our actual financial condition and operating results to vary materially from those anticipated, projected or assumed in the forward-looking statements.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 요인 중 일부 또는 전체는 당사의 사업, 전망, 재무 상태, 운영 결과, 현금 흐름 및 주가에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Any of these factors, in whole or in part, could materially and adversely affect our business, prospects, financial condition, results of operations, cash flows and stock price.",
         "severity": "medium"
       },
       {
@@ -173,7 +173,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "일반적인 위험 요인 ● 불확실한 경제 상황으로 인해 고객은 자본 지출을 연기하거나 고객 또는 기타 거래 상대방의 의무 이행 능력을 위태롭게 할 수 있습니다.",
+        "description": "일반적인 위험 요소 ● 불확실한 경제 상황으로 인해 고객이 자본 지출을 연기하거나 고객 또는 기타 거래 상대방의 의무 이행 능력을 위태롭게 할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Tidewater, Inc. is a publicly traded international petroleum service company headquartered in Houston, Texas, U.S. It operates a fleet of ships, primarily providing vessels and marine services to the offshore petroleum and offshore wind industries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:52.379478+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:08:01.752092+00:00"
   }
 }

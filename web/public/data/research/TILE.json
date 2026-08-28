@@ -4,41 +4,62 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
-  "generated_at": "2026-07-10T00:30:14.994629+00:00",
+  "generated_at": "2026-08-28T07:03:29.236963+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 1929787904,
-    "shares_outstanding": 58056192,
-    "employees": 3600,
+    "market_cap": 2190059520,
+    "shares_outstanding": 57800460,
+    "employees": 3570,
     "country": "United States",
     "website": "https://www.interface.com",
-    "beta": 1.887
+    "beta": 1.912
   },
   "category_a_business": {
-    "overview": "Interface, Inc.는 미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주에서 모듈형 카펫 제품을 디자인, 생산 및 판매합니다. 이 회사는 모듈식 카펫을 제공합니다. 고급 비닐 타일; 모듈식 탄력 바닥재 제품; 고무 바닥재; 상업용 인테리어에 사용되는 카펫 타일에는 사무실, 교육 시설, 의료 시설, 공항, 접대 공간, 소매 공간 및 주거용 인테리어가 포함됩니다.",
-    "business_model": "인터페이스 주식회사",
+    "overview": "Interface, Inc.는 상업용 모듈형 카펫 타일, LVT, 고무 바닥재를 생산하는 글로벌 바닥재 솔루션 기업입니다.",
+    "milestones": [
+      "1973: 조지아주에서 Interface, Inc. 설립",
+      "2016: 일부 시장에 LVT(럭셔리 비닐 타일) 제품 출시 시작",
+      "2017: LVT 제품 글로벌 확장",
+      "2018: nora systems GmbH 인수, 고무 바닥재 포트폴리오 추가",
+      "2020: CQuest™ 탄소 네거티브 카펫 타일 백킹 출시",
+      "2021: 과학 기반 목표 이니셔티브(SBTi) 검증 탄소 감축 목표 설정"
+    ],
+    "business_model": "상업용 및 주거용 공간에 바닥재 제품과 관련 서비스를 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "모듈형 카펫 타일 판매",
+      "럭셔리 비닐 타일(LVT) 판매",
+      "노라(nora®) 고무 바닥재 판매",
+      "카펫 교체, 설치 및 유지보수 서비스",
+      "TacTiles 설치 시스템 및 접착제 판매",
+      "프로젝트 관리 서비스"
+    ],
+    "value_chain_position": "Downstream: 바닥재 제품을 직접 제조하고 최종 고객 및 유통 채널에 판매합니다.",
     "products": [
-      "미국, 캐나다, 라틴 아메리카, 유럽, 아프리카, 아시아 및 호주의 모듈식 카펫 제품",
-      "모듈식 카펫",
-      "카펫 교체, 설치 및 유지관리 서비스",
-      "최종 사용자에게 직접 판매 및 간접 판매를 통해 Interface, FLOR, NORAPLAN 및 NORAMENT 브랜드로 제품을 판매합니다."
+      "모듈형 카펫 타일 (Interface®, FLOR®)",
+      "럭셔리 비닐 타일 (Interface®)",
+      "고무 바닥재 (noraplan®, norament®)",
+      "TacTiles 카펫 타일 설치 시스템",
+      "카펫 설치 및 유지보수 제품"
     ],
     "channels": [
-      "B2B / 기업"
+      "직접 판매 (최종 사용자)",
+      "간접 판매 (독립 계약자, 설치업체, 유통업체)",
+      "B2B",
+      "B2C (FLOR® 브랜드)"
     ],
-    "wikipedia_excerpt": "조지아 주 애틀랜타에 본사를 둔 Interface, Inc.는 상업용 바닥재의 글로벌 제조업체이자 지속 가능성 분야의 선두주자로 인정받고 있습니다. 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, 노라 브랜드 고무 바닥재를 판매합니다."
+    "key_customers": "주요 고객은 기업 사무실, 교육 시설, 헬스케어, 공공 건물, 소매점, 숙박 시설 등 다양한 상업용 및 일부 주거용 시장에 분포되어 있으며, 특정 고객에 대한 높은 집중도는 보고되지 않았습니다."
   },
   "category_b_financials": {
-    "roe": 0.22,
+    "roe": 0.23,
     "roa": 0.09,
-    "profit_margin": 0.09,
-    "operating_margin": 0.09,
-    "gross_margin": 0.39,
-    "revenue_growth_ttm": 0.11,
-    "earnings_growth_ttm": 0.82,
-    "dividend_yield": 0.37,
+    "profit_margin": 0.1,
+    "operating_margin": 0.19,
+    "gross_margin": 0.4,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 0.6,
+    "dividend_yield": 0.31,
     "payout_ratio": 0.04,
     "annual_revenue": [
       1386854000.0,
@@ -90,14 +111,16 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.88,
       0.4,
       0.41,
       0.78,
       0.55,
-      0.22,
+      null,
       null
     ],
     "quarterly_revenue": [
+      null,
       331037000.0,
       349393000.0,
       364526000.0,
@@ -106,6 +129,7 @@
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -113,66 +137,66 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 81.6,
-    "sales_yoy_pct": 11.3,
+    "eps_qoq_yoy_pct": 57.9,
+    "sales_yoy_pct": 5.4,
     "ni_cagr_3y_pct": 81.06,
-    "roe_pct": 22.08
+    "roe_pct": 23.23
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
     "tam_cagr_pct": "—",
     "market_share_pct": "—",
     "competitive_advantages": [
-      "소비재 / 가구, 비품 및 가전제품 카테고리 — yfinance Peer 개발자"
+      "Consumer Cyclical / Furnishings, Fixtures & Appliances 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 57.7,
+    "rs_rating": 76,
+    "score": 63.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.0083,
-    "trailing_pe": 15.53271,
-    "forward_pe": 14.250805,
-    "ev_to_ebitda": 9.865,
-    "price_to_sales": 1.3585483,
+    "peg_ratio": 1.2585,
+    "trailing_pe": 15.657024,
+    "forward_pe": 15.657024,
+    "ev_to_ebitda": 10.413,
+    "price_to_sales": 1.5201843,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.59,
-    "outperform_6m_vs_nasdaq": 2.02,
-    "outperform_1m_vs_nasdaq": 7.91,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 18.07,
+    "outperform_6m_vs_nasdaq": 4.01,
+    "outperform_1m_vs_nasdaq": 4.45,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "다음 위험 요소 중 일부 또는 전부는 당사의 비즈니스, 재무 상태, 운영 결과 및 전망에 중대한 악영향을 미칠 수 있습니다.",
+        "description": "Any or all of the following risk factors could have a material adverse effect on our business, financial condition, results of operations and prospects.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 가격 경쟁, 비즈니스에 대한 투자, 제품 디자인이나 지속 가능성을 놓고 경쟁하는 등의 어려움에 직면할 수 있습니다.",
+        "description": "We may face challenges competing on price, making investments in our business, or competing on product design or sustainability.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "경쟁사의 생산 능력 증가 또는 제조 효율성 증가로 인해 당사 제품에 대한 가격 압박이 발생하고 당사 제품에 대한 수요가 감소하여 수익과 수익성 모두에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Increased capacity or manufacturing efficiencies at our competitors could result in pricing pressure on our products and less demand for our products, thus adversely affecting both revenues and profitability.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "효과적으로 경쟁하려면 제품 개발 노력, 제조 시설, 유통 네트워크, 판매 및 마케팅 활동에 추가 투자가 필요할 수 있습니다.",
+        "description": "Competing effectively may require us to make additional investments in our product development efforts, manufacturing facilities, distribution network, and sales and marketing activities.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리가 그러한 변화에 충분히 빠르게 적응하기 전이나 시장에서 그러한 변화가 일어났다는 것을 우리가 인식하기 전에 고객의 디자인 선호도가 진화하거나 바뀔 수 있습니다.",
+        "description": "Our customers’ design preferences may evolve or change before we adapt quickly enough to those changes or before we recognize those changes have happened in the marketplace.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이런 일이 발생하면 고객이 자신의 디자인 선호도에 더 밀접하게 맞는 다른 제품을 선택하므로 판매에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If this occurs, it could negatively affect our sales as our customers choose other product offerings that more closely align with their design preferences.",
         "severity": "medium"
       }
     ],
@@ -183,8 +207,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring and recognized leader in sustainability. The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring.",
+  "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring.4 The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:52.382018+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:08:05.340670+00:00"
   }
 }

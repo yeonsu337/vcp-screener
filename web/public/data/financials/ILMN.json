@@ -1,18 +1,18 @@
 {
   "ticker": "ILMN",
   "metrics": {
-    "eps_ttm": 5.49,
-    "eps_forward": 5.93,
-    "pe_ttm": 34.83,
-    "pe_forward": 32.26,
-    "market_cap": 28928559104.0,
-    "roe": 0.34,
+    "eps_ttm": 5.42,
+    "eps_forward": 6.1,
+    "pe_ttm": 42.01,
+    "pe_forward": 37.35,
+    "market_cap": 34381189120.0,
+    "roe": 0.32,
     "roa": 0.09,
-    "profit_margin": 0.19,
+    "profit_margin": 0.18,
     "gross_margin": 0.68,
-    "operating_margin": 0.18,
-    "revenue_growth": 0.05,
-    "earnings_growth": 0.06,
+    "operating_margin": 0.21,
+    "revenue_growth": 0.09,
+    "earnings_growth": -0.09,
     "dividend_yield": null,
     "payout_ratio": 0.0,
     "currency": "USD",
@@ -213,6 +213,7 @@
   },
   "quarterly": {
     "periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -221,6 +222,7 @@
       "2024-12-31"
     ],
     "revenue": [
+      null,
       1091000000.0,
       1159000000.0,
       1084000000.0,
@@ -229,6 +231,7 @@
       null
     ],
     "net_income": [
+      null,
       134000000.0,
       334000000.0,
       150000000.0,
@@ -237,14 +240,16 @@
       null
     ],
     "eps": [
+      1.35,
       0.87,
       2.16,
       0.98,
       1.49,
-      0.82,
+      null,
       null
     ],
     "gross_profit": [
+      null,
       721000000.0,
       759000000.0,
       733000000.0,
@@ -253,6 +258,7 @@
       null
     ],
     "operating_income": [
+      null,
       209000000.0,
       211000000.0,
       227000000.0,
@@ -261,6 +267,7 @@
       null
     ],
     "operating_margin": [
+      null,
       19.16,
       18.21,
       20.94,
@@ -269,6 +276,7 @@
       null
     ],
     "total_debt": [
+      null,
       2544000000.0,
       2553000000.0,
       2576000000.0,
@@ -277,6 +285,7 @@
       null
     ],
     "equity": [
+      null,
       2676000000.0,
       2723000000.0,
       2381000000.0,
@@ -285,6 +294,7 @@
       null
     ],
     "current_assets": [
+      null,
       2738000000.0,
       3289000000.0,
       2796000000.0,
@@ -293,6 +303,7 @@
       null
     ],
     "current_liabilities": [
+      null,
       1566000000.0,
       1585000000.0,
       1962000000.0,
@@ -301,6 +312,7 @@
       null
     ],
     "cash": [
+      null,
       1089000000.0,
       1418000000.0,
       1050000000.0,
@@ -309,6 +321,7 @@
       null
     ],
     "total_assets": [
+      null,
       6559000000.0,
       6644000000.0,
       6177000000.0,
@@ -317,6 +330,7 @@
       null
     ],
     "debt_to_equity": [
+      null,
       0.95,
       0.94,
       1.08,
@@ -325,6 +339,7 @@
       null
     ],
     "current_ratio": [
+      null,
       1.75,
       2.08,
       1.43,
@@ -333,6 +348,7 @@
       null
     ],
     "cash_ratio": [
+      null,
       0.7,
       0.89,
       0.54,
@@ -341,6 +357,7 @@
       null
     ],
     "roe": [
+      null,
       5.01,
       12.27,
       6.3,
@@ -349,6 +366,7 @@
       null
     ],
     "roa": [
+      null,
       2.04,
       5.03,
       2.43,
@@ -357,6 +375,7 @@
       null
     ],
     "dividend_yield": [
+      null,
       null,
       null,
       null,
@@ -375,7 +394,7 @@
     "capex": [
       -38000000.0,
       -55000000.0,
-      -24000000.0,
+      -31000000.0,
       -37000000.0,
       -32000000.0,
       null
@@ -383,13 +402,14 @@
     "free_cf": [
       251000000.0,
       266000000.0,
-      260000000.0,
+      253000000.0,
       197000000.0,
       208000000.0,
       null
     ],
     "eps_yoy": [
-      6.1,
+      -9.4,
+      null,
       null,
       null,
       null,
@@ -397,6 +417,7 @@
       null
     ],
     "revenue_yoy": [
+      null,
       4.8,
       null,
       null,
@@ -405,6 +426,7 @@
       null
     ],
     "operating_income_yoy": [
+      null,
       27.4,
       null,
       null,

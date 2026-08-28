@@ -4,43 +4,43 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-06-30T00:25:59.432031+00:00",
+  "generated_at": "2026-08-28T07:00:38.854390+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 60825272320,
-    "shares_outstanding": 454191112,
-    "employees": 415000,
+    "market_cap": 75380580352,
+    "shares_outstanding": 454291461,
+    "employees": 400000,
     "country": "United States",
     "website": "https://corporate.target.com",
-    "beta": 0.991
+    "beta": 0.973
   },
   "category_a_business": {
-    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 이 회사는 또한 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
-    "business_model": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다.",
+    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 또한 회사는 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
+    "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
     "products": [
-      "미국의 일반 상품 소매업체로서",
-      "여성, 남성, 청소년, 아동, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
-      "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
-      "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
-      "자사 매장을 통한 제품"
+      "as a general merchandise retailer in the United States",
+      "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
+      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
+      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
+      "its products through its stores"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Target Corporation은 미국 미네소타 주 미니애폴리스에 본사를 둔 미국 소매 회사입니다. Target은 소매점을 운영합니다. 미국에서 8번째로 큰 소매업체이며 S&P 500 지수의 구성 요소입니다."
+    "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
   },
   "category_b_financials": {
-    "roe": 0.22,
+    "roe": 0.26,
     "roa": 0.06,
-    "profit_margin": 0.03,
-    "operating_margin": 0.05,
+    "profit_margin": 0.04,
+    "operating_margin": 0.06,
     "gross_margin": 0.28,
-    "revenue_growth_ttm": 0.07,
-    "earnings_growth_ttm": -0.25,
-    "dividend_yield": 3.31,
-    "payout_ratio": 0.6,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 1.0,
+    "dividend_yield": 2.83,
+    "payout_ratio": 0.47,
     "annual_revenue": [
       104780000000.0,
       106566000000.0,
@@ -111,10 +111,10 @@
       "2025-07-31",
       "2025-04-30"
     ],
-    "eps_qoq_yoy_pct": -24.6,
-    "sales_yoy_pct": 6.7,
+    "eps_qoq_yoy_pct": 100.7,
+    "sales_yoy_pct": 5.3,
     "ni_cagr_3y_pct": 10.05,
-    "roe_pct": 22.02
+    "roe_pct": 26.41
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -125,52 +125,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 52.2,
+    "rs_rating": 88,
+    "score": 64.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.6068,
-    "trailing_pe": 17.690884,
-    "forward_pe": 15.008119,
-    "ev_to_ebitda": 9.528,
-    "price_to_sales": 0.5717897,
+    "peg_ratio": 2.5809,
+    "trailing_pe": 17.194818,
+    "forward_pe": 17.462786,
+    "ev_to_ebitda": 10.337,
+    "price_to_sales": 0.69988006,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 15.19,
-    "outperform_6m_vs_nasdaq": 32.12,
-    "outperform_1m_vs_nasdaq": 8.17,
+    "outperform_1y_vs_nasdaq": 56.44,
+    "outperform_6m_vs_nasdaq": 31.03,
+    "outperform_1m_vs_nasdaq": 6.02,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "다음과 같은 위험(일부 발생했거나 향후 발생할 수 있음)은 당사의 비즈니스 및 재무 성과에 중대한 영향을 미칠 수 있습니다.",
+        "description": "The following risks, some of which have occurred and any of which may occur in the future, could materially and adversely affect our business and financial performance.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이것이 우리가 직면한 유일한 위험은 아니며 우리의 비즈니스 및 재무 성과에 실질적이고 부정적인 영향을 미칠 수 있는 다른 위험이 있을 수 있습니다.",
+        "description": "These are not the only risks we face and there may be other risks that could materially and adversely affect our business and financial performance.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "경쟁 및 평판 위험 우리가 경쟁사와 적극적으로 차별화할 수 없는 경우, 우리의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Competitive and Reputational Risks If we are unable to positively differentiate ourselves from our competitors, our results of operations and financial condition could be adversely affected.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "경쟁사와 고객 경험을 차별화하지 못하면 당사의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If we fail to differentiate our guest experience from our competitors, our results of operations and financial condition could be adversely affected.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "소비자는 디지털 도구를 사용하여 빠르게 비교 쇼핑을 할 수 있기 때문에 가격이나 편의성에만 기초하여 결정을 내릴 수 있으며, 이로 인해 경쟁사와 차별화하는 능력이 제한될 수 있습니다.",
+        "description": "Since consumers can quickly comparison shop using digital tools, they may make decisions based solely on price or convenience, which could limit our ability to differentiate from our competitors.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "개선된 성과나 효율성으로 이러한 계획이나 기타 계획에 대한 투자를 상쇄할 수 없는 경우 당사의 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If we are unable to offset our investments in these or other initiatives with improved performance or efficiencies, our results of operations could be adversely affected.",
         "severity": "medium"
       }
     ],
@@ -181,8 +181,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates retail stores. It is the eighth-largest retailer in the United States and is a component of the S&P 500 Index.",
+  "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-27T04:14:52.380930+00:00"
+    "GoogleWebTranslator": "2026-08-28T07:08:04.748974+00:00"
   }
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0005.HK",
-  "generated_at": "2026-08-27T04:14:28.549328+00:00",
-  "source_results_date": "2026-08-27",
+  "generated_at": "2026-08-28T06:40:51.616316+00:00",
+  "source_results_date": "2026-08-28",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.88,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot HK$169.59 근접(-4.71%).",
-    "13주 베이스 10.3% → 7.2% 수축, VDU 0.60× 진행.",
-    "Trend Template 8/8 통과, RS 94, RS 라인 신고가 -3.0%.",
+    "매수 대기 — Stage 2 진입, pivot HK$169.59 근접(-4.95%).",
+    "13주 베이스 10.3% → 7.2% 수축, VDU 0.55× 진행.",
+    "Trend Template 8/8 통과, RS 94, RS 라인 신고가 -3.5%.",
     "HK$169.59 돌파 시 매수·-7% 손절(HK$157.72)·+20%(HK$203.51) 절반 익절."
   ],
   "action": {
@@ -42,12 +42,12 @@
     "B7_within_25pct_high",
     "R1_rs_70",
     "L1_liquidity_gate",
+    "P3_vol_dryup",
     "R2_rs_80",
     "R3_rs_90"
   ],
   "key_failures": [
     "P2_last_contraction (7.19% vs 6.5%)",
-    "P3_vol_dryup (0.60× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

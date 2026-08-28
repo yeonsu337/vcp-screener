@@ -1,0 +1,204 @@
+{
+  "ticker": "PSX",
+  "company": "Phillips 66",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "generated_at": "2026-08-28T06:45:47.198799+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 96148226048,
+    "shares_outstanding": 400935020,
+    "employees": 12600,
+    "country": "United States",
+    "website": "https://www.phillips66.com",
+    "beta": 0.687
+  },
+  "category_a_business": {
+    "overview": "Phillips 66은 미국 및 국제적으로 통합된 다운스트림 에너지 기업입니다.",
+    "milestones": [
+      "1927: Phillips Petroleum Company의 상표로 'Phillips 66' 등장",
+      "2002: Phillips Petroleum과 Conoco 합병하여 ConocoPhillips 설립",
+      "2012: ConocoPhillips에서 정유, 화학, 소매 자산 분사하여 Phillips 66 설립",
+      "2012: 5월 1일, 뉴욕증권거래소에 PSX 티커로 상장"
+    ],
+    "business_model": "원유 정제, 화학 제품 생산, 연료 마케팅 및 운송 서비스를 통해 수익 창출.",
+    "revenue_streams": [
+      "정유 제품 판매 (휘발유, 경유, 항공유)",
+      "화학 제품 판매 (에틸렌, 방향족, 스티렌 등)",
+      "미드스트림 서비스 (운송, 터미널링, 저장)",
+      "재생 연료 판매",
+      "특수 제품 판매"
+    ],
+    "value_chain_position": "Downstream + 원유 정제, 화학 제품 생산, 연료 유통 및 마케팅에 집중합니다.",
+    "products": [
+      "휘발유",
+      "경유",
+      "항공유",
+      "에틸렌",
+      "벤젠",
+      "폴리스티렌"
+    ],
+    "channels": [
+      "B2B",
+      "도매",
+      "소매 (주유소 네트워크)"
+    ],
+    "key_customers": "다수의 산업 고객 및 최종 소비자를 대상으로 하며, 특정 고객에 대한 집중도는 낮습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.23,
+    "roa": 0.06,
+    "profit_margin": 0.05,
+    "operating_margin": 0.09,
+    "gross_margin": 0.13,
+    "revenue_growth_ttm": 0.53,
+    "earnings_growth_ttm": 3.45,
+    "dividend_yield": 2.1,
+    "payout_ratio": 0.28,
+    "annual_revenue": [
+      132376000000.0,
+      143153000000.0,
+      147399000000.0,
+      169990000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      3381000000.0,
+      1746000000.0,
+      7950000000.0,
+      9620000000.0,
+      null
+    ],
+    "annual_eps": [
+      10.79,
+      4.99,
+      15.48,
+      23.27,
+      null
+    ],
+    "annual_free_cf": [
+      2729000000.0,
+      2332000000.0,
+      4874000000.0,
+      8925000000.0
+    ],
+    "annual_total_debt": [
+      19716000000.0,
+      20062000000.0,
+      19359000000.0,
+      17190000000.0,
+      null
+    ],
+    "annual_equity": [
+      29093000000.0,
+      27408000000.0,
+      30583000000.0,
+      29494000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      9.55,
+      0.51,
+      7.17,
+      0.32,
+      2.15
+    ],
+    "quarterly_revenue": [
+      51004000000.0,
+      32540000000.0,
+      34108000000.0,
+      34515000000.0,
+      33323000000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 338.7,
+    "sales_yoy_pct": 53.1,
+    "ni_cagr_3y_pct": -26.36,
+    "roe_pct": 23.45
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 72.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.1541,
+    "trailing_pe": 13.829873,
+    "forward_pe": 11.590808,
+    "ev_to_ebitda": 11.421,
+    "price_to_sales": 0.6318599,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 66.9,
+    "outperform_6m_vs_nasdaq": 43.27,
+    "outperform_1m_vs_nasdaq": 7.99,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Each of these risk factors could adversely affect our business, operating results, financial condition, and reputation, as well as the value of an investment in our securities.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Changes in prices that occur between the time we purchase feedstocks or products and when we sell the refined products could have a significant impact on our financial results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If a decrease in commodity prices results in declining oil and gas production, then demand for services provided by our Midstream segment may be negatively impacted.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If certain types of renewable feedstocks are excluded from generating credits, our financial condition and results of operations may be impacted.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "The inability to operate facilities or assets due to any of these events could significantly impair our ability to manufacture, process, store or transport products.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "This could have a material adverse effect on our business, results of operations, financial position and cash flows, and our ability to make cash distributions.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "The Phillips 66 Company is an American multinational energy company headquartered in Westchase, Houston, Texas. Its name, dating back to 1927 as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Phillips 66. The company today was formed ten years after Phillips merged with Conoco to form ConocoPhillips. The merged company spun off its refining, chemical, and retail assets – known in the oil industry as downstream operations – into a new company bearing the Phillips 66 name. It began trading on the New York Stock Exchange on May 1, 2012, under the ticker PSX.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-28T07:07:51.852702+00:00"
+  }
+}
