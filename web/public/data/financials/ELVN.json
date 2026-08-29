@@ -1,24 +1,24 @@
 {
   "ticker": "ELVN",
   "metrics": {
-    "eps_ttm": -1.64,
-    "eps_forward": -2.34,
+    "eps_ttm": null,
+    "eps_forward": null,
     "pe_ttm": null,
-    "pe_forward": -25.87,
-    "market_cap": 4432881152.0,
-    "roe": -0.15,
-    "roa": -0.11,
-    "profit_margin": 0.0,
-    "gross_margin": 0.0,
-    "operating_margin": 0.0,
+    "pe_forward": null,
+    "market_cap": null,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "gross_margin": null,
+    "operating_margin": null,
     "revenue_growth": null,
     "earnings_growth": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "currency": "USD",
-    "sector": "Healthcare",
-    "industry": "Biotechnology",
-    "name": "Enliven Therapeutics, Inc."
+    "sector": "",
+    "industry": "",
+    "name": ""
   },
   "annual": {
     "periods": [

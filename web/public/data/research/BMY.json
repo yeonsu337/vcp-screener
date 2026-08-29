@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-08-28T07:02:17.839683+00:00",
+  "generated_at": "2026-08-29T04:29:52.663719+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 136759738368,
+    "market_cap": 136003944448,
     "shares_outstanding": 2042714656,
     "employees": 32500,
     "country": "United States",
@@ -17,48 +17,33 @@
     "beta": 0.225
   },
   "category_a_business": {
-    "overview": "브리스톨 마이어스 스큅은 전 세계적으로 바이오 의약품을 연구, 개발, 제조, 판매하는 다국적 제약 회사입니다.",
-    "milestones": [
-      "1887: Bristol-Myers Company 설립",
-      "1989: Bristol-Myers Company와 Squibb Corporation 합병, Bristol-Myers Squibb Company 탄생",
-      "2000년대 초: 주요 블록버스터 약물 특허 만료로 인한 어려움 극복 노력",
-      "2015: 면역항암제 옵디보(Opdivo) 출시, 암 치료 시장의 선두 주자로 부상",
-      "2019: 셀진(Celgene) 인수, 혈액암 및 면역학 분야 포트폴리오 강화",
-      "2020년대: 주요 제품의 특허 만료에 대비한 신약 파이프라인 강화 및 포트폴리오 다각화"
-    ],
-    "business_model": "혁신적인 바이오 의약품을 개발, 제조, 판매하여 질병 치료 및 예방에 기여합니다.",
-    "revenue_streams": [
-      "항암제 판매",
-      "혈액암 치료제 판매",
-      "면역학 및 염증 질환 치료제 판매",
-      "심혈관 질환 치료제 판매",
-      "신경과학 치료제 판매"
-    ],
-    "value_chain_position": "Midstream + 신약 연구개발부터 제조, 마케팅, 유통까지 전 과정을 아우릅니다.",
+    "overview": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. The company offers products for oncology, hematology, immunology, cardiovascular, and neuroscience indications. Its products include Opdivo for anti-cancer indications; Opdivo Qvantig, a subcutaneous PD-1 inhibitor for solid tumors; Orencia for active rheumatoid arthritis and psoriatic arthritis; Yervoy for the treatment of unresectable or metastatic melanoma; Reblozyl to treat anemia; Breyanzi for the treatment of relapsed or refractory large B-cell l",
+    "business_model": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide.",
     "products": [
-      "옵디보 (Opdivo)",
-      "엘리퀴스 (Eliquis)",
-      "오렌시아 (Orencia)",
-      "레블로질 (Reblozyl)",
-      "브레얀지 (Breyanzi)",
-      "캠자이오스 (Camzyos)"
+      "biopharmaceutical products worldwide",
+      "products for oncology, hematology, immunology, cardiovascular, and neuroscience indications",
+      "Zeposia to treat relapsing forms of multiple sclerosis",
+      "Eliquis for the reduction of risk of stroke/systemic embolism and for the treatment of DVT/PE",
+      "Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC, as well as NSCLC and pancreatic cancer"
     ],
     "channels": [
-      "B2B (병원, 약국)",
-      "도매 (의약품 도매상)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "고객 집중도는 낮으며, 전 세계 의료기관 및 환자를 대상으로 합니다."
+    "wikipedia_excerpt": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multip",
+    "milestones": [
+      "2025: , 69% of the company's revenues came from the United States"
+    ]
   },
   "category_b_financials": {
-    "roe": 0.47,
-    "roa": 0.11,
-    "profit_margin": 0.19,
-    "operating_margin": 0.34,
-    "gross_margin": 0.72,
-    "revenue_growth_ttm": 0.06,
-    "earnings_growth_ttm": 1.53,
-    "dividend_yield": 3.73,
-    "payout_ratio": 0.55,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       48195000000.0,
       48300000000.0,
@@ -154,11 +139,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3885,
-    "trailing_pe": 14.877777,
-    "forward_pe": 10.208967,
+    "peg_ratio": 2.3666,
+    "trailing_pe": 14.665198,
+    "forward_pe": 10.152548,
     "ev_to_ebitda": 9.02,
-    "price_to_sales": 2.7804606,
+    "price_to_sales": 2.7650945,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 25.43,
     "outperform_6m_vs_nasdaq": -4.06,
@@ -182,6 +167,6 @@
   },
   "wikipedia_summary": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:06:31.348315+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:12.755177+00:00"
   }
 }

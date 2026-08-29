@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-08-28T06:45:47.198799+00:00",
+  "generated_at": "2026-08-29T04:15:35.661385+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 96148226048,
+    "market_cap": 97832148992,
     "shares_outstanding": 400935020,
     "employees": 12600,
     "country": "United States",
@@ -17,47 +17,34 @@
     "beta": 0.687
   },
   "category_a_business": {
-    "overview": "Phillips 66은 미국 및 국제적으로 통합된 다운스트림 에너지 기업입니다.",
-    "milestones": [
-      "1927: Phillips Petroleum Company의 상표로 'Phillips 66' 등장",
-      "2002: Phillips Petroleum과 Conoco 합병하여 ConocoPhillips 설립",
-      "2012: ConocoPhillips에서 정유, 화학, 소매 자산 분사하여 Phillips 66 설립",
-      "2012: 5월 1일, 뉴욕증권거래소에 PSX 티커로 상장"
-    ],
-    "business_model": "원유 정제, 화학 제품 생산, 연료 마케팅 및 운송 서비스를 통해 수익 창출.",
-    "revenue_streams": [
-      "정유 제품 판매 (휘발유, 경유, 항공유)",
-      "화학 제품 판매 (에틸렌, 방향족, 스티렌 등)",
-      "미드스트림 서비스 (운송, 터미널링, 저장)",
-      "재생 연료 판매",
-      "특수 제품 판매"
-    ],
-    "value_chain_position": "Downstream + 원유 정제, 화학 제품 생산, 연료 유통 및 마케팅에 집중합니다.",
+    "overview": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment provides crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and natural gas liquids (NGL) gathering, processing, transportation, fractionation, storage and marketing services.",
+    "business_model": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally.",
     "products": [
-      "휘발유",
-      "경유",
-      "항공유",
-      "에틸렌",
-      "벤젠",
-      "폴리스티렌"
+      "as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally",
+      "through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels",
+      "crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and",
+      "and markets ethylene and other olefin products",
+      "and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oi"
     ],
     "channels": [
-      "B2B",
-      "도매",
-      "소매 (주유소 네트워크)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "다수의 산업 고객 및 최종 소비자를 대상으로 하며, 특정 고객에 대한 집중도는 낮습니다."
+    "wikipedia_excerpt": "The Phillips 66 Company is an American multinational energy company headquartered in Westchase, Houston, Texas. Its name, dating back to 1927 as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Phillips 66. The company today was formed ten years after Phillips merged with Conoco to form ConocoPhillips. The merged company spun off its refining, chemical, and retail assets – known in the oil industry as downstream operations – into a new company bearing the Phillips 66 name. It began trading on the New York Stock Exchange on May 1, 2012, under the ti",
+    "milestones": [
+      "1927: as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Ph",
+      "2012: , under the ticker PSX"
+    ]
   },
   "category_b_financials": {
-    "roe": 0.23,
-    "roa": 0.06,
-    "profit_margin": 0.05,
-    "operating_margin": 0.09,
-    "gross_margin": 0.13,
-    "revenue_growth_ttm": 0.53,
-    "earnings_growth_ttm": 3.45,
-    "dividend_yield": 2.1,
-    "payout_ratio": 0.28,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       132376000000.0,
       143153000000.0,
@@ -146,11 +133,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.1541,
-    "trailing_pe": 13.829873,
-    "forward_pe": 11.590808,
+    "peg_ratio": 1.1426,
+    "trailing_pe": 13.919565,
+    "forward_pe": 11.793808,
     "ev_to_ebitda": 11.421,
-    "price_to_sales": 0.6318599,
+    "price_to_sales": 0.64292616,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 66.9,
     "outperform_6m_vs_nasdaq": 43.27,
@@ -199,6 +186,6 @@
   },
   "wikipedia_summary": "The Phillips 66 Company is an American multinational energy company headquartered in Westchase, Houston, Texas. Its name, dating back to 1927 as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Phillips 66. The company today was formed ten years after Phillips merged with Conoco to form ConocoPhillips. The merged company spun off its refining, chemical, and retail assets – known in the oil industry as downstream operations – into a new company bearing the Phillips 66 name. It began trading on the New York Stock Exchange on May 1, 2012, under the ticker PSX.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:51.852702+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:33.592213+00:00"
   }
 }

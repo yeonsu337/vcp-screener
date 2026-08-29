@@ -4,42 +4,42 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-05-12T00:34:54.825388+00:00",
+  "generated_at": "2026-08-29T04:34:59.815161+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3234305792,
-    "shares_outstanding": 50144277,
+    "market_cap": 3950355712,
+    "shares_outstanding": 50099627,
     "employees": 1758,
     "country": "United States",
     "website": "https://www.parpacific.com",
-    "beta": 0.911
+    "beta": 0.79
   },
   "category_a_business": {
-    "overview": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다. 이 회사는 정제, 소매, 물류의 세 가지 부문으로 운영됩니다. 정유 부문은 원유를 휘발유, 증류액, 아스팔트 및 기타 제품으로 전환하는 정유소를 소유하고 운영합니다.",
-    "business_model": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다.",
+    "overview": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics. The Refining segment owns and operates refineries that convert crude oil into gasoline, distillate, asphalt, and other products.",
+    "business_model": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States.",
     "products": [
-      "미국의 재생 가능 및 기존 연료",
-      "정제, 소매, 물류의 3개 부문을 통해",
-      "원유를 휘발유, 증류액, 아스팔트 및 기타 제품으로 전환하는 정유소",
-      "휘발유, 경유 및 소매 상품(청량음료, 조제품 등)을 판매하는 편의점 및 연료 소매점",
+      "renewable and conventional fuels in the United States",
+      "through three segments: Refining, Retail, and Logistics",
+      "refineries that convert crude oil into gasoline, distillate, asphalt, and other products",
+      "convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prep",
       "터미널, 파이프라인, 트럭 운송 작업, 해양 선박, 저장 시설, 적재 및 트럭 랙, 철도 시설"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": 0.33,
-    "roa": 0.09,
-    "profit_margin": 0.06,
-    "operating_margin": 0.03,
-    "gross_margin": 0.19,
-    "revenue_growth_ttm": 0.04,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       7464650000.0,
       7974457000.0,
@@ -90,35 +90,36 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      9.35,
       1.1,
       1.53,
       5.16,
       1.17,
-      -0.57,
       null,
       null
     ],
     "quarterly_revenue": [
+      2968869000.0,
       1823750000.0,
       1813240000.0,
       2012936000.0,
       1893438000.0,
-      1745036000.0,
       null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
       "2025-03-31",
-      "2024-12-31",
-      "2024-09-30"
+      "2024-12-31"
     ],
-    "sales_yoy_pct": 4.5,
+    "eps_qoq_yoy_pct": 677.2,
+    "sales_yoy_pct": 56.8,
     "ni_cagr_3y_pct": 0.47,
-    "roe_pct": 33.32
+    "roe_pct": 53.49
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -130,51 +131,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 92,
-    "score": 64.5,
+    "score": 65.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 7.304643,
-    "forward_pe": 6.9816685,
-    "ev_to_ebitda": 5.993,
-    "price_to_sales": 0.42876172,
+    "trailing_pe": 4.627347,
+    "forward_pe": 6.6724663,
+    "ev_to_ebitda": 3.781,
+    "price_to_sales": 0.458342,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 221.39,
-    "outperform_6m_vs_nasdaq": 44.31,
-    "outperform_1m_vs_nasdaq": -11.96,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 115.69,
+    "outperform_6m_vs_nasdaq": 73.6,
+    "outperform_1m_vs_nasdaq": -15.84,
+    "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 경우 당사 보통주의 거래가격은 하락할 수 있습니다.",
+        "description": "In any such case, the trading price of our common stock could decline.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험도 당사에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Additional risks not currently known to us or that we currently deem immaterial may also adversely affect us.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 공개는 향후 회사와 회사 증권에 실질적이고 부정적인 영향을 미칠 수 있는 요소에 대한 회사의 믿음과 의견을 반영합니다.",
+        "description": "These disclosures reflect the Company’s beliefs and opinions as to factors that could materially and adversely affect the Company and its securities in the future.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "운영 위험 당사의 운영은 잠재적으로 심각한 손실에 노출될 수 있는 운영상의 위험에 노출되어 있습니다.",
+        "description": "OPERATING RISKS Our operations are subject to operational hazards that could expose us to potentially significant losses.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "과학적 합의에 따르면 당사 시설 및 제3자 시설에 대한 이러한 물리적 위험 중 일부, 특히 기상 이변과 관련된 위험 중 일부는 기후 변화의 결과로 증가할 수 있습니다.",
+        "description": "The scientific consensus suggests that some of these physical risks to our facilities and third-party facilities, especially risks associated with extreme weather, may increase as a result of climate change.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사 시설에서 심각한 사고가 발생하면 당사 직원이나 계약자가 심각한 부상을 입거나 사망할 수도 있으며, 당사는 개인 부상 청구 및 평판 위험에 대한 상당한 책임을 지게 될 수 있습니다.",
+        "description": "A serious accident at our facilities could also result in serious injury or death to our employees or contractors and could expose us to significant liability for personal injury claims and reputational risk.",
         "severity": "medium"
       }
     ],
@@ -187,6 +188,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:50.704511+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:30.879400+00:00"
   }
 }

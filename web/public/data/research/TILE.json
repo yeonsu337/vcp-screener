@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
-  "generated_at": "2026-08-28T07:03:29.236963+00:00",
+  "generated_at": "2026-08-29T04:30:53.685027+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2190059520,
+    "market_cap": 2229941760,
     "shares_outstanding": 57800460,
     "employees": 3570,
     "country": "United States",
@@ -17,50 +17,29 @@
     "beta": 1.912
   },
   "category_a_business": {
-    "overview": "Interface, Inc.는 상업용 모듈형 카펫 타일, LVT, 고무 바닥재를 생산하는 글로벌 바닥재 솔루션 기업입니다.",
-    "milestones": [
-      "1973: 조지아주에서 Interface, Inc. 설립",
-      "2016: 일부 시장에 LVT(럭셔리 비닐 타일) 제품 출시 시작",
-      "2017: LVT 제품 글로벌 확장",
-      "2018: nora systems GmbH 인수, 고무 바닥재 포트폴리오 추가",
-      "2020: CQuest™ 탄소 네거티브 카펫 타일 백킹 출시",
-      "2021: 과학 기반 목표 이니셔티브(SBTi) 검증 탄소 감축 목표 설정"
-    ],
-    "business_model": "상업용 및 주거용 공간에 바닥재 제품과 관련 서비스를 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "모듈형 카펫 타일 판매",
-      "럭셔리 비닐 타일(LVT) 판매",
-      "노라(nora®) 고무 바닥재 판매",
-      "카펫 교체, 설치 및 유지보수 서비스",
-      "TacTiles 설치 시스템 및 접착제 판매",
-      "프로젝트 관리 서비스"
-    ],
-    "value_chain_position": "Downstream: 바닥재 제품을 직접 제조하고 최종 고객 및 유통 채널에 판매합니다.",
+    "overview": "Interface, Inc. designs, produces, and sells modular carpet products in the United States, Canada, Latin America, Europe, Africa, Asia, and Australia. The company offers modular carpets; luxury vinyl tiles; modular resilient flooring products; rubber flooring; and carpet tiles used in commercial interiors, include offices, educational facilities, healthcare facilities, airports, hospitality spaces, retail spaces, and residential interiors.",
+    "business_model": "Interface, Inc.",
     "products": [
-      "모듈형 카펫 타일 (Interface®, FLOR®)",
-      "럭셔리 비닐 타일 (Interface®)",
-      "고무 바닥재 (noraplan®, norament®)",
-      "TacTiles 카펫 타일 설치 시스템",
-      "카펫 설치 및 유지보수 제품"
+      "modular carpet products in the United States, Canada, Latin America, Europe, Africa, Asia, and Australi",
+      "modular carpets",
+      "carpet replacement, installation, and maintenance services",
+      "최종 사용자에게 직접 판매 및 간접 판매를 통해 Interface, FLOR, NORAPLAN 및 NORAMENT 브랜드로 제품을 판매합니다."
     ],
     "channels": [
-      "직접 판매 (최종 사용자)",
-      "간접 판매 (독립 계약자, 설치업체, 유통업체)",
-      "B2B",
-      "B2C (FLOR® 브랜드)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "주요 고객은 기업 사무실, 교육 시설, 헬스케어, 공공 건물, 소매점, 숙박 시설 등 다양한 상업용 및 일부 주거용 시장에 분포되어 있으며, 특정 고객에 대한 높은 집중도는 보고되지 않았습니다."
+    "wikipedia_excerpt": "조지아 주 애틀랜타에 본사를 둔 Interface, Inc.는 상업용 바닥재를 생산하는 세계적인 제조업체입니다.4 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, nora 브랜드 고무 바닥재를 판매합니다."
   },
   "category_b_financials": {
-    "roe": 0.23,
-    "roa": 0.09,
-    "profit_margin": 0.1,
-    "operating_margin": 0.19,
-    "gross_margin": 0.4,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 0.6,
-    "dividend_yield": 0.31,
-    "payout_ratio": 0.04,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       1386854000.0,
       1315658000.0,
@@ -156,11 +135,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.2585,
-    "trailing_pe": 15.657024,
-    "forward_pe": 15.657024,
+    "peg_ratio": 1.2322,
+    "trailing_pe": 15.619433,
+    "forward_pe": 15.942149,
     "ev_to_ebitda": 10.413,
-    "price_to_sales": 1.5201843,
+    "price_to_sales": 1.5478678,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 18.07,
     "outperform_6m_vs_nasdaq": 4.01,
@@ -209,6 +188,6 @@
   },
   "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring.4 The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:08:05.340670+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:46.771953+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-08-28T07:00:38.854390+00:00",
+  "generated_at": "2026-08-29T04:27:49.799189+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 75380580352,
+    "market_cap": 74131275776,
     "shares_outstanding": 454291461,
     "employees": 400000,
     "country": "United States",
@@ -17,13 +17,13 @@
     "beta": 0.973
   },
   "category_a_business": {
-    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 또한 회사는 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
+    "overview": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed",
     "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
     "products": [
       "as a general merchandise retailer in the United States",
       "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
       "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
-      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
+      "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
       "its products through its stores"
     ],
     "channels": [
@@ -32,15 +32,15 @@
     "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
   },
   "category_b_financials": {
-    "roe": 0.26,
-    "roa": 0.06,
-    "profit_margin": 0.04,
-    "operating_margin": 0.06,
-    "gross_margin": 0.28,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 1.0,
-    "dividend_yield": 2.83,
-    "payout_ratio": 0.47,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       104780000000.0,
       106566000000.0,
@@ -130,11 +130,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.5809,
-    "trailing_pe": 17.194818,
-    "forward_pe": 17.462786,
+    "peg_ratio": 2.6107,
+    "trailing_pe": 16.927385,
+    "forward_pe": 17.17337,
     "ev_to_ebitda": 10.337,
-    "price_to_sales": 0.69988006,
+    "price_to_sales": 0.6882807,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 56.44,
     "outperform_6m_vs_nasdaq": 31.03,
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:08:04.748974+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:43.064991+00:00"
   }
 }

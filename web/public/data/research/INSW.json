@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-08-28T06:53:56.062846+00:00",
+  "generated_at": "2026-08-29T04:21:42.878351+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4916477952,
+    "market_cap": 4894189056,
     "shares_outstanding": 49531311,
     "employees": 2837,
     "country": "United States",
@@ -17,29 +17,29 @@
     "beta": -0.1
   },
   "category_a_business": {
-    "overview": "International Seaways, Inc.는 국제 무역에서 원유 및 석유 제품을 운송하는 원양 선박을 소유하고 운영합니다. 이 회사는 원유 유조선과 제품 운반선이라는 두 부문으로 운영됩니다.",
-    "business_model": "인터내셔널 시웨이즈, Inc.",
+    "overview": "International Seaways, Inc. owns and operates a fleet of oceangoing vessels for the transportation of crude oil and petroleum products in the international flag trade. The company operates in two segments: Crude Tankers and Product Carriers.",
+    "business_model": "International Seaways, Inc.",
     "products": [
-      "국제 무역에서 원유 및 석유 제품을 운송하기 위한 원양 선박 함대",
-      "두 가지 부문: 원유 유조선과 제품 운반선",
-      "VLCC, Suezmaxes, Aframaxes와 MR, LR1, LR2 제품 운반선 70척으로 구성된 함대",
-      "호스, 펜더 등 선박 대 선박(STS) 경량화 지원 서비스",
-      "팜유, 식물성 기름 등 식용유 운반을 위한 IMO III 준수를 포함한 MR 제품 운반체"
+      "a fleet of oceangoing vessels for the transportation of crude oil and petroleum products in the international flag trade",
+      "in two segments: Crude Tankers and Product Carriers",
+      "fleet of 70 vessels of VLCCs, Suezmaxes, and Aframaxes, as well as MRs, LR1, and LR2 product carrier",
+      "ship-to-ship (STS) lightering support services, such as hoses and fenders",
+      "MR product carriers, including IMO III compliant for carrying edible oils, such as palm and vegetable oil, increasing fl"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": 0.37,
-    "roa": 0.16,
-    "profit_margin": 0.62,
-    "operating_margin": 0.64,
-    "gross_margin": 0.72,
-    "revenue_growth_ttm": 1.4,
-    "earnings_growth_ttm": 3.73,
-    "dividend_yield": 8.73,
-    "payout_ratio": 0.25,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       843302000.0,
       951613000.0,
@@ -133,10 +133,10 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 5.986731,
-    "forward_pe": 15.756381,
+    "trailing_pe": 6.317775,
+    "forward_pe": 15.684948,
     "ev_to_ebitda": 6.365,
-    "price_to_sales": 3.8977191,
+    "price_to_sales": 3.8800488,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 130.57,
     "outperform_6m_vs_nasdaq": 33.35,
@@ -147,12 +147,12 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "아래 설명된 상황이나 사건이 실제로 발생하거나 발생하는 경우, 회사의 사업, 운영 결과 및 재무 상태에 중대한 영향을 미칠 수 있습니다.",
+        "description": "If any of the circumstances or events described below actually arise or occur, the Company’s business, results of operations and financial condition could be materially adversely affected.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "법률 및 규제 문제와 관련된 위험 ● 기후 변화 및 온실가스 배출은 당사의 영업 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Risks Related to Legal and Regulatory Matters ● Climate change and greenhouse emissions may adversely affect our operating results.",
         "severity": "medium"
       }
     ],
@@ -165,6 +165,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:25.929736+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:22.095165+00:00"
   }
 }

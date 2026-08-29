@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-08-28T06:52:54.961321+00:00",
+  "generated_at": "2026-08-29T04:20:41.644767+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2108330368,
+    "market_cap": 2129721728,
     "shares_outstanding": 42782681,
     "employees": 602,
     "country": "United States",
@@ -17,25 +17,25 @@
     "beta": 0.76
   },
   "category_a_business": {
-    "overview": "Dorian LPG Ltd.는 자회사와 함께 전 세계적으로 LPG 유조선을 통해 액화석유가스를 운송하는 사업에 종사하고 있습니다. 이 회사는 28척의 초대형 가스 운반선을 소유하고 운영하고 있습니다. 도리안LPG(주)",
+    "overview": "Dorian LPG Ltd., together with its subsidiaries, engages in the transportation of liquefied petroleum gas through its LPG tankers worldwide. It owns and operates twenty-eight very large gas carriers. Dorian LPG Ltd.",
     "business_model": "Dorian LPG Ltd., together with its subsidiaries, engages in the transportation of liquefied petroleum gas through its LPG tankers worldwide.",
     "products": [
-      "28개의 초대형 가스 운반선"
+      "twenty-eight very large gas carriers"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": 0.28,
-    "roa": 0.11,
-    "profit_margin": 0.56,
-    "operating_margin": 0.6,
-    "gross_margin": 0.73,
-    "revenue_growth_ttm": 1.24,
-    "earnings_growth_ttm": 12.63,
-    "dividend_yield": 6.99,
-    "payout_ratio": 0.39,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       481511242.0,
       353341476.0,
@@ -126,10 +126,10 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 6.350515,
-    "forward_pe": 11.493877,
+    "trailing_pe": 6.602122,
+    "forward_pe": 11.610496,
     "ev_to_ebitda": 6.53,
-    "price_to_sales": 3.642273,
+    "price_to_sales": 3.6792278,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 46.92,
     "outperform_6m_vs_nasdaq": 24.74,
@@ -140,12 +140,12 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "일반적으로 산업 다각화가 부족하기 때문에 LPG 운송 산업 중 VLGC 부문의 불리한 발전은 당사의 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Due to the general lack of industry diversification, adverse developments in the VLGC segment of the LPG shipping industry may adversely affect our business, financial condition and operating results.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "배당금의 감소 또는 제거로 인해 당사 보통주 투자자는 상당한 손실을 입을 수 있습니다.",
+        "description": "A reduction in or elimination of dividends could cause investors in our common shares to incur substantial losses.",
         "severity": "medium"
       },
       {
@@ -178,6 +178,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:43.122801+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:24.612536+00:00"
   }
 }

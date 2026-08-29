@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-08-28T07:06:38.114811+00:00",
+  "generated_at": "2026-08-29T04:32:56.487693+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 35779571712,
+    "market_cap": 35161284608,
     "shares_outstanding": 445277344,
     "employees": 100,
     "country": "United States",
@@ -27,15 +27,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.14,
-    "roa": 0.05,
-    "profit_margin": 0.32,
-    "operating_margin": 0.2,
-    "gross_margin": 0.96,
-    "revenue_growth_ttm": 0.17,
-    "earnings_growth_ttm": -0.46,
-    "dividend_yield": 1.52,
-    "payout_ratio": 0.49,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       2378193000.0,
       2263576000.0,
@@ -128,11 +128,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.1875,
-    "trailing_pe": 33.29032,
-    "forward_pe": 10.793435,
+    "peg_ratio": 2.1911,
+    "trailing_pe": 32.715054,
+    "forward_pe": 10.606921,
     "ev_to_ebitda": 24.817,
-    "price_to_sales": 14.108675,
+    "price_to_sales": 13.864871,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 52.24,
     "outperform_6m_vs_nasdaq": 21.65,
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:52.937914+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:34.737239+00:00"
   }
 }

@@ -1,183 +1,188 @@
 {
   "ticker": "MD",
-  "company": "Pediatrix Medical Group Inc",
+  "company": "Pediatrix Medical Group, Inc.",
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-07-08T00:06:50.723790+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-08-29T04:37:02.312573+00:00",
+  "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": null,
-    "website": null,
-    "beta": null
+    "market_cap": 2162149632,
+    "shares_outstanding": 81253271,
+    "employees": 4280,
+    "country": "United States",
+    "website": "https://www.pediatrix.com",
+    "beta": 0.652
   },
   "category_a_business": {
-    "overview": "MD는 헬스케어 서비스 제공자에게 규제 준수 및 운영 효율성을 위한 솔루션을 제공합니다.",
-    "milestones": [
-      "2020: CMS 및 OIG, 연방 불법 리베이트 방지법, CMPL, Stark Law 개정 최종 규칙 발표",
-      "2020: 가치 기반 진료 촉진 및 사기/남용 방지 목적의 새로운 정의, 세이프 하버, 예외 조항 도입"
-    ],
-    "business_model": "헬스케어 규제 준수 및 운영 지원 서비스를 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "규제 준수 컨설팅",
-      "수익 주기 관리 서비스",
-      "의료 코딩 서비스",
-      "법률 및 규제 변경 모니터링"
-    ],
-    "value_chain_position": "Midstream + 헬스케어 서비스 제공자가 규제 준수 및 운영 효율성을 유지하도록 지원합니다.",
+    "overview": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States. The company offers clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, through its network of affiliated neonatal physician subspecialists, neonatal nurse practitioners, and other pediatric clinicians; and inpatient and office-based clinical care to expectant mothers and unborn babies through its affiliated maternal-fetal medicine subspecialists, obstetricians and oth",
+    "business_model": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States.",
     "products": [
-      "연방 사기 및 남용 법규 준수 솔루션",
-      "반독점 법규 준수 자문",
-      "의료 면허 및 인증 관리 지원",
-      "수익 주기 관리 (RCM) 서비스",
-      "의료 코딩 서비스"
+      "newborn, maternal-fetal, and other pediatric subspecialty care services in the United States",
+      "clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, thro",
+      "other pediatric subspecialty care, including pediatric intensivists, pediatric hospitalists, and pediatric surgeons"
     ],
     "channels": [
-      "B2B"
-    ],
-    "key_customers": "주로 헬스케어 제공자 및 관련 기관에 서비스를 제공하며, 고객 집중도는 언급되지 않았습니다."
+      "B2B / Enterprise"
+    ]
   },
   "category_b_financials": {
-    "eps_qoq_yoy_pct": 42.6,
-    "sales_yoy_pct": 3.9,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
+    "annual_revenue": [
+      1913849000.0,
+      2012919000.0,
+      1994640000.0,
+      1972021000.0,
+      null
+    ],
+    "annual_operating_income": [
+      231085000.0,
+      183681000.0,
+      157852000.0,
+      200000000.0,
+      null
+    ],
+    "annual_eps": [
+      1.94,
+      -1.19,
+      -0.73,
+      0.79,
+      null
+    ],
+    "annual_free_cf": [
+      252633000.0,
+      184551000.0,
+      103997000.0,
+      137233000.0,
+      null
+    ],
+    "annual_total_debt": [
+      634615000.0,
+      662313000.0,
+      701648000.0,
+      717081000.0,
+      null
+    ],
+    "annual_equity": [
+      865854000.0,
+      764938000.0,
+      849061000.0,
+      891632000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.49,
+      0.36,
+      0.4,
+      0.84,
+      0.46,
+      null
+    ],
+    "quarterly_revenue": [
+      487783000.0,
+      476196000.0,
+      493771000.0,
+      492875000.0,
+      468844000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 1.5,
+    "sales_yoy_pct": 4.0,
     "ni_cagr_3y_pct": 35.6,
-    "roe_pct": 20.89
+    "roe_pct": 20.39
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "정보 부족으로 추정 불가",
-    "tam_cagr_pct": "정보 부족으로 추정 불가",
-    "growth_drivers": [
-      "가치 기반 의료(Value-based care) 모델로의 전환 가속화 (정부 정책 변화에 따른 기회)",
-      "의료 서비스 조정 및 통합 필요성 증가 (새로운 규제 환경에 적응)",
-      "의료 사기 및 남용 방지 노력 강화 (규제 준수 솔루션 수요 증가)"
-    ],
-    "market_share_pct": "정보 부족으로 추정 불가",
-    "competitors": [
-      {
-        "name": "대형 의료 시스템 및 병원",
-        "differentiation": "자체적인 규제 준수 및 수익 주기 관리 시스템 보유"
-      },
-      {
-        "name": "전문 의료 컨설팅 회사",
-        "differentiation": "복잡한 의료 규제 해석 및 준수 전략에 대한 전문성 제공"
-      },
-      {
-        "name": "의료 IT 및 소프트웨어 솔루션 제공업체",
-        "differentiation": "규제 준수 및 수익 주기 관리를 자동화하는 기술 솔루션 제공"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "의료 규제 준수 및 수익 주기 관리 분야는 전문성과 복잡한 규제 지식이 필요하지만, 특정 니치 시장 진입은 상대적으로 용이할 수 있음.",
-      "substitutes": "내부 인력 활용, 다른 컨설팅 업체 또는 IT 솔루션으로 대체 가능성이 존재하며, 특히 대형 기관은 자체 솔루션을 선호할 수 있음.",
-      "buyer_power": "의료 서비스 제공자들은 규제 준수 및 수익 관리에 대한 다양한 선택지를 가지고 있으며, 서비스 품질과 비용에 민감하게 반응할 수 있음.",
-      "supplier_power": "주요 공급자는 인력, 소프트웨어 등이며, 이들에 대한 의존도가 높지 않거나 대체 가능한 경우가 많음.",
-      "rivalry": "의료 규제 준수 및 수익 주기 관리 시장은 다양한 규모의 플레이어가 존재하며, 서비스 차별화와 가격 경쟁이 발생할 수 있음."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "복잡한 의료 규제(사기 및 남용 방지, 반부패 법규 등)에 대한 지속적인 모니터링 및 해석 노력",
-      "수익 주기 관리(RCM) 기능 수행을 위한 38개 제3자 계약업체 활용 네트워크",
-      "가치 기반 의료 및 케어 조정 촉진을 위한 규제 변화에 대한 적응 노력"
-    ],
-    "competitive_weaknesses": [
-      "정부 기관의 규제 해석과 상이할 경우 발생할 수 있는 법적, 재정적 위험",
-      "계열사 의사 및 개별 제공자의 면허 유지 및 서비스 기록/문서화 오류로 인한 환급 문제 발생 가능성",
-      "의료 사기 및 남용 방지 법규 위반 시 벌금, 민형사상 처벌, GHC 프로그램 참여 배제 등 중대한 사업 영향 위험",
-      "독점 금지법 위반 가능성 및 관련 벌금, 제재 위험"
+      "Healthcare / Medical Care Facilities 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 70.8,
-    "vcp_quality": 15.0,
+    "rs_rating": 75,
+    "score": 55.1,
+    "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 0.24,
+    "trailing_pe": 12.732059,
+    "forward_pe": 10.907257,
+    "ev_to_ebitda": 8.878,
+    "price_to_sales": 1.1084394,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 69.52,
-    "outperform_6m_vs_nasdaq": 15.0,
-    "outperform_1m_vs_nasdaq": 23.8,
-    "moat_type": "None",
-    "moat_evidence": [
-      "정부 규제 및 법률 위반 시 벌금, 민형사상 처벌, GHC 프로그램 참여 배제 등 사업에 중대한 악영향을 미칠 수 있음.",
-      "연방 및 주 사기 및 남용 법률, 규칙 및 규정은 고정적이지 않으며, 개정, 명확화, 수정 등이 수시로 발생하여 지속적인 준수 비용이 발생함.",
-      "의료 산업은 반독점 감시 대상이며, FTC, DOJ, 주 법무장관 및 민간 당사자들이 반독점 소송을 제기할 수 있으며, 위반 시 상당한 벌금 및 제재를 받을 수 있음.",
-      "계열사 의사 및 기타 개별 공급자는 서비스에 대한 모든 지불 조건을 충족하지 못하거나 적절하게 기록 또는 문서화하지 못할 수 있으며, 이는 제3자 지불자로부터의 상환에 영향을 미칠 수 있음."
-    ],
-    "moat_durability_years": "해당 없음",
-    "new_trigger": "없음",
-    "bull_case": "규제 환경 안정화 및 효율적인 비용 관리를 통해 3년 내 순이익 30% 성장 달성",
-    "base_case": "엄격한 규제 준수 및 비용 통제 노력에도 불구하고, 규제 변화와 경쟁 심화로 인해 매출 및 이익 성장이 둔화될 수 있음.",
-    "bear_case": "예상치 못한 규제 위반 및 반독점 소송으로 인해 막대한 벌금과 사업 제약이 발생하여 실적 악화 및 주가 하락.",
-    "key_metrics_to_watch": [
-      "규제 준수 비용",
-      "법적 분쟁 관련 비용 및 결과",
-      "환자 유치 및 유지율",
-      "매출총이익률",
-      "현금 흐름"
-    ]
+    "outperform_1y_vs_nasdaq": 34.17,
+    "outperform_6m_vs_nasdaq": 18.93,
+    "outperform_1m_vs_nasdaq": -8.32,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "거시",
-        "description": "경제 상황 악화는 환자 서비스 수익에 부정적인 영향을 미치며, 정부 지원 프로그램(GHC)으로의 환자 이동과 환자 수 및 서비스 상환액 감소를 초래할 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "의료 산업은 고도로 규제되어 있으며, 정부 당국이 회사가 관련 법규를 준수하지 못했다고 판단할 경우 사업에 중대한 부정적 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "현재 및 미래의 부채는 회사의 유연성을 저해하고 이자율 위험에 노출시키며, 특정 이자 비용은 공제되지 않을 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "RISK FACTORS Our business is subject to a number of factors that could materially affect future developments and performance.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "수익 주기 관리 기능을 아웃소싱에서 하이브리드 모델로 전환하는 과정에서 효율적이고 효과적인 실행에 실패할 경우 사업에 중대한 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
         "severity": "medium"
       },
       {
-        "category": "경쟁",
-        "description": "자격을 갖춘 의사 및 기타 임상 인력을 성공적으로 채용, 온보딩 및 유지하지 못하거나 기존 인력에 대한 보상 비용이 증가할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "We may update these risk factors in our periodic and other filings with the SEC.",
         "severity": "medium"
       },
       {
-        "category": "고객집중도",
-        "description": "정부 지원 프로그램(GHC)으로의 환자 구성 변화는 민간 보험 프로그램에 비해 상환액이 현저히 낮아 순수익 감소로 이어질 수 있습니다.",
-        "severity": "high"
+        "category": "10-K Item 1A",
+        "description": "The following is a summary of the principal risk factors described in this section: • Economic conditions could have an adverse effect on our business.",
+        "severity": "medium"
       },
       {
-        "category": "공급망",
-        "description": "내부 비즈니스 기능의 일부를 제3자 공급업체에 아웃소싱하는 것은 상당한 위험을 수반하며, 이러한 위험을 성공적으로 관리하지 못하면 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Outsourcing these functions has significant risks, and our failure to successfully manage these risks could materially adversely affect our business, results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our acquisitions may expose us to greater business risks and could affect our payor mix.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "미국 출산율의 지속적인 감소와 주요 운영 지역의 불리한 조건이 겹쳐 환자 수가 급감하고 수익성이 악화되어 회사가 파산할 수 있습니다.",
-      "정부의 의료 개혁 노력과 메디케어/메디케이드 상환액의 대폭적인 삭감이 동시에 발생하여 회사의 재정적 지속 가능성이 심각하게 훼손될 수 있습니다.",
-      "사이버 보안 침해로 인해 환자 정보가 유출되고 정보 시스템이 마비되어 막대한 벌금, 소송 및 환자 신뢰 상실로 회사가 문을 닫을 수 있습니다.",
-      "핵심 의료 인력의 대규모 이탈과 신규 인력 채용 실패가 겹쳐 서비스 제공 역량이 마비되고 사업 운영이 불가능해질 수 있습니다."
-    ],
     "exit_signals": [
-      "미국 출산율이 3년 연속 추가 하락하고, 회사의 주요 운영 지역에서 인구 감소가 가속화되는 것이 확인될 경우.",
-      "정부 지원 프로그램(GHC)의 상환율이 현재 수준에서 10% 이상 추가로 감소하거나, 민간 보험 프로그램에서 GHC 프로그램으로의 환자 이동이 2년 연속 5% 이상 증가할 경우.",
-      "회사의 수익 주기 관리 시스템 전환이 실패하여 미수금 회수율이 2년 연속 5% 이상 하락하거나, 주요 의료 인력 이직률이 업계 평균보다 10% 이상 높아질 경우.",
-      "의료 개혁 법안이 통과되어 회사의 핵심 서비스에 대한 상환액이 15% 이상 삭감되거나, 새로운 규제로 인해 운영 비용이 20% 이상 증가할 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:43.125433+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:25.736626+00:00"
   }
 }

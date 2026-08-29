@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-08-28T06:51:53.625185+00:00",
+  "generated_at": "2026-08-29T04:19:39.999144+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4150433536,
+    "market_cap": 4062453248,
     "shares_outstanding": 38419268,
     "employees": 6000,
     "country": "United States",
@@ -32,15 +32,15 @@
     "wikipedia_excerpt": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data."
   },
   "category_b_financials": {
-    "roe": 0.17,
-    "roa": 0.03,
-    "profit_margin": 0.21,
-    "operating_margin": 0.29,
-    "gross_margin": 0.0,
-    "revenue_growth_ttm": 0.04,
-    "earnings_growth_ttm": 0.21,
-    "dividend_yield": 0.86,
-    "payout_ratio": 0.07,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       3845000000.0,
       3838000000.0,
@@ -133,11 +133,11 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.9028,
-    "trailing_pe": 8.348532,
-    "forward_pe": 8.08038,
+    "peg_ratio": 3.9198,
+    "trailing_pe": 8.203258,
+    "forward_pe": 7.909094,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.5556347,
+    "price_to_sales": 1.5226586,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 47.52,
     "outperform_6m_vs_nasdaq": 21.02,
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:06:31.072389+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:11.710030+00:00"
   }
 }

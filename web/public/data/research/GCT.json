@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-08-28T07:01:14.955886+00:00",
+  "generated_at": "2026-08-29T04:28:51.536639+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1841934080,
+    "market_cap": 1890856960,
     "shares_outstanding": 28839563,
     "employees": 1644,
     "country": "United States",
@@ -17,26 +17,26 @@
     "beta": 1.643
   },
   "category_a_business": {
-    "overview": "GigaCloud Technology Inc.는 미국 및 국제적으로 대형 소포 상품을 위한 엔드 투 엔드 B2B 전자 상거래 솔루션을 제공합니다. 이 회사는 제품 검색, 결제 및 물류 도구를 사용하기 쉬운 하나의 플랫폼으로 통합하는 GigaCloud Marketplace를 제공합니다.",
-    "business_model": "기가클라우드테크놀로지(주)",
+    "overview": "GigaCloud Technology Inc. provides end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally. The company offers GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform.",
+    "business_model": "GigaCloud Technology Inc.",
     "products": [
-      "미국 및 해외의 대형 소포 상품을 위한 엔드투엔드 B2B 전자상거래 솔루션",
-      "제품 검색, 결제 및 물류 도구를 사용하기 쉬운 하나의 플랫폼으로 통합한 GigaCloud Marketplace"
+      "end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally",
+      "GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": 0.32,
-    "roa": 0.09,
-    "profit_margin": 0.11,
-    "operating_margin": 0.12,
-    "gross_margin": 0.24,
-    "revenue_growth_ttm": 0.28,
-    "earnings_growth_ttm": 0.28,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       1289897000.0,
       1161042000.0,
@@ -133,10 +133,10 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.27,
-    "trailing_pe": 12.399039,
-    "forward_pe": 10.67909,
+    "trailing_pe": 12.607143,
+    "forward_pe": 10.962733,
     "ev_to_ebitda": 10.973,
-    "price_to_sales": 1.2559932,
+    "price_to_sales": 1.2893531,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 71.15,
     "outperform_6m_vs_nasdaq": -6.22,
@@ -147,32 +147,32 @@
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리의 역사적 성장률과 실적은 지속 가능하지 않거나 미래 성장 및 재무 결과를 나타내지 않을 수 있습니다.",
+        "description": "Our historical growth rates and performance may not be sustainable or indicative of our future growth and financial results.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러나 당사의 과거 실적이 당사의 미래 성장이나 재무 결과를 나타내지 않을 수도 있습니다.",
+        "description": "However, our historical performance may not be indicative of our future growth or financial results.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "빠르게 발전하는 시장에서 활동하는 기업이 노출될 수 있는 위험을 해결하는 데 충분한 경험이 없기 때문에 우리의 전망을 평가하는 것은 어렵습니다.",
+        "description": "It is difficult to evaluate our prospects, as we may not have sufficient experience in addressing the risks to which companies operating in rapidly evolving markets may be exposed.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 성장률이 하락할 경우, 당사의 사업, 재무 상태 및 운영 결과가 실질적이고 부정적인 영향을 받을 수 있습니다.",
+        "description": "If our growth rate declines, our business, financial condition and results of operations may be materially and adversely affected.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "적시에 인수를 성공적으로 통합하지 못하면 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Failure to successfully integrate our acquisitions in a timely manner may have a material adverse effect on our business, financial condition, results of operations and cash flows.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "인수로 인한 이익이 금융 분석가나 업계 분석가의 기대에 미치지 못하는 경우, 당사 주식의 시장 가격이 하락할 수도 있습니다.",
+        "description": "If benefits from our acquisitions do not meet the expectations of financial or industry analysts, we may also suffer a decline in the market price of our stock.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:07:10.794487+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:20.083488+00:00"
   }
 }

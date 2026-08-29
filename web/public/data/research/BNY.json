@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Banks - Diversified",
-  "generated_at": "2026-08-28T06:46:48.017824+00:00",
+  "generated_at": "2026-08-29T04:16:36.611620+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 110080516096,
+    "market_cap": 110256922624,
     "shares_outstanding": 678504142,
     "employees": 46500,
     "country": "United States",
@@ -38,15 +38,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.14,
-    "roa": 0.01,
-    "profit_margin": 0.29,
-    "operating_margin": 0.4,
-    "gross_margin": 0.0,
-    "revenue_growth_ttm": 0.13,
-    "earnings_growth_ttm": 0.27,
-    "dividend_yield": 1.36,
-    "payout_ratio": 0.25,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       19759000000.0,
       18258000000.0,
@@ -139,11 +139,11 @@
     "vcp_quality": 15.7,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.3502,
-    "trailing_pe": 19.019932,
-    "forward_pe": 15.834766,
+    "peg_ratio": 1.3433,
+    "trailing_pe": 18.961494,
+    "forward_pe": 15.860143,
     "ev_to_ebitda": null,
-    "price_to_sales": 5.140346,
+    "price_to_sales": 5.148584,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 34.63,
     "outperform_6m_vs_nasdaq": 18.46,
@@ -153,6 +153,6 @@
   "category_e_risks": {},
   "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2026, it was the 10th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-28T07:06:32.627752+00:00"
+    "GoogleWebTranslator": "2026-08-29T04:39:13.997890+00:00"
   }
 }

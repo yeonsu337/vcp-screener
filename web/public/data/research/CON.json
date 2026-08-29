@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-08-28T07:07:39.533769+00:00",
+  "generated_at": "2026-08-29T04:33:58.500742+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4424865792,
+    "market_cap": 4368757248,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
@@ -31,15 +31,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": 0.47,
-    "roa": 0.08,
-    "profit_margin": 0.09,
-    "operating_margin": 0.19,
-    "gross_margin": 0.29,
-    "revenue_growth_ttm": 0.1,
-    "earnings_growth_ttm": 0.47,
-    "dividend_yield": 0.72,
-    "payout_ratio": 0.16,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       2163417000.0,
       1900192000.0,
@@ -134,10 +134,10 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.532469,
-    "forward_pe": 18.959263,
+    "trailing_pe": 22.103226,
+    "forward_pe": 18.718855,
     "ev_to_ebitda": 13.951,
-    "price_to_sales": 1.9343972,
+    "price_to_sales": 1.9098685,
     "stop_loss_pct": -7.0,
     "outperform_1y_vs_nasdaq": 30.14,
     "outperform_6m_vs_nasdaq": 31.81,
@@ -184,5 +184,8 @@
       "EX7: 단일세션 -10%↓ 급락"
     ]
   },
-  "wikipedia_summary": ""
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-29T04:39:15.388668+00:00"
+  }
 }

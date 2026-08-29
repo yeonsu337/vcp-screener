@@ -1,0 +1,189 @@
+{
+  "ticker": "UNP",
+  "company": "Union Pacific Corporation",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Railroads",
+  "generated_at": "2026-08-29T04:36:00.867523+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 182624763904,
+    "shares_outstanding": 594075498,
+    "employees": 28716,
+    "country": "United States",
+    "website": "https://www.up.com",
+    "beta": 0.965
+  },
+  "category_a_business": {
+    "overview": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States. It offers transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewables to grain processors, animal feeders, and ethanol and renewable biofuel producers; and construction products, industrial chemicals, plastics, forest products, specialized products, metals and ores, petroleum, liquid petroleum gases, soda ash, and sand, as well as finished automobiles, automotive parts, and merchandise in interm",
+    "business_model": "Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States.",
+    "products": [
+      "in the railroad business in the United States",
+      "transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewabl"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "The Union Pacific Corporation is an American publicly traded railroad holding company serving as the holding company for the Union Pacific Railroad."
+  },
+  "category_b_financials": {
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
+    "annual_revenue": [
+      24510000000.0,
+      24250000000.0,
+      24119000000.0,
+      24875000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      9846000000.0,
+      9713000000.0,
+      9082000000.0,
+      9917000000.0,
+      null
+    ],
+    "annual_eps": [
+      11.98,
+      11.09,
+      10.45,
+      11.21,
+      null
+    ],
+    "annual_free_cf": [
+      5499000000.0,
+      5894000000.0,
+      4773000000.0,
+      5742000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      32822000000.0,
+      32463000000.0,
+      34179000000.0,
+      34957000000.0
+    ],
+    "annual_equity": [
+      18467000000.0,
+      16890000000.0,
+      14788000000.0,
+      12163000000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      3.36,
+      2.87,
+      3.11,
+      3.01,
+      3.15,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      6864000000.0,
+      6217000000.0,
+      6085000000.0,
+      6244000000.0,
+      6154000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 6.2,
+    "sales_yoy_pct": 11.5,
+    "ni_cagr_3y_pct": 0.66,
+    "roe_pct": 39.7
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Railroads 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 71,
+    "score": 55.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 3.4041,
+    "trailing_pe": 24.911669,
+    "forward_pe": 21.71746,
+    "ev_to_ebitda": 16.442,
+    "price_to_sales": 7.1871214,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 18.07,
+    "outperform_6m_vs_nasdaq": 1.11,
+    "outperform_1m_vs_nasdaq": -3.29,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "In such case, the trading price of our common stock could decline, and you could lose part or all of your investment.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Additionally, we may be exposed to increased cybersecurity risk because we are a component of the critical U.S.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "These impacts caused by severe weather or other natural phenomena could have a material adverse effect on our results of operations, financial condition, and liquidity.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Workforce risks Strikes or work stoppages could adversely affect our operations – The U.S.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Incremental import tariffs adversely affected demand for our services and increased our costs for purchased goods and services during fiscal year 2025 and may continue to do so in 2026.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "The Union Pacific Corporation is an American publicly traded railroad holding company serving as the holding company for the Union Pacific Railroad.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-08-29T04:39:51.982762+00:00"
+  }
+}
