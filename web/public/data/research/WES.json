@@ -1,0 +1,189 @@
+{
+  "ticker": "WES",
+  "company": "Western Midstream Partners, LP",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
+  "generated_at": "2026-09-01T02:02:23.945214+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 19873697792,
+    "shares_outstanding": 413174593,
+    "employees": 1704,
+    "country": "United States",
+    "website": "https://www.westernmidstream.com",
+    "beta": 0.657
+  },
+  "category_a_business": {
+    "overview": "Western Midstream Partners, LP, together with its subsidiaries, operates as a midstream energy company primarily in the United States. The company is involved in gathering, compressing, treating, processing, and transporting natural gas; gathering, stabilizing, and transporting condensate, natural gas liquids (NGLs), and crude oil; and gathering and disposing of produced water. It also buys and sells residue, NGLs, and condensates.",
+    "business_model": "Western Midstream Partners, LP, together with its subsidiaries, operates as a midstream energy company primarily in the United States.",
+    "products": [
+      "as a midstream energy company primarily in the United States",
+      "residue, NGLs, and condensates",
+      "assets located in Texas, New Mexico, and the Rocky Mountains",
+      "water handling solutions"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.34,
+    "roa": 0.07,
+    "profit_margin": 0.29,
+    "operating_margin": 0.42,
+    "gross_margin": 0.69,
+    "revenue_growth_ttm": 0.3,
+    "earnings_growth_ttm": 0.14,
+    "dividend_yield": 7.7,
+    "payout_ratio": 1.16,
+    "annual_revenue": [
+      3843403000.0,
+      3605223000.0,
+      3106476000.0,
+      3251721000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1541487000.0,
+      1567782000.0,
+      1289590000.0,
+      1321314000.0,
+      null
+    ],
+    "annual_eps": [
+      2.98,
+      4.02,
+      2.6,
+      3.0,
+      null
+    ],
+    "annual_free_cf": [
+      1494634000.0,
+      1303004000.0,
+      926254000.0,
+      1206905000.0,
+      null
+    ],
+    "annual_total_debt": [
+      8709290000.0,
+      7996576000.0,
+      7912563000.0,
+      6785362000.0,
+      null
+    ],
+    "annual_equity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.99,
+      0.85,
+      0.47,
+      0.87,
+      0.87,
+      null
+    ],
+    "quarterly_revenue": [
+      1224719000.0,
+      1123579000.0,
+      1031481000.0,
+      952484000.0,
+      942322000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 18.3,
+    "sales_yoy_pct": 30.0,
+    "ni_cagr_3y_pct": -1.0,
+    "roe_pct": 34.11
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 71.8,
+    "vcp_quality": 12.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 15.2215185,
+    "forward_pe": 12.496687,
+    "ev_to_ebitda": 11.605,
+    "price_to_sales": 4.5873713,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 14.55,
+    "outperform_6m_vs_nasdaq": 3.19,
+    "outperform_1m_vs_nasdaq": -0.64,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks were to occur, our business, financial condition, or results of operations could be materially and adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "A material reduction in Occidental’s production that is gathered, treated, processed, or transported by our assets would result in a material decline in our revenues and cash available for distribution.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Occidental may decrease its production in the areas serviced by us and is under no contractual obligation to maintain its production volumes dedicated to us pursuant to the terms of our applicable gathering agreements.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "The loss of a significant portion of production volumes supplied by Occidental would result in a material decline in our revenues and our cash available for distribution.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, Occidental may determine that drilling activity in areas other than our areas of operation is strategically more attractive.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "A shift in Occidental’s focus away from our areas of operation could result in reduced throughput on our systems and a material decline in our revenues and cash available for distribution.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-01T02:16:05.973346+00:00"
+  }
+}

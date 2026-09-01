@@ -4,46 +4,46 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-07-15T00:09:58.671902+00:00",
+  "generated_at": "2026-09-01T02:15:40.951200+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 611072016384,
-    "shares_outstanding": 2407216971,
+    "market_cap": 640671547392,
+    "shares_outstanding": 2409898597,
     "employees": 138200,
     "country": "United States",
     "website": "https://www.jnj.com",
-    "beta": 0.235
+    "beta": 0.231
   },
   "category_a_business": {
-    "overview": "Johnson & Johnson은 자회사와 함께 전 세계 의료 분야의 다양한 제품에 대한 연구 개발, 제조 및 판매에 참여하고 있습니다. 혁신의학(Innovative Medicine)과 의료기술(MedTech)이라는 두 부문으로 운영됩니다. 혁신 의학 부문은 종양학, 면역학, 신경과학, 폐고혈압, 전염병, 심혈관 및 대사 등 다양한 치료 분야에 대한 제품을 소매업체, 도매업체, 유통업체, 병원 및 의료 전문가를 통해 처방용으로 유통합니다.",
-    "business_model": "Johnson & Johnson은 자회사와 함께 전 세계 의료 분야의 다양한 제품에 대한 연구 개발, 제조 및 판매에 참여하고 있습니다.",
+    "overview": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use.",
+    "business_model": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide.",
     "products": [
-      "혁신의학(Innovative Medicine)과 의료기술(MedTech)이라는 두 부문으로 나뉜다.",
-      "종양학, 면역학, 신경과학, 폐고혈압, 감염성 등 다양한 치료 분야를 위한 제품",
-      "수술, 정형외과, 심혈관, 안과 분야에 사용되는 제품 포트폴리오를 도매로 유통하고 있습니다.",
-      "관절 재건, 외상, 척추, 스포츠 관련 부상 등을 지원하는 제품 및 기술 지원"
+      "in two segments, Innovative Medicine and MedTech",
+      "products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious",
+      "a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesale",
+      "products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Johnson & Johnson(J&J)은 뉴저지주 뉴브런즈윅에 본사를 둔 미국의 다국적 제약, 생명공학, 의료 기술 기업입니다. 이 회사는 2025년 Fortune 500대 미국 최대 기업 목록에서 48위를 차지했습니다. 2025년에 이 회사는 Forbes Global 2000에서 42위에 올랐습니다. Johnson & Johnson은 Microsoft와 함께 S&P Global에서 AAA의 주요 신용 등급을 받은 미국 기반 회사 두 곳 중 하나입니다.",
+    "wikipedia_excerpt": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
     "milestones": [
-      "2025년: Fortune 500대 미국 최대 기업 목록",
-      "2025년: 회사는 Forbes Global 2000에서 42위를 차지했습니다."
+      "2026: Fortune 500 list of the largest United States corporations",
+      "2026: , the company was ranked 43rd in the Forbes Global 2000"
     ]
   },
   "category_b_financials": {
     "roe": 0.26,
-    "roa": 0.08,
-    "profit_margin": 0.22,
-    "operating_margin": 0.27,
+    "roa": 0.09,
+    "profit_margin": 0.21,
+    "operating_margin": 0.29,
     "gross_margin": 0.68,
-    "revenue_growth_ttm": 0.1,
-    "earnings_growth_ttm": -0.53,
-    "dividend_yield": 2.08,
-    "payout_ratio": 0.6,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": -0.01,
+    "dividend_yield": 2.0,
+    "payout_ratio": 0.61,
     "annual_revenue": [
       94193000000.0,
       88821000000.0,
@@ -93,22 +93,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      2.27,
       2.14,
       2.1,
       2.12,
       2.29,
-      4.54,
+      null,
       null
     ],
     "quarterly_revenue": [
+      25310000000.0,
       24062000000.0,
       24564000000.0,
       23993000000.0,
       23743000000.0,
-      21893000000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -116,10 +119,10 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": -52.4,
-    "sales_yoy_pct": 9.9,
+    "eps_qoq_yoy_pct": -0.1,
+    "sales_yoy_pct": 6.6,
     "ni_cagr_3y_pct": 14.32,
-    "roe_pct": 26.42
+    "roe_pct": 25.74
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -130,25 +133,22 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 50.9,
+    "rs_rating": 75,
+    "score": 55.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 4.9509,
-    "trailing_pe": 29.864706,
-    "forward_pe": 19.901407,
-    "ev_to_ebitda": 18.762,
-    "price_to_sales": 6.341421,
+    "peg_ratio": 4.6557,
+    "trailing_pe": 31.057241,
+    "forward_pe": 21.60065,
+    "ev_to_ebitda": 19.183,
+    "price_to_sales": 6.5422044,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 39.01,
-    "outperform_6m_vs_nasdaq": 15.29,
-    "outperform_1m_vs_nasdaq": 5.36,
+    "outperform_1y_vs_nasdaq": 33.44,
+    "outperform_6m_vs_nasdaq": -7.82,
+    "outperform_1m_vs_nasdaq": 0.29,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 48 on the 2025 Fortune 500 list of the largest United States corporations. In 2025, the company was ranked 42nd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:22.097010+00:00"
-  }
+  "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global."
 }

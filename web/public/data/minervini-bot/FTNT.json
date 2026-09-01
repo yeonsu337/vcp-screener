@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "FTNT",
-  "generated_at": "2026-08-29T04:13:53.960401+00:00",
-  "source_results_date": "2026-08-29",
+  "generated_at": "2026-09-01T01:47:57.925757+00:00",
+  "source_results_date": "2026-09-01",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.64,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 13.85%).",
-    "13주 베이스 11.3% → 15.6% → 13.8%, VDU 0.76×, pivot $172.09(+0.40%).",
+    "13주 베이스 11.3% → 15.6% → 13.8%, VDU 0.96×, pivot $172.09(-0.67%).",
     "Trend Template 7/8 통과, RS 94 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (13.85% vs 6.5%)",
-    "P3_vol_dryup (0.76× vs 0.6×)",
+    "P3_vol_dryup (0.96× vs 0.6×)",
     "P4_base_count (4 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B5_sma200_rising_5mo"

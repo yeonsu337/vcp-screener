@@ -1,0 +1,251 @@
+{
+  "ticker": "CF",
+  "company": "CF Industries Holdings, Inc.",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Agricultural Inputs",
+  "generated_at": "2026-09-01T01:53:51.040622+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 19678496768,
+    "shares_outstanding": 151338130,
+    "employees": 2900,
+    "country": "United States",
+    "website": "https://www.cfindustries.com",
+    "beta": 0.398
+  },
+  "category_a_business": {
+    "overview": "CF 인더스트리즈는 북미와 유럽에서 암모니아 및 질소 비료를 생산하는 글로벌 기업입니다.",
+    "milestones": [
+      "1946: Central Farmers Fertilizer Company로 설립 (농업 협동조합 연합)",
+      "2002: 협동조합에서 민영화 및 상장",
+      "2005: Terra Industries 인수 시도 (실패)",
+      "2010: Terra Industries 인수 완료, 북미 최대 질소 비료 생산자 등극",
+      "2016: OCI N.V.와의 합병 무산",
+      "2020년대: ESG 및 청정 암모니아 생산 투자 확대"
+    ],
+    "business_model": "암모니아 및 질소 비료 생산 및 판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "암모니아 판매",
+      "과립 요소 판매",
+      "요소-암모늄 질산염(UAN) 판매",
+      "질산암모늄(AN) 판매",
+      "디젤 배기 유체(DEF) 및 기타 산업용 제품 판매"
+    ],
+    "value_chain_position": "Upstream / midstream + 천연가스를 원료로 암모니아 및 질소 비료를 생산합니다.",
+    "products": [
+      "암모니아",
+      "과립 요소",
+      "요소-암모늄 질산염(UAN) 용액",
+      "질산암모늄(AN)",
+      "디젤 배기 유체(DEF)",
+      "요소액",
+      "질산"
+    ],
+    "channels": [
+      "B2B (협동조합, 소매업체, 독립 비료 유통업체, 거래업체, 도매업체, 산업 사용자)"
+    ],
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 유통 채널을 통해 판매됩니다."
+  },
+  "category_b_financials": {
+    "roe": 0.3,
+    "roa": 0.13,
+    "profit_margin": 0.27,
+    "operating_margin": 0.49,
+    "gross_margin": 0.42,
+    "revenue_growth_ttm": 0.18,
+    "earnings_growth_ttm": 1.0,
+    "dividend_yield": 1.91,
+    "payout_ratio": 0.15,
+    "annual_revenue": [
+      7084000000.0,
+      5936000000.0,
+      6631000000.0,
+      11186000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      2375000000.0,
+      1711000000.0,
+      2252000000.0,
+      5571000000.0,
+      null
+    ],
+    "annual_eps": [
+      8.97,
+      6.74,
+      7.87,
+      16.38,
+      null
+    ],
+    "annual_free_cf": [
+      1801000000.0,
+      1750000000.0,
+      1033000000.0,
+      3393000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3636000000.0,
+      3246000000.0,
+      3232000000.0,
+      3225000000.0,
+      null
+    ],
+    "annual_equity": [
+      4838000000.0,
+      4985000000.0,
+      5717000000.0,
+      5051000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      4.73,
+      3.98,
+      2.59,
+      2.19,
+      2.37,
+      null
+    ],
+    "quarterly_revenue": [
+      2222000000.0,
+      1986000000.0,
+      1872000000.0,
+      1659000000.0,
+      1890000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "eps_qoq_yoy_pct": 88.3,
+    "sales_yoy_pct": 17.6,
+    "ni_cagr_3y_pct": -24.24,
+    "roe_pct": 29.87
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 1,000억 달러 (글로벌 질소 비료 시장, 2023년 기준 추정치, 다양한 시장 조사 기관 자료 종합)",
+    "tam_cagr_pct": "3-5% (향후 3~5년) - 전 세계 인구 증가에 따른 식량 수요 증가, 경작지 감소로 인한 단위 면적당 생산량 증대 필요성, 바이오 연료 생산 증가 등이 질소 비료 수요를 견인할 것으로 예상됩니다.",
+    "growth_drivers": [
+      "글로벌 인구 증가 및 식량 안보 강화 필요성 증대",
+      "경작지 감소에 따른 농업 생산성 향상 요구 증대",
+      "바이오 연료 생산 증가로 인한 농산물 수요 증가",
+      "개발도상국의 농업 현대화 및 비료 사용량 증가",
+      "정밀 농업 기술 도입 확대로 인한 비료 효율성 개선"
+    ],
+    "market_share_pct": "5-10% (글로벌 질소 비료 시장 추정치)",
+    "competitors": [
+      {
+        "name": "Nutrien Ltd.",
+        "differentiation": "질소, 인산염, 칼륨 등 다양한 비료 제품 포트폴리오를 보유한 통합 농업 솔루션 제공업체"
+      },
+      {
+        "name": "Yara International ASA",
+        "differentiation": "프리미엄 비료 및 환경 솔루션에 중점을 두며, 글로벌 유통망과 기술 혁신에 강점"
+      },
+      {
+        "name": "OCI N.V.",
+        "differentiation": "질소 비료 외에도 메탄올 등 산업용 화학 제품을 생산하며, 유럽 및 북미 시장에 강점"
+      },
+      {
+        "name": "Koch Industries (Koch Agronomic Services)",
+        "differentiation": "다양한 산업 분야에 걸친 대기업의 일원으로, 효율적인 유통 및 혁신적인 비료 기술에 투자"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 질소 비료 생산은 대규모 자본 투자, 기술 노하우, 규제 승인이 필요하여 진입 장벽이 높지만, 천연가스 접근성이 좋은 지역에서는 신규 진입 가능성이 존재합니다.",
+      "substitutes": "low - 질소는 식물 성장에 필수적인 영양소이며, 현재 질소 비료를 완전히 대체할 수 있는 상업적으로 실행 가능한 대안은 제한적입니다. 유기농 비료나 질소 고정 작물 등이 있지만, 대규모 농업 생산성 측면에서는 한계가 있습니다.",
+      "buyer_power": "medium - 농업 부문의 통합 및 대규모 농장의 존재로 인해 구매자들은 가격 협상력을 가질 수 있습니다. 또한, 비료는 농업 생산 비용의 상당 부분을 차지하므로 가격 민감도가 높습니다.",
+      "supplier_power": "high - 천연가스는 질소 비료 생산의 핵심 원료이며, 그 가격 변동성은 생산 비용에 큰 영향을 미칩니다. 천연가스 공급업체는 지역 및 글로벌 시장 상황에 따라 상당한 영향력을 행사할 수 있습니다.",
+      "rivalry": "high - 질소 비료 시장은 소수의 대형 글로벌 플레이어들이 경쟁하며, 생산 능력, 유통 효율성, 원가 경쟁력, 제품 차별화를 통해 치열하게 경쟁합니다. 특히 천연가스 가격 변동에 따라 경쟁 구도가 바뀔 수 있습니다."
+    },
+    "competitive_advantages": [
+      "북미 지역의 풍부하고 경쟁력 있는 천연가스 접근성 및 안정적인 공급망 (주요 생산 비용 절감)",
+      "광범위하고 효율적인 유통 네트워크 (철도, 수로, 파이프라인, 해상 운송 등 다양한 운송 모드 활용)",
+      "대규모 생산 시설 및 규모의 경제를 통한 원가 경쟁력 확보",
+      "다양한 질소 비료 제품 포트폴리오 (암모니아, 요소, UAN 등)",
+      "천연가스 가격 헤징 전략을 통한 원자재 가격 변동성 관리"
+    ],
+    "competitive_weaknesses": [
+      "천연가스 가격 변동성에 대한 높은 의존도 (주요 원자재 비용)",
+      "글로벌 농산물 가격 및 농업 정책 변화에 따른 수요 변동성",
+      "환경 규제 강화 및 탄소 배출량 감축 압력 증가",
+      "지정학적 리스크 및 무역 장벽에 대한 노출"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 81,
+    "score": 64.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.422,
+    "trailing_pe": 9.646143,
+    "forward_pe": 12.543844,
+    "ev_to_ebitda": 6.192,
+    "price_to_sales": 2.5427701,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 30.52,
+    "outperform_6m_vs_nasdaq": 9.9,
+    "outperform_1m_vs_nasdaq": 0.47,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 위험과 불확실성은 개별적으로 또는 복합적으로 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하다고 생각하지 않는 추가 위험 및 불확실성도 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "전 세계 질소 제품의 공급과 수요에 영향을 미치는 많은 요소는 당사의 통제 범위를 벗어나며 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그 결과, 이윤폭 감소, 재고 가치 하락, 일시적 또는 영구적 생산 축소를 경험할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 이러한 산업 공급 과잉 기간의 시기나 기간, 공급 과잉 상황이 당사의 비즈니스, 재무 상태, 운영 결과 및 현금 흐름에 영향을 미치는 정도를 예측할 수 없습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "농업 생산량 감소, 농업 목적으로 당사 제품 사용 제한 또는 작물 기술 개발로 인해 당사 제품 수요에 실질적으로 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "CF Industries Holdings, Inc. is an American manufacturer and distributor of agricultural fertilizers, including ammonia, urea, and ammonium nitrate products. The company is based in Northbrook, Illinois, a suburb of Chicago, and was founded in 1946 as the Central Farmers Fertilizer Company. For its first 56 years, it was a federation of regional agricultural supply cooperatives. CF then demutualized, and became a publicly traded company.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-01T02:14:24.276965+00:00"
+  }
+}

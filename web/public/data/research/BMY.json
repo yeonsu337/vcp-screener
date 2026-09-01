@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-08-29T04:29:52.663719+00:00",
+  "generated_at": "2026-09-01T02:08:31.853440+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 136003944448,
+    "market_cap": 136473755648,
     "shares_outstanding": 2042714656,
     "employees": 32500,
     "country": "United States",
@@ -17,33 +17,33 @@
     "beta": 0.225
   },
   "category_a_business": {
-    "overview": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide. The company offers products for oncology, hematology, immunology, cardiovascular, and neuroscience indications. Its products include Opdivo for anti-cancer indications; Opdivo Qvantig, a subcutaneous PD-1 inhibitor for solid tumors; Orencia for active rheumatoid arthritis and psoriatic arthritis; Yervoy for the treatment of unresectable or metastatic melanoma; Reblozyl to treat anemia; Breyanzi for the treatment of relapsed or refractory large B-cell l",
+    "overview": "Bristol-Myers Squibb Company는 전 세계적으로 바이오의약품을 발견, 개발, 라이센스, 제조, 마케팅, 유통 및 판매합니다. 이 회사는 종양학, 혈액학, 면역학, 심혈관 및 신경과학 적응증을 위한 제품을 제공합니다. 해당 제품에는 항암 적응증을 위한 Opdivo; 고형 종양에 대한 피하 PD-1 억제제인 ​​Opdivo Qvantig; 활동성 류마티스 관절염 및 건선성 관절염에 대한 오렌시아; 절제 불가능하거나 전이성 흑색종 치료를 위한 여보이(Yervoy); 빈혈을 치료하는 레블로질; 재발성 또는 불응성 대형 B세포 치료용 Breyanzi l",
     "business_model": "Bristol-Myers Squibb Company discovers, develops, licenses, manufactures, markets, distributes, and sells biopharmaceutical products worldwide.",
     "products": [
-      "biopharmaceutical products worldwide",
-      "products for oncology, hematology, immunology, cardiovascular, and neuroscience indications",
-      "Zeposia to treat relapsing forms of multiple sclerosis",
-      "Eliquis for the reduction of risk of stroke/systemic embolism and for the treatment of DVT/PE",
-      "Augtyro for the treatment of locally advanced or metastatic ROS1-positive NSCLC, as well as NSCLC and pancreatic cancer"
+      "전세계 바이오의약품",
+      "종양학, 혈액학, 면역학, 심혈관 및 신경과학 적응증을 위한 제품",
+      "재발성 다발성 경화증을 치료하는 제포시아",
+      "뇌졸중/전신 색전증 위험 감소 및 DVT/PE 치료를 위한 엘리퀴스",
+      "국소 진행성 또는 전이성 ROS1 양성 NSCLC뿐만 아니라 NSCLC 및 췌장암 치료를 위한 Augtyro"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multip",
+    "wikipedia_excerpt": "Bristol Myers Squibb라는 이름으로 사업을 하고 있는 Bristol-Myers Squibb Company는 뉴저지주 프린스턴에 본사를 둔 미국의 다국적 제약회사입니다. 회사의 주요 제품은 심방세동 환자를 위한 apixaban(Eliquis)입니다. 특정 유형의 암 치료에 사용되는 니볼루맙(Opdivo); 다발성 골수종, 무좀성 골수종 및 골수이형성 증후군을 치료하는 데 사용되는 레날리도마이드(Revlimid); 류마티스 관절염과 같은 자가면역 질환 치료에 사용되는 아바타셉트(Abatacept)(오렌시아(Orencia)); 다발성 종양 치료에 사용되는 항암제 포말리도마이드(Pomalyst/Imnovid)",
     "milestones": [
-      "2025: , 69% of the company's revenues came from the United States"
+      "2025년: , 회사 수익의 69%가 미국에서 나왔습니다."
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.47,
+    "roa": 0.11,
+    "profit_margin": 0.19,
+    "operating_margin": 0.34,
+    "gross_margin": 0.72,
+    "revenue_growth_ttm": 0.06,
+    "earnings_growth_ttm": 1.53,
+    "dividend_yield": 3.78,
+    "payout_ratio": 0.55,
     "annual_revenue": [
       48195000000.0,
       48300000000.0,
@@ -134,27 +134,27 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 74,
-    "score": 64.4,
+    "rs_rating": 77,
+    "score": 65.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.3666,
-    "trailing_pe": 14.665198,
-    "forward_pe": 10.152548,
-    "ev_to_ebitda": 9.02,
-    "price_to_sales": 2.7650945,
+    "trailing_pe": 14.651316,
+    "forward_pe": 10.187619,
+    "ev_to_ebitda": 9.005,
+    "price_to_sales": 2.7746463,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.43,
-    "outperform_6m_vs_nasdaq": -4.06,
-    "outperform_1m_vs_nasdaq": -2.48,
+    "outperform_1y_vs_nasdaq": 27.86,
+    "outperform_6m_vs_nasdaq": -6.42,
+    "outperform_1m_vs_nasdaq": -1.63,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties that are not presently known to us, or risks that we currently consider immaterial, could also impair our business operations, financial condition, operating results or cash flows.",
+        "description": "현재 우리에게 알려지지 않은 추가적인 위험과 불확실성, 또는 현재 중요하지 않다고 간주되는 위험은 우리의 사업 운영, 재무 상태, 운영 결과 또는 현금 흐름을 손상시킬 수도 있습니다.",
         "severity": "medium"
       }
     ],
@@ -167,6 +167,6 @@
   },
   "wikipedia_summary": "Bristol-Myers Squibb Company, doing business as Bristol Myers Squibb, is an American multinational pharmaceutical company headquartered in Princeton, New Jersey. The company's primary products are apixaban (Eliquis) for people with atrial fibrillation ; nivolumab (Opdivo), used to treat certain types of cancer ; lenalidomide (Revlimid), used to treat multiple myeloma, smoldering myeloma, and myelodysplastic syndromes ; abatacept (Orencia), used to treat autoimmune diseases such as rheumatoid arthritis ; pomalidomide (Pomalyst/Imnovid), an anti-cancer medication used for the treatment of multiple myeloma and AIDS-related Kaposi sarcoma ; ipilimumab (Yervoy), to treat cancer ; and luspatercept (Reblozyl) for the treatment of anemia in beta thalassemia and myelodysplastic syndromes. In 2025, 69% of the company's revenues came from the United States.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:12.755177+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:14:15.211338+00:00"
   }
 }

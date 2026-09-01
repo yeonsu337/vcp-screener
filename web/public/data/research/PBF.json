@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-08-29T04:31:54.785427+00:00",
+  "generated_at": "2026-09-01T02:07:30.555219+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8449306624,
+    "market_cap": 8652004352,
     "shares_outstanding": 118536838,
     "employees": 3678,
     "country": "United States",
@@ -21,24 +21,24 @@
     "business_model": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products.",
     "products": [
       "through two segments, Refining and Logistics",
-      "gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt",
+      "휘발유, 초저유황경유, 난방유, 항공유, 윤활유, 석유화학제품, 아스팔트",
       "its products in the Northeast, Midwest, Gulf Coast, and West Coast of the United States, as well as in other regions of"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "PBF Energy Inc. is a petroleum refining and logistics company that produces and sells transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products. The company owns and operated 6 refineries throughout the United States, located in Chalmette, Louisiana; Toledo, Ohio; Paulsboro, New Jersey; the Delaware City Refinery in Delaware City; Torrance, California; Martinez, California. PBF produces a range of products including gasoline, ultra-low-sulfur diesel (ULSD), heating oil, jet fuel, lubricants, petrochemicals and asphalt."
+    "wikipedia_excerpt": "PBF에너지(PBF Energy Inc.)는 운송용 연료, 난방유, 윤활유, 석유화학 원료 및 기타 석유 제품을 생산 및 판매하는 석유 정제 및 물류 회사입니다. 이 회사는 루이지애나주 찰메트에 위치한 미국 전역에 6개의 정유소를 소유하고 운영하고 있습니다. 오하이오주 톨레도; 뉴저지 주 폴스보로; 델라웨어 시티의 델라웨어 시티 정유소; 캘리포니아 주 토런스; 캘리포니아주 마르티네즈. PBF는 휘발유, 초저황경유(ULSD), 난방유, 항공유, 윤활유, 석유화학제품, 아스팔트 등 다양한 제품을 생산합니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
+    "roe": 0.23,
+    "roa": 0.03,
+    "profit_margin": 0.04,
+    "operating_margin": 0.09,
+    "gross_margin": 0.05,
+    "revenue_growth_ttm": 0.56,
     "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "dividend_yield": 1.54,
+    "payout_ratio": 0.1,
     "annual_revenue": [
       29332300000.0,
       33115300000.0,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 60.2,
+    "rs_rating": 96,
+    "score": 65.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 6.2471514,
-    "forward_pe": 7.35006,
-    "ev_to_ebitda": 10.207,
-    "price_to_sales": 0.24581087,
+    "trailing_pe": 6.2437983,
+    "forward_pe": 7.526387,
+    "ev_to_ebitda": 10.745,
+    "price_to_sales": 0.25170785,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 160.23,
-    "outperform_6m_vs_nasdaq": 76.2,
-    "outperform_1m_vs_nasdaq": 0.09,
+    "outperform_1y_vs_nasdaq": 159.73,
+    "outperform_6m_vs_nasdaq": 71.37,
+    "outperform_1m_vs_nasdaq": -2.57,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -152,17 +152,17 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "If any of the following risks actually occur, our business, financial condition, results of operations or cash flows would likely suffer.",
+        "description": "다음 위험 중 하나라도 실제로 발생하면 당사의 사업, 재무 상태, 영업 결과 또는 현금 흐름이 악화될 가능성이 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Business closings or reduced activity and layoffs in the markets we operate may adversely affect demand for our refined products.",
+        "description": "우리가 운영하는 시장의 사업 폐쇄, 활동 감소 및 해고는 정제 제품에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Deterioration of global and regional economic conditions may negatively affect our margins and harm our liquidity and ability to repay our outstanding debt and the trading price of PBF Energy’s Class A common stock.",
+        "description": "글로벌 및 지역 경제 상황의 악화는 당사 마진에 부정적인 영향을 미치고 당사의 유동성과 미결제 부채 상환 능력 및 PBF 에너지 클래스 A 보통주의 거래 가격에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "PBF Energy Inc. is a petroleum refining and logistics company that produces and sells transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products. The company owns and operated 6 refineries throughout the United States, located in Chalmette, Louisiana; Toledo, Ohio; Paulsboro, New Jersey; the Delaware City Refinery in Delaware City; Torrance, California; Martinez, California. PBF produces a range of products including gasoline, ultra-low-sulfur diesel (ULSD), heating oil, jet fuel, lubricants, petrochemicals and asphalt.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:32.040016+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:52.570598+00:00"
   }
 }

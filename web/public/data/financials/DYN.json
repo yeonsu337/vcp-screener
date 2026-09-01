@@ -1,24 +1,24 @@
 {
   "ticker": "DYN",
   "metrics": {
-    "eps_ttm": null,
-    "eps_forward": null,
+    "eps_ttm": -3.26,
+    "eps_forward": -3.34,
     "pe_ttm": null,
-    "pe_forward": null,
-    "market_cap": null,
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "gross_margin": null,
-    "operating_margin": null,
+    "pe_forward": -7.61,
+    "market_cap": 4748961792.0,
+    "roe": -0.82,
+    "roa": -0.39,
+    "profit_margin": 0.0,
+    "gross_margin": 0.0,
+    "operating_margin": 0.0,
     "revenue_growth": null,
     "earnings_growth": null,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "currency": "USD",
-    "sector": "",
-    "industry": "",
-    "name": ""
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "name": "Dyne Therapeutics, Inc."
   },
   "annual": {
     "periods": [

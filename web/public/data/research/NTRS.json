@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-08-29T04:24:46.543378+00:00",
+  "generated_at": "2026-09-01T01:56:55.676522+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 34174283776,
+    "market_cap": 33949249536,
     "shares_outstanding": 182955653,
     "employees": 23600,
     "country": "United States",
@@ -35,15 +35,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.17,
+    "roa": 0.01,
+    "profit_margin": 0.25,
+    "operating_margin": 0.42,
+    "gross_margin": 0.0,
+    "revenue_growth_ttm": 0.36,
+    "earnings_growth_ttm": 0.99,
+    "dividend_yield": 1.76,
+    "payout_ratio": 0.27,
     "annual_revenue": [
       8086400000.0,
       8290400000.0,
@@ -128,25 +128,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 67.6,
+    "rs_rating": 76,
+    "score": 68.2,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": 1.2336,
-    "trailing_pe": 16.033476,
-    "forward_pe": 14.742327,
+    "trailing_pe": 16.051903,
+    "forward_pe": 14.64525,
     "ev_to_ebitda": null,
-    "price_to_sales": 3.761409,
+    "price_to_sales": 3.7366407,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.26,
-    "outperform_6m_vs_nasdaq": 11.49,
-    "outperform_1m_vs_nasdaq": -3.73,
+    "outperform_1y_vs_nasdaq": 23.38,
+    "outperform_6m_vs_nasdaq": 13.16,
+    "outperform_1m_vs_nasdaq": -2.08,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:26.680520+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:43.064368+00:00"
   }
 }

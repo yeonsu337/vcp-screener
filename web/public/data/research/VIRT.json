@@ -1,0 +1,142 @@
+{
+  "ticker": "VIRT",
+  "company": "Virtu Financial, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
+  "generated_at": "2026-09-01T02:10:34.712118+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 5796056576,
+    "shares_outstanding": 88300678,
+    "employees": 1027,
+    "country": "United States",
+    "website": "https://www.virtu.com",
+    "beta": 0.607
+  },
+  "category_a_business": {
+    "overview": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally. It operates in two segments, Market Making and Execution Services.",
+    "business_model": "Virtu Financial, Inc.",
+    "products": [
+      "as a financial services company in the United States, Ireland, and internationally",
+      "in two segments, Market Making and Execution Services",
+      "agency execution services and trading venues for transparent trading in global equities, ETFs, fixed income, currencies"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.54,
+    "roa": 0.05,
+    "profit_margin": 0.17,
+    "operating_margin": 0.36,
+    "gross_margin": 0.66,
+    "revenue_growth_ttm": 0.29,
+    "earnings_growth_ttm": -0.01,
+    "dividend_yield": 1.45,
+    "payout_ratio": 0.16,
+    "annual_revenue": [
+      3632118000.0,
+      2876949000.0,
+      2293373000.0,
+      2364812000.0
+    ],
+    "annual_operating_income": [
+      1875578000.0,
+      1317965000.0,
+      933978000.0,
+      917909000.0
+    ],
+    "annual_eps": [
+      5.13,
+      2.97,
+      1.42,
+      2.44
+    ],
+    "annual_free_cf": [
+      454887000.0,
+      544678000.0,
+      415648000.0,
+      641944000.0,
+      null
+    ],
+    "annual_total_debt": [
+      8977136000.0,
+      7035152000.0,
+      5130962000.0,
+      3727079000.0,
+      null
+    ],
+    "annual_equity": [
+      1582279000.0,
+      1254174000.0,
+      1202727000.0,
+      1341899000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      1.63,
+      1.99,
+      1.54,
+      0.86,
+      1.65
+    ],
+    "quarterly_revenue": [
+      1189953000.0,
+      1095327000.0,
+      969887000.0,
+      824789000.0,
+      999573000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": -0.2,
+    "sales_yoy_pct": 29.1,
+    "ni_cagr_3y_pct": 20.9,
+    "roe_pct": 53.62
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Financial Services / Capital Markets 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 62.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 10.903654,
+    "forward_pe": 9.468063,
+    "ev_to_ebitda": null,
+    "price_to_sales": 1.7759821,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 36.95,
+    "outperform_6m_vs_nasdaq": 38.43,
+    "outperform_1m_vs_nasdaq": 7.84,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-01T02:16:03.282431+00:00"
+  }
+}

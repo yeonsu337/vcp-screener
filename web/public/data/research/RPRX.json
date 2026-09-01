@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-08-29T04:32:56.487693+00:00",
+  "generated_at": "2026-09-01T02:00:21.265552+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 35161284608,
+    "market_cap": 35484876800,
     "shares_outstanding": 445277344,
     "employees": 100,
     "country": "United States",
@@ -17,7 +17,7 @@
     "beta": 0.425
   },
   "category_a_business": {
-    "overview": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases.",
+    "overview": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다. 포트폴리오는 희귀질환, 종양학, 신경과학, 전염병, 혈액학, 당뇨병 등 다양한 치료 분야를 다루는 약 35개 시판 치료법과 20개 개발 단계 제품 후보에 대한 로열티로 구성된다. 이 회사는 자가면역질환용 임상시험용 의약품인 JNJ-4804의 개발을 진전시키기 위해 연구개발 자금 협력을 진행하고 있습니다.",
     "business_model": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States.",
     "products": [
       "as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United St"
@@ -27,15 +27,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.14,
+    "roa": 0.05,
+    "profit_margin": 0.32,
+    "operating_margin": 0.2,
+    "gross_margin": 0.96,
+    "revenue_growth_ttm": 0.17,
+    "earnings_growth_ttm": -0.46,
+    "dividend_yield": 1.54,
+    "payout_ratio": 0.49,
     "annual_revenue": [
       2378193000.0,
       2263576000.0,
@@ -123,20 +123,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 81,
-    "score": 58.1,
+    "rs_rating": 82,
+    "score": 58.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.1911,
-    "trailing_pe": 32.715054,
-    "forward_pe": 10.606921,
-    "ev_to_ebitda": 24.817,
-    "price_to_sales": 13.864871,
+    "trailing_pe": 33.01613,
+    "forward_pe": 10.704536,
+    "ev_to_ebitda": 24.671,
+    "price_to_sales": 13.992471,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 52.24,
-    "outperform_6m_vs_nasdaq": 21.65,
-    "outperform_1m_vs_nasdaq": -3.53,
+    "outperform_1y_vs_nasdaq": 54.25,
+    "outperform_6m_vs_nasdaq": 14.54,
+    "outperform_1m_vs_nasdaq": 1.59,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:34.737239+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:56.062791+00:00"
   }
 }

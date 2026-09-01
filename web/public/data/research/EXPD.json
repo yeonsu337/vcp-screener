@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
-  "generated_at": "2026-08-29T04:22:44.011128+00:00",
+  "generated_at": "2026-09-01T01:55:54.636082+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 24824309760,
+    "market_cap": 24652720128,
     "shares_outstanding": 129990622,
     "employees": 20389,
     "country": "United States",
@@ -26,20 +26,20 @@
       "ancillary services that include preparation of shipping and customs documentation, packing, crating, insurance services"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
     "wikipedia_excerpt": "Expeditors International of Washington, Inc. is an American Fortune 500 service-based logistics company with headquarters in Bellevue, Washington. Expeditors generates highly optimized and customized supply chain solutions for clients with unified technology systems integrated through a global network of over 340+ locations in 100+ countries on six continents."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.43,
+    "roa": 0.15,
+    "profit_margin": 0.08,
+    "operating_margin": 0.11,
+    "gross_margin": 0.14,
+    "revenue_growth_ttm": 0.32,
+    "earnings_growth_ttm": 0.52,
+    "dividend_yield": 0.85,
+    "payout_ratio": 0.23,
     "annual_revenue": [
       11069009000.0,
       10600515000.0,
@@ -124,25 +124,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 73.7,
+    "rs_rating": 78,
+    "score": 72.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.1998,
-    "trailing_pe": 27.797672,
-    "forward_pe": 24.089258,
-    "ev_to_ebitda": 19.253,
-    "price_to_sales": 2.0625048,
+    "trailing_pe": 27.767202,
+    "forward_pe": 23.92275,
+    "ev_to_ebitda": 19.143,
+    "price_to_sales": 2.0482483,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 35.29,
-    "outperform_6m_vs_nasdaq": 16.45,
-    "outperform_1m_vs_nasdaq": 3.52,
+    "outperform_1y_vs_nasdaq": 36.51,
+    "outperform_6m_vs_nasdaq": 14.98,
+    "outperform_1m_vs_nasdaq": 9.03,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Expeditors International of Washington, Inc. is an American Fortune 500 service-based logistics company with headquarters in Bellevue, Washington. Expeditors generates highly optimized and customized supply chain solutions for clients with unified technology systems integrated through a global network of over 340+ locations in 100+ countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:17.530861+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:14:37.650804+00:00"
   }
 }

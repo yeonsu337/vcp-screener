@@ -4,59 +4,47 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Railroads",
-  "generated_at": "2026-07-14T00:08:11.401826+00:00",
+  "generated_at": "2026-09-01T02:14:39.952748+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 92238012416,
-    "shares_outstanding": 1858138856,
+    "market_cap": 93568499712,
+    "shares_outstanding": 1852474917,
     "employees": 22200,
     "country": "United States",
     "website": "https://www.csx.com",
     "beta": 1.211
   },
   "category_a_business": {
-    "overview": "CSX는 미국과 캐나다에서 철도 기반 화물 운송 서비스를 제공하는 북미 선도 운송 기업입니다.",
-    "milestones": [
-      "1980년: Chessie System과 Seaboard Coast Line Industries가 합병하여 CSX Corporation 설립",
-      "1986: 합병된 철도 회사들이 CSX Transportation으로 통합",
-      "2003: 본사를 리치몬드, 버지니아에서 플로리다, 잭슨빌로 이전",
-      "2025: 총 141억 달러의 매출 기록",
-      "2025: 머천다이즈 사업부 매출 88억 달러 (전체 매출의 62%)"
-    ],
-    "business_model": "철도 기반 화물 운송 및 관련 물류 서비스를 제공하여 운임을 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "머천다이즈 운송 (화학, 농산물, 자동차 등)",
-      "복합 운송 (컨테이너, 트레일러)",
-      "석탄 운송 (발전소, 제철소)",
-      "트럭 운송 (벌크 액체 화학물질)",
-      "부동산 (철도 운영 지원 목적)"
-    ],
-    "value_chain_position": "Midstream + 북미 전역에 걸친 광범위한 철도 네트워크를 통해 화물 운송 서비스를 제공합니다.",
+    "overview": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada. It operates through two segments: rail and trucking. The company offers rail services; and transportation of intermodal containers and trailers, as well as other transportation services, such as rail-to-truck transfers and bulk commodity operations.",
+    "business_model": "CSX Corporation, together with its subsidiaries, provides rail-based freight transportation services in the United States and Canada.",
     "products": [
-      "전통 철도 운송 서비스",
-      "복합 운송 (인터모달)",
-      "철도-트럭 환적 서비스",
-      "벌크 상품 운송",
-      "창고 및 유통 서비스",
-      "드레지 서비스"
+      "rail-based freight transportation services in the United States and C",
+      "through two segments: rail and trucking",
+      "rail services",
+      "intermodal services through a network of approximately 30 terminals transporting manufactured consumer goods in containe",
+      "approximately 20,000 route mile rail network, which serves various population centers in 26 states east of the Mississip"
     ],
     "channels": [
-      "B2B"
+      "B2B / Enterprise"
     ],
-    "key_customers": "다양한 산업 분야의 제조업체, 산업 생산자, 자동차 산업, 건설 회사, 농부, 도매업체, 소매업체, 에너지 생산자 등 고객 집중도가 낮음"
+    "wikipedia_excerpt": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger,",
+    "milestones": [
+      "1980: as part of the Chessie System and Seaboard Coast Line Industries merger",
+      "1986: and it became known as CSX Transportation"
+    ]
   },
   "category_b_financials": {
     "roe": 0.24,
     "roa": 0.07,
     "profit_margin": 0.22,
-    "operating_margin": 0.36,
+    "operating_margin": 0.38,
     "gross_margin": 0.47,
-    "revenue_growth_ttm": 0.02,
-    "earnings_growth_ttm": 0.27,
-    "dividend_yield": 1.13,
-    "payout_ratio": 0.33,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 0.23,
+    "dividend_yield": 1.09,
+    "payout_ratio": 0.31,
     "annual_revenue": [
       14092000000.0,
       14540000000.0,
@@ -105,105 +93,59 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.54,
       0.43,
       0.39,
       0.37,
       0.44,
-      0.34,
       null
     ],
     "quarterly_revenue": [
+      3935000000.0,
       3482000000.0,
       3508000000.0,
       3587000000.0,
       3574000000.0,
-      3423000000.0,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 24.9,
-    "sales_yoy_pct": 1.7,
+    "eps_qoq_yoy_pct": 20.9,
+    "sales_yoy_pct": 10.1,
     "ni_cagr_3y_pct": -11.12,
-    "roe_pct": 23.68
+    "roe_pct": 24.36
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 800-900 billion USD (2023년 기준, 북미 전체 화물 운송 시장 규모 추정치 기반)",
-    "tam_cagr_pct": "3-5% (향후 3~5년) - 북미 경제 성장, 전자상거래 증가, 공급망 효율성 추구, 그리고 철도 운송의 환경적 이점(친환경성)에 대한 수요 증가를 근거로 함.",
-    "growth_drivers": [
-      "북미 경제 성장 및 산업 생산량 증가로 인한 화물 운송 수요 증대",
-      "전자상거래 확대로 인한 컨테이너 및 복합 운송(Intermodal) 수요 증가",
-      "철도 운송의 친환경성 및 비용 효율성 부각으로 인한 모달 시프트(Modal Shift) 가속화",
-      "공급망 효율성 및 회복탄력성 강화 요구 증대",
-      "주요 항만 및 산업 단지 접근성 강화를 통한 네트워크 활용 증대"
-    ],
-    "market_share_pct": "동부 지역 Class I 철도 시장에서 30-40% estimate",
-    "competitors": [
-      {
-        "name": "Norfolk Southern Corporation (NSC)",
-        "differentiation": "CSX와 유사하게 미국 동부를 주요 서비스 지역으로 하며, 경쟁이 치열한 노선 및 화물 유형에서 직접적인 경쟁 관계에 있음."
-      },
-      {
-        "name": "Union Pacific Corporation (UNP)",
-        "differentiation": "미국 서부 및 중부를 주요 서비스 지역으로 하며, CSX와는 주로 대륙 횡단 화물 운송에서 상호 연결을 통해 간접적으로 경쟁함."
-      },
-      {
-        "name": "BNSF Railway (Berkshire Hathaway 소유)",
-        "differentiation": "미국 서부 및 중부를 주요 서비스 지역으로 하며, Union Pacific과 유사하게 대륙 횡단 화물 운송에서 간접적인 경쟁 관계에 있음."
-      },
-      {
-        "name": "트럭 운송 회사 (예: J.B. Hunt Transport Services, Schneider National)",
-        "differentiation": "단거리 및 중거리 운송에서 유연성과 문전 배송(door-to-door) 서비스를 강점으로 철도와 경쟁하며, 복합 운송(Intermodal) 분야에서는 협력 및 경쟁 관계에 있음."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low - 막대한 초기 자본 투자, 광범위한 토지 확보, 규제 승인, 기존 네트워크 구축의 어려움으로 신규 진입 장벽이 매우 높음.",
-      "substitutes": "medium - 트럭 운송이 주요 대체재이나, 장거리 대량 운송에서는 철도의 비용 및 환경 효율성을 대체하기 어려움. 항공 및 해상 운송은 특정 화물에 한정됨.",
-      "buyer_power": "medium - 대형 화주(제조업체, 유통업체)는 상당한 협상력을 가지지만, 철도 네트워크의 독점적 특성으로 인해 선택지가 제한적일 수 있음.",
-      "supplier_power": "low - 철도 산업의 주요 공급업체(기관차, 레일 등)는 다양하며, CSX와 같은 대형 철도 회사는 상당한 구매력을 가짐.",
-      "rivalry": "high - 미국 동부 지역에서 Norfolk Southern과 직접적인 경쟁이 치열하며, 트럭 운송과의 경쟁도 상당함."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "광범위하고 전략적인 네트워크: 미시시피 강 동부 26개 주, 워싱턴 D.C., 캐나다 온타리오 및 퀘벡을 아우르는 약 20,000마일의 철도 네트워크 보유.",
-      "주요 항만 접근성: 대서양 및 멕시코만 연안, 미시시피 강, 오대호, 세인트로렌스 수로를 따라 70개 이상의 해양, 강, 호수 항만 터미널에 접근 가능.",
-      "다각화된 사업 포트폴리오: 일반 화물(Merchandise), 복합 운송(Intermodal), 석탄, 트럭 운송 등 다양한 사업 라인을 통해 안정적인 수익 구조 확보.",
-      "효율적인 운영 모델: 고객 서비스 개선, 자산 최적화, 직원 참여 증진에 중점을 둔 스케줄 기반 서비스 계획으로 비용 절감 및 현금 흐름 창출.",
-      "복합 운송 역량: CSX Intermodal Terminals 및 Quality Carriers (액체 화학물질 트럭 운송)와 같은 자회사를 통해 복합 운송 솔루스 제공."
-    ],
-    "competitive_weaknesses": [
-      "높은 자본 집약도: 철도 인프라 유지보수 및 확장에 막대한 자본 투자가 지속적으로 필요함.",
-      "규제 환경: 연방 철도청(FRA), 지상 운송 위원회(STB) 등 정부 기관의 엄격한 안전 및 운영 규제 준수 필요.",
-      "노동 집약적 산업: 숙련된 인력 확보 및 노사 관계 관리가 중요하며, 파업 등 노동 문제 발생 시 운영에 큰 영향을 미칠 수 있음.",
-      "경제 변동성 노출: 운송 수요가 거시 경제 상황, 산업 생산량, 에너지 가격 변동에 민감하게 반응함.",
-      "기후 변화 및 환경 규제 리스크: 탄소 배출 감소 목표 및 환경 규제 강화에 대한 대응이 필요하며, 기후 변화로 인한 자연재해(홍수, 가뭄 등)가 운영에 영향을 미칠 수 있음."
+      "Industrials / Railroads 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 61.1,
+    "rs_rating": 76,
+    "score": 55.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.2537,
-    "trailing_pe": 30.453987,
-    "forward_pe": 22.47822,
-    "ev_to_ebitda": 16.689,
-    "price_to_sales": 6.518127,
+    "peg_ratio": 2.0951,
+    "trailing_pe": 29.887571,
+    "forward_pe": 22.236311,
+    "ev_to_ebitda": 16.339,
+    "price_to_sales": 6.447664,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 24.68,
-    "outperform_6m_vs_nasdaq": 31.25,
-    "outperform_1m_vs_nasdaq": 4.16,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 35.34,
+    "outperform_6m_vs_nasdaq": 1.44,
+    "outperform_1m_vs_nasdaq": -3.71,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company.",
-  "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:15.479894+00:00"
-  }
+  "wikipedia_summary": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. The company was established in 1980 as part of the Chessie System and Seaboard Coast Line Industries merger. The various railroads of the former Chessie System and Seaboard Coast Line Industries that are now owned by CSX Corporation were eventually merged into a single line in 1986 and it became known as CSX Transportation. CSX Corporation currently has a number of subsidiaries beyond CSX Transportation. Previously based in Richmond, Virginia after the merger, the corporation moved its headquarters to Jacksonville, Florida, in 2003. CSX is a Fortune 500 company."
 }

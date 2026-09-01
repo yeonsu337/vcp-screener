@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Furnishings, Fixtures & Appliances",
-  "generated_at": "2026-08-29T04:30:53.685027+00:00",
+  "generated_at": "2026-09-01T02:04:26.997681+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2229941760,
+    "market_cap": 2191793408,
     "shares_outstanding": 57800460,
     "employees": 3570,
     "country": "United States",
@@ -23,23 +23,23 @@
       "modular carpet products in the United States, Canada, Latin America, Europe, Africa, Asia, and Australi",
       "modular carpets",
       "carpet replacement, installation, and maintenance services",
-      "최종 사용자에게 직접 판매 및 간접 판매를 통해 Interface, FLOR, NORAPLAN 및 NORAMENT 브랜드로 제품을 판매합니다."
+      "its products under the Interface, FLOR, NORAPLAN, and NORAMENT brands through direct sales to end users and indirect sal"
     ],
     "channels": [
       "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "조지아 주 애틀랜타에 본사를 둔 Interface, Inc.는 상업용 바닥재를 생산하는 세계적인 제조업체입니다.4 이 회사는 모듈식 카펫 타일, 고급 비닐 타일, nora 브랜드 고무 바닥재를 판매합니다."
+    "wikipedia_excerpt": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring.4 The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.23,
+    "roa": 0.09,
+    "profit_margin": 0.1,
+    "operating_margin": 0.19,
+    "gross_margin": 0.4,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 0.6,
+    "dividend_yield": 0.31,
+    "payout_ratio": 0.04,
     "annual_revenue": [
       1386854000.0,
       1315658000.0,
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 63.0,
+    "rs_rating": 79,
+    "score": 63.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.2322,
-    "trailing_pe": 15.619433,
-    "forward_pe": 15.942149,
-    "ev_to_ebitda": 10.413,
-    "price_to_sales": 1.5478678,
+    "trailing_pe": 15.352226,
+    "forward_pe": 15.66942,
+    "ev_to_ebitda": 10.421,
+    "price_to_sales": 1.5213878,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 18.07,
-    "outperform_6m_vs_nasdaq": 4.01,
-    "outperform_1m_vs_nasdaq": 4.45,
+    "outperform_1y_vs_nasdaq": 20.84,
+    "outperform_6m_vs_nasdaq": 9.17,
+    "outperform_1m_vs_nasdaq": 6.75,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "Interface, Inc., headquartered in Atlanta, Georgia, is a global manufacturer of commercial flooring.4 The company sells modular carpet tiles, luxury vinyl tile, and nora brand rubber flooring.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:46.771953+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:16:01.289824+00:00"
   }
 }

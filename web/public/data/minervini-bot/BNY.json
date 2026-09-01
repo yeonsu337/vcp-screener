@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "BNY",
-  "generated_at": "2026-08-29T04:13:53.959813+00:00",
-  "source_results_date": "2026-08-29",
+  "generated_at": "2026-09-01T01:47:57.923833+00:00",
+  "source_results_date": "2026-09-01",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.88,
+  "confidence": 0.85,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $165.69 근접(-2.08%).",
-    "13주 베이스 7.0% → 5.2% 수축, VDU 0.60× 진행.",
-    "Trend Template 8/8 통과, RS 79, RS 라인 신고가 -2.6%.",
+    "매수 대기 — Stage 2 진입, pivot $165.69 근접(-2.66%).",
+    "13주 베이스 7.0% → 5.2% 수축, VDU 0.84× 진행.",
+    "Trend Template 8/8 통과, RS 80, RS 라인 신고가 -2.7%.",
     "$165.69 돌파 시 매수·-7% 손절($154.09)·+20%($198.83) 절반 익절."
   ],
   "action": {
@@ -24,8 +24,8 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "6/8",
-    "rs_rating": 79,
+    "vcp_quality_score": "5/8",
+    "rs_rating": 80,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -44,13 +44,12 @@
     "L1_liquidity_gate",
     "F1_outperform_1y",
     "H4_ni_cagr_3y",
-    "P2_last_contraction"
+    "P2_last_contraction",
+    "R2_rs_80"
   ],
   "key_failures": [
-    "P3_vol_dryup (0.60× vs 0.6×)",
+    "P3_vol_dryup (0.84× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
-  "warnings": [
-    "RS 79 — Minervini 선호 80+ 미달, 강도 평균"
-  ]
+  "warnings": []
 }

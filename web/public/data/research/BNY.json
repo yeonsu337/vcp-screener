@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Banks - Diversified",
-  "generated_at": "2026-08-29T04:16:36.611620+00:00",
+  "generated_at": "2026-09-01T01:50:18.982048+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 110256922624,
+    "market_cap": 109429145600,
     "shares_outstanding": 678504142,
     "employees": 46500,
     "country": "United States",
@@ -17,36 +17,45 @@
     "beta": 1.049
   },
   "category_a_business": {
-    "overview": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally. It operates through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments. The Securities Services segment offers custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for private equity and real estate funds, foreign exchange, securities lending, liquidity/lending services, and data analytics.",
-    "business_model": "The Bank of New York Mellon Corporation provides a range of financial products and services in the United States and internationally.",
+    "overview": "BNY 멜론은 미국에 본사를 둔 글로벌 금융 서비스 기업으로, 자산 관리 및 자산 서비스에 특화되어 있습니다.",
+    "milestones": [
+      "1784: 알렉산더 해밀턴이 뉴욕 은행 설립",
+      "1792: 뉴욕 증권 거래소 최초 상장 기업",
+      "1869: 토마스 멜론이 멜론 금융 공사 설립",
+      "2007: 뉴욕 은행과 멜론 금융 공사 합병으로 BNY 멜론 탄생",
+      "2018: 포춘 500대 기업 중 가장 오래된 기업으로 선정",
+      "2024: 포춘 500대 기업 130위 기록"
+    ],
+    "business_model": "수수료 기반의 자산 서비스 및 자산 관리 솔루션을 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "증권 서비스 수수료",
+      "시장 및 자산 서비스 수수료",
+      "투자 및 자산 관리 수수료",
+      "순이자 수입"
+    ],
+    "value_chain_position": "Midstream + 금융 시장의 인프라 역할을 하며 기관 고객에게 다양한 자산 관련 서비스를 제공합니다.",
     "products": [
-      "a range of financial products and services in the United States and internationally",
-      "through Securities Services, Market and Wealth Services, Investment and Wealth Management, and Other segments",
-      "custody, trust and depositary, accounting, exchange-traded funds, middle-office solutions, transfer agency, services for",
-      "trustee, paying agency, fiduciary, escrow and other financial, issuer, and support services for brokers and investors",
-      "clearing and custody, investment, wealth and retirement solutions, technology and enterprise data management, trading,"
+      "수탁 및 보관 서비스",
+      "펀드 회계 및 관리",
+      "외환 및 증권 대여",
+      "현금 관리 솔루션",
+      "투자 운용 서비스"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B"
     ],
-    "wikipedia_excerpt": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first ",
-    "milestones": [
-      "2007: by the merger of the Bank of New York and Mellon Financial Corporation",
-      "2024: , it was ranked 130th on the Fortune 500 list of the largest U",
-      "2018: Fortune analysis identified it as the oldest company on the list",
-      "2026: , it was the 10th-largest bank in the United States by total assets and the 83rd-largest in the worl"
-    ]
+    "key_customers": "기관 투자자, 기업, 정부, 고액 자산가 등 다양한 고객을 보유하며 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.14,
+    "roa": 0.01,
+    "profit_margin": 0.29,
+    "operating_margin": 0.4,
+    "gross_margin": 0.0,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": 0.27,
+    "dividend_yield": 1.37,
+    "payout_ratio": 0.25,
     "annual_revenue": [
       19759000000.0,
       18258000000.0,
@@ -126,33 +135,142 @@
     "roe_pct": 14.12
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 100-150조 USD (글로벌 자산 관리 및 자산 서비스 시장 추정치 기반)",
+    "tam_cagr_pct": "5-7% (글로벌 자산 관리 시장의 꾸준한 성장, 기관 투자 증가, 디지털 전환 가속화에 기반)",
+    "growth_drivers": [
+      "글로벌 자산 관리 시장의 지속적인 성장 및 기관 투자자들의 자산 서비스 수요 증가",
+      "디지털 자산 및 블록체인 기술 도입을 통한 새로운 서비스 기회 창출",
+      "규제 환경 변화에 따른 컴플라이언스 및 리스크 관리 서비스 수요 증가",
+      "고액 자산가 및 패밀리 오피스의 복잡한 자산 관리 니즈 증가",
+      "신흥 시장의 경제 성장과 자산 축적에 따른 서비스 확장 기회"
+    ],
+    "market_share_pct": "자산 서비스 시장에서 10-15% (글로벌 수탁 자산 기준)",
+    "competitors": [
+      {
+        "name": "JPMorgan Chase & Co.",
+        "differentiation": "광범위한 상업 및 투자 은행 서비스와 결합된 강력한 자산 관리 및 자산 서비스 제공"
+      },
+      {
+        "name": "State Street Corporation",
+        "differentiation": "자산 서비스 및 투자 관리 분야에 특화된 글로벌 리더, 특히 ETF 및 인덱스 펀드 서비스 강점"
+      },
+      {
+        "name": "Northern Trust Corporation",
+        "differentiation": "고액 자산가, 기관 투자자 및 패밀리 오피스에 대한 맞춤형 자산 관리 및 자산 서비스 전문성"
+      },
+      {
+        "name": "Citigroup Inc.",
+        "differentiation": "글로벌 네트워크를 활용한 광범위한 금융 서비스 제공, 특히 국제적인 자산 서비스 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (높은 자본 요구 사항, 복잡한 규제, 기존 플레이어의 강력한 브랜드 및 네트워크로 진입 장벽 높음)",
+      "substitutes": "medium (내부 자산 관리 역량 강화, 기술 기반의 소규모 전문 서비스 제공자 등장 가능성)",
+      "buyer_power": "medium (기관 투자자 및 대형 고객은 서비스 제공자 선택에 있어 상당한 협상력을 가짐)",
+      "supplier_power": "low (기술 공급업체, 데이터 제공업체 등은 다수 존재하며 BNY Mellon의 규모로 인해 협상력은 제한적)",
+      "rivalry": "high (소수의 대형 글로벌 플레이어들이 시장을 지배하며, 서비스 차별화 및 가격 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Financial Services / Banks - Diversified 카테고리 — yfinance peer 비교 권장"
+      "글로벌 규모와 광범위한 서비스 포트폴리오 (자산 서비스, 자산 관리, 발행사 서비스 등)",
+      "오랜 역사와 신뢰도를 바탕으로 한 강력한 브랜드 인지도 및 고객 관계",
+      "복잡한 규제 환경에 대한 깊은 이해와 준수 역량",
+      "기술 투자 및 디지털 전환을 통한 운영 효율성 및 서비스 혁신 추구",
+      "다양한 자산 클래스 및 지역에 걸친 광범위한 전문성"
+    ],
+    "competitive_weaknesses": [
+      "레거시 시스템 및 기술 부채로 인한 디지털 전환 속도 제약 가능성",
+      "수익성 압박 및 수수료 기반 비즈니스 모델의 시장 변동성 노출",
+      "글로벌 규제 환경 변화에 대한 지속적인 적응 및 컴플라이언스 비용 부담",
+      "핀테크 스타트업 및 기술 기업의 특정 서비스 분야에서의 민첩성 및 혁신 속도에 대한 경쟁 압력",
+      "매크로 경제 환경 변화(금리, 시장 변동성)에 따른 자산 가치 및 수수료 수익 영향"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 69.3,
-    "vcp_quality": 15.7,
+    "rs_rating": 80,
+    "score": 68.6,
+    "vcp_quality": 14.9,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.3433,
-    "trailing_pe": 18.961494,
-    "forward_pe": 15.860143,
+    "trailing_pe": 18.974117,
+    "forward_pe": 15.74107,
     "ev_to_ebitda": null,
-    "price_to_sales": 5.148584,
+    "price_to_sales": 5.1099296,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.63,
-    "outperform_6m_vs_nasdaq": 18.46,
-    "outperform_1m_vs_nasdaq": -2.2,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 33.16,
+    "outperform_6m_vs_nasdaq": 20.15,
+    "outperform_1m_vs_nasdaq": -0.76,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "BNY Mellon은 240년 이상의 역사를 가진 세계 최대의 자산 관리 및 자산 서비스 제공업체 중 하나로, 강력한 브랜드 인지도와 고객 신뢰를 구축했습니다.",
+      "글로벌 금융 시장에서 복잡한 규제 환경을 준수하며 운영하는 능력은 신규 진입자에게 높은 진입 장벽으로 작용합니다.",
+      "방대한 고객 기반과 오랜 기간 축적된 데이터 및 기술 인프라는 경쟁 우위를 제공합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "금리 인상 사이클 종료 및 글로벌 자산 시장 회복 기대감",
+    "bull_case": "글로벌 자산 시장 회복과 비용 효율성 개선으로 EPS 성장 가속화 및 주가 30% 상승 예상.",
+    "base_case": "안정적인 자산 관리 수수료 수익과 점진적인 비용 통제를 통해 견고한 수익성을 유지하며 시장 평균 이상의 성과를 보일 것입니다. 디지털 전환 가속화로 운영 효율성이 개선될 것입니다.",
+    "bear_case": "예상치 못한 글로벌 경기 침체 심화, 금리 인하 가속화, 또는 규제 강화로 인해 자산 관리 수수료 수익이 감소하고 수익성이 악화될 수 있습니다. 경쟁 심화도 부정적인 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "관리 및 수탁 자산(AUM/AUC) 성장률",
+      "순이자수익(NII) 추이",
+      "비용 효율성 비율 (Cost-to-Income Ratio)",
+      "기술 투자 및 디지털 전환 성과"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "금리 상승, 인플레이션, 경기 침체 등 거시경제 환경 변화는 고객의 자산 가치 하락 및 금융 상품 수요 감소로 이어져 회사의 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "금융 서비스 산업에 대한 규제 환경은 지속적으로 변화하고 있으며, 새로운 규제 준수 및 기존 규제 위반은 상당한 비용과 벌금, 사업 제한을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "전통적인 금융 기관 및 핀테크 기업과의 경쟁 심화는 수수료 압박, 시장 점유율 하락, 인재 유출로 이어져 회사의 성장과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 공격, 데이터 유출, 시스템 장애 등 정보 기술 및 사이버 보안 관련 위험은 고객 신뢰 상실, 재정적 손실, 규제 위반으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "글로벌 시장의 불확실성 증가는 회사의 투자 포트폴리오 가치 하락 및 외환 변동성 증가로 이어져 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 고객 또는 특정 자산군에 대한 의존도가 높을 경우, 해당 고객의 이탈 또는 자산군의 가치 하락은 회사의 수익성에 큰 타격을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "지정학적 불안정, 무역 분쟁, 팬데믹 등 예측 불가능한 글로벌 이벤트는 금융 시장의 변동성을 증폭시키고 회사의 사업 운영에 차질을 초래할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 금융 시스템에 심각한 위기가 발생하여 BNY의 주요 고객들이 대규모 자산 인출을 시작하고, 동시에 투자 포트폴리오의 가치가 급락하여 유동성 위기에 직면한다.",
+      "대규모 사이버 공격으로 인해 고객 데이터가 유출되고 핵심 시스템이 마비되어 막대한 재정적 손실과 함께 규제 기관의 강력한 제재를 받아 사업 운영이 불가능해진다.",
+      "규제 당국의 강력한 제재와 함께 주요 사업 부문에서 경쟁사에 밀려 시장 점유율이 급격히 하락하고, 핵심 인재들이 대거 이탈하여 회사의 경쟁력이 상실된다."
+    ],
+    "exit_signals": [
+      "분기별 실적 발표에서 핵심 사업 부문의 수수료 수익이 2분기 연속 10% 이상 감소하는 경우.",
+      "주요 규제 기관으로부터 대규모 벌금 부과 또는 사업 운영에 심각한 제한을 가하는 조치가 발표되는 경우.",
+      "경쟁사의 시장 점유율이 급격히 상승하고 BNY의 핵심 인재들이 대거 경쟁사로 이직하는 뉴스가 보도되는 경우.",
+      "글로벌 금융 시장의 극심한 변동성으로 인해 BNY의 자산운용 부문에서 대규모 손실이 발생하고 고객 자산 유출이 가속화되는 경우."
+    ]
+  },
   "wikipedia_summary": "The Bank of New York Mellon Corporation, commonly known as BNY or by its prior brand name BNY Mellon, is an American international financial services company headquartered in New York City with major offices also in Pittsburgh, Pennsylvania. It was established in its current form in July 2007 by the merger of the Bank of New York and Mellon Financial Corporation. Through the lineage of Bank of New York, which was founded in 1784 by a group that included Alexander Hamilton, BNY is regarded as one of the three oldest banks in the United States and among the oldest in the world. It was the first company listed on the New York Stock Exchange. In 2024, it was ranked 130th on the Fortune 500 list of the largest U.S. corporations by total revenue, and a 2018 Fortune analysis identified it as the oldest company on the list. As of 2026, it was the 10th-largest bank in the United States by total assets and the 83rd-largest in the world. BNY is considered a systemically important financial institution by the Financial Stability Board.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:13.997890+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:14:15.213003+00:00"
   }
 }

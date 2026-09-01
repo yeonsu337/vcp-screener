@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "KNTK",
-  "generated_at": "2026-08-29T04:13:53.962025+00:00",
-  "source_results_date": "2026-08-29",
+  "generated_at": "2026-09-01T01:47:57.923592+00:00",
+  "source_results_date": "2026-09-01",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
-  "confidence": 0.66,
+  "confidence": 0.7,
   "lines": [
-    "추격 위험 — Pivot $51.72 대비 +5.2%, buy zone 초과.",
-    "13주 베이스 10.4% → 12.6% → 8.9% → 5.8% → 6.2%, VDU 1.11× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 78로 추세는 살아있음.",
+    "추격 위험 — Pivot $51.72 대비 +6.0%, buy zone 초과.",
+    "13주 베이스 10.4% → 12.6% → 8.9% → 5.8% → 6.2%, VDU 1.01× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 81로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -24,8 +24,8 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "4/8",
-    "rs_rating": 78,
+    "vcp_quality_score": "5/8",
+    "rs_rating": 81,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
@@ -45,14 +45,12 @@
     "E7_roe",
     "F1_outperform_1y",
     "H4_ni_cagr_3y",
-    "P2_last_contraction"
+    "P2_last_contraction",
+    "R2_rs_80"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.11× vs 0.6×)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-5.5% vs ≥-5.0%)"
+    "P3_vol_dryup (1.01× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
-  "warnings": [
-    "RS 78 — Minervini 선호 80+ 미달, 강도 평균"
-  ]
+  "warnings": []
 }

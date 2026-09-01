@@ -1,0 +1,178 @@
+{
+  "ticker": "ETON",
+  "company": "Eton Pharmaceuticals, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "generated_at": "2026-09-01T02:12:37.838492+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 1727564672,
+    "shares_outstanding": 28583135,
+    "employees": 44,
+    "country": "United States",
+    "website": "https://www.etonpharma.com",
+    "beta": 0.869
+  },
+  "category_a_business": {
+    "overview": "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases. Its commercial rare disease products include Increlex for the treatment of severe primary igf-1 deficiency; Alkindi Sprinkle for adrenal insufficiency; Khindivi for adrenocortical insufficiency; Galzin for Wilson disease; PKU Golike for phenylketonuria; Carglumic Acid for N-acetylglutamate synthase deficiency; Betaine Anhydrous for homocystinuria; and Nitisinone for tyrosinemia type 1. The company is also developing various product candidates, which are in late-stage de",
+    "business_model": "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases.",
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.36,
+    "roa": 0.12,
+    "profit_margin": 0.12,
+    "operating_margin": 0.36,
+    "gross_margin": 0.61,
+    "revenue_growth_ttm": 0.99,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      79950000.0,
+      39011000.0,
+      31642000.0,
+      21251000.0,
+      null
+    ],
+    "annual_operating_income": [
+      -844000.0,
+      -2597000.0,
+      -1192000.0,
+      -8260000.0,
+      null
+    ],
+    "annual_eps": [
+      -0.17,
+      -0.15,
+      -0.04,
+      -0.36,
+      null
+    ],
+    "annual_free_cf": [
+      10191000.0,
+      -9045000.0,
+      6040000.0,
+      2033000.0,
+      null
+    ],
+    "annual_total_debt": [
+      31018000.0,
+      29918000.0,
+      5402000.0,
+      6524000.0,
+      null
+    ],
+    "annual_equity": [
+      26154000.0,
+      24428000.0,
+      15477000.0,
+      13078000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.05,
+      0.05,
+      -0.07,
+      -0.1,
+      -0.06
+    ],
+    "quarterly_revenue": [
+      24266000.0,
+      21281000.0,
+      22459000.0,
+      18928000.0,
+      17282000.0
+    ],
+    "quarterly_periods": [
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "sales_yoy_pct": 98.6,
+    "roe_pct": 35.97
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 98,
+    "score": 64.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 154.97437,
+    "forward_pe": 23.426357,
+    "ev_to_ebitda": 68.709,
+    "price_to_sales": 16.360289,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 228.27,
+    "outperform_6m_vs_nasdaq": 217.08,
+    "outperform_1m_vs_nasdaq": 26.27,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "특정 요인은 당사의 사업, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있으므로 이를 신중하게 고려해야 합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Other events that we do not currently anticipate or that we currently deem immaterial may also affect our results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Relating to Pricing, Reimbursement and Market Access The Inflation Reduction Act and related Medicare reforms may adversely affect the prices we realize and the demand for our products.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, our products may be subject to pricing and discount requirements under the U.S.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "처방집 통제 및 활용 관리를 포함한 제3자 보장, 상환 및 의료 비용 억제 계획으로 인해 당사의 향후 수익이 제한될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "보장 및 환급이 예상보다 부적절하거나, 지연되거나, 더 제한적인 경우 또는 총 순이익 감소가 증가하는 경우 당사의 매출, 수익성 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-01T02:14:36.217982+00:00"
+  }
+}

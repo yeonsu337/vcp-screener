@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-08-29T04:33:58.500742+00:00",
+  "generated_at": "2026-09-01T02:09:33.242204+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4368757248,
+    "market_cap": 4302448640,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
@@ -18,10 +18,10 @@
   },
   "category_a_business": {
     "overview": "Concentra Group Holdings Parent, Inc. provides occupational health services in the United States. The company operates in three segments: Occupational Health centers, Onsite health clinics, and Other business.",
-    "business_model": "Concentra Group Holdings Parent, Inc.",
+    "business_model": "컨센트라 그룹 홀딩스 모기업, Inc.",
     "products": [
-      "occupational health services in the United States",
-      "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
+      "미국의 직업 건강 서비스",
+      "산업 보건 센터, 현장 건강 진료소 및 기타 사업의 세 가지 부문으로 구성됩니다.",
       "occupational health services, including workers compensation, employer, and consumer health services",
       "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
       "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
@@ -31,15 +31,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.47,
+    "roa": 0.08,
+    "profit_margin": 0.09,
+    "operating_margin": 0.19,
+    "gross_margin": 0.29,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 0.73,
+    "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
       1900192000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 65.6,
+    "rs_rating": 85,
+    "score": 63.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.103226,
-    "forward_pe": 18.718855,
-    "ev_to_ebitda": 13.951,
-    "price_to_sales": 1.9098685,
+    "trailing_pe": 22.05229,
+    "forward_pe": 18.434742,
+    "ev_to_ebitda": 13.686,
+    "price_to_sales": 1.8808807,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.14,
-    "outperform_6m_vs_nasdaq": 31.81,
-    "outperform_1m_vs_nasdaq": 1.39,
+    "outperform_1y_vs_nasdaq": 22.07,
+    "outperform_6m_vs_nasdaq": 27.33,
+    "outperform_1m_vs_nasdaq": 2.87,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:15.388668+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:14:29.971237+00:00"
   }
 }

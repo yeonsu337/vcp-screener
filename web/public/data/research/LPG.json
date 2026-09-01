@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-08-29T04:20:41.644767+00:00",
+  "generated_at": "2026-09-01T01:51:56.762578+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 2129721728,
+    "market_cap": 2140845312,
     "shares_outstanding": 42782681,
     "employees": 602,
     "country": "United States",
@@ -17,25 +17,42 @@
     "beta": 0.76
   },
   "category_a_business": {
-    "overview": "Dorian LPG Ltd., together with its subsidiaries, engages in the transportation of liquefied petroleum gas through its LPG tankers worldwide. It owns and operates twenty-eight very large gas carriers. Dorian LPG Ltd.",
-    "business_model": "Dorian LPG Ltd., together with its subsidiaries, engages in the transportation of liquefied petroleum gas through its LPG tankers worldwide.",
+    "overview": "Dorian LPG는 전 세계적으로 LPG 운송 서비스를 제공하는 해운 회사입니다.",
+    "milestones": [
+      "2013: Dorian LPG Ltd. 설립 및 본사 코네티컷 스탬포드에 위치",
+      "2014: 뉴욕 증권 거래소 상장 (NYSE: LPG)",
+      "2015: 신조 VLGC 선박 인도 시작 및 선대 확장",
+      "2019: Helios Pool 참여를 통해 선박 활용 효율 증대",
+      "2020: 스크러버 설치 및 연료 효율 개선 투자 지속",
+      "2023: VLGC 28척 보유 및 운영"
+    ],
+    "business_model": "초대형 가스 운반선(VLGC)을 이용한 LPG 해상 운송 서비스 제공",
+    "revenue_streams": [
+      "용선 계약 (Time Charter) 운임",
+      "항해 용선 계약 (Voyage Charter) 운임",
+      "풀(Pool) 운영 수익 분배"
+    ],
+    "value_chain_position": "Midstream: LPG 생산자와 소비자를 연결하는 해상 운송 서비스 제공",
     "products": [
-      "twenty-eight very large gas carriers"
+      "초대형 가스 운반선(VLGC) 대여",
+      "LPG 해상 운송 서비스",
+      "선박 관리 및 운영"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주요 고객은 Exxon Mobil, Chevron, Shell 등 글로벌 에너지 기업, Glencore, Vitol 등 상품 트레이더, E1 Corp., SK Gas 등 수입업체로 구성되어 있으며, 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.28,
+    "roa": 0.11,
+    "profit_margin": 0.56,
+    "operating_margin": 0.6,
+    "gross_margin": 0.73,
+    "revenue_growth_ttm": 1.24,
+    "earnings_growth_ttm": 12.63,
+    "dividend_yield": 6.73,
+    "payout_ratio": 0.39,
     "annual_revenue": [
       481511242.0,
       353341476.0,
@@ -112,72 +129,142 @@
     "roe_pct": 28.34
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 20-25 billion USD (추정) - 글로벌 LPG 해상 운송 시장 규모는 다양한 보고서에서 2023년 기준 약 15-20 billion USD로 추정되며, VLGC 부문이 가장 큰 비중을 차지함. LPG의 생산 및 소비 증가 추세를 고려하여 추정.",
+    "tam_cagr_pct": "4-6% (추정) - 글로벌 LPG 수요 증가, 특히 아시아 신흥국에서의 수요 증가와 석유화학 산업의 원료 사용 확대가 주된 근거. 다만, 신조선 인도 증가로 인한 공급 과잉 우려가 성장률을 제한할 수 있음.",
+    "growth_drivers": [
+      "아시아 신흥국(특히 중국, 인도)의 LPG 수요 증가 및 석유화학 원료 사용 확대",
+      "미국 셰일가스 생산 증가에 따른 LPG 수출량 증대",
+      "환경 규제 강화에 따른 저탄소 연료로서 LPG의 상대적 매력 부각",
+      "글로벌 에너지 안보 강화 노력에 따른 LPG 교역량 증가"
+    ],
+    "market_share_pct": "약 5-7% (추정) - 2026년 5월 22일 기준 전 세계 VLGC 선단 427척 중 Dorian LPG가 21척(용선 선박 제외)을 보유하고 있으며, 이는 선박 수 기준 약 4.9%에 해당. 시장 점유율은 용량 및 운항률에 따라 변동 가능.",
+    "competitors": [
+      {
+        "name": "BW LPG Ltd.",
+        "differentiation": "세계 최대 VLGC 선단 보유, 광범위한 글로벌 네트워크 및 장기 용선 계약 비중이 높음."
+      },
+      {
+        "name": "Nippon Yusen Kabushiki Kaisha (NYK Line)",
+        "differentiation": "종합 해운사로서 VLGC 외 다양한 선종 운영, 일본 및 아시아 시장 내 강력한 입지."
+      },
+      {
+        "name": "Petredec Pte. Ltd.",
+        "differentiation": "LPG 트레이딩 및 해상 운송을 통합한 사업 모델, 시장 변동성에 대한 유연한 대응."
+      },
+      {
+        "name": "Avance Gas Holding Ltd.",
+        "differentiation": "현대적이고 연료 효율적인 VLGC 선단에 집중, 스팟 시장 노출도가 높은 편."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - VLGC 건조에 막대한 자본 투자와 전문 기술이 필요하지만, 해운 시장 호황기에는 신규 진입 유인이 존재하며, 조선소의 건조 능력은 진입 장벽을 낮출 수 있음.",
+      "substitutes": "low - LPG 해상 운송은 대량의 LPG를 장거리 운송하는 가장 효율적인 수단이며, 현재 대체 가능한 운송 수단이 제한적임. 다만, 파이프라인 운송은 특정 지역에서 대체재가 될 수 있으나, 글로벌 교역에는 한계가 있음.",
+      "buyer_power": "medium - 주요 고객은 글로벌 에너지 기업 및 대형 트레이더로, 이들은 대량의 운송 계약을 체결하며 가격 협상력이 높음. 특히 소수의 대형 고객에 대한 의존도가 높을 경우 구매자 교섭력이 더욱 커짐.",
+      "supplier_power": "low - 선박 건조사, 기자재 공급업체, 선원 공급업체 등이 주요 공급자이나, 글로벌 경쟁이 치열하여 특정 공급자의 독점적 지위는 약함. 다만, 특정 기술이나 부품의 경우 공급자 교섭력이 높아질 수 있음.",
+      "rivalry": "high - VLGC 시장은 다수의 선사가 경쟁하며, 선박 수와 용량 증가로 인한 공급 과잉 우려가 상존함. 운임은 시장 상황에 따라 크게 변동하며, 경쟁은 주로 가격, 선박의 위치, 연령, 상태 등을 기반으로 이루어짐."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+      "현대적이고 효율적인 VLGC 선단 보유 (평균 선령 10.5년)",
+      "Helios Pool을 통한 효율적인 선박 운영 및 시장 접근성 강화",
+      "글로벌 에너지 기업 및 대형 트레이더와의 견고한 고객 관계",
+      "균형 잡힌 용선 전략 (장기/단기 용선, 스팟 시장 혼합) 추구"
+    ],
+    "competitive_weaknesses": [
+      "VLGC 부문에만 집중되어 있어 시장 변동성에 취약함",
+      "소수의 대형 고객에 대한 높은 매출 의존도",
+      "Helios Pool에 대한 높은 의존도 (매출의 95-99%가 Pool을 통해 발생)",
+      "신조선 인도 증가에 따른 잠재적 공급 과잉 및 운임 하락 위험"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 77.5,
-    "vcp_quality": 10.5,
+    "rs_rating": 89,
+    "score": 81.7,
+    "vcp_quality": 13.5,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 6.602122,
-    "forward_pe": 11.610496,
-    "ev_to_ebitda": 6.53,
-    "price_to_sales": 3.6792278,
+    "trailing_pe": 6.636605,
+    "forward_pe": 11.671138,
+    "ev_to_ebitda": 6.618,
+    "price_to_sales": 3.6984446,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 46.92,
-    "outperform_6m_vs_nasdaq": 24.74,
-    "outperform_1m_vs_nasdaq": -0.75,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 50.22,
+    "outperform_6m_vs_nasdaq": 23.43,
+    "outperform_1m_vs_nasdaq": 1.6,
+    "lynch_category": "Fast Grower",
+    "moat_type": "None",
+    "moat_evidence": [
+      "LPG 운송 산업은 경쟁이 치열하며, VLGC 부문에 약 129개 소유주가 존재하고 상위 10개 소유주가 전체 선단의 41%를 차지한다.",
+      "운송 서비스 경쟁은 가격, 선박 위치, 크기, 연령, 상태 및 용선주의 수용 가능성에 따라 결정되며, 이는 차별화된 해자를 구축하기 어렵게 만든다.",
+      "회사의 매출 대부분이 Helios Pool을 통해 발생하며, 제한된 수의 고객에 대한 의존도가 높다는 점은 고객 전환 비용이나 네트워크 효과를 시사하지 않는다.",
+      "회사는 VLGC 부문에만 집중하며 산업 다각화가 부족하여 특정 산업의 불리한 상황에 취약하다."
+    ],
+    "moat_durability_years": "없음",
+    "new_trigger": "최근 12개월 내 신제품, 신경영진, 산업 촉매제에 대한 정보 없음.",
+    "bull_case": "LPG 수요 증가 및 공급망 안정화로 운임 상승, 선단 효율성 개선으로 수익성 극대화.",
+    "base_case": "글로벌 LPG 수요는 꾸준히 유지되나, 신조선 인도 및 경쟁 심화로 운임은 현 수준을 유지하거나 소폭 변동할 것으로 예상됩니다. 회사는 Helios Pool을 통한 안정적인 매출을 유지하며, 효율적인 선단 운영으로 견고한 수익성을 이어갈 것입니다.",
+    "bear_case": "글로벌 경기 침체로 LPG 수요가 감소하고, 신조선 과잉 공급으로 운임이 급락하여 수익성이 크게 악화될 수 있습니다. 또한, 지정학적 리스크 및 환경 규제 강화로 운영 비용이 증가할 위험이 있습니다.",
+    "key_metrics_to_watch": [
+      "VLGC 스팟 운임 지수",
+      "글로벌 LPG 수요 및 공급량",
+      "신조선 인도 및 노후선 폐선 추이",
+      "주요 고객사의 계약 갱신 여부",
+      "연료비 변동성"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Due to the general lack of industry diversification, adverse developments in the VLGC segment of the LPG shipping industry may adversely affect our business, financial condition and operating results.",
+        "category": "고객집중도",
+        "description": "제한된 수의 고객에게 매출의 상당 부분을 의존하고 있어, 이들 고객이 의무를 이행하지 못할 경우 손실을 입거나 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "기존 및 신규 고객과의 관계 확대를 위한 경쟁이 치열하며, 이는 사업 확장에 어려움을 초래할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "A reduction in or elimination of dividends could cause investors in our common shares to incur substantial losses.",
+        "category": "재무",
+        "description": "높은 부채 및 금융 의무는 운영 유연성과 재무 상태에 부정적인 영향을 미칠 수 있으며, 대출 계약의 제한적 약정은 유동성과 기업 활동을 제한할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "해상 LPG 운송 시장의 주기적인 특성으로 인해 용선료, 선박 가용성 및 선박 가치가 크게 변동할 수 있으며, 이는 수익성 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "파나마 운하 통행 제한 및 통행료 인상은 운영 결과에 부정적인 영향을 미칠 수 있으며, 엄격한 환경 규제 및 ESG 정책 준수 요구는 추가 비용을 발생시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The utilization of our vessels may be affected by sea conditions, such as currents and swell, as well as weather conditions, such as fog, winds, storms, typhoons and hurricanes.",
-        "severity": "medium"
+        "category": "공급망",
+        "description": "LPG 운송 산업의 VLGC(초대형 가스 운반선) 부문에만 집중되어 있어, 이 부문의 불리한 상황은 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "To the extent any of our time charters expire during the typically weaker fiscal quarters ending December 31 and March 31, it may not be possible to re-charter our vessels at similar rates.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "As a result, we may have to accept lower rates or experience off-hire time for our vessels, which may adversely impact our business, financial condition and operating results.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "A substantial or extended decline in demand for LPG could materially adversely affect our ability to re-charter its vessels at acceptable rates or to acquire and profitably operate new vessels.",
+        "category": "거시",
+        "description": "소비자 수요가 LPG에서 다른 에너지원으로 전환되거나 무역 패턴이 변경될 경우 사업에 중대한 부정적 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "주요 고객의 계약 불이행 및 대규모 손실 발생으로 인해 재정적 어려움에 직면하고 파산에 이르게 됩니다.",
+      "VLGC 시장의 심각한 공급 과잉과 용선료 급락이 장기화되어 운영 수익성이 지속적으로 악화되고 부채 상환 능력을 상실합니다.",
+      "파나마 운하의 영구적인 통행 제한 또는 극심한 통행료 인상으로 인해 주요 운송 경로가 막히고 경쟁력을 상실하여 사업을 지속할 수 없게 됩니다.",
+      "선박 시장 가치 급락으로 대출 약정을 위반하고 추가 자금 조달이 불가능해져 운영 자금을 확보하지 못하게 됩니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "VLGC 용선료가 장기간 손익분기점 이하로 유지되거나 지속적인 하락 추세를 보일 때",
+      "주요 고객과의 계약이 해지되거나, 매출의 상당 부분을 차지하는 고객이 재정적 어려움에 처할 때",
+      "파나마 운하의 통행 제한이 영구화되거나 통행료가 급격히 인상되어 운송 비용이 감당할 수 없는 수준이 될 때",
+      "선박 시장 가치가 급락하여 대출 약정 위반 가능성이 높아지거나, 신규 선박 구매 및 기존 선박 매각 계획이 차질을 빚을 때"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:24.612536+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:40.593092+00:00"
   }
 }

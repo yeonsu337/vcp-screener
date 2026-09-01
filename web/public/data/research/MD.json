@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-08-29T04:37:02.312573+00:00",
+  "generated_at": "2026-09-01T02:11:36.413841+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2162149632,
+    "market_cap": 2131273344,
     "shares_outstanding": 81253271,
     "employees": 4280,
     "country": "United States",
@@ -29,15 +29,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
+    "roe": 0.2,
+    "roa": 0.07,
+    "profit_margin": 0.09,
+    "operating_margin": 0.13,
+    "gross_margin": 0.26,
+    "revenue_growth_ttm": 0.04,
+    "earnings_growth_ttm": 0.07,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       1913849000.0,
       2012919000.0,
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 75,
-    "score": 55.1,
+    "score": 53.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 12.732059,
-    "forward_pe": 10.907257,
-    "ev_to_ebitda": 8.878,
-    "price_to_sales": 1.1084394,
+    "trailing_pe": 12.55024,
+    "forward_pe": 10.751497,
+    "ev_to_ebitda": 8.707,
+    "price_to_sales": 1.0926105,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.17,
-    "outperform_6m_vs_nasdaq": 18.93,
-    "outperform_1m_vs_nasdaq": -8.32,
+    "outperform_1y_vs_nasdaq": 31.9,
+    "outperform_6m_vs_nasdaq": 18.11,
+    "outperform_1m_vs_nasdaq": -4.99,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:25.736626+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:42.051551+00:00"
   }
 }

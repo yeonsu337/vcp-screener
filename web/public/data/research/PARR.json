@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-08-29T04:34:59.815161+00:00",
+  "generated_at": "2026-09-01T02:03:25.798352+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 3950355712,
+    "market_cap": 4003962112,
     "shares_outstanding": 50099627,
     "employees": 1758,
     "country": "United States",
@@ -24,22 +24,22 @@
       "through three segments: Refining, Retail, and Logistics",
       "refineries that convert crude oil into gasoline, distillate, asphalt, and other products",
       "convenience stores and fuel retail outlets that sell gasoline, diesel, and retail merchandise, such as soft drinks, prep",
-      "터미널, 파이프라인, 트럭 운송 작업, 해양 선박, 저장 시설, 적재 및 트럭 랙, 철도 시설"
+      "terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilit"
     ],
     "channels": [
       "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
+    "roe": 0.53,
+    "roa": 0.17,
+    "profit_margin": 0.1,
+    "operating_margin": 0.21,
+    "gross_margin": 0.23,
+    "revenue_growth_ttm": 0.57,
+    "earnings_growth_ttm": 6.99,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       7464650000.0,
       7974457000.0,
@@ -130,20 +130,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 65.2,
+    "rs_rating": 93,
+    "score": 68.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 4.627347,
-    "forward_pe": 6.6724663,
-    "ev_to_ebitda": 3.781,
-    "price_to_sales": 0.458342,
+    "trailing_pe": 4.627678,
+    "forward_pe": 6.763012,
+    "ev_to_ebitda": 3.893,
+    "price_to_sales": 0.4645617,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 115.69,
-    "outperform_6m_vs_nasdaq": 73.6,
-    "outperform_1m_vs_nasdaq": -15.84,
+    "outperform_1y_vs_nasdaq": 114.47,
+    "outperform_6m_vs_nasdaq": 57.52,
+    "outperform_1m_vs_nasdaq": -11.03,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -188,6 +188,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-08-29T04:39:30.879400+00:00"
+    "GoogleWebTranslator": "2026-09-01T02:15:44.984236+00:00"
   }
 }
