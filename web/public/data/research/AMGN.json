@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-08-28T06:47:48.894622+00:00",
+  "generated_at": "2026-09-03T01:08:14.264160+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 236250775552,
+    "market_cap": 239413477376,
     "shares_outstanding": 540632005,
     "employees": 31500,
     "country": "United States",
@@ -17,12 +17,36 @@
     "beta": 0.413
   },
   "category_a_business": {
-    "overview": "Amgen Inc.는 전 세계적으로 인체 치료제를 발견, 개발, 제조 및 제공합니다. 회사의 주요 제품에는 류마티스 관절염, 판상 건선 및 건선 관절염 치료를 위한 Enbrel; 판상 건선, 건선성 관절염, 베체트병과 관련된 구강 궤양이 있는 성인 환자의 치료를 위한 오테즐라(Otezla); 골다공증이 있는 폐경기 여성을 치료하는 프롤리아(Prolia); 골격 관련 사건 예방을 위한 XGEVA; 심근경색, 뇌졸중, 관상동맥 재개통의 위험을 감소시키는 레파타(Repatha); 환자 치료용 Nplate",
-    "business_model": "암젠 주식회사",
-    "channels": [
-      "B2B / 기업"
+    "overview": "암젠은 인간 치료제를 발견, 개발, 제조 및 공급하는 글로벌 생명공학 기업입니다.",
+    "milestones": [
+      "1980년: Applied Molecular Genetics(AMGen) 설립",
+      "1983: 나스닥 상장",
+      "1989: EPO (에포젠) FDA 승인, 블록버스터 약물 등극",
+      "1991: 뉴포젠 (G-CSF) FDA 승인",
+      "2002: 이뮤넥스 인수, 엔브렐 포트폴리오 확장",
+      "2020: 테페자 (갑상선 안병증 치료제) FDA 승인"
     ],
-    "wikipedia_excerpt": "Amgen Inc.는 캘리포니아주 사우전드 오크스에 본사를 둔 미국의 다국적 바이오제약회사입니다. 이 회사는 수익 기준으로 가장 큰 생물의학 기업 목록에서 18위를 차지했습니다. \"AMGen\"이라는 이름은 회사의 원래 이름인 Applied Molecular Genetics의 합성어입니다."
+    "business_model": "혁신적인 생명공학 의약품을 개발하여 판매하고 로열티를 수취합니다.",
+    "revenue_streams": [
+      "의약품 판매 (주요 제품: 엔브렐, 오테즐라, 프롤리아, 레파타 등)",
+      "바이오시밀러 판매",
+      "라이선스 및 협력 계약 로열티"
+    ],
+    "value_chain_position": "Midstream + 신약 연구개발부터 제조, 유통, 판매까지 전 과정을 수행합니다.",
+    "products": [
+      "엔브렐 (류마티스 관절염, 건선)",
+      "오테즐라 (건선, 건선성 관절염)",
+      "프롤리아 (골다공증)",
+      "엑스지바 (골격계 합병증 예방)",
+      "레파타 (심혈관 질환 위험 감소)",
+      "테페자 (갑상선 안병증)"
+    ],
+    "channels": [
+      "B2B (병원, 약국, 도매상)",
+      "정부 조달 (메디케어, 메디케이드)",
+      "직접 판매 (영업팀)"
+    ],
+    "key_customers": "매출의 상당 부분이 정부(메디케어, 메디케이드) 및 대형 보험사에 집중되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.91,
@@ -32,7 +56,7 @@
     "gross_margin": 0.72,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": 0.65,
-    "dividend_yield": 2.29,
+    "dividend_yield": 2.3,
     "payout_ratio": 0.61,
     "annual_revenue": [
       36751000000.0,
@@ -110,62 +134,145 @@
     "roe_pct": 91.47
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1.5조 USD (2023년 기준, 글로벌 제약 시장 규모 추정치 기반)",
+    "tam_cagr_pct": "5-7% (향후 3~5년) - 고령화 심화, 만성 질환 유병률 증가, 신약 개발 및 바이오시밀러 시장 확대가 주요 성장 동력이나, 정부의 약가 규제 강화 및 바이오시밀러 경쟁 심화가 성장률을 일부 상쇄할 것으로 예상됨.",
+    "growth_drivers": [
+      "고령화 및 만성 질환 유병률 증가로 인한 의약품 수요 증대",
+      "혁신 신약 및 바이오시밀러 파이프라인의 성공적인 개발 및 상업화",
+      "글로벌 시장, 특히 신흥 시장에서의 사업 확장",
+      "정밀 의학 및 개인 맞춤형 치료법의 발전"
+    ],
+    "market_share_pct": "2-3% (글로벌 제약 시장 내 추정치)",
+    "competitors": [
+      {
+        "name": "AbbVie Inc.",
+        "differentiation": "자가면역 질환 및 종양학 분야의 강력한 포트폴리오, 휴미라(Humira)와 같은 블록버스터 약물 보유"
+      },
+      {
+        "name": "Johnson & Johnson",
+        "differentiation": "다각화된 헬스케어 포트폴리오 (제약, 의료기기, 소비자 건강), 광범위한 R&D 역량 및 글로벌 유통망"
+      },
+      {
+        "name": "Pfizer Inc.",
+        "differentiation": "다양한 치료 분야에 걸친 광범위한 제품 포트폴리오, 강력한 백신 및 항암제 사업, 글로벌 시장 침투력"
+      },
+      {
+        "name": "Novartis AG",
+        "differentiation": "혁신적인 의약품 개발에 중점, 심혈관, 면역학, 종양학 분야의 강점, 바이오시밀러 사업 확장"
+      },
+      {
+        "name": "Merck & Co., Inc.",
+        "differentiation": "항암제(키트루다) 및 백신 분야의 선두 주자, 강력한 R&D 파이프라인, 동물 건강 사업 보유"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 제약 산업은 높은 R&D 비용, 엄격한 규제, 특허 장벽으로 진입 장벽이 높지만, 바이오시밀러 및 제네릭 시장의 성장은 신규 진입자에게 기회를 제공할 수 있음.",
+      "substitutes": "medium - 다양한 치료 옵션과 바이오시밀러/제네릭 의약품의 존재로 대체재 위협이 존재하며, 특히 약가 규제 강화는 대체재 선택을 부추길 수 있음.",
+      "buyer_power": "high - 정부(메디케어 등), 보험사, 대형 병원 그룹 등 주요 구매자들은 약가 협상력이 매우 높으며, 특히 IRA와 같은 약가 규제는 구매자들의 힘을 더욱 강화함.",
+      "supplier_power": "low - 원료 의약품 및 제조 장비 공급업체는 다수 존재하며, 제약사들은 일반적으로 여러 공급업체와 계약하여 공급자 교섭력이 낮은 편임.",
+      "rivalry": "high - 제약 산업은 다수의 대형 제약사들이 경쟁하며, 신약 개발 경쟁, 특허 만료에 따른 바이오시밀러 경쟁, 약가 인하 압력 등으로 경쟁 강도가 매우 높음."
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+      "혁신적인 바이오 의약품 및 희귀 질환 치료제 포트폴리오 (예: Enbrel, Otezla, Repatha 등)",
+      "강력한 R&D 역량과 지속적인 신약 파이프라인 개발",
+      "글로벌 시장에서의 광범위한 사업 운영 및 유통망",
+      "바이오시밀러 시장에서의 선도적인 위치"
+    ],
+    "competitive_weaknesses": [
+      "일부 블록버스터 약물의 특허 만료 및 바이오시밀러 경쟁 심화 (예: Enbrel, Otezla)",
+      "미국 IRA(인플레이션 감축법) 등 정부의 약가 규제 강화로 인한 수익성 압박",
+      "특정 제품에 대한 매출 의존도가 높아 규제 변화나 경쟁 심화에 취약할 수 있음",
+      "신약 개발 실패 위험 및 임상 시험의 불확실성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 64.5,
+    "rs_rating": 82,
+    "score": 65.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.3117,
-    "trailing_pe": 27.328955,
-    "forward_pe": 17.911194,
-    "ev_to_ebitda": 16.19,
-    "price_to_sales": 6.2016215,
+    "peg_ratio": 2.1098,
+    "trailing_pe": 27.5398,
+    "forward_pe": 18.150972,
+    "ev_to_ebitda": 16.225,
+    "price_to_sales": 6.284643,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 31.9,
-    "outperform_6m_vs_nasdaq": 0.74,
-    "outperform_1m_vs_nasdaq": 4.8,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 33.3,
+    "outperform_6m_vs_nasdaq": 2.82,
+    "outperform_1m_vs_nasdaq": 17.7,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "암젠은 생명공학 분야의 선두 주자로서, 오랜 기간 축적된 연구 개발 역량과 특허 포트폴리오를 통해 혁신적인 의약품을 개발하고 시장에 출시합니다. 이는 경쟁사들이 쉽게 모방하기 어려운 무형 자산입니다.",
+      "엔브렐(ENBREL) 및 오테즐라(Otezla)와 같은 주요 제품들은 오랜 기간 시장에서 입지를 다져왔으며, 이는 강력한 브랜드 인지도와 의사 및 환자들의 신뢰를 바탕으로 합니다. 이러한 브랜드 가치는 무형 자산의 중요한 부분입니다.",
+      "암젠은 복잡한 생물학적 제제를 개발하고 생산하는 데 필요한 고도의 기술력과 전문성을 보유하고 있습니다. 이는 단순한 화학 물질 기반 의약품과는 다른 진입 장벽을 형성하며, 무형 자산으로 작용합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "신규 파이프라인 개발 및 기존 제품의 적응증 확대",
+    "bull_case": "신약 파이프라인 성공적 출시 및 기존 제품 시장 점유율 확대로 3년간 EPS 15% 이상 성장",
+    "base_case": "IRA 영향에도 불구하고 기존 핵심 제품의 안정적인 매출 유지 및 신규 파이프라인의 점진적인 성장을 통해 완만한 매출 및 이익 성장 예상. EPS는 한 자릿수 중반대 성장률을 기록할 것으로 전망.",
+    "bear_case": "IRA의 약가 인하 압박이 예상보다 심화되고, 주요 제품의 특허 만료 및 바이오시밀러 경쟁 심화로 매출이 급감하며, 신약 파이프라인 개발이 지연되거나 실패하여 이익이 크게 감소할 수 있음.",
+    "key_metrics_to_watch": [
+      "주요 제품(엔브렐, 오테즐라 등)의 매출 성장률",
+      "신약 파이프라인의 임상 결과 및 출시 일정",
+      "IRA 약가 인하 정책의 실제 영향 및 추가 규제 동향",
+      "바이오시밀러 경쟁 현황",
+      "연구 개발(R&D) 투자 및 효율성"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "또한 현재 당사에 알려지지 않았거나 현재 중요하지 않다고 판단되는 추가 위험은 향후 당사의 비즈니스, 운영, 유동성 및 주가에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "category": "규제",
+        "description": "정부 및 상업적 제3자 지불자의 보장 및 상환 압력으로 인해 제품 가격 책정 및 수익성에 지속적으로 부정적인 영향을 받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "바이오시밀러 및 제네릭 의약품과의 경쟁이 심화되고 있으며, 이는 향후 제품 판매 및 시장 점유율에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "진행 중인 IRS와의 세금 분쟁 및 새로운 세법 제정으로 인해 추가적인 세금 부채가 발생하여 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 세금 채무는 당사의 수익성과 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "운영",
+        "description": "푸에르토리코 및 캘리포니아 시설에서의 생산 중단 또는 실패는 제품 공급 능력 및 임상 시험 진행에 심각한 지장을 초래할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "연구개발 관련 위험 • 막대한 R&D 투자에도 불구하고 상용제품 개발이 불가능할 수 있습니다.",
+        "category": "거시",
+        "description": "글로벌 경제 상황 악화 및 기후 변화 관련 자연재해는 사업 운영 및 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "일반적인 위험 요소 • 글로벌 경제 상황은 우리에게 부정적인 영향을 미칠 수 있으며 우리 사업에 영향을 미치는 특정 위험을 확대할 수 있습니다.",
+        "category": "거버넌스",
+        "description": "정보 기술 시스템의 고장, 사이버 공격 또는 정보 보안 침해는 데이터 기밀성, 무결성 및 가용성을 손상시키고 사업 운영을 중단시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "지적 재산권이 침해되거나 무효화될 수 있으며, 이는 경쟁 우위를 약화시키고 법적 분쟁을 야기할 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "미국 정부의 약가 인하 정책(IRA, MFN EO 등)이 예상보다 강력하게 시행되어 주요 제품의 수익성이 급격히 악화되고 신약 개발 투자가 불가능해지는 경우.",
+      "핵심 제품의 특허가 만료되거나 무효화되고, 동시에 강력한 바이오시밀러 경쟁자가 시장에 진입하여 매출이 급감하는 경우.",
+      "주요 제조 시설에서 치명적인 생산 중단이 발생하고, 동시에 공급망 문제가 겹쳐 제품 공급이 장기간 불가능해져 시장 점유율을 완전히 상실하는 경우.",
+      "대규모 사이버 공격으로 환자 데이터 유출 및 핵심 연구 데이터 손실이 발생하여 막대한 벌금과 소송에 직면하고 기업 신뢰도가 바닥으로 떨어지는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "미국 정부의 약가 협상 결과가 예상보다 훨씬 낮게 책정되어 주요 제품의 매출 전망이 20% 이상 하향 조정되는 경우.",
+      "주요 블록버스터 제품에 대한 바이오시밀러 경쟁자가 예상보다 1년 이상 빠르게 시장에 출시되고, 시장 점유율을 30% 이상 잠식하는 경우.",
+      "진행 중인 IRS와의 세금 분쟁에서 패소하여 예상치 못한 수십억 달러 규모의 세금 부채가 발생하고, 이는 재무 건전성에 심각한 영향을 미치는 경우.",
+      "핵심 파이프라인 제품의 임상 3상 시험이 실패하거나, 심각한 부작용으로 인해 규제 승인이 거부되는 경우."
     ]
   },
   "wikipedia_summary": "Amgen Inc. is an American multinational biopharmaceutical company headquartered in Thousand Oaks, California. The company is ranked 18th on the list of largest biomedical companies by revenue. The name \"AMGen\" is a portmanteau of the company's original name, Applied Molecular Genetics.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:13:34.259191+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:32:12.721612+00:00"
   }
 }

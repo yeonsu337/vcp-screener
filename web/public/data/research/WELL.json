@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Real Estate",
   "industry": "REIT - Healthcare Facilities",
-  "generated_at": "2026-09-01T02:06:29.400021+00:00",
+  "generated_at": "2026-09-03T01:10:04.083281+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 170227941376,
+    "market_cap": 171921276928,
     "shares_outstanding": 720572011,
     "employees": 712,
     "country": "United States",
@@ -17,15 +17,33 @@
     "beta": 0.763
   },
   "category_a_business": {
-    "overview": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada. Their portfolio of 2,500+ seniors and wellness housing communities are positioned at the intersection of housing and hospitality, creating vibrant communities for mature renters and older adults. They believe our real estate portfolio is unmatched, located in highly attractive micro markets with stunning built environments.",
-    "business_model": "Welltower Inc., an S&P 500 company, is positioned at the center of the silver economy, focusing on rental housing for aging seniors across the United States, United Kingdom, and Canada.",
-    "channels": [
-      "B2B / Enterprise"
-    ],
-    "wikipedia_excerpt": "Welltower Inc. is a real estate investment trust that invests in healthcare infrastructure. As of December 31, 2022, the company had investments in approximately 3,000 properties, all of which were in the United States, Canada, and the United Kingdom.",
+    "overview": "웰타워는 미국, 영국, 캐나다 전역의 고령층을 위한 주거 및 웰니스 커뮤니티에 투자하는 S&P 500 헬스케어 REIT입니다.",
     "milestones": [
-      "2022: , the company had investments in approximately 3,000 properties, all of which were in the United Sta"
-    ]
+      "1970: 델라웨어에 법인 설립",
+      "2007년: RIDEA(REIT 투자 다각화 및 역량 강화법) 구조 활용 시작",
+      "2022: 약 3,000개 부동산에 투자 (미국, 캐나다, 영국)",
+      "2025: Welltower OP LLC의 지분 98.378% 보유"
+    ],
+    "business_model": "고령층 주거 및 웰니스 부동산을 소유, 운영, 임대하여 임대료 및 운영 수익을 창출합니다.",
+    "revenue_streams": [
+      "시니어 주거 운영 수익",
+      "트리플 넷 리스 임대료",
+      "외래 진료 시설 임대료"
+    ],
+    "value_chain_position": "Downstream + 고령층 주거 및 웰니스 부동산의 소유 및 운영을 통해 최종 소비자에게 서비스를 제공합니다.",
+    "products": [
+      "웰니스 주택",
+      "독립 생활 주택",
+      "보조 생활 주택",
+      "치매/알츠하이머 케어 시설",
+      "연속 케어 은퇴 커뮤니티",
+      "외래 진료 시설"
+    ],
+    "channels": [
+      "B2B (운영 파트너)",
+      "B2C (직접 임대)"
+    ],
+    "key_customers": "고객 집중도에 대한 구체적인 정보는 제공되지 않았습니다."
   },
   "category_b_financials": {
     "roe": 0.04,
@@ -35,7 +53,7 @@
     "gross_margin": 0.4,
     "revenue_growth_ttm": 0.39,
     "earnings_growth_ttm": 0.36,
-    "dividend_yield": 1.43,
+    "dividend_yield": 1.41,
     "payout_ratio": 1.33,
     "annual_revenue": [
       10667136000.0,
@@ -119,72 +137,136 @@
     "roe_pct": 3.84
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (2023년 기준, 글로벌 고령화 관련 부동산 시장 추정치, 출처: 다양한 시장 조사 보고서 및 Welltower 자체 추정치 종합)",
+    "tam_cagr_pct": "5-7% (향후 3~5년) (근거: 전 세계적인 고령화 가속화, 베이비붐 세대의 은퇴 및 고령층 주거 및 웰니스 서비스 수요 증가, 헬스케어 기술 발전 및 서비스 다양화)",
+    "growth_drivers": [
+      "전 세계적인 인구 고령화 및 기대 수명 증가로 인한 시니어 주택 및 헬스케어 시설 수요 증대",
+      "베이비붐 세대의 은퇴 및 고령층의 삶의 질 향상에 대한 욕구 증대로 프리미엄 시니어 주거 및 웰니스 서비스 시장 성장",
+      "만성 질환 증가 및 예방적 건강 관리의 중요성 부각으로 외래 진료 및 재활 시설 수요 증가",
+      "기술 발전(데이터 과학 플랫폼, 스마트 홈 기술)을 통한 운영 효율성 증대 및 서비스 맞춤화",
+      "정부 정책 및 규제 완화를 통한 시니어 헬스케어 인프라 투자 장려"
+    ],
+    "market_share_pct": "2-3% (글로벌 시니어 주택 및 헬스케어 부동산 시장 내 주요 REIT 중 하나이나, 시장 규모가 매우 커 단일 기업의 점유율은 상대적으로 낮음)",
+    "competitors": [
+      {
+        "name": "Ventas, Inc. (VTR)",
+        "differentiation": "유사한 포트폴리오를 보유하며, 시니어 주택, 의료 시설, 연구 시설 등 다양한 헬스케어 부동산에 투자. Welltower와 함께 헬스케어 REIT 시장의 양대 산맥을 이룸."
+      },
+      {
+        "name": "Healthpeak Properties, Inc. (PEAK)",
+        "differentiation": "주로 생명 과학, 의료 오피스, 시니어 주택에 집중하며, 특히 생명 과학 분야에서 강점을 보임."
+      },
+      {
+        "name": "Omega Healthcare Investors, Inc. (OHI)",
+        "differentiation": "주로 숙련 간호 시설(Skilled Nursing Facilities) 및 보조 생활 시설(Assisted Living Facilities)에 특화되어 투자하며, Welltower보다 특정 분야에 집중하는 경향이 있음."
+      },
+      {
+        "name": "Brookdale Senior Living Inc. (BKD)",
+        "differentiation": "REIT가 아닌 시니어 주택 운영사로, Welltower와 같은 REIT의 주요 임차인 또는 파트너가 될 수 있으며, 직접적인 경쟁보다는 협력 관계에 가까움."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (부동산 투자 및 운영에 필요한 막대한 자본, 규제 준수, 운영 전문성, 기존 플레이어의 규모의 경제 등으로 진입 장벽이 높지만, 고령화 시장의 성장 잠재력으로 신규 투자자의 관심이 증가할 수 있음.)",
+      "substitutes": "low (고령층을 위한 전문적인 주거 및 헬스케어 시설을 대체할 수 있는 완전한 대안은 제한적이며, 재택 간호나 가족 부양은 서비스 범위와 전문성에서 차이가 있음.)",
+      "buyer_power": "medium (개별 고령층 소비자의 교섭력은 낮지만, 대형 운영사나 정부 기관의 구매력은 존재하며, 지역별 경쟁 심화 시 가격 민감도가 높아질 수 있음.)",
+      "supplier_power": "medium (건설 자재, 인력, 의료 장비 공급업체의 교섭력은 존재하며, 특히 숙련된 의료 인력 부족은 운영 비용에 영향을 미칠 수 있음.)",
+      "rivalry": "high (시니어 주택 및 헬스케어 REIT 시장은 Welltower, Ventas 등 소수의 대형 플레이어가 지배하며, 유사한 포트폴리오와 전략으로 치열한 경쟁을 벌이고 있음.)"
+    },
     "competitive_advantages": [
-      "Real Estate / REIT - Healthcare Facilities 카테고리 — yfinance peer 비교 권장"
+      "미국, 영국, 캐나다에 걸친 2,500개 이상의 시니어 및 웰니스 주택 커뮤니티를 포함한 광범위하고 다각화된 포트폴리오",
+      "데이터 과학 플랫폼(Data Science platform)을 활용한 자본 배분 및 운영 효율성 극대화",
+      "Welltower Business System이라는 엔드-투-엔드 플랫폼을 통한 우수한 운영 결과 및 장기적인 주당 성장 추구",
+      "시니어 주택 운영(Seniors Housing Operating) 부문에 대한 RIDEA 구조 활용으로 운영 수익에 대한 직접적인 노출 및 성장 잠재력 확보",
+      "헬스케어 부동산 시장 내 오랜 경험과 전문성, 강력한 브랜드 인지도"
+    ],
+    "competitive_weaknesses": [
+      "금리 인상 및 경제 불확실성으로 인한 자본 조달 비용 증가 및 투자 수익률 압박",
+      "운영 파트너 및 임차인에 대한 의존도가 높아, 이들의 재무 건전성 및 운영 성과에 따라 실적 변동 가능성",
+      "노동력 부족 및 인건비 상승으로 인한 운영 비용 증가 압력",
+      "지역별 규제 변화 및 헬스케어 정책 변동에 대한 노출",
+      "부동산 시장의 경기 변동 및 자산 가치 하락 위험"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 59.3,
+    "rs_rating": 74,
+    "score": 61.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.66,
-    "trailing_pe": 106.41441,
-    "forward_pe": 74.28931,
-    "ev_to_ebitda": 56.658,
-    "price_to_sales": 13.337387,
+    "trailing_pe": 106.51339,
+    "forward_pe": 75.0283,
+    "ev_to_ebitda": 57.165,
+    "price_to_sales": 13.47006,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.7,
-    "outperform_6m_vs_nasdaq": -2.7,
-    "outperform_1m_vs_nasdaq": -2.78,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 21.77,
+    "outperform_6m_vs_nasdaq": 1.47,
+    "outperform_1m_vs_nasdaq": 4.91,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Welltower는 S&P 500 기업으로, 미국, 영국, 캐나다 전역에 걸쳐 2,500개 이상의 시니어 및 웰니스 주택 커뮤니티를 보유하고 있으며, 이는 '실버 경제'의 중심에 위치한 독점적인 포트폴리오를 의미합니다.",
+      "Welltower Business System이라는 엔드-투-엔드 플랫폼과 데이터 과학 플랫폼을 통해 자본 배분 및 운영 결과를 최적화하며, 이는 경쟁사가 쉽게 모방하기 어려운 고유한 운영 노하우와 기술 자산을 형성합니다.",
+      "시니어 주택, 웰니스 주택, 급성기 후 치료 커뮤니티 등 다양한 부동산 유형, 관계 및 지리적 위치에 걸쳐 투자 포트폴리오를 다각화하여 시장 변동성에 대한 회복력을 높이고 안정적인 수익 흐름을 창출합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "데이터 과학 플랫폼 기반의 자본 배분 및 Welltower Business System을 통한 운영 효율성 강화",
+    "bull_case": "고령화 가속화 및 웰니스 수요 증가로 시니어 주택 시장 성장, 데이터 기반 운영 효율성 증대로 EPS 및 NI CAGR 지속 성장",
+    "base_case": "고령화 추세에 따른 시니어 주택 수요는 꾸준히 증가할 것이며, Welltower의 시장 리더십과 데이터 기반 운영은 안정적인 수익성을 유지할 것입니다. 다만, 금리 인상 및 부동산 시장 변동성은 성장에 제약 요인이 될 수 있습니다.",
+    "bear_case": "예상보다 빠른 금리 인상과 경기 침체로 인한 부동산 시장 위축, 시니어 주택 공급 과잉 및 경쟁 심화로 점유율 하락 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "NI CAGR (순이익 연평균 성장률)",
+      "Seniors Housing Operating 부문 매출 성장률",
+      "포트폴리오 점유율 및 임대료 상승률",
+      "부채 비율 및 이자보상배율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "CON and licensure laws may limit the number of potential operators of our tenant healthcare facilities, which could reduce the value of such properties if put up for sale.",
+        "category": "규제",
+        "description": "요양 시설은 주정부 면허 및 인증 법률의 적용을 받으며, 이를 유지하지 못할 경우 운영 중단 또는 면허 상실로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "CON(Certificate of Need) 법률은 시설의 신축, 확장, 소유권 변경 등을 제한하여 자산 가치 및 매각 능력을 저해할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The impact of any such changes, if implemented, may result in a material adverse effect on our portfolio.",
+        "category": "재무",
+        "description": "연방 및 주정부의 의료비 상환 방식 변경, 특히 가치 기반 상환 방식 도입은 운영 수익에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "메디케어 및 메디케이드 프로그램의 상환 정책 변경, 감사 또는 지불 지연은 장기/급성기 후 치료 시설 운영자의 재정 건전성을 위협할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "CMS의 요양원 소유주 및 실적 정보 공개 확대, 특별 관리 시설 프로그램 강화는 운영자의 평판과 환자 유치에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Thus, the revenues generated by operators of our assisted living facilities may be adversely affected by payor mix, acuity level or changes in Medicaid eligibility and reimbursement levels.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Consequently, changes in federal or state reimbursement policies may adversely affect an operator’s ability to cover its expenses, including our rent or debt service.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "The HHS Office of Inspector General (“OIG”) has released recommendations to address skilled nursing facility (“SNF”) billing practices and Medicare payment rates, which may impact our tenants and operators.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "This may impact the reimbursement levels and public perception of our SNF tenants and operators.",
+        "category": "재무",
+        "description": "메디케이드 상환율은 주마다 다르며, 주정부 재정 상황 및 정책 변경(예: OBBBA 법안)에 따라 감소하여 운영 수익에 악영향을 줄 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "주요 운영자들이 면허를 상실하거나 심각한 규제 위반으로 대규모 시설 운영을 중단하게 되어 임대 수익이 급감하는 경우.",
+      "연방 및 주정부의 의료비 상환 정책이 급격히 변경되어 운영자들의 수익성이 악화되고 임대료 지불 능력이 상실되는 경우.",
+      "고령자 주택 및 장기/급성기 후 치료 시장의 수요가 예상치 못하게 감소하거나 경쟁 심화로 공실률이 급증하고 자산 가치가 하락하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 운영자 중 한 곳이 대규모 시설의 면허를 상실하거나 운영을 중단한다는 공식 발표.",
+      "메디케어 또는 메디케이드의 상환율이 예상보다 크게 인하되거나, 새로운 규제가 운영자들의 수익성을 심각하게 저해한다는 정부 발표 또는 업계 보고서.",
+      "WELL의 포트폴리오 내 주요 자산의 공실률이 지속적으로 증가하거나, 자산 매각 시 예상보다 낮은 가격에 거래되는 사례가 다수 발생하는 경우."
     ]
   },
   "wikipedia_summary": "Welltower Inc. is a real estate investment trust that invests in healthcare infrastructure. As of December 31, 2022, the company had investments in approximately 3,000 properties, all of which were in the United States, Canada, and the United Kingdom.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:16:04.742147+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:34:43.940629+00:00"
   }
 }

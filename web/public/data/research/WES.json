@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-09-01T02:02:23.945214+00:00",
+  "generated_at": "2026-09-03T01:14:48.800077+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 19873697792,
+    "market_cap": 20229027840,
     "shares_outstanding": 413174593,
     "employees": 1704,
     "country": "United States",
@@ -17,17 +17,33 @@
     "beta": 0.657
   },
   "category_a_business": {
-    "overview": "Western Midstream Partners, LP, together with its subsidiaries, operates as a midstream energy company primarily in the United States. The company is involved in gathering, compressing, treating, processing, and transporting natural gas; gathering, stabilizing, and transporting condensate, natural gas liquids (NGLs), and crude oil; and gathering and disposing of produced water. It also buys and sells residue, NGLs, and condensates.",
-    "business_model": "Western Midstream Partners, LP, together with its subsidiaries, operates as a midstream energy company primarily in the United States.",
+    "overview": "WES는 미국 내 미드스트림 에너지 기업으로, 천연가스, 원유, NGLs 운송 및 처리 서비스를 제공합니다.",
+    "milestones": [
+      "2007: Western Gas Equity Partners, LP로 설립",
+      "2019: Western Midstream Partners, LP로 사명 변경",
+      "2020: Anadarko Petroleum Corporation과의 관계 재정립 및 독립성 강화",
+      "2021: 주요 자산 포트폴리오 최적화 및 확장 투자",
+      "2023: 배당금 정책 및 자본 배분 전략 발표"
+    ],
+    "business_model": "수수료 기반으로 천연가스, 원유, NGLs의 운송 및 처리 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "천연가스 수집, 압축, 처리, 운송 수수료",
+      "원유 및 NGLs 수집, 안정화, 운송 수수료",
+      "생산수(produced water) 수집 및 처리 수수료",
+      "잔여 가스, NGLs, 콘덴세이트 매매 수익"
+    ],
+    "value_chain_position": "Midstream: 원유 및 가스 생산지에서 정제소/시장으로의 운송 및 처리 담당",
     "products": [
-      "as a midstream energy company primarily in the United States",
-      "residue, NGLs, and condensates",
-      "assets located in Texas, New Mexico, and the Rocky Mountains",
-      "water handling solutions"
+      "천연가스 파이프라인 운송",
+      "원유 및 NGLs 파이프라인 운송",
+      "천연가스 처리 및 정제",
+      "생산수 처리 서비스",
+      "저장 서비스"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B"
+    ],
+    "key_customers": "주로 에너지 생산 및 마케팅 기업들로 구성되며, 특정 고객에 대한 집중도가 높을 수 있음"
   },
   "category_b_financials": {
     "roe": 0.34,
@@ -37,7 +53,7 @@
     "gross_margin": 0.69,
     "revenue_growth_ttm": 0.3,
     "earnings_growth_ttm": 0.14,
-    "dividend_yield": 7.7,
+    "dividend_yield": 7.59,
     "payout_ratio": 1.16,
     "annual_revenue": [
       3843403000.0,
@@ -118,29 +134,89 @@
     "roe_pct": 34.11
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 150-200 billion USD (북미 미드스트림 인프라 투자 및 자산 가치 추정치 기반)",
+    "tam_cagr_pct": "2-4% (북미 원유 및 천연가스 생산량의 완만한 증가, 에너지 전환 과정에서의 천연가스 수요 유지, 인프라 노후화에 따른 교체 및 확장 수요)",
+    "growth_drivers": [
+      "미국 셰일 생산량 증가에 따른 운송 및 처리 인프라 수요 증대",
+      "LNG 수출 증가에 따른 천연가스 파이프라인 및 처리 시설 수요 확대",
+      "탄소 포집, 활용 및 저장(CCUS) 등 신규 에너지 인프라 투자 기회",
+      "기존 인프라의 노후화에 따른 유지보수 및 현대화 프로젝트",
+      "인구 증가 및 산업 발전으로 인한 에너지 수요의 꾸준한 유지"
+    ],
+    "market_share_pct": "5-10% (북미 미드스트림 시장은 매우 분산되어 있으며, WES는 특정 지역 및 자산군에서 강점을 가짐)",
+    "competitors": [
+      {
+        "name": "Enterprise Products Partners L.P. (EPD)",
+        "differentiation": "광범위한 자산 포트폴리오(원유, NGL, 천연가스, 석유화학)와 통합된 서비스 제공"
+      },
+      {
+        "name": "Kinder Morgan, Inc. (KMI)",
+        "differentiation": "북미 최대의 천연가스 파이프라인 네트워크를 보유하며, 다양한 에너지 운송 및 저장 서비스 제공"
+      },
+      {
+        "name": "Energy Transfer LP (ET)",
+        "differentiation": "다양한 자산군(원유, NGL, 천연가스)에 걸친 대규모 파이프라인 네트워크와 강력한 시장 입지"
+      },
+      {
+        "name": "Plains All American Pipeline, L.P. (PAA)",
+        "differentiation": "원유 및 NGL 운송 및 저장에 특화된 광범위한 자산과 서비스 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (미드스트림 산업은 막대한 초기 자본 투자, 복잡한 규제 승인, 장기간의 프로젝트 개발 기간이 필요하여 신규 진입 장벽이 높음)",
+      "substitutes": "medium (단기적으로는 대체재가 제한적이나, 장기적으로는 재생에너지로의 전환, 전기차 보급 확산 등이 화석 연료 수요를 감소시켜 미드스트림 서비스에 대한 수요를 약화시킬 수 있음)",
+      "buyer_power": "medium (주요 고객은 대형 E&P 회사 및 정유사로, 이들은 규모의 경제를 통해 협상력을 가질 수 있으나, 미드스트림 인프라는 필수적이며 대체가 쉽지 않아 제한적임)",
+      "supplier_power": "low (미드스트림 산업의 주요 공급자는 건설 서비스, 장비 제조사 등이며, 이들은 비교적 다수 존재하여 공급자 교체 비용이 낮음)",
+      "rivalry": "high (북미 미드스트림 시장은 다수의 대형 플레이어가 존재하며, 자산 중복 및 서비스 경쟁이 치열함. 특히 주요 생산 분지에서는 경쟁 강도가 높음)"
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+      "주요 생산 분지(Permian, DJ Basin 등)에 전략적으로 위치한 핵심 자산 보유",
+      "다양한 자산 포트폴리오(천연가스, NGL, 원유)를 통한 서비스 통합 및 시너지 효과",
+      "안정적인 현금 흐름을 창출하는 장기 계약 기반의 사업 모델",
+      "운영 효율성 및 비용 절감을 위한 지속적인 노력",
+      "탄소 포집 등 신규 에너지 전환 기술에 대한 투자 및 참여 가능성"
+    ],
+    "competitive_weaknesses": [
+      "화석 연료 가격 변동성 및 생산량 변화에 대한 노출",
+      "규제 환경 변화(환경 규제 강화 등)에 따른 사업 불확실성",
+      "주요 고객사의 재정 건전성 및 생산 계획에 대한 의존성",
+      "대규모 자본 지출이 필요한 인프라 산업의 특성상 재무적 부담 존재",
+      "에너지 전환 가속화에 따른 장기적인 수요 감소 위험"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 71.8,
+    "rs_rating": 74,
+    "score": 74.5,
     "vcp_quality": 12.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 15.2215185,
-    "forward_pe": 12.496687,
-    "ev_to_ebitda": 11.605,
-    "price_to_sales": 4.5873713,
+    "trailing_pe": 15.49367,
+    "forward_pe": 12.662156,
+    "ev_to_ebitda": 11.752,
+    "price_to_sales": 4.6693907,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 14.55,
-    "outperform_6m_vs_nasdaq": 3.19,
-    "outperform_1m_vs_nasdaq": -0.64,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 15.35,
+    "outperform_6m_vs_nasdaq": 6.36,
+    "outperform_1m_vs_nasdaq": 6.58,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "WES는 Permian Basin의 Delaware Basin과 DJ Basin에 걸쳐 광범위한 미드스트림 인프라를 소유하고 운영하며, 이는 해당 지역의 생산자들에게 필수적인 운송 및 처리 서비스를 제공합니다.",
+      "WES는 장기 계약을 통해 고객과 관계를 맺고 있으며, 이는 안정적인 수익 흐름과 높은 자산 활용률을 보장하여 규모의 경제를 달성하고 단위당 비용을 절감하는 데 기여합니다.",
+      "기존 파이프라인 및 처리 시설은 신규 진입자가 구축하기 어려운 높은 초기 투자 비용과 규제 장벽을 가지고 있어, WES는 경쟁 우위를 유지할 수 있습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "Permian Basin의 지속적인 생산량 증가와 WES의 인프라 확장 계획",
+    "bull_case": "Permian 생산량 급증 및 인프라 확장 성공으로 EPS 성장 가속화 및 주가 상승",
+    "base_case": "Permian Basin의 안정적인 생산량 증가와 WES의 효율적인 운영을 통해 견고한 수익성과 현금 흐름을 유지하며, 배당금 지급 능력을 강화할 것입니다. 기존 자산의 최적화와 소규모 확장을 통해 점진적인 성장을 이룰 것으로 예상됩니다.",
+    "bear_case": "유가 급락으로 인한 Permian 생산량 감소, 규제 강화 또는 주요 고객과의 계약 갱신 실패로 수익성 악화 및 현금 흐름 감소가 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "Permian Basin 원유 및 천연가스 생산량 추이",
+      "WES의 처리량 및 운송량",
+      "장기 계약 갱신율 및 신규 계약 확보 현황",
+      "부채 비율 및 이자보상배율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
@@ -184,6 +260,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:16:05.973346+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:34:44.559117+00:00"
   }
 }

@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Insurance - Property & Casualty",
-  "generated_at": "2026-09-01T01:57:57.203133+00:00",
+  "generated_at": "2026-09-03T01:17:30.907871+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 65186775040,
+    "market_cap": 65576181760,
     "shares_outstanding": 252857950,
     "employees": 53000,
     "country": "United States",
@@ -17,23 +17,39 @@
     "beta": 0.156
   },
   "category_a_business": {
-    "overview": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다. 이는 4개 부문으로 운영됩니다: Allstate Protection; 유출 재산 책임; 보호 서비스; 기업 및 기타. 이 회사는 Allstate, National General, Direct Auto 및 Answer Financial 브랜드로 독점 대리점, 독립 대리점, 연락 센터 및 온라인을 통해 개인 승용차, 주택 소유자, 기타 개인 보험 및 상업 보험을 제공합니다.",
-    "business_model": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다.",
+    "overview": "올스테이트는 미국과 캐나다에서 재산 및 상해 보험을 제공하는 주요 보험사입니다.",
+    "milestones": [
+      "1931: Sears, Roebuck and Co.의 자회사로 설립",
+      "1993: Sears로부터 분사",
+      "1995: Sears로부터 완전히 독립된 회사로 전환",
+      "2022: 본사를 글렌뷰, 일리노이로 이전"
+    ],
+    "business_model": "보험 상품 판매 및 서비스 제공을 통해 보험료와 투자 수익으로 돈을 법니다.",
+    "revenue_streams": [
+      "개인 자동차 보험료",
+      "주택 소유자 보험료",
+      "기타 개인 보험료",
+      "상업 보험료",
+      "소비자 상품 보호 플랜",
+      "투자 수익"
+    ],
+    "value_chain_position": "Downstream + 최종 소비자에게 직접 보험 상품 및 관련 서비스를 제공합니다.",
     "products": [
-      "미국 및 C의 재산 및 상해 보험, 기타 보험 상품",
-      "네 가지 부문: Allstate Protectio",
-      "개인 승용차, 주택 소유자, 기타 개인 보험 및 독점 대리인을 통한 상업 보험, 독립",
-      "자동차를 활용한 소비자 제품 보호 계획, 장치 및 모바일 데이터 수집 서비스, 분석 솔루션",
-      "재산 및 상해 보험은 물론 회사 활동 및 특정 비보험 운영에도 참여합니다."
+      "개인 자동차 보험",
+      "주택 소유자 보험",
+      "상업 보험",
+      "소비자 상품 보호 플랜",
+      "긴급 출동 서비스",
+      "신원 보호 및 복원 서비스"
     ],
     "channels": [
-      "B2B / 기업"
+      "독점 에이전트",
+      "독립 에이전트",
+      "컨택 센터",
+      "온라인",
+      "B2C"
     ],
-    "wikipedia_excerpt": "Allstate Corporation은 2022년부터 일리노이주 글렌뷰에 본사를 둔 미국 보험 회사입니다. 1931년 Sears, Roebuck and Co.의 일부로 설립되었으며 1993년에 분사되었지만 1995년 6월 완전히 독립 회사가 될 때까지 Sears가 부분적으로 소유했습니다. 이 회사는 캐나다에서도 개인 보험 사업을 운영하고 있습니다.",
-    "milestones": [
-      "1931년: Sears, Roebuck and Co의 일부로",
-      "1993년: , 그러나 6월 1일 완전히 독립 회사가 될 때까지 Sears가 부분적으로 소유했습니다."
-    ]
+    "key_customers": "고객 집중도가 낮고, 광범위한 개인 및 소규모 상업 고객을 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 0.46,
@@ -43,7 +59,7 @@
     "gross_margin": 0.37,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.61,
-    "dividend_yield": 1.66,
+    "dividend_yield": 1.68,
     "payout_ratio": 0.08,
     "annual_revenue": [
       67069000000.0,
@@ -131,20 +147,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 67.0,
+    "rs_rating": 74,
+    "score": 67.5,
     "vcp_quality": 12.1,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.0869,
-    "trailing_pe": 5.163228,
-    "forward_pe": 9.337927,
-    "ev_to_ebitda": 4.028,
-    "price_to_sales": 0.9294206,
+    "peg_ratio": 3.0465,
+    "trailing_pe": 5.191992,
+    "forward_pe": 9.393708,
+    "ev_to_ebitda": 4.029,
+    "price_to_sales": 0.93497264,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 7.57,
-    "outperform_6m_vs_nasdaq": 5.89,
-    "outperform_1m_vs_nasdaq": -6.31,
+    "outperform_1y_vs_nasdaq": 5.9,
+    "outperform_6m_vs_nasdaq": 6.89,
+    "outperform_1m_vs_nasdaq": -0.97,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -156,7 +172,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "재난 손실에 대한 노출을 평가하고 예측하는 데 사용되는 분석 모델의 한계는 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다. 우리는 내부에서 개발한 타사 모델을 사용합니다.",
+        "description": "재해 손실에 대한 노출을 평가하고 예측하는 데 사용되는 분석 모델의 한계는 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다. 우리는 내부에서 개발한 타사 모델을 사용합니다.",
         "severity": "medium"
       }
     ],
@@ -169,6 +185,6 @@
   },
   "wikipedia_summary": "The Allstate Corporation is an American insurance company, headquartered in Glenview, Illinois since 2022. Founded in 1931 as part of Sears, Roebuck and Co., it was spun off in 1993, but was still partially owned by Sears until it became an independent company completely in June 1995. The company also has personal line insurance operations in Canada.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:13:29.993453+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:32:11.886517+00:00"
   }
 }

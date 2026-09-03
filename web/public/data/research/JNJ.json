@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-09-01T02:15:40.951200+00:00",
+  "generated_at": "2026-09-03T01:31:37.359876+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 640671547392,
+    "market_cap": 663228121088,
     "shares_outstanding": 2409898597,
     "employees": 138200,
     "country": "United States",
@@ -42,7 +42,7 @@
     "gross_margin": 0.68,
     "revenue_growth_ttm": 0.07,
     "earnings_growth_ttm": -0.01,
-    "dividend_yield": 2.0,
+    "dividend_yield": 1.98,
     "payout_ratio": 0.61,
     "annual_revenue": [
       94193000000.0,
@@ -133,22 +133,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 55.2,
+    "rs_rating": 77,
+    "score": 57.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 4.6557,
-    "trailing_pe": 31.057241,
-    "forward_pe": 21.60065,
-    "ev_to_ebitda": 19.183,
-    "price_to_sales": 6.5422044,
+    "peg_ratio": 4.3204,
+    "trailing_pe": 31.926914,
+    "forward_pe": 22.1528,
+    "ev_to_ebitda": 19.83,
+    "price_to_sales": 6.77254,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 33.44,
-    "outperform_6m_vs_nasdaq": -7.82,
-    "outperform_1m_vs_nasdaq": 0.29,
+    "outperform_1y_vs_nasdaq": 34.85,
+    "outperform_6m_vs_nasdaq": -4.68,
+    "outperform_1m_vs_nasdaq": 7.69,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
-  "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global."
+  "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-03T01:32:57.507601+00:00"
+  }
 }

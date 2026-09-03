@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-09-01T01:54:52.028440+00:00",
+  "generated_at": "2026-09-03T01:08:55.051771+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 30647646208,
+    "market_cap": 31243735040,
     "shares_outstanding": 392164388,
     "employees": 22000,
     "country": "United Kingdom",
@@ -17,21 +17,32 @@
     "beta": 0.74
   },
   "category_a_business": {
-    "overview": "TechnipFMC plc는 유럽, 중앙 아시아, 북미, 라틴 아메리카, 아시아 태평양, 아프리카, 중동 및 국제적으로 석유 및 천연 가스 프로젝트, 기술, 시스템 및 서비스 비즈니스에 참여하고 있습니다. Subsea와 Surface Technologies라는 두 부문을 통해 운영됩니다. 해저 부문은 석유 및 천연가스 생산과 운송에 사용되는 해저 시스템, 해저 현장 인프라, 해저 파이프라인 시스템을 위한 현장 서비스의 설계, 엔지니어링, 조달, 제조, 제작, 설치 및 수명에 관여합니다.",
-    "business_model": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle E",
+    "overview": "FTI는 에너지 산업에 통합 프로젝트, 제품 및 서비스를 제공하는 선도적인 기술 기업입니다.",
+    "milestones": [
+      "2017: FMC Technologies와 Technip S.A.의 합병으로 TechnipFMC 설립",
+      "2017: iEPCI™ (통합 엔지니어링, 조달, 건설 및 설치) 모델 도입",
+      "2021: Technip Energies 사업부 분사 완료",
+      "2022: 유로넥스트 파리 상장 폐지 및 뉴욕 증권 거래소 단일 상장"
+    ],
+    "business_model": "해양 및 육상 에너지 프로젝트에 기술, 시스템, 서비스를 제공하여 수익 창출",
+    "revenue_streams": [
+      "해저 시스템 및 인프라 설계, 엔지니어링, 제조, 설치",
+      "해저 파이프라인 시스템 서비스",
+      "육상 및 천해 유전 탐사 및 생산 제품/시스템",
+      "유정 시추 및 생산 시스템 서비스"
+    ],
+    "value_chain_position": "Upstream / midstream + 석유 및 가스 생산 및 운송을 위한 해저 및 지상 기술 솔루션 제공",
     "products": [
-      "Subsea 및 Surface Technologies라는 두 가지 부문을 통해",
-      "해저 생산 시스템",
-      "drilling",
-      "계획, 테스트 및 설치, 시운전, 운영, 교체 및 업그레이드, 유지 관리, 보관, 보존"
+      "해저 생산 시스템 (SPS)",
+      "해저 엄빌리컬, 라이저 및 플로우라인 (SURF)",
+      "지상 유정 및 생산 트리 시스템",
+      "iEPCI™ 통합 프로젝트 실행 모델",
+      "Subsea 2.0® 제품군"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "TechnipFMC plc는 에너지 산업에 서비스를 제공하는 프랑스계 미국인, 영국 소재 글로벌 석유 및 가스 회사입니다. 이 회사는 2016년에 발표되어 2017년에 완성된 미국의 FMC Technologies와 프랑스의 Technip의 합병으로 구성되었습니다.",
-    "milestones": [
-      "2016년: 2017년 완료"
-    ]
+    "key_customers": "주로 석유 및 가스 회사이며, 특정 고객 집중도는 공개되지 않음"
   },
   "category_b_financials": {
     "roe": 0.36,
@@ -124,72 +135,141 @@
     "roe_pct": 35.81
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "25-30 billion (estimate) - 글로벌 해양 유전 개발 및 생산 인프라 시장 (Subsea SPS, SURF, 설치 서비스 포함)",
+    "tam_cagr_pct": "5-7% (estimate) - 해양 에너지 수요 증가, 기존 유전의 생산성 유지 및 신규 유전 개발 필요성, 에너지 전환 과정에서의 가스 수요 증가가 복합적으로 작용하여 Subsea 시장의 꾸준한 성장을 견인할 것으로 예상됨. 특히 iEPCI™와 같은 통합 솔루션의 확산이 시장 성장을 가속화할 것임.",
+    "growth_drivers": [
+      "글로벌 에너지 수요 증가 및 기존 유전의 생산성 유지 필요성",
+      "심해 유전 개발의 경제성 향상 및 기술 발전 (iEPCI™, Subsea 2.0® 등)",
+      "에너지 전환 과정에서 천연가스의 교량 연료 역할 증대",
+      "탄소 집약도 감소 및 지속 가능성 목표 달성을 위한 기술 솔루션 수요 증가",
+      "기존 설치 기반(installed base)에 대한 서비스 및 유지보수 수요 증가"
+    ],
+    "market_share_pct": "25-35% (estimate) - 특히 통합 Subsea 솔루션 시장에서 선도적인 위치를 차지하며 높은 점유율을 보유하고 있음.",
+    "competitors": [
+      {
+        "name": "Schlumberger (SLB)",
+        "differentiation": "광범위한 유전 서비스 포트폴리오, 디지털 솔루션 및 기술 혁신에 강점, Subsea 분야에서도 경쟁력 보유"
+      },
+      {
+        "name": "Halliburton (HAL)",
+        "differentiation": "육상 및 해상 시추, 생산 서비스에 강점, Subsea 분야에서는 특정 제품 및 서비스에 집중"
+      },
+      {
+        "name": "Baker Hughes (BKR)",
+        "differentiation": "다양한 에너지 기술 및 서비스 제공, 특히 터보 기계 및 프로세스 솔루션, 디지털 솔루션에 강점, Subsea 장비 및 서비스도 제공"
+      },
+      {
+        "name": "Saipem",
+        "differentiation": "해양 시추 및 건설, 플랜트 엔지니어링 및 건설에 특화된 이탈리아 기업, Subsea 설치 및 인프라 구축에 강점"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - Subsea 산업은 높은 자본 투자, 복잡한 기술 요구 사항, 오랜 업력과 전문성, 강력한 고객 관계가 필요하여 신규 진입 장벽이 매우 높음.",
+      "substitutes": "medium - 재생 에너지(풍력, 태양광 등) 및 기타 에너지원(수소 등)이 장기적으로 화석 연료를 대체할 수 있으나, 단기적으로는 Subsea 인프라의 직접적인 대체재는 제한적임.",
+      "buyer_power": "medium - 주요 고객은 소수의 대형 국제 석유 회사(IOCs) 및 국영 석유 회사(NOCs)로, 이들은 대규모 프로젝트를 발주하며 가격 및 조건 협상력이 높음. 그러나 FTI의 통합 솔루션은 고객에게 상당한 가치를 제공하여 협상력을 일부 상쇄함.",
+      "supplier_power": "medium - Subsea 시스템에 필요한 고도로 전문화된 부품 및 서비스 공급업체가 존재하며, 일부 핵심 기술 및 재료는 소수 공급업체에 의존할 수 있음. 그러나 FTI의 규모와 통합 역량은 공급업체에 대한 의존도를 완화하는 데 도움을 줌.",
+      "rivalry": "high - 소수의 대형 플레이어들이 시장을 지배하며, 기술 혁신, 가격 경쟁, 서비스 품질을 통한 치열한 경쟁이 존재함. 특히 통합 솔루션 분야에서는 FTI가 선도적이지만, 다른 경쟁사들도 유사한 모델을 개발하려는 노력을 하고 있음."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
+      "독점적인 iEPCI™ 통합 모델: Subsea 생산 시스템(SPS)과 Subsea Umbilicals, Risers, and Flowlines(SURF) 및 설치 작업을 통합하여 프로젝트 경제성 및 납기 단축에 기여하는 독보적인 솔루션.",
+      "기술 리더십: Subsea 2.0®과 같은 혁신적인 제품군 및 디지털 솔루션을 통해 비용 효율적이고 성능이 향상된 솔루션 제공.",
+      "글로벌 설치 기반 및 서비스 네트워크: 방대한 기존 설치 기반을 통해 안정적인 서비스 및 유지보수 수익 확보.",
+      "심해 개발 전문성: 심해 유전 개발에 필수적인 엔지니어링, 제조, 설치 및 서비스 역량을 모두 보유한 몇 안 되는 기업 중 하나.",
+      "강력한 고객 관계 및 파트너십: 오랜 업력과 성공적인 프로젝트 수행을 통해 주요 에너지 기업들과 견고한 관계 구축."
+    ],
+    "competitive_weaknesses": [
+      "유가 변동성에 대한 민감성: 유가 하락 시 고객사의 투자 감소로 인해 프로젝트 수주 및 수익성에 직접적인 영향을 받음.",
+      "에너지 전환 압력: 장기적으로 화석 연료 수요 감소 추세가 Subsea 시장에 부정적인 영향을 미칠 수 있음.",
+      "높은 자본 집약도: Subsea 인프라 구축 및 유지보수에 막대한 자본 투자가 필요하며, 이는 재무 부담으로 작용할 수 있음.",
+      "복잡한 프로젝트 관리: 대규모 통합 프로젝트는 복잡성이 높고, 예상치 못한 문제 발생 시 비용 및 일정에 영향을 줄 수 있음.",
+      "환경 규제 강화: 해양 환경 보호 및 탄소 배출 규제 강화는 운영 비용 증가 및 프로젝트 승인 지연을 초래할 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 61.3,
+    "rs_rating": 87,
+    "score": 62.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.18,
-    "trailing_pe": 26.491526,
-    "forward_pe": 21.71533,
-    "ev_to_ebitda": 15.579,
-    "price_to_sales": 2.9412045,
+    "trailing_pe": 27.856644,
+    "forward_pe": 22.137688,
+    "ev_to_ebitda": 15.611,
+    "price_to_sales": 2.9984102,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 90.07,
-    "outperform_6m_vs_nasdaq": 0.1,
-    "outperform_1m_vs_nasdaq": 5.2,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 90.52,
+    "outperform_6m_vs_nasdaq": 3.71,
+    "outperform_1m_vs_nasdaq": 14.63,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets | Switching Costs",
+    "moat_evidence": [
+      "FTI는 Subsea 및 Surface Technologies 분야에서 독점적인 기술과 포괄적인 솔루션을 제공하는 선도적인 기술 공급업체입니다. 특히 iEPCI™ 모델은 SPS와 SURF, 설치 선박을 통합하여 유일하게 전체 해저 개발 수명 주기를 효율적으로 제공하며 새로운 시장을 창출했습니다.",
+      "iEPCI™는 해저 시장의 거의 3분의 1을 차지하며, 프로젝트 경제성을 개선하고 탄화수소 생산 일정을 단축하는 독점적인 비즈니스 모델의 가치를 입증했습니다.",
+      "Subsea 2.0® CTO 제품군과 광범위한 고객 파트너십 네트워크, 그리고 방대한 설치 기반을 활용하는 서비스 사업을 통해 차별화된 확장 및 가치 창출 플랫폼을 구축했습니다. 이는 고객의 전환 비용을 높이는 요인으로 작용합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "iEPCI™ 및 Subsea 2.0® 기술 혁신을 통한 해저 시장 확장 및 에너지 전환 솔루션 강화",
+    "bull_case": "에너지 전환 가속화 및 해저 유전 개발 수요 증가로 iEPCI™ 및 Subsea 2.0® 매출 급증, 3년 내 EPS 50% 성장",
+    "base_case": "글로벌 에너지 수요 증가와 에너지 전환 노력에 힘입어 해저 및 지상 기술 솔루션 수요가 꾸준히 증가하며, 매출 성장률 10% 유지 및 수익성 개선 지속",
+    "bear_case": "유가 하락 및 재생 에너지 전환 가속화로 전통 에너지 투자 위축, 해저 개발 프로젝트 지연으로 매출 감소 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "iEPCI™ 및 Subsea 2.0® 계약 수주액",
+      "해저 부문 매출 성장률",
+      "영업이익률 (OPM) 추이",
+      "자유현금흐름 (FCF)"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "위험 요소 예상되는 운영 결과와 성장 계획 목표를 달성하는 능력에 영향을 미칠 수 있는 중요한 위험 요소는 다음과 같습니다.",
+        "category": "거시",
+        "description": "유가 및 천연가스 가격 변동성과 석유 및 천연가스 산업 활동 수준에 대한 의존도가 높아 수요 감소 시 매출 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "산업 통합을 포함한 경쟁 요인의 예상치 못한 변화와 경쟁 심화는 회사의 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "요약 위험 요소 다음은 당사의 사업, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있는 일부 위험과 불확실성을 요약한 것입니다.",
+        "category": "재무",
+        "description": "기존 및 미래 부채는 운영에 사용할 수 있는 현금 흐름을 제한하고, 신용 등급 하락 시 자금 조달 능력을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "당사 운영과 관련된 위험 • 고정 가격 계약으로 인해 손실을 입을 수 있습니다.",
+        "category": "공급망",
+        "description": "하청업체, 공급업체 및 합작 투자 파트너에 대한 의존성으로 인해 이들의 실패 또는 지연이 사업 운영에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 요인은 당사의 수익과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "규제",
+        "description": "환경, 기후 변화, GHG 배출, 개인 정보 보호 등 다양한 법규 준수 의무 위반 시 재무 상태 및 운영 결과에 중대한 부정적 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "유전 서비스에 대한 지속적인 변동성 또는 향후 수요 감소는 당사의 재무 상태, 운영 결과 또는 현금 흐름에 더욱 부정적인 영향을 미칠 수 있습니다.",
+        "category": "거시",
+        "description": "에너지 전환에 대한 불확실성은 고객의 자본 배분 변화를 야기하여 회사의 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "We operate in a highly competitive environment and unanticipated changes relating to competitive factors in our industry, including ongoing industry consolidation, may impact our results of operations.",
-        "severity": "medium"
+        "category": "거버넌스",
+        "description": "핵심 경영진 및 직원의 지속적인 서비스에 대한 의존도가 높아 이들의 이탈 시 사업 운영에 차질이 발생할 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "유가 및 천연가스 가격이 장기간 급락하고, 주요 고객들이 에너지 전환으로 자본을 대거 이동하여 FTI의 핵심 사업 수요가 회복 불가능할 정도로 감소하는 경우.",
+      "사이버 공격으로 핵심 IT 인프라가 마비되고, 동시에 주요 고정 가격 계약에서 막대한 손실이 발생하여 재무 건전성이 심각하게 훼손되는 경우.",
+      "주요 사업을 영위하는 국가에서 정치적 불안정, 규제 강화, 또는 대규모 해상 분쟁이 발생하여 운영이 불가능해지고, 동시에 핵심 기술 개발에 실패하여 경쟁 우위를 상실하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "FTI의 주요 고객사들이 석유 및 가스 탐사 및 생산에 대한 자본 지출을 전년 대비 20% 이상 지속적으로 삭감한다고 발표하는 경우.",
+      "FTI의 신용 등급이 투자 부적격 등급으로 하향 조정되고, 동시에 신규 채권 발행 또는 기존 부채 리파이낸싱에 실패하는 경우.",
+      "FTI가 2개 이상의 주요 고정 가격 계약에서 예상치 못한 대규모 손실을 보고하고, 이로 인해 분기별 순이익이 2분기 연속 적자를 기록하는 경우."
     ]
   },
   "wikipedia_summary": "TechnipFMC plc is a French-American, UK-domiciled global oil and gas company that provides services for the energy industry. The company was formed by the merger of FMC Technologies of the United States and Technip of France that was announced in 2016 and completed in 2017.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:14:56.329001+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:32:55.446699+00:00"
   }
 }

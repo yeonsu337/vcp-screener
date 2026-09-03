@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-09-01T02:12:37.838492+00:00",
+  "generated_at": "2026-09-03T01:30:36.256969+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1727564672,
+    "market_cap": 1771011072,
     "shares_outstanding": 28583135,
     "employees": 44,
     "country": "United States",
@@ -17,10 +17,10 @@
     "beta": 0.869
   },
   "category_a_business": {
-    "overview": "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases. Its commercial rare disease products include Increlex for the treatment of severe primary igf-1 deficiency; Alkindi Sprinkle for adrenal insufficiency; Khindivi for adrenocortical insufficiency; Galzin for Wilson disease; PKU Golike for phenylketonuria; Carglumic Acid for N-acetylglutamate synthase deficiency; Betaine Anhydrous for homocystinuria; and Nitisinone for tyrosinemia type 1. The company is also developing various product candidates, which are in late-stage de",
-    "business_model": "Eton Pharmaceuticals, Inc., a pharmaceutical company, focuses on developing and commercializing treatments for rare diseases.",
+    "overview": "제약회사인 Eton Pharmaceuticals, Inc.는 희귀질환 치료제 개발 및 상업화에 중점을 두고 있습니다. 상업용 희귀질환 제품에는 심각한 원발성 IGF-1 결핍증 치료를 위한 Increlex; 부신 기능 부전을 위한 Alkindi Sprinkle; 부신피질 부전을 위한 Khindivi; 윌슨병에 대한 Galzin; 페닐케톤뇨증에 대한 PKU Golike; N-아세틸글루타메이트 합성효소 결핍증을 위한 카르글루민산; 호모시스틴뇨증을 위한 베타인 무수물; 티로신혈증 1형 치료제 니티시논(Nitisinone) 등도 개발 중이다.",
+    "business_model": "제약회사인 Eton Pharmaceuticals, Inc.는 희귀질환 치료제 개발 및 상업화에 중점을 두고 있습니다.",
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -116,19 +116,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 64.5,
+    "score": 64.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 154.97437,
-    "forward_pe": 23.426357,
-    "ev_to_ebitda": 68.709,
-    "price_to_sales": 16.360289,
+    "trailing_pe": 158.8718,
+    "forward_pe": 24.015505,
+    "ev_to_ebitda": 68.697,
+    "price_to_sales": 16.771732,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 228.27,
-    "outperform_6m_vs_nasdaq": 217.08,
-    "outperform_1m_vs_nasdaq": 26.27,
+    "outperform_1y_vs_nasdaq": 225.9,
+    "outperform_6m_vs_nasdaq": 231.35,
+    "outperform_1m_vs_nasdaq": 35.25,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -140,17 +140,17 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "Other events that we do not currently anticipate or that we currently deem immaterial may also affect our results of operations and financial condition.",
+        "description": "현재 예상하지 않거나 현재 중요하지 않다고 판단되는 기타 사건도 당사의 운영 결과 및 재무 상태에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Risks Relating to Pricing, Reimbursement and Market Access The Inflation Reduction Act and related Medicare reforms may adversely affect the prices we realize and the demand for our products.",
+        "description": "가격 책정, 상환 및 시장 접근과 관련된 위험 인플레이션 감소법 및 관련 메디케어 개혁은 우리가 실현하는 가격과 우리 제품에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "In addition, our products may be subject to pricing and discount requirements under the U.S.",
+        "description": "또한 당사 제품에는 미국의 가격 책정 및 할인 요구 사항이 적용될 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -173,6 +173,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:14:36.217982+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:32:48.429312+00:00"
   }
 }

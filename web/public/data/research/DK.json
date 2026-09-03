@@ -1,0 +1,190 @@
+{
+  "ticker": "DK",
+  "company": "Delek US Holdings, Inc.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
+  "generated_at": "2026-09-03T01:29:34.853628+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 4375038976,
+    "shares_outstanding": 61232174,
+    "employees": 1902,
+    "country": "United States",
+    "website": "https://www.delekus.com",
+    "beta": 0.562
+  },
+  "category_a_business": {
+    "overview": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics.",
+    "business_model": "Delek US Holdings, Inc.",
+    "products": [
+      "in two segments Refining and Logistics",
+      "텍사스 타일러에 위치한 정유소",
+      "light product distribution terminals, as well as markets light products using third-party terminals"
+    ],
+    "channels": [
+      "B2B / 기업"
+    ],
+    "wikipedia_excerpt": "Delek US Holdings, Inc.는 2001년에 설립되었으며 테네시 주 브렌트우드에 본사를 두고 있는 정유, 물류 및 바이오 연료 회사입니다.",
+    "milestones": [
+      "2001년: 테네시주 브렌트우드에 본사 위치"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.79,
+    "roa": 0.05,
+    "profit_margin": 0.02,
+    "operating_margin": 0.08,
+    "gross_margin": 0.1,
+    "revenue_growth_ttm": 0.48,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 1.39,
+    "payout_ratio": 0.28,
+    "annual_revenue": [
+      10722900000.0,
+      11852200000.0,
+      16467200000.0,
+      19801000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      318600000.0,
+      -268600000.0,
+      262300000.0,
+      426300000.0,
+      null
+    ],
+    "annual_eps": [
+      -0.38,
+      -8.77,
+      0.3,
+      3.59,
+      null
+    ],
+    "annual_free_cf": [
+      -6200000.0,
+      -497400000.0,
+      616800000.0,
+      139500000.0,
+      null
+    ],
+    "annual_total_debt": [
+      3306400000.0,
+      2863200000.0,
+      2735600000.0,
+      3225700000.0,
+      null
+    ],
+    "annual_equity": [
+      286500000.0,
+      312800000.0,
+      845500000.0,
+      943600000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.71,
+      -3.34,
+      1.26,
+      2.93,
+      -1.76,
+      null
+    ],
+    "quarterly_revenue": [
+      4087000000.0,
+      2653100000.0,
+      2429400000.0,
+      2887000000.0,
+      2764600000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2024-12-31"
+    ],
+    "sales_yoy_pct": 47.8,
+    "roe_pct": 78.76
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 95,
+    "score": 67.1,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 0.38,
+    "trailing_pe": 19.468664,
+    "forward_pe": 15.355453,
+    "ev_to_ebitda": 7.086,
+    "price_to_sales": 0.36287802,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 147.39,
+    "outperform_6m_vs_nasdaq": 65.9,
+    "outperform_1m_vs_nasdaq": 12.49,
+    "lynch_category": "Fast Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "지역적 또는 세계적인 질병 발생은 당사의 사업, 재무 상태, 운영 결과 및 유동성에 중대한 부정적인 영향을 미치는 재무 및 운영상의 영향을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "우리는 정부 당국이 요구하거나 직원, 계약자, 고객, 공급업체 및 지역 사회의 최선의 이익이 된다고 판단하는 경우 추가 조치를 취할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "그러나 그러한 조치가 발생으로 인한 위험을 완화하기에 충분할 것이라는 보장은 없으며 비즈니스 운영을 성공적으로 수행하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "정제 마진이 크게 또는 장기적으로 감소하면 당사의 영업 결과와 현금 흐름이 감소하고 당사의 미래 성장률과 자산 장부 가치에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "법률, 규정 및 기타 요구 사항을 지속적으로 준수하거나 위반하는 경우에도 당사의 비즈니스, 재무 상태 및 운영 결과에 심각한 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "이러한 향후 활동은 당사의 생산 확대 능력에 부정적인 영향을 미칠 수도 있고, 당사에 대한 홍보에 해를 끼치거나 당사 제품에 대한 수요를 감소시킬 수도 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-03T01:32:37.608085+00:00"
+  }
+}

@@ -30,6 +30,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "ALL",
+    "company": "The Allstate Corporation",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:17:30.907871+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "AMAT",
     "company": "Applied Materials, Inc.",
     "market": "US",
@@ -47,6 +57,16 @@
     "primary_passed": 12,
     "primary_total": 13,
     "generated_at": "2026-07-10T00:18:35.254709+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "AMGN",
+    "company": "Amgen Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:08:14.264160+00:00",
     "llm_status": "ok"
   },
   {
@@ -75,9 +95,9 @@
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
-    "primary_total": 14,
-    "generated_at": "2026-05-06T01:32:10.793474+00:00",
-    "llm_status": "unavailable: rate-limited (429)"
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:25:27.648569+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "APG",
@@ -166,8 +186,8 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-03T00:10:09.303126+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-08-29T04:19:39.999144+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "BK",
@@ -190,13 +210,23 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "BMY",
+    "company": "Bristol-Myers Squibb Company",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:23:16.193849+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "BNY",
-    "company": "The Bank of New York Mellon Cor",
+    "company": "The Bank of New York Mellon Corporation",
     "market": "US",
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-10T00:21:03.259604+00:00",
+    "generated_at": "2026-09-01T01:50:18.982048+00:00",
     "llm_status": "ok"
   },
   {
@@ -240,6 +270,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "CF",
+    "company": "CF Industries Holdings, Inc.",
+    "market": "US",
+    "sector": "Basic Materials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:07:34.744179+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "CHRW",
     "company": "C.H. Robinson Worldwide, Inc.",
     "market": "US",
@@ -268,6 +308,16 @@
     "primary_total": 13,
     "generated_at": "2026-06-26T00:21:23.872940+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "CON",
+    "company": "Concentra Group Holdings Parent, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:27:31.761091+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CRS",
@@ -306,7 +356,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-14T00:08:11.401826+00:00",
+    "generated_at": "2026-09-01T02:14:39.952748+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -328,6 +378,26 @@
     "primary_total": 13,
     "generated_at": "2026-07-09T00:18:43.722921+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "DINO",
+    "company": "HF Sinclair Corporation",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-08-28T06:54:57.051153+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "DK",
+    "company": "Delek US Holdings, Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:29:34.853628+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "DOCN",
@@ -390,6 +460,26 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "ETON",
+    "company": "Eton Pharmaceuticals, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:30:36.256969+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "EXPD",
+    "company": "Expeditors International of Washington, Inc.",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:15:50.046239+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "EZPW",
     "company": "EZCORP, Inc.",
     "market": "US",
@@ -426,7 +516,17 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-22T00:37:50.216046+00:00",
+    "generated_at": "2026-09-03T01:08:55.051771+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "GCT",
+    "company": "GigaCloud Technology Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-08-29T04:28:51.536639+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -526,7 +626,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:13:03.902652+00:00",
+    "generated_at": "2026-09-03T01:32:38.342765+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -536,8 +636,8 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:11:01.570145+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-08-28T06:43:59.047386+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "INSW",
@@ -546,7 +646,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-25T00:32:49.700512+00:00",
+    "generated_at": "2026-08-29T04:21:42.878351+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -576,7 +676,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:09:58.671902+00:00",
+    "generated_at": "2026-09-03T01:31:37.359876+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -600,6 +700,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "KNTK",
+    "company": "Kinetik Holdings Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-09-01T01:49:42.209053+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "LAMR",
     "company": "Lamar Advertising Company",
     "market": "US",
@@ -616,7 +726,7 @@
     "sector": "Consumer Defensive",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:18:12.220826+00:00",
+    "generated_at": "2026-08-29T04:38:03.475038+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -641,12 +751,12 @@
   },
   {
     "ticker": "LPG",
-    "company": "Dorian LPG Ltd",
+    "company": "Dorian LPG Ltd.",
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-11T00:23:59.207823+00:00",
+    "generated_at": "2026-09-01T01:51:56.762578+00:00",
     "llm_status": "ok"
   },
   {
@@ -671,13 +781,13 @@
   },
   {
     "ticker": "MD",
-    "company": "Pediatrix Medical Group Inc",
+    "company": "Pediatrix Medical Group, Inc.",
     "market": "US",
     "sector": "Healthcare",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:06:50.723790+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-09-03T01:26:29.526481+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "MLI",
@@ -716,8 +826,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-08T00:17:40.816974+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-08-28T06:42:50.388870+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "MPWR",
@@ -780,6 +890,16 @@
     "llm_status": "report-only"
   },
   {
+    "ticker": "NTRS",
+    "company": "Northern Trust Corporation",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-01T01:56:55.676522+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "NVDA",
     "company": "NVIDIA Corporation",
     "market": "US",
@@ -816,8 +936,8 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:17:10.954946+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-08-28T06:44:36.997231+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "OUT",
@@ -846,7 +966,17 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-12T00:34:54.825388+00:00",
+    "generated_at": "2026-09-03T01:20:34.343186+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "PBF",
+    "company": "PBF Energy Inc.",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:22:14.991114+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -858,6 +988,16 @@
     "primary_total": 13,
     "generated_at": "2026-06-26T00:29:36.029747+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "PSX",
+    "company": "Phillips 66",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-01T01:48:35.485665+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "PWR",
@@ -906,7 +1046,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:16:08.370510+00:00",
+    "generated_at": "2026-09-01T02:00:21.265552+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -956,7 +1096,7 @@
     "sector": "Basic Materials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-15T00:19:10.663368+00:00",
+    "generated_at": "2026-09-03T01:19:32.874113+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -986,7 +1126,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-05-21T00:48:35.762358+00:00",
+    "generated_at": "2026-09-01T01:59:19.999665+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1006,7 +1146,7 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-06-30T00:25:59.432031+00:00",
+    "generated_at": "2026-09-03T01:24:17.363928+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1026,7 +1166,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-10T00:30:14.994629+00:00",
+    "generated_at": "2026-09-03T01:18:31.888354+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1036,7 +1176,17 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-11T00:04:52.858077+00:00",
+    "generated_at": "2026-09-03T01:10:43.925774+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "TRV",
+    "company": "The Travelers Companies, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-09-01T01:51:16.577572+00:00",
     "llm_status": "ok"
   },
   {
@@ -1048,6 +1198,16 @@
     "primary_total": 13,
     "generated_at": "2026-06-11T00:25:48.979262+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "UNP",
+    "company": "Union Pacific Corporation",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-08-29T04:36:00.867523+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "UTHR",
@@ -1066,7 +1226,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-03T00:10:50.021180+00:00",
+    "generated_at": "2026-08-28T06:42:11.040928+00:00",
     "llm_status": "ok"
   },
   {
@@ -1087,6 +1247,26 @@
     "primary_passed": 13,
     "primary_total": 13,
     "generated_at": "2026-06-30T00:11:43.871638+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "VIRT",
+    "company": "Virtu Financial, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:28:33.864778+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "VLO",
+    "company": "Valero Energy Corporation",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-08-28T06:41:29.667970+00:00",
     "llm_status": "ok"
   },
   {
@@ -1126,8 +1306,18 @@
     "sector": "Real Estate",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-09T00:20:04.794395+00:00",
+    "generated_at": "2026-09-03T01:10:04.083281+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "WES",
+    "company": "Western Midstream Partners, LP",
+    "market": "US",
+    "sector": "Energy",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-03T01:14:48.800077+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WFRD",
@@ -1164,10 +1354,10 @@
     "company": "WisdomTree, Inc.",
     "market": "US",
     "sector": "Financial Services",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-06-24T00:28:12.528450+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-08-29T04:14:34.656296+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WWD",

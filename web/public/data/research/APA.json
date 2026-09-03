@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
-  "generated_at": "2026-08-28T06:50:52.610959+00:00",
+  "generated_at": "2026-09-03T01:25:27.648569+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 14847897600,
+    "market_cap": 15658960896,
     "shares_outstanding": 350351510,
     "employees": 1791,
     "country": "United States",
@@ -17,15 +17,31 @@
     "beta": 0.348
   },
   "category_a_business": {
-    "overview": "독립 에너지 기업인 APA Corporation은 천연가스, 원유, 천연가스 액체를 탐색, 개발, 생산합니다. 이 회사는 미국, 이집트, 북해에서 석유 및 가스 사업을 운영하고 있습니다. 또한 수리남에서 탐사 및 평가 활동을 하고 있을 뿐만 아니라 우루과이 및 국제적으로 위치한 프로젝트에도 관심을 갖고 있습니다.",
-    "business_model": "독립 에너지 기업인 APA Corporation은 천연가스, 원유, 천연가스 액체를 탐색, 개발, 생산합니다.",
+    "overview": "APA Corporation은 미국, 이집트, 북해 등에서 천연가스, 원유, NGL을 탐사, 개발, 생산하는 독립 에너지 기업입니다.",
+    "milestones": [
+      "1954년: Apache Corporation 설립",
+      "1955: 첫 유정 시추 성공",
+      "1980년대: 북미 지역 자산 확장 및 성장",
+      "2000년대: 이집트, 북해 등 국제 자산 포트폴리오 다각화",
+      "2020: 지주회사 APA Corporation 설립 및 Apache Corporation 자회사 편입",
+      "2020년대: 수리남 등 신규 탐사 지역 투자 확대"
+    ],
+    "business_model": "원유, 천연가스, NGL의 탐사, 개발, 생산 및 판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "원유 판매",
+      "천연가스 판매",
+      "천연가스액(NGL) 판매"
+    ],
+    "value_chain_position": "Upstream: 원유 및 가스 자원의 탐사, 개발, 생산에 집중합니다.",
     "products": [
-      "천연 가스, 원유 및 천연 가스 액체"
+      "원유 (Crude Oil)",
+      "천연가스 (Natural Gas)",
+      "천연가스액 (Natural Gas Liquids, NGL)"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B"
     ],
-    "wikipedia_excerpt": "Apache Corporation의 지주 회사인 APA Corporation은 탄화수소 탐사에 종사하는 미국 회사입니다. 델라웨어에서 조직되었으며 휴스턴에 본사가 있습니다."
+    "key_customers": "주로 정유사, 가스 유통업체 등 대규모 에너지 구매자들에게 판매하며, 특정 고객에 대한 높은 집중도는 없습니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -35,7 +51,7 @@
     "gross_margin": 0.78,
     "revenue_growth_ttm": 0.09,
     "earnings_growth_ttm": 0.26,
-    "dividend_yield": 2.43,
+    "dividend_yield": 2.26,
     "payout_ratio": 0.21,
     "annual_revenue": [
       8920000000.0,
@@ -127,42 +143,42 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 57.3,
+    "rs_rating": 88,
+    "score": 59.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.7978,
-    "trailing_pe": 8.702259,
-    "forward_pe": 10.087257,
-    "ev_to_ebitda": 3.358,
-    "price_to_sales": 1.7321392,
+    "peg_ratio": 1.0468,
+    "trailing_pe": 9.429325,
+    "forward_pe": 10.664748,
+    "ev_to_ebitda": 3.5,
+    "price_to_sales": 1.826757,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 75.08,
-    "outperform_6m_vs_nasdaq": 31.63,
-    "outperform_1m_vs_nasdaq": 6.89,
+    "outperform_1y_vs_nasdaq": 74.23,
+    "outperform_6m_vs_nasdaq": 26.05,
+    "outperform_1m_vs_nasdaq": 21.53,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "현재 회사에 알려지지 않았거나 회사가 현재 중요하지 않다고 간주하는 추가 위험 및 불확실성도 회사에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Additional risks and uncertainties not presently known to the Company or that the Company currently considers immaterial may also adversely affect the Company.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "상품 가격, 수요 및 생산과 관련된 위험 원유, 천연 가스, NGL 가격과 그 변동성은 회사의 영업 결과와 APA 보통주 가격에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "RISKS RELATED TO COMMODITY PRICES, DEMAND, AND PRODUCTION Crude oil, natural gas, and NGL prices and their volatility could adversely affect the Company’s operating results and the price of APA’s common stock.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "자본 지출에 자금을 조달할 능력이 없으면 회사는 예비비와 생산을 대체할 수 없습니다.",
+        "description": "Without the ability to fund capital expenditures, the Company would be unable to replace reserves and production.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한, 회사는 가격 약세나 마이너스 가격 등 시장 상황에 대응하여 이전에도 자발적으로 생산을 축소해왔으며 앞으로도 자발적으로 생산량을 줄일 수 있습니다.",
+        "description": "Additionally, the Company has previously and may in the future voluntarily curtail production in response to market conditions, such as weak or negative prices.",
         "severity": "medium"
       },
       {
@@ -172,7 +188,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "또한 회사가 운송 비용을 충당하는 순 가격 이상으로 제3자 수량을 조달하고 재판매할 수 없는 경우 회사의 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Further, if the Company is unable to procure and resell third-party volumes at or above a net price that covers the cost of transportation, the Company’s cash flows could be adversely affected.",
         "severity": "medium"
       }
     ],
@@ -185,6 +201,6 @@
   },
   "wikipedia_summary": "APA Corporation, a holding company for Apache Corporation, is an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:13:47.021420+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:32:15.279684+00:00"
   }
 }

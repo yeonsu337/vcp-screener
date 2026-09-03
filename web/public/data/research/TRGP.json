@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-07-11T00:04:52.858077+00:00",
+  "generated_at": "2026-09-03T01:10:43.925774+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 58672914432,
-    "shares_outstanding": 214643903,
+    "market_cap": 62926925824,
+    "shares_outstanding": 214431021,
     "employees": 3570,
     "country": "United States",
     "website": "https://www.targaresources.com",
-    "beta": 0.704
+    "beta": 0.716
   },
   "category_a_business": {
     "overview": "타르가 리소스는 북미 미드스트림 에너지 인프라 기업으로, 천연가스 및 NGL 운송, 처리, 저장 서비스를 제공합니다.",
@@ -22,41 +22,44 @@
       "2005년: Targa Resources Corp. 설립",
       "2020: 매튜 J. 멜로이(Matthew J. Meloy) CEO",
       "2023: Gulf Coast Fractionators (GCF) 135 MBbl/d 분별 시설 재가동 합의",
-      "2025: Bull Moose, Pembrook II, Bull Moose II 천연가스 처리 플랜트 가동 시작",
-      "2025: GCF 분별 시설 가동 시작",
-      "2026: East Pembrook, Falcon II, East Driver 천연가스 처리 플랜트 가동 예정",
-      "2026: Mont Belvieu Train 11 분별 시설 가동 예정"
+      "2025: Bull Moose 천연가스 처리 플랜트 가동 시작",
+      "2025: Pembrook II 천연가스 처리 플랜트 가동 시작",
+      "2025: Bull Moose II 천연가스 처리 플랜트 가동 시작",
+      "2025: Gulf Coast Fractionators (GCF) 분별 시설 가동 시작",
+      "2026: East Pembrook 천연가스 처리 플랜트 가동 예정"
     ],
-    "business_model": "천연가스, NGL, 원유의 수집, 처리, 운송, 저장 서비스를 통해 수익 창출",
+    "business_model": "천연가스, NGL, 원유의 수집, 처리, 운송, 저장 서비스를 통해 수익 창출.",
     "revenue_streams": [
       "천연가스 수집 및 처리 서비스",
-      "NGL 운송, 저장, 분별 서비스",
-      "원유 수집 및 터미널링 서비스",
+      "NGL 운송, 저장, 분별, 마케팅 서비스",
+      "원유 수집, 저장, 터미널링 서비스",
       "NGL 제품 구매 및 재판매",
-      "천연가스 구매 및 재판매"
+      "프로판 판매 및 관련 물류 서비스",
+      "NGL 균형 조정 서비스"
     ],
-    "value_chain_position": "Midstream: 원유 및 가스 생산지에서 최종 소비지 또는 정제 시설로의 운송, 처리, 저장 등 중간 단계 서비스를 제공합니다.",
+    "value_chain_position": "미드스트림: 원유 및 가스 생산지에서 정제소, 소비처까지의 운송, 처리, 저장 인프라 제공.",
     "products": [
-      "천연가스 수집 및 압축",
-      "천연가스 처리 (NGL 추출)",
-      "NGL 분별 및 저장",
-      "원유 수집 및 터미널링",
-      "NGL 및 천연가스 마케팅"
+      "천연가스 수집 및 처리",
+      "NGL 운송 및 분별",
+      "원유 수집 및 저장",
+      "액화석유가스(LPG) 수출 서비스",
+      "NGL 균형 조정 서비스",
+      "천연가스 구매 및 재판매"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주로 석유 및 가스 생산자, 정유사, 석유화학 회사, LPG 수출업체 등"
+    "key_customers": "주로 석유 및 가스 생산자, 정유사, 석유화학 회사, 다국적 소매업체, 독립 소매업체 등"
   },
   "category_b_financials": {
-    "roe": 0.74,
+    "roe": 0.71,
     "roa": 0.09,
-    "profit_margin": 0.13,
-    "operating_margin": 0.21,
-    "gross_margin": 0.42,
-    "revenue_growth_ttm": -0.1,
-    "earnings_growth_ttm": 1.43,
-    "dividend_yield": 1.56,
+    "profit_margin": 0.14,
+    "operating_margin": 0.28,
+    "gross_margin": 0.43,
+    "revenue_growth_ttm": 0.04,
+    "earnings_growth_ttm": 0.23,
+    "dividend_yield": 1.69,
     "payout_ratio": 0.41,
     "annual_revenue": [
       17028300000.0,
@@ -108,22 +111,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      3.57,
       2.23,
       2.54,
       2.2,
       2.92,
-      0.92,
+      null,
       null
     ],
     "quarterly_revenue": [
+      4440100000.0,
       4094700000.0,
       4055500000.0,
       4151200000.0,
       4260100000.0,
-      4561500000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -131,99 +137,98 @@
       "2025-03-31",
       "2024-12-31"
     ],
-    "eps_qoq_yoy_pct": 77.3,
-    "sales_yoy_pct": -10.2,
+    "eps_qoq_yoy_pct": 21.5,
+    "sales_yoy_pct": 4.2,
     "ni_cagr_3y_pct": 17.17,
-    "roe_pct": 74.1
+    "roe_pct": 70.84
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "2023년 북미 미드스트림 시장 규모 약 1,000억 달러 (출처: 에너지 정보국(EIA) 및 산업 보고서 추정치 종합)",
-    "tam_cagr_pct": "3-5% (근거: 북미 셰일 생산량 증가, 특히 퍼미안 분지에서의 지속적인 원유 및 천연가스 생산량 증가, NGL 수요 증가 및 수출 인프라 확충 필요성)",
+    "tam_estimate_usd_b": "2023년 북미 미드스트림 시장 규모 약 1,000억 달러 (출처: Energy Information Administration (EIA) 및 업계 보고서 추정치 기반)",
+    "tam_cagr_pct": "3-5% (근거: 북미 셰일 생산량 증가 지속, 특히 퍼미안 분지에서의 천연가스 및 NGL 생산량 증가 전망. 에너지 전환 과정에서 천연가스의 교량 연료 역할 및 NGL의 석유화학 원료 수요 유지.)",
     "growth_drivers": [
-      "퍼미안 분지 등 주요 셰일 지역의 원유 및 천연가스 생산량 지속 증가",
-      "NGL(천연가스액) 수요 증가 및 수출 시장 확대",
-      "기존 인프라의 효율성 향상 및 신규 파이프라인, 처리 시설 확충 필요성",
-      "에너지 전환 과정에서 천연가스의 교량 연료 역할 증대"
+      "퍼미안 분지 등 주요 생산 분지에서의 원유 및 천연가스 생산량 증가 지속",
+      "NGL(천연가스액) 수요 증가 (석유화학 산업 원료 및 LPG 수출 시장 성장)",
+      "기존 인프라 확장 및 신규 프로젝트 개발을 통한 처리 및 운송 용량 증대",
+      "에너지 안보 강화 및 공급망 다변화 노력에 따른 미드스트림 인프라의 전략적 중요성 증대"
     ],
-    "market_share_pct": "5-10% estimate (북미 미드스트림 시장은 매우 분산되어 있으며, TRGP는 주요 플레이어 중 하나이나 전체 시장에서 지배적인 점유율은 아님)",
+    "market_share_pct": "5-10% estimate (북미 미드스트림 시장은 매우 분산되어 있으며, TRGP는 주요 플레이어 중 하나이나 전체 시장에서 지배적인 점유율을 가지지는 않음. 특히 NGL 처리 및 운송 분야에서 강점.)",
     "competitors": [
       {
         "name": "Enterprise Products Partners L.P. (EPD)",
-        "differentiation": "광범위한 자산 포트폴리오, 특히 NGL 파이프라인 및 수출 터미널에서 강력한 입지, 높은 재무 안정성"
+        "differentiation": "북미 최대 규모의 미드스트림 회사 중 하나로, 광범위한 자산 포트폴리오와 통합된 가치 사슬을 보유하며, 특히 NGL 및 석유화학 분야에서 강력한 입지를 가짐."
       },
       {
         "name": "Energy Transfer LP (ET)",
-        "differentiation": "다양한 지역에 걸친 광범위한 파이프라인 네트워크, 원유, 천연가스, NGL 등 다양한 상품 취급, 공격적인 인수합병 전략"
+        "differentiation": "다양한 지역에 걸쳐 광범위한 천연가스, NGL, 원유 파이프라인 및 터미널 네트워크를 보유하고 있으며, 공격적인 인수합병을 통해 규모를 확장함."
       },
       {
         "name": "Kinder Morgan, Inc. (KMI)",
-        "differentiation": "북미 최대 에너지 인프라 기업 중 하나, 천연가스 파이프라인에 강점, 다각화된 사업 포트폴리오"
+        "differentiation": "북미 최대의 에너지 인프라 회사 중 하나로, 천연가스 파이프라인에 강점을 가지고 있으며, 터미널 및 CO2 사업 등 다각화된 포트폴리오를 운영함."
       },
       {
         "name": "Plains All American Pipeline, L.P. (PAA)",
-        "differentiation": "원유 파이프라인 및 저장 시설에 특화, 특히 퍼미안 분지에서 강력한 원유 미드스트림 입지"
+        "differentiation": "주로 원유 운송 및 저장에 특화된 미드스트림 회사로, 특히 퍼미안 분지 등 주요 생산 지역에서 강력한 원유 인프라를 보유함."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low (대규모 자본 투자, 복잡한 규제 승인, 기존 인프라 구축의 시간 소요 등으로 신규 진입 장벽이 높음)",
-      "substitutes": "low (원유, 천연가스, NGL의 운송 및 처리에 대한 직접적인 대체재는 거의 없음. 다만, 장기적으로 재생에너지 전환이 수요에 영향을 미칠 수 있음)",
-      "buyer_power": "medium (주요 생산자 및 정유/화학 기업은 대규모 계약을 통해 협상력을 가질 수 있으나, 미드스트림 서비스는 필수적이며 공급자가 제한적임)",
-      "supplier_power": "low (장비, 건설 서비스 등 공급업체는 다수 존재하며, 미드스트림 기업의 규모와 구매력으로 인해 공급업체의 협상력은 상대적으로 낮음)",
-      "rivalry": "medium (북미 미드스트림 시장은 여러 대형 플레이어가 경쟁하며, 특히 주요 생산 분지에서는 인프라 확장을 위한 경쟁이 치열함)"
+      "new_entrants": "low (미드스트림 산업은 막대한 자본 투자, 복잡한 규제 승인, 광범위한 인프라 구축이 필요하여 신규 진입 장벽이 높음.)",
+      "substitutes": "medium (천연가스 및 NGL은 에너지 전환 과정에서 중요한 역할을 하지만, 장기적으로는 재생에너지로의 전환 및 전기차 보급 확대로 인해 수요 감소 압력을 받을 수 있음.)",
+      "buyer_power": "medium (주요 고객은 대형 에너지 생산 및 정유 회사, 석유화학 업체로, 이들은 상당한 구매력을 가지며 계약 조건 협상에서 영향력을 행사할 수 있음.)",
+      "supplier_power": "low (미드스트림 회사의 주요 공급자는 장비 제조업체 및 건설 서비스 제공업체로, 공급업체 수가 많고 대체 가능성이 있어 공급자 교섭력은 낮은 편임.)",
+      "rivalry": "high (북미 미드스트림 시장은 다수의 대형 플레이어가 경쟁하며, 특히 주요 생산 분지에서는 용량 증설 및 고객 확보를 위한 경쟁이 치열함.)"
     },
     "competitive_advantages": [
-      "퍼미안 분지 등 주요 셰일 생산 지역에 집중된 전략적 자산 위치 (Gathering and Processing)",
-      "NGL 파이프라인 시스템 및 몽벨비유(Mont Belvieu) 다운스트림 시설을 통한 통합된 가치 사슬 (Logistics and Transportation)",
-      "지속적인 인프라 확장 투자 (예: 퍼미안 분지 신규 처리 플랜트 건설)를 통한 성장 잠재력 확보",
-      "다각화된 서비스 포트폴리오 (천연가스, NGL, 원유 취급)로 시장 변동성 완화"
+      "퍼미안 분지 등 북미 주요 셰일 생산 지역에 집중된 전략적 자산 포트폴리오 (천연가스 및 NGL 생산량 증가의 직접적인 수혜)",
+      "NGL 처리 및 운송 분야의 강력한 입지 (몬트 벨비유 등 주요 NGL 허브에 핵심 시설 보유)",
+      "통합된 미드스트림 서비스 제공 (수집, 처리, 운송, 저장, 분별, 마케팅 등 전체 가치 사슬 커버)",
+      "지속적인 인프라 확장 투자 (신규 처리 공장 건설 및 파이프라인 증설을 통해 성장하는 생산량에 대응)"
     ],
     "competitive_weaknesses": [
-      "상품 가격 변동성 및 생산량 감소에 대한 높은 의존도",
-      "규제 환경 변화 및 환경 관련 정책 강화에 대한 잠재적 취약성",
-      "대규모 자본 투자가 필요한 사업 특성으로 인한 재무 부담 가능성",
-      "주요 경쟁사 대비 시장 점유율 및 규모의 경제 측면에서 열위 가능성"
+      "상품 가격 변동성에 대한 노출 (천연가스, NGL, 원유 가격 하락 시 수익성에 부정적 영향)",
+      "특정 지역(퍼미안 분지)에 대한 높은 의존도 (해당 지역의 생산량 감소 또는 규제 변화 시 취약성 증가)",
+      "높은 자본 지출 요구 (인프라 유지 보수 및 확장을 위한 지속적인 대규모 투자가 필요)",
+      "환경 규제 및 사회적 압력 증가 (탄소 배출 감소 및 환경 보호에 대한 요구 증대로 운영 비용 증가 가능성)"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 61.9,
+    "rs_rating": 85,
+    "score": 60.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.25,
-    "trailing_pe": 27.892857,
-    "forward_pe": 22.18325,
-    "ev_to_ebitda": 14.905,
-    "price_to_sales": 3.5427294,
+    "trailing_pe": 28.082296,
+    "forward_pe": 24.29387,
+    "ev_to_ebitda": 15.11,
+    "price_to_sales": 3.7587388,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.29,
-    "outperform_6m_vs_nasdaq": 46.74,
-    "outperform_1m_vs_nasdaq": 1.13,
-    "lynch_category": "Cyclical / Turnaround?",
+    "outperform_1y_vs_nasdaq": 57.93,
+    "outperform_6m_vs_nasdaq": 9.81,
+    "outperform_1m_vs_nasdaq": 10.88,
+    "lynch_category": "Slow Grower",
     "moat_type": "Cost Advantage",
     "moat_evidence": [
-      "Targa는 북미에서 가장 큰 독립 인프라 회사 중 하나로, 방대한 파이프라인, 처리 시설 및 저장 시설 네트워크를 소유하고 운영합니다. 이는 신규 진입자가 쉽게 복제하기 어려운 규모의 경제를 제공합니다.",
-      "Permian Basin, Eagle Ford Shale 등 주요 생산 지역에 전략적으로 위치한 자산은 원유 및 천연가스 생산자들에게 필수적인 미드스트림 서비스를 제공하며, 이는 높은 전환 비용을 발생시킵니다.",
-      "NGL 파이프라인 시스템은 Permian Basin의 집하 및 처리 시설과 Mont Belvieu의 다운스트림 시설을 연결하여 효율적인 운송 및 처리 비용 우위를 제공합니다."
+      "TRGP는 북미에서 가장 큰 독립 인프라 회사 중 하나로, 방대한 파이프라인 및 처리 시설 네트워크를 통해 규모의 경제를 달성합니다. 이는 경쟁사 대비 낮은 운영 비용으로 이어집니다.",
+      "Permian Basin, Eagle Ford Shale 등 주요 생산 지역에 걸쳐 광범위한 자산을 보유하고 있어, 원유 및 천연가스 생산자들에게 필수적인 미드스트림 서비스를 효율적으로 제공합니다.",
+      "NGL 파이프라인 시스템은 Permian Basin의 집하 및 처리 시설과 Mont Belvieu의 다운스트림 시설을 연결하여, NGL 제품의 운송 및 분별화에 있어 통합된 가치 사슬을 구축합니다."
     ],
     "moat_durability_years": "10년 이상",
     "new_trigger": "Permian Basin 내 신규 천연가스 처리 플랜트(Bull Moose, Pembrook II 등) 가동 시작",
-    "bull_case": "Permian 생산량 증가 및 NGL 수요 강세로 처리량 및 운송량 급증, 수익성 개선 지속",
-    "base_case": "Permian Basin의 꾸준한 생산량 증가와 NGL 시장의 안정적인 수요에 힘입어 Targa의 인프라 자산 활용도가 높아지고, 이는 매출 및 이익 성장을 견인할 것입니다. 신규 플랜트 가동은 이러한 성장을 더욱 가속화할 것이며, 효율적인 운영을 통해 견고한 현금 흐름을 창출할 것으로 예상됩니다.",
-    "bear_case": "원유 및 천연가스 가격 하락, NGL 수요 감소, 또는 규제 강화로 인해 처리량 및 운송량이 감소하고 수익성이 악화될 수 있습니다. 또한, 경쟁 심화나 주요 자산의 운영 차질도 부정적인 영향을 미 미칠 수 있습니다.",
+    "bull_case": "Permian 생산량 증가 및 신규 플랜트 가동으로 처리량 및 수익 증대, 배당 성장 지속.",
+    "base_case": "북미 에너지 수요 증가와 Permian Basin의 꾸준한 생산량에 힘입어 안정적인 현금 흐름과 완만한 성장을 지속할 것입니다. 신규 인프라 투자는 점진적으로 수익에 기여하며, 배당금은 현 수준을 유지하거나 소폭 증가할 것으로 예상됩니다.",
+    "bear_case": "유가 및 천연가스 가격 하락, 규제 강화, 또는 주요 생산 지역의 생산량 감소로 인해 처리량과 수익성이 크게 악화될 수 있습니다. 이는 배당금 삭감 및 주가 하락으로 이어질 것입니다.",
     "key_metrics_to_watch": [
-      "Permian Basin 천연가스 및 NGL 처리량",
-      "NGL 및 원유 가격 추이",
-      "자본 지출 및 부채 수준",
-      "운영 마진 (OPM) 및 순이익 마진 (NPM)",
-      "EPS 성장률"
+      "Permian Basin 천연가스 처리량",
+      "NGL 분별화 마진",
+      "부채 비율 및 이자보상배율",
+      "배당 성장률"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "운영",
-        "description": "폭발, 화재, 기계 고장, 사이버 공격, 테러 공격, 제품 유출, 날씨 등 중류 사업에 내재된 위험으로 인해 자산 손상, 인명 피해, 환경 오염 또는 운영 중단이 발생할 수 있습니다.",
+        "description": "폭발, 화재, 기계 고장, 사이버 공격, 테러 공격, 제품 유출, 날씨 등 중류 사업에 내재된 운영 위험이 자산 손상, 인명 피해, 환경 오염 또는 운영 중단을 초래할 수 있습니다.",
         "severity": "high"
       },
       {
@@ -233,18 +238,18 @@
       },
       {
         "category": "경쟁",
-        "description": "천연가스, NGL, 원유 공급원 확보 및 NGL 파이프라인 시스템, 분별 시설, 물류 및 운송 서비스에 대한 경쟁이 치열하여 시장 점유율 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "천연가스, NGL, 원유 공급원 확보 및 NGL 파이프라인 시스템, 분별 시설, 물류 및 운송 서비스에서 강력한 경쟁에 직면하여 시장 점유율 및 수익성에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "파이프라인 수집 및 운송 서비스, 천연가스 등 운영에 대한 규제는 사업 운영 방식과 수익성에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "인적 자본",
-        "description": "숙련된 인력을 유치하고 유지하지 못하거나, 안전 문화를 유지하지 못하거나, 직원 이직률이 높아지는 경우 운영 효율성 및 안전에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "숙련된 인력을 유치하고 유지하는 데 실패하거나, 안전 문화를 유지하지 못하거나, 직원 관계가 악화될 경우 운영 효율성과 안전 기록에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "low"
-      },
-      {
-        "category": "규제",
-        "description": "파이프라인 수집 및 운송 서비스, 천연가스 등 운영에 대한 규제는 회사의 운영 방식과 수익성에 영향을 미칠 수 있습니다.",
-        "severity": "medium"
       },
       {
         "category": "거시",
@@ -253,18 +258,18 @@
       }
     ],
     "inversion_scenarios": [
-      "대규모 운영 사고(예: 파이프라인 폭발)가 발생하여 막대한 인명 피해, 환경 오염 및 복구 불가능한 재정적 손실을 초래하고, 보험으로 충분히 보장되지 않아 회사가 파산할 수 있습니다.",
-      "시장 경쟁 심화와 주요 고객의 자체 시설 개발로 인해 주요 사업 부문의 시장 점유율과 수익성이 급격히 하락하여 지속적인 운영이 불가능해질 수 있습니다.",
-      "정부의 강력한 환경 규제 강화 및 화석 연료 산업에 대한 투자 감소로 인해 사업 모델이 근본적으로 위협받고, 전환 비용을 감당하지 못해 도산할 수 있습니다."
+      "대규모 운영 사고(예: 파이프라인 폭발)가 발생하여 막대한 손실과 장기적인 운영 중단을 초래하고, 보험으로 충분히 보장되지 않아 회사가 파산할 수 있습니다.",
+      "시장 경쟁 심화와 규제 환경 변화로 인해 핵심 사업의 수익성이 지속적으로 악화되고, 신규 공급원 확보에 실패하여 사업 모델이 붕괴될 수 있습니다.",
+      "사이버 공격이나 테러 공격으로 인해 핵심 인프라가 마비되고 데이터가 유출되어 운영이 불가능해지고 고객 신뢰를 잃어 회사가 존속하기 어려워질 수 있습니다."
     ],
     "exit_signals": [
-      "주요 운영 사고 발생 후 보험 적용 범위가 예상보다 훨씬 적어 회사의 재무 상태가 심각하게 악화되는 것이 확인될 때.",
-      "핵심 사업 부문에서 시장 점유율이 2년 연속 10% 이상 하락하고, 주요 고객들이 경쟁사 또는 자체 시설로 대규모 전환하는 추세가 명확해질 때.",
-      "규제 당국이 회사의 핵심 사업 모델에 직접적인 타격을 주는 새로운 환경 또는 안전 규제를 발표하고, 이에 대한 준수 비용이 회사의 연간 순이익의 20%를 초과할 것으로 예상될 때."
+      "대규모 운영 사고 발생 후 보험금 지급 거부 또는 부족으로 인해 예상보다 훨씬 큰 재무적 손실이 발생하고 주가가 급락하는 경우",
+      "핵심 사업 부문에서 경쟁사 대비 시장 점유율이 지속적으로 하락하고, 신규 프로젝트 수주에 실패하는 등 성장 동력이 상실되는 것이 명확해지는 경우",
+      "정부의 강력한 환경 규제 강화로 인해 기존 인프라에 대한 대규모 투자 또는 운영 방식 변경이 강제되어 수익성이 심각하게 훼손되는 경우"
     ]
   },
   "wikipedia_summary": "Targa Resources Corp. is a Fortune 500 company based in Houston, Texas. Targa, a midstream energy infrastructure corporation, is one of the largest infrastructure companies delivering natural gas and natural gas liquids in the United States. Their operations are based largely, though not entirely, on the Gulf Coast, particularly in Texas and Louisiana. Matthew J. Meloy has been Chief Executive Officer since 2020.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:16:01.377634+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:34:22.724364+00:00"
   }
 }

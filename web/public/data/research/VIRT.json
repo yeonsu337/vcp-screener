@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-09-01T02:10:34.712118+00:00",
+  "generated_at": "2026-09-03T01:28:33.864778+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5796056576,
+    "market_cap": 5535569408,
     "shares_outstanding": 88300678,
     "employees": 1027,
     "country": "United States",
@@ -17,12 +17,12 @@
     "beta": 0.607
   },
   "category_a_business": {
-    "overview": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally. It operates in two segments, Market Making and Execution Services.",
-    "business_model": "Virtu Financial, Inc.",
+    "overview": "Virtu Financial, Inc.는 미국, 아일랜드 및 국제적으로 금융 서비스 회사로 운영되고 있습니다. 시장 형성 및 실행 서비스라는 두 가지 부문으로 운영됩니다.",
+    "business_model": "버츄 파이낸셜, Inc.",
     "products": [
-      "as a financial services company in the United States, Ireland, and internationally",
+      "미국, 아일랜드 및 국제적으로 금융 서비스 회사로서",
       "in two segments, Market Making and Execution Services",
-      "agency execution services and trading venues for transparent trading in global equities, ETFs, fixed income, currencies"
+      "글로벌 주식, ETF, 채권, 통화의 투명한 거래를 위한 대행사 실행 서비스 및 거래 장소"
     ],
     "channels": [
       "B2B / Enterprise"
@@ -36,7 +36,7 @@
     "gross_margin": 0.66,
     "revenue_growth_ttm": 0.29,
     "earnings_growth_ttm": -0.01,
-    "dividend_yield": 1.45,
+    "dividend_yield": 1.47,
     "payout_ratio": 0.16,
     "annual_revenue": [
       3632118000.0,
@@ -118,25 +118,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 62.4,
+    "rs_rating": 89,
+    "score": 62.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 10.903654,
-    "forward_pe": 9.468063,
+    "trailing_pe": 10.413621,
+    "forward_pe": 9.042549,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.7759821,
+    "price_to_sales": 1.6961658,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.95,
-    "outperform_6m_vs_nasdaq": 38.43,
-    "outperform_1m_vs_nasdaq": 7.84,
+    "outperform_1y_vs_nasdaq": 35.91,
+    "outperform_6m_vs_nasdaq": 43.25,
+    "outperform_1m_vs_nasdaq": 12.74,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-01T02:16:03.282431+00:00"
+    "GoogleWebTranslator": "2026-09-03T01:34:41.073654+00:00"
   }
 }
