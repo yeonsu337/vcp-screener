@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-03T01:29:34.853628+00:00",
+  "generated_at": "2026-09-04T01:13:14.203496+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4375038976,
+    "market_cap": 4433209856,
     "shares_outstanding": 61232174,
     "employees": 1902,
     "country": "United States",
@@ -18,14 +18,14 @@
   },
   "category_a_business": {
     "overview": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics.",
-    "business_model": "Delek US Holdings, Inc.",
+    "business_model": "델렉 US 홀딩스, Inc.",
     "products": [
       "in two segments Refining and Logistics",
-      "텍사스 타일러에 위치한 정유소",
+      "refineries located in Tyler, Texas",
       "light product distribution terminals, as well as markets light products using third-party terminals"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
     "wikipedia_excerpt": "Delek US Holdings, Inc.는 2001년에 설립되었으며 테네시 주 브렌트우드에 본사를 두고 있는 정유, 물류 및 바이오 연료 회사입니다.",
     "milestones": [
@@ -40,7 +40,7 @@
     "gross_margin": 0.1,
     "revenue_growth_ttm": 0.48,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.39,
+    "dividend_yield": 1.43,
     "payout_ratio": 0.28,
     "annual_revenue": [
       10722900000.0,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 67.1,
+    "rs_rating": 94,
+    "score": 64.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.38,
-    "trailing_pe": 19.468664,
-    "forward_pe": 15.355453,
-    "ev_to_ebitda": 7.086,
-    "price_to_sales": 0.36287802,
+    "trailing_pe": 19.462366,
+    "forward_pe": 15.55962,
+    "ev_to_ebitda": 7.032,
+    "price_to_sales": 0.36770287,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 147.39,
-    "outperform_6m_vs_nasdaq": 65.9,
-    "outperform_1m_vs_nasdaq": 12.49,
+    "outperform_1y_vs_nasdaq": 111.98,
+    "outperform_6m_vs_nasdaq": 50.15,
+    "outperform_1m_vs_nasdaq": 7.09,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:32:37.608085+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:17:22.435939+00:00"
   }
 }

@@ -1,0 +1,188 @@
+{
+  "ticker": "DE",
+  "company": "Deere & Company",
+  "market": "US",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
+  "generated_at": "2026-09-04T01:17:21.579342+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 187230568448,
+    "shares_outstanding": 269625412,
+    "employees": 73100,
+    "country": "United States",
+    "website": "https://www.deere.com",
+    "beta": 0.901
+  },
+  "category_a_business": {
+    "overview": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, ",
+    "business_model": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
+    "products": [
+      "through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry,",
+      "four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders",
+      "specialty, utility, and compact tractors",
+      "backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump truck",
+      "wholesale financing to dealers of the foregoing equipment"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
+  },
+  "category_b_financials": {
+    "roe": 0.18,
+    "roa": 0.04,
+    "profit_margin": 0.1,
+    "operating_margin": 0.17,
+    "gross_margin": 0.25,
+    "revenue_growth_ttm": -0.11,
+    "earnings_growth_ttm": -0.09,
+    "dividend_yield": 0.93,
+    "payout_ratio": 0.36,
+    "annual_revenue": [
+      44665000000.0,
+      50518000000.0,
+      60248000000.0,
+      51282000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      8416000000.0,
+      11427000000.0,
+      14591000000.0,
+      9026000000.0,
+      null
+    ],
+    "annual_eps": [
+      18.5,
+      25.62,
+      34.63,
+      23.28,
+      null
+    ],
+    "annual_free_cf": [
+      3231000000.0,
+      4429000000.0,
+      4121000000.0,
+      911000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      64250000000.0,
+      65463000000.0,
+      63692000000.0,
+      52201000000.0,
+      null
+    ],
+    "annual_equity": [
+      25950000000.0,
+      22836000000.0,
+      21785000000.0,
+      20262000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-10-31",
+      "2024-10-31",
+      "2023-10-31",
+      "2022-10-31",
+      "2021-10-31"
+    ],
+    "quarterly_eps": [
+      6.55,
+      2.42,
+      3.93,
+      4.75,
+      6.64,
+      null
+    ],
+    "quarterly_revenue": [
+      13092000000.0,
+      9344000000.0,
+      12094000000.0,
+      11783000000.0,
+      12525000000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-04-30",
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31",
+      "2025-04-30",
+      "2025-01-31"
+    ],
+    "eps_qoq_yoy_pct": -9.8,
+    "sales_yoy_pct": -11.1,
+    "ni_cagr_3y_pct": -11.0,
+    "roe_pct": 18.24
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Industrials / Farm & Heavy Construction Machinery 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 77,
+    "score": 56.0,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.5687,
+    "trailing_pe": 38.750557,
+    "forward_pe": 30.61034,
+    "ev_to_ebitda": 26.505,
+    "price_to_sales": 3.906578,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 24.65,
+    "outperform_6m_vs_nasdaq": -2.5,
+    "outperform_1m_vs_nasdaq": 12.28,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Some of these risks and uncertainties could affect particular lines of business, while others could affect all our businesses.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Such changes could impact access to funding and associated funding costs, which could reduce our earnings and cash flows.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We face risks associated with international, national, and regional trade laws, regulations, and policies that could materially impair our profitability.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "During fiscal year 2025, incremental import tariffs adversely affected the cost of our products and components and may continue to do so in 2026.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We may not realize the benefits from our investment in Brazil or in other regions and may be unable to grow our market share for a variety of reasons.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any significant reduction in water availability could disrupt our manufacturing processes, increase our operational costs, and limit our ability to meet customer demand.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
+}

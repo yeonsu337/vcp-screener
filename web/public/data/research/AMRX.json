@@ -1,0 +1,193 @@
+{
+  "ticker": "AMRX",
+  "company": "Amneal Pharmaceuticals, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
+  "generated_at": "2026-09-04T00:58:58.230194+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 6224050176,
+    "shares_outstanding": 348296027,
+    "employees": 8700,
+    "country": "United States",
+    "website": "https://www.amneal.com",
+    "beta": 1.255
+  },
+  "category_a_business": {
+    "overview": "Amneal Pharmaceuticals, Inc., a global biopharmaceutical company, develops, manufactures, markets, and distributes generics, injectables, biosimilars, and specialty branded pharmaceutical products in the United States, India, Ireland, and internationally. The company operates through three segments: Affordable Medicines, Specialty, and AvKARE. The Affordable Medicines segment offers dosage forms and delivery systems, which include immediate and extended-release oral solids, powders, liquids, sterile injectables, nasal sprays, inhalation and respiratory products, biosimilar products, ophthalmic",
+    "business_model": "Amneal Pharmaceuticals, Inc., a global biopharmaceutical company, develops, manufactures, markets, and distributes generics, injectables, biosimilars, and specialty branded pharmaceutical products in ",
+    "products": [
+      "through three segments: Affordable Medicines, Specialty, and AvKARE",
+      "dosage forms and delivery systems, which include immediate and extended-release oral solids, powders, liquids, sterile i",
+      "Rytary, an oral capsule formulation of carbidopa-levodopa to treat Parkinson's disease, post-encephalitic parkinsonism",
+      "pharmaceuticals, medical and surgical products, and services primarily to governmental agencies, the Department of Defe",
+      "its products through wholesalers, distributors, retail pharmacies, managed care organizations, purchasing co-ops, hospit"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Amneal Pharmaceuticals, Inc. is an American publicly traded pharmaceutical company that develops, manufactures and distributes generics and specialty pharmaceutical products. The company is headquartered in Bridgewater, New Jersey, and is one of the largest manufacturers of generic drugs in the United States."
+  },
+  "category_b_financials": {
+    "roe": 6.13,
+    "roa": 0.09,
+    "profit_margin": 0.05,
+    "operating_margin": 0.18,
+    "gross_margin": 0.4,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 1.57,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      3018760000.0,
+      2793957000.0,
+      2393607000.0,
+      2212304000.0,
+      null
+    ],
+    "annual_operating_income": [
+      397914000.0,
+      348373000.0,
+      238747000.0,
+      188922000.0,
+      null
+    ],
+    "annual_eps": [
+      0.22,
+      -0.38,
+      -0.48,
+      -0.86,
+      null
+    ],
+    "annual_free_cf": [
+      225635000.0,
+      220109000.0,
+      276388000.0,
+      -25495000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2689046000.0,
+      2593139000.0,
+      2750523000.0,
+      2845135000.0,
+      null
+    ],
+    "annual_equity": [
+      -70794000.0,
+      -109267000.0,
+      19781000.0,
+      298421000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.18,
+      0.19,
+      0.11,
+      0.01,
+      0.07,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      796197000.0,
+      722519000.0,
+      814319000.0,
+      784513000.0,
+      724508000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 157.2,
+    "sales_yoy_pct": 9.9,
+    "roe_pct": 613.02
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 87,
+    "score": 60.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 37.229168,
+    "forward_pe": 15.391904,
+    "ev_to_ebitda": 12.258,
+    "price_to_sales": 1.9964569,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 64.86,
+    "outperform_6m_vs_nasdaq": 18.93,
+    "outperform_1m_vs_nasdaq": -3.11,
+    "lynch_category": "Slow Grower"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "The materialization of any of these risks could have a material adverse effect on our business, results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Because of these hurdles, some of our products may not receive necessary regulatory approvals on a timely basis or at all, which may result in unsuccessful development or commercialization of new products.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If any of our products, when acquired or developed and approved, cannot be successfully or timely commercialized, our operating results could be adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "We face intense competition in the pharmaceutical industry from both brand and generic drug product companies, which could significantly limit our growth and materially adversely affect our financial results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "New developments by other manufacturers and distributors could render our products uncompetitive or obsolete.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any such price competition may be especially pronounced where our competitors source their products from jurisdictions where production costs may be lower (sometimes significantly) than our production costs.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Amneal Pharmaceuticals, Inc. is an American publicly traded pharmaceutical company that develops, manufactures and distributes generics and specialty pharmaceutical products. The company is headquartered in Bridgewater, New Jersey, and is one of the largest manufacturers of generic drugs in the United States.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-04T01:17:06.846449+00:00"
+  }
+}

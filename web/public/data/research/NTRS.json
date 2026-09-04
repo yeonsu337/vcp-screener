@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-09-01T01:56:55.676522+00:00",
+  "generated_at": "2026-09-04T00:55:38.292557+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 33949249536,
+    "market_cap": 34294122496,
     "shares_outstanding": 182955653,
     "employees": 23600,
     "country": "United States",
@@ -17,22 +17,38 @@
     "beta": 1.259
   },
   "category_a_business": {
-    "overview": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals. It operates in two segments, Asset Servicing and Wealth Management. The Asset Servicing segment offers asset servicing and related services, including custody, fund administration, investment operations outsourcing, investment management, investment risk and analytics services, employee benefit services, securities lending, foreign exchange, treasury management, brokerage, transition management, ",
-    "business_model": "Northern Trust Corporation, a financial holding company, provides wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families, and individuals.",
+    "overview": "NTRS는 기관 및 고액 자산가를 위한 자산 관리, 자산 서비스, 뱅킹 솔루션을 제공하는 금융 지주 회사입니다.",
+    "milestones": [
+      "1889: 시카고에서 설립",
+      "1904: 최초의 지점 개설",
+      "1963: 런던 지점 개설로 국제 시장 진출",
+      "1971: 나스닥 상장",
+      "1980년대: 자산 관리 및 자산 서비스 사업 확장 가속화",
+      "2000년대: 기술 기반 솔루션 및 글로벌 서비스 강화"
+    ],
+    "business_model": "수수료 기반의 자산 관리 및 자산 서비스 제공을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "수탁 수수료",
+      "투자 관리 수수료",
+      "펀드 관리 수수료",
+      "증권 대여 수수료",
+      "외환 및 재무 관리 서비스 수수료",
+      "뱅킹 서비스 수수료"
+    ],
+    "value_chain_position": "Midstream + 기관 및 고액 자산가의 자산 보관, 관리, 투자 운용을 지원합니다.",
     "products": [
-      "wealth management, asset servicing, asset management, and banking solutions for corporations, institutions, families,",
-      "in two segments, Asset Servicing and Wealth Management",
-      "asset servicing and related services, including custody, fund administration, investment operations outsourcing, investm",
-      "trust, investment management, custody, and philanthropic services",
-      "global custody, fiduciary services, family office consulting, and technology solutions to high-net-worth individuals"
+      "자산 수탁 (Custody)",
+      "투자 운용 (Investment Management)",
+      "펀드 관리 (Fund Administration)",
+      "자산 위험 및 분석 (Investment Risk & Analytics)",
+      "사모 뱅킹 (Private Banking)",
+      "신탁 서비스 (Trust Services)"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (기관 고객)",
+      "B2C (고액 자산가 및 개인)"
     ],
-    "wikipedia_excerpt": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
-    "milestones": [
-      "2025: , it had $1"
-    ]
+    "key_customers": "고객 집중도는 낮음. 다양한 기업, 기관, 고액 자산가에 분산되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.17,
@@ -42,7 +58,7 @@
     "gross_margin": 0.0,
     "revenue_growth_ttm": 0.36,
     "earnings_growth_ttm": 0.99,
-    "dividend_yield": 1.76,
+    "dividend_yield": 1.78,
     "payout_ratio": 0.27,
     "annual_revenue": [
       8086400000.0,
@@ -120,33 +136,144 @@
     "roe_pct": 17.07
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 100조 달러 (글로벌 자산 관리 시장, PwC 'Global Asset Management 2025' 보고서 기반 추정)",
+    "tam_cagr_pct": "5-7% (글로벌 자산 관리 시장의 지속적인 성장, 특히 고액 자산가 및 기관 투자자의 자산 증가, 은퇴 자산 관리 수요 증대)",
+    "growth_drivers": [
+      "글로벌 고액 자산가(HNWI) 및 초고액 자산가(UHNWI)의 지속적인 증가",
+      "기관 투자자(연기금, 국부펀드 등)의 자산 규모 확대 및 복잡한 투자 솔루션 수요 증가",
+      "베이비붐 세대의 은퇴 및 자산 이전으로 인한 자산 관리 서비스 수요 증대",
+      "ESG(환경, 사회, 지배구조) 투자에 대한 관심 증가 및 관련 상품 수요 확대",
+      "기술 발전(AI, 빅데이터)을 통한 맞춤형 자산 관리 서비스 및 효율성 증대"
+    ],
+    "market_share_pct": "0.1% 미만 (글로벌 자산 관리 시장 규모 대비 NTRS의 AUM 고려 시)",
+    "competitors": [
+      {
+        "name": "BlackRock (블랙록)",
+        "differentiation": "세계 최대 자산운용사로, iShares ETF를 통한 광범위한 상품 제공 및 Aladdin 기술 플랫폼 강점"
+      },
+      {
+        "name": "Vanguard (뱅가드)",
+        "differentiation": "저비용 인덱스 펀드 및 ETF를 통한 개인 투자자 시장 강세, 고객 중심의 소유 구조"
+      },
+      {
+        "name": "J.P. Morgan Asset Management (JP모건 자산운용)",
+        "differentiation": "글로벌 은행의 강력한 네트워크와 다양한 투자 상품 및 솔루션 제공, 기관 및 고액 자산가 대상 강점"
+      },
+      {
+        "name": "State Street Global Advisors (스테이트 스트리트 글로벌 어드바이저스)",
+        "differentiation": "ETF(SPDR) 및 기관 투자자를 위한 인덱스 전략, 자산 서비스와의 시너지"
+      },
+      {
+        "name": "Fidelity Investments (피델리티 인베스트먼트)",
+        "differentiation": "개인 투자자 대상의 강력한 브랜드 인지도, 다양한 뮤추얼 펀드 및 브로커리지 서비스 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (자산 관리 산업은 규제 장벽과 신뢰 구축에 시간이 걸리지만, 핀테크 기업의 진입 가능성 존재)",
+      "substitutes": "low (자산 관리 서비스의 본질적 대체재는 제한적이나, DIY 투자 플랫폼이나 로보 어드바이저가 부분적 대체재 역할 가능)",
+      "buyer_power": "medium (기관 투자자 및 고액 자산가는 수수료 협상력이 높고, 서비스 제공자 간 전환 비용이 상대적으로 낮음)",
+      "supplier_power": "low (주요 공급자는 인력, 기술 솔루션 등이며, NTRS는 자체 역량을 보유하고 있어 공급자 의존도가 낮음)",
+      "rivalry": "high (글로벌 및 지역 경쟁이 매우 치열하며, 수수료 압박, 상품 차별화 경쟁이 심화되고 있음)"
+    },
     "competitive_advantages": [
-      "Financial Services / Asset Management 카테고리 — yfinance peer 비교 권장"
+      "기관 투자자 및 고액 자산가를 위한 포괄적인 자산 관리 및 자산 서비스(수탁, 펀드 관리 등) 통합 제공",
+      "오랜 역사와 강력한 브랜드 신뢰도 및 평판",
+      "글로벌 네트워크와 다양한 시장에 대한 전문성",
+      "복잡한 투자 솔루션 및 맞춤형 서비스 제공 능력",
+      "기술 투자 및 운영 효율성 추구를 통한 경쟁력 확보"
+    ],
+    "competitive_weaknesses": [
+      "대형 경쟁사 대비 상대적으로 작은 자산 규모 및 시장 점유율",
+      "수수료 기반 비즈니스 모델의 시장 압박에 취약",
+      "개인 투자자 시장에서의 브랜드 인지도 및 접근성 부족",
+      "기술 혁신 속도가 빠른 핀테크 기업과의 경쟁 압박",
+      "글로벌 경제 변동성 및 규제 환경 변화에 대한 민감성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 68.2,
+    "rs_rating": 75,
+    "score": 67.5,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 1.2336,
-    "trailing_pe": 16.051903,
-    "forward_pe": 14.64525,
+    "peg_ratio": 1.034,
+    "trailing_pe": 16.0897,
+    "forward_pe": 14.7940235,
     "ev_to_ebitda": null,
-    "price_to_sales": 3.7366407,
+    "price_to_sales": 3.774599,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 23.38,
-    "outperform_6m_vs_nasdaq": 13.16,
-    "outperform_1m_vs_nasdaq": -2.08,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 21.33,
+    "outperform_6m_vs_nasdaq": 11.27,
+    "outperform_1m_vs_nasdaq": 0.02,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Northern Trust는 130년 이상의 역사를 가진 신뢰받는 브랜드 명성과 고객 관계를 보유하고 있으며, 이는 고액 자산가 및 기관 투자자들에게 중요한 무형 자산입니다. (Item 1 Business 1)",
+      "글로벌 자산 관리 및 자산 서비스 분야에서 오랜 기간 축적된 전문성과 운영 노하우는 경쟁사 대비 진입 장벽을 높이는 요소입니다. (Item 1 Business 1)",
+      "규제 산업 특성상 엄격한 규제 준수 능력과 복잡한 금융 상품 및 서비스 제공 역량은 신뢰를 기반으로 하는 비즈니스 모델의 핵심입니다. (Item 1 Business 1)"
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "금리 인상 사이클 종료 및 자산 시장 회복 기대감, 디지털 자산 서비스 확장",
+    "bull_case": "자산 시장 회복 및 금리 안정화로 AUM 증가, 수수료 수익 개선, 비용 효율화로 EPS 성장 가속화.",
+    "base_case": "글로벌 자산 시장의 점진적 회복과 함께 AUM 및 수수료 수익이 안정적으로 증가할 것으로 예상됩니다. 효율적인 비용 관리를 통해 수익성을 유지하며, 디지털 전환을 통한 서비스 개선이 지속될 것입니다. 견고한 고객 기반과 브랜드 신뢰를 바탕으로 시장 점유율을 유지하며 꾸준한 성장을 이어갈 것입니다.",
+    "bear_case": "예상보다 심각한 경기 침체로 자산 시장이 위축되고 AUM이 감소할 경우, 수수료 수익이 크게 하락할 수 있습니다. 예상치 못한 규제 강화나 경쟁 심화로 인해 수익성이 악화될 위험도 존재합니다. 또한, 금리 인하가 가속화될 경우 순이자이익에 부정적인 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "관리 및 수탁 자산 (AUM/AUC)",
+      "순이자이익 (NII) 및 순이자마진 (NIM)",
+      "수수료 및 기타 서비스 수익"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "금리 변동은 순이자수익에 직접적인 영향을 미치며, 특히 금리 인상 시 예금 비용 증가 및 대출 수익 감소로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 침체, 지정학적 불안정, 시장 변동성 증가는 고객 자산 가치 하락 및 신규 비즈니스 기회 감소로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "금융 규제 환경의 변화(예: 자본 요건 강화, 새로운 규제 도입)는 운영 비용 증가 및 사업 모델 제약을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "전통 금융기관 및 핀테크 기업과의 경쟁 심화는 수수료 압박, 시장 점유율 하락 및 인재 유출 위험을 증가시킵니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "신용 위험은 대출 및 투자 포트폴리오의 부실화로 이어질 수 있으며, 이는 대손충당금 증가 및 수익성 악화를 야기합니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 위협 및 데이터 유출 사고는 고객 신뢰 손상, 법적 책임 및 막대한 복구 비용을 발생시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "운영",
+        "description": "핵심 인력의 이탈 또는 인재 확보 실패는 서비스 품질 저하, 혁신 역량 약화 및 경쟁력 상실로 이어질 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 금융 시스템 붕괴로 인해 대규모 고객 자산 인출이 발생하고 유동성 위기에 직면하여 파산에 이르는 시나리오.",
+      "심각한 사이버 공격으로 고객 데이터가 대규모로 유출되고 시스템이 마비되어 막대한 법적 책임과 브랜드 신뢰도 상실로 사업을 지속할 수 없게 되는 시나리오.",
+      "장기간의 경기 침체와 금리 급등으로 대출 포트폴리오의 부실이 심화되고 자산운용 수익이 급감하여 자본 적정성 기준을 충족하지 못하게 되는 시나리오."
+    ],
+    "exit_signals": [
+      "순이자마진(NIM)이 2분기 연속 20bp 이상 하락하고, 이는 시장 금리 변동성 때문이 아닌 구조적 문제로 판명될 경우.",
+      "주요 자산운용 부문에서 3분기 연속 순유출이 발생하고, 이는 시장 전반의 추세가 아닌 NTRS 고유의 경쟁력 약화로 인한 것으로 분석될 경우.",
+      "대규모 규제 위반으로 인해 상당한 벌금 부과 및 사업 활동에 대한 중대한 제한이 가해질 경우."
+    ]
+  },
   "wikipedia_summary": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:33:03.145028+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:18:26.932093+00:00"
   }
 }

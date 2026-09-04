@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-08-29T04:19:39.999144+00:00",
+  "generated_at": "2026-09-04T01:01:42.215761+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4062453248,
+    "market_cap": 4179632128,
     "shares_outstanding": 38419268,
     "employees": 6000,
     "country": "United States",
@@ -17,13 +17,13 @@
     "beta": 1.138
   },
   "category_a_business": {
-    "overview": "Bread Financial Holdings, Inc.는 북미 지역의 고객 및 소비자 기반 산업에 첨단 기술 결제 및 대출 솔루션을 제공합니다. Bread Pay 파트너십을 통해 위험 관리 솔루션, 인수, 자사 상표 및 공동 브랜드 신용 카드 프로그램을 위한 자금 조달 서비스 등 신용 카드 및 기타 대출 금융 서비스를 제공합니다.",
-    "business_model": "빵 파이낸셜 홀딩스, Inc.",
+    "overview": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships.",
+    "business_model": "Bread Financial Holdings, Inc.",
     "products": [
-      "북미 지역의 고객 및 소비자 기반 산업을 위한 기술 선도 결제 및 대출 솔루션",
+      "tech-forward payment and lending solutions to customers and consumer-based industries in North Americ",
       "credit card and other loans financing services, including risk management solutions, underwriting, and funding services",
-      "마케팅, 데이터 및 분석 서비스",
-      "제품군에 대한 액세스를 제공하는 통합 소프트웨어 개발 키트를 포함하는 향상된 디지털 제품군",
+      "marketing, and data and analytics services",
+      "an enhanced digital suite that includes a unified software development kit, which provides access to its suite of produc",
       "retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including"
     ],
     "channels": [
@@ -32,15 +32,15 @@
     "wikipedia_excerpt": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.17,
+    "roa": 0.03,
+    "profit_margin": 0.21,
+    "operating_margin": 0.29,
+    "gross_margin": 0.0,
+    "revenue_growth_ttm": 0.04,
+    "earnings_growth_ttm": 0.21,
+    "dividend_yield": 0.86,
+    "payout_ratio": 0.07,
     "annual_revenue": [
       3845000000.0,
       3838000000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 57.2,
+    "rs_rating": 84,
+    "score": 55.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.9198,
-    "trailing_pe": 8.203258,
-    "forward_pe": 7.909094,
+    "peg_ratio": 2.9962,
+    "trailing_pe": 8.260441,
+    "forward_pe": 8.137227,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.5226586,
+    "price_to_sales": 1.5665787,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 47.52,
-    "outperform_6m_vs_nasdaq": 21.02,
-    "outperform_1m_vs_nasdaq": -7.61,
+    "outperform_1y_vs_nasdaq": 40.78,
+    "outperform_6m_vs_nasdaq": 25.61,
+    "outperform_1m_vs_nasdaq": -5.94,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -153,7 +153,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "다음 위험 중 하나라도 실제로 발생할 경우 당사의 사업, 재무 상태, 운영 결과 및 향후 전망에 중대한 영향을 미칠 수 있습니다.",
+        "description": "If any of the following risks actually occur, our business, financial condition, results of operations, and future prospects could be materially and adversely affected.",
         "severity": "medium"
       },
       {
@@ -163,7 +163,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "더욱이 현 대통령 행정부의 무역, 이민 및 세금 정책은 인플레이션 압력을 야기할 수 있으며, 이는 결국 우리 고객 기반에 불균형적인 영향을 미칠 수 있습니다.",
+        "description": "Moreover, the current Presidential Administration’s policies on trade, immigration and taxes could create inflationary pressures, which in turn could disproportionately impact our customer base.",
         "severity": "medium"
       },
       {
@@ -173,7 +173,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "결과적으로, 우리가 의존하는 데이터와 모델은 고객의 실제 재정적 의무 범위를 완전히 반영하지 못할 수 있습니다.",
+        "description": "As a result, the data and models upon which we rely may not fully reflect the extent of our customers’ actual financial obligations.",
         "severity": "medium"
       }
     ],
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:32:16.176167+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:17:10.424316+00:00"
   }
 }

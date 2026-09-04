@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
-  "generated_at": "2026-09-03T01:15:50.046239+00:00",
+  "generated_at": "2026-09-04T00:57:56.532258+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 24199055360,
+    "market_cap": 24325146624,
     "shares_outstanding": 129990622,
     "employees": 20389,
     "country": "United States",
@@ -17,18 +17,36 @@
     "beta": 1.045
   },
   "category_a_business": {
-    "overview": "Expeditors International of Washington, Inc.는 자회사와 함께 미주, 북아시아, 남아시아, 유럽, 중동, 아프리카 및 인도에서 물류 서비스를 제공합니다. 이 회사는 항공 화물 통합 및 운송과 같은 항공 화물 서비스를 제공합니다. 해상 화물 통합, 직접 해상 운송 및 주문 관리를 포함한 해상 화물 및 해상 서비스; 통관 중개 및 기타 서비스, 수입, 대륙 내 지상 운송 및 배송, 창고 및 유통 서비스; 통관, 구매주문 관리, 판매업체",
-    "business_model": "Expeditors International of Washington, Inc.는 자회사와 함께 미주, 북아시아, 남아시아, 유럽, 중동, 아프리카 및 인도에서 물류 서비스를 제공합니다.",
+    "overview": "글로벌 네트워크를 통해 항공, 해상 운송 및 맞춤형 공급망 솔루션을 제공하는 물류 기업입니다.",
+    "milestones": [
+      "1979: 워싱턴주 시애틀에서 설립",
+      "1981: 첫 해외 사무소 개설 (홍콩)",
+      "1984: 나스닥 상장",
+      "1990년대: 글로벌 네트워크 확장 가속화",
+      "2000년대: 기술 기반 물류 솔루션 강화",
+      "2020년대: 팬데믹 이후 공급망 혼란 속 성장"
+    ],
+    "business_model": "글로벌 운송 및 물류 서비스를 제공하며 수수료와 마진을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "항공 운송 서비스",
+      "해상 운송 서비스",
+      "관세 중개 및 통관",
+      "창고 및 유통 서비스",
+      "공급망 컨설팅 및 최적화"
+    ],
+    "value_chain_position": "Midstream + 화주와 운송사 사이에서 물류 흐름을 관리하고 최적화합니다.",
     "products": [
-      "미주, 북아시아, 남아시아, 유럽, 중동, 아프리카, 인도 지역의 물류 서비스",
-      "항공 화물 통합 및 운송과 같은 항공 화물 서비스",
-      "최적화, 무역규정준수 컨설팅, 화물보험, 화물보안 및 솔루션",
-      "배송 및 통관 서류 준비, 포장, 상자 포장, 보험 서비스를 포함한 보조 서비스"
+      "항공 화물 운송 (통합 및 포워딩)",
+      "해상 화물 운송 (통합 및 포워딩)",
+      "관세 중개 및 통관 서비스",
+      "창고 및 유통 서비스",
+      "주문 관리 및 공급망 최적화",
+      "화물 보험 및 보안"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B"
     ],
-    "wikipedia_excerpt": "Expeditors International of Washington, Inc. is an American Fortune 500 service-based logistics company with headquarters in Bellevue, Washington. Expeditors generates highly optimized and customized supply chain solutions for clients with unified technology systems integrated through a global network of over 340+ locations in 100+ countries on six continents."
+    "key_customers": "다수의 기업 고객을 보유하며, 특정 고객에 대한 매출 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.43,
@@ -38,7 +56,7 @@
     "gross_margin": 0.14,
     "revenue_growth_ttm": 0.32,
     "earnings_growth_ttm": 0.52,
-    "dividend_yield": 0.86,
+    "dividend_yield": 0.87,
     "payout_ratio": 0.23,
     "annual_revenue": [
       11069009000.0,
@@ -116,33 +134,138 @@
     "roe_pct": 42.67
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 2,000억 달러 (글로벌 3PL 시장 규모 추정치 기반, EXPD의 주력 시장인 항공 및 해상 화물 운송 시장 포함)",
+    "tam_cagr_pct": "4~6% (글로벌 무역량 증가, 전자상거래 확산, 공급망 복잡성 증대 및 아웃소싱 추세 지속에 근거)",
+    "growth_drivers": [
+      "글로벌 무역량 증가 및 전자상거래 확산으로 인한 물류 수요 증대",
+      "복잡해지는 글로벌 공급망 관리의 전문성 요구 증대 및 3PL 아웃소싱 추세 가속화",
+      "기술 발전(디지털화, 자동화)을 통한 효율성 및 가시성 향상 요구 증대",
+      "지정학적 리스크 및 기후 변화 등으로 인한 공급망 탄력성 및 회복력 강화 필요성 증대"
+    ],
+    "market_share_pct": "1~3% (글로벌 3PL 시장은 매우 파편화되어 있으며, EXPD는 특정 서비스 및 지역에서 강점 보유)",
+    "competitors": [
+      {
+        "name": "DHL Global Forwarding",
+        "differentiation": "글로벌 네트워크, 광범위한 서비스 포트폴리오, 강력한 브랜드 인지도"
+      },
+      {
+        "name": "Kuehne + Nagel",
+        "differentiation": "해상 및 항공 화물 운송의 강자, 계약 물류 및 IT 솔루션 전문성"
+      },
+      {
+        "name": "DSV Panalpina",
+        "differentiation": "적극적인 M&A를 통한 규모 확장, 효율적인 운영 및 비용 경쟁력"
+      },
+      {
+        "name": "C.H. Robinson",
+        "differentiation": "북미 트럭 운송 시장 강자, 기술 기반의 광범위한 운송 네트워크"
+      },
+      {
+        "name": "FedEx Logistics / UPS Supply Chain Solutions",
+        "differentiation": "통합 운송 및 물류 서비스 제공, 강력한 자체 네트워크 및 인프라"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (초기 투자 비용, 규제, 기존 플레이어의 네트워크 효과 등으로 진입 장벽이 존재하나, 기술 기반 스타트업의 특정 니치 시장 진입 가능성 상존)",
+      "substitutes": "low (기업의 자체 물류 운영이 가능하나, 전문성, 효율성, 비용 절감 측면에서 3PL 서비스의 대체재가 되기 어려움)",
+      "buyer_power": "medium (대형 화주 기업은 여러 3PL 업체와 협상하여 가격 및 서비스 조건을 유리하게 가져갈 수 있으나, 복잡한 공급망 관리의 전문성 요구로 인해 전환 비용이 발생할 수 있음)",
+      "supplier_power": "medium (항공사, 선사, 트럭 운송업체 등 운송 수단 제공업체의 공급 역량에 따라 EXPD의 서비스 제공에 영향을 미칠 수 있으나, EXPD의 대규모 물량 확보 능력으로 어느 정도 협상력 유지)",
+      "rivalry": "high (글로벌 및 지역별로 수많은 경쟁사가 존재하며, 서비스 차별화가 어렵고 가격 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Industrials / Integrated Freight & Logistics 카테고리 — yfinance peer 비교 권장"
+      "글로벌 네트워크 및 현지 전문성: 전 세계 250개 이상의 지사를 통한 광범위한 네트워크와 현지 시장에 대한 깊은 이해",
+      "기술 기반의 공급망 가시성 및 최적화: 자체 개발 기술 플랫폼을 통해 고객에게 실시간 정보 및 효율적인 솔루션 제공",
+      "고객 중심의 서비스 모델: 고객의 특정 요구에 맞춰진 맞춤형 솔루션 제공 및 강력한 고객 관계 관리",
+      "강력한 재무 건전성 및 무부채 경영: 안정적인 재무 구조를 바탕으로 장기적인 투자 및 운영 안정성 확보"
+    ],
+    "competitive_weaknesses": [
+      "특정 운송 모드(항공 및 해상)에 대한 높은 의존도: 시장 변동성 및 지정학적 리스크에 취약할 수 있음",
+      "경쟁사 대비 낮은 규모의 경제: 일부 대형 경쟁사에 비해 M&A를 통한 규모 확장 전략이 덜 적극적",
+      "서비스 포트폴리오의 다양성 부족: 계약 물류, 전자상거래 물류 등 특정 분야에서 경쟁사 대비 약점 존재",
+      "기술 혁신 속도: 빠르게 변화하는 기술 환경에 대한 지속적인 투자 및 적응 필요"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 72.3,
+    "rs_rating": 76,
+    "score": 71.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.973,
-    "trailing_pe": 27.097527,
-    "forward_pe": 23.482517,
-    "ev_to_ebitda": 18.942,
-    "price_to_sales": 2.010556,
+    "trailing_pe": 27.23872,
+    "forward_pe": 23.604876,
+    "ev_to_ebitda": 18.884,
+    "price_to_sales": 2.021032,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.14,
-    "outperform_6m_vs_nasdaq": 12.49,
-    "outperform_1m_vs_nasdaq": 11.41,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 31.99,
+    "outperform_6m_vs_nasdaq": 10.56,
+    "outperform_1m_vs_nasdaq": 1.74,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Expeditors는 전 세계 350개 이상의 지점과 18,000명 이상의 직원을 보유한 광범위한 글로벌 네트워크를 통해 고객에게 통합된 물류 솔루션을 제공합니다. (Item 1 Business 3)",
+      "회사는 자체 개발한 기술 플랫폼을 통해 운송 및 공급망 관리의 효율성을 극대화하며, 이는 고객에게 맞춤형 솔루션을 제공하는 핵심 역량입니다. (Item 1 Business 3)",
+      "Expeditors는 오랜 업력과 신뢰를 바탕으로 한 강력한 고객 관계를 유지하고 있으며, 이는 신규 경쟁자의 진입 장벽으로 작용합니다. (Item 1 Business 3)"
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "글로벌 공급망 재편 및 디지털 전환 가속화로 물류 효율성 수요 증가",
+    "bull_case": "글로벌 공급망 안정화 및 물동량 증가로 매출 및 수익성 회복, EPS 성장 가속화",
+    "base_case": "글로벌 물류 시장의 점진적 회복과 함께 Expeditors의 견고한 네트워크 및 기술력을 바탕으로 안정적인 수익성을 유지할 것으로 예상됩니다. 매출 성장률은 시장 평균 수준을 기록하며, 효율적인 비용 관리를 통해 현재 수준의 OPM과 NPM을 유지할 것입니다. EPS는 완만한 성장을 보일 것입니다.",
+    "bear_case": "글로벌 경기 침체 심화 및 지정학적 리스크 증가로 물동량이 급감하고 운임 경쟁이 심화될 경우, 매출 및 수익성이 크게 악화될 수 있습니다. 특히 높은 고정비 부담으로 인해 OPM과 NPM이 하락하고, EPS는 역성장할 가능성이 있습니다.",
+    "key_metrics_to_watch": [
+      "글로벌 물동량 지표",
+      "해상 및 항공 운임 지수",
+      "운영 비용 대비 매출 성장률",
+      "신규 고객 확보 및 기존 고객 유지율",
+      "기술 투자 및 디지털 전환 성과"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화, 무역 분쟁, 지정학적 불안정 등 거시경제적 요인은 국제 운송 및 물류 수요에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "물류 산업은 매우 경쟁이 치열하며, 가격 경쟁 심화, 신규 진입자 또는 기존 경쟁업체의 서비스 혁신으로 인해 시장 점유율과 수익성이 저하될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "항공 및 해상 운송 능력의 변동성, 항만 혼잡, 노동력 부족 등 공급망 교란은 서비스 제공 능력과 비용에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "국제 무역 규제, 관세 정책, 환경 규제 등 다양한 국가 및 국제 규제의 변경은 운영 비용을 증가시키고 사업 모델에 영향을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동은 국제 사업을 영위하는 Expeditors의 수익과 비용에 영향을 미칠 수 있으며, 특히 달러 강세는 해외 수익을 감소시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 위협은 고객 데이터 유출, 운영 중단, 평판 손상 및 규제 벌금으로 이어질 수 있어 회사의 재무 및 운영에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 무역이 급격히 위축되고 주요 교역로가 장기간 마비되어 물류 수요가 거의 사라지는 경우.",
+      "주요 경쟁사들이 압도적인 기술 혁신이나 가격 경쟁력으로 시장을 장악하여 Expeditors의 경쟁 우위가 완전히 상실되는 경우.",
+      "심각한 사이버 공격으로 핵심 운영 시스템이 마비되고 고객 데이터가 대규모로 유출되어 신뢰를 잃고 막대한 손실을 입는 경우."
+    ],
+    "exit_signals": [
+      "글로벌 무역량 지표가 2분기 연속 전년 대비 10% 이상 감소하고 회복 조짐이 보이지 않을 때.",
+      "주요 경쟁사들이 Expeditors보다 현저히 낮은 가격으로 서비스를 제공하거나, 혁신적인 디지털 플랫폼으로 시장 점유율을 빠르게 확대하는 것이 확인될 때.",
+      "대규모 사이버 보안 침해 사고가 발생하여 회사의 핵심 운영이 1주일 이상 중단되거나, 고객 이탈이 급증하는 것이 확인될 때."
+    ]
+  },
   "wikipedia_summary": "Expeditors International of Washington, Inc. is an American Fortune 500 service-based logistics company with headquarters in Bellevue, Washington. Expeditors generates highly optimized and customized supply chain solutions for clients with unified technology systems integrated through a global network of over 340+ locations in 100+ countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:32:55.353830+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:17:27.589696+00:00"
   }
 }

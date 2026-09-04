@@ -36,7 +36,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:17:30.907871+00:00",
+    "generated_at": "2026-09-04T01:04:49.518897+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -70,6 +70,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "AMRX",
+    "company": "Amneal Pharmaceuticals, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-04T00:58:58.230194+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "AMZN",
     "company": "",
     "market": "US",
@@ -96,7 +106,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:25:27.648569+00:00",
+    "generated_at": "2026-09-04T01:00:40.552451+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -186,7 +196,7 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-08-29T04:19:39.999144+00:00",
+    "generated_at": "2026-09-04T01:01:42.215761+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -216,7 +226,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:23:16.193849+00:00",
+    "generated_at": "2026-09-04T01:06:00.577799+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -316,7 +326,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:27:31.761091+00:00",
+    "generated_at": "2026-09-04T01:11:09.762095+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -370,6 +380,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "DE",
+    "company": "Deere & Company",
+    "market": "US",
+    "sector": "Industrials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-04T01:17:21.579342+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "DELL",
     "company": "Dell Technologies Inc.",
     "market": "US",
@@ -386,8 +406,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-08-28T06:54:57.051153+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-04T00:53:00.679191+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "DK",
@@ -396,7 +416,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:29:34.853628+00:00",
+    "generated_at": "2026-09-04T01:13:14.203496+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -466,7 +486,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:30:36.256969+00:00",
+    "generated_at": "2026-09-04T01:16:20.038527+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -476,8 +496,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:15:50.046239+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-04T00:57:56.532258+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "EZPW",
@@ -526,7 +546,7 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-08-29T04:28:51.536639+00:00",
+    "generated_at": "2026-09-04T01:07:02.373968+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -626,7 +646,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:32:38.342765+00:00",
+    "generated_at": "2026-09-04T01:15:17.448505+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -676,7 +696,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:31:37.359876+00:00",
+    "generated_at": "2026-09-04T01:14:15.653459+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -786,7 +806,7 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:26:29.526481+00:00",
+    "generated_at": "2026-09-04T01:09:06.143226+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -896,8 +916,8 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-01T01:56:55.676522+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-04T00:55:38.292557+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "NVDA",
@@ -966,7 +986,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:20:34.343186+00:00",
+    "generated_at": "2026-09-04T01:02:45.242652+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -976,7 +996,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:22:14.991114+00:00",
+    "generated_at": "2026-09-04T01:03:47.791382+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1096,7 +1116,7 @@
     "sector": "Basic Materials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:19:32.874113+00:00",
+    "generated_at": "2026-09-04T01:10:07.913969+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1126,8 +1146,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-01T01:59:19.999665+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-04T00:56:17.851405+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "TER",
@@ -1146,7 +1166,7 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:24:17.363928+00:00",
+    "generated_at": "2026-09-04T01:08:04.135719+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1256,7 +1276,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:28:33.864778+00:00",
+    "generated_at": "2026-09-04T01:12:12.598907+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1316,8 +1336,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-03T01:14:48.800077+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-04T00:54:59.904557+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WFRD",

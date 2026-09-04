@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
-  "generated_at": "2026-09-03T01:25:27.648569+00:00",
+  "generated_at": "2026-09-04T01:00:40.552451+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 15658960896,
+    "market_cap": 15478530048,
     "shares_outstanding": 350351510,
     "employees": 1791,
     "country": "United States",
@@ -19,11 +19,12 @@
   "category_a_business": {
     "overview": "APA Corporation은 미국, 이집트, 북해 등에서 천연가스, 원유, NGL을 탐사, 개발, 생산하는 독립 에너지 기업입니다.",
     "milestones": [
-      "1954년: Apache Corporation 설립",
-      "1955: 첫 유정 시추 성공",
-      "1980년대: 북미 지역 자산 확장 및 성장",
-      "2000년대: 이집트, 북해 등 국제 자산 포트폴리오 다각화",
-      "2020: 지주회사 APA Corporation 설립 및 Apache Corporation 자회사 편입",
+      "1954: Apache Corporation 설립",
+      "1955: 첫 유정 시추 성공 (오클라호마)",
+      "1969: 뉴욕 증권 거래소 상장",
+      "1990년대: 국제적 확장 시작 (이집트, 북해 등)",
+      "2000년대: 주요 자산 인수 및 포트폴리오 다각화",
+      "2020: APA Corporation 지주회사 체제로 전환",
       "2020년대: 수리남 등 신규 탐사 지역 투자 확대"
     ],
     "business_model": "원유, 천연가스, NGL의 탐사, 개발, 생산 및 판매를 통해 수익을 창출합니다.",
@@ -36,12 +37,12 @@
     "products": [
       "원유 (Crude Oil)",
       "천연가스 (Natural Gas)",
-      "천연가스액 (Natural Gas Liquids, NGL)"
+      "천연가스액 (NGLs)"
     ],
     "channels": [
-      "B2B"
+      "B2B (정유사, 가스 유통사 등)"
     ],
-    "key_customers": "주로 정유사, 가스 유통업체 등 대규모 에너지 구매자들에게 판매하며, 특정 고객에 대한 높은 집중도는 없습니다."
+    "key_customers": "주로 대규모 정유사 및 가스 유통사에 판매하며, 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.27,
@@ -51,7 +52,7 @@
     "gross_margin": 0.78,
     "revenue_growth_ttm": 0.09,
     "earnings_growth_ttm": 0.26,
-    "dividend_yield": 2.26,
+    "dividend_yield": 2.24,
     "payout_ratio": 0.21,
     "annual_revenue": [
       8920000000.0,
@@ -144,19 +145,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 59.9,
+    "score": 60.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.0468,
-    "trailing_pe": 9.429325,
-    "forward_pe": 10.664748,
-    "ev_to_ebitda": 3.5,
-    "price_to_sales": 1.826757,
+    "trailing_pe": 9.320676,
+    "forward_pe": 10.5524645,
+    "ev_to_ebitda": 3.468,
+    "price_to_sales": 1.805708,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 74.23,
-    "outperform_6m_vs_nasdaq": 26.05,
-    "outperform_1m_vs_nasdaq": 21.53,
+    "outperform_1y_vs_nasdaq": 70.38,
+    "outperform_6m_vs_nasdaq": 28.85,
+    "outperform_1m_vs_nasdaq": 24.02,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -183,7 +184,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "회사 생산의 상당 부분이 동시에 중단되거나 축소되는 경우 회사의 현금 흐름에 일시적으로 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If a substantial amount of the Company’s production is interrupted or curtailed at the same time, it could temporarily adversely affect the Company’s cash flows.",
         "severity": "medium"
       },
       {
@@ -201,6 +202,6 @@
   },
   "wikipedia_summary": "APA Corporation, a holding company for Apache Corporation, is an American company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in Houston.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:32:15.279684+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:17:07.851797+00:00"
   }
 }

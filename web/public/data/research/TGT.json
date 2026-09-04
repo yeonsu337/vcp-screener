@@ -4,32 +4,32 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-09-03T01:24:17.363928+00:00",
+  "generated_at": "2026-09-04T01:08:04.135719+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 74213916672,
-    "shares_outstanding": 454296736,
+    "market_cap": 74508337152,
+    "shares_outstanding": 454291461,
     "employees": 400000,
     "country": "United States",
     "website": "https://corporate.target.com",
-    "beta": 0.973
+    "beta": 0.986
   },
   "category_a_business": {
-    "overview": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다. 여성, 남성, 청소년, 어린이, 유아, 유아용 의류는 물론 보석, 액세서리, 신발도 제공합니다. 피부 및 목욕 케어, 화장품, 헤어 케어, 구강 케어, 탈취제 및 면도 제품과 같은 미용 제품. 이 회사는 또한 스낵, 사탕, 음료, 델리, 베이커리, 육류, 농산물 및 식품 서비스를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품을 제공합니다. 비디오 게임 및 콘솔, 장난감, 스포츠 용품, 엔터테인먼트 및 수하물을 포함하는 전자 제품; 침대",
-    "business_model": "Target Corporation은 미국에서 일반 상품 소매업체로 운영되고 있습니다.",
+    "overview": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed",
+    "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
     "products": [
-      "미국의 일반 상품 소매업체로서",
-      "여성, 남성, 청소년, 아동, 유아, 유아용 의류는 물론 보석, 액세서리, 신발까지",
-      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
+      "as a general merchandise retailer in the United States",
+      "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
+      "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
       "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
-      "자사 매장을 통한 제품"
+      "its products through its stores"
     ],
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Target Corporation은 미국 미네소타 주 미니애폴리스에 본사를 둔 미국 소매 회사입니다. Target은 소형 및 대형 소매점과 대형마트를 운영합니다. 미국에서 8번째로 큰 소매업체이자 S&P 500 지수의 구성 요소입니다."
+    "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -39,7 +39,7 @@
     "gross_margin": 0.28,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 1.0,
-    "dividend_yield": 2.83,
+    "dividend_yield": 2.84,
     "payout_ratio": 0.47,
     "annual_revenue": [
       104780000000.0,
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 64.1,
+    "score": 63.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.5764,
-    "trailing_pe": 16.946058,
-    "forward_pe": 17.148712,
-    "ev_to_ebitda": 10.261,
-    "price_to_sales": 0.689048,
+    "trailing_pe": 17.013485,
+    "forward_pe": 17.216944,
+    "ev_to_ebitda": 10.275,
+    "price_to_sales": 0.6917897,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 54.31,
-    "outperform_6m_vs_nasdaq": 22.93,
-    "outperform_1m_vs_nasdaq": 11.86,
+    "outperform_1y_vs_nasdaq": 60.22,
+    "outperform_6m_vs_nasdaq": 21.52,
+    "outperform_1m_vs_nasdaq": 10.31,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -160,7 +160,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "경쟁사와 고객 경험을 차별화하지 못하면 당사의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "If we fail to differentiate our guest experience from our competitors, our results of operations and financial condition could be adversely affected.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:34:03.762738+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:18:40.247460+00:00"
   }
 }

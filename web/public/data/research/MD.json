@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-03T01:26:29.526481+00:00",
+  "generated_at": "2026-09-04T01:09:06.143226+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2182462976,
+    "market_cap": 2184087808,
     "shares_outstanding": 81253271,
     "employees": 4280,
     "country": "United States",
@@ -126,26 +126,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 77,
-    "score": 54.7,
+    "score": 55.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 12.851675,
-    "forward_pe": 11.00973,
-    "ev_to_ebitda": 8.779,
-    "price_to_sales": 1.1188532,
+    "trailing_pe": 12.861244,
+    "forward_pe": 11.017928,
+    "ev_to_ebitda": 8.902,
+    "price_to_sales": 1.1196861,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 31.59,
-    "outperform_6m_vs_nasdaq": 20.31,
-    "outperform_1m_vs_nasdaq": 1.23,
+    "outperform_1y_vs_nasdaq": 35.46,
+    "outperform_6m_vs_nasdaq": 18.25,
+    "outperform_1m_vs_nasdaq": 7.86,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "RISK FACTORS Our business is subject to a number of factors that could materially affect future developments and performance.",
+        "description": "위험 요소 우리 사업은 향후 개발 및 성과에 실질적으로 영향을 미칠 수 있는 여러 가지 요소의 영향을 받습니다.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-03T01:33:02.292331+00:00"
+    "GoogleWebTranslator": "2026-09-04T01:18:26.916869+00:00"
   }
 }
