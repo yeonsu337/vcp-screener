@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-04T01:11:09.762095+00:00",
+  "generated_at": "2026-09-05T01:05:48.858281+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4400636928,
+    "market_cap": 4395536384,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
     "website": "https://www.concentra.com",
-    "beta": 0.617
+    "beta": 0.634
   },
   "category_a_business": {
     "overview": "Concentra Group Holdings Parent, Inc. provides occupational health services in the United States. The company operates in three segments: Occupational Health centers, Onsite health clinics, and Other business.",
@@ -38,7 +38,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": 0.47,
-    "dividend_yield": 0.73,
+    "dividend_yield": 0.72,
     "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 86,
-    "score": 64.0,
+    "rs_rating": 87,
+    "score": 64.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 21.98089,
-    "forward_pe": 18.85545,
-    "ev_to_ebitda": 13.899,
-    "price_to_sales": 1.9238051,
+    "trailing_pe": 22.23871,
+    "forward_pe": 18.833595,
+    "ev_to_ebitda": 13.888,
+    "price_to_sales": 1.9215754,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.2,
-    "outperform_6m_vs_nasdaq": 28.6,
-    "outperform_1m_vs_nasdaq": 8.71,
+    "outperform_1y_vs_nasdaq": 25.11,
+    "outperform_6m_vs_nasdaq": 29.8,
+    "outperform_1m_vs_nasdaq": 11.79,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:17:13.232900+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:11:55.104554+00:00"
   }
 }

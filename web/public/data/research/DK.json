@@ -4,21 +4,21 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-04T01:13:14.203496+00:00",
+  "generated_at": "2026-09-05T01:08:53.434263+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4433209856,
+    "market_cap": 4400144384,
     "shares_outstanding": 61232174,
     "employees": 1902,
     "country": "United States",
     "website": "https://www.delekus.com",
-    "beta": 0.562
+    "beta": 0.569
   },
   "category_a_business": {
     "overview": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics.",
-    "business_model": "델렉 US 홀딩스, Inc.",
+    "business_model": "Delek US Holdings, Inc.",
     "products": [
       "in two segments Refining and Logistics",
       "refineries located in Tyler, Texas",
@@ -27,9 +27,9 @@
     "channels": [
       "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Delek US Holdings, Inc.는 2001년에 설립되었으며 테네시 주 브렌트우드에 본사를 두고 있는 정유, 물류 및 바이오 연료 회사입니다.",
+    "wikipedia_excerpt": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
     "milestones": [
-      "2001년: 테네시주 브렌트우드에 본사 위치"
+      "2001: and headquartered in Brentwood, Tennessee"
     ]
   },
   "category_b_financials": {
@@ -40,7 +40,7 @@
     "gross_margin": 0.1,
     "revenue_growth_ttm": 0.48,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.43,
+    "dividend_yield": 1.41,
     "payout_ratio": 0.28,
     "annual_revenue": [
       10722900000.0,
@@ -128,26 +128,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 94,
-    "score": 64.2,
+    "score": 64.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.38,
-    "trailing_pe": 19.462366,
-    "forward_pe": 15.55962,
-    "ev_to_ebitda": 7.032,
-    "price_to_sales": 0.36770287,
+    "trailing_pe": 19.580381,
+    "forward_pe": 15.443567,
+    "ev_to_ebitda": 7.0,
+    "price_to_sales": 0.36496034,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 111.98,
-    "outperform_6m_vs_nasdaq": 50.15,
-    "outperform_1m_vs_nasdaq": 7.09,
+    "outperform_1y_vs_nasdaq": 109.86,
+    "outperform_6m_vs_nasdaq": 44.75,
+    "outperform_1m_vs_nasdaq": 20.57,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "지역적 또는 세계적인 질병 발생은 당사의 사업, 재무 상태, 운영 결과 및 유동성에 중대한 부정적인 영향을 미치는 재무 및 운영상의 영향을 초래할 수 있습니다.",
+        "description": "A regional or global disease outbreak could result in financial and operational impacts that have a material adverse effect on our business, financial condition, results of operation and liquidity.",
         "severity": "medium"
       },
       {
@@ -157,22 +157,22 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러나 그러한 조치가 발생으로 인한 위험을 완화하기에 충분할 것이라는 보장은 없으며 비즈니스 운영을 성공적으로 수행하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "However, there is no assurance that such measures will be sufficient to mitigate the risks posed by any outbreak, and our ability to successfully execute our business operations could be adversely impacted.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "정제 마진이 크게 또는 장기적으로 감소하면 당사의 영업 결과와 현금 흐름이 감소하고 당사의 미래 성장률과 자산 장부 가치에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "description": "A substantial or extended decline in refining margins would reduce our operating results and cash flows and could materially and adversely impact our future rate of growth and the carrying value of our assets.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "법률, 규정 및 기타 요구 사항을 지속적으로 준수하거나 위반하는 경우에도 당사의 비즈니스, 재무 상태 및 운영 결과에 심각한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Ongoing compliance with, or violation of, laws, regulations and other requirements could also have a material adverse effect on our business, financial condition and results of operations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 향후 활동은 당사의 생산 확대 능력에 부정적인 영향을 미칠 수도 있고, 당사에 대한 홍보에 해를 끼치거나 당사 제품에 대한 수요를 감소시킬 수도 있습니다.",
+        "description": "Such future activity could also adversely affect our ability to expand production, result in damaging publicity about us, or reduce demand for our products.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:17:22.435939+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:12:00.312868+00:00"
   }
 }

@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "SSRM",
-  "generated_at": "2026-09-04T00:51:48.882738+00:00",
-  "source_results_date": "2026-09-04",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.68,
+  "generated_at": "2026-09-05T00:46:32.272919+00:00",
+  "source_results_date": "2026-09-05",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.83,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 9.49%).",
-    "13주 베이스 19.8% → 8.9% → 19.5% → 14.7% → 15.9%, VDU 0.81×, pivot $39.43(-4.26%).",
-    "Trend Template 8/8 통과, RS 86 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "매수 대기 — Stage 2 진입, pivot $39.43 근접(-1.37%).",
+    "13주 베이스 19.8% → 8.9% → 19.5% → 14.7% → 15.9% 수축, VDU 0.85× 진행.",
+    "Trend Template 8/8 통과, RS 88, RS 라인 신고가 -3.2%.",
+    "$39.43 돌파 시 매수·-7% 손절($36.67)·+20%($47.32) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 39.43,
+    "stop_price": 36.67,
+    "stop_pct": -7.0,
+    "target1_price": 47.32,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
-    "rs_rating": 86,
+    "vcp_quality_score": "4/8",
+    "rs_rating": 88,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -48,9 +48,8 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.49% vs 6.5%)",
-    "P3_vol_dryup (0.81× vs 0.6×)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-5.1% vs ≥-5.0%)"
+    "P3_vol_dryup (0.85× vs 0.6×)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": []
 }

@@ -4,17 +4,17 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-09-04T01:01:42.215761+00:00",
+  "generated_at": "2026-09-05T00:56:34.595668+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4179632128,
+    "market_cap": 4259544320,
     "shares_outstanding": 38419268,
     "employees": 6000,
     "country": "United States",
     "website": "https://www.breadfinancial.com",
-    "beta": 1.138
+    "beta": 1.13
   },
   "category_a_business": {
     "overview": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships.",
@@ -39,7 +39,7 @@
     "gross_margin": 0.0,
     "revenue_growth_ttm": 0.04,
     "earnings_growth_ttm": 0.21,
-    "dividend_yield": 0.86,
+    "dividend_yield": 0.85,
     "payout_ratio": 0.07,
     "annual_revenue": [
       3845000000.0,
@@ -129,19 +129,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 84,
-    "score": 55.0,
+    "score": 56.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.9962,
-    "trailing_pe": 8.260441,
-    "forward_pe": 8.137227,
+    "trailing_pe": 8.601241,
+    "forward_pe": 8.292806,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.5665787,
+    "price_to_sales": 1.5965308,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 40.78,
-    "outperform_6m_vs_nasdaq": 25.61,
-    "outperform_1m_vs_nasdaq": -5.94,
+    "outperform_1y_vs_nasdaq": 44.93,
+    "outperform_6m_vs_nasdaq": 26.92,
+    "outperform_1m_vs_nasdaq": -3.55,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:17:10.424316+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:11:52.360616+00:00"
   }
 }

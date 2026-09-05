@@ -4,35 +4,35 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Insurance - Property & Casualty",
-  "generated_at": "2026-09-04T01:04:49.518897+00:00",
+  "generated_at": "2026-09-05T01:02:42.204410+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 66529452032,
+    "market_cap": 65634340864,
     "shares_outstanding": 252857950,
     "employees": 53000,
     "country": "United States",
     "website": "https://www.allstate.com",
-    "beta": 0.156
+    "beta": 0.15
   },
   "category_a_business": {
-    "overview": "The Allstate Corporation, together with its subsidiaries, provides property and casualty, and other insurance products in the United States and Canada. It operates in four segments: Allstate Protection; Run-off Property-Liability; Protection Services; and Corporate and Other. The company offers private passenger auto, homeowners, other personal lines and commercial insurance through exclusive agents, independent agents, contact centers and online under the Allstate, National General, Direct Auto and Answer Financial brands.",
-    "business_model": "The Allstate Corporation, together with its subsidiaries, provides property and casualty, and other insurance products in the United States and Canada.",
+    "overview": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다. 이는 4개 부문으로 운영됩니다: Allstate Protection; 유출 재산 책임; 보호 서비스; 기업 및 기타. 이 회사는 Allstate, National General, Direct Auto 및 Answer Financial 브랜드로 독점 대리점, 독립 대리점, 연락 센터 및 온라인을 통해 개인 승용차, 주택 소유자, 기타 개인 보험 및 상업 보험을 제공합니다.",
+    "business_model": "Allstate Corporation은 자회사와 함께 미국과 캐나다에서 재산, 상해 및 기타 보험 상품을 제공합니다.",
     "products": [
-      "property and casualty, and other insurance products in the United States and C",
-      "in four segments: Allstate Protectio",
-      "private passenger auto, homeowners, other personal lines and commercial insurance through exclusive agents, independent",
-      "consumer product protection plans, device and mobile data collection services, and analytic solutions using automotive t",
-      "property and casualty insurance, as well as engages in company activities and certain non-insurance operations, includi"
+      "미국 및 C의 재산 및 상해 보험, 기타 보험 상품",
+      "네 가지 부문: Allstate Protectio",
+      "개인 승용차, 주택 소유자, 기타 개인 보험 및 독점 대리인을 통한 상업 보험, 독립",
+      "자동차를 활용한 소비자 제품 보호 계획, 기기 및 모바일 데이터 수집 서비스, 분석 솔루션",
+      "재산 및 상해 보험은 물론 회사 활동 및 특정 비보험 운영에도 참여합니다."
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "The Allstate Corporation is an American insurance company, headquartered in Glenview, Illinois since 2022. Founded in 1931 as part of Sears, Roebuck and Co., it was spun off in 1993, but was still partially owned by Sears until it became an independent company completely in June 1995. The company also has personal line insurance operations in Canada.",
+    "wikipedia_excerpt": "Allstate Corporation은 2022년부터 일리노이주 글렌뷰에 본사를 둔 미국 보험 회사입니다. 1931년 Sears, Roebuck and Co.의 일부로 설립되었으며 1993년에 분사되었지만 1995년 6월 완전히 독립 회사가 될 때까지 Sears가 부분적으로 소유했습니다. 이 회사는 캐나다에서도 개인 보험 사업을 운영하고 있습니다.",
     "milestones": [
-      "1931: as part of Sears, Roebuck and Co",
-      "1993: , but was still partially owned by Sears until it became an independent company completely in June 1"
+      "1931년: Sears, Roebuck and Co의 일부로",
+      "1993년: , 그러나 6월 1일 완전히 독립 회사가 될 때까지 Sears가 부분적으로 소유했습니다."
     ]
   },
   "category_b_financials": {
@@ -43,7 +43,7 @@
     "gross_margin": 0.37,
     "revenue_growth_ttm": 0.12,
     "earnings_growth_ttm": 0.61,
-    "dividend_yield": 1.67,
+    "dividend_yield": 1.64,
     "payout_ratio": 0.08,
     "annual_revenue": [
       67069000000.0,
@@ -131,32 +131,32 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 73,
-    "score": 67.5,
-    "vcp_quality": 12.2,
+    "rs_rating": 74,
+    "score": 59.6,
+    "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 3.0465,
-    "trailing_pe": 5.267467,
-    "forward_pe": 9.530264,
-    "ev_to_ebitda": 4.051,
-    "price_to_sales": 0.94856423,
+    "trailing_pe": 5.1976376,
+    "forward_pe": 9.40204,
+    "ev_to_ebitda": 4.055,
+    "price_to_sales": 0.93580186,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 6.35,
-    "outperform_6m_vs_nasdaq": 5.37,
-    "outperform_1m_vs_nasdaq": -1.65,
+    "outperform_1y_vs_nasdaq": 9.0,
+    "outperform_6m_vs_nasdaq": 7.11,
+    "outperform_1m_vs_nasdaq": -0.75,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Also, liquidity could be constrained by a catastrophe, or multiple catastrophes, which could result in extraordinary losses, sales of investments or a downgrade of our debt or financial strength ratings.",
+        "description": "또한, 재난 또는 여러 재난으로 인해 유동성이 제한될 수 있으며, 이로 인해 엄청난 손실, 투자 매각, 부채 또는 재무 건전성 등급 강등이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Limitations in analytical models used to assess and predict the exposure to catastrophe losses may adversely affect the results of operations and financial condition We use internally developed and third-part",
+        "description": "재해 손실에 대한 노출을 평가하고 예측하는 데 사용되는 분석 모델의 한계는 운영 결과 및 재무 상태에 부정적인 영향을 미칠 수 있습니다. 우리는 내부에서 개발한 타사 모델을 사용합니다.",
         "severity": "medium"
       }
     ],
@@ -169,6 +169,6 @@
   },
   "wikipedia_summary": "The Allstate Corporation is an American insurance company, headquartered in Glenview, Illinois since 2022. Founded in 1931 as part of Sears, Roebuck and Co., it was spun off in 1993, but was still partially owned by Sears until it became an independent company completely in June 1995. The company also has personal line insurance operations in Canada.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:17:04.541005+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:11:14.023571+00:00"
   }
 }

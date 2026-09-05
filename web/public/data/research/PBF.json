@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-04T01:03:47.791382+00:00",
+  "generated_at": "2026-09-05T00:58:36.794691+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 8929380352,
+    "market_cap": 8812027904,
     "shares_outstanding": 118536838,
     "employees": 3678,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 0.081
   },
   "category_a_business": {
-    "overview": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products. It operates through two segments, Refining and Logistics. The company produces gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt; diesel fuel; and unbranded transportation fuels, petrochemical feedstocks, blending components, and other petroleum products.",
-    "business_model": "PBF Energy Inc., through its subsidiaries, engages in the refining and supplying of petroleum products.",
+    "overview": "PBF Energy Inc.는 자회사를 통해 석유 제품의 정제 및 공급에 종사하고 있습니다. 정제와 물류라는 두 부문을 통해 운영됩니다. 이 회사는 휘발유, 초저유황 디젤, 난방유, 항공유, 윤활유, 석유화학제품, 아스팔트를 생산합니다. 디젤 연료; 브랜드가 없는 운송 연료, 석유화학 공급원료, 혼합 구성 요소 및 기타 석유 제품.",
+    "business_model": "PBF Energy Inc.는 자회사를 통해 석유 제품의 정제 및 공급에 종사하고 있습니다.",
     "products": [
-      "through two segments, Refining and Logistics",
-      "gasoline, ultra-low-sulfur diesel, heating oil, jet fuel, lubricants, petrochemicals, and asphalt",
-      "its products in the Northeast, Midwest, Gulf Coast, and West Coast of the United States, as well as in other regions of"
+      "정제와 물류라는 두 부문을 통해",
+      "휘발유, 초저유황경유, 난방유, 항공유, 윤활유, 석유화학제품, 아스팔트",
+      "미국 북동부, 중서부, 걸프만, 서부 해안 및 기타 지역에 제품을 판매하고 있습니다."
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ],
-    "wikipedia_excerpt": "PBF Energy Inc. is a petroleum refining and logistics company that produces and sells transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products. The company owns and operated 6 refineries throughout the United States, located in Chalmette, Louisiana; Toledo, Ohio; Paulsboro, New Jersey; the Delaware City Refinery in Delaware City; Torrance, California; Martinez, California. PBF produces a range of products including gasoline, ultra-low-sulfur diesel (ULSD), heating oil, jet fuel, lubricants, petrochemicals and asphalt."
+    "wikipedia_excerpt": "PBF에너지(PBF Energy Inc.)는 운송용 연료, 난방유, 윤활유, 석유화학 원료 및 기타 석유 제품을 생산 및 판매하는 석유 정제 및 물류 회사입니다. 이 회사는 루이지애나주 찰메트에 위치한 미국 전역에 6개의 정유소를 소유하고 운영하고 있습니다. 오하이오주 톨레도; 뉴저지 주 폴스보로; 델라웨어 시티의 델라웨어 시티 정유소; 캘리포니아 주 토런스; 캘리포니아주 마르티네즈. PBF는 휘발유, 초저황경유(ULSD), 난방유, 항공유, 윤활유, 석유화학제품, 아스팔트 등 다양한 제품을 생산합니다."
   },
   "category_b_financials": {
     "roe": 0.23,
@@ -128,51 +128,51 @@
   },
   "category_d_thesis": {
     "rs_rating": 96,
-    "score": 68.6,
+    "score": 67.8,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 6.6021037,
-    "forward_pe": 7.7676773,
+    "trailing_pe": 6.515337,
+    "forward_pe": 7.6655927,
     "ev_to_ebitda": 11.032,
-    "price_to_sales": 0.2597774,
+    "price_to_sales": 0.2563633,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 148.27,
-    "outperform_6m_vs_nasdaq": 53.39,
-    "outperform_1m_vs_nasdaq": 14.14,
+    "outperform_1y_vs_nasdaq": 155.41,
+    "outperform_6m_vs_nasdaq": 48.31,
+    "outperform_1m_vs_nasdaq": 23.0,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties may also impair our business operations.",
+        "description": "추가적인 위험과 불확실성으로 인해 당사의 사업 운영이 손상될 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "If any of the following risks actually occur, our business, financial condition, results of operations or cash flows would likely suffer.",
+        "description": "다음 위험 중 하나라도 실제로 발생하면 당사의 사업, 재무 상태, 영업 결과 또는 현금 흐름이 악화될 가능성이 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Business closings or reduced activity and layoffs in the markets we operate may adversely affect demand for our refined products.",
+        "description": "우리가 운영하는 시장의 사업 폐쇄, 활동 감소 및 해고는 당사의 정제 제품에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Deterioration of global and regional economic conditions may negatively affect our margins and harm our liquidity and ability to repay our outstanding debt and the trading price of PBF Energy’s Class A common stock.",
+        "description": "글로벌 및 지역 경제 상황의 악화는 당사 마진에 부정적인 영향을 미치고 당사의 유동성과 미결제 부채 상환 능력 및 PBF 에너지 클래스 A 보통주의 거래 가격에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "The price volatility of crude oil, other feedstocks, blendstocks, refined products and fuel and utility services may have a material adverse effect on our revenues, profitability, cash flows and liquidity.",
+        "description": "원유, 기타 공급원료, 혼합원료, 정제 제품, 연료 및 유틸리티 서비스의 가격 변동성은 당사의 수익, 수익성, 현금 흐름 및 유동성에 중대한 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "If the market value of our crude oil, feedstock and refined product inventory declines to an amount less than our LIFO cost, we would record a write-down of inventory and a non-cash impact to cost of products and other.",
+        "description": "원유, 공급원료 및 정제 제품 재고의 시장 가치가 LIFO 비용보다 적은 금액으로 감소하는 경우 재고의 감액과 제품 비용 및 기타 비용에 대한 비현금 영향을 기록합니다.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "PBF Energy Inc. is a petroleum refining and logistics company that produces and sells transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products. The company owns and operated 6 refineries throughout the United States, located in Chalmette, Louisiana; Toledo, Ohio; Paulsboro, New Jersey; the Delaware City Refinery in Delaware City; Torrance, California; Martinez, California. PBF produces a range of products including gasoline, ultra-low-sulfur diesel (ULSD), heating oil, jet fuel, lubricants, petrochemicals and asphalt.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:18:30.738803+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:12:56.454795+00:00"
   }
 }

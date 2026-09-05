@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "WES",
-  "generated_at": "2026-09-04T00:51:48.878627+00:00",
-  "source_results_date": "2026-09-04",
+  "generated_at": "2026-09-05T00:46:32.271873+00:00",
+  "source_results_date": "2026-09-05",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.79,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $50.07 근접(-2.22%).",
-    "13주 베이스 10.9% → 7.3% 수축, VDU 1.01× 진행.",
-    "Trend Template 8/8 통과, RS 71, RS 라인 신고가 -1.4%.",
+    "매수 대기 — Stage 2 진입, pivot $50.07 근접(-1.76%).",
+    "13주 베이스 10.9% → 7.3% 수축, VDU 1.00× 진행.",
+    "Trend Template 8/8 통과, RS 71, RS 라인 신고가 -2.0%.",
     "$50.07 돌파 시 매수·-7% 손절($46.57)·+20%($60.08) 절반 익절."
   ],
   "action": {
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.31% vs 6.5%)",
-    "P3_vol_dryup (1.01× vs 0.6×)",
+    "P3_vol_dryup (1.00× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

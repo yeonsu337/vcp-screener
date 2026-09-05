@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0001.HK",
-  "generated_at": "2026-09-04T00:51:48.887952+00:00",
-  "source_results_date": "2026-09-04",
+  "generated_at": "2026-09-05T00:46:32.276967+00:00",
+  "source_results_date": "2026-09-05",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.25,
   "lines": [
     "회피 — Stage 3 (≠2).",
-    "베이스 깊이 10.0%, 마지막 수축 9.48%, VDU 0.98×.",
+    "베이스 깊이 10.0%, 마지막 수축 9.48%, VDU 1.06×.",
     "Minervini Trend Template 7/8 — 진입 조건 미충족.",
     "신호 없음. 다른 종목 우선 검토."
   ],
@@ -45,10 +45,10 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.48% vs 6.5%)",
-    "P3_vol_dryup (0.98× vs 0.6×)",
+    "P3_vol_dryup (1.06× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-7.8% vs ≥-5.0%)",
+    "rs_line (-7.9% vs ≥-5.0%)",
     "Trend Template fail: B4_price_above_sma50"
   ],
   "warnings": []

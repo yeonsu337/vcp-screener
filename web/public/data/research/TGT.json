@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-09-04T01:08:04.135719+00:00",
+  "generated_at": "2026-09-05T01:01:40.653760+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 74508337152,
+    "market_cap": 74703691776,
     "shares_outstanding": 454291461,
     "employees": 400000,
     "country": "United States",
@@ -22,14 +22,14 @@
     "products": [
       "as a general merchandise retailer in the United States",
       "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
-      "스낵, 사탕, 음료, 델리, 빵집, 육류를 포함하여 건조하고 부패하기 쉬운 식료품으로 구성된 식품 및 음료 제품",
-      "주기적인 디자인과 창의적인 파트너십, Shop-in-Shop 경험을 통한 상품화",
+      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
+      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
       "its products through its stores"
     ],
     "channels": [
       "B2B / 기업"
     ],
-    "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
+    "wikipedia_excerpt": "Target Corporation은 미국 미네소타 주 미니애폴리스에 본사를 둔 미국 소매 회사입니다. Target은 소형 및 대형 소매점과 대형마트를 운영합니다. 미국에서 8번째로 큰 소매업체이자 S&P 500 지수의 구성 요소입니다."
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -39,7 +39,7 @@
     "gross_margin": 0.28,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 1.0,
-    "dividend_yield": 2.84,
+    "dividend_yield": 2.83,
     "payout_ratio": 0.47,
     "annual_revenue": [
       104780000000.0,
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 63.5,
+    "score": 63.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.5764,
-    "trailing_pe": 17.013485,
-    "forward_pe": 17.216944,
-    "ev_to_ebitda": 10.275,
-    "price_to_sales": 0.6917897,
+    "peg_ratio": 2.0333,
+    "trailing_pe": 17.05809,
+    "forward_pe": 17.262085,
+    "ev_to_ebitda": 10.298,
+    "price_to_sales": 0.6935954,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 60.22,
-    "outperform_6m_vs_nasdaq": 21.52,
-    "outperform_1m_vs_nasdaq": 10.31,
+    "outperform_1y_vs_nasdaq": 62.68,
+    "outperform_6m_vs_nasdaq": 20.21,
+    "outperform_1m_vs_nasdaq": 11.29,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -155,7 +155,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "경쟁 및 평판 위험 우리가 경쟁사와 적극적으로 차별화할 수 없는 경우, 우리의 운영 결과와 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Competitive and Reputational Risks If we are unable to positively differentiate ourselves from our competitors, our results of operations and financial condition could be adversely affected.",
         "severity": "medium"
       },
       {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "소비자는 디지털 도구를 사용하여 빠르게 비교 쇼핑을 할 수 있기 때문에 가격이나 편의성에만 기초하여 결정을 내릴 수 있으며, 이로 인해 경쟁사와 차별화하는 능력이 제한될 수 있습니다.",
+        "description": "Since consumers can quickly comparison shop using digital tools, they may make decisions based solely on price or convenience, which could limit our ability to differentiate from our competitors.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-04T01:18:40.247460+00:00"
+    "GoogleWebTranslator": "2026-09-05T01:13:31.267950+00:00"
   }
 }

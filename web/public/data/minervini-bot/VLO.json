@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "ETON",
-  "generated_at": "2026-09-04T00:51:48.884426+00:00",
-  "source_results_date": "2026-09-04",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.71,
+  "ticker": "VLO",
+  "generated_at": "2026-09-05T00:46:32.270072+00:00",
+  "source_results_date": "2026-09-05",
+  "verdict": "EXTENDED",
+  "verdict_kr": "추격 위험",
+  "confidence": 0.65,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 6회, 마지막 12.25%).",
-    "13주 베이스 13.3% → 25.2% → 9.4% → 13.3% → 16.1%, VDU 0.98×, pivot $66.37(-6.64%).",
-    "Trend Template 8/8 통과, RS 98 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "추격 위험 — Pivot $319.01 대비 +16.2%, buy zone 초과.",
+    "13주 베이스 11.1% → 11.2% → 12.4% → 8.1% → 7.5%, VDU 0.98× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 94로 추세는 살아있음.",
+    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
     "entry_type": "none",
@@ -19,15 +19,15 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": null,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 98,
+    "rs_rating": 94,
     "stage": 2,
-    "base_count": 4,
+    "base_count": 3,
     "late_base_warning": true,
     "market_regime": "neutral"
   },
@@ -48,14 +48,13 @@
     "R3_rs_90"
   ],
   "key_failures": [
-    "P2_last_contraction (12.25% vs 6.5%)",
+    "P2_last_contraction (7.47% vs 6.5%)",
     "P3_vol_dryup (0.98× vs 0.6×)",
-    "P4_base_count (4 — 후기 베이스)",
+    "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "베이스 카운트 4 — 후기 베이스, 실패율 상승",
-    "베이스 깊이 25.2% — 25% 초과로 변동성 큼"
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
   ]
 }
