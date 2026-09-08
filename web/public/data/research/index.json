@@ -106,7 +106,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-04T01:00:40.552451+00:00",
+    "generated_at": "2026-09-08T01:14:42.720145+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -126,7 +126,7 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-07-10T00:19:13.813184+00:00",
+    "generated_at": "2026-09-08T01:07:35.190763+00:00",
     "llm_status": "ok"
   },
   {
@@ -196,7 +196,7 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:56:34.595668+00:00",
+    "generated_at": "2026-09-08T01:13:41.631800+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -226,7 +226,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:59:37.938578+00:00",
+    "generated_at": "2026-09-08T01:17:46.942439+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -238,6 +238,16 @@
     "primary_total": 13,
     "generated_at": "2026-09-01T01:50:18.982048+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "CAH",
+    "company": "Cardinal Health, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-08T01:24:58.300925+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CASY",
@@ -258,6 +268,16 @@
     "primary_total": 13,
     "generated_at": "2026-07-07T00:19:05.149464+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "CDNA",
+    "company": "CareDx, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-08T01:19:50.594538+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CECO",
@@ -326,7 +346,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:05:48.858281+00:00",
+    "generated_at": "2026-09-08T01:20:52.343450+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -386,7 +406,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:10:55.611760+00:00",
+    "generated_at": "2026-09-08T01:27:00.816500+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -416,7 +436,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:08:53.434263+00:00",
+    "generated_at": "2026-09-08T01:23:57.132381+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -546,7 +566,7 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:00:39.648406+00:00",
+    "generated_at": "2026-09-08T01:16:45.925464+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -646,7 +666,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:07:52.055787+00:00",
+    "generated_at": "2026-09-08T01:22:56.062891+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -656,8 +676,8 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:53:29.523317+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-08T01:06:26.123466+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "INSW",
@@ -696,7 +716,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:09:54.535872+00:00",
+    "generated_at": "2026-09-08T01:25:59.528526+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -806,7 +826,7 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:04:47.141049+00:00",
+    "generated_at": "2026-09-08T01:18:48.622417+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -956,8 +976,8 @@
     "sector": "Energy",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:52:16.398583+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-08T01:05:47.216183+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "OUT",
@@ -986,8 +1006,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:55:33.345160+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-08T01:08:15.009799+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "PBF",
@@ -996,7 +1016,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:58:36.794691+00:00",
+    "generated_at": "2026-09-08T01:15:43.740202+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1166,7 +1186,7 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:01:40.653760+00:00",
+    "generated_at": "2026-09-08T01:12:38.001417+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1246,7 +1266,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T00:54:31.413250+00:00",
+    "generated_at": "2026-09-08T01:10:26.845595+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1276,7 +1296,7 @@
     "sector": "Financial Services",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-05T01:06:50.928247+00:00",
+    "generated_at": "2026-09-08T01:21:54.934621+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1376,7 +1396,7 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-08-29T04:14:34.656296+00:00",
+    "generated_at": "2026-09-08T01:05:07.064939+00:00",
     "llm_status": "ok"
   },
   {

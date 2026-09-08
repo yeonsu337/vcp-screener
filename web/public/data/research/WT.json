@@ -4,59 +4,59 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-08-29T04:14:34.656296+00:00",
+  "generated_at": "2026-09-08T01:05:07.064939+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 3701441024,
+    "market_cap": 3771136256,
     "shares_outstanding": 151512111,
     "employees": 414,
     "country": "United States",
     "website": "https://www.wisdomtree.com",
-    "beta": 1.175
+    "beta": 1.202
   },
   "category_a_business": {
     "overview": "WisdomTree는 글로벌 ETF/ETP 스폰서 및 자산운용사로, 다양한 자산군에 걸쳐 혁신적인 투자 상품과 솔루션을 제공합니다.",
     "milestones": [
       "1985: Financial Data Systems, Inc.로 설립",
-      "2006: 첫 ETF 출시, 미국 주요 ETF 제공업체로 성장",
+      "2006: 첫 ETF 출시, 미국 주요 ETF 제공업체로 부상",
       "2022: WisdomTree, Inc.로 사명 변경",
-      "2025: Ceres 인수, 사모 자산(농지 투자) 분야로 확장",
-      "2025: 디지털 자산 상품 AUM 0.8억 달러 달성"
+      "2025: Ceres 인수, 사모 자산(농지 투자) 분야 진출",
+      "2025: 토큰화된 뮤추얼 펀드 등 디지털 자산 상품 출시"
     ],
-    "business_model": "자산운용 수수료, 인덱스 라이선스, 투자 자문 서비스 등으로 수익을 창출합니다.",
+    "business_model": "자산운용 수수료, 인덱스 라이선스 및 투자 자문 서비스를 통해 수익을 창출합니다.",
     "revenue_streams": [
       "자산운용 수수료 (AUM 기반)",
       "인덱스 라이선스 수수료",
       "투자 자문 서비스 수수료",
       "디지털 자산 관련 서비스 수수료"
     ],
-    "value_chain_position": "Midstream + 투자 상품 설계, 운용 및 유통을 통해 투자자와 금융 전문가를 연결합니다.",
+    "value_chain_position": "Midstream + 투자 상품 개발, 운용 및 유통을 통해 투자자와 금융 전문가를 연결합니다.",
     "products": [
-      "미국 및 국제 주식 ETF/ETP",
-      "통화, 채권, 원자재 ETF/ETP",
-      "대안 투자 및 사모 자산 (농지)",
-      "암호화폐 및 토큰화된 디지털 자산",
-      "401(k) 플랜용 플랫폼"
+      "ETF (주식, 채권, 통화, 원자재 등)",
+      "ETP (유럽 상장)",
+      "디지털 자산 상품 (토큰화된 펀드, 스테이블코인 등)",
+      "사모 자산 투자 (농지 등)",
+      "포트폴리오 솔루션 및 자문 서비스"
     ],
     "channels": [
       "B2B (은행, 증권사, RIA, 기관 투자자)",
-      "B2C (온라인 브로커)",
-      "D2C(WisdomTree 프라임 등)"
+      "온라인 브로커",
+      "직접 판매팀"
     ],
-    "key_customers": "고객 집중도에 대한 구체적인 정보는 없으나, 다양한 금융 기관 및 개인 투자자를 대상으로 합니다."
+    "key_customers": "고객 집중도는 낮으며, 다양한 금융 기관 및 개인 투자자를 대상으로 합니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.19,
+    "roa": 0.11,
+    "profit_margin": 0.13,
+    "operating_margin": 0.41,
+    "gross_margin": 0.53,
+    "revenue_growth_ttm": 0.57,
+    "earnings_growth_ttm": 0.65,
+    "dividend_yield": 0.48,
+    "payout_ratio": 0.22,
     "annual_revenue": [
       493753000.0,
       427737000.0,
@@ -132,146 +132,144 @@
     "roe_pct": 18.73
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "100,000+ (글로벌 자산운용 시장, 2023년 기준 약 120조 달러 추정, PWC)",
-    "tam_cagr_pct": "5-7% (글로벌 자산운용 시장의 역사적 성장률 및 디지털 자산 시장의 고성장 잠재력 고려)",
+    "tam_estimate_usd_b": "200조 달러 이상 (글로벌 자산운용 산업 TAM, 출처: PwC, Deloitte 등 시장조사기관 보고서 추정치 기반)",
+    "tam_cagr_pct": "5-7% (근거: 글로벌 자산운용 산업은 인구 고령화, 신흥국 부의 증가, 개인 투자자들의 금융 상품 접근성 향상 등으로 꾸준히 성장할 것으로 예상됨. 특히 ETP 및 디지털 자산 부문은 더 높은 성장률을 보일 것으로 전망됨.)",
     "growth_drivers": [
-      "ETP(상장지수펀드) 시장의 지속적인 성장 및 투자자들의 접근성 선호",
-      "토큰화된 실물자산, 스테이블코인 등 디지털 자산 및 블록체인 기반 금융 서비스의 확산",
-      "사모 자산(예: 농지 투자)으로의 포트폴리오 다각화 및 대체 투자 수요 증가",
-      "기술 기반 자문 솔루션(포트폴리오 구성, 자산 배분 등)을 통한 금융 자문가 지원 강화",
+      "ETP(상장지수펀드) 시장의 지속적인 성장 및 투자자들의 저비용, 투명성 선호 증가",
+      "디지털 자산 및 블록체인 기반 금융 서비스(토큰화된 자산, 디지털 지갑 등)의 초기 시장 선점 및 확장",
+      "사모 자산(Private Assets) 부문 확장 (농지 투자 등 대체 투자 상품 제공)",
+      "기술 기반의 자문 및 포트폴리오 솔루션 제공을 통한 금융 전문가 지원 강화",
       "글로벌 시장(특히 유럽)에서의 ETP AUM 성장 및 시장 점유율 확대"
     ],
-    "market_share_pct": "0.1% 미만 (WT의 AUM $144.5B를 글로벌 자산운용 시장 $120T와 비교)",
+    "market_share_pct": "0.07% (WT AUM $144.5B / 글로벌 자산운용 산업 TAM $200T 추정치 기반)",
     "competitors": [
       {
         "name": "BlackRock (iShares)",
-        "differentiation": "압도적인 AUM, 광범위한 ETP 상품군, 강력한 브랜드 인지도, 기술 기반 투자 플랫폼(Aladdin)"
+        "differentiation": "압도적인 AUM 규모, 광범위한 ETP 상품군, 강력한 브랜드 인지도, Aladdin과 같은 기술 플랫폼"
       },
       {
         "name": "Vanguard",
-        "differentiation": "저비용 인덱스 펀드 및 ETF에 집중, 투자자 중심의 소유 구조, 장기 투자 철학"
+        "differentiation": "초저가 수수료 전략, 뮤추얼 펀드 및 ETP 시장에서의 강력한 입지, 장기 투자 지향"
       },
       {
         "name": "State Street Global Advisors (SPDR)",
-        "differentiation": "최초의 ETF 출시 경험, 기관 투자자 대상 강점, 다양한 섹터 및 테마 ETF 제공"
+        "differentiation": "최초의 미국 ETP 출시, 기관 투자자 대상 강점, 다양한 섹터 및 테마 ETP 제공"
+      },
+      {
+        "name": "Invesco",
+        "differentiation": "다양한 액티브 및 패시브 ETP, QQQ와 같은 인기 상품 보유, 글로벌 시장 확장"
       },
       {
         "name": "Fidelity Investments",
-        "differentiation": "다양한 투자 상품(뮤추얼 펀드, ETF, 브로커리지), 강력한 리테일 고객 기반, 기술 투자"
-      },
-      {
-        "name": "Grayscale Investments",
-        "differentiation": "디지털 자산 투자 상품에 특화, 비트코인 및 알트코인 신탁 상품 선도"
+        "differentiation": "광범위한 금융 서비스 제공(브로커리지, 자문 등), 자체 ETP 상품군 확장, 강력한 고객 기반"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (자산운용업은 규제 및 규모의 경제로 진입 장벽이 높지만, 핀테크 및 디지털 자산 분야의 신규 진입자는 위협이 될 수 있음)",
-      "substitutes": "medium (직접 투자, 로보 어드바이저, P2P 대출 등 다양한 대체 투자 수단이 존재하며, 특히 디지털 자산 분야에서 새로운 형태의 금융 상품이 등장할 수 있음)",
-      "buyer_power": "high (투자자들은 다양한 자산운용사를 선택할 수 있으며, 수수료에 민감하고 성과에 따라 자금을 이동시킬 수 있음)",
-      "supplier_power": "low (주요 공급자는 데이터 제공업체, 거래소, 기술 솔루션 제공업체 등이며, WT는 이들과의 관계에서 비교적 우위에 있음)",
-      "rivalry": "high (글로벌 자산운용 시장은 매우 경쟁적이며, 대형 플레이어들이 시장을 지배하고 있고, 수수료 인하 압박이 심함)"
+      "new_entrants": "medium (자산운용 산업은 규제 장벽과 브랜드 인지도 구축에 시간이 걸리지만, 핀테크 스타트업이나 기술 기업들이 특정 니치 시장(예: 디지털 자산)을 통해 진입할 가능성이 있음)",
+      "substitutes": "medium (개인 투자자들은 직접 주식/채권 투자, 부동산 투자, 예금 등 다양한 대체 투자 수단을 고려할 수 있으며, 자문 서비스 없이 직접 투자하는 경향도 증가하고 있음)",
+      "buyer_power": "high (투자자들은 다양한 자산운용사 및 상품 중에서 선택할 수 있으며, 수수료에 민감하고 성과에 따라 자금을 이동시킬 수 있는 높은 교섭력을 가짐)",
+      "supplier_power": "low (자산운용사는 주로 데이터 제공업체, 거래소, 수탁기관 등으로부터 서비스를 받지만, 이들 공급업체는 다수이며 자산운용사의 규모가 커질수록 교섭력이 높아짐)",
+      "rivalry": "high (글로벌 자산운용 시장은 수많은 경쟁자들이 존재하며, 상품의 동질성이 높아 가격 경쟁이 치열하고, 혁신적인 상품 및 서비스 개발 경쟁이 심화되고 있음)"
     },
     "competitive_advantages": [
-      "ETP, 모델 및 솔루션, 사모 시장 투자, 디지털 자산 관련 제품을 아우르는 광범위한 상품군",
-      "최초 출시 제품 및 'Modern Alpha'와 같은 혁신적인 투자 전략 개발 능력",
-      "토큰화 및 블록체인 기술의 선구자로서 디지털 자산 분야에서의 초기 진입 및 전문성",
-      "기술 기반 자문 솔루션 및 디지털 도구를 통해 금융 자문가에게 부가 가치 제공",
-      "글로벌 유통 채널 및 전담 영업팀을 통한 광범위한 시장 접근성"
+      "ETP 시장에서의 혁신적인 상품 개발 역사 (Modern Alpha 등 독특한 가중치 접근 방식)",
+      "디지털 자산 및 블록체인 기반 금융 서비스 분야의 선구자적 위치 및 책임감 있는 DeFi 접근 방식",
+      "다양한 자산군(주식, 채권, 원자재, 암호화폐, 사모 자산 등)을 아우르는 광범위한 ETP 상품군",
+      "글로벌 유통 채널 및 전담 영업팀을 통한 광범위한 고객 접근성",
+      "기술 기반의 자문 및 포트폴리오 솔루션 제공을 통한 금융 전문가 지원"
     ],
     "competitive_weaknesses": [
-      "글로벌 대형 자산운용사에 비해 상대적으로 작은 AUM 및 시장 점유율",
-      "디지털 자산 부문의 AUM이 아직 미미하여 전체 매출에 대한 기여도가 낮음",
-      "블록체인 및 디지털 자산 시장의 규제 불확실성 및 변동성에 대한 노출",
-      "기존 ETP 시장에서 대형 경쟁사들과의 치열한 경쟁 및 수수료 압박",
-      "사모 자산(농지 투자) 부문의 전문성 및 규모가 아직 초기 단계"
+      "경쟁사에 비해 상대적으로 작은 AUM 규모 및 시장 점유율",
+      "디지털 자산 부문의 초기 단계 및 규제 불확실성으로 인한 높은 리스크",
+      "브랜드 인지도 및 마케팅 역량이 대형 경쟁사에 비해 상대적으로 낮음",
+      "수익 모델이 주로 AUM 기반 수수료에 의존하여 시장 변동성에 취약할 수 있음",
+      "사모 자산 부문(Ceres 인수)의 초기 단계로, 핵심 ETP 사업 외 수익 기여도가 아직 미미함"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 90,
-    "score": 75.0,
+    "rs_rating": 91,
+    "score": 75.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.54,
-    "trailing_pe": 44.418182,
-    "forward_pe": 18.487549,
-    "ev_to_ebitda": 17.892,
-    "price_to_sales": 6.0711207,
+    "trailing_pe": 45.254543,
+    "forward_pe": 18.774843,
+    "ev_to_ebitda": 17.803,
+    "price_to_sales": 6.1854353,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 65.19,
-    "outperform_6m_vs_nasdaq": 28.57,
-    "outperform_1m_vs_nasdaq": 28.88,
+    "outperform_1y_vs_nasdaq": 60.38,
+    "outperform_6m_vs_nasdaq": 31.8,
+    "outperform_1m_vs_nasdaq": 15.43,
     "lynch_category": "Fast Grower",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "WT는 ETP, 모델 및 솔루션, 사모 시장 투자, 디지털 자산 관련 상품을 제공하는 글로벌 금융 혁신 기업으로, 다양한 자산군에 걸친 폭넓은 상품 포트폴리오를 보유하고 있습니다.",
-      "WT는 'Modern Alpha'라는 독자적인 대체 가중치 접근 방식을 개척했으며, 토큰화 및 블록체인 기술 분야의 선구자로서 '책임감 있는 DeFi'를 통해 디지털 자산 전략을 추진하고 있습니다.",
-      "WT는 2025년 12월 31일 기준 약 1,445억 달러의 AUM을 운용하며, 은행, 증권사, RIA, 기관 투자자 등 주요 자산 관리 산업 채널 전반에 걸쳐 상품을 유통하고 있습니다."
+      "WT는 ETP(상장지수펀드) 분야에서 'Modern Alpha'와 같은 독자적인 대체 가중치 접근 방식을 개척하며 혁신적인 상품을 지속적으로 출시해왔습니다. 이는 경쟁사들이 쉽게 모방하기 어려운 독점적인 투자 전략 및 상품 개발 역량을 의미합니다.",
+      "WT는 토큰화된 실물 자산 및 스테이블 코인 관련 차세대 디지털 상품, 기관 플랫폼 'WisdomTree Connect', 블록체인 기반 디지털 지갑 'WisdomTree Prime' 등 디지털 자산 및 블록체인 기술 분야에서 선구적인 입지를 구축하고 있습니다. 이는 미래 금융 서비스 시장에서의 경쟁 우위를 확보하는 데 중요한 무형 자산입니다.",
+      "WT는 다양한 자산군(주식, 원자재, 채권, 암호화폐, 대체 자산 등)에 걸쳐 폭넓은 ETP 및 솔루션 포트폴리오를 제공하며, 이는 고객들에게 다양한 투자 선택지를 제공하고 특정 시장 변동성에 대한 의존도를 낮추는 데 기여합니다."
     ],
     "moat_durability_years": "5~10년",
-    "new_trigger": "토큰화된 뮤추얼 펀드, WisdomTree Connect, WisdomTree Prime 등 디지털 자산 확장 및 사모 자산(농지 투자) 진출",
-    "bull_case": "디지털 자산 및 사모 자산 전략 성공으로 AUM 급증 및 수익원 다각화 가속화",
-    "base_case": "WT는 ETP 사업을 기반으로 디지털 자산 및 사모 자산으로의 확장을 통해 AUM 성장과 수익 다각화를 지속하며 견고한 실적을 유지할 것으로 예상됩니다.",
-    "bear_case": "디지털 자산 시장의 규제 불확실성 증가 및 경쟁 심화로 신규 사업 성장이 둔화되고, 핵심 ETP 사업의 AUM 유출이 발생하여 실적에 부정적인 영향을 미칠 수 있습니다.",
+    "new_trigger": "토큰화된 뮤추얼 펀드 출시 및 블록체인 기반 디지털 자산 서비스 확장",
+    "bull_case": "디지털 자산 및 블록체인 사업 성과 가시화로 AUM 급증 및 수익원 다각화 성공",
+    "base_case": "핵심 ETP 사업의 꾸준한 성장과 디지털 자산 사업의 점진적 확대로 안정적인 AUM 증가 및 수익성 유지",
+    "bear_case": "디지털 자산 시장의 규제 불확실성 증대 및 경쟁 심화로 신사업 성장이 둔화되고, 핵심 ETP 사업의 경쟁 우위가 약화되어 AUM 감소 및 수익성 악화",
     "key_metrics_to_watch": [
       "총 운용 자산(AUM) 성장률",
-      "디지털 자산 관련 상품 및 서비스의 매출 기여도",
-      "신규 사모 자산(Ceres)의 AUM 및 수익성"
+      "디지털 자산 관련 상품 AUM 및 수익 기여도",
+      "신규 ETP 상품 출시 및 시장 점유율 변화"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "재무",
-        "description": "운용자산(AUM)의 상당 부분이 소수 상품에 집중되어 있어, 해당 상품의 투자 심리 및 성과에 따라 회사 실적이 크게 좌우될 수 있습니다.",
+        "description": "운용자산(AUM)의 상당 부분이 소수의 상품에 집중되어 있어, 해당 상품에 대한 투자 심리나 성과에 따라 회사 수익이 크게 변동될 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "거시",
-        "description": "증권, 금, 기타 귀금속 및 원자재 가격 하락과 시장 변동성은 AUM 감소 및 투자자 이탈을 유발하여 수익에 부정적인 영향을 미칩니다.",
+        "description": "증권, 금, 기타 원자재 가격 하락 및 시장 변동성은 AUM 감소와 투자자 이탈을 유발하여 회사 수익에 부정적인 영향을 미칩니다.",
         "severity": "high"
       },
       {
         "category": "경쟁",
-        "description": "자산운용 산업의 치열한 경쟁과 제3자 유통 채널에 대한 의존성은 시장 점유율 유지 및 성장에 어려움을 초래할 수 있습니다.",
+        "description": "자산운용 산업의 치열한 경쟁과 제3자 유통 채널에 대한 의존도는 시장 점유율 유지 및 성장에 어려움을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "핵심 행정, 수탁 및 포트폴리오 관리 서비스를 제3자 공급업체에 의존하고 있어, 이들의 실패나 내부 통제 미흡은 운영에 심각한 위험을 초래할 수 있습니다.",
+        "category": "운영",
+        "description": "핵심적인 관리, 보관 및 포트폴리오 관리 서비스를 제3자 공급업체에 의존하고 있어, 이들의 실패나 내부 통제 미흡은 운영 리스크를 증가시킵니다.",
         "severity": "medium"
       },
       {
         "category": "규제",
-        "description": "진화하는 규제 준수 비용과 복잡성, 그리고 Ceres 인수 관련 규제 요건 증가는 운영 비용을 증가시키고 사업 확장을 저해할 수 있습니다.",
+        "description": "진화하는 규제 준수 비용과 복잡성, 그리고 법적 소송은 회사에 상당한 경영 자원과 비용 부담을 초래할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "많은 ETP 상품들이 제한적인 운용 실적을 가지고 있어, 투자자 신뢰 확보 및 자금 유치에 어려움을 겪을 수 있습니다.",
-        "severity": "low"
+        "category": "기술",
+        "description": "회사 또는 제3자 기술 시스템의 한계, 오류 또는 침해는 운영 중단, 데이터 손실 및 평판 손상으로 이어질 수 있습니다.",
+        "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "주요 인력의 유지 및 채용의 어려움, 특히 Ceres 인수 관련 인력 문제는 사업 연속성과 성장에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "인적 자본",
+        "description": "핵심 인력의 유치 및 유지에 대한 어려움은 사업 운영 및 성장에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "주요 ETP 상품들의 대규모 자금 유출과 시장 침체가 겹쳐 AUM이 급감하고 수익성이 악화되어 회사가 파산할 수 있습니다.",
-      "핵심 제3자 서비스 제공업체의 중대한 운영 실패나 사이버 보안 침해로 인해 고객 자산 손실 및 신뢰도 하락으로 사업을 지속할 수 없게 될 수 있습니다.",
-      "디지털 자산 사업의 규제 강화 또는 기술적 문제로 인해 해당 사업 부문이 완전히 실패하고, 이로 인한 대규모 손실이 회사 전체의 재무 건전성을 위협할 수 있습니다.",
-      "Ceres 인수 관련 통합 실패 및 사모 자산 시장의 급격한 악화로 인해 대규모 손실이 발생하고 회사의 재무 구조가 심각하게 훼손될 수 있습니다."
+      "주요 ETP 상품에서 대규모 자금 유출이 발생하고, 동시에 시장 침체로 AUM이 급감하여 수익성이 크게 악화될 경우 회사가 파산할 수 있습니다.",
+      "핵심 제3자 서비스 제공업체의 심각한 운영 실패나 사이버 보안 침해로 인해 고객 신뢰가 상실되고 대규모 소송 및 규제 벌금이 부과될 경우 회사가 망할 수 있습니다.",
+      "디지털 자산 사업의 규제 환경이 급변하거나 기술적 결함으로 인해 사업 지속 가능성이 위협받고, 동시에 Ceres 인수 관련 리스크가 현실화될 경우 회사가 망할 수 있습니다."
     ],
     "exit_signals": [
-      "핵심 ETP 상품들의 AUM이 2분기 연속 10% 이상 감소하거나, 전체 AUM이 15% 이상 감소하는 경우.",
-      "주요 제3자 서비스 제공업체에서 중대한 서비스 중단 또는 보안 침해가 발생하여 고객 자산에 직접적인 피해가 발생하고 대규모 소송이 제기되는 경우.",
-      "디지털 자산 관련 규제가 예상보다 훨씬 강력하게 적용되어 해당 사업 부문의 성장이 완전히 멈추거나 철수해야 하는 상황이 발생하는 경우.",
-      "Ceres 인수 관련 시너지 효과가 전혀 나타나지 않고, 사모 자산 부문에서 지속적인 손실이 발생하여 회사의 전체 수익성을 저해하는 경우."
+      "상위 10개 ETP 상품의 AUM이 20% 이상 감소하거나, 특정 핵심 상품에서 대규모 환매가 지속적으로 발생할 경우.",
+      "주요 시장 지수 대비 WisdomTree ETPs의 전반적인 성과가 2분기 연속으로 현저히 저조하여 투자자 이탈이 가속화될 경우.",
+      "핵심 제3자 서비스 제공업체와의 계약이 해지되거나, 이들의 서비스 중단으로 인해 회사 운영에 심각한 차질이 발생할 경우."
     ]
   },
   "wikipedia_summary": "WisdomTree, Inc. is a global exchange-traded fund (ETF) and exchange-traded product (ETP) sponsor and asset manager with headquarters in New York. WisdomTree launched its first ETFs in June 2006, and became one of the major ETF providers in the United States. WisdomTree sponsors different ETFs that span asset classes and countries worldwide. Categories include: U.S. and International Equity, Currency, Fixed Income and Alternatives.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-05T01:13:37.874268+00:00"
+    "GoogleWebTranslator": "2026-09-08T01:30:21.628027+00:00"
   }
 }

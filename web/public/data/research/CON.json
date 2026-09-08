@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-05T01:05:48.858281+00:00",
+  "generated_at": "2026-09-08T01:20:52.343450+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -18,16 +18,16 @@
   },
   "category_a_business": {
     "overview": "Concentra Group Holdings Parent, Inc. provides occupational health services in the United States. The company operates in three segments: Occupational Health centers, Onsite health clinics, and Other business.",
-    "business_model": "Concentra Group Holdings Parent, Inc.",
+    "business_model": "컨센트라 그룹 홀딩스 모기업, Inc.",
     "products": [
       "occupational health services in the United States",
       "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
-      "occupational health services, including workers compensation, employer, and consumer health services",
-      "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
-      "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
+      "근로자 보상, 고용주 및 소비자 건강 서비스를 포함한 직업 건강 서비스",
+      "업무 관련 부상 및 질병 치료를 위한 원격 의료 플랫폼인 Concentra Telemed",
+      "부상 치료, 일차 진료, 긴급 진료, 예방 진료, 임상 테스트, 신체 검사 및 평가, 약물"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -38,7 +38,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": 0.47,
-    "dividend_yield": 0.72,
+    "dividend_yield": 0.73,
     "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
@@ -129,7 +129,7 @@
   },
   "category_d_thesis": {
     "rs_rating": 87,
-    "score": 64.9,
+    "score": 64.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -139,41 +139,41 @@
     "ev_to_ebitda": 13.888,
     "price_to_sales": 1.9215754,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.11,
-    "outperform_6m_vs_nasdaq": 29.8,
-    "outperform_1m_vs_nasdaq": 11.79,
+    "outperform_1y_vs_nasdaq": 25.81,
+    "outperform_6m_vs_nasdaq": 33.72,
+    "outperform_1m_vs_nasdaq": 12.47,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Risks Related to Ownership of Our Common Stock • The stock price of our common stock may fluctuate significantly, and you could lose all or part of your investment in our common stock as a result.",
+        "description": "당사 보통주 소유와 관련된 위험 • 당사 보통주의 주가는 크게 변동할 수 있으며, 그 결과 귀하는 당사 보통주에 대한 투자의 전부 또는 일부를 잃을 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "A decline in workplace injuries and illness may cause the number of workers’ compensation claims to decrease, which may adversely affect our business.",
+        "description": "직장 부상 및 질병이 감소하면 근로자 산재보험 청구 건수도 줄어들 수 있으며 이는 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Our results may decline if we 27 Table of C ontents lose our significant employer customers, payor relationships, or our ability to participate in workers’ compensation or employer services networks.",
+        "description": "중요한 고용주 고객, 지급인 관계 또는 근로자 산재보험이나 고용주 서비스 네트워크에 참여할 수 있는 능력을 잃으면 결과가 하락할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "One or more of our significant employer customers, payors, or networks could also be acquired, which could impact our relationship with such customer, payor, or network.",
+        "description": "당사의 중요한 고용주 고객, 지급인 또는 네트워크 중 하나 이상을 인수할 수도 있으며, 이는 해당 고객, 지급인 또는 네트워크와의 관계에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "The loss of our significant employer customers, payor or network relationships could cause a material decline in our profitability and operating performance.",
+        "description": "중요한 고용주 고객, 지급인 또는 네트워크 관계가 상실되면 수익성과 운영 성과가 크게 저하될 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "These consequences could have an adverse effect on our business, financial condition and results of operations.",
+        "description": "이러한 결과는 당사의 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-05T01:11:55.104554+00:00"
+    "GoogleWebTranslator": "2026-09-08T01:28:26.847414+00:00"
   }
 }

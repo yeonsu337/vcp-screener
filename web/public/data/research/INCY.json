@@ -4,10 +4,10 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-09-05T00:53:29.523317+00:00",
+  "generated_at": "2026-09-08T01:06:26.123466+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
     "market_cap": 25691938816,
     "shares_outstanding": 202697746,
@@ -17,39 +17,37 @@
     "beta": 0.77
   },
   "category_a_business": {
-    "overview": "인사이트는 미국, 유럽 등에서 치료제 발굴, 개발, 상용화에 주력하는 바이오 제약 기업입니다.",
+    "overview": "인사이트는 미국, 유럽 등에서 치료제 발굴, 개발, 상업화에 주력하는 바이오 제약 기업입니다.",
     "milestones": [
       "1991: Incyte Pharmaceuticals 설립",
-      "2002: Incyte Corporation으로 사명 변경",
+      "2002: Incyte Corporation으로 사명 변경 및 항암제 개발 집중",
       "2011: 골수섬유증 치료제 JAKAFI(룩솔리티닙) FDA 승인",
-      "2012: 다혈구혈증 치료제로 JAKAFI 적응증 확대",
-      "2016: 급성 이식편대숙주병 치료제로 JAKAFI 적응증 확대",
-      "2020: 미만성 거대 B세포 림프종 치료제 MONJUVI/MINJUVI 승인",
-      "2020: 담도암 치료제 PEMAZYRE 승인"
+      "2012: JAKAFI 유럽 승인 (Jakavi)",
+      "2016: ICLUSIG 인수 및 혈액암 포트폴리오 강화",
+      "2020: MONJUVI/MINJUVI (미만성 거대 B세포 림프종) FDA 승인",
+      "2020: PEMAZYRE (담관암) FDA 승인",
+      "2022: ZYNYZ (메르켈세포암) FDA 승인"
     ],
-    "business_model": "혁신적인 의약품을 개발하고 판매하여 수익을 창출합니다.",
+    "business_model": "혁신적인 의약품을 개발, 제조하여 판매하고 로열티를 통해 수익을 창출합니다.",
     "revenue_streams": [
-      "JAKAFI(룩솔리티닙) 판매",
-      "ICLUSIG 판매",
-      "MONJUVI/MINJUVI 판매",
-      "PEMAZYRE 판매",
-      "ZYNYZ 판매",
-      "NIKTIMVO 판매"
+      "제품 판매 (JAKAFI, ICLUSIG, MONJUVI/MINJUVI 등)",
+      "협력사로부터의 로열티 및 마일스톤 수익",
+      "라이선스 계약 수익"
     ],
-    "value_chain_position": "Midstream + 신약 연구 개발부터 상용화 및 판매까지 전 과정을 수행합니다.",
+    "value_chain_position": "Midstream + 신약 연구 개발부터 임상 시험, 제조 및 상업화까지 전 과정을 수행합니다.",
     "products": [
-      "JAKAFI (골수섬유증, 다혈구혈증, 급성 이식편대숙주병)",
+      "JAKAFI (골수섬유증, 진성적혈구증가증 등)",
       "ICLUSIG (만성 골수성 백혈병, 필라델피아 염색체 양성 급성 림프모구 백혈병)",
-      "MONJUVI/MINJUVI (미만성 거대 B세포 림프종, 여포성 림프종)",
-      "PEMAZYRE (담도암, 골수/림프성 신생물)",
-      "ZYNYZ (전이성 또는 재발성 국소 진행성 메르켈 세포암)",
+      "MONJUVI/MINJUVI (미만성 거대 B세포 림프종)",
+      "PEMAZYRE (담관암, 골수/림프종 신생물)",
+      "ZYNYZ (전이성 또는 재발성 국소 진행성 메르켈세포암)",
       "NIKTIMVO (만성 이식편대숙주병)"
     ],
     "channels": [
-      "B2B (병원, 약국 등 의료기관)",
-      "도매 (의약품 도매상)"
+      "B2B (병원, 전문의약품 유통업체)",
+      "B2C (환자 대상 처방)"
     ],
-    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 다양한 의료기관 및 환자를 대상으로 합니다."
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 전 세계 의료 기관 및 환자가 주요 고객입니다."
   },
   "category_b_financials": {
     "roe": 0.31,
@@ -143,72 +141,136 @@
     "roe_pct": 30.67
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 (estimate) + 희귀 질환 및 암 치료제 시장 규모 기반 추정",
+    "tam_cagr_pct": "10-15% (estimate) + 암 및 희귀 질환 치료제 시장의 지속적인 성장, 신약 개발 및 적응증 확대에 대한 수요 증가",
+    "growth_drivers": [
+      "혁신적인 신약 개발 및 기존 약물의 적응증 확대",
+      "미충족 의료 수요가 높은 희귀 질환 및 특정 암 분야 집중",
+      "글로벌 시장 확장 및 파트너십 강화",
+      "정부의 희귀의약품 개발 지원 정책"
+    ],
+    "market_share_pct": "5~10%(추정)",
+    "competitors": [
+      {
+        "name": "Novartis",
+        "differentiation": "다수의 CML 치료제 보유 및 광범위한 포트폴리오"
+      },
+      {
+        "name": "Bristol Myers Squibb",
+        "differentiation": "다양한 혈액암 및 고형암 치료제 포트폴리오"
+      },
+      {
+        "name": "Pfizer",
+        "differentiation": "광범위한 연구 개발 역량 및 글로벌 시장 접근성"
+      },
+      {
+        "name": "AbbVie",
+        "differentiation": "혈액암 분야의 강력한 파이프라인 및 상업화 역량"
+      },
+      {
+        "name": "Generic Manufacturers (Apotex, Hikma, Sun Pharma 등)",
+        "differentiation": "저렴한 가격 경쟁력으로 오리지널 약물 시장 위협"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 신약 개발의 높은 비용과 규제 장벽이 존재하나, 바이오텍 스타트업의 혁신적인 기술 개발 가능성",
+      "substitutes": "medium + 유사 기전의 다른 치료제 및 제네릭 약물이 존재하며, 특히 JAKAFI의 제네릭 출시 위협이 현실화되고 있음",
+      "buyer_power": "high + 보험사 및 정부 기관의 약가 협상력, 환자들의 비용 민감도 증가",
+      "supplier_power": "low + 원료의약품 공급처가 다변화되어 있고, 특정 공급업체에 대한 의존도가 낮음",
+      "rivalry": "high + 다수의 대형 제약사 및 바이오텍 기업들이 경쟁하며, 혁신적인 신약 개발 및 시장 선점을 위한 치열한 경쟁"
+    },
     "competitive_advantages": [
-      "Healthcare / Biotechnology 카테고리 — yfinance peer 비교 권장"
+      "JAKAFI(룩솔리티닙)의 강력한 시장 지위 및 광범위한 적응증 (골수섬유증, 진성적혈구증가증, 급성 이식편대숙주병 등)",
+      "ICLUSIG(포나티닙)의 특정 CML 환자군(저항성 또는 불내성)에 대한 특화된 효능",
+      "희귀 질환 및 미충족 의료 수요가 높은 분야에 집중된 파이프라인",
+      "지속적인 연구 개발을 통한 신약 및 적응증 확대 노력"
+    ],
+    "competitive_weaknesses": [
+      "주력 제품인 JAKAFI의 특허 만료 및 제네릭 약물 출시 위협 (2028년 예정)",
+      "제네릭 약물과의 가격 경쟁으로 인한 수익성 악화 가능성",
+      "제한적인 제품 포트폴리오로 인한 특정 제품 의존도 높음",
+      "신약 개발 실패 또는 임상 시험 지연 위험"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 69.3,
+    "rs_rating": 77,
+    "score": 68.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 11.0643,
+    "peg_ratio": 10.9947,
     "trailing_pe": 16.146498,
-    "forward_pe": 14.177885,
+    "forward_pe": 14.264846,
     "ev_to_ebitda": 10.912,
     "price_to_sales": 4.4147787,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.09,
-    "outperform_6m_vs_nasdaq": 13.11,
-    "outperform_1m_vs_nasdaq": 6.24,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 26.24,
+    "outperform_6m_vs_nasdaq": 13.71,
+    "outperform_1m_vs_nasdaq": 6.47,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "JAKAFI(룩솔리티닙)에 대한 특허권 보유 및 제네릭 경쟁사들의 특허 침해 소송 진행 중. 2028년 6월/12월 만료 예정 특허에 대한 방어 노력.",
+      "Hikma Pharmaceuticals USA Inc. 및 Granules India Ltd.와의 특허 침해 소송 합의를 통해 JAKAFI의 시장 지위를 일부 방어.",
+      "중수소화 룩솔리티닙(deuterated ruxolitinib) 관련 특허에 대한 PTAB의 유효성 인정 결정으로 추가적인 지적 재산권 보호."
+    ],
+    "moat_durability_years": "5년 미만",
+    "new_trigger": "JAKAFI의 특허 만료 임박 및 제네릭 경쟁 심화 속 신규 파이프라인 성과 기대",
+    "bull_case": "JAKAFI 특허 방어 성공 및 신규 파이프라인(예: LIMELIGHT)의 성공적 출시로 매출 및 이익 성장 가속화",
+    "base_case": "JAKAFI 특허 만료에 따른 매출 감소가 예상되나, 기존 제품의 견고한 수요와 개발 중인 파이프라인의 점진적 성과로 현 수준의 수익성 유지.",
+    "bear_case": "JAKAFI 특허 방어 실패 및 제네릭 경쟁 심화로 인한 급격한 매출 감소, 신규 파이프라인 개발 지연 또는 실패로 수익성 악화.",
+    "key_metrics_to_watch": [
+      "JAKAFI 특허 소송 결과 및 제네릭 출시 시점",
+      "주요 파이프라인(예: LIMELIGHT)의 임상 결과 및 규제 승인",
+      "매출 성장률 및 순이익률 변화"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "If we are unable to maintain revenues from JAKAFI or those revenues decrease, our business may be materially harmed.",
+        "category": "고객집중도",
+        "description": "주력 제품인 JAKAFI(룩솔리티닙)에 대한 매출 의존도가 매우 높아, JAKAFI 매출 감소 시 회사 사업에 심각한 피해를 입을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "JAKAFI의 특허 독점권이 2028년 만료될 예정이며, 이는 JAKAFI 제품 매출 감소로 이어질 것으로 예상됩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "정부 및 기타 제3자 지불기관의 약가 관리 정책, 상환 제한, 340B 약가 프로그램 확대 등으로 인해 제품 가격 및 상환에 부정적인 영향을 받을 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The timing to complete the negotiation process in each country is highly uncertain, and in some countries, we expect that it may exceed 12 months.",
+        "category": "재무",
+        "description": "정부 보건 행정 당국, 민간 건강 보험사 및 기타 기관으로부터 제품에 대한 충분한 보장 및 상환을 확보하지 못할 경우, 제품 판매, 운영 결과 및 재무 상태가 악화될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "An inability to maintain adequate formulary positions could increase patient cost-sharing for our products and cause some patients to determine not to use our products.",
-        "severity": "medium"
+        "category": "공급망",
+        "description": "제3자 제조업체가 JAKAFI를 충분한 수량으로 제조하고 품질 기준을 충족시키지 못할 경우, 제품 공급에 차질이 발생할 수 있습니다.",
+        "severity": "low"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Any delays or unforeseen difficulties in reimbursement approvals could limit patient access, depress therapy adherence rates, and adversely impact our ability to successfully commercialize our products.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "당사가 당사 제품에 대한 광범위한 보장 및 환급을 획득하고 유지하는 데 실패할 경우 당사 제품의 예상 수익 및 성장 전망에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Substantial support in this manner could harm our profitability in the future.",
+        "category": "거시",
+        "description": "인플레이션, 금리 인상, 지정학적 갈등 등 거시 경제 요인으로 인한 의료 예산 압박이 약가 및 상환에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "JAKAFI의 특허 만료 후 경쟁 약물의 등장과 함께 매출이 급감하고, 후속 파이프라인 개발에 실패하여 회사의 수익성이 지속적으로 악화될 경우.",
+      "정부 및 보험사의 약가 인하 압박과 상환 제한이 심화되어 JAKAFI를 포함한 주요 제품의 수익성이 크게 저하되고, 신제품 출시가 지연될 경우.",
+      "주요 제품의 제조 또는 유통에 심각한 문제가 발생하거나, 예상치 못한 부작용으로 인해 규제 승인이 취소되어 매출이 급락할 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "JAKAFI의 특허 만료 이전에 유의미한 신규 파이프라인이 임상 3상에서 실패하거나, 시장성이 낮은 것으로 판명될 경우.",
+      "주요 시장에서 JAKAFI의 상환율이 예상보다 크게 낮아지거나, 경쟁 약물 대비 가격 경쟁력을 상실하여 매출이 지속적으로 감소하는 추세가 확인될 경우.",
+      "회사의 R&D 투자 대비 신약 개발 성공률이 현저히 낮아지거나, M&A를 통한 신규 파이프라인 확보에 실패하여 장기적인 성장 동력이 부재하다는 신호가 나타날 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-05T01:12:06.189211+00:00"
+    "GoogleWebTranslator": "2026-09-08T01:29:48.596793+00:00"
   }
 }

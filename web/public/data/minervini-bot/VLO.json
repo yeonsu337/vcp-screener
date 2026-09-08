@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "VLO",
-  "generated_at": "2026-09-05T00:46:32.270072+00:00",
-  "source_results_date": "2026-09-05",
+  "generated_at": "2026-09-08T01:04:26.671319+00:00",
+  "source_results_date": "2026-09-08",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.65,
   "lines": [
     "추격 위험 — Pivot $319.01 대비 +16.2%, buy zone 초과.",
-    "13주 베이스 11.1% → 11.2% → 12.4% → 8.1% → 7.5%, VDU 0.98× — setup 자체는 유효.",
+    "13주 베이스 11.2% → 12.4% → 8.1% → 7.5%, VDU 1.06× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 94로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.47% vs 6.5%)",
-    "P3_vol_dryup (0.98× vs 0.6×)",
+    "P3_vol_dryup (1.06× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

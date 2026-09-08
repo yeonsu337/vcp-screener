@@ -4,10 +4,10 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-05T00:55:33.345160+00:00",
+  "generated_at": "2026-09-08T01:08:15.009799+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
     "market_cap": 4074101760,
     "shares_outstanding": 50099627,
@@ -17,18 +17,35 @@
     "beta": 0.773
   },
   "category_a_business": {
-    "overview": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다. 이 회사는 정유, 소매, 물류의 세 가지 부문으로 운영됩니다. 정유 부문은 원유를 휘발유, 증류액, 아스팔트 및 기타 제품으로 전환하는 정유소를 소유하고 운영합니다.",
-    "business_model": "에너지 회사인 Par Pacific Holdings, Inc.는 미국에서 재생 가능 및 기존 연료를 제공합니다.",
+    "overview": "Par Pacific Holdings는 미국 서부 지역에 재생 및 기존 연료를 공급하는 에너지 기업입니다.",
+    "milestones": [
+      "2025: Laramie Energy, Yellowstone Energy, Hawaii Renewables 지분 보유",
+      "2025: Billings Acquisition을 통해 Yellowstone Energy Limited Partnership 및 Yellowstone Pipeline Company 지분 인수",
+      "2025: 미국 금리 인하 (3.50%~3.75%) 및 유가 하락 ($68.19/배럴)",
+      "2025: 미국, 특정 상품에 대한 신규 및 인상된 관세 채택"
+    ],
+    "business_model": "원유 정제, 연료 및 상품 소매 판매, 물류 서비스를 통해 수익 창출",
+    "revenue_streams": [
+      "정유 제품 판매 (휘발유, 경유, 아스팔트 등)",
+      "소매 연료 및 편의점 상품 판매",
+      "물류 서비스 (운송, 저장)",
+      "천연가스 개발 및 생산 (Laramie Energy 지분)",
+      "재생 에너지 (Hawaii Renewables 지분)"
+    ],
+    "value_chain_position": "Downstream + 원유를 정제하여 최종 제품을 생산하고 유통하며, 일부 미드스트림 물류 운영도 수행합니다.",
     "products": [
-      "미국의 재생 가능 및 기존 연료",
-      "through three segments: Refining, Retail, and Logistics",
-      "refineries that convert crude oil into gasoline, distillate, asphalt, and other products",
-      "휘발유, 경유 및 소매 상품(청량음료, 조제품 등)을 판매하는 편의점 및 연료 소매점",
-      "terminals, pipelines, trucking operations, marine vessels, storage facilities, loading and truck racks, and rail facilit"
+      "휘발유",
+      "경유",
+      "아스팔트",
+      "편의점 상품",
+      "물류 서비스 (운송, 저장)"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (정유 제품 도매)",
+      "B2C (직영 주유소 및 편의점)",
+      "제3자 운영 주유소"
+    ],
+    "key_customers": "주로 하와이, 워싱턴, 아이다호, 와이오밍, 다코타스 등 미국 서부 지역의 일반 소비자 및 기업 고객"
   },
   "category_b_financials": {
     "roe": 0.53,
@@ -90,7 +107,7 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
-      9.35,
+      9.53,
       1.1,
       1.53,
       5.16,
@@ -122,16 +139,56 @@
     "roe_pct": 53.49
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2025년 기준 미국 서부 지역 정유 및 마케팅 시장 규모는 약 150-200억 USD로 추정됩니다. (출처: PARR의 사업 지역 및 제품 포트폴리오를 기반으로 한 추정치)",
+    "tam_cagr_pct": "1-3% (근거: 미국 서부 지역의 에너지 수요는 안정적이나, 재생에너지 전환 및 전기차 보급 확대로 인해 화석 연료 수요 증가율은 제한적일 것으로 예상됩니다.)",
+    "growth_drivers": [
+      "재생 연료 포트폴리오 확장 및 관련 인프라 투자 증가",
+      "하와이 및 미국 서부 지역의 안정적인 에너지 수요 유지",
+      "전략적 인수 및 합병을 통한 시장 점유율 확대 및 시너지 효과 창출",
+      "물류 네트워크 효율성 개선을 통한 비용 절감 및 시장 접근성 강화"
+    ],
+    "market_share_pct": "5-10% (estimate, 미국 서부 지역 정유 및 마케팅 시장 내 PARR의 정유 용량 및 소매점 수를 기반으로 한 추정치)",
+    "competitors": [
+      {
+        "name": "Chevron Corporation",
+        "differentiation": "광범위한 글로벌 사업 범위, 통합된 상류 및 하류 부문, 강력한 브랜드 인지도 및 재무 건전성"
+      },
+      {
+        "name": "Phillips 66",
+        "differentiation": "정유, 마케팅, 화학 및 파이프라인 자산의 통합된 포트폴리오, 복잡한 정유 시설 및 효율적인 물류 시스템"
+      },
+      {
+        "name": "Marathon Petroleum Corporation",
+        "differentiation": "미국 최대 정유사 중 하나, 광범위한 정유 및 소매 네트워크, MLP (Master Limited Partnership) 구조를 통한 자산 최적화"
+      },
+      {
+        "name": "Valero Energy Corporation",
+        "differentiation": "독립 정유사 중 최대 규모, 고도화된 정유 시설 및 다양한 제품 포트폴리오, 바이오 연료 생산 능력"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (정유 산업은 높은 초기 투자 비용, 복잡한 규제, 숙련된 인력 필요 등으로 진입 장벽이 높지만, 재생에너지 분야에서는 신규 진입자가 증가할 수 있습니다.)",
+      "substitutes": "medium (전기차, 바이오 연료, 수소 에너지 등 대체 에너지원의 발전 및 보급이 가속화되고 있으나, 단기적으로는 화석 연료의 지배력이 유지될 것입니다.)",
+      "buyer_power": "medium (대형 산업 구매자 및 소매 소비자는 가격에 민감하며, 시장 내 경쟁 심화로 구매자의 협상력이 증가할 수 있습니다.)",
+      "supplier_power": "medium (원유 공급은 OPEC 등 소수 국가 및 기업에 집중되어 있어 공급자의 협상력이 높지만, 글로벌 원유 생산량 증가 및 다양한 공급원 확보 노력으로 균형이 맞춰지고 있습니다.)",
+      "rivalry": "high (미국 서부 지역 정유 및 마케팅 시장은 소수의 대형 플레이어들이 경쟁하며, 가격 경쟁 및 시장 점유율 확보를 위한 치열한 경쟁이 존재합니다.)"
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+      "하와이 및 미국 서부 지역에 특화된 정유 및 소매 네트워크 (지역적 강점)",
+      "재생 연료 사업으로의 확장 및 관련 투자 (미래 성장 동력 확보)",
+      "광범위한 다중 모드 물류 네트워크 (효율적인 제품 운송 및 시장 접근성)",
+      "통합된 사업 모델 (정유, 소매, 물류의 시너지 효과)"
+    ],
+    "competitive_weaknesses": [
+      "글로벌 대형 경쟁사에 비해 상대적으로 작은 규모 및 자본력",
+      "원유 가격 변동성 및 지정학적 리스크에 대한 높은 노출도",
+      "재생에너지 전환 가속화에 따른 화석 연료 사업의 장기적 불확실성",
+      "규제 변화 및 환경 정책 강화에 대한 잠재적 취약성"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 93,
-    "score": 70.3,
+    "score": 69.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
@@ -141,53 +198,81 @@
     "ev_to_ebitda": 3.948,
     "price_to_sales": 0.4726997,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 111.45,
-    "outperform_6m_vs_nasdaq": 45.66,
-    "outperform_1m_vs_nasdaq": 16.65,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 115.95,
+    "outperform_6m_vs_nasdaq": 48.0,
+    "outperform_1m_vs_nasdaq": 17.36,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "PARR은 하와이, 워싱턴, 와이오밍, 몬태나 등 서부 미국 지역에 걸쳐 4개의 정유소를 운영하며 총 219 Mbpd의 원유 처리 능력을 보유하고 있습니다. 이는 해당 지역의 연료 공급에 있어 규모의 경제를 통한 비용 우위를 제공합니다.",
+      "회사는 'Hele', 'nomnom', '76' 브랜드의 주유소 및 편의점을 운영하며, 하와이, 워싱턴, 아이다호 등 특정 지역에서 강력한 소매 네트워크를 구축하여 유통 비용 효율성을 확보하고 있습니다.",
+      "PARR은 태평양, 북서부, 로키산맥 지역에 걸쳐 광범위한 다중 모드 물류 네트워크를 운영합니다. 여기에는 하와이의 SPM, 워싱턴의 철도 터미널, 파이프라인, 트럭 운송, 해상 선박 등이 포함되어 원유 및 정제 제품의 효율적인 운송을 가능하게 하여 물류 비용을 절감합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "하와이 리뉴어블스 지분 확대 및 재생 연료 사업 확장",
+    "bull_case": "재생 에너지 전환 가속화 및 서부 미국 시장 점유율 확대로 3년 내 EPS 20% 이상 성장",
+    "base_case": "서부 미국 지역의 견고한 연료 수요와 효율적인 물류 네트워크를 바탕으로 안정적인 수익성을 유지하며, 재생 에너지 사업 확대를 통해 점진적인 성장을 이룰 것입니다. 유가 변동성에 대한 헤징 전략과 비용 효율성 개선 노력이 지속될 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체로 인한 연료 수요 급감, 유가 급등락에 따른 마진 압박, 재생 에너지 전환 지연 및 규제 강화로 수익성이 크게 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "정제 마진 (Refining Margin)",
+      "재생 연료 생산량 및 판매량",
+      "서부 미국 지역 연료 수요 성장률",
+      "부채 비율 및 현금 흐름"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "In any such case, the trading price of our common stock could decline.",
+        "category": "운영",
+        "description": "정유 및 운송 과정에서 화재, 폭발, 사이버 위협, 파이프라인 파열 등 운영상 위험이 발생하여 사업 중단, 재산 피해, 인명 피해 및 막대한 책임으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "원유 및 정제 제품 가격의 변동성과 제품 수요 변화는 회사의 현금 흐름과 영업 결과에 중대한 부정적 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 및 정치 환경의 불안정성(테러, 군사 분쟁, 금수 조치 등)은 원유 비용 및 가용성, 정제 제품 가격 및 수요에 변동성을 야기하여 영업 결과에 부정적인 압력을 가할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "러시아-우크라이나 전쟁, 이스라엘-팔레스타인 분쟁 등 지정학적 갈등은 원유 원료 비용을 증가시키고 제품 수요에 영향을 미치며 글로벌 공급망을 교란할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "미국 무역 정책의 불확실성과 변화(관세 부과 등)는 회사의 사업, 영업 결과 및 재무 상태에 중대한 부정적 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험도 당사에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "재무",
+        "description": "재생 가능한 원료 비용 상승과 재생 가능한 제품 또는 환경 크레딧 가격 하락이 동시에 발생하면 재생 가능한 마진이 크게 압축되어 재생 가능한 사업 운영에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 공개는 향후 회사와 회사 증권에 실질적이고 부정적인 영향을 미칠 수 있는 요소에 대한 회사의 믿음과 의견을 반영합니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "운영 위험 당사의 운영은 잠재적으로 심각한 손실에 노출될 수 있는 운영상의 위험에 노출되어 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "The scientific consensus suggests that some of these physical risks to our facilities and third-party facilities, especially risks associated with extreme weather, may increase as a result of climate change.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "A serious accident at our facilities could also result in serious injury or death to our employees or contractors and could expose us to significant liability for personal injury claims and reputational risk.",
+        "category": "거시",
+        "description": "기후 변화로 인한 극심한 기상 현상과 같은 물리적 위험 증가는 회사 및 제3자 시설에 대한 운영 위험을 증가시킬 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "대규모 운영 사고(화재, 폭발 등)가 발생하여 장기간 사업 중단, 막대한 재산 및 인명 피해, 그리고 회복 불가능한 평판 손실이 발생할 경우 회사는 파산할 수 있습니다.",
+      "원유 및 정제 제품 시장의 극심한 변동성으로 인해 지속적으로 마진이 압박되고 현금 흐름이 고갈되어 회사가 재정적으로 파산할 수 있습니다.",
+      "지정학적 갈등이나 무역 정책 변화로 인해 원료 공급이 완전히 중단되거나 제품 수요가 급감하여 회사가 더 이상 운영을 지속할 수 없게 될 수 있습니다.",
+      "재생 에너지 전환 가속화 및 환경 규제 강화로 인해 기존 정유 사업의 수익성이 급격히 악화되고 재생 에너지 사업으로의 전환에 실패하여 회사가 시장에서 도태될 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 정유 시설에서 대규모 운영 사고가 발생하여 생산이 6개월 이상 중단되고 복구 비용이 예상치를 크게 초과하는 경우",
+      "크랙 스프레드가 2분기 연속으로 역사적 최저치를 기록하고, 재생 가능한 마진이 동시에 급격히 하락하여 현금 흐름이 지속적으로 마이너스를 기록하는 경우",
+      "미국 정부가 화석 연료 산업에 대한 새로운 대규모 세금 또는 규제를 도입하여 회사의 수익성에 심각한 타격을 주는 경우",
+      "주요 원유 공급처가 지정학적 이유로 영구적으로 차단되거나, 주요 시장에서 정제 제품 수요가 20% 이상 영구적으로 감소하는 경우"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-05T01:12:38.369198+00:00"
+    "GoogleWebTranslator": "2026-09-08T01:30:15.640945+00:00"
   }
 }
