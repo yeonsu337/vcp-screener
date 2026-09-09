@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-09-08T01:19:50.594538+00:00",
+  "generated_at": "2026-09-09T01:24:43.861535+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2632237312,
+    "market_cap": 2602748928,
     "shares_outstanding": 51734223,
     "employees": 761,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 2.43
   },
   "category_a_business": {
-    "overview": "CareDx, Inc.는 미국 및 국제적으로 이식 환자의 결과를 개선하고 장기 건강을 발전시키기 위한 솔루션을 제공합니다. 이 회사는 신장 이식 환자를 위한 기증자 유래 무세포 DNA(dd-cfDNA) 솔루션인 AlloSure Kidney를 제공합니다. 심장이식 환자를 위한 유전자 발현 프로파일링 솔루션인 AlloMap Heart; 심장이식 환자를 위한 dd-cfDNA 솔루션 알로슈어 하트(AlloSure Heart) 폐 이식 환자를 위한 dd-cfDNA 솔루션인 AlloSure Lung도 있습니다.",
-    "business_model": "케어Dx, Inc.",
+    "overview": "CareDx, Inc. provides solutions for improving outcomes for transplant patients and advancing organ health in the United States and internationally. The company provides AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients; AlloMap Heart, a gene expression profiling solution for heart transplant patients; AlloSure Heart, a dd-cfDNA solution for heart transplant patients; and AlloSure Lung, a dd-cfDNA solution for lung transplant patients.",
+    "business_model": "CareDx, Inc.",
     "products": [
-      "미국 및 해외에서 이식 환자의 결과를 개선하고 장기 건강을 발전시키기 위한 솔루션",
-      "신장 이식 환자를 위한 기증자 유래 무세포 DNA(dd-cfDNA) 솔루션 알로슈어 키드니(AlloSure Kidney)",
-      "면역 정지, 활성 손상, 침과 같은 뚜렷한 생물학적 과정에 대한 정보를 제공하는 HeartCare",
-      "인간 백혈구 항원(HLA) 타이핑의 정확성을 가능하게 하는 QTYPE",
-      "고해상도 HLA 타이핑 솔루션 AlloSeq Tx"
+      "solutions for improving outcomes for transplant patients and advancing organ health in the United States and internatio",
+      "AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients",
+      "HeartCare, which provides information about distinct biological processes, such as immune quiescence, active injury, acu",
+      "QTYPE that enables precision in human leukocyte antigen (HLA) typing",
+      "AlloSeq Tx, a high-resolution HLA typing solutio"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
@@ -134,14 +134,14 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 24.46154,
-    "forward_pe": 38.296818,
-    "ev_to_ebitda": 183.21,
-    "price_to_sales": 5.7461267,
+    "trailing_pe": 24.187502,
+    "forward_pe": 37.867783,
+    "ev_to_ebitda": 180.838,
+    "price_to_sales": 5.681754,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 266.29,
-    "outperform_6m_vs_nasdaq": 166.0,
-    "outperform_1m_vs_nasdaq": 12.94,
+    "outperform_1y_vs_nasdaq": 266.64,
+    "outperform_6m_vs_nasdaq": 167.99,
+    "outperform_1m_vs_nasdaq": 14.55,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -153,7 +153,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "급속한 의학적, 과학적 변화에 보조를 맞출 수 있는 솔루션을 개발하지 못하면 우리의 운영 결과가 손상될 수 있습니다.",
+        "description": "If we are unable to develop solutions to keep pace with rapid medical and scientific change, our operating results could be harmed.",
         "severity": "medium"
       },
       {
@@ -163,12 +163,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러한 경우, 당사 보통주의 시장 가격이 하락할 수 있으며, 귀하는 투자금의 일부 또는 전부를 잃을 수 있습니다.",
+        "description": "In that event, the market price of our common stock could decline, and you could lose part or all of your investment.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사는 창립 이래 상당한 순손실을 입었으며, 향후 몇 년간 계속해서 추가 손실이 발생할 수 있습니다.",
+        "description": "We have incurred substantial net losses since our inception, and we may continue to incur additional losses for the next several years.",
         "severity": "medium"
       },
       {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-08T01:28:13.139069+00:00"
+    "GoogleWebTranslator": "2026-09-09T01:33:04.770929+00:00"
   }
 }

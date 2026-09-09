@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Credit Services",
-  "generated_at": "2026-09-08T01:13:41.631800+00:00",
+  "generated_at": "2026-09-09T01:18:34.723152+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4259544320,
+    "market_cap": 4156964608,
     "shares_outstanding": 38419268,
     "employees": 6000,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 1.13
   },
   "category_a_business": {
-    "overview": "Bread Financial Holdings, Inc.는 북미 지역의 고객 및 소비자 기반 산업에 첨단 기술 결제 및 대출 솔루션을 제공합니다. Bread Pay 파트너십을 통해 위험 관리 솔루션, 인수, 자사 상표 및 공동 브랜드 신용 카드 프로그램을 위한 자금 조달 서비스 등 신용 카드 및 기타 대출 금융 서비스를 제공합니다.",
-    "business_model": "빵 파이낸셜 홀딩스, Inc.",
+    "overview": "Bread Financial Holdings, Inc. provides tech-forward payment and lending solutions to customers and consumer-based industries in North America. It offers credit card and other loans financing services, including risk management solutions, underwriting, and funding services for private label and co-brand credit card programs, as well as through Bread Pay partnerships.",
+    "business_model": "Bread Financial Holdings, Inc.",
     "products": [
-      "북미 지역의 고객 및 소비자 기반 산업을 위한 기술 선도 결제 및 대출 솔루션",
-      "위험 관리 솔루션, 인수 및 자금 조달 서비스를 포함한 신용 카드 및 기타 대출 금융 서비스",
-      "마케팅, 데이터 및 분석 서비스",
-      "제품군에 대한 액세스를 제공하는 통합 소프트웨어 개발 키트를 포함하는 향상된 디지털 제품군",
-      "주로 예금 증서 및 고수익 저축 계좌 형태의 소매 및 예금 상품입니다."
+      "tech-forward payment and lending solutions to customers and consumer-based industries in North Americ",
+      "credit card and other loans financing services, including risk management solutions, underwriting, and funding services",
+      "marketing, and data and analytics services",
+      "an enhanced digital suite that includes a unified software development kit, which provides access to its suite of produc",
+      "retail and deposit products, primarily in the form of certificates of deposit and high-yield savings accounts, including"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Bread Financial Holdings, Inc.는 거래 관련 데이터의 캡처 및 분석을 통해 파생된 자체 브랜드 신용 카드, 연합 충성도 프로그램 및 직접 마케팅을 제공하는 미국의 공개 거래 제공업체입니다."
+    "wikipedia_excerpt": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data."
   },
   "category_b_financials": {
     "roe": 0.17,
@@ -136,22 +136,22 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.1941,
-    "trailing_pe": 8.601241,
-    "forward_pe": 8.292806,
+    "peg_ratio": 3.2551,
+    "trailing_pe": 8.394103,
+    "forward_pe": 8.093096,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.5965308,
+    "price_to_sales": 1.5580827,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 45.3,
-    "outperform_6m_vs_nasdaq": 35.87,
-    "outperform_1m_vs_nasdaq": 0.45,
+    "outperform_1y_vs_nasdaq": 45.65,
+    "outperform_6m_vs_nasdaq": 37.86,
+    "outperform_1m_vs_nasdaq": 2.07,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "우리가 인식하지 못하거나 현재 중요하지 않다고 생각하는 추가적인 위험과 불확실성도 우리 사업에 부정적인 영향을 미치는 중요한 요소가 될 수 있습니다.",
+        "description": "Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect our business.",
         "severity": "medium"
       },
       {
@@ -161,22 +161,22 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "사이버 보안, 기술 및 제3자 공급업체와 관련된 위험은 다음과 같습니다. • 우리는 제3자 공급업체에 의존하며 해당 공급업체가 의무를 이행하지 않을 경우 부정적인 영향을 받을 수 있습니다.",
+        "description": "Risks related to cybersecurity, technology and third-party vendors include: • We rely on third-party vendors, and could be adversely impacted if such vendors fail to fulfill their obligations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "더욱이 현 대통령 행정부의 무역, 이민 및 세금 정책은 인플레이션 압력을 야기할 수 있으며, 이는 결국 우리 고객 기반에 불균형적인 영향을 미칠 수 있습니다.",
+        "description": "Moreover, the current Presidential Administration’s policies on trade, immigration and taxes could create inflationary pressures, which in turn could disproportionately impact our customer base.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리가 제공하는 대출은 무담보이며 대출을 불이행하는 고객으로부터 궁극적으로 회수하지 못할 수도 있습니다.",
+        "description": "The loans we make are unsecured, and we may not be able to ultimately collect from customers that default on their loans.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "결과적으로, 우리가 의존하는 데이터와 모델은 고객의 실제 재정적 의무 범위를 완전히 반영하지 못할 수 있습니다.",
+        "description": "As a result, the data and models upon which we rely may not fully reflect the extent of our customers’ actual financial obligations.",
         "severity": "medium"
       }
     ],
@@ -189,6 +189,6 @@
   },
   "wikipedia_summary": "Bread Financial Holdings, Inc. is an American publicly traded provider of private label credit cards, coalition loyalty programs, and direct marketing, derived from the capture and analysis of transaction-rich data.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-08T01:27:36.551021+00:00"
+    "GoogleWebTranslator": "2026-09-09T01:33:00.303828+00:00"
   }
 }

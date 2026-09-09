@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-08T01:27:00.816500+00:00",
+  "generated_at": "2026-09-09T01:32:54.982427+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 186993311744,
+    "market_cap": 183542104064,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -17,19 +17,19 @@
     "beta": 0.911
   },
   "category_a_business": {
-    "overview": "Deere & Company는 전 세계적으로 다양한 장비를 제조 및 유통하고 있습니다. 이 회사는 생산 및 정밀 농업, 소규모 농업 및 잔디, 건설 및 임업, 금융 서비스 등 4개 부문을 통해 운영됩니다. 생산 및 정밀 농업 부문은 4륜 구동 트랙 및 줄 작물 트랙터, 수확기, 면화 수확기 및 스트리퍼, 사탕수수 수확기 및 로더, 토양 준비, 경작, 파종 및 작물 관리 장비뿐만 아니라 분무기 및 영양분 관리, 토양 준비 기계,",
-    "business_model": "Deere & Company는 전 세계적으로 다양한 장비를 제조 및 유통하고 있습니다.",
+    "overview": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, ",
+    "business_model": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
     "products": [
-      "네 가지 부문을 통해: 생산 및 정밀 농업, 소규모 농업 및 잔디, 건설 및 임업,",
-      "4륜 구동 트랙 및 행 작물 트랙터, 수확기, 목화 수확기 및 스트리퍼, 사탕수수 수확기 및 로더",
-      "특수, 유틸리티 및 소형 트랙터",
-      "백호 로더, 크롤러 도저 및 로더, 4륜 구동 로더, 굴삭기, 모터 그레이더, 굴절식 덤프 트럭",
-      "상기 장비의 딜러에 대한 도매 금융"
+      "through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry,",
+      "four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders",
+      "specialty, utility, and compact tractors",
+      "backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump truck",
+      "wholesale financing to dealers of the foregoing equipment"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Deere & Company는 농업 기계, 중장비, 임업 기계, 디젤 엔진, 중장비 및 잔디 관리 장비에 사용되는 구동계를 제조하는 미국 기업입니다. 또한 금융 서비스 및 기타 관련 활동도 제공합니다."
+    "wikipedia_excerpt": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
   },
   "category_b_financials": {
     "roe": 0.18,
@@ -133,47 +133,47 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.6113,
-    "trailing_pe": 38.61526,
-    "forward_pe": 30.571552,
-    "ev_to_ebitda": 26.353,
-    "price_to_sales": 3.9016275,
+    "peg_ratio": 1.6092,
+    "trailing_pe": 37.90256,
+    "forward_pe": 30.00731,
+    "ev_to_ebitda": 25.952,
+    "price_to_sales": 3.829618,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.76,
-    "outperform_6m_vs_nasdaq": -0.16,
-    "outperform_1m_vs_nasdaq": 12.2,
+    "outperform_1y_vs_nasdaq": 26.11,
+    "outperform_6m_vs_nasdaq": 1.83,
+    "outperform_1m_vs_nasdaq": 13.81,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "이러한 위험과 불확실성 중 일부는 특정 사업 부문에 영향을 미칠 수 있고 다른 일부는 우리 사업 전체에 영향을 미칠 수 있습니다.",
+        "description": "Some of these risks and uncertainties could affect particular lines of business, while others could affect all our businesses.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 변화는 자금 조달 및 관련 자금 조달 비용에 대한 접근에 영향을 미쳐 수익과 현금 흐름을 감소시킬 수 있습니다.",
+        "description": "Such changes could impact access to funding and associated funding costs, which could reduce our earnings and cash flows.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 수익성을 실질적으로 손상시킬 수 있는 국제, 국내 및 지역 무역법, 규정 및 정책과 관련된 위험에 직면해 있습니다.",
+        "description": "We face risks associated with international, national, and regional trade laws, regulations, and policies that could materially impair our profitability.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "2025 회계연도 동안 수입 관세 증분은 당사 제품 및 부품 가격에 부정적인 영향을 미쳤으며 2026년에도 계속 그럴 수 있습니다.",
+        "description": "During fiscal year 2025, incremental import tariffs adversely affected the cost of our products and components and may continue to do so in 2026.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 브라질이나 다른 지역에 대한 투자로 인한 이점을 깨닫지 못할 수도 있고 다양한 이유로 시장 점유율을 늘리지 못할 수도 있습니다.",
+        "description": "We may not realize the benefits from our investment in Brazil or in other regions and may be unable to grow our market share for a variety of reasons.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "물 가용성이 크게 감소하면 제조 공정이 중단되고 운영 비용이 증가하며 고객 요구 사항을 충족하는 능력이 제한될 수 있습니다.",
+        "description": "Any significant reduction in water availability could disrupt our manufacturing processes, increase our operational costs, and limit our ability to meet customer demand.",
         "severity": "medium"
       }
     ],
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-08T01:28:58.844885+00:00"
+    "GoogleWebTranslator": "2026-09-09T01:33:07.307288+00:00"
   }
 }

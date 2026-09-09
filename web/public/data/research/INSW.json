@@ -4,42 +4,57 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-08-29T04:21:42.878351+00:00",
+  "generated_at": "2026-09-09T01:09:54.169420+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4894189056,
+    "market_cap": 5141845504,
     "shares_outstanding": 49531311,
     "employees": 2837,
     "country": "United States",
     "website": "https://intlseas.com",
-    "beta": -0.1
+    "beta": -0.101
   },
   "category_a_business": {
-    "overview": "International Seaways, Inc.는 국제 무역에서 원유 및 석유 제품을 운송하는 원양 선박을 소유하고 운영합니다. 이 회사는 원유 유조선과 제품 운반선이라는 두 부문으로 운영됩니다.",
-    "business_model": "인터내셔널 시웨이즈, Inc.",
+    "overview": "INSW는 원유 및 석유 제품을 국제적으로 운송하는 해상 선박을 소유 및 운영합니다.",
+    "milestones": [
+      "1999: International Seaways, Inc. 설립 (마셜 제도 법인)",
+      "2016: OSG International, Inc.에서 International Seaways, Inc.로 사명 변경",
+      "2025: 12척의 선박 매각 및 3척의 신규 선박 인도",
+      "2026: 4척의 이중 연료 LR1 신조선 인도 예정"
+    ],
+    "business_model": "선박을 이용해 원유 및 석유 제품을 운송하고 운임으로 수익을 창출합니다.",
+    "revenue_streams": [
+      "원유 탱커 운송 (스팟/기간 용선)",
+      "제품 운반선 운송 (스팟/기간 용선)",
+      "선박 대 선박 (STS) 경량화 지원 서비스",
+      "선박 매매 이익"
+    ],
+    "value_chain_position": "Midstream: 원유 및 석유 제품의 생산지와 소비지를 연결하는 해상 운송 서비스를 제공합니다.",
     "products": [
-      "국제 무역에서 원유 및 석유 제품을 운송하기 위한 원양 선박 함대",
-      "두 가지 부문: 원유 유조선과 제품 운반선",
-      "VLCC, Suezmaxes, Aframaxes와 MR, LR1, LR2 제품 운반선 70척으로 구성된 함대",
-      "호스, 펜더 등 선박 대 선박(STS) 경량화 지원 서비스",
-      "팜유, 식물성 기름 등 식용유 운반을 위한 IMO III 준수를 포함한 MR 제품 운반체"
+      "VLCC 원유 탱커",
+      "수에즈막스 원유 탱커",
+      "아프라막스 원유 탱커",
+      "LR1/LR2 제품 운반선",
+      "MR 제품 운반선"
     ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (직접 용선 계약)",
+      "B2B (상업 풀 참여를 통한 스팟 시장)"
+    ],
+    "key_customers": "주요 독립 및 국영 석유 회사, 석유 트레이더, 정유사, 국제 정부 기관 등 다양한 고객군을 보유하고 있습니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.37,
+    "roa": 0.16,
+    "profit_margin": 0.62,
+    "operating_margin": 0.64,
+    "gross_margin": 0.72,
+    "revenue_growth_ttm": 1.4,
+    "earnings_growth_ttm": 3.73,
+    "dividend_yield": 7.83,
+    "payout_ratio": 0.25,
     "annual_revenue": [
       843302000.0,
       951613000.0,
@@ -90,22 +105,25 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      5.91,
       5.75,
       2.56,
       1.42,
       1.25,
-      1.0,
+      null,
       null
     ],
     "quarterly_revenue": [
+      467287000.0,
       325476000.0,
       267879000.0,
       196388000.0,
       195641000.0,
-      183394000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
@@ -119,52 +137,139 @@
     "roe_pct": 37.41
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2025년 기준 약 2,000억 달러 (추정치, 원유 및 석유제품 해상 운송 시장 규모 기반)",
+    "tam_cagr_pct": "3-5% (추정치, 글로벌 에너지 수요 증가 및 해상 무역량 확대에 기반)",
+    "growth_drivers": [
+      "글로벌 원유 및 석유제품 수요 증가",
+      "국제 무역량 확대 및 공급망 다변화",
+      "노후 선박 교체 수요 및 환경 규제 강화에 따른 신조선 발주 증가",
+      "지정학적 요인에 따른 운송 경로 변화 및 운송 거리 증가"
+    ],
+    "market_share_pct": "1-2% (추정치, 글로벌 탱커 선대 규모 대비 INSW 선대 규모)",
+    "competitors": [
+      {
+        "name": "Euronav NV",
+        "differentiation": "초대형 유조선(VLCC) 및 수에즈막스(Suezmax)에 집중된 대규모 선대 보유"
+      },
+      {
+        "name": "Frontline Ltd.",
+        "differentiation": "현물 시장 노출도가 높고, 대규모 선대와 효율적인 운영을 통해 시장 변동성 활용"
+      },
+      {
+        "name": "Teekay Tankers Ltd.",
+        "differentiation": "중형 탱커(Aframax, LR2, LR1, MR)에 강점을 가지며, 장기 용선 계약 비중이 상대적으로 높음"
+      },
+      {
+        "name": "DHT Holdings, Inc.",
+        "differentiation": "VLCC에 특화된 선대를 운영하며, 배당 정책을 통해 주주 가치 환원에 적극적"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 초기 투자 비용과 규제 장벽이 존재하나, 시장 호황 시 신규 진입 유인이 있음)",
+      "substitutes": "low (원유 및 석유제품의 대량 장거리 운송에 해상 운송 외 효과적인 대안이 거의 없음)",
+      "buyer_power": "medium (주요 고객은 대형 석유 회사 및 트레이더로, 대량 운송 계약 시 가격 협상력이 있으나, 선박 공급 부족 시 운임 협상력이 제한됨)",
+      "supplier_power": "medium (조선소, 선박 엔진 및 부품 공급업체, 선원 공급업체 등이 있으나, 다수의 공급업체가 존재하여 특정 공급업체의 영향력이 제한적임)",
+      "rivalry": "high (다수의 선사가 경쟁하며, 시장 상황에 따라 운임 경쟁이 심화될 수 있음)"
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+      "다양한 선종(VLCC, Suezmax, Aframax, LR2, LR1, MR)을 보유한 균형 잡힌 선대 구성",
+      "현물 및 정기 용선 계약을 통한 수익원 다변화 및 시장 변동성 관리",
+      "강력한 재무 건전성 및 유동성 확보 (높은 무담보 선박 비율, 낮은 순부채 비율)",
+      "선대 최적화 프로그램(선박 매매)을 통한 자산 효율성 제고 및 자본 배분 역량"
+    ],
+    "competitive_weaknesses": [
+      "해상 운임 시장의 높은 변동성에 따른 수익성 불안정성",
+      "글로벌 경제 상황, 지정학적 리스크, 환경 규제 변화에 대한 높은 민감도",
+      "노후 선박 매각 및 신조선 발주를 통한 선대 현대화 및 친환경 전환 비용 부담",
+      "대형 경쟁사 대비 상대적으로 작은 시장 점유율"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 93,
-    "score": 73.9,
+    "rs_rating": 94,
+    "score": 75.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 6.317775,
-    "forward_pe": 15.684948,
-    "ev_to_ebitda": 6.365,
-    "price_to_sales": 3.8800488,
+    "trailing_pe": 6.637468,
+    "forward_pe": 16.47864,
+    "ev_to_ebitda": 6.643,
+    "price_to_sales": 4.0763874,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 130.57,
-    "outperform_6m_vs_nasdaq": 33.35,
-    "outperform_1m_vs_nasdaq": -3.6,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 134.32,
+    "outperform_6m_vs_nasdaq": 41.05,
+    "outperform_1m_vs_nasdaq": 13.12,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "INSW는 70척의 선박(총 840만 DWT)을 소유 및 운영하며, VLCC, Suezmax, Aframax 원유 탱커와 LR2, LR1, MR 제품 운반선을 포함하는 대규모 선단을 보유하고 있습니다. 이는 규모의 경제를 통한 운영 효율성 및 비용 우위를 제공합니다.",
+      "2025년 말 기준, INSW는 총 유동성을 7억 2,360만 달러로 증대시키고, 선단의 44%(31척)가 무담보 상태이며, 순 대출-가치 비율 12.9%, 순 부채-자본 비율 16.5%를 기록하는 등 강력한 대차대조표를 유지하고 있습니다. 이는 자금 조달 비용 절감 및 재무적 유연성을 통한 경쟁 우위로 이어집니다.",
+      "2026년 1분기부터 3분기 사이에 이중 연료 LR1 신조선 4척의 인도가 예정되어 있어, 총 선단 규모가 74척으로 확대될 것입니다. 이는 최신 기술 선박 도입을 통한 연료 효율성 증대 및 운영 비용 절감에 기여할 수 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "이중 연료 LR1 신조선 4척 인도 예정 (2026년), 친환경 선박 전환 가속화",
+    "bull_case": "글로벌 유가 및 운임 시장 회복, 신조선 인도에 따른 효율성 증대로 EPS 성장 가속화 및 주가 상승",
+    "base_case": "글로벌 에너지 수요는 꾸준히 유지되나, 운임 시장의 변동성은 지속될 것입니다. INSW는 대규모 선단과 재무적 안정성을 바탕으로 안정적인 수익을 창출하며, 점진적인 선단 현대화를 통해 경쟁력을 유지할 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체 및 에너지 수요 감소, 운임 시장의 급격한 하락, 규제 강화로 인한 운영 비용 증가로 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "TCE (Time Charter Equivalent) 수익",
+      "선단 활용률 및 운임 변동성",
+      "유가 및 글로벌 에너지 수요 추이",
+      "신조선 인도 및 폐선 계획",
+      "순 부채-자본 비율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "아래 설명된 상황이나 사건이 실제로 발생하거나 발생하는 경우 회사의 사업, 운영 결과 및 재무 상태에 중대한 영향을 미칠 수 있습니다.",
+        "category": "거시",
+        "description": "해운 산업의 높은 경기 순환성은 용선료 및 선박 가치의 변동성을 야기하여 수익과 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "INSW는 상당한 부채를 보유하고 있어 운영 자금 조달, 사업 기회 추구 및 미래 사업 운영 능력에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "기후 변화 및 온실가스 배출 규제를 포함한 복잡한 환경 법규 준수는 INSW의 사업에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "법률 및 규제 문제와 관련된 위험 ● 기후 변화 및 온실가스 배출은 당사의 영업 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "공급망",
+        "description": "전 세계 선박 공급량의 변화 또는 신조 선박 용량의 확장은 용선료 및 선박 가치에 영향을 미쳐 수익성 및 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "국제적으로 사업을 운영하므로 변화하는 경제, 정치 및 정부 조건(예: 홍해 및 아덴만에서의 해적 행위, 러시아-우크라이나 전쟁)에 노출되어 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "기술 혁신은 용선 수입과 선박 가치를 감소시킬 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 문제(예: 보안 침해 및 컴퓨터 바이러스)는 INSW의 사업을 방해하고 기밀 정보 유출을 초래하며 평판을 손상시키고 비용을 증가시킬 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "전 세계적인 경기 침체와 해운 시장의 공급 과잉이 장기화되어 용선료가 지속적으로 하락하고 선박 가치가 급락하여 회사의 부채 상환 능력이 상실되는 경우.",
+      "주요 해상 운송로에서 대규모 지정학적 분쟁이나 테러 공격이 발생하여 선박 운항이 불가능해지고 보험으로 감당할 수 없는 막대한 손실이 발생하는 경우.",
+      "엄격한 환경 규제가 급격히 강화되어 기존 선박의 운항이 불가능해지거나 막대한 개조 비용이 발생하여 회사의 재정적 부담이 감당할 수 없는 수준에 이르는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 용선 계약의 만료 시점에 용선료가 시장 평균 대비 20% 이상 하락하여 갱신되거나, 신규 계약 체결이 현저히 어려워지는 경우.",
+      "회사의 부채 비율이 지속적으로 증가하여 신용 등급이 하향 조정되거나, 신규 자금 조달이 불가능해지는 경우.",
+      "주요 해상 운송로에서 선박 운항이 장기간 중단되거나, 해상 보험료가 급격히 인상되어 수익성이 크게 악화되는 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-08T01:29:48.598099+00:00"
+    "GoogleWebTranslator": "2026-09-09T01:33:15.052437+00:00"
   }
 }

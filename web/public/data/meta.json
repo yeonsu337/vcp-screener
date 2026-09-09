@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-08T01:01:38.821848+00:00",
-  "total_candidates": 234,
+  "updated_at": "2026-09-09T01:05:22.399199+00:00",
+  "total_candidates": 213,
   "vcp_detected": 1,
   "min_rs": 70,
   "markets": {
     "US": {
-      "total": 217,
+      "total": 199,
       "detected": 1
     },
     "HK": {
-      "total": 17,
+      "total": 14,
       "detected": 0
     }
   },
@@ -59,7 +59,7 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": false,
-          "value": 0.9794,
+          "value": 0.9793,
           "threshold": 1.0,
           "note": ""
         },
@@ -75,5 +75,5 @@
       "direction_total": 2
     }
   },
-  "runtime_sec": 842.3
+  "runtime_sec": 792.8
 }

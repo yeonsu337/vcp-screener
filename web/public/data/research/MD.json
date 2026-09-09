@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-08T01:18:48.622417+00:00",
+  "generated_at": "2026-09-09T01:23:41.080330+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2196275968,
+    "market_cap": 2188963072,
     "shares_outstanding": 81253271,
     "employees": 4280,
     "country": "United States",
@@ -17,15 +17,15 @@
     "beta": 0.648
   },
   "category_a_business": {
-    "overview": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다. 이 회사는 제휴 신생아 의사 하위 전문의, 신생아 간호사 실무자 및 기타 소아 임상의로 구성된 네트워크를 통해 병원의 특정 부서(주로 NICU) 내에서 조산아 또는 합병증이 있는 아기에게 임상 치료를 제공합니다. 산부인과 전문의, 산부인과 전문의 등을 통해 임산부와 태아에 대한 입원 및 진료실 기반 임상 진료를 제공합니다.",
-    "business_model": "Pediatrix Medical Group, Inc.는 자회사와 함께 미국에서 신생아, 산모-태아 및 기타 소아 하위 전문 진료 서비스를 제공합니다.",
+    "overview": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States. The company offers clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, through its network of affiliated neonatal physician subspecialists, neonatal nurse practitioners, and other pediatric clinicians; and inpatient and office-based clinical care to expectant mothers and unborn babies through its affiliated maternal-fetal medicine subspecialists, obstetricians and oth",
+    "business_model": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States.",
     "products": [
-      "미국 내 신생아, 산모-태아 및 기타 소아과 하위 전문 진료 서비스",
-      "조산아 ​​또는 병원의 특정 부서(주로 NICU) 내에서 합병증이 있는 아기에 대한 임상 치료",
-      "소아 중환자 전문의, 소아 입원 전문의, 소아 외과 의사를 포함한 기타 소아 하위 전문 진료"
+      "newborn, maternal-fetal, and other pediatric subspecialty care services in the United States",
+      "clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, thro",
+      "other pediatric subspecialty care, including pediatric intensivists, pediatric hospitalists, and pediatric surgeons"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
@@ -131,26 +131,26 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 12.933015,
-    "forward_pe": 11.079412,
-    "ev_to_ebitda": 8.947,
-    "price_to_sales": 1.1259345,
+    "trailing_pe": 12.889953,
+    "forward_pe": 11.042522,
+    "ev_to_ebitda": 8.92,
+    "price_to_sales": 1.1221855,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.8,
-    "outperform_6m_vs_nasdaq": 18.46,
-    "outperform_1m_vs_nasdaq": 1.36,
+    "outperform_1y_vs_nasdaq": 37.15,
+    "outperform_6m_vs_nasdaq": 20.45,
+    "outperform_1m_vs_nasdaq": 2.97,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "위험 요소 우리 사업은 향후 개발 및 성과에 실질적으로 영향을 미칠 수 있는 여러 가지 요소의 영향을 받습니다.",
+        "description": "RISK FACTORS Our business is subject to a number of factors that could materially affect future developments and performance.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업 운영에 영향을 미칠 수 있습니다.",
+        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business operations.",
         "severity": "medium"
       },
       {
@@ -165,7 +165,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 기능을 아웃소싱하는 것은 상당한 위험을 수반하며, 이러한 위험을 성공적으로 관리하지 못하면 당사의 비즈니스, 운영 결과 및 재무 상태에 중대한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Outsourcing these functions has significant risks, and our failure to successfully manage these risks could materially adversely affect our business, results of operations and financial condition.",
         "severity": "medium"
       },
       {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-08T01:30:15.340116+00:00"
+    "GoogleWebTranslator": "2026-09-09T01:33:17.481931+00:00"
   }
 }
