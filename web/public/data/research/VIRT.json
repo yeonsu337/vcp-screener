@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Capital Markets",
-  "generated_at": "2026-09-09T01:26:46.913772+00:00",
+  "generated_at": "2026-09-10T01:12:37.672826+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 5564708864,
+    "market_cap": 5553229824,
     "shares_outstanding": 88300678,
     "employees": 1027,
     "country": "United States",
@@ -25,7 +25,7 @@
       "agency execution services and trading venues for transparent trading in global equities, ETFs, fixed income, currencies"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -36,7 +36,7 @@
     "gross_margin": 0.66,
     "revenue_growth_ttm": 0.29,
     "earnings_growth_ttm": -0.01,
-    "dividend_yield": 1.49,
+    "dividend_yield": 1.52,
     "payout_ratio": 0.16,
     "annual_revenue": [
       3632118000.0,
@@ -119,24 +119,24 @@
   },
   "category_d_thesis": {
     "rs_rating": 87,
-    "score": 61.4,
+    "score": 60.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 10.468439,
-    "forward_pe": 9.090149,
+    "trailing_pe": 10.446844,
+    "forward_pe": 9.071397,
     "ev_to_ebitda": null,
-    "price_to_sales": 1.7050945,
+    "price_to_sales": 1.7015771,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 40.98,
-    "outperform_6m_vs_nasdaq": 42.03,
-    "outperform_1m_vs_nasdaq": 17.36,
+    "outperform_1y_vs_nasdaq": 45.04,
+    "outperform_6m_vs_nasdaq": 35.87,
+    "outperform_1m_vs_nasdaq": 14.58,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-09T01:33:26.563781+00:00"
+    "GoogleWebTranslator": "2026-09-10T01:18:55.872419+00:00"
   }
 }

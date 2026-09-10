@@ -4,7 +4,7 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-09-09T01:15:22.095081+00:00",
+  "generated_at": "2026-09-10T01:03:12.571510+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
@@ -17,13 +17,13 @@
     "beta": 0.43
   },
   "category_a_business": {
-    "overview": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases.",
-    "business_model": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States.",
+    "overview": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다. 포트폴리오는 희귀질환, 종양학, 신경과학, 전염병, 혈액학, 당뇨병 등 다양한 치료 분야를 다루는 약 35개 시판 치료법과 20개 개발 단계 제품 후보에 대한 로열티로 구성된다. 이 회사는 자가면역질환용 임상시험용 의약품인 JNJ-4804의 개발을 진전시키기 위해 연구개발 자금 협력을 진행하고 있습니다.",
+    "business_model": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다.",
     "products": [
-      "as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United St"
+      "미국 세인트의 바이오의약품 로열티 구매자이자 바이오의약품 산업 혁신의 자금 제공자로서"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
@@ -34,7 +34,7 @@
     "gross_margin": 0.96,
     "revenue_growth_ttm": 0.17,
     "earnings_growth_ttm": -0.46,
-    "dividend_yield": 1.47,
+    "dividend_yield": 1.55,
     "payout_ratio": 0.49,
     "annual_revenue": [
       2378193000.0,
@@ -123,52 +123,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 59.7,
+    "rs_rating": 82,
+    "score": 54.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4904,
+    "peg_ratio": 1.4116,
     "trailing_pe": 32.575268,
-    "forward_pe": 10.564676,
+    "forward_pe": 10.566721,
     "ev_to_ebitda": 24.437,
     "price_to_sales": 13.805631,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 54.94,
-    "outperform_6m_vs_nasdaq": 25.63,
-    "outperform_1m_vs_nasdaq": 13.16,
+    "outperform_1y_vs_nasdaq": 50.8,
+    "outperform_6m_vs_nasdaq": 17.63,
+    "outperform_1m_vs_nasdaq": 8.48,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business.",
+        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업을 손상시킬 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Summary of Risk Factors Our business is subject to a number of risks, including risks that may adversely affect our business, financial condition or results of operations.",
+        "description": "위험 요소 요약 당사의 사업은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있는 위험을 포함하여 다양한 위험에 노출되어 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고, 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 확보하지 못할 수도 있습니다.",
+        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고, 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 획득하지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "As a result, we may not be able to continue to acquire royalties or otherwise grow our business as we have in the past, or at all.",
+        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 비즈니스를 성장시키지 못할 수도 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Losses from such assets could adversely affect our business, financial condition or results of operations.",
+        "description": "그러한 자산으로 인한 손실은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "Uncertainty relating to development-stage product candidates makes it more difficult to develop accurate assumptions for our internal models, which may result in reduced royalties compared to our estimates.",
+        "description": "개발 단계 제품 후보와 관련된 불확실성으로 인해 내부 모델에 대한 정확한 가정을 개발하기가 더 어려워지고, 이로 인해 추정치에 비해 로열티가 감소할 수 있습니다.",
         "severity": "medium"
       }
     ],
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-09T01:33:21.599532+00:00"
+    "GoogleWebTranslator": "2026-09-10T01:18:43.393748+00:00"
   }
 }

@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "THC",
-  "generated_at": "2026-09-09T01:08:16.545446+00:00",
-  "source_results_date": "2026-09-09",
+  "generated_at": "2026-09-10T00:56:11.651719+00:00",
+  "source_results_date": "2026-09-10",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.62,
+  "confidence": 0.61,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 10.44%).",
-    "13주 베이스 21.6% → 14.5% → 6.9% → 10.4%, VDU 0.74×, pivot $283.05(-6.36%).",
-    "Trend Template 7/8 통과, RS 83 — 추세는 살아있음.",
+    "13주 베이스 21.6% → 14.5% → 6.9% → 10.4%, VDU 0.74×, pivot $283.05(-8.48%).",
+    "Trend Template 7/8 통과, RS 81 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 83,
+    "rs_rating": 81,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -50,7 +50,7 @@
     "P2_last_contraction (10.44% vs 6.5%)",
     "P3_vol_dryup (0.74× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "rs_line (-6.2% vs ≥-5.0%)",
+    "rs_line (-7.8% vs ≥-5.0%)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": []

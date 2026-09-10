@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "BNY",
-  "generated_at": "2026-09-09T01:08:16.540587+00:00",
-  "source_results_date": "2026-09-09",
+  "generated_at": "2026-09-10T00:56:11.647781+00:00",
+  "source_results_date": "2026-09-10",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.85,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $165.69 근접(-0.51%).",
-    "13주 베이스 7.0% → 5.2% 수축, VDU 1.02× 진행.",
-    "Trend Template 8/8 통과, RS 81, RS 라인 신고가 -0.9%.",
+    "매수 대기 — Stage 2 진입, pivot $165.69 근접(-1.71%).",
+    "13주 베이스 7.0% → 5.2% 수축, VDU 0.87× 진행.",
+    "Trend Template 8/8 통과, RS 81, RS 라인 신고가 -1.6%.",
     "$165.69 돌파 시 매수·-7% 손절($154.09)·+20%($198.83) 절반 익절."
   ],
   "action": {
@@ -48,7 +48,7 @@
     "R2_rs_80"
   ],
   "key_failures": [
-    "P3_vol_dryup (1.02× vs 0.6×)",
+    "P3_vol_dryup (0.87× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": []

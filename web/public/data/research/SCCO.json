@@ -1,0 +1,268 @@
+{
+  "ticker": "SCCO",
+  "company": "Southern Copper Corporation",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Copper",
+  "generated_at": "2026-09-10T00:57:25.539723+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 176687349760,
+    "shares_outstanding": 844343686,
+    "employees": 16617,
+    "country": "United States",
+    "website": "https://www.southerncoppercorp.com",
+    "beta": 1.151
+  },
+  "category_a_business": {
+    "overview": "멕시코, 페루 등 미주 지역에서 구리 및 기타 광물을 채굴, 제련, 정제하는 통합 광업 회사입니다.",
+    "milestones": [
+      "1952년: Southern Peru Copper Corporation 설립",
+      "1960: Toquepala 광산 및 제련소 가동 시작",
+      "1976: Cuajone 광산 가동 시작",
+      "1999: Grupo Mexico의 자회사인 Minera Mexico와 합병하여 Southern Copper Corporation으로 재탄생",
+      "2005: 뉴욕 증권 거래소 상장 (SCCO)",
+      "2010년대: Buenavista 및 La Caridad 광산 확장 및 현대화 투자 지속",
+      "2024: 구리 21억 파운드, 은 2,100만 온스, 몰리브덴 6,400만 파운드, 아연 2억 8,600만 파운드 채굴"
+    ],
+    "business_model": "구리 및 기타 광물 채굴, 제련, 정제를 통해 금속을 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "구리 판매",
+      "몰리브덴 판매",
+      "아연 판매",
+      "은 판매",
+      "금 판매",
+      "황산 판매"
+    ],
+    "value_chain_position": "Upstream / midstream: 광물 탐사, 채굴, 제련, 정제 등 가치 사슬 전반을 통합 운영합니다.",
+    "products": [
+      "구리 음극 (Copper Cathodes)",
+      "구리 정광 (Copper Concentrates)",
+      "몰리브덴 정광 (Molybdenum Concentrates)",
+      "아연 (Zinc)",
+      "은 (Silver)",
+      "금 (Gold)"
+    ],
+    "channels": [
+      "B2B (산업 고객 대상 직접 판매)"
+    ],
+    "key_customers": "주로 산업용 고객에게 판매하며, 특정 고객에 대한 매출 집중도는 높지 않습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.5,
+    "roa": 0.26,
+    "profit_margin": 0.36,
+    "operating_margin": 0.61,
+    "gross_margin": 0.65,
+    "revenue_growth_ttm": 0.41,
+    "earnings_growth_ttm": 0.72,
+    "dividend_yield": 2.11,
+    "payout_ratio": 0.54,
+    "annual_revenue": [
+      13420000000.0,
+      11433400000.0,
+      9895800000.0,
+      10047900000.0
+    ],
+    "annual_operating_income": [
+      7001800000.0,
+      5554700000.0,
+      4192300000.0,
+      4435800000.0
+    ],
+    "annual_eps": [
+      5.08,
+      4.05,
+      2.88,
+      3.12
+    ],
+    "annual_free_cf": [
+      3426800000.0,
+      3394400000.0,
+      2564500000.0,
+      1854000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      7413500000.0,
+      6997700000.0,
+      7030000000.0,
+      7102600000.0,
+      null
+    ],
+    "annual_equity": [
+      11038100000.0,
+      9171600000.0,
+      7418100000.0,
+      8084200000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      1.99,
+      1.88,
+      1.51,
+      1.3,
+      1.16
+    ],
+    "quarterly_revenue": [
+      4289000000.0,
+      4251400000.0,
+      3869800000.0,
+      3377300000.0,
+      3051000000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 71.6,
+    "sales_yoy_pct": 40.6,
+    "ni_cagr_3y_pct": 18.0,
+    "roe_pct": 49.9
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 300-400 (USD billion) (출처: S&P Global, Wood Mackenzie 등 주요 광물 시장 조사기관 보고서 종합 추정)",
+    "tam_cagr_pct": "4-6% (근거: 전기차, 재생에너지 인프라 확충 등 글로벌 탈탄소화 정책 가속화로 구리 수요 증가 예상. 신규 광산 개발의 어려움과 환경 규제 강화로 공급 제약이 예상되나, 장기적으로 수요 우위 시장 형성 가능성 높음.)",
+    "growth_drivers": [
+      "전기차 및 충전 인프라 확대로 인한 구리 수요 증가",
+      "재생에너지 발전 및 송배전 인프라 투자 확대",
+      "글로벌 도시화 및 산업화 지속에 따른 전력 및 건설 부문 수요",
+      "데이터 센터 및 5G 네트워크 구축 등 디지털 인프라 투자 증가",
+      "구리 재활용 기술 발전 및 순환 경제로의 전환 노력"
+    ],
+    "market_share_pct": "2-3% (글로벌 구리 생산량 기준 추정)",
+    "competitors": [
+      {
+        "name": "Codelco (칠레)",
+        "differentiation": "세계 최대 구리 생산 국영 기업으로, 대규모 광산 보유 및 국가적 지원을 바탕으로 안정적인 생산량 유지."
+      },
+      {
+        "name": "Freeport-McMoRan (미국)",
+        "differentiation": "글로벌 다각화된 광산 포트폴리오를 보유하며, 구리 외 금 등 다른 광물 생산을 통해 리스크 분산 및 수익성 확보."
+      },
+      {
+        "name": "BHP Group (호주/영국)",
+        "differentiation": "다양한 광물 자원(철광석, 석탄 등)을 생산하는 세계적인 광업 기업으로, 규모의 경제와 강력한 재무 역량을 바탕으로 시장 지배력 행사."
+      },
+      {
+        "name": "Glencore (스위스)",
+        "differentiation": "광물 생산과 트레이딩을 겸하는 통합 모델을 통해 시장 변동성에 유연하게 대응하며, 글로벌 공급망에 대한 강력한 영향력 보유."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (신규 광산 개발에 막대한 초기 자본, 기술력, 환경 규제 준수 필요하지만, 높은 구리 가격은 신규 진입 유인을 제공할 수 있음.)",
+      "substitutes": "low (구리는 전기 전도성, 열 전도성, 내식성 등 독특한 물리적 특성으로 인해 대부분의 핵심 용도에서 대체재를 찾기 어려움.)",
+      "buyer_power": "medium (주요 구매자는 전선, 건설, 자동차 등 대규모 산업체로, 가격 협상력이 있으나 구리 공급의 제한성으로 인해 그 영향력은 제한적임.)",
+      "supplier_power": "low (광업 장비, 화학 약품 등 공급업체는 다수 존재하며, SCCO는 대규모 구매자로서 협상력이 높음.)",
+      "rivalry": "high (글로벌 주요 광업 기업들이 시장 점유율을 놓고 경쟁하며, 구리 가격 변동성, 생산량 증대 노력, 비용 효율성 확보 등이 주요 경쟁 요소임.)"
+    },
+    "competitive_advantages": [
+      "페루와 멕시코에 위치한 대규모 광산 및 광물 매장량 보유",
+      "통합된 생산 시설(채굴, 제련, 정련)을 통한 비용 효율성 확보",
+      "장기간 축적된 광업 노하우 및 기술력",
+      "지리적 이점(주요 소비 시장과 인접한 남미 지역)",
+      "다각화된 광물 생산(구리 외 몰리브덴, 아연, 은 등)으로 수익원 다변화"
+    ],
+    "competitive_weaknesses": [
+      "구리 가격 변동성에 대한 높은 수익 의존도",
+      "광산 개발 및 운영에 필요한 막대한 자본 투자 부담",
+      "환경 규제 및 사회적 책임(ESG) 관련 리스크 노출",
+      "정치적 불안정성 및 정부 정책 변화에 대한 취약성 (페루, 멕시코)",
+      "부채 계약의 제한적 조항으로 인한 사업 전략 유연성 제약"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 86,
+    "score": 67.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 5.41,
+    "trailing_pe": 31.373312,
+    "forward_pe": 28.758766,
+    "ev_to_ebitda": 17.975,
+    "price_to_sales": 11.191598,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 94.59,
+    "outperform_6m_vs_nasdaq": -2.64,
+    "outperform_1m_vs_nasdaq": 7.94,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "SCCO는 구리 및 기타 금속 탐사, 개발, 채굴, 제련, 정제에 이르는 통합된 사업 모델을 통해 생산 비용을 효율적으로 관리합니다.",
+      "대규모 자본 투자가 필요한 광업 특성상, SCCO는 이미 구축된 대규모 광산 및 인프라를 통해 신규 진입자 대비 상당한 비용 우위를 확보하고 있습니다.",
+      "장기간에 걸쳐 축적된 광산 운영 노하우와 기술력은 생산 효율성을 높여 경쟁사 대비 낮은 생산 원가를 유지하는 데 기여합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "전기차 및 재생에너지 전환 가속화로 구리 수요 급증 및 가격 상승 기대",
+    "bull_case": "구리 가격 강세 지속 및 생산량 증대로 EPS 3년 CAGR 20% 이상 달성",
+    "base_case": "구리 가격은 현재 수준을 유지하며, SCCO는 꾸준한 생산량과 효율적인 비용 관리를 통해 안정적인 수익성을 유지할 것입니다. 신규 프로젝트 개발을 통해 장기적인 성장 동력을 확보할 것으로 예상됩니다.",
+    "bear_case": "글로벌 경기 침체로 구리 가격이 급락하고, 생산 비용 증가 및 규제 강화로 수익성이 크게 악화될 수 있습니다. 대규모 자본 투자가 필요한 사업 특성상 재무 부담이 가중될 위험도 있습니다.",
+    "key_metrics_to_watch": [
+      "구리 가격 추이",
+      "생산량 및 생산 원가",
+      "자본 지출 (CAPEX)",
+      "순부채/EBITDA 비율",
+      "배당 정책"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "구리 및 기타 생산 금속 가격의 변동성이 회사 재무 성과에 지대한 영향을 미칩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 및 정치 상황, 특히 개발도상국의 경제 성장이 금속 수요와 가격에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "국제 무역, 세금, 관세 정책 및 규제 변화가 금속 가격 변동성과 특정 시장에서의 거래 능력에 제약을 가할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "중국은 정제 구리 및 농축액의 세계 최대 소비국이므로, 중국의 수요 변화가 구리 가격에 큰 영향을 미칩니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "회사 매출의 약 75.9%가 구리 판매에서 발생하므로, 구리 가격 변동에 대한 높은 의존도를 가지고 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "지정학적 불확실성과 보호무역주의는 국제 무역을 저해하고 기업 신뢰도를 떨어뜨려 가격 변동성을 유발할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 경기 침체로 구리 및 기타 금속 가격이 장기간 폭락하여 회사의 수익성이 지속적으로 악화될 경우.",
+      "중국의 구리 수요가 급감하거나, 주요 생산국의 규제 강화로 생산 및 수출에 심각한 차질이 발생할 경우.",
+      "핵심 광산의 생산량 급감 또는 운영 중단으로 인해 매출의 대부분을 차지하는 구리 생산이 불가능해질 경우."
+    ],
+    "exit_signals": [
+      "구리 가격이 장기간에 걸쳐 생산 원가 이하로 하락하고 회복 조짐이 보이지 않을 경우.",
+      "중국의 경제 성장률이 급격히 둔화되거나, 구리 소비량이 현저히 감소하는 추세가 나타날 경우.",
+      "주요 생산국에서 광업 관련 규제가 대폭 강화되어 생산 비용이 급증하거나 생산량이 제한될 경우."
+    ]
+  },
+  "wikipedia_summary": "Southern Copper Corporation, organized in Delaware and headquartered in Phoenix, Arizona, owns copper mines, smelters, and refineries in Peru and Mexico, including the Cuajone mine, the Toquepala mine, and the Tia Maria mine in Peru and the Buenavista mine and the La Caridad Mine in Mexico. In 2024, the company mined 2.1 billion pounds of copper, 21 million ounces of silver, 64 million pounds of molybdenum, and 286 million pounds of zinc.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-10T01:18:45.595397+00:00"
+  }
+}
