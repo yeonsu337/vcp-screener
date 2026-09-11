@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-10T01:10:34.745825+00:00",
+  "generated_at": "2026-09-11T01:13:20.790710+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4358556160,
+    "market_cap": 4366207488,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
@@ -18,28 +18,28 @@
   },
   "category_a_business": {
     "overview": "Concentra Group Holdings Parent, Inc.는 미국에서 산업 보건 서비스를 제공합니다. 이 회사는 직업 건강 센터, 현장 건강 진료소 및 기타 사업의 세 가지 부문으로 운영됩니다.",
-    "business_model": "컨센트라 그룹 홀딩스 모기업, Inc.",
+    "business_model": "Concentra Group Holdings Parent, Inc.",
     "products": [
-      "미국의 산업 보건 서비스",
-      "산업 보건 센터, 현장 건강 진료소 및 기타 사업의 세 가지 부문으로 구성됩니다.",
-      "근로자 보상, 고용주 및 소비자 건강 서비스를 포함한 직업 건강 서비스",
+      "occupational health services in the United States",
+      "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
+      "occupational health services, including workers compensation, employer, and consumer health services",
       "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
-      "부상 치료, 일차 진료, 긴급 진료, 예방 진료, 임상 테스트, 신체 검사 및 평가, 약물"
+      "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": 0.47,
-    "roa": 0.08,
-    "profit_margin": 0.09,
-    "operating_margin": 0.19,
-    "gross_margin": 0.29,
-    "revenue_growth_ttm": 0.1,
-    "earnings_growth_ttm": 0.47,
-    "dividend_yield": 0.74,
-    "payout_ratio": 0.16,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       2163417000.0,
       1900192000.0,
@@ -128,52 +128,52 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 63.3,
+    "rs_rating": 88,
+    "score": 64.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.051613,
-    "forward_pe": 18.675146,
-    "ev_to_ebitda": 13.808,
-    "price_to_sales": 1.905409,
+    "trailing_pe": 22.090324,
+    "forward_pe": 18.618107,
+    "ev_to_ebitda": 13.824,
+    "price_to_sales": 1.9087539,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 27.79,
-    "outperform_6m_vs_nasdaq": 35.5,
-    "outperform_1m_vs_nasdaq": 0.98,
+    "outperform_1y_vs_nasdaq": 32.63,
+    "outperform_6m_vs_nasdaq": 38.58,
+    "outperform_1m_vs_nasdaq": 1.79,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "당사 보통주 소유와 관련된 위험 • 당사 보통주의 주가는 크게 변동할 수 있으며, 그 결과 귀하는 당사 보통주에 대한 투자의 전부 또는 일부를 잃을 수 있습니다.",
+        "description": "Risks Related to Ownership of Our Common Stock • The stock price of our common stock may fluctuate significantly, and you could lose all or part of your investment in our common stock as a result.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "직장 부상 및 질병이 감소하면 근로자 산재보험 청구 건수도 줄어들 수 있으며 이는 당사 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "A decline in workplace injuries and illness may cause the number of workers’ compensation claims to decrease, which may adversely affect our business.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "중요한 고용주 고객, 지급인 관계 또는 근로자 산재보험이나 고용주 서비스 네트워크에 참여할 수 있는 능력을 잃으면 결과가 하락할 수 있습니다.",
+        "description": "Our results may decline if we 27 Table of C ontents lose our significant employer customers, payor relationships, or our ability to participate in workers’ compensation or employer services networks.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "당사의 중요한 고용주 고객, 지급인 또는 네트워크 중 하나 이상을 인수할 수도 있으며, 이는 해당 고객, 지급인 또는 네트워크와의 관계에 영향을 미칠 수 있습니다.",
+        "description": "One or more of our significant employer customers, payors, or networks could also be acquired, which could impact our relationship with such customer, payor, or network.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "중요한 고용주 고객, 지급인 또는 네트워크 관계가 상실되면 수익성과 운영 성과가 크게 저하될 수 있습니다.",
+        "description": "The loss of our significant employer customers, payor or network relationships could cause a material decline in our profitability and operating performance.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 결과는 당사의 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "These consequences could have an adverse effect on our business, financial condition and results of operations.",
         "severity": "medium"
       }
     ],
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:17:21.371450+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:42.437561+00:00"
   }
 }

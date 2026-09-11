@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-10T01:13:39.737193+00:00",
+  "generated_at": "2026-09-11T01:14:21.763869+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4609558016,
+    "market_cap": 4585677824,
     "shares_outstanding": 61232174,
     "employees": 1902,
     "country": "United States",
@@ -17,31 +17,31 @@
     "beta": 0.569
   },
   "category_a_business": {
-    "overview": "Delek US Holdings, Inc.는 미국에서 통합 다운스트림 에너지 사업에 종사하고 있습니다. 이 회사는 정유사업과 물류사업 두 부문으로 사업을 운영하고 있습니다.",
-    "business_model": "델렉 US 홀딩스, Inc.",
+    "overview": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics.",
+    "business_model": "Delek US Holdings, Inc.",
     "products": [
-      "정제와 물류 두 부문으로 나뉜다",
-      "텍사스 타일러에 위치한 정유소",
-      "조명 제품 유통 터미널 및 타사 터미널을 사용하여 조명 제품 판매"
+      "in two segments Refining and Logistics",
+      "refineries located in Tyler, Texas",
+      "light product distribution terminals, as well as markets light products using third-party terminals"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
-    "wikipedia_excerpt": "Delek US Holdings, Inc.는 2001년에 설립되었으며 테네시 주 브렌트우드에 본사를 두고 있는 정유, 물류 및 바이오 연료 회사입니다.",
+    "wikipedia_excerpt": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
     "milestones": [
-      "2001년: 테네시주 브렌트우드에 본사 위치"
+      "2001: and headquartered in Brentwood, Tennessee"
     ]
   },
   "category_b_financials": {
-    "roe": 0.79,
-    "roa": 0.05,
-    "profit_margin": 0.02,
-    "operating_margin": 0.08,
-    "gross_margin": 0.1,
-    "revenue_growth_ttm": 0.48,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.35,
-    "payout_ratio": 0.28,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       10722900000.0,
       11852200000.0,
@@ -127,20 +127,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 67.3,
+    "rs_rating": 96,
+    "score": 67.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.38,
-    "trailing_pe": 20.51226,
-    "forward_pe": 15.025739,
-    "ev_to_ebitda": 7.197,
-    "price_to_sales": 0.3823297,
+    "trailing_pe": 20.517807,
+    "forward_pe": 13.12768,
+    "ev_to_ebitda": 7.175,
+    "price_to_sales": 0.380349,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 126.58,
-    "outperform_6m_vs_nasdaq": 74.65,
-    "outperform_1m_vs_nasdaq": 30.76,
+    "outperform_1y_vs_nasdaq": 135.65,
+    "outperform_6m_vs_nasdaq": 72.14,
+    "outperform_1m_vs_nasdaq": 25.17,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -152,17 +152,17 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 정부 당국이 요구하거나 직원, 계약자, 고객, 공급업체 및 지역 사회의 최선의 이익이 된다고 판단하는 경우 추가 조치를 취할 수 있습니다.",
+        "description": "We may take further actions as required by government authorities or that we determine are in the best interests of our employees, contractors, customers, suppliers and communities.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러나 그러한 조치가 발생으로 인한 위험을 완화하기에 충분할 것이라는 보장은 없으며 비즈니스 운영을 성공적으로 수행하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "However, there is no assurance that such measures will be sufficient to mitigate the risks posed by any outbreak, and our ability to successfully execute our business operations could be adversely impacted.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "정제 마진이 크게 또는 장기적으로 감소하면 당사의 영업 결과와 현금 흐름이 감소하고 당사의 미래 성장률과 자산 장부 가치에 실질적이고 부정적인 영향을 미칠 수 있습니다.",
+        "description": "A substantial or extended decline in refining margins would reduce our operating results and cash flows and could materially and adversely impact our future rate of growth and the carrying value of our assets.",
         "severity": "medium"
       },
       {
@@ -172,7 +172,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 향후 활동은 당사의 생산 확대 능력에 부정적인 영향을 미칠 수도 있고, 당사에 대한 홍보에 해를 끼치거나 당사 제품에 대한 수요를 감소시킬 수도 있습니다.",
+        "description": "Such future activity could also adversely affect our ability to expand production, result in damaging publicity about us, or reduce demand for our products.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:17:38.081278+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:44.028488+00:00"
   }
 }

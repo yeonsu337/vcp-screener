@@ -4,58 +4,43 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-09-10T01:00:59.687236+00:00",
+  "generated_at": "2026-09-11T01:07:13.263653+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 71559995392,
-    "shares_outstanding": 454291461,
+    "market_cap": 70747627520,
+    "shares_outstanding": 454296736,
     "employees": 400000,
     "country": "United States",
     "website": "https://corporate.target.com",
     "beta": 0.986
   },
   "category_a_business": {
-    "overview": "타겟 코퍼레이션은 미국 전역에서 다양한 상품을 판매하는 대형 소매업체입니다.",
-    "milestones": [
-      "1902: 미네소타에서 법인 설립",
-      "1946: 이익의 5%를 지역사회에 환원하는 정책 시작",
-      "1962: 'Target'이라는 이름으로 첫 할인점 오픈",
-      "1990년대: 자체 브랜드 및 독점 디자인 협력 강화",
-      "2000년대 초반: 온라인 채널 Target.com 론칭",
-      "2010년대: 소형 매장 포맷 도입 및 옴니채널 전략 강화"
-    ],
-    "business_model": "매장 및 디지털 채널을 통해 다양한 상품을 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "상품 판매 (의류, 식료품, 전자제품 등)",
-      "광고 수익",
-      "신용카드 수익 공유"
-    ],
-    "value_chain_position": "Downstream + 최종 소비자에게 직접 상품을 판매하는 소매업체입니다.",
+    "overview": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed",
+    "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
     "products": [
-      "의류 및 액세서리",
-      "식료품 및 음료",
-      "전자제품 및 엔터테인먼트",
-      "가정용품 및 가구",
-      "생활 필수품 및 건강용품"
+      "as a general merchandise retailer in the United States",
+      "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
+      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
+      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
+      "its products through its stores"
     ],
     "channels": [
-      "B2C (대형/소형 매장)",
-      "D2C (Target.com 디지털 채널)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "고객 집중도 낮음 (수백만 명의 일반 소비자를 대상으로 함)"
+    "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
   },
   "category_b_financials": {
-    "roe": 0.26,
-    "roa": 0.06,
-    "profit_margin": 0.04,
-    "operating_margin": 0.06,
-    "gross_margin": 0.28,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 1.0,
-    "dividend_yield": 2.85,
-    "payout_ratio": 0.47,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       104780000000.0,
       106566000000.0,
@@ -141,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 63.2,
+    "score": 60.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0252,
-    "trailing_pe": 16.357218,
-    "forward_pe": 16.507725,
-    "ev_to_ebitda": 9.932,
-    "price_to_sales": 0.6644074,
+    "peg_ratio": 1.9606,
+    "trailing_pe": 16.154564,
+    "forward_pe": 16.320135,
+    "ev_to_ebitda": 9.837,
+    "price_to_sales": 0.6568648,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 61.27,
-    "outperform_6m_vs_nasdaq": 22.09,
-    "outperform_1m_vs_nasdaq": 10.85,
+    "outperform_1y_vs_nasdaq": 59.92,
+    "outperform_6m_vs_nasdaq": 17.89,
+    "outperform_1m_vs_nasdaq": 5.79,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -198,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:18:50.458763+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:55.359141+00:00"
   }
 }

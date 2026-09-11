@@ -4,58 +4,57 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-09-04T00:56:17.851405+00:00",
+  "generated_at": "2026-09-11T01:06:11.886475+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4705944576,
+    "market_cap": 4577075712,
     "shares_outstanding": 49756231,
     "employees": 7300,
     "country": "United States",
     "website": "https://www.tdw.com",
-    "beta": 0.541
+    "beta": 0.566
   },
   "category_a_business": {
     "overview": "TDW는 전 세계 해양 에너지 산업에 해양 지원 선박 및 해양 지원 서비스를 제공하는 기업입니다.",
     "milestones": [
-      "1956년: Tidewater Inc. 설립",
-      "1970년대: 북해 유전 개발로 성장",
-      "2000년대: 글로벌 확장 및 심해 탐사 지원 강화",
-      "2017: 파산 보호 신청 및 구조조정",
-      "2018: GulfMark Offshore 인수, 업계 선두 지위 강화",
-      "2022: Swire Pacific Offshore Holdings Limited 인수"
+      "1956: Tidewater Inc. 설립",
+      "1970년대: 북해 유전 개발 참여 및 글로벌 확장 시작",
+      "2000년대: 해양 에너지 산업 성장과 함께 선단 규모 확장",
+      "2017: 파산 보호 신청 및 구조조정 완료",
+      "2018: GulfMark Offshore 인수, 세계 최대 OSV(Offshore Support Vessel) 운영사로 부상",
+      "2022: Swire Pacific Offshore 인수, 선단 규모 및 글로벌 입지 강화"
     ],
-    "business_model": "해양 서비스 선박을 운영하여 해양 에너지 산업에 필수적인 지원 서비스를 제공합니다.",
+    "business_model": "해양 에너지 산업에 선박 및 해양 지원 서비스를 제공하고 용선료를 받습니다.",
     "revenue_streams": [
-      "선박 용선 계약 (일일 요금)",
-      "단기 용선 계약 (스팟 계약)",
-      "연료비 등 추가 비용 회수",
-      "해양 풍력 발전 단지 개발 및 유지보수 서비스"
+      "선박 용선료 (기간 용선)",
+      "선박 용선료 (스팟 용선)",
+      "연료비 등 특정 추가 비용 회수"
     ],
-    "value_chain_position": "Upstream / Midstream + 해양 석유 및 가스 탐사, 개발, 생산, 유지보수 및 풍력 발전 단지 지원",
+    "value_chain_position": "Midstream + 해양 에너지 탐사, 개발, 생산, 유지보수 및 풍력 발전 개발 지원 서비스를 제공합니다.",
     "products": [
       "앵커 핸들링 예인 공급 선박 (AHTS)",
       "플랫폼 공급 선박 (PSV)",
-      "승무원 보트 및 유틸리티 선박",
-      "해양 건설 및 지진/수중 지원",
-      "파이프/케이블 부설 및 지반 조사 지원"
+      "인원 및 물자 운송 서비스",
+      "해양 건설 및 해저 지원 서비스",
+      "풍력 발전 단지 개발 및 유지보수 지원"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주요 고객은 대형 국제 통합 및 독립 석유 및 가스 탐사, 개발 및 생산 회사, 국영 석유 회사, 해양 시추 계약자 등이며, 고객 집중도는 높지 않은 편입니다."
+    "key_customers": "주요 고객은 국제 및 독립 석유/가스 탐사·생산 기업, 국영 석유 회사, 해양 시추 계약자, 해양 건설 회사 등이며, 고객 집중도는 높지 않은 편입니다."
   },
   "category_b_financials": {
-    "roe": 0.19,
-    "roa": 0.07,
-    "profit_margin": 0.18,
-    "operating_margin": -0.09,
-    "gross_margin": 0.48,
-    "revenue_growth_ttm": -0.43,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       1352786000.0,
       1345835000.0,
@@ -136,141 +135,72 @@
     "roe_pct": 19.45
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "2023년 기준 약 20-25 billion USD (Offshore Support Vessel 시장 규모 추정치 기반)",
-    "tam_cagr_pct": "향후 3~5년 5-7% (글로벌 에너지 수요 증가, 해상 유전 개발 지속, 해상 풍력 시장 성장)",
-    "growth_drivers": [
-      "글로벌 에너지 수요 증가 및 해상 유전 개발 투자 지속",
-      "해상 풍력 발전 시장의 급격한 성장 및 관련 서비스 수요 증가",
-      "기존 해상 유전의 유지보수 및 폐쇄(abandonment) 활동 증가",
-      "심해(deepwater) 유전 개발의 지속적인 투자 및 기술 발전",
-      "에너지 안보 강화에 따른 해상 에너지 자원 개발 중요성 증대"
-    ],
-    "market_share_pct": "10-15% (글로벌 OSV 시장 내 선단 규모 및 운영 지역 기반 추정)",
-    "competitors": [
-      {
-        "name": "Bourbon Offshore",
-        "differentiation": "다양한 유형의 OSV를 보유하고 있으며, 특히 아프리카 시장에서 강세. 혁신적인 기술 도입에 적극적."
-      },
-      {
-        "name": "Edison Chouest Offshore (ECO)",
-        "differentiation": "대형 및 고사양 OSV에 특화되어 있으며, 통합된 해양 서비스 제공 능력 보유. 북미 시장에서 강력한 입지."
-      },
-      {
-        "name": "Maersk Supply Service",
-        "differentiation": "해상 풍력 및 해양 건설 프로젝트 지원에 강점. 에너지 전환에 맞춰 사업 포트폴리오를 다각화 중."
-      },
-      {
-        "name": "Solstad Offshore",
-        "differentiation": "심해 및 복잡한 해양 작업에 특화된 고성능 선단을 보유. 북해 및 브라질 시장에서 경쟁력."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium (높은 초기 투자 비용과 전문 기술 요구되나, 특정 니치 시장 진입 가능성 존재)",
-      "substitutes": "low (해상 에너지 개발 및 유지보수에 필수적인 서비스로, 직접적인 대체재는 제한적)",
-      "buyer_power": "medium (주요 고객은 대형 석유/가스 회사로 협상력이 높으나, 전문 서비스 제공업체는 차별화된 가치 제공 가능)",
-      "supplier_power": "low (선박 건조, 장비 공급 등 다양한 공급처 존재하며, 특정 공급처에 대한 의존도 낮음)",
-      "rivalry": "high (글로벌 OSV 시장은 다수의 경쟁사가 존재하며, 선단 규모 및 서비스 역량에 따라 경쟁 심화)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "글로벌 최대 규모의 다각화된 OSV 선단 보유 (208척, 30개국 이상 운영)",
-      "60년 이상의 업력과 축적된 해양 서비스 운영 노하우 및 안전 관리 역량",
-      "글로벌 운영 거점을 통한 지역별 시장 변화에 대한 빠른 대응 능력",
-      "심해(deepwater) 운영에 강점을 가진 선단 구성으로 고부가가치 시장 공략",
-      "해상 풍력 발전 시장으로의 서비스 확장 및 다각화"
-    ],
-    "competitive_weaknesses": [
-      "유가 및 가스 가격 변동성에 따른 고객 투자 예산 변동에 취약",
-      "선박 노후화 및 유지보수 비용 증가 가능성",
-      "환경 규제 강화 및 탈탄소화 압력에 대한 지속적인 대응 필요",
-      "지정학적 리스크 및 지역별 운영 환경 변화에 대한 노출",
-      "높은 자본 집약적 산업 특성으로 인한 재무적 부담"
+      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 87,
-    "score": 72.0,
-    "vcp_quality": 13.2,
+    "rs_rating": 83,
+    "score": 62.0,
+    "vcp_quality": 10.4,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 19.184586,
-    "forward_pe": 15.724782,
-    "ev_to_ebitda": 11.829,
-    "price_to_sales": 3.4951537,
+    "trailing_pe": 18.850409,
+    "forward_pe": 15.29417,
+    "ev_to_ebitda": 11.505,
+    "price_to_sales": 3.3994412,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 47.59,
-    "outperform_6m_vs_nasdaq": 3.2,
-    "outperform_1m_vs_nasdaq": 18.67,
-    "lynch_category": "Cyclical / Turnaround?",
-    "moat_type": "Cost Advantage",
-    "moat_evidence": [
-      "TDW는 1956년부터 글로벌 해양 에너지 산업에 해양 및 운송 서비스를 제공해 온 오랜 업력을 가지고 있습니다. 이는 규모의 경제를 통한 비용 우위를 시사합니다.",
-      "2025년 12월 31일 기준 30개국 이상에서 208척의 선박을 운영하는 대규모의 다각화된 해양 서비스 선박(OSV) 및 관련 지원 선박을 보유하고 있습니다. 이는 경쟁사 대비 넓은 글로벌 운영 범위와 효율적인 자산 활용을 가능하게 하여 비용 경쟁력을 제공합니다.",
-      "미주, 아시아 태평양, 중동, 유럽/지중해, 서아프리카 등 5개 지역으로 운영을 관리하며, 고객 프로젝트 및 신규 프로젝트 발생 시 선박이 지역 간 이동하는 유연한 운영 시스템을 갖추고 있습니다. 이는 자산 활용률을 극대화하고 운영 비용을 최적화하는 데 기여합니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "해상 풍력발전 개발 및 유지보수 서비스 확장",
-    "bull_case": "유가 상승 및 해상 에너지 투자 확대, 해상 풍력 사업 성장으로 수익성 개선 및 주가 상승",
-    "base_case": "글로벌 해양 에너지 시장의 점진적 회복과 해상 풍력 사업 확장을 통해 안정적인 매출 성장과 수익성 개선을 달성할 것으로 예상됩니다. 기존 사업의 효율성 증대와 신규 시장 진출이 긍정적인 영향을 미칠 것입니다.",
-    "bear_case": "유가 하락 및 해상 에너지 투자 위축, 해상 풍력 시장 성장 둔화로 매출 감소 및 수익성 악화가 예상됩니다. 글로벌 경기 침체 또한 부정적인 영향을 미칠 수 있습니다.",
-    "key_metrics_to_watch": [
-      "유가 및 천연가스 가격 추이",
-      "해양 서비스 선박(OSV) 가동률 및 일일 용선료",
-      "해상 풍력 관련 매출 비중 및 성장률",
-      "순이익 및 영업현금흐름"
-    ]
+    "outperform_1y_vs_nasdaq": 38.35,
+    "outperform_6m_vs_nasdaq": 6.15,
+    "outperform_1m_vs_nasdaq": 5.21,
+    "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "고객집중도",
-        "description": "서비스 수요는 고객사의 자본 지출 수준에 크게 의존하며, 소수의 고객으로부터 상당한 수익을 얻고 있어 고객사의 지출 감소나 통합은 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "거시",
-        "description": "유가 및 가스 가격 변동, 에너지 전환 관련 규제 및 시장 변화, 기후 변화 관련 정책 및 물리적 위험(악천후)은 서비스 수요와 운영에 심각한 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "경쟁",
-        "description": "해양 서비스 산업의 높은 경쟁 수준과 선박 공급 과잉은 서비스 가격 하락으로 이어져 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Any of these factors could, directly or indirectly, cause our actual financial condition and operating results to vary materially from those anticipated, projected or assumed in the forward-looking statements.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "선단 유지 및 확장을 위한 상당한 자본 지출이 필요하며, 미래에 부채 또는 지분 조달을 통한 자본 조달 능력이 제한될 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Any of these factors, in whole or in part, could materially and adversely affect our business, prospects, financial condition, results of operations, cash flows and stock price.",
         "severity": "medium"
       },
       {
-        "category": "규제",
-        "description": "광범위한 국제 사업으로 인해 해외 부패 방지법, 환경 규제, 세법 등 다양한 국내외 법규 준수 위험에 노출되어 있으며, 규제 변화는 준수 비용을 증가시킬 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future.",
         "severity": "medium"
       },
       {
-        "category": "공급망",
-        "description": "계약 만료 또는 조기 해지 위험이 있으며, 이는 예상 백로그가 실제 운영 결과로 이어지지 않을 수 있음을 의미합니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "Risks Relating to Our Human Capital ● Failure to attract and retain qualified personnel could impede our operations.",
+        "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "인수 대상 식별, 통합 및 성장 관련 위험에 직면하며, 이는 제안된 Wilson Companies 인수의 시기, 완료 및 예상 이익에 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Risks Relating to Our Indebtedness ● We may not be able to generate sufficient cash flow to meet our debt service and other obligations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "General Risks Factor ● Uncertain economic conditions may lead our customers to postpone capital spending or jeopardize our customers’ or other counterparties’ ability to perform their obligations.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "유가 및 가스 가격의 장기적인 급락과 해양 서비스 수요의 지속적인 감소로 인해 회사의 주요 고객들이 대규모 지출 삭감을 단행하고 계약을 해지하여 회사가 심각한 유동성 위기에 처하고 부채를 상환하지 못하게 됩니다.",
-      "에너지 전환이 예상보다 빠르게 진행되고 해양 석유 및 가스 탐사 및 생산에 대한 전 세계적인 투자가 급감하여 회사의 선박 가동률이 지속적으로 낮아지고 자산 가치가 대규모로 손상됩니다.",
-      "주요 국제 시장에서 정치적 불안정, 전쟁 또는 해적 행위가 심화되어 운영이 중단되고, 선박이 압류되거나 손상되며, 보험 적용 범위가 불충분하여 막대한 재정적 손실을 입게 됩니다."
-    ],
     "exit_signals": [
-      "유가가 배럴당 50달러 이하로 6개월 이상 지속되거나, 주요 고객사의 자본 지출이 전년 대비 20% 이상 감소하는 발표가 있을 경우.",
-      "해양 시추 리그 수가 20% 이상 감소하고, 회사의 선박 가동률이 70% 이하로 2분기 연속 유지될 경우.",
-      "회사가 대규모 인수합병에 실패하거나, 주요 국제 시장에서 운영을 중단해야 하는 심각한 규제 또는 정치적 문제가 발생할 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "Tidewater, Inc. is a publicly traded international petroleum service company headquartered in Houston, Texas, U.S. It operates a fleet of ships, primarily providing vessels and marine services to the offshore petroleum and offshore wind industries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:18:49.872044+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:54.063356+00:00"
   }
 }

@@ -4,59 +4,57 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-09-04T00:54:59.904557+00:00",
+  "generated_at": "2026-09-11T01:01:45.396662+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 20324057088,
+    "market_cap": 19910883328,
     "shares_outstanding": 413174593,
     "employees": 1704,
     "country": "United States",
     "website": "https://www.westernmidstream.com",
-    "beta": 0.657
+    "beta": 0.658
   },
   "category_a_business": {
     "overview": "WES는 미국 내 미드스트림 에너지 기업으로, 천연가스, 원유, NGLs 운송 및 처리 서비스를 제공합니다.",
     "milestones": [
-      "2007년: Western Gas Equity Partners, LP 설립",
+      "2007: Western Gas Equity Partners, LP로 설립",
+      "2012: NYSE 상장",
       "2019: Western Midstream Partners, LP로 사명 변경",
-      "2020: Anadarko Petroleum Corporation과의 합병 완료",
-      "2021: 주요 자산 포트폴리오 확장 및 최적화",
-      "2022: 신규 파이프라인 프로젝트 투자 발표",
-      "2023: 지속 가능한 에너지 솔루션 도입 추진"
+      "2020: 코로나19 팬데믹으로 인한 에너지 수요 감소 영향",
+      "2022: 에너지 가격 상승 및 수요 회복으로 실적 개선"
     ],
-    "business_model": "수수료 기반으로 에너지 운송, 처리, 저장 서비스를 제공하여 수익을 창출합니다.",
+    "business_model": "천연가스, 원유, NGLs의 수집, 처리, 운송 서비스 제공으로 수익을 창출합니다.",
     "revenue_streams": [
       "천연가스 수집 및 처리 수수료",
-      "원유 및 NGLs 운송 수수료",
-      "응축수 및 잔여물 판매",
+      "원유 및 NGLs 수집 및 운송 수수료",
       "생산수 처리 및 폐기 서비스",
-      "저장 서비스 수수료"
+      "잔류가스, NGLs, 콘덴세이트 매매"
     ],
-    "value_chain_position": "Midstream: 유전에서 생산된 에너지 자원을 최종 소비처로 운송 및 처리하는 핵심 역할을 수행합니다.",
+    "value_chain_position": "Midstream: 업스트림 생산자와 다운스트림 정제/소비자를 연결하는 에너지 인프라 운영",
     "products": [
-      "천연가스 운송 및 처리",
+      "천연가스 수집 및 압축",
       "원유 및 NGLs 운송",
+      "천연가스 처리 및 정제",
       "생산수 처리 및 폐기",
-      "응축수 및 잔여물 거래",
-      "에너지 저장 서비스"
+      "콘덴세이트 안정화"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주요 에너지 생산 및 마케팅 기업들이며, 특정 고객에 대한 높은 의존도를 가질 수 있습니다."
+    "key_customers": "주로 에너지 생산 및 마케팅 기업들이며, 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": 0.34,
-    "roa": 0.07,
-    "profit_margin": 0.29,
-    "operating_margin": 0.42,
-    "gross_margin": 0.69,
-    "revenue_growth_ttm": 0.3,
-    "earnings_growth_ttm": 0.14,
-    "dividend_yield": 7.6,
-    "payout_ratio": 1.16,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       3843403000.0,
       3605223000.0,
@@ -136,140 +134,72 @@
     "roe_pct": 34.11
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-250 estimate (미국 및 캐나다 주요 미드스트림 인프라 투자 및 자산 가치 기반 추정)",
-    "tam_cagr_pct": "3-5% (미국 셰일 생산량 증가 및 에너지 수출 수요 증가에 따른 미드스트림 인프라 확장 필요성)",
-    "growth_drivers": [
-      "미국 셰일 오일 및 가스 생산량 증가 지속",
-      "액화천연가스(LNG) 수출 터미널 확장 및 관련 파이프라인 수요 증가",
-      "원유 및 천연가스 처리 및 운송 인프라 현대화 및 확장 투자",
-      "탄소 포집 및 저장(CCS) 등 신규 에너지 전환 프로젝트 참여 기회",
-      "멕시코만 지역의 석유 및 가스 생산량 회복 및 관련 인프라 수요"
-    ],
-    "market_share_pct": "1-3% estimate (미국 전체 미드스트림 시장 대비 WES의 자산 규모 및 처리량 기준)",
-    "competitors": [
-      {
-        "name": "Enterprise Products Partners L.P. (EPD)",
-        "differentiation": "광범위한 자산 포트폴리오, 높은 규모의 경제, 다각화된 서비스 제공"
-      },
-      {
-        "name": "Kinder Morgan, Inc. (KMI)",
-        "differentiation": "천연가스 파이프라인 네트워크의 지배적인 위치, 다양한 에너지 상품 운송"
-      },
-      {
-        "name": "Energy Transfer LP (ET)",
-        "differentiation": "대규모 파이프라인 네트워크 및 터미널 자산, 공격적인 성장 전략"
-      },
-      {
-        "name": "Plains All American Pipeline, L.P. (PAA)",
-        "differentiation": "원유 운송 및 저장에 특화된 강력한 네트워크, 유연한 서비스 제공"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "low (미드스트림 산업은 높은 자본 투자, 복잡한 규제, 장기간의 인허가 절차가 필요하여 신규 진입 장벽이 높음)",
-      "substitutes": "low (원유 및 천연가스 운송 및 처리 서비스는 현재 대체재가 거의 없으며, 장기적으로는 재생에너지로의 전환이 있으나 단기적 영향은 제한적)",
-      "buyer_power": "medium (주요 고객은 대형 E&P 회사 및 정유사로, 이들은 규모의 경제를 통해 가격 협상력을 가질 수 있으나, 미드스트림 인프라의 필수성으로 인해 그 영향력은 제한적)",
-      "supplier_power": "low (주요 공급자는 파이프라인 건설 및 유지보수 업체, 장비 공급업체 등으로, 이들의 수가 많고 표준화된 서비스가 많아 WES에 대한 협상력은 낮음)",
-      "rivalry": "medium (미드스트림 산업은 소수의 대형 플레이어들이 시장을 지배하며, 유사한 서비스를 제공하므로 경쟁 강도는 중간 수준이지만, 신규 프로젝트 확보 및 기존 고객 유지를 위한 경쟁은 존재)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "Anadarko Petroleum Corporation (Occidental Petroleum의 자회사)과의 강력한 관계 및 장기 계약을 통한 안정적인 물량 확보",
-      "주요 생산 분지(델라웨어 분지, DJ 분지 등)에 전략적으로 위치한 핵심 자산 보유",
-      "통합된 미드스트림 서비스 제공(수집, 처리, 운송, 저장)을 통한 효율성 및 고객 편의성 증대",
-      "안정적인 현금 흐름 창출 능력 및 매력적인 배당 정책"
-    ],
-    "competitive_weaknesses": [
-      "특정 생산자(Occidental Petroleum)에 대한 높은 의존도",
-      "원유 및 천연가스 가격 변동성에 대한 노출 (일부 계약은 상품 가격에 연동)",
-      "규제 환경 변화 및 환경 관련 정책 강화에 따른 잠재적 리스크",
-      "타 대형 경쟁사 대비 상대적으로 작은 규모 및 지리적 집중도"
+      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 73.1,
-    "vcp_quality": 11.6,
+    "rs_rating": 76,
+    "score": 74.2,
+    "vcp_quality": 11.8,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 15.517349,
-    "forward_pe": 12.721639,
-    "ev_to_ebitda": 11.747,
-    "price_to_sales": 4.6913257,
+    "trailing_pe": 15.595469,
+    "forward_pe": 12.4630165,
+    "ev_to_ebitda": 11.62,
+    "price_to_sales": 4.5959544,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 13.71,
-    "outperform_6m_vs_nasdaq": 3.83,
-    "outperform_1m_vs_nasdaq": 4.07,
-    "lynch_category": "Stalwart",
-    "moat_type": "Cost Advantage",
-    "moat_evidence": [
-      "WES는 Permian Basin과 DJ Basin에 걸쳐 광범위한 파이프라인, 처리 시설, 저장 터미널 등 핵심 미드스트림 인프라를 소유 및 운영하며, 이는 신규 진입자가 쉽게 복제하기 어려운 막대한 초기 투자 비용을 요구합니다.",
-      "WES의 통합된 자산 포트폴리오는 원유, 천연가스, NGL 등 다양한 에너지 상품의 수집, 처리, 운송을 효율적으로 수행하며, 이는 규모의 경제를 통해 경쟁사 대비 낮은 단위당 운영 비용을 가능하게 합니다.",
-      "장기 계약을 통해 고객과의 관계를 공고히 하고 안정적인 현금 흐름을 확보하며, 이는 예측 가능한 수익을 바탕으로 자본 배분 효율성을 높여 비용 우위를 유지하는 데 기여합니다."
-    ],
-    "moat_durability_years": "10년 이상",
-    "new_trigger": "Permian Basin 생산량 증가 및 DJ Basin에서의 안정적인 운영",
-    "bull_case": "Permian 생산량 급증 및 신규 파이프라인 연결로 처리량 증가, EPS 성장 가속화",
-    "base_case": "Permian 및 DJ Basin의 안정적인 생산량 유지와 기존 인프라 활용 증대로 견고한 현금 흐름 및 배당 지속. EPS는 현재 수준을 유지하며 점진적 성장 예상.",
-    "bear_case": "유가 급락 및 생산량 감소로 인한 처리량 저하, 규제 강화 및 환경 정책 변화로 운영 비용 증가, 수익성 악화.",
-    "key_metrics_to_watch": [
-      "Permian Basin 원유 및 가스 생산량",
-      "처리량 및 운송량 (MMBtu/d, Bbl/d)",
-      "장기 계약 잔여 기간 및 재계약률",
-      "부채 비율 및 이자보상배율",
-      "배당 성향 및 배당 성장률"
-    ]
+    "outperform_1y_vs_nasdaq": 22.59,
+    "outperform_6m_vs_nasdaq": 13.33,
+    "outperform_1m_vs_nasdaq": 5.36,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "고객집중도",
-        "description": "매출의 50% 이상을 Occidental에 의존하고 있으며, Occidental의 생산량 감소나 전략 변경은 WES의 매출 및 현금 흐름에 심각한 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "배당금 지급 능력 및 그 금액은 에너지 시장 가정, 처리량, 운영 결과, 경쟁 조건 등 다양한 요인에 따라 달라질 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks were to occur, our business, financial condition, or results of operations could be materially and adversely affected.",
         "severity": "medium"
       },
       {
-        "category": "거시",
-        "description": "유가, 천연가스, NGL 및 관련 제품/서비스의 공급, 수요, 가격 변동성은 WES의 수익성에 직접적인 영향을 미칩니다.",
-        "severity": "high"
-      },
-      {
-        "category": "규제",
-        "description": "수압 파쇄 활동이나 기타 석유 및 천연가스 개발을 제한하는 연방, 주, 지방 법규 및 유권자 발의안 변경은 WES의 운영에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "A material reduction in Occidental’s production that is gathered, treated, processed, or transported by our assets would result in a material decline in our revenues and cash available for distribution.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "인수, 자본 지출 및 기타 계약 의무를 위한 자본 조달 능력과 부채 또는 주식 시장을 통한 자금 조달 능력은 WES의 성장에 중요합니다.",
+        "category": "10-K Item 1A",
+        "description": "Occidental may decrease its production in the areas serviced by us and is under no contractual obligation to maintain its production volumes dedicated to us pursuant to the terms of our applicable gathering agreements.",
         "severity": "medium"
       },
       {
-        "category": "경쟁",
-        "description": "경쟁 심화 및 기술 변화는 WES의 시장 점유율과 수익성에 영향을 미칠 수 있습니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "The loss of a significant portion of production volumes supplied by Occidental would result in a material decline in our revenues and our cash available for distribution.",
+        "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "WES와 일반 파트너 및 관련 당사자(Occidental 포함) 간의 이해 상충은 WES의 사업 기회 및 운영에 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "In addition, Occidental may determine that drilling activity in areas other than our areas of operation is strategically more attractive.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "A shift in Occidental’s focus away from our areas of operation could result in reduced throughput on our systems and a material decline in our revenues and cash available for distribution.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "Occidental이 WES에 대한 생산량을 대폭 줄이거나 계약 의무를 이행하지 않아 WES의 매출이 급감하고 현금 흐름이 고갈될 경우.",
-      "에너지 시장의 급격한 침체로 유가 및 천연가스 가격이 장기간 하락하여 WES의 자산 가치가 하락하고 수익성이 악화될 경우.",
-      "환경 규제 강화 또는 주요 고객의 신용도 악화로 인해 WES가 자본 조달에 실패하고 부채를 상환하지 못할 경우."
-    ],
     "exit_signals": [
-      "Occidental이 WES에 대한 생산량 약정을 철회하거나 다른 지역으로 투자를 전환하여 WES의 처리량이 지속적으로 감소할 경우.",
-      "WES의 배당금 지급 능력이 지속적으로 저하되거나, 부채 상환에 어려움을 겪는다는 명확한 징후가 나타날 경우.",
-      "주요 규제 변경으로 인해 WES의 사업 모델이 심각하게 위협받거나, 새로운 경쟁 기술이 WES의 서비스를 대체하기 시작할 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:19:00.423959+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:57.823477+00:00"
   }
 }

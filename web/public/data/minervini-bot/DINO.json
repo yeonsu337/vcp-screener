@@ -1,14 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "DINO",
-  "generated_at": "2026-09-10T00:56:11.649760+00:00",
-  "source_results_date": "2026-09-10",
+  "generated_at": "2026-09-11T00:56:36.166367+00:00",
+  "source_results_date": "2026-09-11",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.65,
   "lines": [
-    "추격 위험 — Pivot $98.39 대비 +10.1%, buy zone 초과.",
-    "13주 베이스 8.8% → 14.2% → 14.6% → 7.1%, VDU 0.88× — setup 자체는 유효.",
+    "시장 약세 — 보유분도 trailing 강화 권고.",
+    "추격 위험 — Pivot $98.39 대비 +9.9%, buy zone 초과.",
+    "13주 베이스 8.8% → 14.2% → 14.6% → 7.1%, VDU 0.81× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 95로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -29,7 +30,7 @@
     "stage": 2,
     "base_count": 3,
     "late_base_warning": true,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -49,7 +50,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.12% vs 6.5%)",
-    "P3_vol_dryup (0.88× vs 0.6×)",
+    "P3_vol_dryup (0.81× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

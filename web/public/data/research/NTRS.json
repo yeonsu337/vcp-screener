@@ -4,62 +4,61 @@
   "market": "US",
   "sector": "Financial Services",
   "industry": "Asset Management",
-  "generated_at": "2026-09-04T00:55:38.292557+00:00",
+  "generated_at": "2026-09-11T00:59:09.331862+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 34294122496,
+    "market_cap": 34247469056,
     "shares_outstanding": 182955653,
     "employees": 23600,
     "country": "United States",
     "website": "https://www.northerntrust.com",
-    "beta": 1.259
+    "beta": 1.257
   },
   "category_a_business": {
-    "overview": "NTRS는 기관 및 고액 자산가를 위한 자산 관리, 자산 서비스, 뱅킹 솔루션을 제공하는 금융 지주 회사입니다.",
+    "overview": "NTRS는 기업, 기관, 고액 자산가를 위한 자산 관리, 자산 수탁, 뱅킹 솔루션을 제공하는 금융 지주 회사입니다.",
     "milestones": [
-      "1889: 시카고에서 설립",
-      "1904: 최초의 지점 개설",
-      "1963: 런던 지점 개설로 국제 시장 진출",
-      "1971: 나스닥 상장",
-      "1980년대: 자산 관리 및 자산 서비스 사업 확장 가속화",
-      "2000년대: 기술 기반 솔루션 및 글로벌 서비스 강화"
+      "1889: 시카고에 Northern Trust Company 설립",
+      "1906: 뉴욕 증권 거래소 상장",
+      "1960년대: 국제 시장 진출 시작",
+      "1980년대: 자산 관리 및 기관 서비스 확장",
+      "2000년대: 기술 기반 서비스 강화 및 글로벌 입지 확대",
+      "2020년대: ESG 투자 및 디지털 자산 솔루션 도입"
     ],
-    "business_model": "수수료 기반의 자산 관리 및 자산 서비스 제공을 통해 수익을 창출합니다.",
+    "business_model": "수탁 자산 및 관리 자산에 대한 수수료, 투자 수익, 뱅킹 서비스 이자로 수익을 창출합니다.",
     "revenue_streams": [
       "수탁 수수료",
-      "투자 관리 수수료",
-      "펀드 관리 수수료",
-      "증권 대여 수수료",
-      "외환 및 재무 관리 서비스 수수료",
-      "뱅킹 서비스 수수료"
+      "자산 관리 수수료",
+      "투자 운용 수익",
+      "뱅킹 서비스 이자",
+      "외환 및 증권 대여 수수료"
     ],
-    "value_chain_position": "Midstream + 기관 및 고액 자산가의 자산 보관, 관리, 투자 운용을 지원합니다.",
+    "value_chain_position": "Midstream + 기관 및 고액 자산가의 자산 보관, 관리, 운용을 담당하는 핵심 금융 인프라 제공자입니다.",
     "products": [
       "자산 수탁 (Custody)",
-      "투자 운용 (Investment Management)",
       "펀드 관리 (Fund Administration)",
-      "자산 위험 및 분석 (Investment Risk & Analytics)",
+      "투자 운용 (Investment Management)",
+      "웰스 매니지먼트 (Wealth Management)",
       "사모 뱅킹 (Private Banking)",
-      "신탁 서비스 (Trust Services)"
+      "증권 대여 (Securities Lending)"
     ],
     "channels": [
       "B2B (기관 고객)",
       "B2C (고액 자산가 및 개인)"
     ],
-    "key_customers": "고객 집중도는 낮음. 다양한 기업, 기관, 고액 자산가에 분산되어 있습니다."
+    "key_customers": "고객 집중도는 낮으며, 다양한 기업, 기관, 고액 자산가를 대상으로 합니다."
   },
   "category_b_financials": {
-    "roe": 0.17,
-    "roa": 0.01,
-    "profit_margin": 0.25,
-    "operating_margin": 0.42,
-    "gross_margin": 0.0,
-    "revenue_growth_ttm": 0.36,
-    "earnings_growth_ttm": 0.99,
-    "dividend_yield": 1.78,
-    "payout_ratio": 0.27,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       8086400000.0,
       8290400000.0,
@@ -117,7 +116,7 @@
       2.13
     ],
     "quarterly_revenue": [
-      2698000000.0,
+      2172600000.0,
       2205600000.0,
       2123200000.0,
       2025400000.0,
@@ -136,144 +135,145 @@
     "roe_pct": 17.07
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 100조 달러 (글로벌 자산 관리 시장, PwC 'Global Asset Management 2025' 보고서 기반 추정)",
-    "tam_cagr_pct": "5-7% (글로벌 자산 관리 시장의 지속적인 성장, 특히 고액 자산가 및 기관 투자자의 자산 증가, 은퇴 자산 관리 수요 증대)",
+    "tam_estimate_usd_b": "약 100조 달러 (글로벌 자산 관리 시장, PwC 2023 보고서 기반 추정)",
+    "tam_cagr_pct": "5-7% (글로벌 자산 관리 시장의 안정적인 성장 추세, 고액 자산가 증가, 은퇴 자금 수요 증가에 기반)",
     "growth_drivers": [
-      "글로벌 고액 자산가(HNWI) 및 초고액 자산가(UHNWI)의 지속적인 증가",
-      "기관 투자자(연기금, 국부펀드 등)의 자산 규모 확대 및 복잡한 투자 솔루션 수요 증가",
-      "베이비붐 세대의 은퇴 및 자산 이전으로 인한 자산 관리 서비스 수요 증대",
-      "ESG(환경, 사회, 지배구조) 투자에 대한 관심 증가 및 관련 상품 수요 확대",
-      "기술 발전(AI, 빅데이터)을 통한 맞춤형 자산 관리 서비스 및 효율성 증대"
+      "글로벌 고액 자산가(HNWI) 및 초고액 자산가(UHNWI) 인구 증가 및 자산 증대",
+      "베이비붐 세대의 은퇴 및 자산 이전 수요 증가",
+      "기관 투자자들의 복잡한 투자 솔루션 및 아웃소싱 수요 증가",
+      "대체 투자(Alternative Investments) 상품에 대한 관심 증가 및 포트폴리오 다각화 니즈",
+      "기술 기반의 자산 관리 서비스(예: 디지털 자산 관리, 데이터 분석) 발전 및 도입"
     ],
-    "market_share_pct": "0.1% 미만 (글로벌 자산 관리 시장 규모 대비 NTRS의 AUM 고려 시)",
+    "market_share_pct": "0.1-0.2% (글로벌 자산 관리 시장 규모 대비 NTRS의 AUM 및 커스터디 자산 규모 고려 시)",
     "competitors": [
       {
-        "name": "BlackRock (블랙록)",
-        "differentiation": "세계 최대 자산운용사로, iShares ETF를 통한 광범위한 상품 제공 및 Aladdin 기술 플랫폼 강점"
+        "name": "J.P. Morgan Asset Management",
+        "differentiation": "광범위한 글로벌 네트워크, 다양한 투자 상품 포트폴리오, 강력한 브랜드 인지도"
       },
       {
-        "name": "Vanguard (뱅가드)",
-        "differentiation": "저비용 인덱스 펀드 및 ETF를 통한 개인 투자자 시장 강세, 고객 중심의 소유 구조"
+        "name": "BlackRock",
+        "differentiation": "세계 최대 자산운용사, iShares ETF를 통한 패시브 투자 시장 지배력, Aladdin 기술 플랫폼"
       },
       {
-        "name": "J.P. Morgan Asset Management (JP모건 자산운용)",
-        "differentiation": "글로벌 은행의 강력한 네트워크와 다양한 투자 상품 및 솔루션 제공, 기관 및 고액 자산가 대상 강점"
+        "name": "State Street Global Advisors",
+        "differentiation": "ETF 시장의 주요 플레이어, 기관 투자자를 위한 커스터디 및 자산 관리 서비스 전문성"
       },
       {
-        "name": "State Street Global Advisors (스테이트 스트리트 글로벌 어드바이저스)",
-        "differentiation": "ETF(SPDR) 및 기관 투자자를 위한 인덱스 전략, 자산 서비스와의 시너지"
+        "name": "BNY Mellon Investment Management",
+        "differentiation": "다양한 자산운용 브랜드 포트폴리오, 광범위한 커스터디 및 자산 서비스 제공"
       },
       {
-        "name": "Fidelity Investments (피델리티 인베스트먼트)",
-        "differentiation": "개인 투자자 대상의 강력한 브랜드 인지도, 다양한 뮤추얼 펀드 및 브로커리지 서비스 제공"
+        "name": "Fidelity Investments",
+        "differentiation": "개인 투자자 및 은퇴 시장에 강점, 다양한 뮤추얼 펀드 및 브로커리지 서비스"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (자산 관리 산업은 규제 장벽과 신뢰 구축에 시간이 걸리지만, 핀테크 기업의 진입 가능성 존재)",
-      "substitutes": "low (자산 관리 서비스의 본질적 대체재는 제한적이나, DIY 투자 플랫폼이나 로보 어드바이저가 부분적 대체재 역할 가능)",
-      "buyer_power": "medium (기관 투자자 및 고액 자산가는 수수료 협상력이 높고, 서비스 제공자 간 전환 비용이 상대적으로 낮음)",
-      "supplier_power": "low (주요 공급자는 인력, 기술 솔루션 등이며, NTRS는 자체 역량을 보유하고 있어 공급자 의존도가 낮음)",
-      "rivalry": "high (글로벌 및 지역 경쟁이 매우 치열하며, 수수료 압박, 상품 차별화 경쟁이 심화되고 있음)"
+      "new_entrants": "medium (높은 규제 장벽, 초기 자본 요구 사항, 브랜드 신뢰도 구축의 어려움이 있으나, 핀테크 기업의 특정 니치 시장 진입 가능성 존재)",
+      "substitutes": "low (자산 관리 서비스의 본질적 특성상 직접적인 대체재는 제한적이나, DIY 투자 플랫폼, 로보 어드바이저 등이 부분적 대체재 역할 가능)",
+      "buyer_power": "medium (기관 투자자 및 고액 자산가는 수수료 협상력과 서비스 선택권이 높으며, 투명성 및 성과에 대한 요구가 강함)",
+      "supplier_power": "low (기술 공급업체, 데이터 제공업체 등은 다수 존재하며, NTRS의 규모를 고려할 때 특정 공급업체에 대한 의존도는 낮음)",
+      "rivalry": "high (글로벌 자산 관리 시장은 매우 경쟁적이며, 수많은 대형 금융기관들이 유사한 서비스를 제공하고 수수료 압박이 심함)"
     },
     "competitive_advantages": [
-      "기관 투자자 및 고액 자산가를 위한 포괄적인 자산 관리 및 자산 서비스(수탁, 펀드 관리 등) 통합 제공",
+      "기관 투자자 및 고액 자산가를 위한 포괄적인 자산 관리, 커스터디, 자산 서비스 제공 능력",
       "오랜 역사와 강력한 브랜드 신뢰도 및 평판",
-      "글로벌 네트워크와 다양한 시장에 대한 전문성",
-      "복잡한 투자 솔루션 및 맞춤형 서비스 제공 능력",
-      "기술 투자 및 운영 효율성 추구를 통한 경쟁력 확보"
+      "글로벌 운영 역량 및 다양한 지역에서의 서비스 제공",
+      "복잡한 투자 전략 및 대체 투자 상품에 대한 전문성",
+      "고객 맞춤형 솔루션 제공 및 강력한 고객 관계 구축"
     ],
     "competitive_weaknesses": [
-      "대형 경쟁사 대비 상대적으로 작은 자산 규모 및 시장 점유율",
-      "수수료 기반 비즈니스 모델의 시장 압박에 취약",
-      "개인 투자자 시장에서의 브랜드 인지도 및 접근성 부족",
-      "기술 혁신 속도가 빠른 핀테크 기업과의 경쟁 압박",
-      "글로벌 경제 변동성 및 규제 환경 변화에 대한 민감성"
+      "대형 경쟁사 대비 낮은 브랜드 인지도 및 마케팅 예산",
+      "수수료 기반 수익 모델의 시장 변동성 노출",
+      "기술 혁신 및 디지털 전환 속도에서 일부 핀테크 기업 대비 뒤처질 가능성",
+      "패시브 투자 및 저비용 ETF 시장에서의 경쟁력 부족",
+      "특정 고객군(기관, 고액 자산가)에 대한 높은 의존도"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 67.5,
+    "rs_rating": 77,
+    "score": 68.6,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
-    "peg_ratio": 1.034,
-    "trailing_pe": 16.0897,
-    "forward_pe": 14.7940235,
+    "peg_ratio": 1.0453,
+    "trailing_pe": 15.877015,
+    "forward_pe": 14.767102,
     "ev_to_ebitda": null,
-    "price_to_sales": 3.774599,
+    "price_to_sales": 3.7694643,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 21.33,
-    "outperform_6m_vs_nasdaq": 11.27,
-    "outperform_1m_vs_nasdaq": 0.02,
+    "outperform_1y_vs_nasdaq": 28.8,
+    "outperform_6m_vs_nasdaq": 20.29,
+    "outperform_1m_vs_nasdaq": 0.15,
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "Northern Trust는 130년 이상의 역사를 가진 신뢰받는 브랜드 명성과 고객 관계를 보유하고 있으며, 이는 고액 자산가 및 기관 투자자들에게 중요한 무형 자산입니다. (Item 1 Business 1)",
-      "글로벌 자산 관리 및 자산 서비스 분야에서 오랜 기간 축적된 전문성과 운영 노하우는 경쟁사 대비 진입 장벽을 높이는 요소입니다. (Item 1 Business 1)",
-      "규제 산업 특성상 엄격한 규제 준수 능력과 복잡한 금융 상품 및 서비스 제공 역량은 신뢰를 기반으로 하는 비즈니스 모델의 핵심입니다. (Item 1 Business 1)"
+      "Northern Trust는 130년 이상의 역사를 가진 신뢰받는 브랜드로, 기관 투자자 및 고액 자산가들에게 자산 관리, 자산 운용, 자산 서비스 분야에서 전문성을 인정받고 있습니다. 이는 'Item 1 Business'에서 언급된 오랜 업력과 고객 기반을 통해 유추할 수 있습니다.",
+      "글로벌 금융 시장에서 복잡한 규제 환경과 높은 진입 장벽 속에서 Northern Trust는 규제 준수 및 리스크 관리 역량을 바탕으로 고객의 신뢰를 유지하고 있습니다. 이는 'Item 7 Management’s Discussion and Analysis of Financial Condition and Results of Operations'에서 언급된 금융 환경 분석 및 리스크 관리 노력에서 간접적으로 드러납니다.",
+      "Northern Trust는 기관 투자자 및 고액 자산가들을 위한 맞춤형 솔루션과 고품질 서비스를 제공하며, 이는 고객 충성도를 높이는 핵심적인 무형 자산으로 작용합니다. 'Item 1 Business'에서 설명된 다양한 서비스 포트폴리오와 고객 세분화를 통해 이를 확인할 수 있습니다."
     ],
     "moat_durability_years": "10년 이상",
-    "new_trigger": "금리 인상 사이클 종료 및 자산 시장 회복 기대감, 디지털 자산 서비스 확장",
-    "bull_case": "자산 시장 회복 및 금리 안정화로 AUM 증가, 수수료 수익 개선, 비용 효율화로 EPS 성장 가속화.",
-    "base_case": "글로벌 자산 시장의 점진적 회복과 함께 AUM 및 수수료 수익이 안정적으로 증가할 것으로 예상됩니다. 효율적인 비용 관리를 통해 수익성을 유지하며, 디지털 전환을 통한 서비스 개선이 지속될 것입니다. 견고한 고객 기반과 브랜드 신뢰를 바탕으로 시장 점유율을 유지하며 꾸준한 성장을 이어갈 것입니다.",
-    "bear_case": "예상보다 심각한 경기 침체로 자산 시장이 위축되고 AUM이 감소할 경우, 수수료 수익이 크게 하락할 수 있습니다. 예상치 못한 규제 강화나 경쟁 심화로 인해 수익성이 악화될 위험도 존재합니다. 또한, 금리 인하가 가속화될 경우 순이자이익에 부정적인 영향을 미칠 수 있습니다.",
+    "new_trigger": "글로벌 기관 투자자 대상 디지털 자산 서비스 확장 및 기술 투자 강화",
+    "bull_case": "글로벌 자산 관리 시장 성장과 디지털 전환 가속화로 EPS 15% 이상 성장, 주가 30% 상승.",
+    "base_case": "안정적인 자산 관리 수수료 수입과 비용 효율화를 통해 EPS 8~10% 성장 유지. 시장 평균 수익률 상회.",
+    "bear_case": "글로벌 경기 침체 및 금리 인하로 자산 운용 수수료 감소, 규제 강화로 인한 비용 증가로 EPS 하락.",
     "key_metrics_to_watch": [
-      "관리 및 수탁 자산 (AUM/AUC)",
-      "순이자이익 (NII) 및 순이자마진 (NIM)",
-      "수수료 및 기타 서비스 수익"
+      "자산 서비스 수수료 수입 성장률",
+      "순이자 이익 (NII) 추이",
+      "비용 효율성 지표 (Cost-to-Income Ratio)",
+      "디지털 자산 관련 서비스 채택률"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "재무",
-        "description": "금리 변동은 순이자수익에 직접적인 영향을 미치며, 특히 금리 인상 시 예금 비용 증가 및 대출 수익 감소로 이어질 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "거시",
-        "description": "글로벌 경제 침체, 지정학적 불안정, 시장 변동성 증가는 고객 자산 가치 하락 및 신규 비즈니스 기회 감소로 이어질 수 있습니다.",
+        "description": "금리 변동은 순이자수익(NII)에 직접적인 영향을 미치며, 이는 회사의 수익성에 큰 변동성을 야기할 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "규제",
-        "description": "금융 규제 환경의 변화(예: 자본 요건 강화, 새로운 규제 도입)는 운영 비용 증가 및 사업 모델 제약을 초래할 수 있습니다.",
+        "description": "글로벌 금융 규제 환경의 변화는 자본 요건 증가, 운영 비용 상승 또는 특정 사업 활동 제한으로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "경쟁",
-        "description": "전통 금융기관 및 핀테크 기업과의 경쟁 심화는 수수료 압박, 시장 점유율 하락 및 인재 유출 위험을 증가시킵니다.",
+        "description": "자산 관리 및 수탁 서비스 시장의 경쟁 심화는 수수료 압박과 시장 점유율 하락으로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
+        "category": "거시",
+        "description": "글로벌 경제 침체 또는 금융 시장 불안정은 고객 자산 감소, 거래량 감소 및 신용 손실 증가로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소수의 대형 기관 고객에 대한 의존도가 높을 경우, 해당 고객의 이탈은 회사 수익에 상당한 타격을 줄 수 있습니다.",
+        "severity": "low"
+      },
+      {
         "category": "재무",
-        "description": "신용 위험은 대출 및 투자 포트폴리오의 부실화로 이어질 수 있으며, 이는 대손충당금 증가 및 수익성 악화를 야기합니다.",
+        "description": "시장 변동성 증가는 투자 포트폴리오의 가치 하락을 초래하여 회사의 재무 건전성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거버넌스",
-        "description": "사이버 보안 위협 및 데이터 유출 사고는 고객 신뢰 손상, 법적 책임 및 막대한 복구 비용을 발생시킬 수 있습니다.",
+        "description": "사이버 보안 위협 및 데이터 유출 사고는 고객 신뢰 상실, 법적 책임 및 막대한 복구 비용을 발생시킬 수 있습니다.",
         "severity": "high"
-      },
-      {
-        "category": "운영",
-        "description": "핵심 인력의 이탈 또는 인재 확보 실패는 서비스 품질 저하, 혁신 역량 약화 및 경쟁력 상실로 이어질 수 있습니다.",
-        "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "글로벌 금융 시스템 붕괴로 인해 대규모 고객 자산 인출이 발생하고 유동성 위기에 직면하여 파산에 이르는 시나리오.",
-      "심각한 사이버 공격으로 고객 데이터가 대규모로 유출되고 시스템이 마비되어 막대한 법적 책임과 브랜드 신뢰도 상실로 사업을 지속할 수 없게 되는 시나리오.",
-      "장기간의 경기 침체와 금리 급등으로 대출 포트폴리오의 부실이 심화되고 자산운용 수익이 급감하여 자본 적정성 기준을 충족하지 못하게 되는 시나리오."
+      "글로벌 금융 시스템 붕괴로 인해 대규모 고객 이탈과 자산 가치 폭락이 동시에 발생하여 유동성 위기에 직면할 수 있습니다.",
+      "예상치 못한 규제 강화로 인해 핵심 사업 모델이 불가능해지거나 막대한 벌금 및 제재를 받아 사업을 지속할 수 없게 될 수 있습니다.",
+      "대규모 사이버 공격으로 고객 데이터가 유출되고 시스템이 마비되어 신뢰를 완전히 상실하고 복구 불가능한 손실을 입을 수 있습니다."
     ],
     "exit_signals": [
-      "순이자마진(NIM)이 2분기 연속 20bp 이상 하락하고, 이는 시장 금리 변동성 때문이 아닌 구조적 문제로 판명될 경우.",
-      "주요 자산운용 부문에서 3분기 연속 순유출이 발생하고, 이는 시장 전반의 추세가 아닌 NTRS 고유의 경쟁력 약화로 인한 것으로 분석될 경우.",
-      "대규모 규제 위반으로 인해 상당한 벌금 부과 및 사업 활동에 대한 중대한 제한이 가해질 경우."
+      "순이자수익(NII)이 2분기 연속 시장 예상치를 크게 하회하고 하향 조정될 경우",
+      "핵심 수탁 및 자산 관리 사업 부문에서 대규모 기관 고객의 이탈이 공식 발표될 경우",
+      "주요 규제 기관으로부터 사업 모델에 심각한 영향을 미치는 중대한 제재 또는 벌금이 부과될 경우"
     ]
   },
   "wikipedia_summary": "Northern Trust Corporation is an American financial services company headquartered in Chicago, Illinois, that caters to corporations, institutional investors, and ultra high net worth individuals. Northern Trust is one of the largest banking institutions in the United States and one of the oldest banks in continuous operation. As of December 31, 2025, it had $1.8 trillion in assets under management and $14.9 trillion in assets under custody. Northern Trust Corporation is incorporated in Delaware.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-10T01:18:09.441335+00:00"
+    "GoogleWebTranslator": "2026-09-11T01:15:49.753945+00:00"
   }
 }
