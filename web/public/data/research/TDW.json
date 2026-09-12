@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Equipment & Services",
-  "generated_at": "2026-09-11T01:06:11.886475+00:00",
+  "generated_at": "2026-09-12T01:06:15.800742+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4577075712,
+    "market_cap": 4625837056,
     "shares_outstanding": 49756231,
     "employees": 7300,
     "country": "United States",
@@ -20,41 +20,39 @@
     "overview": "TDW는 전 세계 해양 에너지 산업에 해양 지원 선박 및 해양 지원 서비스를 제공하는 기업입니다.",
     "milestones": [
       "1956: Tidewater Inc. 설립",
-      "1970년대: 북해 유전 개발 참여 및 글로벌 확장 시작",
-      "2000년대: 해양 에너지 산업 성장과 함께 선단 규모 확장",
-      "2017: 파산 보호 신청 및 구조조정 완료",
-      "2018: GulfMark Offshore 인수, 세계 최대 OSV(Offshore Support Vessel) 운영사로 부상",
-      "2022: Swire Pacific Offshore 인수, 선단 규모 및 글로벌 입지 강화"
+      "1956-현재: 글로벌 해양 에너지 산업에 해양 및 운송 서비스 제공",
+      "2025: 208척의 선박으로 30개국 이상에서 고객 서비스 (예상)",
+      "현재: 해상 풍력 발전 개발 및 유지보수 활동 지원으로 사업 확장"
     ],
-    "business_model": "해양 에너지 산업에 선박 및 해양 지원 서비스를 제공하고 용선료를 받습니다.",
+    "business_model": "선박 대여 및 해양 지원 서비스 제공을 통해 수익을 창출합니다.",
     "revenue_streams": [
-      "선박 용선료 (기간 용선)",
-      "선박 용선료 (스팟 용선)",
+      "선박 용선 계약 (기간 계약)",
+      "선박 용선 계약 (단기 스팟 계약)",
       "연료비 등 특정 추가 비용 회수"
     ],
-    "value_chain_position": "Midstream + 해양 에너지 탐사, 개발, 생산, 유지보수 및 풍력 발전 개발 지원 서비스를 제공합니다.",
+    "value_chain_position": "Midstream + 해양 에너지 산업의 탐사, 개발, 생산, 유지보수 및 해체 활동을 지원합니다.",
     "products": [
-      "앵커 핸들링 예인 공급 선박 (AHTS)",
-      "플랫폼 공급 선박 (PSV)",
-      "인원 및 물자 운송 서비스",
-      "해양 건설 및 해저 지원 서비스",
-      "풍력 발전 단지 개발 및 유지보수 지원"
+      "앵커 핸들링 예인 공급선 (AHTS)",
+      "플랫폼 공급선 (PSV)",
+      "해양 건설 지원",
+      "지진 및 해저 지원",
+      "파이프 부설 및 케이블 부설 지원"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주요 고객은 국제 및 독립 석유/가스 탐사·생산 기업, 국영 석유 회사, 해양 시추 계약자, 해양 건설 회사 등이며, 고객 집중도는 높지 않은 편입니다."
+    "key_customers": "주요 고객은 대형 국제 통합 및 독립 석유 및 가스 탐사, 개발 및 생산 회사, 국영 석유 회사, 해양 시추 계약자, 해양 건설 및 풍력 발전 개발 회사 등입니다. 고객 집중도에 대한 구체적인 수치는 제공되지 않았습니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
+    "roe": 0.19,
+    "roa": 0.07,
+    "profit_margin": 0.18,
+    "operating_margin": -0.09,
+    "gross_margin": 0.48,
+    "revenue_growth_ttm": -0.43,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       1352786000.0,
       1345835000.0,
@@ -135,29 +133,90 @@
     "roe_pct": 19.45
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "20-25 billion (estimate) - 2023년 기준 글로벌 해양 서비스 시장 규모 및 Tidewater의 시장 점유율을 기반으로 추정. (출처: 다양한 시장 조사 보고서 및 Tidewater 10-K 보고서의 사업 활동 범위)",
+    "tam_cagr_pct": "5-7% - 해양 에너지 산업의 회복세, 특히 심해 유전 개발 및 해상 풍력 발전 시장의 성장에 힘입어 OSV(Offshore Service Vessel) 수요가 증가할 것으로 예상됩니다. 에너지 전환 과정에서 천연가스의 중요성도 유지될 것입니다.",
+    "growth_drivers": [
+      "글로벌 에너지 수요 증가 및 해양 유전 개발 투자 회복",
+      "심해 유전 개발 프로젝트 증가 (단기 유가 변동에 덜 민감)",
+      "해상 풍력 발전 시장의 급격한 성장 및 관련 지원 선박 수요 증가",
+      "기존 유전의 유지 보수 및 서비스 수요 지속",
+      "에너지 안보 강화로 인한 자국 내 에너지 생산 확대 노력"
+    ],
+    "market_share_pct": "10-15% (estimate)",
+    "competitors": [
+      {
+        "name": "Bourbon Offshore",
+        "differentiation": "다양한 선박 유형과 글로벌 네트워크를 보유하고 있으며, 특히 아프리카 시장에서 강세를 보입니다."
+      },
+      {
+        "name": "Edison Chouest Offshore (ECO)",
+        "differentiation": "고급 기술 선박과 통합된 해양 솔루션 제공에 강점을 가지며, 주로 북미 시장에서 활동합니다."
+      },
+      {
+        "name": "Maersk Supply Service",
+        "differentiation": "해상 풍력 및 해양 건설 프로젝트에 특화된 선박과 서비스를 제공하며, 재생 에너지 분야로 사업을 확장하고 있습니다."
+      },
+      {
+        "name": "DOF Subsea",
+        "differentiation": "수중 건설, 검사, 유지보수 및 해양 엔지니어링 서비스에 특화된 선박과 전문성을 보유하고 있습니다."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - OSV 산업은 높은 초기 자본 투자, 전문 기술 및 규제 준수가 필요하여 진입 장벽이 높지만, 해상 풍력 등 신규 시장의 성장은 소규모 전문 기업의 진입을 유도할 수 있습니다.",
+      "substitutes": "low - 해양 에너지 탐사, 개발 및 생산 활동에 필수적인 OSV를 대체할 수 있는 직접적인 대안은 거의 없습니다. 다만, 육상 유전 개발이나 해상 풍력 대신 다른 재생 에너지원으로의 전환은 간접적인 대체 위협이 될 수 있습니다.",
+      "buyer_power": "medium - 주요 고객(대형 석유 및 가스 회사, 시추 계약자)은 규모가 크고 협상력이 강합니다. 그러나 전문화된 선박과 서비스의 경우 공급자의 협상력이 높아질 수 있습니다.",
+      "supplier_power": "medium - 선박 건조사, 엔진 및 장비 공급업체, 숙련된 선원 등은 제한적일 수 있어 공급자의 협상력이 존재합니다. 그러나 글로벌 공급망을 통해 어느 정도 분산될 수 있습니다.",
+      "rivalry": "high - OSV 산업은 다수의 글로벌 및 지역 경쟁사들이 존재하며, 과거 유가 하락기에는 과잉 공급으로 인해 치열한 가격 경쟁이 발생했습니다. 현재는 시장 회복으로 경쟁 강도가 다소 완화되었으나 여전히 높은 수준입니다."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Equipment & Services 카테고리 — yfinance peer 비교 권장"
+      "글로벌 최대 규모의 다양화된 OSV 선단 (208척, 30개국 이상 운영)",
+      "심해 유전 개발 및 해상 풍력 등 고부가가치 시장 집중",
+      "글로벌 운영 거점을 통한 시장 변화에 대한 빠른 대응 및 고객 요구사항 충족",
+      "다년간의 업력과 운영 노하우를 통한 높은 수준의 운영 성능 및 안전성",
+      "다양한 고객 포트폴리오 (IOCs, E&P, NOCs, 시추 계약자, 해상 풍력 개발사 등)"
+    ],
+    "competitive_weaknesses": [
+      "매출 및 수익이 유가 및 가스 가격 변동, 고객의 자본 예산에 크게 의존",
+      "해양 에너지 산업의 환경 규제 강화 및 탈탄소화 압력 증가",
+      "선박 노후화에 따른 유지보수 비용 증가 및 신규 선박 투자 필요성",
+      "지정학적 리스크 및 지역별 규제 변화에 대한 노출",
+      "숙련된 선원 확보 및 유지의 어려움"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 83,
-    "score": 62.0,
+    "rs_rating": 84,
+    "score": 61.1,
     "vcp_quality": 10.4,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 18.850409,
-    "forward_pe": 15.29417,
-    "ev_to_ebitda": 11.505,
-    "price_to_sales": 3.3994412,
+    "trailing_pe": 18.858013,
+    "forward_pe": 15.457105,
+    "ev_to_ebitda": 11.628,
+    "price_to_sales": 3.4356568,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 38.35,
-    "outperform_6m_vs_nasdaq": 6.15,
-    "outperform_1m_vs_nasdaq": 5.21,
-    "lynch_category": "Cyclical / Turnaround?"
+    "outperform_1y_vs_nasdaq": 37.41,
+    "outperform_6m_vs_nasdaq": 2.21,
+    "outperform_1m_vs_nasdaq": 1.83,
+    "lynch_category": "Cyclical / Turnaround?",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "1956년부터 글로벌 해양 에너지 산업에 해양 및 운송 서비스를 제공하며 축적된 운영 노하우와 고객 신뢰.",
+      "2025년 12월 31일 기준 30개국 이상에서 208척의 선박을 운영하는 대규모의 다각화된 해양 서비스 선박(OSV) 및 관련 지원 선박 보유.",
+      "아메리카, 아시아 태평양, 중동, 유럽/지중해, 서아프리카 등 5개 지역별 보고 세그먼트를 통한 글로벌 운영 거점 확보로 시장 변화에 신속 대응 및 고객 요구사항 충족."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "글로벌 해양 에너지 산업의 회복 및 풍력 발전 시장 확대",
+    "bull_case": "유가 상승 및 해양 에너지 투자 증가로 선박 가동률 및 용선료 상승, 수익성 대폭 개선",
+    "base_case": "글로벌 에너지 수요 증가에 따른 해양 에너지 시장의 점진적 회복과 풍력 발전 시장 성장에 힘입어 안정적인 매출 및 이익 성장",
+    "bear_case": "유가 하락 및 해양 에너지 투자 위축, 경쟁 심화로 인한 용선료 하락 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "선박 가동률 (Vessel Utilization Rate)",
+      "평균 일일 용선료 (Average Daily Charter Rate)",
+      "해양 에너지 산업 Capex (자본 지출)",
+      "유가 추이",
+      "풍력 발전 프로젝트 수주 현황"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
@@ -201,6 +260,6 @@
   },
   "wikipedia_summary": "Tidewater, Inc. is a publicly traded international petroleum service company headquartered in Houston, Texas, U.S. It operates a fleet of ships, primarily providing vessels and marine services to the offshore petroleum and offshore wind industries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:54.063356+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:23:30.056148+00:00"
   }
 }

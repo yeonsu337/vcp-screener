@@ -1,0 +1,168 @@
+{
+  "ticker": "NTAP",
+  "company": "NetApp, Inc.",
+  "market": "US",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "generated_at": "2026-09-12T01:16:06.872831+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 39142379520,
+    "shares_outstanding": 196419005,
+    "employees": 11700,
+    "country": "United States",
+    "website": "https://www.netapp.com",
+    "beta": 1.432
+  },
+  "category_a_business": {
+    "overview": "NetApp은 기업 고객에게 통합 데이터 스토리지, 데이터 서비스 및 클라우드 운영 솔루션을 제공하는 미국의 데이터 인프라 기업입니다.",
+    "milestones": [
+      "1992년: 네트워크 어플라이언스 설립",
+      "1995: 나스닥 상장 (IPO)",
+      "2000: NetApp으로 사명 변경",
+      "2012: Fortune 500 진입",
+      "2021: Fortune 500에서 제외",
+      "2024: 소비 기반 비즈니스 모델 전환 가속화"
+    ],
+    "business_model": "하이브리드 및 퍼블릭 클라우드 환경에서 데이터 관리 소프트웨어, 스토리지 솔루션 및 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "데이터 관리 소프트웨어 라이선스 및 구독",
+      "스토리지 인프라 솔루션 판매",
+      "클라우드 스토리지 서비스 (STaaS)",
+      "운영 서비스 (데이터 인프라 인사이트, Instaclustr)",
+      "전문 및 지원 서비스"
+    ],
+    "value_chain_position": "Midstream: 데이터 스토리지 및 관리 솔루션을 개발하고 제공하여 기업의 데이터 인프라를 지원합니다.",
+    "products": [
+      "NetApp ONTAP (데이터 관리 소프트웨어)",
+      "NetApp AFF/ASA (플래시 스토리지)",
+      "NetApp FAS (패브릭 연결 스토리지)",
+      "Azure NetApp 파일",
+      "NetApp ONTAP용 Amazon FSx",
+      "Google Cloud NetApp 볼륨"
+    ],
+    "channels": [
+      "B2B (직접 판매)",
+      "B2B (채널 파트너)",
+      "클라우드 마켓플레이스"
+    ],
+    "key_customers": "특정 고객 집중도에 대한 정보는 공개되지 않았으나, 주로 대기업 및 공공 부문을 대상으로 합니다."
+  },
+  "category_b_financials": {
+    "roe": 1.15,
+    "roa": 0.12,
+    "profit_margin": 0.19,
+    "operating_margin": 0.27,
+    "gross_margin": 0.71,
+    "revenue_growth_ttm": 0.3,
+    "earnings_growth_ttm": 0.64,
+    "dividend_yield": 1.13,
+    "payout_ratio": 0.29,
+    "annual_revenue": [
+      6925000000.0,
+      6572000000.0,
+      6268000000.0,
+      6362000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1695000000.0,
+      1425000000.0,
+      1268000000.0,
+      1159000000.0,
+      null
+    ],
+    "annual_eps": [
+      6.35,
+      5.67,
+      4.63,
+      5.79,
+      null
+    ],
+    "annual_free_cf": [
+      1869000000.0,
+      1338000000.0,
+      1530000000.0,
+      868000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2733000000.0,
+      3491000000.0,
+      2652000000.0,
+      2684000000.0,
+      null
+    ],
+    "annual_equity": [
+      1351000000.0,
+      1040000000.0,
+      1146000000.0,
+      1159000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2026-04-30",
+      "2025-04-30",
+      "2024-04-30",
+      "2023-04-30",
+      "2022-04-30"
+    ],
+    "quarterly_eps": [
+      1.88,
+      2.03,
+      1.67,
+      1.51,
+      1.15
+    ],
+    "quarterly_revenue": [
+      2025000000.0,
+      1948000000.0,
+      1713000000.0,
+      1705000000.0,
+      1559000000.0
+    ],
+    "quarterly_periods": [
+      "2026-07-31",
+      "2026-04-30",
+      "2026-01-31",
+      "2025-10-31",
+      "2025-07-31"
+    ],
+    "eps_qoq_yoy_pct": 60.9,
+    "sales_yoy_pct": 29.9,
+    "ni_cagr_3y_pct": 0.05,
+    "roe_pct": 114.82
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 64.4,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.0355,
+    "trailing_pe": 28.107193,
+    "forward_pe": 18.041443,
+    "ev_to_ebitda": 18.186,
+    "price_to_sales": 5.295952,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 31.41,
+    "outperform_6m_vs_nasdaq": 71.67,
+    "outperform_1m_vs_nasdaq": -6.53,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-12T01:23:03.870601+00:00"
+  }
+}

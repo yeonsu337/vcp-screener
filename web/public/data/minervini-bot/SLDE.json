@@ -1,15 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "SLDE",
-  "generated_at": "2026-09-11T00:56:36.165015+00:00",
-  "source_results_date": "2026-09-11",
+  "generated_at": "2026-09-12T01:00:40.603673+00:00",
+  "source_results_date": "2026-09-12",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.62,
   "lines": [
-    "시장 약세 — 보유분도 trailing 강화 권고.",
-    "추격 위험 — Pivot $22.93 대비 +7.8%, buy zone 초과.",
-    "13주 베이스 7.2% → 9.9% → 10.4% → 14.6%, VDU 1.45× — setup 자체는 유효.",
+    "추격 위험 — Pivot $22.93 대비 +6.7%, buy zone 초과.",
+    "13주 베이스 7.2% → 9.9% → 10.4% → 14.6%, VDU 1.26× — setup 자체는 유효.",
     "Trend Template 7/8 + RS 89로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -30,7 +29,7 @@
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
-    "market_regime": "bear"
+    "market_regime": "neutral"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -49,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (14.61% vs 6.5%)",
-    "P3_vol_dryup (1.45× vs 0.6×)",
+    "P3_vol_dryup (1.26× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],

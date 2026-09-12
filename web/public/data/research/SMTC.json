@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-09-10T01:11:36.000842+00:00",
+  "generated_at": "2026-09-12T01:11:52.054285+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 15299803136,
+    "market_cap": 15607778304,
     "shares_outstanding": 93325626,
     "employees": 1920,
     "country": "United States",
@@ -17,17 +17,17 @@
     "beta": 2.353
   },
   "category_a_business": {
-    "overview": "Semtech Corporation은 아시아 태평양, 북미 및 유럽에서 반도체, 사물 인터넷 시스템 및 클라우드 연결 서비스 솔루션을 제공합니다. 이 회사는 신호 무결성, 아날로그 혼합 신호 및 무선, IoT 시스템 및 연결의 세 가지 부문으로 운영됩니다. 다양한 인프라 및 산업 응용 분야에 사용되는 광 및 구리 데이터 통신과 비디오 전송 제품 포트폴리오를 포함한 신호 무결성 제품을 제공합니다. 데이터 센터, 기업 네트워크, 수동 광 네트워크, 무선 기지국을 위한 집적 회로 포트폴리오",
+    "overview": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base stati",
     "business_model": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe.",
     "products": [
-      "아시아 태평양, 북미 지역의 반도체, 사물인터넷 시스템, 클라우드 연결 서비스 솔루션",
+      "semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North Americ",
       "in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity",
       "signal integrity products, including a portfolio of optical and copper data communications and video transport products",
       "analog mixed signal and wireless products",
       "switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wire"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
     "wikipedia_excerpt": "Semtech Corporation is an American supplier of analog and mixed-signal semiconductors and advanced algorithms for consumer, enterprise computing, communications and industrial end-markets. It is based in Camarillo, Ventura County, Southern California. It was founded in 1960 in Newbury Park, California. It has 32 locations in 15 countries in North America, Europe, and Asia.",
     "milestones": [
@@ -132,20 +132,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 93,
-    "score": 60.1,
+    "rs_rating": 94,
+    "score": 59.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.21,
-    "trailing_pe": 108.56954,
-    "forward_pe": 28.093037,
-    "ev_to_ebitda": 87.102,
-    "price_to_sales": 13.029814,
+    "trailing_pe": 110.754974,
+    "forward_pe": 28.658531,
+    "ev_to_ebitda": 88.872,
+    "price_to_sales": 13.292095,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 147.6,
-    "outperform_6m_vs_nasdaq": 75.33,
-    "outperform_1m_vs_nasdaq": 17.96,
+    "outperform_1y_vs_nasdaq": 138.09,
+    "outperform_6m_vs_nasdaq": 67.4,
+    "outperform_1m_vs_nasdaq": 22.27,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -190,6 +190,6 @@
   },
   "wikipedia_summary": "Semtech Corporation is an American supplier of analog and mixed-signal semiconductors and advanced algorithms for consumer, enterprise computing, communications and industrial end-markets. It is based in Camarillo, Ventura County, Southern California. It was founded in 1960 in Newbury Park, California. It has 32 locations in 15 countries in North America, Europe, and Asia.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:53.388448+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:23:29.306374+00:00"
   }
 }

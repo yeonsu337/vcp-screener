@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Midstream",
-  "generated_at": "2026-09-11T01:01:45.396662+00:00",
+  "generated_at": "2026-09-12T01:02:56.977883+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 19910883328,
+    "market_cap": 20257949696,
     "shares_outstanding": 413174593,
     "employees": 1704,
     "country": "United States",
@@ -19,42 +19,39 @@
   "category_a_business": {
     "overview": "WES는 미국 내 미드스트림 에너지 기업으로, 천연가스, 원유, NGLs 운송 및 처리 서비스를 제공합니다.",
     "milestones": [
-      "2007: Western Gas Equity Partners, LP로 설립",
-      "2012: NYSE 상장",
-      "2019: Western Midstream Partners, LP로 사명 변경",
-      "2020: 코로나19 팬데믹으로 인한 에너지 수요 감소 영향",
-      "2022: 에너지 가격 상승 및 수요 회복으로 실적 개선"
+      "2007: Western Gas Equity Partners, LP 설립",
+      "2019: 사명을 Western Midstream Partners, LP로 변경",
+      "현재: 텍사스, 뉴멕시코, 로키산맥 지역에 자산 운영"
     ],
-    "business_model": "천연가스, 원유, NGLs의 수집, 처리, 운송 서비스 제공으로 수익을 창출합니다.",
+    "business_model": "천연가스, 원유, NGLs의 수집, 처리, 운송 서비스 제공으로 수익 창출",
     "revenue_streams": [
-      "천연가스 수집 및 처리 수수료",
-      "원유 및 NGLs 수집 및 운송 수수료",
+      "천연가스 수집, 압축, 처리, 운송 서비스",
+      "원유 및 NGLs 수집, 안정화, 운송 서비스",
       "생산수 처리 및 폐기 서비스",
-      "잔류가스, NGLs, 콘덴세이트 매매"
+      "잔류물, NGLs, 응축물 매매"
     ],
-    "value_chain_position": "Midstream: 업스트림 생산자와 다운스트림 정제/소비자를 연결하는 에너지 인프라 운영",
+    "value_chain_position": "Midstream: 원유 및 가스 생산지에서 최종 소비자 또는 정제소로의 운송 및 처리 담당",
     "products": [
-      "천연가스 수집 및 압축",
+      "천연가스 수집 및 처리",
       "원유 및 NGLs 운송",
-      "천연가스 처리 및 정제",
-      "생산수 처리 및 폐기",
-      "콘덴세이트 안정화"
+      "생산수 처리",
+      "잔류물, NGLs, 응축물 거래"
     ],
     "channels": [
       "B2B"
     ],
-    "key_customers": "주로 에너지 생산 및 마케팅 기업들이며, 고객 집중도는 낮은 편입니다."
+    "key_customers": "주로 에너지 생산 및 정제 기업들이며, 고객 집중도에 대한 구체적인 정보는 추가 분석 필요"
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.34,
+    "roa": 0.07,
+    "profit_margin": 0.29,
+    "operating_margin": 0.42,
+    "gross_margin": 0.69,
+    "revenue_growth_ttm": 0.3,
+    "earnings_growth_ttm": 0.14,
+    "dividend_yield": 7.72,
+    "payout_ratio": 1.16,
     "annual_revenue": [
       3843403000.0,
       3605223000.0,
@@ -134,72 +131,139 @@
     "roe_pct": 34.11
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1,000억 달러 (미국 미드스트림 인프라 투자 규모 추정치 기반)",
+    "tam_cagr_pct": "3-5% (미국 셰일 생산량 증가 및 LNG 수출 터미널 확장 수요에 기반)",
+    "growth_drivers": [
+      "미국 셰일 오일 및 가스 생산량 지속 증가",
+      "미국 LNG 수출 터미널 확장 및 관련 인프라 수요 증가",
+      "석유화학 산업의 원료 수요 증가",
+      "에너지 안보 강화 및 국내 공급망 중요성 부각"
+    ],
+    "market_share_pct": "1-3% (미국 전체 미드스트림 시장 대비)",
+    "competitors": [
+      {
+        "name": "Enterprise Products Partners L.P. (EPD)",
+        "differentiation": "방대한 파이프라인 네트워크와 다양한 서비스 포트폴리오를 보유한 시장 선두 주자"
+      },
+      {
+        "name": "Energy Transfer LP (ET)",
+        "differentiation": "다양한 지역에 걸쳐 광범위한 자산을 보유하며, 특히 천연가스 부문에서 강점"
+      },
+      {
+        "name": "Kinder Morgan, Inc. (KMI)",
+        "differentiation": "천연가스 파이프라인 분야에서 독보적인 위치를 차지하며, 터미널 사업도 영위"
+      },
+      {
+        "name": "Plains All American Pipeline, L.P. (PAA)",
+        "differentiation": "주로 원유 및 NGL 운송 및 저장에 특화된 자산을 보유"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (초기 투자 비용이 매우 높고, 규제 승인 절차가 복잡하며, 기존 사업자들의 규모의 경제 효과가 큼)",
+      "substitutes": "low (원유 및 천연가스 운송 및 처리 서비스에 대한 직접적인 대체재는 거의 없으며, 장거리 운송에 파이프라인이 가장 효율적임)",
+      "buyer_power": "medium (주요 고객은 대형 에너지 생산 및 정제 기업으로, 협상력이 있으나, 미드스트림 인프라의 필수성으로 인해 제한적임)",
+      "supplier_power": "medium (파이프라인 건설 및 유지보수에 필요한 특정 장비 및 서비스 공급업체는 제한적일 수 있으나, 다수의 공급업체가 존재하여 균형을 이룸)",
+      "rivalry": "high (다수의 대형 미드스트림 기업들이 존재하며, 유사한 서비스를 제공하여 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Midstream 카테고리 — yfinance peer 비교 권장"
+      "주요 생산 분지(델라웨어 분지, DJ 분지)에 전략적으로 위치한 자산",
+      "장기 계약 기반의 안정적인 수익 구조",
+      "다각화된 고객 포트폴리오 및 서비스 제공",
+      "Western Gas Partners, LP (WES)는 Occidental Petroleum (OXY)의 자회사로, OXY의 생산량에 대한 접근성 및 안정적인 물량 확보 가능성"
+    ],
+    "competitive_weaknesses": [
+      "대형 경쟁사 대비 상대적으로 작은 규모와 제한적인 지리적 범위",
+      "특정 생산 분지에 대한 의존도가 높아 해당 분지의 생산량 변동에 취약",
+      "OXY와의 관계가 강점인 동시에, OXY의 전략적 변화에 영향을 받을 수 있는 잠재적 위험"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 74.2,
-    "vcp_quality": 11.8,
+    "rs_rating": 73,
+    "score": 71.7,
+    "vcp_quality": 11.4,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 15.595469,
-    "forward_pe": 12.4630165,
-    "ev_to_ebitda": 11.62,
-    "price_to_sales": 4.5959544,
+    "trailing_pe": 15.515822,
+    "forward_pe": 12.68026,
+    "ev_to_ebitda": 11.759,
+    "price_to_sales": 4.6760664,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 22.59,
-    "outperform_6m_vs_nasdaq": 13.33,
-    "outperform_1m_vs_nasdaq": 5.36,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 17.8,
+    "outperform_6m_vs_nasdaq": 5.72,
+    "outperform_1m_vs_nasdaq": 1.11,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "WES는 미국 중부 및 서부 지역에 걸쳐 광범위한 미드스트림 자산(파이프라인, 처리 시설 등)을 소유 및 운영하며, 이는 신규 진입자가 쉽게 복제하기 어려운 규모의 경제를 제공합니다.",
+      "기존 인프라를 통해 운영 효율성을 극대화하고 있으며, 이는 경쟁사 대비 낮은 운영 비용으로 이어져 가격 경쟁력을 확보합니다.",
+      "장기 계약을 통해 안정적인 현금 흐름을 창출하며, 이는 자본 집약적인 인프라 유지 및 확장에 필요한 자금을 안정적으로 조달하는 기반이 됩니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "Permian Basin 생산량 증가 및 WES의 인프라 확장 투자",
+    "bull_case": "Permian 생산량 급증 및 WES의 효율적 운영으로 EPS 20% 이상 성장, 주가 30% 상승",
+    "base_case": "Permian Basin의 꾸준한 생산량 증가와 WES의 안정적인 운영을 바탕으로 매출 및 EPS가 완만한 성장세를 유지하며, 주가는 시장 평균을 상회하는 성과를 보일 것으로 예상됩니다.",
+    "bear_case": "유가 급락으로 인한 Permian Basin 생산량 감소 및 WES의 인프라 활용률 저하, 규제 강화로 인한 비용 증가로 실적 악화 및 주가 하락이 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "Permian Basin 원유 및 가스 생산량",
+      "파이프라인 및 처리 시설 가동률",
+      "장기 계약 잔여 기간 및 재계약 조건",
+      "운영 비용 효율성"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "If any of the following risks were to occur, our business, financial condition, or results of operations could be materially and adversely affected.",
+        "category": "고객집중도",
+        "description": "매출의 50% 이상을 Occidental에 의존하고 있어, Occidental의 생산량 감소나 사업 전략 변화는 WES의 매출과 현금 흐름에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "배당금 지급 능력, 자본 지출 및 기타 계약 의무 이행을 위한 자본 조달 능력, 그리고 부채 상환 능력에 대한 불확실성이 존재합니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "A material reduction in Occidental’s production that is gathered, treated, processed, or transported by our assets would result in a material decline in our revenues and cash available for distribution.",
+        "category": "거시",
+        "description": "유가, 천연가스, NGL 및 관련 제품/서비스의 공급, 수요, 가격 변동성, 인플레이션, 전반적인 경제 상황이 사업 운영에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "수압 파쇄 활동이나 기타 석유 및 천연가스 개발을 제한하는 연방, 주, 지방 법률 및 규제 변경이 사업에 부정적인 영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Occidental may decrease its production in the areas serviced by us and is under no contractual obligation to maintain its production volumes dedicated to us pursuant to the terms of our applicable gathering agreements.",
+        "category": "경쟁",
+        "description": "경쟁 심화, 기술 변화, 그리고 자산 인수에 대한 경쟁이 사업 성과에 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거버넌스",
+        "description": "WES와 일반 파트너 및 관련 당사자(Occidental 포함) 간의 이해 상충이 발생할 수 있으며, 이는 WES의 미래 사업 기회에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The loss of a significant portion of production volumes supplied by Occidental would result in a material decline in our revenues and our cash available for distribution.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "In addition, Occidental may determine that drilling activity in areas other than our areas of operation is strategically more attractive.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "A shift in Occidental’s focus away from our areas of operation could result in reduced throughput on our systems and a material decline in our revenues and cash available for distribution.",
-        "severity": "medium"
+        "category": "공급망",
+        "description": "상품 및 서비스의 가용성 부족은 운영에 차질을 빚고 비용을 증가시킬 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "Occidental이 WES에 대한 생산량을 대폭 줄이거나 계약을 해지하여 WES의 매출이 급감하고 현금 흐름이 고갈될 경우.",
+      "에너지 시장의 급격한 침체로 유가 및 천연가스 가격이 장기간 하락하여 WES의 자산 가치가 폭락하고 수익성이 지속적으로 악화될 경우.",
+      "주요 규제 변경으로 WES의 핵심 사업 활동이 심각하게 제한되거나, 환경 관련 소송 및 벌금으로 인해 막대한 재정적 손실이 발생할 경우.",
+      "사이버 공격이나 주요 시설의 운영 중단으로 인해 장기간 서비스 제공이 불가능해져 고객을 잃고 막대한 손실이 발생할 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "Occidental이 WES에 대한 생산량 또는 전용 물량을 20% 이상 영구적으로 감소시키겠다고 발표할 경우.",
+      "WES의 분배금(distribution)이 2분기 연속으로 전년 동기 대비 10% 이상 감소하거나, 배당금 지급 능력이 심각하게 저해되었다는 경영진의 발표가 있을 경우.",
+      "주요 규제 기관이 WES의 핵심 운영 지역에서 수압 파쇄 또는 기타 석유/가스 개발 활동을 전면 금지하는 법안을 통과시킬 경우.",
+      "WES의 부채 상환 능력이 심각하게 악화되어 신용 등급이 투기 등급으로 강등되거나, 자본 시장 접근이 현저히 어려워질 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:57.823477+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:23:33.304365+00:00"
   }
 }

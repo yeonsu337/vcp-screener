@@ -1,24 +1,24 @@
 {
   "ticker": "EXEL",
   "metrics": {
-    "eps_ttm": null,
-    "eps_forward": null,
-    "pe_ttm": null,
-    "pe_forward": null,
-    "market_cap": null,
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "gross_margin": null,
-    "operating_margin": null,
-    "revenue_growth": null,
-    "earnings_growth": null,
+    "eps_ttm": 3.18,
+    "eps_forward": 4.26,
+    "pe_ttm": 17.65,
+    "pe_forward": 13.17,
+    "market_cap": 13905508352.0,
+    "roe": 0.44,
+    "roa": 0.24,
+    "profit_margin": 0.35,
+    "gross_margin": 0.96,
+    "operating_margin": 0.4,
+    "revenue_growth": 0.11,
+    "earnings_growth": 0.26,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "currency": "USD",
-    "sector": "",
-    "industry": "",
-    "name": ""
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "name": "Exelixis, Inc."
   },
   "annual": {
     "periods": [
@@ -106,10 +106,10 @@
       null
     ],
     "current_liabilities": [
-      null,
-      null,
-      null,
-      null,
+      405644000.0,
+      403769000.0,
+      394277000.0,
+      324359000.0,
       null
     ],
     "debt_to_equity": [
@@ -120,17 +120,17 @@
       null
     ],
     "current_ratio": [
-      null,
-      null,
-      null,
-      null,
+      3.56,
+      3.63,
+      3.34,
+      4.99,
       null
     ],
     "cash_ratio": [
-      null,
-      null,
-      null,
-      null,
+      1.19,
+      0.54,
+      0.67,
+      1.55,
       null
     ],
     "roe": [

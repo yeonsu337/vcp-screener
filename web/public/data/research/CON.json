@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-11T01:13:20.790710+00:00",
+  "generated_at": "2026-09-12T01:19:12.928086+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4366207488,
+    "market_cap": 4456744960,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
@@ -21,25 +21,25 @@
     "business_model": "Concentra Group Holdings Parent, Inc.",
     "products": [
       "occupational health services in the United States",
-      "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
-      "occupational health services, including workers compensation, employer, and consumer health services",
-      "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
+      "산업 보건 센터, 현장 건강 진료소 및 기타 사업의 세 가지 부문으로 구성됩니다.",
+      "근로자 보상, 고용주 및 소비자 건강 서비스를 포함한 직업 건강 서비스",
+      "업무 관련 부상 및 질병 치료를 위한 원격 의료 플랫폼인 Concentra Telemed",
       "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.47,
+    "roa": 0.08,
+    "profit_margin": 0.09,
+    "operating_margin": 0.19,
+    "gross_margin": 0.29,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 0.73,
+    "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
       1900192000.0,
@@ -129,19 +129,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 64.6,
+    "score": 64.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.090324,
-    "forward_pe": 18.618107,
-    "ev_to_ebitda": 13.824,
-    "price_to_sales": 1.9087539,
+    "trailing_pe": 22.548388,
+    "forward_pe": 19.004171,
+    "ev_to_ebitda": 14.02,
+    "price_to_sales": 1.9483336,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 32.63,
-    "outperform_6m_vs_nasdaq": 38.58,
-    "outperform_1m_vs_nasdaq": 1.79,
+    "outperform_1y_vs_nasdaq": 35.55,
+    "outperform_6m_vs_nasdaq": 35.64,
+    "outperform_1m_vs_nasdaq": 4.81,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -168,7 +168,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "The loss of our significant employer customers, payor or network relationships could cause a material decline in our profitability and operating performance.",
+        "description": "중요한 고용주 고객, 지불인 또는 네트워크 관계가 상실되면 수익성과 운영 성과가 크게 저하될 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:42.437561+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:21:50.648234+00:00"
   }
 }

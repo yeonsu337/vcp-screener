@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-09-11T01:12:19.123329+00:00",
+  "generated_at": "2026-09-12T01:13:55.686091+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2587745792,
+    "market_cap": 2600162048,
     "shares_outstanding": 51734223,
     "employees": 761,
     "country": "United States",
@@ -17,29 +17,29 @@
     "beta": 2.43
   },
   "category_a_business": {
-    "overview": "CareDx, Inc. provides solutions for improving outcomes for transplant patients and advancing organ health in the United States and internationally. The company provides AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients; AlloMap Heart, a gene expression profiling solution for heart transplant patients; AlloSure Heart, a dd-cfDNA solution for heart transplant patients; and AlloSure Lung, a dd-cfDNA solution for lung transplant patients.",
+    "overview": "CareDx, Inc.는 미국 및 국제적으로 이식 환자의 결과를 개선하고 장기 건강을 발전시키기 위한 솔루션을 제공합니다. 이 회사는 신장 이식 환자를 위한 기증자 유래 무세포 DNA(dd-cfDNA) 솔루션인 AlloSure Kidney를 제공합니다. 심장이식 환자를 위한 유전자 발현 프로파일링 솔루션인 AlloMap Heart; 심장이식 환자를 위한 dd-cfDNA 솔루션 알로슈어 하트(AlloSure Heart) 폐 이식 환자를 위한 dd-cfDNA 솔루션인 AlloSure Lung도 있습니다.",
     "business_model": "CareDx, Inc.",
     "products": [
       "미국 및 해외에서 이식 환자의 결과를 개선하고 장기 건강을 발전시키기 위한 솔루션",
       "신장 이식 환자를 위한 기증자 유래 무세포 DNA(dd-cfDNA) 솔루션 알로슈어 키드니(AlloSure Kidney)",
       "면역 정지, 활성 손상, 침과 같은 뚜렷한 생물학적 과정에 대한 정보를 제공하는 HeartCare",
-      "QTYPE that enables precision in human leukocyte antigen (HLA) typing",
+      "인간 백혈구 항원(HLA) 타이핑의 정확성을 가능하게 하는 QTYPE",
       "AlloSeq Tx, a high-resolution HLA typing solutio"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B / 기업"
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
+    "roe": 0.29,
+    "roa": -0.0,
+    "profit_margin": 0.24,
+    "operating_margin": 0.0,
+    "gross_margin": 0.71,
+    "revenue_growth_ttm": 0.52,
     "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       379805000.0,
       333785000.0,
@@ -129,19 +129,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 64.9,
+    "score": 64.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 24.048079,
-    "forward_pe": 37.6495,
-    "ev_to_ebitda": 179.631,
-    "price_to_sales": 5.6490026,
+    "trailing_pe": 24.163462,
+    "forward_pe": 37.830147,
+    "ev_to_ebitda": 180.63,
+    "price_to_sales": 5.676107,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 255.83,
-    "outperform_6m_vs_nasdaq": 179.82,
-    "outperform_1m_vs_nasdaq": 7.66,
+    "outperform_1y_vs_nasdaq": 251.58,
+    "outperform_6m_vs_nasdaq": 173.64,
+    "outperform_1m_vs_nasdaq": 6.87,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -158,7 +158,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "If any of the following risks occur, our business, financial condition, results of operations and prospects could be materially harmed.",
+        "description": "다음 위험 중 하나라도 발생할 경우 당사의 사업, 재무 상태, 운영 결과 및 전망에 중대한 피해가 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -168,7 +168,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "We have incurred substantial net losses since our inception, and we may continue to incur additional losses for the next several years.",
+        "description": "당사는 창립 이래 상당한 순손실을 입었으며, 향후 몇 년간 계속해서 추가 손실이 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:39.552453+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:21:42.677967+00:00"
   }
 }

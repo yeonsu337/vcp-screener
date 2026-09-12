@@ -1,36 +1,35 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "THC",
-  "generated_at": "2026-09-11T00:56:36.166985+00:00",
-  "source_results_date": "2026-09-11",
-  "verdict": "BUY_AT_PIVOT",
-  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.76,
+  "generated_at": "2026-09-12T01:00:40.606758+00:00",
+  "source_results_date": "2026-09-12",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.62,
   "lines": [
-    "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 대기 — Stage 2 진입, pivot $283.05 근접(-4.94%).",
-    "13주 베이스 21.6% → 14.5% → 6.9% → 10.4% 수축, VDU 0.73× 진행.",
-    "Trend Template 7/8 통과, RS 85, RS 라인 신고가 -3.8%.",
-    "$283.05 돌파 시 매수·-7% 손절($263.24)·+20%($339.66) 절반 익절."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 10.44%).",
+    "13주 베이스 21.6% → 14.5% → 6.9% → 10.4%, VDU 0.66×, pivot $283.05(-6.92%).",
+    "Trend Template 7/8 통과, RS 85 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
-    "entry_type": "pivot_breakout",
-    "entry_price": 283.05,
-    "stop_price": 263.24,
-    "stop_pct": -7.0,
-    "target1_price": 339.66,
-    "target1_pct": 20.0,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "entry_type": "none",
+    "entry_price": null,
+    "stop_price": null,
+    "stop_pct": null,
+    "target1_price": null,
+    "target1_pct": null,
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "7/8",
-    "vcp_quality_score": "4/8",
+    "vcp_quality_score": "3/8",
     "rs_rating": 85,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
-    "market_regime": "bear"
+    "market_regime": "neutral"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -49,8 +48,9 @@
   ],
   "key_failures": [
     "P2_last_contraction (10.44% vs 6.5%)",
-    "P3_vol_dryup (0.73× vs 0.6×)",
+    "P3_vol_dryup (0.66× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "rs_line (-5.2% vs ≥-5.0%)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": []

@@ -4,13 +4,13 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-09-11T01:07:13.263653+00:00",
+  "generated_at": "2026-09-12T01:07:17.204984+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 70747627520,
-    "shares_outstanding": 454296736,
+    "market_cap": 70792241152,
+    "shares_outstanding": 454291461,
     "employees": 400000,
     "country": "United States",
     "website": "https://corporate.target.com",
@@ -32,15 +32,15 @@
     "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.26,
+    "roa": 0.06,
+    "profit_margin": 0.04,
+    "operating_margin": 0.06,
+    "gross_margin": 0.28,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 1.0,
+    "dividend_yield": 2.98,
+    "payout_ratio": 0.47,
     "annual_revenue": [
       104780000000.0,
       106566000000.0,
@@ -126,19 +126,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 88,
-    "score": 60.9,
+    "score": 60.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9606,
-    "trailing_pe": 16.154564,
-    "forward_pe": 16.320135,
-    "ev_to_ebitda": 9.837,
-    "price_to_sales": 0.6568648,
+    "peg_ratio": 1.9383,
+    "trailing_pe": 16.164938,
+    "forward_pe": 16.330616,
+    "ev_to_ebitda": 9.843,
+    "price_to_sales": 0.6572791,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 59.92,
-    "outperform_6m_vs_nasdaq": 17.89,
-    "outperform_1m_vs_nasdaq": 5.79,
+    "outperform_1y_vs_nasdaq": 57.92,
+    "outperform_6m_vs_nasdaq": 15.34,
+    "outperform_1m_vs_nasdaq": 4.0,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -183,6 +183,6 @@
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-11T01:15:55.359141+00:00"
+    "GoogleWebTranslator": "2026-09-12T01:23:31.327613+00:00"
   }
 }
