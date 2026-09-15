@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-12T01:21:15.585594+00:00",
+  "generated_at": "2026-09-15T01:32:57.007416+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 182196666368,
+    "market_cap": 183738941440,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -17,8 +17,8 @@
     "beta": 0.911
   },
   "category_a_business": {
-    "overview": "Deere & Company는 전 세계적으로 다양한 장비를 제조 및 유통하고 있습니다. 이 회사는 생산 및 정밀 농업, 소규모 농업 및 잔디, 건설 및 임업, 금융 서비스 등 4개 부문을 통해 운영됩니다. 생산 및 정밀 농업 부문은 4륜 구동 트랙 및 줄 작물 트랙터, 수확기, 면화 수확기 및 스트리퍼, 사탕수수 수확기 및 로더, 토양 준비, 경작, 파종 및 작물 관리 장비뿐만 아니라 분무기 및 영양분 관리, 토양 준비 기계,",
-    "business_model": "Deere & Company는 전 세계적으로 다양한 장비를 제조 및 유통하고 있습니다.",
+    "overview": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, ",
+    "business_model": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
     "products": [
       "through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry,",
       "four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders",
@@ -27,7 +27,7 @@
       "wholesale financing to dealers of the foregoing equipment"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ],
     "wikipedia_excerpt": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
   },
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 53.9,
+    "rs_rating": 78,
+    "score": 53.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5731,
-    "trailing_pe": 37.603786,
-    "forward_pe": 29.787348,
-    "ev_to_ebitda": 25.796,
-    "price_to_sales": 3.8015454,
+    "peg_ratio": 1.568,
+    "trailing_pe": 37.922096,
+    "forward_pe": 30.010231,
+    "ev_to_ebitda": 25.975,
+    "price_to_sales": 3.833725,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 24.01,
-    "outperform_6m_vs_nasdaq": -3.27,
-    "outperform_1m_vs_nasdaq": 10.67,
+    "outperform_1y_vs_nasdaq": 26.36,
+    "outperform_6m_vs_nasdaq": -2.48,
+    "outperform_1m_vs_nasdaq": 11.33,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -153,7 +153,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 변화는 자금 조달 및 관련 자금 조달 비용에 대한 접근에 영향을 미쳐 수익과 현금 흐름을 감소시킬 수 있습니다.",
+        "description": "Such changes could impact access to funding and associated funding costs, which could reduce our earnings and cash flows.",
         "severity": "medium"
       },
       {
@@ -163,12 +163,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "2025 회계연도 동안 수입 관세 증분은 당사 제품 및 부품 가격에 부정적인 영향을 미쳤으며 2026년에도 계속 그럴 수 있습니다.",
+        "description": "During fiscal year 2025, incremental import tariffs adversely affected the cost of our products and components and may continue to do so in 2026.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "우리는 브라질이나 다른 지역에 대한 투자로 인한 이점을 깨닫지 못할 수도 있고 다양한 이유로 시장 점유율을 늘리지 못할 수도 있습니다.",
+        "description": "We may not realize the benefits from our investment in Brazil or in other regions and may be unable to grow our market share for a variety of reasons.",
         "severity": "medium"
       },
       {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-12T01:21:58.268715+00:00"
+    "GoogleWebTranslator": "2026-09-15T01:33:24.554322+00:00"
   }
 }

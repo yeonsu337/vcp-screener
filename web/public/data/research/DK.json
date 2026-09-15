@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-12T01:18:10.002807+00:00",
+  "generated_at": "2026-09-15T01:29:51.388015+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4659768320,
+    "market_cap": 4559960064,
     "shares_outstanding": 61232174,
     "employees": 1902,
     "country": "United States",
@@ -21,7 +21,7 @@
     "business_model": "Delek US Holdings, Inc.",
     "products": [
       "in two segments Refining and Logistics",
-      "텍사스 타일러에 위치한 정유소",
+      "refineries located in Tyler, Texas",
       "light product distribution terminals, as well as markets light products using third-party terminals"
     ],
     "channels": [
@@ -40,7 +40,7 @@
     "gross_margin": 0.1,
     "revenue_growth_ttm": 0.48,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.36,
+    "dividend_yield": 1.34,
     "payout_ratio": 0.28,
     "annual_revenue": [
       10722900000.0,
@@ -128,26 +128,26 @@
   },
   "category_d_thesis": {
     "rs_rating": 96,
-    "score": 66.5,
+    "score": 67.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.38,
-    "trailing_pe": 20.735695,
-    "forward_pe": 13.339784,
-    "ev_to_ebitda": 7.245,
-    "price_to_sales": 0.38649428,
+    "trailing_pe": 20.291553,
+    "forward_pe": 13.054057,
+    "ev_to_ebitda": 7.151,
+    "price_to_sales": 0.3782159,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 119.33,
-    "outperform_6m_vs_nasdaq": 62.46,
-    "outperform_1m_vs_nasdaq": 18.09,
+    "outperform_1y_vs_nasdaq": 143.08,
+    "outperform_6m_vs_nasdaq": 64.59,
+    "outperform_1m_vs_nasdaq": 15.51,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "지역적 또는 세계적인 질병 발생은 당사의 사업, 재무 상태, 운영 결과 및 유동성에 중대한 부정적인 영향을 미치는 재무 및 운영상의 영향을 초래할 수 있습니다.",
+        "description": "A regional or global disease outbreak could result in financial and operational impacts that have a material adverse effect on our business, financial condition, results of operation and liquidity.",
         "severity": "medium"
       },
       {
@@ -157,7 +157,7 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러나 그러한 조치가 발생으로 인한 위험을 완화하기에 충분할 것이라는 보장은 없으며 비즈니스 운영을 성공적으로 수행하는 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "However, there is no assurance that such measures will be sufficient to mitigate the risks posed by any outbreak, and our ability to successfully execute our business operations could be adversely impacted.",
         "severity": "medium"
       },
       {
@@ -167,12 +167,12 @@
       },
       {
         "category": "10-K Item 1A",
-        "description": "법률, 규정 및 기타 요구 사항을 지속적으로 준수하거나 위반하는 경우에도 당사의 비즈니스, 재무 상태 및 운영 결과에 심각한 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Ongoing compliance with, or violation of, laws, regulations and other requirements could also have a material adverse effect on our business, financial condition and results of operations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "이러한 향후 활동은 당사의 생산 확대 능력에 부정적인 영향을 미칠 수도 있고, 당사에 대한 홍보에 해를 끼치거나 당사 제품에 대한 수요를 감소시킬 수도 있습니다.",
+        "description": "Such future activity could also adversely affect our ability to expand production, result in damaging publicity about us, or reduce demand for our products.",
         "severity": "medium"
       }
     ],
@@ -185,6 +185,6 @@
   },
   "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-12T01:22:07.041298+00:00"
+    "GoogleWebTranslator": "2026-09-15T01:33:33.542472+00:00"
   }
 }

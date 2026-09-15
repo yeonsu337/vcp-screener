@@ -1,32 +1,32 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "NTRS",
-  "generated_at": "2026-09-12T01:00:40.605561+00:00",
-  "source_results_date": "2026-09-12",
-  "verdict": "AVOID",
-  "verdict_kr": "회피",
-  "confidence": 0.2,
+  "generated_at": "2026-09-15T01:19:45.861098+00:00",
+  "source_results_date": "2026-09-15",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.81,
   "lines": [
-    "회피 — Stage 0 (≠2).",
-    "베이스 깊이 —, 마지막 수축 —, VDU —.",
-    "Minervini Trend Template 8/8 — 진입 조건 미충족.",
-    "신호 없음. 다른 종목 우선 검토."
+    "매수 대기 — Stage 2 진입, pivot $194.86 근접(-2.91%).",
+    "13주 베이스 8.6% → 7.2% 수축, VDU 0.90× 진행.",
+    "Trend Template 8/8 통과, RS 80, RS 라인 신고가 -1.8%.",
+    "$194.86 돌파 시 매수·-7% 손절($181.22)·+20%($233.83) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 194.86,
+    "stop_price": 181.22,
+    "stop_pct": -7.0,
+    "target1_price": 233.83,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "2/8",
-    "rs_rating": 79,
-    "stage": 0,
+    "vcp_quality_score": "4/8",
+    "rs_rating": 80,
+    "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
     "market_regime": "neutral"
@@ -43,9 +43,12 @@
     "R1_rs_70",
     "L1_liquidity_gate",
     "E7_roe",
-    "F1_outperform_1y"
+    "F1_outperform_1y",
+    "R2_rs_80"
   ],
   "key_failures": [
+    "P2_last_contraction (7.19% vs 6.5%)",
+    "P3_vol_dryup (0.90× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

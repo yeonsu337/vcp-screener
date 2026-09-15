@@ -4,32 +4,50 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-09-12T01:07:17.204984+00:00",
+  "generated_at": "2026-09-15T01:22:27.918511+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 70792241152,
-    "shares_outstanding": 454291461,
+    "market_cap": 72096890880,
+    "shares_outstanding": 454296736,
     "employees": 400000,
     "country": "United States",
     "website": "https://corporate.target.com",
     "beta": 0.986
   },
   "category_a_business": {
-    "overview": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed",
-    "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
+    "overview": "타겟은 미국 전역에서 다양한 상품을 판매하는 대형 소매업체로, 패션, 생활용품, 식료품 등을 제공합니다.",
+    "milestones": [
+      "1902: Target Corporation 설립 (당시 Dayton Dry Goods Company)",
+      "1946: 이익의 5%를 지역사회에 환원하는 정책 시작",
+      "1962: 첫 Target 할인 매장 오픈",
+      "1999: Target.com 런칭, 디지털 채널 확장 시작",
+      "2000년대: 디자인 및 스타일을 강조한 전략으로 차별화",
+      "2010년대: 옴니채널 전략 강화, 매장을 물류 허브로 활용"
+    ],
+    "business_model": "매장 및 디지털 채널을 통해 다양한 상품을 판매하고 광고 수익을 얻습니다.",
+    "revenue_streams": [
+      "일반 상품 판매 (의류, 전자제품, 가정용품 등)",
+      "식료품 판매",
+      "광고 수익",
+      "신용카드 이익 공유"
+    ],
+    "value_chain_position": "Downstream + 자체 브랜드 개발 및 유통, 고객에게 직접 판매하는 소매업체입니다.",
     "products": [
-      "as a general merchandise retailer in the United States",
-      "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
-      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
-      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
-      "its products through its stores"
+      "의류 및 액세서리",
+      "뷰티 및 건강용품",
+      "식품 및 음료",
+      "전자제품 및 엔터테인먼트",
+      "가정용품 및 가구",
+      "생활 필수품 및 애완용품"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2C (오프라인 매장)",
+      "D2C (Target.com 디지털 채널)",
+      "Target Plus (디지털 마켓플레이스)"
     ],
-    "wikipedia_excerpt": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
+    "key_customers": "고객 집중도는 낮음 (수많은 개인 소비자를 대상으로 함)"
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -117,72 +135,143 @@
     "roe_pct": 26.41
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 5,000 - 6,000 billion USD (미국 소매 시장 규모 추정치 기반, Target의 광범위한 상품 카테고리 및 옴니채널 전략 고려)",
+    "tam_cagr_pct": "3.0% - 4.0% (향후 3~5년) (근거: 미국 소매 시장은 꾸준한 성장세를 보이지만, 인플레이션, 소비자 지출 둔화, 온라인 전환 가속화 등의 요인으로 인해 완만한 성장이 예상됨. Target은 이러한 환경에서 시장 점유율을 유지하거나 소폭 확대할 것으로 보임.)",
+    "growth_drivers": [
+      "옴니채널 전략 강화: 매장을 풀필먼트 허브로 활용하고 디지털 채널을 확장하여 고객 편의성 및 접근성 증대.",
+      "차별화된 상품 큐레이션 및 자체 브랜드 개발: 디자인 주도적이고 트렌디한 상품 구색과 독점적인 자체 브랜드로 고객 유인.",
+      "기술 및 데이터 활용 강화: AI 기반 개인화, 재고 관리, 광고 플랫폼 등을 통해 운영 효율성 및 고객 경험 개선.",
+      "고객 경험 향상: 매장 환경 개선, 편리한 쇼핑 경험 제공, 친절한 서비스로 고객 만족도 제고.",
+      "커뮤니티 참여 및 사회적 책임: 5% 이익 환원 등 사회적 기여를 통해 브랜드 이미지 강화 및 고객 충성도 구축."
+    ],
+    "market_share_pct": "약 2.0% - 3.0% (미국 전체 소매 시장 기준, 할인점 및 대형마트 부문에서는 더 높은 점유율 예상)",
+    "competitors": [
+      {
+        "name": "Walmart",
+        "differentiation": "압도적인 규모의 경제, 저렴한 가격, 광범위한 매장 네트워크, 식료품 시장의 강자."
+      },
+      {
+        "name": "Amazon",
+        "differentiation": "온라인 유통의 선두주자, 방대한 상품 구색, 빠른 배송, 프라임 멤버십을 통한 고객 락인 효과."
+      },
+      {
+        "name": "Costco",
+        "differentiation": "회원제 창고형 할인점, 대량 구매를 통한 저렴한 가격, 고품질 자체 브랜드(Kirkland Signature)."
+      },
+      {
+        "name": "Kohl's / Macy's (백화점)",
+        "differentiation": "의류 및 가정용품 중심의 패션 지향적 상품, 브랜드 다양성, 할인 및 프로모션."
+      },
+      {
+        "name": "Dollar General / Dollar Tree (할인점)",
+        "differentiation": "초저가 상품, 소규모 매장, 주로 교외 및 농촌 지역에 집중."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (온라인 채널의 진입 장벽은 낮지만, Target과 같은 대규모 오프라인 유통망 구축 및 브랜드 인지도 확보는 어려움.)",
+      "substitutes": "high (온라인 쇼핑몰, 전문점, 식료품점, 백화점 등 다양한 대체 채널이 존재하며, 소비자는 쉽게 전환 가능.)",
+      "buyer_power": "high (소비자는 가격에 민감하고 선택지가 많으며, 온라인 리뷰 등을 통해 정보 접근성이 높아 구매 협상력이 높음.)",
+      "supplier_power": "medium (대형 유통업체는 공급업체에 대한 상당한 협상력을 가지지만, 인기 브랜드나 독점 상품의 경우 공급업체의 영향력이 커질 수 있음.)",
+      "rivalry": "high (Walmart, Amazon 등 강력한 경쟁자들이 존재하며, 가격 경쟁, 프로모션, 서비스 혁신 등을 통해 치열한 경쟁이 벌어지고 있음.)"
+    },
     "competitive_advantages": [
-      "Consumer Defensive / Discount Stores 카테고리 — yfinance peer 비교 권장"
+      "강력한 브랜드 이미지 및 고객 충성도: '즐거움'을 추구하는 브랜드 목적과 차별화된 상품 큐레이션으로 특정 고객층에 어필.",
+      "성공적인 옴니채널 전략: 매장을 풀필먼트 허브로 활용하여 온라인 주문 처리 효율성을 높이고 고객에게 편리한 옵션 제공.",
+      "디자인 주도적이고 트렌디한 상품 구색: 자체 브랜드 및 디자이너 협업을 통해 패션 및 라이프스타일 상품에서 경쟁 우위 확보.",
+      "탄탄한 재무 건전성 및 운영 효율성: 재고 관리 개선, 기술 투자 등을 통해 비용 효율성을 높이고 수익성 유지.",
+      "사회적 책임 활동: '5% 이익 환원' 등 오랜 기간 지속된 커뮤니티 참여를 통해 긍정적인 기업 이미지 구축."
+    ],
+    "competitive_weaknesses": [
+      "경기 변동 및 소비자 지출 둔화에 취약: 재량 지출 품목 비중이 높아 경제 상황에 따라 매출 변동성이 큼.",
+      "온라인 경쟁 심화: Amazon 등 온라인 전문 유통업체와의 경쟁에서 가격 및 배송 속도 측면에서 한계가 있을 수 있음.",
+      "글로벌 시장 확장 제한: 대부분의 매출이 미국 내에서 발생하여 글로벌 시장 다각화 기회가 적음.",
+      "관세 및 공급망 리스크: 수입 상품 비중이 높아 관세 변동 및 국제 공급망 문제에 취약함.",
+      "노동 시장 압력: 인건비 상승 및 인력 확보 경쟁으로 운영 비용 증가 압박."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 60.4,
+    "rs_rating": 86,
+    "score": 60.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.9383,
-    "trailing_pe": 16.164938,
-    "forward_pe": 16.330616,
+    "peg_ratio": 1.9396,
+    "trailing_pe": 16.445597,
+    "forward_pe": 16.631384,
     "ev_to_ebitda": 9.843,
-    "price_to_sales": 0.6572791,
+    "price_to_sales": 0.6693922,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 57.92,
-    "outperform_6m_vs_nasdaq": 15.34,
-    "outperform_1m_vs_nasdaq": 4.0,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 59.81,
+    "outperform_6m_vs_nasdaq": 18.48,
+    "outperform_1m_vs_nasdaq": 3.49,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "Target은 2,000개에 달하는 매장 네트워크를 활용하여 판매의 대부분을 매장에서 처리하며, 이는 빠른 배송과 비용 효율성을 제공합니다. (2025 Form 10-K, Item 7)",
+      "디지털 판매의 3분의 2가 당일 배송 옵션을 통해 처리되어 고객 편의성을 높이고 동시에 물류 비용을 절감합니다. (2025 Form 10-K, Item 7)",
+      "매장을 물류 허브로 활용하여 지난 3년간 총 상품 판매의 97% 이상을 매장에서 처리함으로써 고객에게 편의성을 제공하고 물류 비용을 절감합니다. (2025 Form 10-K, Item 1)"
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 기반 광고 플랫폼 'Precision Plus by Roundel™' 출시 및 타겟 플러스 제3자 디지털 마켓플레이스 확장",
+    "bull_case": "AI 및 데이터 기반 효율성 증대로 마진 개선, 독점 브랜드 강화로 고객 충성도 상승, 매출 및 EPS 성장 가속화.",
+    "base_case": "소비자 신중한 소비 기조 지속에도 불구하고, 타겟은 차별화된 상품 구성, 매장 기반 물류 효율성, 디지털 혁신을 통해 안정적인 매출과 수익성을 유지할 것으로 예상됩니다. 특히 AI 기반 기술 도입과 독점 브랜드 강화는 장기적인 경쟁력 확보에 기여할 것입니다. 다만, 관세 불확실성과 소비자 지출 둔화는 성장을 제한할 수 있습니다.",
+    "bear_case": "소비자 지출 둔화 심화, 관세 불확실성 장기화 및 환급 불발, 경쟁 심화로 인한 가격 압박으로 매출 성장 둔화 및 수익성 악화가 예상됩니다. 특히 재고 관리 실패 시 마진에 부정적인 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (YoY)",
+      "영업이익률 (OPM)",
+      "디지털 채널 매출 비중",
+      "재고 회전율",
+      "고객 트래픽 및 평균 구매 단가"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "The following risks, some of which have occurred and any of which may occur in the future, could materially and adversely affect our business and financial performance.",
+        "category": "경쟁",
+        "description": "경쟁사 대비 차별화에 실패하거나 디지털 전환 및 AI 기술 도입에 뒤처질 경우, 시장 점유율과 수익성이 악화될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소비자 선호도와 지출 패턴 변화를 정확히 예측하고 신속하게 대응하지 못하면, 재고 증가, 할인 판매 증가, 매출 감소로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "These are not the only risks we face and there may be other risks that could materially and adversely affect our business and financial performance.",
+        "category": "거버넌스",
+        "description": "환경, 사회, 거버넌스(ESG) 관련 목표 및 이니셔티브가 대중의 부정적인 인식을 초래하거나 논란이 될 경우, 기업 평판과 매출에 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "부정확한 정보나 선정적인 내용의 미디어 보도, 특히 AI 생성 콘텐츠로 인한 부정적인 평판은 소비자 불매운동, 직원 불안, 정부 조사 등으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "디지털 채널 확장, 제3자 판매자 플랫폼 도입, 신기술 투자 등이 예상만큼의 성과나 효율성을 내지 못하면 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Competitive and Reputational Risks If we are unable to positively differentiate ourselves from our competitors, our results of operations and financial condition could be adversely affected.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "If we fail to differentiate our guest experience from our competitors, our results of operations and financial condition could be adversely affected.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Since consumers can quickly comparison shop using digital tools, they may make decisions based solely on price or convenience, which could limit our ability to differentiate from our competitors.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "If we are unable to offset our investments in these or other initiatives with improved performance or efficiencies, our results of operations could be adversely affected.",
+        "category": "규제",
+        "description": "생성형 AI의 윤리적 문제나 비효율적인 사용, 또는 부정확하거나 논란이 되는 결과물은 기업의 평판과 경쟁력을 저해할 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "소비자 불매운동이 장기화되고 핵심 고객층이 이탈하여 매출이 급감하고, 재고 부담이 가중되어 재무 건전성이 심각하게 악화될 경우.",
+      "경쟁사들이 AI 기반의 개인화된 쇼핑 경험과 효율적인 공급망을 구축하는 동안 Target이 기술 혁신에 실패하여 시장 경쟁력을 완전히 상실할 경우.",
+      "ESG 관련 논란이 지속적으로 발생하여 기업 이미지가 회복 불능 수준으로 손상되고, 주요 공급업체 및 파트너사와의 관계가 단절될 경우.",
+      "예측 불가능한 거시 경제 변화나 소비자 행동 변화에 대한 대응 실패로 인해 대규모 재고 손실과 함께 지속적인 수익성 악화가 발생할 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "분기별 실적 발표에서 매출액 및 순이익이 2분기 연속 시장 기대치를 크게 하회하고, 가이던스가 하향 조정될 경우.",
+      "주요 경쟁사들이 AI 기반의 혁신적인 고객 경험을 성공적으로 도입하여 Target의 시장 점유율이 뚜렷하게 감소하는 추세가 나타날 경우.",
+      "ESG 관련 논란이 반복적으로 발생하여 브랜드 평판 지수가 지속적으로 하락하고, 주요 언론에서 부정적인 보도가 이어질 경우.",
+      "재고 회전율이 급격히 악화되고, 재고 자산 상각액이 크게 증가하여 수익성에 심각한 타격을 주는 재무 지표가 발표될 경우."
     ]
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-12T01:23:31.327613+00:00"
+    "GoogleWebTranslator": "2026-09-15T01:34:10.175279+00:00"
   }
 }
