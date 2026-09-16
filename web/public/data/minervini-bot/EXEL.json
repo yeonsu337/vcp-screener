@@ -1,15 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "EXEL",
-  "generated_at": "2026-09-15T01:19:45.865304+00:00",
-  "source_results_date": "2026-09-15",
+  "generated_at": "2026-09-16T01:06:17.599669+00:00",
+  "source_results_date": "2026-09-16",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.68,
   "lines": [
+    "시장 약세 — 매수 신호 자체 보류.",
     "관망 — Stage 2 진입, VCP 미숙성(수축 5회, 마지막 6.10%).",
-    "13주 베이스 6.6% → 9.2% → 5.8% → 12.3% → 6.1%, VDU 0.87×, pivot $59.72(-6.03%).",
-    "Trend Template 7/8 통과, RS 75 — 추세는 살아있음.",
+    "13주 베이스 6.6% → 9.2% → 5.8% → 12.3% → 6.1%, VDU 0.89×, pivot $59.72(-5.88%).",
+    "Trend Template 7/8 통과, RS 77 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,11 +26,11 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 75,
+    "rs_rating": 77,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -47,11 +48,11 @@
     "P2_last_contraction"
   ],
   "key_failures": [
-    "P3_vol_dryup (0.87× vs 0.6×)",
+    "P3_vol_dryup (0.89× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "Trend Template fail: B5_sma200_rising_5mo"
   ],
   "warnings": [
-    "RS 75 — Minervini 선호 80+ 미달, 강도 평균"
+    "RS 77 — Minervini 선호 80+ 미달, 강도 평균"
   ]
 }

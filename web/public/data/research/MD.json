@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-15T01:25:35.040499+00:00",
+  "generated_at": "2026-09-16T01:11:43.693142+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2186525440,
+    "market_cap": 2168649984,
     "shares_outstanding": 81253271,
     "employees": 4280,
     "country": "United States",
@@ -17,16 +17,35 @@
     "beta": 0.648
   },
   "category_a_business": {
-    "overview": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States. The company offers clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, through its network of affiliated neonatal physician subspecialists, neonatal nurse practitioners, and other pediatric clinicians; and inpatient and office-based clinical care to expectant mothers and unborn babies through its affiliated maternal-fetal medicine subspecialists, obstetricians and oth",
-    "business_model": "Pediatrix Medical Group, Inc., together with its subsidiaries, provides newborn, maternal-fetal, and other pediatric subspecialty care services in the United States.",
+    "overview": "Pediatrix Medical Group은 미국에서 신생아, 산모-태아 및 기타 소아 전문 의료 서비스를 제공하는 기업입니다.",
+    "milestones": [
+      "1979: Pediatrix Medical Group 설립",
+      "1995: 나스닥 상장 (티커: PDX)",
+      "2007: American Anesthesiology 인수, 서비스 확장",
+      "2015: MEDNAX로 사명 변경, 다양한 전문 분야 통합",
+      "2020: Anesthesia 및 Radiology 사업부 매각, 핵심 사업 집중",
+      "2022: Pediatrix Medical Group으로 사명 재변경, 소아과 전문성 강조"
+    ],
+    "business_model": "병원 및 외래 진료소에서 전문 의료 서비스를 제공하고 보험사 및 환자에게서 수익을 창출합니다.",
+    "revenue_streams": [
+      "신생아 집중 치료 서비스 (NICU)",
+      "산모-태아 의학 서비스",
+      "기타 소아 전문 의료 서비스 (소아 중환자, 소아 병원 전문의 등)",
+      "신생아 청력 검사 프로그램"
+    ],
+    "value_chain_position": "Downstream + 병원 및 외래 진료소에서 환자에게 직접 의료 서비스를 제공합니다.",
     "products": [
-      "newborn, maternal-fetal, and other pediatric subspecialty care services in the United States",
-      "clinical care to babies born prematurely or with complications within specific units at hospitals, primarily NICUs, thro",
-      "other pediatric subspecialty care, including pediatric intensivists, pediatric hospitalists, and pediatric surgeons"
+      "신생아 집중 치료",
+      "산모-태아 의학",
+      "소아 중환자 치료",
+      "소아 병원 전문의 서비스",
+      "신생아 청력 검사"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (병원과의 계약)",
+      "B2C (외래 진료소 환자)"
+    ],
+    "key_customers": "주로 병원 시스템과 계약을 통해 서비스를 제공하며, 특정 고객에 대한 매출 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 0.2,
@@ -125,20 +144,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 54.9,
+    "rs_rating": 79,
+    "score": 55.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.24,
-    "trailing_pe": 12.875599,
-    "forward_pe": 11.030225,
-    "ev_to_ebitda": 8.911,
-    "price_to_sales": 1.1209358,
+    "trailing_pe": 12.770336,
+    "forward_pe": 10.940049,
+    "ev_to_ebitda": 8.845,
+    "price_to_sales": 1.1117718,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.76,
-    "outperform_6m_vs_nasdaq": 19.1,
-    "outperform_1m_vs_nasdaq": 3.32,
+    "outperform_1y_vs_nasdaq": 40.86,
+    "outperform_6m_vs_nasdaq": 21.45,
+    "outperform_1m_vs_nasdaq": 4.84,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -183,6 +202,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-15T01:33:52.732567+00:00"
+    "GoogleWebTranslator": "2026-09-16T01:20:56.253596+00:00"
   }
 }

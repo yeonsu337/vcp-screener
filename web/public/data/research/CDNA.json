@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-09-15T01:26:37.262986+00:00",
+  "generated_at": "2026-09-16T01:10:32.289445+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 2709321216,
+    "market_cap": 2723289600,
     "shares_outstanding": 51734223,
     "employees": 761,
     "country": "United States",
@@ -17,18 +17,34 @@
     "beta": 2.43
   },
   "category_a_business": {
-    "overview": "CareDx, Inc. provides solutions for improving outcomes for transplant patients and advancing organ health in the United States and internationally. The company provides AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients; AlloMap Heart, a gene expression profiling solution for heart transplant patients; AlloSure Heart, a dd-cfDNA solution for heart transplant patients; and AlloSure Lung, a dd-cfDNA solution for lung transplant patients.",
-    "business_model": "CareDx, Inc.",
+    "overview": "CareDx는 이식 환자의 예후 개선 및 장기 건강 증진을 위한 정밀 의학 솔루션을 제공합니다.",
+    "milestones": [
+      "1998: Hippocratic Engineering, Inc.로 설립",
+      "1999: BioCardia, Inc.로 사명 변경",
+      "2002: Expression Diagnostics, Inc.로 사명 변경",
+      "2007: XDx, Inc.로 사명 변경",
+      "2014: CareDx, Inc.로 사명 변경"
+    ],
+    "business_model": "이식 센터에 비침습적 분자 진단 검사, 실험실 제품, 디지털 헬스 솔루션을 판매합니다.",
+    "revenue_streams": [
+      "분자 진단 검사 서비스 (dd-cfDNA, 유전자 발현 프로파일링)",
+      "이식 환자 관리 소프트웨어 (Ottr)",
+      "HLA 타이핑 제품 (QTYPE, Olerup SSP)",
+      "조직 생검 분석 솔루션 (HistoMap Kidney)",
+      "백혈병 재발 모니터링 테스트 (AlloHeme)"
+    ],
+    "value_chain_position": "Downstream + 이식 환자 진단 및 관리 솔루션을 최종 의료기관에 직접 제공합니다.",
     "products": [
-      "solutions for improving outcomes for transplant patients and advancing organ health in the United States and internatio",
-      "AlloSure Kidney, a donor-derived cell-free DNA (dd-cfDNA) solution for kidney transplant patients",
-      "HeartCare, which provides information about distinct biological processes, such as immune quiescence, active injury, acu",
-      "QTYPE that enables precision in human leukocyte antigen (HLA) typing",
-      "AlloSeq Tx, a high-resolution HLA typing solutio"
+      "AlloSure Kidney/Heart/Lung (dd-cfDNA)",
+      "AlloMap Heart (유전자 발현 프로파일링)",
+      "HeartCare (심장 이식 모니터링)",
+      "Ottr (이식 환자 관리 소프트웨어)",
+      "QTYPE / Olerup SSP (HLA 타이핑)"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (이식 센터, 병원)"
+    ],
+    "key_customers": "이식 센터에 집중하여 여러 솔루션을 교차 판매하는 전략을 사용합니다."
   },
   "category_b_financials": {
     "roe": 0.29,
@@ -120,28 +136,70 @@
     "roe_pct": 29.49
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "5-10 billion USD (estimate) + 장기 이식 환자 진단 및 모니터링 시장 규모 추정 (심장, 신장, 폐 이식 포함)",
+    "tam_cagr_pct": "10-15% (estimate) + 장기 이식 건수 증가, 비침습적 진단 기술 발전, 이식 후 환자 관리 중요성 증대",
+    "growth_drivers": [
+      "장기 이식 건수의 지속적인 증가 및 이식 후 환자 관리의 중요성 증대",
+      "비침습적 분자 진단 기술의 발전과 임상 적용 확대",
+      "디지털 헬스 및 데이터 기반 솔루션을 통한 이식 센터 운영 효율성 개선 및 새로운 서비스 창출",
+      "이식 환자 맞춤형 정밀 의학 솔루션에 대한 수요 증가",
+      "기존 고객(이식 센터)에 대한 교차 판매 및 신제품 출시를 통한 상업 채널 활용 극대화"
+    ],
+    "market_share_pct": "20-30% (estimate) + 유전체 기반 이식 환자 정보 제공 분야의 선두 주자임을 감안",
+    "competitors": [
+      {
+        "name": "Natera (Prospera)",
+        "differentiation": "신장 이식 거부 반응 모니터링을 위한 cfDNA 검사 제공, 광범위한 진단 포트폴리오"
+      },
+      {
+        "name": "Eurofins Viracor (TruGraf)",
+        "differentiation": "신장 이식 거부 반응 진단을 위한 유전자 발현 프로파일링 검사 제공"
+      },
+      {
+        "name": "Thermo Fisher Scientific (Transplant Diagnostics)",
+        "differentiation": "이식 전후 진단 및 모니터링을 위한 광범위한 제품 포트폴리오 (HLA 타이핑, 면역억제제 모니터링 등)"
+      },
+      {
+        "name": "Guardant Health (oncology focus, but potential for cfDNA in other areas)",
+        "differentiation": "액체 생검 기술의 선두 주자, 암 분야에 집중하나 cfDNA 기술의 확장 가능성"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 분자 진단 기술 개발 및 임상 검증에 높은 R&D 투자와 규제 승인이 필요하지만, LDT 모델은 진입 장벽을 낮출 수 있음.",
+      "substitutes": "medium + 조직 생검과 같은 침습적 진단 방법이 여전히 존재하며, 다른 비침습적 바이오마커 기반 진단법이 개발될 수 있음.",
+      "buyer_power": "medium + 이식 센터는 진단 서비스 제공업체를 선택할 수 있는 권한이 있으며, 전환 비용이 낮아 가격 및 서비스 품질에 민감할 수 있음.",
+      "supplier_power": "low + 핵심 시약 및 장비 공급업체는 다양하며, 특정 공급업체에 대한 의존도가 높지 않음.",
+      "rivalry": "high + Natera 등 강력한 경쟁자들이 존재하며, 신기술 개발 및 시장 점유율 확보를 위한 경쟁이 치열함."
+    },
     "competitive_advantages": [
-      "Healthcare / Diagnostics & Research 카테고리 — yfinance peer 비교 권장"
+      "장기 이식 분야에 특화된 통합 솔루션 포트폴리오 (비침습적 분자 검사, 실험실 제품, 디지털 헬스, 환자 솔루션)",
+      "유전체 기반 이식 환자 정보 제공 분야의 선두 주자로서의 시장 리더십",
+      "이식 센터에 대한 깊은 이해와 맞춤형 솔루션 제공 (직원 보강 서비스, 운영 효율성 개선)",
+      "동일 이식 센터에 대한 교차 판매 전략을 통한 낮은 고객 확보 비용 및 상업 채널 활용 극대화",
+      "디지털 비즈니스를 통한 방대한 데이터 축적 및 이를 활용한 혁신적인 제품 및 솔루션 개발 잠재력"
+    ],
+    "competitive_weaknesses": [
+      "LDT(Laboratory Developed Test) 모델의 수익성 확보 어려움 및 높은 R&D 비용",
+      "경쟁사의 강력한 마케팅 및 영업 활동에 대한 대응 필요성",
+      "규제 환경 변화에 대한 지속적인 모니터링 및 대응 필요",
+      "매출의 상당 부분이 미국과 유럽에 집중되어 있어 지역적 다각화 필요성"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 98,
-    "score": 65.0,
+    "score": 68.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 25.177885,
-    "forward_pe": 39.41832,
-    "ev_to_ebitda": 189.41,
-    "price_to_sales": 5.914399,
+    "trailing_pe": 25.307693,
+    "forward_pe": 39.621548,
+    "ev_to_ebitda": 190.533,
+    "price_to_sales": 5.944892,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 258.25,
-    "outperform_6m_vs_nasdaq": 187.07,
-    "outperform_1m_vs_nasdaq": 8.54,
+    "outperform_1y_vs_nasdaq": 269.72,
+    "outperform_6m_vs_nasdaq": 191.75,
+    "outperform_1m_vs_nasdaq": 13.33,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -186,6 +244,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-15T01:33:09.286014+00:00"
+    "GoogleWebTranslator": "2026-09-16T01:20:16.573162+00:00"
   }
 }

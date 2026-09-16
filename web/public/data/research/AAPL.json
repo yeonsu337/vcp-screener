@@ -4,47 +4,65 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Consumer Electronics",
-  "generated_at": "2026-07-15T00:12:02.528341+00:00",
+  "generated_at": "2026-09-16T01:07:36.599082+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4624460808192,
-    "shares_outstanding": 14687356000,
-    "employees": 166000,
+    "market_cap": 4835635625984,
+    "shares_outstanding": 14594180000,
+    "employees": 150000,
     "country": "United States",
     "website": "https://www.apple.com",
-    "beta": 1.097
+    "beta": 1.085
   },
   "category_a_business": {
-    "overview": "Apple Inc.는 전 세계적으로 스마트폰, 개인용 컴퓨터, 태블릿, 웨어러블 및 액세서리를 설계, 제조 및 판매합니다. 이 회사는 스마트폰 제품군인 iPhone을 제공합니다. 개인용 컴퓨터 제품군인 Mac; 다목적 태블릿 제품군인 iPad; AirPods, Apple Vision Pro, Apple TV, Apple Watch, Beats 제품, HomePod 등으로 구성된 웨어러블, 홈, 액세서리는 물론 Apple 브랜드 및 타사 액세서리도 포함됩니다.",
-    "business_model": "애플 주식회사",
+    "overview": "Apple Inc.는 스마트폰, PC, 태블릿, 웨어러블 및 서비스를 설계, 제조, 판매하는 글로벌 기술 기업입니다.",
+    "milestones": [
+      "1976: 스티브 잡스, 스티브 워즈니악, 로널드 웨인에 의해 Apple Computer Company 설립",
+      "1977: Apple Computer, Inc.로 법인 설립",
+      "1984: 매킨토시 출시",
+      "2001: iPod 출시 및 iTunes Store 오픈",
+      "2007: iPhone 출시 및 회사명을 Apple Inc.로 변경",
+      "2010: iPad 출시",
+      "2014: Apple Watch 출시",
+      "2023: Apple Vision Pro 공개"
+    ],
+    "business_model": "하드웨어, 소프트웨어, 서비스의 통합 생태계를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "iPhone 판매",
+      "Mac 및 iPad 판매",
+      "웨어러블, 홈 및 액세서리 판매",
+      "App Store 및 디지털 콘텐츠",
+      "AppleCare 및 클라우드 서비스",
+      "광고 및 결제 서비스"
+    ],
+    "value_chain_position": "Downstream + 제품 설계부터 최종 소비자 판매까지 통합적인 가치 사슬을 구축합니다.",
     "products": [
-      "아이폰, 스마트폰 계열",
-      "AppleCare 지원 및 클라우드 서비스",
-      "고객이 애플리케이션과 디지털 콘텐츠를 검색하고 다운로드할 수 있는 App Store를 포함한 다양한 플랫폼",
-      "게임 구독 서비스인 Apple 아케이드 등 다양한 구독 기반 서비스",
-      "주문형 라디오 방송국을 통해 사용자에게 선별된 청취 경험 제공"
+      "iPhone",
+      "Mac",
+      "iPad",
+      "Apple Watch",
+      "AirPods",
+      "Apple Vision Pro"
     ],
     "channels": [
-      "B2C / 소매"
+      "D2C (직영 소매점 및 온라인 스토어)",
+      "B2C (직접 판매)",
+      "도매 (이동통신사 및 리셀러)"
     ],
-    "wikipedia_excerpt": "Apple Inc.는 캘리포니아주 쿠퍼티노, 실리콘 밸리에 본사를 두고 있으며 가전제품, 소프트웨어 및 온라인 서비스로 유명한 미국의 다국적 기술 회사입니다. 1976년 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 애플 컴퓨터 컴퍼니(Apple Computer Company)로 설립한 이 회사는 이듬해 잡스와 워즈니악에 의해 애플 컴퓨터(Apple Computer, Inc.)로 통합되었습니다. 현재 회사 이름은 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서 2007년에 채택되었습니다. Apple은 Big Tech 회사 중 하나입니다.",
-    "milestones": [
-      "1976년: 스티브 잡스, 스티브 워즈니악, 로널드 웨인이 Apple 컴퓨터 회사로 법인 설립",
-      "2007년: 회사가 컴퓨터에서 가전제품으로 사업 영역을 확장하면서"
-    ]
+    "key_customers": "고객 집중도는 낮음. 주로 일반 소비자, 중소기업, 교육기관, 기업 및 정부 시장에 분산되어 있습니다."
   },
   "category_b_financials": {
-    "roe": 1.41,
-    "roa": 0.26,
-    "profit_margin": 0.27,
-    "operating_margin": 0.32,
-    "gross_margin": 0.48,
-    "revenue_growth_ttm": 0.17,
-    "earnings_growth_ttm": 0.22,
-    "dividend_yield": 0.34,
-    "payout_ratio": 0.13,
+    "roe": 1.49,
+    "roa": 0.27,
+    "profit_margin": 0.28,
+    "operating_margin": 0.33,
+    "gross_margin": 0.49,
+    "revenue_growth_ttm": 0.16,
+    "earnings_growth_ttm": 0.29,
+    "dividend_yield": 0.32,
+    "payout_ratio": 0.12,
     "annual_revenue": [
       416161000000.0,
       391035000000.0,
@@ -95,98 +113,166 @@
       "2021-09-30"
     ],
     "quarterly_eps": [
+      2.02,
       2.01,
       2.84,
       1.85,
-      1.57,
-      1.65
+      1.57
     ],
     "quarterly_revenue": [
+      109417000000.0,
       111184000000.0,
       143756000000.0,
       102466000000.0,
-      94036000000.0,
-      95359000000.0
+      94036000000.0
     ],
     "quarterly_periods": [
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
+      "2025-06-30"
     ],
-    "eps_qoq_yoy_pct": 19.4,
-    "sales_yoy_pct": 16.6,
+    "eps_qoq_yoy_pct": 27.1,
+    "sales_yoy_pct": 16.4,
     "ni_cagr_3y_pct": 3.92,
-    "roe_pct": 141.47
+    "roe_pct": 148.75
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2,000-2,500 billion (estimate) - 글로벌 소비자 가전 시장 (스마트폰, PC, 태블릿, 웨어러블 등) 및 디지털 서비스 시장을 종합적으로 고려한 추정치. 스마트폰 시장 약 500B, PC/태블릿 약 300B, 웨어러블 약 100B, 서비스 시장 약 1,000B 이상으로 구성.",
+    "tam_cagr_pct": "5-7% (estimate) - 스마트폰 시장의 성숙에도 불구하고, 웨어러블 및 공간 컴퓨팅(Apple Vision Pro)과 같은 신규 하드웨어 카테고리의 성장, 그리고 구독 기반 서비스(Apple Music, Apple TV+, Apple Arcade, Apple Fitness+ 등)의 지속적인 확장이 TAM 성장을 견인할 것으로 예상됨.",
+    "growth_drivers": [
+      "서비스 부문 확장: App Store, Apple Music, Apple TV+, Apple Pay 등 구독 및 디지털 콘텐츠 서비스의 지속적인 성장.",
+      "신규 하드웨어 카테고리 개척: Apple Vision Pro와 같은 공간 컴퓨팅 기기를 통한 새로운 시장 창출 및 선점.",
+      "생태계 Lock-in 효과 강화: iOS, macOS, watchOS 등 통합된 운영체제와 하드웨어 간의 시너지로 사용자 충성도 증대.",
+      "글로벌 시장 확대: 특히 인도, 중동, 아프리카 등 신흥 시장에서의 제품 및 서비스 침투율 증가.",
+      "프리미엄 제품 전략: 고가 제품군을 통한 높은 마진 유지 및 브랜드 가치 강화."
+    ],
+    "market_share_pct": "20-25% (estimate) - 글로벌 스마트폰 시장 점유율 기준 (프리미엄 시장에서는 훨씬 높음). PC, 태블릿, 웨어러블 시장에서도 상당한 점유율을 차지하고 있음.",
+    "competitors": [
+      {
+        "name": "Samsung Electronics",
+        "differentiation": "다양한 가격대의 안드로이드 기반 스마트폰, 태블릿, 웨어러블 제품군, 가전제품과의 연동성, 자체 부품 생산 능력."
+      },
+      {
+        "name": "Google (Pixel, Android OS)",
+        "differentiation": "안드로이드 OS 생태계의 지배력, AI 기반 서비스 통합, 자체 하드웨어(Pixel 폰, Nest 등)를 통한 생태계 확장."
+      },
+      {
+        "name": "Microsoft (Surface, Windows OS)",
+        "differentiation": "기업 시장에서의 강력한 입지, Windows OS 기반의 PC 및 태블릿, 클라우드 서비스(Azure)와의 연동성."
+      },
+      {
+        "name": "Xiaomi / Huawei (중국 제조사)",
+        "differentiation": "가성비 높은 다양한 제품 라인업, 신흥 시장에서의 강력한 브랜드 인지도, 빠른 제품 출시 주기."
+      },
+      {
+        "name": "Sony / Bose (오디오/웨어러블)",
+        "differentiation": "오디오 기술 전문성, 특정 니치 시장(고음질 오디오, 노이즈 캔슬링 헤드폰)에서의 강점."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - 막대한 자본 투자, 기술력, 브랜드 인지도, 기존 생태계 구축의 어려움으로 신규 진입 장벽이 매우 높음.",
+      "substitutes": "medium - 스마트폰, PC 등 핵심 제품은 대체재가 제한적이나, 특정 서비스(스트리밍, 게임 등)는 다양한 플랫폼에서 대체 가능하며, 공간 컴퓨팅과 같은 신기술은 잠재적 대체재가 될 수 있음.",
+      "buyer_power": "medium - 소비자는 다양한 브랜드와 운영체제 중에서 선택할 수 있는 권한이 있으나, Apple 생태계에 락인된 사용자는 전환 비용이 높아 구매자 교섭력이 약화됨.",
+      "supplier_power": "medium - 핵심 부품(반도체, 디스플레이 등) 공급업체는 제한적이지만, Apple의 대규모 구매력과 자체 칩 설계 능력으로 공급자 교섭력을 일정 부분 상쇄함.",
+      "rivalry": "high - 삼성, 구글, 마이크로소프트 등 글로벌 대기업들과의 치열한 경쟁, 특히 스마트폰 시장의 성숙으로 인한 점유율 경쟁 심화."
+    },
     "competitive_advantages": [
-      "Technology / Consumer Electronics 카테고리 — yfinance peer 비교 권장"
+      "강력한 브랜드 충성도 및 프리미엄 이미지: 높은 브랜드 가치와 고객 충성도를 바탕으로 높은 가격 책정 가능.",
+      "통합된 하드웨어-소프트웨어-서비스 생태계: iOS, macOS 등 자체 OS와 하드웨어, 서비스 간의 유기적인 연동으로 사용자 경험 극대화 및 락인 효과.",
+      "혁신적인 제품 디자인 및 사용자 경험: 미니멀리즘 디자인, 직관적인 UI/UX로 차별화된 사용자 경험 제공.",
+      "글로벌 유통 및 서비스 네트워크: 전 세계적인 Apple Store 및 공인 서비스 센터를 통한 강력한 고객 지원.",
+      "막대한 현금 보유량 및 R&D 투자: 신기술 개발 및 인수합병을 위한 충분한 자원 확보."
+    ],
+    "competitive_weaknesses": [
+      "높은 가격 정책: 일부 시장 및 소비자층에게는 접근성이 떨어질 수 있는 높은 제품 가격.",
+      "폐쇄적인 생태계: 타사 제품 및 서비스와의 호환성 제한으로 인한 사용자 불편 초래 가능성.",
+      "중국 시장 의존도: 생산 및 판매 측면에서 중국 시장에 대한 높은 의존도로 지정학적 리스크에 취약.",
+      "혁신 속도 둔화 우려: 스마트폰 시장의 성숙으로 인한 제품 혁신 동력 둔화 가능성.",
+      "규제 리스크: App Store 수수료, 반독점 규제 등 전 세계적인 정부 규제 강화에 대한 노출."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 71,
-    "score": 61.4,
+    "rs_rating": 77,
+    "score": 59.1,
     "vcp_quality": 0.0,
-    "stage": 0,
-    "stage_name": "Unknown",
-    "peg_ratio": 2.5639,
-    "trailing_pe": 38.16485,
-    "forward_pe": 32.72694,
-    "ev_to_ebitda": 29.233,
-    "price_to_sales": 10.243753,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.6745,
+    "trailing_pe": 37.95418,
+    "forward_pe": 34.57635,
+    "ev_to_ebitda": 28.921,
+    "price_to_sales": 10.358606,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 22.88,
-    "outperform_6m_vs_nasdaq": 11.33,
-    "outperform_1m_vs_nasdaq": 5.35,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 27.99,
+    "outperform_6m_vs_nasdaq": 17.28,
+    "outperform_1m_vs_nasdaq": 11.91,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets | Switching Costs | Network Effect",
+    "moat_evidence": [
+      "Apple의 iOS, macOS, iPadOS, watchOS, visionOS, tvOS 등 독점적인 운영체제와 강력한 브랜드 인지도는 무형 자산 해자를 구축합니다.",
+      "iPhone, Mac, iPad, Apple Watch, AirPods, Apple Vision Pro 등 다양한 제품 라인업과 AppleCare, iCloud, App Store, Apple Music, Apple TV+ 등 서비스 생태계는 고객의 전환 비용을 높입니다.",
+      "App Store를 통한 방대한 앱 생태계와 Apple Pay, Apple Card 등 결제 서비스는 사용자 기반을 강화하고 네트워크 효과를 창출합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "Apple Vision Pro 출시 및 서비스 생태계 확장 가속화",
+    "bull_case": "Vision Pro의 성공적인 시장 안착과 서비스 매출 성장이 가속화되어 EPS가 두 자릿수 성장",
+    "base_case": "아이폰 판매량 둔화에도 불구하고 서비스 부문이 꾸준히 성장하며 전체 매출 및 EPS 성장률을 견인할 것으로 예상됩니다. 신제품 Vision Pro의 초기 시장 반응은 긍정적이나, 대중화까지는 시간이 소요될 것입니다.",
+    "bear_case": "글로벌 경기 침체 심화로 인한 소비 위축과 지정학적 리스크(미중 무역 갈등, 관세 인상)로 인해 제품 판매량이 급감하고, 서비스 성장률마저 둔화될 경우 실적 악화가 예상됩니다.",
+    "key_metrics_to_watch": [
+      "서비스 매출 성장률",
+      "Apple Vision Pro 판매량 및 사용자 증가율",
+      "글로벌 스마트폰 시장 점유율 변화",
+      "총 마진율 (Gross Margin)"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "위험요소 다음은 회사의 사업, 평판, 영업결과, 재무상태 및 주가에 중대한 부정적 영향을 미칠 수 있는 요소를 요약한 것입니다.",
+        "category": "거시",
+        "description": "글로벌 및 지역 경제 상황 악화(경기 침체, 인플레이션, 고금리 등)는 소비자 지출에 부정적인 영향을 미쳐 제품 및 서비스 수요를 감소시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 복잡성과 해외 의존도가 높아 정치적 사건, 무역 분쟁, 지정학적 긴장, 자연재해 등으로 인해 공급망이 심각하게 중단될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "관세 및 기타 무역 제한 조치는 제품 및 부품의 비용을 증가시키거나 가용성을 제한하여 사업 운영에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "회사는 이러한 위험을 정확하게 예측, 통제 또는 완화하지 못할 수도 있습니다.",
+        "category": "거시",
+        "description": "국제 무역 분쟁 및 지정학적 긴장 고조는 거시 경제 환경에 악영향을 미치고 소비자 심리 및 지출 감소로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "아래 설명된 위험과 불확실성은 완전한 것이 아니며 회사가 직면했거나 미래에 직면할 수 있는 모든 잠재적 위험이나 불확실성에 대한 완전한 설명으로 간주되어서는 안 됩니다.",
-        "severity": "medium"
+        "category": "공급망",
+        "description": "주요 제조 및 조립 시설이 특정 지역(주로 중국 본토)에 집중되어 있어 해당 지역의 정치적 불안정, 자연재해, 공중 보건 문제 발생 시 큰 위험에 노출됩니다.",
+        "severity": "high"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "이러한 제한 사항은 사전 통지가 거의 또는 전혀 없이 발표될 수 있어 불확실성이 발생할 수 있으며, 회사는 그러한 조치로 인한 부정적인 영향의 일부 또는 전부를 효과적으로 완화하지 못할 수도 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "회사는 특정 유형의 손실에 대해 보험 보장을 유지하지만, 그러한 보험 보장은 발생할 수 있는 모든 손실을 보장하기에 충분하지 않을 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "회사 제품 및 서비스에 대한 글로벌 시장은 경쟁이 치열하고 기술 변화가 급속히 진행되므로 회사가 이러한 시장에서 효과적으로 경쟁하지 못할 수도 있습니다.",
+        "category": "재무",
+        "description": "경제 상황 악화는 무역 채권의 신용 및 회수 위험을 증가시키고, 파생상품 거래 상대방의 부실, 유동성 감소 등으로 이어질 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "주요 제조 파트너가 위치한 국가(예: 중국)와의 심각한 지정학적 갈등으로 인해 핵심 부품 공급이 완전히 중단되고 대체 공급망 구축이 불가능해지는 경우.",
+      "글로벌 경기 침체가 장기화되어 전 세계적으로 소비자 구매력이 급감하고, 애플 제품에 대한 수요가 회복 불가능한 수준으로 감소하는 경우.",
+      "주요 시장에서 반독점 규제 및 엄격한 데이터 프라이버시 법규가 강화되어 사업 모델에 근본적인 변화가 강요되고 수익성이 크게 악화되는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "중국 정부가 애플의 주요 제조 파트너에 대해 생산 중단 명령을 내리거나, 핵심 부품 수출을 전면 금지하는 조치를 발표하는 경우.",
+      "글로벌 스마트폰 시장 점유율이 20% 미만으로 지속적으로 하락하고, 서비스 부문 성장률이 한 자릿수로 둔화되는 분기별 실적 발표.",
+      "미국 또는 유럽연합이 애플의 앱스토어 정책에 대해 심각한 반독점 위반 판결을 내리고, 사업 모델에 치명적인 영향을 미칠 수 있는 강제적인 변경을 명령하는 경우."
     ]
   },
   "wikipedia_summary": "Apple Inc. is an American multinational technology company headquartered in Cupertino, California, in Silicon Valley, and known for consumer electronics, software and online services. Founded in 1976 as Apple Computer Company by Steve Jobs, Steve Wozniak and Ronald Wayne, the company was incorporated by Jobs and Wozniak as Apple Computer, Inc. the following year. Its current name was adopted in 2007 as the company expanded its focus from computers to consumer electronics. Apple is one of the Big Tech companies.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-15T01:32:58.392209+00:00"
+    "GoogleWebTranslator": "2026-09-16T01:20:10.099112+00:00"
   }
 }

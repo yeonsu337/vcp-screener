@@ -1,23 +1,24 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "NTRS",
-  "generated_at": "2026-09-15T01:19:45.861098+00:00",
-  "source_results_date": "2026-09-15",
+  "ticker": "AAPL",
+  "generated_at": "2026-09-16T01:06:17.598438+00:00",
+  "source_results_date": "2026-09-16",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.81,
+  "confidence": 0.8,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot $194.86 근접(-2.91%).",
-    "13주 베이스 8.6% → 7.2% 수축, VDU 0.90× 진행.",
-    "Trend Template 8/8 통과, RS 80, RS 라인 신고가 -1.8%.",
-    "$194.86 돌파 시 매수·-7% 손절($181.22)·+20%($233.83) 절반 익절."
+    "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
+    "매수 대기 — Stage 2 진입, pivot $344.27 근접(-3.25%).",
+    "13주 베이스 9.5% → 4.7% → 12.9% → 6.3% 수축, VDU 1.09× 진행.",
+    "Trend Template 8/8 통과, RS 77, RS 라인 신고가 -5.5%.",
+    "$344.27 돌파 시 매수·-7% 손절($320.17)·+20%($413.12) 절반 익절."
   ],
   "action": {
     "entry_type": "pivot_breakout",
-    "entry_price": 194.86,
-    "stop_price": 181.22,
+    "entry_price": 344.27,
+    "stop_price": 320.17,
     "stop_pct": -7.0,
-    "target1_price": 233.83,
+    "target1_price": 413.12,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
@@ -25,11 +26,11 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 80,
+    "rs_rating": 77,
     "stage": 2,
     "base_count": 2,
     "late_base_warning": false,
-    "market_regime": "neutral"
+    "market_regime": "bear"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -44,13 +45,15 @@
     "L1_liquidity_gate",
     "E7_roe",
     "F1_outperform_1y",
-    "R2_rs_80"
+    "P2_last_contraction"
   ],
   "key_failures": [
-    "P2_last_contraction (7.19% vs 6.5%)",
-    "P3_vol_dryup (0.90× vs 0.6×)",
+    "P3_vol_dryup (1.09× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)"
+    "H4_ni_cagr_3y (NI CAGR 미달)",
+    "rs_line (-5.5% vs ≥-5.0%)"
   ],
-  "warnings": []
+  "warnings": [
+    "RS 77 — Minervini 선호 80+ 미달, 강도 평균"
+  ]
 }

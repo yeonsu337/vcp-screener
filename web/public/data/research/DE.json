@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-15T01:32:57.007416+00:00",
+  "generated_at": "2026-09-16T01:19:04.321095+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 183738941440,
+    "market_cap": 184434556928,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.25,
     "revenue_growth_ttm": -0.11,
     "earnings_growth_ttm": -0.09,
-    "dividend_yield": 0.96,
+    "dividend_yield": 0.95,
     "payout_ratio": 0.36,
     "annual_revenue": [
       44665000000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 53.1,
+    "rs_rating": 80,
+    "score": 54.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.568,
-    "trailing_pe": 37.922096,
-    "forward_pe": 30.010231,
-    "ev_to_ebitda": 25.975,
-    "price_to_sales": 3.833725,
+    "peg_ratio": 1.5812,
+    "trailing_pe": 38.023346,
+    "forward_pe": 30.123848,
+    "ev_to_ebitda": 26.056,
+    "price_to_sales": 3.848239,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 26.36,
-    "outperform_6m_vs_nasdaq": -2.48,
-    "outperform_1m_vs_nasdaq": 11.33,
+    "outperform_1y_vs_nasdaq": 27.47,
+    "outperform_6m_vs_nasdaq": 2.53,
+    "outperform_1m_vs_nasdaq": 14.08,
     "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-15T01:33:24.554322+00:00"
+    "GoogleWebTranslator": "2026-09-16T01:20:27.362249+00:00"
   }
 }

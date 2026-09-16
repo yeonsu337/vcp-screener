@@ -1,0 +1,280 @@
+{
+  "ticker": "KO",
+  "company": "The Coca-Cola Company",
+  "market": "US",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
+  "generated_at": "2026-09-16T01:08:20.860212+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 381679108096,
+    "shares_outstanding": 4302549243,
+    "employees": 65900,
+    "country": "United States",
+    "website": "https://www.coca-colacompany.com",
+    "beta": 0.342
+  },
+  "category_a_business": {
+    "overview": "코카콜라는 미국에 본사를 둔 다국적 음료 기업으로, 다양한 무알코올 음료를 제조, 판매, 마케팅합니다.",
+    "milestones": [
+      "1886: 존 펨버턴 박사가 코카콜라를 발명",
+      "1892: 코카콜라 컴퍼니 설립",
+      "1899: 최초의 보틀링 계약 체결",
+      "1916: 코카콜라 컨투어 병 디자인 도입",
+      "1960: 스프라이트 출시",
+      "1982: 다이어트 코크 출시",
+      "2007: 코카콜라 제로 슈거 출시",
+      "2018: 코스타 커피 인수"
+    ],
+    "business_model": "음료 원액 및 시럽을 제조, 판매하고 완제품 음료를 유통하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "음료 원액 및 시럽 판매",
+      "완제품 음료 판매",
+      "라이선스 및 프랜차이즈 수수료",
+      "커피 사업 (코스타)"
+    ],
+    "value_chain_position": "Midstream + 음료 원액 및 시럽 제조에 집중하며 보틀링 파트너와 협력합니다.",
+    "products": [
+      "코카콜라 (탄산음료)",
+      "스프라이트 (탄산음료)",
+      "환타 (탄산음료)",
+      "미닛메이드 (주스)",
+      "다사니 (생수)",
+      "코스타 (커피)"
+    ],
+    "channels": [
+      "B2B (보틀링 파트너, 유통업체, 도매업체)",
+      "B2C (소매점, 레스토랑, 편의점)",
+      "자판기"
+    ],
+    "key_customers": "고객 집중도가 낮음 (다수의 보틀링 파트너 및 유통 채널을 통해 광범위한 최종 소비자에게 도달)"
+  },
+  "category_b_financials": {
+    "roe": 0.42,
+    "roa": 0.09,
+    "profit_margin": 0.29,
+    "operating_margin": 0.35,
+    "gross_margin": 0.62,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": 0.17,
+    "dividend_yield": 2.37,
+    "payout_ratio": 0.62,
+    "annual_revenue": [
+      47941000000.0,
+      47061000000.0,
+      45754000000.0,
+      43004000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      14911000000.0,
+      14022000000.0,
+      13098000000.0,
+      12042000000.0,
+      null
+    ],
+    "annual_eps": [
+      3.04,
+      2.46,
+      2.47,
+      2.19,
+      null
+    ],
+    "annual_free_cf": [
+      5296000000.0,
+      4741000000.0,
+      9747000000.0,
+      9534000000.0
+    ],
+    "annual_total_debt": [
+      45492000000.0,
+      44522000000.0,
+      42064000000.0,
+      39149000000.0,
+      null
+    ],
+    "annual_equity": [
+      32169000000.0,
+      24856000000.0,
+      25941000000.0,
+      24105000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.03,
+      0.91,
+      0.53,
+      0.86,
+      0.88,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      13380000000.0,
+      12472000000.0,
+      11822000000.0,
+      12455000000.0,
+      12535000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 16.1,
+    "sales_yoy_pct": 6.7,
+    "ni_cagr_3y_pct": 11.16,
+    "roe_pct": 42.05
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (2023년 글로벌 비알코올 음료 시장 규모 추정치, Statista)",
+    "tam_cagr_pct": "5-7% (소비자 건강 및 웰빙 트렌드, 신흥 시장 성장, 제품 혁신 및 포트폴리오 확장을 기반으로 한 추정)",
+    "growth_drivers": [
+      "신흥 시장에서의 소비 증가 및 중산층 확대",
+      "건강 및 웰빙 트렌드에 맞춘 저당/무설탕, 기능성 음료 포트폴리오 확장",
+      "RTD(Ready-To-Drink) 커피, 차, 주스 등 비탄산 음료 부문 성장",
+      "알코올 음료 시장 진출 및 RTD 칵테일, 플레이버 알코올 음료, 하드 셀처 등 신규 카테고리 확장",
+      "디지털 마케팅 및 유통 채널 강화를 통한 소비자 접근성 증대"
+    ],
+    "market_share_pct": "글로벌 비알코올 음료 시장에서 약 20-25% estimate (탄산음료 시장에서는 더 높음)",
+    "competitors": [
+      {
+        "name": "PepsiCo, Inc.",
+        "differentiation": "음료 외 스낵(Frito-Lay) 사업을 통한 강력한 유통 시너지 및 포트폴리오 다각화"
+      },
+      {
+        "name": "Keurig Dr Pepper Inc.",
+        "differentiation": "북미 시장에서의 강력한 커피(Keurig) 및 탄산음료(Dr Pepper) 브랜드 포트폴리오, 유통망"
+      },
+      {
+        "name": "Nestlé S.A.",
+        "differentiation": "생수(Nestlé Pure Life, Perrier), 커피(Nescafé), 차 등 다양한 비알코올 음료 및 식품 포트폴리오"
+      },
+      {
+        "name": "Monster Beverage Corporation",
+        "differentiation": "에너지 드링크 시장의 선두 주자로서 특정 소비자층에 대한 강력한 브랜드 충성도"
+      },
+      {
+        "name": "Danone S.A.",
+        "differentiation": "생수(Evian, Volvic) 및 유제품 기반 음료에 강점, 건강 지향적 이미지"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (강력한 브랜드 인지도, 광범위한 유통망, 대규모 자본 투자 및 규제 준수 필요성)",
+      "substitutes": "medium (물, 커피, 차, 주스 등 다양한 음료 선택지 및 건강 지향적 소비 트렌드 증가)",
+      "buyer_power": "medium (대형 유통업체 및 소매업체의 협상력 존재, 소비자의 가격 민감도)",
+      "supplier_power": "low (원재료 공급업체가 다수이며, 코카콜라의 구매량이 상당하여 협상력 우위)",
+      "rivalry": "high (PepsiCo 등 주요 경쟁사와의 치열한 시장 점유율 경쟁, 마케팅 및 유통 투자 경쟁)"
+    },
+    "competitive_advantages": [
+      "글로벌 최고 수준의 브랜드 인지도 및 충성도",
+      "200개 이상의 국가 및 지역에 걸친 광범위하고 효율적인 유통 시스템 (독립 보틀링 파트너 네트워크)",
+      "탄산음료, 물, 스포츠 음료, 커피, 차, 주스 등 다각화된 제품 포트폴리오 및 지속적인 혁신",
+      "강력한 마케팅 및 광고 역량",
+      "규모의 경제를 통한 비용 효율성"
+    ],
+    "competitive_weaknesses": [
+      "탄산음료 매출 의존도가 여전히 높아 건강 트렌드 변화에 취약",
+      "환율 변동 및 국제 정세 불안정성에 따른 재무적 위험 노출 (해외 매출 비중 높음)",
+      "플라스틱 폐기물 및 물 사용 등 환경 규제 강화에 따른 운영 비용 증가 및 평판 리스크",
+      "다양한 국가의 복잡한 법률 및 규제 준수 비용 증가 (예: 탄소 배출, 플라스틱 사용, 데이터 프라이버시)",
+      "신기술(AI 등) 관련 규제 불확실성 및 준수 비용 증가 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 54.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 4.0586,
+    "trailing_pe": 26.63964,
+    "forward_pe": 25.156109,
+    "ev_to_ebitda": 24.223,
+    "price_to_sales": 7.6139383,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 18.53,
+    "outperform_6m_vs_nasdaq": 0.15,
+    "outperform_1m_vs_nasdaq": 5.0,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "코카콜라는 Coca-Cola, Diet Coke/Coca-Cola Light, Sprite 등 수많은 가치 있는 음료 브랜드를 소유하고 마케팅합니다. (Item 7)",
+      "코카콜라는 200개 이상의 국가 및 지역에서 독립적인 보틀링 파트너, 유통업체, 도매업체 및 소매업체 네트워크를 통해 브랜드 음료 제품을 소비자에게 제공합니다. (Item 7)",
+      "코카콜라는 알코올 음료 카테고리에도 진출하여 Jack Daniel’s & Coca-Cola, Lemon-Dou, Topo Chico Hard Seltzer와 같은 RTD(Ready-To-Drink) 제품을 출시했습니다. (Item 7)"
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "알코올 RTD 시장 진출 및 포트폴리오 확장",
+    "bull_case": "신흥 시장 성장과 알코올 RTD 확대로 매출 및 이익률 개선, EPS 두 자릿수 성장 지속",
+    "base_case": "강력한 브랜드 자산과 글로벌 유통망을 기반으로 안정적인 매출 성장 및 수익성 유지. 신규 시장 및 제품 카테고리 확장을 통해 완만한 성장 지속.",
+    "bear_case": "규제 강화, 소비자 선호도 변화, 환율 변동성 증가로 인해 매출 성장 둔화 및 수익성 악화. 신규 사업 부진으로 투자 회수 지연.",
+    "key_metrics_to_watch": [
+      "신흥 시장 매출 성장률",
+      "알코올 RTD 제품군 시장 점유율",
+      "글로벌 규제 환경 변화"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "글로벌 인플레이션, 금리 상승, 경기 침체 등 거시 경제 및 지정학적 불안정은 소비자의 구매력과 수요를 감소시키고 운영 비용을 증가시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "치열한 음료 시장 경쟁으로 인해 가격 인하 압력, 마케팅 비용 증가, 전자상거래를 통한 가격 비교 용이성 등이 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소매 채널의 통합 및 주요 고객의 상실은 코카콜라 시스템의 수익성을 저해하고 가격 협상력을 약화시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "지정학적 불안정, 국제 분쟁 등으로 인한 물류, 운송 및 공급망 차질은 원자재 및 에너지 비용을 증가시키고 생산 및 유통에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "국가 간 무역 제재, 관세, 가격 통제, 이익 제한 등 정부 정책 및 규제 변화는 수익성과 국경 간 자본 이전에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "소비자 선호도 변화에 대한 혁신 실패는 성장 목표 달성을 어렵게 하고 재무 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "전 세계적인 경기 침체와 지정학적 불안정 심화로 인해 소비자들이 코카콜라 제품 구매를 대폭 줄이고 저가 브랜드로 전환하며, 동시에 주요 시장에서 강력한 경쟁사들이 시장 점유율을 급격히 확대하여 매출과 수익성이 지속적으로 하락하는 경우.",
+      "글로벌 공급망이 심각하게 붕괴되어 원자재 조달이 불가능해지고 생산 및 유통이 마비되며, 동시에 여러 국가에서 코카콜라 제품에 대한 대규모 불매 운동이 발생하여 브랜드 이미지가 회복 불가능하게 손상되는 경우.",
+      "급격한 기후 변화와 환경 규제 강화로 인해 코카콜라의 생산 방식과 포장재가 지속 불가능하다는 인식이 확산되고, 이로 인해 전 세계적인 소비자 불매 운동과 정부의 강력한 제재가 동시에 발생하여 사업 운영이 불가능해지는 경우."
+    ],
+    "exit_signals": [
+      "분기별 매출이 2년 연속 전년 대비 감소하고, 특히 주요 시장에서 시장 점유율이 5% 이상 하락하는 경우.",
+      "주요 원자재(설탕, 알루미늄 등) 가격이 급등하여 제품 원가가 20% 이상 상승하고, 이를 소비자 가격에 전가하지 못해 마진율이 지속적으로 하락하는 경우.",
+      "글로벌 주요 시장에서 코카콜라 제품에 대한 대규모 불매 운동이 발생하여 브랜드 가치가 심각하게 훼손되고, 회사의 ESG 등급이 최하위권으로 떨어지는 경우."
+    ]
+  },
+  "wikipedia_summary": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-16T01:20:52.893987+00:00"
+  }
+}
