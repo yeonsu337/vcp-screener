@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-16T01:19:04.321095+00:00",
+  "generated_at": "2026-09-17T01:25:57.525363+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 184434556928,
+    "market_cap": 180506116096,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -35,10 +35,10 @@
     "roe": 0.18,
     "roa": 0.04,
     "profit_margin": 0.1,
-    "operating_margin": 0.17,
+    "operating_margin": 0.13,
     "gross_margin": 0.25,
-    "revenue_growth_ttm": -0.11,
-    "earnings_growth_ttm": -0.09,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 0.07,
     "dividend_yield": 0.95,
     "payout_ratio": 0.36,
     "annual_revenue": [
@@ -114,8 +114,8 @@
       "2025-07-31",
       "2025-04-30"
     ],
-    "eps_qoq_yoy_pct": -9.8,
-    "sales_yoy_pct": -11.1,
+    "eps_qoq_yoy_pct": 7.0,
+    "sales_yoy_pct": 4.9,
     "ni_cagr_3y_pct": -11.0,
     "roe_pct": 18.24
   },
@@ -128,21 +128,21 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 54.3,
+    "rs_rating": 81,
+    "score": 55.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5812,
-    "trailing_pe": 38.023346,
-    "forward_pe": 30.123848,
-    "ev_to_ebitda": 26.056,
-    "price_to_sales": 3.848239,
+    "peg_ratio": 1.5872,
+    "trailing_pe": 38.016464,
+    "forward_pe": 29.482212,
+    "ev_to_ebitda": 27.697,
+    "price_to_sales": 3.7662718,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 27.47,
-    "outperform_6m_vs_nasdaq": 2.53,
-    "outperform_1m_vs_nasdaq": 14.08,
-    "lynch_category": "Cyclical / Turnaround?"
+    "outperform_1y_vs_nasdaq": 30.96,
+    "outperform_6m_vs_nasdaq": 4.58,
+    "outperform_1m_vs_nasdaq": 14.85,
+    "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
     "top_risks": [
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-16T01:20:27.362249+00:00"
+    "GoogleWebTranslator": "2026-09-17T01:30:12.099731+00:00"
   }
 }

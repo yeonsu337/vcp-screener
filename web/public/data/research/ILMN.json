@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-09-16T01:14:49.515049+00:00",
+  "generated_at": "2026-09-17T01:24:55.878454+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 33565788160,
+    "market_cap": 34568429568,
     "shares_outstanding": 151000000,
     "employees": 8600,
     "country": "United States",
@@ -17,20 +17,38 @@
     "beta": 1.467
   },
   "category_a_business": {
-    "overview": "Illumina, Inc. provides sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asia Pacific, the Middle East, and Africa. The company offers sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparation; whole-genome sequencing kits, which sequence entire genomes of various size and complexity; and targeted resequencing kits, which sequence exomes, specific genes, and RNA or other genomic regions of interest.",
-    "business_model": "Illumina, Inc.",
+    "overview": "유전체 분석을 위한 시퀀싱 및 어레이 기반 솔루션을 제공하는 글로벌 생명공학 기업입니다.",
+    "milestones": [
+      "1998: 회사 설립",
+      "2001: 첫 유전자 분석 시스템 출시",
+      "2007: Solexa 인수, 차세대 시퀀싱(NGS) 기술 확보",
+      "2010: HiSeq 2000 출시, 시퀀싱 비용 혁신",
+      "2014: Verinata Health 인수, 비침습 산전 검사(NIPT) 시장 진출",
+      "2021: Grail 인수 시도 (이후 분사 결정)",
+      "2023: NovaSeq X Plus 출시, 차세대 시퀀싱 플랫폼 강화"
+    ],
+    "business_model": "유전체 분석 장비, 소모품 및 관련 서비스를 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "시퀀싱 장비 판매",
+      "어레이 기반 장비 판매",
+      "시퀀싱 소모품 (시약, 플로우셀 등)",
+      "유전체 시퀀싱 키트",
+      "유전체 분석 서비스",
+      "제품 지원 서비스"
+    ],
+    "value_chain_position": "Midstream: 유전체 분석을 위한 핵심 기술 및 제품을 개발, 제조하여 제공합니다.",
     "products": [
-      "sequencing- and array-based solutions for genetic and genomic analysis in the Americas, Europe, Greater China, the Asi",
-      "sequencing- and array-based instruments and consumables, which include reagents, flow cells, and library preparatio",
-      "whole-genome sequencing, genotyping, noninvasive prenatal testing, and product support services"
+      "NovaSeq 시리즈 (시퀀싱 장비)",
+      "iSeq 시리즈 (시퀀싱 장비)",
+      "Infinium 어레이 (유전자형 분석)",
+      "시퀀싱 시약 및 키트",
+      "유전체 시퀀싱 서비스"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (직접 판매)",
+      "생명과학 유통업체"
     ],
-    "wikipedia_excerpt": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variation and biological function. The company provides a line of products and services that serves the sequencing, genotyping and gene expression, and proteomics markets, and serves more than 155 countries.",
-    "milestones": [
-      "1998: , Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variat"
-    ]
+    "key_customers": "주로 연구기관, 병원, 제약/바이오 기업 등 다양한 고객층에 분산되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.32,
@@ -131,25 +149,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 92,
-    "score": 53.4,
+    "rs_rating": 94,
+    "score": 59.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.569,
-    "trailing_pe": 41.549534,
-    "forward_pe": 36.411674,
-    "ev_to_ebitda": 30.238,
-    "price_to_sales": 7.4690228,
+    "peg_ratio": 2.7427,
+    "trailing_pe": 41.472824,
+    "forward_pe": 37.499325,
+    "ev_to_ebitda": 31.106,
+    "price_to_sales": 7.692129,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 92.31,
-    "outperform_6m_vs_nasdaq": 58.93,
-    "outperform_1m_vs_nasdaq": 10.88,
+    "outperform_1y_vs_nasdaq": 117.45,
+    "outperform_6m_vs_nasdaq": 70.8,
+    "outperform_1m_vs_nasdaq": 18.95,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variation and biological function. The company provides a line of products and services that serves the sequencing, genotyping and gene expression, and proteomics markets, and serves more than 155 countries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-16T01:20:46.883750+00:00"
+    "GoogleWebTranslator": "2026-09-17T01:30:35.323314+00:00"
   }
 }

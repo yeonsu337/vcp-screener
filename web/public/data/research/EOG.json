@@ -1,0 +1,144 @@
+{
+  "ticker": "EOG",
+  "company": "EOG Resources, Inc.",
+  "market": "US",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
+  "generated_at": "2026-09-17T01:21:00.168418+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 76020006912,
+    "shares_outstanding": 524529176,
+    "employees": 3400,
+    "country": "United States",
+    "website": "https://www.eogresources.com",
+    "beta": 0.272
+  },
+  "category_a_business": {
+    "overview": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republic of Trinidad and Tobago, and internationally. The company also offers crude oil and condensate, and gathering, processing and marketing. The company was formerly known as Enron Oil & Gas Company.",
+    "business_model": "EOG Resources, Inc., together with its subsidiaries, explores for, develops, produces, and markets crude oil, natural gas liquids, and natural gas in producing basins in the United States, the Republi",
+    "products": [
+      "crude oil and condensate, and gathering, processing and marketing"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "EOG Resources, Inc. is an American energy company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in the Heritage Plaza building in Houston, Texas."
+  },
+  "category_b_financials": {
+    "roe": 0.23,
+    "roa": 0.11,
+    "profit_margin": 0.26,
+    "operating_margin": 0.41,
+    "gross_margin": 0.63,
+    "revenue_growth_ttm": 0.59,
+    "earnings_growth_ttm": 1.09,
+    "dividend_yield": 2.65,
+    "payout_ratio": 0.31,
+    "annual_revenue": [
+      22582000000.0,
+      23378000000.0,
+      23182000000.0,
+      29492000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      7250000000.0,
+      8253000000.0,
+      8892000000.0,
+      14256000000.0,
+      null
+    ],
+    "annual_eps": [
+      9.12,
+      11.25,
+      13.0,
+      13.22,
+      null
+    ],
+    "annual_free_cf": [
+      3450000000.0,
+      5771000000.0,
+      5155000000.0,
+      6093000000.0
+    ],
+    "annual_total_debt": [
+      8408000000.0,
+      5067000000.0,
+      4124000000.0,
+      5374000000.0,
+      null
+    ],
+    "annual_equity": [
+      29833000000.0,
+      29351000000.0,
+      28090000000.0,
+      24779000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      5.15,
+      3.7,
+      1.3,
+      2.7,
+      2.46
+    ],
+    "quarterly_revenue": [
+      8494000000.0,
+      6758000000.0,
+      5653000000.0,
+      5732000000.0,
+      5355000000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 102.5,
+    "sales_yoy_pct": 58.7,
+    "ni_cagr_3y_pct": -13.74,
+    "roe_pct": 22.51
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Energy / Oil & Gas E&P 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 77,
+    "score": 68.6,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.4621,
+    "trailing_pe": 11.278599,
+    "forward_pe": 9.8381815,
+    "ev_to_ebitda": 5.475,
+    "price_to_sales": 2.8449538,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 18.39,
+    "outperform_6m_vs_nasdaq": 0.47,
+    "outperform_1m_vs_nasdaq": 10.31,
+    "lynch_category": "Stalwart"
+  },
+  "category_e_risks": {},
+  "wikipedia_summary": "EOG Resources, Inc. is an American energy company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in the Heritage Plaza building in Houston, Texas.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-17T01:30:25.351552+00:00"
+  }
+}

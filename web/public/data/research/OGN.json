@@ -1,0 +1,192 @@
+{
+  "ticker": "OGN",
+  "company": "Organon & Co.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "generated_at": "2026-09-17T01:29:36.752840+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 3589871104,
+    "shares_outstanding": 262609433,
+    "employees": 10000,
+    "country": "United States",
+    "website": "https://www.organon.com",
+    "beta": 1.518
+  },
+  "category_a_business": {
+    "overview": "Organon & Co. develops and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, Canada, Japan, rest of the Asia Pacific, China, Latin America, the Middle East, Russia, Africa, and internationally. The company's women's health portfolio comprises contraception and fertility brands, such as Nexplanon, a long-acting reversible contraceptive; NuvaRing, a monthly vaginal contraceptive ring; Cerazette, Marvelon, and Mercilon to prevent pregnancy; Follistim AQ, which is used to promote development of ovarian follicles; Elonva, a follicle sti",
+    "business_model": "Organon & Co.",
+    "products": [
+      "and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, C",
+      "cholesterol-modifying medicines under the Zetia, Ezetrol, Vytorin, Inegy, Atozet, Rosuzet, and Zocor brands",
+      "dermatology products under the Vtama, Diprosone, and Elocon br"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ],
+    "wikipedia_excerpt": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States."
+  },
+  "category_b_financials": {
+    "roe": 0.24,
+    "roa": 0.06,
+    "profit_margin": 0.03,
+    "operating_margin": 0.21,
+    "gross_margin": 0.53,
+    "revenue_growth_ttm": -0.02,
+    "earnings_growth_ttm": -0.28,
+    "dividend_yield": 0.59,
+    "payout_ratio": 0.1,
+    "annual_revenue": [
+      6216000000.0,
+      6403000000.0,
+      6263000000.0,
+      6174000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      1226000000.0,
+      1486000000.0,
+      1327000000.0,
+      1705000000.0,
+      null
+    ],
+    "annual_eps": [
+      0.72,
+      3.33,
+      3.99,
+      3.59,
+      null
+    ],
+    "annual_free_cf": [
+      384000000.0,
+      588000000.0,
+      538000000.0,
+      431000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      8644000000.0,
+      8880000000.0,
+      8760000000.0,
+      8913000000.0,
+      null
+    ],
+    "annual_equity": [
+      752000000.0,
+      472000000.0,
+      -70000000.0,
+      -892000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.4,
+      0.55,
+      -0.79,
+      0.61,
+      0.56,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      1558000000.0,
+      1460000000.0,
+      1507000000.0,
+      1602000000.0,
+      1594000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": -25.5,
+    "sales_yoy_pct": -2.3,
+    "ni_cagr_3y_pct": -41.14,
+    "roe_pct": 24.04
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 60.5,
+    "vcp_quality": 0.0,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "peg_ratio": null,
+    "trailing_pe": 17.525642,
+    "forward_pe": 3.7814243,
+    "ev_to_ebitda": 7.04,
+    "price_to_sales": 0.5859101,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 13.07,
+    "outperform_6m_vs_nasdaq": 100.53,
+    "outperform_1m_vs_nasdaq": 2.06,
+    "lynch_category": "Cyclical / Turnaround?"
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Any of the following risks could materially and adversely affect our results of operations, financial condition and the price of our Common Stock.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Summary of Risk Factors The following is a summary of the principal risks that could significantly and negatively affect our business, prospects, financial condition, or operating results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Cyberattacks affecting our IT systems could result in exposure of confidential information, the modification of critical data or the disruption of our worldwide operations, including manufacturing and sales operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Even if completed, we may have difficulty integrating or otherwise realizing the benefits of such transactions.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Risks Related to Our Business We have significant global operations, which expose us to additional risks, and any adverse event could adversely affect our results of operations and financial condition.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, our operations and performance may be affected by political or civil unrest or military action.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-17T01:30:54.659682+00:00"
+  }
+}

@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "MD",
-  "generated_at": "2026-09-16T01:06:17.599474+00:00",
-  "source_results_date": "2026-09-16",
+  "generated_at": "2026-09-17T01:11:36.144149+00:00",
+  "source_results_date": "2026-09-17",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.81,
   "lines": [
     "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 대기 — Stage 2 진입, pivot $27.94 근접(-3.69%).",
-    "13주 베이스 14.0% → 7.3% → 14.6% → 15.7% → 8.0% 수축, VDU 0.88× 진행.",
-    "Trend Template 8/8 통과, RS 79, RS 라인 신고가 -4.0%.",
+    "매수 대기 — Stage 2 진입, pivot $27.94 근접(-4.47%).",
+    "13주 베이스 14.0% → 7.3% → 14.6% → 15.7% → 8.0% 수축, VDU 0.92× 진행.",
+    "Trend Template 8/8 통과, RS 79, RS 라인 신고가 -4.3%.",
     "$27.94 돌파 시 매수·-7% 손절($25.98)·+20%($33.53) 절반 익절."
   ],
   "action": {
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (7.98% vs 6.5%)",
-    "P3_vol_dryup (0.88× vs 0.6×)",
+    "P3_vol_dryup (0.92× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)"
   ],
   "warnings": [

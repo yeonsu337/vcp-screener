@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Specialty Retail",
-  "generated_at": "2026-09-15T01:28:49.401229+00:00",
+  "generated_at": "2026-09-17T01:28:35.318080+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 13740936192,
+    "market_cap": 13085242368,
     "shares_outstanding": 55054035,
     "employees": 7800,
     "country": "United States",
@@ -17,37 +17,18 @@
     "beta": 0.989
   },
   "category_a_business": {
-    "overview": "Five Below는 미국 내 전문 가치 소매업체로, 5달러 이하의 트렌디한 상품을 주로 판매합니다.",
-    "milestones": [
-      "2002: 펜실베이니아에서 Five Below 설립 및 첫 매장 오픈",
-      "2012: 나스닥 상장 (티커: FIVE)",
-      "2018: 700번째 매장 오픈",
-      "2021: 1,000번째 매장 오픈",
-      "2023: 1,500번째 매장 오픈",
-      "2026: 1,921개 매장 운영 (예상)"
-    ],
-    "business_model": "주로 5달러 이하의 다양한 트렌드 상품을 판매하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "매장 내 상품 판매",
-      "온라인 웹사이트 및 모바일 앱 판매",
-      "온디맨드 제3자 배달 서비스 판매",
-      "배송 및 취급 수수료"
-    ],
-    "value_chain_position": "Downstream + 최종 소비자에게 직접 상품을 판매하는 소매업체입니다.",
+    "overview": "Five Below, Inc. operates as a specialty value retailer in the United States. It offers assortment of classic and novelty candy bars, movie-size box candy, seasonal-related candy, gum, and snack food products, as well as sells chilled drinks through coolers; socks, jewelry, hair accessories, cozy loungewear, and t-shirts; personal care essentials, skincare, fragrance, and branded cosmetics; and party goods, decorations, gag gifts, greeting cards, and every day and special occasion merchandise products.",
+    "business_model": "Five Below, Inc.",
     "products": [
-      "사탕 및 스낵류",
-      "의류 및 액세서리",
-      "파티 용품 및 장식",
-      "생활용품 및 인테리어",
-      "공예 및 학용품",
-      "전자기기 액세서리"
+      "as a specialty value retailer in the United States",
+      "assortment of classic and novelty candy bars, movie-size box candy, seasonal-related candy, gum, and snack food products",
+      "chilled drinks through coolers",
+      "personalized living space products, such as lamps, posters, frames, fleece blankets, plush items, pillows, candles, ince",
+      "storage options"
     ],
     "channels": [
-      "B2C (오프라인 매장)",
-      "D2C (자사 웹사이트 및 앱)",
-      "온디맨드 제3자 배달 서비스"
-    ],
-    "key_customers": "고객 집중도가 낮음 (다수의 일반 소비자를 대상으로 함)"
+      "B2C / Retail"
+    ]
   },
   "category_b_financials": {
     "roe": 0.28,
@@ -144,19 +125,19 @@
   },
   "category_d_thesis": {
     "rs_rating": 81,
-    "score": 63.3,
+    "score": 60.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.9842,
-    "trailing_pe": 22.384754,
-    "forward_pe": 22.56079,
-    "ev_to_ebitda": 17.787,
-    "price_to_sales": 2.5858634,
+    "trailing_pe": 21.202497,
+    "forward_pe": 21.484226,
+    "ev_to_ebitda": 16.995,
+    "price_to_sales": 2.4624705,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.74,
-    "outperform_6m_vs_nasdaq": -5.76,
-    "outperform_1m_vs_nasdaq": 5.01,
+    "outperform_1y_vs_nasdaq": 52.5,
+    "outperform_6m_vs_nasdaq": -4.04,
+    "outperform_1m_vs_nasdaq": -0.96,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -201,6 +182,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-16T01:20:41.066879+00:00"
+    "GoogleWebTranslator": "2026-09-17T01:30:33.020417+00:00"
   }
 }

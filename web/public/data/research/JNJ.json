@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-09-16T01:20:05.573096+00:00",
+  "generated_at": "2026-09-17T01:27:33.467203+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 643924885504,
+    "market_cap": 644117692416,
     "shares_outstanding": 2409898597,
     "employees": 138200,
     "country": "United States",
@@ -133,25 +133,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 75,
-    "score": 53.4,
+    "rs_rating": 76,
+    "score": 53.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.7906,
-    "trailing_pe": 30.961761,
-    "forward_pe": 21.750103,
-    "ev_to_ebitda": 19.215,
-    "price_to_sales": 6.5754256,
+    "peg_ratio": 2.7998,
+    "trailing_pe": 30.971031,
+    "forward_pe": 21.756615,
+    "ev_to_ebitda": 19.282,
+    "price_to_sales": 6.5773945,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 35.22,
-    "outperform_6m_vs_nasdaq": -4.67,
-    "outperform_1m_vs_nasdaq": 4.92,
+    "outperform_1y_vs_nasdaq": 37.2,
+    "outperform_6m_vs_nasdaq": -4.51,
+    "outperform_1m_vs_nasdaq": 5.64,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {},
   "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-16T01:20:52.394298+00:00"
+    "GoogleWebTranslator": "2026-09-17T01:30:42.437920+00:00"
   }
 }
