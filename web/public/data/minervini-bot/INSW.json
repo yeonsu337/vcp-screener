@@ -1,15 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "INSW",
-  "generated_at": "2026-09-17T01:11:36.142858+00:00",
-  "source_results_date": "2026-09-17",
+  "generated_at": "2026-09-18T01:06:27.317510+00:00",
+  "source_results_date": "2026-09-18",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.65,
   "lines": [
-    "시장 약세 — 보유분도 trailing 강화 권고.",
-    "추격 위험 — Pivot $97.42 대비 +10.6%, buy zone 초과.",
-    "13주 베이스 17.3% → 6.9% → 12.3% → 9.0%, VDU 1.52× — setup 자체는 유효.",
+    "추격 위험 — Pivot $97.42 대비 +12.3%, buy zone 초과.",
+    "13주 베이스 17.3% → 6.9% → 12.3% → 9.0%, VDU 1.57× — setup 자체는 유효.",
     "Trend Template 8/8 + RS 96로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
@@ -30,7 +29,7 @@
     "stage": 2,
     "base_count": 3,
     "late_base_warning": true,
-    "market_regime": "bear"
+    "market_regime": "neutral"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
@@ -50,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.01% vs 6.5%)",
-    "P3_vol_dryup (1.52× vs 0.6×)",
+    "P3_vol_dryup (1.57× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"

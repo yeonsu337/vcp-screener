@@ -1,0 +1,266 @@
+{
+  "ticker": "NEM",
+  "company": "Newmont Corporation",
+  "market": "US",
+  "sector": "Basic Materials",
+  "industry": "Gold",
+  "generated_at": "2026-09-18T01:09:08.660922+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 131068780544,
+    "shares_outstanding": 1053692271,
+    "employees": 17500,
+    "country": "United States",
+    "website": "https://www.newmont.com",
+    "beta": 0.543
+  },
+  "category_a_business": {
+    "overview": "뉴몬트(NEM)는 1916년 설립된 세계 최대 금 생산 기업으로, 금 외에도 구리, 은, 아연 등을 채굴합니다.",
+    "milestones": [
+      "1916: 뉴몬트 설립",
+      "1921: 법인 설립",
+      "2023: 뉴크레스트 마이닝 인수 완료",
+      "2024: 비핵심 자산 매각 프로그램 승인 및 시작",
+      "2025: 가나 아하포 노스 프로젝트 상업 생산 개시"
+    ],
+    "business_model": "주로 금 및 기타 금속을 채굴, 생산, 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "금 판매",
+      "구리 판매",
+      "은 판매",
+      "납 판매",
+      "아연 판매"
+    ],
+    "value_chain_position": "Upstream / midstream + 광물 탐사, 개발, 채굴 및 정련을 통해 원자재를 생산합니다.",
+    "products": [
+      "정련 금",
+      "구리",
+      "은",
+      "납",
+      "아연"
+    ],
+    "channels": [
+      "B2B"
+    ],
+    "key_customers": "특정 고객에 대한 의존도가 낮음"
+  },
+  "category_b_financials": {
+    "roe": 0.26,
+    "roa": 0.16,
+    "profit_margin": 0.33,
+    "operating_margin": 0.52,
+    "gross_margin": 0.68,
+    "revenue_growth_ttm": 0.15,
+    "earnings_growth_ttm": 0.11,
+    "dividend_yield": 0.85,
+    "payout_ratio": 0.13,
+    "annual_revenue": [
+      22669000000.0,
+      18682000000.0,
+      11812000000.0,
+      11915000000.0,
+      null
+    ],
+    "annual_operating_income": [
+      11023000000.0,
+      5910000000.0,
+      708000000.0,
+      1605000000.0,
+      null
+    ],
+    "annual_eps": [
+      6.39,
+      2.92,
+      -2.94,
+      -0.54,
+      null
+    ],
+    "annual_free_cf": [
+      7299000000.0,
+      2961000000.0,
+      97000000.0,
+      1089000000.0,
+      null
+    ],
+    "annual_total_debt": [
+      5589000000.0,
+      8972000000.0,
+      9436000000.0,
+      6132000000.0,
+      null
+    ],
+    "annual_equity": [
+      33867000000.0,
+      29928000000.0,
+      29027000000.0,
+      19354000000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      2.06,
+      3.01,
+      1.19,
+      1.67,
+      1.85,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      6118000000.0,
+      7307000000.0,
+      6818000000.0,
+      5524000000.0,
+      5317000000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "eps_qoq_yoy_pct": 6.8,
+    "sales_yoy_pct": 15.1,
+    "roe_pct": 25.91
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 2,000억 달러 (2023년 기준, World Gold Council 데이터 기반 추정)",
+    "tam_cagr_pct": "3~5% (향후 3~5년). 전 세계적인 인플레이션 헤지 수요 증가, 지정학적 불확실성 심화, 개발도상국 중산층의 금 투자 확대 추세에 기반한 추정.",
+    "growth_drivers": [
+      "글로벌 경제 불확실성 및 인플레이션 헤지 수요 증가로 인한 금 투자 매력 증대",
+      "중앙은행의 금 매입 지속 및 신흥국 시장의 금 소비 증가",
+      "기술 발전 및 탐사 활동 확대를 통한 신규 금광 개발 및 생산량 증대",
+      "ESG(환경, 사회, 지배구조) 경영 강화로 인한 책임 있는 채굴에 대한 투자자 선호도 증가"
+    ],
+    "market_share_pct": "약 7~10% (Newmont의 2023년 생산량 및 World Gold Council의 글로벌 금 생산량 데이터 기반 추정)",
+    "competitors": [
+      {
+        "name": "Barrick Gold Corporation",
+        "differentiation": "Nevada Gold Mines 합작 투자 파트너로 Newmont와 일부 자산 공유, 낮은 생산 비용과 강력한 재무 건전성 보유."
+      },
+      {
+        "name": "Agnico Eagle Mines Limited",
+        "differentiation": "북미 및 유럽 지역에 집중된 고품질 자산 포트폴리오와 안정적인 운영 실적."
+      },
+      {
+        "name": "Kinross Gold Corporation",
+        "differentiation": "다양한 지리적 위치에 걸쳐 운영되는 광범위한 자산 포트폴리오와 비용 효율적인 생산 능력."
+      },
+      {
+        "name": "AngloGold Ashanti Limited",
+        "differentiation": "아프리카, 호주, 미주 지역에 걸친 글로벌 입지와 대규모 생산 능력."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (금 채굴 산업은 막대한 초기 자본 투자, 복잡한 규제 승인, 숙련된 인력 및 기술 요구, 오랜 탐사 및 개발 기간이 필요하여 진입 장벽이 매우 높음)",
+      "substitutes": "medium (금은 투자 자산으로서 다른 귀금속, 주식, 채권, 부동산 등 다양한 대체 투자처가 존재하며, 산업용 수요 측면에서는 다른 금속으로 대체될 수 있음)",
+      "buyer_power": "low (금은 글로벌 상품 시장에서 거래되며, 구매자는 주로 중앙은행, 보석 제조업체, 투자자 등 다양하며 개별 구매자의 협상력은 제한적임)",
+      "supplier_power": "medium (채굴 장비, 에너지, 화학 물질 등 특정 공급업체에 대한 의존도가 존재하며, 특히 전문 기술 및 장비 공급업체의 협상력이 있을 수 있음)",
+      "rivalry": "high (글로벌 금 시장은 소수의 대형 기업들이 경쟁하며, 생산량, 비용 효율성, 탐사 성공률, 자산 포트폴리오 다각화 등을 통해 치열하게 경쟁함)"
+    },
+    "competitive_advantages": [
+      "세계 최대 금 생산 기업으로서의 규모의 경제 및 광범위한 글로벌 운영 입지 (미국, 파푸아뉴기니, 호주, 가나, 수리남, 아르헨티나 등)",
+      "Newcrest 인수를 통한 자산 포트폴리오 강화 및 생산량 증대, 시너지 효과 기대",
+      "118.2백만 온스에 달하는 막대한 검증 및 추정 금 매장량 보유로 장기적인 생산 안정성 확보",
+      "금 외 구리, 은, 납, 아연 등 다각화된 광물 생산으로 수익원 다변화 및 상품 가격 변동 위험 분산",
+      "지속 가능하고 책임 있는 채굴에 대한 약속을 통한 ESG 경쟁력 강화"
+    ],
+    "competitive_weaknesses": [
+      "글로벌 광산 운영에 따른 다양한 국가의 정치적, 규제적 위험 및 사회적 라이선스 문제에 노출",
+      "금 가격 변동성에 대한 높은 수익 의존도로 인한 실적 불안정성",
+      "대규모 자산 포트폴리오 관리 및 비핵심 자산 매각 과정에서의 복잡성 및 잠재적 가치 손실 위험",
+      "환경 규제 강화 및 기후 변화 관련 비용 증가 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 75,
+    "score": 51.3,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.78,
+    "trailing_pe": 15.686003,
+    "forward_pe": 12.198781,
+    "ev_to_ebitda": 7.494,
+    "price_to_sales": 5.0866914,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 36.58,
+    "outperform_6m_vs_nasdaq": -9.12,
+    "outperform_1m_vs_nasdaq": 0.91,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "Newmont는 세계 최고의 금 생산 기업으로서, 미국, 파푸아뉴기니, 호주, 가나 등 전 세계에 걸쳐 광범위한 광산 운영 및 자산을 보유하고 있습니다. 이는 규모의 경제를 통한 비용 우위를 제공합니다.",
+      "2025년 12월 31일 기준, Newmont는 1억 1,820만 온스의 가채 매장량과 8,810만 온스의 측정 및 확인된 자원, 6,060만 온스의 추정 자원을 보유하고 있어 장기적인 생산 안정성과 원가 경쟁력을 확보하고 있습니다.",
+      "Newcrest Mining Limited 인수를 통해 포트폴리오를 최적화하고 비핵심 자산을 매각하여 핵심 사업에 집중함으로써 운영 효율성을 높이고 비용 구조를 개선했습니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "Newcrest 인수 완료 및 비핵심 자산 매각을 통한 포트폴리오 최적화, 가나 Ahafo North 프로젝트 상업 생산 개시",
+    "bull_case": "금 가격 상승 및 생산량 증가로 수익성 대폭 개선, 배당 확대 가능성 증가 (3년 내 EPS 20% 이상 성장)",
+    "base_case": "금 가격의 완만한 상승과 Newcrest 인수 시너지 효과로 안정적인 매출 및 이익 성장 지속. 포트폴리오 최적화로 인한 효율성 증대.",
+    "bear_case": "금 가격 하락 및 글로벌 경기 침체로 인한 수요 감소, 광산 운영 비용 증가로 수익성 악화. 비핵심 자산 매각 효과 상쇄.",
+    "key_metrics_to_watch": [
+      "금 온스당 생산 비용 (AISC)",
+      "금 가격 추이",
+      "매출 성장률",
+      "순이익률 (NPM)",
+      "자유 현금 흐름 (FCF)"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "금, 구리, 은, 납, 아연 등 주요 광물 가격의 상당하거나 장기적인 하락은 회사의 수익, 순이익 및 현금 흐름에 심각한 부정적 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "생산량 유지를 위해 고갈되는 매장량을 지속적으로 대체해야 하지만, 탐사 성공률이 낮고 매력적인 광산 자산 인수에 대한 경쟁이 치열하여 매장량 확보에 어려움을 겪을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "확인 및 추정 매장량에 대한 추정치는 상당한 불확실성을 내포하며, 실제 채굴되는 광석의 양과 등급이 추정치와 다를 경우 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "회사는 금, 구리, 은, 납 또는 아연 판매에 대한 헤징 거래를 하지 않는 전략을 가지고 있어, 상품 가격 변동에 직접적으로 노출되어 리스크가 커집니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "운영",
+        "description": "상품 가격 하락은 채굴이 비경제적이 되는 광상 또는 광상 일부의 생산 중단, 신규 프로젝트 개발 지연, 탐사 자금 감소 등으로 이어져 생산량 감소를 초래할 수 있습니다.",
+        "severity": "high"
+      }
+    ],
+    "inversion_scenarios": [
+      "금, 구리 등 주요 광물 가격이 장기간 급락하여 대부분의 광산이 경제성을 잃고 생산이 중단되며, 매장량 대체에 실패하여 회사의 사업 기반이 붕괴될 수 있습니다.",
+      "탐사 활동이 지속적으로 실패하고 매력적인 광산 자산 인수에 실패하여 고갈되는 매장량을 대체하지 못하고, 결국 생산량이 급감하여 회사의 수익성이 심각하게 악화될 수 있습니다.",
+      "매장량 추정치가 실제와 크게 달라 대규모 자산 상각이 발생하고, 이로 인해 재무 건전성이 악화되어 자금 조달에 어려움을 겪을 수 있습니다."
+    ],
+    "exit_signals": [
+      "주요 광물 가격이 회사의 생산 원가 이하로 장기간 하락하여 대부분의 광산이 적자를 기록하고, 대규모 생산 중단 발표가 있을 경우.",
+      "회사의 탐사 성공률이 지속적으로 낮아지고, 신규 매장량 확보에 대한 구체적인 계획이나 성과가 나타나지 않아 장기적인 생산량 감소가 예상될 경우.",
+      "매장량 추정치에 대한 대규모 하향 조정 또는 자산 상각이 발생하여 회사의 재무제표에 심각한 악영향을 미칠 경우."
+    ]
+  },
+  "wikipedia_summary": "Newmont Corporation is an American gold mining company based in Denver, Colorado. It is the world's largest gold mining corporation. Incorporated in 1921, it holds ownership of gold mines in the United States, Canada, Mexico, the Dominican Republic, Australia, Ghana, Argentina, Peru, and Suriname. Newmont is also a partial owner of Nevada Gold Mines in Nevada with Barrick Mining being the majority owner and operator. In addition to gold, Newmont mines copper, silver, zinc and lead.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-18T01:11:25.493964+00:00"
+  }
+}

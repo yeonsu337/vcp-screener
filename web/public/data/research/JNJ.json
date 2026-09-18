@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-09-17T01:27:33.467203+00:00",
+  "generated_at": "2026-09-18T01:08:30.688557+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 644117692416,
+    "market_cap": 651202789376,
     "shares_outstanding": 2409898597,
     "employees": 138200,
     "country": "United States",
@@ -17,22 +17,37 @@
     "beta": 0.235
   },
   "category_a_business": {
-    "overview": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide. It operates in two segments, Innovative Medicine and MedTech. The Innovative Medicine segment offers products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious diseases, and cardiovascular and metabolism distributed through retailers, wholesalers, distributors, hospitals, and healthcare professionals for prescription use.",
-    "business_model": "Johnson & Johnson, together with its subsidiaries, engages in the research and development, manufacture, and sale of a range of products in the healthcare field worldwide.",
+    "overview": "존슨앤드존슨은 전 세계 헬스케어 분야에서 혁신 의약품 및 의료 기술 제품을 연구, 개발, 제조, 판매하는 글로벌 기업입니다.",
+    "milestones": [
+      "1886: 존슨앤드존슨 설립",
+      "1888: 최초의 상업용 멸균 수술 드레싱 생산",
+      "1894: 존슨즈 베이비 파우더 출시",
+      "1921: 반창고(Band-Aid) 출시",
+      "1961: 얀센 파마슈티컬 인수",
+      "2023: 소비자 건강 사업부(Kenvue) 분사"
+    ],
+    "business_model": "혁신 의약품 및 의료 기술 제품 판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "혁신 의약품 (항암, 면역, 신경과학 등)",
+      "수술 기구 및 장비",
+      "정형외과 제품",
+      "심혈관 제품",
+      "시력 관리 제품"
+    ],
+    "value_chain_position": "Midstream / downstream + 연구개발부터 제조, 유통, 판매까지 전 과정을 아우르는 통합 헬스케어 기업입니다.",
     "products": [
-      "in two segments, Innovative Medicine and MedTech",
-      "products for various therapeutic areas, such as oncology, immunology, neuroscience, pulmonary hypertension, infectious",
-      "a portfolio of products used in the surgery, orthopedic, cardiovascular, and vision fields distributed through wholesale",
-      "products and enabling technologies that support joint reconstruction, trauma, spine, sports related injuries, and others"
+      "항암제 (예: Darzalex)",
+      "면역억제제 (예: Stelara)",
+      "수술용 봉합사 및 에너지 기구",
+      "인공 관절 및 척추 임플란트",
+      "콘택트 렌즈 (예: Acuvue)"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (병원, 도매상, 유통업체)",
+      "B2C (소매점, 약국)",
+      "의료 전문가 (의사, 간호사, 안과 의사)"
     ],
-    "wikipedia_excerpt": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
-    "milestones": [
-      "2026: Fortune 500 list of the largest United States corporations",
-      "2026: , the company was ranked 43rd in the Forbes Global 2000"
-    ]
+    "key_customers": "고객 집중도는 낮으며, 전 세계 병원, 약국, 의료기관 및 일반 소비자를 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 0.26,
@@ -125,33 +140,147 @@
     "roe_pct": 25.74
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1조 5천억 ~ 2조 달러 (글로벌 제약 시장 규모 추정, EvaluatePharma 등)",
+    "tam_cagr_pct": "5~8% (글로벌 제약 시장의 꾸준한 성장, 특히 혁신 신약 및 만성 질환 치료제 수요 증가에 기반)",
+    "growth_drivers": [
+      "혁신 신약 개발 및 포트폴리오 확장 (특히 항암제, 면역학, 신경과학 분야)",
+      "글로벌 인구 고령화 및 만성 질환 유병률 증가",
+      "신흥 시장에서의 의료 접근성 및 지출 증가",
+      "정밀 의학 및 개인 맞춤형 치료법 발전",
+      "생물학적 제제 및 세포/유전자 치료제 시장의 성장"
+    ],
+    "market_share_pct": "글로벌 제약 시장의 약 4~5% (상위 5위권 내 유지)",
+    "competitors": [
+      {
+        "name": "Pfizer (화이자)",
+        "differentiation": "광범위한 치료 영역 포트폴리오, 강력한 백신 사업부, M&A를 통한 성장 전략"
+      },
+      {
+        "name": "Roche (로슈)",
+        "differentiation": "항암제 및 진단 분야의 선두 주자, 개인 맞춤형 의료에 강점"
+      },
+      {
+        "name": "Merck & Co. (머크)",
+        "differentiation": "면역항암제 키트루다(Keytruda)를 중심으로 한 강력한 항암제 포트폴리오, 백신 사업"
+      },
+      {
+        "name": "Novartis (노바티스)",
+        "differentiation": "혁신적인 의약품 파이프라인, 유전자 치료제 및 세포 치료제 분야 투자 확대"
+      },
+      {
+        "name": "AbbVie (애브비)",
+        "differentiation": "면역학 분야의 강력한 포트폴리오 (휴미라), 신경과학 및 항암제 분야 확장"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 연구개발 비용, 엄격한 규제, 특허 장벽으로 진입 장벽이 높지만, 바이오텍 스타트업의 혁신 기술은 위협 요인)",
+      "substitutes": "medium (제네릭 및 바이오시밀러의 존재, 생활 습관 개선 등 비약물적 치료법이 대체재가 될 수 있으나, 혁신 신약은 대체 불가능한 경우가 많음)",
+      "buyer_power": "high (정부 및 보험사의 약가 통제, 대형 병원 및 구매 그룹의 협상력, 소비자 단체의 압력으로 구매자 교섭력이 높음)",
+      "supplier_power": "low (원료의약품 및 장비 공급업체는 다수 존재하며, JNJ의 구매량이 많아 공급자 교섭력은 낮은 편)",
+      "rivalry": "high (글로벌 제약사 간의 치열한 신약 개발 경쟁, 특허 만료에 따른 시장 점유율 방어, M&A를 통한 경쟁 심화)"
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+      "광범위하고 혁신적인 의약품 파이프라인 (특히 항암제, 면역학 분야)",
+      "강력한 브랜드 인지도 및 글로벌 유통망",
+      "대규모 R&D 투자 역량 및 기술력",
+      "다각화된 사업 포트폴리오 (제약, 의료기기, 컨슈머 헬스)",
+      "규제 준수 및 품질 관리 시스템"
+    ],
+    "competitive_weaknesses": [
+      "엄격한 정부 규제 및 법적 소송 위험 (탈크 소송 등)",
+      "특허 만료에 따른 매출 감소 위험",
+      "신약 개발의 높은 실패율 및 불확실성",
+      "제품 리콜 및 안전성 문제 발생 시 기업 이미지 및 매출 타격",
+      "높은 R&D 비용 및 마케팅 비용 부담"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 53.9,
+    "rs_rating": 77,
+    "score": 54.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.7998,
-    "trailing_pe": 30.971031,
-    "forward_pe": 21.756615,
-    "ev_to_ebitda": 19.282,
-    "price_to_sales": 6.5773945,
+    "peg_ratio": 2.8029,
+    "trailing_pe": 30.953037,
+    "forward_pe": 21.99593,
+    "ev_to_ebitda": 19.485,
+    "price_to_sales": 6.649744,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 37.2,
-    "outperform_6m_vs_nasdaq": -4.51,
-    "outperform_1m_vs_nasdaq": 5.64,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 35.77,
+    "outperform_6m_vs_nasdaq": -5.8,
+    "outperform_1m_vs_nasdaq": 1.88,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "JNJ의 혁신 의약품 부문은 종양학, 면역학, 신경과학 등 다양한 치료 분야에서 CARVYKTI, DARZALEX, RYBREVANT와 같은 다수의 블록버스터 신약을 보유하고 있습니다. 이는 강력한 특허 포트폴리오와 연구 개발 역량을 바탕으로 한 무형 자산 해자를 시사합니다.",
+      "JNJ는 광범위한 정부 규제, 조사 및 법적 소송에 직면해 있음에도 불구하고 지속적인 매출과 이익을 창출하고 있습니다. 이는 규제 환경 속에서도 혁신적인 제품을 개발하고 시장에 출시할 수 있는 강력한 브랜드 가치와 규제 대응 능력을 반영합니다.",
+      "JNJ는 제품 신뢰성, 안전성 및 효과에 대한 우려가 제기될 수 있는 제약 산업에서 오랜 기간 선두를 유지해왔습니다. 이는 소비자 및 의료 전문가들 사이에서 구축된 높은 신뢰도와 브랜드 충성도를 보여주는 무형 자산입니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "CAR-T 치료제 CARVYKTI 및 이중 특이성 항체 TALVEY, TECVAYLI 등 혁신 신약 출시",
+    "bull_case": "혁신 신약 포트폴리오 확장 및 파이프라인 성공으로 3년간 EPS 10% 이상 성장",
+    "base_case": "혁신 의약품 부문의 견고한 성장과 메드테크 부문의 회복으로 매출 성장률 5~7% 유지, EPS는 한 자릿수 중반 성장 예상. 규제 및 소송 리스크는 지속되나, 효과적인 대응으로 큰 영향은 없을 것으로 전망.",
+    "bear_case": "주요 신약의 특허 만료 및 경쟁 심화, 탈크 소송 등 법적 리스크 심화로 매출 및 이익 감소, 규제 강화로 신제품 출시 지연.",
+    "key_metrics_to_watch": [
+      "혁신 의약품 부문 신약 매출 성장률",
+      "R&D 파이프라인 진행 상황 및 임상 성공률",
+      "주요 법적 소송 진행 상황 및 충당금 규모",
+      "영업이익률(OPM) 및 순이익률(NPM) 추이"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "규제",
+        "description": "제약 및 의료기기 산업의 엄격한 규제 환경은 신제품 승인 지연, 기존 제품 판매 제한, 막대한 벌금 부과 등으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "혁신적인 신약 및 의료기기 개발 경쟁 심화와 제네릭 의약품 및 바이오시밀러의 시장 진입은 매출 및 시장 점유율에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "제품 책임 소송, 특히 탈크 관련 소송과 같은 대규모 법적 분쟁은 막대한 합의금 및 벌금으로 이어져 회사의 재무 건전성에 심각한 타격을 줄 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 복잡성으로 인해 원자재 조달 문제, 제조 시설 중단, 운송 지연 등이 발생할 경우 제품 생산 및 공급에 차질을 빚을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "사이버 보안 위협의 증가와 데이터 침해 사고 발생 시 고객 신뢰 손상, 규제 위반, 막대한 복구 비용 발생 등 심각한 결과를 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화, 인플레이션 압력, 지정학적 불안정 등 거시 경제 요인은 소비자 지출 감소 및 의료 시스템 예산 제약으로 이어질 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 제품의 특허 만료는 매출 감소를 야기하며, 신규 혁신 제품 개발 실패 시 장기적인 성장 동력을 상실할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "탈크 소송과 같은 대규모 제품 책임 소송에서 수십조 원 규모의 배상 판결이 확정되어 회사의 재무 구조가 완전히 붕괴되는 경우.",
+      "핵심 파이프라인의 임상 실패가 연이어 발생하고, 기존 블록버스터 제품의 특허가 만료되어 매출이 급감하며 신규 성장 동력을 찾지 못하는 경우.",
+      "심각한 제조 결함이나 품질 문제가 발생하여 전 세계적으로 대규모 리콜이 발생하고, 규제 당국으로부터 판매 금지 및 막대한 벌금이 부과되는 경우.",
+      "사이버 공격으로 인해 핵심 R&D 데이터가 유출되거나 생산 시스템이 마비되어 장기간 사업 운영이 불가능해지는 경우."
+    ],
+    "exit_signals": [
+      "탈크 소송 관련 최종 판결에서 예상치를 훨씬 뛰어넘는 막대한 배상액이 확정되거나, 추가적인 대규모 소송이 제기되는 경우.",
+      "주요 블록버스터 의약품의 특허 만료 이후 예상보다 훨씬 빠른 속도로 제네릭/바이오시밀러의 시장 침투가 가속화되고 매출이 급감하는 경우.",
+      "핵심 파이프라인의 임상 3상 결과가 실패하거나, 경쟁사의 혁신적인 신약/의료기기가 시장을 장악하여 JNJ의 시장 점유율이 지속적으로 하락하는 경우.",
+      "규제 당국으로부터 심각한 품질 관리 위반으로 인해 주요 제품의 판매 중단 명령을 받거나, 신제품 승인이 장기간 지연되는 경우."
+    ]
+  },
   "wikipedia_summary": "Johnson & Johnson (J&J) is an American multinational pharmaceutical, biotechnology, and medical technologies corporation headquartered in New Brunswick, New Jersey. The company is ranked No. 42 on the 2026 Fortune 500 list of the largest United States corporations. In 2026, the company was ranked 43rd in the Forbes Global 2000. Along with Microsoft, Johnson & Johnson is one of only two U.S.-based companies that has a prime credit rating of AAA from S&P Global.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-17T01:30:42.437920+00:00"
+    "GoogleWebTranslator": "2026-09-18T01:11:22.072393+00:00"
   }
 }

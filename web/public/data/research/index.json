@@ -696,8 +696,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:19:57.258448+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-18T01:07:50.947874+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "IRDM",
@@ -726,8 +726,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:27:33.467203+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-09-18T01:08:30.688557+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "KEYS",
@@ -816,7 +816,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-10T00:58:07.461772+00:00",
+    "generated_at": "2026-09-18T01:07:09.980535+00:00",
     "llm_status": "ok"
   },
   {
@@ -940,6 +940,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "NEM",
+    "company": "Newmont Corporation",
+    "market": "US",
+    "sector": "Basic Materials",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-18T01:09:08.660922+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "NTAP",
     "company": "NetApp, Inc.",
     "market": "US",
@@ -1006,8 +1016,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:29:36.752840+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-18T01:10:42.650277+00:00",
+    "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
     "ticker": "OII",
