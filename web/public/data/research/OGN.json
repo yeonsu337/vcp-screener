@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-09-18T01:10:42.650277+00:00",
+  "generated_at": "2026-09-19T01:13:34.579863+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 3595123200,
+    "market_cap": 3592497152,
     "shares_outstanding": 262609433,
     "employees": 10000,
     "country": "United States",
@@ -17,48 +17,28 @@
     "beta": 1.518
   },
   "category_a_business": {
-    "overview": "여성 건강 솔루션, 바이오시밀러, 기존 브랜드를 제공하는 글로벌 헬스케어 기업입니다.",
-    "milestones": [
-      "1923: 네덜란드 Oss에서 Organon 설립",
-      "2021: MSD(Merck & Co.)로부터 분사하여 독립 회사로 출범",
-      "2025: 미국에서 Bildyos 및 Bilprevda 바이오시밀러 출시",
-      "2025: Poherdy(퍼투주맙 바이오시밀러) 미국 FDA 승인",
-      "2026: Jada 시스템을 Laborie Medical Technologies Corporation에 매각"
-    ],
-    "business_model": "처방 의약품, 의료기기, 바이오시밀러 판매를 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "여성 건강 제품 (피임, 불임)",
-      "바이오시밀러 (면역학, 종양학)",
-      "기존 브랜드 의약품 (심혈관, 호흡기 등)"
-    ],
-    "value_chain_position": "Midstream + 자체 제조 시설을 통해 의약품을 생산하고 전 세계에 유통합니다.",
+    "overview": "Organon & Co. develops and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, Canada, Japan, rest of the Asia Pacific, China, Latin America, the Middle East, Russia, Africa, and internationally. The company's women's health portfolio comprises contraception and fertility brands, such as Nexplanon, a long-acting reversible contraceptive; NuvaRing, a monthly vaginal contraceptive ring; Cerazette, Marvelon, and Mercilon to prevent pregnancy; Follistim AQ, which is used to promote development of ovarian follicles; Elonva, a follicle sti",
+    "business_model": "Organon & Co.",
     "products": [
-      "넥스플라논 (피임)",
-      "누바링 (피임)",
-      "폴리스팀 AQ (불임)",
-      "렌플렉시스 (면역학 바이오시밀러)",
-      "온트루잔트 (종양학 바이오시밀러)",
-      "제티아 (콜레스테롤 조절)"
+      "and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, C",
+      "cholesterol-modifying medicines under the Zetia, Ezetrol, Vytorin, Inegy, Atozet, Rosuzet, and Zocor brands",
+      "dermatology products under the Vtama, Diprosone, and Elocon br"
     ],
     "channels": [
-      "도매업체",
-      "소매 약국",
-      "병원",
-      "정부 기관",
-      "관리 의료 제공자 (HMO, PBM)"
+      "B2B / Enterprise"
     ],
-    "key_customers": "특정 고객 집중도에 대한 정보는 제공되지 않았습니다."
+    "wikipedia_excerpt": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States."
   },
   "category_b_financials": {
-    "roe": 0.24,
-    "roa": 0.06,
-    "profit_margin": 0.03,
-    "operating_margin": 0.21,
-    "gross_margin": 0.53,
-    "revenue_growth_ttm": -0.02,
-    "earnings_growth_ttm": -0.28,
-    "dividend_yield": 0.59,
-    "payout_ratio": 0.1,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       6216000000.0,
       6403000000.0,
@@ -141,89 +121,29 @@
     "roe_pct": 24.04
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 1조 5천억 달러 (글로벌 제약 시장 규모, IQVIA 2023 추정치 기반)",
-    "tam_cagr_pct": "5-8% (글로벌 제약 시장 성장률, 고령화, 신흥국 시장 확대, 혁신 신약 개발 지속에 기반)",
-    "growth_drivers": [
-      "여성 건강 분야의 미충족 의료 수요 증가 및 인식 개선",
-      "바이오시밀러 시장의 지속적인 성장 및 침투율 확대",
-      "신흥 시장에서의 의약품 접근성 확대 및 의료 인프라 개선",
-      "만성 질환 유병률 증가에 따른 의약품 수요 증대"
-    ],
-    "market_share_pct": "1% 미만 (글로벌 제약 시장 내 Organon의 포트폴리오 및 매출 규모 고려 시 estimate)",
-    "competitors": [
-      {
-        "name": "Pfizer",
-        "differentiation": "광범위한 치료 영역 포트폴리오, 강력한 R&D 역량, 글로벌 시장 지배력"
-      },
-      {
-        "name": "Johnson & Johnson",
-        "differentiation": "제약, 의료기기, 소비자 건강을 아우르는 통합 헬스케어 기업, 강력한 브랜드 인지도"
-      },
-      {
-        "name": "Merck & Co.",
-        "differentiation": "항암제, 백신 등 혁신 신약 개발에 강점, 강력한 R&D 파이프라인"
-      },
-      {
-        "name": "Teva Pharmaceutical Industries",
-        "differentiation": "제네릭 및 바이오시밀러 시장의 선두 주자, 광범위한 제품 포트폴리오"
-      },
-      {
-        "name": "Amgen",
-        "differentiation": "생명공학 기반의 혁신 의약품 개발에 특화, 바이오시밀러 시장에서도 경쟁력 보유"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium (제약 산업은 높은 R&D 비용, 규제 장벽, 특허 등으로 진입 장벽이 높으나, 바이오시밀러 시장은 상대적으로 진입이 용이할 수 있음)",
-      "substitutes": "medium (일반의약품, 건강기능식품, 대체 치료법 등이 존재하나, 전문의약품의 대체는 제한적임)",
-      "buyer_power": "high (정부, 보험사, 대형 병원 등 주요 구매자들의 가격 협상력이 높음)",
-      "supplier_power": "medium (원료의약품 공급처가 다양할 수 있으나, 특정 특허 원료의 경우 공급자 의존도가 높을 수 있음)",
-      "rivalry": "high (글로벌 제약사 간의 치열한 경쟁, 신약 개발 경쟁, 제네릭 및 바이오시밀러 경쟁 심화)"
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "여성 건강 분야에 특화된 포트폴리오 및 전문성",
-      "바이오시밀러 시장에서의 선제적 진출 및 다양한 제품 출시",
-      "글로벌 140개국 이상에 걸친 광범위한 유통망 및 시장 접근성",
-      "안정적인 현금 흐름을 창출하는 Established Brands 포트폴리오"
-    ],
-    "competitive_weaknesses": [
-      "혁신 신약 파이프라인의 상대적 부족 (주로 기존 제품 및 바이오시밀러에 집중)",
-      "Established Brands의 특허 만료 및 제네릭 경쟁 심화에 따른 매출 감소 위험",
-      "특정 치료 영역(여성 건강)에 대한 높은 의존도",
-      "대형 제약사에 비해 R&D 투자 규모 및 역량의 한계"
+      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 61.4,
+    "rs_rating": 88,
+    "score": 61.0,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": null,
-    "trailing_pe": 17.551283,
-    "forward_pe": 3.7869565,
-    "ev_to_ebitda": 7.044,
-    "price_to_sales": 0.5867673,
+    "trailing_pe": 17.538462,
+    "forward_pe": 3.7841904,
+    "ev_to_ebitda": 7.042,
+    "price_to_sales": 0.5863387,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 14.23,
-    "outperform_6m_vs_nasdaq": 95.3,
-    "outperform_1m_vs_nasdaq": -0.71,
-    "lynch_category": "Cyclical / Turnaround?",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "70개 이상의 제품 포트폴리오와 넥스플라논(Nexplanon®), 누바링(NuvaRing®), 폴리스팀 AQ(Follistim AQ®) 등 여성 건강 분야의 주요 브랜드는 특허 및 상표권으로 보호되는 무형 자산 해자를 형성합니다.",
-      "온트루잔트(Ontruzant®), 아비인티오(Aybintio™), 빌디오스(Bildyos®) 등 면역학 및 종양학 관련 바이오시밀러 포트폴리오는 개발 및 규제 승인에 필요한 전문성과 자본으로 인해 진입 장벽을 형성합니다.",
-      "전 세계 140개국 이상에서 제품을 판매하는 광범위한 유통망과 6개의 제조 시설은 글로벌 시장 접근성과 생산 역량 측면에서 경쟁 우위를 제공합니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "2025년 미국 내 덴수맙 바이오시밀러(Bildyos, Bilprevda) 출시 및 퍼투주맙 바이오시밀러(Poherdy) FDA 승인",
-    "bull_case": "바이오시밀러 시장 점유율 확대 및 여성 건강 신제품 성공으로 3년 내 매출 및 이익률 대폭 개선",
-    "base_case": "여성 건강 제품의 안정적인 매출과 바이오시밀러 포트폴리오의 점진적인 성장을 통해 현 수준의 수익성을 유지하며, 비용 효율성 개선 노력을 지속할 것입니다.",
-    "bear_case": "주요 제품의 특허 만료 및 제네릭 경쟁 심화, 바이오시밀러 시장 경쟁 과열로 매출 감소 및 수익성 악화가 예상됩니다.",
-    "key_metrics_to_watch": [
-      "바이오시밀러 매출 성장률",
-      "여성 건강 포트폴리오 핵심 제품 매출 성장률",
-      "영업이익률 (OPM)"
-    ]
+    "outperform_1y_vs_nasdaq": 14.08,
+    "outperform_6m_vs_nasdaq": 100.33,
+    "outperform_1m_vs_nasdaq": -0.65,
+    "lynch_category": "Cyclical / Turnaround?"
   },
   "category_e_risks": {
     "top_risks": [
@@ -267,6 +187,6 @@
   },
   "wikipedia_summary": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-18T01:11:28.952083+00:00"
+    "GoogleWebTranslator": "2026-09-19T01:15:33.124630+00:00"
   }
 }

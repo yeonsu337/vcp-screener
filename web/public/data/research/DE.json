@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-17T01:25:57.525363+00:00",
+  "generated_at": "2026-09-19T01:11:36.117831+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 180506116096,
+    "market_cap": 184421072896,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -32,15 +32,15 @@
     "wikipedia_excerpt": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
   },
   "category_b_financials": {
-    "roe": 0.18,
-    "roa": 0.04,
-    "profit_margin": 0.1,
-    "operating_margin": 0.13,
-    "gross_margin": 0.25,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 0.07,
-    "dividend_yield": 0.95,
-    "payout_ratio": 0.36,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       44665000000.0,
       50518000000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 81,
+    "rs_rating": 79,
     "score": 55.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5872,
-    "trailing_pe": 38.016464,
-    "forward_pe": 29.482212,
-    "ev_to_ebitda": 27.697,
-    "price_to_sales": 3.7662718,
+    "peg_ratio": 1.5909,
+    "trailing_pe": 38.084076,
+    "forward_pe": 30.121647,
+    "ev_to_ebitda": 28.152,
+    "price_to_sales": 3.8479576,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 30.96,
-    "outperform_6m_vs_nasdaq": 4.58,
-    "outperform_1m_vs_nasdaq": 14.85,
+    "outperform_1y_vs_nasdaq": 28.97,
+    "outperform_6m_vs_nasdaq": 0.67,
+    "outperform_1m_vs_nasdaq": 15.73,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-18T01:11:04.216237+00:00"
+    "GoogleWebTranslator": "2026-09-19T01:15:04.988084+00:00"
   }
 }

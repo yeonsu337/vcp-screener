@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-09-16T01:17:01.866495+00:00",
+  "generated_at": "2026-09-19T01:06:58.488576+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4784681984,
+    "market_cap": 4783457792,
     "shares_outstanding": 61232174,
     "employees": 1902,
     "country": "United States",
@@ -17,31 +17,48 @@
     "beta": 0.569
   },
   "category_a_business": {
-    "overview": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States. The company operates in two segments Refining and Logistics.",
-    "business_model": "Delek US Holdings, Inc.",
+    "overview": "Delek US Holdings는 미국 내 통합 다운스트림 에너지 기업으로 정제 및 물류 사업을 운영합니다.",
+    "milestones": [
+      "2001: Delek US Holdings 설립",
+      "2004: Tyler, Texas 정유소 인수",
+      "2005: El Dorado, Arkansas 정유소 인수",
+      "2008: Big Spring, Texas 정유소 인수",
+      "2012: Krotz Springs, Louisiana 정유소 인수",
+      "2017: Alon USA Energy 인수 완료"
+    ],
+    "business_model": "원유를 정제하여 다양한 석유 제품을 생산하고, 원유 및 정제 제품의 운송 및 저장 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "정제 제품 판매 (휘발유, 디젤, 항공유 등)",
+      "원유 및 정제 제품 운송 서비스",
+      "원유 및 정제 제품 저장 서비스",
+      "수처리 및 재활용 서비스"
+    ],
+    "value_chain_position": "Downstream + 원유 정제 및 석유 제품 생산, Midstream + 원유 및 정제 제품의 운송 및 저장",
     "products": [
-      "in two segments Refining and Logistics",
-      "refineries located in Tyler, Texas",
-      "light product distribution terminals, as well as markets light products using third-party terminals"
+      "휘발유",
+      "디젤 연료",
+      "항공유",
+      "아스팔트",
+      "기타 석유 기반 제품",
+      "원유 및 정제 제품 운송/저장 서비스"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B",
+      "도매",
+      "제3자 터미널 유통"
     ],
-    "wikipedia_excerpt": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
-    "milestones": [
-      "2001: and headquartered in Brentwood, Tennessee"
-    ]
+    "key_customers": "다수의 석유 회사, 독립 정유사, 마케터, 유통업체, 운송 회사 등 광범위한 고객 기반으로 특정 고객 집중도는 낮음"
   },
   "category_b_financials": {
-    "roe": 0.79,
-    "roa": 0.05,
-    "profit_margin": 0.02,
-    "operating_margin": 0.08,
-    "gross_margin": 0.1,
-    "revenue_growth_ttm": 0.48,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.37,
-    "payout_ratio": 0.28,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       10722900000.0,
       11852200000.0,
@@ -119,72 +136,137 @@
     "roe_pct": 78.76
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1,000억 - 1,500억 USD (미국 정유 및 마케팅 시장 추정치, 에너지 정보청(EIA) 데이터 기반)",
+    "tam_cagr_pct": "0.5% - 1.5% (향후 3~5년, 미국 내 휘발유 및 디젤 수요의 점진적 감소 예상, 항공유 및 석유화학 원료 수요는 상대적으로 견조할 것으로 예상)",
+    "growth_drivers": [
+      "미국 내륙 지역의 견고한 운송 및 산업용 연료 수요 유지",
+      "정유 시설의 효율성 개선 및 비용 절감 노력",
+      "전략적 인수합병을 통한 시장 점유율 확대 및 시너지 창출",
+      "석유화학 원료 등 고부가가치 제품 생산 비중 확대",
+      "재생 에너지 전환 과정에서의 과도기적 화석 연료 수요 유지"
+    ],
+    "market_share_pct": "1% - 3% (미국 전체 정유 시장 기준, DK의 정제 용량 302,000 bpd를 미국 전체 정제 용량과 비교하여 추정)",
+    "competitors": [
+      {
+        "name": "Valero Energy Corporation",
+        "differentiation": "미국 최대 독립 정유사 중 하나로, 광범위한 정유 및 에탄올 생산 시설을 보유하고 있으며, 다양한 지역에 걸쳐 강력한 유통망을 구축하고 있음."
+      },
+      {
+        "name": "Marathon Petroleum Corporation",
+        "differentiation": "미국 최대 정유사 중 하나로, 광범위한 정유 및 소매 네트워크를 보유하고 있으며, 중서부 및 걸프만 지역에 강력한 입지를 가지고 있음."
+      },
+      {
+        "name": "Phillips 66",
+        "differentiation": "정유, 마케팅, 화학 및 파이프라인 사업을 아우르는 통합 에너지 회사로, 다양한 제품 포트폴리오와 글로벌 운영 역량을 보유하고 있음."
+      },
+      {
+        "name": "HollyFrontier Corporation (HF Sinclair)",
+        "differentiation": "미국 서부 및 중부 지역에 정유 시설을 보유하고 있으며, 특수 윤활유 및 아스팔트 생산에 강점을 가지고 있음."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low (정유 산업은 막대한 초기 자본 투자, 복잡한 규제, 환경 허가, 숙련된 인력 및 유통망 구축이 필요하여 진입 장벽이 매우 높음)",
+      "substitutes": "medium (전기차 및 재생에너지로의 전환이 장기적으로 운송 연료 수요에 영향을 미치지만, 단기적으로는 대체재의 영향이 제한적이며, 항공유, 석유화학 원료 등은 대체가 어려움)",
+      "buyer_power": "medium (주요 고객은 대형 유통업체, 산업체 등으로 가격 협상력이 있으나, 정유 제품은 필수재이므로 수요가 비교적 비탄력적임)",
+      "supplier_power": "medium (원유 공급은 OPEC+ 등 주요 산유국 및 글로벌 시장 상황에 따라 변동성이 크지만, DK는 다양한 국내 내륙 원유 조달처를 확보하여 공급망 위험을 분산하고 있음)",
+      "rivalry": "high (정유 산업은 소수의 대형 플레이어가 경쟁하는 과점 시장으로, 가격 경쟁이 치열하며, 정제 마진에 따라 수익성이 크게 좌우됨)"
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+      "미국 걸프만 지역(PADD III) 내 4개 정유 시설 보유 및 내륙 시장 집중",
+      "다양한 국내 내륙 원유 조달처 확보 및 공급망 최적화 능력",
+      "Delek Logistics와의 통합을 통한 물류 효율성 증대 및 비용 절감 가능성",
+      "EPA 청정 연료 기준을 준수하는 제품 생산 능력",
+      "도매 원유 운영 및 아스팔트 터미널 합작 투자 지분 보유를 통한 사업 다각화"
+    ],
+    "competitive_weaknesses": [
+      "정제 용량(302,000 bpd)이 대형 경쟁사에 비해 상대적으로 작음",
+      "바이오디젤 시설 가동 중단 결정 등 신재생 에너지 전환 전략의 불확실성",
+      "주로 내륙 시장에 집중되어 있어 특정 지역의 경제 상황 및 수요 변동에 취약할 수 있음",
+      "정제 마진 변동성에 따른 수익성 불안정성",
+      "환경 규제 강화 및 탄소 중립 목표 달성 압박에 대한 대응 필요성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 96,
-    "score": 65.3,
+    "rs_rating": 97,
+    "score": 67.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.38,
-    "trailing_pe": 21.291552,
-    "forward_pe": 9.9494,
-    "ev_to_ebitda": 7.362,
-    "price_to_sales": 0.39685497,
+    "trailing_pe": 21.286104,
+    "forward_pe": 9.946854,
+    "ev_to_ebitda": 7.361,
+    "price_to_sales": 0.39675343,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 148.22,
-    "outperform_6m_vs_nasdaq": 64.04,
-    "outperform_1m_vs_nasdaq": 11.83,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 145.96,
+    "outperform_6m_vs_nasdaq": 61.19,
+    "outperform_1m_vs_nasdaq": 18.81,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "DK는 4개의 정유 시설(총 302,000 bpd 처리 용량)을 소유 및 운영하며, 주로 내륙 국내 시장에 제품을 판매하여 운송 및 산업 시장에 공급합니다.",
+      "정유 시스템은 장기 토지 전용 계약 및 단기 원유 구매 계약을 통해 정유소 처리량보다 많은 원유를 구매하여 공급 비용을 최적화하고 구매 물량의 가치를 극대화합니다.",
+      "주로 텍사스, 아칸소, 루이지애나 등 내륙 국내 원유를 조달하며, 제3자 파이프라인 및 Delek Logistics와의 계약을 통해 서부 텍사스(주로 미들랜드)에서 정유소로 약 200,000 bpd의 원유를 직접 운송할 수 있습니다.",
+      "정유 시스템은 경질 스위트 및 중질 사워 원유를 처리하여 주로 가솔린, 증류유, 제트 연료 등 고부가가치 운송 연료를 생산합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "바이오디젤 시설 가동 중단 및 대체 방안 모색 결정 (2024년 2분기)",
+    "bull_case": "정제 마진 개선 및 효율적인 원유 조달 전략으로 EPS 성장 가속화, 주가 긍정적 영향",
+    "base_case": "내륙 시장 수요 견조 및 효율적인 원유 조달을 통해 안정적인 수익성 유지, 점진적 성장",
+    "bear_case": "글로벌 경기 침체로 인한 정제 마진 악화, 원유 가격 변동성 증가, 바이오디젤 시설 대체 방안 실패로 수익성 하락",
+    "key_metrics_to_watch": [
+      "정제 마진 (Refining Margin)",
+      "원유 조달 비용 효율성",
+      "정유 제품 수요 (특히 운송 연료)",
+      "바이오디젤 시설의 향후 전략 및 수익 기여도"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "A regional or global disease outbreak could result in financial and operational impacts that have a material adverse effect on our business, financial condition, results of operation and liquidity.",
+        "category": "거시",
+        "description": "글로벌 유가 시장의 변동성(수요 감소, 공급 과잉, 지정학적 사건 등)은 DK의 사업, 재무 성과 및 수익성에 심각한 부정적 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "정제 마진(원유 가격과 정제 제품 가격의 차이)의 상당하거나 장기적인 하락은 DK의 영업 실적과 현금 흐름을 감소시키고 자산 가치에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "지역 또는 전 세계적인 질병 발생(예: 팬데믹)은 DK의 사업 관행을 변경하고, 운영을 방해하며, 재무 상태 및 유동성에 중대한 악영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "We may take further actions as required by government authorities or that we determine are in the best interests of our employees, contractors, customers, suppliers and communities.",
+        "category": "공급망",
+        "description": "글로벌 공급망 문제 및 노동 시장 혼란은 원자재 및 투입물의 가용성과 비용에 영향을 미쳐 DK의 운영 비용을 증가시키고 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "However, there is no assurance that such measures will be sufficient to mitigate the risks posed by any outbreak, and our ability to successfully execute our business operations could be adversely impacted.",
+        "category": "경쟁",
+        "description": "경쟁사들의 가격 책정 및 기타 조치는 DK의 시장 점유율, 수익성 및 전반적인 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "A substantial or extended decline in refining margins would reduce our operating results and cash flows and could materially and adversely impact our future rate of growth and the carrying value of our assets.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Ongoing compliance with, or violation of, laws, regulations and other requirements could also have a material adverse effect on our business, financial condition and results of operations.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Such future activity could also adversely affect our ability to expand production, result in damaging publicity about us, or reduce demand for our products.",
-        "severity": "medium"
+        "category": "규제",
+        "description": "수압 파쇄와 같은 원료 생산 활동에 대한 규제 증가는 DK의 운영 비용을 증가시키고 생산 능력에 영향을 미칠 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "글로벌 경제 침체로 인한 에너지 수요 급감과 정제 마진의 장기적인 폭락이 동시에 발생하여 회사의 현금 흐름이 고갈되고 부채를 상환할 수 없게 됩니다.",
+      "주요 정유 시설에서 대규모 운영 중단 또는 재해(예: 화재, 폭발)가 발생하고, 이로 인한 복구 비용이 막대하며, 보험으로 충분히 커버되지 않아 회사가 파산합니다.",
+      "정부의 급진적인 탈탄소 정책으로 인해 화석 연료 수요가 급격히 감소하고, DK의 정유 자산 가치가 급락하며, 전환 비용을 감당할 수 없게 됩니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "정제 마진이 2분기 연속으로 역사적 최저치를 기록하고 회사의 영업 손실이 지속적으로 확대됩니다.",
+      "주요 정유 시설의 가동률이 50% 이하로 떨어지고, 복구 계획이 불확실하며, 대규모 자산 손상차손이 발생합니다.",
+      "OPEC+의 대규모 증산 결정 또는 글로벌 경기 침체 심화로 유가가 배럴당 40달러 이하로 장기간 하락하고, 회사의 신용 등급이 투기 등급으로 강등됩니다."
     ]
   },
   "wikipedia_summary": "Delek US Holdings, Inc. is an oil refining, logistics and biofuels company founded in 2001 and headquartered in Brentwood, Tennessee.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-18T01:11:10.965482+00:00"
+    "GoogleWebTranslator": "2026-09-19T01:15:06.811881+00:00"
   }
 }

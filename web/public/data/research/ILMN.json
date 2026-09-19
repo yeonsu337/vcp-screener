@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Diagnostics & Research",
-  "generated_at": "2026-09-17T01:24:55.878454+00:00",
+  "generated_at": "2026-09-19T01:09:32.506607+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 34568429568,
+    "market_cap": 36182618112,
     "shares_outstanding": 151000000,
     "employees": 8600,
     "country": "United States",
@@ -20,46 +20,45 @@
     "overview": "유전체 분석을 위한 시퀀싱 및 어레이 기반 솔루션을 제공하는 글로벌 생명공학 기업입니다.",
     "milestones": [
       "1998: 회사 설립",
-      "2001: 첫 유전자 분석 시스템 출시",
-      "2007: Solexa 인수, 차세대 시퀀싱(NGS) 기술 확보",
-      "2010: HiSeq 2000 출시, 시퀀싱 비용 혁신",
-      "2014: Verinata Health 인수, 비침습 산전 검사(NIPT) 시장 진출",
-      "2021: Grail 인수 시도 (이후 분사 결정)",
-      "2023: NovaSeq X Plus 출시, 차세대 시퀀싱 플랫폼 강화"
+      "2007: Solexa 인수, 차세대 시퀀싱 기술 확보",
+      "2010: HiSeq 2000 출시, 시퀀싱 비용 절감 가속화",
+      "2014: HiSeq X Ten 출시, 인간 게놈 시퀀싱 1,000달러 시대 개척",
+      "2016: Grail 분사 (암 조기 진단), 이후 재인수 시도",
+      "2021: NovaSeq X 시리즈 발표, 시퀀싱 기술 혁신 지속"
     ],
-    "business_model": "유전체 분석 장비, 소모품 및 관련 서비스를 판매하여 수익을 창출합니다.",
+    "business_model": "유전체 분석 장비, 소모품, 시약 및 관련 서비스를 판매하여 수익을 창출합니다.",
     "revenue_streams": [
       "시퀀싱 장비 판매",
-      "어레이 기반 장비 판매",
-      "시퀀싱 소모품 (시약, 플로우셀 등)",
-      "유전체 시퀀싱 키트",
-      "유전체 분석 서비스",
-      "제품 지원 서비스"
+      "시퀀싱 소모품 (시약, 플로우셀) 판매",
+      "어레이 기반 장비 및 소모품 판매",
+      "유전체 시퀀싱 및 유전자형 분석 서비스",
+      "제품 지원 및 유지보수 서비스"
     ],
-    "value_chain_position": "Midstream: 유전체 분석을 위한 핵심 기술 및 제품을 개발, 제조하여 제공합니다.",
+    "value_chain_position": "Midstream / downstream: 유전체 분석 장비 및 솔루션을 개발, 제조, 판매하여 고객의 연구 및 진단에 기여합니다.",
     "products": [
-      "NovaSeq 시리즈 (시퀀싱 장비)",
-      "iSeq 시리즈 (시퀀싱 장비)",
-      "Infinium 어레이 (유전자형 분석)",
-      "시퀀싱 시약 및 키트",
-      "유전체 시퀀싱 서비스"
+      "NovaSeq X 시리즈 (시퀀싱 장비)",
+      "MiSeq (데스크탑 시퀀서)",
+      "iScan (어레이 스캐너)",
+      "시퀀싱 시약 및 플로우셀",
+      "전장 유전체 시퀀싱 키트",
+      "비침습 산전 검사 서비스"
     ],
     "channels": [
       "B2B (직접 판매)",
       "생명과학 유통업체"
     ],
-    "key_customers": "주로 연구기관, 병원, 제약/바이오 기업 등 다양한 고객층에 분산되어 있습니다."
+    "key_customers": "주요 고객은 유전체 연구 센터, 학술 기관, 병원, 제약/바이오 기업, 상업 분자 진단 연구소 등입니다. 고객 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
-    "roe": 0.32,
-    "roa": 0.09,
-    "profit_margin": 0.18,
-    "operating_margin": 0.21,
-    "gross_margin": 0.68,
-    "revenue_growth_ttm": 0.09,
-    "earnings_growth_ttm": -0.09,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
     "dividend_yield": null,
-    "payout_ratio": 0.0,
+    "payout_ratio": null,
     "annual_revenue": [
       4343000000.0,
       4372000000.0,
@@ -141,33 +140,94 @@
     "roe_pct": 32.34
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 80-100 billion (추정치, 유전체학 및 관련 시장 포함)",
+    "tam_cagr_pct": "15-20% (향후 3~5년, 유전체 시퀀싱 기술 발전, 임상 적용 확대, 정밀 의학 수요 증가에 기반)",
+    "growth_drivers": [
+      "유전체 시퀀싱 비용 하락 및 접근성 증가",
+      "암, 희귀 질환 등 임상 진단 및 치료 분야에서의 유전체 정보 활용 확대",
+      "개인 맞춤형 정밀 의학 및 약물 개발 수요 증가",
+      "인구 고령화 및 만성 질환 증가에 따른 진단 시장 성장",
+      "농업, 식품 안전 등 비의료 분야로의 유전체 기술 적용 확대"
+    ],
+    "market_share_pct": "약 70-80% (NGS 시퀀싱 장비 시장 기준, 추정치)",
+    "competitors": [
+      {
+        "name": "Pacific Biosciences (PacBio)",
+        "differentiation": "긴 리드 시퀀싱(Long-read sequencing) 기술에 강점, 복잡한 유전체 영역 분석에 유리"
+      },
+      {
+        "name": "Oxford Nanopore Technologies (ONT)",
+        "differentiation": "나노포어 기반의 실시간, 휴대용 시퀀싱 기술 제공, 현장 진단 및 신속 분석에 강점"
+      },
+      {
+        "name": "BGI Group (MGI Tech)",
+        "differentiation": "중국 시장을 기반으로 한 저가 전략 및 자체 기술 개발, 특정 지역 및 대규모 프로젝트에 강점"
+      },
+      {
+        "name": "Thermo Fisher Scientific",
+        "differentiation": "다양한 생명 과학 연구 장비 및 시약 포트폴리오, 기존 고객 기반 활용 및 통합 솔루션 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (높은 기술 장벽과 R&D 투자 필요하지만, 특정 니치 시장 또는 혁신 기술 기반의 신규 진입 가능성 존재)",
+      "substitutes": "low (NGS 기술은 유전체 분석의 표준으로 자리 잡았으며, 이를 완전히 대체할 기술은 현재로서는 제한적)",
+      "buyer_power": "medium (고객은 연구 기관, 병원, 제약사 등으로 구성되며, 대규모 구매 시 가격 협상력이 있으나, 기술 의존도가 높아 전환 비용이 높음)",
+      "supplier_power": "low (핵심 부품 및 시약 공급처는 다양하며, Illumina의 규모와 영향력으로 공급망 통제력이 높음)",
+      "rivalry": "high (NGS 시장은 소수의 강력한 경쟁자들이 기술 혁신과 가격 경쟁을 통해 치열하게 경쟁하고 있음)"
+    },
     "competitive_advantages": [
-      "Healthcare / Diagnostics & Research 카테고리 — yfinance peer 비교 권장"
+      "NGS 시장의 압도적인 시장 점유율 및 표준화된 기술",
+      "광범위한 제품 포트폴리오 (시퀀서, 시약, 소프트웨어) 및 통합 솔루션 제공",
+      "대규모 설치 기반 및 강력한 고객 충성도",
+      "지속적인 R&D 투자 및 기술 혁신을 통한 선도적 위치 유지",
+      "글로벌 판매 및 서비스 네트워크"
+    ],
+    "competitive_weaknesses": [
+      "일부 경쟁사 대비 긴 리드 시퀀싱 기술의 상대적 약점",
+      "높은 장비 가격으로 인한 신흥 시장 및 소규모 연구실 진입 장벽",
+      "독점적 지위에 대한 규제 및 반독점 이슈 가능성",
+      "경쟁사의 가격 인하 및 혁신 기술 도입에 대한 압력",
+      "특정 시장 (예: 중국)에서의 경쟁 심화"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 59.4,
+    "rs_rating": 95,
+    "score": 61.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.7427,
-    "trailing_pe": 41.472824,
-    "forward_pe": 37.499325,
-    "ev_to_ebitda": 31.106,
-    "price_to_sales": 7.692129,
+    "peg_ratio": 3.0251,
+    "trailing_pe": 44.621975,
+    "forward_pe": 39.250374,
+    "ev_to_ebitda": 32.504,
+    "price_to_sales": 8.051316,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 117.45,
-    "outperform_6m_vs_nasdaq": 70.8,
-    "outperform_1m_vs_nasdaq": 18.95,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 122.46,
+    "outperform_6m_vs_nasdaq": 79.35,
+    "outperform_1m_vs_nasdaq": 29.49,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Illumina는 유전체 시퀀싱 기술 분야에서 독점적인 특허 포트폴리오를 보유하고 있으며, 이는 경쟁사 진입 장벽을 높입니다.",
+      "Illumina의 시퀀싱 장비와 시약은 높은 정확도와 처리량을 제공하며, 이는 연구 및 임상 분야에서 표준으로 자리 잡았습니다.",
+      "Illumina는 지속적인 R&D 투자를 통해 기술 리더십을 유지하고 있으며, 이는 신제품 개발 및 기존 제품 개선으로 이어집니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "새로운 고처리량 시퀀싱 플랫폼 출시 및 암 조기 진단 시장 확대",
+    "bull_case": "암 조기 진단 시장 선점 및 신기술 상용화로 매출 및 이익률 급증, 주가 2배 이상 상승.",
+    "base_case": "유전체 시퀀싱 시장의 꾸준한 성장과 Illumina의 기술 리더십 유지로 안정적인 매출 증가 및 수익성 확보. 그러나 경쟁 심화로 인한 마진 압박 가능성 존재.",
+    "bear_case": "경쟁사의 혁신적인 기술 등장 또는 규제 강화로 시장 점유율 하락 및 수익성 악화. 암 조기 진단 시장 진입 지연으로 성장 동력 상실.",
+    "key_metrics_to_watch": [
+      "시퀀싱 장비 및 시약 매출 성장률",
+      "암 조기 진단 관련 제품 매출 기여도",
+      "R&D 투자 대비 신제품 출시 성과",
+      "경쟁사 신기술 개발 동향",
+      "규제 환경 변화"
+    ]
   },
   "category_e_risks": {},
   "wikipedia_summary": "Illumina, Inc. is an American biotechnology company, headquartered in San Diego, California. Incorporated on April 1, 1998, Illumina develops, manufactures, and markets integrated systems for the analysis of genetic variation and biological function. The company provides a line of products and services that serves the sequencing, genotyping and gene expression, and proteomics markets, and serves more than 155 countries.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-18T01:11:21.241577+00:00"
+    "GoogleWebTranslator": "2026-09-19T01:15:21.813698+00:00"
   }
 }

@@ -346,7 +346,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-16T01:16:00.684311+00:00",
+    "generated_at": "2026-09-19T01:10:34.656010+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -406,7 +406,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:25:57.525363+00:00",
+    "generated_at": "2026-09-19T01:11:36.117831+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -426,7 +426,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-11T00:58:32.246239+00:00",
+    "generated_at": "2026-09-19T01:05:37.707458+00:00",
     "llm_status": "ok"
   },
   {
@@ -436,8 +436,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-16T01:17:01.866495+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-19T01:06:58.488576+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "DOCN",
@@ -526,8 +526,8 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:18:14.409366+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-09-19T01:06:19.919002+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "EZPW",
@@ -574,10 +574,10 @@
     "company": "GigaCloud Technology Inc.",
     "market": "US",
     "sector": "Technology",
-    "primary_passed": 13,
+    "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-12T01:03:53.584601+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-09-19T01:14:37.326941+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "GE",
@@ -676,7 +676,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:24:55.878454+00:00",
+    "generated_at": "2026-09-19T01:09:32.506607+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1016,7 +1016,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-18T01:10:42.650277+00:00",
+    "generated_at": "2026-09-19T01:13:34.579863+00:00",
     "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
@@ -1381,12 +1381,12 @@
   },
   {
     "ticker": "VLO",
-    "company": "Valero Energy Corporation",
+    "company": "Valero Energy Corp",
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-12T01:01:38.074988+00:00",
+    "generated_at": "2026-09-19T01:04:34.592611+00:00",
     "llm_status": "ok"
   },
   {

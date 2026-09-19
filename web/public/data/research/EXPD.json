@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Integrated Freight & Logistics",
-  "generated_at": "2026-09-17T01:18:14.409366+00:00",
+  "generated_at": "2026-09-19T01:06:19.919002+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 24573427712,
+    "market_cap": 24820410368,
     "shares_outstanding": 129990622,
     "employees": 20389,
     "country": "United States",
@@ -17,31 +17,30 @@
     "beta": 1.058
   },
   "category_a_business": {
-    "overview": "Expeditors는 전 세계적으로 통합된 기술 시스템을 통해 맞춤형 공급망 솔루션을 제공하는 글로벌 물류 기업입니다.",
+    "overview": "글로벌 네트워크를 통해 항공, 해상 운송 및 물류 솔루션을 제공하는 포춘 500대 기업입니다.",
     "milestones": [
       "1979: 워싱턴주 시애틀에서 설립",
-      "1981: 첫 해외 사무소 개설 (홍콩)",
-      "1984: 나스닥 상장",
-      "1990년대: 유럽 및 라틴 아메리카로 사업 확장",
-      "2000년대: 기술 기반 물류 솔루션 강화 및 글로벌 네트워크 확장",
-      "2010년대: 지속적인 기술 투자 및 공급망 최적화 서비스 강화"
+      "1981: 첫 해외 지사 설립 (홍콩)",
+      "1984: 나스닥 상장 (EXPD)",
+      "1990년대: 유럽 및 아시아 네트워크 확장 가속화",
+      "2000년대: 기술 기반 공급망 솔루션 강화",
+      "2010년대: 글로벌 물류 시장에서 입지 공고화"
     ],
-    "business_model": "글로벌 네트워크와 기술 기반 솔루션으로 화물 운송 및 물류 서비스를 제공하여 수익을 창출합니다.",
+    "business_model": "글로벌 운송 및 물류 서비스를 제공하며 수수료와 마진을 통해 수익을 창출합니다.",
     "revenue_streams": [
-      "항공 화물 운송 서비스",
-      "해상 화물 운송 서비스",
+      "항공 운송 서비스",
+      "해상 운송 서비스",
       "관세 중개 및 통관 서비스",
       "창고 및 유통 서비스",
-      "육상 운송 서비스",
-      "물류 컨설팅 및 최적화 서비스"
+      "기타 물류 솔루션"
     ],
-    "value_chain_position": "Midstream + 고객의 공급망 전반에 걸쳐 운송, 통관, 유통 등 핵심 물류 서비스를 제공합니다.",
+    "value_chain_position": "Midstream + 고객의 공급망 전반에 걸쳐 운송 및 물류 서비스를 통합 관리합니다.",
     "products": [
-      "항공 화물 통합 및 포워딩",
-      "해상 화물 통합 및 직접 포워딩",
+      "항공 화물 통합 및 운송",
+      "해상 화물 통합 및 운송",
       "관세 중개",
       "창고 및 유통",
-      "주문 관리",
+      "구매 주문 관리",
       "무역 규정 준수 컨설팅"
     ],
     "channels": [
@@ -50,15 +49,15 @@
     "key_customers": "특정 고객에 대한 매출 집중도는 낮은 편이며, 다양한 산업 분야의 기업 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
-    "roe": 0.43,
-    "roa": 0.15,
-    "profit_margin": 0.08,
-    "operating_margin": 0.11,
-    "gross_margin": 0.14,
-    "revenue_growth_ttm": 0.32,
-    "earnings_growth_ttm": 0.52,
-    "dividend_yield": 0.84,
-    "payout_ratio": 0.23,
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
     "annual_revenue": [
       11069009000.0,
       10600515000.0,
@@ -135,80 +134,145 @@
     "roe_pct": 42.67
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 200-250 billion USD (글로벌 3PL 시장 규모 추정치 기반, EXPD의 주력 시장인 항공 및 해상 운송 포워딩 포함)",
-    "tam_cagr_pct": "4-6% (글로벌 무역량 증가, 전자상거래 확산, 공급망 복잡성 증대 및 아웃소싱 추세 지속에 기반)",
+    "tam_estimate_usd_b": "약 2,000억 달러 (2022년 글로벌 3PL 시장 규모 추정치 기반, Armstrong & Associates 등)",
+    "tam_cagr_pct": "4~6% (글로벌 무역량 증가, 전자상거래 확산, 공급망 복잡성 증대 및 아웃소싱 추세 지속에 기반)",
     "growth_drivers": [
-      "글로벌 무역량 증가 및 공급망 복잡성 심화로 인한 3PL 서비스 수요 증대",
-      "전자상거래 확산에 따른 라스트마일 및 풀필먼트 서비스 수요 증가",
-      "지정학적 리스크 및 기후 변화 등으로 인한 공급망 탄력성 및 가시성 요구 증대",
-      "디지털 전환 가속화로 인한 물류 기술 및 데이터 분석 서비스 중요성 부각",
-      "고객사의 핵심 역량 집중을 위한 물류 아웃소싱 추세 심화"
+      "글로벌 무역량 증가 및 지역 간 교역 활성화",
+      "전자상거래 시장의 지속적인 성장 및 국경 간 전자상거래 확대",
+      "복잡해지는 글로벌 공급망 관리의 전문성 요구 증대",
+      "기업들의 물류 아웃소싱(3PL) 추세 심화",
+      "디지털 전환 및 기술 기반 물류 솔루션 도입 가속화"
     ],
-    "market_share_pct": "1-2% (글로벌 3PL 시장은 매우 파편화되어 있으며, EXPD는 특정 니치 시장에서 강점을 가짐)",
+    "market_share_pct": "1% 미만 (글로벌 3PL 시장은 매우 파편화되어 있으며, EXPD는 특정 니치 시장 및 서비스에 강점)",
     "competitors": [
       {
         "name": "DSV Panalpina A/S",
-        "differentiation": "인수합병을 통한 공격적인 시장 확장 및 규모의 경제, 광범위한 글로벌 네트워크"
+        "differentiation": "인수합병을 통한 공격적인 규모 확장 및 광범위한 글로벌 네트워크"
       },
       {
         "name": "Kuehne + Nagel International AG",
-        "differentiation": "해상 운송 분야의 강자, IT 솔루션 및 계약 물류 서비스의 전문성"
-      },
-      {
-        "name": "DB Schenker",
-        "differentiation": "독일 철도청 산하의 강력한 유럽 네트워크 및 육상 운송 강점, 산업별 특화 솔루션"
-      },
-      {
-        "name": "C.H. Robinson Worldwide, Inc.",
-        "differentiation": "북미 시장의 강력한 육상 운송 네트워크 및 기술 기반의 매칭 플랫폼"
+        "differentiation": "해상 및 항공 운송 분야의 강력한 시장 지위와 계약 물류 서비스의 전문성"
       },
       {
         "name": "DHL Global Forwarding (Deutsche Post DHL Group)",
-        "differentiation": "글로벌 최대 물류 기업의 일원으로서 광범위한 서비스 포트폴리오 및 브랜드 인지도"
+        "differentiation": "글로벌 최대 물류 기업으로서의 광범위한 서비스 포트폴리오 및 네트워크"
+      },
+      {
+        "name": "C.H. Robinson Worldwide, Inc.",
+        "differentiation": "북미 트럭 운송 시장의 강자이며, 기술 기반의 운송 관리 플랫폼 제공"
+      },
+      {
+        "name": "FedEx Logistics",
+        "differentiation": "모기업의 통합된 운송 네트워크를 활용한 포괄적인 물류 솔루션 제공"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (초기 투자 비용, 규제, 기존 플레이어의 네트워크 효과 등으로 진입 장벽이 존재하나, 기술 기반 스타트업의 니치 시장 진입 가능성 상존)",
-      "substitutes": "low (기업 자체 물류 운영 또는 다른 운송 수단으로의 전환이 가능하나, 3PL의 전문성과 효율성을 대체하기 어려움)",
-      "buyer_power": "medium (대형 고객사의 경우 협상력이 높으나, 중소형 고객은 3PL 서비스에 대한 의존도가 높음)",
-      "supplier_power": "medium (항공사, 선사 등 운송 공급자의 시장 집중도가 높아 협상력이 있으나, EXPD의 대량 구매력으로 일부 상쇄 가능)",
-      "rivalry": "high (글로벌 및 지역별로 수많은 경쟁사가 존재하며, 가격, 서비스 품질, 기술력으로 치열하게 경쟁)"
+      "new_entrants": "medium (초기 투자 비용이 높고 글로벌 네트워크 구축이 어렵지만, 기술 기반의 니치 플레이어 진입 가능성 존재)",
+      "substitutes": "low (기업 내부 물류 운영으로의 회귀는 비효율적이며, 전문 3PL 서비스의 대체재는 제한적)",
+      "buyer_power": "medium (대형 화주 고객은 가격 협상력이 높으나, 복잡한 공급망 관리의 전문성 때문에 전환 비용이 발생)",
+      "supplier_power": "medium (항공사, 선사, 트럭 운송업체 등 운송 수단 공급자의 영향력이 있으나, EXPD의 규모와 네트워크로 일부 상쇄 가능)",
+      "rivalry": "high (글로벌 및 지역별로 수많은 경쟁사가 존재하며, 서비스 차별화가 어렵고 가격 경쟁이 치열함)"
     },
     "competitive_advantages": [
-      "강력한 글로벌 네트워크 및 현지 전문성 (전 세계 600개 이상의 지점)",
-      "고객 중심의 서비스 접근 방식 및 맞춤형 솔루션 제공 능력",
-      "첨단 정보 기술 시스템을 통한 공급망 가시성 및 효율성 증대",
-      "재무 건전성 및 무부채 경영을 통한 안정적인 사업 운영",
-      "숙련된 인력과 강력한 기업 문화"
+      "글로벌 네트워크 및 현지 전문성: 전 세계 350개 이상의 지사를 통한 광범위한 네트워크와 현지 시장에 대한 깊은 이해",
+      "기술 기반의 공급망 솔루션: 자체 개발한 IT 시스템(예: EXPO)을 통해 가시성, 효율성 및 데이터 분석 능력 제공",
+      "고객 중심의 서비스 모델: 특정 고객의 요구에 맞춰진 맞춤형 솔루션 제공 및 강력한 고객 관계 구축",
+      "재무 건전성 및 무부채 경영: 안정적인 재무 구조를 바탕으로 장기적인 투자 및 운영 안정성 확보",
+      "직원 역량 및 기업 문화: 숙련된 직원들과 강력한 기업 문화를 통한 서비스 품질 유지 및 혁신 추구"
     ],
     "competitive_weaknesses": [
-      "경쟁사에 비해 상대적으로 낮은 규모의 경제 (특히 해상 운송 부문)",
-      "특정 운송 모드 (항공 및 해상 포워딩)에 대한 높은 의존도",
-      "글로벌 경제 변동 및 지정학적 리스크에 대한 높은 노출도",
-      "인수합병을 통한 공격적인 성장에 소극적인 경향",
-      "디지털 전환 및 자동화 투자 속도가 일부 경쟁사보다 느릴 수 있음"
+      "규모의 경제 부족: 일부 대형 경쟁사에 비해 운송량 및 네트워크 규모가 작아 가격 경쟁력에서 불리할 수 있음",
+      "서비스 포트폴리오의 제한: 특정 서비스(예: 해상 및 항공 운송)에 강점이 있으나, 통합 물류 서비스의 범위가 일부 경쟁사보다 좁을 수 있음",
+      "기술 투자 및 혁신 속도: 빠르게 변화하는 기술 환경에서 경쟁사 대비 기술 투자 및 혁신 속도에 대한 지속적인 압박",
+      "글로벌 경제 변동성에 대한 민감성: 국제 무역 및 운송 시장의 변동에 실적과 수익성이 크게 영향을 받음",
+      "인수합병을 통한 성장 기회 제한: 무부채 경영 원칙으로 인해 대규모 인수합병을 통한 시장 점유율 확대에 소극적"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 74.1,
+    "rs_rating": 79,
+    "score": 71.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.0712,
-    "trailing_pe": 28.2571,
-    "forward_pe": 23.845804,
-    "ev_to_ebitda": 19.08,
-    "price_to_sales": 2.0416603,
+    "peg_ratio": 2.9949,
+    "trailing_pe": 27.833818,
+    "forward_pe": 24.085474,
+    "ev_to_ebitda": 19.275,
+    "price_to_sales": 2.0621808,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 42.39,
-    "outperform_6m_vs_nasdaq": 20.93,
-    "outperform_1m_vs_nasdaq": 6.68,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 33.95,
+    "outperform_6m_vs_nasdaq": 11.35,
+    "outperform_1m_vs_nasdaq": 0.96,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "EXPD는 전 세계 350개 이상의 지점과 22,000명 이상의 직원을 보유한 글로벌 네트워크를 통해 고객에게 통합된 물류 솔루션을 제공합니다. 이 광범위한 네트워크는 신뢰할 수 있는 서비스 제공의 핵심이며, 신규 진입자가 단기간에 구축하기 어려운 무형 자산입니다. (Item 1 Business 3)",
+      "EXPD는 고객의 공급망을 최적화하고 복잡한 국제 무역 규정을 준수하도록 돕는 전문 지식과 기술 플랫폼을 보유하고 있습니다. 이러한 전문성은 단순 운송을 넘어선 부가가치 서비스를 제공하며, 고객 충성도를 높이는 무형 자산으로 작용합니다. (Item 1 Business 3)"
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "글로벌 공급망 재편 및 디지털 전환 가속화",
+    "bull_case": "글로벌 공급망 안정화 및 디지털 전환 투자 성과로 높은 수익성 유지 및 시장 점유율 확대",
+    "base_case": "글로벌 물류 시장의 점진적 회복과 EXPD의 효율적인 운영을 통해 견조한 수익성을 유지하며 안정적인 성장을 지속할 것입니다. 다만, 거시 경제 불확실성과 운임 변동성은 상존합니다.",
+    "bear_case": "글로벌 경기 침체 심화 및 운임 하락 압력 증가로 매출 및 이익이 크게 감소하고, 경쟁 심화로 시장 점유율이 하락할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "총 운임 매출 (Net Revenue)",
+      "영업 이익률 (Operating Margin)",
+      "자유 현금 흐름 (Free Cash Flow)",
+      "고객 유지율 (Customer Retention Rate)",
+      "글로벌 운임 지수 (Global Freight Index)"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화, 무역 전쟁, 지정학적 불안정 등 거시 경제 요인은 운송 물량 감소와 운임 하락으로 이어져 회사 실적에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "운송 및 물류 산업은 매우 경쟁적이며, 신규 진입자, 기존 경쟁업체, 기술 발전 등으로 인해 가격 경쟁이 심화되고 시장 점유율이 하락할 위험이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "항공 및 해상 운송 능력 부족, 항만 혼잡, 노동 파업 등 공급망 교란은 운송 지연 및 비용 증가를 야기하여 고객 서비스 품질과 수익성에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "국제 무역 규제, 환경 규제, 보안 규제 등 다양한 법규 및 정책 변화는 회사의 운영 비용을 증가시키고 사업 확장을 제한할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "기술",
+        "description": "사이버 보안 침해, IT 시스템 장애, 데이터 유출 등 기술 관련 리스크는 고객 신뢰도 하락, 법적 책임 발생, 운영 중단으로 이어질 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동, 유가 변동, 금리 인상 등 재무적 리스크는 회사의 수익성과 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거버넌스",
+        "description": "핵심 인력 유출, 경영진 교체, 내부 통제 미흡 등 거버넌스 관련 리스크는 회사의 장기적인 성장과 안정성에 영향을 줄 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "글로벌 무역량이 급격히 감소하고 운임 경쟁이 극심해져 회사의 핵심 사업 모델이 붕괴될 경우.",
+      "대규모 사이버 공격으로 고객 데이터가 유출되고 시스템이 마비되어 고객 신뢰를 완전히 상실할 경우.",
+      "주요 항공사 및 선사와의 계약이 해지되거나 운송 능력이 심각하게 제한되어 물류 서비스를 제공할 수 없게 될 경우."
+    ],
+    "exit_signals": [
+      "분기별 운송 물량 및 운임 지표가 지속적으로 하락하고 시장 점유율이 유의미하게 감소하는 추세가 나타날 때.",
+      "주요 고객사의 이탈 소식이나 대규모 계약 해지 발표가 이어지고, 신규 고객 유치에 어려움을 겪는 것이 확인될 때.",
+      "경쟁사 대비 기술 투자 및 디지털 전환 속도가 현저히 느려지면서 서비스 경쟁력이 약화되는 징후가 보일 때."
+    ]
+  },
   "wikipedia_summary": "Expeditors International of Washington, Inc. is an American Fortune 500 service-based logistics company with headquarters in Bellevue, Washington. Expeditors generates highly optimized and customized supply chain solutions for clients with unified technology systems integrated through a global network of over 340+ locations in 100+ countries on six continents.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-18T01:11:13.152434+00:00"
+    "GoogleWebTranslator": "2026-09-19T01:15:09.185777+00:00"
   }
 }
