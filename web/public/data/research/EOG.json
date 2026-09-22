@@ -4,13 +4,13 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas E&P",
-  "generated_at": "2026-09-17T01:21:00.168418+00:00",
+  "generated_at": "2026-09-22T01:39:40.118727+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 76020006912,
-    "shares_outstanding": 524529176,
+    "market_cap": 75303026688,
+    "shares_outstanding": 532628530,
     "employees": 3400,
     "country": "United States",
     "website": "https://www.eogresources.com",
@@ -35,7 +35,7 @@
     "gross_margin": 0.63,
     "revenue_growth_ttm": 0.59,
     "earnings_growth_ttm": 1.09,
-    "dividend_yield": 2.65,
+    "dividend_yield": 2.83,
     "payout_ratio": 0.31,
     "annual_revenue": [
       22582000000.0,
@@ -90,21 +90,24 @@
       3.7,
       1.3,
       2.7,
-      2.46
+      2.46,
+      null
     ],
     "quarterly_revenue": [
-      8494000000.0,
+      null,
       6758000000.0,
       5653000000.0,
       5732000000.0,
-      5355000000.0
+      5355000000.0,
+      5842000000.0
     ],
     "quarterly_periods": [
       "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30"
+      "2025-06-30",
+      "2025-03-31"
     ],
     "eps_qoq_yoy_pct": 102.5,
     "sales_yoy_pct": 58.7,
@@ -120,25 +123,25 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 68.6,
+    "rs_rating": 70,
+    "score": 64.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4621,
-    "trailing_pe": 11.278599,
-    "forward_pe": 9.8381815,
-    "ev_to_ebitda": 5.475,
-    "price_to_sales": 2.8449538,
+    "peg_ratio": 1.3741,
+    "trailing_pe": 11.002335,
+    "forward_pe": 9.539811,
+    "ev_to_ebitda": 5.347,
+    "price_to_sales": 2.8181217,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 18.39,
-    "outperform_6m_vs_nasdaq": 0.47,
-    "outperform_1m_vs_nasdaq": 10.31,
+    "outperform_1y_vs_nasdaq": 3.84,
+    "outperform_6m_vs_nasdaq": -19.81,
+    "outperform_1m_vs_nasdaq": -7.56,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {},
   "wikipedia_summary": "EOG Resources, Inc. is an American energy company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in the Heritage Plaza building in Houston, Texas.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-19T01:15:09.184799+00:00"
+    "GoogleWebTranslator": "2026-09-22T01:47:39.388458+00:00"
   }
 }

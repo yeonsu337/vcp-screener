@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-09-19T01:14:37.326941+00:00",
+  "generated_at": "2026-09-22T01:47:02.878316+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1887643136,
+    "market_cap": 1894785152,
     "shares_outstanding": 28839563,
     "employees": 1644,
     "country": "United States",
@@ -28,15 +28,15 @@
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
+    "roe": 0.32,
+    "roa": 0.09,
+    "profit_margin": 0.11,
+    "operating_margin": 0.12,
+    "gross_margin": 0.24,
+    "revenue_growth_ttm": 0.28,
+    "earnings_growth_ttm": 0.28,
     "dividend_yield": null,
-    "payout_ratio": null,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       1289897000.0,
       1161042000.0,
@@ -124,20 +124,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 53.8,
+    "rs_rating": 88,
+    "score": 52.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.27,
-    "trailing_pe": 12.585715,
-    "forward_pe": 10.944099,
-    "ev_to_ebitda": 11.215,
-    "price_to_sales": 1.2871617,
+    "trailing_pe": 12.633334,
+    "forward_pe": 10.985508,
+    "ev_to_ebitda": 11.267,
+    "price_to_sales": 1.2920318,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 54.21,
-    "outperform_6m_vs_nasdaq": 4.67,
-    "outperform_1m_vs_nasdaq": 7.59
+    "outperform_1y_vs_nasdaq": 57.22,
+    "outperform_6m_vs_nasdaq": -1.61,
+    "outperform_1m_vs_nasdaq": -2.53
   },
   "category_e_risks": {
     "top_risks": [
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-19T01:15:20.534332+00:00"
+    "GoogleWebTranslator": "2026-09-22T01:47:52.696742+00:00"
   }
 }

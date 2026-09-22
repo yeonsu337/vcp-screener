@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-19T01:10:34.656010+00:00",
+  "generated_at": "2026-09-22T01:42:54.981984+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 4523054080,
+    "market_cap": 4433791488,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
@@ -17,29 +17,50 @@
     "beta": 0.634
   },
   "category_a_business": {
-    "overview": "Concentra Group Holdings Parent, Inc. provides occupational health services in the United States. The company operates in three segments: Occupational Health centers, Onsite health clinics, and Other business.",
-    "business_model": "Concentra Group Holdings Parent, Inc.",
+    "overview": "CON은 미국 최대의 산업 보건 서비스 제공업체로, 직업 및 소비자 건강 서비스를 제공합니다.",
+    "milestones": [
+      "1979: 회사 설립",
+      "2025: Nova Medical Centers 인수 (산업 보건 센터 확장)",
+      "2025: Pivot Onsite Innovations 인수 (현장 건강 클리닉 확장)",
+      "2025: 신용 계약 개정 및 신규 부채 조달",
+      "2025: 리볼빙 신용 시설 자발적 상환"
+    ],
+    "business_model": "직업 및 소비자 건강 서비스, 고용주 후원 1차 진료 등을 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "산업 보건 센터 서비스",
+      "현장 건강 클리닉 서비스",
+      "원격 의료 서비스",
+      "의약품 유통",
+      "약물 남용 검사 관리"
+    ],
+    "value_chain_position": "Downstream: 고용주 및 개인에게 직접 의료 및 건강 관리 서비스를 제공합니다.",
     "products": [
-      "occupational health services in the United States",
-      "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
-      "occupational health services, including workers compensation, employer, and consumer health services",
-      "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
-      "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
+      "산재 치료",
+      "고용주 서비스 (신체검사, 약물 검사 등)",
+      "소비자 건강 서비스 (긴급 진료, 예방 접종 등)",
+      "현장 1차 진료",
+      "원격 의료 (Concentra Telemed)",
+      "의약품 유통 (Concentra Pharmacy)"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (고용주 대상)",
+      "B2C (소비자 대상)",
+      "직영 센터",
+      "현장 클리닉",
+      "온라인 (원격 의료)"
+    ],
+    "key_customers": "주요 고객은 미국 전역의 고용주이며, 고객 집중도에 대한 구체적인 정보는 제공되지 않습니다."
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.47,
+    "roa": 0.08,
+    "profit_margin": 0.09,
+    "operating_margin": 0.19,
+    "gross_margin": 0.29,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 0.47,
+    "dividend_yield": 0.7,
+    "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
       1900192000.0,
@@ -128,20 +149,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 88,
-    "score": 65.1,
+    "rs_rating": 90,
+    "score": 64.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.883873,
-    "forward_pe": 19.286922,
-    "ev_to_ebitda": 14.164,
-    "price_to_sales": 1.9773217,
+    "trailing_pe": 22.432259,
+    "forward_pe": 18.883501,
+    "ev_to_ebitda": 13.971,
+    "price_to_sales": 1.9382992,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 48.57,
-    "outperform_6m_vs_nasdaq": 36.43,
-    "outperform_1m_vs_nasdaq": 0.83,
+    "outperform_1y_vs_nasdaq": 51.73,
+    "outperform_6m_vs_nasdaq": 37.29,
+    "outperform_1m_vs_nasdaq": -1.85,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -186,6 +207,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-19T01:14:57.603156+00:00"
+    "GoogleWebTranslator": "2026-09-22T01:47:27.952586+00:00"
   }
 }

@@ -1,0 +1,175 @@
+{
+  "ticker": "CHEF",
+  "company": "The Chefs' Warehouse, Inc.",
+  "market": "US",
+  "sector": "Consumer Defensive",
+  "industry": "Food Distribution",
+  "generated_at": "2026-09-22T01:41:43.318149+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": 4516126208,
+    "shares_outstanding": 40796083,
+    "employees": 5156,
+    "country": "United States",
+    "website": "https://www.chefswarehouse.com",
+    "beta": 1.38
+  },
+  "category_a_business": {
+    "overview": "The Chefs' Warehouse, Inc., together with its subsidiaries, distributes specialty food and center-of-the-plate products in the United States, the Middle East, and Canada. It offers specialty food products, such as artisan charcuterie, specialty cheeses, unique oils and vinegars, truffles, caviar, chocolate, and pastry products and center-of-the-plate products that includes custom cut beef, seafood, and hormone-free poultry, as well as produce and broadline food products comprising cooking oils, butter, eggs, milk, and flour. The company serves menu-driven independent restaurants, fine dining e",
+    "business_model": "The Chefs' Warehouse, Inc., together with its subsidiaries, distributes specialty food and center-of-the-plate products in the United States, the Middle East, and Canada.",
+    "products": [
+      "specialty food products, such as artisan charcuterie, specialty cheeses, unique oils and vinegars, truffles, caviar, cho"
+    ],
+    "channels": [
+      "B2B / Enterprise"
+    ]
+  },
+  "category_b_financials": {
+    "roe": 0.15,
+    "roa": 0.06,
+    "profit_margin": 0.02,
+    "operating_margin": 0.05,
+    "gross_margin": 0.24,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": 0.56,
+    "dividend_yield": null,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      4149537000.0,
+      3794212000.0,
+      3433763000.0,
+      2613399000.0
+    ],
+    "annual_operating_income": [
+      153106000.0,
+      128207000.0,
+      100943000.0,
+      85738000.0
+    ],
+    "annual_eps": [
+      1.68,
+      1.32,
+      0.88,
+      0.73
+    ],
+    "annual_free_cf": [
+      87793000.0,
+      103555000.0,
+      4212000.0,
+      -22714000.0,
+      null
+    ],
+    "annual_total_debt": [
+      974904000.0,
+      915828000.0,
+      926267000.0,
+      836766000.0,
+      null
+    ],
+    "annual_equity": [
+      604309000.0,
+      537646000.0,
+      454672000.0,
+      401509000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      0.76,
+      0.4,
+      0.5,
+      0.44,
+      0.49
+    ],
+    "quarterly_revenue": [
+      1168613000.0,
+      1059010000.0,
+      1142564000.0,
+      1021319000.0,
+      1034906000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "ni_cagr_3y_pct": 37.64
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
+    "competitive_advantages": [
+      "Consumer Defensive / Food Distribution 카테고리 — yfinance peer 비교 권장"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 89,
+    "score": 51.7,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.08,
+    "trailing_pe": 52.464455,
+    "forward_pe": 35.9952,
+    "ev_to_ebitda": 20.451,
+    "price_to_sales": 1.0283775,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 43.67,
+    "outperform_6m_vs_nasdaq": 59.43,
+    "outperform_1m_vs_nasdaq": -0.8
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "This section discusses factors that, individually or in the aggregate, we think could cause our actual results to differ materially from our expected and historical results.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If our customers’ sales decrease, our profitability could decline as we spread fixed costs across lower sales volume.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Also, similar economic conditions could lead to consumers purchasing less from our direct-to-consumer platforms.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Accordingly, any such effects could harm our business, financial condition or results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our continued success will depend in part upon our ability to anticipate, identify and respond to changing economic and other conditions and the impact that those conditions may have on discretionary consumer spending.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Our business is a low-margin business, and our profit margins may be sensitive to inflationary and deflationary pressures.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-22T01:47:24.942383+00:00"
+  }
+}

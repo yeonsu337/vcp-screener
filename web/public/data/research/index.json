@@ -196,8 +196,8 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-15T01:23:07.894794+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-09-22T01:38:38.737932+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "BK",
@@ -310,6 +310,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "CHEF",
+    "company": "The Chefs' Warehouse, Inc.",
+    "market": "US",
+    "sector": "Consumer Defensive",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-22T01:41:43.318149+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "CHRW",
     "company": "C.H. Robinson Worldwide, Inc.",
     "market": "US",
@@ -346,7 +356,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-19T01:10:34.656010+00:00",
+    "generated_at": "2026-09-22T01:42:54.981984+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -406,7 +416,7 @@
     "sector": "Industrials",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-19T01:11:36.117831+00:00",
+    "generated_at": "2026-09-22T01:45:59.933690+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -416,7 +426,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-15T01:20:27.871222+00:00",
+    "generated_at": "2026-09-22T01:34:51.490854+00:00",
     "llm_status": "ok"
   },
   {
@@ -506,7 +516,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-17T01:21:00.168418+00:00",
+    "generated_at": "2026-09-22T01:39:40.118727+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -576,7 +586,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-19T01:14:37.326941+00:00",
+    "generated_at": "2026-09-22T01:47:02.878316+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -886,7 +896,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-12T01:02:18.857398+00:00",
+    "generated_at": "2026-09-22T01:35:28.846288+00:00",
     "llm_status": "ok"
   },
   {
@@ -1016,8 +1026,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-19T01:13:34.579863+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-09-22T01:44:58.524719+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "OII",
@@ -1036,7 +1046,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-16T01:13:48.367268+00:00",
+    "generated_at": "2026-09-22T01:43:56.878272+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1066,7 +1076,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-15T01:21:47.152868+00:00",
+    "generated_at": "2026-09-22T01:36:49.607963+00:00",
     "llm_status": "ok"
   },
   {
@@ -1266,8 +1276,8 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-15T01:22:27.918511+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-09-22T01:40:41.234403+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "THR",
@@ -1296,7 +1306,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-11T00:59:47.574646+00:00",
+    "generated_at": "2026-09-22T01:37:27.411806+00:00",
     "llm_status": "ok"
   },
   {
@@ -1476,7 +1486,7 @@
     "sector": "Financial Services",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-08T01:05:07.064939+00:00",
+    "generated_at": "2026-09-22T01:36:09.800918+00:00",
     "llm_status": "ok"
   },
   {
