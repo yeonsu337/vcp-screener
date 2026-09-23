@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Food Distribution",
-  "generated_at": "2026-09-22T01:41:43.318149+00:00",
+  "generated_at": "2026-09-23T01:23:13.689284+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4516126208,
+    "market_cap": 4420663808,
     "shares_outstanding": 40796083,
     "employees": 5156,
     "country": "United States",
@@ -17,14 +17,34 @@
     "beta": 1.38
   },
   "category_a_business": {
-    "overview": "The Chefs' Warehouse, Inc., together with its subsidiaries, distributes specialty food and center-of-the-plate products in the United States, the Middle East, and Canada. It offers specialty food products, such as artisan charcuterie, specialty cheeses, unique oils and vinegars, truffles, caviar, chocolate, and pastry products and center-of-the-plate products that includes custom cut beef, seafood, and hormone-free poultry, as well as produce and broadline food products comprising cooking oils, butter, eggs, milk, and flour. The company serves menu-driven independent restaurants, fine dining e",
-    "business_model": "The Chefs' Warehouse, Inc., together with its subsidiaries, distributes specialty food and center-of-the-plate products in the United States, the Middle East, and Canada.",
+    "overview": "셰프 웨어하우스는 미국, 중동, 캐나다에서 고급 식자재 및 핵심 식자재를 유통하는 전문 기업입니다.",
+    "milestones": [
+      "1985: 회사 설립",
+      "2011: 나스닥 상장 (CHEF)",
+      "2012: Allen Brothers 인수 (D2C 채널 확장)",
+      "2015: Michael’s Finer Meats and Seafood 인수",
+      "2021: Dairyland Food Group 인수",
+      "2023: R.L. Schreiber, Inc. 인수"
+    ],
+    "business_model": "고급 식당 및 요식업체에 특화된 식자재를 공급하고 유통 마진을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "특수 식자재 유통",
+      "핵심 식자재 (육류, 해산물, 가금류) 유통",
+      "농산물 및 광범위 식자재 유통",
+      "직접 소비자 판매 (D2C)"
+    ],
+    "value_chain_position": "Midstream + 4,000개 이상의 공급업체로부터 식자재를 조달하여 고객에게 유통합니다.",
     "products": [
-      "specialty food products, such as artisan charcuterie, specialty cheeses, unique oils and vinegars, truffles, caviar, cho"
+      "장인 샤퀴테리, 특수 치즈, 고급 오일/식초",
+      "트러플, 캐비어, 초콜릿, 페이스트리 제품",
+      "맞춤형 소고기, 해산물, 무호르몬 가금류",
+      "농산물, 식용유, 버터, 계란, 우유, 밀가루"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (독립 레스토랑, 고급 식당, 호텔, 케이터링 등)",
+      "D2C (Allen Brothers 메일 및 이커머스 플랫폼)"
+    ],
+    "key_customers": "고객 집중도는 낮으며, 55,000개 이상의 핵심 고객사에 서비스를 제공합니다."
   },
   "category_b_financials": {
     "roe": 0.15,
@@ -102,74 +122,143 @@
       "2025-09-30",
       "2025-06-30"
     ],
-    "ni_cagr_3y_pct": 37.64
+    "eps_qoq_yoy_pct": 59.0,
+    "sales_yoy_pct": 12.9,
+    "ni_cagr_3y_pct": 37.64,
+    "roe_pct": 15.25
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 (estimate) + 북미 및 중동/캐나다 외식 서비스 시장 규모 추정치 기반",
+    "tam_cagr_pct": "5-7% + 고급 식자재 및 외식 시장의 지속적인 성장, 건강 및 미식 트렌드 확산, 프리미엄 제품 수요 증가에 기반",
+    "growth_drivers": [
+      "고급 식자재 및 센터-오브-더-플레이트 제품에 대한 소비자 수요 증가",
+      "독립 레스토랑, 고급 식당 등 핵심 고객층의 확장 및 성장",
+      "인수합병을 통한 시장 침투력 강화 및 지리적 확장",
+      "제품 포트폴리오의 다양화 및 심화 (90,000개 이상의 SKU)",
+      "기술 도입을 통한 운영 효율성 증대 및 고객 서비스 개선"
+    ],
+    "market_share_pct": "5-10% (estimate)",
+    "competitors": [
+      {
+        "name": "Sysco Corporation (SYY)",
+        "differentiation": "광범위한 제품 라인업과 대규모 유통망을 가진 전통적인 광범위 식자재 유통업체. CHEF는 틈새시장인 고급 식자재 및 전문 셰프 고객에 집중하여 차별화."
+      },
+      {
+        "name": "US Foods Holding Corp. (USFD)",
+        "differentiation": "Sysco와 유사하게 광범위한 고객층과 제품을 제공하는 대형 유통업체. CHEF는 특정 고급 식자재와 맞춤형 서비스로 경쟁 우위 확보."
+      },
+      {
+        "name": "Performance Food Group Company (PFGC)",
+        "differentiation": "다양한 식자재 유통 서비스를 제공하며, 특히 외식 서비스 부문에 강점. CHEF는 독특하고 찾기 어려운 전문 식자재에 특화."
+      },
+      {
+        "name": "로컬/지역 전문 식자재 유통업체",
+        "differentiation": "특정 지역이나 소규모 틈새시장에 강점을 가질 수 있으나, CHEF는 광범위한 유통망과 제품 구색으로 규모의 경제 및 전문성 제공."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 초기 투자 비용(유통망, 재고)과 기존 업체와의 관계 구축이 필요하지만, 특정 틈새시장은 진입 장벽이 상대적으로 낮을 수 있음.",
+      "substitutes": "low + 외식 산업에서 신선하고 고품질의 식자재는 필수적이므로 직접적인 대체재는 제한적임. 다만, 고객이 직접 소싱하거나 다른 유통 채널을 이용할 수 있음.",
+      "buyer_power": "medium + 고객(레스토랑, 호텔 등)은 다양한 공급업체를 선택할 수 있으며, 특히 대량 구매 고객은 가격 협상력이 높음. 하지만 CHEF의 독점적인 제품은 고객의 전환 비용을 높임.",
+      "supplier_power": "medium + 독특하고 희귀한 식자재 공급업체는 제한적일 수 있어 공급업체의 협상력이 있을 수 있음. 하지만 CHEF는 4,000개 이상의 다양한 공급업체와 협력하여 위험을 분산.",
+      "rivalry": "high + 식자재 유통 시장은 경쟁이 치열하며, 대형 광범위 유통업체와 소규모 전문 유통업체 모두 존재. CHEF는 전문성으로 차별화하지만 경쟁 압력은 높음."
+    },
     "competitive_advantages": [
-      "Consumer Defensive / Food Distribution 카테고리 — yfinance peer 비교 권장"
+      "독특하고 찾기 어려운 고급 식자재 및 센터-오브-더-플레이트 제품의 광범위한 포트폴리오 (90,000개 이상 SKU)",
+      "셰프 중심의 전문적인 고객 서비스 및 제품 지식",
+      "숙련된 영업 및 고객 서비스 전문가 (약 1,100명)를 통한 강력한 고객 관계 구축",
+      "전략적 인수합병을 통한 시장 확장 및 제품 역량 강화",
+      "효율적인 유통 및 물류 플랫폼 (44개 유통 센터, 주 6일 배송)"
+    ],
+    "competitive_weaknesses": [
+      "대형 광범위 유통업체 대비 규모의 경제 및 가격 경쟁력 열위 가능성",
+      "고급 식자재 시장의 경기 변동 및 소비자 트렌드 변화에 대한 민감성",
+      "인수합병에 대한 의존도가 높아 통합 위험 및 재무적 부담 발생 가능성",
+      "특정 틈새시장에 집중되어 있어 시장 확장성에 한계가 있을 수 있음",
+      "물류 및 유통 네트워크 운영 비용 부담"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 89,
-    "score": 51.7,
+    "score": 62.1,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.08,
-    "trailing_pe": 52.464455,
-    "forward_pe": 35.9952,
-    "ev_to_ebitda": 20.451,
-    "price_to_sales": 1.0283775,
+    "trailing_pe": 51.600002,
+    "forward_pe": 35.23433,
+    "ev_to_ebitda": 20.084,
+    "price_to_sales": 1.0066396,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 43.67,
-    "outperform_6m_vs_nasdaq": 59.43,
-    "outperform_1m_vs_nasdaq": -0.8
+    "outperform_1y_vs_nasdaq": 45.61,
+    "outperform_6m_vs_nasdaq": 66.59,
+    "outperform_1m_vs_nasdaq": -2.35,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets | Switching Costs",
+    "moat_evidence": [
+      "90,000개 이상의 SKU와 4,000개 이상의 공급업체로부터 독특하고 찾기 어려운 전문 식료품 및 센터 오브 더 플레이트 제품을 제공하여 경쟁사와 차별화됩니다.",
+      "고객인 셰프들이 CHEF를 주요 식자재 유통업체로 활용할 수 있도록 광범위한 제품군과 맞춤형 서비스를 제공하여 전환 비용을 높입니다.",
+      "숙련된 영업 전문가, 고품질 고객 서비스, 강력한 소싱 역량, 통합 창고 관리 시스템을 통해 고객과의 관계를 강화하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "Italco Food Products 인수 (2025년 10월)로 시장 침투 및 제품 역량 강화",
+    "bull_case": "고급 식자재 수요 증가, 성공적인 M&A, 운영 효율성 개선으로 시장 점유율 확대 및 수익성 향상",
+    "base_case": "고급 레스토랑 및 외식 산업의 꾸준한 성장과 함께 CHEF는 독점적인 제품 포트폴리오와 강력한 고객 관계를 바탕으로 시장 선두 위치를 유지하며 안정적인 매출 성장과 수익성을 기록할 것입니다. 전략적 인수를 통해 시장 침투를 지속하고 운영 효율성을 개선하여 점진적인 성장을 이룰 것으로 예상됩니다.",
+    "bear_case": "경기 침체로 인한 고급 외식 수요 감소, 경쟁 심화로 인한 마진 압박, 공급망 문제 또는 인수 통합 실패로 인해 매출 성장 둔화 및 수익성 악화가 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (TTM)",
+      "영업 이익률 (OPM)",
+      "순이익 성장률 (3Y NI CAGR)",
+      "신규 고객 확보율",
+      "인수 및 통합 성공률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "This section discusses factors that, individually or in the aggregate, we think could cause our actual results to differ materially from our expected and historical results.",
+        "category": "거시",
+        "description": "소비자 재량 지출 감소는 외식 산업 고객의 매출 감소로 이어져 회사 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "식품 서비스 유통 산업은 낮은 마진이 특징이며, 인플레이션 및 디플레이션 압력에 따라 이익 마진이 민감하게 변동하여 수익성에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If our customers’ sales decrease, our profitability could decline as we spread fixed costs across lower sales volume.",
+        "category": "재무",
+        "description": "신용 프로필의 변화는 공급업체와의 관계에 영향을 미쳐 지급 조건 단축으로 이어질 수 있으며, 이는 회사의 유동성에 심각한 악영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Also, similar economic conditions could lead to consumers purchasing less from our direct-to-consumer platforms.",
+        "category": "경쟁",
+        "description": "식품 서비스 유통 산업은 매우 세분화되고 경쟁이 치열하며, 고객들은 낮은 전환 비용으로 다른 유통업체로 쉽게 전환할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "그룹 구매 조직의 영향력 증가는 회사가 고객을 유지하기 위해 가격을 인하하도록 강요하거나, 사업을 잃게 만들 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Accordingly, any such effects could harm our business, financial condition or results of operations.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Our continued success will depend in part upon our ability to anticipate, identify and respond to changing economic and other conditions and the impact that those conditions may have on discretionary consumer spending.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Our business is a low-margin business, and our profit margins may be sensitive to inflationary and deflationary pressures.",
+        "category": "공급망",
+        "description": "제품 비용 인플레이션이 지속될 경우, 이를 고객에게 전가하지 못하면 이익 마진과 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "장기간의 경기 침체로 소비자의 외식 습관이 영구적으로 감소하고, 회사의 주요 고객 기반이 붕괴될 경우.",
+      "경쟁 심화와 그룹 구매 조직의 압력으로 인해 회사가 수익성 있는 가격을 유지하지 못하고 시장 점유율을 급격히 잃을 경우.",
+      "신용 프로필 악화로 공급업체들이 지급 조건을 대폭 단축하여 회사의 유동성이 고갈되고 운영이 불가능해질 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "분기별 매출이 2분기 연속으로 전년 대비 10% 이상 감소하고, 마진율이 지속적으로 하락하는 추세가 나타날 경우.",
+      "주요 경쟁업체가 대규모 고객 기반을 확보하거나, 새로운 기술을 통해 시장에 진입하여 회사의 경쟁 우위가 크게 약화될 경우.",
+      "신용 등급이 하향 조정되거나, 공급업체들이 대규모로 지급 조건을 변경하여 회사의 현금 흐름에 심각한 압박이 가해질 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-22T01:47:24.942383+00:00"
+    "GoogleWebTranslator": "2026-09-23T01:32:26.018125+00:00"
   }
 }
