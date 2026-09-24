@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Beverages - Non-Alcoholic",
-  "generated_at": "2026-09-23T01:29:02.510923+00:00",
+  "generated_at": "2026-09-24T01:19:28.833887+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 381248864256,
+    "market_cap": 379011530752,
     "shares_outstanding": 4302549243,
     "employees": 65900,
     "country": "United States",
@@ -17,40 +17,22 @@
     "beta": 0.342
   },
   "category_a_business": {
-    "overview": "코카콜라는 미국에 본사를 둔 다국적 음료 기업으로, 다양한 비알코올 음료를 제조, 판매, 마케팅합니다.",
-    "milestones": [
-      "1886: 존 펨버턴 박사가 코카콜라를 발명",
-      "1892: 코카콜라 컴퍼니 설립",
-      "1899: 보틀링 시스템 도입으로 유통망 확장",
-      "1919: 뉴욕 증권 거래소 상장",
-      "1960: 스프라이트 출시",
-      "1982: 다이어트 코크 출시",
-      "2007: 코카콜라 제로 슈거 출시",
-      "2018: 코스타 커피 인수"
-    ],
-    "business_model": "음료 원액 및 시럽을 제조, 판매하고 완제품 음료를 유통하여 수익을 창출합니다.",
-    "revenue_streams": [
-      "음료 원액 및 시럽 판매",
-      "완제품 음료 판매",
-      "프랜차이즈 및 라이선스 수수료",
-      "커피 사업 (코스타)"
-    ],
-    "value_chain_position": "Midstream + 원액 및 시럽 제조와 브랜드 마케팅에 집중하며, 보틀링 파트너를 통해 유통합니다.",
+    "overview": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides Trademark Coca-Cola, sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and emerging beverages. It also offers beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenience stores.",
+    "business_model": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally.",
     "products": [
-      "코카콜라 (오리지널, 제로 슈거, 다이어트 등)",
-      "스프라이트",
-      "환타",
-      "미닛메이드 (주스)",
-      "조지아 (커피)",
-      "파워에이드 (스포츠 음료)"
+      "and sells various nonalcoholic beverages in the United States and internationally",
+      "Trademark Coca-Cola, sparkling soft drinks and flavors",
+      "beverage concentrates and syrups, as well as fountain syrups to fountain retailers comprising restaurants and convenienc",
+      "its products under the Coca-Cola, Diet Coke/Coca-Cola Light, Coca-Cola Zero Sugar, caffeine free Diet Coke, Cherry Coke",
+      "through a network of independent bottling partners, distributors, wholesalers, and retailers, as well as through bottli"
     ],
     "channels": [
-      "B2B (보틀링 파트너, 도매업체)",
-      "B2C (소매점, 레스토랑, 편의점)",
-      "자판기",
-      "온라인"
+      "B2B / Enterprise"
     ],
-    "key_customers": "전 세계 수많은 보틀링 파트너, 유통업체, 소매업체 및 최종 소비자로 구성되어 고객 집중도가 낮습니다."
+    "wikipedia_excerpt": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices.",
+    "milestones": [
+      "1892: , headquartered in Atlanta, Georgia"
+    ]
   },
   "category_b_financials": {
     "roe": 0.42,
@@ -60,7 +42,7 @@
     "gross_margin": 0.62,
     "revenue_growth_ttm": 0.07,
     "earnings_growth_ttm": 0.17,
-    "dividend_yield": 2.43,
+    "dividend_yield": 2.39,
     "payout_ratio": 0.62,
     "annual_revenue": [
       47941000000.0,
@@ -156,15 +138,15 @@
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 3.9573,
-    "trailing_pe": 26.60961,
-    "forward_pe": 25.12775,
-    "ev_to_ebitda": 24.197,
-    "price_to_sales": 7.6053557,
+    "peg_ratio": 4.025,
+    "trailing_pe": 26.453453,
+    "forward_pe": 24.98029,
+    "ev_to_ebitda": 24.066,
+    "price_to_sales": 7.5607243,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 14.19,
-    "outperform_6m_vs_nasdaq": -6.14,
-    "outperform_1m_vs_nasdaq": -7.22,
+    "outperform_1y_vs_nasdaq": 15.55,
+    "outperform_6m_vs_nasdaq": -4.73,
+    "outperform_1m_vs_nasdaq": -6.05,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -209,6 +191,6 @@
   },
   "wikipedia_summary": "The Coca-Cola Company is an American multinational corporation founded in January 1892, headquartered in Atlanta, Georgia. It manufactures, sells and markets soft drinks including Coca-Cola, other non-alcoholic beverage concentrates and syrups, and alcoholic beverages. Its stock is listed on the New York Stock Exchange and is a component of the DJIA and the S&P 500 and S&P 100 indices.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-23T01:32:53.525244+00:00"
+    "GoogleWebTranslator": "2026-09-24T01:22:20.358416+00:00"
   }
 }

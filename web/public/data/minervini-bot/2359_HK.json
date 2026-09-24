@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "2359.HK",
-  "generated_at": "2026-09-23T01:18:34.331679+00:00",
-  "source_results_date": "2026-09-23",
-  "verdict": "EXTENDED",
-  "verdict_kr": "추격 위험",
-  "confidence": 0.66,
+  "generated_at": "2026-09-24T01:11:51.756326+00:00",
+  "source_results_date": "2026-09-24",
+  "verdict": "STOP_OUT",
+  "verdict_kr": "청산 (Stop hit)",
+  "confidence": 0.95,
   "lines": [
-    "추격 위험 — Pivot HK$212.80 대비 +12.4%, buy zone 초과, 베이스 카운트 4.",
-    "13주 베이스 16.3% → 10.2% → 9.9% → 12.2%, VDU 0.71× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 98로 추세는 살아있음.",
-    "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
+    "청산 — Peak +21.5%에서 -16.0% 후퇴 (Trailing -15% 발화), 현재 손익 +5.5% (Peak +21.5%).",
+    "진입 2026-08-28 @ HK$196.80 → 현재 HK$207.60.",
+    "Stage 2, RS 98. Minervini ironclad 손절 룰 발화 — 협의 불가.",
+    "전량 청산 후 새 진입 setup 형성 대기. 손실 누적 금지."
   ],
   "action": {
     "entry_type": "none",
@@ -19,40 +19,24 @@
     "stop_pct": null,
     "target1_price": null,
     "target1_pct": null,
-    "trailing_rule": "close_below_sma50_on_volume",
+    "trailing_rule": null,
     "position_risk_pct": 1.5
   },
   "framework": {
-    "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
+    "trend_template_score": "—",
+    "vcp_quality_score": "—",
     "rs_rating": 98,
     "stage": 2,
-    "base_count": 4,
-    "late_base_warning": true,
+    "base_count": 0,
+    "late_base_warning": false,
     "market_regime": "neutral"
   },
-  "rule_references": [
-    "A1_ud_vol_ratio",
-    "B1_price_above_150_200",
-    "B2_sma150_gt_sma200",
-    "B3_sma50_gt_150_200",
-    "B4_price_above_sma50",
-    "B5_sma200_rising_5mo",
-    "B6_30pct_above_52w_low",
-    "B7_within_25pct_high",
-    "R1_rs_70",
-    "L1_liquidity_gate",
-    "R2_rs_80",
-    "R3_rs_90"
-  ],
+  "rule_references": [],
   "key_failures": [
-    "P2_last_contraction (12.22% vs 6.5%)",
-    "P3_vol_dryup (0.71× vs 0.6×)",
-    "P4_base_count (4 — 후기 베이스)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)"
+    "Peak +21.5%에서 -16.0% 후퇴 (Trailing -15% 발화)"
   ],
   "warnings": [
-    "베이스 카운트 4 — 후기 베이스, 실패율 상승"
+    "진입가 HK$196.80 · 감지일 2026-08-28",
+    "포지션 전량 청산 후 새 setup 형성 시까지 신규 진입 금지"
   ]
 }

@@ -4,29 +4,47 @@
   "market": "US",
   "sector": "Basic Materials",
   "industry": "Gold",
-  "generated_at": "2026-09-23T01:24:53.629233+00:00",
+  "generated_at": "2026-09-24T01:14:52.385996+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 7946907648,
-    "shares_outstanding": 207491071,
+    "market_cap": 7401907712,
+    "shares_outstanding": 203909312,
     "employees": 2900,
     "country": "United States",
     "website": "https://www.ssrmining.com",
     "beta": 0.982
   },
   "category_a_business": {
-    "overview": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, Türkiye, Canada, and Argentina. The company explores for gold doré, copper, silver, lead, and zinc deposits. It holds interests in the Çöpler located in Erzincan province, Turkey; the Marigold situated in Nevada, the United States; the Seabee located in Saskatchewan, Canada; and the Puna situated in Jujuy province, Argentina.",
-    "business_model": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, Türkiye, Canada, and Argentina.",
-    "channels": [
-      "B2B / Enterprise"
-    ],
-    "wikipedia_excerpt": "SSR Mining Inc., formerly Silver Standard Resources is a Denver-based gold, silver, copper, lead and zinc producer that owns the largest silver mine in Argentina. In addition it engages in exploration activity throughout the Americas and Turkey. In 2020, SSR Mining merged with Alacer Gold. Since the merger, the company has moved headquarters to Denver, Colorado. Rodney P. Antal is now the president and CEO of SSR mining. In February 2021, SSR Mining announced that Alison White would be the new executive vice president and CFO. In addition, the rest of the executive team at SSR mining was added",
+    "overview": "SSRM은 미국, 튀르키예, 캐나다, 아르헨티나에서 귀금속 및 비철금속을 탐사, 개발, 생산하는 글로벌 광업 회사입니다.",
     "milestones": [
-      "2020: , SSR Mining merged with Alacer Gold",
-      "2021: , SSR Mining announced that Alison White would be the new executive vice president and CFO"
-    ]
+      "1946: Silver Standard Resources Inc. 설립",
+      "2017: 사명을 Silver Standard Resources Inc.에서 SSR Mining Inc.로 변경",
+      "2020: Alacer Gold와 합병하여 본사를 덴버로 이전",
+      "2021: 새로운 경영진 구성 발표",
+      "2025: 호주 증권 거래소(ASX) 자진 상장 폐지"
+    ],
+    "business_model": "귀금속 및 비철금속 광산 운영, 탐사, 개발을 통해 금속을 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "금(Gold) 판매",
+      "은(Silver) 판매",
+      "납(Lead) 판매",
+      "아연(Zinc) 판매",
+      "구리(Copper) 판매"
+    ],
+    "value_chain_position": "Upstream + 귀금속 및 비철금속 광물 자원의 탐사, 채굴, 가공에 집중합니다.",
+    "products": [
+      "금 도레(Gold Doré)",
+      "은 정광(Silver Concentrate)",
+      "납 정광(Lead Concentrate)",
+      "아연 정광(Zinc Concentrate)",
+      "구리(Copper)"
+    ],
+    "channels": [
+      "B2B (은행, 중앙은행, 제련소, 트레이더)"
+    ],
+    "key_customers": "주요 고객은 CIBC, RBC, NBC 등 은행과 튀르키예 중앙은행, Trafigura Trading LLC 등이며, 상위 고객 집중도가 높은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.14,
@@ -120,11 +138,58 @@
     "roe_pct": 14.27
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 billion USD (추정) - 세계 금 시장 규모를 기반으로 추정. World Gold Council 및 관련 시장 보고서 참조.",
+    "tam_cagr_pct": "3-5% (추정) - 금은 인플레이션 헤지 및 안전 자산으로서의 매력이 지속될 것으로 예상되며, 신흥국 수요 증가 및 중앙은행의 금 보유량 확대 추세가 성장을 견인할 것으로 예상됨.",
+    "growth_drivers": [
+      "글로벌 경제 불확실성 증가에 따른 안전 자산으로서의 금 수요 증가",
+      "인플레이션 헤지 수단으로서의 금 투자 매력 부각",
+      "신흥국 중산층 증가 및 문화적 요인에 따른 금 장신구 및 투자 수요 확대",
+      "중앙은행의 외환보유액 다변화 전략에 따른 금 매입 지속",
+      "전기차 및 전자제품 등 산업용 금 수요의 꾸준한 증가"
+    ],
+    "market_share_pct": "0.5-1.0% (추정) - SSRM의 연간 금 생산량(약 600-700천 온스)을 글로벌 금 생산량(약 1억 온스)과 비교하여 추정.",
+    "competitors": [
+      {
+        "name": "Newmont Corporation",
+        "differentiation": "세계 최대 금 생산업체로, 광범위한 글로벌 운영 및 대규모 매장량을 보유하고 있으며, 강력한 재무 건전성과 기술력을 바탕으로 시장을 선도함."
+      },
+      {
+        "name": "Barrick Gold Corporation",
+        "differentiation": "세계 2위 금 생산업체로, 고품질 자산 포트폴리오와 낮은 생산 비용을 강점으로 하며, 아프리카 및 북미 지역에 집중된 대규모 광산을 운영함."
+      },
+      {
+        "name": "Agnico Eagle Mines Limited",
+        "differentiation": "주로 캐나다, 멕시코, 핀란드, 호주 등 정치적으로 안정적인 지역에 광산을 보유하고 있으며, 지속적인 탐사 및 개발을 통해 매장량을 확대하고 책임 있는 채굴에 중점을 둠."
+      },
+      {
+        "name": "Kinross Gold Corporation",
+        "differentiation": "미주, 서아프리카, 러시아 등 다양한 지역에 걸쳐 운영되며, 비용 효율적인 생산과 자산 최적화에 중점을 두고 있음."
+      },
+      {
+        "name": "Yamana Gold Inc. (Pan American Silver에 인수)",
+        "differentiation": "주로 남미 지역에 광산을 보유하고 있었으며, 탐사 잠재력이 높은 자산과 성장 프로젝트에 집중했으나, 현재는 Pan American Silver의 일부로 운영됨."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 금 채굴 산업은 막대한 초기 자본 투자, 복잡한 규제 승인, 숙련된 인력 및 기술 요구 사항으로 인해 진입 장벽이 높지만, 금 가격 상승 시 소규모 탐사 기업의 진입 시도가 증가할 수 있음.",
+      "substitutes": "low - 금은 고유한 물리적, 화학적 특성과 역사적 가치를 지니고 있어 투자, 장신구, 산업용 등 다양한 용도에서 직접적인 대체재를 찾기 어려움.",
+      "buyer_power": "medium - 금 도레(dore) 형태의 주 생산품은 주로 은행 및 중앙은행에 판매되며, 이들은 대량 구매자로서 일정 수준의 가격 협상력을 가질 수 있으나, 금 자체의 시장 가격은 글로벌 수요와 공급에 의해 결정됨.",
+      "supplier_power": "medium - 채굴 장비, 화학 물질, 에너지 등 주요 공급업체는 다양하지만, 특정 고성능 장비나 전문 서비스의 경우 공급업체 수가 제한적일 수 있으며, 이는 공급업체의 협상력을 높일 수 있음.",
+      "rivalry": "high - 금 채굴 산업은 소수의 대형 기업과 다수의 중소형 기업이 경쟁하는 구조이며, 금 가격 변동에 민감하고, 생산량 증대 및 비용 절감을 위한 경쟁이 치열함."
+    },
     "competitive_advantages": [
-      "Basic Materials / Gold 카테고리 — yfinance peer 비교 권장"
+      "미국, 캐나다, 아르헨티나, 튀르키예 등 지리적으로 다각화된 운영 자산 보유 (정치적 리스크 분산)",
+      "금 외에 은, 구리, 납, 아연 등 다양한 금속을 생산하여 수익원 다각화 및 상품 가격 변동 위험 완화",
+      "Marigold, CC&V 등 미국 내 주요 광산 보유로 안정적인 운영 환경 및 낮은 정치적 리스크 확보",
+      "탐사 및 개발 활동에 지속적으로 투자하여 장기적인 성장 잠재력 확보",
+      "다양한 배경과 경험을 가진 인력 및 이사회 구성으로 의사결정의 견고성 및 혁신성 추구"
+    ],
+    "competitive_weaknesses": [
+      "튀르키예 Çöpler 광산의 운영 중단(2025년 기준)으로 인한 생산량 및 수익 감소 (단기적 리스크)",
+      "금 가격 변동성에 대한 높은 의존도 (매출의 약 71%가 금 도레에서 발생)",
+      "일부 운영 지역(예: 아르헨티나, 튀르키예)의 정치적, 경제적 불안정성 및 규제 리스크 노출",
+      "대형 경쟁사에 비해 상대적으로 작은 규모의 생산량 및 매장량",
+      "환경, 사회, 거버넌스(ESG) 관련 규제 및 지역사회 관계 관리의 중요성 증대 (운영 비용 증가 가능성)"
     ]
   },
   "category_d_thesis": {
@@ -134,58 +199,90 @@
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.02,
-    "trailing_pe": 14.398496,
-    "forward_pe": 8.290187,
-    "ev_to_ebitda": 6.921,
-    "price_to_sales": 4.110881,
+    "trailing_pe": 13.646616,
+    "forward_pe": 7.8572793,
+    "ev_to_ebitda": 6.449,
+    "price_to_sales": 3.828956,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 47.71,
-    "outperform_6m_vs_nasdaq": 35.26,
-    "outperform_1m_vs_nasdaq": -4.66,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 49.07,
+    "outperform_6m_vs_nasdaq": 36.66,
+    "outperform_1m_vs_nasdaq": -3.48,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "SSR Mining은 미국, 튀르키예, 캐나다, 아르헨티나 등 다양한 지역에 광산을 보유하여 특정 지역의 정치적, 경제적 리스크를 분산하고 안정적인 생산 기반을 확보합니다.",
+      "금, 은, 납, 아연 등 다양한 귀금속 및 비철금속을 생산하여 상품 가격 변동성에 대한 노출을 줄이고 수익원을 다각화합니다.",
+      "생산된 금 도레(Doré)를 주요 은행(CIBC, RBC, NBC)에 판매하고, 은 농축액은 Trafigura Trading LLC와 같은 대형 트레이더에 판매하여 안정적인 판매 채널을 확보하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "튀르키예 숍러(Çöpler) 광산 운영 재개 및 생산량 회복 기대",
+    "bull_case": "금 가격 상승 및 숍러 광산 생산량 회복으로 수익성 개선, 주주환원 확대",
+    "base_case": "글로벌 금속 수요 견조세 유지 및 기존 광산의 안정적인 생산으로 꾸준한 실적 달성",
+    "bear_case": "금속 가격 하락, 튀르키예 광산의 추가적인 운영 차질, 생산 비용 증가로 인한 수익성 악화",
+    "key_metrics_to_watch": [
+      "금 및 은 가격 추이",
+      "튀르키예 숍러 광산 생산량 및 가동률",
+      "총 생산 비용 (AISC)"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Risks Related to the Company’s Operations and Business: • The Company’s production, development plans and cost estimates may vary and/or not be achieved.",
+        "category": "거시",
+        "description": "2024년 2월 13일 Çöpler 광산의 힙 침출 패드에서 발생한 대규모 슬립 사고로 인해 운영이 중단되었으며, 이는 회사의 현금 흐름, 유동성 및 자본 자원에 중대한 영향을 미치고 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "금, 은 및 기타 금속의 시장 가격 변동은 회사의 운영에 큰 영향을 미치며, 과거에도 가격 변동성이 컸습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "운영",
+        "description": "회사의 광물 매장량 및 자원 추정치는 해석 및 가정에 기반하며, 실제 조건에서는 현재 추정치보다 적은 광물 생산량을 보일 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Actual and potential losses and liability resulting from the Çöpler Incident could have a material adverse effect on our financial condition, liquidity, cash flows and results of operations.",
+        "category": "공급망",
+        "description": "회사는 공급망 중단 및 운송 위험에 노출되어 있으며, 이는 운영에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Actual costs of long-term storage and remediation may vary significantly from our current estimates, which could have a material adverse impact on our cash flows, results of operations or financial condition.",
+        "category": "거시",
+        "description": "회사가 운영되는 국가의 정치적 또는 경제적 불안정 또는 예상치 못한 규제 변경은 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "회사는 광범위한 정부 규제 및 허가 요건을 준수해야 하며, 이는 비용을 증가시키고 운영을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "When more information is available regarding the operations at Çöpler, the TRS may need to be amended, and we are not certain as to when this will occur.",
+        "category": "재무",
+        "description": "회사는 외환 환율 변동, 인플레이션 및 헤징 활동과 관련된 위험에 노출되어 있으며, 이는 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The Company cannot estimate at this time when Çöpler will resume operations, which may have a material adverse impact on the Company’s future cash flows, profitability, results of operations and financial condition.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "If the Company is permitted to resume operations at Çöpler, it may not be able to operate the mine under the parameters of the 2014 EIA, if at all.",
+        "category": "거버넌스",
+        "description": "회사는 숙련된 인력을 채용하고 유지하는 능력에 의존하며, 인력 부족 또는 노동 불안은 운영에 지장을 줄 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "Çöpler 광산 사고로 인한 법적 책임 및 복구 비용이 회사의 재정 능력을 초과하여 파산에 이르는 경우.",
+      "금속 가격의 급격한 하락과 운영 비용의 지속적인 상승이 결합되어 모든 광산의 수익성이 심각하게 저하되는 경우.",
+      "회사가 운영하는 주요 국가에서 정치적 불안정 또는 정부의 광업 정책 변경으로 인해 주요 광산의 운영이 영구적으로 중단되는 경우.",
+      "예상치 못한 지질학적 문제나 환경 재해로 인해 주요 광산의 생산량이 급감하고 복구 비용이 막대하게 발생하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "Çöpler 광산의 운영 재개 시기가 불확실하거나, 재개되더라도 생산량이 현저히 감소하고 복구 비용이 예상치를 크게 초과하는 발표.",
+      "금, 은 등 주요 금속 가격이 장기간 하락세를 유지하며 회사의 수익성이 지속적으로 악화되는 분기별 실적 발표.",
+      "회사가 운영하는 주요 국가에서 광업 관련 규제가 강화되거나, 광산 허가가 취소되는 등 사업 환경에 중대한 부정적 변화가 발생하는 경우.",
+      "회사의 광물 매장량 및 자원 추정치가 대폭 하향 조정되거나, 새로운 상업적 채굴 권리를 확보하지 못하여 장기적인 성장 전망이 불투명해지는 경우."
     ]
   },
   "wikipedia_summary": "SSR Mining Inc., formerly Silver Standard Resources is a Denver-based gold, silver, copper, lead and zinc producer that owns the largest silver mine in Argentina. In addition it engages in exploration activity throughout the Americas and Turkey. In 2020, SSR Mining merged with Alacer Gold. Since the merger, the company has moved headquarters to Denver, Colorado. Rodney P. Antal is now the president and CEO of SSR mining. In February 2021, SSR Mining announced that Alison White would be the new executive vice president and CFO. In addition, the rest of the executive team at SSR mining was added following the closure of the merger between SSR and Alacer Gold. Stewart Beckman is the executive vice president and COO ; F. Edward Farid is the vice president and CCDO. Michael J. Sparks is the vice president and chief legal and administrative officer. In addition, the rest of the leadership team and information can be found on their website. The merger created a company worth $4.0 billion",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-23T01:33:28.926597+00:00"
+    "GoogleWebTranslator": "2026-09-24T01:22:52.480251+00:00"
   }
 }
