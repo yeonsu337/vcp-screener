@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-09-23T01:25:54.690829+00:00",
+  "generated_at": "2026-09-25T01:25:03.263156+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "desk-research (no LLM): network error: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "yf_metadata": {
-    "market_cap": 16269456384,
+    "market_cap": 16285321216,
     "shares_outstanding": 93325626,
     "employees": 1920,
     "country": "United States",
@@ -17,22 +17,37 @@
     "beta": 2.353
   },
   "category_a_business": {
-    "overview": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe. The company operates in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity. It provides signal integrity products, including a portfolio of optical and copper data communications and video transport products used in various infrastructure, and industrial applications; a portfolio of integrated circuits for data centers, enterprise networks, passive optical networks, wireless base stati",
-    "business_model": "Semtech Corporation provides semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North America, and Europe.",
+    "overview": "셈텍은 아날로그 및 혼합 신호 반도체, IoT 시스템 및 클라우드 연결 서비스를 제공하는 기업입니다.",
+    "milestones": [
+      "1960: 델라웨어에 법인 설립",
+      "1960: 뉴버리 파크, 캘리포니아에서 설립",
+      "2022: Sierra Wireless 인수 (IoT 시스템 및 연결성 강화)",
+      "2023: LoRa Edge™ Tracker Reference Design 출시",
+      "2024: PerSe™ 센서 솔루션 확장"
+    ],
+    "business_model": "고성능 반도체 및 IoT 솔루션을 설계, 개발, 제조, 판매하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "신호 무결성 제품 판매",
+      "아날로그 혼합 신호 및 무선 제품 판매",
+      "IoT 시스템 및 연결 서비스",
+      "보호 장치 판매",
+      "특수 감지 제품 판매"
+    ],
+    "value_chain_position": "Midstream: 반도체 설계 및 제조, IoT 솔루션 개발을 통해 최종 제품에 필요한 핵심 부품을 공급합니다.",
     "products": [
-      "semiconductor, Internet of Things systems, and cloud connectivity service solutions in the Asia- Pacific, North Americ",
-      "in three segments: Signal Integrity, Analog Mixed Signal and Wireless, and IoT Systems and Connectivity",
-      "signal integrity products, including a portfolio of optical and copper data communications and video transport products",
-      "analog mixed signal and wireless products",
-      "switching voltage regulators, combination switching and linear regulators, smart regulators, isolated switches, and wire"
+      "광학 및 구리 데이터 통신 제품",
+      "무선 주파수(RF) 제품",
+      "보호 장치 (필터 및 종단 장치)",
+      "스위칭 전압 레귤레이터",
+      "IoT 모듈, 라우터, 게이트웨이 및 관리형 연결 솔루션",
+      "비디오-오버-IP 기술"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (주로 OEM)",
+      "IoT 장치 제조업체",
+      "기업 및 솔루션 제공업체"
     ],
-    "wikipedia_excerpt": "Semtech Corporation is an American supplier of analog and mixed-signal semiconductors and advanced algorithms for consumer, enterprise computing, communications and industrial end-markets. It is based in Camarillo, Ventura County, Southern California. It was founded in 1960 in Newbury Park, California. It has 32 locations in 15 countries in North America, Europe, and Asia.",
-    "milestones": [
-      "1960: in Newbury Park, California"
-    ]
+    "key_customers": "주로 OEM(Original Equipment Manufacturer)에 실리콘 솔루션을 공급하며, IoT 솔루션은 IoT 장치 제조업체, 기업 및 솔루션 제공업체에 제공됩니다. 특정 고객 집중도는 명시되어 있지 않습니다."
   },
   "category_b_financials": {
     "roe": 0.24,
@@ -132,20 +147,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 96,
-    "score": 64.4,
+    "rs_rating": 95,
+    "score": 60.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.21,
-    "trailing_pe": 115.45033,
-    "forward_pe": 29.873484,
-    "ev_to_ebitda": 92.509,
-    "price_to_sales": 13.855602,
+    "trailing_pe": 115.56291,
+    "forward_pe": 29.90113,
+    "ev_to_ebitda": 92.598,
+    "price_to_sales": 13.869113,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 169.68,
-    "outperform_6m_vs_nasdaq": 116.85,
-    "outperform_1m_vs_nasdaq": 37.97,
+    "outperform_1y_vs_nasdaq": 159.97,
+    "outperform_6m_vs_nasdaq": 97.5,
+    "outperform_1m_vs_nasdaq": 32.77,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
@@ -190,6 +205,6 @@
   },
   "wikipedia_summary": "Semtech Corporation is an American supplier of analog and mixed-signal semiconductors and advanced algorithms for consumer, enterprise computing, communications and industrial end-markets. It is based in Camarillo, Ventura County, Southern California. It was founded in 1960 in Newbury Park, California. It has 32 locations in 15 countries in North America, Europe, and Asia.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-24T01:22:52.081982+00:00"
+    "GoogleWebTranslator": "2026-09-25T01:33:53.849322+00:00"
   }
 }

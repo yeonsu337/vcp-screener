@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-23T01:32:06.906562+00:00",
+  "generated_at": "2026-09-25T01:27:06.357013+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 189579018240,
+    "market_cap": 187373486080,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -39,7 +39,7 @@
     "gross_margin": 0.25,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.07,
-    "dividend_yield": 0.95,
+    "dividend_yield": 0.91,
     "payout_ratio": 0.36,
     "annual_revenue": [
       44665000000.0,
@@ -128,20 +128,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 78,
-    "score": 54.3,
+    "rs_rating": 82,
+    "score": 57.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.5888,
-    "trailing_pe": 39.04053,
-    "forward_pe": 30.964096,
-    "ev_to_ebitda": 28.752,
-    "price_to_sales": 3.9555786,
+    "peg_ratio": 1.5909,
+    "trailing_pe": 39.37337,
+    "forward_pe": 30.412529,
+    "ev_to_ebitda": 28.496,
+    "price_to_sales": 3.90956,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 25.23,
-    "outperform_6m_vs_nasdaq": -1.13,
-    "outperform_1m_vs_nasdaq": 6.21,
+    "outperform_1y_vs_nasdaq": 34.75,
+    "outperform_6m_vs_nasdaq": 1.58,
+    "outperform_1m_vs_nasdaq": 5.89,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +186,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-24T01:21:55.982681+00:00"
+    "GoogleWebTranslator": "2026-09-25T01:32:41.550271+00:00"
   }
 }

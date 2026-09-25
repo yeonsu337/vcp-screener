@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "NTAP",
-  "generated_at": "2026-09-24T01:11:51.758567+00:00",
-  "source_results_date": "2026-09-24",
+  "generated_at": "2026-09-25T01:15:03.372496+00:00",
+  "source_results_date": "2026-09-25",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.69,
   "lines": [
     "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 22.99%).",
-    "13주 베이스 22.6% → 11.7% → 23.0%, VDU 1.04×, pivot $209.06(-5.22%).",
-    "Trend Template 8/8 통과, RS 90 — 추세는 살아있음.",
+    "13주 베이스 22.6% → 11.7% → 23.0%, VDU 0.99×, pivot $209.06(-6.09%).",
+    "Trend Template 8/8 통과, RS 91 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 90,
+    "rs_rating": 91,
     "stage": 2,
     "base_count": 3,
     "late_base_warning": true,
@@ -49,7 +49,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (22.99% vs 6.5%)",
-    "P3_vol_dryup (1.04× vs 0.6×)",
+    "P3_vol_dryup (0.99× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
