@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "003690.KS",
-  "generated_at": "2026-09-25T01:15:03.385664+00:00",
-  "source_results_date": "2026-09-25",
+  "generated_at": "2026-09-26T01:17:39.709494+00:00",
+  "source_results_date": "2026-09-26",
   "verdict": "WATCH",
   "verdict_kr": "관망",
   "confidence": 0.65,
@@ -47,7 +47,7 @@
     "P3_vol_dryup (0.80× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-36.7% vs ≥-5.0%)"
+    "rs_line (-35.9% vs ≥-5.0%)"
   ],
   "warnings": [
     "RS 70 — Minervini 선호 80+ 미달, 강도 평균"

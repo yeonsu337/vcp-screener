@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Industrials",
   "industry": "Farm & Heavy Construction Machinery",
-  "generated_at": "2026-09-25T01:27:06.357013+00:00",
+  "generated_at": "2026-09-26T01:26:23.810581+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 187373486080,
+    "market_cap": 186165559296,
     "shares_outstanding": 269625412,
     "employees": 73100,
     "country": "United States",
@@ -17,19 +17,37 @@
     "beta": 0.911
   },
   "category_a_business": {
-    "overview": "Deere & Company engages in the manufacture and distribution of various equipment worldwide. The company operates through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry, and Financial Services. The Production and Precision Agriculture segment provides four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders, soil preparation, tillage, seeding, and crop care equipment, as well as application equipment, including sprayers and nutrient management, soil preparation machinery, ",
-    "business_model": "Deere & Company engages in the manufacture and distribution of various equipment worldwide.",
+    "overview": "디어앤컴퍼니는 농업, 건설, 임업용 중장비 및 잔디 관리 장비를 제조하고 금융 서비스를 제공하는 글로벌 기업입니다.",
+    "milestones": [
+      "1837: 존 디어, 강철 쟁기 발명 및 회사 설립",
+      "1868: Deere & Company로 법인 설립",
+      "1918: Waterloo Gasoline Engine Company 인수, 트랙터 사업 진출",
+      "1958: 델라웨어 주에 Deere & Company로 재법인 설립",
+      "1960년대: 건설 및 임업 장비 사업 확장",
+      "2000년대: 정밀 농업 기술 및 스마트 산업 모델 도입"
+    ],
+    "business_model": "농업, 건설, 임업 장비 판매 및 관련 금융 서비스 제공으로 수익을 창출합니다.",
+    "revenue_streams": [
+      "생산 및 정밀 농업 장비 판매",
+      "소형 농업 및 잔디 관리 장비 판매",
+      "건설 및 임업 장비 판매",
+      "금융 서비스 (할부, 리스, 보증)",
+      "부품 및 서비스"
+    ],
+    "value_chain_position": "Downstream: 농업, 건설, 임업 분야 최종 사용자에게 장비 및 솔루션을 직접 제공합니다.",
     "products": [
-      "through four segments: Production and Precision Agriculture, Small Agriculture and Turf, Construction and Forestry,",
-      "four-wheel-drive track and row crop tractors, harvesters, cotton pickers and strippers, sugarcane harvesters and loaders",
-      "specialty, utility, and compact tractors",
-      "backhoe loaders, crawler dozers and loaders, four-wheel-drive loaders, excavators, motor graders, articulated dump truck",
-      "wholesale financing to dealers of the foregoing equipment"
+      "트랙터 (4륜 구동, 로우 크롭 등)",
+      "수확기 및 면화 수확기",
+      "굴착기 및 불도저",
+      "잔디 깎는 기계 및 골프 코스 장비",
+      "금융 상품 (소매 할부, 리스)"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (딜러 네트워크를 통한 판매)",
+      "B2C (일부 소형 장비 및 잔디 관리 장비)",
+      "금융 서비스 (직접 및 딜러 연계)"
     ],
-    "wikipedia_excerpt": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities."
+    "key_customers": "농업 생산자, 건설 회사, 임업 기업, 잔디 관리 서비스 제공업체 등 고객 집중도가 분산되어 있습니다."
   },
   "category_b_financials": {
     "roe": 0.18,
@@ -39,7 +57,7 @@
     "gross_margin": 0.25,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.07,
-    "dividend_yield": 0.91,
+    "dividend_yield": 0.93,
     "payout_ratio": 0.36,
     "annual_revenue": [
       44665000000.0,
@@ -128,20 +146,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 57.6,
+    "rs_rating": 80,
+    "score": 55.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.5909,
-    "trailing_pe": 39.37337,
-    "forward_pe": 30.412529,
-    "ev_to_ebitda": 28.496,
-    "price_to_sales": 3.90956,
+    "trailing_pe": 38.35889,
+    "forward_pe": 30.216473,
+    "ev_to_ebitda": 28.355,
+    "price_to_sales": 3.8843565,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 34.75,
-    "outperform_6m_vs_nasdaq": 1.58,
-    "outperform_1m_vs_nasdaq": 5.89,
+    "outperform_1y_vs_nasdaq": 28.86,
+    "outperform_6m_vs_nasdaq": -5.54,
+    "outperform_1m_vs_nasdaq": 6.6,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -186,6 +204,6 @@
   },
   "wikipedia_summary": "Deere & Company, is an American corporation that manufactures agricultural machinery, heavy equipment, forestry machinery, diesel engines, drivetrains used in heavy equipment and lawn care equipment. It also provides financial services and other related activities.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-25T01:32:41.550271+00:00"
+    "GoogleWebTranslator": "2026-09-26T01:29:55.173910+00:00"
   }
 }
