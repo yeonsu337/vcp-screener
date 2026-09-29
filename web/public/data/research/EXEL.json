@@ -1,0 +1,277 @@
+{
+  "ticker": "EXEL",
+  "company": "Exelixis, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "generated_at": "2026-09-29T02:39:00.160378+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 14463016960,
+    "shares_outstanding": 247781692,
+    "employees": 1077,
+    "country": "United States",
+    "website": "https://www.exelixis.com",
+    "beta": 0.422
+  },
+  "category_a_business": {
+    "overview": "난치성 암 치료를 위한 신약 발견, 개발 및 상업화에 주력하는 미국 기반 종양학 전문 제약회사입니다.",
+    "milestones": [
+      "1994: Exelixis, Inc. 설립",
+      "2012: COMETRIQ (카보잔티닙) 미국 FDA 승인 (진행성 수질 갑상선암)",
+      "2016: CABOMETYX (카보잔티닙) 미국 FDA 승인 (진행성 신장암)",
+      "2016: COTELLIC (코비메티닙) 제넨텍과 협력하여 전이성 흑색종 치료제 출시",
+      "2019: MINNEBRO (에삭세레논) 일본에서 고혈압 치료제로 승인 및 다이이찌산쿄에 라이선스",
+      "2025: 9년 연속 연간 흑자 달성"
+    ],
+    "business_model": "자체 개발한 항암 신약의 판매 및 파트너십을 통한 로열티 수입으로 수익을 창출합니다.",
+    "revenue_streams": [
+      "CABOMETYX 제품 판매 (미국)",
+      "COMETRIQ 제품 판매 (미국)",
+      "카보잔티닙 관련 해외 파트너십 로열티",
+      "COTELLIC 관련 협력 로열티",
+      "MINNEBRO 관련 라이선스 로열티"
+    ],
+    "value_chain_position": "Midstream + 신약 발견부터 개발, 임상, 상업화까지 전 과정을 수행하는 통합 제약사입니다.",
+    "products": [
+      "CABOMETYX (카보잔티닙)",
+      "COMETRIQ (카보잔티닙)",
+      "COTELLIC (코비메티닙)",
+      "MINNEBRO (에삭세레논)",
+      "잔잘린티닙 (개발 중)"
+    ],
+    "channels": [
+      "B2B (의료기관, 약국 대상)",
+      "파트너십 (해외 라이선스 및 공동 개발)"
+    ],
+    "key_customers": "주요 고객은 암 환자를 치료하는 의료 전문가 및 의료기관이며, 카보잔티닙 제품이 매출의 대부분을 차지합니다."
+  },
+  "category_b_financials": {
+    "roe": null,
+    "roa": null,
+    "profit_margin": null,
+    "operating_margin": null,
+    "gross_margin": null,
+    "revenue_growth_ttm": null,
+    "earnings_growth_ttm": null,
+    "dividend_yield": null,
+    "payout_ratio": null,
+    "annual_revenue": [
+      2320126000.0,
+      2168701000.0,
+      1830208000.0,
+      1611062000.0
+    ],
+    "annual_operating_income": [
+      892701000.0,
+      689949000.0,
+      170885000.0,
+      201484000.0
+    ],
+    "annual_eps": [
+      2.78,
+      1.76,
+      0.65,
+      0.56
+    ],
+    "annual_free_cf": [
+      844339000.0,
+      633786000.0,
+      170355000.0,
+      224158000.0,
+      null
+    ],
+    "annual_total_debt": [
+      173038000.0,
+      190823000.0,
+      189944000.0,
+      190170000.0,
+      null
+    ],
+    "annual_equity": [
+      2161319000.0,
+      2244203000.0,
+      2263912000.0,
+      2488427000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      0.82,
+      0.79,
+      0.88,
+      0.69,
+      0.65,
+      null,
+      null
+    ],
+    "quarterly_revenue": [
+      628690000.0,
+      610812000.0,
+      598663000.0,
+      597755000.0,
+      568261000.0,
+      null,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31",
+      "2024-12-31"
+    ],
+    "ni_cagr_3y_pct": 62.53
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "200-250 estimate (다양한 암종(RCC, HCC, DTC, CRC, NET 등) 치료제 시장 규모 합산 추정)",
+    "tam_cagr_pct": "8-12% (항암제 시장의 꾸준한 성장, 특히 표적 치료제 및 면역 항암제 분야의 높은 성장률, 신규 적응증 확대 가능성)",
+    "growth_drivers": [
+      "주력 제품 카보잔티닙(Cabozantinib)의 적응증 확대 및 시장 침투율 증가",
+      "신규 파이프라인 잔잘린티닙(Zanzalintinib)의 FDA 승인 및 상업화 성공",
+      "항체-약물 접합체(ADC) 등 차세대 항암제 개발을 통한 파이프라인 확장",
+      "전략적 파트너십을 통한 글로벌 시장 접근성 및 개발 역량 강화"
+    ],
+    "market_share_pct": "1-3% estimate (전체 항암제 시장 대비 특정 표적 치료제 시장 점유율은 낮으나, 특정 적응증에서는 높은 점유율)",
+    "competitors": [
+      {
+        "name": "Bristol-Myers Squibb (BMS)",
+        "differentiation": "면역항암제(옵디보 등) 분야의 선두 주자이며, 엑셀릭시스와 카보잔티닙-옵디보 병용 요법으로 협력 중"
+      },
+      {
+        "name": "Roche/Genentech",
+        "differentiation": "다양한 항암제 포트폴리오 보유, 특히 표적 치료제 및 바이오의약품 분야 강자. 엑셀릭시스의 코텔릭(Cobimetinib) 협력사"
+      },
+      {
+        "name": "Pfizer",
+        "differentiation": "다수의 표적 항암제 및 신약 파이프라인 보유, 특히 신장암 치료제 시장에서 경쟁"
+      },
+      {
+        "name": "Novartis",
+        "differentiation": "다양한 암종에 대한 혁신적인 치료제 개발 및 상업화 경험이 풍부하며, 표적 치료제 분야에서 경쟁"
+      },
+      {
+        "name": "Merck & Co.",
+        "differentiation": "면역항암제 키트루다(Keytruda)를 중심으로 강력한 항암제 포트폴리오를 구축하고 있으며, 다양한 암종에서 경쟁"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (신약 개발의 높은 비용과 규제 장벽이 있으나, 바이오텍 스타트업의 혁신적인 기술 개발 가능성 존재)",
+      "substitutes": "medium (기존 화학요법, 방사선 치료 외에 면역항암제, 유전자 치료제 등 다양한 대체 치료법 존재)",
+      "buyer_power": "medium (정부 및 보험사의 약가 인하 압력, 환자 접근성 요구 증가로 구매자 교섭력 존재)",
+      "supplier_power": "low (원료의약품 및 CRO 등 공급처가 다양하며, 특정 공급자에 대한 의존도가 낮음)",
+      "rivalry": "high (다수의 대형 제약사 및 바이오텍이 항암제 시장에서 치열하게 경쟁하며, 신약 개발 및 시장 선점을 위한 경쟁 심화)"
+    },
+    "competitive_advantages": [
+      "카보잔티닙(Cabozantinib)이라는 검증된 주력 제품 및 다수의 적응증 확보",
+      "다양한 암종을 타겟으로 하는 강력한 임상 파이프라인 (잔잘린티닙 등)",
+      "소분자 및 바이오치료제(ADC 등)를 아우르는 폭넓은 연구 개발 역량",
+      "글로벌 제약사와의 전략적 파트너십을 통한 개발 및 상업화 시너지"
+    ],
+    "competitive_weaknesses": [
+      "매출의 상당 부분이 카보잔티닙에 집중되어 있어 제품 의존도가 높음",
+      "신규 파이프라인의 임상 실패 또는 승인 지연 시 실적에 큰 영향",
+      "대형 제약사에 비해 상대적으로 작은 규모와 제한적인 글로벌 상업화 네트워크",
+      "치열한 항암제 시장 경쟁 속에서 신규 시장 침투 및 점유율 확대의 어려움"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 78,
+    "score": 52.7,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.56,
+    "trailing_pe": 18.297806,
+    "forward_pe": 13.698952,
+    "ev_to_ebitda": 13.515,
+    "price_to_sales": 5.9373946,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 31.05,
+    "outperform_6m_vs_nasdaq": 12.52,
+    "outperform_1m_vs_nasdaq": 4.58,
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Exelixis는 4개의 시판 의약품을 개발했으며, 그 중 2개는 주력 분자인 카보잔티닙 제형입니다. 이는 신약 개발 및 상업화 역량을 보여줍니다.",
+      "카보잔티닙은 MET, AXL, VEGF 수용체 및 RET를 포함한 다중 티로신 키나아제 억제제로, 진행성 신장 세포 암종(RCC), 간세포 암종(HCC) 등 다양한 암종 치료에 FDA 및 68개국에서 승인받았습니다. 이는 강력한 지적 재산권과 임상적 효능을 나타냅니다.",
+      "2025년은 9년 연속 연간 수익성을 달성했으며, 카보잔티닙 제품의 미국 내 매출 증가와 해외 파트너십 로열티 증가로 순제품 매출이 전년 대비 약 17% 성장했습니다. 이는 성공적인 제품 상업화와 지속적인 수익 창출 능력을 입증합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "선도 임상 자산인 잔잘린티닙이 특정 형태의 대장암 치료제로 FDA 심사 중이며, 광범위한 후기 임상 개발 프로그램 진행 중.",
+    "bull_case": "잔잘린티닙 FDA 승인 및 적응증 확대, 카보잔티닙 매출 지속 성장으로 3년 내 EPS 2배 이상 성장.",
+    "base_case": "카보잔티닙 매출은 꾸준히 성장하고, 잔잘린티닙은 대장암 승인 후 점진적으로 시장에 침투하며 파이프라인 개발 지속.",
+    "bear_case": "잔잘린티닙 FDA 승인 실패 또는 임상 결과 부진, 카보잔티닙 경쟁 심화로 매출 성장 둔화 및 파이프라인 개발 지연.",
+    "key_metrics_to_watch": [
+      "잔잘린티닙 임상 시험 결과 및 FDA 승인 여부",
+      "카보잔티닙 제품의 미국 내 매출 성장률",
+      "신규 파이프라인 자산의 임상 개발 진행 상황"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "고객집중도",
+        "description": "CABOMETYX의 상업적 성공에 대한 의존도가 높아, 해당 제품의 성과 부진 시 회사 성장에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "미국 및 해외의 의약품 가격 책정 관련 규제 강화 및 의료 시스템 개혁은 제품 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "CABOMETYX의 제네릭 경쟁자 출현 시기가 빨라지거나 제네릭 의약품 개발 장벽을 낮추는 입법 및 규제 조치가 있을 경우 수익이 감소할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "광범위한 신약 발굴, 임상 개발, 사업 개발 및 상업화 활동 관련 비용이 수익보다 빠르게 증가하면 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "주요 협력사(Ipsen, Takeda 등)의 CABOMETYX 해외 상업화 노력 및 투자에 대한 의존도가 높아, 이들의 성과 부진 시 회사 성장에 제약이 따를 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "신제품 후보물질의 임상 시험이 길고 비용이 많이 들며 불확실하여, 경쟁 시장에서 차별화된 안전성 및 효능 데이터를 입증하지 못할 위험이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "FDA 및 해외 규제 당국의 승인 절차가 길고 불확실하며 변경될 수 있어, 추가 적응증 또는 신규 제품 후보물질에 대한 승인을 얻지 못할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "핵심 인력의 이탈 또는 추가 인력 유치 실패는 회사의 성공적인 운영 능력을 저해할 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "CABOMETYX의 주요 적응증에 대한 제네릭 경쟁이 예상보다 훨씬 빠르게 시작되고, 동시에 신규 파이프라인 개발이 모두 실패하여 매출이 급감하는 경우.",
+      "미국 정부의 의약품 가격 규제가 극단적으로 강화되어 CABOMETYX의 수익성이 심각하게 악화되고, 주요 해외 협력사들이 상업화 노력을 중단하는 경우.",
+      "주요 임상 시험에서 심각한 부작용이 발견되거나 효능이 미미하여 모든 신약 후보물질의 개발이 중단되고, 기존 제품의 시장 경쟁력이 급격히 상실되는 경우."
+    ],
+    "exit_signals": [
+      "CABOMETYX의 주요 특허 만료 전 제네릭 경쟁자가 예상보다 1년 이상 일찍 시장에 진입한다는 공식 발표.",
+      "미국 정부가 의약품 가격 책정 방식에 대한 급진적인 규제 개혁안을 발표하고, 이로 인해 CABOMETYX의 예상 수익이 20% 이상 감소할 것으로 분석되는 경우.",
+      "주요 파이프라인(예: zanzalintinib)의 3상 임상 시험 결과가 1차 또는 2차 평가 변수를 충족하지 못하거나, 경쟁 약물 대비 유의미한 이점을 입증하지 못하는 경우."
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-09-29T02:40:17.062374+00:00"
+  }
+}

@@ -421,12 +421,12 @@
   },
   {
     "ticker": "DELL",
-    "company": "Dell Technologies Inc.",
+    "company": "Dell Technologies Inc",
     "market": "US",
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-22T01:34:51.490854+00:00",
+    "generated_at": "2026-09-29T02:37:41.288190+00:00",
     "llm_status": "ok"
   },
   {
@@ -530,6 +530,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "EXEL",
+    "company": "Exelixis, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-29T02:39:00.160378+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "EXPD",
     "company": "Expeditors International of Washington, Inc.",
     "market": "US",
@@ -587,6 +597,16 @@
     "primary_passed": 12,
     "primary_total": 13,
     "generated_at": "2026-09-11T00:57:54.001056+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "FTNT",
+    "company": "Fortinet, Inc.",
+    "market": "US",
+    "sector": "Technology",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-09-29T02:39:37.988117+00:00",
     "llm_status": "ok"
   },
   {
@@ -1494,9 +1514,9 @@
     "company": "WisdomTree, Inc.",
     "market": "US",
     "sector": "Financial Services",
-    "primary_passed": 13,
+    "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-22T01:36:09.800918+00:00",
+    "generated_at": "2026-09-29T02:38:20.885558+00:00",
     "llm_status": "ok"
   },
   {

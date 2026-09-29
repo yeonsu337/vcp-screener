@@ -1,14 +1,14 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "2359.HK",
-  "generated_at": "2026-09-26T01:17:39.691161+00:00",
-  "source_results_date": "2026-09-26",
+  "generated_at": "2026-09-29T02:37:03.693619+00:00",
+  "source_results_date": "2026-09-29",
   "verdict": "STOP_OUT",
   "verdict_kr": "청산 (Stop hit)",
   "confidence": 0.95,
   "lines": [
-    "청산 — Peak +21.5%에서 -15.0% 후퇴 (Trailing -15% 발화), 현재 손익 +6.5% (Peak +21.5%).",
-    "진입 2026-08-28 @ HK$196.80 → 현재 HK$209.60.",
+    "청산 — Peak +21.5%에서 -15.4% 후퇴 (Trailing -15% 발화), 현재 손익 +6.1% (Peak +21.5%).",
+    "진입 2026-08-28 @ HK$196.80 → 현재 HK$208.80.",
     "Stage 2, RS 98. Minervini ironclad 손절 룰 발화 — 협의 불가.",
     "전량 청산 후 새 진입 setup 형성 대기. 손실 누적 금지."
   ],
@@ -33,7 +33,7 @@
   },
   "rule_references": [],
   "key_failures": [
-    "Peak +21.5%에서 -15.0% 후퇴 (Trailing -15% 발화)"
+    "Peak +21.5%에서 -15.4% 후퇴 (Trailing -15% 발화)"
   ],
   "warnings": [
     "진입가 HK$196.80 · 감지일 2026-08-28",
