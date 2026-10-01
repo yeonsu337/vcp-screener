@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Semiconductors",
-  "generated_at": "2026-09-24T01:12:31.491255+00:00",
+  "generated_at": "2026-10-01T01:48:34.064657+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 1003335450624,
+    "market_cap": 998682918912,
     "shares_outstanding": 1632475042,
     "employees": 31000,
     "country": "United States",
@@ -17,38 +17,36 @@
     "beta": 2.476
   },
   "category_a_business": {
-    "overview": "AMD는 CPU, GPU 등 고성능 반도체 설계 및 개발을 통해 다양한 시장에 솔루션을 제공하는 글로벌 기업입니다.",
+    "overview": "AMD는 CPU, GPU, FPGA 등 고성능 반도체 제품을 설계하고 개발하는 글로벌 기업입니다.",
     "milestones": [
-      "1969: 제리 샌더스 외 7명이 AMD 설립",
-      "1970: 첫 제품인 Am2501 논리 카운터 출시",
-      "1982: 인텔과 x86 아키텍처 2차 공급 계약 체결",
-      "2006: ATI 테크놀로지스 인수, GPU 시장 경쟁력 강화",
-      "2017: Zen 아키텍처 기반 라이젠(Ryzen) CPU 출시, 시장 점유율 회복",
-      "2022: 자일링스(Xilinx) 인수, FPGA 및 적응형 SoC 시장 진출"
+      "1969: Advanced Micro Devices 설립",
+      "1982: IBM PC용 세컨드 소스 프로세서 공급 계약 체결",
+      "2006: ATI Technologies 인수, GPU 시장 경쟁력 강화",
+      "2017: Zen 아키텍처 기반 Ryzen CPU 출시, 시장 점유율 확대",
+      "2022: Xilinx 인수 완료, FPGA 및 적응형 SoC 시장 진출"
     ],
-    "business_model": "반도체 설계 및 판매를 통해 수익을 창출하는 팹리스 모델입니다.",
+    "business_model": "반도체 설계 및 개발 후 파운드리를 통해 생산, 다양한 시장에 판매합니다.",
     "revenue_streams": [
-      "데이터 센터 (서버 CPU, GPU)",
-      "클라이언트 (PC CPU, GPU)",
-      "게이밍 (콘솔 및 PC GPU)",
-      "임베디드 (산업용, 통신용 SoC)",
-      "AI 가속기"
+      "데이터 센터 (서버 CPU, GPU, AI 가속기)",
+      "클라이언트 (PC용 CPU 및 GPU)",
+      "게이밍 (콘솔 및 PC용 GPU, 세미 커스텀 SoC)",
+      "임베디드 (산업용, 통신용 임베디드 프로세서 및 FPGA)"
     ],
-    "value_chain_position": "Midstream: 반도체 설계 및 개발에 집중하며, 생산은 파운드리에 위탁합니다.",
+    "value_chain_position": "Midstream + 반도체 설계 및 개발에 집중하며, 생산은 외부 파운드리에 위탁합니다.",
     "products": [
-      "라이젠(Ryzen) CPU",
-      "에픽(EPYC) 서버 CPU",
-      "라데온(Radeon) GPU",
-      "인스팅트(Instinct) AI 가속기",
-      "자일링스(Xilinx) FPGA"
+      "Ryzen CPU (PC용)",
+      "EPYC CPU (서버용)",
+      "Radeon GPU (그래픽 카드)",
+      "Instinct 가속기 (데이터 센터 AI)",
+      "Versal Adaptive SoC (Xilinx 제품군)"
     ],
     "channels": [
       "B2B (OEM, 클라우드 서비스 제공업체)",
       "도매 (유통업체)",
       "직접 판매 (일부)",
-      "반도체 파트너사"
+      "온라인 리테일러"
     ],
-    "key_customers": "소수의 주요 고객이 매출의 상당 부분을 차지하며, 특히 데이터 센터 및 콘솔 제조사가 중요합니다."
+    "key_customers": "소수의 주요 고객이 매출의 상당 부분을 차지하며, 고객 집중도가 높은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.1,
@@ -114,24 +112,21 @@
       0.84,
       0.92,
       0.75,
-      0.54,
-      null
+      0.54
     ],
     "quarterly_revenue": [
       11536000000.0,
       10253000000.0,
       10270000000.0,
       9246000000.0,
-      7685000000.0,
-      null
+      7685000000.0
     ],
     "quarterly_periods": [
       "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2024-12-31"
+      "2025-06-30"
     ],
     "eps_qoq_yoy_pct": 163.4,
     "sales_yoy_pct": 50.1,
@@ -139,145 +134,137 @@
     "roe_pct": 10.2
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "약 1조 달러 이상 (2027년 기준, AI 및 고성능 컴퓨팅 시장 성장 고려 시 추정치)",
-    "tam_cagr_pct": "15-20% (향후 3~5년) - AI 가속기, 데이터센터 CPU/GPU, AI PC 등 고성능 컴퓨팅 시장의 폭발적인 성장이 주요 근거이며, AMD의 해당 시장 내 경쟁력 강화가 예상됨.",
+    "tam_estimate_usd_b": "약 500-600 billion USD (2023년 기준, 추정치. 데이터센터, 클라이언트, 임베디드, 게이밍 시장 포함)",
+    "tam_cagr_pct": "15-20% (향후 3~5년). AI 가속기 및 데이터센터 시장의 폭발적인 성장과 AI PC 시장의 확대로 인한 높은 성장률 예상.",
     "growth_drivers": [
-      "AI 가속기 및 데이터센터 솔루션 수요 증가: AI 워크로드 증가에 따른 고성능 CPU, GPU, NPU 및 네트워킹 솔루션 수요 급증.",
-      "AI PC 시장 확대: 전용 NPU를 통합한 AI PC의 확산으로 클라이언트 컴퓨팅 시장 내 새로운 성장 동력 확보.",
-      "임베디드 및 적응형 SoC 시장 성장: 산업 자동화, 통신, 자동차 등 다양한 분야에서 맞춤형 고성능 솔루션 수요 증가.",
-      "클라우드 및 엣지 컴퓨팅 인프라 확장: 클라우드 서비스 제공업체 및 엣지 디바이스의 고성능 프로세서 채택 증가."
+      "AI 가속기 및 데이터센터 시장의 급격한 성장과 AMD의 경쟁력 있는 제품 포트폴리오 (MI300 시리즈 등).",
+      "AI PC 시장의 부상과 NPU 통합 x86 CPU를 통한 선도적인 위치 확보.",
+      "클라우드 및 AI 인프라 확장에 따른 고성능 컴퓨팅 수요 증가.",
+      "임베디드 및 게이밍 시장에서의 지속적인 혁신과 시장 점유율 확대."
     ],
-    "market_share_pct": "데이터센터 CPU: 20-30% (추정), 개별 GPU: 15-20% (추정), 클라이언트 CPU: 20-30% (추정)",
+    "market_share_pct": "CPU 시장 30-35% (서버 및 클라이언트), GPU 시장 15-20% (데이터센터 및 게이밍) (추정치)",
     "competitors": [
       {
-        "name": "Intel Corporation",
-        "differentiation": "오랜 시장 지배력, 광범위한 제품 포트폴리오, 강력한 브랜드 인지도, IDM(종합 반도체 기업) 모델을 통한 생산 역량."
+        "name": "Intel",
+        "differentiation": "오랜 시장 지배력, 광범위한 고객 기반, 통합 솔루션 제공 능력, 파운드리 역량 강화."
       },
       {
-        "name": "NVIDIA Corporation",
-        "differentiation": "AI 및 데이터센터 GPU 시장의 압도적인 선두 주자, CUDA 생태계를 통한 강력한 소프트웨어 우위, AI 가속기 시장의 사실상 표준."
+        "name": "NVIDIA",
+        "differentiation": "AI GPU 시장의 압도적인 선두 주자, CUDA 생태계의 강력한 네트워크 효과, 소프트웨어 및 플랫폼 강점."
       },
       {
-        "name": "Qualcomm Incorporated",
-        "differentiation": "모바일 SoC 시장의 강자, Arm 기반 PC 프로세서 시장 진출 가속화, 저전력 고성능 컴퓨팅 솔루션 전문성."
+        "name": "Qualcomm",
+        "differentiation": "모바일 및 엣지 AI 시장 강점, Arm 기반 프로세서 기술력, AI PC 시장 진출 가속화."
       },
       {
-        "name": "Broadcom Inc.",
-        "differentiation": "네트워킹 및 스토리지 솔루션, 맞춤형 ASIC 분야의 강자, 데이터센터 인프라 전반에 걸친 광범위한 솔루션 제공."
-      },
-      {
-        "name": "Arm Holdings plc",
-        "differentiation": "저전력 고성능 아키텍처 라이선싱 모델, 모바일 및 임베디드 시장의 지배적 위치, 데이터센터 및 PC 시장으로 확장."
+        "name": "Broadcom",
+        "differentiation": "네트워킹 및 스토리지 솔루션 강점, 맞춤형 ASIC 디자인 역량."
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "low - 반도체 설계 및 제조의 높은 기술 장벽, 막대한 R&D 투자, 복잡한 공급망 구축 필요성.",
-      "substitutes": "medium - 특정 워크로드에 따라 FPGA, ASIC, Arm 기반 프로세서 등 대체 기술이 존재하며, 클라우드 서비스의 '서비스형' 모델이 하드웨어 구매를 대체할 수 있음.",
-      "buyer_power": "medium - 소수의 대형 고객(클라우드 서비스 제공업체, OEM)이 상당한 구매력을 가지며, 가격 협상력이 높음.",
-      "supplier_power": "medium - TSMC와 같은 파운드리 의존도가 높고, 첨단 공정 기술을 가진 소수 공급업체의 영향력이 큼.",
-      "rivalry": "high - Intel, NVIDIA 등 강력한 경쟁사들과의 치열한 기술 경쟁, 가격 경쟁, 시장 점유율 확보 경쟁이 지속됨."
+      "new_entrants": "medium. 반도체 산업은 막대한 초기 투자 비용과 기술 장벽이 높지만, 특정 니치 시장이나 새로운 기술(예: RISC-V)을 통한 진입 가능성은 존재.",
+      "substitutes": "medium. CPU/GPU의 경우 직접적인 대체재는 제한적이나, 클라우드 기반 서비스, FPGA, ASIC 등 특정 워크로드에 최적화된 다른 컴퓨팅 솔루션이 대체재 역할을 할 수 있음.",
+      "buyer_power": "high. 소수의 대형 고객사(클라우드 서비스 제공업체, OEM)가 AMD 매출의 상당 부분을 차지하며, 이들의 구매력은 높음.",
+      "supplier_power": "high. TSMC와 같은 첨단 파운드리 업체에 대한 의존도가 높아 공급업체의 협상력이 강함.",
+      "rivalry": "high. Intel, NVIDIA 등 강력한 경쟁사들과의 치열한 기술 및 가격 경쟁이 지속되고 있음."
     },
     "competitive_advantages": [
-      "고성능 및 AI 최적화된 제품 포트폴리오: CPU, GPU, NPU, 네트워킹 및 소프트웨어를 아우르는 풀스택 솔루션 제공.",
-      "Zen 아키텍처 기반의 강력한 CPU 성능: 데이터센터 및 클라이언트 시장에서 Intel 대비 경쟁 우위 확보.",
-      "MI300 시리즈 등 AI 가속기 시장에서의 성장 잠재력: NVIDIA에 대한 대안으로 부상하며 시장 점유율 확대 기회.",
-      "Xilinx 인수를 통한 적응형 SoC 및 FPGA 역량 강화: 임베디드 및 산업용 시장에서 차별화된 솔루션 제공.",
-      "AI PC 시장 선점: x86 CPU에 NPU를 통합한 최초의 기업으로 AI PC 생태계 구축에 기여."
+      "고성능 및 AI 컴퓨팅 분야의 혁신적인 제품 포트폴리오 (Zen 아키텍처, RDNA, CDNA, XDNA 등).",
+      "데이터센터, 클라이언트, 임베디드, 게이밍 등 다각화된 시장 진출 및 솔루션 제공 능력.",
+      "AI 가속기 시장에서의 강력한 성장 모멘텀과 MI300 시리즈의 경쟁력.",
+      "NPU 통합 x86 CPU를 통한 AI PC 시장 선점 및 생태계 확장."
     ],
     "competitive_weaknesses": [
-      "AI 가속기 시장 내 NVIDIA 대비 낮은 시장 점유율 및 생태계: CUDA와 같은 강력한 소프트웨어 생태계 부재.",
-      "파운드리 의존도: TSMC 등 외부 파운드리에 대한 높은 의존도로 공급망 위험 존재.",
-      "마케팅 및 브랜드 인지도: 소비자 시장에서 Intel 대비 브랜드 인지도가 상대적으로 낮음.",
-      "소수의 대형 고객 의존도: 일부 대형 고객에 대한 매출 의존도가 높아 고객사의 전략 변화에 취약할 수 있음."
+      "NVIDIA의 AI GPU 시장 지배력에 대한 도전 과제 및 CUDA 생태계와의 경쟁.",
+      "첨단 파운드리(TSMC)에 대한 높은 의존도로 인한 공급망 위험 및 비용 압박.",
+      "Intel 대비 여전히 낮은 시장 점유율 및 브랜드 인지도 (일부 시장).",
+      "소수의 대형 고객사에 대한 매출 의존도가 높아 고객사의 전략 변화에 취약할 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 98,
-    "score": 69.1,
+    "rs_rating": 95,
+    "score": 66.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 0.6353,
-    "trailing_pe": 156.38931,
-    "forward_pe": 39.472237,
-    "ev_to_ebitda": 104.005,
-    "price_to_sales": 24.290895,
+    "peg_ratio": 0.626,
+    "trailing_pe": 154.87595,
+    "forward_pe": 39.270035,
+    "ev_to_ebitda": 103.519,
+    "price_to_sales": 24.178257,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 277.3,
-    "outperform_6m_vs_nasdaq": 185.03,
-    "outperform_1m_vs_nasdaq": 28.92,
+    "outperform_1y_vs_nasdaq": 260.23,
+    "outperform_6m_vs_nasdaq": 176.31,
+    "outperform_1m_vs_nasdaq": 28.1,
     "lynch_category": "Stalwart",
     "moat_type": "Intangible Assets",
     "moat_evidence": [
-      "AMD는 고성능 및 AI 컴퓨팅 분야에서 혁신을 주도하며, AI 최적화된 CPU, GPU, 네트워킹 및 소프트웨어의 광범위한 포트폴리오를 통해 고객이 데이터를 혁신으로 전환하도록 돕는 풀스택 솔루션을 제공합니다.",
-      "AMD는 x86 CPU와 동일한 SoC에 전용 NPU를 통합한 최초의 기업으로, AI PC 시장에서 차별화된 기술적 입지를 구축하고 AI 지원 애플리케이션 생태계를 확장하고 있습니다.",
-      "데이터 센터, 클라이언트 컴퓨팅, 임베디드 컴퓨팅 등 다양한 시장에서 차별화된 고성능 제품 포트폴리오(세미 커스텀 SoC, 적응형 SoC, APU, AI 가속기 등)를 제공하며 기술 리더십을 확보하고 있습니다."
+      "AMD는 고성능 및 AI 컴퓨팅 분야에서 혁신을 주도하며, 클라우드 및 AI 인프라, 임베디드 시스템, AI PC 및 게이밍 전반에 걸쳐 기술을 제공합니다.",
+      "AI 최적화된 CPU, GPU, 네트워킹 및 소프트웨어의 광범위한 포트폴리오를 통해 고객이 데이터를 혁신으로 전환하도록 돕는 풀스택 솔루션을 제공합니다.",
+      "AMD는 x86 CPU와 동일한 SoC에 전용 NPU를 통합한 최초의 회사로, AI PC를 위한 차별화된 기술 발자취를 확립하고 AI 지원 애플리케이션 생태계를 지원합니다."
     ],
     "moat_durability_years": "5~10년",
-    "new_trigger": "AI PC 시장 선점 위한 NPU 통합 x86 CPU 출시 및 AI 가속기 포트폴리오 확장",
-    "bull_case": "AI 시장 폭발적 성장과 함께 데이터센터 및 AI PC 부문에서 AMD의 시장 점유율이 크게 확대되어 매출과 이익이 급증할 것입니다.",
-    "base_case": "AI 시장의 견고한 성장세에 힘입어 데이터센터 및 클라이언트 부문에서 꾸준한 성장을 이어갈 것이며, 신제품 출시를 통해 시장 지위를 강화할 것입니다.",
-    "bear_case": "글로벌 경기 침체 및 경쟁 심화로 인해 AI 및 반도체 수요가 둔화되고, 신제품 출시 지연 또는 시장 반응 부진으로 매출 및 이익 성장이 예상치를 하회할 수 있습니다.",
+    "new_trigger": "AI PC 시장 선점 및 데이터센터 AI 가속기 수요 급증",
+    "bull_case": "AI 시장 지배력 강화로 매출 및 이익 급증, 데이터센터 GPU 점유율 확대.",
+    "base_case": "AI PC 및 데이터센터 AI 가속기 시장 성장에 힘입어 견조한 매출 성장과 수익성 개선을 지속할 것으로 예상됩니다. 경쟁 심화에도 불구하고 기술 리더십을 유지하며 시장 점유율을 확대할 것입니다.",
+    "bear_case": "AI 시장 경쟁 심화 및 거시 경제 둔화로 인한 수요 감소, 신제품 출시 지연 또는 실패 시 성장세가 둔화될 수 있습니다.",
     "key_metrics_to_watch": [
-      "데이터센터 부문 매출 성장률",
-      "AI 가속기 MI300X 판매량 및 시장 점유율",
-      "AI PC용 Ryzen AI 프로세서 출하량",
-      "총 마진율 (Gross Margin)"
+      "데이터센터 GPU 시장 점유율",
+      "AI PC 관련 매출 성장률",
+      "연구 개발 투자 및 신기술 로드맵"
     ]
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "경쟁",
-        "description": "반도체 시장은 경쟁이 매우 치열하고 빠르게 진화하며, 경쟁사들은 더 강력한 시장 지위와 자원을 보유하고 있어 AMD의 시장 점유율 확보 및 신규 시장 기회 활용을 제한할 수 있습니다.",
+        "description": "반도체 시장은 경쟁이 매우 치열하고 빠르게 진화하며, 경쟁사들은 더 강력한 시장 지위와 자원을 보유할 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "공급망",
-        "description": "제품 제조를 위해 타사에 의존하고 있으며, 이들이 적시에 충분한 수량으로 경쟁력 있는 기술을 사용하여 제품을 생산하지 못할 경우 사업에 심각한 부정적 영향을 미칠 수 있습니다.",
+        "description": "제품 제조를 제3자에게 의존하고 있으며, 이들이 적시에 충분한 수량과 경쟁력 있는 기술로 제조하지 못하면 사업에 심각한 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "고객집중도",
-        "description": "주요 고객을 잃을 경우 AMD의 사업에 중대한 부정적 영향을 미칠 수 있으며, 특정 반맞춤형 SoC 제품의 매출은 고객 제품의 성공 여부에 달려 있습니다.",
+        "description": "주요 고객의 손실은 AMD에 중대한 악영향을 미칠 수 있으며, 특정 고객 제품의 성공 여부에 따라 반맞춤형 SoC 제품 매출이 좌우됩니다.",
         "severity": "medium"
       },
       {
         "category": "기술",
-        "description": "기술 또는 기타 지적 재산을 특허, 저작권, 영업 비밀 등으로 적절히 보호하지 못하면 경쟁 우위를 잃고 상당한 비용이 발생할 수 있습니다.",
-        "severity": "medium"
+        "description": "적시에 고객에게 가치를 제공하는 기능과 성능 수준의 제품을 출시하는 능력에 사업 성공이 달려 있으며, 지적 재산권을 보호하지 못하면 경쟁 우위를 잃을 수 있습니다.",
+        "severity": "high"
       },
       {
-        "category": "거시",
-        "description": "경제 및 시장 불확실성은 AMD의 사업 및 운영 결과에 부정적인 영향을 미칠 수 있으며, 반도체 산업은 경기 변동성이 매우 높습니다.",
+        "category": "재무",
+        "description": "반도체 산업은 경기 변동성이 크고 심각한 침체를 겪었으며, 경제 및 시장 불확실성은 사업 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "규제",
-        "description": "수출 규제, 수입 관세 및 무역 보호 조치를 포함한 정부 조치 및 규제는 특정 고객에게 제품을 수출하는 능력을 제한할 수 있습니다.",
+        "description": "정부 조치 및 규제(수출 규제, 수입 관세 등)는 특정 고객에게 제품을 수출하는 능력을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "운영",
-        "description": "IT 중단, 데이터 손실, 데이터 유출 및 사이버 공격은 운영을 방해하고 지적 재산 또는 기타 민감한 정보를 손상시키며, 복구에 비용이 많이 들거나 사업, 평판, 재무 상태 및 운영 결과에 상당한 피해를 줄 수 있습니다.",
+        "description": "IT 중단, 데이터 손실, 데이터 유출 및 사이버 공격은 운영을 방해하고 지적 재산 또는 기타 민감한 정보를 손상시킬 수 있습니다.",
         "severity": "medium"
       }
     ],
     "inversion_scenarios": [
-      "주요 파운드리 파트너가 생산에 실패하거나 경쟁사들이 압도적인 기술 우위를 확보하여 AMD의 시장 점유율이 급격히 하락하고 재정적 어려움에 처하는 경우.",
-      "핵심 고객사들이 자체 칩 개발로 전환하거나 AMD 제품에 대한 지원을 중단하여 매출이 급감하고 사업 모델이 붕괴되는 경우.",
-      "심각한 보안 취약점이 발견되어 대규모 리콜 사태가 발생하거나, 사이버 공격으로 핵심 지적 재산이 유출되어 경쟁력을 상실하는 경우.",
-      "글로벌 무역 분쟁 심화로 주요 시장에 대한 수출이 전면 금지되거나, 핵심 부품 수급이 불가능해져 생산이 중단되는 경우."
+      "주요 경쟁사들이 Arm과 같은 대체 컴퓨팅 아키텍처를 성공적으로 확장하여 AMD 제품 수요를 급격히 감소시키고, 동시에 주요 고객들이 내부적으로 AI 워크로드용 제품을 개발하여 AMD의 시장 점유율을 잠식하는 경우.",
+      "핵심 파운드리 파트너가 생산 능력 부족, 기술 문제 또는 지정학적 문제로 인해 적시에 충분한 수량의 최첨단 제품을 공급하지 못하고, 이로 인해 AMD가 신제품 출시 시기를 놓치고 시장 경쟁력을 상실하는 경우.",
+      "주요 고객(예: 콘솔 제조업체)과의 계약이 종료되거나 해당 고객의 제품이 시장에서 실패하여 반맞춤형 SoC 매출이 급감하고, 동시에 다른 핵심 사업 부문에서도 경쟁 심화와 경기 침체로 인해 매출이 크게 감소하는 경우."
     ],
     "exit_signals": [
-      "AMD의 시장 점유율이 3분기 연속으로 5% 이상 하락하고, 신제품 출시가 지연되거나 경쟁사 제품 대비 성능 우위를 상실하는 경우.",
-      "주요 고객사(예: Microsoft, Sony, HP)가 AMD 제품 대신 경쟁사 제품을 채택하거나 자체 칩 개발을 공식 발표하는 경우.",
-      "핵심 파운드리 파트너(예: TSMC)와의 공급 계약이 중단되거나, 생산 수율이 심각하게 저하되어 제품 출하에 차질이 발생하는 경우.",
-      "대규모 데이터 유출 또는 제품 보안 취약점으로 인해 심각한 소송에 휘말리거나 브랜드 평판이 회복 불가능할 정도로 손상되는 경우."
+      "AMD의 시장 점유율이 핵심 CPU/GPU 시장에서 3분기 연속 5% 이상 하락하고, 신제품 출시가 경쟁사 대비 6개월 이상 지연되는 경우.",
+      "주요 파운드리 파트너와의 장기 공급 계약이 해지되거나, 최첨단 공정 기술 접근에 심각한 제약이 발생하여 경쟁사 대비 기술 격차가 벌어지는 것이 확인되는 경우.",
+      "주요 콘솔 제조업체와의 반맞춤형 SoC 공급 계약이 갱신되지 않거나, 해당 고객의 차세대 제품에 AMD 칩이 채택되지 않는다는 공식 발표가 나오는 경우."
     ]
   },
   "wikipedia_summary": "Advanced Micro Devices, Inc. (AMD) is an American multinational semiconductor company headquartered in Santa Clara, California. It develops central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), system-on-chips (SoCs), and high-performance computer components. AMD serves a wide range of business and consumer markets, including personal computers (PCs), gaming, data centers, and embedded systems.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-09-30T01:52:02.431147+00:00"
+    "GoogleWebTranslator": "2026-10-01T01:49:57.922948+00:00"
   }
 }

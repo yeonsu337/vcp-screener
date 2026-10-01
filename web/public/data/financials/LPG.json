@@ -1,11 +1,11 @@
 {
   "ticker": "LPG",
   "metrics": {
-    "eps_ttm": 7.52,
-    "eps_forward": 4.68,
-    "pe_ttm": 7.21,
-    "pe_forward": 11.59,
-    "market_cap": 2320104704.0,
+    "eps_ttm": 7.54,
+    "eps_forward": 4.11,
+    "pe_ttm": 7.3,
+    "pe_forward": 13.41,
+    "market_cap": 2355614464.0,
     "roe": 0.28,
     "roa": 0.11,
     "profit_margin": 0.56,
@@ -13,7 +13,7 @@
     "operating_margin": 0.6,
     "revenue_growth": 1.24,
     "earnings_growth": 12.63,
-    "dividend_yield": 6.16,
+    "dividend_yield": 6.18,
     "payout_ratio": 0.39,
     "currency": "USD",
     "sector": "Energy",
@@ -267,7 +267,6 @@
       673626411.0,
       698470254.0,
       690377516.0,
-      null,
       null
     ],
     "equity": [
@@ -276,7 +275,6 @@
       1085629438.0,
       1066532601.0,
       1034799525.0,
-      null,
       null
     ],
     "current_assets": [
@@ -285,7 +283,6 @@
       392286068.0,
       381867600.0,
       371659818.0,
-      null,
       null
     ],
     "current_liabilities": [
@@ -294,7 +291,6 @@
       162461796.0,
       114999014.0,
       111845782.0,
-      null,
       null
     ],
     "cash": [
@@ -303,7 +299,6 @@
       294492379.0,
       268302758.0,
       277921450.0,
-      null,
       null
     ],
     "total_assets": [
@@ -312,7 +307,6 @@
       1777739333.0,
       1780158775.0,
       1749083305.0,
-      null,
       null
     ],
     "debt_to_equity": [
@@ -321,7 +315,6 @@
       0.62,
       0.65,
       0.67,
-      null,
       null
     ],
     "current_ratio": [
@@ -330,7 +323,6 @@
       2.41,
       3.32,
       3.32,
-      null,
       null
     ],
     "cash_ratio": [
@@ -339,7 +331,6 @@
       1.81,
       2.33,
       2.48,
-      null,
       null
     ],
     "roe": [
@@ -369,7 +360,6 @@
       80774954.0,
       46406491.0,
       814474.0,
-      null,
       null
     ],
     "capex": [
@@ -378,7 +368,6 @@
       -13352326.0,
       -13256180.0,
       -3056789.0,
-      null,
       null
     ],
     "free_cf": [
@@ -387,7 +376,6 @@
       67422628.0,
       33150311.0,
       -2242315.0,
-      null,
       null
     ],
     "eps_yoy": [
