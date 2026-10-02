@@ -736,7 +736,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-25T01:17:04.124276+00:00",
+    "generated_at": "2026-10-02T02:00:05.767841+00:00",
     "llm_status": "ok"
   },
   {
@@ -851,13 +851,13 @@
   },
   {
     "ticker": "LPG",
-    "company": "Dorian LPG Ltd",
+    "company": "Dorian LPG Ltd.",
     "market": "US",
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-25T01:15:55.886878+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-10-02T02:01:17.068411+00:00",
+    "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
     "ticker": "LQDA",
@@ -996,8 +996,8 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-23T01:23:52.541204+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-10-02T02:00:40.426515+00:00",
+    "llm_status": "desk-research (no LLM): server-busy (503)"
   },
   {
     "ticker": "NTNX",

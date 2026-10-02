@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "WT",
-  "generated_at": "2026-10-01T01:47:56.959389+00:00",
-  "source_results_date": "2026-10-01",
+  "ticker": "DINO",
+  "generated_at": "2026-10-02T01:59:26.270221+00:00",
+  "source_results_date": "2026-10-02",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.66,
+  "confidence": 0.68,
   "lines": [
-    "관망 — Stage 2 진입, VCP 미숙성(수축 5회, 마지막 16.63%).",
-    "13주 베이스 17.8% → 12.6% → 14.7% → 9.4% → 16.6%, VDU 0.80×, pivot $25.91(-6.25%).",
-    "Trend Template 8/8 통과, RS 72 — 추세는 살아있음.",
+    "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 13.00%).",
+    "13주 베이스 14.2% → 14.6% → 13.0%, VDU 0.78×, pivot $118.39(-4.81%).",
+    "Trend Template 8/8 통과, RS 86 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "3/8",
-    "rs_rating": 72,
+    "rs_rating": 86,
     "stage": 2,
     "base_count": 3,
     "late_base_warning": true,
@@ -44,16 +44,16 @@
     "L1_liquidity_gate",
     "E7_roe",
     "F1_outperform_1y",
-    "H4_ni_cagr_3y"
+    "R2_rs_80"
   ],
   "key_failures": [
-    "P2_last_contraction (16.63% vs 6.5%)",
-    "P3_vol_dryup (0.80× vs 0.6×)",
+    "P2_last_contraction (13.00% vs 6.5%)",
+    "P3_vol_dryup (0.78× vs 0.6×)",
     "P4_base_count (3 — 후기 베이스)",
-    "P6_monotonic_decreasing (수축 단조 감소 위반)"
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승",
-    "RS 72 — Minervini 선호 80+ 미달, 강도 평균"
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
   ]
 }

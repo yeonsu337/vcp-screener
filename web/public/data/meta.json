@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-01T01:47:11.980208+00:00",
-  "total_candidates": 67,
+  "updated_at": "2026-10-02T01:58:38.800285+00:00",
+  "total_candidates": 63,
   "vcp_detected": 0,
   "min_rs": 70,
   "markets": {
     "US": {
-      "total": 50,
+      "total": 47,
       "detected": 0
     },
     "HK": {
-      "total": 17,
+      "total": 16,
       "detected": 0
     }
   },
@@ -19,7 +19,7 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": true,
-          "value": 1.0035,
+          "value": 1.0032,
           "threshold": 1.0,
           "note": ""
         },
@@ -39,14 +39,14 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": false,
-          "value": 0.9853,
+          "value": 0.9838,
           "threshold": 1.0,
           "note": ""
         },
         "MD2_idx_sma50_rising_21d": {
           "name": "Index 50d SMA rising 17d",
           "passed": false,
-          "value": 12.0,
+          "value": 11.0,
           "threshold": 17.0,
           "note": ""
         }
@@ -59,14 +59,14 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": true,
-          "value": 1.0237,
+          "value": 1.0244,
           "threshold": 1.0,
           "note": ""
         },
         "MD2_idx_sma50_rising_21d": {
           "name": "Index 50d SMA rising 17d",
           "passed": false,
-          "value": 4.0,
+          "value": 5.0,
           "threshold": 17.0,
           "note": ""
         }
@@ -75,5 +75,5 @@
       "direction_total": 2
     }
   },
-  "runtime_sec": 278.4
+  "runtime_sec": 272.1
 }
