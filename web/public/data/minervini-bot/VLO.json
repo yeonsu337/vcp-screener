@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "VLO",
-  "generated_at": "2026-10-02T01:59:26.267963+00:00",
-  "source_results_date": "2026-10-02",
-  "verdict": "STOP_OUT",
-  "verdict_kr": "청산 (Stop hit)",
-  "confidence": 0.95,
+  "generated_at": "2026-10-03T01:40:30.373611+00:00",
+  "source_results_date": "2026-10-03",
+  "verdict": "WATCH",
+  "verdict_kr": "관망",
+  "confidence": 0.68,
   "lines": [
-    "청산 — Peak +73.5%에서 -15.7% 후퇴 (Trailing -15% 발화), 현재 손익 +57.8% (Peak +73.5%).",
-    "진입 2026-04-27 @ $238.25 → 현재 $408.46.",
-    "Stage 2, RS 86. Minervini ironclad 손절 룰 발화 — 협의 불가.",
-    "전량 청산 후 새 진입 setup 형성 대기. 손실 누적 금지."
+    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 12.91%).",
+    "13주 베이스 12.4% → 8.1% → 7.5% → 12.9%, VDU 0.91×, pivot $419.04(-3.04%).",
+    "Trend Template 8/8 통과, RS 85 — 추세는 살아있음.",
+    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
     "entry_type": "none",
@@ -23,20 +23,37 @@
     "position_risk_pct": 1.5
   },
   "framework": {
-    "trend_template_score": "—",
-    "vcp_quality_score": "—",
-    "rs_rating": 86,
+    "trend_template_score": "8/8",
+    "vcp_quality_score": "3/8",
+    "rs_rating": 85,
     "stage": 2,
-    "base_count": 0,
-    "late_base_warning": false,
+    "base_count": 3,
+    "late_base_warning": true,
     "market_regime": "neutral"
   },
-  "rule_references": [],
+  "rule_references": [
+    "A1_ud_vol_ratio",
+    "B1_price_above_150_200",
+    "B2_sma150_gt_sma200",
+    "B3_sma50_gt_150_200",
+    "B4_price_above_sma50",
+    "B5_sma200_rising_5mo",
+    "B6_30pct_above_52w_low",
+    "B7_within_25pct_high",
+    "R1_rs_70",
+    "L1_liquidity_gate",
+    "E7_roe",
+    "F1_outperform_1y",
+    "R2_rs_80"
+  ],
   "key_failures": [
-    "Peak +73.5%에서 -15.7% 후퇴 (Trailing -15% 발화)"
+    "P2_last_contraction (12.91% vs 6.5%)",
+    "P3_vol_dryup (0.91× vs 0.6×)",
+    "P4_base_count (3 — 후기 베이스)",
+    "P6_monotonic_decreasing (수축 단조 감소 위반)",
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "진입가 $238.25 · 감지일 2026-04-27",
-    "포지션 전량 청산 후 새 setup 형성 시까지 신규 진입 금지"
+    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
   ]
 }
