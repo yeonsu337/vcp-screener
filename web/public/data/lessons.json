@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T01:45:56.531852+00:00",
+  "generated_at": "2026-10-06T02:44:23.381076+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -17,19 +17,19 @@
   },
   "performance": {
     "win_rate_pct": 58.7,
-    "profit_factor": 2.78,
-    "expectancy": 5.44,
-    "avg_winner_pct": 14.49,
+    "profit_factor": 2.86,
+    "expectancy": 5.68,
+    "avg_winner_pct": 14.89,
     "avg_loser_pct": -7.4,
     "best": {
       "ticker": "VLO",
-      "return_pct": 70.5
+      "return_pct": 76.0
     },
     "worst": {
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 53.3,
+    "avg_holding_winner_days": 53.4,
     "avg_holding_loser_days": 31.5
   },
   "exit_breakdown": {
@@ -42,7 +42,7 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 7,
+        "primary_passed": 6,
         "trades": 1,
         "avg_return_pct": -4.2,
         "win_rate_pct": 0.0
@@ -50,125 +50,35 @@
       {
         "primary_passed": 10,
         "trades": 1,
-        "avg_return_pct": 6.71,
+        "avg_return_pct": 9.86,
         "win_rate_pct": 100.0
       },
       {
         "primary_passed": 11,
-        "trades": 1,
-        "avg_return_pct": 1.49,
-        "win_rate_pct": 100.0
-      },
-      {
-        "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 70.54,
-        "win_rate_pct": 100.0
+        "trades": 3,
+        "avg_return_pct": 4.28,
+        "win_rate_pct": 66.7
       }
     ],
     "rule_hit_rate_diff": [],
-    "big_winners_common_rules": [
-      {
-        "rule_id": "A1_ud_vol_ratio",
-        "rule_name": "U/D Volume Ratio ≥ 1.0 (50d)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B1_price_above_150_200",
-        "rule_name": "Price > SMA150 & SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B2_sma150_gt_sma200",
-        "rule_name": "SMA150 > SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B3_sma50_gt_150_200",
-        "rule_name": "SMA50 > SMA150 & SMA200",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B4_price_above_sma50",
-        "rule_name": "Price > SMA50",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B5_sma200_rising_5mo",
-        "rule_name": "200d SMA rising 4-5 months",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B6_30pct_above_52w_low",
-        "rule_name": "≥ 30% above 52W low",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B7_within_25pct_high",
-        "rule_name": "Within 25% of 52W high",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B8_within_10pct_high",
-        "rule_name": "Within 10% of 52W high (bonus)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "B9_stage2",
-        "rule_name": "Weinstein Stage 2 (Advancing)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "R1_rs_70",
-        "rule_name": "RS Rating ≥ 70 (Minervini gate)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "R2_rs_80",
-        "rule_name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "V2_short_term_tightening",
-        "rule_name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "L1_liquidity_gate",
-        "rule_name": "Daily $ volume ≥ market threshold",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      },
-      {
-        "rule_id": "L2_liquidity_50m",
-        "rule_name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed_count": 1,
-        "passed_pct": 100.0
-      }
-    ],
+    "big_winners_common_rules": [],
     "loser_threshold_pct": -10.0,
     "big_winner_threshold_pct": 50.0
   },
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 44,
-      "win_rate_pct": 56.8,
-      "avg_return_pct": 4.06,
-      "best_return_pct": 42.0
+      "trades": 43,
+      "win_rate_pct": 58.1,
+      "avg_return_pct": 5.78,
+      "best_return_pct": 76.0
+    },
+    {
+      "sector": "Technology",
+      "trades": 2,
+      "win_rate_pct": 50.0,
+      "avg_return_pct": 5.67,
+      "best_return_pct": 12.3
     },
     {
       "sector": "Basic Materials",
@@ -176,20 +86,13 @@
       "win_rate_pct": 100.0,
       "avg_return_pct": 1.49,
       "best_return_pct": 1.5
-    },
-    {
-      "sector": "Energy",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 70.54,
-      "best_return_pct": 70.5
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 37,
       "win_rate_pct": 54.1,
-      "avg_return_pct": 2.36
+      "avg_return_pct": 2.57
     },
     "KR": {
       "trades": 6,
@@ -199,7 +102,7 @@
     "HK": {
       "trades": 3,
       "win_rate_pct": 33.3,
-      "avg_return_pct": -0.91
+      "avg_return_pct": 0.14
     }
   },
   "rs_distribution": {
@@ -212,50 +115,50 @@
     {
       "day": 1,
       "trades": 46,
-      "avg_return_pct": 5.44,
+      "avg_return_pct": 5.68,
       "winners_pct": 58.7
     },
     {
       "day": 5,
       "trades": 46,
-      "avg_return_pct": 5.44,
+      "avg_return_pct": 5.68,
       "winners_pct": 58.7
     },
     {
       "day": 21,
       "trades": 35,
-      "avg_return_pct": 8.59,
+      "avg_return_pct": 8.91,
       "winners_pct": 71.4
     },
     {
       "day": 63,
       "trades": 8,
-      "avg_return_pct": 23.14,
+      "avg_return_pct": 24.12,
       "winners_pct": 75.0
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-09-29T02:39:40.770183+00:00",
+    "generated_at": "2026-10-06T02:44:23.381052+00:00",
     "winner_patterns": [
-      "RS 등급 85 이상으로 시장 대비 강한 흐름",
-      "평균 보유 기간 24~164일, 장기 보유 시 수익 극대화",
-      "한국 시장 종목 다수 포함, 특정 시장 편향 [가설]",
-      "VLO, 005930.KS 등 대형주/우량주 포함 [가설]",
-      "에너지, 헬스케어 섹터에서 높은 승률과 수익률"
+      "RS 등급 80점 이상으로 강한 상대 강도 유지",
+      "평균 보유 기간 2~5개월로 추세 지속력 양호",
+      "미국 시장 종목의 수익률이 한국 시장 대비 우수",
+      "일부 종목은 50일 이동평균선 이탈 없이 장기 보유",
+      "[가설] 초기 진입 후 빠른 시세 분출이 많음"
     ],
     "loser_traps": [
-      "8% 손절매 규칙에 걸린 종목 다수 (EX1_stop_8pct)",
-      "RS 등급이 70대인 종목은 손실 위험 증가",
-      "50일 이동평균선 이탈 시 손실 발생 (EX4_50dma_break)",
-      "ERAS는 RS 99에도 불구하고 큰 손실 발생, 맹신 금지",
-      "단기 보유 (10~20일) 손실 종목 다수"
+      "8% 손절매 규칙에 자주 도달",
+      "RS 등급이 매우 높더라도 손실 발생 가능성 존재 (99점 ERAS)",
+      "20일 미만의 짧은 보유 기간 내 손실 발생",
+      "50일 이동평균선 이탈 시 손실 확정",
+      "[가설] 급등 후 조정 시 매수 진입은 위험"
     ],
     "rule_suggestions": [
-      "RS 등급 85 미만 종목은 초기 스크리닝에서 제외 고려",
-      "8% 손절매 규칙은 유지하되, 진입 후 50일 이평선 이탈 시 조기 청산 검토",
-      "에너지 및 헬스케어 섹터에 대한 가중치 부여 고려",
-      "보유 기간 20일 미만 종목의 손실률 분석 강화",
-      "RS 등급이 매우 높은 종목 (99)의 추가 검증 프로세스 도입"
+      "RS 등급 85점 이상 종목에 집중 투자",
+      "8% 손절매 규칙은 엄격히 준수",
+      "50일 이동평균선 이탈 시 즉시 청산 규칙 강화",
+      "초기 진입 후 20일 이내 성과 부진 시 재검토",
+      "미국 시장 종목 비중 확대 검토"
     ],
     "model": "gemini-2.5-flash",
     "trades_analyzed": 46

@@ -4,36 +4,50 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-10-02T02:00:40.426515+00:00",
+  "generated_at": "2026-10-06T02:42:31.260036+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 42239909888,
+    "market_cap": 43952680960,
     "shares_outstanding": 196419005,
     "employees": 11700,
     "country": "United States",
     "website": "https://www.netapp.com",
-    "beta": 1.432
+    "beta": 1.45
   },
   "category_a_business": {
-    "overview": "NetApp, Inc. develops enterprise software, systems, and services to transform data infrastructures in the United States, Canada, Latin America, Europe, the Middle East, Africa, and the Asia Pacific. It operates through two segments, Hybrid Cloud and Public Cloud.",
-    "business_model": "NetApp, Inc.",
+    "overview": "NetApp은 기업 고객에게 통합 데이터 스토리지, 데이터 서비스 및 클라우드 운영 솔루션을 제공하는 미국의 데이터 인프라 기업입니다.",
+    "milestones": [
+      "1992: Network Appliance 설립",
+      "1995: 나스닥 상장 (IPO)",
+      "2000: NetApp으로 사명 변경",
+      "2012: 포춘 500대 기업 진입",
+      "2019: 클라우드 기반 데이터 서비스 확장 가속화",
+      "2024: 소비 기반 비즈니스 모델(STaaS) 전환 및 인력 구조조정 발표"
+    ],
+    "business_model": "하이브리드 및 퍼블릭 클라우드 환경에서 데이터 관리 소프트웨어, 스토리지 시스템, 클라우드 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "하이브리드 클라우드 스토리지 시스템 판매",
+      "데이터 관리 소프트웨어 라이선스 및 구독",
+      "퍼블릭 클라우드 스토리지 서비스 (Azure NetApp Files 등)",
+      "스토리지-as-a-Service (STaaS)",
+      "전문 및 지원 서비스"
+    ],
+    "value_chain_position": "Midstream: 데이터 스토리지 및 관리 솔루션을 개발하고 제공하여 기업의 데이터 인프라를 지원합니다.",
     "products": [
-      "enterprise software, systems, and services to transform data infrastructures in the United States, Canada, Latin Americ",
-      "through two segments, Hybrid Cloud and Public Clou",
-      "data management software, such as NetApp ONTAP, ONTAP One, NetApp Snapshot, NetApp SnapCenter Backup Management, NetApp",
-      "cloud storage services comprising Azure NetApp Files, Amazon FSx for NetApp ONTAP, and Google Cloud NetApp Volumes, as w",
-      "operational services, such as NetApp Data Infrastructure Insights and Instaclustr"
+      "NetApp ONTAP (데이터 관리 소프트웨어)",
+      "NetApp AFF/FAS (스토리지 시스템)",
+      "Azure NetApp Files (클라우드 스토리지 서비스)",
+      "NetApp Cloud Volumes ONTAP",
+      "NetApp StorageGRID"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B (직접 판매)",
+      "파트너 채널 (리셀러, 시스템 통합업체)",
+      "클라우드 마켓플레이스 (AWS, Azure, Google Cloud)"
     ],
-    "wikipedia_excerpt": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
-    "milestones": [
-      "2012: to 2021",
-      "1992: with an initial public offering in 1995, NetApp offers cloud data services for management of applica"
-    ]
+    "key_customers": "특정 고객 집중도에 대한 정보는 공개되지 않았으나, 주로 대기업 및 중견기업을 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 1.15,
@@ -43,7 +57,7 @@
     "gross_margin": 0.71,
     "revenue_growth_ttm": 0.3,
     "earnings_growth_ttm": 0.64,
-    "dividend_yield": 0.99,
+    "dividend_yield": 0.92,
     "payout_ratio": 0.29,
     "annual_revenue": [
       6925000000.0,
@@ -121,33 +135,141 @@
     "roe_pct": 114.82
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-250 (estimate, 출처: 다양한 시장 조사 기관의 엔터프라이즈 스토리지 및 데이터 관리 시장 보고서 종합)",
+    "tam_cagr_pct": "8-12% (근거: 클라우드 전환 가속화, 데이터 증가, AI/ML 도입으로 인한 고성능 스토리지 수요 증가, STaaS 모델 확산)",
+    "growth_drivers": [
+      "클라우드 및 STaaS(Storage-as-a-Service) 모델로의 전환 가속화",
+      "AI 및 머신러닝 워크로드 증가에 따른 고성능 및 확장 가능한 스토리지 수요 증대",
+      "하이브리드 클라우드 환경의 복잡성 증가로 인한 통합 데이터 관리 솔루션 필요성 증대",
+      "데이터 보안 및 규제 준수 요구사항 강화로 인한 신뢰할 수 있는 스토리지 솔루션 수요 증가"
+    ],
+    "market_share_pct": "5-10% (estimate, 엔터프라이즈 스토리지 시장 기준)",
+    "competitors": [
+      {
+        "name": "Dell Technologies",
+        "differentiation": "광범위한 엔터프라이즈 하드웨어 및 소프트웨어 포트폴리오, 강력한 채널 파트너십, 기존 고객 기반"
+      },
+      {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "differentiation": "하이브리드 클라우드 솔루션(GreenLake)에 대한 강력한 투자, 엣지 컴퓨팅 및 서비스형 모델 강조"
+      },
+      {
+        "name": "Pure Storage",
+        "differentiation": "올플래시 스토리지 전문성, 단순성 및 성능에 중점, 서비스형 스토리지 모델 선도"
+      },
+      {
+        "name": "IBM",
+        "differentiation": "엔터프라이즈 솔루션 및 서비스의 폭넓은 포트폴리오, AI 및 하이브리드 클라우드 전략과의 통합"
+      },
+      {
+        "name": "AWS, Azure, Google Cloud (클라우드 스토리지)",
+        "differentiation": "클라우드 네이티브 스토리지 서비스 제공, 확장성, 유연성, 종량제 과금 모델"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (클라우드 기반 서비스의 진입 장벽은 낮지만, 기존 온프레미스 시장은 기술 및 자본 집약적)",
+      "substitutes": "high (클라우드 스토리지, 오픈소스 스토리지 솔루션, 자체 개발 스토리지 시스템 등 다양한 대체재 존재)",
+      "buyer_power": "high (고객은 다양한 공급업체와 솔루션 중에서 선택할 수 있으며, 클라우드 전환으로 인해 협상력이 증대됨)",
+      "supplier_power": "medium (하드웨어 부품 및 특정 소프트웨어 기술 공급업체에 대한 의존도가 있으나, 다각화된 공급망 관리 가능)",
+      "rivalry": "high (다수의 강력한 경쟁업체들이 시장 점유율을 놓고 치열하게 경쟁하며, 가격 및 기능 경쟁이 심화됨)"
+    },
     "competitive_advantages": [
-      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+      "하이브리드 클라우드 및 멀티 클라우드 환경을 위한 통합 데이터 관리 솔루션 전문성",
+      "클라우드 기반 스토리지 서비스 및 STaaS(Storage-as-a-Service) 모델로의 성공적인 전환 노력",
+      "ONTAP 운영체제를 기반으로 한 강력한 기술력 및 안정적인 제품 포트폴리오",
+      "오랜 업력과 광범위한 고객 기반 및 파트너 생태계"
+    ],
+    "competitive_weaknesses": [
+      "전통적인 온프레미스 Capex 모델에서 소비 기반 모델로의 전환에 따른 단기적인 매출 및 수익성 압박",
+      "AI 및 머신러닝 등 신흥 기술 분야의 핵심 인재 유치 및 유지에 대한 경쟁 심화",
+      "클라우드 서비스 제공업체들의 자체 스토리지 서비스와의 직접적인 경쟁 심화",
+      "잦은 구조조정 및 인력 감축이 직원 사기 및 인재 유치에 부정적인 영향을 미칠 가능성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 76,
-    "score": 74.5,
+    "rs_rating": 81,
+    "score": 73.9,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.1387,
-    "trailing_pe": 30.374294,
-    "forward_pe": 19.337395,
-    "ev_to_ebitda": 19.665,
-    "price_to_sales": 5.7150464,
+    "trailing_pe": 31.561354,
+    "forward_pe": 20.1215,
+    "ev_to_ebitda": 20.482,
+    "price_to_sales": 5.946784,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 66.13,
-    "outperform_6m_vs_nasdaq": 89.44,
-    "outperform_1m_vs_nasdaq": 14.45,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 69.35,
+    "outperform_6m_vs_nasdaq": 97.53,
+    "outperform_1m_vs_nasdaq": 17.35,
+    "lynch_category": "Stalwart",
+    "moat_type": "Switching Costs",
+    "moat_evidence": [
+      "NetApp은 클라우드 기반 스토리지 서비스 및 온프레미스 STaaS를 포함한 다양한 소비 모델을 제공하며, 이는 고객이 기존 인프라에서 벗어나기 어렵게 만듭니다.",
+      "전통적인 온프레미스 모델에서 소비 기반 모델로의 전환은 고객에게 상당한 운영 및 기술적 변화를 요구하며, 이는 NetApp 솔루션에 대한 의존도를 높입니다.",
+      "NetApp의 솔루션은 기업의 핵심 데이터 관리 및 스토리지 인프라에 깊이 통합되어 있어, 다른 공급업체로의 전환 시 높은 비용과 복잡성을 야기합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 및 머신러닝 분야의 신기술 인력 확보 및 신제품 개발 노력",
+    "bull_case": "클라우드 및 STaaS 전환 성공, AI/ML 인프라 수요 증가로 매출 및 이익률 대폭 개선",
+    "base_case": "소비 기반 모델로의 전환이 점진적으로 진행되며, AI/ML 분야의 기회는 있지만 인력 확보 및 경쟁 심화로 성장세는 완만할 것으로 예상됩니다.",
+    "bear_case": "소비 기반 모델 전환 실패, 인력 유출 심화, 경쟁 심화로 전통적 매출 감소 및 수익성 악화가 예상됩니다.",
+    "key_metrics_to_watch": [
+      "소비 기반 모델 매출 비중 및 성장률",
+      "AI/ML 관련 신규 솔루션 매출 기여도",
+      "엔지니어 및 기술 인력 이직률"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "클라우드 기반 스토리지 및 데이터 관리 솔루션 제공업체와의 경쟁 심화로 시장 점유율 및 수익성이 압박받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "기술",
+        "description": "새로운 기술 트렌드(예: AI, 머신러닝)에 대한 적절한 대응 실패 또는 혁신적인 제품 및 서비스 개발 지연은 경쟁력을 약화시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 고객 또는 대형 고객에 대한 의존도가 높아 이들 고객과의 관계 변화나 이탈은 매출에 상당한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "글로벌 공급망의 중단, 부품 부족 또는 비용 상승은 제품 생산 및 배송에 차질을 빚고 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 둔화, 인플레이션 또는 금리 인상과 같은 거시 경제적 요인은 기업 고객의 IT 지출 감소로 이어져 매출 성장을 저해할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "데이터 프라이버시, 보안 및 기타 기술 관련 규제의 변화는 추가적인 준수 비용을 발생시키고 사업 운영에 제약을 가할 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동은 해외 매출 및 수익성에 부정적인 영향을 미칠 수 있으며, 이는 재무 성과에 불확실성을 더합니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "클라우드 경쟁사들이 압도적인 기술 우위와 가격 경쟁력으로 시장을 장악하여 NTAP의 온프레미스 및 하이브리드 클라우드 솔루션의 수요가 급감하는 경우.",
+      "주요 고객들이 대거 이탈하고, 새로운 기술 트렌드에 대한 적절한 대응 실패로 혁신적인 제품 출시가 지연되어 시장 점유율이 지속적으로 하락하는 경우.",
+      "글로벌 공급망의 심각한 붕괴와 더불어 주요 부품의 가격이 급등하여 제품 생산 및 원가 경쟁력을 상실하고 수익성이 크게 악화되는 경우."
+    ],
+    "exit_signals": [
+      "분기별 클라우드 서비스 매출 성장률이 2분기 연속 시장 평균을 크게 하회하고, 온프레미스 스토리지 매출 감소세가 가속화되는 경우.",
+      "주요 경쟁사들이 NTAP의 핵심 제품군을 대체할 수 있는 혁신적인 솔루션을 출시하고, NTAP의 시장 점유율이 3분기 연속 5% 이상 하락하는 경우.",
+      "대규모 고객 이탈 또는 주요 파트너십 종료 소식이 발표되고, 이로 인해 연간 매출 가이던스가 10% 이상 하향 조정되는 경우."
+    ]
+  },
   "wikipedia_summary": "NetApp, Inc. is an American data infrastructure company that provides unified data storage, integrated data services, and cloud operations (CloudOps) solutions to enterprise customers. The company is based in San Jose, California. It was ranked in the Fortune 500 from 2012 to 2021. Founded in 1992 with an initial public offering in 1995, NetApp offers cloud data services for management of applications and data both online and physically.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-03T01:47:05.764767+00:00"
+    "GoogleWebTranslator": "2026-10-06T02:45:17.825628+00:00"
   }
 }
