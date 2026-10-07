@@ -4,45 +4,28 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-09-23T01:22:33.244678+00:00",
+  "generated_at": "2026-10-07T02:05:10.244734+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): server-busy (503)",
   "yf_metadata": {
-    "market_cap": 1896927744,
+    "market_cap": 1955492480,
     "shares_outstanding": 28839563,
     "employees": 1644,
     "country": "United States",
     "website": "https://www.gigacloudtech.com",
-    "beta": 1.647
+    "beta": 1.639
   },
   "category_a_business": {
-    "overview": "GigaCloud Technology는 미국 및 해외에서 대형 화물 B2B 이커머스 솔루션을 제공하는 기업입니다.",
-    "milestones": [
-      "2006: 회사 설립 (Oriental Standard Human Resources Holdings Limited)",
-      "2021년 2월: 사명을 GigaCloud Technology Inc.로 변경",
-      "2022: 나스닥 상장 (GCT)",
-      "2023: GigaCloud Marketplace를 통한 글로벌 확장 가속화"
-    ],
-    "business_model": "제조업체와 리셀러를 연결하는 B2B 마켓플레이스 및 물류 서비스를 제공합니다.",
-    "revenue_streams": [
-      "GigaCloud Marketplace 거래 수수료",
-      "물류 및 창고 서비스 수수료",
-      "부가가치 서비스 (예: 보증, 반품 처리)",
-      "임대 수익 (풀필먼트 센터 등)"
-    ],
-    "value_chain_position": "Midstream + 아시아 제조업체와 미국/유럽 리셀러를 연결하는 플랫폼 및 물류를 제공합니다.",
+    "overview": "GigaCloud Technology Inc. provides end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally. The company offers GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform.",
+    "business_model": "GigaCloud Technology Inc.",
     "products": [
-      "GigaCloud Marketplace (B2B 이커머스 플랫폼)",
-      "글로벌 물류 네트워크 (창고, 운송)",
-      "대형 화물 배송 서비스",
-      "제품 보증 및 반품 처리 서비스"
+      "end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally",
+      "GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform"
     ],
     "channels": [
-      "B2B (온라인 마켓플레이스)",
-      "직접 판매 (대형 고객 대상)"
-    ],
-    "key_customers": "고객 집중도 정보는 제공된 데이터에 없습니다."
+      "B2B / Enterprise"
+    ]
   },
   "category_b_financials": {
     "roe": 0.32,
@@ -52,7 +35,7 @@
     "gross_margin": 0.24,
     "revenue_growth_ttm": 0.28,
     "earnings_growth_ttm": 0.28,
-    "dividend_yield": null,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.0,
     "annual_revenue": [
       1289897000.0,
@@ -109,7 +92,6 @@
       1.04,
       0.99,
       0.91,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -118,7 +100,6 @@
       362747000.0,
       332638000.0,
       322606000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -127,8 +108,7 @@
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
+      "2025-03-31"
     ],
     "eps_qoq_yoy_pct": 22.5,
     "sales_yoy_pct": 27.6,
@@ -136,129 +116,72 @@
     "roe_pct": 32.34
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-300 billion USD (추정) - 글로벌 B2B 이커머스 및 물류 시장 규모 기반. GCT는 대형 가구/물품에 특화되어 있으나, 전체 B2B 이커머스 시장의 일부를 차지하며, 물류 서비스까지 제공하므로 관련 시장을 포함하여 추정.",
-    "tam_cagr_pct": "10-15% (추정) - 글로벌 B2B 이커머스 시장의 견고한 성장세와 디지털 전환 가속화에 기반. 특히 대형 물품의 온라인 거래 증가 및 공급망 효율화 요구가 성장을 견인할 것으로 예상.",
-    "growth_drivers": [
-      "글로벌 B2B 이커머스 시장의 지속적인 성장 및 디지털 전환 가속화",
-      "대형/부피가 큰 제품에 대한 전문화된 물류 및 유통 솔루션 수요 증가",
-      "공급망 효율성 및 비용 절감에 대한 기업들의 요구 증대",
-      "국경 간 거래 증가에 따른 복잡한 물류 솔루션 필요성"
-    ],
-    "market_share_pct": "1% 미만 (추정) - GCT는 특정 틈새시장에 강점을 가지지만, 전체 B2B 이커머스 및 물류 시장에서 차지하는 비중은 아직 미미함.",
-    "competitors": [
-      {
-        "name": "Amazon Business",
-        "differentiation": "광범위한 제품 카테고리, 강력한 브랜드 인지도, 글로벌 물류 인프라, 다양한 부가 서비스 제공."
-      },
-      {
-        "name": "Alibaba.com",
-        "differentiation": "글로벌 소싱 및 도매에 특화, 방대한 공급업체 네트워크, 다양한 결제 및 물류 솔루션 제공."
-      },
-      {
-        "name": "XPO Logistics / C.H. Robinson (3PL 기업)",
-        "differentiation": "전문적인 제3자 물류 서비스 제공, 운송 네트워크 및 기술 솔루션 강점, 특정 산업군에 특화된 서비스."
-      },
-      {
-        "name": "Wayfair Professional",
-        "differentiation": "가구 및 홈 데코 B2B 시장에 특화, 디자인 서비스 및 대량 구매 할인 제공."
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 초기 자본 투자(창고, 기술, 장비)와 물류 네트워크 구축의 어려움이 진입 장벽으로 작용하나, 특정 틈새시장을 노리는 소규모 플랫폼의 진입 가능성은 존재.",
-      "substitutes": "medium - 기업들이 자체 물류 시스템을 구축하거나, 기존 오프라인 도매 채널을 이용하는 것이 대체재가 될 수 있으나, GCT의 통합 솔루션은 효율성 측면에서 우위.",
-      "buyer_power": "medium - 구매자들은 다양한 B2B 플랫폼 및 공급업체를 선택할 수 있어 가격 협상력이 있으나, GCT의 전문화된 서비스는 일정 부분 구매자 전환 비용을 발생시킴.",
-      "supplier_power": "low - GCT는 다수의 판매자(공급업체)를 보유하고 있어 개별 공급업체의 협상력은 낮으나, 특정 인기 제품이나 독점 공급업체의 경우 협상력이 높아질 수 있음.",
-      "rivalry": "high - B2B 이커머스 및 물류 시장은 아마존, 알리바바 등 대형 플레이어들과 다수의 전문 물류 기업들이 경쟁하는 매우 치열한 시장임."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "대형/부피가 큰 제품에 특화된 통합 B2B 이커머스 및 물류 솔루션 제공",
-      "글로벌 물류 네트워크 및 풀필먼트 센터 운영을 통한 효율적인 배송",
-      "사기 방지 및 제품 품질 관리 시스템을 통한 플랫폼 신뢰도 유지",
-      "기술 기반의 플랫폼 운영 및 리스크 관리 역량"
-    ],
-    "competitive_weaknesses": [
-      "물류 시설 임대 의존도가 높아 임대료 상승 및 계약 갱신 실패 위험",
-      "대규모 자본 투자 및 높은 운전자본 요구로 인한 재무적 부담 가능성",
-      "물류 과정에서의 제품 손상 및 반품 증가 위험",
-      "핵심 경영진 및 숙련된 IT 인력에 대한 높은 의존도 및 인재 유치/유지 어려움"
+      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 66.4,
+    "rs_rating": 72,
+    "score": 65.4,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.27,
-    "trailing_pe": 12.647619,
-    "forward_pe": 10.99793,
-    "ev_to_ebitda": 11.279,
-    "price_to_sales": 1.2934927,
+    "trailing_pe": 13.007125,
+    "forward_pe": 9.408935,
+    "ev_to_ebitda": 11.585,
+    "price_to_sales": 1.3334273,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 61.83,
-    "outperform_6m_vs_nasdaq": 7.49,
-    "outperform_1m_vs_nasdaq": 2.35,
-    "lynch_category": "Fast Grower",
-    "moat_type": "Switching Costs",
-    "moat_evidence": [
-      "GigaCloud Marketplace는 사기 및 위조 방지를 위해 엄격한 모니터링 시스템과 본인 인증 절차(사업자 등록증, 전자제품 암호)를 운영하여 신뢰할 수 있는 거래 환경을 제공합니다. 이는 판매자와 구매자가 다른 플랫폼으로 이동하기 어렵게 만듭니다.",
-      "GigaCloud는 1P 제품에 대한 제품 책임 보험 및 통합 제품 검사 시스템을 구축하고, BaaS 프로그램 판매자에게도 품질 관리 기준을 적용하여 제품 품질과 안전을 보장합니다. 이는 플랫폼에 대한 신뢰를 높여 이탈을 방지합니다.",
-      "GigaCloud는 위조품에 대한 '무관용' 정책을 유지하며, 위조품 식별 및 제거, 침해 신고 채널 제공 등 적극적인 조치를 취합니다. 이는 판매자와 구매자 모두에게 안전한 거래 환경을 제공하여 플랫폼 충성도를 높입니다."
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "글로벌 B2B 이커머스 시장 성장 및 물류 네트워크 확장",
-    "bull_case": "3년 내 매출 및 순이익 2배 성장, 글로벌 시장 점유율 확대 및 물류 효율성 극대화로 수익성 개선",
-    "base_case": "GCT는 견고한 B2B 이커머스 플랫폼과 물류 네트워크를 기반으로 안정적인 성장을 지속할 것입니다. 엄격한 품질 관리 및 사기 방지 정책은 플랫폼 신뢰도를 높여 고객 유치 및 유지에 기여할 것입니다. 다만, 물류 센터 임대료 상승 및 인력 확보 경쟁은 잠재적 위험 요인입니다.",
-    "bear_case": "글로벌 경기 침체 심화, 물류 비용 급증, 경쟁 심화로 인한 시장 점유율 하락, 핵심 인력 이탈 등으로 인해 매출 성장 둔화 및 수익성 악화가 발생할 수 있습니다.",
-    "key_metrics_to_watch": [
-      "매출 성장률 (TTM)",
-      "순이익 성장률 (3Y NI CAGR)",
-      "운영 마진 (OPM)",
-      "물류 센터 임대 비용 변동",
-      "신규 판매자 및 구매자 유입률"
-    ]
+    "outperform_1y_vs_nasdaq": 74.56,
+    "outperform_6m_vs_nasdaq": 8.21,
+    "outperform_1m_vs_nasdaq": 1.69,
+    "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "거시",
-        "description": "거시경제 불확실성(인플레이션, 환율 변동, 금리 등)은 전자상거래 산업, 특히 대형 소포 상품 시장의 소비자 지출 및 신뢰에 부정적인 영향을 미쳐 GCT의 성장과 수익성에 악영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "경쟁",
-        "description": "전자상거래 산업은 경쟁이 치열하며, 경쟁 심화, 대체 비즈니스 모델의 출현 등으로 인해 GCT의 성장률이 둔화되거나 매출이 감소할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Our historical growth rates and performance may not be sustainable or indicative of our future growth and financial results.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "GCT의 과거 높은 성장률이 미래에도 지속될 것이라는 보장이 없으며, 성장률 둔화는 사업, 재무 상태 및 운영 결과에 중대한 악영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "However, our historical performance may not be indicative of our future growth or financial results.",
         "severity": "medium"
       },
       {
-        "category": "거버넌스",
-        "description": "인수합병(M&A) 전략은 새로운 규제 준수 의무, 통합의 어려움, 경영진의 주의 분산 등 상당한 도전과 위험을 수반하며, 예상되는 시너지를 실현하지 못할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "It is difficult to evaluate our prospects, as we may not have sufficient experience in addressing the risks to which companies operating in rapidly evolving markets may be exposed.",
         "severity": "medium"
       },
       {
-        "category": "고객집중도",
-        "description": "GigaCloud Marketplace는 GCT 매출의 상당 부분을 차지하며, 이 플랫폼의 성장이 예상보다 느릴 경우 전체 매출에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "low"
+        "category": "10-K Item 1A",
+        "description": "If our growth rate declines, our business, financial condition and results of operations may be materially and adversely affected.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Failure to successfully integrate our acquisitions in a timely manner may have a material adverse effect on our business, financial condition, results of operations and cash flows.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If benefits from our acquisitions do not meet the expectations of financial or industry analysts, we may also suffer a decline in the market price of our stock.",
+        "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "글로벌 경기 침체가 장기화되어 전자상거래 소비 심리가 극도로 위축되고, 대형 소포 상품 시장이 급격히 축소되어 GCT의 매출이 지속적으로 감소하고 수익성이 악화됩니다.",
-      "주요 경쟁사들이 GCT의 비즈니스 모델을 모방하거나 혁신적인 서비스를 출시하여 시장 점유율을 빠르게 잠식하고, GCT의 경쟁 우위가 상실됩니다.",
-      "연이은 인수합병이 실패하여 통합 비용만 증가하고 시너지를 창출하지 못하며, 오히려 경영진의 역량을 분산시키고 재무 건전성을 악화시킵니다."
-    ],
     "exit_signals": [
-      "GigaCloud Marketplace의 GMV(총 상품 판매액) 성장률이 2년 연속 한 자릿수에 머물거나 역성장하는 경우",
-      "주요 경쟁사들이 대형 소포 전자상거래 시장에서 GCT보다 훨씬 빠른 속도로 성장하며 시장 점유율을 크게 확대하는 경우",
-      "주요 인수합병 후 1년 이내에 통합 실패로 인한 대규모 손실이 발생하거나, 핵심 인력 이탈 및 고객 이탈이 심화되는 경우"
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-06T02:44:59.775284+00:00"
+    "GoogleWebTranslator": "2026-10-07T02:05:55.892337+00:00"
   }
 }
