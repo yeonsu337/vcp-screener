@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-10-07T02:05:10.244734+00:00",
+  "generated_at": "2026-10-08T02:34:15.210313+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 1955492480,
+    "market_cap": 1998344832,
     "shares_outstanding": 28839563,
     "employees": 1644,
     "country": "United States",
@@ -17,15 +17,34 @@
     "beta": 1.639
   },
   "category_a_business": {
-    "overview": "GigaCloud Technology Inc. provides end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally. The company offers GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform.",
-    "business_model": "GigaCloud Technology Inc.",
+    "overview": "GigaCloud Technology는 미국 및 해외에서 대형 화물 B2B 이커머스 솔루션을 제공하는 기업입니다.",
+    "milestones": [
+      "2006: 회사 설립 (Oriental Standard Human Resources Holdings Limited)",
+      "2021년 2월: 사명을 GigaCloud Technology Inc.로 변경",
+      "2022년 8월: 나스닥 상장 (GCT)",
+      "2023년 11월: GigaCloud Marketplace의 성장 가속화 및 물류 네트워크 확장 발표",
+      "2024년 2월: AI 기반 물류 최적화 기술 도입 발표"
+    ],
+    "business_model": "제조업체와 리셀러를 연결하는 B2B 마켓플레이스 및 물류 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "GigaCloud Marketplace 거래 수수료",
+      "물류 및 창고 서비스 수수료",
+      "부가가치 서비스 (예: 보증, 반품 처리)",
+      "데이터 및 기술 솔루션"
+    ],
+    "value_chain_position": "Midstream + 제조업체와 리셀러를 연결하고 물류를 담당하여 공급망의 중간 단계에 위치합니다.",
     "products": [
-      "end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally",
-      "GigaCloud Marketplace that integrates product discovery to payments and logistics tools into one easy-to-use platform"
+      "GigaCloud Marketplace (B2B 이커머스 플랫폼)",
+      "글로벌 물류 네트워크 (창고, 운송)",
+      "대형 화물 전문 배송 서비스",
+      "결제 및 금융 솔루션",
+      "데이터 분석 및 마케팅 도구"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (온라인 마켓플레이스)",
+      "직접 판매 (대형 고객 대상)"
+    ],
+    "key_customers": "주로 아시아 제조업체와 미국, 아시아, 유럽의 리셀러를 대상으로 하며, 특정 고객에 대한 매출 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 0.32,
@@ -116,28 +135,71 @@
     "roe_pct": 32.34
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 billion USD (추정) - 글로벌 B2B 이커머스 및 물류 시장 규모 기반",
+    "tam_cagr_pct": "15-20% (추정) - 글로벌 B2B 이커머스 시장의 지속적인 성장, 디지털 전환 가속화, 공급망 효율성 증대 요구에 기반함.",
+    "growth_drivers": [
+      "글로벌 B2B 이커머스 시장의 지속적인 확장 및 디지털 전환 가속화",
+      "대형 품목(벌크 상품)에 특화된 물류 및 풀필먼트 서비스 수요 증가",
+      "글로벌 공급망의 복잡성 증가에 따른 통합 솔루션 필요성 증대",
+      "크로스보더(국경 간) 거래 활성화 및 신흥 시장 진출 확대",
+      "기술 기반의 플랫폼 효율성 및 사용자 경험 개선"
+    ],
+    "market_share_pct": "1% 미만 (추정)",
+    "competitors": [
+      {
+        "name": "Amazon Business",
+        "differentiation": "광범위한 상품 구색, 강력한 브랜드 인지도, 글로벌 물류 인프라, 다양한 부가 서비스"
+      },
+      {
+        "name": "Alibaba.com",
+        "differentiation": "글로벌 B2B 소싱 플랫폼의 선두 주자, 방대한 공급업체 네트워크, 다양한 산업 분야 커버리지"
+      },
+      {
+        "name": "Flexport",
+        "differentiation": "디지털 포워딩 및 공급망 관리 솔루션, 기술 기반의 물류 가시성 및 효율성 제공"
+      },
+      {
+        "name": "XPO Logistics / C.H. Robinson (대형 물류사)",
+        "differentiation": "전통적인 물류 및 운송 서비스 제공, 광범위한 운송 네트워크, 대형 화물 운송 전문성"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 초기 자본 투자(창고, 기술) 및 물류 네트워크 구축의 어려움이 있으나, 특정 니치 시장에 대한 기술 기반 스타트업 진입 가능성 존재",
+      "substitutes": "medium - 자체 물류 시스템 구축, 전통적인 오프라인 도매 채널, 다른 B2B 이커머스 플랫폼 등 대체재가 존재하지만, GCT의 통합 솔루션은 차별화됨",
+      "buyer_power": "medium - 대량 구매 고객은 가격 협상력이 있으나, GCT의 독점적인 대형 품목 물류 및 글로벌 네트워크는 구매자의 선택지를 제한할 수 있음",
+      "supplier_power": "medium - 운송 및 창고 임대 공급업체에 대한 의존도가 높으나, GCT의 규모와 네트워크를 통해 어느 정도 협상력을 가질 수 있음",
+      "rivalry": "high - B2B 이커머스 및 물류 시장은 아마존, 알리바바 등 대형 플레이어와 수많은 전문 물류 기업들이 경쟁하는 매우 치열한 시장임"
+    },
     "competitive_advantages": [
-      "Technology / Software - Infrastructure 카테고리 — yfinance peer 비교 권장"
+      "대형 품목(벌크 상품)에 특화된 글로벌 B2B 마켓플레이스 및 물류 네트워크",
+      "통합된 풀필먼트(BaaS) 서비스 제공으로 판매자 및 구매자 편의성 증대",
+      "사기 방지 및 제품 품질 관리 시스템을 통한 플랫폼 신뢰도 유지 노력",
+      "글로벌 소싱 및 유통을 위한 크로스보더 역량 보유",
+      "기술 기반의 플랫폼 운영 및 데이터 활용 능력"
+    ],
+    "competitive_weaknesses": [
+      "높은 자본 투자 및 운영 비용 (창고 임대, 기술, 인력)",
+      "물류 인프라 및 창고 임대 계약 갱신 실패 시 운영 중단 위험",
+      "경영진 및 핵심 IT 인력 의존도가 높으며, 이탈 시 사업에 부정적 영향",
+      "상품 파손 및 반품률 증가 시 평판 및 수익성 악화 가능성",
+      "대형 경쟁사 대비 낮은 시장 점유율 및 브랜드 인지도"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 65.4,
+    "rs_rating": 70,
+    "score": 66.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.27,
-    "trailing_pe": 13.007125,
-    "forward_pe": 9.408935,
-    "ev_to_ebitda": 11.585,
-    "price_to_sales": 1.3334273,
+    "trailing_pe": 13.292161,
+    "forward_pe": 9.61512,
+    "ev_to_ebitda": 11.605,
+    "price_to_sales": 1.3626479,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 74.56,
-    "outperform_6m_vs_nasdaq": 8.21,
-    "outperform_1m_vs_nasdaq": 1.69,
+    "outperform_1y_vs_nasdaq": 74.88,
+    "outperform_6m_vs_nasdaq": 1.19,
+    "outperform_1m_vs_nasdaq": 2.97,
     "lynch_category": "Fast Grower"
   },
   "category_e_risks": {
@@ -182,6 +244,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-07T02:05:55.892337+00:00"
+    "GoogleWebTranslator": "2026-10-08T02:34:57.195364+00:00"
   }
 }

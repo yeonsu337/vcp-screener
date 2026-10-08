@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-10-07T02:03:05.808795+00:00",
+  "generated_at": "2026-10-08T02:32:10.747152+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): server-busy (503)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 107651858432,
+    "market_cap": 108382060544,
     "shares_outstanding": 399020916,
     "employees": 12600,
     "country": "United States",
@@ -17,23 +17,35 @@
     "beta": 0.701
   },
   "category_a_business": {
-    "overview": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally. It operates through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels. The Midstream segment provides crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and natural gas liquids (NGL) gathering, processing, transportation, fractionation, storage and marketing services.",
-    "business_model": "Phillips 66 operates as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally.",
+    "overview": "Phillips 66은 미국 및 국제적으로 통합된 다운스트림 에너지 기업으로, 정유, 화학, 미드스트림 사업을 영위합니다.",
+    "milestones": [
+      "1927: Phillips Petroleum Company의 상표로 'Phillips 66' 등장",
+      "2002: Phillips Petroleum과 Conoco 합병하여 ConocoPhillips 설립",
+      "2012: ConocoPhillips에서 정유, 화학, 소매 자산을 분사하여 Phillips 66 설립",
+      "2012: 뉴욕 증권 거래소에 PSX 티커로 상장"
+    ],
+    "business_model": "원유 정제, 화학 제품 생산, 에너지 운송 및 마케팅을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "정유 제품 판매 (휘발유, 경유, 항공유 등)",
+      "화학 제품 판매 (에틸렌, 방향족, 특수 화학물질 등)",
+      "미드스트림 서비스 (원유/정제유 운송, 저장, 가스 처리)",
+      "재생 연료 판매"
+    ],
+    "value_chain_position": "Downstream + 원유 정제, 화학 제품 생산, 에너지 운송 및 마케팅에 집중합니다.",
     "products": [
-      "as an integrated downstream energy provider in the United States, the United Kingdom, Germany, and internationally",
-      "through five segments: Midstream, Chemicals, Refining, Marketing and Specialties (M&S), and Renewable Fuels",
-      "crude oil and refined petroleum product transportation, terminaling, and storage services, as well as natural gas and",
-      "and markets ethylene and other olefin products",
-      "and markets specialty products, such as automotive, commercial, industrial, and specialty lubricants, as well as base oi"
+      "휘발유",
+      "경유",
+      "항공유",
+      "에틸렌",
+      "방향족 및 스타이렌 제품",
+      "특수 화학물질"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2B",
+      "도매",
+      "소매 (마케팅 및 특수 사업부)"
     ],
-    "wikipedia_excerpt": "The Phillips 66 Company is an American multinational energy company headquartered in Westchase, Houston, Texas. Its name, dating back to 1927 as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Phillips 66. The company today was formed ten years after Phillips merged with Conoco to form ConocoPhillips. The merged company spun off its refining, chemical, and retail assets – known in the oil industry as downstream operations – into a new company bearing the Phillips 66 name. It began trading on the New York Stock Exchange on May 1, 2012, under the ti",
-    "milestones": [
-      "1927: as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Ph",
-      "2012: , under the ticker PSX"
-    ]
+    "key_customers": "다수의 산업 고객 및 최종 소비자에게 제품을 공급하며, 특정 고객에 대한 높은 집중도는 없습니다."
   },
   "category_b_financials": {
     "roe": 0.23,
@@ -120,72 +132,137 @@
     "roe_pct": 23.45
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2,000 - 2,500 (estimate) + 에너지 정보청(EIA) 및 주요 시장 조사 기관의 글로벌 정유 및 마케팅 시장 규모 추정치 기반",
+    "tam_cagr_pct": "1.5% - 2.5% (estimate) + 글로벌 에너지 수요 증가 둔화, 전기차 전환 가속화, 재생에너지 비중 확대 등 구조적 요인으로 인한 화석 연료 수요 성장 제한. 다만, 개발도상국의 에너지 수요 증가와 항공 및 해상 운송 부문의 꾸준한 수요가 하방 압력을 일부 상쇄할 것으로 예상.",
+    "growth_drivers": [
+      "글로벌 에너지 수요 증가 (특히 개발도상국)",
+      "항공 및 해상 운송 부문의 꾸준한 연료 수요",
+      "석유화학 제품 수요 증가 (플라스틱, 비료 등)",
+      "정유 시설의 효율성 및 복잡성 개선을 통한 마진 확보",
+      "저탄소 연료 및 재생 에너지 솔루션으로의 포트폴리오 전환 노력"
+    ],
+    "market_share_pct": "2% - 4% (estimate) + 글로벌 정유 시장은 매우 분산되어 있으며, PSX는 북미 지역에 강점을 가진 주요 플레이어 중 하나임.",
+    "competitors": [
+      {
+        "name": "ExxonMobil",
+        "differentiation": "통합된 업스트림-다운스트림 사업 구조, 글로벌 규모의 정유 및 화학 사업, 막대한 자본력 및 기술력."
+      },
+      {
+        "name": "Chevron",
+        "differentiation": "강력한 업스트림 자산 기반, 북미 및 아시아 태평양 지역의 정유 및 마케팅 네트워크, LNG 사업 확장."
+      },
+      {
+        "name": "Valero Energy",
+        "differentiation": "북미 최대 독립 정유사, 효율적인 정유 시설 운영, 바이오 연료 생산에 대한 투자."
+      },
+      {
+        "name": "Marathon Petroleum",
+        "differentiation": "북미 최대 정유사 중 하나, 광범위한 파이프라인 및 소매 네트워크, MPLX (미드스트림) 자회사 보유."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + 정유 산업은 막대한 초기 자본 투자, 복잡한 규제, 환경 허가, 숙련된 인력 및 기술이 필요하여 진입 장벽이 매우 높음.",
+      "substitutes": "medium + 전기차, 수소 연료, 바이오 연료 등 대체 에너지원의 발전과 보급이 장기적으로 위협이 되지만, 단기적으로는 기존 화석 연료의 지배력을 대체하기 어려움.",
+      "buyer_power": "medium + 대규모 산업 구매자(항공사, 운송 회사)는 가격 협상력이 있지만, 일반 소비자 시장은 가격 민감도가 높음. 유가 변동에 따라 구매자의 협상력이 달라질 수 있음.",
+      "supplier_power": "high + 원유 공급은 OPEC+ 등 소수 국가 및 기업에 집중되어 있어 공급자의 협상력이 강함. 지정학적 요인에 따라 공급 안정성이 크게 좌우됨.",
+      "rivalry": "high + 정유 및 마케팅 산업은 소수의 대형 플레이어들이 시장을 지배하며, 높은 고정비와 상품성 제품의 특성상 가격 경쟁이 치열함. 글로벌 경기 변동 및 공급 과잉 시 경쟁이 더욱 심화됨."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+      "북미 지역에 집중된 대규모 및 고도화된 정유 시설 네트워크",
+      "다각화된 사업 포트폴리오 (정유, 마케팅, 화학, 미드스트림)",
+      "미드스트림 자산 (DCP Midstream 지분)을 통한 통합된 가치 사슬",
+      "재생 에너지 및 저탄소 솔루션으로의 전환 노력 (예: 재생 디젤 생산)",
+      "강력한 브랜드 인지도 및 유통 네트워크 (Phillips 66, Conoco, 76 등)"
+    ],
+    "competitive_weaknesses": [
+      "화석 연료에 대한 높은 의존도로 인한 환경 규제 및 탄소세 위험 노출",
+      "글로벌 유가 변동성에 따른 수익성 불안정성",
+      "재생 에너지 및 신기술 투자에 대한 경쟁사 대비 상대적 지연 가능성",
+      "정유 시설 노후화 및 유지보수 비용 증가 압력",
+      "지정학적 리스크 및 공급망 교란에 취약성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 80,
-    "score": 69.2,
+    "rs_rating": 81,
+    "score": 70.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 0.8205,
-    "trailing_pe": 15.416572,
-    "forward_pe": 10.112733,
-    "ev_to_ebitda": 12.623,
-    "price_to_sales": 0.7074586,
+    "trailing_pe": 15.521143,
+    "forward_pe": 10.181328,
+    "ev_to_ebitda": 12.626,
+    "price_to_sales": 0.7122573,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 87.69,
-    "outperform_6m_vs_nasdaq": 31.02,
-    "outperform_1m_vs_nasdaq": 1.64,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 90.36,
+    "outperform_6m_vs_nasdaq": 42.05,
+    "outperform_1m_vs_nasdaq": 0.59,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "정유 및 화학 산업의 특성상 대규모 자본 투자가 필요하며, 이는 신규 진입 장벽으로 작용하여 기존 기업에게 비용 우위를 제공합니다.",
+      "PSX는 광범위한 정유 및 화학 시설 네트워크를 보유하고 있어 규모의 경제를 달성하고 효율적인 운영을 통해 비용 경쟁력을 유지합니다.",
+      "석유 및 가스 가치 사슬 전반에 걸친 통합된 사업 모델은 원료 조달부터 최종 제품 판매까지의 비용 효율성을 높입니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "에너지 전환 가속화 및 저탄소 솔루션 투자 확대",
+    "bull_case": "글로벌 에너지 수요 회복 및 정제 마진 개선으로 수익성 대폭 향상, 주주환원 확대",
+    "base_case": "안정적인 에너지 수요와 정제 마진 유지, 저탄소 에너지 전환 투자 지속으로 장기 성장 기반 마련",
+    "bear_case": "글로벌 경기 침체 심화 및 유가 급락으로 정제 마진 악화, 환경 규제 강화로 인한 비용 증가",
+    "key_metrics_to_watch": [
+      "정제 마진 (Crack Spreads)",
+      "저탄소 에너지 사업 투자 및 성과",
+      "부채 비율 및 현금 흐름"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Each of these risk factors could adversely affect our business, operating results, financial condition, and reputation, as well as the value of an investment in our securities.",
+        "category": "거시",
+        "description": "정제유, 석유화학, 플라스틱 및 재생 연료 제품의 마진은 시장 상황 변화로 인해 주기적이고 변동성이 크며, 이는 통제 불가능한 요인에 크게 좌우되어 수익, 재무 상태 및 현금 흐름에 직접적인 영향을 미칩니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "원유 및 기타 원료의 가격은 글로벌, 지역 및 현지 시장 상황뿐만 아니라 제품 유형 및 등급에 따라 변동될 수 있으며, 이는 마진을 감소시키고 정제, 도매 마케팅 및 소매 운영, 수익, 영업 이익 및 현금 흐름에 상당한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "OPEC 회원국들의 원유 가격 및 생산 통제 합의 능력과 동유럽 및 남미 분쟁과 같은 사건으로 인한 무역 흐름 변화는 원유 및 특정 제품의 시장 가격에 상당한 영향을 미쳤으며 앞으로도 미칠 가능성이 높습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Changes in prices that occur between the time we purchase feedstocks or products and when we sell the refined products could have a significant impact on our financial results.",
+        "category": "경쟁",
+        "description": "화학 부문에서 판매되는 대부분의 제품은 경쟁이 매우 치열하여 제품 차별화나 고객에게 비용 인상을 전가함으로써 시장 지위를 보호하기 어렵습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If a decrease in commodity prices results in declining oil and gas production, then demand for services provided by our Midstream segment may be negatively impacted.",
+        "category": "규제",
+        "description": "재생 가능한 원료 및 재생 연료와 관련된 정부 정책 변경(예: 재생 연료 표준 프로그램, 저탄소 연료 표준 및 특정 재생 가능한 원료 처리에 대한 세금 공제)은 회사의 재무 상태 및 운영 결과에 부정적인 영향을 미칩니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If certain types of renewable feedstocks are excluded from generating credits, our financial condition and results of operations may be impacted.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "The inability to operate facilities or assets due to any of these events could significantly impair our ability to manufacture, process, store or transport products.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "This could have a material adverse effect on our business, results of operations, financial position and cash flows, and our ability to make cash distributions.",
-        "severity": "medium"
+        "category": "재무",
+        "description": "상품 가격 및 기타 원료의 지속적인 또는 장기적인 하락은 운영 결과, 유동성, 자본 시장 접근 및 자본 우선순위(주식 환매 및 배당금 포함) 자금 조달 능력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
       }
     ],
+    "inversion_scenarios": [
+      "원유 및 정제 제품 마진이 장기간 급격히 하락하여 대규모 자산 손상 및 자본 투자 능력 상실로 이어지는 경우.",
+      "OPEC의 생산량 조절 실패 및 지정학적 갈등 심화로 원료 공급망이 심각하게 교란되고 가격 변동성이 통제 불능 수준으로 치솟는 경우.",
+      "재생 에너지 전환 가속화 및 정부 정책 변화로 인해 화석 연료 수요가 급감하고 재생 연료 사업 부문이 수익성을 확보하지 못하는 경우.",
+      "화학 제품 시장의 극심한 경쟁과 원료 가격 상승이 맞물려 화학 부문이 지속적인 손실을 기록하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "정제 마진이 2분기 연속 역사적 평균 이하로 유지되고 회복 조짐이 보이지 않는 경우.",
+      "OPEC+의 생산량 합의가 장기간 실패하거나 주요 산유국 간의 지정학적 긴장이 고조되어 원유 가격 변동성이 극심해지는 경우.",
+      "주요 재생 연료 정책(예: RFS, LCFS)이 축소되거나 폐지되어 재생 연료 사업의 수익성에 심각한 타격을 주는 경우.",
+      "회사의 배당금 삭감 또는 주식 환매 프로그램 중단 발표."
     ]
   },
   "wikipedia_summary": "The Phillips 66 Company is an American multinational energy company headquartered in Westchase, Houston, Texas. Its name, dating back to 1927 as a trademark of the Phillips Petroleum Company, assisted in establishing the newly reconfigured Phillips 66. The company today was formed ten years after Phillips merged with Conoco to form ConocoPhillips. The merged company spun off its refining, chemical, and retail assets – known in the oil industry as downstream operations – into a new company bearing the Phillips 66 name. It began trading on the New York Stock Exchange on May 1, 2012, under the ticker PSX.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-07T02:06:46.244123+00:00"
+    "GoogleWebTranslator": "2026-10-08T02:35:34.451765+00:00"
   }
 }

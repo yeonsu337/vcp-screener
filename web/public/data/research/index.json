@@ -56,7 +56,7 @@
     "sector": "Technology",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-01T01:48:34.064657+00:00",
+    "generated_at": "2026-10-08T02:29:13.451192+00:00",
     "llm_status": "ok"
   },
   {
@@ -604,9 +604,9 @@
     "company": "Fortinet, Inc.",
     "market": "US",
     "sector": "Technology",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-29T02:39:37.988117+00:00",
+    "generated_at": "2026-10-08T02:30:53.498732+00:00",
     "llm_status": "ok"
   },
   {
@@ -616,8 +616,8 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-10-07T02:05:10.244734+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-10-08T02:34:15.210313+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "GE",
@@ -1106,7 +1106,7 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-01T01:49:14.483734+00:00",
+    "generated_at": "2026-10-08T02:31:33.365797+00:00",
     "llm_status": "ok"
   },
   {
@@ -1116,8 +1116,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-07T02:03:59.649493+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-10-08T02:32:50.822854+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "POWL",
@@ -1136,8 +1136,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-07T02:03:05.808795+00:00",
-    "llm_status": "desk-research (no LLM): server-busy (503)"
+    "generated_at": "2026-10-08T02:32:10.747152+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "PWR",

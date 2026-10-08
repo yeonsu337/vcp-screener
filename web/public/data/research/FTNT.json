@@ -4,61 +4,60 @@
   "market": "US",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "generated_at": "2026-09-29T02:39:37.988117+00:00",
-  "primary_passed": 12,
+  "generated_at": "2026-10-08T02:30:53.498732+00:00",
+  "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 129375731712,
+    "market_cap": 138877321216,
     "shares_outstanding": 733713653,
     "employees": 15472,
     "country": "United States",
     "website": "https://www.fortinet.com",
-    "beta": 1.059
+    "beta": 1.037
   },
   "category_a_business": {
-    "overview": "Fortinet은 전 세계적으로 사이버 보안 및 네트워킹-보안 융합 솔루션을 제공하는 선도 기업입니다.",
+    "overview": "포티넷은 네트워크 및 보안 솔루션 융합을 주도하는 글로벌 사이버 보안 기업입니다.",
     "milestones": [
       "2000: Fortinet 설립",
-      "2002: 첫 FortiGate 방화벽 출시",
+      "2002: FortiGate 방화벽 출시",
       "2009: 나스닥 상장 (FTNT)",
       "2016: Fortinet Security Fabric 플랫폼 출시",
-      "2020: SASE(Secure Access Service Edge) 솔루션 강화",
-      "2023: AI 기반 보안 운영(SecOps) 및 OT 보안 솔루션 확장"
+      "2020: OT 보안 솔루션 강화",
+      "2023: AI 기반 보안 솔루션 FortiAI 출시"
     ],
-    "business_model": "하드웨어, 소프트웨어 및 서비스 구독을 통해 사이버 보안 솔루션을 판매합니다.",
+    "business_model": "하드웨어, 소프트웨어, 서비스 구독을 통해 통합 사이버 보안 솔루션을 제공합니다.",
     "revenue_streams": [
-      "제품 판매 (보안 어플라이언스)",
-      "보안 서비스 구독 (FortiGuard)",
-      "기술 지원 및 유지보수",
-      "클라우드 서비스 (FortiCloud)",
-      "AI 기반 보안 솔루션"
+      "제품 판매 (방화벽, 엔드포인트 등)",
+      "보안 서비스 구독 (FortiGuard 등)",
+      "소프트웨어 라이선스 및 구독 (FortiOS, FortiCloud)",
+      "기술 지원 및 유지보수"
     ],
-    "value_chain_position": "Midstream: 자체 기술 개발 및 제조를 통해 통합 보안 플랫폼을 제공합니다.",
+    "value_chain_position": "Midstream + 자체 개발한 하드웨어, 소프트웨어, 서비스를 통합하여 고객에게 제공합니다.",
     "products": [
       "FortiGate (네트워크 방화벽)",
-      "FortiOS (통합 운영체제)",
-      "FortiASIC (보안 처리 장치)",
-      "FortiCloud (클라우드 SaaS 플랫폼)",
-      "FortiAI (AI 기반 보안)",
-      "OT Security (산업 제어 시스템 보안)"
+      "FortiClient (엔드포인트 보안)",
+      "FortiSASE (통합 보안 액세스 서비스 엣지)",
+      "FortiAI (AI 기반 보안 운영)",
+      "OT Security (운영 기술 보안)",
+      "FortiCloud (클라우드 SaaS 플랫폼)"
     ],
     "channels": [
       "B2B (기업, 정부, 통신사)",
-      "채널 파트너 (리셀러, 시스템 통합업체)"
+      "파트너 채널 (리셀러, 시스템 통합업체)"
     ],
-    "key_customers": "다양한 산업군(금융, 유통, 헬스케어, OT)의 전 세계 100개국 이상 기업 및 정부 기관"
+    "key_customers": "다양한 산업군(금융, 유통, 헬스케어, OT)의 기업, 통신 및 보안 서비스 제공업체, 정부 기관 등 고객 집중도는 낮은 편"
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 1.17,
+    "roa": 0.14,
+    "profit_margin": 0.28,
+    "operating_margin": 0.34,
+    "gross_margin": 0.8,
+    "revenue_growth_ttm": 0.26,
+    "earnings_growth_ttm": 0.44,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.0,
     "annual_revenue": [
       6799600000.0,
       5955800000.0,
@@ -113,113 +112,113 @@
       0.72,
       0.68,
       0.62,
-      0.57,
-      null
+      0.57
     ],
     "quarterly_revenue": [
       2047900000.0,
       1849600000.0,
       1905000000.0,
       1724900000.0,
-      1630000000.0,
-      null
+      1630000000.0
     ],
     "quarterly_periods": [
       "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2024-12-31"
+      "2025-06-30"
     ],
-    "ni_cagr_3y_pct": 29.3
+    "eps_qoq_yoy_pct": 37.8,
+    "sales_yoy_pct": 25.6,
+    "ni_cagr_3y_pct": 29.3,
+    "roe_pct": 117.44
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "200-250 estimate (사이버 보안 시장 규모 추정치 기반, SASE, SecOps, OT 보안 등 Fortinet의 주요 사업 영역 포함)",
-    "tam_cagr_pct": "12-15% (사이버 보안 시장의 지속적인 성장, 특히 클라우드 보안, SASE, AI 기반 보안 솔루션에 대한 수요 증가에 근거)",
+    "tam_estimate_usd_b": "200-250 estimate (사이버 보안 시장 규모 추정치 기반)",
+    "tam_cagr_pct": "12-15% (사이버 보안 시장의 지속적인 성장, 클라우드 전환 가속화, AI 기반 위협 증가에 따른 보안 투자 확대)",
     "growth_drivers": [
-      "네트워킹과 보안의 융합 가속화 (SASE, 통합 플랫폼 수요 증가)",
-      "AI 기반 보안 위협 증가 및 이에 대응하는 AI 기반 보안 솔루션의 필요성 증대",
-      "클라우드 전환 가속화에 따른 클라우드 보안 및 SaaS 기반 솔루션 수요 증가",
-      "OT(운영 기술) 보안 시장의 성장 및 규제 강화",
+      "네트워킹과 보안의 융합 가속화 (Secure Networking, SASE)",
+      "AI 기반 보안 운영(SecOps) 및 위협 방어 솔루션 수요 증가",
+      "클라우드 전환 및 하이브리드 클라우드 환경 확산에 따른 보안 요구 증대",
+      "OT(운영 기술) 및 IoT 환경의 보안 위협 증가",
       "제로 트러스트(Zero Trust) 아키텍처 도입 확산"
     ],
-    "market_share_pct": "5-10% estimate (다양한 보안 영역에서 경쟁하며, 특정 영역에서는 더 높은 점유율을 가질 수 있음)",
+    "market_share_pct": "5-10% estimate (다양한 보안 영역에 걸쳐 경쟁이 치열하며, 특정 영역에서는 더 높을 수 있음)",
     "competitors": [
       {
         "name": "Palo Alto Networks",
-        "differentiation": "차세대 방화벽 시장의 선두 주자이며, 클라우드 보안 및 SOAR(Security Orchestration, Automation and Response) 솔루션에 강점"
+        "differentiation": "차세대 방화벽(NGFW) 시장의 선두 주자, 클라우드 보안 및 SOAR(Security Orchestration, Automation and Response) 솔루션 강화"
       },
       {
         "name": "Cisco Systems",
-        "differentiation": "네트워킹 인프라 시장의 강자로서, 네트워크 보안 솔루션과 통합된 보안 포트폴리오 제공"
+        "differentiation": "네트워킹 인프라 시장의 강자로서 보안 솔루션을 통합 제공, 광범위한 고객 기반 및 채널 파트너십"
       },
       {
         "name": "Check Point Software Technologies",
-        "differentiation": "오랜 업력을 가진 보안 전문 기업으로, 방화벽 및 위협 관리 솔루션에 강점"
+        "differentiation": "오랜 업력의 보안 전문 기업으로, 통합 보안 관리 및 위협 인텔리전스에 강점"
       },
       {
         "name": "CrowdStrike",
-        "differentiation": "클라우드 기반 엔드포인트 보호 플랫폼(EPP) 및 엔드포인트 탐지 및 대응(EDR) 시장의 선두 주자"
+        "differentiation": "클라우드 기반 엔드포인트 보호(EPP) 및 EDR(Endpoint Detection and Response) 시장의 리더, 위협 인텔리전스 및 MDR(Managed Detection and Response) 서비스 제공"
       },
       {
         "name": "Zscaler",
-        "differentiation": "클라우드 기반 보안 서비스 엣지(SSE) 및 SASE 솔루션 전문 기업으로, 보안 웹 게이트웨이(SWG) 및 클라우드 방화벽에 강점"
+        "differentiation": "클라우드 기반 보안 서비스 엣지(SSE) 및 SASE 솔루션 전문 기업, 제로 트러스트 네트워크 액세스(ZTNA)에 강점"
       }
     ],
     "porter_five_forces": {
-      "new_entrants": "medium (사이버 보안 시장은 높은 기술 전문성과 규제 준수가 요구되지만, 특정 니치 시장에서는 신규 진입이 가능하며, 클라우드 기반 서비스는 진입 장벽을 낮출 수 있음)",
-      "substitutes": "medium (내부 보안 팀의 자체 개발, 오픈 소스 솔루션, 또는 다른 유형의 보안 서비스가 대체재가 될 수 있으나, 통합 플랫폼의 복잡성과 전문성으로 인해 완전한 대체는 어려움)",
-      "buyer_power": "medium (다수의 공급업체가 존재하고 고객들은 다양한 선택지를 가지고 있으나, 보안 솔루션의 중요성과 전환 비용으로 인해 구매자의 협상력은 중간 수준)",
-      "supplier_power": "low (하드웨어 부품, 소프트웨어 라이선스 등 공급업체는 다양하며, Fortinet은 자체 ASIC 개발 등으로 특정 공급업체에 대한 의존도를 낮추고 있음)",
-      "rivalry": "high (사이버 보안 시장은 매우 경쟁이 치열하며, 다수의 글로벌 기업들이 혁신적인 기술과 광범위한 솔루션을 통해 시장 점유율을 확보하기 위해 경쟁하고 있음)"
+      "new_entrants": "medium (사이버 보안 시장은 높은 기술 전문성과 규제 준수가 요구되지만, 특정 니치 시장이나 SaaS 기반 솔루션으로의 진입은 상대적으로 용이할 수 있음)",
+      "substitutes": "medium (내부 개발 보안 솔루션, 오픈소스 보안 도구, 또는 보안 컨설팅 서비스 등으로 대체될 수 있으나, 통합 플랫폼의 복잡성 및 전문성으로 인해 완전한 대체는 어려움)",
+      "buyer_power": "medium (다수의 경쟁사 존재로 인해 구매자는 선택의 폭이 넓지만, 보안 솔루션의 중요성과 전환 비용으로 인해 구매자의 협상력은 제한적일 수 있음)",
+      "supplier_power": "low (하드웨어 부품 및 소프트웨어 라이선스 공급업체는 다양하며, Fortinet은 자체 ASIC 개발을 통해 일부 공급업체 의존도를 낮춤)",
+      "rivalry": "high (Palo Alto Networks, Cisco, Check Point 등 강력한 경쟁사들이 존재하며, 클라우드 보안, SASE, AI 보안 등 신흥 시장에서 경쟁이 더욱 심화되고 있음)"
     },
     "competitive_advantages": [
-      "Fortinet Security Fabric이라는 통합 플랫폼을 통한 네트워킹 및 보안 융합",
-      "FortiASIC 기반의 SPU(Security Processing Unit)를 통한 우수한 성능, 확장성 및 효율성",
+      "Fortinet Security Fabric을 통한 네트워킹 및 보안의 통합 플랫폼 제공",
+      "FortiASIC 기반의 SPU(Security Processing Unit)를 통한 고성능, 고효율 솔루션 제공",
       "FortiOS라는 단일 운영 체제를 통한 일관된 정책 적용 및 관리 용이성",
-      "FortiAI를 통한 AI 기반 위협 방어 및 보안 운영 지원",
-      "글로벌 고객 기반 및 광범위한 시장 수직(금융, 리테일, 헬스케어, OT 등) 커버리지"
+      "FortiAI를 통한 AI 기반 위협 방어 및 보안 운영 자동화 역량",
+      "글로벌 클라우드 인프라(FortiCloud) 및 SaaS 플랫폼 제공",
+      "다수의 특허 보유(특히 AI 관련 특허) 및 광범위한 애널리스트 보고서 인정"
     ],
     "competitive_weaknesses": [
-      "다양한 제품군으로 인한 복잡성 및 특정 니치 시장에서의 전문성 부족 가능성",
-      "클라우드 네이티브 보안 솔루션 시장에서 신흥 강자들과의 경쟁 심화",
-      "AI 기반 보안 기술의 빠른 발전 속도에 대한 지속적인 투자 및 혁신 압박",
-      "통합 플랫폼의 강점에도 불구하고, 특정 고객은 단일 기능에 특화된 솔루션을 선호할 수 있음",
-      "글로벌 경제 상황 및 지정학적 리스크에 따른 사업 운영의 불확실성"
+      "클라우드 네이티브 보안 시장에서 신흥 경쟁사 대비 인지도 및 시장 점유율 확대 필요",
+      "하드웨어 기반 솔루션의 비중이 여전히 높아, 순수 소프트웨어/SaaS 기업 대비 성장률에 제약 가능성",
+      "다양한 제품 포트폴리오로 인한 복잡성 증가 및 고객 교육 필요성",
+      "글로벌 시장에서 지역별 맞춤형 전략 및 서비스 강화 필요"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 94,
-    "score": 54.0,
-    "vcp_quality": 0.0,
+    "rs_rating": 85,
+    "score": 74.7,
+    "vcp_quality": 13.4,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.9161,
-    "trailing_pe": 61.439026,
-    "forward_pe": 46.675686,
-    "ev_to_ebitda": 48.489,
-    "price_to_sales": 17.187307,
+    "trailing_pe": 66.88339,
+    "forward_pe": 50.10363,
+    "ev_to_ebitda": 52.712,
+    "price_to_sales": 18.449574,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 92.09,
-    "outperform_6m_vs_nasdaq": 97.46,
-    "outperform_1m_vs_nasdaq": 1.0,
-    "moat_type": "Intangible Assets",
+    "outperform_1y_vs_nasdaq": 99.09,
+    "outperform_6m_vs_nasdaq": 104.99,
+    "outperform_1m_vs_nasdaq": 15.97,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets | Switching Costs",
     "moat_evidence": [
-      "Fortinet은 1,064개의 미국 특허와 1,405개의 글로벌 특허를 보유하고 있으며, 이 중 321개는 AI 관련 특허입니다. 이는 기술 혁신과 지적 재산 보호에 대한 강력한 증거입니다.",
-      "FortiOS, FortiASIC, FortiCloud, FortiAI 등 핵심 기술 스택은 통합된 보안 플랫폼인 Fortinet Security Fabric의 기반을 형성하며, 경쟁사 대비 성능, 보안, 유연성 및 통합성에서 차별화를 제공합니다.",
-      "140개 이상의 기업 분석가 보고서에서 비전과 실행력을 인정받았으며, 이는 시장에서의 강력한 브랜드 인지도와 기술 리더십을 시사합니다."
+      "Fortinet은 1,064개의 미국 특허와 1,405개의 글로벌 특허(AI 관련 특허 321개 포함)를 보유하고 있으며, 이는 강력한 기술적 해자를 형성합니다.",
+      "Fortinet Security Fabric이라는 통합 플랫폼은 보안 네트워킹, 통합 SASE, AI 기반 SecOps를 아우르며, FortiOS, FortiASIC, FortiCloud, FortiAI 등 핵심 기술을 통해 고객에게 높은 성능, 보안, 유연성 및 통합성을 제공합니다. 이 통합 솔루션은 고객이 다른 공급업체로 전환하기 어렵게 만드는 전환 비용을 발생시킵니다.",
+      "Fortinet은 140개 이상의 기업 분석가 보고서에서 비전과 실행력을 인정받았으며, 이는 브랜드 인지도와 신뢰도를 높이는 무형 자산입니다."
     ],
     "moat_durability_years": "5~10년",
-    "new_trigger": "AI 기반 보안 운영(SecOps) 및 SASE 솔루션 강화, GenAI 및 LLM 보호 솔루션 출시",
-    "bull_case": "AI 보안 시장 선점 및 SASE 확장으로 3년간 매출 및 이익 고성장 지속, 시장 점유율 확대",
-    "base_case": "사이버 보안 시장의 견고한 성장과 Fortinet의 기술 리더십을 바탕으로 안정적인 매출 및 이익 성장 유지. AI 및 클라우드 보안 솔루션의 점진적인 채택 증가.",
-    "bear_case": "경기 침체로 인한 기업 IT 지출 감소, 경쟁 심화로 인한 가격 경쟁, AI 보안 기술 개발 지연 또는 실패 시 성장 둔화 및 수익성 악화",
+    "new_trigger": "AI 기반 보안 운영(SecOps) 및 생성형 AI 보호 솔루션 'FortiAI' 출시",
+    "bull_case": "AI 보안 수요 폭증 및 FortiAI 시장 선점으로 매출 및 이익 고성장 지속, 주가 상승 견인",
+    "base_case": "사이버 보안 시장의 견조한 성장세와 Fortinet의 기술 리더십을 바탕으로 매출 및 이익이 꾸준히 성장하며, 시장 평균을 상회하는 성과를 보일 것입니다.",
+    "bear_case": "글로벌 경기 침체로 인한 기업 IT 투자 위축, 경쟁 심화로 인한 시장 점유율 하락, AI 기술 개발 및 상용화 지연으로 성장 동력이 약화될 경우 실적 부진 및 주가 하락이 예상됩니다.",
     "key_metrics_to_watch": [
-      "AI 관련 매출 성장률",
-      "SASE 솔루션 채택률 및 고객 수",
-      "총 특허 수 및 AI 관련 특허 증가율",
-      "영업이익률 (OPM)"
+      "서비스 매출 성장률 (구독 기반 매출 비중)",
+      "FortiAI 관련 매출 및 고객 수 증가",
+      "총 마진율 및 영업 현금 흐름"
     ]
   },
   "category_e_risks": {
@@ -231,48 +230,50 @@
       },
       {
         "category": "공급망",
-        "description": "칩 및 기타 부품 부족, 국제 무역 분쟁, 노동력 부족 등으로 인한 공급망 교란이 제품 생산 및 배송에 차질을 빚어 매출 감소와 비용 증가로 이어질 수 있습니다.",
+        "description": "칩 및 기타 부품 부족, 국제 무역 분쟁, 노동력 부족 등으로 인한 공급망 교란이 제품 생산 및 배송 지연을 초래하여 매출에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "high"
       },
       {
         "category": "경쟁",
-        "description": "클라우드 기반 솔루션 시장 변화에 대한 예측 실패, 경쟁 심화, 그리고 고객의 포인트 솔루션 선호 현상으로 인해 시장 점유율을 잃거나 매출 성장이 둔화될 수 있습니다.",
+        "description": "클라우드 기반 솔루션 시장의 급격한 변화에 대한 예측 및 대응 실패, 경쟁 심화로 인해 시장 점유율을 잃거나 매출 성장이 둔화될 위험이 있습니다.",
         "severity": "medium"
       },
       {
         "category": "재무",
-        "description": "예측 불가능한 운영 결과와 분기 말 출하량 집중 현상으로 인해 재무 예측이 어려워지고, 이는 투자자 기대치에 미치지 못하는 결과를 초래할 수 있습니다.",
+        "description": "운영 결과가 예측 불가능하게 변동할 가능성이 높으며, 이는 재무 예측의 정확성을 떨어뜨리고 투자자 기대에 미치지 못할 위험을 증가시킵니다.",
         "severity": "medium"
       },
       {
         "category": "고객집중도",
-        "description": "채널 파트너 및 최종 고객의 구매 관행과 예산 주기에 따라 수요가 변동하고, 이는 제품 수명 주기 종료나 가격 인하 요구와 맞물려 매출에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "채널 파트너 및 최종 고객의 구매 주기, 예산 책정, 제품 수명 주기 종료 등에 따라 수요가 감소하거나 주문 시기가 불규칙해질 수 있습니다.",
         "severity": "medium"
       },
       {
         "category": "거버넌스",
-        "description": "인수합병(M&A) 시 예상치 못한 부채, 통합 실패, 그리고 재무 결과에 대한 부정적인 영향이 발생할 수 있습니다.",
+        "description": "인수 및 지분 투자와 관련된 통합 위험, 예상치 못한 부채 또는 상각 발생 가능성이 있으며, 이는 재무 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "low"
       },
       {
         "category": "규제",
-        "description": "다양한 관할권에 걸쳐 일관성 없고 진화하는 데이터 및 기타 보안 요구사항과 규제 집행이 사업 운영에 복잡성을 더하고 추가 비용을 발생시킬 수 있습니다.",
+        "description": "데이터 및 기타 보안 요구 사항의 불일치 및 진화하는 규제 환경으로 인해 준수 비용이 증가하거나 사업 운영에 제약이 발생할 수 있습니다.",
         "severity": "low"
       }
     ],
     "inversion_scenarios": [
-      "글로벌 공급망이 심각하게 붕괴되어 핵심 부품 조달이 불가능해지고, 동시에 주요 제품에서 치명적인 보안 취약점이 발견되어 고객 신뢰를 완전히 상실하는 경우.",
-      "거시경제 침체가 장기화되고 지정학적 갈등이 심화되어 전 세계적인 사이버 보안 지출이 급감하며, 동시에 경쟁사들이 혁신적인 클라우드 기반 솔루션으로 시장을 장악하는 경우.",
-      "내부 IT 네트워크가 대규모로 침해되어 고객 데이터 유출 및 제품 무결성 훼손이 발생하고, 이로 인해 막대한 소송 비용과 브랜드 이미지 실추로 이어지는 경우."
+      "글로벌 공급망이 심각하게 붕괴되어 핵심 부품 조달이 불가능해지고 제품 생산이 중단되어 시장 점유율을 완전히 상실한다.",
+      "사이버 보안 제품에서 치명적인 취약점이 발견되고 이를 해결하지 못해 고객 신뢰를 완전히 잃고 대규모 고객 이탈이 발생한다.",
+      "클라우드 보안 시장의 변화에 적절히 대응하지 못하고 경쟁사에 밀려 시장에서 도태되어 매출이 급감하고 수익성이 악화된다.",
+      "심각한 거시경제 침체로 기업들의 IT 보안 예산이 대폭 삭감되어 제품 및 서비스 수요가 장기간 회복되지 못한다."
     ],
     "exit_signals": [
-      "핵심 제품 라인에서 반복적으로 치명적인 보안 취약점이 발견되고, 이로 인해 주요 고객 이탈이 가속화되는 경우.",
-      "분기별 매출 성장률이 지속적으로 한 자릿수에 머물거나 역성장하며, 특히 클라우드 보안 부문에서 시장 점유율이 현저히 감소하는 경우.",
-      "주요 공급망 파트너와의 관계가 단절되거나, 핵심 부품 조달에 장기적인 차질이 발생하여 제품 출하량이 급격히 감소하는 경우."
+      "핵심 제품 라인에서 경쟁사 대비 기술적 우위가 상실되고 시장 점유율이 지속적으로 하락하는 것이 확인될 때.",
+      "주요 공급망 파트너의 파산 또는 핵심 부품의 장기적인 공급 중단으로 생산 능력이 심각하게 저해될 때.",
+      "대규모 보안 사고 발생 후 회사의 대응 실패로 인해 고객 이탈이 가속화되고 브랜드 평판이 회복 불가능할 정도로 손상될 때.",
+      "클라우드 기반 솔루션으로의 전환이 예상보다 훨씬 느리거나 실패하여 관련 매출 성장이 정체되고 경쟁 우위를 잃을 때."
     ]
   },
   "wikipedia_summary": "Fortinet, Inc. is an American cybersecurity company headquartered in Sunnyvale, California. It develops and sells security products including firewalls, endpoint security and intrusion detection systems. Fortinet has offices in the US, Canada, and UK.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-07T02:05:50.863420+00:00"
+    "GoogleWebTranslator": "2026-10-08T02:34:53.852670+00:00"
   }
 }
