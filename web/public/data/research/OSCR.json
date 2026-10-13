@@ -1,0 +1,279 @@
+{
+  "ticker": "OSCR",
+  "company": "Oscar Health, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
+  "generated_at": "2026-10-13T03:24:44.037326+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 10497015808,
+    "shares_outstanding": 273469000,
+    "employees": 2305,
+    "country": "United States",
+    "website": "https://www.hioscar.com",
+    "beta": 2.469
+  },
+  "category_a_business": {
+    "overview": "미국 헬스케어 기술 기업으로, 개인 및 소규모 그룹 대상 건강보험과 헬스케어 시스템을 위한 기술 플랫폼을 제공합니다.",
+    "milestones": [
+      "2012: Oscar Health 설립",
+      "2021: 사명을 Mulberry Health Inc.에서 Oscar Health, Inc.로 변경",
+      "2025: ICHRA 관련 초기 기업(Lucie, IHC Specialty Benefits, Healthinsurance.org) 인수"
+    ],
+    "business_model": "건강보험 판매 및 헬스케어 기술 플랫폼 제공을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "건강보험료 (개인 및 소규모 그룹)",
+      "+Oscar 플랫폼 서비스 (기술 라이선싱)",
+      "중개 서비스 수수료",
+      "재보험 상품"
+    ],
+    "value_chain_position": "Downstream + 건강보험 최종 소비자 및 헬스케어 시스템 내 다른 플레이어에게 직접 서비스를 제공합니다.",
+    "products": [
+      "ACA 건강보험 (Catastrophic, Bronze, Silver, Gold, Platinum)",
+      "+Oscar 플랫폼 (Campaign Builder 포함)",
+      "중개 서비스 및 등록 플랫폼",
+      "재보험 상품",
+      "특정 질병(당뇨, 천식 등) 맞춤형 보험 상품"
+    ],
+    "channels": [
+      "B2C (개인 및 가족)",
+      "B2B (소규모 그룹 고용주, +Oscar 플랫폼 고객)",
+      "건강보험 마켓플레이스 (ACA)",
+      "직접 등록 플랫폼 (Lucie)"
+    ],
+    "key_customers": "정보 부족으로 고객 집중도 평가 불가"
+  },
+  "category_b_financials": {
+    "roe": 0.34,
+    "roa": 0.04,
+    "profit_margin": 0.04,
+    "operating_margin": 0.08,
+    "gross_margin": 0.2,
+    "revenue_growth_ttm": 0.7,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      11701427000.0,
+      9177941000.0,
+      5862869000.0,
+      4125584000.0,
+      null
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      -1.69,
+      0.1,
+      -1.22,
+      -2.85,
+      null
+    ],
+    "annual_free_cf": [
+      1058482000.0,
+      950296000.0,
+      -297736000.0,
+      351337000.0,
+      null
+    ],
+    "annual_total_debt": [
+      430095000.0,
+      299555000.0,
+      298777000.0,
+      297999000.0,
+      null
+    ],
+    "annual_equity": [
+      977648000.0,
+      1013586000.0,
+      803967000.0,
+      890384000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.1,
+      2.07,
+      -1.24,
+      -0.53,
+      -0.89,
+      null
+    ],
+    "quarterly_revenue": [
+      4880220000.0,
+      4647194000.0,
+      2805235000.0,
+      2985984000.0,
+      2863945000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30",
+      "2025-03-31"
+    ],
+    "sales_yoy_pct": 70.4,
+    "roe_pct": 34.26
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 1,000억 달러 (2023년 미국 개인 건강보험 시장 규모 추정치 기반, Oscar Health 10-K에 직접적인 TAM 수치 미제공)",
+    "tam_cagr_pct": "5-7% (미국 건강보험 시장의 전반적인 성장률 및 ACA 시장의 지속적인 확장, ICHRA와 같은 새로운 시장 기회 확대에 기반)",
+    "growth_drivers": [
+      "ACA 시장의 지속적인 성장 및 정부 보조금 유지",
+      "개인 건강보험 시장 내 ICHRA(Individual Coverage Health Reimbursement Arrangements) 도입 확대",
+      "기술 기반의 차별화된 회원 경험 제공 및 임상적 가치 향상",
+      "+Oscar 플랫폼을 통한 기술 솔루션 외부 판매 확장",
+      "데이터 및 AI 기반의 개인화된 건강 관리 및 참여 유도"
+    ],
+    "market_share_pct": "1-2% (2025년 기준 200만 명의 유효 회원 수와 전체 미국 개인 건강보험 시장 규모 대비 추정)",
+    "competitors": [
+      {
+        "name": "UnitedHealthcare (UnitedHealth Group)",
+        "differentiation": "압도적인 시장 점유율, 광범위한 네트워크, 다양한 상품 포트폴리오, Optum을 통한 통합 의료 서비스 제공"
+      },
+      {
+        "name": "Anthem (Elevance Health)",
+        "differentiation": "주요 주에서의 강력한 시장 지배력, 블루 크로스 블루 쉴드 브랜드 인지도, 다양한 보험 상품 및 서비스 제공"
+      },
+      {
+        "name": "Aetna (CVS Health)",
+        "differentiation": "CVS Health와의 통합을 통한 약국 및 소매 클리닉 네트워크 활용, 건강 관리 서비스 접근성 강화"
+      },
+      {
+        "name": "Centene Corporation",
+        "differentiation": "주로 저소득층 및 메디케이드 시장에 집중, 비용 효율적인 건강 플랜 제공"
+      },
+      {
+        "name": "Bright Health Group",
+        "differentiation": "기술 기반의 통합 건강 관리 모델 추구 (Oscar와 유사하나 재정적 어려움 겪음)"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (건강보험 산업은 높은 규제 장벽, 자본 요구 사항, 네트워크 구축의 어려움이 있지만, 기술 기반의 혁신 기업 진입 시도는 지속될 수 있음)",
+      "substitutes": "low (건강보험은 필수적인 서비스이며, 대체재는 제한적임. 다만, 자가 보험(self-insurance)이나 정부 프로그램이 일부 대체 역할을 할 수 있음)",
+      "buyer_power": "medium (개인 고객은 ACA 마켓플레이스를 통해 다양한 플랜을 비교 선택할 수 있으며, 브로커를 통한 정보 접근성도 높음. 그러나 건강보험의 복잡성으로 인해 완전한 구매자 우위는 아님)",
+      "supplier_power": "high (의료 서비스 제공자(병원, 의사)는 특정 지역에서 독점적인 위치를 가질 수 있으며, 보험사에 대한 협상력이 높음. 제약 회사 또한 높은 공급자 우위를 가짐)",
+      "rivalry": "high (미국 건강보험 시장은 소수의 대형 기업들이 지배하며, 치열한 가격 경쟁과 서비스 차별화 경쟁이 존재함. 특히 ACA 시장은 경쟁이 더욱 심화될 수 있음)"
+    },
+    "competitive_advantages": [
+      "클라우드 네이티브 기술 플랫폼 기반의 혁신적인 회원 경험 제공",
+      "데이터 및 AI를 활용한 개인화된 참여 및 고가치 임상 치료 유도",
+      "+Oscar 플랫폼을 통한 기술 솔루션 외부 판매로 수익원 다각화",
+      "ICHRA 및 브로커리지 서비스 인수를 통한 시장 확장 및 서비스 포트폴리오 강화",
+      "ACA 시장에 대한 깊은 이해와 맞춤형 상품 개발 능력"
+    ],
+    "competitive_weaknesses": [
+      "대형 경쟁사 대비 낮은 시장 점유율 및 브랜드 인지도",
+      "높은 규제 환경 및 주 정부 승인 절차에 대한 의존성",
+      "의료비 상승 및 보험 손실률 관리에 대한 지속적인 압박",
+      "수익성 확보를 위한 지속적인 투자 및 운영 효율성 개선 필요",
+      "의료 서비스 제공자 네트워크 구축 및 유지의 어려움"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 70,
+    "score": 61.9,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 26.36434,
+    "forward_pe": 15.705307,
+    "ev_to_ebitda": 3.672,
+    "price_to_sales": 0.6852449,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 47.25,
+    "outperform_6m_vs_nasdaq": 102.18,
+    "outperform_1m_vs_nasdaq": 0.32,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Oscar는 2012년부터 헬스케어 시스템의 현상 유지에 도전하며 회원 경험에 대한 끊임없는 집중과 풀 스택 기술 플랫폼을 기반으로 구축된 선도적인 헬스케어 기술 회사입니다.",
+      "당사의 차별화된 기술 플랫폼은 13년 이상의 Oscar 회원 경험 구축 노하우를 활용하는 참여 및 추천 플랫폼인 Campaign Builder를 통해 공급자와 지불자 모두에게 서비스를 제공합니다.",
+      "이 플랫폼은 데이터와 AI를 활용하여 참여를 위한 고가치 기회를 식별하고 개인화된 상호작용을 제공하여 실시간 보고 및 분석을 통해 주요 결과 및 통찰력을 측정함으로써 치료를 개선합니다.",
+      "2025년에는 ICHRA(Individual Coverage Health Reimbursement Arrangements)를 지원하고 회사를 더욱 다각화하기 위한 초기 단계 사업체(Lucie, IHC Specialty Benefits, Healthinsurance.org)를 인수했습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2025년 ICHRA 관련 사업체 인수 및 +Oscar 플랫폼 확장을 통한 사업 다각화",
+    "bull_case": "기술 기반의 회원 경험 개선과 +Oscar 플랫폼 확장을 통해 시장 점유율 확대 및 수익성 개선",
+    "base_case": "ACA 시장 내 경쟁 심화에도 불구하고 기술 우위와 회원 경험 집중을 통해 안정적인 성장세를 유지하며 점진적인 수익성 개선을 이룰 것입니다. +Oscar 플랫폼의 성장은 추가적인 성장 동력이 될 것입니다.",
+    "bear_case": "ACA 시장의 규제 변화, 경쟁 심화, 또는 기술 플랫폼의 예상치 못한 문제 발생 시 회원 이탈 및 수익성 악화로 이어질 수 있습니다.",
+    "key_metrics_to_watch": [
+      "총 회원 수 (Effectuated Members)",
+      "+Oscar 플랫폼 매출 성장률",
+      "의료비 지출 비율 (Medical Loss Ratio)",
+      "운영 현금 흐름",
+      "주당 순이익 (EPS)"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "성장 전략(신규 회원 확보, 시장 확장, 신제품 출시) 실행 실패 시 사업, 재무 상태 및 운영 결과에 심각한 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "새로운 시장 진출 및 신규 상품 출시를 위한 규제 승인 및 라이선스 획득 지연 또는 실패 시 사업 확장에 차질이 생기고 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "회원 기반 확장 및 신규 시장 진출 시 보험 자회사에 대한 상당한 자본 및 잉여금 요구 사항을 충족하지 못할 경우 재무 상태에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁사들의 가격 인하로 인해 자사도 가격을 인하해야 할 경우 수익성이 감소하고 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "경험이 없거나 제한적인 신규 사업 분야 진출 시 예상보다 저조한 성과, 수익성 지연, 예상치 못한 비용 발생 및 추가적인 책임에 노출될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "+Oscar 기술 플랫폼을 통한 수익화 노력 실패 또는 플랫폼 운영 관련 문제 발생 시 예상 수익을 달성하지 못하고 추가 비용이 발생할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "파트너십 및 인수 전략이 예상대로 진행되지 않거나 통합에 실패할 경우 재무적 손실 및 운영상의 어려움이 발생할 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "규제 승인 및 자본 요구 사항을 충족하지 못해 신규 시장 진출 및 사업 확장이 완전히 좌절될 경우 회사는 지속적인 성장을 멈추고 파산할 수 있습니다.",
+      "경쟁 심화와 가격 인하 압력으로 인해 수익성이 지속적으로 악화되고, 자본 확충에 실패하여 재무 건전성이 붕괴될 경우 회사는 파산할 수 있습니다.",
+      "+Oscar 플랫폼의 기술적 문제 또는 시장 수용 실패로 인해 핵심 수익원 중 하나가 무너지면서 회사의 재무 상태가 회복 불가능한 수준으로 악화될 수 있습니다."
+    ],
+    "exit_signals": [
+      "핵심 시장에서 규제 승인 지연 또는 거부가 반복적으로 발생하여 신규 회원 확보 및 시장 확장이 불가능해지는 경우.",
+      "분기별 실적 발표에서 지속적으로 예상치를 하회하는 손실을 기록하고, 자본 확충 계획이 불확실해지는 경우.",
+      "+Oscar 플랫폼의 주요 파트너십이 해지되거나, 플랫폼을 통한 수익화 목표가 달성 불가능하다고 판단되는 경우."
+    ]
+  },
+  "wikipedia_summary": "Oscar Management Corporation, doing business as Oscar Health is an American for-profit health insurance company, founded in 2012 by Joshua Kushner, Kevin Nazemi and Mario Schlosser, and is headquartered in New York City. The company sells health insurance and additionally provides other services in the health insurance industry through telemedicine, healthcare focused technological interfaces, and transparent claims pricing systems.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-10-13T03:26:06.041461+00:00"
+  }
+}

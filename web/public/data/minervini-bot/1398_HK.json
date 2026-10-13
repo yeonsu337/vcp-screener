@@ -1,15 +1,15 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "1398.HK",
-  "generated_at": "2026-10-10T02:05:28.757289+00:00",
-  "source_results_date": "2026-10-10",
+  "generated_at": "2026-10-13T03:22:49.680820+00:00",
+  "source_results_date": "2026-10-13",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.83,
   "lines": [
-    "매수 대기 — Stage 2 진입, pivot HK$7.61 근접(-1.51%).",
+    "매수 대기 — Stage 2 진입, pivot HK$7.61 근접(-0.52%).",
     "13주 베이스 13.7% → 7.4% 수축, VDU 0.73× 진행.",
-    "Trend Template 8/8 통과, RS 90, RS 라인 신고가 -0.6%.",
+    "Trend Template 8/8 통과, RS 90, RS 라인 신고가 +0.0%.",
     "HK$7.61 돌파 시 매수·-7% 손절(HK$7.08)·+20%(HK$9.13) 절반 익절."
   ],
   "action": {
@@ -32,6 +32,7 @@
     "market_regime": "neutral"
   },
   "rule_references": [
+    "A1_ud_vol_ratio",
     "B1_price_above_150_200",
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
