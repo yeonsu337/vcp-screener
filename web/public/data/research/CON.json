@@ -4,31 +4,50 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-09-25T01:30:04.181267+00:00",
+  "generated_at": "2026-10-14T01:37:27.259942+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4414663680,
+    "market_cap": 4787015680,
     "shares_outstanding": 127517736,
     "employees": 9967,
     "country": "United States",
     "website": "https://www.concentra.com",
-    "beta": 0.634
+    "beta": 0.626
   },
   "category_a_business": {
-    "overview": "Concentra Group Holdings Parent, Inc. provides occupational health services in the United States. The company operates in three segments: Occupational Health centers, Onsite health clinics, and Other business.",
-    "business_model": "Concentra Group Holdings Parent, Inc.",
+    "overview": "CON은 미국 최대의 산업 보건 서비스 제공업체로, 직업 및 소비자 건강 서비스를 제공합니다.",
+    "milestones": [
+      "1979: 회사 설립",
+      "2025: Nova Medical Centers 인수 (산업 보건 센터 확장)",
+      "2025: 신규 부채 조달 및 기존 신용 시설 조건 개선",
+      "2025: Pivot Onsite Innovations 인수 (현장 건강 클리닉 확장)",
+      "2025: Revolving Credit Facility 자발적 상환"
+    ],
+    "business_model": "사업장 및 현장 클리닉을 통해 직업 및 소비자 건강 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "산업 보건 센터 서비스",
+      "현장 건강 클리닉 서비스",
+      "원격 의료 서비스",
+      "의약품 유통",
+      "약물 남용 검사 프로그램 관리"
+    ],
+    "value_chain_position": "Downstream: 고용주 및 개인에게 직접 의료 및 건강 관리 서비스를 제공합니다.",
     "products": [
-      "occupational health services in the United States",
-      "in three segments: Occupational Health centers, Onsite health clinics, and Other business",
-      "occupational health services, including workers compensation, employer, and consumer health services",
-      "Concentra Telemed, a telemedicine platform for the treatment of work-related injuries and illnesses",
-      "injury care, primary care, urgent care, preventive care, clinical testing, physical examinations and evaluations, drug"
+      "산재 치료 및 관리",
+      "고용주 후원 1차 진료",
+      "긴급 진료",
+      "예방 접종 및 건강 검진",
+      "약물 및 알코올 검사",
+      "원격 의료 플랫폼 (Concentra Telemed)"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (고용주)",
+      "B2C (개인 소비자)",
+      "D2C (원격 의료 플랫폼)"
+    ],
+    "key_customers": "주요 고객은 미국 전역의 고용주이며, 특정 고객에 대한 매출 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 0.47,
@@ -38,7 +57,7 @@
     "gross_margin": 0.29,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": 0.47,
-    "dividend_yield": 0.72,
+    "dividend_yield": 0.67,
     "payout_ratio": 0.16,
     "annual_revenue": [
       2163417000.0,
@@ -93,7 +112,6 @@
       0.27,
       0.38,
       0.35,
-      null,
       null
     ],
     "quarterly_revenue": [
@@ -102,7 +120,6 @@
       539080000.0,
       572800000.0,
       550785000.0,
-      null,
       null
     ],
     "quarterly_periods": [
@@ -111,8 +128,7 @@
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
+      "2025-03-31"
     ],
     "eps_qoq_yoy_pct": 46.5,
     "sales_yoy_pct": 10.0,
@@ -120,72 +136,142 @@
     "roe_pct": 47.06
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 $60-70 billion (추정). 미국 직업 건강 서비스 시장 규모는 다양한 추정치가 존재하며, Concentra의 연간 매출 $2.16 billion (2025년 기준)과 시장 점유율을 고려하여 추정.",
+    "tam_cagr_pct": "5-7% (추정). 미국 고용 시장의 지속적인 성장, 직업 건강 및 안전 규제 강화, 고용주의 직원 복지 및 생산성 향상 노력 증가에 기인함.",
+    "growth_drivers": [
+      "고용주의 직원 건강 및 안전 투자 증가: 직업병 및 산업재해 예방, 생산성 향상을 위한 고용주의 직업 건강 서비스 수요 증가.",
+      "규제 환경 강화: OSHA(직업안전보건청) 등 관련 기관의 직업 건강 및 안전 규제 강화로 기업의 준수 의무 증대.",
+      "원격 의료(Telemedicine) 확대: 지리적 제약을 넘어선 서비스 제공으로 접근성 및 효율성 향상.",
+      "인구 고령화 및 만성 질환 증가: 고령 근로자 증가와 만성 질환 관리 필요성 증대로 직업 건강 서비스의 중요성 부각.",
+      "M&A를 통한 시장 통합 및 서비스 확장: Nova, Pivot Onsite Innovations 인수와 같은 전략적 인수를 통한 시장 점유율 확대 및 서비스 포트폴리오 강화."
+    ],
+    "market_share_pct": "3-4% (추정). Concentra의 2025년 매출 $2.16 billion을 추정 TAM $60-70 billion과 비교하여 산출.",
+    "competitors": [
+      {
+        "name": "MedExpress (Optum/UnitedHealth Group)",
+        "differentiation": "광범위한 긴급 진료 및 직업 건강 서비스 제공, 대규모 모회사(UnitedHealth Group)의 재정적 지원 및 네트워크 활용."
+      },
+      {
+        "name": "OccuMed",
+        "differentiation": "특정 지역에 집중하여 맞춤형 직업 건강 솔루션 제공, 소규모 기업 및 지역사회에 특화된 서비스."
+      },
+      {
+        "name": "WorkCare",
+        "differentiation": "원격 의료 및 현장 건강 서비스에 강점, 특히 대기업 및 고위험 산업군에 특화된 포괄적인 직업 건강 관리 솔루션 제공."
+      },
+      {
+        "name": "지역 병원 및 클리닉",
+        "differentiation": "지역사회 기반의 접근성, 기존 의료 시스템과의 연계성, 다양한 의료 서비스 제공."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium. 초기 투자 비용(시설, 장비, 인력)이 높지만, 특정 틈새시장이나 원격 의료 분야에서는 진입 장벽이 낮아질 수 있음.",
+      "substitutes": "medium. 기업 자체의 사내 의료 시설, 일반 병원/클리닉의 긴급 진료 서비스, 또는 직업 건강 전문이 아닌 일반 의원의 서비스가 대체재가 될 수 있음.",
+      "buyer_power": "medium. 대규모 고용주 고객은 협상력이 높을 수 있으나, 소규모 기업은 제한적이며, 서비스 품질과 접근성이 중요한 요소로 작용함.",
+      "supplier_power": "low. 의료 장비, 의약품, 의료 인력 공급자는 다양하며, Concentra의 규모를 고려할 때 공급자 의존도가 낮음.",
+      "rivalry": "high. 다수의 지역 및 전국 단위 경쟁자가 존재하며, 서비스 품질, 가격, 접근성, 고객 관계를 기반으로 치열한 경쟁이 이루어짐."
+    },
     "competitive_advantages": [
-      "Healthcare / Medical Care Facilities 카테고리 — yfinance peer 비교 권장"
+      "미국 최대 규모의 직업 건강 서비스 제공자: 628개의 독립형 센터와 411개의 현장 클리닉을 통한 광범위한 전국 네트워크.",
+      "포괄적인 서비스 포트폴리오: 산재 보상, 고용주 서비스, 소비자 건강 서비스 등 다양한 직업 건강 관련 서비스 제공.",
+      "원격 의료 프로그램: 43개 주 및 워싱턴 D.C.를 아우르는 원격 의료 서비스를 통한 접근성 및 효율성 증대.",
+      "전략적 인수합병: Nova, Pivot Onsite Innovations 인수를 통해 시장 점유율 확대 및 서비스 역량 강화.",
+      "숙련된 인력: 약 13,000명의 동료 및 제휴 의사/임상 전문가를 통한 고품질 서비스 제공."
+    ],
+    "competitive_weaknesses": [
+      "매출의 높은 직업 건강 센터 의존도: 전체 매출의 약 93%가 직업 건강 센터에서 발생하여 특정 서비스 부문에 대한 의존도가 높음.",
+      "인수합병 관련 통합 위험: Nova, Pivot Onsite Innovations 등 최근 인수한 기업들의 성공적인 통합 및 시너지 창출에 대한 위험 존재.",
+      "의료 인력 확보 및 유지의 어려움: 숙련된 의료 인력에 대한 지속적인 수요와 경쟁 심화로 인한 인력 확보 및 유지 비용 증가 가능성.",
+      "지역별 경쟁 심화: 특정 지역에서는 소규모 또는 지역 기반의 경쟁사들과의 치열한 경쟁에 직면할 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 62.6,
+    "rs_rating": 70,
+    "score": 64.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 22.48052,
-    "forward_pe": 18.802034,
-    "ev_to_ebitda": 13.929,
-    "price_to_sales": 1.9299371,
+    "trailing_pe": 24.219357,
+    "forward_pe": 20.38788,
+    "ev_to_ebitda": 14.736,
+    "price_to_sales": 2.0927165,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 51.89,
-    "outperform_6m_vs_nasdaq": 32.39,
-    "outperform_1m_vs_nasdaq": -4.29,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 59.19,
+    "outperform_6m_vs_nasdaq": 53.22,
+    "outperform_1m_vs_nasdaq": 3.52,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "미국 내 가장 큰 산업 보건 서비스 제공업체로서 628개의 독립형 센터와 411개의 현장 클리닉을 운영하며 광범위한 전국적 입지를 확보하고 있습니다.",
+      "매일 평균 53,000명의 환자를 치료하며 축적된 방대한 의료 데이터와 전문성을 통해 서비스 품질을 지속적으로 개선하고 있습니다.",
+      "산업 보건 분야에서 1979년부터 쌓아온 오랜 업력과 신뢰는 고객(고용주)과의 장기적인 관계를 구축하는 데 기여합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "Nova Medical Centers 인수 및 차입금리 인하로 성장 가속화 및 재무구조 개선",
+    "bull_case": "인수 시너지와 전국적 네트워크 확대로 시장 점유율을 더욱 확대하고, 수익성 개선으로 EPS가 두 자릿수 성장세를 유지할 것입니다.",
+    "base_case": "미국 산업 보건 시장의 견고한 수요를 바탕으로 안정적인 매출 성장을 지속하며, 효율적인 운영과 전략적 인수를 통해 점진적인 수익성 개선을 이룰 것입니다.",
+    "bear_case": "예상보다 낮은 인수 시너지, 경쟁 심화, 또는 규제 환경 변화로 인해 성장률이 둔화되고 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (특히 산업 보건 센터 부문)",
+      "영업이익률 및 순이익률 추이",
+      "인수 후 통합(PMI) 진행 상황 및 시너지 효과",
+      "부채 비율 및 이자 비용 변화"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Risks Related to Ownership of Our Common Stock • The stock price of our common stock may fluctuate significantly, and you could lose all or part of your investment in our common stock as a result.",
+        "category": "거시",
+        "description": "미국 내 고용 트렌드가 산업재해 및 질병 발생률이 낮은 산업으로 이동하거나 전반적인 산업재해 및 질병 발생 빈도가 감소하면, 당사의 핵심 사업 수익이 부정적인 영향을 받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "주요 고용주 고객, 제3자 지불인, 산재 보상 제공자 네트워크 또는 고용주 서비스 네트워크와의 관계에 부정적인 변화가 발생하면 사업, 재무 상태 및 운영 결과에 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "당사가 사업을 영위하는 고도로 규제된 산업에서 규제 변경, 기존 규정의 새로운 해석 또는 규정 위반은 비용 증가나 제재를 초래하여 수익성과 이익을 감소시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "다른 직업 건강 센터, 고용주 사업장 내 현장 건강 클리닉 및 지역 의료 서비스 제공자와 효과적으로 경쟁하지 못하면 수익과 수익성이 감소할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "A decline in workplace injuries and illness may cause the number of workers’ compensation claims to decrease, which may adversely affect our business.",
+        "category": "재무",
+        "description": "상당한 부채로 인해 사업의 지속적인 필요에 투자할 수 있는 현금 흐름이 제한될 수 있으며, 신용 시설의 약정 위반 시 부채가 조기 상환될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "독립적인 상장 회사로서의 의무는 상당한 자원과 경영진의 주의를 요구하며, 이는 다른 사업 영역에 대한 집중을 방해할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Our results may decline if we 27 Table of C ontents lose our significant employer customers, payor relationships, or our ability to participate in workers’ compensation or employer services networks.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "One or more of our significant employer customers, payors, or networks could also be acquired, which could impact our relationship with such customer, payor, or network.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "The loss of our significant employer customers, payor or network relationships could cause a material decline in our profitability and operating performance.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "These consequences could have an adverse effect on our business, financial condition and results of operations.",
+        "category": "거시",
+        "description": "경제 불확실성, 자본 시장 혼란 및 지정학적 불안정은 당사의 사업, 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "산업재해 발생률이 급격히 감소하고 고용 트렌드가 변화하여 핵심 사업 모델이 근본적으로 붕괴될 경우.",
+      "주요 고객 및 지불인과의 관계가 악화되거나 규제 변경으로 인해 사업 운영이 불가능해질 경우.",
+      "사이버 공격 등으로 인한 심각한 정보 유출 또는 시스템 장애로 환자 피해 및 법적, 평판적 손상이 발생하여 사업 신뢰도를 상실할 경우.",
+      "과도한 부채 부담과 현금 흐름 부족으로 인해 사업 확장이 불가능하고 채무 불이행에 직면할 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "미국 노동통계청(BLS) 데이터에서 산업재해 및 질병 발생률이 3년 연속 5% 이상 감소하는 추세가 확인될 경우.",
+      "상위 5개 주요 고객 또는 지불인 중 2개 이상과의 계약이 해지되거나 재협상 과정에서 수익성이 크게 악화될 경우.",
+      "정부 또는 규제 기관으로부터 중대한 규제 위반으로 인한 대규모 벌금 부과 또는 사업 운영 제한 조치가 발표될 경우.",
+      "당사의 부채 비율이 업계 평균을 크게 상회하거나 신용 등급이 하향 조정되어 자금 조달 비용이 급증할 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-13T03:25:11.344802+00:00"
+    "GoogleWebTranslator": "2026-10-14T01:37:46.630741+00:00"
   }
 }
