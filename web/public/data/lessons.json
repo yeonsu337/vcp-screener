@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:37:29.840894+00:00",
+  "generated_at": "2026-10-15T01:14:33.997586+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -42,15 +42,15 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 10,
+        "primary_passed": 9,
         "trades": 1,
         "avg_return_pct": 1.07,
         "win_rate_pct": 100.0
       },
       {
         "primary_passed": 11,
-        "trades": 2,
-        "avg_return_pct": 6.9,
+        "trades": 1,
+        "avg_return_pct": 1.49,
         "win_rate_pct": 100.0
       }
     ],
@@ -62,9 +62,9 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 44,
-      "win_rate_pct": 56.8,
-      "avg_return_pct": 5.83,
+      "trades": 45,
+      "win_rate_pct": 57.8,
+      "avg_return_pct": 5.98,
       "best_return_pct": 91.6
     },
     {
@@ -73,13 +73,6 @@
       "win_rate_pct": 100.0,
       "avg_return_pct": 1.49,
       "best_return_pct": 1.5
-    },
-    {
-      "sector": "Technology",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 12.31,
-      "best_return_pct": 12.3
     }
   ],
   "market_breakdown": {
