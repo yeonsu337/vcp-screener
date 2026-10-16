@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:14:33.997586+00:00",
+  "generated_at": "2026-10-16T01:06:29.033726+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -29,7 +29,7 @@
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 54.7,
+    "avg_holding_winner_days": 54.9,
     "avg_holding_loser_days": 31.5
   },
   "exit_breakdown": {
@@ -42,7 +42,7 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 9,
+        "primary_passed": 8,
         "trades": 1,
         "avg_return_pct": 1.07,
         "win_rate_pct": 100.0
@@ -52,20 +52,117 @@
         "trades": 1,
         "avg_return_pct": 1.49,
         "win_rate_pct": 100.0
+      },
+      {
+        "primary_passed": 12,
+        "trades": 1,
+        "avg_return_pct": 91.59,
+        "win_rate_pct": 100.0
       }
     ],
     "rule_hit_rate_diff": [],
-    "big_winners_common_rules": [],
+    "big_winners_common_rules": [
+      {
+        "rule_id": "A1_ud_vol_ratio",
+        "rule_name": "U/D Volume Ratio ≥ 1.0 (50d)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B1_price_above_150_200",
+        "rule_name": "Price > SMA150 & SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B2_sma150_gt_sma200",
+        "rule_name": "SMA150 > SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B3_sma50_gt_150_200",
+        "rule_name": "SMA50 > SMA150 & SMA200",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B4_price_above_sma50",
+        "rule_name": "Price > SMA50",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B5_sma200_rising_5mo",
+        "rule_name": "200d SMA rising 4-5 months",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B6_30pct_above_52w_low",
+        "rule_name": "≥ 30% above 52W low",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B7_within_25pct_high",
+        "rule_name": "Within 25% of 52W high",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B8_within_10pct_high",
+        "rule_name": "Within 10% of 52W high (bonus)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B9_stage2",
+        "rule_name": "Weinstein Stage 2 (Advancing)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "B10_higher_highs_lows",
+        "rule_name": "Higher Highs / Higher Lows (3+ pairs)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R1_rs_70",
+        "rule_name": "RS Rating ≥ 70 (Minervini gate)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R2_rs_80",
+        "rule_name": "RS Rating ≥ 80 (CANSLIM Leader)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "R3_rs_90",
+        "rule_name": "RS Rating ≥ 90 (Strong leader)",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      },
+      {
+        "rule_id": "L1_liquidity_gate",
+        "rule_name": "Daily $ volume ≥ market threshold",
+        "passed_count": 1,
+        "passed_pct": 100.0
+      }
+    ],
     "loser_threshold_pct": -10.0,
     "big_winner_threshold_pct": 50.0
   },
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 45,
-      "win_rate_pct": 57.8,
-      "avg_return_pct": 5.98,
-      "best_return_pct": 91.6
+      "trades": 44,
+      "win_rate_pct": 56.8,
+      "avg_return_pct": 4.03,
+      "best_return_pct": 42.0
     },
     {
       "sector": "Basic Materials",
@@ -73,6 +170,13 @@
       "win_rate_pct": 100.0,
       "avg_return_pct": 1.49,
       "best_return_pct": 1.5
+    },
+    {
+      "sector": "Energy",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 91.59,
+      "best_return_pct": 91.6
     }
   ],
   "market_breakdown": {
@@ -93,7 +197,7 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.8,
+    "winner_avg_rs": 84,
     "loser_avg_rs": 82.5,
     "winner_n": 27,
     "loser_n": 19
