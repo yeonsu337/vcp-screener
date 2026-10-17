@@ -250,6 +250,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "CAKE",
+    "company": "The Cheesecake Factory Incorporated",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-10-17T01:03:36.039483+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "CASY",
     "company": "Casey's General Stores, Inc.",
     "market": "US",
@@ -316,8 +326,8 @@
     "sector": "Consumer Defensive",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-16T01:06:28.788608+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-10-17T01:02:39.543206+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "CHRW",
@@ -1136,8 +1146,8 @@
     "sector": "Energy",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-16T01:05:26.401075+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-10-17T01:01:45.425434+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "POWL",

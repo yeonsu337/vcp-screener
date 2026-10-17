@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Energy",
   "industry": "Oil & Gas Refining & Marketing",
-  "generated_at": "2026-10-16T01:05:26.401075+00:00",
+  "generated_at": "2026-10-17T01:01:45.425434+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 10311519232,
+    "market_cap": 10018734080,
     "shares_outstanding": 118536838,
     "employees": 3678,
     "country": "United States",
@@ -17,39 +17,38 @@
     "beta": 0.175
   },
   "category_a_business": {
-    "overview": "PBF Energy는 석유 제품 정제 및 공급 기업으로, 미국 내 6개 정유소를 운영합니다.",
+    "overview": "PBF 에너지는 정유 및 물류 기업으로, 다양한 석유 제품을 생산하고 공급합니다.",
     "milestones": [
       "2008: PBF Energy 설립",
-      "2010: 폴스보로 정유소 인수 (뉴저지)",
-      "2011: 델라웨어 시티 정유소 인수 (델라웨어)",
-      "2015: 엑손모빌 톨레도 정유소 인수 (오하이오)",
-      "2016: 샬메트 정유소 인수 (루이지애나)",
-      "2020: 마르티네즈 정유소 인수 (캘리포니아)"
+      "2010: 폴스보로 정유공장 인수",
+      "2012: 델라웨어 시티 정유공장 인수",
+      "2016: 토렌스 정유공장 인수",
+      "2020: 마르티네즈 정유공장 인수",
+      "2025: RBI(신뢰성 기반 이니셔티브) 착수"
     ],
-    "business_model": "원유를 정제하여 다양한 석유 제품을 생산, 판매하여 수익을 창출합니다.",
+    "business_model": "원유를 정제하여 다양한 석유 제품을 생산하고 판매하여 수익을 창출합니다.",
     "revenue_streams": [
       "휘발유 판매",
-      "초저유황 경유 판매",
+      "초저유황 디젤 판매",
       "항공유 판매",
       "난방유 판매",
       "윤활유 및 석유화학 제품 판매",
-      "물류 서비스 (운송 및 저장)"
+      "물류 서비스 (터미널, 파이프라인)"
     ],
     "value_chain_position": "Downstream + 원유를 정제하여 최종 석유 제품을 생산하고 유통합니다.",
     "products": [
       "휘발유",
-      "초저유황 경유",
-      "항공유",
+      "초저유황 디젤",
       "난방유",
+      "항공유",
       "윤활유",
-      "석유화학 원료",
-      "아스팔트"
+      "석유화학 제품"
     ],
     "channels": [
       "B2B",
       "도매"
     ],
-    "key_customers": "주로 산업 고객 및 유통업체에 판매하며, 특정 고객에 대한 높은 집중도는 보고되지 않음"
+    "key_customers": "주로 산업 고객 및 유통업체에 판매하며, 특정 고객 집중도는 공개되지 않음"
   },
   "category_b_financials": {
     "roe": 0.23,
@@ -59,7 +58,7 @@
     "gross_margin": 0.05,
     "revenue_growth_ttm": 0.56,
     "earnings_growth_ttm": null,
-    "dividend_yield": 1.21,
+    "dividend_yield": 1.26,
     "payout_ratio": 0.1,
     "annual_revenue": [
       29332300000.0,
@@ -138,72 +137,152 @@
     "roe_pct": 23.23
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "2023년 글로벌 정유 시장 규모 약 3조 5천억 USD (IEA, Wood Mackenzie 추정 기반)",
+    "tam_cagr_pct": "2.0% ~ 3.0% (estimate) + 전기차 전환 가속화 및 재생에너지 확대가 수요 성장을 제한하지만, 개발도상국의 에너지 수요 증가와 항공/해운 부문의 석유 연료 의존도가 일정 수준 유지될 것으로 예상됨.",
+    "growth_drivers": [
+      "글로벌 에너지 수요 증가, 특히 아시아 및 개발도상국 시장의 산업화 및 도시화 가속화",
+      "항공 및 해운 부문의 석유 연료 의존도 지속",
+      "정제 마진 개선 및 효율성 증대를 위한 기술 투자",
+      "전략적 인수합병을 통한 시장 점유율 확대 및 시너지 효과 창출",
+      "정유 제품의 다각화 및 고부가가치 제품 생산 확대"
+    ],
+    "market_share_pct": "1% 미만 (미국 정유 시장 내 중소형 플레이어)",
+    "competitors": [
+      {
+        "name": "ExxonMobil",
+        "differentiation": "글로벌 통합 에너지 기업으로, 탐사, 생산, 정제, 마케팅 전반에 걸친 광범위한 사업 포트폴리오와 막대한 자본력, 기술력을 보유."
+      },
+      {
+        "name": "Chevron",
+        "differentiation": "글로벌 통합 에너지 기업으로, 북미 및 국제 시장에서 강력한 입지를 가지며, 상류 및 하류 부문에서 균형 잡힌 포트폴리오를 보유."
+      },
+      {
+        "name": "Marathon Petroleum",
+        "differentiation": "미국 최대의 정유사 중 하나로, 광범위한 정유 및 마케팅 네트워크를 보유하고 있으며, 물류 자산(MLP)을 통해 안정적인 현금 흐름을 창출."
+      },
+      {
+        "name": "Valero Energy",
+        "differentiation": "세계 최대의 독립 정유사로, 미국 및 캐나다에 걸쳐 대규모 정유 시설을 운영하며, 다양한 제품 포트폴리오를 보유."
+      },
+      {
+        "name": "Phillips 66",
+        "differentiation": "정유, 마케팅, 화학, 미드스트림 사업을 통합한 다각화된 포트폴리오를 보유하며, 특히 화학 부문에서 강점."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + 대규모 초기 자본 투자, 복잡한 규제, 숙련된 인력 및 기술 요구사항, 기존 플레이어의 규모의 경제로 인해 신규 진입 장벽이 높음.",
+      "substitutes": "medium + 전기차, 바이오 연료, 수소 등 대체 에너지원의 장기적인 위협이 존재하지만, 단기적으로는 석유 제품의 대체가 어려움.",
+      "buyer_power": "medium + 대형 산업 구매자(항공사, 운송 회사)는 가격 협상력이 있으나, 일반 소비자는 브랜드 충성도나 전환 비용이 낮아 가격 민감도가 높음.",
+      "supplier_power": "high + 원유 공급은 OPEC+ 등 소수 국가 및 기업에 집중되어 있어 공급자의 가격 협상력이 높음.",
+      "rivalry": "high + 시장 내 대형 경쟁사들이 많고, 제품 차별화가 어려워 가격 경쟁이 심하며, 정제 마진 변동성이 큼."
+    },
     "competitive_advantages": [
-      "Energy / Oil & Gas Refining & Marketing 카테고리 — yfinance peer 비교 권장"
+      "미국 동부 해안 및 중서부 지역에 전략적으로 위치한 정유 시설 네트워크",
+      "다양한 원유 처리 능력 및 제품 생산 유연성",
+      "비교적 낮은 운영 비용 구조 (RBI 이니셔티브를 통한 효율성 개선 노력)",
+      "헤징 활동을 통한 상품 가격 변동성 위험 관리 노력"
+    ],
+    "competitive_weaknesses": [
+      "대형 통합 에너지 기업 대비 낮은 규모의 경제 및 자본력",
+      "숙련된 인력 확보 및 유지의 어려움, 노사 관계 불안정성 위험",
+      "환경 규제 강화 및 기후 변화 관련 소송 위험에 대한 노출",
+      "원유 및 정제 제품 가격 변동성에 대한 높은 민감도",
+      "헤징 전략의 실패 가능성 및 잠재적 이익 제한"
     ]
   },
   "category_d_thesis": {
     "rs_rating": 97,
-    "score": 68.4,
+    "score": 65.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 7.8017936,
-    "forward_pe": 4.704593,
-    "ev_to_ebitda": 12.458,
-    "price_to_sales": 0.29998717,
+    "trailing_pe": 7.4401407,
+    "forward_pe": 4.5710106,
+    "ev_to_ebitda": 12.156,
+    "price_to_sales": 0.29146934,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 196.88,
-    "outperform_6m_vs_nasdaq": 112.34,
-    "outperform_1m_vs_nasdaq": 16.97,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 188.48,
+    "outperform_6m_vs_nasdaq": 99.37,
+    "outperform_1m_vs_nasdaq": 15.62,
+    "lynch_category": "Stalwart",
+    "moat_type": "Cost Advantage",
+    "moat_evidence": [
+      "PBF는 정유 산업의 특성상 대규모 자본 투자가 필요한 시설을 운영하며, 이는 신규 진입 장벽으로 작용하여 경쟁 우위를 제공합니다.",
+      "PBF는 6개의 정유 시스템을 통해 규모의 경제를 실현하고 있으며, 이는 운영 효율성 및 비용 절감으로 이어져 경쟁사 대비 원가 우위를 확보할 수 있습니다.",
+      "PBF는 원유 및 천연가스 가격 변동에 대한 헤징 활동을 통해 비용 변동성을 관리하고, 이는 안정적인 마진 확보에 기여합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "RBI(신뢰성 기반 이니셔티브)를 통한 운영 효율성 및 비용 절감 노력",
+    "bull_case": "글로벌 정유 수요 증가 및 마진 개선으로 EPS 성장 가속화, 주가 30% 이상 상승",
+    "base_case": "견조한 정유 수요와 효율성 개선 노력으로 안정적인 수익 유지, 시장 평균 수준의 주가 흐름",
+    "bear_case": "경기 침체로 인한 정유 수요 감소, 환경 규제 강화 및 소송 리스크 증가로 실적 악화 및 주가 하락",
+    "key_metrics_to_watch": [
+      "정제 마진 (Crack Spread)",
+      "정유 처리량 (Refinery Throughput)",
+      "운영 비용 (Operating Expenses)",
+      "환경 관련 소송 및 규제 변화",
+      "노동 관련 이슈 (파업, 인력 부족)"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties may also impair our business operations.",
+        "category": "재무",
+        "description": "원유, 기타 원료, 혼합유, 정제 제품 및 연료/유틸리티 서비스 가격의 높은 변동성은 수익, 수익성, 현금 흐름 및 유동성에 상당한 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "재생 연료 의무 및 RIN(재생 에너지 식별 번호) 비용은 운영 비용을 증가시키고 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If any of the following risks actually occur, our business, financial condition, results of operations or cash flows would likely suffer.",
+        "category": "규제",
+        "description": "기후 변화 및 온실가스 배출 규제와 기타 환경, 보건 및 안전 규제는 운영 비용을 증가시키고 자본 지출을 요구할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Business closings or reduced activity and layoffs in the markets we operate may adversely affect demand for our refined products.",
+        "category": "공급망",
+        "description": "정유 공장 및 관련 자산 또는 물류 터미널, 파이프라인 등 시설의 중대한 중단 또는 재해 손실은 생산 및 공급에 차질을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 및 지역 경제 상황의 변화, 특히 정제 제품 수요 감소는 수익과 현금 흐름에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁사들의 정제 능력 조정이나 재생 연료 생산 증가는 시장 점유율과 수익성에 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Deterioration of global and regional economic conditions may negatively affect our margins and harm our liquidity and ability to repay our outstanding debt and the trading price of PBF Energy’s Class A common stock.",
-        "severity": "medium"
+        "category": "재무",
+        "description": "높은 부채 수준과 신용 및 자본 시장의 변동성은 필요한 자금 조달 능력과 재무 건전성에 영향을 미칠 수 있습니다.",
+        "severity": "high"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The price volatility of crude oil, other feedstocks, blendstocks, refined products and fuel and utility services may have a material adverse effect on our revenues, profitability, cash flows and liquidity.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "If the market value of our crude oil, feedstock and refined product inventory declines to an amount less than our LIFO cost, we would record a write-down of inventory and a non-cash impact to cost of products and other.",
+        "category": "거버넌스",
+        "description": "사이버 공격 또는 기술 인프라의 기타 장애는 운영 중단, 데이터 손실 및 재정적 손실을 초래할 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "원유 및 정제 제품 가격 변동성이 지속적으로 마진을 압박하여 대규모 손실과 유동성 위기를 초래할 경우 회사는 파산할 수 있습니다.",
+      "정부의 강력한 기후 변화 규제 및 재생 에너지 전환 정책으로 인해 정유 산업의 수요가 급감하고 대규모 자산 상각이 발생할 경우 회사는 존속하기 어려울 수 있습니다.",
+      "주요 정유 공장 또는 물류 시설에 대규모 재해 또는 장기적인 운영 중단이 발생하여 생산 능력이 심각하게 손상되고 복구 비용이 감당할 수 없을 정도로 커질 경우 회사는 회생 불능 상태에 빠질 수 있습니다.",
+      "높은 부채 수준과 신용 시장의 경색이 겹쳐 재융자가 불가능해지고 채무 불이행에 직면할 경우 회사는 파산할 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "정제 마진이 지속적으로 역사적 평균 이하로 유지되거나 마이너스 마진이 장기화될 경우 롱 thesis는 무효화됩니다.",
+      "정부의 재생 연료 의무가 예상보다 훨씬 강화되거나 탄소세 등 환경 규제가 급격히 도입되어 PBF의 운영 비용이 감당할 수 없을 정도로 증가할 경우 롱 thesis는 무효화됩니다.",
+      "주요 정유 공장에서 대규모 화재, 폭발 또는 기타 재해가 발생하여 생산 능력이 장기간 중단되거나 복구 비용이 막대할 경우 롱 thesis는 무효화됩니다.",
+      "회사의 신용 등급이 추가로 하향 조정되거나 부채 상환 능력에 대한 시장의 우려가 커져 자금 조달 비용이 급증할 경우 롱 thesis는 무효화됩니다."
     ]
   },
   "wikipedia_summary": "PBF Energy Inc. is a petroleum refining and logistics company that produces and sells transportation fuels, heating oils, lubricants, petrochemical feedstocks, and other petroleum products. The company owns and operated 6 refineries throughout the United States, located in Chalmette, Louisiana; Toledo, Ohio; Paulsboro, New Jersey; the Delaware City Refinery in Delaware City; Torrance, California; Martinez, California. PBF produces a range of products including gasoline, ultra-low-sulfur diesel (ULSD), heating oil, jet fuel, lubricants, petrochemicals and asphalt.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-10-16T01:07:47.938914+00:00"
+    "GoogleWebTranslator": "2026-10-17T01:04:59.756790+00:00"
   }
 }

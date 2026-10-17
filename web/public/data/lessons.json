@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T01:06:29.033726+00:00",
+  "generated_at": "2026-10-17T01:03:36.205637+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -41,12 +41,6 @@
   },
   "rule_analysis": {
     "primary_pass_buckets": [
-      {
-        "primary_passed": 8,
-        "trades": 1,
-        "avg_return_pct": 1.07,
-        "win_rate_pct": 100.0
-      },
       {
         "primary_passed": 11,
         "trades": 1,
@@ -197,7 +191,7 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 84,
+    "winner_avg_rs": 84.0,
     "loser_avg_rs": 82.5,
     "winner_n": 27,
     "loser_n": 19

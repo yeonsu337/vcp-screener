@@ -1,0 +1,271 @@
+{
+  "ticker": "CAKE",
+  "company": "The Cheesecake Factory Incorporated",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
+  "generated_at": "2026-10-17T01:03:36.039483+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 5718491648,
+    "shares_outstanding": 49760634,
+    "employees": 48000,
+    "country": "United States",
+    "website": "https://www.thecheesecakefactory.com",
+    "beta": 1.037
+  },
+  "category_a_business": {
+    "overview": "미국 및 캐나다에서 레스토랑을 운영하고 치즈케이크 등 베이커리 제품을 생산, 유통하는 외식 기업입니다.",
+    "milestones": [
+      "1972: 오스카와 에블린 오버튼이 소규모 베이커리 설립",
+      "1978: 데이비드 오버튼이 첫 번째 치즈케이크 팩토리 레스토랑 개점",
+      "1992: The Cheesecake Factory Incorporated로 법인 설립",
+      "2019: Fox Restaurant Concepts (North Italia, Flower Child 등) 인수",
+      "2026: 368개 레스토랑 및 2개 베이커리 시설 운영 (예상)"
+    ],
+    "business_model": "레스토랑 운영 및 베이커리 제품 생산/판매를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "레스토랑 식사 및 음료 판매",
+      "베이커리 제품 판매 (레스토랑, 국제 라이선스, 제3자)",
+      "국제 라이선스 계약 로열티",
+      "배달 및 포장 판매"
+    ],
+    "value_chain_position": "Downstream + 레스토랑 운영 및 베이커리 제품 생산/유통을 통해 최종 소비자에게 직접 서비스를 제공합니다.",
+    "products": [
+      "치즈케이크 팩토리 레스토랑 (풀 서비스)",
+      "노스 이탈리아 레스토랑",
+      "플라워 차일드 레스토랑",
+      "다양한 치즈케이크 및 베이커리 제품",
+      "다양한 메뉴 (애피타이저, 피자, 해산물, 스테이크 등)"
+    ],
+    "channels": [
+      "B2C (자사 레스토랑)",
+      "D2C (온라인 주문 및 배달)",
+      "B2B (국제 라이선스, 제3자 베이커리 고객, 유통업체)"
+    ],
+    "key_customers": "고객 집중도 낮음 (다양한 연령대 및 선호도를 가진 일반 소비자 대상)"
+  },
+  "category_b_financials": {
+    "roe": 0.39,
+    "roa": 0.05,
+    "profit_margin": 0.05,
+    "operating_margin": 0.08,
+    "gross_margin": 0.41,
+    "revenue_growth_ttm": 0.08,
+    "earnings_growth_ttm": 0.24,
+    "dividend_yield": 1.03,
+    "payout_ratio": 0.31,
+    "annual_revenue": [
+      3751806000.0,
+      3581699000.0,
+      3439503000.0,
+      3303156000.0,
+      null
+    ],
+    "annual_operating_income": [
+      257804000.0,
+      221888000.0,
+      175095000.0,
+      100519000.0,
+      null
+    ],
+    "annual_eps": [
+      3.06,
+      3.2,
+      2.07,
+      0.86,
+      null
+    ],
+    "annual_free_cf": [
+      154021000.0,
+      106907000.0,
+      65178000.0,
+      48782000.0,
+      null
+    ],
+    "annual_total_debt": [
+      2129835000.0,
+      1908220000.0,
+      1859907000.0,
+      1840628000.0,
+      null
+    ],
+    "annual_equity": [
+      436427000.0,
+      443455000.0,
+      318062000.0,
+      292003000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      1.41,
+      1.02,
+      0.6,
+      0.66,
+      1.14
+    ],
+    "quarterly_revenue": [
+      1029633000.0,
+      978833000.0,
+      961558000.0,
+      907226000.0,
+      955825000.0
+    ],
+    "quarterly_periods": [
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 24.8,
+    "sales_yoy_pct": 7.7,
+    "ni_cagr_3y_pct": 50.99,
+    "roe_pct": 38.83
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 3,000억 달러 (글로벌 레스토랑 시장 규모 추정치, Statista 기준 2023년 약 2.7조 달러 중 캐주얼 다이닝 및 베이커리 부문 비중 고려)",
+    "tam_cagr_pct": "3-5% (글로벌 레스토랑 시장의 꾸준한 성장과 외식 소비 증가 추세, 인플레이션 영향 고려)",
+    "growth_drivers": [
+      "다양한 브랜드 포트폴리오 확장 (The Cheesecake Factory 외 North Italia, Flower Child 등)",
+      "국제 라이선스 사업 확대를 통한 글로벌 시장 침투",
+      "베이커리 사업 부문의 B2B 및 B2C 성장 잠재력",
+      "경험 중심의 다이닝 트렌드에 부합하는 차별화된 고객 경험 제공",
+      "디지털 채널 강화 및 배달 서비스 확대를 통한 접근성 향상"
+    ],
+    "market_share_pct": "1% 미만 (글로벌 레스토랑 시장 규모 대비)",
+    "competitors": [
+      {
+        "name": "Darden Restaurants (Olive Garden, LongHorn Steakhouse 등)",
+        "differentiation": "다수의 캐주얼 다이닝 브랜드를 보유한 대형 경쟁사로, 규모의 경제와 다양한 고객층 확보"
+      },
+      {
+        "name": "Brinker International (Chili's, Maggiano's Little Italy)",
+        "differentiation": "유사한 캐주얼 다이닝 포지셔닝을 가지며, 특정 메뉴 전문성을 강조"
+      },
+      {
+        "name": "Texas Roadhouse",
+        "differentiation": "스테이크 중심의 메뉴와 독특한 서부 테마로 차별화된 고객 경험 제공"
+      },
+      {
+        "name": "Panera Bread",
+        "differentiation": "건강 지향적인 메뉴와 베이커리 카페 컨셉으로 차별화"
+      },
+      {
+        "name": "지역 독립 레스토랑 및 소규모 체인",
+        "differentiation": "지역 특색을 살린 메뉴, 독특한 분위기, 개인화된 서비스로 경쟁"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (초기 투자 비용과 브랜드 인지도 구축의 어려움이 있으나, 외식 산업의 진입 장벽이 상대적으로 낮고 새로운 컨셉의 레스토랑 출현 가능성 상존)",
+      "substitutes": "high (가정식, HMR, 배달 음식, 푸드트럭 등 외식을 대체할 수 있는 다양한 선택지가 존재하며, 소비자들은 가격, 편의성, 건강 등 여러 요인을 고려하여 선택)",
+      "buyer_power": "high (소비자들은 다양한 레스토랑 옵션과 대체재를 가지고 있어 가격에 민감하며, 서비스 품질에 대한 기대치가 높음)",
+      "supplier_power": "medium (식자재 및 인건비는 레스토랑 운영의 주요 비용이며, 공급망 문제나 인플레이션은 공급업체의 협상력을 높일 수 있음. 다만, 대량 구매를 통해 어느 정도 협상력 확보 가능)",
+      "rivalry": "high (캐주얼 다이닝 시장은 경쟁이 매우 치열하며, 가격 경쟁, 메뉴 혁신, 서비스 개선, 마케팅 활동 등을 통해 고객 유치를 위한 노력이 지속됨)"
+    },
+    "competitive_advantages": [
+      "다양하고 혁신적인 메뉴 (The Cheesecake Factory의 방대한 메뉴와 Fox Restaurant Concepts의 독창적인 컨셉)",
+      "고품질의 다이닝 경험 (고급스러운 캐주얼 분위기, 친절하고 효율적인 서비스)",
+      "강력한 브랜드 인지도 및 고객 충성도 (특히 The Cheesecake Factory 브랜드)",
+      "수직 통합된 베이커리 사업 (자체 생산을 통한 품질 관리 및 비용 효율성 확보, B2B 확장 가능성)",
+      "다각화된 브랜드 포트폴리오 (다양한 고객층과 취향을 아우를 수 있는 브랜드 구성)"
+    ],
+    "competitive_weaknesses": [
+      "매크로 경제 변동성 및 인플레이션에 취약 (식자재 및 인건비 상승 압력)",
+      "신규 브랜드의 시장 안착 및 확장 리스크 (Fox Restaurant Concepts 브랜드들의 성공적인 확장이 중요)",
+      "광범위한 메뉴로 인한 운영 복잡성 및 재고 관리의 어려움 (The Cheesecake Factory)",
+      "국제 시장 확장이 주로 라이선스 형태로 이루어져 직접적인 통제력 제한",
+      "경쟁 심화로 인한 마진 압박 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 88,
+    "score": 61.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.8822,
+    "trailing_pe": 31.143631,
+    "forward_pe": 22.67749,
+    "ev_to_ebitda": 21.424,
+    "price_to_sales": 1.4748834,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 102.53,
+    "outperform_6m_vs_nasdaq": 88.2,
+    "outperform_1m_vs_nasdaq": 21.22,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "The Cheesecake Factory는 1972년 설립 이후 50년 이상 축적된 브랜드 인지도와 고객 충성도를 보유하고 있습니다. 이는 'The Cheesecake Factory®'라는 강력한 브랜드 자산으로 이어집니다.",
+      "다양한 브랜드 포트폴리오(The Cheesecake Factory, North Italia, Flower Child 등)를 통해 다양한 고객층을 확보하고 있으며, 이는 각 브랜드의 독점적인 메뉴와 경험을 통해 강화됩니다.",
+      "베이커리 사업부를 통해 자체적으로 치즈케이크 및 기타 베이커리 제품을 생산하며, 이는 독특한 메뉴 제공과 품질 관리에 기여하여 경쟁사 대비 차별화된 가치를 제공합니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "인플레이션 완화 및 신규 레스토랑 확장 가속화",
+    "bull_case": "인플레이션 안정화와 신규 브랜드 확장을 통해 매출 및 수익성 개선, 주가 30% 이상 상승",
+    "base_case": "인플레이션 완화 및 신규 매장 출점 효과로 매출 성장세 유지, 수익성 소폭 개선. 주가는 시장 평균 수준으로 상승할 것으로 예상됩니다.",
+    "bear_case": "예상치 못한 인플레이션 재발 또는 소비 심리 위축으로 인한 매출 감소 및 수익성 악화. 신규 매장 출점 지연 및 경쟁 심화로 주가 하락이 예상됩니다.",
+    "key_metrics_to_watch": [
+      "동일 매장 매출 성장률 (Same-Store Sales Growth)",
+      "신규 레스토랑 출점 수 및 성과",
+      "원자재 및 인건비 인플레이션 추이"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "거시",
+        "description": "글로벌 및 국내 경제 상황(지정학적 불안정, 인플레이션, 금리 등)이 소비자의 외식 지출에 부정적인 영향을 미쳐 매출과 수익성에 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "전국 및 지역 풀서비스 레스토랑 체인, 독립 레스토랑, 패스트 캐주얼, 퀵 서비스 레스토랑, 식료품점 등과의 치열한 경쟁으로 인해 고객 유치 및 시장 점유율 유지가 어려울 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "주요 운영 비용(식자재, 인건비 등)의 인플레이션이 지속될 경우, 메뉴 가격 인상만으로는 충분히 상쇄하지 못하여 수익성이 악화될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "고객집중도",
+        "description": "고객의 편의성 및 가정식 선호 증가로 인해 오프프레미스 채널(배달 등)의 경쟁이 심화되고 있으며, 이 채널에서 차별화에 실패하거나 배달 수수료에 대한 고객의 지불 의사가 감소하면 매출에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "식품 품질, 시설 위생, 고객 불만, 노동 관계, 규정 준수 실패, 차별 또는 성희롱 주장 등 브랜드 명성에 대한 부정적인 홍보가 발생할 경우 매출과 브랜드 가치에 심각한 손상을 입힐 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "지정학적 및 거시경제적 사건으로 인한 공급망 중단, 상품 및 서비스 비용 인플레이션, 인력 부족 등이 발생하여 운영 비용이 증가하고 신규 레스토랑 개점이 지연될 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "장기간의 경기 침체와 높은 인플레이션으로 인해 소비자의 외식 지출이 급감하고, 경쟁 심화로 시장 점유율을 잃어 지속적인 적자를 기록하여 파산에 이르는 경우.",
+      "식중독 발생, 위생 문제 또는 심각한 노동 문제와 같은 대규모 부정적 사건이 소셜 미디어를 통해 빠르게 확산되어 브랜드 이미지가 회복 불가능할 정도로 손상되고 고객 이탈이 가속화되는 경우.",
+      "주요 식자재 및 인건비가 통제 불가능한 수준으로 급등하여 메뉴 가격을 대폭 인상했음에도 불구하고 고객들이 이를 받아들이지 않아 매출이 급감하고 수익성이 완전히 붕괴되는 경우."
+    ],
+    "exit_signals": [
+      "분기별 실적 발표에서 2분기 연속으로 비교 가능 레스토랑 매출(Comparable Restaurant Sales)이 마이너스를 기록하고, 경영진이 명확한 회복 전략을 제시하지 못하는 경우.",
+      "주요 언론 또는 소셜 미디어에서 회사의 위생 문제, 식품 안전 문제 또는 심각한 노동 관행에 대한 대규모 보도가 발생하고, 이로 인해 고객 트래픽이 10% 이상 감소하는 것이 확인되는 경우.",
+      "주요 식자재 또는 인건비가 전년 대비 10% 이상 상승하고, 회사가 이를 상쇄하기 위한 메뉴 가격 인상에 실패하여 영업이익률이 5% 미만으로 지속적으로 하락하는 경우."
+    ]
+  },
+  "wikipedia_summary": "The Cheesecake Factory Incorporated is an American restaurant chain and cheesecake distributor based in the United States. It operates 370 full-service restaurants: 218 under the Cheesecake Factory brand, 47 under the North Italia brand, and 105 under other brands. The Cheesecake Factory also operates two bakery production facilities in Calabasas, California, and Rocky Mount, North Carolina.",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-10-17T01:03:54.579660+00:00"
+  }
+}

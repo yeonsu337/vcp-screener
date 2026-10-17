@@ -1,15 +1,19 @@
 {
-  "updated_at": "2026-10-16T00:58:47.873219+00:00",
-  "total_candidates": 52,
+  "updated_at": "2026-10-17T00:59:50.879181+00:00",
+  "total_candidates": 74,
   "vcp_detected": 0,
   "min_rs": 70,
   "markets": {
     "US": {
-      "total": 41,
+      "total": 40,
       "detected": 0
     },
     "HK": {
-      "total": 11,
+      "total": 10,
+      "detected": 0
+    },
+    "KR": {
+      "total": 24,
       "detected": 0
     }
   },
@@ -58,8 +62,8 @@
       "direction_rules": {
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
-          "passed": false,
-          "value": 0.9944,
+          "passed": true,
+          "value": 1.0005,
           "threshold": 1.0,
           "note": ""
         },
@@ -71,9 +75,9 @@
           "note": ""
         }
       },
-      "direction_passed": 0,
+      "direction_passed": 1,
       "direction_total": 2
     }
   },
-  "runtime_sec": 283.4
+  "runtime_sec": 326.8
 }
