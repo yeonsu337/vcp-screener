@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0939.HK",
-  "generated_at": "2026-10-20T01:23:56.548840+00:00",
-  "source_results_date": "2026-10-20",
+  "generated_at": "2026-10-21T01:09:52.690929+00:00",
+  "source_results_date": "2026-10-21",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -25,11 +25,11 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 91,
+    "rs_rating": 93,
     "stage": 0,
     "base_count": 1,
     "late_base_warning": false,
-    "market_regime": "bear"
+    "market_regime": "neutral"
   },
   "rule_references": [
     "A1_ud_vol_ratio",
