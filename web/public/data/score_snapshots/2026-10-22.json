@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-22",
+  "ticker_count": 10,
+  "tickers": {
+    "3988.HK": {
+      "score_v1": 88.6,
+      "score_v2": 68.3,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 3.67,
+      "current_price": 6.1,
+      "market": "HK",
+      "rules_passed": 19,
+      "detected": false
+    },
+    "2388.HK": {
+      "score_v1": 80.8,
+      "score_v2": 60.3,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 0.65,
+      "current_price": 51.0,
+      "market": "HK",
+      "rules_passed": 17,
+      "detected": false
+    },
+    "0939.HK": {
+      "score_v1": 71.8,
+      "score_v2": 56.0,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 3.82,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 17,
+      "detected": false
+    },
+    "1398.HK": {
+      "score_v1": 70.1,
+      "score_v2": 52.6,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 0.94,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 16,
+      "detected": false
+    },
+    "1038.HK": {
+      "score_v1": 72.1,
+      "score_v2": 56.2,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 3.75,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 14,
+      "detected": false
+    },
+    "0006.HK": {
+      "score_v1": 68.2,
+      "score_v2": 45.8,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 4.53,
+      "current_price": 60.5,
+      "market": "HK",
+      "rules_passed": 14,
+      "detected": false
+    },
+    "3968.HK": {
+      "score_v1": 62.5,
+      "score_v2": 40.5,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 1.82,
+      "current_price": 52.85,
+      "market": "HK",
+      "rules_passed": 14,
+      "detected": false
+    },
+    "0836.HK": {
+      "score_v1": 78.1,
+      "score_v2": 50.1,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 1.51,
+      "current_price": 19.2,
+      "market": "HK",
+      "rules_passed": 13,
+      "detected": false
+    },
+    "0003.HK": {
+      "score_v1": 61.2,
+      "score_v2": 39.7,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 1.85,
+      "current_price": 7.24,
+      "market": "HK",
+      "rules_passed": 12,
+      "detected": false
+    },
+    "0267.HK": {
+      "score_v1": 45.2,
+      "score_v2": 29.4,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 1.42,
+      "current_price": 12.46,
+      "market": "HK",
+      "rules_passed": 10,
+      "detected": false
+    }
+  }
+}
