@@ -13,12 +13,12 @@
     "last_contraction_pct": 4.49,
     "base_days": 90,
     "base_depth_pct": 7.17,
-    "pivot_price": 6.14,
-    "current_price": 6.1,
-    "pct_to_pivot": -0.65,
-    "volume_dryup_ratio": 1.15,
-    "vcp_quality": 16.1,
-    "score": 68.3,
+    "pivot_price": 6.29,
+    "current_price": 5.99,
+    "pct_to_pivot": -4.77,
+    "volume_dryup_ratio": 1.13,
+    "vcp_quality": 15.3,
+    "score": 67.1,
     "contraction_ranges": [
       {
         "start": "2026-08-03",
@@ -42,7 +42,7 @@
         "depth_pct": 4.49
       }
     ],
-    "pivot_date": "2026-09-04",
+    "pivot_date": "2026-10-13",
     "shakeout_dates": [],
     "dryup_ranges": [
       {
@@ -52,40 +52,40 @@
     ],
     "rs_rating": 96,
     "market": "HK",
-    "rs_line_pct_from_high": -0.59,
+    "rs_line_pct_from_high": 0.0,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.918,
+        "value": 1.855,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.1492,
+        "value": 1.1262,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0428,
+        "value": 1.0431,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.1031,
+        "value": 1.1037,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0417,
+        "value": 1.0204,
         "threshold": 1.0,
         "note": ""
       },
@@ -99,21 +99,21 @@
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
         "passed": true,
-        "value": 53.97,
+        "value": 50.47,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -2.63,
+        "value": -4.39,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -2.63,
+        "value": -4.39,
         "threshold": -10.0,
         "note": ""
       },
@@ -155,28 +155,28 @@
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.246,
+        "value": 1.245,
         "threshold": 0.85,
         "note": ""
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
         "passed": true,
-        "value": 0.842,
+        "value": 0.853,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 1005590712.0,
+        "value": 1018508653.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
         "passed": true,
-        "value": 1005590712.0,
+        "value": 1018508653.0,
         "threshold": 375000000.0,
         "note": ""
       },
@@ -197,7 +197,7 @@
       "P3_vol_dryup": {
         "name": "Volume dry-up < 0.6× SMA50",
         "passed": false,
-        "value": 1.15,
+        "value": 1.13,
         "threshold": 0.6,
         "note": ""
       },
@@ -221,234 +221,10 @@
     "company": "Bank of China Ltd",
     "sector": "",
     "industry": "",
-    "score_v1": 88.6,
+    "score_v1": 87.1,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 3.67,
-    "qualifies_strict": true,
-    "extended_penalty": 0.0
-  },
-  {
-    "ticker": "2388.HK",
-    "detected": false,
-    "stage": 2,
-    "stage_name": "Advancing",
-    "num_contractions": 2,
-    "contractions": [
-      6.92,
-      6.41
-    ],
-    "last_contraction_pct": 6.41,
-    "base_days": 90,
-    "base_depth_pct": 6.92,
-    "pivot_price": 53.85,
-    "current_price": 51.0,
-    "pct_to_pivot": -5.29,
-    "volume_dryup_ratio": 1.08,
-    "vcp_quality": 11.4,
-    "score": 60.3,
-    "contraction_ranges": [
-      {
-        "start": "2026-07-29",
-        "end": "2026-08-06",
-        "high": 51.92,
-        "low": 48.32,
-        "depth_pct": 6.92
-      },
-      {
-        "start": "2026-09-14",
-        "end": "2026-09-17",
-        "high": 53.85,
-        "low": 50.4,
-        "depth_pct": 6.41
-      }
-    ],
-    "pivot_date": "2026-09-14",
-    "shakeout_dates": [
-      "2026-07-17"
-    ],
-    "dryup_ranges": [
-      {
-        "start": "2026-07-20",
-        "end": "2026-07-23"
-      },
-      {
-        "start": "2026-08-12",
-        "end": "2026-08-25"
-      },
-      {
-        "start": "2026-09-25",
-        "end": "2026-09-29"
-      }
-    ],
-    "rs_rating": 93,
-    "market": "HK",
-    "rs_line_pct_from_high": -2.78,
-    "rules": {
-      "A1_ud_vol_ratio": {
-        "name": "U/D Volume Ratio ≥ 1.0 (50d)",
-        "passed": true,
-        "value": 1.163,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B1_price_above_150_200": {
-        "name": "Price > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.0934,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B2_sma150_gt_sma200": {
-        "name": "SMA150 > SMA200",
-        "passed": true,
-        "value": 1.0398,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B3_sma50_gt_150_200": {
-        "name": "SMA50 > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.0925,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B4_price_above_sma50": {
-        "name": "Price > SMA50",
-        "passed": true,
-        "value": 1.0008,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B5_sma200_rising_5mo": {
-        "name": "200d SMA rising 4-5 months",
-        "passed": true,
-        "value": 99.0,
-        "threshold": 99.0,
-        "note": ""
-      },
-      "B6_30pct_above_52w_low": {
-        "name": "≥ 30% above 52W low",
-        "passed": true,
-        "value": 48.79,
-        "threshold": 30.0,
-        "note": ""
-      },
-      "B7_within_25pct_high": {
-        "name": "Within 25% of 52W high",
-        "passed": true,
-        "value": -4.94,
-        "threshold": -25.0,
-        "note": ""
-      },
-      "B8_within_10pct_high": {
-        "name": "Within 10% of 52W high (bonus)",
-        "passed": true,
-        "value": -4.94,
-        "threshold": -10.0,
-        "note": ""
-      },
-      "B9_stage2": {
-        "name": "Weinstein Stage 2 (Advancing)",
-        "passed": true,
-        "value": 2.0,
-        "threshold": 2.0,
-        "note": ""
-      },
-      "B10_higher_highs_lows": {
-        "name": "Higher Highs / Higher Lows (3+ pairs)",
-        "passed": false,
-        "value": 1.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "R1_rs_70": {
-        "name": "RS Rating ≥ 70 (Minervini gate)",
-        "passed": true,
-        "value": 93.0,
-        "threshold": 70.0,
-        "note": ""
-      },
-      "R2_rs_80": {
-        "name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed": true,
-        "value": 93.0,
-        "threshold": 80.0,
-        "note": ""
-      },
-      "R3_rs_90": {
-        "name": "RS Rating ≥ 90 (Strong leader)",
-        "passed": true,
-        "value": 93.0,
-        "threshold": 90.0,
-        "note": ""
-      },
-      "V1_atr_contraction": {
-        "name": "ATR Contraction (50d/250d < 0.85)",
-        "passed": false,
-        "value": 1.251,
-        "threshold": 0.85,
-        "note": ""
-      },
-      "V2_short_term_tightening": {
-        "name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed": false,
-        "value": 1.23,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "L1_liquidity_gate": {
-        "name": "Daily $ volume ≥ market threshold",
-        "passed": true,
-        "value": 554421977.0,
-        "threshold": 150000000.0,
-        "note": ""
-      },
-      "L2_liquidity_50m": {
-        "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed": true,
-        "value": 554421977.0,
-        "threshold": 375000000.0,
-        "note": ""
-      },
-      "P1_tightening": {
-        "name": "Progressive tightening (n≥3)",
-        "passed": false,
-        "value": 2.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "P2_last_contraction": {
-        "name": "Last contraction < 6.5%",
-        "passed": true,
-        "value": 6.41,
-        "threshold": 6.5,
-        "note": ""
-      },
-      "P3_vol_dryup": {
-        "name": "Volume dry-up < 0.6× SMA50",
-        "passed": false,
-        "value": 1.08,
-        "threshold": 0.6,
-        "note": ""
-      },
-      "P4_base_count": {
-        "name": "Base count ≤ 2 (early base)",
-        "passed": true,
-        "value": 1.0,
-        "threshold": 2.0,
-        "note": "proxy from 6m return"
-      }
-    },
-    "rules_passed": 17,
-    "rules_total": 22,
-    "company": "BOC Hong Kong (Holdings) Ltd",
-    "sector": "",
-    "industry": "",
-    "score_v1": 80.8,
-    "fundamentals_score": 0.0,
-    "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 0.65,
+    "a1_pts": 3.42,
     "qualifies_strict": true,
     "extended_penalty": 0.0
   },
@@ -467,47 +243,47 @@
     "pct_to_pivot": null,
     "volume_dryup_ratio": null,
     "vcp_quality": 0.0,
-    "score": 56.0,
+    "score": 56.1,
     "contraction_ranges": [],
     "pivot_date": null,
     "shakeout_dates": [],
     "dryup_ranges": [],
-    "rs_rating": 92,
+    "rs_rating": 94,
     "market": "HK",
-    "rs_line_pct_from_high": -1.15,
+    "rs_line_pct_from_high": -0.25,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.954,
+        "value": 1.864,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.1165,
+        "value": 1.108,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0332,
+        "value": 1.0334,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0857,
+        "value": 1.086,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0284,
+        "value": 1.0202,
         "threshold": 1.0,
         "note": ""
       },
@@ -521,21 +297,21 @@
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
         "passed": true,
-        "value": 41.14,
+        "value": 37.09,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -1.95,
+        "value": -2.56,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -1.95,
+        "value": -2.56,
         "threshold": -10.0,
         "note": ""
       },
@@ -556,49 +332,49 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 92.0,
+        "value": 94.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
         "passed": true,
-        "value": 92.0,
+        "value": 94.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
         "passed": true,
-        "value": 92.0,
+        "value": 94.0,
         "threshold": 90.0,
         "note": ""
       },
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.213,
+        "value": 1.209,
         "threshold": 0.85,
         "note": ""
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
         "passed": true,
-        "value": 0.912,
+        "value": 0.924,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 1813457098.0,
+        "value": 1843453731.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
         "passed": true,
-        "value": 1813457098.0,
+        "value": 1843453731.0,
         "threshold": 375000000.0,
         "note": ""
       },
@@ -636,69 +412,104 @@
     "company": "China Construction Bank",
     "sector": "",
     "industry": "",
-    "score_v1": 71.8,
+    "score_v1": 72.3,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 3.82,
+    "a1_pts": 3.46,
     "qualifies_strict": true,
     "extended_penalty": 0.0
   },
   {
-    "ticker": "1398.HK",
+    "ticker": "0006.HK",
     "detected": false,
-    "stage": 0,
-    "stage_name": "Unknown",
-    "num_contractions": 0,
-    "contractions": [],
-    "last_contraction_pct": null,
-    "base_days": 0,
-    "base_depth_pct": null,
-    "pivot_price": null,
-    "current_price": null,
-    "pct_to_pivot": null,
-    "volume_dryup_ratio": null,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "num_contractions": 3,
+    "contractions": [
+      5.58,
+      4.85,
+      5.76
+    ],
+    "last_contraction_pct": 5.76,
+    "base_days": 90,
+    "base_depth_pct": 5.76,
+    "pivot_price": 61.65,
+    "current_price": 60.25,
+    "pct_to_pivot": -2.27,
+    "volume_dryup_ratio": 0.98,
     "vcp_quality": 0.0,
-    "score": 52.6,
-    "contraction_ranges": [],
-    "pivot_date": null,
+    "score": 46.0,
+    "contraction_ranges": [
+      {
+        "start": "2026-06-26",
+        "end": "2026-07-07",
+        "high": 58.34,
+        "low": 55.08,
+        "depth_pct": 5.58
+      },
+      {
+        "start": "2026-07-17",
+        "end": "2026-08-10",
+        "high": 59.03,
+        "low": 56.17,
+        "depth_pct": 4.85
+      },
+      {
+        "start": "2026-08-21",
+        "end": "2026-09-02",
+        "high": 61.65,
+        "low": 58.09,
+        "depth_pct": 5.76
+      }
+    ],
+    "pivot_date": "2026-08-21",
     "shakeout_dates": [],
-    "dryup_ranges": [],
-    "rs_rating": 89,
+    "dryup_ranges": [
+      {
+        "start": "2026-07-09",
+        "end": "2026-07-20"
+      },
+      {
+        "start": "2026-07-24",
+        "end": "2026-08-12"
+      }
+    ],
+    "rs_rating": 82,
     "market": "HK",
-    "rs_line_pct_from_high": -1.87,
+    "rs_line_pct_from_high": 0.0,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.236,
+        "value": 2.132,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0742,
+        "value": 1.0178,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0327,
+        "value": 1.0078,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0653,
+        "value": 1.0113,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0084,
+        "value": 1.0063,
         "threshold": 1.0,
         "note": ""
       },
@@ -711,22 +522,22 @@
       },
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
-        "passed": true,
-        "value": 41.62,
+        "passed": false,
+        "value": 27.69,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -3.18,
+        "value": -4.94,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -3.18,
+        "value": -4.94,
         "threshold": -10.0,
         "note": ""
       },
@@ -747,28 +558,28 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 89.0,
+        "value": 82.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
         "passed": true,
-        "value": 89.0,
+        "value": 82.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
         "passed": false,
-        "value": 89.0,
+        "value": 82.0,
         "threshold": 90.0,
         "note": ""
       },
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.149,
+        "value": 0.958,
         "threshold": 0.85,
         "note": ""
       },
@@ -782,35 +593,35 @@
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 1122747502.0,
+        "value": 188050174.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed": true,
-        "value": 1122747502.0,
+        "passed": false,
+        "value": 188050174.0,
         "threshold": 375000000.0,
         "note": ""
       },
       "P1_tightening": {
         "name": "Progressive tightening (n≥3)",
         "passed": false,
-        "value": 0.0,
+        "value": 3.0,
         "threshold": 3.0,
         "note": ""
       },
       "P2_last_contraction": {
         "name": "Last contraction < 6.5%",
-        "passed": false,
-        "value": null,
+        "passed": true,
+        "value": 5.76,
         "threshold": 6.5,
         "note": ""
       },
       "P3_vol_dryup": {
         "name": "Volume dry-up < 0.6× SMA50",
         "passed": false,
-        "value": null,
+        "value": 0.98,
         "threshold": 0.6,
         "note": ""
       },
@@ -820,18 +631,25 @@
         "value": 1.0,
         "threshold": 2.0,
         "note": "proxy from 6m return"
+      },
+      "P6_monotonic_decreasing": {
+        "name": "Contractions monotonic ≤0.75× prior",
+        "passed": false,
+        "value": 1.028,
+        "threshold": 0.75,
+        "note": ""
       }
     },
-    "rules_passed": 16,
-    "rules_total": 22,
-    "company": "Industrial and Commercial Bank of China",
+    "rules_passed": 15,
+    "rules_total": 23,
+    "company": "Power Assets Holdings Limited",
     "sector": "",
     "industry": "",
-    "score_v1": 70.1,
+    "score_v1": 68.6,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 0.94,
-    "qualifies_strict": true,
+    "a1_pts": 4.53,
+    "qualifies_strict": false,
     "extended_penalty": 0.0
   },
   {
@@ -849,47 +667,47 @@
     "pct_to_pivot": null,
     "volume_dryup_ratio": null,
     "vcp_quality": 0.0,
-    "score": 56.2,
+    "score": 56.3,
     "contraction_ranges": [],
     "pivot_date": null,
     "shakeout_dates": [],
     "dryup_ranges": [],
-    "rs_rating": 87,
+    "rs_rating": 90,
     "market": "HK",
     "rs_line_pct_from_high": 0.0,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.937,
+        "value": 1.877,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0861,
+        "value": 1.0807,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0075,
+        "value": 1.0072,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0459,
+        "value": 1.0474,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0385,
+        "value": 1.0318,
         "threshold": 1.0,
         "note": ""
       },
@@ -903,21 +721,21 @@
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
         "passed": true,
-        "value": 39.32,
+        "value": 38.7,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -0.73,
+        "value": -1.17,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -0.73,
+        "value": -1.17,
         "threshold": -10.0,
         "note": ""
       },
@@ -938,21 +756,21 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 87.0,
+        "value": 90.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
         "passed": true,
-        "value": 87.0,
+        "value": 90.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
-        "passed": false,
-        "value": 87.0,
+        "passed": true,
+        "value": 90.0,
         "threshold": 90.0,
         "note": ""
       },
@@ -965,22 +783,22 @@
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed": true,
-        "value": 0.999,
+        "passed": false,
+        "value": 1.009,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": false,
-        "value": 88048230.0,
+        "value": 89517846.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
         "passed": false,
-        "value": 88048230.0,
+        "value": 89517846.0,
         "threshold": 375000000.0,
         "note": ""
       },
@@ -1018,244 +836,11 @@
     "company": "Cheung Kong Infrastructure Holdings Limited",
     "sector": "",
     "industry": "",
-    "score_v1": 72.1,
+    "score_v1": 72.5,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 3.75,
+    "a1_pts": 3.51,
     "qualifies_strict": true,
-    "extended_penalty": 0.0
-  },
-  {
-    "ticker": "0006.HK",
-    "detected": false,
-    "stage": 2,
-    "stage_name": "Advancing",
-    "num_contractions": 3,
-    "contractions": [
-      5.58,
-      4.85,
-      5.76
-    ],
-    "last_contraction_pct": 5.76,
-    "base_days": 90,
-    "base_depth_pct": 5.76,
-    "pivot_price": 61.65,
-    "current_price": 60.5,
-    "pct_to_pivot": -1.86,
-    "volume_dryup_ratio": 1.02,
-    "vcp_quality": 0.0,
-    "score": 45.8,
-    "contraction_ranges": [
-      {
-        "start": "2026-06-26",
-        "end": "2026-07-07",
-        "high": 58.34,
-        "low": 55.08,
-        "depth_pct": 5.58
-      },
-      {
-        "start": "2026-07-17",
-        "end": "2026-08-10",
-        "high": 59.03,
-        "low": 56.17,
-        "depth_pct": 4.85
-      },
-      {
-        "start": "2026-08-21",
-        "end": "2026-09-02",
-        "high": 61.65,
-        "low": 58.09,
-        "depth_pct": 5.76
-      }
-    ],
-    "pivot_date": "2026-08-21",
-    "shakeout_dates": [],
-    "dryup_ranges": [
-      {
-        "start": "2026-07-09",
-        "end": "2026-07-20"
-      },
-      {
-        "start": "2026-07-24",
-        "end": "2026-08-12"
-      }
-    ],
-    "rs_rating": 79,
-    "market": "HK",
-    "rs_line_pct_from_high": 0.0,
-    "rules": {
-      "A1_ud_vol_ratio": {
-        "name": "U/D Volume Ratio ≥ 1.0 (50d)",
-        "passed": true,
-        "value": 2.132,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B1_price_above_150_200": {
-        "name": "Price > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.0221,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B2_sma150_gt_sma200": {
-        "name": "SMA150 > SMA200",
-        "passed": true,
-        "value": 1.0083,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B3_sma50_gt_150_200": {
-        "name": "SMA50 > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.0103,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B4_price_above_sma50": {
-        "name": "Price > SMA50",
-        "passed": true,
-        "value": 1.0117,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B5_sma200_rising_5mo": {
-        "name": "200d SMA rising 4-5 months",
-        "passed": true,
-        "value": 99.0,
-        "threshold": 99.0,
-        "note": ""
-      },
-      "B6_30pct_above_52w_low": {
-        "name": "≥ 30% above 52W low",
-        "passed": false,
-        "value": 28.84,
-        "threshold": 30.0,
-        "note": ""
-      },
-      "B7_within_25pct_high": {
-        "name": "Within 25% of 52W high",
-        "passed": true,
-        "value": -4.54,
-        "threshold": -25.0,
-        "note": ""
-      },
-      "B8_within_10pct_high": {
-        "name": "Within 10% of 52W high (bonus)",
-        "passed": true,
-        "value": -4.54,
-        "threshold": -10.0,
-        "note": ""
-      },
-      "B9_stage2": {
-        "name": "Weinstein Stage 2 (Advancing)",
-        "passed": true,
-        "value": 2.0,
-        "threshold": 2.0,
-        "note": ""
-      },
-      "B10_higher_highs_lows": {
-        "name": "Higher Highs / Higher Lows (3+ pairs)",
-        "passed": false,
-        "value": 1.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "R1_rs_70": {
-        "name": "RS Rating ≥ 70 (Minervini gate)",
-        "passed": true,
-        "value": 79.0,
-        "threshold": 70.0,
-        "note": ""
-      },
-      "R2_rs_80": {
-        "name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed": false,
-        "value": 79.0,
-        "threshold": 80.0,
-        "note": ""
-      },
-      "R3_rs_90": {
-        "name": "RS Rating ≥ 90 (Strong leader)",
-        "passed": false,
-        "value": 79.0,
-        "threshold": 90.0,
-        "note": ""
-      },
-      "V1_atr_contraction": {
-        "name": "ATR Contraction (50d/250d < 0.85)",
-        "passed": false,
-        "value": 0.959,
-        "threshold": 0.85,
-        "note": ""
-      },
-      "V2_short_term_tightening": {
-        "name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed": true,
-        "value": 0.985,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "L1_liquidity_gate": {
-        "name": "Daily $ volume ≥ market threshold",
-        "passed": true,
-        "value": 187319729.0,
-        "threshold": 150000000.0,
-        "note": ""
-      },
-      "L2_liquidity_50m": {
-        "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed": false,
-        "value": 187319729.0,
-        "threshold": 375000000.0,
-        "note": ""
-      },
-      "P1_tightening": {
-        "name": "Progressive tightening (n≥3)",
-        "passed": false,
-        "value": 3.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "P2_last_contraction": {
-        "name": "Last contraction < 6.5%",
-        "passed": true,
-        "value": 5.76,
-        "threshold": 6.5,
-        "note": ""
-      },
-      "P3_vol_dryup": {
-        "name": "Volume dry-up < 0.6× SMA50",
-        "passed": false,
-        "value": 1.02,
-        "threshold": 0.6,
-        "note": ""
-      },
-      "P4_base_count": {
-        "name": "Base count ≤ 2 (early base)",
-        "passed": true,
-        "value": 1.0,
-        "threshold": 2.0,
-        "note": "proxy from 6m return"
-      },
-      "P6_monotonic_decreasing": {
-        "name": "Contractions monotonic ≤0.75× prior",
-        "passed": false,
-        "value": 1.028,
-        "threshold": 0.75,
-        "note": ""
-      }
-    },
-    "rules_passed": 14,
-    "rules_total": 23,
-    "company": "Power Assets Holdings Limited",
-    "sector": "",
-    "industry": "",
-    "score_v1": 68.2,
-    "fundamentals_score": 0.0,
-    "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 4.53,
-    "qualifies_strict": false,
     "extended_penalty": 0.0
   },
   {
@@ -1272,11 +857,11 @@
     "base_days": 90,
     "base_depth_pct": 7.87,
     "pivot_price": 53.55,
-    "current_price": 52.85,
-    "pct_to_pivot": -1.31,
-    "volume_dryup_ratio": 1.01,
-    "vcp_quality": 12.2,
-    "score": 40.5,
+    "current_price": 52.1,
+    "pct_to_pivot": -2.71,
+    "volume_dryup_ratio": 1.05,
+    "vcp_quality": 11.9,
+    "score": 39.8,
     "contraction_ranges": [
       {
         "start": "2026-07-31",
@@ -1319,70 +904,70 @@
         "end": "2026-10-09"
       }
     ],
-    "rs_rating": 84,
+    "rs_rating": 83,
     "market": "HK",
-    "rs_line_pct_from_high": -0.96,
+    "rs_line_pct_from_high": -0.34,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.454,
+        "value": 1.443,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0903,
+        "value": 1.0743,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0048,
+        "value": 1.0051,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0527,
+        "value": 1.0537,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0358,
+        "value": 1.0196,
         "threshold": 1.0,
         "note": ""
       },
       "B5_sma200_rising_5mo": {
         "name": "200d SMA rising 4-5 months",
         "passed": false,
-        "value": 78.0,
+        "value": 79.0,
         "threshold": 99.0,
         "note": ""
       },
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
         "passed": false,
-        "value": 21.35,
+        "value": 19.63,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -2.04,
+        "value": -3.43,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -2.04,
+        "value": -3.43,
         "threshold": -10.0,
         "note": ""
       },
@@ -1403,49 +988,49 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 84.0,
+        "value": 83.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
         "passed": true,
-        "value": 84.0,
+        "value": 83.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
         "passed": false,
-        "value": 84.0,
+        "value": 83.0,
         "threshold": 90.0,
         "note": ""
       },
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.057,
+        "value": 1.059,
         "threshold": 0.85,
         "note": ""
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
         "passed": true,
-        "value": 0.906,
+        "value": 0.93,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 523328792.0,
+        "value": 530084776.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
         "passed": true,
-        "value": 523328792.0,
+        "value": 530084776.0,
         "threshold": 375000000.0,
         "note": ""
       },
@@ -1466,7 +1051,7 @@
       "P3_vol_dryup": {
         "name": "Volume dry-up < 0.6× SMA50",
         "passed": false,
-        "value": 1.01,
+        "value": 1.05,
         "threshold": 0.6,
         "note": ""
       },
@@ -1483,149 +1068,104 @@
     "company": "China Merchants Bank",
     "sector": "",
     "industry": "",
-    "score_v1": 62.5,
+    "score_v1": 61.4,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 1.82,
+    "a1_pts": 1.77,
     "qualifies_strict": false,
     "extended_penalty": 0.0
   },
   {
-    "ticker": "0836.HK",
+    "ticker": "1398.HK",
     "detected": false,
-    "stage": 2,
-    "stage_name": "Advancing",
-    "num_contractions": 2,
-    "contractions": [
-      10.41,
-      5.79
-    ],
-    "last_contraction_pct": 5.79,
-    "base_days": 90,
-    "base_depth_pct": 10.41,
-    "pivot_price": 20.36,
-    "current_price": 19.2,
-    "pct_to_pivot": -5.7,
-    "volume_dryup_ratio": 0.74,
-    "vcp_quality": 14.3,
-    "score": 50.1,
-    "contraction_ranges": [
-      {
-        "start": "2026-07-23",
-        "end": "2026-08-19",
-        "high": 19.37,
-        "low": 17.35,
-        "depth_pct": 10.41
-      },
-      {
-        "start": "2026-08-27",
-        "end": "2026-09-02",
-        "high": 19.17,
-        "low": 18.06,
-        "depth_pct": 5.79
-      }
-    ],
-    "pivot_date": "2026-10-14",
-    "shakeout_dates": [
-      "2026-07-07"
-    ],
-    "dryup_ranges": [
-      {
-        "start": "2026-07-13",
-        "end": "2026-07-17"
-      },
-      {
-        "start": "2026-07-27",
-        "end": "2026-07-30"
-      },
-      {
-        "start": "2026-08-17",
-        "end": "2026-08-25"
-      },
-      {
-        "start": "2026-09-03",
-        "end": "2026-09-08"
-      },
-      {
-        "start": "2026-09-18",
-        "end": "2026-09-25"
-      },
-      {
-        "start": "2026-10-06",
-        "end": "2026-10-09"
-      }
-    ],
-    "rs_rating": 70,
+    "stage": 0,
+    "stage_name": "Unknown",
+    "num_contractions": 0,
+    "contractions": [],
+    "last_contraction_pct": null,
+    "base_days": 0,
+    "base_depth_pct": null,
+    "pivot_price": null,
+    "current_price": null,
+    "pct_to_pivot": null,
+    "volume_dryup_ratio": null,
+    "vcp_quality": 0.0,
+    "score": 33.2,
+    "contraction_ranges": [],
+    "pivot_date": null,
+    "shakeout_dates": [],
+    "dryup_ranges": [],
+    "rs_rating": 91,
     "market": "HK",
-    "rs_line_pct_from_high": -2.71,
+    "rs_line_pct_from_high": -1.5,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.377,
+        "value": 1.195,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0324,
+        "value": 1.062,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": true,
-        "value": 1.0204,
+        "value": 1.033,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0141,
+        "value": 1.0652,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
-        "passed": true,
-        "value": 1.018,
+        "passed": false,
+        "value": 0.997,
         "threshold": 1.0,
         "note": ""
       },
       "B5_sma200_rising_5mo": {
         "name": "200d SMA rising 4-5 months",
-        "passed": false,
-        "value": 89.0,
+        "passed": true,
+        "value": 99.0,
         "threshold": 99.0,
         "note": ""
       },
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
-        "passed": false,
-        "value": 18.59,
+        "passed": true,
+        "value": 37.78,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -6.6,
+        "value": -4.48,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -6.6,
+        "value": -4.48,
         "threshold": -10.0,
         "note": ""
       },
       "B9_stage2": {
         "name": "Weinstein Stage 2 (Advancing)",
-        "passed": true,
-        "value": 2.0,
+        "passed": false,
+        "value": 3.0,
         "threshold": 2.0,
         "note": ""
       },
@@ -1639,70 +1179,70 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 70.0,
+        "value": 91.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed": false,
-        "value": 70.0,
+        "passed": true,
+        "value": 91.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
-        "passed": false,
-        "value": 70.0,
+        "passed": true,
+        "value": 91.0,
         "threshold": 90.0,
         "note": ""
       },
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.018,
+        "value": 1.15,
         "threshold": 0.85,
         "note": ""
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed": true,
-        "value": 0.93,
+        "passed": false,
+        "value": 1.006,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 189988645.0,
+        "value": 1138201310.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed": false,
-        "value": 189988645.0,
+        "passed": true,
+        "value": 1138201310.0,
         "threshold": 375000000.0,
         "note": ""
       },
       "P1_tightening": {
         "name": "Progressive tightening (n≥3)",
         "passed": false,
-        "value": 2.0,
+        "value": 0.0,
         "threshold": 3.0,
         "note": ""
       },
       "P2_last_contraction": {
         "name": "Last contraction < 6.5%",
-        "passed": true,
-        "value": 5.79,
+        "passed": false,
+        "value": null,
         "threshold": 6.5,
         "note": ""
       },
       "P3_vol_dryup": {
         "name": "Volume dry-up < 0.6× SMA50",
         "passed": false,
-        "value": 0.74,
+        "value": null,
         "threshold": 0.6,
         "note": ""
       },
@@ -1714,15 +1254,15 @@
         "note": "proxy from 6m return"
       }
     },
-    "rules_passed": 13,
+    "rules_passed": 14,
     "rules_total": 22,
-    "company": "China Resources Power",
+    "company": "Industrial and Commercial Bank of China",
     "sector": "",
     "industry": "",
-    "score_v1": 78.1,
+    "score_v1": 51.9,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 1.51,
+    "a1_pts": 0.78,
     "qualifies_strict": false,
     "extended_penalty": 0.0
   },
@@ -1741,11 +1281,11 @@
     "base_days": 90,
     "base_depth_pct": 6.41,
     "pivot_price": 7.47,
-    "current_price": 7.24,
-    "pct_to_pivot": -3.16,
-    "volume_dryup_ratio": 0.68,
-    "vcp_quality": 16.0,
-    "score": 39.7,
+    "current_price": 7.12,
+    "pct_to_pivot": -4.7,
+    "volume_dryup_ratio": 0.66,
+    "vcp_quality": 15.8,
+    "score": 39.1,
     "contraction_ranges": [
       {
         "start": "2026-07-31",
@@ -1785,42 +1325,42 @@
         "end": "2026-10-16"
       }
     ],
-    "rs_rating": 71,
+    "rs_rating": 72,
     "market": "HK",
     "rs_line_pct_from_high": 0.0,
     "rules": {
       "A1_ud_vol_ratio": {
         "name": "U/D Volume Ratio ≥ 1.0 (50d)",
         "passed": true,
-        "value": 1.463,
+        "value": 1.489,
         "threshold": 1.0,
         "note": ""
       },
       "B1_price_above_150_200": {
         "name": "Price > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0433,
+        "value": 1.0265,
         "threshold": 1.0,
         "note": ""
       },
       "B2_sma150_gt_sma200": {
         "name": "SMA150 > SMA200",
         "passed": false,
-        "value": 0.995,
+        "value": 0.9948,
         "threshold": 1.0,
         "note": ""
       },
       "B3_sma50_gt_150_200": {
         "name": "SMA50 > SMA150 & SMA200",
         "passed": true,
-        "value": 1.0248,
+        "value": 1.0257,
         "threshold": 1.0,
         "note": ""
       },
       "B4_price_above_sma50": {
         "name": "Price > SMA50",
         "passed": true,
-        "value": 1.0181,
+        "value": 1.0008,
         "threshold": 1.0,
         "note": ""
       },
@@ -1834,21 +1374,21 @@
       "B6_30pct_above_52w_low": {
         "name": "≥ 30% above 52W low",
         "passed": false,
-        "value": 14.38,
+        "value": 12.56,
         "threshold": 30.0,
         "note": ""
       },
       "B7_within_25pct_high": {
         "name": "Within 25% of 52W high",
         "passed": true,
-        "value": -1.95,
+        "value": -3.51,
         "threshold": -25.0,
         "note": ""
       },
       "B8_within_10pct_high": {
         "name": "Within 10% of 52W high (bonus)",
         "passed": true,
-        "value": -1.95,
+        "value": -3.51,
         "threshold": -10.0,
         "note": ""
       },
@@ -1869,49 +1409,49 @@
       "R1_rs_70": {
         "name": "RS Rating ≥ 70 (Minervini gate)",
         "passed": true,
-        "value": 71.0,
+        "value": 72.0,
         "threshold": 70.0,
         "note": ""
       },
       "R2_rs_80": {
         "name": "RS Rating ≥ 80 (CANSLIM Leader)",
         "passed": false,
-        "value": 71.0,
+        "value": 72.0,
         "threshold": 80.0,
         "note": ""
       },
       "R3_rs_90": {
         "name": "RS Rating ≥ 90 (Strong leader)",
         "passed": false,
-        "value": 71.0,
+        "value": 72.0,
         "threshold": 90.0,
         "note": ""
       },
       "V1_atr_contraction": {
         "name": "ATR Contraction (50d/250d < 0.85)",
         "passed": false,
-        "value": 1.142,
+        "value": 1.139,
         "threshold": 0.85,
         "note": ""
       },
       "V2_short_term_tightening": {
         "name": "Near-term volatility tightening (30d/60d < 1.0)",
         "passed": true,
-        "value": 0.657,
+        "value": 0.645,
         "threshold": 1.0,
         "note": ""
       },
       "L1_liquidity_gate": {
         "name": "Daily $ volume ≥ market threshold",
         "passed": true,
-        "value": 206339550.0,
+        "value": 206286117.0,
         "threshold": 150000000.0,
         "note": ""
       },
       "L2_liquidity_50m": {
         "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
         "passed": false,
-        "value": 206339550.0,
+        "value": 206286117.0,
         "threshold": 375000000.0,
         "note": ""
       },
@@ -1932,7 +1472,7 @@
       "P3_vol_dryup": {
         "name": "Volume dry-up < 0.6× SMA50",
         "passed": false,
-        "value": 0.68,
+        "value": 0.66,
         "threshold": 0.6,
         "note": ""
       },
@@ -1956,234 +1496,10 @@
     "company": "Hong Kong and China Gas Company Limited",
     "sector": "",
     "industry": "",
-    "score_v1": 61.2,
+    "score_v1": 60.2,
     "fundamentals_score": 0.0,
     "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 1.85,
-    "qualifies_strict": false,
-    "extended_penalty": 0.0
-  },
-  {
-    "ticker": "0267.HK",
-    "detected": false,
-    "stage": 3,
-    "stage_name": "Topping",
-    "num_contractions": 2,
-    "contractions": [
-      5.78,
-      7.4
-    ],
-    "last_contraction_pct": 7.4,
-    "base_days": 90,
-    "base_depth_pct": 7.4,
-    "pivot_price": 13.7,
-    "current_price": 12.46,
-    "pct_to_pivot": -9.07,
-    "volume_dryup_ratio": 0.89,
-    "vcp_quality": 0.0,
-    "score": 29.4,
-    "contraction_ranges": [
-      {
-        "start": "2026-07-30",
-        "end": "2026-08-12",
-        "high": 12.23,
-        "low": 11.52,
-        "depth_pct": 5.78
-      },
-      {
-        "start": "2026-09-04",
-        "end": "2026-09-17",
-        "high": 13.7,
-        "low": 12.69,
-        "depth_pct": 7.4
-      }
-    ],
-    "pivot_date": "2026-09-04",
-    "shakeout_dates": [
-      "2026-07-16"
-    ],
-    "dryup_ranges": [
-      {
-        "start": "2026-07-14",
-        "end": "2026-08-20"
-      },
-      {
-        "start": "2026-09-25",
-        "end": "2026-09-30"
-      },
-      {
-        "start": "2026-10-06",
-        "end": "2026-10-09"
-      }
-    ],
-    "rs_rating": 78,
-    "market": "HK",
-    "rs_line_pct_from_high": -4.53,
-    "rules": {
-      "A1_ud_vol_ratio": {
-        "name": "U/D Volume Ratio ≥ 1.0 (50d)",
-        "passed": true,
-        "value": 1.354,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B1_price_above_150_200": {
-        "name": "Price > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.0264,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B2_sma150_gt_sma200": {
-        "name": "SMA150 > SMA200",
-        "passed": true,
-        "value": 1.0133,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B3_sma50_gt_150_200": {
-        "name": "SMA50 > SMA150 & SMA200",
-        "passed": true,
-        "value": 1.055,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B4_price_above_sma50": {
-        "name": "Price > SMA50",
-        "passed": false,
-        "value": 0.9728,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "B5_sma200_rising_5mo": {
-        "name": "200d SMA rising 4-5 months",
-        "passed": false,
-        "value": 90.0,
-        "threshold": 99.0,
-        "note": ""
-      },
-      "B6_30pct_above_52w_low": {
-        "name": "≥ 30% above 52W low",
-        "passed": false,
-        "value": 19.55,
-        "threshold": 30.0,
-        "note": ""
-      },
-      "B7_within_25pct_high": {
-        "name": "Within 25% of 52W high",
-        "passed": true,
-        "value": -8.81,
-        "threshold": -25.0,
-        "note": ""
-      },
-      "B8_within_10pct_high": {
-        "name": "Within 10% of 52W high (bonus)",
-        "passed": true,
-        "value": -8.81,
-        "threshold": -10.0,
-        "note": ""
-      },
-      "B9_stage2": {
-        "name": "Weinstein Stage 2 (Advancing)",
-        "passed": false,
-        "value": 3.0,
-        "threshold": 2.0,
-        "note": ""
-      },
-      "B10_higher_highs_lows": {
-        "name": "Higher Highs / Higher Lows (3+ pairs)",
-        "passed": false,
-        "value": 0.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "R1_rs_70": {
-        "name": "RS Rating ≥ 70 (Minervini gate)",
-        "passed": true,
-        "value": 78.0,
-        "threshold": 70.0,
-        "note": ""
-      },
-      "R2_rs_80": {
-        "name": "RS Rating ≥ 80 (CANSLIM Leader)",
-        "passed": false,
-        "value": 78.0,
-        "threshold": 80.0,
-        "note": ""
-      },
-      "R3_rs_90": {
-        "name": "RS Rating ≥ 90 (Strong leader)",
-        "passed": false,
-        "value": 78.0,
-        "threshold": 90.0,
-        "note": ""
-      },
-      "V1_atr_contraction": {
-        "name": "ATR Contraction (50d/250d < 0.85)",
-        "passed": false,
-        "value": 1.094,
-        "threshold": 0.85,
-        "note": ""
-      },
-      "V2_short_term_tightening": {
-        "name": "Near-term volatility tightening (30d/60d < 1.0)",
-        "passed": true,
-        "value": 0.898,
-        "threshold": 1.0,
-        "note": ""
-      },
-      "L1_liquidity_gate": {
-        "name": "Daily $ volume ≥ market threshold",
-        "passed": true,
-        "value": 185538359.0,
-        "threshold": 150000000.0,
-        "note": ""
-      },
-      "L2_liquidity_50m": {
-        "name": "Daily $ volume ≥ 2.5× threshold (institutional)",
-        "passed": false,
-        "value": 185538359.0,
-        "threshold": 375000000.0,
-        "note": ""
-      },
-      "P1_tightening": {
-        "name": "Progressive tightening (n≥3)",
-        "passed": false,
-        "value": 2.0,
-        "threshold": 3.0,
-        "note": ""
-      },
-      "P2_last_contraction": {
-        "name": "Last contraction < 6.5%",
-        "passed": false,
-        "value": 7.4,
-        "threshold": 6.5,
-        "note": ""
-      },
-      "P3_vol_dryup": {
-        "name": "Volume dry-up < 0.6× SMA50",
-        "passed": false,
-        "value": 0.89,
-        "threshold": 0.6,
-        "note": ""
-      },
-      "P4_base_count": {
-        "name": "Base count ≤ 2 (early base)",
-        "passed": true,
-        "value": 1.0,
-        "threshold": 2.0,
-        "note": "proxy from 6m return"
-      }
-    },
-    "rules_passed": 10,
-    "rules_total": 22,
-    "company": "CITIC Limited",
-    "sector": "",
-    "industry": "",
-    "score_v1": 45.2,
-    "fundamentals_score": 0.0,
-    "fundamentals_basis": "fallback_kr_hk",
-    "a1_pts": 1.42,
+    "a1_pts": 1.96,
     "qualifies_strict": false,
     "extended_penalty": 0.0
   }
