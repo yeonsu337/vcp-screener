@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-27",
+  "ticker_count": 7,
+  "tickers": {
+    "3988.HK": {
+      "score_v1": 85.0,
+      "score_v2": 65.0,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 2.8,
+      "current_price": 5.98,
+      "market": "HK",
+      "rules_passed": 18,
+      "detected": false
+    },
+    "0939.HK": {
+      "score_v1": 72.3,
+      "score_v2": 56.6,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 4.14,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 17,
+      "detected": false
+    },
+    "0006.HK": {
+      "score_v1": 70.5,
+      "score_v2": 55.6,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 4.56,
+      "current_price": 61.95,
+      "market": "HK",
+      "rules_passed": 16,
+      "detected": false
+    },
+    "1038.HK": {
+      "score_v1": 72.4,
+      "score_v2": 55.7,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 2.79,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 14,
+      "detected": false
+    },
+    "0003.HK": {
+      "score_v1": 61.4,
+      "score_v2": 40.0,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 2.15,
+      "current_price": 7.22,
+      "market": "HK",
+      "rules_passed": 13,
+      "detected": false
+    },
+    "3968.HK": {
+      "score_v1": 59.9,
+      "score_v2": 38.8,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 1.78,
+      "current_price": 52.1,
+      "market": "HK",
+      "rules_passed": 13,
+      "detected": false
+    },
+    "1398.HK": {
+      "score_v1": 51.5,
+      "score_v2": 32.7,
+      "fundamentals_score": 0.0,
+      "fundamentals_basis": "fallback_kr_hk",
+      "a1_pts": 0.39,
+      "current_price": null,
+      "market": "HK",
+      "rules_passed": 13,
+      "detected": false
+    }
+  }
+}
