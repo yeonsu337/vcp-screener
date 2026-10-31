@@ -1,21 +1,17 @@
 {
-  "updated_at": "2026-10-30T02:17:37.214779+00:00",
+  "updated_at": "2026-10-31T01:57:10.438475+00:00",
   "us": {
     "sentiment": [
       {
         "id": "us_vix",
         "name": "VIX (S&P500 변동성지수)",
-        "value": 17.2,
-        "prev": 16.91,
-        "change_pct": 1.71,
+        "value": 19.42,
+        "prev": 17.2,
+        "change_pct": 12.91,
         "unit": "pt",
         "source": "Yahoo Finance ^VIX",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2025-10-29",
-            "value": 16.92
-          },
           {
             "time": "2025-10-30",
             "value": 16.91
@@ -1027,6 +1023,10 @@
           {
             "time": "2026-10-29",
             "value": 17.2
+          },
+          {
+            "time": "2026-10-30",
+            "value": 19.42
           }
         ],
         "signal": "neutral",
@@ -1035,17 +1035,13 @@
       {
         "id": "us_fg",
         "name": "CNN Fear & Greed Index",
-        "value": 34.6,
-        "prev": 35.9,
-        "change_pct": -3.51,
+        "value": 26.2,
+        "prev": 34.6,
+        "change_pct": -24.17,
         "unit": "0-100",
         "source": "CNN Business",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2025-10-30",
-            "value": 37.06
-          },
           {
             "time": "2025-10-31",
             "value": 34.46
@@ -2040,11 +2036,15 @@
           },
           {
             "time": "2026-10-29",
-            "value": 34.6
+            "value": 30.77
           },
           {
-            "time": "2026-10-29",
-            "value": 34.6
+            "time": "2026-10-30",
+            "value": 26.24
+          },
+          {
+            "time": "2026-10-30",
+            "value": 26.24
           }
         ],
         "signal": "neutral",
@@ -2060,12 +2060,8 @@
         "change_pct": 0.0,
         "unit": "%",
         "source": "FRED DFF",
-        "asof": "2026-10-28",
+        "asof": "2026-10-29",
         "series": [
-          {
-            "time": "2024-10-29",
-            "value": 4.83
-          },
           {
             "time": "2024-10-30",
             "value": 4.83
@@ -4980,6 +4976,10 @@
           },
           {
             "time": "2026-10-28",
+            "value": 3.88
+          },
+          {
+            "time": "2026-10-29",
             "value": 3.88
           }
         ],
@@ -10857,17 +10857,13 @@
       {
         "id": "us_rrp",
         "name": "ON Reverse Repo (단기 유동성)",
-        "value": 0.353,
-        "prev": 0.176,
-        "change_pct": 100.57,
+        "value": 4.375,
+        "prev": 0.353,
+        "change_pct": 1139.38,
         "unit": "$B",
         "source": "FRED RRPONTSYD",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2023-11-27",
-            "value": 867.22
-          },
           {
             "time": "2023-11-28",
             "value": 873.344
@@ -13783,6 +13779,10 @@
           {
             "time": "2026-10-29",
             "value": 0.353
+          },
+          {
+            "time": "2026-10-30",
+            "value": 4.375
           }
         ],
         "signal": "neutral",
@@ -13793,17 +13793,13 @@
       {
         "id": "us_yieldspread",
         "name": "10Y-2Y 국채 스프레드",
-        "value": 0.37,
-        "prev": 0.38,
-        "change_pct": -2.63,
+        "value": 0.38,
+        "prev": 0.37,
+        "change_pct": 2.7,
         "unit": "%p",
         "source": "FRED T10Y2Y",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2023-11-28",
-            "value": -0.39
-          },
           {
             "time": "2023-11-29",
             "value": -0.37
@@ -16719,6 +16715,10 @@
           {
             "time": "2026-10-29",
             "value": 0.37
+          },
+          {
+            "time": "2026-10-30",
+            "value": 0.38
           }
         ],
         "signal": "neutral",
@@ -16727,17 +16727,13 @@
       {
         "id": "us_dxy",
         "name": "DXY 달러 인덱스",
-        "value": 101.75,
-        "prev": 102.19,
-        "change_pct": -0.43,
+        "value": 101.96,
+        "prev": 102.04,
+        "change_pct": -0.07,
         "unit": "pt",
         "source": "ICE Futures",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2025-10-29",
-            "value": 99.22
-          },
           {
             "time": "2025-10-30",
             "value": 99.53
@@ -17740,7 +17736,11 @@
           },
           {
             "time": "2026-10-29",
-            "value": 101.746
+            "value": 102.04
+          },
+          {
+            "time": "2026-10-30",
+            "value": 101.964
           }
         ],
         "signal": "neutral",
@@ -17749,17 +17749,13 @@
       {
         "id": "us_sp500_trend",
         "name": "S&P500 vs SMA200",
-        "value": 5.66,
+        "value": 3.7,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
         "source": "Yahoo Finance ^GSPC",
-        "asof": "2026-10-29",
+        "asof": "2026-10-30",
         "series": [
-          {
-            "time": "2025-05-19",
-            "value": 5963.6
-          },
           {
             "time": "2025-05-20",
             "value": 5940.46
@@ -19215,6 +19211,10 @@
           {
             "time": "2026-10-29",
             "value": 7720.39
+          },
+          {
+            "time": "2026-10-30",
+            "value": 7580.07
           }
         ],
         "signal": "bullish",
@@ -19227,9 +19227,9 @@
       {
         "id": "kr_kospi_vol",
         "name": "KOSPI 21일 변동성 (연환산)",
-        "value": 54.19,
+        "value": 52.24,
         "prev": 31.77,
-        "change_pct": 70.55,
+        "change_pct": 64.44,
         "unit": "% (연환산)",
         "source": "yfinance ^KS11 derived",
         "asof": "2026-10-30",
@@ -20128,7 +20128,7 @@
           },
           {
             "time": "2026-10-30",
-            "value": 54.19
+            "value": 52.24
           }
         ],
         "signal": "bearish",
@@ -20137,9 +20137,9 @@
       {
         "id": "kr_kosdaq_kospi_ratio",
         "name": "KOSDAQ/KOSPI 상대강도 (1년 정규화)",
-        "value": 0.59,
+        "value": 0.58,
         "prev": 0.582,
-        "change_pct": 1.35,
+        "change_pct": -0.36,
         "unit": "비율",
         "source": "yfinance derived",
         "asof": "2026-10-30",
@@ -21122,7 +21122,7 @@
           },
           {
             "time": "2026-10-30",
-            "value": 0.5898
+            "value": 0.5799
           }
         ],
         "signal": "bearish",
@@ -22865,7 +22865,7 @@
       {
         "id": "kr_kospi_trend",
         "name": "KOSPI vs SMA200",
-        "value": -13.67,
+        "value": -11.66,
         "prev": null,
         "change_pct": null,
         "unit": "% 격차",
@@ -24330,7 +24330,7 @@
           },
           {
             "time": "2026-10-30",
-            "value": 5600.0
+            "value": 5730.74
           }
         ],
         "signal": "bearish",
@@ -24339,9 +24339,9 @@
       {
         "id": "kr_usdkrw",
         "name": "USD/KRW 환율",
-        "value": 1337.05,
+        "value": 1337.98,
         "prev": 1340.34,
-        "change_pct": -0.25,
+        "change_pct": -0.18,
         "unit": "₩",
         "source": "Yahoo Finance KRW=X",
         "asof": "2026-10-30",
@@ -25384,7 +25384,7 @@
           },
           {
             "time": "2026-10-30",
-            "value": 1337.05
+            "value": 1337.98
           }
         ],
         "signal": "neutral",
