@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T02:59:03.898604+00:00",
+  "generated_at": "2026-11-06T02:59:51.703191+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -9,8 +9,8 @@
   },
   "snapshot": {
     "total_trades": 46,
-    "active": 1,
-    "exited": 45,
+    "active": 0,
+    "exited": 46,
     "winners_50pct": 1,
     "winners_30pct": 3,
     "losers": 3
@@ -29,12 +29,12 @@
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 54.9,
+    "avg_holding_winner_days": 55.6,
     "avg_holding_loser_days": 31.5
   },
   "exit_breakdown": {
     "EX0_unknown": 8,
-    "EX6_absent": 25,
+    "EX6_absent": 26,
     "EX4_50dma_break": 7,
     "EX5_trailing": 1,
     "EX1_stop_8pct": 4
@@ -105,33 +105,33 @@
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-10-30T02:17:42.982456+00:00",
+    "generated_at": "2026-11-06T02:59:51.703166+00:00",
     "winner_patterns": [
-      "RS 80점 이상 고모멘텀 종목에서 강한 수익 발생",
-      "한국 시장 종목의 단기 급등 수익률이 높음",
-      "미국 시장 종목은 장기 보유 시 높은 수익률 기록",
-      "[가설] 초기 진입 후 빠른 상승세가 나타난 종목",
-      "대부분의 승자는 명확한 청산 사유 없이 보유 중이거나 이익 실현"
+      "RS 80점 이상 종목에서 높은 수익률 발생",
+      "미국 시장 종목에서 장기 보유 시 고수익 가능성",
+      "한국 시장 종목은 단기 고수익 패턴 [가설]",
+      "EX6_absent 청산 종목에서 고수익 다수 발생",
+      "평균 보유일 60일 전후로 고수익 종목 다수"
     ],
     "loser_traps": [
-      "RS 99점 고모멘텀 종목도 급락 가능성 상존",
-      "8% 손절매 규칙에 의해 청산된 종목 다수",
-      "50일 이동평균선 이탈 시 손실 확대 경향",
-      "단기 보유(20일 이내) 후 손실로 청산되는 경우 빈번",
-      "[가설] 초기 진입 후 지지부진한 흐름을 보인 종목"
+      "RS 90점대 고점 종목도 급락 가능성 (ERAS)",
+      "8% 손절매 규칙이 자주 발동 (EX1_stop_8pct)",
+      "50일 이동평균선 이탈 시 손실 확정 (EX4_50dma_break)",
+      "단기 보유 (20일 이내) 손실 종목 다수",
+      "RS 70점대 종목에서 손실 발생 빈번"
     ],
     "rule_suggestions": [
-      "RS 95점 이상 종목은 초기 8% 손절매 규칙 강화 검토",
-      "한국 시장 종목은 단기 수익 실현 목표 설정 고려",
-      "50일 이평선 이탈 시 손절매 규칙 엄격 적용",
-      "보유 기간 20일 이내 손실 종목에 대한 분석 강화",
-      "EX0_unknown 청산 사유에 대한 상세 분석 및 규칙화"
+      "RS 80점 이상 종목에 집중 투자",
+      "8% 손절매 규칙 엄격히 준수",
+      "50일 이동평균선 이탈 시 즉시 청산",
+      "한국 시장 종목은 단기 수익 실현 고려 [가설]",
+      "EX6_absent 청산 기준 재검토 및 구체화"
     ],
     "model": "gemini-2.5-flash",
     "trades_analyzed": 46
   },
   "data_status": {
-    "exited_trades_count": 45,
+    "exited_trades_count": 46,
     "min_for_meaningful": 5,
     "fallback_message": null
   }

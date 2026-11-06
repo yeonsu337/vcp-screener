@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:59:00.020798+00:00",
+  "updated_at": "2026-11-06T02:59:45.298720+00:00",
   "total_candidates": 15,
   "vcp_detected": 0,
   "min_rs": 70,
@@ -15,14 +15,14 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": true,
-          "value": 1.0021,
+          "value": 1.0001,
           "threshold": 1.0,
           "note": ""
         },
         "MD2_idx_sma50_rising_21d": {
           "name": "Index 50d SMA rising 17d",
           "passed": false,
-          "value": 7.0,
+          "value": 6.0,
           "threshold": 17.0,
           "note": ""
         }
@@ -35,7 +35,7 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": false,
-          "value": 0.9706,
+          "value": 0.9725,
           "threshold": 1.0,
           "note": ""
         },
@@ -55,14 +55,14 @@
         "MD1_idx_sma21_gt_sma50": {
           "name": "Index SMA21 > SMA50",
           "passed": false,
-          "value": 0.9092,
+          "value": 0.9008,
           "threshold": 1.0,
           "note": ""
         },
         "MD2_idx_sma50_rising_21d": {
           "name": "Index 50d SMA rising 17d",
           "passed": false,
-          "value": 1.0,
+          "value": 0.0,
           "threshold": 17.0,
           "note": ""
         }
@@ -71,5 +71,5 @@
       "direction_total": 2
     }
   },
-  "runtime_sec": 7.9
+  "runtime_sec": 7.8
 }
