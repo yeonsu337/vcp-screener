@@ -1,0 +1,271 @@
+{
+  "ticker": "SLDE",
+  "company": "Slide Insurance Holdings, Inc.",
+  "market": "US",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
+  "generated_at": "2026-11-11T02:33:09.662744+00:00",
+  "primary_passed": 13,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 3090674688,
+    "shares_outstanding": 117248652,
+    "employees": 652,
+    "country": "United States",
+    "website": "https://www.slideinsurance.com",
+    "beta": null
+  },
+  "category_a_business": {
+    "overview": "Slide Insurance Holdings는 미국에서 주택 소유자 및 콘도 보험을 제공하는 재산 및 상해 보험사입니다.",
+    "milestones": [
+      "2021: Slide Insurance Holdings, Inc. 설립",
+      "2022: 플로리다 주택 보험 시장 진출 및 정책 인수 시작",
+      "2022: Citizens Property Insurance Corporation으로부터 약 10만 건의 정책 인수",
+      "2023: 추가적인 정책 인수 및 서비스 지역 확장",
+      "2023: 재보험 및 보험 대리점 서비스 제공 시작"
+    ],
+    "business_model": "주택 소유자 및 콘도 보험 상품을 판매하고 재보험 서비스를 제공하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "보험료 수입 (주택 소유자, 콘도)",
+      "재보험 서비스 수수료",
+      "보험 대리점 서비스 수수료"
+    ],
+    "value_chain_position": "Downstream + 최종 소비자에게 직접 보험 상품을 판매하고 관리합니다.",
+    "products": [
+      "주택 소유자 보험",
+      "콘도 유닛 소유자 보험",
+      "상업용 주거 보험",
+      "재보험 서비스",
+      "보험 대리점 서비스"
+    ],
+    "channels": [
+      "B2C (직접 판매)",
+      "보험 대리점 네트워크"
+    ],
+    "key_customers": "특정 고객 집중도 정보는 공개되지 않았습니다. 다수의 개인 주택 소유자가 주요 고객입니다."
+  },
+  "category_b_financials": {
+    "roe": 0.51,
+    "roa": 0.15,
+    "profit_margin": 0.39,
+    "operating_margin": 0.45,
+    "gross_margin": 0.65,
+    "revenue_growth_ttm": 0.36,
+    "earnings_growth_ttm": 0.38,
+    "dividend_yield": 1.07,
+    "payout_ratio": 0.02,
+    "annual_revenue": [
+      1155901000.0,
+      846814000.0,
+      468530000.0,
+      242432000.0
+    ],
+    "annual_operating_income": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "annual_eps": [
+      3.36,
+      1.61,
+      0.7,
+      0.18
+    ],
+    "annual_free_cf": [
+      794575000.0,
+      543798000.0,
+      434322000.0,
+      136938000.0
+    ],
+    "annual_total_debt": [
+      43336000.0,
+      48253000.0,
+      42310000.0,
+      32132000.0
+    ],
+    "annual_equity": [
+      1113241000.0,
+      433159000.0,
+      237598000.0,
+      135343000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      1.09,
+      1.06,
+      1.02,
+      null,
+      0.79,
+      0.56
+    ],
+    "quarterly_revenue": [
+      361051000.0,
+      386817000.0,
+      389283000.0,
+      347007000.0,
+      265693000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 24.5,
+    "sales_yoy_pct": 35.9,
+    "ni_cagr_3y_pct": 171.03,
+    "roe_pct": 51.44
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (2023년 미국 P&C 보험 시장 총 보험료 기준, NAIC 데이터 추정)",
+    "tam_cagr_pct": "3-5% (향후 3~5년간 미국 P&C 보험 시장은 경제 성장, 인플레이션, 기후 변화 관련 위험 증가 등으로 꾸준히 성장할 것으로 예상되나, 규제 환경 및 금리 변동성으로 인해 성장률은 제한적일 수 있음)",
+    "growth_drivers": [
+      "기후 변화로 인한 자연재해 빈도 및 강도 증가로 보험 수요 증가",
+      "인플레이션 및 재건축 비용 상승으로 인한 보험 가입 금액 증가",
+      "인구 증가 및 주택 시장 성장으로 인한 신규 보험 가입자 유입",
+      "데이터 분석 및 AI 기술 도입을 통한 언더라이팅 및 가격 책정 효율성 증대"
+    ],
+    "market_share_pct": "0.1% 미만 (Slide는 주로 플로리다 및 일부 동남부 주에 집중된 소규모 P&C 보험사로, 전체 미국 시장에서 차지하는 비중은 매우 작음)",
+    "competitors": [
+      {
+        "name": "State Farm",
+        "differentiation": "광범위한 대리점 네트워크, 강력한 브랜드 인지도, 다양한 보험 상품 제공"
+      },
+      {
+        "name": "GEICO",
+        "differentiation": "직접 판매 모델을 통한 낮은 운영 비용, 공격적인 마케팅, 가격 경쟁력"
+      },
+      {
+        "name": "Progressive",
+        "differentiation": "데이터 기반의 정교한 가격 책정, 혁신적인 상품 (예: Snapshot), 기술 리더십"
+      },
+      {
+        "name": "Citizens Property Insurance Corporation (플로리다 주)",
+        "differentiation": "플로리다 주 정부가 운영하는 '최후의 보루' 보험사로, 민간 시장에서 보험 가입이 어려운 경우 제공"
+      },
+      {
+        "name": "Universal Insurance Holdings",
+        "differentiation": "플로리다 주에 집중된 지역 보험사로, 특정 지역 시장에 대한 깊은 이해와 유연한 상품 제공"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (보험 산업은 높은 자본 요구 사항, 복잡한 규제, 강력한 브랜드 충성도로 인해 진입 장벽이 높지만, Insurtech 스타트업의 기술 기반 혁신으로 일부 틈새시장 진입은 가능)",
+      "substitutes": "low (보험은 법적 요구 사항 및 재정적 보호를 위한 필수적인 서비스로, 직접적인 대체재는 거의 없음. 다만, 자가 보험 또는 정부 지원 프로그램이 일부 대체 역할을 할 수 있음)",
+      "buyer_power": "medium (개별 소비자의 교섭력은 낮지만, 온라인 비교 사이트 및 다양한 선택지로 인해 가격 민감도가 높고 전환 비용이 상대적으로 낮아 구매자의 영향력이 중간 수준)",
+      "supplier_power": "medium (재보험사, 데이터 제공업체, 기술 솔루션 제공업체 등 핵심 공급업체는 전문성과 시장 집중도로 인해 어느 정도의 교섭력을 가짐)",
+      "rivalry": "high (미국 P&C 보험 시장은 수많은 국내외 기업들이 경쟁하는 매우 치열한 시장이며, 특히 플로리다와 같은 자연재해 취약 지역에서는 가격 및 서비스 경쟁이 더욱 심화됨)"
+    },
+    "competitive_advantages": [
+      "데이터 기반의 고급 언더라이팅 및 가격 책정 모델 (AI/ML 활용)",
+      "기술 중심의 효율적인 운영 및 비용 절감",
+      "플로리다 및 동남부 지역 시장에 대한 전문성 및 집중",
+      "인수합병을 통한 빠른 시장 확장 및 규모의 경제 추구"
+    ],
+    "competitive_weaknesses": [
+      "제한적인 지리적 범위 (주로 플로리다에 집중되어 자연재해 위험에 대한 노출도가 높음)",
+      "낮은 브랜드 인지도 및 시장 점유율",
+      "대형 경쟁사 대비 자본력 및 재보험 역량 열위",
+      "규제 환경 변화 및 자연재해 빈도 증가에 따른 높은 사업 리스크"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 74,
+    "score": 59.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 5.963801,
+    "forward_pe": 6.994269,
+    "ev_to_ebitda": 3.194,
+    "price_to_sales": 2.0824444,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 49.07,
+    "outperform_6m_vs_nasdaq": 45.43,
+    "outperform_1m_vs_nasdaq": 12.14,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Item 1. Business: Slide는 독점적인 기술 플랫폼과 데이터 분석 역량을 활용하여 주택 보험 시장에서 경쟁 우위를 확보하고 있습니다. 이는 단순한 보험 상품 판매를 넘어, 정교한 위험 평가 모델과 고객 맞춤형 서비스를 가능하게 합니다.",
+      "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations: Slide의 강력한 브랜드 인지도와 고객 신뢰는 높은 고객 유지율과 신규 고객 유치에 기여하고 있습니다. 이는 무형 자산으로서의 브랜드 가치를 입증합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 기반 위험 평가 모델 고도화 및 신규 주택 보험 상품 출시",
+    "bull_case": "3년 내 시장 점유율 2배 확대, 독점 기술 기반 수익성 극대화",
+    "base_case": "Slide는 독점적인 기술 플랫폼과 데이터 분석 역량을 바탕으로 주택 보험 시장에서 꾸준히 성장할 것입니다. 높은 ROE와 매출 성장을 유지하며, 효율적인 비용 관리를 통해 수익성을 확보할 것으로 예상됩니다. 신규 시장 진출 및 상품 다각화를 통해 장기적인 성장 동력을 확보할 것입니다.",
+    "bear_case": "예상치 못한 규제 강화, 경쟁 심화로 인한 가격 경쟁 압력, 또는 기술 개발 지연으로 인해 성장세가 둔화될 수 있습니다. 자연재해 발생 빈도 증가로 인한 손실률 상승도 수익성에 부정적인 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (TTM)",
+      "ROE",
+      "EPS QoQ YoY",
+      "고객 유지율",
+      "손실률"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "재보험 시장의 변동성으로 인해 재보험 비용이 증가하거나 재보험 가용성이 감소하여 회사의 손실 흡수 능력이 저하될 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "플로리다 주 보험 시장의 규제 변화는 회사의 사업 모델과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "기후 변화로 인한 자연재해(허리케인 등)의 빈도와 강도 증가는 보험금 지급액을 크게 증가시켜 회사의 재무 건전성을 위협할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "플로리다 보험 시장의 치열한 경쟁은 회사의 시장 점유율과 가격 결정력에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "회사의 자본 적정성 유지 실패는 규제 당국의 제재를 받거나 사업 확장에 제약을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "주요 경영진의 이탈 또는 핵심 인력 확보 실패는 회사의 운영 효율성과 성장 전략에 차질을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "투자 포트폴리오의 시장 가치 하락은 회사의 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "연속적인 대규모 자연재해 발생으로 재보험 시장이 붕괴되고 회사가 감당할 수 없는 손실을 입어 파산한다.",
+      "플로리다 주 정부의 급진적인 보험 규제 개혁으로 회사의 사업 모델이 불가능해지거나 수익성이 완전히 사라진다.",
+      "재보험사들이 플로리다 시장에서 철수하여 회사가 재보험을 확보하지 못하고 대규모 손실에 직접 노출되어 도산한다.",
+      "경쟁 심화와 가격 경쟁으로 시장 점유율을 잃고 자본 적정성을 유지하지 못해 사업을 지속할 수 없게 된다."
+    ],
+    "exit_signals": [
+      "재보험 비용이 전년 대비 20% 이상 지속적으로 상승하거나 재보험 가용성이 현저히 감소하는 경우",
+      "플로리다 주 보험 규제 당국이 회사의 사업 모델에 치명적인 영향을 미치는 새로운 규제를 발표하는 경우",
+      "회사의 자본 적정성 비율이 규제 기준치 이하로 떨어지거나 신용 등급이 하향 조정되는 경우",
+      "주요 경영진이 대거 이탈하거나 핵심 기술 인력 확보에 지속적으로 실패하여 사업 운영에 차질이 발생하는 경우"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-11-11T02:53:03.095777+00:00"
+  }
+}

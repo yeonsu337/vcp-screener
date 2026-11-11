@@ -4,60 +4,38 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Medical Care Facilities",
-  "generated_at": "2026-07-14T00:04:43.457634+00:00",
+  "generated_at": "2026-11-11T02:48:48.332680+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "ok",
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6848445952,
-    "shares_outstanding": 158272376,
+    "market_cap": 7793325568,
+    "shares_outstanding": 158723533,
     "employees": 47455,
     "country": "United States",
     "website": "https://pacs.com",
-    "beta": -0.081
+    "beta": -0.141
   },
   "category_a_business": {
-    "overview": "미국 내 요양 시설 및 보조 생활 시설을 운영하는 선도적인 사후 급성기 의료 기업입니다.",
-    "milestones": [
-      "2013: 회사 설립 및 유타주 솔트레이크시티에 본사 설립",
-      "2013-현재: 저성과 장기 요양 시설 인수 및 고부가가치 단기 전환 요양 시설로 전환",
-      "현재: 미국 내 가장 큰 요양 시설 운영사 중 하나로 성장 (시설 수 기준)",
-      "현재: 17개 주에서 321개 사후 급성기 요양 시설 운영",
-      "현재: 일일 31,700명 이상의 환자에게 서비스 제공"
-    ],
-    "business_model": "요양 시설 운영 및 관련 부동산 임대를 통해 수익을 창출합니다.",
-    "revenue_streams": [
-      "숙련 간호 시설(SNF) 서비스",
-      "보조 생활 시설 서비스",
-      "독립 생활 시설 서비스",
-      "요양 시설 부동산 임대",
-      "PACS Services (백오피스 지원 서비스)"
-    ],
-    "value_chain_position": "Downstream + 사후 급성기 의료 서비스 제공 및 시설 운영을 담당합니다.",
+    "overview": "PACS Group, Inc., through its subsidiaries, operates skilled nursing facilities and assisted living facilities in the United States. It also provides senior care and independent living facilities. The company engages in the acquisition, ownership, and leasing of health care-related properties.",
+    "business_model": "PACS Group, Inc., through its subsidiaries, operates skilled nursing facilities and assisted living facilities in the United States.",
     "products": [
-      "숙련 간호 서비스",
-      "보조 생활 서비스",
-      "독립 생활 서비스",
-      "재활 치료",
-      "장기 요양 서비스",
-      "단기 전환 요양 서비스"
+      "skilled nursing facilities and assisted living facilities in the United States",
+      "senior care and independent living facilities"
     ],
     "channels": [
-      "B2C (환자 및 가족)",
-      "B2B (병원 및 의료기관 의뢰)",
-      "D2C (자체 시설 운영)"
-    ],
-    "key_customers": "정보 부족으로 고객 집중도 평가 불가"
+      "B2B / Enterprise"
+    ]
   },
   "category_b_financials": {
-    "roe": 0.27,
-    "roa": 0.04,
-    "profit_margin": 0.04,
-    "operating_margin": 0.08,
-    "gross_margin": 0.17,
-    "revenue_growth_ttm": 0.11,
-    "earnings_growth_ttm": 1.94,
-    "dividend_yield": null,
+    "roe": 0.26,
+    "roa": 0.05,
+    "profit_margin": 0.05,
+    "operating_margin": 0.07,
+    "gross_margin": 0.18,
+    "revenue_growth_ttm": 0.12,
+    "earnings_growth_ttm": 0.16,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.0,
     "annual_revenue": [
       5288932000.0,
@@ -103,164 +81,104 @@
       "2022-12-31"
     ],
     "quarterly_eps": [
+      0.37,
+      0.47,
       0.5,
       null,
       0.32,
       0.31,
-      0.17,
       null
     ],
     "quarterly_revenue": [
+      1498578000.0,
+      1427998000.0,
       1420494000.0,
       1357979000.0,
       1344567000.0,
-      1309236000.0,
-      1277150000.0,
+      null,
       null
     ],
     "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
       "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
+      "2025-03-31"
     ],
-    "eps_qoq_yoy_pct": 183.4,
-    "sales_yoy_pct": 11.2,
+    "eps_qoq_yoy_pct": 16.1,
+    "sales_yoy_pct": 11.5,
     "ni_cagr_3y_pct": 8.37,
-    "roe_pct": 27.11
+    "roe_pct": 26.5
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "1,936억 (2022년, CMS 자료) - 2,833억 (2031년, CMS 정보)",
-    "tam_cagr_pct": "4.3% (CMS 추정) - 미국 전체 숙련 간호 시설(SNF) 산업 지출 증가율에 기반하며, 고령화 및 만성 질환 증가가 주요 요인임.",
-    "growth_drivers": [
-      "미국 고령화 인구 증가 및 만성 질환 유병률 상승",
-      "병원 퇴원 후 회복 및 재활을 위한 단기 전환기 치료 수요 증가",
-      "비용 효율적인 시설 기반 치료에 대한 선호도 증가 (병원 대비)",
-      "인수 및 전환 전략을 통한 고수익 고난이도 단기 치료 시설로의 포트폴리오 전환 성공"
-    ],
-    "market_share_pct": "미공개 (미국 내 SNF 운영사 중 가장 큰 규모 중 하나로 추정)",
-    "competitors": [
-      {
-        "name": "Genesis Healthcare",
-        "differentiation": "미국 내 대규모 숙련 간호 및 재활 서비스 제공업체, 광범위한 서비스 포트폴리오"
-      },
-      {
-        "name": "SavaSeniorCare",
-        "differentiation": "숙련 간호 및 장기 요양 서비스에 중점, 특정 지역에 집중된 운영"
-      },
-      {
-        "name": "Life Care Centers of America",
-        "differentiation": "다양한 유형의 숙련 간호 및 재활 시설 운영, 가족 소유 기업"
-      },
-      {
-        "name": "Kindred Healthcare (현재 Humana의 일부)",
-        "differentiation": "장기 급성 치료 병원(LTAC) 및 재활 시설에 강점, 광범위한 포스트-급성 치료 스펙트럼"
-      }
-    ],
-    "porter_five_forces": {
-      "new_entrants": "medium - 숙련 간호 시설 설립 및 운영에는 상당한 자본 투자, 규제 준수, 숙련된 인력 확보가 필요하지만, 소규모 지역 플레이어의 진입은 가능함.",
-      "substitutes": "medium - 재택 건강 관리, 외래 재활 센터, 보조 생활 시설 등 다양한 대체 옵션이 존재하며, 환자의 상태와 비용 효율성에 따라 선택될 수 있음.",
-      "buyer_power": "high - 환자 및 가족, 그리고 보험사(Medicare, Medicaid, 사보험)가 주요 구매자이며, 이들은 서비스 품질, 비용, 접근성 등에 대한 높은 협상력을 가짐.",
-      "supplier_power": "medium - 의료 장비, 의약품, 숙련된 의료 인력(간호사, 치료사) 등 공급자의 영향력이 존재하지만, 대규모 운영을 통해 어느 정도 협상력을 확보할 수 있음.",
-      "rivalry": "high - 숙련 간호 시설 산업은 경쟁이 치열하며, 특히 지역별로 다수의 운영사가 존재하여 환자 유치 및 보험사 계약을 위한 경쟁이 심함."
-    },
+    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
+    "tam_cagr_pct": "—",
+    "market_share_pct": "—",
     "competitive_advantages": [
-      "대규모 운영 규모 및 시장 리더십 (미국 내 최대 SNF 운영사 중 하나)",
-      "저성과 시설 인수 후 고난이도 단기 전환기 치료 시설로 성공적으로 전환하는 전문성",
-      "현지 주도, 중앙 지원 운영 모델을 통한 자율성 및 효율성 극대화",
-      "업계 평균보다 높은 QM Star 등급 유지 및 개선 능력 (품질 우위)",
-      "환자 및 가족, 의뢰 기관, 보험사, 임상가 모두에게 가치를 제공하는 가치 제안"
-    ],
-    "competitive_weaknesses": [
-      "정부 규제 및 보험 환급 정책 변화에 대한 높은 의존도 및 취약성",
-      "숙련된 의료 인력 확보 및 유지의 어려움 (인력 부족 문제)",
-      "시설 인수 및 통합 과정에서의 운영 및 재무적 위험",
-      "지역별 경쟁 심화 및 시장 포화 가능성"
+      "Healthcare / Medical Care Facilities 카테고리 — yfinance peer 비교 권장"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 95,
-    "score": 66.2,
+    "rs_rating": 92,
+    "score": 56.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.2721,
-    "trailing_pe": 27.91613,
-    "forward_pe": 17.685263,
-    "ev_to_ebitda": 22.833,
-    "price_to_sales": 1.2606955,
+    "peg_ratio": 1.2292,
+    "trailing_pe": 27.897726,
+    "forward_pe": 17.254406,
+    "ev_to_ebitda": 22.363,
+    "price_to_sales": 1.3660401,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 212.9,
-    "outperform_6m_vs_nasdaq": -5.57,
-    "outperform_1m_vs_nasdaq": 23.25,
-    "lynch_category": "Stalwart",
-    "moat_type": "Intangible Assets",
-    "moat_evidence": [
-      "PACS는 저성과 요양시설을 인수하여 고수익 단기 전환기 요양시설로 전환하는 전문성을 보유하고 있으며, 이는 높은 QM(Quality Measure) 별점 등급으로 입증됩니다. (10-K Item 7)",
-      "회사는 '현지 주도, 중앙 지원' 운영 모델을 통해 각 시설의 자율성을 부여하고, 본사는 기술, 지원 및 백오피스 서비스를 제공하여 현지 리더들이 환자 치료에 집중할 수 있도록 합니다. (10-K Item 1)",
-      "PACS는 환자, 가족, 의뢰 기관, 지불자 및 관리자/임상의 등 모든 이해관계자에게 가치를 제공하는 독점적인 운영 모델을 구축했습니다. (10-K Item 7)"
-    ],
-    "moat_durability_years": "5~10년",
-    "new_trigger": "미국 내 고령화 및 만성 질환 증가로 인한 숙련 간호 시설(SNF) 수요 증가",
-    "bull_case": "인수 및 전환 전략 가속화로 시장 점유율 확대 및 수익성 개선, EPS 200% 이상 성장 지속",
-    "base_case": "기존 시설의 효율성 개선 및 선별적 인수를 통해 안정적인 성장세를 유지하며, 산업 평균을 상회하는 수익성을 달성할 것입니다. 고령화 추세에 힘입어 꾸준한 수요 증가가 예상됩니다.",
-    "bear_case": "인수 시설의 통합 실패, 인력 부족 및 인건비 상승, 정부 규제 강화로 인한 수익성 악화 및 성장 둔화가 발생할 수 있습니다.",
-    "key_metrics_to_watch": [
-      "QM(Quality Measure) 별점 등급 변화",
-      "인수 시설 수 및 전환 성공률",
-      "환자당 평균 수익 (Revenue per Patient)",
-      "운영 마진 (OPM) 및 순이익 마진 (NPM)",
-      "시설 점유율 (Occupancy Rate)"
-    ]
+    "outperform_1y_vs_nasdaq": 281.82,
+    "outperform_6m_vs_nasdaq": 56.8,
+    "outperform_1m_vs_nasdaq": 20.63,
+    "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "재무",
-        "description": "메디케어, 메디케이드 및 민간 보험사 등 제3자 지불자로부터의 상환에 크게 의존하며, 환자 구성 및 지불 방식 변화는 수익에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "재무",
-        "description": "고급 간호가 필요한 고중증도 환자 비율이 감소하거나 메디케이드 환자 비율이 증가하면 수익이 감소하고 재정 상태에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "high"
-      },
-      {
-        "category": "경쟁",
-        "description": "주요 보험사 및 관리 의료 회사의 비용 절감 노력과 할인 계약 요구는 서비스에 대한 상환 금액을 감소시켜 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "If any of the following risks and uncertainties develops into actual events or circumstances, they could have a material adverse effect on our business, financial condition and results of operations.",
         "severity": "medium"
       },
       {
-        "category": "재무",
-        "description": "통합 청구 또는 번들 지불 방식 하에서 운영 비용이 상환율보다 불균형적으로 증가할 경우, 제공하는 모든 서비스에 대해 전액 상환받지 못할 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "Changes to federal law affecting Medicaid funding and availability, including the enactment of the OBBBA, may materially affect our business and the operations of our independent subsidiaries.",
         "severity": "medium"
       },
       {
-        "category": "공급망",
-        "description": "간호사, 간호 보조원 및 기타 숙련된 인력의 경쟁 심화 또는 부족은 인건비를 증가시키고 벌금을 부과할 수 있으며, 서비스 품질에 영향을 미칠 수 있습니다.",
-        "severity": "high"
+        "category": "10-K Item 1A",
+        "description": "Increased competition for, or a shortage of, nurses, nurse assistants and other skilled personnel could increase our staffing and labor costs and subject us to monetary fines.",
+        "severity": "medium"
       },
       {
-        "category": "규제",
-        "description": "연방 'No Surprises Act' 또는 유사한 주 법률이 지불자와의 상환율 재협상 수단으로 사용되어 소송으로 이어질 수 있으며, 이는 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "category": "10-K Item 1A",
+        "description": "In addition, if we fail to attract and retain qualified and skilled personnel, our ability to conduct our business operations could be harmed.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If we fail to attract patients and residents and to compete effectively with other healthcare providers, our revenue and profitability may decline and we may incur losses.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, if any of our referral sources have a reduction in patients whom they can refer due to a decrease in their business, our occupancy rate and the quality of our patient mix could suffer.",
         "severity": "medium"
       }
     ],
-    "inversion_scenarios": [
-      "고중증도 환자 유치에 실패하고 메디케이드 환자 비율이 급증하여 상환율이 운영 비용을 감당하지 못하게 되어 재정적 파탄에 이르는 경우.",
-      "주요 보험사 및 관리 의료 회사들이 상환율을 대폭 삭감하고 회사가 이를 수용하지 못하여 환자 유실이 심화되고 수익성이 지속적으로 악화되는 경우.",
-      "숙련된 간호 인력 부족이 심화되어 인건비가 통제 불능 수준으로 상승하고, 이로 인해 서비스 품질 저하 및 규제 벌금 부과로 사업 운영이 불가능해지는 경우."
-    ],
     "exit_signals": [
-      "고중증도 환자 비율이 2분기 연속 5% 이상 감소하거나 메디케이드 환자 비율이 2분기 연속 10% 이상 증가하는 경우.",
-      "주요 관리 의료 계약 중 20% 이상이 상환율 10% 이상 삭감된 조건으로 재계약되거나 계약 갱신에 실패하는 경우.",
-      "간호사 및 기타 숙련 인력의 이직률이 업계 평균 대비 15% 이상 증가하거나, 인건비가 총 수익의 60%를 초과하는 경우."
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-10T04:27:22.336802+00:00"
+    "GoogleWebTranslator": "2026-11-11T02:52:55.860739+00:00"
   }
 }

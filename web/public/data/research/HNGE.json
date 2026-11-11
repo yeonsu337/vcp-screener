@@ -1,0 +1,261 @@
+{
+  "ticker": "HNGE",
+  "company": "Hinge Health, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
+  "generated_at": "2026-11-11T02:33:47.535355+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 9943972864,
+    "shares_outstanding": 62468721,
+    "employees": 1437,
+    "country": "United States",
+    "website": "https://www.hingehealth.com",
+    "beta": null
+  },
+  "category_a_business": {
+    "overview": "HNGE는 기술을 활용하여 근골격계(MSK) 질환 관리를 자동화하고 확장하는 디지털 헬스케어 시스템을 구축합니다.",
+    "milestones": [
+      "2012: 회사 설립",
+      "2022: 여성 골반 건강 전문 프로그램 출시",
+      "2023: 메디케어 어드밴티지 대상 낙상 예방 프로그램 출시",
+      "2025: MSK 케어를 위한 대면 의료 네트워크 HingeSelect 출시 및 판매 시작",
+      "2025: AI 기반 모션 트래킹 기술 TrueMotion 통합"
+    ],
+    "business_model": "자체 보험 기업 및 건강 보험사에 디지털 MSK 관리 솔루션을 제공하고 구독료를 받습니다.",
+    "revenue_streams": [
+      "기업 및 건강 보험사 대상 구독료",
+      "AI 기반 모션 트래킹 기술 사용료",
+      "전기 신경 자극 웨어러블 기기 판매/대여",
+      "대면 의료 네트워크 서비스 수수료"
+    ],
+    "value_chain_position": "Downstream + 최종 고객(환자)에게 직접적인 디지털 치료 솔루션을 제공합니다.",
+    "products": [
+      "AI 기반 모션 트래킹 기술 (TrueMotion)",
+      "전기 신경 자극 웨어러블 기기 (Enso)",
+      "여성 골반 건강 프로그램",
+      "낙상 예방 프로그램",
+      "대면 MSK 의료 네트워크 (HingeSelect)"
+    ],
+    "channels": [
+      "B2B (자체 보험 기업)",
+      "B2B (건강 보험사)",
+      "B2B (주 및 지방 정부, 노동 조합)"
+    ],
+    "key_customers": "주로 자체 보험 기업이며, 다수의 주요 건강 보험사 및 PBM과 파트너십을 맺고 있습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.48,
+    "roa": 0.11,
+    "profit_margin": 0.21,
+    "operating_margin": 0.23,
+    "gross_margin": 0.86,
+    "revenue_growth_ttm": 0.52,
+    "earnings_growth_ttm": null,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      587860000.0,
+      390404000.0,
+      292730000.0
+    ],
+    "annual_operating_income": [
+      -546371000.0,
+      -31910000.0,
+      -130514000.0
+    ],
+    "annual_eps": [
+      -7.77,
+      -0.15,
+      -1.58
+    ],
+    "annual_free_cf": [
+      165377000.0,
+      45229000.0,
+      -68524000.0
+    ],
+    "annual_total_debt": [
+      8039000.0,
+      11072000.0,
+      15732000.0
+    ],
+    "annual_equity": [
+      378536000.0,
+      416702000.0,
+      427278000.0
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31"
+    ],
+    "quarterly_eps": [
+      0.66,
+      0.52,
+      0.41,
+      0.37,
+      -0.02
+    ],
+    "quarterly_revenue": [
+      234970000.0,
+      212817000.0,
+      182307000.0,
+      170726000.0,
+      154211000.0
+    ],
+    "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30"
+    ],
+    "sales_yoy_pct": 52.4,
+    "roe_pct": 47.59
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "213 billion USD (출처: Hinge Health 자체 추정치, 2025년 기준 미국 MSK 시장 규모)",
+    "tam_cagr_pct": "15-20% (근거: 디지털 헬스케어 및 원격 의료 시장의 전반적인 성장세, 고령화로 인한 만성 근골격계 질환 증가, 고용주 및 건강 보험사의 비용 절감 니즈 증대)",
+    "growth_drivers": [
+      "만성 근골격계 질환 유병률 증가 및 관련 의료비 부담 상승",
+      "디지털 헬스케어 기술 발전 및 원격 의료 서비스 수용도 증가",
+      "고용주 및 건강 보험사의 의료 비용 절감 및 직원 건강 증진 노력",
+      "AI 및 웨어러블 기술을 활용한 개인 맞춤형 치료 솔루션 수요 증가",
+      "의료 접근성 개선 및 건강 형평성 증진에 대한 사회적 요구 증대"
+    ],
+    "market_share_pct": "5-10% (estimate, 디지털 MSK 솔루션 시장 내)",
+    "competitors": [
+      {
+        "name": "Teladoc Health (Livongo)",
+        "differentiation": "광범위한 디지털 헬스케어 서비스 포트폴리오를 보유하며, 만성 질환 관리 솔루션과 통합 제공"
+      },
+      {
+        "name": "Omada Health",
+        "differentiation": "당뇨병, 고혈압 등 만성 질환 관리에 특화되어 있으며, 행동 변화 코칭에 강점"
+      },
+      {
+        "name": "Kaia Health",
+        "differentiation": "AI 기반의 MSK 치료 솔루션을 제공하며, 유럽 시장에서 강세"
+      },
+      {
+        "name": "Sword Health",
+        "differentiation": "디지털 물리치료 솔루션을 제공하며, 임상적 유효성 데이터 강조"
+      },
+      {
+        "name": "온라인 물리치료 서비스 제공 스타트업 (예: Physera - Teladoc에 인수)",
+        "differentiation": "특정 니치 시장에 집중하거나, 특정 기술(예: VR)을 활용하여 차별화 시도"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (디지털 헬스케어 시장의 성장 잠재력으로 신규 진입 유인이 높으나, 기술 개발, 임상 검증, 규제 준수, 영업 채널 구축에 상당한 시간과 자본 필요)",
+      "substitutes": "medium (전통적인 물리치료, 수술, 약물 치료 등 다양한 대체재가 존재하며, 환자 선호도 및 비용 효율성에 따라 선택이 달라질 수 있음)",
+      "buyer_power": "high (주요 고객인 자가보험 고용주 및 건강 보험사는 다수의 공급업체로부터 선택할 수 있으며, 비용 효율성, 임상 결과, 사용자 경험을 중요하게 고려함)",
+      "supplier_power": "low (Hinge Health의 핵심 기술은 자체 개발이며, 하드웨어 공급업체나 의료 전문가 인력에 대한 의존도가 상대적으로 낮음)",
+      "rivalry": "high (디지털 MSK 시장은 빠르게 성장하고 있으나, 경쟁이 치열하며 유사한 기술과 서비스를 제공하는 업체들이 많아 가격 및 서비스 경쟁이 심화될 수 있음)"
+    },
+    "competitive_advantages": [
+      "AI 기반 모션 트래킹 기술(TrueMotion) 및 독점적인 전기 신경 자극 웨어러블 기기 보유",
+      "광범위한 MSK 질환 스펙트럼(급성, 만성, 수술 후 재활, 여성 골반 건강, 낙상 예방)을 포괄하는 플랫폼",
+      "주요 건강 보험사 및 PBM(Pharmacy Benefit Manager)과의 강력한 파트너십 네트워크",
+      "자가보험 고용주 대상의 효율적인 Go-to-Market 모델 및 평균 3년의 장기 계약",
+      "연구 중심 조직으로 지속적인 플랫폼 혁신 및 새로운 프로그램 개발"
+    ],
+    "competitive_weaknesses": [
+      "주요 고객이 미국 시장에 집중되어 있어 글로벌 확장성 제한",
+      "디지털 헬스케어 솔루션에 대한 초기 투자 비용 및 기술 도입 장벽 존재 가능성",
+      "사용자 참여 및 지속적인 사용 유도를 위한 끊임없는 노력 필요",
+      "데이터 보안 및 개인 정보 보호에 대한 잠재적 우려",
+      "경쟁사들의 유사 기술 개발 및 시장 진입으로 인한 경쟁 심화 가능성"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 98,
+    "score": 70.2,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": 33.395664,
+    "forward_pe": 37.850426,
+    "ev_to_ebitda": 63.687,
+    "price_to_sales": 12.417239,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 168.49,
+    "outperform_6m_vs_nasdaq": 127.14,
+    "outperform_1m_vs_nasdaq": 26.75,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets | Switching Costs",
+    "moat_evidence": [
+      "AI 기반 모션 트래킹 기술(TrueMotion) 및 독점적인 전기 신경 자극 웨어러블 기기를 통해 MSK(근골격계) 치료를 자동화하고 개인화된 서비스를 제공합니다. 이는 기술적 우위를 통한 무형 자산입니다.",
+      "주로 자가보험 기업 및 건강보험사와 직접 계약하며, 평균 계약 기간이 3년입니다. 일단 계약하면 해당 고객의 유일한 디지털 MSK 치료 제공업체가 되는 경우가 많아 고객 이탈 비용이 발생합니다.",
+      "5대 전국 건강보험사 및 상위 3개 PBM(약국급여관리업체)을 포함한 60개 이상의 파트너와 협력하여 시장 진입 장벽을 높이고 고객 확보에 유리한 위치를 점하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 기반 모션 트래킹 기술(TrueMotion) 고도화 및 새로운 MSK 프로그램 지속 출시",
+    "bull_case": "파트너십 확장 및 AI 기술 고도화로 시장 점유율 확대, 수익성 개선 가속화",
+    "base_case": "기존 고객과의 계약 유지 및 신규 파트너십을 통한 꾸준한 매출 성장과 AI 기반 효율성 증대로 수익성 개선을 지속할 것으로 예상됩니다.",
+    "bear_case": "경쟁 심화로 인한 시장 점유율 하락, AI 기술 개발 지연 또는 규제 강화로 인한 성장 둔화",
+    "key_metrics_to_watch": [
+      "매출 성장률 (TTM)",
+      "OPM 및 NPM 추이",
+      "신규 고객 및 파트너십 계약 건수",
+      "평균 계약 기간"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "재무",
+        "description": "회사는 지속적인 순손실을 기록하고 있으며, 미래에도 비용 증가가 예상되어 수익성을 유지하기 어려울 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거버넌스",
+        "description": "회사의 급격한 성장을 효과적으로 관리하지 못할 경우, 사업 계획 실행 및 경쟁 과제 대응에 실패하여 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "경쟁",
+        "description": "고객 기반 및 회원 유치 노력이 예상보다 어려울 수 있으며, 과거의 성장률을 유지하지 못할 위험이 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "제한적인 운영 이력으로 인해 회사의 현재 사업 및 미래 전망을 평가하기 어렵고, 미래 운영 결과를 예측하기 어렵습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "성장 이니셔티브, 사업 전략 및 운영 계획 실행에 실패하거나 예상보다 비용이 많이 들 경우, 예상되는 이점을 실현하지 못할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "완전 보험 건강 플랜 및 메디케어 어드밴티지 시장으로의 확장은 사업 모델의 변화를 가져오고 재무 성과 및 미래 결과 예측 능력에 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "국제 시장 확장은 추가 비용을 발생시키고, 현지 규제 준수 및 고객 유치에 어려움을 겪을 수 있어 예상보다 낮은 성과를 보일 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "inversion_scenarios": [
+      "회사가 지속적인 순손실을 기록하고 급격한 성장을 효과적으로 관리하지 못하여 자금 고갈 및 파산에 이르는 경우.",
+      "핵심 고객 및 회원 유치에 실패하고 경쟁 심화로 시장 점유율을 잃어 사업 모델이 지속 불가능해지는 경우.",
+      "성장 이니셔티브 및 국제 확장이 예상보다 훨씬 많은 비용을 소모하고 수익을 창출하지 못하여 재정적 압박이 심화되는 경우."
+    ],
+    "exit_signals": [
+      "연간 순손실이 지속적으로 확대되고, 현금 흐름이 악화되어 자금 조달에 실패하는 경우.",
+      "고객 및 회원 성장률이 급격히 둔화되거나 감소하여 시장 점유율이 하락하는 것이 확인되는 경우.",
+      "주요 성장 이니셔티브(예: 완전 보험, 메디케어 어드밴티지, 국제 확장)가 예상보다 훨씬 낮은 성과를 보이거나 중단되는 경우."
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-11-11T02:52:20.411731+00:00"
+  }
+}

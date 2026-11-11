@@ -4,61 +4,64 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Apparel Retail",
-  "generated_at": "2026-07-15T00:04:52.765685+00:00",
+  "generated_at": "2026-11-11T02:34:41.434000+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 6511961600,
-    "shares_outstanding": 79491720,
+    "market_cap": 8833867776,
+    "shares_outstanding": 79764039,
     "employees": 30000,
     "country": "United States",
     "website": "https://www.victoriassecretandco.com",
-    "beta": 2.137
+    "beta": 2.127
   },
   "category_a_business": {
-    "overview": "빅토리아 시크릿은 여성 속옷, 의류, 뷰티 제품을 전문으로 판매하는 글로벌 리테일 기업입니다.",
+    "overview": "빅토리아 시크릿은 여성 속옷, 의류 및 뷰티 제품을 전 세계적으로 판매하는 전문 소매업체입니다.",
     "milestones": [
-      "1977: 빅토리아 시크릿 설립 (원천 데이터에 없으나 일반적 지식으로 추가)",
-      "1982: L Brands (현 Bath & Body Works)에 인수",
-      "2021: L Brands로부터 분사하여 독립 법인 Victoria's Secret & Co. (VSCO)로 상장",
-      "2021: Adore Me 인수 (원천 데이터에 없으나 일반적 지식으로 추가)",
-      "2023: 'Path to Potential' 성장 전략 발표"
+      "1977: 빅토리아 시크릿 설립",
+      "1982: 러스 브랜즈(L Brands)에 인수",
+      "1995: 빅토리아 시크릿 패션쇼 시작",
+      "2002: PINK 브랜드 런칭",
+      "2019: 빅토리아 시크릿 패션쇼 중단 발표",
+      "2021: L Brands에서 분사하여 독립 법인(VSXY)으로 상장",
+      "2022: Adore Me 인수"
     ],
     "business_model": "여성 속옷, 의류, 뷰티 제품을 온/오프라인 채널을 통해 판매하여 수익을 창출합니다.",
     "revenue_streams": [
-      "회사 운영 매장 판매",
-      "자사 웹사이트 및 디지털 채널 판매",
-      "프랜차이즈 및 라이선스 계약",
-      "도매 판매",
-      "Adore Me 구독 서비스"
+      "브라 및 팬티 판매",
+      "란제리 및 잠옷 판매",
+      "의류 및 라운지웨어 판매",
+      "향수 및 바디케어 제품 판매",
+      "프랜차이즈, 라이선스 및 도매 계약"
     ],
-    "value_chain_position": "Downstream + 제품 디자인, 생산 소싱, 마케팅, 유통 및 판매를 직접 수행합니다.",
+    "value_chain_position": "Downstream: 제품 디자인, 소싱, 생산 및 최종 소비자에게 직접 판매하는 소매업체입니다.",
     "products": [
-      "브라 및 팬티",
-      "란제리 및 잠옷",
-      "의류 (라운지웨어, 스포츠웨어, 수영복)",
+      "브라",
+      "팬티",
+      "란제리",
+      "잠옷",
       "향수 및 바디케어",
-      "액세서리"
+      "스포츠웨어 및 수영복"
     ],
     "channels": [
-      "B2C (회사 운영 매장)",
+      "B2C (자사 소매점)",
       "D2C (자사 웹사이트 및 디지털 채널)",
       "프랜차이즈",
       "라이선스",
       "도매"
     ],
-    "key_customers": "고객 집중도는 낮으며, 전 세계 수천만 명의 충성도 높은 여성 고객을 보유하고 있습니다."
+    "key_customers": "특정 고객 집중도에 대한 정보는 공개되지 않았습니다. 전 세계 수천만 명의 충성도 높은 고객을 보유하고 있습니다."
   },
   "category_b_financials": {
-    "roe": 0.32,
-    "roa": 0.06,
-    "profit_margin": 0.03,
-    "operating_margin": 0.05,
-    "gross_margin": 0.37,
-    "revenue_growth_ttm": 0.15,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
+    "roe": 0.47,
+    "roa": 0.07,
+    "profit_margin": 0.05,
+    "operating_margin": 0.08,
+    "gross_margin": 0.38,
+    "revenue_growth_ttm": 0.1,
+    "earnings_growth_ttm": 9.9,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.0,
     "annual_revenue": [
       6553000000.0,
@@ -110,75 +113,173 @@
       "2022-01-31"
     ],
     "quarterly_eps": [
+      2.18,
       0.56,
       2.14,
       -0.46,
       0.2,
-      -0.02,
       null
     ],
     "quarterly_revenue": [
+      1611000000.0,
       1560000000.0,
       2269000000.0,
       1472000000.0,
       1459000000.0,
-      1353000000.0,
       null
     ],
     "quarterly_periods": [
+      "2026-07-31",
       "2026-04-30",
       "2026-01-31",
       "2025-10-31",
       "2025-07-31",
-      "2025-04-30",
-      "2025-01-31"
+      "2025-04-30"
     ],
-    "sales_yoy_pct": 15.3,
+    "eps_qoq_yoy_pct": 1043.8,
+    "sales_yoy_pct": 10.4,
     "ni_cagr_3y_pct": -22.66,
-    "roe_pct": 32.02
+    "roe_pct": 46.91
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 100-150 billion USD (estimate) - 글로벌 여성 속옷 및 의류 시장 규모 추정치 기반. (출처: Statista, Grand View Research 등 시장 조사 보고서 종합)",
+    "tam_cagr_pct": "4-6% (estimate) - 여성 속옷 시장은 꾸준한 성장세를 보이며, 특히 편안함과 기능성을 강조하는 트렌드, 온라인 채널의 확대, 그리고 아시아 시장의 성장이 주요 동인이 될 것으로 예상됩니다.",
+    "growth_drivers": [
+      "브라 전문성 강화: 혁신적인 디자인과 편안함을 강조한 브라 제품군 확대를 통해 핵심 경쟁력을 강화합니다.",
+      "PINK 브랜드 재활성화: 젊은 여성을 위한 트렌디하고 활기찬 라이프스타일 브랜드로서 PINK의 매력을 재정립합니다.",
+      "뷰티 사업 성장 가속화: 향수 및 바디케어 등 뷰티 제품군에 대한 투자를 늘려 새로운 성장 동력을 확보합니다.",
+      "브랜드 이미지 및 시장 진출 전략 진화: 변화하는 소비자 니즈에 맞춰 브랜드 이미지를 현대화하고, 디지털 및 글로벌 시장 진출 전략을 고도화합니다.",
+      "Adore Me를 통한 디지털 네이티브 고객층 확장: 다양한 예산과 라이프스타일을 가진 여성 고객을 포괄하는 디지털 기반의 속옷 브랜드 Adore Me를 통해 시장 점유율을 확대합니다."
+    ],
+    "market_share_pct": "10-15% (estimate) - '세계 최대 속옷 회사'라는 언급과 주요 시장에서의 선도적 위치를 고려한 추정치입니다.",
+    "competitors": [
+      {
+        "name": "Aerie (American Eagle Outfitters)",
+        "differentiation": "바디 포지티브(body positivity) 메시지와 편안함, 포용성을 강조하며 젊은 층에게 어필합니다."
+      },
+      {
+        "name": "Savage X Fenty (Rihanna)",
+        "differentiation": "다양한 체형과 피부색을 포용하는 파격적인 마케팅과 트렌디한 디자인으로 젊은 소비자층을 공략합니다."
+      },
+      {
+        "name": "ThirdLove",
+        "differentiation": "정교한 사이즈 측정 기술과 편안함에 중점을 둔 맞춤형 브라를 제공하며 온라인 판매에 강점을 가집니다."
+      },
+      {
+        "name": "Calvin Klein (PVH Corp.)",
+        "differentiation": "미니멀하고 세련된 디자인, 강력한 브랜드 인지도를 바탕으로 폭넓은 고객층에 어필합니다."
+      },
+      {
+        "name": "Intimissimi (Calzedonia Group)",
+        "differentiation": "유럽 감성의 고급스러운 디자인과 합리적인 가격대를 내세우며 글로벌 시장을 공략합니다."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 온라인 채널을 통한 진입 장벽이 낮아졌으나, 브랜드 인지도, 유통망 구축, 생산 규모의 경제 달성에는 여전히 상당한 투자가 필요합니다.",
+      "substitutes": "medium - 스포츠 브라, 편안한 라운지웨어 등 속옷을 대체할 수 있는 다양한 의류 제품이 존재하며, '노브라' 트렌드도 잠재적 위협입니다.",
+      "buyer_power": "high - 소비자는 다양한 브랜드와 제품 중에서 선택할 수 있으며, 온라인 쇼핑의 발달로 가격 비교가 용이하여 구매자 협상력이 높습니다.",
+      "supplier_power": "low - 의류 생산 공급업체는 다수 존재하며, 특정 공급업체에 대한 의존도가 낮아 공급자 협상력은 낮은 편입니다.",
+      "rivalry": "high - 시장에 다수의 경쟁자가 존재하며, 브랜드 충성도를 높이기 위한 마케팅, 가격 경쟁, 제품 혁신이 치열하게 전개되고 있습니다."
+    },
     "competitive_advantages": [
-      "Consumer Cyclical / Apparel Retail 카테고리 — yfinance peer 비교 권장"
+      "강력한 브랜드 인지도 및 유산: '세계 최대 속옷 회사'로서 오랜 기간 쌓아온 브랜드 인지도와 명성을 보유하고 있습니다.",
+      "광범위한 글로벌 유통망: 미국, 캐나다, 중국 내 약 860개의 직영점과 70개국 이상에 560개 이상의 프랜차이즈/라이선스 매장을 운영합니다.",
+      "다수의 충성 고객 및 활발한 소셜 미디어 커뮤니티: 수천만 명의 활동적이고 충성도 높은 고객층과 높은 참여율을 보이는 소셜 미디어 커뮤니티를 보유하고 있습니다.",
+      "다각화된 브랜드 포트폴리오: Victoria's Secret, PINK, Adore Me를 통해 다양한 연령대와 라이프스타일의 고객층을 공략합니다.",
+      "뷰티 제품군과의 시너지: 향수 및 바디케어 등 뷰티 제품군을 통해 추가적인 매출을 창출하고 브랜드 경험을 확장합니다."
+    ],
+    "competitive_weaknesses": [
+      "과거의 브랜드 이미지 고착화: '섹시함'에 초점을 맞춘 과거의 브랜드 이미지가 변화하는 소비자 트렌드(편안함, 포용성)와 충돌할 수 있습니다.",
+      "디지털 전환 및 온라인 경쟁력 강화 필요: Adore Me 인수를 통해 디지털 역량을 강화하고 있으나, 여전히 온라인 전용 브랜드들과의 경쟁에서 우위를 점하기 위한 노력이 필요합니다.",
+      "오프라인 매장 의존도: 여전히 상당수의 매출이 오프라인 매장에서 발생하며, 매장 운영 효율성 및 트래픽 감소에 대한 대응이 중요합니다.",
+      "수익성 변동성: 비반복적, 비정상적 항목으로 인한 조정 전 영업 이익 및 순이익의 변동성이 존재합니다."
     ]
   },
   "category_d_thesis": {
     "rs_rating": 96,
-    "score": 55.7,
+    "score": 69.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 31.386974,
-    "forward_pe": 15.028406,
-    "ev_to_ebitda": 13.419,
-    "price_to_sales": 0.9633079,
+    "trailing_pe": 24.720982,
+    "forward_pe": 19.51394,
+    "ev_to_ebitda": 15.336,
+    "price_to_sales": 1.2782329,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 301.18,
-    "outperform_6m_vs_nasdaq": 14.02,
-    "outperform_1m_vs_nasdaq": 2.83,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 203.59,
+    "outperform_6m_vs_nasdaq": 150.49,
+    "outperform_1m_vs_nasdaq": 44.99,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "빅토리아 시크릿, 핑크, 아도르 미 브랜드는 전 세계적으로 수천만 명의 충성도 높은 고객과 강력한 브랜드 커뮤니티를 보유하고 있습니다.",
+      "세계 최대의 란제리 회사로서 시장을 선도하는 점유율과 강력한 브랜드 인지도를 통해 경쟁 우위를 확보하고 있습니다.",
+      "혁신적인 제품 컬렉션과 수상 경력에 빛나는 향수 및 바디 케어 제품을 통해 브랜드 가치를 지속적으로 높이고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "브라 전문성 강화, 핑크 브랜드 재활성화, 뷰티 사업 성장, 브랜드 전략 진화 등 'Path to Potential' 성장 계획.",
+    "bull_case": "성장 전략 성공으로 시장 점유율 확대 및 수익성 개선, EPS 20% 이상 성장.",
+    "base_case": "Path to Potential 전략을 통해 점진적인 매출 성장과 수익성 개선을 이루며, 시장 평균 이상의 성과를 지속할 것으로 예상됩니다.",
+    "bear_case": "경쟁 심화, 소비자 선호도 변화, 글로벌 경기 침체 등으로 인해 매출 성장 둔화 및 수익성 악화가 발생할 수 있습니다.",
+    "key_metrics_to_watch": [
+      "조정 영업 이익 (Adjusted Operating Income)",
+      "브랜드별 매출 성장률 (Victoria's Secret, PINK, Adore Me)",
+      "디지털 채널 매출 비중 및 성장률",
+      "신규 고객 확보 및 기존 고객 유지율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "정보 기술 시스템과 관련된 보안 사고 이전에 공개한 바와 같이 2025년 5월 24일에 우리는 정보 기술 시스템과 관련된 보안 사고를 감지했습니다.",
+        "category": "경쟁",
+        "description": "속옷 및 의류 시장의 경쟁 심화로 시장 점유율과 수익성이 위협받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소비자 선호도와 쇼핑 행동의 변화에 적절히 대응하지 못하면 고객 이탈 및 매출 감소로 이어질 수 있습니다.",
         "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "관세 및 무역 정책의 변화는 운영 비용을 증가시키고 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 무역 환경의 불확실성과 거시 경제 변화는 회사의 운영 결과에 광범위한 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "공급망",
+        "description": "공급망 중단 또는 비용 증가는 제품 가용성 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "거버넌스",
+        "description": "정보 기술 시스템의 보안 침해는 고객 데이터 손실, 평판 손상 및 재정적 손실을 초래할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "환율 변동 및 국제 사업 확장에 따른 재무적 위험이 존재합니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "핵심 브랜드인 빅토리아 시크릿과 핑크가 젊은 세대의 선호도를 잃고 시장 관련성을 완전히 상실하여 매출이 급감하고 수익성이 악화될 경우.",
+      "사이버 보안 침해로 인해 대규모 고객 데이터 유출이 발생하고, 이로 인해 브랜드 신뢰도가 치명적으로 손상되어 고객 이탈이 가속화될 경우.",
+      "글로벌 경제 침체와 주요 시장에서의 경쟁 심화가 동시에 발생하여, 회사의 매출과 이익이 지속적으로 감소하고 재무 건전성이 악화될 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "빅토리아 시크릿과 핑크 브랜드의 동일 매장 매출이 4분기 연속 두 자릿수 감소를 기록할 경우.",
+      "주요 경쟁사들이 혁신적인 제품과 마케팅으로 시장 점유율을 크게 확대하고, VSXY의 시장 점유율이 5% 이상 하락하는 것이 확인될 경우.",
+      "대규모 사이버 보안 침해로 인해 고객 데이터가 유출되고, 이로 인해 주요 언론에서 부정적인 보도가 지속적으로 이어질 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-10T04:27:42.240376+00:00"
+    "GoogleWebTranslator": "2026-11-11T02:53:22.530523+00:00"
   }
 }

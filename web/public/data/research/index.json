@@ -76,7 +76,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-26T01:23:01.201183+00:00",
+    "generated_at": "2026-11-11T02:47:44.550616+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -188,6 +188,16 @@
     "primary_total": 13,
     "generated_at": "2026-05-19T00:19:40.646738+00:00",
     "llm_status": "ok"
+  },
+  {
+    "ticker": "BBY",
+    "company": "Best Buy Co., Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:51:31.089407+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "BFH",
@@ -350,6 +360,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "CNK",
+    "company": "Cinemark Holdings, Inc.",
+    "market": "US",
+    "sector": "Communication Services",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:50:29.957547+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "COCO",
     "company": "The Vita Coco Company, Inc.",
     "market": "US",
@@ -366,8 +386,18 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-10-14T01:37:27.259942+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-11-11T02:41:01.089217+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "CROX",
+    "company": "Crocs Inc",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:43:58.670452+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "CRS",
@@ -544,10 +574,10 @@
     "company": "Exelixis, Inc.",
     "market": "US",
     "sector": "Healthcare",
-    "primary_passed": 12,
+    "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-09-29T02:39:00.160378+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-11-11T02:42:57.617261+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "EXPD",
@@ -600,6 +630,16 @@
     "llm_status": "ok"
   },
   {
+    "ticker": "FTDR",
+    "company": "Frontdoor, Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:45:00.693609+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
     "ticker": "FTI",
     "company": "TechnipFMC plc",
     "market": "US",
@@ -626,7 +666,7 @@
     "sector": "Technology",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-10-14T01:35:38.650911+00:00",
+    "generated_at": "2026-11-11T02:35:49.422754+00:00",
     "llm_status": "ok"
   },
   {
@@ -698,6 +738,16 @@
     "primary_total": 13,
     "generated_at": "2026-05-29T00:47:20.781862+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
+  },
+  {
+    "ticker": "HNGE",
+    "company": "Hinge Health, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:33:47.535355+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "HWM",
@@ -1116,8 +1166,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-14T00:04:43.457634+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-11-11T02:48:48.332680+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "PARR",
@@ -1216,7 +1266,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-11T01:00:48.726991+00:00",
+    "generated_at": "2026-11-11T02:46:02.377385+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1250,6 +1300,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "SLDE",
+    "company": "Slide Insurance Holdings, Inc.",
+    "market": "US",
+    "sector": "Financial Services",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:33:09.662744+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "SMTC",
     "company": "Semtech Corporation",
     "market": "US",
@@ -1257,6 +1317,16 @@
     "primary_passed": 12,
     "primary_total": 13,
     "generated_at": "2026-10-06T02:43:44.429349+00:00",
+    "llm_status": "ok"
+  },
+  {
+    "ticker": "SN",
+    "company": "SharkNinja, Inc.",
+    "market": "US",
+    "sector": "Consumer Cyclical",
+    "primary_passed": 13,
+    "primary_total": 13,
+    "generated_at": "2026-11-11T02:32:32.338300+00:00",
     "llm_status": "ok"
   },
   {
@@ -1476,8 +1546,8 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-07-15T00:04:52.765685+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-11-11T02:34:41.434000+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WDC",
@@ -1536,8 +1606,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-09-26T01:20:41.720270+00:00",
-    "llm_status": "ok"
+    "generated_at": "2026-11-11T02:38:24.912673+00:00",
+    "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
     "ticker": "WT",

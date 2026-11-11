@@ -1,0 +1,164 @@
+{
+  "ticker": "CROX",
+  "company": "Crocs Inc",
+  "market": "US",
+  "sector": "Consumer Cyclical",
+  "industry": "Footwear & Accessories",
+  "generated_at": "2026-11-11T02:43:58.670452+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "yf_metadata": {
+    "market_cap": null,
+    "shares_outstanding": null,
+    "employees": null,
+    "country": "",
+    "website": "",
+    "beta": null
+  },
+  "category_a_business": {},
+  "category_b_financials": {
+    "roe": 0.49,
+    "roa": 0.13,
+    "profit_margin": 0.16,
+    "operating_margin": 0.22,
+    "gross_margin": 0.58,
+    "revenue_growth_ttm": 0.05,
+    "earnings_growth_ttm": 0.67,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      4040647000.0,
+      4102108000.0,
+      3962347000.0,
+      3554985000.0
+    ],
+    "annual_operating_income": [
+      887630000.0,
+      1045993000.0,
+      1046070000.0,
+      850756000.0
+    ],
+    "annual_eps": [
+      -1.5,
+      15.88,
+      12.79,
+      8.71
+    ],
+    "annual_free_cf": [
+      659200000.0,
+      923139000.0,
+      814819000.0,
+      498952000.0,
+      null
+    ],
+    "annual_total_debt": [
+      1613849000.0,
+      1701296000.0,
+      1996360000.0,
+      2594964000.0,
+      null
+    ],
+    "annual_equity": [
+      1293283000.0,
+      1835732000.0,
+      1453923000.0,
+      817931000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31"
+    ],
+    "quarterly_eps": [
+      4.52,
+      4.13,
+      2.71,
+      2.03,
+      2.7,
+      null
+    ],
+    "quarterly_revenue": [
+      1042583000.0,
+      1179468000.0,
+      921457000.0,
+      957640000.0,
+      996301000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": 48.7,
+    "sales_yoy_pct": 4.6,
+    "roe_pct": 49.06
+  },
+  "category_c_market": {},
+  "category_d_thesis": {
+    "rs_rating": 85,
+    "score": 69.5,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": null,
+    "trailing_pe": null,
+    "forward_pe": null,
+    "ev_to_ebitda": null,
+    "price_to_sales": null,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 93.53,
+    "outperform_6m_vs_nasdaq": 64.67,
+    "outperform_1m_vs_nasdaq": 44.58
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "10-K Item 1A",
+        "description": "Although we plan to limit our promotional activity, these foregoing factors may require us to reduce our sales prices to retailers and consumers, which could cause our gross margin to decline.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In addition, changes in our customer, channel, and geographic sales mix could have a negative impact on our profitability.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "Any of these outcomes could have a material adverse effect on our business, financial condition, and results of operations.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "If we are unable to do so successfully, our brands may be adversely affected, and we may not be able to maintain or grow our current revenue and profit levels.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "New footwear models, collaborations, and licenses that we introduce may not be successful with consumers or our brands may fall out of favor with consumers.",
+        "severity": "medium"
+      },
+      {
+        "category": "10-K Item 1A",
+        "description": "In producing new footwear models, collaborations, and licenses, we may encounter difficulties that we did not anticipate during the product development stage.",
+        "severity": "medium"
+      }
+    ],
+    "exit_signals": [
+      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
+      "EX1: -8% 초기 손절 라인 도달",
+      "EX5: 피크에서 -15% 트레일링",
+      "EX7: 단일세션 -10%↓ 급락"
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-11-11T02:52:00.534653+00:00"
+  }
+}

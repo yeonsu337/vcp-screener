@@ -4,38 +4,38 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-09-11T01:00:48.726991+00:00",
+  "generated_at": "2026-11-11T02:46:02.377385+00:00",
   "primary_passed": 12,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 33947832320,
-    "shares_outstanding": 445277344,
+    "market_cap": 39933034496,
+    "shares_outstanding": 445265805,
     "employees": 100,
     "country": "United States",
     "website": "https://www.royaltypharma.com",
-    "beta": 0.43
+    "beta": 0.358
   },
   "category_a_business": {
-    "overview": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다. 포트폴리오는 희귀질환, 종양학, 신경과학, 전염병, 혈액학, 당뇨병 등 다양한 치료 분야를 다루는 약 35개 시판 치료법과 20개 개발 단계 제품 후보에 대한 로열티로 구성된다. 이 회사는 자가면역질환용 임상시험용 의약품인 JNJ-4804의 개발을 진전시키기 위해 연구개발 자금 협력을 진행하고 있습니다.",
-    "business_model": "Royalty Pharma plc는 미국 바이오제약 산업의 혁신 자금 제공자이자 바이오제약 로열티 구매자로 활동하고 있습니다.",
+    "overview": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases.",
+    "business_model": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States.",
     "products": [
-      "미국 세인트의 바이오의약품 로열티 구매자이자 바이오의약품 산업 혁신의 자금 제공자로서"
+      "as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United St"
     ],
     "channels": [
-      "B2B / 기업"
+      "B2B / Enterprise"
     ]
   },
   "category_b_financials": {
-    "roe": null,
-    "roa": null,
-    "profit_margin": null,
-    "operating_margin": null,
-    "gross_margin": null,
-    "revenue_growth_ttm": null,
-    "earnings_growth_ttm": null,
-    "dividend_yield": null,
-    "payout_ratio": null,
+    "roe": 0.12,
+    "roa": 0.05,
+    "profit_margin": 0.26,
+    "operating_margin": 0.81,
+    "gross_margin": 1.0,
+    "revenue_growth_ttm": 0.13,
+    "earnings_growth_ttm": -0.51,
+    "dividend_yield": 1.37,
+    "payout_ratio": 0.6,
     "annual_revenue": [
       2378193000.0,
       2263576000.0,
@@ -51,7 +51,7 @@
       null
     ],
     "annual_eps": [
-      1.37,
+      1.78,
       1.45,
       2.53,
       0.1,
@@ -86,33 +86,33 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
-      0.03,
-      0.53,
+      0.32,
+      0.04,
+      0.67,
       0.38,
-      0.51,
-      0.05,
+      0.66,
       null
     ],
     "quarterly_revenue": [
+      690103000.0,
       674141000.0,
       630576000.0,
       621990000.0,
       609291000.0,
-      578665000.0,
       null
     ],
     "quarterly_periods": [
+      "2026-09-30",
       "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
+      "2025-06-30"
     ],
-    "eps_qoq_yoy_pct": -44.4,
-    "sales_yoy_pct": 16.5,
+    "eps_qoq_yoy_pct": -49.1,
+    "sales_yoy_pct": 13.3,
     "ni_cagr_3y_pct": 162.07,
-    "roe_pct": 13.96
+    "roe_pct": 12.09
   },
   "category_c_market": {
     "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
@@ -123,47 +123,47 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 54.9,
+    "rs_rating": 72,
+    "score": 53.5,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 1.4113,
-    "trailing_pe": 32.63889,
-    "forward_pe": 10.245831,
-    "ev_to_ebitda": 24.437,
-    "price_to_sales": 13.38638,
+    "peg_ratio": 2.0851,
+    "trailing_pe": 45.392155,
+    "forward_pe": 11.748604,
+    "ev_to_ebitda": 24.801,
+    "price_to_sales": 15.260197,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 53.32,
-    "outperform_6m_vs_nasdaq": 18.1,
-    "outperform_1m_vs_nasdaq": 6.32,
+    "outperform_1y_vs_nasdaq": 62.95,
+    "outperform_6m_vs_nasdaq": 38.19,
+    "outperform_1m_vs_nasdaq": 28.8,
     "lynch_category": "Stalwart"
   },
   "category_e_risks": {
     "top_risks": [
       {
         "category": "10-K Item 1A",
-        "description": "현재 당사에 알려지지 않았거나 현재 중요하지 않다고 간주되는 추가 위험 및 불확실성도 당사의 사업을 손상시킬 수 있습니다.",
+        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "위험 요소 요약 당사의 사업은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있는 위험을 포함하여 다양한 위험에 노출되어 있습니다.",
+        "description": "Summary of Risk Factors Our business is subject to a number of risks, including risks that may adversely affect our business, financial condition or results of operations.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "로열티 시장은 과거와 같은 속도로 성장하지 못할 수도 있고, 전혀 성장하지 못할 수도 있으며, 사업 성장을 지속할 만큼 충분한 로열티를 확보하지 못할 수도 있습니다.",
+        "description": "The royalty market may not grow at the same rate as it has in the past, or at all, and we may not be able to acquire sufficient royalties to sustain the growth of our business.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "결과적으로, 우리는 계속해서 로열티를 획득하지 못하거나 과거처럼 비즈니스를 성장시키지 못할 수도 있습니다.",
+        "description": "As a result, we may not be able to continue to acquire royalties or otherwise grow our business as we have in the past, or at all.",
         "severity": "medium"
       },
       {
         "category": "10-K Item 1A",
-        "description": "그러한 자산으로 인한 손실은 당사의 사업, 재무 상태 또는 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
+        "description": "Losses from such assets could adversely affect our business, financial condition or results of operations.",
         "severity": "medium"
       },
       {
@@ -181,6 +181,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-10T04:27:23.924847+00:00"
+    "GoogleWebTranslator": "2026-11-11T02:53:01.327081+00:00"
   }
 }
