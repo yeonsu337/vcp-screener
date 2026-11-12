@@ -1,31 +1,31 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "PACS",
-  "generated_at": "2026-11-11T02:31:53.898625+00:00",
-  "source_results_date": "2026-11-11",
-  "verdict": "WATCH",
-  "verdict_kr": "관망",
-  "confidence": 0.7,
+  "generated_at": "2026-11-12T03:36:39.919143+00:00",
+  "source_results_date": "2026-11-12",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.83,
   "lines": [
-    "시장 약세 — 매수 신호 자체 보류.",
-    "관망 — Stage 2 진입, VCP 미숙성(수축 4회, 마지막 9.90%).",
-    "13주 베이스 18.5% → 13.7% → 6.8% → 9.9%, VDU 1.43×, pivot $50.38(-3.20%).",
-    "Trend Template 8/8 통과, RS 92 — 추세는 살아있음.",
-    "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
+    "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
+    "매수 대기 — Stage 2 진입, pivot $51.68 근접(-3.13%).",
+    "13주 베이스 18.5% → 13.7% → 6.8% → 9.9% 수축, VDU 1.22× 진행.",
+    "Trend Template 8/8 통과, RS 92, RS 라인 신고가 -3.8%.",
+    "$51.68 돌파 시 매수·-7% 손절($48.06)·+20%($62.02) 절반 익절."
   ],
   "action": {
-    "entry_type": "none",
-    "entry_price": null,
-    "stop_price": null,
-    "stop_pct": null,
-    "target1_price": null,
-    "target1_pct": null,
-    "trailing_rule": null,
+    "entry_type": "pivot_breakout",
+    "entry_price": 51.68,
+    "stop_price": 48.06,
+    "stop_pct": -7.0,
+    "target1_price": 62.02,
+    "target1_pct": 20.0,
+    "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "3/8",
+    "vcp_quality_score": "4/8",
     "rs_rating": 92,
     "stage": 2,
     "base_count": 2,
@@ -50,10 +50,9 @@
   ],
   "key_failures": [
     "P2_last_contraction (9.90% vs 6.5%)",
-    "P3_vol_dryup (1.43× vs 0.6×)",
+    "P3_vol_dryup (1.22× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)",
-    "rs_line (-5.4% vs ≥-5.0%)"
+    "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": []
 }

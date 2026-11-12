@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:51:31.305204+00:00",
+  "generated_at": "2026-11-12T03:43:38.379210+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -46,12 +46,6 @@
         "trades": 1,
         "avg_return_pct": -4.2,
         "win_rate_pct": 0.0
-      },
-      {
-        "primary_passed": 12,
-        "trades": 1,
-        "avg_return_pct": 21.94,
-        "win_rate_pct": 100.0
       }
     ],
     "rule_hit_rate_diff": [],
@@ -62,17 +56,10 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 45,
-      "win_rate_pct": 57.8,
-      "avg_return_pct": 5.52,
+      "trades": 46,
+      "win_rate_pct": 58.7,
+      "avg_return_pct": 5.88,
       "best_return_pct": 91.6
-    },
-    {
-      "sector": "Healthcare",
-      "trades": 1,
-      "win_rate_pct": 100.0,
-      "avg_return_pct": 21.94,
-      "best_return_pct": 21.9
     }
   ],
   "market_breakdown": {

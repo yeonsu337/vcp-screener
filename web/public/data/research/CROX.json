@@ -1,27 +1,61 @@
 {
   "ticker": "CROX",
-  "company": "Crocs Inc",
+  "company": "Crocs, Inc.",
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Footwear & Accessories",
-  "generated_at": "2026-11-11T02:43:58.670452+00:00",
+  "generated_at": "2026-11-12T03:40:00.746862+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": null,
-    "shares_outstanding": null,
-    "employees": null,
-    "country": "",
-    "website": "",
-    "beta": null
+    "market_cap": 7315091456,
+    "shares_outstanding": 45725039,
+    "employees": 8010,
+    "country": "United States",
+    "website": "https://www.crocs.com",
+    "beta": 1.498
   },
-  "category_a_business": {},
+  "category_a_business": {
+    "overview": "크록스는 캐주얼 신발 및 액세서리를 디자인, 제조, 유통하는 글로벌 기업입니다. 크록스 및 헤이듀드 브랜드를 보유하고 있습니다.",
+    "milestones": [
+      "1999: 회사 설립",
+      "2002: 첫 크록스 클로그 출시",
+      "2006: 나스닥 상장 (CROX)",
+      "2021: 이탈리아 신발 브랜드 HEYDUDE 인수 (25억 달러)",
+      "2025: 연간 매출 33억 달러 달성"
+    ],
+    "business_model": "독자적인 소재와 디자인으로 편안하고 개성 있는 캐주얼 신발을 판매합니다.",
+    "revenue_streams": [
+      "크록스 브랜드 신발 및 액세서리 판매",
+      "HEYDUDE 브랜드 신발 판매",
+      "도매 판매",
+      "직영 소매점 판매",
+      "전자상거래 및 제3자 마켓플레이스 판매"
+    ],
+    "value_chain_position": "Downstream + 신발 디자인, 개발, 제조, 마케팅, 유통 및 판매를 모두 수행하는 통합 기업입니다.",
+    "products": [
+      "클로그 (Classic Clog)",
+      "샌들 (웨지, 플립, 슬라이드)",
+      "HEYDUDE 로퍼 (Wally, Wendy)",
+      "지비츠 참 (Jibbitz™ charms)",
+      "부츠, 슬리퍼, 스니커즈 등 다양한 신발",
+      "가방, 양말 등 액세서리"
+    ],
+    "channels": [
+      "도매 (Wholesale)",
+      "직영 소매점 (Retail stores)",
+      "전자상거래 (E-commerce sites)",
+      "제3자 마켓플레이스 (Third-party marketplaces)",
+      "아울렛 및 키오스크"
+    ],
+    "key_customers": "특정 고객에 대한 매출 집중도는 낮으며, 전 세계 다양한 연령대의 일반 소비자를 대상으로 합니다."
+  },
   "category_b_financials": {
     "roe": 0.49,
     "roa": 0.13,
     "profit_margin": 0.16,
-    "operating_margin": 0.22,
+    "operating_margin": 0.21,
     "gross_margin": 0.58,
     "revenue_growth_ttm": 0.05,
     "earnings_growth_ttm": 0.67,
@@ -100,65 +134,154 @@
     "sales_yoy_pct": 4.6,
     "roe_pct": 49.06
   },
-  "category_c_market": {},
+  "category_c_market": {
+    "tam_estimate_usd_b": "2023년 글로벌 신발 시장 약 4,000억 달러 (Statista 추정) + 캐주얼 신발 시장은 이 중 상당 부분을 차지하며, Crocs의 두 브랜드(Crocs, HEYDUDE)가 모두 캐주얼 신발 시장에 속함. 정확한 캐주얼 신발 시장 규모는 특정하기 어려우나, 전체 신발 시장의 50% 이상으로 추정 시 약 2,000억 달러 이상.",
+    "tam_cagr_pct": "5-7% (estimate) + 캐주얼화, 편안함, 개인화 등 글로벌 메가트렌드와 일치하며, 신흥 시장(중국, 인도 등)에서의 성장 잠재력이 높음. 특히 Crocs 브랜드의 샌들 및 라이프스타일 제품 확장과 HEYDUDE 브랜드의 제품 다각화 전략이 성장을 견인할 것으로 예상됨.",
+    "growth_drivers": [
+      "캐주얼화, 편안함, 개인화 등 글로벌 메가트렌드에 부합하는 제품 포지셔닝",
+      "Crocs 브랜드의 아이코닉한 클로그, 샌들, 지비츠 참을 통한 인지도 및 관련성 증대 전략",
+      "HEYDUDE 브랜드의 다재다능함, 쉬운 착용감, 편안함을 기반으로 한 캐주얼 신발 시장 확장",
+      "제품군 다각화를 통한 착용 기회 확대 (예: Crocs 샌들, HEYDUDE 스니커즈, 드레스 캐주얼, 부츠 등)",
+      "중국, 인도, 일본, 한국, 미국, 서유럽 등 주요 시장에 대한 투자 우선순위 지정 및 시장 점유율 확대"
+    ],
+    "market_share_pct": "1-2% (estimate) + 글로벌 신발 시장 규모 대비 Crocs의 매출액을 고려할 때, 특정 캐주얼 신발 시장 내에서는 더 높을 수 있으나 전체 신발 시장에서는 낮은 편으로 추정됨.",
+    "competitors": [
+      {
+        "name": "Nike (Converse, Jordan 등)",
+        "differentiation": "스포츠웨어 기반의 강력한 브랜드 인지도, 광범위한 제품 포트폴리오, 혁신적인 기술력"
+      },
+      {
+        "name": "Adidas (Reebok 등)",
+        "differentiation": "스포츠 및 라이프스타일 분야의 글로벌 리더, 다양한 협업 및 패션 트렌드 주도"
+      },
+      {
+        "name": "Skechers",
+        "differentiation": "편안함과 가성비를 강조한 캐주얼 및 퍼포먼스 신발, 넓은 유통망"
+      },
+      {
+        "name": "Deckers Brands (UGG, Hoka 등)",
+        "differentiation": "프리미엄 캐주얼 및 퍼포먼스 신발 브랜드 포트폴리오, 특정 니치 시장에서의 강점"
+      },
+      {
+        "name": "Birkenstock",
+        "differentiation": "독특한 해부학적 디자인과 편안함을 강조한 샌들 및 슈즈, 오랜 역사와 브랜드 충성도"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium + 신발 산업은 브랜드 인지도, 유통망 구축, 디자인 및 생산 역량에 상당한 투자가 필요하지만, 특정 니치 시장이나 온라인 채널을 통한 소규모 브랜드 진입은 비교적 용이함.",
+      "substitutes": "high + 운동화, 구두, 부츠, 슬리퍼 등 다양한 종류의 신발이 존재하며, 소비자의 취향과 착용 목적에 따라 쉽게 대체될 수 있음. 패션 트렌드 변화에 민감함.",
+      "buyer_power": "high + 소비자는 다양한 브랜드와 제품 중에서 선택할 수 있으며, 가격 민감도가 높고 온라인 정보 접근성이 좋음. 할인 및 프로모션에 대한 기대가 높음.",
+      "supplier_power": "low + 신발 제조는 전 세계적으로 분산되어 있으며, Crocs는 여러 공급업체와 거래하여 특정 공급업체에 대한 의존도가 낮음. 원자재 가격 변동성은 존재하나, 공급업체 자체의 교섭력은 제한적.",
+      "rivalry": "high + 글로벌 및 지역 단위로 수많은 신발 브랜드가 경쟁하고 있으며, 디자인, 가격, 마케팅, 유통 채널 등 다양한 측면에서 치열한 경쟁이 이루어지고 있음."
+    },
+    "competitive_advantages": [
+      "Crocs 브랜드의 독특하고 아이코닉한 디자인 (클로그) 및 높은 브랜드 인지도",
+      "편안함과 실용성을 강조하는 제품 DNA가 캐주얼화 트렌드와 부합",
+      "지비츠 참을 통한 강력한 개인화 및 커스터마이징 기회 제공",
+      "HEYDUDE 브랜드 인수를 통한 캐주얼 신발 시장 내 포트폴리오 확장 및 시너지",
+      "글로벌 유통망 및 디지털 판매 채널(자사 웹사이트, 제3자 마켓플레이스, 이테일러)의 강점"
+    ],
+    "competitive_weaknesses": [
+      "Crocs 브랜드의 디자인이 특정 소비자층에게는 호불호가 갈릴 수 있음",
+      "패션 트렌드 변화에 대한 민감성 및 유행에 따른 매출 변동 가능성",
+      "HEYDUDE 브랜드의 미국 시장 외 글로벌 인지도 및 확장성 부족",
+      "경쟁사 대비 기술 혁신 또는 프리미엄 포지셔닝 부족",
+      "해외 현금 보유 및 송환 관련 세금 및 법적 제약 가능성"
+    ]
+  },
   "category_d_thesis": {
-    "rs_rating": 85,
-    "score": 69.5,
+    "rs_rating": 88,
+    "score": 69.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": null,
-    "trailing_pe": null,
-    "forward_pe": null,
-    "ev_to_ebitda": null,
-    "price_to_sales": null,
+    "peg_ratio": 1.39,
+    "trailing_pe": 12.092215,
+    "forward_pe": 9.9918995,
+    "ev_to_ebitda": 9.307,
+    "price_to_sales": 1.7836692,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 93.53,
-    "outperform_6m_vs_nasdaq": 64.67,
-    "outperform_1m_vs_nasdaq": 44.58
+    "outperform_1y_vs_nasdaq": 107.68,
+    "outperform_6m_vs_nasdaq": 68.59,
+    "outperform_1m_vs_nasdaq": 42.51,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Crocs 브랜드의 클래식 클로그, 샌들, 지비츠 참, HEYDUDE 브랜드의 Wally 및 Wendy와 같은 '아이콘' 제품을 통해 강력한 브랜드 인지도를 구축하고 있습니다.",
+      "소비자들이 원하는 편안함과 스타일을 결합한 혁신적인 캐주얼 신발을 제공하며, '캐주얼화, 편안함, 개인화'와 같은 글로벌 메가트렌드에 부합하는 제품 철학을 가지고 있습니다.",
+      "협업 및 브랜드 활성화를 통해 브랜드 인지도를 높이고, 다양한 제품군 다각화를 통해 새로운 소비자를 유치하고 기존 소비자를 유지하려는 전략을 가지고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "클로그, 샌들, 개인화 제품군 다각화 및 HEYDUDE 브랜드의 스니커즈, 드레스 캐주얼 확장",
+    "bull_case": "글로벌 시장 확장과 제품 다각화 성공으로 매출 및 이익률 지속 성장, 주가 긍정적 흐름",
+    "base_case": "Crocs 브랜드의 견조한 성장과 HEYDUDE 브랜드의 안정화로 꾸준한 매출 및 이익 성장, 시장 기대치 부합",
+    "bear_case": "소비자 선호도 변화, 경쟁 심화, HEYDUDE 브랜드의 성장 둔화로 매출 및 이익 감소, 주가 하락",
+    "key_metrics_to_watch": [
+      "Crocs 및 HEYDUDE 브랜드별 매출 성장률",
+      "국제 시장 매출 비중 및 성장률",
+      "신제품 출시 및 협업 성과",
+      "영업이익률 (OPM) 및 순이익률 (NPM)",
+      "재고 수준 및 재고 회전율"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Although we plan to limit our promotional activity, these foregoing factors may require us to reduce our sales prices to retailers and consumers, which could cause our gross margin to decline.",
+        "category": "경쟁",
+        "description": "신발 산업은 경쟁이 매우 치열하며, 많은 경쟁사들이 크록스보다 더 큰 재정 자원, 광범위한 제품 라인, 강력한 브랜드 인지도를 가지고 있어 시장 점유율과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "크록스의 성공은 Crocs 및 HEYDUDE 브랜드 가치에 크게 의존하며, 이 브랜드들이 유행에 뒤떨어지거나 매력적이지 않게 인식될 경우 매출과 수익이 감소할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "과거 급성장 후 매출 감소와 손실을 겪었던 전례가 있으며, HEYDUDE 브랜드의 가치 하락 및 미국 소비자 수요 약화로 인해 미래에도 유사한 재무적 어려움을 겪을 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "In addition, changes in our customer, channel, and geographic sales mix could have a negative impact on our profitability.",
+        "category": "거시",
+        "description": "미국 소비자 수요 약화, 관세 등 거시 경제 요인이 HEYDUDE 브랜드의 성장을 저해하고 전반적인 사업 실적에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Any of these outcomes could have a material adverse effect on our business, financial condition, and results of operations.",
+        "category": "경쟁",
+        "description": "경쟁 심화, 인플레이션 압력, 과도한 재고 수준 등으로 인해 가격 압박이 심화되어 판매 가격 인하 및 매출 총이익 감소로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If we are unable to do so successfully, our brands may be adversely affected, and we may not be able to maintain or grow our current revenue and profit levels.",
+        "category": "규제",
+        "description": "제품 품질 저하, 비윤리적 또는 사회적 무책임한 행동, 법규 미준수, 또는 규제 및 법적 조치에 대한 부정적인 홍보가 브랜드 평판과 소비자 신뢰를 손상시킬 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "New footwear models, collaborations, and licenses that we introduce may not be successful with consumers or our brands may fall out of favor with consumers.",
+        "category": "고객집중도",
+        "description": "소셜 미디어는 부정적인 주장이나 홍보의 확산을 가속화하고 증폭시켜 브랜드 이미지와 평판에 심각한 피해를 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "In producing new footwear models, collaborations, and licenses, we may encounter difficulties that we did not anticipate during the product development stage.",
-        "severity": "medium"
+        "category": "경쟁",
+        "description": "위조품 생산 및 지적 재산권 침해는 브랜드 이미지를 손상시키고 매출을 감소시켜 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "Crocs 및 HEYDUDE 브랜드가 소비자들에게 유행에 뒤떨어지거나 매력적이지 않게 인식되어 매출이 급감하고 시장 점유율을 상실하는 경우.",
+      "경쟁 심화와 가격 압박으로 인해 지속적으로 마진이 하락하고 수익성이 악화되어 재무적 어려움에 처하는 경우.",
+      "소셜 미디어를 통한 대규모 부정적 홍보나 제품 안전 문제로 인해 브랜드 신뢰도가 치명적으로 손상되어 장기적인 수요 감소로 이어지는 경우.",
+      "HEYDUDE 브랜드의 성장 정체와 가치 하락이 지속되고, 미국 소비자 수요 약화 등 거시 경제 요인이 복합적으로 작용하여 전사적인 실적 부진을 겪는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "Crocs 및 HEYDUDE 브랜드의 분기별 매출이 전년 동기 대비 2분기 연속 10% 이상 감소하는 경우.",
+      "매출 총이익률이 2분기 연속 5%p 이상 하락하고, 경쟁사 대비 현저히 낮은 수준을 유지하는 경우.",
+      "주요 소셜 미디어 플랫폼에서 브랜드에 대한 부정적인 언급이 급증하고, 소비자 만족도 지표가 지속적으로 하락하는 경우.",
+      "HEYDUDE 브랜드의 무형자산 손상차손이 추가로 발생하거나, 해당 브랜드의 성장 전망이 추가적으로 하향 조정되는 경우."
     ]
   },
-  "wikipedia_summary": "",
+  "wikipedia_summary": "Crocs, Inc. is an American footwear company based in Broomfield, Colorado, which manufactures and markets the Crocs brand of foam footwear. Crocs, Inc. terms these \"clogs\", but they do not contain wood like traditional clogs. In 2021, they acquired the Italian footwear brand HEYDUDE for $2.5 billion. In 2025, Crocs revenue stood at $3.3 billion, an increase of 1.5% from the previous year.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-11T02:52:00.534653+00:00"
+    "GoogleWebTranslator": "2026-11-12T03:44:04.856505+00:00"
   }
 }

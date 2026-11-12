@@ -1,0 +1,272 @@
+{
+  "ticker": "TGTX",
+  "company": "TG Therapeutics, Inc.",
+  "market": "US",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
+  "generated_at": "2026-11-12T03:39:21.221656+00:00",
+  "primary_passed": 12,
+  "primary_total": 13,
+  "llm_status": "ok",
+  "yf_metadata": {
+    "market_cap": 9939481600,
+    "shares_outstanding": 151147827,
+    "employees": 399,
+    "country": "United States",
+    "website": "https://www.tgtherapeutics.com",
+    "beta": 1.808
+  },
+  "category_a_business": {
+    "overview": "TG 테라퓨틱스는 B세포 매개 질환 치료제를 개발 및 상업화하는 상업 단계 바이오 제약 회사입니다.",
+    "milestones": [
+      "1993: 회사 설립",
+      "2022: FDA, 재발성 다발성 경화증(RMS) 치료제 BRIUMVI 승인",
+      "2023: 미국 내 BRIUMVI 상업적 출시",
+      "2023: Neuraxpharm과 BRIUMVI의 미국 외 지역 상업화 계약 체결",
+      "2024: Neuraxpharm을 통해 유럽 시장(독일)에 BRIUMVI 출시",
+      "2025: 피하 주사형 ublituximab의 3상 임상 프로그램 등록 시작"
+    ],
+    "business_model": "B세포 질환 치료제 개발, 상업화 및 라이선싱을 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "BRIUMVI 판매 (미국)",
+      "BRIUMVI 판매 (미국 외 지역, 파트너십)",
+      "라이선스 계약 및 마일스톤 지급",
+      "미래 파이프라인 제품 상업화"
+    ],
+    "value_chain_position": "Midstream / downstream + 신약 개발부터 상업화 및 유통까지 전 과정을 수행합니다.",
+    "products": [
+      "BRIUMVI (ublituximab-xiiy)",
+      "Ublituximab IV (개발 중)",
+      "TG-1701 (개발 중)",
+      "TG-1801 (개발 중)"
+    ],
+    "channels": [
+      "B2B (의료기관, 약국)",
+      "B2C (환자 대상 마케팅 및 교육)",
+      "파트너십 (미국 외 지역 상업화)"
+    ],
+    "key_customers": "주요 고객은 재발성 다발성 경화증 환자 및 이들을 치료하는 의료 전문가입니다. 특정 고객에 대한 매출 집중도는 낮습니다."
+  },
+  "category_b_financials": {
+    "roe": 0.18,
+    "roa": 0.09,
+    "profit_margin": 0.12,
+    "operating_margin": 0.21,
+    "gross_margin": 0.83,
+    "revenue_growth_ttm": 0.61,
+    "earnings_growth_ttm": -0.86,
+    "dividend_yield": 0.0,
+    "payout_ratio": 0.0,
+    "annual_revenue": [
+      616287000.0,
+      329004000.0,
+      233662000.0,
+      2785000.0,
+      null
+    ],
+    "annual_operating_income": [
+      123324000.0,
+      41929000.0,
+      20633000.0,
+      -218316000.0,
+      null
+    ],
+    "annual_eps": [
+      2.77,
+      0.15,
+      0.09,
+      -1.46,
+      null
+    ],
+    "annual_free_cf": [
+      -24986000.0,
+      -40562000.0,
+      -31413000.0,
+      -176184000.0,
+      null
+    ],
+    "annual_total_debt": [
+      253710000.0,
+      253719000.0,
+      110795000.0,
+      83060000.0,
+      null
+    ],
+    "annual_equity": [
+      648020000.0,
+      222364000.0,
+      160502000.0,
+      58587000.0,
+      null
+    ],
+    "annual_periods": [
+      "2025-12-31",
+      "2024-12-31",
+      "2023-12-31",
+      "2022-12-31",
+      "2021-12-31"
+    ],
+    "quarterly_eps": [
+      0.35,
+      0.05,
+      0.12,
+      0.14,
+      2.43,
+      null
+    ],
+    "quarterly_revenue": [
+      259936000.0,
+      240335000.0,
+      204918000.0,
+      192574000.0,
+      161709000.0,
+      null
+    ],
+    "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
+      "2026-03-31",
+      "2025-12-31",
+      "2025-09-30",
+      "2025-06-30"
+    ],
+    "eps_qoq_yoy_pct": -85.8,
+    "sales_yoy_pct": 60.7,
+    "roe_pct": 17.99
+  },
+  "category_c_market": {
+    "tam_estimate_usd_b": "28.0 billion (2023년 기준, Multiple Sclerosis 치료제 시장 규모 추정치) + 출처: Grand View Research, Fortune Business Insights 등 시장 조사 보고서 종합 추정",
+    "tam_cagr_pct": "6-8% (향후 3~5년) + 근거: 다발성 경화증(MS) 유병률 증가, 신약 개발 및 치료 옵션 확대, 진단 기술 발전, 고령화 사회 진입에 따른 만성 질환 관리 수요 증가",
+    "growth_drivers": [
+      "BRIUMVI의 미국 및 유럽 시장 침투 및 점유율 확대",
+      "피하주사형 ublituximab 개발을 통한 환자 편의성 증대 및 시장 경쟁력 강화",
+      "myasthenia gravis (MG) 및 진행성 다발성 경화증(PMS) 등 파이프라인 확장을 통한 적응증 확대",
+      "Christina Applegate과의 협업 등 MS 인식 제고 캠페인을 통한 브랜드 인지도 및 환자 접근성 향상"
+    ],
+    "market_share_pct": "1-3% (2024년 기준, 초기 상업화 단계로 추정)",
+    "competitors": [
+      {
+        "name": "Roche (Ocrevus)",
+        "differentiation": "선발 주자로서 강력한 시장 지배력, 광범위한 임상 데이터 및 장기 안전성 프로파일, IV 및 SC 제형 모두 보유"
+      },
+      {
+        "name": "Novartis (Kesimpta)",
+        "differentiation": "자가 투여 가능한 피하주사형으로 환자 편의성 극대화, 강력한 임상 효능"
+      },
+      {
+        "name": "Sanofi (Aubagio)",
+        "differentiation": "경구용 치료제로 복용 편의성, 오랜 기간 사용된 안전성 데이터"
+      },
+      {
+        "name": "Biogen (Tysabri, Tecfidera)",
+        "differentiation": "다양한 기전의 MS 치료제 포트폴리오 보유, 오랜 기간 축적된 시장 경험 및 영업망"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low + 신약 개발의 높은 비용, 복잡한 규제 승인 절차, 오랜 임상 기간, 기존 시장 선점 기업들의 강력한 브랜드 인지도 및 영업망",
+      "substitutes": "medium + 기존 경구용, 주사형, IV 주사형 등 다양한 기전과 투여 방식의 MS 치료제가 존재하며, 환자 개개인의 선호도 및 질병 상태에 따라 대체 가능성이 있음",
+      "buyer_power": "medium + 환자(소비자)는 치료제 선택에 있어 의사의 권고를 따르지만, 보험사의 약가 협상력 및 환자들의 치료제 접근성 요구가 존재",
+      "supplier_power": "low + 바이오 의약품 생산에 필요한 원료 및 기술 공급업체는 다수 존재하며, 특정 공급업체에 대한 의존도가 높지 않음",
+      "rivalry": "high + 다수의 글로벌 제약사들이 MS 치료제 시장에서 경쟁하고 있으며, 혁신적인 신약 개발 및 마케팅 활동을 통해 시장 점유율 확보를 위한 치열한 경쟁"
+    },
+    "competitive_advantages": [
+      "BRIUMVI의 6개월 1회 투여 (1시간 주입) 편의성: 기존 IV 제형 대비 투여 빈도 및 시간 단축",
+      "ULITMATE I & II 임상에서 teriflunomide 대비 우월한 효능 (ARR, 병변 감소)",
+      "피하주사형 ublituximab 개발을 통한 환자 편의성 추가 개선 및 시장 경쟁력 확보 가능성",
+      "Christina Applegate과의 협업을 통한 MS 환자 커뮤니티 내 인지도 및 신뢰도 구축"
+    ],
+    "competitive_weaknesses": [
+      "후발 주자로서 기존 시장 선점 기업 대비 낮은 브랜드 인지도 및 시장 점유율",
+      "제한적인 파이프라인 (주로 B-세포 질환에 집중) 및 단일 상업화 제품에 대한 높은 의존도",
+      "글로벌 영업 및 마케팅 역량 부족 (유럽 시장은 Neuraxpharm과의 파트너십에 의존)",
+      "경쟁사 대비 상대적으로 적은 임상 데이터 및 장기 안전성 프로파일 부족"
+    ]
+  },
+  "category_d_thesis": {
+    "rs_rating": 92,
+    "score": 67.8,
+    "vcp_quality": 0.0,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 1.61,
+    "trailing_pe": 95.30435,
+    "forward_pe": 24.862005,
+    "ev_to_ebitda": 49.019,
+    "price_to_sales": 11.071387,
+    "stop_loss_pct": -7.0,
+    "outperform_1y_vs_nasdaq": 108.79,
+    "outperform_6m_vs_nasdaq": 57.73,
+    "outperform_1m_vs_nasdaq": 27.41,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "BRIUMVI는 미국 FDA 및 여러 해외 규제 기관으로부터 재발성 다발성 경화증(RMS) 치료제로 승인받았으며, 이는 신약 개발 및 승인 과정의 높은 진입 장벽을 의미합니다.",
+      "ULTIMATE I & II 3상 임상 시험에서 테리플루노마이드 대비 연간 재발률(ARR) 및 병변 감소에서 우월성을 입증하여, 경쟁 약물 대비 차별화된 임상적 효능을 보유하고 있습니다.",
+      "신경계 질환 전문 유럽 제약사인 Neuraxpharm과의 BRIUMVI 해외 상업화 계약은 글로벌 시장 접근성을 확대하고, 강력한 파트너십을 통해 시장 침투력을 강화합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "크리스티나 애플게이트와 협력하여 MS 인식 제고 캠페인 'Next In MS™' 런칭 및 Super Bowl LX 광고 집행",
+    "bull_case": "BRIUMVI의 글로벌 시장 침투 가속화 및 적응증 확대 성공으로 매출 및 수익성 급증",
+    "base_case": "BRIUMVI는 RMS 시장에서 점진적으로 시장 점유율을 확대하며 안정적인 매출 성장을 이어갈 것입니다. Neuraxpharm과의 파트너십을 통해 유럽 시장에서의 입지를 강화하고, 피하주사 제형 개발 및 중증근무력증(MG) 임상 진전으로 장기적인 성장 동력을 확보할 것입니다. 다만, 경쟁 심화 및 임상 결과에 따른 변동성은 존재합니다.",
+    "bear_case": "BRIUMVI의 시장 침투가 예상보다 더디고, 경쟁 약물과의 차별화에 실패하며 매출 성장이 정체될 수 있습니다. 또한, 파이프라인 개발 지연 또는 임상 실패 시 투자 심리가 위축되고 주가 하락으로 이어질 수 있습니다.",
+    "key_metrics_to_watch": [
+      "BRIUMVI 매출 성장률 (분기별)",
+      "BRIUMVI 처방 건수 및 시장 점유율",
+      "파이프라인 임상 시험 결과 및 규제 승인 진행 상황",
+      "해외 시장 (특히 유럽) 상업화 성과"
+    ]
+  },
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "BRIUMVI가 다발성 경화증 치료 시장에서 경쟁 제품 대비 충분한 효능, 안전성, 편의성, 가격 경쟁력을 확보하지 못하면 시장 점유율 확보에 어려움을 겪을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "FDA 및 기타 규제 기관의 시판 승인 조건(예: 시판 후 연구, 라벨링 제한)을 충족하지 못하거나, 제조 공정 및 품질 관리 기준을 위반할 경우 제품 판매에 제약이 생길 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "BRIUMVI가 의사, 환자, 보험사 등 의료 커뮤니티로부터 광범위한 시장 수용을 얻지 못하면 제품 판매 수익이 제한될 것입니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "BRIUMVI의 시장 수용이 저조하여 충분한 매출을 창출하지 못하면 회사의 수익성 및 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "면역억제제에 대한 전 세계적인 건강 우려(예: 감염 위험 증가)가 BRIUMVI의 상업적 잠재력을 저해할 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "재무",
+        "description": "시판 후 연구 및 기타 규제 준수 활동에 상당한 비용이 발생하며, 이는 회사의 재정적 부담을 가중시킬 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "회사는 상업화 경험이 제한적이므로, 바이오 제약 산업에서 의약품 상업화와 관련된 위험을 성공적으로 극복할 수 있을지 불확실합니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "BRIUMVI가 시장에서 경쟁 제품에 밀려 매출이 급감하고, 후속 파이프라인 개발도 실패하여 회사가 지속적인 손실을 기록하며 자본이 고갈됩니다.",
+      "FDA 또는 기타 주요 규제 기관이 BRIUMVI의 심각한 부작용을 발견하여 판매 승인을 철회하거나, 라벨링을 대폭 제한하여 사실상 시장성이 상실됩니다.",
+      "글로벌 팬데믹 또는 기타 보건 위기로 인해 면역억제제에 대한 대중의 인식이 극도로 악화되어 BRIUMVI의 처방이 급격히 감소합니다."
+    ],
+    "exit_signals": [
+      "BRIUMVI의 분기별 매출이 시장 예상치를 2분기 연속 20% 이상 하회하고, 시장 점유율이 지속적으로 하락하는 경우.",
+      "FDA 또는 EMA가 BRIUMVI에 대한 새로운 심각한 안전성 경고를 추가하거나, 기존 적응증에 대한 판매를 제한하는 규제 조치를 발표하는 경우.",
+      "주요 경쟁사가 BRIUMVI보다 월등히 우수한 효능 또는 안전성을 가진 신약을 출시하여 BRIUMVI의 시장 경쟁력이 현저히 약화되는 경우."
+    ]
+  },
+  "wikipedia_summary": "",
+  "translated_at": {
+    "GoogleWebTranslator": "2026-11-12T03:45:18.492299+00:00"
+  }
+}

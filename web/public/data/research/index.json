@@ -196,7 +196,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:51:31.089407+00:00",
+    "generated_at": "2026-11-12T03:43:38.146415+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -386,18 +386,18 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:41:01.089217+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-11-12T03:37:19.179033+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "CROX",
-    "company": "Crocs Inc",
+    "company": "Crocs, Inc.",
     "market": "US",
     "sector": "Consumer Cyclical",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:43:58.670452+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-11-12T03:40:00.746862+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "CRS",
@@ -576,8 +576,8 @@
     "sector": "Healthcare",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:42:57.617261+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-11-12T03:38:42.483293+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "EXPD",
@@ -636,7 +636,7 @@
     "sector": "Consumer Cyclical",
     "primary_passed": 13,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:45:00.693609+00:00",
+    "generated_at": "2026-11-12T03:42:37.193493+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1166,7 +1166,7 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:48:48.332680+00:00",
+    "generated_at": "2026-11-12T03:41:35.119915+00:00",
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
@@ -1410,6 +1410,16 @@
     "llm_status": "desk-research (no LLM): rate-limited (429)"
   },
   {
+    "ticker": "TGTX",
+    "company": "TG Therapeutics, Inc.",
+    "market": "US",
+    "sector": "Healthcare",
+    "primary_passed": 12,
+    "primary_total": 13,
+    "generated_at": "2026-11-12T03:39:21.221656+00:00",
+    "llm_status": "ok"
+  },
+  {
     "ticker": "THR",
     "company": "Thermon Group Holdings, Inc.",
     "market": "US",
@@ -1606,8 +1616,8 @@
     "sector": "Healthcare",
     "primary_passed": 12,
     "primary_total": 13,
-    "generated_at": "2026-11-11T02:38:24.912673+00:00",
-    "llm_status": "desk-research (no LLM): rate-limited (429)"
+    "generated_at": "2026-11-12T03:38:01.855633+00:00",
+    "llm_status": "ok"
   },
   {
     "ticker": "WT",

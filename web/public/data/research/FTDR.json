@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Personal Services",
-  "generated_at": "2026-11-11T02:45:00.693609+00:00",
+  "generated_at": "2026-11-12T03:42:37.193493+00:00",
   "primary_passed": 13,
   "primary_total": 13,
   "llm_status": "desk-research (no LLM): rate-limited (429)",
   "yf_metadata": {
-    "market_cap": 6657465856,
+    "market_cap": 6614209536,
     "shares_outstanding": 67588489,
     "employees": 2034,
     "country": "United States",
@@ -33,7 +33,7 @@
     "roe": 0.9,
     "roa": 0.12,
     "profit_margin": 0.13,
-    "operating_margin": 0.26,
+    "operating_margin": 0.2,
     "gross_margin": 0.55,
     "revenue_growth_ttm": 0.06,
     "earnings_growth_ttm": 0.16,
@@ -126,20 +126,20 @@
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 84,
-    "score": 59.6,
+    "rs_rating": 82,
+    "score": 56.3,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.38,
-    "trailing_pe": 24.56359,
-    "forward_pe": 19.060556,
-    "ev_to_ebitda": 13.754,
-    "price_to_sales": 3.0468953,
+    "trailing_pe": 24.403988,
+    "forward_pe": 18.936712,
+    "ev_to_ebitda": 13.672,
+    "price_to_sales": 3.0270982,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 95.03,
-    "outperform_6m_vs_nasdaq": 61.85,
-    "outperform_1m_vs_nasdaq": 34.23,
+    "outperform_1y_vs_nasdaq": 87.95,
+    "outperform_6m_vs_nasdaq": 59.77,
+    "outperform_1m_vs_nasdaq": 32.12,
     "lynch_category": "Slow Grower"
   },
   "category_e_risks": {
@@ -184,6 +184,6 @@
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-11T02:52:18.886741+00:00"
+    "GoogleWebTranslator": "2026-11-12T03:44:23.773900+00:00"
   }
 }
