@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Consumer Cyclical",
   "industry": "Personal Services",
-  "generated_at": "2026-11-12T03:42:37.193493+00:00",
+  "generated_at": "2026-11-13T03:12:21.066305+00:00",
   "primary_passed": 13,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 6614209536,
+    "market_cap": 6449293312,
     "shares_outstanding": 67588489,
     "employees": 2034,
     "country": "United States",
@@ -17,17 +17,36 @@
     "beta": 1.599
   },
   "category_a_business": {
-    "overview": "Frontdoor, Inc. provides home warranties and new home builder warranties in the United States. The company offers customizable home warranties that help customers to protect and maintain their homes from costly and unplanned breakdowns of essential home systems and appliances.",
-    "business_model": "Frontdoor, Inc.",
+    "overview": "Frontdoor는 미국 주택 소유주에게 주택 보증 및 관련 서비스를 제공하는 선도 기업입니다.",
+    "milestones": [
+      "1971: American Home Shield 설립 (Frontdoor의 전신)",
+      "1989: ServiceMaster에 인수",
+      "2018: ServiceMaster로부터 분사하여 Frontdoor, Inc.로 독립 상장",
+      "2019: 비보증 주택 서비스 확장 (앱 기반 서비스 출시)",
+      "2020: AI 및 AR 기술 활용한 홈케어 솔루션 도입",
+      "2021: 2-10 HBW 브랜드 인수 (신규 주택 건설업자 보증 강화)"
+    ],
+    "business_model": "연간 서비스 플랜 구독을 통해 주택 시스템 및 가전제품 수리/교체 서비스를 제공합니다.",
+    "revenue_streams": [
+      "주택 보증 플랜 구독료",
+      "신규 주택 건설업자 보증 서비스",
+      "비보증 주택 수리/유지보수 서비스",
+      "서비스 콜 수수료"
+    ],
+    "value_chain_position": "Downstream + 주택 소유주에게 직접 서비스를 제공하며 최종 소비자와 접점에 있습니다.",
     "products": [
-      "home warranties and new home builder warranties in the United States",
-      "customizable home warranties that help customers to protect and maintain their homes from costly and unplanned breakdow",
-      "non-warranty home services through website and applicatio",
-      "under the American Home Shield, HSA, OneGuard, Landmark, and 2-10 HBW brand names"
+      "American Home Shield 주택 보증",
+      "HSA 주택 보증",
+      "OneGuard 주택 보증",
+      "Landmark 주택 보증",
+      "2-10 HBW 신규 주택 건설업자 보증",
+      "비보증 주택 수리/유지보수 앱 서비스"
     ],
     "channels": [
-      "B2C / Retail"
-    ]
+      "B2C (직접 판매, 온라인)",
+      "B2B (부동산 중개인, 신규 주택 건설업자 파트너십)"
+    ],
+    "key_customers": "수백만 명의 개별 주택 소유주가 주요 고객이며, 특정 고객에 대한 매출 집중도는 낮습니다."
   },
   "category_b_financials": {
     "roe": 0.9,
@@ -118,72 +137,134 @@
     "roe_pct": 90.33
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "40-50 estimate (미국 주택 시장 규모 및 주택 유지보수 지출 기반 추정)",
+    "tam_cagr_pct": "3-5% (주택 노후화 가속화, 주택 소유주의 유지보수 부담 증가, 주택 거래량 증가에 따른 수요 증가 예상)",
+    "growth_drivers": [
+      "주택 노후화 가속화 및 유지보수 필요성 증대",
+      "주택 소유주의 예기치 못한 수리 비용에 대한 위험 회피 심리",
+      "주택 거래량 증가에 따른 신규 주택 보증 및 기존 주택 보증 수요 증가",
+      "비보증 홈 서비스(HVAC 업그레이드, 스마트 홈 기기 설치 등) 제공을 통한 추가 수익 창출",
+      "인수합병을 통한 시장 점유율 확대 및 서비스 포트폴리오 강화"
+    ],
+    "market_share_pct": "30-40% estimate (미국 주택 보증 시장 선두 기업임을 감안)",
+    "competitors": [
+      {
+        "name": "Choice Home Warranty",
+        "differentiation": "경쟁력 있는 가격과 다양한 플랜 옵션으로 시장 점유율 확대"
+      },
+      {
+        "name": "Select Home Warranty",
+        "differentiation": "고객 서비스 및 빠른 클레임 처리 강조"
+      },
+      {
+        "name": "Liberty Home Guard",
+        "differentiation": "맞춤형 서비스와 유연한 플랜 제공"
+      },
+      {
+        "name": "Old Republic Home Protection",
+        "differentiation": "부동산 중개인과의 강력한 파트너십을 통한 시장 접근"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (초기 자본 투자 및 서비스 네트워크 구축의 어려움이 있으나, 온라인 플랫폼 기반의 신규 진입 가능성 존재)",
+      "substitutes": "medium (DIY 수리, 개별 수리업체 고용, 주택 보험 등이 대체재로 존재하나, 편리성과 비용 예측 가능성에서 차별화)",
+      "buyer_power": "medium (소비자는 다양한 주택 보증 회사 중에서 선택할 수 있으며, 온라인 리뷰 및 비교를 통해 정보 접근성이 높음)",
+      "supplier_power": "low (수리 서비스 제공업체는 다수 존재하며, FTDR은 대규모 계약을 통해 협상력을 가짐)",
+      "rivalry": "high (다수의 경쟁사가 존재하며, 가격 경쟁 및 서비스 차별화를 위한 노력이 치열함)"
+    },
     "competitive_advantages": [
-      "Consumer Cyclical / Personal Services 카테고리 — yfinance peer 비교 권장"
+      "미국 내 선두 주택 보증 제공업체로서의 강력한 브랜드 인지도 및 시장 점유율",
+      "American Home Shield, HSA, OneGuard, Landmark, 2-10 HBW 등 다수의 강력한 브랜드 포트폴리오",
+      "광범위한 서비스 네트워크 및 숙련된 서비스 제공업체 풀",
+      "맞춤형 주택 보증 플랜 및 비보증 홈 서비스 제공을 통한 고객 가치 증대",
+      "2-10 HBW 인수를 통한 신규 주택 건설 시장에서의 입지 강화"
+    ],
+    "competitive_weaknesses": [
+      "서비스 품질 및 고객 만족도에 대한 잠재적 불만 (클레임 처리 지연, 수리 품질 문제 등)",
+      "경제 침체 시 주택 거래량 감소 및 소비자 지출 감소에 따른 실적 영향 가능성",
+      "경쟁 심화로 인한 가격 압박 및 마진 감소 위험",
+      "기술 변화에 대한 적응 (스마트 홈 기기 증가에 따른 보증 범위 조정 등)"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 82,
-    "score": 56.3,
+    "rs_rating": 79,
+    "score": 53.6,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 2.38,
-    "trailing_pe": 24.403988,
-    "forward_pe": 18.936712,
-    "ev_to_ebitda": 13.672,
-    "price_to_sales": 3.0270982,
+    "trailing_pe": 23.79551,
+    "forward_pe": 18.464552,
+    "ev_to_ebitda": 13.359,
+    "price_to_sales": 2.9516218,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 87.95,
-    "outperform_6m_vs_nasdaq": 59.77,
-    "outperform_1m_vs_nasdaq": 32.12,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 76.87,
+    "outperform_6m_vs_nasdaq": 57.93,
+    "outperform_1m_vs_nasdaq": 29.87,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets | Switching Costs",
+    "moat_evidence": [
+      "미국 주택 보증 시장의 선두 주자로서 American Home Shield, HSA, OneGuard, Landmark, 2-10 HBW 등 다수의 강력한 브랜드를 보유하고 있습니다.",
+      "고객들은 일반적으로 연간 서비스 플랜에 가입하며, 이는 주택 시스템 및 가전제품 고장 시 수리 또는 교체를 보장하여 높은 전환 비용을 발생시킵니다.",
+      "2025년 12월 31일 기준 약 210만 개의 활성 주택 보증 계약을 보유하고 있으며, 이는 상당한 규모의 고객 기반을 의미합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2-10 HBW 인수를 통한 시장 점유율 확대 및 신규 주택 건설 보증 시장 강화",
+    "bull_case": "2-10 HBW 인수 시너지 극대화 및 비보증 서비스 확장으로 3년 내 EPS 20% 이상 성장",
+    "base_case": "2-10 HBW 통합을 통한 안정적인 시장 지위 유지 및 점진적인 비보증 서비스 매출 증가로 연간 6~8% 매출 성장",
+    "bear_case": "경기 침체로 인한 주택 시장 둔화 및 경쟁 심화로 고객 이탈 가속화, 수익성 악화",
+    "key_metrics_to_watch": [
+      "활성 주택 보증 계약 수",
+      "비보증 서비스 매출 성장률",
+      "2-10 HBW 통합 시너지 및 비용 절감 효과"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties, not currently known to us or those we currently view to be immaterial may also materially and adversely affect our business, financial condition or results of operations.",
+        "category": "거시",
+        "description": "인플레이션, 금리 상승, 주택 판매 감소 등 거시 경제 상황 변화는 소비자 지출과 서비스 수요에 부정적인 영향을 미쳐 사업 실적을 악화시킬 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "사업 전략, 특히 성장 목표를 성공적으로 구현하지 못할 경우, 신규 사업 이니셔티브의 기대 효과를 달성하지 못하고 경쟁 우위를 잃을 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Changes in general economic conditions and consumer confidence, particularly in our largest regions—California, Florida and Texas—could adversely affect the demand for our services.",
+        "category": "재무",
+        "description": "신규 서비스 및 제품 출시, 브랜드 리뉴얼, 인수합병 등에 상당한 비용이 발생할 수 있으며, 이러한 투자가 예상만큼 매출 증대나 고객 기반 확대, 수익성 개선으로 이어지지 않을 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Changing interest rates could continue to affect mortgage rates and negatively impact our business.",
+        "category": "고객집중도",
+        "description": "캘리포니아, 플로리다, 텍사스 등 주요 지역의 경제 상황 및 소비자 신뢰도 변화는 서비스 수요에 직접적인 영향을 미쳐 사업 실적에 부정적인 영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "We may not successfully implement our business strategies, including achieving our growth objectives.",
-        "severity": "medium"
+        "category": "거버넌스",
+        "description": "효율성 개선 및 성장 이니셔티브를 계획대로 구현하지 못하거나 예산 초과가 발생할 경우, 예상되는 비용 절감 및 효율성 향상을 달성하지 못하고 고객 유지 또는 운영에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "low"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "We may incur significant costs to implement our strategies, service and product offerings, which may not succeed in increasing revenue, growing our customer base or growing profitability.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "We will incur certain costs or may offer certain discounts to achieve efficiency improvements and growth in our business, and we may not meet anticipated implementation timetables or stay within budgeted costs or plans.",
+        "category": "경쟁",
+        "description": "주택 보증 및 비보증 판매를 늘리기 위한 마케팅 노력이 성공적이지 않거나 비용 효율적이지 않을 경우, 고객 유치 및 브랜드 인지도 향상에 어려움을 겪을 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "급격한 경기 침체와 주택 시장 붕괴로 인해 주택 보증 및 관련 서비스 수요가 급감하고, 동시에 마케팅 및 운영 비용이 통제 불능 상태가 되어 회사가 지속적인 손실을 기록할 경우.",
+      "핵심 사업 전략(예: 2-10 HBW 인수 통합 실패, 신규 서비스 실패)이 완전히 실패하고, 경쟁사들이 혁신적인 서비스로 시장을 장악하여 고객 기반이 급격히 축소될 경우.",
+      "주요 지역의 소비자 신뢰가 장기간 회복되지 않고, 높은 금리가 지속되어 주택 거래량이 극도로 위축되어 회사의 매출이 지속적으로 감소하고 재무 건전성이 악화될 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "분기별 실적 발표에서 주요 성장 지표(예: 신규 고객 유치, 서비스 계약 갱신율)가 2분기 연속 예상치를 크게 하회할 경우.",
+      "주요 거시 경제 지표(예: 주택 판매량, 소비자 신뢰 지수)가 지속적으로 악화되고, 회사가 이에 대한 효과적인 대응 전략을 제시하지 못할 경우.",
+      "2-10 HBW 인수 통합에 심각한 문제가 발생하여 시너지 효과가 미미하거나 오히려 비용 부담만 가중된다는 공식 발표가 있을 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-12T03:44:23.773900+00:00"
+    "GoogleWebTranslator": "2026-11-13T03:13:39.818066+00:00"
   }
 }

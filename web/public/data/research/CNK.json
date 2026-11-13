@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Communication Services",
   "industry": "Entertainment",
-  "generated_at": "2026-11-11T02:50:29.957547+00:00",
+  "generated_at": "2026-11-13T03:11:44.706763+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 4772346880,
+    "market_cap": 4804795904,
     "shares_outstanding": 115889924,
     "employees": 8451,
     "country": "United States",
@@ -17,43 +17,43 @@
     "beta": 1.043
   },
   "category_a_business": {
-    "overview": "시네마크 홀딩스는 미국 및 라틴 아메리카에서 극장을 운영하는 영화 상영 사업자입니다.",
+    "overview": "시네마크 홀딩스는 미국 및 라틴 아메리카에서 영화관을 운영하는 극장 체인입니다.",
     "milestones": [
       "1977: 시네마크 홀딩스 설립 및 운영 시작",
       "1984: Cinemark Holdings, Inc. 법인 설립",
-      "2007: 뉴욕 증권 거래소(NYSE) 상장 (티커: CNK)",
-      "2025: 뉴욕 증권 거래소 텍사스 상장",
+      "2007: 뉴욕 증권 거래소 상장 (티커: CNK)",
+      "2025: 뉴욕 증권 거래소 텍사스에 상장",
       "2026: 미국 42개 주 및 라틴 아메리카 13개국에 495개 극장, 5,620개 스크린 운영"
     ],
-    "business_model": "영화 상영 및 관련 서비스 제공을 통해 수익을 창출합니다.",
+    "business_model": "영화 상영 및 관련 식음료 판매를 통해 수익을 창출합니다.",
     "revenue_streams": [
       "영화 티켓 판매",
-      "매점(팝콘, 음료 등) 판매",
+      "매점(음료, 팝콘 등) 판매",
       "광고 수익",
-      "프라이빗 이벤트 및 대관"
+      "프라이빗 이벤트 및 단체 대여"
     ],
-    "value_chain_position": "Downstream: 영화 배급사로부터 영화 콘텐츠를 받아 최종 소비자에게 상영합니다.",
+    "value_chain_position": "Downstream + 영화 배급사로부터 콘텐츠를 받아 최종 소비자에게 상영 서비스를 제공합니다.",
     "products": [
-      "영화 상영 (2D, 3D, XD 등)",
-      "음료 및 스낵 (팝콘, 탄산음료, 캔디 등)",
-      "극장 내 광고 공간",
-      "단체 관람 및 이벤트 패키지"
+      "영화 상영 서비스",
+      "팝콘, 음료, 스낵",
+      "극장 내 광고",
+      "프리미엄 좌석 및 상영관"
     ],
     "channels": [
-      "B2C (극장 현장 및 온라인 예매)",
-      "B2B (단체 판매 및 기업 제휴)"
+      "B2C (온라인 예매, 현장 매표소)",
+      "B2B (단체 관람, 기업 이벤트)"
     ],
-    "key_customers": "주로 일반 대중을 대상으로 하며, 특정 고객에 대한 높은 집중도는 없습니다."
+    "key_customers": "고객 집중도는 낮으며, 일반 대중을 대상으로 합니다."
   },
   "category_b_financials": {
     "roe": 0.58,
     "roa": 0.07,
     "profit_margin": 0.08,
-    "operating_margin": 0.19,
+    "operating_margin": 0.15,
     "gross_margin": 0.5,
     "revenue_growth_ttm": 0.23,
     "earnings_growth_ttm": 1.6,
-    "dividend_yield": 0.88,
+    "dividend_yield": 0.87,
     "payout_ratio": 0.15,
     "annual_revenue": [
       3115000000.0,
@@ -136,33 +136,139 @@
     "roe_pct": 57.94
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "20-25 billion USD (estimate) - 글로벌 영화관 산업 규모는 팬데믹 이후 회복세를 보이고 있으나, 스트리밍 서비스의 성장으로 인해 과거 최고치에는 미치지 못하고 있습니다. 다양한 시장 조사 기관의 보고서를 종합하여 추정했습니다.",
+    "tam_cagr_pct": "3-5% (estimate) - 팬데믹 이후 극장 관람 수요가 점진적으로 회복되고 있으며, 특히 블록버스터 영화와 특별 이벤트 상영이 관객을 다시 극장으로 유인하고 있습니다. 그러나 스트리밍 서비스의 지속적인 성장과 소비자 엔터테인먼트 선택의 다양화로 인해 높은 성장률은 기대하기 어렵습니다.",
+    "growth_drivers": [
+      "블록버스터 영화 및 독점 콘텐츠의 지속적인 공급",
+      "프리미엄 상영 포맷 (IMAX, Dolby Cinema 등) 및 편의시설 개선을 통한 관람 경험 향상",
+      "대체 콘텐츠 (콘서트, 스포츠, 종교 영화 등) 상영 확대",
+      "라틴 아메리카 등 신흥 시장에서의 극장 인프라 확장 및 관람객 증가",
+      "극장 개봉 독점 기간 유지 또는 전략적 조정"
+    ],
+    "market_share_pct": "10-15% (estimate) - 미국 시장에서는 AMC, Regal에 이어 3위권이며, 라틴 아메리카 시장에서는 주요 플레이어 중 하나입니다. 전체 글로벌 시장 점유율은 이보다 낮을 것으로 추정됩니다.",
+    "competitors": [
+      {
+        "name": "AMC Entertainment Holdings, Inc. (AMC)",
+        "differentiation": "미국 내 최대 극장 체인으로, 'AMC Stubs'와 같은 로열티 프로그램을 통해 강력한 고객 기반을 보유하고 있으며, 최근에는 개인 투자자들의 지지 기반이 강합니다."
+      },
+      {
+        "name": "Regal Cinemas (Cineworld Group plc)",
+        "differentiation": "미국 내 주요 극장 체인 중 하나로, 다양한 지역에 걸쳐 광범위한 극장 네트워크를 보유하고 있으며, 프리미엄 포맷 도입에 적극적입니다."
+      },
+      {
+        "name": "Marcus Theatres (Marcus Corporation)",
+        "differentiation": "중서부 지역을 중심으로 프리미엄 다이닝 및 엔터테인먼트 경험을 제공하는 'Movie Tavern' 컨셉을 통해 차별화를 꾀하고 있습니다."
+      },
+      {
+        "name": "Netflix, Disney+, HBO Max 등 스트리밍 서비스",
+        "differentiation": "집에서 편리하게 다양한 콘텐츠를 시청할 수 있는 대안을 제공하며, 오리지널 콘텐츠 제작 및 동시 개봉 전략을 통해 극장 산업에 직접적인 위협이 됩니다."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "low - 극장 산업은 대규모 초기 투자(부동산, 장비 등)와 운영 노하우가 필요하며, 기존 플레이어들이 강력한 시장 지배력을 가지고 있어 신규 진입 장벽이 높습니다.",
+      "substitutes": "high - 스트리밍 서비스, 홈 엔터테인먼트 시스템, 비디오 게임, 라이브 공연 등 다양한 형태의 엔터테인먼트가 존재하며, 소비자들은 극장 관람 외에도 많은 선택지를 가지고 있습니다.",
+      "buyer_power": "medium - 소비자들은 영화 선택 및 관람 방식에 대한 선택권이 많아 가격 민감도가 존재하지만, 특정 블록버스터 영화에 대한 수요는 비탄력적일 수 있습니다.",
+      "supplier_power": "high - 영화 스튜디오는 극장 산업의 핵심 콘텐츠 공급자이며, 흥행작의 경우 스튜디오의 배급 조건(수익 배분, 개봉 기간 등)에 대한 협상력이 매우 높습니다.",
+      "rivalry": "high - AMC, Regal 등 주요 극장 체인 간의 경쟁이 치열하며, 프리미엄 상영관, 편의시설, 가격 경쟁 등을 통해 관객 유치에 힘쓰고 있습니다."
+    },
     "competitive_advantages": [
-      "Communication Services / Entertainment 카테고리 — yfinance peer 비교 권장"
+      "미국 및 라틴 아메리카 전역에 걸친 광범위한 극장 네트워크 및 시장 리더십",
+      "장기 임대 계약을 통한 안정적인 운영 기반 확보 (일부 임대료는 매출 연동)",
+      "다양한 수익원 (박스오피스, 매점, 스크린 광고, 스크린 대여 등) 다각화",
+      "프리미엄 상영 포맷 및 편의시설 투자를 통한 관람 경험 차별화"
+    ],
+    "competitive_weaknesses": [
+      "영화 콘텐츠 공급에 대한 높은 의존도 및 스튜디오의 협상력",
+      "스트리밍 서비스 및 홈 엔터테인먼트의 강력한 대체재 위협",
+      "경기 변동 및 소비자 지출 감소에 대한 취약성",
+      "운영 비용 (임대료, 인건비 등) 증가 압박",
+      "팬데믹과 같은 외부 요인에 대한 높은 취약성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 70,
-    "score": 67.8,
+    "rs_rating": 72,
+    "score": 68.0,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": 1.86,
-    "trailing_pe": 16.877048,
-    "forward_pe": 15.2760105,
-    "ev_to_ebitda": 9.542,
-    "price_to_sales": 1.3387042,
+    "trailing_pe": 16.991802,
+    "forward_pe": 15.379878,
+    "ev_to_ebitda": 9.587,
+    "price_to_sales": 1.3478066,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 36.89,
-    "outperform_6m_vs_nasdaq": 61.52,
-    "outperform_1m_vs_nasdaq": 19.69,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 29.92,
+    "outperform_6m_vs_nasdaq": 62.95,
+    "outperform_1m_vs_nasdaq": 13.5,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "CNK는 미국, 브라질, 아르헨티나, 칠레, 콜롬비아, 페루 등 14개국에 극장을 운영하며, 이는 광범위한 지리적 입지와 브랜드 인지도를 구축했음을 시사합니다.",
+      "CNK는 10~25년의 장기 임대 계약을 통해 극장 부지를 확보하고 있으며, 이는 경쟁사가 쉽게 모방하기 어려운 물리적 인프라 우위를 제공합니다.",
+      "CNK는 영화 상영 외에도 매점 판매, 스크린 광고, 스크린 대여, 이벤트 개최 등 다양한 수익원을 통해 브랜드 가치를 활용하고 있습니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2025년 '마인크래프트 무비', '슈퍼맨' 등 블록버스터 개봉 및 2026년 '슈퍼 마리오 갤럭시 무비' 등 기대작 라인업",
+    "bull_case": "블록버스터 영화 흥행 및 관람객 증가로 매출 및 EPS 급증, 시장 점유율 확대",
+    "base_case": "신작 영화 개봉과 함께 극장 관람 수요가 꾸준히 회복되고, 매점 판매 및 광고 수익이 안정적으로 증가하여 견고한 실적을 유지할 것입니다.",
+    "bear_case": "예상치 못한 팬데믹 재확산, OTT 경쟁 심화, 블록버스터 영화 흥행 부진 등으로 관람객 수가 감소하고 수익성이 악화될 수 있습니다.",
+    "key_metrics_to_watch": [
+      "박스오피스 매출 성장률",
+      "매점 판매 수익 성장률",
+      "극장당 평균 관람객 수"
+    ]
   },
-  "category_e_risks": {},
+  "category_e_risks": {
+    "top_risks": [
+      {
+        "category": "경쟁",
+        "description": "스트리밍 서비스 및 홈 엔터테인먼트 옵션의 증가로 인해 극장 관람객 수가 지속적으로 감소할 위험이 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "대부분의 극장이 임대 자산이므로, 임대료 상승 및 임대 계약 갱신 실패 시 재무적 부담이 가중될 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거시",
+        "description": "경제 침체, 전염병 또는 기타 거시 경제적 요인으로 인해 소비자의 재량 지출이 감소하여 극장 매출에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "흥행에 성공하는 블록버스터 영화에 대한 의존도가 높아, 기대작의 부재나 흥행 실패 시 매출에 큰 타격을 입을 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "규제",
+        "description": "영화 배급사와 극장 간의 배급 창구 기간에 대한 규제 변화나 합의 변경은 극장의 수익 모델에 직접적인 영향을 줄 수 있습니다.",
+        "severity": "medium"
+      },
+      {
+        "category": "거버넌스",
+        "description": "정보 보안 프로그램의 주요 책임자가 CTO에게 집중되어 있으며, 이사회 차원의 감독이 반기별로 이루어져 사이버 보안 위협에 대한 신속한 대응에 한계가 있을 수 있습니다.",
+        "severity": "low"
+      },
+      {
+        "category": "공급망",
+        "description": "영화 콘텐츠 공급의 불확실성(예: 할리우드 파업, 제작 지연)은 극장의 상영 스케줄과 매출에 직접적인 영향을 미칠 수 있습니다.",
+        "severity": "medium"
+      }
+    ],
+    "inversion_scenarios": [
+      "주요 영화 스튜디오들이 극장 개봉 없이 자체 스트리밍 서비스로만 영화를 배급하기로 결정하여 극장 산업이 붕괴될 경우.",
+      "코로나19와 같은 전염병이 장기화되거나 반복되어 극장 영업이 지속적으로 제한되고 관객들이 극장 방문을 꺼리게 될 경우.",
+      "극장 관람료가 지속적으로 상승하여 소비자들이 극장 방문을 포기하고 홈 엔터테인먼트 옵션으로 완전히 전환할 경우."
+    ],
+    "exit_signals": [
+      "주요 영화 스튜디오들이 극장 개봉 창구를 획기적으로 단축하거나, 극장 개봉 없이 스트리밍으로 직행하는 블록버스터 영화가 급증하는 경우.",
+      "분기별 실적 발표에서 관람객 수 및 평균 티켓 가격이 지속적으로 하락하고, 매출 감소세가 가속화되는 경우.",
+      "경쟁사들이 파산하거나 대규모 구조조정에 들어가면서 극장 산업 전반의 침체가 명확해지는 경우."
+    ]
+  },
   "wikipedia_summary": "Cinemark Holdings, Inc. is an American movie theater chain that started operations in 1977 and since then has operated theaters with hundreds of locations throughout the Americas. It is headquartered in Plano, Texas, in the Dallas–Fort Worth area. As of June 30, 2026 Cinemark operates 495 theaters with 5,620 screens, including 301 theaters with 4,219 screens across 42 U.S. states and 194 theaters with 1,401 screens in 13 countries across Central and South America. It is also the largest movie theater chain in Brazil, with a 30 percent market share.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-12T03:44:03.944958+00:00"
+    "GoogleWebTranslator": "2026-11-13T03:13:25.645515+00:00"
   }
 }

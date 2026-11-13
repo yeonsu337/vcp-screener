@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0006.HK",
-  "generated_at": "2026-11-12T03:36:39.920798+00:00",
-  "source_results_date": "2026-11-12",
+  "generated_at": "2026-11-13T03:09:47.331464+00:00",
+  "source_results_date": "2026-11-13",
   "verdict": "EXTENDED",
   "verdict_kr": "추격 위험",
   "confidence": 0.71,
   "lines": [
     "시장 약세 — 보유분도 trailing 강화 권고.",
-    "추격 위험 — Pivot HK$61.65 대비 +6.0%, buy zone 초과.",
-    "13주 베이스 4.8% → 5.8% → 4.6%, VDU 0.78× — setup 자체는 유효.",
-    "Trend Template 8/8 + RS 86로 추세는 살아있음.",
+    "추격 위험 — Pivot HK$61.65 대비 +5.5%, buy zone 초과.",
+    "13주 베이스 4.8% → 5.8% → 4.6%, VDU 0.66× — setup 자체는 유효.",
+    "Trend Template 8/8 + RS 84로 추세는 살아있음.",
     "신규 진입 보류·다음 수축 형성 대기. 현 시점 신규 매수 부적합."
   ],
   "action": {
@@ -26,7 +26,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "5/8",
-    "rs_rating": 86,
+    "rs_rating": 84,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,7 +47,7 @@
     "R2_rs_80"
   ],
   "key_failures": [
-    "P3_vol_dryup (0.78× vs 0.6×)",
+    "P3_vol_dryup (0.66× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

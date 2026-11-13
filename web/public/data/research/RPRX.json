@@ -4,12 +4,12 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Biotechnology",
-  "generated_at": "2026-11-11T02:46:02.377385+00:00",
+  "generated_at": "2026-11-13T03:11:06.851912+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 39933034496,
+    "market_cap": 39657041920,
     "shares_outstanding": 445265805,
     "employees": 100,
     "country": "United States",
@@ -17,24 +17,40 @@
     "beta": 0.358
   },
   "category_a_business": {
-    "overview": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States. Its portfolio consists of royalties on approximately 35 marketed therapies and 20 development-stage product candidates that address various therapeutic areas, such as rare disease, oncology, neuroscience, infectious disease, hematology, and diabetes. The company has research and development funding collaboration to advance the development of JNJ-4804, an investigational medicine for autoimmune diseases.",
-    "business_model": "Royalty Pharma plc operates as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United States.",
+    "overview": "바이오 제약 로열티를 매입하고 혁신을 지원하는 세계 최대 기업으로, 1996년 설립되었습니다.",
+    "milestones": [
+      "1996: 회사 설립",
+      "2020: 기업 재편 및 IPO 진행",
+      "2025: 포트폴리오 매출 33억 달러 달성",
+      "2025: 총 47억 달러 규모의 거래 발표",
+      "2025: 로열티 매입에 26억 달러 투자"
+    ],
+    "business_model": "바이오 제약 로열티를 매입하고 R&D 자금을 지원하여 수익을 창출합니다.",
+    "revenue_streams": [
+      "로열티 수입 (제품 판매 기반 변동 지급액)",
+      "마일스톤 및 기타 계약 수입 (판매 기반 또는 규제 마일스톤, 고정 계약 수입)",
+      "개발 자금 지원에 따른 수익"
+    ],
+    "value_chain_position": "Midstream + 제약 개발 후기 단계의 로열티 자산에 투자하여 가치를 창출합니다.",
     "products": [
-      "as a buyer of biopharmaceutical royalties and a funder of innovation in the biopharmaceutical industry in the United St"
+      "로열티 포트폴리오 (상용화된 치료제)",
+      "로열티 포트폴리오 (개발 단계 후보 물질)",
+      "R&D 자금 지원 서비스"
     ],
     "channels": [
-      "B2B / Enterprise"
-    ]
+      "B2B (학술 기관, 연구 병원, 비영리 단체, 바이오텍, 글로벌 제약사)"
+    ],
+    "key_customers": "다수의 제약 및 바이오 기업과 협력하며 특정 고객에 대한 집중도는 낮은 편입니다."
   },
   "category_b_financials": {
     "roe": 0.12,
     "roa": 0.05,
     "profit_margin": 0.26,
-    "operating_margin": 0.81,
+    "operating_margin": 0.64,
     "gross_margin": 1.0,
     "revenue_growth_ttm": 0.13,
     "earnings_growth_ttm": -0.51,
-    "dividend_yield": 1.37,
+    "dividend_yield": 1.34,
     "payout_ratio": 0.6,
     "annual_revenue": [
       2378193000.0,
@@ -115,72 +131,141 @@
     "roe_pct": 12.09
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "200-300 billion USD (estimate) - 글로벌 제약/바이오 R&D 투자 및 M&A 시장 규모를 기반으로 추정. Royalty Pharma는 이 시장에서 로열티 구매 및 혁신 자금 조달이라는 특정 니치 시장에 집중.",
+    "tam_cagr_pct": "7-10% (estimate) - 글로벌 제약/바이오 산업의 지속적인 성장, 신약 개발 투자 증가, 그리고 혁신적인 치료법에 대한 수요 증가에 기반함. 특히, 바이오의약품 및 희귀질환 치료제 시장의 성장이 주요 동인이 될 것으로 예상.",
+    "growth_drivers": [
+      "글로벌 제약/바이오 R&D 투자 증가 및 신약 개발 활성화",
+      "혁신적인 치료법 및 바이오의약품에 대한 지속적인 수요",
+      "제약사들의 비핵심 자산(로열티) 유동화 니즈 증가",
+      "생명과학 분야에서 자본 배분 효율성에 대한 요구 증대",
+      "다양한 질병 영역에서 미충족 의료 수요(unmet medical needs) 증가"
+    ],
+    "market_share_pct": "10-15% (estimate) - 로열티 구매 시장 내에서 가장 큰 플레이어 중 하나이나, 전체 제약/바이오 자금 조달 시장 규모 대비로는 아직 작은 비중을 차지.",
+    "competitors": [
+      {
+        "name": "Healthcare Royalty Partners (HCRP)",
+        "differentiation": "로열티 구매에 특화된 펀드로, Royalty Pharma와 유사한 비즈니스 모델을 가지고 있으나 규모 면에서 Royalty Pharma가 더 크고 다양한 포트폴리오를 보유."
+      },
+      {
+        "name": "Pharmakon Advisors",
+        "differentiation": "생명과학 분야에 특화된 부채 금융(debt financing)을 제공하며, 로열티 기반 대출 등 다양한 자금 조달 솔루션을 제공."
+      },
+      {
+        "name": "M&A를 통한 대형 제약사",
+        "differentiation": "직접적인 경쟁자는 아니지만, 대형 제약사들이 신약 파이프라인 확보를 위해 중소형 바이오텍을 인수하는 것은 로열티 판매 기회를 줄일 수 있음."
+      },
+      {
+        "name": "사모펀드 및 헤지펀드",
+        "differentiation": "생명과학 분야에 투자하는 다양한 금융 투자자들이 로열티 구매 또는 유사한 자금 조달 기회에 참여할 수 있음."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 높은 초기 자본 요구 사항, 생명과학 분야에 대한 깊은 전문성, 광범위한 산업 관계 구축의 어려움으로 진입 장벽이 존재하지만, 매력적인 시장으로 인해 신규 플레이어의 진입 가능성은 상존.",
+      "substitutes": "medium - 전통적인 자금 조달 방식(벤처 캐피탈, IPO, 부채 발행)이나 제약사 간의 직접적인 라이선싱/협력 계약이 로열티 구매의 대체재가 될 수 있음.",
+      "buyer_power": "medium - 로열티를 판매하는 혁신가(바이오텍, 학술기관 등)는 여러 자금 조달 옵션을 고려할 수 있으므로, Royalty Pharma는 경쟁력 있는 조건을 제시해야 함.",
+      "supplier_power": "low - Royalty Pharma의 공급자는 로열티를 판매하는 혁신가들이며, 이들은 자금 조달을 위해 Royalty Pharma 외에도 다양한 선택지를 가지고 있으므로 공급자의 교섭력은 낮은 편.",
+      "rivalry": "medium - 로열티 구매 시장 내에서 직접적인 경쟁자가 존재하며, 유사한 투자 전략을 가진 금융 기관들이 경쟁을 심화시킬 수 있음."
+    },
     "competitive_advantages": [
-      "Healthcare / Biotechnology 카테고리 — yfinance peer 비교 권장"
+      "업계 최대 규모의 로열티 구매자로서의 시장 리더십 및 브랜드 인지도",
+      "1996년부터 축적된 25년 이상의 경험과 전문성",
+      "35개 이상의 상업화된 제품 및 20개 개발 단계 후보 물질을 포함하는 다각화된 고품질 로열티 포트폴리오",
+      "생명과학 분야에 대한 깊은 전문 지식, 숙련된 투자 팀, 엄격한 실사 프로세스",
+      "광범위한 산업 관계 및 독점적인 데이터/분석 역량을 기반으로 한 투자 플랫폼",
+      "장기적인 투자 관점과 유연한 거래 구조화 능력"
+    ],
+    "competitive_weaknesses": [
+      "특정 로열티에 대한 의존도가 높을 경우, 해당 제품의 판매 부진이나 특허 만료 시 실적에 부정적인 영향",
+      "신약 개발의 불확실성 및 규제 환경 변화에 대한 노출",
+      "새로운 고품질 로열티 기회를 지속적으로 발굴해야 하는 압박",
+      "제약/바이오 산업의 경기 변동에 대한 민감성"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 72,
-    "score": 53.5,
+    "rs_rating": 75,
+    "score": 52.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0851,
-    "trailing_pe": 45.392155,
-    "forward_pe": 11.748604,
-    "ev_to_ebitda": 24.801,
-    "price_to_sales": 15.260197,
+    "peg_ratio": 2.1215,
+    "trailing_pe": 45.078434,
+    "forward_pe": 11.667405,
+    "ev_to_ebitda": 24.674,
+    "price_to_sales": 15.154727,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 62.95,
-    "outperform_6m_vs_nasdaq": 38.19,
-    "outperform_1m_vs_nasdaq": 28.8,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 72.37,
+    "outperform_6m_vs_nasdaq": 35.02,
+    "outperform_1m_vs_nasdaq": 21.89,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "RPRX는 1996년부터 바이오제약 로열티 시장의 선구자로서, 학술기관, 연구 병원, 비영리 단체부터 중소형 바이오테크 기업 및 글로벌 제약사에 이르기까지 혁신가들과 협력하며 독점적인 관계와 전문성을 구축했습니다. 이는 강력한 무형 자산으로 작용합니다.",
+      "30년 이상 사업 모델과 투자 플랫폼을 정교화하여 강력한 경쟁 우위를 창출했습니다. 독특한 구조, 장기 투자 지평, 유연한 구조화, 규모 및 다각화, 그리고 바이오제약에 대한 단일 집중은 모방하기 어려운 무형 자산입니다.",
+      "깊이 있는 생명 과학 전문 지식, 뛰어난 인재, 광범위한 산업 관계, 산업화된 투자 프로세스, 독점적인 데이터 및 분석 역량을 기반으로 하는 투자 플랫폼은 RPRX의 핵심 무형 자산이며, 이는 신중한 투자 결정과 높은 수익률로 이어집니다."
+    ],
+    "moat_durability_years": "10년 이상",
+    "new_trigger": "2025년 $4.7B 규모의 잠재적 거래 발표 및 $2.6B 로열티 인수",
+    "bull_case": "신규 로열티 투자 성공 및 기존 포트폴리오 제품의 매출 성장 가속화로 3년 내 EPS 20% 이상 성장",
+    "base_case": "기존 포트폴리오의 안정적인 매출 성장과 선별적인 신규 로열티 투자를 통해 연간 10~15%의 EPS 성장을 달성하며, 바이오제약 산업의 혁신을 지속적으로 활용합니다.",
+    "bear_case": "주요 로열티 제품의 특허 만료 또는 경쟁 심화로 인한 매출 감소, 신규 투자 기회 부족 또는 투자 실패로 EPS 성장률이 둔화되거나 역성장합니다.",
+    "key_metrics_to_watch": [
+      "포트폴리오 수입 (Portfolio Receipts) 성장률",
+      "자본 배치 (Capital Deployment) 효율성 및 규모",
+      "신규 로열티 계약 건수 및 잠재 가치",
+      "주요 로열티 제품의 매출 성장률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Additional risks and uncertainties not presently known to us or that we currently deem immaterial also may impair our business.",
+        "category": "재무",
+        "description": "생물약제 제품 판매 부진으로 로열티 수익이 예상보다 낮아질 수 있으며, 이는 가격 압박, 경쟁, 임상 시험 실패 등 다양한 요인에 기인합니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "로열티 시장의 성장률이 둔화되거나 경쟁이 심화될 경우, 충분한 규모의 로열티를 확보하기 어려워 사업 성장 전략 실행에 차질이 생길 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Summary of Risk Factors Our business is subject to a number of risks, including risks that may adversely affect our business, financial condition or results of operations.",
+        "category": "규제",
+        "description": "개발 단계 생물약제 후보 물질에 대한 로열티는 규제 당국의 승인을 받지 못하거나 시장에 출시되지 않을 위험이 있으며, 이는 투자 손실로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁사들이 더 효과적이고 안전하며 저렴한 제품을 출시하거나, 당사의 로열티 기반 제품보다 먼저 출시할 경우, 해당 제품의 상업적 성공이 저해될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "The royalty market may not grow at the same rate as it has in the past, or at all, and we may not be able to acquire sufficient royalties to sustain the growth of our business.",
+        "category": "재무",
+        "description": "개발 단계 제품 개발자들이 추가 자본을 조달하지 못하면 임상 시험이나 R&D 프로그램을 지연, 축소 또는 중단할 수 있어 로열티 수익에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "As a result, we may not be able to continue to acquire royalties or otherwise grow our business as we have in the past, or at all.",
+        "category": "거버넌스",
+        "description": "로열티를 창출하는 제품의 마케터는 당사의 통제 밖에 있어, 이들의 전략적 우선순위 변경이나 마케팅 역량 부족이 로열티 수익에 영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Losses from such assets could adversely affect our business, financial condition or results of operations.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Uncertainty relating to development-stage product candidates makes it more difficult to develop accurate assumptions for our internal models, which may result in reduced royalties compared to our estimates.",
+        "category": "재무",
+        "description": "자본 배포와 관련하여 레버리지를 사용하고 있어, 이는 재무 상태에 추가적인 위험을 초래할 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "주요 로열티 기반 제품들이 임상 시험 실패, 규제 승인 거부 또는 경쟁 심화로 인해 시장에 출시되지 못하거나 판매가 급감하여 수익 흐름이 완전히 고갈되는 경우.",
+      "로열티 시장이 구조적으로 변화하거나 성장률이 급격히 둔화되어 새로운 로열티 자산을 충분히 확보하지 못하고 기존 자산의 가치마저 하락하여 사업 모델이 지속 불가능해지는 경우.",
+      "주요 로열티 계약 파트너와의 분쟁이 발생하거나, 제품 개발자들이 재정적 어려움으로 개발을 중단하여 핵심 로열티 수익원이 사라지는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 로열티 기반 제품들의 임상 3상 시험 결과가 부정적으로 발표되거나 규제 당국의 승인이 지연/거부되는 경우.",
+      "로열티 시장에서 경쟁이 급격히 심화되어 예상 투자 수익률을 달성할 수 있는 신규 로열티 자산 확보가 현저히 어려워지는 경우.",
+      "회사의 주요 로열티 수익원인 상위 3개 제품의 분기별 매출이 2분기 연속으로 시장 예상치를 크게 하회하는 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-12T03:45:05.420845+00:00"
+    "GoogleWebTranslator": "2026-11-13T03:14:12.874763+00:00"
   }
 }

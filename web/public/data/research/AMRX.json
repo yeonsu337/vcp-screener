@@ -4,55 +4,55 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-11-11T02:47:44.550616+00:00",
+  "generated_at": "2026-11-13T03:10:27.004275+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 7446568960,
-    "shares_outstanding": 348296027,
+    "market_cap": 7560556544,
+    "shares_outstanding": 348412726,
     "employees": 8700,
     "country": "United States",
     "website": "https://www.amneal.com",
     "beta": 1.209
   },
   "category_a_business": {
-    "overview": "글로벌 바이오 제약 회사로, 제네릭, 주사제, 바이오시밀러 및 특수 브랜드 의약품을 개발, 제조, 판매합니다.",
+    "overview": "제네릭, 바이오시밀러, 특수 브랜드 의약품을 개발, 제조, 판매하는 글로벌 바이오제약 기업입니다.",
     "milestones": [
-      "2022: 미국에서 초기 항암 바이오시밀러 포트폴리오 상용화 시작 (ALYMSYS, Releuko 출시)",
+      "2022: 미국에서 초기 항암 바이오시밀러 포트폴리오 상업화 시작 (ALYMSYS, Releuko 출시)",
       "2023: 바이오시밀러 Flynetra 출시",
-      "2025: FDA, 두 가지 데노수맙 바이오시밀러(Boncresa, Oziltus) BLA 승인",
-      "2025: 아일랜드 제조 시설에서 생산된 첫 제품(베클로메타손 디프로피오네이트 HFA 흡입 에어로졸) FDA 잠정 승인",
-      "2025: 알부테롤 설페이트 흡입 에어로졸 FDA 승인"
+      "2025: FDA, 베클로메타손 디프로피오네이트 HFA 흡입 에어로졸 (제네릭 QVAR) 잠정 승인",
+      "2025: FDA, 알부테롤 설페이트 흡입 에어로졸 (제네릭 ProAir HFA) 승인",
+      "2025: FDA, 두 가지 데노수맙 바이오시밀러 (Boncresa, Oziltus) 승인"
     ],
-    "business_model": "제네릭, 바이오시밀러, 특수 의약품 개발·제조·판매를 통해 수익 창출",
+    "business_model": "제네릭, 바이오시밀러, 특수 의약품 개발 및 판매를 통해 수익을 창출합니다.",
     "revenue_streams": [
       "제네릭 의약품 판매",
-      "주사제 판매",
-      "바이오시밀러 판매",
+      "주사제 의약품 판매",
+      "바이오시밀러 의약품 판매",
       "특수 브랜드 의약품 판매",
       "AvKARE 부문 (의약품, 의료 및 수술 제품)"
     ],
-    "value_chain_position": "Midstream + 의약품 연구 개발, 제조 및 유통을 아우르는 통합된 가치 사슬을 보유하고 있습니다.",
+    "value_chain_position": "Midstream + 의약품 개발, 제조, 유통의 전 과정을 아우르는 통합적인 사업 모델을 가지고 있습니다.",
     "products": [
-      "경구용 고형제 (즉시 및 서방형)",
-      "멸균 주사제",
-      "비강 스프레이 및 흡입제",
-      "바이오시밀러 (ALYMSYS, Releuko, Flynetra, Boncresa, Oziltus)",
-      "특수 의약품 (Rytary, Unithroid, ONGENTYS, CREXONT)",
-      "경피 패치 및 국소 제제"
+      "Rytary (파킨슨병 치료제)",
+      "Unithroid (갑상선 기능 저하증 치료제)",
+      "ONGENTYS (갑상선 기능 저하증 치료제)",
+      "ALYMSYS (항암 바이오시밀러)",
+      "Boncresa (데노수맙 바이오시밀러)",
+      "Oziltus (데노수맙 바이오시밀러)"
     ],
     "channels": [
-      "B2B (병원, 약국, 도매상)",
-      "국제 시장 유통"
+      "B2B (병원, 약국 등)",
+      "도매"
     ],
-    "key_customers": "특정 고객에 대한 집중도 정보는 제공되지 않았습니다."
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 다양한 의료기관 및 유통 채널을 통해 판매됩니다."
   },
   "category_b_financials": {
     "roe": 0.7,
     "roa": 0.08,
     "profit_margin": 0.04,
-    "operating_margin": 0.16,
+    "operating_margin": 0.17,
     "gross_margin": 0.4,
     "revenue_growth_ttm": 0.1,
     "earnings_growth_ttm": null,
@@ -132,72 +132,139 @@
     "roe_pct": 70.0
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 400-500 billion USD (글로벌 제네릭 의약품 시장 규모 추정치, 여러 시장 조사 기관 자료 종합)",
+    "tam_cagr_pct": "약 8-10% (향후 3~5년) - 만성 질환 증가, 고령화 심화, 신흥 시장의 의료 접근성 향상, 바이오시밀러 시장 성장 등이 주요 근거",
+    "growth_drivers": [
+      "복잡한 제형 및 제조 기술을 요구하는 고부가가치 제네릭 및 바이오시밀러 제품 개발 및 출시",
+      "First-to-File (FTF) 및 First-to-Market (FTM) 전략을 통한 시장 선점 및 180일 독점권 확보",
+      "주사제, 흡입제 등 비경구 고난이도 제형 파이프라인 강화 및 생산 역량 확장",
+      "규제 장벽이 높은 제품 개발을 통한 경쟁 우위 확보",
+      "국제 시장으로의 사업 확장 및 포트폴리오 다각화"
+    ],
+    "market_share_pct": "5-10% estimate (글로벌 제네릭 시장 내 Amneal의 포지션 및 매출 규모를 기반으로 추정)",
+    "competitors": [
+      {
+        "name": "Teva Pharmaceutical Industries Ltd.",
+        "differentiation": "세계 최대 제네릭 의약품 회사 중 하나로, 광범위한 제품 포트폴리오와 글로벌 유통망 보유"
+      },
+      {
+        "name": "Sandoz (Novartis)",
+        "differentiation": "노바티스의 자회사로, 바이오시밀러 및 복잡한 제네릭 제품 개발에 강점"
+      },
+      {
+        "name": "Viatris Inc. (Mylan + Pfizer Upjohn)",
+        "differentiation": "광범위한 브랜드 및 제네릭 포트폴리오, 강력한 글로벌 제조 및 유통 역량"
+      },
+      {
+        "name": "Dr. Reddy's Laboratories Ltd.",
+        "differentiation": "인도 기반의 글로벌 제약사로, 저비용 생산 능력과 다양한 제네릭 포트폴리오 보유"
+      },
+      {
+        "name": "Sun Pharmaceutical Industries Ltd.",
+        "differentiation": "인도 최대 제약사 중 하나로, 만성 질환 분야의 강력한 포트폴리오와 글로벌 시장 확장"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 제네릭 시장은 규제 승인, R&D 투자, 제조 역량 등 진입 장벽이 존재하지만, 특정 저가 제네릭 분야는 진입이 상대적으로 용이함.",
+      "substitutes": "medium - 브랜드 의약품이 직접적인 대체재이며, 특정 질환에서는 비약물 치료법도 존재하나, 제네릭은 비용 효율성으로 경쟁 우위 가짐.",
+      "buyer_power": "high - 병원, 약국 체인, 도매상 등 대형 구매자들은 가격 협상력이 매우 높으며, 제네릭 의약품은 가격 경쟁이 치열함.",
+      "supplier_power": "low - 원료의약품(API) 공급처가 다양하고, 제네릭 제조사는 여러 공급처를 활용하여 공급자 협상력이 낮음.",
+      "rivalry": "high - 제네릭 시장은 수많은 경쟁사가 존재하며, 유사 제품 간의 치열한 가격 경쟁과 시장 점유율 확보 경쟁이 매우 높음."
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+      "복잡한 제형 및 제조 기술을 요구하는 고부가가치 제품 개발 역량 (예: 주사제, 흡입제, 바이오시밀러)",
+      "First-to-File (FTF) 및 First-to-Market (FTM) 전략을 통한 시장 선점 및 독점권 확보 능력",
+      "광범위한 제네릭 제품 포트폴리오 (280개 이상 제품군) 및 다양한 투여 경로 커버리지",
+      "통합된 팀 기반 제품 개발 접근 방식 (제형, 규제, 법률, 제조, 상업화 역량 결합)",
+      "강화된 제조 역량 및 인프라 (특히 주사제, 흡입제 등 복잡한 제품군)"
+    ],
+    "competitive_weaknesses": [
+      "대형 글로벌 제네릭 경쟁사에 비해 상대적으로 작은 시장 점유율 및 규모의 경제 열위",
+      "신제품 출시 시기에 따른 재무 성과의 변동성 (경쟁사 진입 시 가격 및 물량 감소)",
+      "제네릭 시장의 고질적인 가격 경쟁 압력에 취약",
+      "규제 승인 지연 또는 실패 시 R&D 투자 회수 불확실성",
+      "특정 시장 또는 제품군에 대한 의존도 (예: 미국 병원 시장 주사제 포트폴리오)"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 79,
-    "score": 57.5,
+    "rs_rating": 82,
+    "score": 58.7,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
-    "peg_ratio": 2.0218,
-    "trailing_pe": 53.449997,
-    "forward_pe": 17.34221,
-    "ev_to_ebitda": 14.091,
-    "price_to_sales": 2.3301702,
+    "peg_ratio": 2.0617,
+    "trailing_pe": 54.25,
+    "forward_pe": 17.601778,
+    "ev_to_ebitda": 14.848,
+    "price_to_sales": 2.365839,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 73.54,
-    "outperform_6m_vs_nasdaq": 70.43,
-    "outperform_1m_vs_nasdaq": 14.88,
-    "lynch_category": "Stalwart"
+    "outperform_1y_vs_nasdaq": 73.5,
+    "outperform_6m_vs_nasdaq": 82.2,
+    "outperform_1m_vs_nasdaq": 19.79,
+    "lynch_category": "Stalwart",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "AMRX는 복잡한 제형 또는 제조, 법적 또는 규제 문제로 인해 진입 장벽이 높은 제품 개발에 중점을 둡니다. 이는 퍼스트-투-파일(FTF) 및 퍼스트-투-마켓(FTM) 제품을 통해 높은 수익성과 긴 제품 수명 주기를 확보할 수 있는 무형 자산인 규제 전문성과 기술력을 보유하고 있음을 시사합니다.",
+      "280개 이상의 제품군과 광범위한 제형 및 전달 시스템(경구용 고형제, 액상, 주사제, 흡입제 등)을 포괄하는 포트폴리오는 다양한 제품 개발 및 제조 역량을 통해 경쟁 우위를 확보하고 있음을 보여줍니다.",
+      "2025년 12월 31일 기준 61개의 ANDA 승인 대기 중인 제품과 개발 파이프라인에 있는 43개의 제품(95%가 비경구용 고형제)은 지속적인 혁신과 복잡한 제품 개발에 대한 투자를 통해 미래 성장 동력을 확보하고 있음을 나타냅니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2025년 베클로메타손 디프로피오네이트 HFA 흡입 에어로졸 및 알부테롤 설페이트 흡입 에어로졸 FDA 승인",
+    "bull_case": "복잡한 제네릭 및 바이오시밀러 포트폴리오 확장, 신제품 출시 가속화로 시장 점유율 확대 및 수익성 개선",
+    "base_case": "복잡한 제네릭 및 기관용 주사제 시장에서의 꾸준한 성장과 신제품 파이프라인의 점진적인 상업화로 안정적인 매출 및 이익 유지",
+    "bear_case": "제네릭 시장 경쟁 심화, 규제 지연 또는 신제품 출시 실패로 인한 매출 감소 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "신제품 출시 수 및 시장 점유율",
+      "R&D 파이프라인 진행 상황 및 승인률",
+      "기관용 주사제 부문 매출 성장률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "The materialization of any of these risks could have a material adverse effect on our business, results of operations and financial condition.",
+        "category": "경쟁",
+        "description": "제약 산업의 치열한 경쟁으로 인해 신제품 개발 및 상업화가 지연되거나 실패할 수 있으며, 이는 매출 및 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "신제품 개발 및 상업화 과정에서 FDA 승인 지연, 규제 변경 또는 승인 실패는 사업 운영 및 재무 상태에 심각한 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "운영",
+        "description": "신제품 개발 및 상업화의 어려움, 임상 시험 실패, 특허 침해 소송, 원료 확보 문제, 제조 규모 확대의 어려움 등은 사업 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Because of these hurdles, some of our products may not receive necessary regulatory approvals on a timely basis or at all, which may result in unsuccessful development or commercialization of new products.",
+        "category": "경쟁",
+        "description": "경쟁사들의 저가 제품 출시, 공인 제네릭 의약품의 확산, 유통 채널 통합 등으로 인해 가격 경쟁이 심화되고 시장 점유율 및 수익성이 감소할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "재무",
+        "description": "신제품 개발, 마케팅 또는 라이선스에 대한 투자가 회수되지 않을 위험이 있으며, 이는 재무 성과에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If any of our products, when acquired or developed and approved, cannot be successfully or timely commercialized, our operating results could be adversely affected.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "We face intense competition in the pharmaceutical industry from both brand and generic drug product companies, which could significantly limit our growth and materially adversely affect our financial results.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "New developments by other manufacturers and distributors could render our products uncompetitive or obsolete.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Any such price competition may be especially pronounced where our competitors source their products from jurisdictions where production costs may be lower (sometimes significantly) than our production costs.",
+        "category": "경쟁",
+        "description": "많은 경쟁사들이 당사보다 더 긴 운영 역사와 더 많은 재정, R&D, 마케팅 자원을 보유하고 있어 경쟁 우위를 확보하기 어려울 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "주요 신제품 개발 및 상업화에 지속적으로 실패하고, 동시에 경쟁 심화로 인해 기존 제품의 시장 점유율과 수익성이 급격히 하락하여 회사의 재정적 기반이 붕괴될 수 있습니다.",
+      "FDA의 주요 제품 승인 지연 또는 거부, 혹은 예상치 못한 규제 변경으로 인해 핵심 제품의 출시가 무산되거나 시장 진입이 불가능해져 회사의 매출 대부분이 사라질 수 있습니다.",
+      "핵심 제네릭 의약품에 대한 특허 침해 소송에서 패소하거나, 공인 제네릭 의약품의 무분별한 출시로 인해 독점적 시장 지위와 수익성이 완전히 상실될 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "향후 2년간 주요 파이프라인 제품의 FDA 승인이 지속적으로 지연되거나 거부되는 경우",
+      "경쟁사들의 공격적인 저가 정책 또는 공인 제네릭 의약품 출시로 인해 핵심 제품의 시장 점유율이 20% 이상 하락하고 매출총이익률이 5% 이상 감소하는 경우",
+      "회사의 R&D 투자 대비 신제품 출시 성공률이 현저히 낮아지거나, 주요 특허 소송에서 패소하여 핵심 제품의 판매가 중단되는 경우"
     ]
   },
   "wikipedia_summary": "Amneal Pharmaceuticals, Inc. is an American publicly traded pharmaceutical company that develops, manufactures and distributes generics and specialty pharmaceutical products. The company is headquartered in Bridgewater, New Jersey, and is one of the largest manufacturers of generic drugs in the United States.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-12T03:43:49.176712+00:00"
+    "GoogleWebTranslator": "2026-11-13T03:13:11.184361+00:00"
   }
 }

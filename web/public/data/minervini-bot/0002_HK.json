@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0002.HK",
-  "generated_at": "2026-11-12T03:36:39.922480+00:00",
-  "source_results_date": "2026-11-12",
+  "generated_at": "2026-11-13T03:09:47.333137+00:00",
+  "source_results_date": "2026-11-13",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.25,
@@ -25,7 +25,7 @@
   "framework": {
     "trend_template_score": "7/8",
     "vcp_quality_score": "2/8",
-    "rs_rating": 78,
+    "rs_rating": 76,
     "stage": 0,
     "base_count": 1,
     "late_base_warning": false,

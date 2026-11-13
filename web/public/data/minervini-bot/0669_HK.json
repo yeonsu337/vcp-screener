@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0669.HK",
-  "generated_at": "2026-11-12T03:36:39.920355+00:00",
-  "source_results_date": "2026-11-12",
+  "generated_at": "2026-11-13T03:09:47.329902+00:00",
+  "source_results_date": "2026-11-13",
   "verdict": "WATCH",
   "verdict_kr": "관망",
-  "confidence": 0.73,
+  "confidence": 0.74,
   "lines": [
     "시장 약세 — 매수 신호 자체 보류.",
     "관망 — Stage 2 진입, VCP 미숙성(수축 3회, 마지막 6.59%).",
-    "13주 베이스 8.9% → 8.1% → 6.6%, VDU 0.89×, pivot HK$154.90(-6.84%).",
-    "Trend Template 8/8 통과, RS 92 — 추세는 살아있음.",
+    "13주 베이스 8.9% → 8.1% → 6.6%, VDU 0.75×, pivot HK$154.90(-7.94%).",
+    "Trend Template 8/8 통과, RS 93 — 추세는 살아있음.",
     "Setup 재형성 대기. 수축 ≥3회 + 마지막 ≤6.5% + VDU ≤0.6× 충족 시 재평가."
   ],
   "action": {
@@ -26,13 +26,14 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 92,
+    "rs_rating": 93,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
     "market_regime": "bear"
   },
   "rule_references": [
+    "A1_ud_vol_ratio",
     "B1_price_above_150_200",
     "B2_sma150_gt_sma200",
     "B3_sma50_gt_150_200",
@@ -47,7 +48,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (6.59% vs 6.5%)",
-    "P3_vol_dryup (0.89× vs 0.6×)",
+    "P3_vol_dryup (0.75× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],

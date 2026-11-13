@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T03:43:38.379210+00:00",
+  "generated_at": "2026-11-13T03:13:04.060984+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -46,6 +46,12 @@
         "trades": 1,
         "avg_return_pct": -4.2,
         "win_rate_pct": 0.0
+      },
+      {
+        "primary_passed": 12,
+        "trades": 1,
+        "avg_return_pct": 21.94,
+        "win_rate_pct": 100.0
       }
     ],
     "rule_hit_rate_diff": [],
@@ -56,10 +62,17 @@
   "sector_breakdown": [
     {
       "sector": "Unknown",
-      "trades": 46,
-      "win_rate_pct": 58.7,
-      "avg_return_pct": 5.88,
+      "trades": 45,
+      "win_rate_pct": 57.8,
+      "avg_return_pct": 5.52,
       "best_return_pct": 91.6
+    },
+    {
+      "sector": "Healthcare",
+      "trades": 1,
+      "win_rate_pct": 100.0,
+      "avg_return_pct": 21.94,
+      "best_return_pct": 21.9
     }
   ],
   "market_breakdown": {
@@ -80,7 +93,7 @@
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.7,
+    "winner_avg_rs": 83.8,
     "loser_avg_rs": 82.5,
     "winner_n": 27,
     "loser_n": 19
@@ -112,27 +125,27 @@
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-11-06T02:59:51.703166+00:00",
+    "generated_at": "2026-11-13T03:13:04.060956+00:00",
     "winner_patterns": [
-      "RS 80점 이상 종목에서 높은 수익률 발생",
-      "미국 시장 종목에서 장기 보유 시 고수익 가능성",
-      "한국 시장 종목은 단기 고수익 패턴 [가설]",
-      "EX6_absent 청산 종목에서 고수익 다수 발생",
-      "평균 보유일 60일 전후로 고수익 종목 다수"
+      "RS 등급 85 이상 고성능 종목 다수",
+      "미국/한국 시장 모두에서 강한 모멘텀 포착",
+      "장기 보유 시 높은 수익률 기록 (100일 이상)",
+      "단기 급등 후 익절 없는 경우도 존재 (EX6_absent)",
+      "50일 이동평균선 이탈 전까지 추세 유지"
     ],
     "loser_traps": [
-      "RS 90점대 고점 종목도 급락 가능성 (ERAS)",
+      "RS 등급이 높아도 손실 발생 가능 (99점 ERAS)",
       "8% 손절매 규칙이 자주 발동 (EX1_stop_8pct)",
       "50일 이동평균선 이탈 시 손실 확정 (EX4_50dma_break)",
-      "단기 보유 (20일 이내) 손실 종목 다수",
-      "RS 70점대 종목에서 손실 발생 빈번"
+      "단기 보유 (20일 내외) 손실 비중 높음",
+      "트레일링 스탑 (EX5_trailing) 적용 시 큰 손실 발생"
     ],
     "rule_suggestions": [
-      "RS 80점 이상 종목에 집중 투자",
-      "8% 손절매 규칙 엄격히 준수",
-      "50일 이동평균선 이탈 시 즉시 청산",
-      "한국 시장 종목은 단기 수익 실현 고려 [가설]",
-      "EX6_absent 청산 기준 재검토 및 구체화"
+      "RS 85 이상 종목에 대한 진입 후 관리 강화",
+      "50일 이동평균선 이탈 시 손절매 규칙 엄격 적용",
+      "홀딩 기간 100일 이상 종목의 수익률 분석 강화",
+      "헬스케어 섹터에 대한 추가 분석 [가설: 소수지만 고수익]",
+      "EX6_absent 청산 종목의 추가 분석을 통한 청산 룰 보완"
     ],
     "model": "gemini-2.5-flash",
     "trades_analyzed": 46
