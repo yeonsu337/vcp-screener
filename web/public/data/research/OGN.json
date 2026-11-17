@@ -4,39 +4,58 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - General",
-  "generated_at": "2026-09-26T01:29:27.557399+00:00",
+  "generated_at": "2026-11-17T05:02:17.056926+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 3605627392,
-    "shares_outstanding": 262609433,
+    "market_cap": 3650439936,
+    "shares_outstanding": 262621584,
     "employees": 10000,
     "country": "United States",
     "website": "https://www.organon.com",
-    "beta": 1.518
+    "beta": 1.494
   },
   "category_a_business": {
-    "overview": "Organon & Co. develops and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, Canada, Japan, rest of the Asia Pacific, China, Latin America, the Middle East, Russia, Africa, and internationally. The company's women's health portfolio comprises contraception and fertility brands, such as Nexplanon, a long-acting reversible contraceptive; NuvaRing, a monthly vaginal contraceptive ring; Cerazette, Marvelon, and Mercilon to prevent pregnancy; Follistim AQ, which is used to promote development of ovarian follicles; Elonva, a follicle sti",
-    "business_model": "Organon & Co.",
+    "overview": "여성 건강 솔루션, 바이오시밀러, 기존 의약품을 개발 및 공급하는 글로벌 제약 회사.",
+    "milestones": [
+      "1923: 네덜란드 Oss에서 설립",
+      "2021: MSD(Merck & Co.)로부터 분사하여 독립 회사로 출범",
+      "2025: 미국 FDA, Poherdy(퍼투주맙 바이오시밀러) 승인",
+      "2025: Bildyos 및 Bilprevda (데노수맙 바이오시밀러) 미국 출시",
+      "2026: Jada 시스템(산후 출혈 치료제)을 Laborie Medical Technologies에 매각"
+    ],
+    "business_model": "처방 의약품 및 의료 기기 판매를 통해 수익 창출.",
+    "revenue_streams": [
+      "여성 건강 포트폴리오 (피임, 불임)",
+      "바이오시밀러 포트폴리오 (면역학, 종양학)",
+      "기존 의약품 포트폴리오 (심혈관, 호흡기 등)"
+    ],
+    "value_chain_position": "Midstream / downstream + 자체 제조 시설을 통해 의약품을 생산하고 전 세계에 유통 및 판매합니다.",
     "products": [
-      "and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, C",
-      "cholesterol-modifying medicines under the Zetia, Ezetrol, Vytorin, Inegy, Atozet, Rosuzet, and Zocor brands",
-      "dermatology products under the Vtama, Diprosone, and Elocon br"
+      "넥스플라논 (피임 임플란트)",
+      "누바링 (질 피임링)",
+      "폴리스팀 AQ (난포 자극제)",
+      "렌플렉시스 (인플릭시맙 바이오시밀러)",
+      "온트루잔트 (트라스투주맙 바이오시밀러)",
+      "제티아 (콜레스테롤 조절제)"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "약품 도매상 및 소매상",
+      "병원",
+      "정부 기관",
+      "관리 의료 서비스 제공자 (HMO, PBM 등)"
     ],
-    "wikipedia_excerpt": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States."
+    "key_customers": "특정 고객에 대한 집중도는 낮으며, 다양한 유통 채널을 통해 전 세계 의료 기관 및 환자에게 제품을 공급합니다."
   },
   "category_b_financials": {
-    "roe": 0.24,
+    "roe": 0.2,
     "roa": 0.06,
     "profit_margin": 0.03,
-    "operating_margin": 0.21,
-    "gross_margin": 0.53,
+    "operating_margin": 0.2,
+    "gross_margin": 0.54,
     "revenue_growth_ttm": -0.02,
-    "earnings_growth_ttm": -0.28,
+    "earnings_growth_ttm": -0.02,
     "dividend_yield": 0.58,
     "payout_ratio": 0.1,
     "annual_revenue": [
@@ -89,104 +108,181 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      0.6,
       0.4,
       0.55,
       -0.79,
       0.61,
-      0.56,
-      null,
       null
     ],
     "quarterly_revenue": [
+      1574000000.0,
       1558000000.0,
       1460000000.0,
       1507000000.0,
       1602000000.0,
-      1594000000.0,
-      null,
       null
     ],
     "quarterly_periods": [
+      "2026-09-30",
       "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2025-03-31",
-      "2024-12-31"
+      "2025-03-31"
     ],
-    "eps_qoq_yoy_pct": -25.5,
-    "sales_yoy_pct": -2.3,
+    "eps_qoq_yoy_pct": 2.5,
+    "sales_yoy_pct": -1.7,
     "ni_cagr_3y_pct": -41.14,
-    "roe_pct": 24.04
+    "roe_pct": 20.29
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 1조 5천억 달러 (2023년 기준, 글로벌 의약품 시장 규모 추정치 기반)",
+    "tam_cagr_pct": "5-8% (향후 3~5년, 고령화, 만성질환 증가, 신흥국 시장 성장, 바이오시밀러 및 여성 건강 분야의 혁신에 기반)",
+    "growth_drivers": [
+      "여성 건강 분야의 미충족 수요 해결 및 신제품 출시 (예: 장기 지속형 피임제, 불임 치료제)",
+      "바이오시밀러 포트폴리오 확장 및 글로벌 시장 침투 가속화 (면역학, 종양학 분야)",
+      "신흥 시장에서의 접근성 확대 및 유통망 강화 (140개국 이상 진출)",
+      "전략적 파트너십 및 협력을 통한 제품 상업화 기회 모색",
+      "기존 브랜드 포트폴리오의 안정적인 현금 흐름을 통한 R&D 및 성장 동력 확보"
+    ],
+    "market_share_pct": "1% 미만 (글로벌 제약 시장 내 Organon의 매출 규모 및 포트폴리오를 고려한 추정치)",
+    "competitors": [
+      {
+        "name": "Pfizer",
+        "differentiation": "광범위한 치료 영역 포트폴리오, 강력한 R&D 역량, 글로벌 시장 지배력"
+      },
+      {
+        "name": "Merck & Co.",
+        "differentiation": "항암제, 백신 등 혁신 신약 중심의 강력한 파이프라인, 글로벌 시장에서의 높은 브랜드 인지도"
+      },
+      {
+        "name": "Teva Pharmaceutical Industries",
+        "differentiation": "제네릭 및 바이오시밀러 시장의 선두 주자, 광범위한 제품 포트폴리오 및 글로벌 유통망"
+      },
+      {
+        "name": "Amgen",
+        "differentiation": "바이오의약품 분야의 선두 주자, 강력한 바이오시밀러 파이프라인 및 혁신적인 생명공학 기술"
+      },
+      {
+        "name": "Bayer AG (여성 건강 부문)",
+        "differentiation": "여성 건강 분야의 오랜 역사와 강력한 브랜드 인지도, 다양한 피임 및 부인과 치료제 포트폴리오"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (제약 산업은 높은 R&D 비용, 규제 장벽, 특허 보호 등으로 진입 장벽이 높으나, 바이오시밀러 시장은 상대적으로 낮은 진입 장벽을 가질 수 있음)",
+      "substitutes": "medium (제네릭 의약품, 바이오시밀러, 대체 치료법 등이 존재하며, 특히 특허 만료된 기존 브랜드의 경우 대체재 위협이 높음)",
+      "buyer_power": "high (정부 기관, 보험사, 병원 등 대규모 구매자는 가격 협상력이 높으며, 약가 규제 및 보험 적용 여부가 중요함)",
+      "supplier_power": "medium (원료의약품 공급처가 다변화되어 있으나, 특정 핵심 원료의 경우 공급업체 의존도가 높을 수 있음)",
+      "rivalry": "high (글로벌 제약 시장은 다수의 대형 제약사들이 경쟁하며, 신약 개발, 특허 경쟁, 마케팅 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - General 카테고리 — yfinance peer 비교 권장"
+      "여성 건강 분야에 특화된 포트폴리오 및 전문성 (Nexplanon, NuvaRing 등 주요 브랜드 보유)",
+      "성장하는 바이오시밀러 시장에서의 강력한 포트폴리오 (면역학, 종양학 분야 다수 제품 출시)",
+      "140개국 이상에 걸친 광범위한 글로벌 유통망 및 시장 접근성",
+      "기존 브랜드 포트폴리오의 안정적인 현금 흐름을 통한 재투자 및 성장 동력 확보",
+      "제조 시설의 글로벌 분산 (벨기에, 브라질, 인도네시아, 멕시코, 네덜란드, 영국)"
+    ],
+    "competitive_weaknesses": [
+      "일부 기존 브랜드의 특허 만료 및 제네릭 경쟁 심화로 인한 매출 감소 압력",
+      "R&D 파이프라인의 혁신 신약 비중이 상대적으로 낮음 (주로 기존 브랜드 및 바이오시밀러 중심)",
+      "대형 제약사에 비해 상대적으로 작은 규모와 제한적인 재정적 자원",
+      "특정 제품 (예: Nexplanon)에 대한 매출 의존도가 높을 수 있음",
+      "신규 바이오시밀러의 시장 침투 및 경쟁 심화에 대한 지속적인 대응 필요"
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 89,
-    "score": 60.8,
+    "rs_rating": 71,
+    "score": 58.9,
     "vcp_quality": 0.0,
     "stage": 0,
     "stage_name": "Unknown",
     "peg_ratio": null,
-    "trailing_pe": 17.602564,
-    "forward_pe": 3.7980213,
-    "ev_to_ebitda": 7.05,
-    "price_to_sales": 0.5884817,
+    "trailing_pe": 17.820513,
+    "forward_pe": 3.8107667,
+    "ev_to_ebitda": 6.94,
+    "price_to_sales": 0.5985309,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 10.92,
-    "outperform_6m_vs_nasdaq": 99.14,
-    "outperform_1m_vs_nasdaq": -3.81,
-    "lynch_category": "Cyclical / Turnaround?"
+    "outperform_1y_vs_nasdaq": 77.0,
+    "outperform_6m_vs_nasdaq": 9.94,
+    "outperform_1m_vs_nasdaq": 7.4,
+    "lynch_category": "Cyclical / Turnaround?",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "70개 이상의 제품 포트폴리오를 통해 여성 건강 및 일반 의약품 분야에서 광범위한 제품군을 보유하고 있으며, 이는 브랜드 인지도와 시장 침투력을 높이는 무형 자산으로 작용합니다.",
+      "넥스플라논(Nexplanon®)과 같은 장기 작용 피임제는 낮은 장기 평균 비용으로 가장 효과적인 호르몬 피임법 중 하나로 인정받으며, 이는 강력한 브랜드 자산과 특허 보호를 시사합니다.",
+      "바이오시밀러 포트폴리오(온트루잔트, 아빈티오, 빌디오스 등)는 면역학 및 종양학 분야에서 20개국 이상에 출시되어 있으며, 이는 기술력과 규제 승인 역량을 바탕으로 한 무형 자산입니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2025년 미국 FDA 승인된 퍼허디(Poherdy®) 출시 예정 및 신규 바이오시밀러 출시",
+    "bull_case": "여성 건강 포트폴리오 성장 및 바이오시밀러 시장 확대, 비용 효율성 개선으로 3년 내 수익성 대폭 개선",
+    "base_case": "여성 건강 제품의 꾸준한 수요와 바이오시밀러의 점진적인 시장 침투로 안정적인 매출 유지, 하지만 기존 브랜드의 제네릭 경쟁 심화로 수익성 개선은 제한적일 것으로 예상됩니다.",
+    "bear_case": "여성 건강 제품의 경쟁 심화 및 바이오시밀러 출시 지연, 기존 브랜드의 매출 감소 가속화로 수익성 악화 및 시장 점유율 하락",
+    "key_metrics_to_watch": [
+      "여성 건강 포트폴리오 매출 성장률",
+      "바이오시밀러 매출 기여도 및 신제품 출시 성과",
+      "영업이익률(OPM) 및 순이익률(NPM) 추이",
+      "연구개발(R&D) 투자 및 파이프라인 진행 상황"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "Any of the following risks could materially and adversely affect our results of operations, financial condition and the price of our Common Stock.",
+        "category": "재무",
+        "description": "상당한 부채 수준으로 인해 재무 상태 및 운영 결과에 부정적인 영향을 미칠 수 있으며, 이는 운영 유연성을 저해할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "글로벌 헬스케어 개혁 이니셔티브, 법률, 규제 및 정치적 조치는 미래 수익과 수익성에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "경쟁사 제품과의 치열한 경쟁에 직면해 있으며, 이는 시장 점유율과 수익성에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Summary of Risk Factors The following is a summary of the principal risks that could significantly and negatively affect our business, prospects, financial condition, or operating results.",
+        "category": "거버넌스",
+        "description": "내부 재무 보고 통제에 중대한 약점이 발견되어 재무 보고의 정확성과 적시성에 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "공급망",
+        "description": "충분한 부품이나 원자재를 적시에 또는 비용 효율적인 가격으로 확보하지 못하거나 기타 공급 문제가 발생할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Cyberattacks affecting our IT systems could result in exposure of confidential information, the modification of critical data or the disruption of our worldwide operations, including manufacturing and sales operations.",
+        "category": "고객집중도",
+        "description": "주요 제품이 수익과 현금 흐름의 상당 부분을 차지하며, 이들 제품 시장에 부정적인 영향을 미치는 사건은 회사에 악영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "글로벌 경제 또는 특정 지역 시장의 부정적인 발전은 사업 성장에 영향을 미칠 수 있으며, 환율 변동 및 금리 변동에 따른 시장 위험에 노출되어 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Even if completed, we may have difficulty integrating or otherwise realizing the benefits of such transactions.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Risks Related to Our Business We have significant global operations, which expose us to additional risks, and any adverse event could adversely affect our results of operations and financial condition.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "In addition, our operations and performance may be affected by political or civil unrest or military action.",
-        "severity": "medium"
+        "category": "규제",
+        "description": "특정 제품의 특허 보호 및 시장 독점 기간이 만료되면 해당 제품의 매출이 급격히 감소하여 사업에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
       }
     ],
+    "inversion_scenarios": [
+      "주요 제품의 특허 만료와 신제품 개발 실패가 겹쳐 매출이 급감하고 부채를 상환하지 못해 파산할 수 있습니다.",
+      "내부 통제 약점으로 인한 재무 보고 오류와 규제 위반으로 대규모 벌금 및 소송에 직면하여 사업 운영이 불가능해질 수 있습니다.",
+      "사이버 공격으로 핵심 IT 시스템이 마비되고 기밀 정보가 유출되어 고객 신뢰를 잃고 전 세계적인 운영 중단으로 회복 불가능한 손실을 입을 수 있습니다.",
+      "글로벌 경제 침체와 주요 시장에서의 경쟁 심화로 수익성이 지속적으로 악화되고, 부채 상환 능력 상실로 인해 파산에 이를 수 있습니다."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "주요 제품의 특허 만료 후 예상보다 훨씬 빠른 매출 감소가 확인될 경우.",
+      "내부 통제 약점 관련하여 중대한 재무 보고 오류가 발생하거나 대규모 규제 벌금이 부과될 경우.",
+      "신규 CEO 임명 실패 또는 핵심 경영진의 대규모 이탈이 발생하여 사업 운영에 심각한 차질이 생길 경우.",
+      "부채 상환 능력에 대한 시장의 우려가 커지거나 신용 등급이 추가적으로 하향 조정될 경우."
     ]
   },
   "wikipedia_summary": "Organon & Co. is an American pharmaceutical company originally founded in Oss, The Netherlands and now headquartered in Jersey City, New Jersey. Organon specializes in the following core therapeutic fields: reproductive medicine, contraception, psychiatry, hormone replacement therapy (HRT), and anesthesia. Organon produces all its products outside of the United States but receives a third of its revenue from the United States.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-14T02:58:14.002551+00:00"
+    "GoogleWebTranslator": "2026-11-17T05:03:06.954274+00:00"
   }
 }
