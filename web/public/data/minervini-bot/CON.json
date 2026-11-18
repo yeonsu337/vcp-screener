@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CON",
-  "generated_at": "2026-11-17T05:00:44.326769+00:00",
-  "source_results_date": "2026-11-17",
+  "generated_at": "2026-11-18T04:04:47.359589+00:00",
+  "source_results_date": "2026-11-18",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
   "confidence": 0.83,
   "lines": [
     "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 대기 — Stage 2 진입, pivot $44.22 근접(-1.76%).",
-    "13주 베이스 8.3% → 7.0% → 7.2% 수축, VDU 0.58× 진행.",
-    "Trend Template 8/8 통과, RS 89, RS 라인 신고가 +0.0%.",
+    "매수 대기 — Stage 2 진입, pivot $44.22 근접(-4.16%).",
+    "13주 베이스 8.3% → 7.0% → 7.2% 수축, VDU 0.57× 진행.",
+    "Trend Template 8/8 통과, RS 89, RS 라인 신고가 -1.4%.",
     "$44.22 돌파 시 매수·-7% 손절($41.12)·+20%($53.06) 절반 익절."
   ],
   "action": {
