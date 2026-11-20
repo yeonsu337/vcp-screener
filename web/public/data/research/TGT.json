@@ -4,42 +4,59 @@
   "market": "US",
   "sector": "Consumer Defensive",
   "industry": "Discount Stores",
-  "generated_at": "2026-11-19T04:09:40.772932+00:00",
+  "generated_at": "2026-11-20T03:56:26.718025+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 75380580352,
+    "market_cap": 76075646976,
     "shares_outstanding": 454291461,
-    "employees": 400000,
+    "employees": 415000,
     "country": "United States",
     "website": "https://corporate.target.com",
-    "beta": 0.932
+    "beta": null
   },
   "category_a_business": {
-    "overview": "Target Corporation operates as a general merchandise retailer in the United States. It offers apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes; and beauty products, such as skin and bath care, cosmetics, hair care, oral care, deodorant, and shaving products. The company also provides food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat, produce, and food service; electronics which includes video games and consoles, toys, sporting goods, entertainment, and luggage; bed",
-    "business_model": "Target Corporation operates as a general merchandise retailer in the United States.",
+    "overview": "타겟은 미국 전역에서 운영되는 종합 소매업체로, 패션, 생활용품, 식료품 등 다양한 상품을 제공합니다.",
+    "milestones": [
+      "1902: 미네소타에 법인 설립",
+      "1946: 이익의 5%를 지역사회에 환원하는 정책 시작",
+      "1962: 첫 번째 Target 매장 오픈",
+      "1990년대: 자체 브랜드 및 디자이너 협업 강화",
+      "2000년대: 디지털 채널 및 온라인 판매 확장",
+      "2010년대: 소형 매장 포맷 도입 및 유통망 현대화"
+    ],
+    "business_model": "매장 및 디지털 채널을 통해 다양한 상품을 판매하고 광고 및 신용카드 수익을 창출합니다.",
+    "revenue_streams": [
+      "상품 판매 (의류, 식료품, 전자제품 등)",
+      "광고 수익",
+      "신용카드 수익 공유"
+    ],
+    "value_chain_position": "Downstream + 자체 브랜드 개발 및 유통망을 통해 고객에게 직접 상품을 판매합니다.",
     "products": [
-      "as a general merchandise retailer in the United States",
-      "apparel for women, men, young adults, kids, toddlers, and babies, as well as jewelry, accessories, and shoes",
-      "food and beverage products comprising dry and perishable grocery, including snacks, candy, beverages, deli, bakery, meat",
-      "merchandise through periodic design and creative partnerships, and shop-in-shop experience",
-      "its products through its stores"
+      "의류 및 액세서리",
+      "식료품 및 음료",
+      "전자제품 및 완구",
+      "가정용품 및 가구",
+      "미용 및 건강용품",
+      "생활 필수품"
     ],
     "channels": [
-      "B2B / Enterprise"
+      "B2C (대형 및 소형 매장)",
+      "D2C (Target.com 및 디지털 채널)",
+      "Target Plus (디지털 마켓플레이스)"
     ],
-    "wikipedia_excerpt": "Target Corporation is an American retail corporation and discount department store chain headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index."
+    "key_customers": "고객 집중도는 낮음 (다수의 일반 소비자를 대상으로 함)"
   },
   "category_b_financials": {
-    "roe": 0.26,
-    "roa": 0.06,
+    "roe": 0.29,
+    "roa": 0.07,
     "profit_margin": 0.04,
-    "operating_margin": 0.05,
-    "gross_margin": 0.28,
-    "revenue_growth_ttm": 0.05,
-    "earnings_growth_ttm": 1.0,
-    "dividend_yield": 2.91,
+    "operating_margin": 0.06,
+    "gross_margin": 0.3,
+    "revenue_growth_ttm": 0.07,
+    "earnings_growth_ttm": 0.76,
+    "dividend_yield": 2.8,
     "payout_ratio": 0.47,
     "annual_revenue": [
       104780000000.0,
@@ -114,78 +131,147 @@
       "2025-10-31",
       "2025-07-31"
     ],
-    "eps_qoq_yoy_pct": 100.7,
-    "sales_yoy_pct": 5.3,
+    "eps_qoq_yoy_pct": 75.8,
+    "sales_yoy_pct": 7.1,
     "ni_cagr_3y_pct": 10.05,
-    "roe_pct": 26.41
+    "roe_pct": 29.02
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "약 $6,000 - $7,000 billion (글로벌 소매 시장, 2023년 기준, Statista 추정치 기반)",
+    "tam_cagr_pct": "3.5% - 4.5% (글로벌 소매 시장 성장률, 전자상거래 및 신흥 시장 성장에 힘입어)",
+    "growth_drivers": [
+      "옴니채널 전략 강화: 매장을 물류 허브로 활용하고 디지털 채널을 확장하여 고객 편의성 및 효율성 증대.",
+      "차별화된 상품 큐레이션: 디자인, 스타일, 가치를 강조한 독점 브랜드 및 협업을 통해 고객에게 독특한 경험 제공.",
+      "기술 및 데이터 활용: AI 기반의 개인화, 재고 관리, 광고 플랫폼 등을 통해 운영 효율성 및 고객 경험 개선.",
+      "가치 중심 소비 트렌드: 인플레이션 및 경제 불확실성 속에서 할인점으로서 가성비를 중시하는 소비자 수요 충족.",
+      "커뮤니티 참여 및 사회적 책임: 5% 이익 환원 등 지속적인 사회 공헌 활동을 통해 브랜드 이미지 및 고객 충성도 강화."
+    ],
+    "market_share_pct": "약 1.5% - 2.0% (미국 소매 시장 기준, Target의 매출액과 전체 시장 규모 대비 추정치)",
+    "competitors": [
+      {
+        "name": "Walmart",
+        "differentiation": "광범위한 매장 네트워크, 저가 전략, 강력한 공급망, 식료품 시장 지배력"
+      },
+      {
+        "name": "Amazon",
+        "differentiation": "압도적인 온라인 시장 점유율, 프라임 멤버십 기반의 고객 충성도, 빠른 배송, 다양한 상품 구색"
+      },
+      {
+        "name": "Costco",
+        "differentiation": "회원제 기반의 대량 구매 할인, 고품질 상품, 제한된 SKU를 통한 효율성"
+      },
+      {
+        "name": "Kohl's / Macy's (백화점)",
+        "differentiation": "패션 및 의류 중심의 상품 구색, 브랜드 인지도, 할인 및 프로모션 전략"
+      },
+      {
+        "name": "Dollar General / Dollar Tree (달러 스토어)",
+        "differentiation": "초저가 상품, 소규모 매장으로 접근성 용이, 필수품 중심의 구색"
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium (온라인 채널의 진입 장벽은 낮으나, 대규모 오프라인 유통망 구축 및 브랜드 인지도 확보는 어려움)",
+      "substitutes": "high (온라인 쇼핑몰, 전문점, 식료품점, 백화점 등 다양한 대체재 존재)",
+      "buyer_power": "high (소비자들은 다양한 선택지를 가지고 있으며, 가격 및 가치에 매우 민감함)",
+      "supplier_power": "low (Target은 대규모 구매력을 가지고 있어 공급업체에 대한 협상력이 높음)",
+      "rivalry": "high (Walmart, Amazon 등 강력한 경쟁자들이 존재하며, 가격, 프로모션, 서비스 경쟁이 치열함)"
+    },
     "competitive_advantages": [
-      "Consumer Defensive / Discount Stores 카테고리 — yfinance peer 비교 권장"
+      "차별화된 상품 큐레이션 및 디자인: 독점 브랜드, 디자이너 협업 등을 통해 '가치'와 '스타일'을 동시에 제공.",
+      "강력한 옴니채널 역량: 매장을 물류 허브로 활용하여 온라인 주문 처리 속도 및 비용 효율성 확보.",
+      "고객 중심의 쇼핑 경험: 매장 환경 개선, 디지털 채널의 편리성, 개인화된 서비스 제공.",
+      "브랜드 인지도 및 고객 충성도: 오랜 역사와 사회 공헌 활동을 통한 긍정적인 브랜드 이미지 구축.",
+      "데이터 및 기술 활용 능력: AI 기반의 재고 관리, 개인화, 광고 플랫폼 등을 통해 운영 효율성 및 고객 만족도 향상."
+    ],
+    "competitive_weaknesses": [
+      "매출의 계절성: 연말 휴일 시즌에 매출이 집중되어 비수기 실적 변동성이 존재.",
+      "관세 및 공급망 리스크: 해외 소싱 비중이 높아 관세 변동 및 글로벌 공급망 불안정성에 취약.",
+      "경기 침체 시 재량 지출 감소: 소비자들이 재량 지출을 줄일 경우 비필수품 판매에 부정적 영향.",
+      "온라인 경쟁 심화: Amazon 등 온라인 전문 유통업체와의 경쟁에서 가격 및 배송 속도 측면에서 도전 직면.",
+      "노동 비용 및 인력 관리: 대규모 인력 운영에 따른 인건비 상승 압박 및 인력 관리의 복잡성."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 77,
-    "score": 64.2,
-    "vcp_quality": 0.0,
-    "stage": 0,
-    "stage_name": "Unknown",
-    "peg_ratio": 2.1831,
-    "trailing_pe": 16.55988,
-    "forward_pe": 17.16323,
-    "ev_to_ebitda": 10.038,
-    "price_to_sales": 0.69988006,
+    "rs_rating": 75,
+    "score": 73.7,
+    "vcp_quality": 12.7,
+    "stage": 2,
+    "stage_name": "Advancing",
+    "peg_ratio": 2.2707,
+    "trailing_pe": 15.563197,
+    "forward_pe": 17.122244,
+    "ev_to_ebitda": 9.23,
+    "price_to_sales": 0.6947421,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 86.47,
-    "outperform_6m_vs_nasdaq": 44.65,
-    "outperform_1m_vs_nasdaq": 16.05,
-    "lynch_category": "Slow Grower"
+    "outperform_1y_vs_nasdaq": 89.29,
+    "outperform_6m_vs_nasdaq": 43.89,
+    "outperform_1m_vs_nasdaq": 21.24,
+    "lynch_category": "Slow Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "Target은 '모든 가족이 일상의 즐거움을 발견하도록 돕는다'는 기업 목적과 '소매업에서 가장 즐거운 경험'을 제공하려는 야망을 통해 강력한 브랜드 이미지를 구축하고 있습니다.",
+      "디자인, 스타일, 가치, 그리고 엄선된 다중 카테고리 구색을 통해 차별화된 상품을 제공하며, 이는 고객 충성도를 높이는 무형 자산으로 작용합니다.",
+      "1946년부터 수익의 5%를 지역사회에 환원하는 오랜 역사를 통해 긍정적인 기업 이미지를 유지하고 있으며, 이는 브랜드 가치를 높이는 데 기여합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "AI 기반 광고 플랫폼 'Precision Plus by Roundel™' 출시 및 타사 디지털 마켓플레이스 'Target Plus' 확장",
+    "bull_case": "AI 기반 효율성 증대와 옴니채널 전략 강화로 매출 성장 및 수익성 개선, 주가 긍정적 영향.",
+    "base_case": "소비자 신중한 소비와 관세 불확실성 속에서도 옴니채널 전략과 AI 기술 도입으로 안정적인 매출과 수익성을 유지할 것으로 예상됩니다. EPS는 전년 대비 높은 성장률을 보이지만, 매출 성장률은 둔화될 수 있습니다.",
+    "bear_case": "경기 침체 심화로 인한 소비 위축, 관세 정책의 불확실성 증대, 경쟁 심화로 매출 및 수익성이 악화될 수 있습니다. 특히 관세 환급 불확실성은 재무 상태에 부정적 영향을 미칠 수 있습니다.",
+    "key_metrics_to_watch": [
+      "매출 성장률 (TTM)",
+      "EPS QoQ YoY",
+      "OPM (영업이익률)",
+      "재고 회전율",
+      "디지털 채널 매출 비중"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "The following risks, some of which have occurred and any of which may occur in the future, could materially and adversely affect our business and financial performance.",
+        "category": "경쟁",
+        "description": "경쟁사 대비 차별화에 실패하거나 디지털 채널 및 AI 기술 발전에 적응하지 못하면 매출과 재무 상태에 부정적인 영향을 미칠 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "고객집중도",
+        "description": "소비자 수요를 정확하게 예측하고 변화하는 선호도에 신속하게 대응하지 못하면 재고 증가, 할인 판매 증가, 매출 감소로 이어질 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "These are not the only risks we face and there may be other risks that could materially and adversely affect our business and financial performance.",
+        "category": "거버넌스",
+        "description": "기업 평판이 훼손될 경우 고객, 직원, 공급업체 등과의 관계에 부정적인 영향을 미치고 매출 감소, 사업 관계 종료, 비용 증가 등으로 이어질 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "거시",
+        "description": "환경, 정치, 사회 및 거버넌스(ESG) 관련 목표 및 이니셔티브에 대한 대중의 인식이 부정적으로 변하면 기업 평판과 재무 성과에 악영향을 줄 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "Competitive and Reputational Risks If we are unable to positively differentiate ourselves from our competitors, our results of operations and financial condition could be adversely affected.",
+        "category": "경쟁",
+        "description": "소비자들이 가격이나 편의성만을 기준으로 구매 결정을 내리면서 디지털 채널을 통한 비교 쇼핑이 증가하여 차별화 노력이 제한될 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "If we fail to differentiate our guest experience from our competitors, our results of operations and financial condition could be adversely affected.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "Since consumers can quickly comparison shop using digital tools, they may make decisions based solely on price or convenience, which could limit our ability to differentiate from our competitors.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "If we are unable to offset our investments in these or other initiatives with improved performance or efficiencies, our results of operations could be adversely affected.",
+        "category": "기술",
+        "description": "생성형 AI의 윤리적 문제, 비효율성 또는 부정확한 결과물로 인해 기업 평판과 경쟁 우위가 손상될 수 있습니다.",
         "severity": "medium"
       }
     ],
+    "inversion_scenarios": [
+      "경쟁사 대비 차별화에 지속적으로 실패하고 소비자 선호도 변화에 적응하지 못하여 시장 점유율과 수익성이 급격히 하락하는 경우.",
+      "기업 평판이 심각하게 훼손되어 대규모 소비자 불매운동, 직원 이탈, 주요 공급업체와의 관계 단절이 발생하여 사업 운영이 불가능해지는 경우.",
+      "재고 관리 실패와 수요 예측 오류가 반복되어 막대한 재고 손실과 할인 판매로 인해 재무 건전성이 심각하게 악화되는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "분기별 매출 성장률이 지속적으로 경쟁사 평균을 하회하고, 시장 점유율이 2분기 연속 감소하는 경우.",
+      "주요 언론 및 소셜 미디어에서 기업 평판 관련 부정적인 이슈가 확산되어 소비자 신뢰도 지수가 급격히 하락하는 경우.",
+      "재고 회전율이 지속적으로 악화되고, 재고 자산 상각 비용이 전년 대비 20% 이상 증가하는 경우."
     ]
   },
   "wikipedia_summary": "Target Corporation is an American retail corporation and discount department store chain headquartered in Minneapolis, Minnesota, United States. Target operates small-format and large-format retail stores and hypermarkets. It is the eighth-largest retailer in the U.S. and a component of the S&P 500 Index.",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-19T04:11:11.466332+00:00"
+    "GoogleWebTranslator": "2026-11-20T03:58:54.663075+00:00"
   }
 }
