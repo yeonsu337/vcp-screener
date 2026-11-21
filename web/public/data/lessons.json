@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T03:57:38.260607+00:00",
+  "generated_at": "2026-11-21T03:46:33.521123+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -18,8 +18,8 @@
   "performance": {
     "win_rate_pct": 60.9,
     "profit_factor": 3.18,
-    "expectancy": 6.47,
-    "avg_winner_pct": 15.49,
+    "expectancy": 6.45,
+    "avg_winner_pct": 15.48,
     "avg_loser_pct": -7.58,
     "best": {
       "ticker": "VLO",
@@ -29,7 +29,7 @@
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 63.1,
+    "avg_holding_winner_days": 63.2,
     "avg_holding_loser_days": 31.6
   },
   "exit_breakdown": {
@@ -44,13 +44,13 @@
       {
         "primary_passed": 10,
         "trades": 1,
-        "avg_return_pct": 1.28,
+        "avg_return_pct": 1.23,
         "win_rate_pct": 100.0
       },
       {
         "primary_passed": 12,
         "trades": 1,
-        "avg_return_pct": 43.36,
+        "avg_return_pct": 42.9,
         "win_rate_pct": 100.0
       }
     ],
@@ -64,22 +64,22 @@
       "sector": "Unknown",
       "trades": 45,
       "win_rate_pct": 60.0,
-      "avg_return_pct": 5.65,
+      "avg_return_pct": 5.64,
       "best_return_pct": 91.6
     },
     {
       "sector": "Healthcare",
       "trades": 1,
       "win_rate_pct": 100.0,
-      "avg_return_pct": 43.36,
-      "best_return_pct": 43.4
+      "avg_return_pct": 42.9,
+      "best_return_pct": 42.9
     }
   ],
   "market_breakdown": {
     "US": {
       "trades": 37,
       "win_rate_pct": 54.1,
-      "avg_return_pct": 3.64
+      "avg_return_pct": 3.62
     },
     "KR": {
       "trades": 6,
@@ -89,11 +89,11 @@
     "HK": {
       "trades": 3,
       "win_rate_pct": 66.7,
-      "avg_return_pct": -0.96
+      "avg_return_pct": -0.98
     }
   },
   "rs_distribution": {
-    "winner_avg_rs": 83.9,
+    "winner_avg_rs": 83.8,
     "loser_avg_rs": 82.5,
     "winner_n": 28,
     "loser_n": 18
@@ -102,25 +102,25 @@
     {
       "day": 1,
       "trades": 46,
-      "avg_return_pct": 6.47,
+      "avg_return_pct": 6.45,
       "winners_pct": 60.9
     },
     {
       "day": 5,
       "trades": 46,
-      "avg_return_pct": 6.47,
+      "avg_return_pct": 6.45,
       "winners_pct": 60.9
     },
     {
       "day": 21,
       "trades": 35,
-      "avg_return_pct": 9.94,
+      "avg_return_pct": 9.92,
       "winners_pct": 74.3
     },
     {
       "day": 63,
       "trades": 9,
-      "avg_return_pct": 25.95,
+      "avg_return_pct": 25.89,
       "winners_pct": 77.8
     }
   ],
