@@ -4,34 +4,60 @@
   "market": "US",
   "sector": "Healthcare",
   "industry": "Drug Manufacturers - Specialty & Generic",
-  "generated_at": "2026-09-04T01:16:20.038527+00:00",
+  "generated_at": "2026-11-24T06:46:11.460882+00:00",
   "primary_passed": 12,
   "primary_total": 13,
-  "llm_status": "desk-research (no LLM): rate-limited (429)",
+  "llm_status": "ok",
   "yf_metadata": {
-    "market_cap": 1712129920,
-    "shares_outstanding": 28583135,
+    "market_cap": 1835807104,
+    "shares_outstanding": 28842215,
     "employees": 44,
     "country": "United States",
     "website": "https://www.etonpharma.com",
-    "beta": 0.869
+    "beta": 0.831
   },
   "category_a_business": {
-    "overview": "제약회사인 Eton Pharmaceuticals, Inc.는 희귀질환 치료제 개발 및 상업화에 중점을 두고 있습니다. 상업용 희귀질환 제품에는 심각한 원발성 IGF-1 결핍증 치료를 위한 Increlex; 부신 기능 부전을 위한 Alkindi Sprinkle; 부신피질 부전을 위한 Khindivi; 윌슨병에 대한 Galzin; 페닐케톤뇨증에 대한 PKU Golike; N-아세틸글루타메이트 합성효소 결핍증을 위한 카르글루민산; 호모시스틴뇨증을 위한 베타인 무수물; 티로신혈증 1형 치료제 니티시논(Nitisinone) 등도 개발 중이다.",
-    "business_model": "제약회사인 Eton Pharmaceuticals, Inc.는 희귀질환 치료제 개발 및 상업화에 중점을 두고 있습니다.",
+    "overview": "희귀 질환 치료제 개발 및 상업화에 주력하는 제약 회사로, 다양한 상업용 제품과 개발 파이프라인을 보유하고 있습니다.",
+    "milestones": [
+      "2017: Eton Pharmaceuticals, Inc. 설립",
+      "2020: ALKINDI SPRINKLE® 미국 마케팅 권리 인수 및 출시",
+      "2021: Carglumic Acid 마케팅 권리 인수 및 출시",
+      "2022: Betaine Anhydrous 인수 및 출시",
+      "2023: Nitisinone 인수 및 출시",
+      "2024: PKU GOLIKE® 미국 권리 인수, INCRELEX® 및 GALZIN® 인수 및 출시",
+      "2025: KHINDIVI TM FDA 승인 및 출시, ET-600 NDA FDA 승인 검토 시작"
+    ],
+    "business_model": "희귀 질환 치료제 개발, 인수 및 상업화를 통해 수익을 창출합니다.",
+    "revenue_streams": [
+      "희귀 질환 치료제 판매",
+      "제네릭 의약품 판매",
+      "라이선스 계약을 통한 수익"
+    ],
+    "value_chain_position": "Midstream / downstream + 희귀 질환 치료제 개발, 제조 파트너십, 마케팅 및 유통을 담당합니다.",
+    "products": [
+      "INCRELEX® (IGF-1 결핍)",
+      "ALKINDI SPRINKLE® (부신 기능 부전)",
+      "KHINDIVI TM (부신 피질 기능 부전)",
+      "GALZIN® (윌슨병)",
+      "PKU GOLIKE® (페닐케톤뇨증)",
+      "Carglumic Acid (NAGS 결핍으로 인한 고암모니아혈증)"
+    ],
     "channels": [
-      "B2B / 기업"
-    ]
+      "B2B (의료기관 및 약국)",
+      "D2C (Eton Cares 환자 지원 프로그램)",
+      "내부 영업팀"
+    ],
+    "key_customers": "주로 소아 내분비학 전문의 및 희귀 질환 환자이며, 고객 집중도에 대한 구체적인 정보는 제공되지 않습니다."
   },
   "category_b_financials": {
-    "roe": 0.36,
-    "roa": 0.12,
-    "profit_margin": 0.12,
-    "operating_margin": 0.36,
-    "gross_margin": 0.61,
-    "revenue_growth_ttm": 0.99,
+    "roe": 0.91,
+    "roa": 0.21,
+    "profit_margin": 0.35,
+    "operating_margin": 0.31,
+    "gross_margin": 0.71,
+    "revenue_growth_ttm": 1.58,
     "earnings_growth_ttm": null,
-    "dividend_yield": null,
+    "dividend_yield": 0.0,
     "payout_ratio": 0.0,
     "annual_revenue": [
       79950000.0,
@@ -83,96 +109,164 @@
       "2021-12-31"
     ],
     "quarterly_eps": [
+      1.06,
+      0.35,
       0.05,
       0.05,
       -0.07,
-      -0.1,
-      -0.06
+      null
     ],
     "quarterly_revenue": [
+      57925000.0,
+      37589000.0,
       24266000.0,
       21281000.0,
       22459000.0,
-      18928000.0,
-      17282000.0
+      null
     ],
     "quarterly_periods": [
+      "2026-09-30",
+      "2026-06-30",
       "2026-03-31",
       "2025-12-31",
       "2025-09-30",
-      "2025-06-30",
-      "2025-03-31"
+      "2025-06-30"
     ],
-    "sales_yoy_pct": 98.6,
-    "roe_pct": 35.97
+    "sales_yoy_pct": 157.9,
+    "roe_pct": 90.62
   },
   "category_c_market": {
-    "tam_estimate_usd_b": "추정 불가 (LLM 미가동)",
-    "tam_cagr_pct": "—",
-    "market_share_pct": "—",
+    "tam_estimate_usd_b": "0.5 - 1.5 billion USD (estimate) - 희귀질환 치료제 시장은 질환별 환자 수가 적지만, 높은 약가로 인해 시장 규모가 형성됨. ETON의 주요 제품인 AI, 윌슨병, PKU, NAGS 결핍증, 호모시스틴뇨증 등 각 질환별 미국 환자 수(수천 명 수준)와 연간 치료 비용을 종합적으로 추정하여 산출.",
+    "tam_cagr_pct": "8-12% (estimate) - 희귀질환 치료제 시장은 미충족 의료 수요가 높고, 신약 개발 및 승인이 지속적으로 이루어지며, 정부의 희귀의약품 개발 장려 정책 등으로 인해 꾸준히 성장할 것으로 예상됨. ETON의 파이프라인 확장 및 신제품 출시 계획도 성장에 기여할 것임.",
+    "growth_drivers": [
+      "희귀질환 치료제 포트폴리오 확장: INCRELEX®, GALZIN®, PKU GOLIKE® 등 신규 제품 인수를 통해 상업화된 제품군을 지속적으로 확대하고 있음.",
+      "차별화된 제형 및 투여 편의성: ALKINDI SPRINKLE® (과립형), KHINDIVI™ (경구용 액상), PKU GOLIKE® (맛 개선, 지연 방출) 등 환자 편의성을 높인 제형 개발 및 출시.",
+      "미충족 의료 수요 해결: 소아 AI, 윌슨병, PKU 등 특정 희귀질환 분야에서 최초 또는 유일한 FDA 승인 제품을 보유하여 미충족 수요를 공략.",
+      "강력한 특허 보호: ALKINDI SPRINKLE® 등 주요 제품의 특허가 2030년대 중반까지 보호되어 안정적인 수익 기반을 제공.",
+      "환자 지원 프로그램 운영: Eton Cares와 같은 고도화된 환자 지원 프로그램을 통해 희귀질환 환자 및 의료진에게 맞춤형 서비스를 제공하여 시장 침투력 강화."
+    ],
+    "market_share_pct": "1-3% (estimate) - 희귀질환 시장은 매우 세분화되어 있으며, ETON은 특정 희귀질환 분야에서 점유율을 확보하고 있으나 전체 희귀질환 시장 내에서는 아직 작은 비중을 차지함.",
+    "competitors": [
+      {
+        "name": "Amryt Pharma (Chiesi Group)",
+        "differentiation": "다양한 희귀질환 포트폴리오를 보유하고 있으며, 특히 피부과 및 내분비계 희귀질환 분야에 강점을 가짐. 글로벌 영업망을 통해 시장을 확대하고 있음."
+      },
+      {
+        "name": "Horizon Therapeutics (Amgen Group)",
+        "differentiation": "자가면역 및 희귀질환 분야에 특화된 바이오 제약사로, 혁신적인 신약 개발 및 공격적인 M&A를 통해 빠르게 성장. 강력한 R&D 역량과 상업화 경험을 보유."
+      },
+      {
+        "name": "Recordati Rare Diseases",
+        "differentiation": "유럽 기반의 희귀질환 전문 제약사로, 대사성 질환, 내분비 질환 등 다양한 희귀질환 치료제를 보유. 오랜 업력과 글로벌 네트워크를 통해 안정적인 시장 지위를 유지."
+      },
+      {
+        "name": "PTC Therapeutics",
+        "differentiation": "희귀 유전 질환 치료제 개발에 중점을 두며, 특히 신경근육 질환 및 대사성 질환 분야에서 혁신적인 치료제를 개발. 유전자 치료 및 RNA 기반 치료제 파이프라인을 보유."
+      },
+      {
+        "name": "Sarepta Therapeutics",
+        "differentiation": "주로 희귀 신경근육 질환, 특히 듀센 근이영양증(DMD) 치료제 개발에 특화되어 있으며, 유전자 치료 및 RNA 기반 치료제 분야에서 선도적인 위치를 차지."
+      }
+    ],
+    "porter_five_forces": {
+      "new_entrants": "medium - 희귀의약품 지정 및 개발 인센티브가 신규 진입을 유도할 수 있으나, FDA 승인 과정의 복잡성, 높은 R&D 비용, 전문적인 영업/마케팅 역량 요구 등으로 인해 진입 장벽이 존재함.",
+      "substitutes": "medium - 일부 희귀질환의 경우 기존 치료법(예: 식이요법, 비특이적 약물)이 존재할 수 있으나, ETON의 제품은 특정 환자군에 최적화된 제형 또는 유일한 승인 치료제로서 차별성을 가짐.",
+      "buyer_power": "medium - 희귀질환 치료제는 약가가 높고 환자 수가 적어 구매자의 교섭력이 제한적일 수 있으나, 보험사 및 정부 기관의 약가 통제 압력이 존재함.",
+      "supplier_power": "low - 원료의약품 공급처가 다변화되어 있거나, 자체 생산 역량을 통해 공급망 위험을 관리할 수 있어 공급자의 교섭력은 낮은 편임.",
+      "rivalry": "medium - 희귀질환 시장은 특정 질환별로 경쟁이 치열할 수 있으며, 대형 제약사들의 희귀질환 시장 진출 및 M&A를 통한 포트폴리오 강화로 경쟁 강도가 높아지고 있음."
+    },
     "competitive_advantages": [
-      "Healthcare / Drug Manufacturers - Specialty & Generic 카테고리 — yfinance peer 비교 권장"
+      "희귀질환에 특화된 제품 포트폴리오: 소아 AI, 윌슨병, PKU 등 미충족 의료 수요가 높은 희귀질환에 집중하여 전문성을 확보.",
+      "환자 중심의 차별화된 제형: 과립형, 액상형, 맛 개선 등 환자의 복용 편의성과 정확한 용량 조절을 가능하게 하는 혁신적인 제형 개발.",
+      "강력한 특허 보호: 주요 제품의 특허 만료일이 2030년대 중반까지로, 안정적인 시장 지위를 유지할 수 있는 기반 마련.",
+      "전문화된 영업 및 마케팅 조직: 소아 내분비 전문의 등 특정 의료진을 대상으로 하는 전문 영업 인력을 통해 시장 침투력 강화.",
+      "환자 지원 프로그램: Eton Cares와 같은 맞춤형 지원 프로그램을 통해 환자 및 의료진과의 관계를 강화하고 치료 순응도를 높임."
+    ],
+    "competitive_weaknesses": [
+      "제한적인 제품 파이프라인: 현재 상업화된 제품 수가 적고, 파이프라인에 있는 제품들도 아직 개발 단계에 있어 매출 다각화에 한계가 있음.",
+      "특정 질환에 대한 의존도: 주요 매출이 소수의 희귀질환 치료제에 집중되어 있어, 해당 시장의 변화나 경쟁 심화에 취약할 수 있음.",
+      "제네릭 경쟁 위험: 일부 제품은 제네릭 버전으로, 특허 만료 시 경쟁 심화 및 가격 하락 압력에 직면할 수 있음.",
+      "제한적인 글로벌 시장 진출: 현재 주로 미국 시장에 집중되어 있으며, 글로벌 시장 확장을 위한 추가적인 투자 및 전략이 필요함.",
+      "소규모 회사로서의 자원 한계: 대형 제약사에 비해 R&D, 마케팅, 생산 등 전반적인 자원 및 규모의 경제 측면에서 열위에 있을 수 있음."
     ]
   },
   "category_d_thesis": {
-    "rs_rating": 98,
-    "score": 66.0,
+    "rs_rating": 99,
+    "score": 63.2,
     "vcp_quality": 0.0,
     "stage": 2,
     "stage_name": "Advancing",
     "peg_ratio": null,
-    "trailing_pe": 157.63159,
-    "forward_pe": 23.217056,
-    "ev_to_ebitda": 68.096,
-    "price_to_sales": 16.214119,
+    "trailing_pe": 39.53416,
+    "forward_pe": 19.2587,
+    "ev_to_ebitda": 36.726,
+    "price_to_sales": 13.014279,
     "stop_loss_pct": -7.0,
-    "outperform_1y_vs_nasdaq": 236.78,
-    "outperform_6m_vs_nasdaq": 236.59,
-    "outperform_1m_vs_nasdaq": 34.36,
-    "lynch_category": "Fast Grower"
+    "outperform_1y_vs_nasdaq": 281.38,
+    "outperform_6m_vs_nasdaq": 113.05,
+    "outperform_1m_vs_nasdaq": 34.49,
+    "lynch_category": "Fast Grower",
+    "moat_type": "Intangible Assets",
+    "moat_evidence": [
+      "ALKINDI SPRINKLE®은 2032년, 2033년, 2034년까지 보호되는 3개의 특허를 보유하고 있으며, 신생아 및 어린이의 부신피질 기능 부전(AI)에 정확한 용량 투여를 돕기 위해 고안된 유일한 FDA 승인 과립형 하이드로코르티손 제제입니다.",
+      "KHINDIVI™는 1mg/ml 강도의 유일한 FDA 승인 경구용 하이드로코르티손 용액 제형으로, 정제 분할 또는 분쇄의 필요성을 없애고 환자 맞춤형 정확한 용량 투여를 제공합니다.",
+      "PKU GOLIKE®는 특허 보호를 받는 제약 등급 Physiomimic™ 기술로 설계된 차세대 의료용 조제유 제품으로, 맛을 가리고 냄새가 없는 코팅 기술과 지연 방출 아미노산 제형을 통해 기존 제품 대비 우수한 경험을 제공합니다."
+    ],
+    "moat_durability_years": "5~10년",
+    "new_trigger": "2024년 12월 INCRELEX® 및 GALZIN® 인수, 2025년 5월 KHINDIVI™ FDA 승인",
+    "bull_case": "희귀 질환 포트폴리오 확장 및 신제품 출시로 매출 급증, 높은 수익성 유지",
+    "base_case": "기존 희귀 질환 제품의 안정적인 매출 성장과 신제품(KHINDIVI™, GALZIN® 등)의 시장 침투를 통해 견조한 실적을 달성할 것으로 예상됩니다. 특허 보호를 받는 제품들이 매출 성장을 견인하며, 희귀 질환 시장에서의 입지를 강화할 것입니다.",
+    "bear_case": "신제품 출시 지연 또는 시장 침투 실패, 경쟁 심화로 인한 매출 감소 및 수익성 악화",
+    "key_metrics_to_watch": [
+      "희귀 질환 제품별 매출 성장률",
+      "신제품(KHINDIVI™, GALZIN® 등) 시장 점유율",
+      "연구 개발 파이프라인 진행 상황",
+      "영업 이익률 및 순이익률"
+    ]
   },
   "category_e_risks": {
     "top_risks": [
       {
-        "category": "10-K Item 1A",
-        "description": "특정 요인은 당사의 사업, 재무 상태 및 운영 결과에 중대한 부정적인 영향을 미칠 수 있으므로 이를 신중하게 고려해야 합니다.",
+        "category": "규제",
+        "description": "인플레이션 감축법(IRA) 및 관련 메디케어 개혁으로 인해 제품 가격과 수요가 부정적인 영향을 받을 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "규제",
+        "description": "미국 정부 가격 보고 및 할인 프로그램 참여는 복잡하고 변화하는 의무를 부과하며, 이는 순 가격에 부정적인 영향을 미치고 상당한 법적 책임을 초래할 수 있습니다.",
+        "severity": "high"
+      },
+      {
+        "category": "경쟁",
+        "description": "제3자 보험 적용 및 상환, 그리고 처방집 통제 및 활용 관리와 같은 의료 비용 억제 이니셔티브는 미래 수익을 제한할 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "현재 예상하지 않거나 현재 중요하지 않다고 판단되는 기타 사건도 당사의 운영 결과 및 재무 상태에 영향을 미칠 수 있습니다.",
+        "category": "규제",
+        "description": "환자 서비스 및 지원 프로그램에 대한 정부의 감시 강화는 이러한 프로그램의 축소를 요구할 수 있으며, 이는 환자 접근성을 감소시키고 제품 수요에 부정적인 영향을 미칠 수 있습니다.",
         "severity": "medium"
       },
       {
-        "category": "10-K Item 1A",
-        "description": "가격 책정, 상환 및 시장 접근과 관련된 위험 인플레이션 감소법 및 관련 메디케어 개혁은 우리가 실현하는 가격과 우리 제품에 대한 수요에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "또한 당사 제품에는 미국의 가격 책정 및 할인 요구 사항이 적용될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "처방집 통제 및 활용 관리를 포함한 제3자 보장, 상환 및 의료 비용 억제 계획으로 인해 당사의 향후 수익이 제한될 수 있습니다.",
-        "severity": "medium"
-      },
-      {
-        "category": "10-K Item 1A",
-        "description": "보장 및 환급이 예상보다 부적절하거나, 지연되거나, 더 제한적인 경우 또는 총 순이익 감소가 증가하는 경우 당사의 매출, 수익성 및 운영 결과에 부정적인 영향을 미칠 수 있습니다.",
-        "severity": "medium"
+        "category": "규제",
+        "description": "미국 외 지역에서 마케팅 승인 및 상업화를 추진할 경우, 가격 통제 및 건강 기술 평가 프로세스로 인해 상업화가 지연되고 순 가격이 감소할 수 있습니다.",
+        "severity": "low"
       }
     ],
+    "inversion_scenarios": [
+      "정부 규제 및 상환 정책의 급격한 변화로 인해 주요 제품의 수익성이 심각하게 저하되어 회사의 재정적 생존 가능성이 위협받는 경우.",
+      "주요 제품이 보험 적용 범위에서 제외되거나 불리한 상환 조건에 놓여 매출이 급감하고 회사가 운영 비용을 감당할 수 없게 되는 경우.",
+      "환자 지원 프로그램에 대한 정부의 대규모 조사 및 벌금 부과로 인해 회사의 재정적 부담이 커지고 평판이 심각하게 손상되는 경우.",
+      "예상치 못한 규제 변경으로 인해 기존 제품의 시장 접근성이 크게 제한되거나, 새로운 제품 출시가 장기간 지연되어 시장 기회를 상실하는 경우."
+    ],
     "exit_signals": [
-      "데일리 스캔에서 detected=False 로 전환 (룰 깨짐)",
-      "EX1: -8% 초기 손절 라인 도달",
-      "EX5: 피크에서 -15% 트레일링",
-      "EX7: 단일세션 -10%↓ 급락"
+      "인플레이션 감축법(IRA) 또는 유사한 법안의 시행으로 인해 주요 제품의 순 가격이 20% 이상 하락하는 것이 확인되는 경우.",
+      "주요 제품이 상위 3개 PBM(Pharmacy Benefit Manager) 중 2개 이상에서 처방집(formulary)에서 제외되거나 가장 불리한 계층으로 분류되는 경우.",
+      "환자 지원 프로그램과 관련하여 회사가 5천만 달러 이상의 벌금 또는 합의금을 지불해야 하는 정부 조사 결과가 발표되는 경우.",
+      "미국 외 주요 시장에서 가격 통제 또는 HTA(Health Technology Assessment)로 인해 신제품 출시가 1년 이상 지연되거나 예상 순 가격이 30% 이상 감소하는 것이 확인되는 경우."
     ]
   },
   "wikipedia_summary": "",
   "translated_at": {
-    "GoogleWebTranslator": "2026-11-21T03:46:59.396522+00:00"
+    "GoogleWebTranslator": "2026-11-24T06:46:39.794963+00:00"
   }
 }
