@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T04:47:56.113110+00:00",
+  "generated_at": "2026-11-27T04:49:23.498954+00:00",
   "schema_version": 1,
   "thresholds": {
     "winner_big_pct": 50.0,
@@ -16,11 +16,11 @@
     "losers": 3
   },
   "performance": {
-    "win_rate_pct": 60.9,
-    "profit_factor": 3.21,
-    "expectancy": 6.54,
-    "avg_winner_pct": 15.62,
-    "avg_loser_pct": -7.58,
+    "win_rate_pct": 58.7,
+    "profit_factor": 3.18,
+    "expectancy": 6.51,
+    "avg_winner_pct": 16.17,
+    "avg_loser_pct": -7.22,
     "best": {
       "ticker": "VLO",
       "return_pct": 91.6
@@ -29,8 +29,8 @@
       "ticker": "ERAS",
       "return_pct": -40.4
     },
-    "avg_holding_winner_days": 63.5,
-    "avg_holding_loser_days": 31.6
+    "avg_holding_winner_days": 58.0,
+    "avg_holding_loser_days": 41.2
   },
   "exit_breakdown": {
     "EX0_unknown": 8,
@@ -42,10 +42,10 @@
   "rule_analysis": {
     "primary_pass_buckets": [
       {
-        "primary_passed": 10,
+        "primary_passed": 9,
         "trades": 1,
-        "avg_return_pct": 0.95,
-        "win_rate_pct": 100.0
+        "avg_return_pct": -0.74,
+        "win_rate_pct": 0.0
       },
       {
         "primary_passed": 12,
@@ -63,8 +63,8 @@
     {
       "sector": "Unknown",
       "trades": 45,
-      "win_rate_pct": 60.0,
-      "avg_return_pct": 5.64,
+      "win_rate_pct": 57.8,
+      "avg_return_pct": 5.6,
       "best_return_pct": 91.6
     },
     {
@@ -88,64 +88,64 @@
     },
     "HK": {
       "trades": 3,
-      "win_rate_pct": 66.7,
-      "avg_return_pct": -1.07
+      "win_rate_pct": 33.3,
+      "avg_return_pct": -1.64
     }
   },
   "rs_distribution": {
     "winner_avg_rs": 83.9,
-    "loser_avg_rs": 82.5,
-    "winner_n": 28,
-    "loser_n": 18
+    "loser_avg_rs": 82.7,
+    "winner_n": 27,
+    "loser_n": 19
   },
   "time_curve": [
     {
       "day": 1,
       "trades": 46,
-      "avg_return_pct": 6.54,
-      "winners_pct": 60.9
+      "avg_return_pct": 6.51,
+      "winners_pct": 58.7
     },
     {
       "day": 5,
       "trades": 46,
-      "avg_return_pct": 6.54,
-      "winners_pct": 60.9
+      "avg_return_pct": 6.51,
+      "winners_pct": 58.7
     },
     {
       "day": 21,
       "trades": 35,
-      "avg_return_pct": 10.04,
-      "winners_pct": 74.3
+      "avg_return_pct": 9.99,
+      "winners_pct": 71.4
     },
     {
       "day": 63,
       "trades": 9,
-      "avg_return_pct": 26.35,
-      "winners_pct": 77.8
+      "avg_return_pct": 26.16,
+      "winners_pct": 66.7
     }
   ],
   "llm_insights": {
-    "generated_at": "2026-11-20T03:57:38.260577+00:00",
+    "generated_at": "2026-11-27T04:49:23.498926+00:00",
     "winner_patterns": [
-      "RS 등급 80점 이상으로 높은 상대 강도 유지",
-      "미국 시장 종목의 경우 장기 보유 시 높은 수익률 기록",
-      "한국 시장 종목은 단기 보유로도 높은 수익률 달성",
-      "대부분의 승자는 명확한 청산 사유 없이 보유 지속",
-      "[가설] VCP 패턴 형성 후 강한 추세 유지"
+      "RS 90 이상 고평가 종목 다수",
+      "미국 시장 종목이 수익률 상위권에 다수 포진",
+      "홀딩 기간 200일 내외 장기 보유 시 고수익 가능성",
+      "한국 시장 종목은 단기 고수익 후 청산 경향",
+      "EX6_absent가 다수, 시스템 외 청산 또는 미청산"
     ],
     "loser_traps": [
-      "RS 등급이 높아도 손실 발생 가능성 존재",
-      "8% 손절매 규칙에 의해 청산된 종목 다수",
-      "50일 이동평균선 이탈 시 손실로 청산",
-      "단기 보유 종목에서 큰 폭의 손실 발생",
-      "[가설] VCP 패턴 실패 또는 시장 변동성 증가"
+      "RS 99 종목도 큰 손실 가능성 (ERAS)",
+      "8% 손절매 규칙(EX1)이 자주 발동",
+      "50일 이동평균선 이탈(EX4)이 손실 청산의 주요 원인",
+      "홀딩 기간 10~20일 내 단기 손실 발생 빈번",
+      "RS 70대 종목에서 손실 발생 다수"
     ],
     "rule_suggestions": [
-      "RS 등급 80점 이상 종목에 집중",
-      "미국 시장 종목은 장기 보유 전략 고려",
-      "한국 시장 종목은 단기 수익 실현 고려",
-      "8% 손절매 규칙은 엄격히 준수",
-      "50일 이동평균선 이탈 시 청산 규칙 강화"
+      "RS 90 이상 종목에 대한 추가 분석 필요",
+      "8% 손절매 규칙의 유효성 재검토 또는 조정",
+      "50일 이평선 이탈 시 매도 규칙 강화",
+      "홀딩 기간 20일 미만 손실 종목 패턴 분석",
+      "EX6_absent 청산 사유에 대한 추적 시스템 도입"
     ],
     "model": "gemini-2.5-flash",
     "trades_analyzed": 46

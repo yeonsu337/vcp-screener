@@ -1,24 +1,24 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "0300.HK",
-  "generated_at": "2026-11-26T04:45:22.082305+00:00",
-  "source_results_date": "2026-11-26",
-  "verdict": "BUY_NOW",
-  "verdict_kr": "매수 (Pivot 돌파 직후)",
-  "confidence": 0.83,
+  "generated_at": "2026-11-27T04:47:20.410736+00:00",
+  "source_results_date": "2026-11-27",
+  "verdict": "BUY_AT_PIVOT",
+  "verdict_kr": "매수 대기 (Pivot 돌파 시)",
+  "confidence": 0.82,
   "lines": [
     "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 — Stage 2 진입 확정, pivot HK$101.11 돌파(+1.28%, buy zone).",
-    "13주 베이스 5.1% → 11.5% 수축, VDU 0.71× 진행.",
-    "Trend Template 8/8 통과, RS 89, RS 라인 신고가 -1.1%.",
-    "HK$102.40 매수·-7% 손절(HK$95.23)·+20%(HK$122.88) 절반 익절, 이후 50일선 trailing."
+    "매수 대기 — Stage 2 진입, pivot HK$101.11 근접(-0.90%).",
+    "13주 베이스 5.1% → 11.5% 수축, VDU 0.66× 진행.",
+    "Trend Template 8/8 통과, RS 87, RS 라인 신고가 -3.5%.",
+    "HK$101.11 돌파 시 매수·-7% 손절(HK$94.03)·+20%(HK$121.33) 절반 익절."
   ],
   "action": {
-    "entry_type": "immediate",
-    "entry_price": 102.4,
-    "stop_price": 95.23,
+    "entry_type": "pivot_breakout",
+    "entry_price": 101.11,
+    "stop_price": 94.03,
     "stop_pct": -7.0,
-    "target1_price": 122.88,
+    "target1_price": 121.33,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
@@ -26,7 +26,7 @@
   "framework": {
     "trend_template_score": "8/8",
     "vcp_quality_score": "4/8",
-    "rs_rating": 89,
+    "rs_rating": 87,
     "stage": 2,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,7 +47,7 @@
   ],
   "key_failures": [
     "P2_last_contraction (11.50% vs 6.5%)",
-    "P3_vol_dryup (0.71× vs 0.6×)",
+    "P3_vol_dryup (0.66× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
