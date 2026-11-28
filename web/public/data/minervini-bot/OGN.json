@@ -1,8 +1,8 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "OGN",
-  "generated_at": "2026-11-27T04:47:20.408320+00:00",
-  "source_results_date": "2026-11-27",
+  "generated_at": "2026-11-28T04:34:43.624854+00:00",
+  "source_results_date": "2026-11-28",
   "verdict": "AVOID",
   "verdict_kr": "회피",
   "confidence": 0.2,
@@ -24,8 +24,8 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "2/8",
-    "rs_rating": 77,
+    "vcp_quality_score": "1/8",
+    "rs_rating": 75,
     "stage": 0,
     "base_count": 1,
     "late_base_warning": false,
@@ -47,7 +47,8 @@
   ],
   "key_failures": [
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
-    "H4_ni_cagr_3y (NI CAGR 미달)"
+    "H4_ni_cagr_3y (NI CAGR 미달)",
+    "rs_line (-5.6% vs ≥-5.0%)"
   ],
   "warnings": []
 }

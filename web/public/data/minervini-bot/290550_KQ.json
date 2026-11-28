@@ -1,35 +1,35 @@
 {
   "$schema": "minervini-bot.v1",
-  "ticker": "AMRX",
-  "generated_at": "2026-11-27T04:47:20.406688+00:00",
-  "source_results_date": "2026-11-27",
+  "ticker": "290550.KQ",
+  "generated_at": "2026-11-28T04:34:43.628152+00:00",
+  "source_results_date": "2026-11-28",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.86,
+  "confidence": 0.85,
   "lines": [
     "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 대기 — Stage 2 진입, pivot $22.56 근접(-4.79%).",
-    "13주 베이스 8.4% → 9.6% → 8.7% → 12.3% → 6.0% 수축, VDU 0.53× 진행.",
-    "Trend Template 8/8 통과, RS 85, RS 라인 신고가 -2.1%.",
-    "$22.56 돌파 시 매수·-7% 손절($20.98)·+20%($27.07) 절반 익절."
+    "매수 대기 — Stage 2 진입, pivot ₩35750.00 근접(-0.28%).",
+    "13주 베이스 23.3% → 23.3% → 18.1% → 30.0% → 13.8% 수축, VDU 2.05× 진행.",
+    "Trend Template 8/8 통과, RS 98, RS 라인 신고가 +0.0%.",
+    "₩35750.00 돌파 시 매수·-7% 손절(₩33247.50)·+20%(₩42900.00) 절반 익절."
   ],
   "action": {
     "entry_type": "pivot_breakout",
-    "entry_price": 22.56,
-    "stop_price": 20.98,
+    "entry_price": 35750.0,
+    "stop_price": 33247.5,
     "stop_pct": -7.0,
-    "target1_price": 27.07,
+    "target1_price": 42900.0,
     "target1_pct": 20.0,
     "trailing_rule": "close_below_sma50_on_volume",
     "position_risk_pct": 1.5
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "5/8",
-    "rs_rating": 85,
+    "vcp_quality_score": "4/8",
+    "rs_rating": 98,
     "stage": 2,
-    "base_count": 3,
-    "late_base_warning": true,
+    "base_count": 2,
+    "late_base_warning": false,
     "market_regime": "bear"
   },
   "rule_references": [
@@ -42,19 +42,16 @@
     "B6_30pct_above_52w_low",
     "B7_within_25pct_high",
     "R1_rs_70",
-    "L1_liquidity_gate",
-    "E7_roe",
-    "F1_outperform_1y",
-    "P2_last_contraction",
-    "P3_vol_dryup",
-    "R2_rs_80"
+    "R2_rs_80",
+    "R3_rs_90"
   ],
   "key_failures": [
-    "P4_base_count (3 — 후기 베이스)",
+    "P2_last_contraction (13.85% vs 6.5%)",
+    "P3_vol_dryup (2.05× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
   "warnings": [
-    "베이스 카운트 3 — 후기 베이스, 실패율 상승"
+    "베이스 깊이 30.0% — 25% 초과로 변동성 큼"
   ]
 }

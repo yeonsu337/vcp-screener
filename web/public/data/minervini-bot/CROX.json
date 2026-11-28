@@ -1,16 +1,16 @@
 {
   "$schema": "minervini-bot.v1",
   "ticker": "CROX",
-  "generated_at": "2026-11-27T04:47:20.405602+00:00",
-  "source_results_date": "2026-11-27",
+  "generated_at": "2026-11-28T04:34:43.623148+00:00",
+  "source_results_date": "2026-11-28",
   "verdict": "BUY_AT_PIVOT",
   "verdict_kr": "매수 대기 (Pivot 돌파 시)",
-  "confidence": 0.83,
+  "confidence": 0.86,
   "lines": [
     "시장 약세 — 신규 진입 보류 권고, 신호 참고만.",
-    "매수 대기 — Stage 2 진입, pivot $164.24 근접(-2.62%).",
-    "13주 베이스 23.2% → 10.7% → 8.1% → 7.7% 수축, VDU 0.77× 진행.",
-    "Trend Template 8/8 통과, RS 88, RS 라인 신고가 -0.5%.",
+    "매수 대기 — Stage 2 진입, pivot $164.24 근접(-1.35%).",
+    "13주 베이스 23.2% → 10.7% → 8.1% → 7.7% → 6.3% 수축, VDU 0.68× 진행.",
+    "Trend Template 8/8 통과, RS 88, RS 라인 신고가 -0.8%.",
     "$164.24 돌파 시 매수·-7% 손절($152.74)·+20%($197.09) 절반 익절."
   ],
   "action": {
@@ -25,7 +25,7 @@
   },
   "framework": {
     "trend_template_score": "8/8",
-    "vcp_quality_score": "4/8",
+    "vcp_quality_score": "5/8",
     "rs_rating": 88,
     "stage": 2,
     "base_count": 2,
@@ -45,11 +45,11 @@
     "L1_liquidity_gate",
     "E7_roe",
     "F1_outperform_1y",
+    "P2_last_contraction",
     "R2_rs_80"
   ],
   "key_failures": [
-    "P2_last_contraction (7.65% vs 6.5%)",
-    "P3_vol_dryup (0.77× vs 0.6×)",
+    "P3_vol_dryup (0.68× vs 0.6×)",
     "P6_monotonic_decreasing (수축 단조 감소 위반)",
     "H4_ni_cagr_3y (NI CAGR 미달)"
   ],
